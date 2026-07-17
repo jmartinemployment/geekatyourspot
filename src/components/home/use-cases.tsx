@@ -85,9 +85,15 @@ export function UseCasesSection({ items }: UseCasesSectionProps) {
                                 Direct integrations with platforms like NetSuite or Intuit Enterprise Suite feed live payables, receivables, and scheduled transactions into dynamic forecasting tables. Platforms such as Transformance AI pull live AR and AP signals to predict invoice-level cash timing and highlight forecast-to-actual variances.
                         </li>
                     </ul>
-                    <h4 className="font-bold lg:text-lg shadow-text">Tax Compliance & Regulations</h4>
+                    <Link
+                    id={gtmLinkIdFromHref("/use-cases/accounting/streamlining-tax-compliance-regulations-through-ai-implementation", "tax-compliance")}
+                    href="/use-cases/accounting/streamlining-tax-compliance-regulations-through-ai-implementation"
+                    className="hover:opacity-90 transition-opacity">
+                        <h4 className="font-bold lg:text-lg shadow-text">Tax Compliance & Regulations</h4>
+                    </Link>
                     <ul className="list-disc text-xs list- pl-3 ">
                         <li className="pl-.5">
+                            
                             <strong className="text-sm">Payroll Tax & Worker Misclassification: </strong>
                                  Use verified payroll platforms like Paychex or automated systems that handle filings and withholding in real time to ensure IRS compliance.
                         </li>

@@ -4,7 +4,7 @@ import { Suspense } from "react";
 
 import { GtmClickTracker } from "@/components/analytics/gtm-click-tracker";
 import Footer from "@/components/layout/footer";
-// import Navbar from "@/components/layout/navbar";
+import Navbar from "@/components/layout/navbar";
 // import { siteSchemaGraph } from "@/components/layout/site-schema";
 // import { JsonLd } from "@/components/seo/json-ld";
 import { SchedulerShell } from "@/components/scheduler/scheduler-shell";
@@ -16,5 +16,11 @@ type SiteLayoutProps = Readonly<{
 }>;
 
 export default function SiteLayout({ children }: SiteLayoutProps): React.JSX.Element {
-  return <>{children}</>;
+  return (
+    <>
+      <Navbar />
+      {children}
+      <Footer />
+    </>
+  );
 }

@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { geekApiService } from "@/services/geekApiService";
 import { formatDepartmentLabel } from "@/lib/departments";
 import { PlaceholderImage } from "@/components/ui/placeholder-image";
+import { PostSection } from "@/components/blog/post-section";
 
 interface PageProps {
   params: Promise<{ department: string; slug: string }>;
@@ -44,7 +45,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <PlaceholderImage label={post.title} className="w-full aspect-video mb-10" />
       <div className="use-case-html max-w-none">
         {sortedSections.map((section) => (
-          <div key={section.sortOrder} dangerouslySetInnerHTML={{ __html: section.bodyContent }} />
+          <PostSection key={section.sortOrder} section={section} />
         ))}
       </div>
     </article>
