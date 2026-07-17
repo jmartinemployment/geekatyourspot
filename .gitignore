@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local secrets / mcp config
+mcp.json
+
+# content pipeline scratch output (not app source)
+content-writer-output/
+content-writer-research/
