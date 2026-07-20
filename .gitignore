@@ -44,5 +44,4 @@ next-env.d.ts
 mcp.json
 
 # content pipeline scratch output (not app source)
-content-writer-output/
 content-writer-research/
