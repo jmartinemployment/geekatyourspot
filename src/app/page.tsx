@@ -1,4 +1,4 @@
-// import HeroSection from "@/components/home/hero-section";
+import HeroSection from "@/components/home/hero-section";
 import CloneYourselfSection from "@/components/home/clone-yourself";
 import  TheMethodologySection  from "@/components/home/the-methodology";
 import SeamlessIntegrationsSection from "@/components/home/seamless-integrations";
@@ -21,7 +21,7 @@ export default async function Home() {
   return (
     <>
       <Navbar />
-      {/* <HeroSection />  */}
+      <HeroSection />
       <CloneYourselfSection />
       <UseCasesSection />
       <TheMethodologySection />
