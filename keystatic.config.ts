@@ -23,10 +23,21 @@ const contentSchema = {
   homeSummary: fields.text({ label: "Home summary", multiline: true, description: "Home-page feature card copy." }),
   blogSummary: fields.text({ label: "Blog summary", multiline: true, description: "Blog-listing teaser copy." }),
   advertisingSummary: fields.text({ label: "Advertising summary", multiline: true, description: "Sponsored ad copy." }),
+  heroImage: fields.image({
+    label: "Hero Image",
+    directory: "public/images/content-writer",
+    publicPath: "/images/content-writer/",
+    description: "Top-of-page hero image, distinct from any per-section image below.",
+  }),
   sections: fields.array(
     fields.object({
       heading: fields.text({ label: "Heading" }),
       body: fields.text({ label: "Body", multiline: true }),
+      image: fields.image({
+        label: "Image",
+        directory: "public/images/content-writer",
+        publicPath: "/images/content-writer/",
+      }),
     }),
     {
       label: "Sections",
