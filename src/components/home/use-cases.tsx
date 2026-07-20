@@ -8,13 +8,12 @@ import {
   faCalculator,
 } from "@fortawesome/free-solid-svg-icons";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
-import { BlogPost } from "@/services/geekApiService";
-
-  interface UseCasesSectionProps {
-    items: BlogPost[];
-  }
-
-export function UseCasesSection({ items }: UseCasesSectionProps) {
+//
+//   interface UseCasesSectionProps {
+//     items: BlogPost[];
+//   }
+//{ items }: UseCasesSectionProps
+export function UseCasesSection() {
     
   return (
     <>
