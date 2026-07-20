@@ -5,10 +5,16 @@ import matter from "gray-matter";
 export const COLLECTIONS = ["use-cases", "blog", "tools"] as const;
 export type Collection = (typeof COLLECTIONS)[number];
 
+/**
+ * One node in the nested H2-H6 heading tree — each heading individually addressable
+ * (e.g. entry.sections[1].children[0].heading) instead of one blob per H2. Level 0
+ * with a null heading is any content before the first H2.
+ */
 export interface ContentSection {
-  heading: string;
+  level: number;
+  heading: string | null;
   body: string;
-  image?: string;
+  children: ContentSection[];
 }
 
 export interface ContentEntry {
@@ -71,13 +77,16 @@ export function readEntry(collection: Collection, slug: string): ContentEntry | 
     advertisingSummary: data.advertisingSummary ?? "",
     tags: Array.isArray(data.tags) ? data.tags : [],
     heroImage: data.heroImage ?? "",
-    sections: Array.isArray(data.sections)
-      ? data.sections.map((s: Partial<ContentSection>) => ({
-          heading: s.heading ?? "",
-          body: s.body ?? "",
-          image: s.image ?? "",
-        }))
-      : [],
+    sections: Array.isArray(data.sections) ? data.sections.map(toContentSection) : [],
     body: content.trim(),
+  };
+}
+
+function toContentSection(raw: Partial<ContentSection> & { children?: unknown[] }): ContentSection {
+  return {
+    level: raw.level ?? 0,
+    heading: raw.heading ?? null,
+    body: raw.body ?? "",
+    children: Array.isArray(raw.children) ? raw.children.map(toContentSection) : [],
   };
 }
