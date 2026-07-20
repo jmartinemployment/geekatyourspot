@@ -39,7 +39,11 @@ export interface BlogPost {
   presentation: Record<string, string>;
   jsonLdOverride: string | null;
 }
-
+export type HeroProperties = {
+  post2: BlogPost;
+  department2: string;
+  slug2: string
+};
 export interface CaseStudySummary {
   id: number;
   descriptiveName: string | null;
@@ -82,6 +86,27 @@ export interface PostListItem {
 
 /** @deprecated Use PostListItem */
 export type HomeUseCase = PostListItem;
+
+export interface WebPostSection {
+  headingText: string | null;
+  bodyContent: string;
+  mediaUrl: string | null;
+  mediaAlt: string | null;
+}
+
+export interface WebPostContentStructure {
+  sections: WebPostSection[];
+  mainBody: string | null;
+}
+
+export interface WebPost {
+  id: string;
+  slug: string;
+  title: string;
+  contentStructure: WebPostContentStructure;
+  createdAt: string;
+  updatedAt: string | null;
+}
 
 class GeekApiNotFoundError extends Error {
   constructor(path: string) {
@@ -189,5 +214,23 @@ export const geekApiService = {
 
   getDepartmentContent: async (): Promise<Department[]> => {
     return geekApiFetch<Department[]>("/api/departments/content", { authenticated: true });
+  },
+
+  getWebPost: async (slug: string): Promise<WebPost | null> => {
+    try {
+      return await geekApiFetch<WebPost>(
+        `/api/webposts/${encodeURIComponent(slug)}`,
+        { authenticated: true },
+      );
+    } catch (error) {
+      if (error instanceof GeekApiNotFoundError) {
+        return null;
+      }
+      throw error;
+    }
+  },
+
+  listWebPosts: async (): Promise<WebPost[]> => {
+    return geekApiFetch<WebPost[]>("/api/webposts", { authenticated: true });
   },
 };

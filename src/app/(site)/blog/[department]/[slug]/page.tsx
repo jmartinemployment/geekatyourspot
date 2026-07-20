@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { geekApiService } from "@/services/geekApiService";
-import { formatDepartmentLabel } from "@/lib/departments";
 import { PlaceholderImage } from "@/components/ui/placeholder-image";
 import { PostSection } from "@/components/blog/post-section";
 
@@ -27,9 +26,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <article className="container max-w-3xl py-16 mx-auto">
-      <p className="text-sm font-bold uppercase tracking-widest text-[#025E73] mb-3">
-        {post.categorySlug || formatDepartmentLabel(department)} &middot; Blog
-      </p>
+
       <h1 className="text-3xl lg:text-5xl font-black font-[var(--font-sora)] mb-6">
         {post.title}
       </h1>

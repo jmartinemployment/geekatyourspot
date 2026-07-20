@@ -7,7 +7,6 @@ import {
   faUsersBetweenLines,
   faCalculator,
 } from "@fortawesome/free-solid-svg-icons";
-import { departmentIcon } from "@/lib/departmentIcons";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { BlogPost } from "@/services/geekApiService";
 

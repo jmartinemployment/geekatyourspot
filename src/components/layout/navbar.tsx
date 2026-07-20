@@ -9,7 +9,6 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { gtmClickId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
-import { formatDepartmentLabel, HOME_DEPARTMENTS } from "@/lib/departments";
 
 interface NavLink {
   label: string;
@@ -17,98 +16,18 @@ interface NavLink {
   children?: NavLink[];
 }
 
-const NAV_LINKS: NavLink[] = [
-  { label: "Home", href: "/" },
-  {
-    label: "Use Cases",
-    href: "/use-cases",
-    children: HOME_DEPARTMENTS.map((slug) => ({
-      label: formatDepartmentLabel(slug),
-      href: `/use-cases/${slug}`,
-    })),
-  },
-  {
-    label: "Blog",
-    href: "/blog",
-    children: HOME_DEPARTMENTS.map((slug) => ({
-      label: formatDepartmentLabel(slug),
-      href: `/blog/${slug}`,
-    })),
-  },
-  {
-    label: "Tools",
-    href: "/tools",
-    children: HOME_DEPARTMENTS.map((slug) => ({
-      label: formatDepartmentLabel(slug),
-      href: `/tools/${slug}`,
-    })),
-  },
-];
-
 const megaMenuHrefs = ["/use-cases", "/blog", "/tools"];
 
-function DepartmentColumn({
-  department,
-  onNavigate,
-}: Readonly<{
-  department: NavLink;
-  onNavigate: () => void;
-}>): React.JSX.Element {
-  const useCaseCount = department.children?.length ?? 0;
-  const useTwoColumns = useCaseCount > 3;
-
-  return (
-    <div className="min-w-0 border-black/10 px-0 first:pl-0 last:pr-0 md:px-4 md:first:pl-0 md:last:pr-0 lg:px-6 lg:first:pl-0 lg:last:pr-0 [&:not(:first-child)]:border-t [&:not(:first-child)]:pt-4 md:[&:not(:first-child)]:border-t-0 md:[&:not(:first-child)]:border-l md:[&:not(:first-child)]:pt-0">
-      <Link
-        href={department.href}
-        id={gtmLinkIdFromHref(department.href, "nav-dept")}
-        className="block text-base font-bold text-black no-underline leading-tight hover:text-[#8C2703] sm:text-lg"
-        onClick={onNavigate}
-      >
-        {department.label}
-      </Link>
-      {department.children && department.children.length > 0 && (
-        <ul
-          className={
-            useTwoColumns
-              ? "m-0 mt-2 list-none space-y-1 p-0 columns-2 gap-x-4"
-              : "m-0 mt-2 list-none space-y-1 p-0"
-          }
-        >
-          {department.children.map((useCase) => (
-            <li
-              key={`${useCase.href}-${useCase.label}`}
-              className={useTwoColumns ? "break-inside-avoid" : undefined}
-            >
-              <Link
-                href={useCase.href}
-                id={gtmLinkIdFromHref(useCase.href, "nav")}
-                className="block text-xs leading-snug text-black no-underline hover:text-[#8C2703] sm:text-sm"
-                onClick={onNavigate}
-              >
-                {useCase.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
 
 export default function Navbar(): React.JSX.Element {
-  const navLinks = NAV_LINKS;
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("/use-cases");
 
-  const megaMenuSections = navLinks.filter((link) => megaMenuHrefs.includes(link.href));
-  const topLevelLinks = navLinks.filter((link) => !megaMenuHrefs.includes(link.href));
 
   function closeSidebar(): void {
     setSidebarOpen(false);
   }
 
-  const activeMega = megaMenuSections.find((section) => section.href === activeSection);
 
   return (
     <header className="sticky top-0 z-[60] bg-white shadow-sm">
@@ -163,46 +82,7 @@ export default function Navbar(): React.JSX.Element {
         >
           <SheetTitle className="sr-only">Site menu</SheetTitle>
 
-          <nav className="container overflow-hidden py-4 sm:py-5">
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-black/10 pb-3 sm:gap-x-8 sm:pb-4">
-              {topLevelLinks.map((link) => (
-                <Link
-                  key={`${link.href}-${link.label}`}
-                  href={link.href}
-                  id={gtmLinkIdFromHref(link.href, "nav")}
-                  className="text-base font-semibold text-black no-underline hover:text-[#8C2703] sm:text-lg"
-                  onClick={closeSidebar}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              {megaMenuSections.map((section) => (
-                <button
-                  key={section.href}
-                  type="button"
-                  id={gtmClickId(["nav", section.href.replace("/", "")])}
-                  className={`cursor-pointer border-0 bg-transparent p-0 text-base font-semibold no-underline sm:text-lg ${
-                    activeSection === section.href ? "text-[#8C2703]" : "text-black hover:text-[#8C2703]"
-                  }`}
-                  onClick={() => setActiveSection(section.href)}
-                >
-                  {section.label}
-                </button>
-              ))}
-            </div>
 
-            {activeMega?.children && activeMega.children.length > 0 && (
-              <div className="mt-4 grid grid-cols-1 gap-0 md:mt-5 md:grid-cols-2 lg:grid-cols-5">
-                {activeMega.children.map((department) => (
-                  <DepartmentColumn
-                    key={`${department.href}-${department.label}`}
-                    department={department}
-                    onNavigate={closeSidebar}
-                  />
-                ))}
-              </div>
-            )}
-          </nav>
         </SheetContent>
       </Sheet>
     </header>

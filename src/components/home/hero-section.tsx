@@ -1,13 +1,15 @@
+import Image from "next/image";
+import Link from "next/link";
 import Typewriter from "./typewriter";
-// import { HeroAssessmentCta } from "@/components/hero/hero-assessment-cta";
-
+import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
+import type { DEPARTMENT_ICONS } from '@/types/department';
 export default function HeroSection() {
   return (
     <>
       <header className="min-h-screen bg-[rgb(2,48,89)] lg:hidden">
         <div className="container min-h-screen">
-          <div className="grid min-h-screen grid-cols-1 place-items-center">
-            <div className="col-span-full">
+          <div className="grid min-h-screen grid-cols-12 place-items-center">
+            <div className="col-span-6">
               <h1 className="font-[var(--font-sora)] text-[12vw] font-black leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 Redefine Your Business
                 <br />
@@ -21,7 +23,13 @@ export default function HeroSection() {
                 hands-on engineering, scale without adding headcount.
               </p>
               <div className="pt-6">
-                {/* <HeroAssessmentCta /> */}
+                <Link
+                id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
+                href="#consultationAppointment2xl"
+                className="btn btn-primary"
+              >
+                Get Your Free AI Assessment
+              </Link>
               </div>
             </div>
           </div>
@@ -31,8 +39,8 @@ export default function HeroSection() {
       <header className="hidden min-h-screen bg-[rgb(2,48,89)] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 place-items-center">
-            <div className="col-span-8">
-              <h1 className="font-[var(--font-sora)] text-7xl font-black leading-[0.95] text-white shadow-text xl:text-[6.5rem]">
+            <div className="col-span-7">
+              <h1 className="font-(--font-sora) text-7xl leading-[0.95] text-white shadow-text xl:text-[6.5rem]">
                 Redefine Your Business
                 <br />
                 <Typewriter
@@ -45,8 +53,24 @@ export default function HeroSection() {
                 hands-on engineering, scale without adding headcount.
               </p>
               <div className="pt-8">
-                {/* <HeroAssessmentCta /> */}
+                <Link
+                  id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
+                  href="#consultationAppointment2xl"
+                  className="btn btn-primary" >
+                  Get Your Free AI Assessment
+                </Link>
               </div>
+            </div>
+            <div className="col-span-5 flex items-center justify-center min-h-screen">
+              <Image
+                src="/images/action-figure.jpeg"
+                preload={true}
+                width={450}
+                height={562}
+                quality={100}
+                alt="Geek At Your Spot - AI-created action figure of founder me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
+                className="h-auto w-auto"
+              />
             </div>
           </div>
         </div>
