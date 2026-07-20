@@ -16,6 +16,8 @@
     "@hookform/resolvers": "^5.2.2",
     "@hugeicons/core-free-icons": "^4.0.0",
     "@hugeicons/react": "^1.1.6",
+    "@keystatic/core": "^0.6.0",
+    "@keystatic/next": "^5.0.4",
     "@next/third-parties": "^16.2.1",
     "@vercel/speed-insights": "^2.0.0",
     "class-variance-authority": "^0.7.1",
