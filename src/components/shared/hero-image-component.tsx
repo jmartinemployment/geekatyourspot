@@ -1,29 +1,30 @@
-import { PlaceholderImage } from "@/components/ui/placeholder-image";
-import path from 'path'
-import fs from 'fs';
+import Image from "next/image";
+import Link from "next/link";
+import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 
+interface HeroSectionProps {
+  title: string;
+  image: string| undefined;
+  summary: string
+}
 
-  interface HeroImageProps {
-    segment: "use-cases" | "blog" | "tools";
-    department: string;
-    slug: string;
-    alt: string;
-    className?: string;
-  }
+export default function HeroImage({image, title, summary}:HeroSectionProps,) {
+  
+  return (
+    <>
 
-    export function HeroImage({ segment, department, slug, alt, className }: HeroImageProps) {
-    const dir = path.join(process.cwd(), "public", "images", department, segment, slug);
-    const hasAvif = fs.existsSync(path.join(dir, "hero.avif"));
-    const hasWebp = fs.existsSync(path.join(dir,"hero.webp"));
+              {/* {image && image.trim() !== "" ? (
+                <Image
+                  src={image!}
+                  priority
+                  width={450}
+                  height={562}
+                  quality={100}
+                  alt={title}
+                  className="h-auto w-auto"
+                />
+              ) : null} */}
 
-    if (!hasWebp) return <PlaceholderImage label={alt} className={className} />;
-
-    const publicDir =`/images/${department}/${segment}/${slug}`;
-    return (
-      <picture>
-        {hasAvif && <source srcSet={`${publicDir}/hero.avif`}type="image/avif" />}
-        <img src={`${publicDir}/hero.webp`} alt={alt} 
-  loading="lazy" className={className} />
-      </picture>
-    );
-  }
+    </>
+  );
+}
