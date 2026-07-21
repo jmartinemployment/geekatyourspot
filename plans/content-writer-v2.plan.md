@@ -1,4 +1,10 @@
 <!-- 670425f1-8725-4f8c-a694-ed646feb6220 -->
+> **SUPERSEDED — kept for history, do not follow.** This doc describes the original content-writer-v2 architecture (a separate repo), which has since pivoted on the points below. Read this before anything else in this file.
+>
+> - **No database, no EF Core, no repository pattern in content-writer-v2.** State lives in a plain in-process object store, for the process lifetime only. This isn't a stopgap or a preference — two earlier database-backed designs for storing/serving content were tried and vetoed because they couldn't support the fine-grained per-element access this pipeline needs (e.g. `entry.sections[1].heading` in this repo's `content-page.tsx`, moving to a flat `entry.blocks[n]`). Relational/nested DB storage fought that access pattern; file-based export doesn't.
+> - **"Markdown export — retired" below is wrong — it's the opposite.** `.html` export (migrated from `.mdx` — the body was always raw HTML, `.mdx` was a misnomer), committed directly into *this* repo's `content-writer-output/` via GitHub's Git Data API, is now content-writer-v2's entire persistence mechanism. It supersedes the GeekBackend-publish flow this doc describes throughout.
+> - **The GeekBackend-publish path (Phase 3/4 below) was descoped, then the publish consumer itself was deleted** in content-writer-v2. This repo (`content.ts`/`content-page.tsx`) only ever reads `.html` files already committed here (with a `.mdx` fallback for not-yet-regenerated legacy files) — it never talks to content-writer-v2's API or any database.
+> - **Content schema is moving from a nested `sections[]` tree to a flat `blocks[]` array** as the frontmatter shape of exported `.html` — every heading/paragraph/list/etc. individually addressable, no remainder content requiring a fallback renderer.
 ---
 todos:
   - id: "v2-skeleton"

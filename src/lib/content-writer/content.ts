@@ -14,6 +14,8 @@ export interface ContentSection {
   level: number;
   heading: string | null;
   body: string;
+  /** `body` split on blank lines — render these instead of `body` to avoid one giant paragraph. */
+  paragraphs: string[];
   children: ContentSection[];
 }
 
@@ -41,13 +43,20 @@ function collectionDir(collection: Collection): string {
   return path.join(CONTENT_DIR, collection);
 }
 
+// Both extensions supported during the .mdx -> .html migration in content-writer-v2 —
+// drop ".mdx" here once that repo's export service only emits .html and this
+// directory has been fully regenerated.
+const CONTENT_EXTENSIONS = [".html", ".mdx"] as const;
+
 export function listSlugs(collection: Collection): string[] {
   const dir = collectionDir(collection);
   if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".mdx"))
-    .map((f) => f.replace(/\.mdx$/, ""));
+  const slugs = new Set<string>();
+  for (const f of fs.readdirSync(dir)) {
+    const ext = CONTENT_EXTENSIONS.find((e) => f.endsWith(e));
+    if (ext) slugs.add(f.slice(0, -ext.length));
+  }
+  return Array.from(slugs);
 }
 
 export function listEntries(collection: Collection): ContentEntry[] {
@@ -56,9 +65,17 @@ export function listEntries(collection: Collection): ContentEntry[] {
     .filter((e): e is ContentEntry => e !== null);
 }
 
+function resolveContentFile(collection: Collection, slug: string): string | null {
+  for (const ext of CONTENT_EXTENSIONS) {
+    const filePath = path.join(collectionDir(collection), `${slug}${ext}`);
+    if (fs.existsSync(filePath)) return filePath;
+  }
+  return null;
+}
+
 export function readEntry(collection: Collection, slug: string): ContentEntry | null {
-  const filePath = path.join(collectionDir(collection), `${slug}.mdx`);
-  if (!fs.existsSync(filePath)) return null;
+  const filePath = resolveContentFile(collection, slug);
+  if (!filePath) return null;
 
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
@@ -83,10 +100,19 @@ export function readEntry(collection: Collection, slug: string): ContentEntry | 
 }
 
 function toContentSection(raw: Partial<ContentSection> & { children?: unknown[] }): ContentSection {
+  const body = raw.body ?? "";
   return {
     level: raw.level ?? 0,
     heading: raw.heading ?? null,
-    body: raw.body ?? "",
+    body,
+    paragraphs: splitParagraphs(body),
     children: Array.isArray(raw.children) ? raw.children.map(toContentSection) : [],
   };
+}
+
+function splitParagraphs(body: string): string[] {
+  return body
+    .split(/\n\s*\n/)
+    .map((p) => p.trim())
+    .filter(Boolean);
 }

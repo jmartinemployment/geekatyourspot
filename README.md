@@ -31,30 +31,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Content pipeline (Content Writer)
 
-Generated content arrives as `.mdx` files, committed directly into this repo under
-`content-writer-output/{use-cases,blog,tools}/{slug}.mdx` by the Content Writer backend
+Generated content arrives as `.html` files, committed directly into this repo under
+`content-writer-output/{use-cases,blog,tools}/{slug}.html` by the Content Writer backend
 (`GeekatyourspotCommitService`, GitHub Git Data API). No CMS admin — these files are edited
-in Content Writer itself and re-exported, not hand-edited here.
+in Content Writer itself and re-exported, not hand-edited here. (Migrated from `.mdx` on
+2026-07-21 — the body was always raw HTML off `row.BodyHtml`, never actually Markdown or
+MDX/JSX; `.mdx` was a misnomer. `content.ts` still reads legacy `.mdx` files as a fallback
+until this directory is fully regenerated.)
 
 **Frontmatter fields:** `title`, `description`, `slug`, `department`, `date`, `excerpt`,
 `mainSummary`, `heroSummary`, `homeSummary`, `blogSummary`, `advertisingSummary`, `tags[]`,
-`heroImage`, `sections[]`. The Markdown below the frontmatter is the full body.
+`heroImage`, `sections[]`. The HTML below the frontmatter is the full body.
 
 `sections[]` is a **nested H2-H6 heading tree**, not a flat list — each heading individually
 addressable (`entry.sections[1].children[0].heading`), not meant to be looped start-to-finish.
-Each node: `{ level: number, heading: string | null, body: string, children: ContentSection[] }`.
-`body` is only the Markdown directly under that heading, before its first child heading — a
-subheading's content lives in `children`, never concatenated into its parent's `body`. Level 0
-with `heading: null` holds any content before the first H2. Built by the backend's
-`ArticleHtmlSectionExtractor.SplitTree` (Markdig AST, not regex) and serialized recursively in
-`MdxExportService`.
+Each node: `{ level: number, heading: string | null, body: string, paragraphs: string[], children: ContentSection[] }`.
+`body` is only the HTML directly under that heading, before its first child heading — a
+subheading's content lives in `children`, never concatenated into its parent's `body`. `body`
+is one blob with multiple paragraphs blank-line-separated; `paragraphs` is that same content
+pre-split (`content.ts`'s `splitParagraphs`) — render `paragraphs.map()` instead of dumping
+`body` into a single `<p>`. Level 0 with `heading: null` holds any content before the first H2.
+Built by the backend's `ArticleHtmlSectionExtractor.SplitTree` (Markdig AST, not regex) and
+serialized recursively in `MdxExportService`.
 
 **Reading them:** `src/lib/content-writer/content.ts` (`readEntry`/`listSlugs`/`listEntries`)
 parses a file with `gray-matter`. Public routes matching the backend's URL scheme
 (`/use-cases/{department}/{slug}`, `/blog/{department}/{slug}`, `/tools/{department}/{slug}`)
 live under `src/app/{use-cases,blog,tools}/[department]/[slug]/page.tsx`, statically generated
 via `generateStaticParams`. `src/components/content-writer/content-page.tsx` is a placeholder
-renderer (plain body markdown via `react-markdown` + `remark-gfm`) — not the final design; the
+renderer (hand-picks specific `sections[i]`/`sections[i].children[j]` nodes, rendering each via
+`paragraphs.map()`) — not the final design; the
 real layout (a distinct "newspaper" composition using use-case summaries, tool summaries, and
 tool `advertisingSummary`, with a page-turn animation and its own Navbar) is still undecided,
 and will likely hand-compose specific `sections[i].children[j]` nodes rather than render the
@@ -71,7 +77,7 @@ in). `sections[]` nodes have no image field at all yet.
 (`GeekBlogPublishService`, `GeekBackendClient`, `PublishTargetResolver` in the backend) pushed
 content straight into GeekBackend's `geek_blog` Postgres schema as a flat, H2-only section list.
 It's gone — deleted along with its DB tables/migrations/repositories. The only path now is
-Export → commit `.mdx` into this repo, as described above.
+Export → commit `.html` into this repo, as described above.
 
 ## Deploy on Vercel
 
