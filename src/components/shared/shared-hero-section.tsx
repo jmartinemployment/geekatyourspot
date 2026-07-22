@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BlogPost } from "@/services/geekApiService"
 import HeroImage from "@/components/shared/hero-image-component";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

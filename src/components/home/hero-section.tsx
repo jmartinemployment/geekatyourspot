@@ -36,11 +36,12 @@ export default function HeroSection() {
         </div>
       </header>
 
+
       <header className="hidden min-h-screen bg-[rgb(2,48,89)] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 place-items-center">
             <div className="col-span-7">
-              <h1 className="font-(--font-sora) text-7xl leading-[0.95] text-white shadow-text xl:text-[6.5rem]">
+              <h1 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Redefine Your Business
                 <br />
                 <Typewriter

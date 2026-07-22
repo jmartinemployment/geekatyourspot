@@ -193,6 +193,15 @@
     @apply !text-base sm:!text-lg;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+  .use-case-html h4 {
+    @apply !text-lg !font-bold sm:!text-xl lg:!text-2xl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .use-case-html h5,
+  .use-case-html h6 {
+    @apply !text-base !font-bold sm:!text-lg;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
   .use-case-html strong {
     @apply !text-base sm:!text-lg;
   }
