@@ -83,12 +83,7 @@ export function UseCasesSection() {
                                 Direct integrations with platforms like NetSuite or Intuit Enterprise Suite feed live payables, receivables, and scheduled transactions into dynamic forecasting tables. Platforms such as Transformance AI pull live AR and AP signals to predict invoice-level cash timing and highlight forecast-to-actual variances.
                         </li>
                     </ul>
-                    <Link
-                    id={gtmLinkIdFromHref("/use-cases/accounting/streamlining-tax-compliance-regulations-through-ai-implementation", "tax-compliance")}
-                    href="/use-cases/accounting/streamlining-tax-compliance-regulations-through-ai-implementation"
-                    className="hover:opacity-90 transition-opacity">
-                        <h4 className="font-bold lg:text-lg shadow-text">Tax Compliance & Regulations</h4>
-                    </Link>
+                    <h4 className="font-bold lg:text-lg shadow-text">Tax Compliance & Regulations</h4>
                     <ul className="list-disc text-xs list- pl-3 ">
                         <li className="pl-.5">
                             
@@ -237,3 +232,5 @@ export function UseCasesSection() {
 // function useCaseLinkId(departmentSlug: string, useCaseSlug: string): string {
 //   return gtmLinkIdFromHref(`/use-cases/${departmentSlug}/${useCaseSlug}`);
 // }
+
+

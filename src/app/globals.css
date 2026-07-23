@@ -133,6 +133,9 @@
 }
 
 @layer base {
+    h2, h3, h4, h5 {
+    display: block;
+  }
   * {
     @apply border-border outline-ring/50;
   }
@@ -175,45 +178,6 @@
   }
   .shadow-box-white {
     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);
-  }
-
-  /* Use-case article pages only — home page uses its own typography */
-  .use-case-html article {
-    @apply space-y-6 md:space-y-8;
-  }
-  .use-case-html h2 {
-    @apply !text-2xl !font-bold sm:!text-3xl lg:!text-4xl;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .use-case-html h3 {
-    @apply !text-xl !font-bold sm:!text-2xl lg:!text-3xl;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .use-case-html p {
-    @apply !text-base sm:!text-lg;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .use-case-html h4 {
-    @apply !text-lg !font-bold sm:!text-xl lg:!text-2xl;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .use-case-html h5,
-  .use-case-html h6 {
-    @apply !text-base !font-bold sm:!text-lg;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .use-case-html strong {
-    @apply !text-base sm:!text-lg;
-  }
-  .use-case-html li {
-    @apply !text-base sm:!text-lg;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .use-case-html blockquote {
-    @apply !text-base sm:!text-lg;
-  }
-  .use-case-html a {
-    @apply break-words;
   }
 }
 
