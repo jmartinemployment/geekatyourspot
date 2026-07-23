@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "5 Ways AI Can Transform Your Outbound Marketing",
+  "description": "Discover how AI can revolutionize your outbound marketing efforts with personalized strategies that drive engagement and results.",
+  "image": [
+    "https://seo.geekatyourspot.com/logo.png"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Geek At Your Spot Editorial Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Geek At Your Spot",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://seo.geekatyourspot.com/logo.png"
+    }
+  },
+  "datePublished": "2026-07-07T18:45:04.1947370Z",
+  "dateModified": "2026-07-07T18:45:04.1947370Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://seo.geekatyourspot.com/blog/5-ways-ai-can-transform-your-outbound-marketing"
+  },
+  "keywords": "AI for outbound marketing, personalized outreach, AI tools for marketing, email campaign optimization, customer engagement strategies",
+  "wordCount": 2379,
+  "citation": [
+    {
+      "@type": "TechnicalArticle",
+      "url": "https://seo.geekatyourspot.com/articles/ai-for-personalized-outbound-strategies-and-tools"
+    }
+  ]
+}

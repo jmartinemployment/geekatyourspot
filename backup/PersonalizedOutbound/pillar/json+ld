@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechnicalArticle",
+      "headline": "AI for Personalized Outbound: Strategies and Tools",
+      "description": "Explore how AI can enhance your personalized outbound strategy, boosting engagement and efficiency in your email campaigns.",
+      "image": [
+        "https://seo.geekatyourspot.com/logo.png"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Geek At Your Spot Editorial Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Geek At Your Spot",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://seo.geekatyourspot.com/logo.png"
+        }
+      },
+      "datePublished": "2026-07-07T18:45:04.1947370Z",
+      "dateModified": "2026-07-07T18:45:04.1947370Z",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://seo.geekatyourspot.com/articles/ai-for-personalized-outbound-strategies-and-tools"
+      },
+      "keywords": "AI for Outbound Email, Personalized Email Marketing, Email Automation Tools, AI Email Generation, Outbound Email Strategies, Hyper-Personalization, AI in Marketing, Email Engagement, Customer Outreach",
+      "wordCount": 3347,
+      "proficiencyLevel": "Beginner",
+      "citation": [
+        {
+          "@type": "BlogPosting",
+          "url": "https://seo.geekatyourspot.com/blog/5-ways-ai-can-transform-your-outbound-marketing"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Salesforce Marketing Cloud",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Salesforce Marketing Cloud is a leading platform for managing customer relationships and executing personalized marketing campaigns. It allows businesses to create targeted email campaigns by leveraging customer data and insights."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "HubSpot",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "HubSpot is an all-in-one marketing platform that offers tools for email marketing, lead generation, and customer relationship management. Its AI capabilities enhance email personalization and automate outreach efforts."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Mailchimp",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Mailchimp is a widely used email marketing service that offers automation, analytics, and personalization features to help businesses engage their audience effectively. It simplifies the process of creating hyper-personalized emails based on user behavior and preferences."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ActiveCampaign",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "ActiveCampaign is an email marketing and automation platform that excels in customer experience automation. It uses AI to help businesses deliver personalized messages that resonate with their audience."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Sendinblue",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Sendinblue is a versatile marketing platform that combines email marketing, SMS marketing, and marketing automation. It is designed to help businesses create personalized campaigns that engage customers through multiple channels."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "5 Smart Strategies for Mastering Automated Follow-Up and Inbox Triage",
+  "description": "Unlock the secrets to effective email management with these 5 strategies for automated follow-up and inbox triage.",
+  "image": [
+    "https://seo.geekatyourspot.com/logo.png"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Geek At Your Spot Editorial Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Geek At Your Spot",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://seo.geekatyourspot.com/logo.png"
+    }
+  },
+  "datePublished": "2026-07-08T10:19:01.9535854Z",
+  "dateModified": "2026-07-08T10:19:01.9535854Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://seo.geekatyourspot.com/blog/5-smart-strategies-for-mastering-automated-follow-up-and-inbox-triage"
+  },
+  "keywords": "automated follow-up, inbox triage, email management, productivity, AI email solutions",
+  "wordCount": 2443,
+  "citation": [
+    {
+      "@type": "TechnicalArticle",
+      "url": "https://seo.geekatyourspot.com/articles/automated-follow-up-and-inbox-triage-transform-your-email-management"
+    }
+  ]
+}

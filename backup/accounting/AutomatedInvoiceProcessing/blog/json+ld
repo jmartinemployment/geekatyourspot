@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "5 Key Benefits of Automating Invoice Processing in Accounts Payable",
+  "description": "Explore the top benefits of automating invoice processing to transform your accounts payable workflow with AI.",
+  "image": [
+    "https://seo.geekatyourspot.com/logo.png"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Geek At Your Spot Editorial Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Geek At Your Spot",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://seo.geekatyourspot.com/logo.png"
+    }
+  },
+  "datePublished": "2026-07-08T16:30:56.9976844Z",
+  "dateModified": "2026-07-08T16:30:56.9976844Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://seo.geekatyourspot.com/blog/5-key-benefits-of-automating-invoice-processing-in-accounts-payable"
+  },
+  "keywords": "Automated Invoice Processing, Accounts Payable, AI Solutions, Invoice Automation Benefits, Efficiency in AP",
+  "wordCount": 2850,
+  "citation": [
+    {
+      "@type": "TechnicalArticle",
+      "url": "https://seo.geekatyourspot.com/articles/automated-invoice-processing-streamlining-accounts-payable-with-ai"
+    }
+  ]
+}

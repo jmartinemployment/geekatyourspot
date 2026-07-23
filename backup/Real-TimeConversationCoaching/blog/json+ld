@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Unlocking Sales Success: 5 Ways AI Can Coach Your Conversations in Real Time",
+  "description": "Discover 5 powerful ways AI enhances real-time conversation coaching to elevate your communication skills and boost sales.",
+  "image": [
+    "https://seo.geekatyourspot.com/logo.png"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Geek At Your Spot Editorial Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Geek At Your Spot",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://seo.geekatyourspot.com/logo.png"
+    }
+  },
+  "datePublished": "2026-07-07T20:42:49.8109507Z",
+  "dateModified": "2026-07-07T20:42:49.8109507Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://seo.geekatyourspot.com/blog/unlocking-sales-success-5-ways-ai-can-coach-your-conversations-in-real-time"
+  },
+  "keywords": "AI coaching, real-time conversation, sales effectiveness, customer support AI, communication skills, AI implementation, conversation analytics, sales training, customer engagement",
+  "wordCount": 2964,
+  "citation": [
+    {
+      "@type": "TechnicalArticle",
+      "url": "https://seo.geekatyourspot.com/articles/ai-for-real-time-conversation-coaching-transforming-communication-skills"
+    }
+  ]
+}

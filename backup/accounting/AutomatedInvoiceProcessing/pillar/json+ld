@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechnicalArticle",
+      "headline": "Automated Invoice Processing: Streamlining Accounts Payable with AI",
+      "description": "Discover how automated invoice processing can enhance your accounts payable workflow and improve efficiency with AI solutions.",
+      "image": [
+        "https://seo.geekatyourspot.com/logo.png"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Geek At Your Spot Editorial Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Geek At Your Spot",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://seo.geekatyourspot.com/logo.png"
+        }
+      },
+      "datePublished": "2026-07-08T16:30:56.9976844Z",
+      "dateModified": "2026-07-08T16:30:56.9976844Z",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://seo.geekatyourspot.com/articles/automated-invoice-processing-streamlining-accounts-payable-with-ai"
+      },
+      "keywords": "automated invoice processing, accounts payable, AI in accounting, invoice automation, AP automation tools",
+      "wordCount": 2783,
+      "proficiencyLevel": "Beginner",
+      "citation": [
+        {
+          "@type": "BlogPosting",
+          "url": "https://seo.geekatyourspot.com/blog/5-key-benefits-of-automating-invoice-processing-in-accounts-payable"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Tipalti",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Tipalti streamlines the entire accounts payable process by automating invoice management, supplier payments, and compliance. Its platform is designed to enhance operational efficiency and reduce manual errors in invoice processing."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Basware",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Basware offers a comprehensive suite for automating invoice processing, including e-invoicing, procurement, and spend analysis. This platform focuses on improving visibility and control over financial processes."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "DocuWare",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "DocuWare provides cloud-based document management solutions that automate invoice processing through intelligent workflow automation and document capture technologies. It aims to enhance collaboration and efficiency across finance departments."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "SAP Concur",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "SAP Concur specializes in travel and expense management but also offers robust solutions for invoice processing. Its platform helps organizations manage invoices efficiently while ensuring compliance and visibility."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ABBYY FlexiCapture",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "ABBYY FlexiCapture is an intelligent data capture platform that automates the extraction of information from invoices and other documents. It leverages AI and machine learning to improve the accuracy of data extraction and processing."
+    }
+  ]
+}
