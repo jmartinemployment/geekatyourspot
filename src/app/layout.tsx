@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-
 import { Geist, Geist_Mono, Figtree, Sora } from "next/font/google";
-
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -90,7 +90,13 @@ export default function RootLayout({
         sora.variable,
       )}
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        <Navbar />
+        <main>
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }

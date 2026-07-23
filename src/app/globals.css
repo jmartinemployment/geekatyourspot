@@ -164,7 +164,13 @@
   .shadow-text-white {
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
   }
-  .shadow-text-purple {
+    .shadow-text-orange {
+    text-shadow: 2px 2px 4px rgba(140, 39, 3, .75);
+  }
+  .shadow-text-violet {
+    text-shadow: 2px 2px 4px rgba(127, 0, 255, 0.4)
+  }
+    .shadow-text-purple {
     text-shadow: 2px 2px 4px rgba(106, 78, 214, 0.5);
   }
   .shadow-text-light-blue {

@@ -53,6 +53,7 @@ export function UseCasesSection() {
                     Tell me your technology stack (QuickBooks, Xero, NetSuite) the number of vendors, and transaction volumes, for a prioritized roadmap.
                 </p>
                 <ol>
+                    <Link id="home-use-cases-accounting-automated-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="hover:opacity-90 transition-opacity"></Link>
                     <h4 className="font-bold lg:text-lg shadow-text">Automated Accounts Payable</h4>
                     <ul className="list-disc text-xs list- pl-3 ">
                         <li className="pl-.5">

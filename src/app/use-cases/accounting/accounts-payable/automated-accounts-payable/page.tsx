@@ -14,43 +14,23 @@ import  IntroductionSection  from '@/components/use-cases/sections/introduction-
 import  OverviewSection  from '@/components/use-cases/sections/overview-section'
 import  ToolsSection  from '@/components/use-cases/sections/tools-section'
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ department: string; category: string; slug: string }>;
-}) {
-  // TODO: Map slug to content dynamically
-  const content = automatedAccountsPayableContent;
+export default async function Page(){
+    const title = "Automated Accounts Payable";
+    const heroSummary = "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy."
+    const heroImage =""; 
+    return (
+        <>
+        <SharedHeroSection
+            title={title}
+            summary={heroSummary}
+            image={heroImage} />
 
-  return (
-    <>
-      <Navbar />
-      <SharedHeroSection
-        title={content.title}
-        summary={content.heroSummary}
-        image={content.image}
-      />
-      <OverviewSection />
-      <IntroductionSection/>
+        
+        <OverviewSection />
+        <IntroductionSection/>
 
 
-      {content.tools && content.tools.length > 0 && (
-        <section className="py-12 bg-gray-50">
-          <div className="container">
-            <h2 className="text-4xl font-bold mb-8">Top AI Tools</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {content.tools.map((tool, idx) => (
-                <ToolCard key={idx} tool={tool} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
-      {content.faq && content.faq.length > 0 && (
-        <FAQSection items={content.faq} />
-      )}
-      <Footer />
-    </>
-  );
+        </>
+    );
 }

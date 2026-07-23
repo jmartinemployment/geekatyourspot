@@ -32,7 +32,7 @@ export default async function HeroSection({title, image, summary}:HeroSectionPro
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
               </h1>
-              <p className="pt-3 text-lg text-white shadow-text">
+              <p className="pt-3 text-xl text-white shadow-text">
                 {summary}
               </p>
               <div className="pt-6">

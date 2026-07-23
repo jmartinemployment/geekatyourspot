@@ -20,13 +20,11 @@ export default async function Home() {
 
   return (
     <>
-      <Navbar />
       <HeroSection />
       <CloneYourselfSection />
       <UseCasesSection />
       <TheMethodologySection />
       <SeamlessIntegrationsSection />
-      <Footer />
     </>
   );
 }
