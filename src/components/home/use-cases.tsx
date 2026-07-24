@@ -78,7 +78,7 @@ export function UseCasesSection() {
                                 </ul>
                                 <Link
                                     id=""
-                                    href="//use-cases/accounting/accounts-payable/automated-accounts-payable"
+                                    href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
                                     className="hover:opacity-90 transition-opacity">
                                     <h4 className="font-bold lg:text-lg shadow-text">Cash Flow Forecasting</h4>
                                 </Link>
