@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 // import { TechArticle, WithContext } from 'schema-dts';
 import  SharedHeroSection from "@/components/shared/shared-hero-section";
-import  IntroductionSection  from '@/components/use-cases/accounting/accounts-payable/introduction-section'
+import  IntroductionSection  from '@/components/use-cases/accounting/cash-flow-forecasting/introduction-section'
 import  OverviewSection  from '@/components/use-cases/accounting/cash-flow-forecasting/overview-section'
-import BenefitsSection from "@/components/use-cases/accounting/accounts-payable/benefits-section";
-import KeyFeaturesSection from "@/components/use-cases/accounting/accounts-payable/key-features";
-import  ToolsSection  from '@/components/use-cases/accounting/accounts-payable/tools-section'
-import  FAQSection from "@/components/use-cases/accounting/accounts-payable/faq-section";
-
+import KeyStrategiesAccurateForecastingSection from "@/components/use-cases/accounting/cash-flow-forecasting/key-strategies-accurate-forecasting-section";
+import IntegratingAiCashFlowManagementSection from "@/components/use-cases/accounting/cash-flow-forecasting/integrating-ai-cash-flow-management";
+import MeasuringImpactForecastingFinancialHealthSection from "@/components/use-cases/accounting/cash-flow-forecasting/measuring-impact-forecasting-financial-health"
+import  ToolsSection  from '@/components/use-cases/accounting/cash-flow-forecasting/tools-section'
+import  FAQSection from "@/components/use-cases/accounting/cash-flow-forecasting/faq-section";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const jsonLd = {
@@ -171,10 +171,11 @@ export default async function Page(){
         <article>           
             <OverviewSection />
             <IntroductionSection/>
-            <BenefitsSection/>
-            <KeyFeaturesSection/>
+            <KeyStrategiesAccurateForecastingSection/>
+            <IntegratingAiCashFlowManagementSection/>
+            <MeasuringImpactForecastingFinancialHealthSection />
             <ToolsSection/>
-            <FAQSection/> 
+            <FAQSection/>
         </article>
 
         </>

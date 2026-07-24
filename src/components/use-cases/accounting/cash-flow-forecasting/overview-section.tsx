@@ -15,7 +15,7 @@ export default function OverviewSection() {
               <Image
                 width="460"
                 height="460"
-                src="/images/accounting/use-cases/accounts-payable/Transforming-Financial-Operations-Automated-Accounts-Payable.avif"
+                src="/images/accounting/use-cases/cash-flow-forecasting/cash-flow-forecasting-overview.avif"
                 alt="Introduction to Automated Accounts Payable" />
             </div>
             <div className="col-span-7">
