@@ -17,7 +17,7 @@ import {
 // }
 interface HeroSectionProps {
   title: string;
-  image: string| undefined;
+  image: string;
   summary: string
 }
 
@@ -51,7 +51,7 @@ export default async function HeroSection({title, image, summary}:HeroSectionPro
 
       <header className="hidden min-h-screen bg-[rgb(2,48,89)] lg:block">
         <div className="container min-h-screen">
-          <div className="grid min-h-screen grid-cols-12 place-items-center">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 { title }
@@ -70,7 +70,13 @@ export default async function HeroSection({title, image, summary}:HeroSectionPro
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
-              <HeroImage image={ image} title={title} summary={summary} />
+              <Image
+                width="460"
+                height="460"
+                src={image}
+                alt="Automated Accounts Payable"
+                loading="eager" />
+              {/* <HeroImage image={ image} title={title} summary={summary} /> */}
 
             {/* <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Accounting</p> */}
             </div>

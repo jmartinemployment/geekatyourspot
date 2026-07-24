@@ -4,7 +4,7 @@ import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 
 interface HeroSectionProps {
   title: string;
-  image: string| undefined;
+  image: string;
   summary: string
 }
 
@@ -12,7 +12,7 @@ export default function HeroImage({image, title, summary}:HeroSectionProps,) {
   
   return (
     <>
-      {image && image.trim() !== "" ? (
+    <p>{ image }</p>
         <Image
           src={image!}
           priority
@@ -22,7 +22,7 @@ export default function HeroImage({image, title, summary}:HeroSectionProps,) {
           alt={title}
           className="h-auto w-auto"
         />
-      ) : null}
+
     </>
   );
 }
