@@ -1,0 +1,1 @@
+Diagram illustrating the components of a lead capture pipeline, with abstract representations of data flow and AI integration. Elements include sources of leads, processing stages, and outcomes, all connected by arrows. The design is clean and professional, with a focus on clarity and simplicity.
