@@ -168,53 +168,62 @@ export function UseCasesSection() {
                                 The most common small business AI marketing use cases combine automated content engines, 24/7 lead capture, and self-optimizing ad tools to drive revenue without manual maintenance.
                             </p>
                             <ol>
-                                <h4 className="font-bold lg:text-lg shadow-text">The "Always-On" Lead Capture Pipeline</h4>
+                                <h4 className="font-bold lg:text-lg shadow-text">Lead Capture Pipeline</h4>
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Conversational AI Bots: </strong>
-                                        Deploy AI platforms like Intercom or Drift to instantly interact with leads the moment they hit your pricing page.
+                                        <strong className="text-sm">Smart Chatbots: </strong>
+                                        Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.  Top AI Chatbot Tools: Intercom, Tidio, or HubSpot.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Automate Lead Routing and Alerts: </strong>
-                                        Integrate automated distribution tools (like Chili Piper or RevenueHero) with your CRM to instantly assign leads based on territory, language, and capacity caps.
+                                        <strong className="text-sm">Lead Scoring: </strong>
+                                        AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness. Top AI Lead Tools: HubSpot, Salesforce Einstein, 6sense, Clay, or MadKudu.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Real-Time Notifications: </strong>
-                                        Set up triggers to alert sales reps immediately via SMS or messaging apps (e.g., Slack) the second an Ideal Customer Profile (ICP) lead fills out a form.
+                                        <strong className="text-sm">Voice Assistants: </strong>
+                                        <ul>
+                                            <li>
+                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.  Top AI Voice Tools: Retell AI, Bland AI, Synthflow AI, PolyAI, or ElevenLabs Conversational AI.
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
-                                <h4 className="font-bold lg:text-lg shadow-text">Prompt and Context Engineering</h4>
+                                <h4 className="font-bold lg:text-lg shadow-text">Content Creation at Scale</h4>
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Reference Libraries": </strong>
-                                        Feed AI models strict style guides, glossaries, and examples of your best-performing, human-written content to prevent tone drifting.
+                                        <strong className="text-sm">Bulk Social Media Scheduling: </strong>
+                                        AI tools write a month of platform-specific posts, hashtags, and captions in minutes.  Top AI Bulk Social Media Scheduling Tools: Buffer, Hootsuite, SocialBee, or CoSchedule.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Role-Based Directives: </strong>
-                                        Instead of asking an AI to "write a blog post," instruct it to act as an "industry-specific expert who relies on lived B2B experience".
+                                        <strong className="text-sm">SEO Blog and Article Generation: </strong>
+                                        AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.  Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights. 
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Review & Refine Workflows: </strong>
-                                        Train teams to use AI for initial brainstorming or data-gathering, but mandate that humans rewrite, edit, and fact-check the output to inject a distinct point of view.
+                                        <strong className="text-sm">Personalized Email Campaigns: </strong>
+                                        AI tailors subject lines and body copy for different audience segments at the same time.  Top AI Email Campaign Tools: Klaviyo, Mailchimp, HubSpot Marketing Hub, Twilio SendGrid, or Copy.ai.
+
                                     </li>
+                                    <ul>
+                                        <li>
+                                        </li>
+                                    </ul>
                                 </ul>
-                                <h4 className="font-bold lg:text-lg shadow-text">Data Quality and Integration Issues</h4>
+                                <h4 className="font-bold lg:text-lg shadow-text">Ad Spend Optimization</h4>
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Automated RAG and Semantic Ingestion: </strong>
-                                        Programmatically tag internal files by author, target audience, and sensitivity level. The AI then filters its data pool based on who it is writing for.
+                                        <strong className="text-sm">Dynamic Creative Optimization: </strong>
+                                        AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.  Top AI Dynamic Creative Optimization Tools: Meta Advantage+ , Omneky,  Smartly.io, AdCreative.ai or Jasper.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Siloed and Decentralized Data: </strong>
-                                        Deploy self-contained Model Context Protocol (MCP) servers directly on top of individual departmental databases (e.g., separate servers for Sales, Marketing, and Accounting).
+                                        <strong className="text-sm">Automated Rules & Bidding: </strong>
+                                        Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.  Top AI Automated Bidding Tools: Google Ads Smart Bidding, HubSpot, Salesforce Einstein, or Basis Technologies.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Auto-Pruning Datasets: </strong>
-                                        Schedule automated data-cleaning scripts to remove outdated product specs or obsolete brand guidelines so the AI never references them.
+                                        <strong className="text-sm">Real-Time Budget Reallocation: </strong>
+                                        Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.  Top AI Real-Time Budget Reallocation Tools: Madgicx, Adobe Mix Modeler, Optimove, or Tableau AI / Adobe Analytics.
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Data Quality Assessments: </strong>
-                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.  Top AI Data Quality Tools: Monte Carlo, Anomalo, Great Expectations, or Qualytics.
                                     </li>
                                 </ul>
                             </ol>
