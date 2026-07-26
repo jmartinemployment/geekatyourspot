@@ -168,7 +168,12 @@ export function UseCasesSection() {
                                 The most common small business AI marketing use cases combine automated content engines, 24/7 lead capture, and self-optimizing ad tools to drive revenue without manual maintenance.
                             </p>
                             <ol>
-                                <h4 className="font-bold lg:text-lg shadow-text">Lead Capture Pipeline</h4>
+                                <Link
+                                    id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
+                                    href="/use-cases/marketing/intelligent-lead-capture-pipeline"
+                                    className="hover:opacity-90 transition-opacity" >
+                                    <h4 className="font-bold lg:text-lg shadow-text">Lead Capture Pipeline</h4>
+                                </Link>
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
                                         <strong className="text-sm">Smart Chatbots: </strong>
@@ -195,7 +200,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">SEO Blog and Article Generation: </strong>
-                                        AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.  Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights. 
+                                        AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.  Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights.
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Personalized Email Campaigns: </strong>
