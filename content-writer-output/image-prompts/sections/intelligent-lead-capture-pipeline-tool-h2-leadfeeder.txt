@@ -1,0 +1,1 @@
+Generic software tile representing a lead tracking tool, with abstract symbols for visitor identification and conversion tracking. The design should suggest real-time data processing and insights.
