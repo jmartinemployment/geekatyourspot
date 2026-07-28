@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Geist, Geist_Mono, Figtree, Sora } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Navbar from "@/components/layout/navbar";
-import Footer from "@/components/layout/footer";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -82,6 +81,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cn(
         "h-full w-full antialiased font-sans",
         geistSans.variable,
@@ -91,11 +91,8 @@ export default function RootLayout({
       )}
     >
       <body className="flex min-h-full flex-col">
-        <Navbar />
-        <main>
-          {children}
-        </main>
-        <Footer />
+        {children}
+        <GoogleTagManager gtmId="GTM-K5CXSQRP" />
       </body>
     </html>
   );
