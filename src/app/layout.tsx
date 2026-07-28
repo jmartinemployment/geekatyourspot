@@ -91,6 +91,16 @@ export default function RootLayout({
       )}
     >
       <body className="flex min-h-full flex-col">
+        {/* Google Tag Manager (noscript) — required by GTM install checks; @next/third-parties only injects the head script */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K5CXSQRP"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+            title="Google Tag Manager"
+          />
+        </noscript>
         {children}
         <GoogleTagManager gtmId="GTM-K5CXSQRP" />
       </body>
