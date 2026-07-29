@@ -162,40 +162,34 @@ export function UseCasesSection() {
                     <div className="col-span-6 bg-[#CBCBCB] px-5 py-5 scroll-mt-24">
                         <div>
                             <h3 className="text-3xl font-bold shadow-text">
-                                AI Marketing Workflow
+                                AI Marketing Systems
                             </h3>
-                            <p className="text-xs shadow-text"><strong>Palm Beach & Broward Counties</strong></p>
                             <p className="text-xs shadow-text">
                                 South Florida small-business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
-                                </p>
+                            </p>
                             <ol>
-                                <h4 className="font-bold lg:text-lg shadow-text">AI Content Creation and Repurposing for Small Businesses</h4>
-                                <ul className="list-disc text-sm list- pl-3 ">
-                                    <li className="pl-.5">
-                                        <strong className="">AI Content Creation: </strong>
-                                        AI Marketing Content Workflow
-                                        is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.  Top AI Content Creation Tools: Jasper, ChatGPT, Claude.
+                                <h4 className="font-bold lg:text-lg shadow-text">AI Content Creation Workflow</h4>
+                                <ul className="list-disc text-xs list- pl-3 ">
+                                    <li className="pl-.5 ">
+                                        <h5><strong className="text-sm">Automated Content Generation: </strong></h5>
+                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.  Top AI Content Creation Tools: Jasper, Copy.ai, ChatGPT, Claude.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">AI Content Repurposing: </strong>
-                                        AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.
+                                        <h5><strong className="text-sm">AI Content Repurposing: </strong></h5>
+                                        AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.  Top AI Content Repurposing Tools: Jasper, Copy.ai, ContentStudio, Airia, Make.com or Zapier.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Bulk Social Media Scheduling: </strong>
-                                        AI tools write a month of platform-specific posts, hashtags, and captions in minutes.  Top AI Bulk Social Media Scheduling Tools: Buffer, Hootsuite, SocialBee, or CoSchedule.
+                                        <h5><strong className="text-sm">Bulk Social Media Scheduling: </strong></h5>
+                                        AI tools write a month of platform-specific posts, hashtags, and captions in minutes.  Top AI Bulk Social Media Scheduling Tools: Buffer, Hootsuite, SocialBee, CoSchedule, SocialPilot, or Zoho Social, or HubSpot.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">SEO Blog and Article Generation: </strong>
+                                        <h5><strong className="text-sm">SEO Blog and Article Generation: </strong></h5>
                                         AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.  Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights.
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm">Personalized Email Campaigns: </strong>
+                                        <h5><strong className="text-sm">Personalized Email Campaigns: </strong></h5>
                                         AI tailors subject lines and body copy for different audience segments at the same time.  Top AI Email Campaign Tools: Klaviyo, Mailchimp, HubSpot Marketing Hub, Twilio SendGrid, or Copy.ai.
                                     </li>
-                                    <ul>
-                                        <li>
-                                        </li>
-                                    </ul>
                                 </ul>
                                 <Link
                                     id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}

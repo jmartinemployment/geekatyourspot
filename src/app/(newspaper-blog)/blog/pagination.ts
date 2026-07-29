@@ -19,6 +19,7 @@ export const pillars: NewspaperItem[] = [
     slug: "ai-for-small-business",
     href: "/blog/pillar/ai-for-small-business",
     title: "Why South Florida Small Businesses Are Finally Adopting AI",
+    
     excerpt:
       "Local shops that once dismissed AI as enterprise-only are now automating scheduling, invoicing, and customer follow-up with tools built for their scale.",
   },
