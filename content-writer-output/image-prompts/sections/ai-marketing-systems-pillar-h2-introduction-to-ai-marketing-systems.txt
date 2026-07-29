@@ -1,0 +1,1 @@
+An educational diagram illustrating the basic components of AI marketing systems, such as data collection, analysis, and automation. Include abstract representations of these processes connected with arrows to show flow and interaction.
