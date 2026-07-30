@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
 import OverviewSection from '@/components/use-cases/marketing/ai-marketing-systems/overview-section'
 import IntroductionSection from '@/components/use-cases/marketing/ai-marketing-systems/introduction-section'
-
+import BenefitsSection from "@/components/use-cases/marketing/ai-marketing-systems/benefits-section";
+import KeyImplementationStrategiesSection from "@/components/use-cases/marketing/ai-marketing-systems/key-implementation-strategies";
+import MeasuringSuccessRoiSection from "@/components/use-cases/marketing/ai-marketing-systems/measuring-sucess-roi";
+import ToolsSection from "@/components/use-cases/marketing/ai-marketing-systems/tools-section";
+import FAQSection from "@/components/use-cases/marketing/ai-marketing-systems/faq-section";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const jsonLd = {
@@ -174,6 +178,11 @@ export default async function Page() {
             <article>
                 <OverviewSection />
                 <IntroductionSection />
+                <BenefitsSection />
+                <KeyImplementationStrategiesSection />
+                <MeasuringSuccessRoiSection />
+                <ToolsSection />
+                <FAQSection />
             </article>
 
         </>

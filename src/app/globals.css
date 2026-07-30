@@ -156,7 +156,7 @@
     @apply inline-block rounded px-4 py-2 font-medium transition-colors;
   }
   .btn-primary {
-    @apply bg-[#8C2703] text-white hover:bg-[#8C4E2A];
+    @apply bg-[#C83803] text-white hover:bg-[#8C4E2A];
   }
   .shadow-text {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -177,7 +177,7 @@
     text-shadow: 2px 2px 4px rgba(63, 81, 181, 0.5);
   }
   .shadow-text-dark-blue {
-    text-shadow: 2px 2px 4px rgba(29, 50, 115, 0.5);
+    text-shadow: 2px 2px 4px rgba(11, 22, 42, 0.25);
   }
   .shadow-box {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -207,4 +207,11 @@
   @variant 2xl {
     max-width: 1320px;
   }
+
+
+/* Global hover state */
+a:hover {
+  color: #C83803;
+  text-decoration: underline;
+}
 }

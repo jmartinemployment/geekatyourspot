@@ -8,11 +8,7 @@ import {
     faCalculator,
 } from "@fortawesome/free-solid-svg-icons";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
-//
-//   interface UseCasesSectionProps {
-//     items: BlogPost[];
-//   }
-//{ items }: UseCasesSectionProps
+
 export function UseCasesSection() {
 
     return (
@@ -20,17 +16,16 @@ export function UseCasesSection() {
             <article id="use-cases-section" className="w-full bg-[#025E73] min-h-screen py-5 hidden md:block scroll-mt-24" >
                 <div className="grid grid-cols-1 container mb-5">
                     <div className="col-span-full">
-                        <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                            <Link
-                                id={gtmLinkIdFromHref("/use-cases", "home-title")}
-                                href="/use-cases"
-                                className="hover:opacity-90 transition-opacity"
-                            >
+                        <Link
+                            id={gtmLinkIdFromHref("/use-cases", "home")}
+                            href="/use-cases">
+                            <h2 className="hover:text-[#C83803] hover:underline text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                                 Artificial<br />
                                 Intelligence<br />
-                                <span className="text-[#8C2703] shadow-text">Use Cases</span>
-                            </Link>
-                        </h2>
+                                <span className="hover:text-[#C83803] hover:underline text-[#8C2703] shadow-text">Use Cases</span>
+                            </h2>
+                        </Link>
+
                     </div>
                 </div>
                 <div className="grid grid-cols-12 container">
@@ -55,7 +50,7 @@ export function UseCasesSection() {
                             <ol>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable"
                                     href="/use-cases/accounting/accounts-payable/automated-accounts-payable"
-                                    className="hover:opacity-90 transition-opacity">
+                                    className="hover:text-[#C83803] hover:underline">
                                     <h4 className="font-bold lg:text-lg shadow-text">Automated Accounts Payable</h4>
                                 </Link>
                                 <ul className="list-disc text-xs list- pl-3 ">
@@ -79,7 +74,7 @@ export function UseCasesSection() {
                                 <Link
                                     id=""
                                     href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
-                                    className="hover:opacity-90 transition-opacity">
+                                    className="hover:text-[#C83803] hover:underline">
                                     <h4 className="font-bold lg:text-lg shadow-text">Cash Flow Forecasting</h4>
                                 </Link>
                                 <ul className="list-disc text-xs list- pl-3 ">
@@ -161,9 +156,14 @@ export function UseCasesSection() {
                     </div>
                     <div className="col-span-6 bg-[#CBCBCB] px-5 py-5 scroll-mt-24">
                         <div>
-                            <h3 className="text-3xl font-bold shadow-text">
-                                AI Marketing Systems
-                            </h3>
+                            <Link
+                                id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing Systems")}
+                                href="/use-cases/marketing/ai-marketing-systems"
+                                className="hover:text-[#C83803] hover:underline">
+                                <h3 className="text-3xl font-bold shadow-text">
+                                    AI Marketing Systems
+                                </h3>
+                            </Link>
                             <p className="text-xs shadow-text">
                                 South Florida small-business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                             </p>
@@ -194,7 +194,7 @@ export function UseCasesSection() {
                                 <Link
                                     id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
                                     href="/use-cases/marketing/intelligent-lead-capture-pipeline"
-                                    className="hover:opacity-90 transition-opacity" >
+                                    className="hover:text-[#C83803] hover:underline" >
                                     <h4 className="font-bold lg:text-lg shadow-text">Lead Capture Pipeline</h4>
                                 </Link>
                                 <ul className="list-disc text-xs list- pl-3 ">

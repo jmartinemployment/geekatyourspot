@@ -1,0 +1,1 @@
+A generic software tile/icon representing a marketing platform with features like lead management and analytics. Use abstract symbols to indicate data flow and decision-making.
