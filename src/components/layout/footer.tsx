@@ -13,7 +13,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#023059] pt-5">
+    <footer className="bg-[#0B162A] pt-5">
       <div className="flex flex-col justify-center container mt-5 pt-5">
         <div className="grid grid-cols-12 gap-4 container py-5 my-5">
           <div className="col-span-3">

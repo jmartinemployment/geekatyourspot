@@ -8,6 +8,46 @@ export const coupaContent: ToolPageContent = {
     "Automate accounts payable with Coupa's AI to streamline financial operations and enhance efficiency.",
   heroSummary:
     "Experience seamless accounts payable automation with Coupa's advanced AI capabilities for improved financial operations.",
+  keywords: "Automated Accounts Payable, AP Automation, AI in Accounting, Accounts Payable Solutions, Financial Automation, AP Software, AI Tools for AP, AP Efficiency, Invoicing Automation, Accounts Payable Process",
+  datePublished: "2026-07-22T15:37:19.6366219Z",
+  dateModified: "2026-07-22T15:37:19.6366219Z",
+  relatedArticleId: "https://seo.geekatyourspot.com/use-cases/accounting/automated-accounts-payable-streamlining-financial-operations-with-ai",
+  jsonLd: {
+    "@type": "SoftwareApplication",
+    "name": "Coupa",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Automate accounts payable with Coupa's AI to streamline financial operations and enhance efficiency.",
+    "@context": "https://schema.org",
+    "headline": "Coupa",
+    "url": "https://seo.geekatyourspot.com/tools/accounting/coupa",
+    "image": [
+      "https://seo.geekatyourspot.com/logo.png"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Geek At Your Spot Editorial Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Geek At Your Spot",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://seo.geekatyourspot.com/logo.png"
+      }
+    },
+    "datePublished": "2026-07-22T15:37:19.6366219Z",
+    "dateModified": "2026-07-22T15:37:19.6366219Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://seo.geekatyourspot.com/tools/accounting/coupa"
+    },
+    "keywords": "Automated Accounts Payable, AP Automation, AI in Accounting, Accounts Payable Solutions, Financial Automation, AP Software, AI Tools for AP, AP Efficiency, Invoicing Automation, Accounts Payable Process",
+    "subjectOf": {
+      "@type": "TechnicalArticle",
+      "@id": "https://seo.geekatyourspot.com/use-cases/accounting/automated-accounts-payable-streamlining-financial-operations-with-ai"
+    }
+  },
   sections: [
     {
       title: "Overview",

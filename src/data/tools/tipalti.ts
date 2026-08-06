@@ -8,6 +8,46 @@ export const tipaltiContent: ToolPageContent = {
     "Automate accounts payable with Tipalti for streamlined, efficient financial operations.",
   heroSummary:
     "Optimize payables with Tipalti, the automated solution for seamless financial operations.",
+  keywords: "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
+  datePublished: "2026-07-23T13:31:04.2701960Z",
+  dateModified: "2026-07-23T13:31:04.2701960Z",
+  relatedArticleId: "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
+  jsonLd: {
+    "@type": "SoftwareApplication",
+    "name": "Tipalti",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Automate accounts payable with Tipalti for streamlined global payments and improved financial controls.",
+    "@context": "https://schema.org",
+    "headline": "Tipalti",
+    "url": "https://www.geekatyourspot.com/tools/accounting/tipalti",
+    "image": [
+      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Geek At Your Spot Editorial Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Geek At Your Spot",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      }
+    },
+    "datePublished": "2026-07-23T13:31:04.2701960Z",
+    "dateModified": "2026-07-23T13:31:04.2701960Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.geekatyourspot.com/tools/accounting/tipalti"
+    },
+    "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
+    "subjectOf": {
+      "@type": "TechArticle",
+      "@id": "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
+    }
+  },
   sections: [
     {
       title: "Overview",

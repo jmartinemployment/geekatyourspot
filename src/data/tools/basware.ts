@@ -8,6 +8,46 @@ export const baswareContent: ToolPageContent = {
     "Optimize financial operations with Basware's AI-driven automated accounts payable solutions.",
   heroSummary:
     "Enhance your financial operations with Basware's AI-powered automated accounts payable solutions.",
+  keywords: "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
+  datePublished: "2026-07-23T13:30:59.8391884Z",
+  dateModified: "2026-07-23T13:30:59.8391884Z",
+  relatedArticleId: "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
+  jsonLd: {
+    "@type": "SoftwareApplication",
+    "name": "Basware",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Basware automates accounts payable, enhancing efficiency and cash flow with cloud-based solutions.",
+    "@context": "https://schema.org",
+    "headline": "Basware",
+    "url": "https://www.geekatyourspot.com/tools/accounting/basware",
+    "image": [
+      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Geek At Your Spot Editorial Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Geek At Your Spot",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      }
+    },
+    "datePublished": "2026-07-23T13:30:59.8391884Z",
+    "dateModified": "2026-07-23T13:30:59.8391884Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.geekatyourspot.com/tools/accounting/basware"
+    },
+    "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
+    "subjectOf": {
+      "@type": "TechArticle",
+      "@id": "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
+    }
+  },
   sections: [
     {
       title: "Overview",
