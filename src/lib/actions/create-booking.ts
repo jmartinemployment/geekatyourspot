@@ -3,7 +3,7 @@
 import { createCalendarEvent } from '@/services/google-calendar.service';
 import { sendBookingConfirmation } from '@/services/booking-confirmation.service';
 import { setBookingConfirmationCookie } from '@/lib/booking/confirmation-cookie';
-import type { Booking, ContactInfo } from '@/components/scheduler/state/types';
+import type { Booking, ContactInfo } from '@/components/shared/scheduler/state/types';
 
 export interface CreateBookingResult {
   success: boolean;

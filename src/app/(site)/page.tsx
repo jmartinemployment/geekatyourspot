@@ -3,6 +3,7 @@ import CloneYourselfSection from "@/components/home/clone-yourself";
 import  TheMethodologySection  from "@/components/home/the-methodology";
 import SeamlessIntegrationsSection from "@/components/home/seamless-integrations";
 import { UseCasesSection } from "@/components/home/use-cases";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 // import { geekApiService, POST_TYPE } from "@/services/geekApiService";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
@@ -25,6 +26,7 @@ export default async function Home() {
       <UseCasesSection />
       <TheMethodologySection />
       <SeamlessIntegrationsSection />
+      <SchedulerShell />
     </>
   );
 }

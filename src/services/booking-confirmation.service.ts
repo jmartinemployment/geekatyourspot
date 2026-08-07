@@ -1,5 +1,5 @@
 import { Resend } from 'resend';
-import type { Booking, ContactInfo } from '@/components/scheduler/state/types';
+import type { Booking, ContactInfo } from '@/components/shared/scheduler/state/types';
 
 function toICSDate(isoUtc: string, timeZone: string): string {
   const date = new Date(isoUtc);

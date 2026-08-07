@@ -1,10 +1,9 @@
 "use client";
 
 import React, { useState, useCallback } from "react";
-import { BookingWidget } from "@/components/scheduler/booking-widget";
-import { ContactDrawer } from "@/components/scheduler/contact-drawer";
-import type { TimeSlot } from "@/components/scheduler/state/types";
-import { DrawerHeader } from "@/components/ui/drawer";
+import { BookingWidget } from "@/components/shared/scheduler/booking-widget";
+import { ContactDrawer } from "@/components/shared/scheduler/contact-drawer";
+import type { TimeSlot } from "@/components/shared/scheduler/state/types";
 
 export function SchedulerShell(): React.JSX.Element {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);

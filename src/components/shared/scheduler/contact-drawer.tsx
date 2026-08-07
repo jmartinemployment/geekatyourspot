@@ -19,7 +19,7 @@ import { gtmClickId } from "@/lib/gtm/link-id";
 import type {
   TimeSlot,
   Booking,
-} from "@/components/scheduler/state/types";
+} from "@/components/shared/scheduler/state/types";
 
 interface ContactDrawerProps {
   open: boolean;

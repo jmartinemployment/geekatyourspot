@@ -1,5 +1,5 @@
 import { google } from 'googleapis'
-import type { TimeSlot, Booking, ContactInfo } from '@/components/scheduler/state/types'
+import type { TimeSlot, Booking, ContactInfo } from '@/components/shared/scheduler/state/types'
 
 function envValue(name: string): string | undefined {
   const value = process.env[name]?.trim()
