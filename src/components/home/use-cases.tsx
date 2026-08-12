@@ -203,7 +203,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">AI Content Repurposing: </strong></h5>
                                         AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Content Repurposing Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
@@ -246,7 +246,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Bulk Social Media Scheduling: </strong></h5>
                                         AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Bulk Social Media Scheduling Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/buffer", "Buffer")}
@@ -295,7 +295,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">SEO Blog and Article Generation: </strong></h5>
                                         AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Blog & Article Generator Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/surfer-seo", "Surfer SEO")}
@@ -343,7 +343,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Personalized Email Campaigns: </strong></h5>
                                         AI tailors subject lines and body copy for different audience segments at the same time.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Email Campaign Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/klaviyo", "Klaviyo")}
@@ -394,7 +394,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm">Smart Chatbots: </strong>
                                         Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Chatbot Tools:
 
                                             <Link
@@ -420,7 +420,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm">Lead Scoring: </strong>
                                         AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Lead Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
@@ -459,7 +459,7 @@ export function UseCasesSection() {
                                         <ul>
                                             <li>
                                                 24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
-                                                <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                                <p>
                                                     Top AI Voice Tools:
                                                     <Link
                                                         id={gtmLinkIdFromHref("/tools/marketing/retell-ai", "Retell AI")}
@@ -501,7 +501,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm">Dynamic Creative Optimization: </strong>
                                         AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Dynamic Creative Optimization Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/meta-advantage", "Meta Advantage+")}
@@ -538,7 +538,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm">Automated Rules & Bidding: </strong>
                                         Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Automated Bidding Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/google-ads-smart-bidding", "Google Ads Smart Bidding")}
@@ -581,7 +581,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm">Real-Time Budget Reallocation: </strong>
                                         Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Real-Time Budget Reallocation Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
@@ -612,7 +612,7 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm">Data Quality Assessments: </strong>
                                         Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
-                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                        <p>
                                             Top AI Data Quality Tools:
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}
