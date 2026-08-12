@@ -173,33 +173,119 @@ export function UseCasesSection() {
                                     <li className="pl-.5 ">
                                         <h5><strong className="text-sm">Automated Content Generation: </strong></h5>
                                         AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.  
-                                        <p>Content Creation Tools: Jasper, Copy.ai, ChatGPT, Claude.</p>
+                                        <p>Top AI Content Creation Tools: 
+                                            <a href="/tools/marketing/jasper" className="text-blue-500 hover:text-blue-700">
+                                                Jasper
+                                            </a>, 
+                                            <a href="/tools/marketing/copy-ai" className="text-blue-500 hover:text-blue-700">
+                                                Copy.ai
+                                            </a>, 
+                                            <a href="/tools/marketing/chatgpt" className="text-blue-500 hover:text-blue-700">
+                                                ChatGPT
+                                            </a>, 
+                                            <a href="/tools/marketing/claude" className="text-blue-500 hover:text-blue-700">
+                                                Claude
+                                            </a>.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">AI Content Repurposing: </strong></h5>
                                         AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.  
                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Content Repurposing Tools: Jasper, Copy.ai, ContentStudio, Airia, Make.com or Zapier.</p>
+                                            Top AI Content Repurposing Tools: 
+                                            <a href="/tools/marketing/jasper" className="text-blue-500 hover:text-blue-700">
+                                                Jasper
+                                            </a>, 
+                                            <a href="/tools/marketing/copy-ai" className="text-blue-500 hover:text-blue-700">
+                                                Copy.ai
+                                            </a>, 
+                                            <a href="/tools/marketing/contentstudio" className="text-blue-500 hover:text-blue-700">
+                                                ContentStudio
+                                            </a>, 
+                                            <a href="/tools/marketing/airia" className="text-blue-500 hover:text-blue-700">
+                                                Airia
+                                            </a>, 
+                                            <a href="/tools/marketing/make-com" className="text-blue-500 hover:text-blue-700">
+                                                Make.com
+                                            </a> or 
+                                            <a href="/tools/marketing/zapier" className="text-blue-500 hover:text-blue-700">
+                                                Zapier
+                                            </a>.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Bulk Social Media Scheduling: </strong></h5>
                                         AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Bulk Social Media Scheduling Tools: Buffer, Hootsuite, SocialBee, CoSchedule, SocialPilot, or Zoho Social, or HubSpot.
+                                            Top AI Bulk Social Media Scheduling Tools: 
+                                            <a href="/tools/marketing/buffer" className="text-blue-500 hover:text-blue-700">
+                                                Buffer
+                                            </a>, 
+                                            <a href="/tools/marketing/hootsuite" className="text-blue-500 hover:text-blue-700">
+                                                Hootsuite
+                                            </a>, 
+                                            <a href="/tools/marketing/socialbee" className="text-blue-500 hover:text-blue-700">
+                                                SocialBee
+                                            </a>, 
+                                            <a href="/tools/marketing/coschedule" className="text-blue-500 hover:text-blue-700">
+                                                CoSchedule
+                                            </a>, 
+                                            <a href="/tools/marketing/socialpilot" className="text-blue-500 hover:text-blue-700">
+                                                SocialPilot
+                                            </a>, or 
+                                            <a href="/tools/marketing/zoho-social" className="text-blue-500 hover:text-blue-700">
+                                                Zoho Social
+                                            </a>, or 
+                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                                HubSpot
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">SEO Blog and Article Generation: </strong></h5>
                                         AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights.
+                                            Top AI Blog & Article Generator Tools: 
+                                            <a href="/tools/marketing/surfer-seo" className="text-blue-500 hover:text-blue-700">
+                                                Surfer SEO
+                                            </a>, 
+                                            <a href="/tools/marketing/chatgpt" className="text-blue-500 hover:text-blue-700">
+                                                ChatGPT
+                                            </a> / 
+                                            <a href="/tools/marketing/claude" className="text-blue-500 hover:text-blue-700">
+                                                Claude
+                                            </a>, 
+                                            <a href="/tools/marketing/frase" className="text-blue-500 hover:text-blue-700">
+                                                Frase
+                                            </a>, 
+                                            <a href="/tools/marketing/hubspot-ai" className="text-blue-500 hover:text-blue-700">
+                                                HubSpot AI
+                                            </a>, or 
+                                            <a href="/tools/marketing/keyword-insights" className="text-blue-500 hover:text-blue-700">
+                                                Keyword Insights
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Personalized Email Campaigns: </strong></h5>
                                         AI tailors subject lines and body copy for different audience segments at the same time.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Email Campaign Tools: Klaviyo, Mailchimp, HubSpot Marketing Hub, Twilio SendGrid, or Copy.ai.
+                                            Top AI Email Campaign Tools: 
+                                            <a href="/tools/marketing/klaviyo" className="text-blue-500 hover:text-blue-700">
+                                                Klaviyo
+                                            </a>, 
+                                            <a href="/tools/marketing/mailchimp" className="text-blue-500 hover:text-blue-700">
+                                                Mailchimp
+                                            </a>, 
+                                            <a href="/tools/marketing/hubspot-marketing-hub" className="text-blue-500 hover:text-blue-700">
+                                                HubSpot Marketing Hub
+                                            </a>, 
+                                            <a href="/tools/marketing/twilio-sendgrid" className="text-blue-500 hover:text-blue-700">
+                                                Twilio SendGrid
+                                            </a>, or 
+                                            <a href="/tools/marketing/copy-ai" className="text-blue-500 hover:text-blue-700">
+                                                Copy.ai
+                                            </a>.
                                         </p>
                                     </li>
                                 </ul>
@@ -214,14 +300,38 @@ export function UseCasesSection() {
                                         <strong className="text-sm">Smart Chatbots: </strong>
                                         Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Chatbot Tools: Intercom, Tidio, or HubSpot.
+                                            Top AI Chatbot Tools: 
+                                            <a href="/tools/marketing/intercom" className="text-blue-500 hover:text-blue-700">
+                                                Intercom
+                                            </a>, 
+                                            <a href="/tools/marketing/tidio" className="text-blue-500 hover:text-blue-700">
+                                                Tidio
+                                            </a>, or 
+                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                                HubSpot
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Lead Scoring: </strong>
                                         AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness. 
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Lead Tools: HubSpot, Salesforce Einstein, 6sense, Clay, or MadKudu.
+                                            Top AI Lead Tools: 
+                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                                HubSpot
+                                            </a>, 
+                                            <a href="/tools/marketing/salesforce-einstein" className="text-blue-500 hover:text-blue-700">
+                                                Salesforce Einstein
+                                            </a>, 
+                                            <a href="/tools/marketing/6sense" className="text-blue-500 hover:text-blue-700">
+                                                6sense
+                                            </a>, 
+                                            <a href="/tools/marketing/clay" className="text-blue-500 hover:text-blue-700">
+                                                Clay
+                                            </a>, or 
+                                            <a href="/tools/marketing/madkudu" className="text-blue-500 hover:text-blue-700">
+                                                MadKudu
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -230,7 +340,22 @@ export function UseCasesSection() {
                                             <li>
                                                 24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
                                                 <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                                    Top AI Voice Tools: Retell AI, Bland AI, Synthflow AI, PolyAI, or ElevenLabs Conversational AI.
+                                                    Top AI Voice Tools: 
+                                                    <a href="/tools/marketing/retell-ai" className="text-blue-500 hover:text-blue-700">
+                                                        Retell AI
+                                                    </a>, 
+                                                    <a href="/tools/marketing/bland-ai" className="text-blue-500 hover:text-blue-700">
+                                                        Bland AI
+                                                    </a>, 
+                                                    <a href="/tools/marketing/synthflow-ai" className="text-blue-500 hover:text-blue-700">
+                                                        Synthflow AI
+                                                    </a>, 
+                                                    <a href="/tools/marketing/polyai" className="text-blue-500 hover:text-blue-700">
+                                                        PolyAI
+                                                    </a>, or 
+                                                    <a href="/tools/marketing/eveninglabs-conversational-ai" className="text-blue-500 hover:text-blue-700">
+                                                        ElevenLabs Conversational AI
+                                                    </a>.
                                                 </p>
                                             </li>
                                         </ul>
@@ -242,28 +367,79 @@ export function UseCasesSection() {
                                         <strong className="text-sm">Dynamic Creative Optimization: </strong>
                                         AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.  
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Dynamic Creative Optimization Tools: Meta Advantage+ , Omneky,  Smartly.io, AdCreative.ai or Jasper.
+                                            Top AI Dynamic Creative Optimization Tools: 
+                                            <a href="/tools/marketing/meta-advantage" className="text-blue-500 hover:text-blue-700">
+                                                Meta Advantage+
+                                            </a>, 
+                                            <a href="/tools/marketing/omneky" className="text-blue-500 hover:text-blue-700">
+                                                Omneky
+                                            </a>, 
+                                            <a href="/tools/marketing/smartly-io" className="text-blue-500 hover:text-blue-700">
+                                                Smartly.io
+                                            </a>, 
+                                            <a href="/tools/marketing/adcreative-ai" className="text-blue-500 hover:text-blue-700">
+                                                AdCreative.ai
+                                            </a> or 
+                                            <a href="/tools/marketing/jasper" className="text-blue-500 hover:text-blue-700">
+                                                Jasper
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Automated Rules & Bidding: </strong>
                                         Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Automated Bidding Tools: Google Ads Smart Bidding, HubSpot, Salesforce Einstein, or Basis Technologies.
+                                            Top AI Automated Bidding Tools: 
+                                            <a href="/tools/marketing/google-ads-smart-bidding" className="text-blue-500 hover:text-blue-700">
+                                                Google Ads Smart Bidding
+                                            </a>, 
+                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                                HubSpot
+                                            </a>, 
+                                            <a href="/tools/marketing/salesforce-einstein" className="text-blue-500 hover:text-blue-700">
+                                                Salesforce Einstein
+                                            </a>, or 
+                                            <a href="/tools/marketing/basis-technologies" className="text-blue-500 hover:text-blue-700">
+                                                Basis Technologies
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Real-Time Budget Reallocation: </strong>
                                         Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Real-Time Budget Reallocation Tools: Madgicx, Adobe Mix Modeler, Optimove, or Tableau AI / Adobe Analytics.
+                                            Top AI Real-Time Budget Reallocation Tools: 
+                                            <a href="/tools/marketing/madgicx" className="text-blue-500 hover:text-blue-700">
+                                                Madgicx
+                                            </a>, 
+                                            <a href="/tools/marketing/adobe-mix-modeler" className="text-blue-500 hover:text-blue-700">
+                                                Adobe Mix Modeler
+                                            </a>, 
+                                            <a href="/tools/marketing/optimove" className="text-blue-500 hover:text-blue-700">
+                                                Optimove
+                                            </a>, or 
+                                            <a href="/tools/marketing/tableau-ai" className="text-blue-500 hover:text-blue-700">
+                                                Tableau AI / Adobe Analytics
+                                            </a>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Data Quality Assessments: </strong>
                                         Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Data Quality Tools: Monte Carlo, Anomalo, Great Expectations, or Qualytics.
+                                            Top AI Data Quality Tools:
+                                            <a href="/tools/marketing/monte-carlo" className="text-blue-500 hover:text-blue-700">
+                                                Monte Carlo
+                                            </a>, 
+                                            <a href="/tools/marketing/anomalo" className="text-blue-500 hover:text-blue-700">
+                                                Anomalo
+                                            </a>, 
+                                            <a href="/tools/marketing/great-expectations" className="text-blue-500 hover:text-blue-700">
+                                                Great Expectations
+                                            </a>, or 
+                                            <a href="/tools/marketing/qualytics" className="text-blue-500 hover:text-blue-700">
+                                                Qualytics
+                                            </a>.
                                         </p>
                                     </li>
                                 </ul>
