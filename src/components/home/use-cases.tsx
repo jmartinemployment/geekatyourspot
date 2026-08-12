@@ -172,120 +172,215 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5 ">
                                         <h5><strong className="text-sm">Automated Content Generation: </strong></h5>
-                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.  
-                                        <p>Top AI Content Creation Tools: 
-                                            <a href="/tools/marketing/jasper" className="text-blue-500 hover:text-blue-700">
+                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.
+                                        <p>Top AI Content Creation Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
+                                                href="/tools/marketing/jasper"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Jasper
-                                            </a>, 
-                                            <a href="/tools/marketing/copy-ai" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
+                                                href="/tools/marketing/copy-ai"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Copy.ai
-                                            </a>, 
-                                            <a href="/tools/marketing/chatgpt" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
+                                                href="/tools/marketing/chatgpt"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 ChatGPT
-                                            </a>, 
-                                            <a href="/tools/marketing/claude" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
+                                                href="/tools/marketing/claude"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Claude
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">AI Content Repurposing: </strong></h5>
-                                        AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.  
-                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Content Repurposing Tools: 
-                                            <a href="/tools/marketing/jasper" className="text-blue-500 hover:text-blue-700">
+                                        AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Content Repurposing Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
+                                                href="/tools/marketing/jasper"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Jasper
-                                            </a>, 
-                                            <a href="/tools/marketing/copy-ai" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
+                                                href="/tools/marketing/copy-ai"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Copy.ai
-                                            </a>, 
-                                            <a href="/tools/marketing/contentstudio" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
+                                                href="/tools/marketing/contentstudio"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 ContentStudio
-                                            </a>, 
-                                            <a href="/tools/marketing/airia" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/airia", "Airia")}
+                                                href="/tools/marketing/airia"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Airia
-                                            </a>, 
-                                            <a href="/tools/marketing/make-com" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/make-com", "Make.com")}
+                                                href="/tools/marketing/make-com"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Make.com
-                                            </a> or 
-                                            <a href="/tools/marketing/zapier" className="text-blue-500 hover:text-blue-700">
+                                            </Link> or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                                href="/tools/marketing/zapier"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Zapier
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Bulk Social Media Scheduling: </strong></h5>
                                         AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Bulk Social Media Scheduling Tools: 
-                                            <a href="/tools/marketing/buffer" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Bulk Social Media Scheduling Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/buffer", "Buffer")}
+                                                href="/tools/marketing/buffer"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Buffer
-                                            </a>, 
-                                            <a href="/tools/marketing/hootsuite" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hootsuite", "Hootsuite")}
+                                                href="/tools/marketing/hootsuite"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Hootsuite
-                                            </a>, 
-                                            <a href="/tools/marketing/socialbee" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/socialbee", "SocialBee")}
+                                                href="/tools/marketing/socialbee"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 SocialBee
-                                            </a>, 
-                                            <a href="/tools/marketing/coschedule" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/coschedule", "CoSchedule")}
+                                                href="/tools/marketing/coschedule"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 CoSchedule
-                                            </a>, 
-                                            <a href="/tools/marketing/socialpilot" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/socialpilot", "SocialPilot")}
+                                                href="/tools/marketing/socialpilot"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 SocialPilot
-                                            </a>, or 
-                                            <a href="/tools/marketing/zoho-social" className="text-blue-500 hover:text-blue-700">
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/zoho-social", "Zoho Social")}
+                                                href="/tools/marketing/zoho-social"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Zoho Social
-                                            </a>, or 
-                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
+                                                href="/tools/marketing/hubspot"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 HubSpot
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">SEO Blog and Article Generation: </strong></h5>
                                         AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Blog & Article Generator Tools: 
-                                            <a href="/tools/marketing/surfer-seo" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Blog & Article Generator Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/surfer-seo", "Surfer SEO")}
+                                                href="/tools/marketing/surfer-seo"
+                                                className="hover:text-[#C83803] hover:underline">
                                                 Surfer SEO
-                                            </a>, 
-                                            <a href="/tools/marketing/chatgpt" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
+                                                href="/tools/marketing/chatgpt"
+                                                className="hover:text-[#C83803] hover:underline"
+                                            >
                                                 ChatGPT
-                                            </a> / 
-                                            <a href="/tools/marketing/claude" className="text-blue-500 hover:text-blue-700">
+                                            </Link> /
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
+                                                href="/tools/marketing/claude"
+                                                className="hover:text-[#C83803] hover:underline"
+                                            >
                                                 Claude
-                                            </a>, 
-                                            <a href="/tools/marketing/frase" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/frase", "Frase")}
+                                                href="/tools/marketing/frase"
+                                                className="hover:text-[#C83803] hover:underline"
+                                            >
                                                 Frase
-                                            </a>, 
-                                            <a href="/tools/marketing/hubspot-ai" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot-ai", "HubSpot AI")}
+                                                href="/tools/marketing/hubspot-ai"
+                                                className="hover:text-[#C83803] hover:underline"
+                                            >
                                                 HubSpot AI
-                                            </a>, or 
-                                            <a href="/tools/marketing/keyword-insights" className="text-blue-500 hover:text-blue-700">
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/keyword-insights", "Keyword Insights")}
+                                                href="/tools/marketing/keyword-insights"
+                                                className="hover:text-[#C83803] hover:underline"
+                                            >
                                                 Keyword Insights
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Personalized Email Campaigns: </strong></h5>
                                         AI tailors subject lines and body copy for different audience segments at the same time.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Email Campaign Tools: 
-                                            <a href="/tools/marketing/klaviyo" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Email Campaign Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/klaviyo", "Klaviyo")}
+                                                href="/tools/marketing/klaviyo"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Klaviyo
-                                            </a>, 
-                                            <a href="/tools/marketing/mailchimp" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
+                                                href="/tools/marketing/hubspot"
+                                                className="hover:text-[#C83803] hover:underline" >
+                                                HubSpot
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/mailchimp", "Mailchimp")}
+                                                href="/tools/marketing/mailchimp"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Mailchimp
-                                            </a>, 
-                                            <a href="/tools/marketing/hubspot-marketing-hub" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot-marketing-hub", "HubSpot Marketing Hub")}
+                                                href="/tools/marketing/hubspot-marketing-hub"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 HubSpot Marketing Hub
-                                            </a>, 
-                                            <a href="/tools/marketing/twilio-sendgrid" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/twilio-sendgrid", "Twilio SendGrid")}
+                                                href="/tools/marketing/twilio-sendgrid"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Twilio SendGrid
-                                            </a>, or 
-                                            <a href="/tools/marketing/copy-ai" className="text-blue-500 hover:text-blue-700">
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
+                                                href="/tools/marketing/copy-ai"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Copy.ai
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                 </ul>
@@ -300,38 +395,63 @@ export function UseCasesSection() {
                                         <strong className="text-sm">Smart Chatbots: </strong>
                                         Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Chatbot Tools: 
-                                            <a href="/tools/marketing/intercom" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Chatbot Tools:
+
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/intercom", "Intercom")}
+                                                href="/tools/marketing/intercom"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Intercom
-                                            </a>, 
-                                            <a href="/tools/marketing/tidio" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/tidio", "Tidio")}
+                                                href="/tools/marketing/tidio"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Tidio
-                                            </a>, or 
-                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
+                                                href="/tools/marketing/hubspot"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 HubSpot
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Lead Scoring: </strong>
-                                        AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness. 
+                                        AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Lead Tools: 
-                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Lead Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
+                                                href="/tools/marketing/hubspot"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 HubSpot
-                                            </a>, 
-                                            <a href="/tools/marketing/salesforce-einstein" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
+                                                href="/tools/marketing/salesforce-einstein"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Salesforce Einstein
-                                            </a>, 
-                                            <a href="/tools/marketing/6sense" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
+                                                href="/tools/marketing/6sense"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 6sense
-                                            </a>, 
-                                            <a href="/tools/marketing/clay" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/clay", "Clay")}
+                                                href="/tools/marketing/clay"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Clay
-                                            </a>, or 
-                                            <a href="/tools/marketing/madkudu" className="text-blue-500 hover:text-blue-700">
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/madkudu", "MadKudu")}
+                                                href="/tools/marketing/madkudu"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 MadKudu
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -340,22 +460,37 @@ export function UseCasesSection() {
                                             <li>
                                                 24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
                                                 <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                                    Top AI Voice Tools: 
-                                                    <a href="/tools/marketing/retell-ai" className="text-blue-500 hover:text-blue-700">
+                                                    Top AI Voice Tools:
+                                                    <Link
+                                                        id={gtmLinkIdFromHref("/tools/marketing/retell-ai", "Retell AI")}
+                                                        href="/tools/marketing/retell-ai"
+                                                        className="hover:text-[#C83803] hover:underline" >
                                                         Retell AI
-                                                    </a>, 
-                                                    <a href="/tools/marketing/bland-ai" className="text-blue-500 hover:text-blue-700">
+                                                    </Link>,
+                                                    <Link
+                                                        id={gtmLinkIdFromHref("/tools/marketing/bland-ai", "Bland AI")}
+                                                        href="/tools/marketing/bland-ai"
+                                                        className="hover:text-[#C83803] hover:underline" >
                                                         Bland AI
-                                                    </a>, 
-                                                    <a href="/tools/marketing/synthflow-ai" className="text-blue-500 hover:text-blue-700">
+                                                    </Link>,
+                                                    <Link
+                                                        id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}
+                                                        href="/tools/marketing/synthflow-ai"
+                                                        className="hover:text-[#C83803] hover:underline" >
                                                         Synthflow AI
-                                                    </a>, 
-                                                    <a href="/tools/marketing/polyai" className="text-blue-500 hover:text-blue-700">
+                                                    </Link>,
+                                                    <Link
+                                                        id={gtmLinkIdFromHref("/tools/marketing/polyAI", "PolyAI")}
+                                                        href="/tools/marketing/polyAI"
+                                                        className="hover:text-[#C83803] hover:underline" >
                                                         PolyAI
-                                                    </a>, or 
-                                                    <a href="/tools/marketing/eveninglabs-conversational-ai" className="text-blue-500 hover:text-blue-700">
+                                                    </Link>, or
+                                                    <Link
+                                                        id={gtmLinkIdFromHref("/tools/marketing/eveninglabs-conversational-ai", "ElevenLabs Conversational AI")}
+                                                        href="/tools/marketing/eveninglabs-conversational-ai"
+                                                        className="hover:text-[#C83803] hover:underline" >
                                                         ElevenLabs Conversational AI
-                                                    </a>.
+                                                    </Link>.
                                                 </p>
                                             </li>
                                         </ul>
@@ -365,62 +500,113 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
                                         <strong className="text-sm">Dynamic Creative Optimization: </strong>
-                                        AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.  
+                                        AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Dynamic Creative Optimization Tools: 
-                                            <a href="/tools/marketing/meta-advantage" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Dynamic Creative Optimization Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/meta-advantage", "Meta Advantage+")}
+                                                href="/tools/marketing/meta-advantage"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Meta Advantage+
-                                            </a>, 
-                                            <a href="/tools/marketing/omneky" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/omneky", "Omneky")}
+                                                href="/tools/marketing/omneky"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Omneky
-                                            </a>, 
-                                            <a href="/tools/marketing/smartly-io" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/smartly-io", "Smartly.io")}
+                                                href="/tools/marketing/smartly-io"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Smartly.io
-                                            </a>, 
-                                            <a href="/tools/marketing/adcreative-ai" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/adcreative-ai", "AdCreative.ai")}
+                                                href="/tools/marketing/adcreative-ai"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 AdCreative.ai
-                                            </a> or 
-                                            <a href="/tools/marketing/jasper" className="text-blue-500 hover:text-blue-700">
+                                            </Link> or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
+                                                href="/tools/marketing/jasper"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Jasper
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Automated Rules & Bidding: </strong>
                                         Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Automated Bidding Tools: 
-                                            <a href="/tools/marketing/google-ads-smart-bidding" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Automated Bidding Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/google-ads-smart-bidding", "Google Ads Smart Bidding")}
+                                                href="/tools/marketing/google-ads-smart-bidding"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Google Ads Smart Bidding
-                                            </a>, 
-                                            <a href="/tools/marketing/hubspot" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
+                                                href="/tools/marketing/hubspot"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 HubSpot
-                                            </a>, 
-                                            <a href="/tools/marketing/salesforce-einstein" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
+                                                href="/tools/marketing/salesforce-einstein"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Salesforce Einstein
-                                            </a>, or 
-                                            <a href="/tools/marketing/basis-technologies" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
+                                                href="/tools/marketing/madgicx"
+                                                className="hover:text-[#C83803] hover:underline" >
+                                                Madgicx
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
+                                                href="/tools/marketing/salesforce-einstein"
+                                                className="hover:text-[#C83803] hover:underline" >
+                                                Salesforce Einstein
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/basis-technologies", "Basis Technologies")}
+                                                href="/tools/marketing/basis-technologies"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Basis Technologies
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Real-Time Budget Reallocation: </strong>
                                         Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
-                                            Top AI Real-Time Budget Reallocation Tools: 
-                                            <a href="/tools/marketing/madgicx" className="text-blue-500 hover:text-blue-700">
+                                            Top AI Real-Time Budget Reallocation Tools:
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
+                                                href="/tools/marketing/madgicx"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Madgicx
-                                            </a>, 
-                                            <a href="/tools/marketing/adobe-mix-modeler" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/adobe-mix-modeler", "Adobe Mix Modeler")}
+                                                href="/tools/marketing/adobe-mix-modeler"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Adobe Mix Modeler
-                                            </a>, 
-                                            <a href="/tools/marketing/optimove" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/optimove", "Optimove")}
+                                                href="/tools/marketing/optimove"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Optimove
-                                            </a>, or 
-                                            <a href="/tools/marketing/tableau-ai" className="text-blue-500 hover:text-blue-700">
+                                            </Link>, or
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/tableau-ai", "Tableau AI / Adobe Analytics")}
+                                                href="/tools/marketing/tableau-ai"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Tableau AI / Adobe Analytics
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -428,18 +614,30 @@ export function UseCasesSection() {
                                         Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
                                             Top AI Data Quality Tools:
-                                            <a href="/tools/marketing/monte-carlo" className="text-blue-500 hover:text-blue-700">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}
+                                                href="/tools/marketing/monte-carlo"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Monte Carlo
-                                            </a>, 
-                                            <a href="/tools/marketing/anomalo" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}
+                                                href="/tools/marketing/anomalo"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Anomalo
-                                            </a>, 
-                                            <a href="/tools/marketing/great-expectations" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}
+                                                href="/tools/marketing/great-expectations"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Great Expectations
-                                            </a>, or 
-                                            <a href="/tools/marketing/qualytics" className="text-blue-500 hover:text-blue-700">
+                                            </Link>,
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}
+                                                href="/tools/marketing/qualytics"
+                                                className="hover:text-[#C83803] hover:underline" >
                                                 Qualytics
-                                            </a>.
+                                            </Link>.
                                         </p>
                                     </li>
                                 </ul>
