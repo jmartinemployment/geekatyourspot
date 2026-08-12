@@ -48,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             template: '%s | Geek at Your Spot', // Appends to child page titles automatically
         },
         description: "Streamline your marketing with HubSpot&#39;s automation and analytics, designed to boost efficiency and customer engagement.",
-        keywords: ["automated accounts payable", "AP automation", "AI in finance", "accounts payable software", "financial operations", "invoice processing", "AP efficiency", "AI-driven finance", "AP tools", "business automation"],
+        keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',

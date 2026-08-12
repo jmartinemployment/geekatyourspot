@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewToolSection from "@/components/tools/active-campaign/overview-section";
-import KeyCapabilitiesSection from "@/components/tools/active-campaign/key-capabilities";
-import ImplementationSection from "@/components/tools/active-campaign/implementation-section";
+import OverviewToolSection from "@/components/tools/accounting/tax-compliance-regulations/avalara/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/accounting/tax-compliance-regulations/avalara/key-capabilities";
+import ImplementationSection from "@/components/tools/accounting/tax-compliance-regulations/avalara/implementation-section";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const jsonLd = {
         "@type": "SoftwareApplication",
-        "name": "Active Campaign",
+        "name": "Avalara® Compliance Platform",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "description": "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
+        "description": "Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.",
         "@context": "https://schema.org",
-        "headline": "ActiveCampaign",
-        "url": "https://www.geekatyourspot.com/tools/marketing/active-campaign",
+        "headline": "Avalara",
+        "url": "https://www.geekatyourspot.com/tools/accounting/avalara",
         "image": [
             "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
@@ -29,26 +30,26 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
-        "datePublished": "2026-07-29T16:48:26.6144734Z",
-        "dateModified": "2026-07-29T16:48:26.6144734Z",
+        "datePublished": "2026-07-25T20:43:34.4485036Z",
+        "dateModified": "2026-07-25T20:43:34.4485036Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.geekatyourspot.com/tools/marketing/active-campaign"
+            "@id": "https://www.geekatyourspot.com/tools/accounting/avalara"
         },
-        "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
+        "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+            "@id": "https://www.geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
         }
-    };
+    }
     // Add the return statement to fix the TypeScript error
     return {
         title: {
             default: 'Geek at Your Spot',
             template: '%s | Geek at Your Spot', // Appends to child page titles automatically
         },
-        description: "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
-        keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
+        description: "Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.",
+        keywords: ["Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
@@ -61,8 +62,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
             },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Active Campaign',
-            description: 'ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.',
+            title: 'Geek at Your Spot | Avalara® Compliance Platform',
+            description: 'Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.',
             url: 'https://geekatyourspot.com/',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
@@ -78,8 +79,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Active Campaign',
-            description: 'ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.',
+            title: 'Geek at Your Spot | Avalara® Compliance Platform',
+            description: 'Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
@@ -118,8 +119,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Active Campaign AI Tools";
-    const heroSummary = "Active Campaign empowers businesses with AI marketing systems for personalized customer engagement and efficient automation.  Email Marketing, Marketing Automation, Active Intelligence, SMS Marketing, WhatsApp Messaging, CRM, Analytics & Reporting, and Content Creation"
+    const title = "Avalara® Compliance Platform";
+    const heroSummary = "Avalara simplifies tax compliance with automation, ensuring businesses meet regulatory demands effortlessly.";
     return (
         <>
             <ToolsHeroSection
@@ -128,7 +129,7 @@ export default async function Page() {
             <OverviewToolSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />
-
+            <SchedulerShell />
         </>
     );
 }

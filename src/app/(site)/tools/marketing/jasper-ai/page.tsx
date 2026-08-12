@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewToolSection from "@/components/tools/active-campaign/overview-section";
-import KeyCapabilitiesSection from "@/components/tools/active-campaign/key-capabilities";
-import ImplementationSection from "@/components/tools/active-campaign/implementation-section";
+import OverviewToolSection from "@/components/tools/jasper-ai/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/jasper-ai/key-capabilities";
+import ImplementationSection from "@/components/tools/jasper-ai/implementation-section";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const jsonLd = {
         "@type": "SoftwareApplication",
-        "name": "Active Campaign",
+        "name": "Jasper AI",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "description": "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
+        "description": "Jasper AI automates content creation, enhancing efficiency and quality with AI-driven workflows for businesses.",
         "@context": "https://schema.org",
-        "headline": "ActiveCampaign",
-        "url": "https://www.geekatyourspot.com/tools/marketing/active-campaign",
+        "headline": "Jasper AI",
+        "url": "https://www.geekatyourspot.com/tools/marketing/jasper-ai",
         "image": [
             "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
@@ -29,26 +30,26 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
-        "datePublished": "2026-07-29T16:48:26.6144734Z",
-        "dateModified": "2026-07-29T16:48:26.6144734Z",
+        "datePublished": "2026-07-30T16:49:52.9520059Z",
+        "dateModified": "2026-07-30T16:49:52.9520059Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.geekatyourspot.com/tools/marketing/active-campaign"
+            "@id": "https://www.geekatyourspot.com/tools/marketing/jasper-ai"
         },
-        "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
+        "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+            "@id": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
         }
-    };
+    }
     // Add the return statement to fix the TypeScript error
     return {
         title: {
             default: 'Geek at Your Spot',
             template: '%s | Geek at Your Spot', // Appends to child page titles automatically
         },
-        description: "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
-        keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
+        description: "Jasper AI automates content creation, enhancing efficiency and quality with AI-driven workflows for businesses.",
+        keywords: ["Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
@@ -61,8 +62,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
             },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Active Campaign',
-            description: 'ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.',
+            title: 'Geek at Your Spot | Jasper AI',
+            description: 'Jasper AI automates content creation, enhancing efficiency and quality with AI-driven workflows for businesses.',
             url: 'https://geekatyourspot.com/',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
@@ -78,8 +79,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Active Campaign',
-            description: 'ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.',
+            title: 'Geek at Your Spot | Jasper AI',
+            description: 'Jasper AI automates content creation, enhancing efficiency and quality with AI-driven workflows for businesses.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
@@ -118,8 +119,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Active Campaign AI Tools";
-    const heroSummary = "Active Campaign empowers businesses with AI marketing systems for personalized customer engagement and efficient automation.  Email Marketing, Marketing Automation, Active Intelligence, SMS Marketing, WhatsApp Messaging, CRM, Analytics & Reporting, and Content Creation"
+    const title = "Jasper AI's Tool";
+    const heroSummary = "Jasper AI enhances content creation by automating writing tasks, improving speed and consistency for businesses.";
     return (
         <>
             <ToolsHeroSection
@@ -128,7 +129,7 @@ export default async function Page() {
             <OverviewToolSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />
-
+            <SchedulerShell />
         </>
     );
 }

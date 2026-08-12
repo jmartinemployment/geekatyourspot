@@ -172,23 +172,35 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5 ">
                                         <h5><strong className="text-sm">Automated Content Generation: </strong></h5>
-                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.  Top AI Content Creation Tools: Jasper, Copy.ai, ChatGPT, Claude.
+                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.  
+                                        <p>Content Creation Tools: Jasper, Copy.ai, ChatGPT, Claude.</p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">AI Content Repurposing: </strong></h5>
-                                        AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.  Top AI Content Repurposing Tools: Jasper, Copy.ai, ContentStudio, Airia, Make.com or Zapier.
+                                        AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.  
+                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Content Repurposing Tools: Jasper, Copy.ai, ContentStudio, Airia, Make.com or Zapier.</p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Bulk Social Media Scheduling: </strong></h5>
-                                        AI tools write a month of platform-specific posts, hashtags, and captions in minutes.  Top AI Bulk Social Media Scheduling Tools: Buffer, Hootsuite, SocialBee, CoSchedule, SocialPilot, or Zoho Social, or HubSpot.
+                                        AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Bulk Social Media Scheduling Tools: Buffer, Hootsuite, SocialBee, CoSchedule, SocialPilot, or Zoho Social, or HubSpot.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">SEO Blog and Article Generation: </strong></h5>
-                                        AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.  Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights.
+                                        AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Blog & Article Generator Tools: Surfer SEO, ChatGPT / Claude, Frase, HubSpot AI, or Keyword Insights.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-sm">Personalized Email Campaigns: </strong></h5>
-                                        AI tailors subject lines and body copy for different audience segments at the same time.  Top AI Email Campaign Tools: Klaviyo, Mailchimp, HubSpot Marketing Hub, Twilio SendGrid, or Copy.ai.
+                                        AI tailors subject lines and body copy for different audience segments at the same time.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Email Campaign Tools: Klaviyo, Mailchimp, HubSpot Marketing Hub, Twilio SendGrid, or Copy.ai.
+                                        </p>
                                     </li>
                                 </ul>
                                 <Link
@@ -200,17 +212,26 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
                                         <strong className="text-sm">Smart Chatbots: </strong>
-                                        Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.  Top AI Chatbot Tools: Intercom, Tidio, or HubSpot.
+                                        Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Chatbot Tools: Intercom, Tidio, or HubSpot.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Lead Scoring: </strong>
-                                        AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness. Top AI Lead Tools: HubSpot, Salesforce Einstein, 6sense, Clay, or MadKudu.
+                                        AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness. 
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Lead Tools: HubSpot, Salesforce Einstein, 6sense, Clay, or MadKudu.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Voice Assistants: </strong>
                                         <ul>
                                             <li>
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.  Top AI Voice Tools: Retell AI, Bland AI, Synthflow AI, PolyAI, or ElevenLabs Conversational AI.
+                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                                <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                                    Top AI Voice Tools: Retell AI, Bland AI, Synthflow AI, PolyAI, or ElevenLabs Conversational AI.
+                                                </p>
                                             </li>
                                         </ul>
                                     </li>
@@ -219,19 +240,31 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs list- pl-3 ">
                                     <li className="pl-.5">
                                         <strong className="text-sm">Dynamic Creative Optimization: </strong>
-                                        AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.  Top AI Dynamic Creative Optimization Tools: Meta Advantage+ , Omneky,  Smartly.io, AdCreative.ai or Jasper.
+                                        AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.  
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Dynamic Creative Optimization Tools: Meta Advantage+ , Omneky,  Smartly.io, AdCreative.ai or Jasper.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Automated Rules & Bidding: </strong>
-                                        Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.  Top AI Automated Bidding Tools: Google Ads Smart Bidding, HubSpot, Salesforce Einstein, or Basis Technologies.
+                                        Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Automated Bidding Tools: Google Ads Smart Bidding, HubSpot, Salesforce Einstein, or Basis Technologies.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Real-Time Budget Reallocation: </strong>
-                                        Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.  Top AI Real-Time Budget Reallocation Tools: Madgicx, Adobe Mix Modeler, Optimove, or Tableau AI / Adobe Analytics.
+                                        Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Real-Time Budget Reallocation Tools: Madgicx, Adobe Mix Modeler, Optimove, or Tableau AI / Adobe Analytics.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm">Data Quality Assessments: </strong>
-                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.  Top AI Data Quality Tools: Monte Carlo, Anomalo, Great Expectations, or Qualytics.
+                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">
+                                            Top AI Data Quality Tools: Monte Carlo, Anomalo, Great Expectations, or Qualytics.
+                                        </p>
                                     </li>
                                 </ul>
                             </ol>

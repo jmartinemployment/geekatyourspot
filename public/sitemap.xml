@@ -1,66 +1,18 @@
 <?xml version="1.0" encoding="utf-16"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.geekatyourspot.com/</loc>
+    <loc>https://geekatyourspot.com/</loc>
   </url>
   <url>
-    <loc>https://www.geekatyourspot.com/privacy-policy</loc>
+    <loc>https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable</loc>
   </url>
   <url>
-    <loc>https://www.geekatyourspot.com/terms-and-conditions</loc>
+    <loc>https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting</loc>
   </url>
   <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/adaptive-insights</loc>
+    <loc>https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems</loc>
   </url>
   <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/anaplan</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/basware</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/board</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/kyriba</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/medius</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/rillion</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/accounting/tipalti</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/marketing/activecampaign</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/marketing/hubspot</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/marketing/mailchimp</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/marketing/marketo</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/tools/marketing/salesforce-pardot</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/use-cases</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems</loc>
-  </url>
-  <url>
-    <loc>https://www.geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline</loc>
+    <loc>https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline</loc>
   </url>
 </urlset>
