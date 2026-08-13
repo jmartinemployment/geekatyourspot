@@ -8,8 +8,8 @@ export default function HeroSection() {
     <>
       <header className="min-h-screen bg-[rgb(2,48,89)] lg:hidden">
         <div className="container min-h-screen">
-          <div className="grid min-h-screen grid-cols-1 place-items-center">
-            <div className="col-span-1">
+          <div className="grid min-h-screen grid-cols-1">
+            <div className="col-span-1 py-5">
               <h1 className="font-[var(--font-sora)] text-[12vw] font-black leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 Redefine Your Business
                 <br />
@@ -17,17 +17,8 @@ export default function HeroSection() {
                   words={["Efficiency", "Automation", "Revenue", "Growth"]}
                 />
               </h1>
-              <div className="col-span-5 flex items-center justify-center min-h-screen">
-                <Image
-                  src="/images/action-figure.jpeg"
-                  priority
-                  width={450}
-                  height={562}
-                  quality={100}
-                  alt="Geek At Your Spot - AI-created action figure of founder me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
-                  className="h-auto w-auto"
-                />
-              </div>
+
+              
               <p className="pt-3 text-lg text-white shadow-text">
                 Design, build, and deploy AI systems that fit your existing
                 stack. Free consultation, four-phase methodology, 40 years of
