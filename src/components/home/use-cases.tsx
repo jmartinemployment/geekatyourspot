@@ -13,7 +13,7 @@ export function UseCasesSection() {
 
     return (
         <>
-            <article id="use-cases-section" className="w-full bg-[#024059] min-h-screen py-5 hidden md:block scroll-mt-24" >
+            <article id="use-cases-section" className="w-full bg-[#025E73] min-h-screen py-5 hidden md:block scroll-mt-24" >
                 <div className="grid grid-cols-1 container mb-5">
                     <div className="col-span-full">
                         <Link

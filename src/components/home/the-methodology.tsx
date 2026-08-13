@@ -17,7 +17,7 @@ import {
 export default function TheMethodologySection() {
   return (
     <>
-      <section className="w-full bg-[#025E73] min-h-screen py-5 lg:hidden">
+      <section className="w-full bg-[#0C1A26] min-h-screen py-5 lg:hidden">
         <div className="container">
           <div className="grid grid-cols-1">
             <div className="col-span-full">
