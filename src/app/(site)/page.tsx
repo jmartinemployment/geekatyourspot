@@ -4,7 +4,7 @@ import TheMethodologySection from "@/components/home/the-methodology";
 import SeamlessIntegrationsSection from "@/components/home/seamless-integrations";
 import { UseCasesSection } from "@/components/home/use-cases";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 
 
@@ -313,17 +313,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
       yandex: 'YOUR_YANDEX_VERIFICATION',
       yahoo: 'YOUR_YAHOO_VERIFICATION',
     },
-    viewport: {
-      width: 'device-width',
-      initialScale: 1,
-      maximumScale: 5,
-      userScalable: true,
-    },
-    themeColor: [
-      { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-      { media: '(prefers-color-scheme: dark)', color: '#023059' },
-    ],
-    colorScheme: 'light dark',
     other: {
       'script:ld+json': JSON.stringify(jsonLd),
       'og:email': 'contact@geekatyourspot.com',
@@ -345,6 +334,18 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
   };
 };
+
+export const generateViewport = (): Viewport => ({
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#023059' },
+  ],
+  colorScheme: 'light dark',
+});
 
 export default async function Home() {
   // const useCasesData = await geekApiService.listPublishedBlogPosts("en", POST_TYPE.pillar);
