@@ -309,7 +309,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       startupImage: '/icon.png',
     },
     verification: {
-      google: 'YOUR_GOOGLE_SITE_VERIFICATION',
+      google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
       yandex: 'YOUR_YANDEX_VERIFICATION',
       yahoo: 'YOUR_YAHOO_VERIFICATION',
     },
