@@ -1,7 +1,7 @@
 export default function CloneYourselfSection() {
   return (
     <>
-      <section className="w-full bg-[#024059] min-h-screen py-42 lg:hidden">
+      <section className="w-full bg-[rgb(2,48,89)] min-h-screen py-42 lg:hidden">
         <div className="container">
           <div className="grid grid-cols-1 mb-12">
             <div className="col-span-full">

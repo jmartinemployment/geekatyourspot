@@ -6,7 +6,7 @@ import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 export default function HeroSection() {
   return (
     <>
-      <header className="min-h-screen bg-[rgb(2,48,89)] lg:hidden">
+      <header className="min-h-screen bg-[#0B162A] lg:hidden">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1">
             <div className="col-span-1 py-5">
