@@ -38,7 +38,7 @@ export default function HeroSection() {
         </div>
       </header>
 
-      <header className="hidden min-h-screen bg-[rgb(2,48,89)] lg:block">
+      <header className="hidden min-h-screen bg-[#0B162A] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 place-items-center">
             <div className="col-span-7">
