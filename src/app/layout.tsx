@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   },
   description:
     "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+  verification: {
+    google: "_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI",
+  },
   openGraph: {
     title: "AI Consultancy for South Florida Small Businesses | Geek @ Your Spot",
     description:
