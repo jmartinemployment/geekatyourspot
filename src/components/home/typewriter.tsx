@@ -54,7 +54,7 @@ export default function Typewriter({ words }: TypewriterProps) {
 
           {/* Actual animated text: Positioned over the ghost */}
 
-          <span className="text-[#8C2703] sm:text-6xl md:text-7xl font-black font-[var(--font-sora)] shadow-text absolute left-0 top-0">
+          <span className="text-[#C83803] sm:text-6xl md:text-7xl font-black font-[var(--font-sora)] shadow-text absolute left-0 top-0">
             {displayText}
           </span>
         </span>
@@ -72,7 +72,7 @@ export default function Typewriter({ words }: TypewriterProps) {
 
           {/* Actual animated text: Positioned over the ghost */}
 
-          <span className="text-[#8C2703] lg:text-7xl xl:text-[6.5rem] leading-[0.625] font-black font-[var(--font-sora)] shadow-text absolute left-0 top-0">
+          <span className="text-[#C83803] lg:text-7xl xl:text-[6.5rem] leading-[0.625] font-black font-[var(--font-sora)] shadow-text absolute left-0 top-0">
             {displayText}
           </span>
         </span>

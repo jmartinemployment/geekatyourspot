@@ -6,10 +6,10 @@ import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 export default function HeroSection() {
   return (
     <>
-      <header className="min-h-screen bg-[#0B162A] lg:hidden">
-        <div className="container min-h-screen">
-          <div className="grid min-h-screen grid-cols-1">
-            <div className="col-span-1 py-5">
+      <header className="min-h-screen w-full bg-[#0B162A] lg:hidden">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-1 place-items-center">
+            <div className="col-span-1">
               <h1 className="font-[var(--font-sora)] text-[12vw] font-black leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 Redefine Your Business
                 <br />
@@ -17,14 +17,12 @@ export default function HeroSection() {
                   words={["Efficiency", "Automation", "Revenue", "Growth"]}
                 />
               </h1>
-
-              
-              <p className="pt-3 text-lg text-white shadow-text">
+              <p className="py-15 text-lg text-white shadow-text">
                 Design, build, and deploy AI systems that fit your existing
                 stack. Free consultation, four-phase methodology, 40 years of
                 hands-on engineering, scale without adding headcount.
               </p>
-              <div className="pt-6">
+              <div className="pb-15">
                 <Link
                   id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
                   href="#consultationAppointment2xl"
