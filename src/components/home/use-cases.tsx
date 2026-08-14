@@ -22,7 +22,7 @@ export function UseCasesSection() {
 
     return (
         <>
-            <article id="use-cases-section" className="w-full bg-[#025E73] min-h-screen py-5 lg:hidden scroll-mt-24" >
+            <article id="use-cases-section" className="w-full bg-[#025E73] min-h-screen py-5 lg:hidden" >
                 <div className="grid grid-cols-1 container mb-5">
                     <div className="col-span-full">
                         <Link
@@ -59,7 +59,7 @@ export function UseCasesSection() {
                                 <Link id="home-use-cases-accounting-automated-accounts-payable"
                                     href="/use-cases/accounting/accounts-payable/automated-accounts-payable"
                                     className="hover:underline">
-                                    <h4 className="text-black text-base hover:text-[#C83803] font-bold lg:text-lg">
+                                    <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         Automated Accounts Payable
                                     </h4>
                                     <p className="text-black text-xs text-shadow">
@@ -603,7 +603,7 @@ export function UseCasesSection() {
                     </div>
                     <div className="col-span-full bg-[#CBCBCB] shadow-xl">
                         <Card className="bg-[#CBCBCB] pt-0 shadow-xl gap-2">
-                            <CardHeader className="bg-[#023059] py-2">
+                            <CardHeader className="bg-[#0B162A] py-2">
                                 <CardTitle>
                                     <Link
                                         id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing Systems")}
@@ -2038,7 +2038,8 @@ export function UseCasesSection() {
                                         id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
                                         href="/use-cases/marketing/intelligent-lead-capture-pipeline"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-black font-bold lg:text-lg shadow-text">Lead Capture Pipeline</h4>
+                                        <h4 className="text-black font-bold text-lg shadow-text">
+                                            Lead Capture Pipeline</h4>
                                     </Link>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
@@ -2161,7 +2162,8 @@ export function UseCasesSection() {
                                             </ul>
                                         </li>
                                     </ul>
-                                    <h4 className="text-black font-bold lg:text-lg shadow-text">Ad Spend Optimization</h4>
+                                    <h4 className="text-black font-bold text-base shadow-text">
+                                        Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-base">
