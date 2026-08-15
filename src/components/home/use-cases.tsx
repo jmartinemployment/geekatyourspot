@@ -25,15 +25,13 @@ export function UseCasesSection() {
             <article id="use-cases-section" className="w-full bg-[#025E73] min-h-screen py-5 lg:hidden" >
                 <div className="grid grid-cols-1 container mb-5">
                     <div className="col-span-full">
-                        <Link
-                            id={gtmLinkIdFromHref("/use-cases", "home")}
-                            href="/use-cases">
-                            <h2 className="hover:text-[#0B162A] text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                                Artificial<br />
-                                Intelligence<br />
-                                <span className="hover:text-[#0B162A] text-[#C83803] shadow-text">Use Cases</span>
-                            </h2>
-                        </Link>
+
+                        <h2 className="hover:text-[#0B162A] text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                            Artificial<br />
+                            Intelligence<br />
+                            <span className="hover:text-[#0B162A] text-[#C83803] shadow-text">Use Cases</span>
+                        </h2>
+
 
                     </div>
                 </div>
@@ -1165,20 +1163,15 @@ export function UseCasesSection() {
             <article id="use-cases-section" className="w-full bg-[#025E73] min-h-screen py-5 hidden lg:block scroll-mt-24" >
                 <div className="grid grid-cols-1 container mb-5">
                     <div className="col-span-full">
-                        <Link
-                            id={gtmLinkIdFromHref("/use-cases", "home")}
-                            href="/use-cases">
-                            <h2 className="hover:text-[#0B162A] text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                                Artificial<br />
-                                Intelligence<br />
-                                <span className="hover:text-[#0B162A] text-[#C83803] shadow-text">Use Cases</span>
-                            </h2>
-                        </Link>
-
+                        <h2 className="hover:text-[#0B162A] text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                            Artificial<br />
+                            Intelligence<br />
+                            <span className="hover:text-[#0B162A] text-[#C83803] shadow-text">Use Cases</span>
+                        </h2>
                     </div>
                 </div>
                 <div className="grid grid-cols-12 container">
-                    <div className="col-span-6 flex flex-col items-center justify-center py-5 bg-[#023059] scroll-mt-24">
+                    <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#023059]">
                         <FontAwesomeIcon
                             icon={faCalculator}
                             width={256}
@@ -1188,7 +1181,7 @@ export function UseCasesSection() {
                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Accounting</p>
 
                     </div>
-                    <div className="col-span-6">
+                    <div className="col-span-6  min-h-screen">
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
                             <CardContent>
                                 <Link
@@ -1389,7 +1382,6 @@ export function UseCasesSection() {
                                 <p className="text-black text-sm ">
                                     You face unpredictable income, delayed customer collections, hidden or rising overhead costs, manual data entry errors, and confusing high profit on paper with actual available bank cash.
                                 </p>
-
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">
@@ -2329,7 +2321,7 @@ export function UseCasesSection() {
                             </CardContent>
                         </Card>
                     </div>
-                    <div className="col-span-6 flex flex-col items-center justify-center py-5 bg-[#0B162A] scroll-mt-24">
+                    <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#0B162A]">
                         <FontAwesomeIcon
                             icon={faFunnelDollar}
                             width={256}

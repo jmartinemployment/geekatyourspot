@@ -84,9 +84,27 @@ export default function SeamlessIntegrationsSection() {
   ];
   return (
     <>
-      {/* <section>
-    </section> */}
-      <section className="w-full bg-[#8C4E2A] min-h-screen flex flex-col justify-center gap-12 py-16">
+      <article className="w-full bg-[#8C4E2A] min-h-screen flex flex-col justify-center lg:hidden">
+        {/* Header */}
+        <div className="text-center container">
+          <h2 className="text-white text-[3.9rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+            Seamless&nbsp;
+            <br />
+            <span className="text-[#0B162A] text-[3.9rem] tracking-tight leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              Integrations</span>
+          </h2>
+          <p className="text-white text-2xl text-center shadow-text py-5">
+            AI solutions plug directly into the tools and platforms you already uses every day.
+          </p>
+        </div>
+
+        {/* Marquee rows */}
+        <div className="flex flex-col gap-6">
+          <InfiniteMarquee items={row1} direction="left" speed={180} />
+          <InfiniteMarquee items={row2} direction="right" speed={180} />
+        </div>
+      </article>
+      <article className="w-full bg-[#8C4E2A] min-h-screen flex flex-col justify-center gap-12 py-16 hidden lg:block">
         {/* Header */}
         <div className="text-center">
           <h2 className="text-white text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -107,7 +125,7 @@ export default function SeamlessIntegrationsSection() {
           <InfiniteMarquee items={row1} direction="left" speed={180} />
           <InfiniteMarquee items={row2} direction="right" speed={180} />
         </div>
-      </section>
+      </article>
     </>
   );
 }

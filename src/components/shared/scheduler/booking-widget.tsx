@@ -161,6 +161,30 @@ export function BookingWidget({
           )}
         </div>
       </div>
+      <div className="md:hidden py-5">
+        <div className="grid grid-cols-1">
+          <div className="col-span-1 mx-auto w-full">
+            <Calendar
+              mode="single"
+              className="w-full border rounded-md shadow font-semibold"
+              classNames={{
+                day: "",
+                month: "space-y-4 text-xl",
+                day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
+                day_today: "font-bold",
+                caption_label: "text-lg font-semibold",
+              }}
+              selected={selectedDateObj}
+              onSelect={handleDateSelect}
+              disabled={(date) => {
+                const d = new Date(date);
+                d.setHours(0, 0, 0, 0);
+                return d < today || d.getDay() === 0 || d.getDay() === 6;
+              }}
+            />
+          </div>
+        </div>
+      </div>
       <div className="hidden md:block xl:hidden py-5">
         <div className="grid grid-cols-12 gap-4 place-items-center py-5">
           <div className="col-span-6 mx-auto">
