@@ -1,1 +1,0 @@
-Illustrate multiple content formats being derived from a single piece of content, like a blog post turning into infographics, social media snippets, and videos. Use a tree diagram metaphor.
