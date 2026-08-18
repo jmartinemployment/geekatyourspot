@@ -101,89 +101,62 @@ export function BookingWidget({
 
   return (
     <>
-      <div className="grid grid-cols-12 gap-2 place-items-center md:hidden">
-        <div className="col-span-6 mx-auto w-full">
-          <Calendar
-            mode="single"
-            className="w-full border rounded-md shadow font-semibold"
-            classNames={{
-              day: "",
-              month: "space-y-4 text-xl",
-              day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-              day_today: "font-bold",
-              caption_label: "text-lg font-semibold",
-            }}
-            selected={selectedDateObj}
-            onSelect={handleDateSelect}
-            disabled={(date) => {
-              const d = new Date(date);
-              d.setHours(0, 0, 0, 0);
-              return d < today || d.getDay() === 0 || d.getDay() === 6;
-            }}
-          />
-        </div>
-        <div className="col-span-6 mx-auto w-full">
-          {!slotsError &&
-            !slotsLoading &&
-            selectedDate &&
-            availableSlots.length === 0 && (
-              <p className="text-white/60 text-sm">
-                No availability on this date. please choose another day.
-              </p>
-            )}
+      <div className="md:hidden py-5 space-y-4 w-full">
+        <Calendar
+          mode="single"
+          className="w-full border rounded-md shadow font-semibold"
+          classNames={{
+            day: "",
+            month: "space-y-4 text-xl",
+            day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
+            day_today: "font-bold",
+            caption_label: "text-lg font-semibold",
+          }}
+          selected={selectedDateObj}
+          onSelect={handleDateSelect}
+          disabled={(date) => {
+            const d = new Date(date);
+            d.setHours(0, 0, 0, 0);
+            return d < today || d.getDay() === 0 || d.getDay() === 6;
+          }}
+        />
 
-          {availableSlots.length > 0 && (
-            <div
-              className={cn(
-                "grid grid-cols-2 gap-2 transition-opacity duration-200",
-                slotsLoading && "opacity-40 pointer-events-none",
-              )}
-            >
-              {availableSlots.map((slot) => {
-                const isSelected = selectedSlot?.isoStart === slot.isoStart;
-                return (
-                  <button
-                    key={slot.isoStart}
-                    type="button"
-                    onClick={() => onSlotSelect(slot)}
-                    className={cn(
-                      "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
-                      isSelected
-                        ? "border-[#8C2703] bg-[#8C2703] text-white"
-                        : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-                    )}
-                  >
-                    {slot.startTime}
-                  </button>
-                );
-              })}
-            </div>
+        {!slotsError &&
+          !slotsLoading &&
+          selectedDate &&
+          availableSlots.length === 0 && (
+            <p className="text-white/60 text-sm">
+              No availability on this date. please choose another day.
+            </p>
           )}
-        </div>
-      </div>
-      <div className="md:hidden py-5">
-        <div className="grid grid-cols-1">
-          <div className="col-span-1 mx-auto w-full">
-            <Calendar
-              mode="single"
-              className="w-full border rounded-md shadow font-semibold"
-              classNames={{
-                day: "",
-                month: "space-y-4 text-xl",
-                day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-                day_today: "font-bold",
-                caption_label: "text-lg font-semibold",
-              }}
-              selected={selectedDateObj}
-              onSelect={handleDateSelect}
-              disabled={(date) => {
-                const d = new Date(date);
-                d.setHours(0, 0, 0, 0);
-                return d < today || d.getDay() === 0 || d.getDay() === 6;
-              }}
-            />
+
+        {availableSlots.length > 0 && (
+          <div
+            className={cn(
+              "grid grid-cols-1 gap-2 transition-opacity duration-200",
+              slotsLoading && "opacity-40 pointer-events-none",
+            )}
+          >
+            {availableSlots.map((slot) => {
+              const isSelected = selectedSlot?.isoStart === slot.isoStart;
+              return (
+                <button
+                  key={slot.isoStart}
+                  type="button"
+                  onClick={() => onSlotSelect(slot)}
+                  className={cn(
+                    "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
+                    isSelected
+                      ? "border-[#8C2703] bg-[#8C2703] text-white"
+                      : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
+                  )}
+                >
+                  {slot.startTime}
+                </button>
+              );
+            })}
           </div>
-        </div>
+        )}
       </div>
       <div className="hidden md:block xl:hidden py-5">
         <div className="grid grid-cols-12 gap-4 place-items-center py-5">

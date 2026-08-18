@@ -49,7 +49,7 @@ export function SchedulerShell(): React.JSX.Element {
   return (
     <>
       <article id="consultationAppointmentxs" className="w-full bg-[#C83803] min-h-screen lg:hidden">
-        <div className="grid grid-cols-1 gap-0 place-items-center h-screen container">
+        <div className="grid grid-cols-1 gap-6 place-items-center min-h-screen container py-8">
           <div className="col-span-1">
             <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Schedule a Free
@@ -61,7 +61,7 @@ export function SchedulerShell(): React.JSX.Element {
               Broward, Palm Beach, and Miami-Dade.
             </p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 w-full">
             <BookingWidget
               selectedDate={selectedDate}
               onDateChange={handleDateChange}
