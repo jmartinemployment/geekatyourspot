@@ -130,7 +130,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             },
         },
         verification: {
-            google: 'google-site-verification-token',
+            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
             yandex: 'yandex-verification-token',
             yahoo: 'yahoo-verification-token',
         },

@@ -992,7 +992,7 @@ export function UseCasesSection() {
                                         </li>
                                     </ul>
                                     <h4 className="text-black text-base font-bold shadow-text">
-                                        Ad Spend Optimization</h4>
+                                        Automated Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-sm">
@@ -2161,7 +2161,7 @@ export function UseCasesSection() {
                                         </li>
                                     </ul>
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                        Ad Spend Optimization</h4>
+                                        Automated Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-base">

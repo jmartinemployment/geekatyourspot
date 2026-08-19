@@ -8,6 +8,7 @@ import IntegratingAiCashFlowManagementSection from "@/components/use-cases/accou
 import MeasuringImpactForecastingFinancialHealthSection from "@/components/use-cases/accounting/cash-flow-forecasting/measuring-impact-forecasting-financial-health"
 import ToolsSection from '@/components/use-cases/accounting/cash-flow-forecasting/tools-section'
 import FAQSection from "@/components/use-cases/accounting/cash-flow-forecasting/faq-section";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   const jsonLd = {
@@ -38,7 +39,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
           "@type": "WebPage",
           "@id": "https://www.geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
         },
-        "keywords": "CCash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
+        "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
         "wordCount": 3540,
         "proficiencyLevel": "Beginner",
         "citation": [
@@ -137,7 +138,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       },
     },
     verification: {
-      google: 'google-site-verification-token',
+      google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
       yandex: 'yandex-verification-token',
       yahoo: 'yahoo-verification-token',
     },
@@ -169,7 +170,6 @@ export default async function Page() {
         summary={heroSummary}
         image={heroImage} 
         imgAlt={imgAlt}/>
-      <article>
         <OverviewSection />
         <IntroductionSection />
         <KeyStrategiesAccurateForecastingSection />
@@ -177,8 +177,7 @@ export default async function Page() {
         <MeasuringImpactForecastingFinancialHealthSection />
         <ToolsSection />
         <FAQSection />
-      </article>
-
+        <SchedulerShell />
     </>
   );
 }
