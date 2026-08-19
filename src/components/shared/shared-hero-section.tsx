@@ -18,14 +18,14 @@ import {
 interface HeroSectionProps {
   title: string;
   image: string;
-  summary: string
+  summary: string;
+  imgAlt: string;
 }
-
-export default async function HeroSection({title, image, summary}:HeroSectionProps) {
+export default async function HeroSection({title, image, summary, imgAlt }:HeroSectionProps) {
     
   return (
     <>
-      <header className="min-h-screen bg-[rgb(2,48,89)] lg:hidden">
+      <header className="min-h-screen bg-[#0B162A] lg:hidden">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1 place-items-center">
             <div className="col-span-full">
@@ -49,7 +49,7 @@ export default async function HeroSection({title, image, summary}:HeroSectionPro
         </div>
       </header>
 
-      <header className="hidden min-h-screen bg-[rgb(2,48,89)] lg:block">
+      <header className="hidden min-h-screen bg-[#0B162A] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
@@ -74,7 +74,7 @@ export default async function HeroSection({title, image, summary}:HeroSectionPro
                 width="460"
                 height="460"
                 src={image}
-                alt="Automated Accounts Payable"
+                alt={imgAlt}
                 loading="eager" />
               {/* <HeroImage image={ image} title={title} summary={summary} /> */}
 

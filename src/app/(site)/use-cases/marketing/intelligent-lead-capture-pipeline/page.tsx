@@ -165,13 +165,15 @@ export default async function Page() {
     const title = "Intelligent Lead Capture Pipeline";
     const heroSummary = "Automate and optimize your lead capture process with the Intelligent Lead Capture Pipeline."
     const heroImage = "/images/marketing/use-cases/intelligent-lead-capture-pipeline/intelligent-lead-capture-pipeline-pillar-hero.avif";
+    const imgAlt = "Intelligent lead capture pipeline";
 
     return (
         <>
             <SharedHeroSection
                 title={title}
                 summary={heroSummary}
-                image={heroImage} />
+                image={heroImage}
+                imgAlt={imgAlt} />
             <article>
                 <OverviewSection />
                 <IntroductionSection />

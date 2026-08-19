@@ -90,7 +90,7 @@ export function SchedulerShell(): React.JSX.Element {
             <h2 className="text-white lg:text-7xl 2xl:text-[6.5rem]  leading-[0.95] font-black font-[var(--font-sora)] shadow-text pb-5">
               Schedule a Free
               <br />
-              <span className="text-[#023059]">Consultation</span>
+              <span className="text-[#0B162A]">Consultation</span>
             </h2>
             <p className="text-white text-xl shadow-text">
               South Florida technology consultancy serving small businesses in
@@ -126,7 +126,7 @@ export function SchedulerShell(): React.JSX.Element {
             <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-[5.5rem] 2xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Schedule a Free
               <br />
-              <span className="text-[#023059]">Consultation</span>
+              <span className="text-[#0B162A]">Consultation</span>
             </h2>
             <p className="text-white text-xl shadow-text">
               South Florida technology consultancy serving small businesses in

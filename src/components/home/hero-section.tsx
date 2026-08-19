@@ -65,11 +65,12 @@ export default function HeroSection() {
               <Image
                 src="/images/action-figure.jpeg"
                 priority
-                width={450}
-                height={562}
+                width={512}
+                height={768}
                 quality={100}
-                alt="Geek At Your Spot - AI-created action figure of founder me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
-                className="h-auto w-auto"
+                loading="eager"
+                alt="Geek At Your Spot - AI-created action figure of me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
+                className="h-auto w-full"
               />
             </div>
           </div>

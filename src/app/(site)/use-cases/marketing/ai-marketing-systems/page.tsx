@@ -168,13 +168,14 @@ export default async function Page() {
     const title = "AI Marketing Systems";
     const heroSummary = "Elevate your marketing game with AI systems that automate processes and enhance decision-making for better results."
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-
+    const imgAlt = "Streamline the chaos"
     return (
         <>
             <SharedHeroSection
                 title={title}
                 summary={heroSummary}
-                image={heroImage} />
+                image={heroImage}
+                imgAlt={imgAlt} />
             <article>
                 <OverviewSection />
                 <IntroductionSection />

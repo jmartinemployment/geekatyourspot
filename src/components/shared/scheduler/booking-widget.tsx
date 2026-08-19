@@ -101,13 +101,14 @@ export function BookingWidget({
 
   return (
     <>
-      <div className="md:hidden py-5 space-y-4 w-full">
+      <div className="lg:hidden py-5 space-y-4 w-full">
         <Calendar
           mode="single"
-          className="w-full border rounded-md shadow font-semibold"
+          className="mx-auto w-fit border rounded-md shadow font-semibold"
           classNames={{
-            day: "",
-            month: "space-y-4 text-xl",
+            months: "relative flex w-fit flex-col gap-2",
+            month: "flex w-fit flex-col gap-2",
+            table: "w-fit border-collapse",
             day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
             day_today: "font-bold",
             caption_label: "text-lg font-semibold",
@@ -158,7 +159,7 @@ export function BookingWidget({
           </div>
         )}
       </div>
-      <div className="hidden md:block xl:hidden py-5">
+      <div className="hidden lg:block xl:hidden py-5">
         <div className="grid grid-cols-12 gap-4 place-items-center py-5">
           <div className="col-span-6 mx-auto">
             <Calendar

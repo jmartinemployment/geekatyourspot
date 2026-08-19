@@ -39,7 +39,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
+            "@id": "https://www.geekatyourspot.com/use-cases/accounting/tax-compliance-regulations"
         }
     }
     // Add the return statement to fix the TypeScript error

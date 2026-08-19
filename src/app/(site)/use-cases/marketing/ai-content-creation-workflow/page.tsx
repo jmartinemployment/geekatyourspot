@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import OverviewSection from '@/components/use-cases/marketing/ai-content-creation-workflow/overview-section'
+import LedeSection from '@/components/use-cases/marketing/ai-content-creation-workflow/lede-section'
+import AutomatedContentGenerationSection from '@/components/use-cases/marketing/ai-content-creation-workflow/automated-content-generation-section'
+import AIContentRepurposingSection from '@/components/use-cases/marketing/ai-content-creation-workflow/ai-content-repurposing-section'
+import BulkSocialMediaSchedulingSection from '@/components/use-cases/marketing/ai-content-creation-workflow/bulk-social-media-scheduling-section'
+import SEOBlogArticleGenerationSection from '@/components/use-cases/marketing/ai-content-creation-workflow/seo-blog-article-generation-section'
+import PersonalizedEmailCampaignsSection from '@/components/use-cases/marketing/ai-content-creation-workflow/personalized-email-campaigns'
+import PAASection from '@/components/use-cases/marketing/ai-content-creation-workflow/paa-section'
+
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const jsonLd = {
@@ -8,8 +16,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "@graph": [
             {
                 "@type": "TechArticle",
-                "headline": "Automated Content Creation Workflow",
-                "description": "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
+                "headline": "AI Content Creation Workflow",
+                "description": "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
                 "image": [
                     "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
                 ],
@@ -25,61 +33,61 @@ export const generateMetadata = async (): Promise<Metadata> => {
                         "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
                     }
                 },
-                "datePublished": "2026-07-30T16:54:19.0258530Z",
-                "dateModified": "2026-07-30T16:54:19.0258530Z",
+                "datePublished": "2026-08-18T11:42:58.9278075Z",
+                "dateModified": "2026-08-18T11:42:58.9278075Z",
                 "mainEntityOfPage": {
                     "@type": "WebPage",
-                    "@id": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
+                    "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
                 },
-                "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
-                "wordCount": 3883,
+                "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
+                "wordCount": 4379,
                 "proficiencyLevel": "Beginner",
                 "citation": [
                     {
                         "@type": "BlogPosting",
-                        "url": "https://www.geekatyourspot.com/blog/marketing/unlocking-efficiency-how-to-automate-your-content-creation-process"
+                        "url": "https://www.geekatyourspot.com/blog/marketing/how-to-streamline-your-content-workflow-with-ai"
                     }
                 ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "OpenAI GPT-4",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "OpenAI GPT-4 is a leading AI model that assists businesses in generating high-quality text content efficiently. It helps streamline content creation by automating initial drafts, improving language precision, and generating creative ideas. This tool is particularly beneficial for teams looking to produce engaging content without extensive manual effort.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/openai-gpt-4"
             },
             {
                 "@type": "SoftwareApplication",
                 "name": "Jasper AI",
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
-                "description": "Jasper AI is an AI-driven content creation platform designed to streamline and enhance the writing process. It helps businesses produce high-quality content quickly, reducing the time and effort traditionally associated with content generation.",
+                "description": "Enhance your AI content creation workflow with Jasper AI for seamless integration and productivity.",
                 "url": "https://www.geekatyourspot.com/tools/marketing/jasper-ai"
             },
             {
                 "@type": "SoftwareApplication",
-                "name": "Grammarly",
+                "name": "Copy.ai",
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
-                "description": "Grammarly is a writing assistant that helps enhance content quality by providing real-time grammar, punctuation, and style checks. By integrating Grammarly into your content creation workflow, you can streamline editing processes and ensure your content is clear and error-free.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/grammarly"
+                "description": "Boost content creation efficiency with Copy.ai\u0027s AI workflow. Integrate seamlessly and enhance productivity.",
+                "url": "https://www.geekatyourspot.com/tools/marketing/copyai"
             },
             {
                 "@type": "SoftwareApplication",
-                "name": "Canva",
+                "name": "ChatGPT",
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
-                "description": "Canva is a platform that simplifies graphic design for businesses of all sizes by providing easy-to-use tools that require no prior design experience. With Canva, teams can quickly create professional-quality visual content, streamlining the content creation process.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/canva"
+                "description": "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
+                "url": "https://www.geekatyourspot.com/tools/marketing/chatgpt"
             },
             {
                 "@type": "SoftwareApplication",
-                "name": "Adobe Sensei",
+                "name": "Claude",
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
-                "description": "Adobe Sensei is an AI-powered platform designed to streamline creative workflows by automating repetitive tasks and enhancing content intelligence. It helps businesses by providing tools that improve design efficiency and deliver personalized experiences in real-time.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/adobe-sensei"
+                "description": "Boost your content creation with Claude\u0027s AI workflow automation for efficient and creative text generation.",
+                "url": "https://www.geekatyourspot.com/tools/marketing/claude"
+            },
+            {
+                "@type": "SoftwareApplication",
+                "name": "ContentStudio",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Web",
+                "description": "Optimize your AI content creation workflow with ContentStudios automation and scheduling features for social media.",
+                "url": "https://www.geekatyourspot.com/tools/marketing/contentstudio"
             }
         ]
     }
@@ -88,23 +96,23 @@ export const generateMetadata = async (): Promise<Metadata> => {
             default: 'Geek at Your Spot',
             template: '%s | Geek at Your Spot', // Appends to child page titles automatically
         },
-        description: "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
-        keywords: ["Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow' }],
+        description: "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
+        keywords: ["AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns"],
+        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
-        metadataBase: new URL('https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow'),
+        metadataBase: new URL('https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow'),
         alternates: {
-            canonical: '/use-cases/marketing/automated-content-creation-workflow',
+            canonical: '/use-cases/marketing/AI-content-creation-workflow',
             languages: {
                 'en-US': '/en-US',
                 'es-ES': '/es-ES',
             },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Automated Content Creation Workflow',
+            title: 'Geek at Your Spot | AI Content Creation Workflow',
             description: "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
-            url: 'https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow',
+            url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -119,8 +127,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Automated Content Creation Workflow',
-            description: "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
+            title: 'Geek at Your Spot | AI Content Creation Workflow',
+            description: "Explore how an AI content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
@@ -138,7 +146,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             },
         },
         verification: {
-            google: 'google-site-verification-token',
+            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
             yandex: 'yandex-verification-token',
             yahoo: 'yahoo-verification-token',
         },
@@ -159,19 +167,26 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Automated Content Creation Workflow";
-    const heroSummary = "Streamline your B2B marketing with an automated content creation workflow for improved efficiency and accuracy."
-    const heroImage = "/images/marketing/use-cases/ai-marketing-systems/automated-content-creation-workflow-pillar-hero.avif";
-
+    const title = "AI Content Creation Workflow";
+    const heroSummary = "Enhance your marketing strategy with streamlined AI Content Creation Workflow, automating tasks to save time and improve results."
+    const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
+    const imgAlt = "Streamline the chaos"
     return (
         <>
             <SharedHeroSection
                 title={title}
                 summary={heroSummary}
-                image={heroImage} />
+                image={heroImage}
+                imgAlt={imgAlt} />
             <article>
-                <OverviewSection />
-
+                <LedeSection />
+                <AutomatedContentGenerationSection />
+                <AIContentRepurposingSection />
+                <BulkSocialMediaSchedulingSection />
+                <SEOBlogArticleGenerationSection />
+                <PersonalizedEmailCampaignsSection />
+                <PAASection />
+                <SchedulerShell />
             </article>
 
         </>

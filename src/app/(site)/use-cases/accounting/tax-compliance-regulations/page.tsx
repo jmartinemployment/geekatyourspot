@@ -154,12 +154,14 @@ export default async function Page() {
     const title = "Intelligent Tax Compliance & Regulations";
     const heroSummary = "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations."
     const heroImage = "/images/accounting/use-cases/tax-compliance-regulations/cash-flow-forecasting-pillar-hero.avif";
+    const imgAlt = "Intelligent tax compliance and regulations";
     return (
         <>
             <SharedHeroSection
                 title={title}
                 summary={heroSummary}
-                image={heroImage} />
+                image={heroImage}
+                imgAlt={imgAlt} />
             <article>
                 <OverviewSection />
 

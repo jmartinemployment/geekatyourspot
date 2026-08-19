@@ -161,13 +161,14 @@ export default async function Page(){
     const title = "Automated Accounts Payable";
     const heroSummary = "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy."
     const heroImage = "/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-hero.avif";
-
+    const imgAlt = "Automated accounts payable";
     return (
         <>
         <SharedHeroSection
             title={title}
             summary={heroSummary}
-            image={heroImage} />
+            image={heroImage}
+            imgAlt={imgAlt}/>
         <article>           
             <OverviewSection />
             <IntroductionSection/>

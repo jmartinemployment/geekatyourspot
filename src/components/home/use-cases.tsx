@@ -62,7 +62,8 @@ export function UseCasesSection() {
                                     </h4>
                                     <p className="text-black text-xs text-shadow">
                                         You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
-                                    </p>                                </Link>
+                                    </p>
+                                </Link>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-xs">
@@ -604,7 +605,7 @@ export function UseCasesSection() {
                             <CardHeader className="bg-[#0B162A] py-2">
                                 <CardTitle>
                                     <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing Systems")}
+                                        id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing")}
                                         href="/use-cases/marketing/ai-marketing-systems">
                                         <h3 className="text-white text-3xl hover:text-[#C83803] font-bold shadow-text">
                                             Marketing
@@ -622,9 +623,11 @@ export function UseCasesSection() {
                             </CardHeader>
                             <CardContent>
                                 <ol>
-                                    <h4 className="text-black font-bold text-base shadow-text">
+                                    <Link id="ai-content-creation-workflow-email-content-workflow-1"
+                                        href="/use-cases/marketing/ai-content-creation-workflow" className="p-0 m-0">
+                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
                                         AI Content Creation Workflow</h4>
-                                    <p className="text-black text-xs">
+                                    </Link><p className="text-black text-xs">
                                         AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
                                     </p>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
@@ -1787,18 +1790,21 @@ export function UseCasesSection() {
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
                             <CardContent>
                                 <Link
-                                    id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing Systems")}
+                                    id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing")}
                                     href="/use-cases/marketing/ai-marketing-systems">
                                     <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
-                                        Marketing Systems
+                                        Marketing
                                     </h3>
                                 </Link>
                                 <p className="text-black text-sm shadow-text">
                                     South Florida small-business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                                 </p>
                                 <ol>
-                                    <h4 className="text-black font-bold text-lg shadow-text">
+                                    <Link id="ai-content-creation-workflow-email-content-workflow-2"
+                                        href="/use-cases/marketing/ai-content-creation-workflow" className="p-0 m-0">
+                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                         AI Content Creation Workflow</h4>
+                                    </Link>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5 ">
                                             <h5><strong className="text-black text-base">
@@ -2030,7 +2036,7 @@ export function UseCasesSection() {
                                         id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
                                         href="/use-cases/marketing/intelligent-lead-capture-pipeline"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-black font-bold text-lg shadow-text">
+                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                             Lead Capture Pipeline</h4>
                                     </Link>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
@@ -2154,7 +2160,7 @@ export function UseCasesSection() {
                                             </ul>
                                         </li>
                                     </ul>
-                                    <h4 className="text-black font-bold text-base shadow-text">
+                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                         Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
