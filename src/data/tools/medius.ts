@@ -11,7 +11,7 @@ export const mediusContent: ToolPageContent = {
   keywords: "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
   datePublished: "2026-07-23T13:31:17.4992445Z",
   dateModified: "2026-07-23T13:31:17.4992445Z",
-  relatedArticleId: "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
+  relatedArticleId: "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
   jsonLd: {
     "@type": "SoftwareApplication",
     "name": "Medius",
@@ -20,9 +20,9 @@ export const mediusContent: ToolPageContent = {
     "description": "Medius automates accounts payable, enhancing efficiency and accuracy with AI-driven invoice management.",
     "@context": "https://schema.org",
     "headline": "Medius",
-    "url": "https://www.geekatyourspot.com/tools/accounting/medius",
+    "url": "https://geekatyourspot.com/tools/accounting/medius",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -33,19 +33,19 @@ export const mediusContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-23T13:31:17.4992445Z",
     "dateModified": "2026-07-23T13:31:17.4992445Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/accounting/medius"
+      "@id": "https://geekatyourspot.com/tools/accounting/medius"
     },
     "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
+      "@id": "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
     }
   },
   sections: [

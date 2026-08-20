@@ -15,7 +15,7 @@ export default function ToolsSection() {
           </div>
           <div className="col-span-6">
           <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-            <a href="https://www.geekatyourspot.com/tools/accounting/anaplan">Anaplan</a></h3>
+            <a href="https://geekatyourspot.com/tools/accounting/anaplan">Anaplan</a></h3>
           <p className="pt-5 text-md font-normal text-white shadow-text-orange">Anaplan is a comprehensive platform that offers cloud-native planning and performance management solutions. Its
             AI-driven capabilities facilitate dynamic and collaborative planning across various business functions, making it a
             powerful tool for cash flow forecasting.</p>
@@ -32,7 +32,7 @@ export default function ToolsSection() {
             Anaplan workflows to automate approval processes and scenario planning, enhancing decision-making speed and
             accuracy. Additionally, our team can develop custom scripts using Anaplan&#39;s API to tailor integrations with
             existing systems, ensuring seamless data flow and enhanced forecasting capabilities.</p>
-          <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://www.geekatyourspot.com/tools/accounting/adaptive-insights">Adaptive Insights</a></h3>
+          <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/adaptive-insights">Adaptive Insights</a></h3>
           <p className="pt-5 text-md font-normal text-white shadow-text-orange">Adaptive Insights is a business planning cloud platform that offers powerful tools for budgeting, forecasting, and
             reporting. Its intuitive interface and robust analytical capabilities make it an ideal solution for enhancing cash
             flow forecasting accuracy.</p>
@@ -51,7 +51,7 @@ export default function ToolsSection() {
             systems and enhancing the overall forecasting ecosystem.</p>
         </div>
         <div className="col-span-6">
-          <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://www.geekatyourspot.com/tools/accounting/kyriba">Kyriba</a></h3>
+          <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/kyriba">Kyriba</a></h3>
           <p className="pt-5 text-md font-normal text-white shadow-text-orange">Kyriba is a cloud-based treasury and finance solution that specializes in cash and liquidity management, offering
             sophisticated AI capabilities for cash flow forecasting. Its real-time data processing and predictive analytics are
             key features for financial teams.</p>
@@ -68,7 +68,7 @@ export default function ToolsSection() {
             automate key processes like cash positioning and forecasting, reducing manual intervention. Moreover, we can
             leverage Kyriba&#39;s API to develop custom solutions that extend its functionality, providing tailored analytics
             and reporting capabilities to fit specific business needs.</p>
-          <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://www.geekatyourspot.com/tools/accounting/board">Board</a></h3>
+          <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/board">Board</a></h3>
           <p className="pt-5 text-md font-normal text-white shadow-text-orange">Board is an AI-powered platform that combines business intelligence, performance management, and predictive
             analytics. It is particularly effective for cash flow forecasting due to its ability to unify data and deliver
             actionable insights.</p>

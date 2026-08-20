@@ -14,9 +14,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "description": "Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.",
         "@context": "https://schema.org",
         "headline": "Avalara",
-        "url": "https://www.geekatyourspot.com/tools/accounting/avalara",
+        "url": "https://geekatyourspot.com/tools/accounting/avalara",
         "image": [
-            "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
         "author": {
             "@type": "Person",
@@ -27,19 +27,19 @@ export const generateMetadata = async (): Promise<Metadata> => {
             "name": "Geek At Your Spot",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
         "datePublished": "2026-07-25T20:43:34.4485036Z",
         "dateModified": "2026-07-25T20:43:34.4485036Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.geekatyourspot.com/tools/accounting/avalara"
+            "@id": "https://geekatyourspot.com/tools/accounting/avalara"
         },
         "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/accounting/tax-compliance-regulations"
+            "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations"
         }
     }
     // Add the return statement to fix the TypeScript error

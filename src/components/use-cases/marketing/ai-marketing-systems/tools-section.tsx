@@ -26,7 +26,7 @@ export default function ToolsSection() {
         <div className="grid min-h-screen grid-cols-12 gap-x-4 py-5">
 
           <div className="col-span-6">
-            <h3 id="hubspot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://www.geekatyourspot.com/tools/marketing/hubspot">HubSpot</a></h3>
+            <h3 id="hubspot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/hubspot">HubSpot</a></h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">HubSpot is a comprehensive platform that integrates marketing, sales, and service tools into a single ecosystem. It
               helps businesses automate and personalize their marketing efforts, saving time and increasing efficiency. This makes
               it especially valuable for small businesses looking to scale their operations without scaling up costs.</p>
@@ -43,7 +43,7 @@ export default function ToolsSection() {
               code layer, implementers can leverage its open API to integrate third-party tools, achieving a tailored fit for
               unique business processes. These efforts result in a faster time-to-value, fewer pilot failures, and ready-to-use
               automation that scales with business growth.</p>
-            <h3 id="marketo" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://www.geekatyourspot.com/tools/marketing/marketo">Marketo</a></h3>
+            <h3 id="marketo" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/marketo">Marketo</a></h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Marketo is a powerful platform for automating marketing efforts, helping businesses streamline campaigns and
               improve their reach. It provides tools for managing customer engagement, personalizing content, and tracking
               results. By utilizing Marketo, businesses can efficiently nurture leads and convert them into loyal customers.</p>
@@ -61,7 +61,7 @@ export default function ToolsSection() {
               integrations and custom functionality, ensuring the platform meets unique business needs. These focused efforts lead
               to quicker realization of benefits, fewer implementation hiccups, and a smoother path to robust marketing
               automation.</p>
-            <h3 id="salesforce-pardot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://www.geekatyourspot.com/tools/marketing/salesforce-pardot">Salesforce
+            <h3 id="salesforce-pardot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/salesforce-pardot">Salesforce
               Pardot</a></h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Salesforce Pardot is a powerful marketing automation platform designed to help businesses efficiently manage their
               marketing campaigns. It streamlines lead generation, nurturing, and conversion, making it easier for marketing teams
@@ -82,7 +82,7 @@ export default function ToolsSection() {
 
           </div>
           <div className="col-span-6">
-            <h3 id="activecampaign" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://www.geekatyourspot.com/tools/marketing/activecampaign">ActiveCampaign</a>
+            <h3 id="activecampaign" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/activecampaign">ActiveCampaign</a>
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">ActiveCampaign is a marketing automation tool that helps businesses streamline their customer engagement through
               personalized email campaigns, targeted messaging, and customer relationship management. It supports small businesses
@@ -99,7 +99,7 @@ export default function ToolsSection() {
               routing rules tailored to ActiveCampaign&#39;s capabilities, making production-ready automation a reality. While
               ActiveCampaign does not offer a custom coding layer, skilled implementers leverage its robust API for integrations,
               enhancing overall system functionality.</p>
-            <h3 id="mailchimp" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://www.geekatyourspot.com/tools/marketing/mailchimp">Mailchimp</a></h3>
+            <h3 id="mailchimp" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/mailchimp">Mailchimp</a></h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Mailchimp is a versatile tool for email marketing automation, especially helpful for small businesses aiming to
               streamline their outreach efforts. It allows users to create targeted email campaigns, track customer engagement,
               and analyze performance metrics, all from a single platform. This ease of use saves time and reduces manual effort.

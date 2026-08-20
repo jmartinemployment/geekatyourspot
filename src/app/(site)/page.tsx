@@ -14,10 +14,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.geekatyourspot.com/#organization",
+        "@id": "https://geekatyourspot.com/#organization",
         "name": "Geek at Your Spot",
-        "url": "https://www.geekatyourspot.com",
-        "logo": "https://www.geekatyourspot.com/logo.png",
+        "url": "https://geekatyourspot.com",
+        "logo": "https://geekatyourspot.com/logo.png",
         "description": "AI consultancy building practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
         "sameAs": [
           "https://www.facebook.com/geekatyourspot",
@@ -41,10 +41,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.geekatyourspot.com/#localbusiness",
+        "@id": "https://geekatyourspot.com/#localbusiness",
         "name": "Geek at Your Spot",
-        "url": "https://www.geekatyourspot.com",
-        "image": "https://www.geekatyourspot.com/images/action-figure.jpeg",
+        "url": "https://geekatyourspot.com",
+        "image": "https://geekatyourspot.com/images/action-figure.jpeg",
         "description": "AI consulting firm specializing in designing, building, and deploying AI systems for small businesses.",
         "address": {
           "@type": "PostalAddress",
@@ -62,11 +62,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
       },
       {
         "@type": "Service",
-        "@id": "https://www.geekatyourspot.com/#service",
+        "@id": "https://geekatyourspot.com/#service",
         "name": "AI Consulting and Implementation",
         "description": "Design, build, and deploy AI systems that fit your existing stack. Our four-phase methodology helps small businesses scale without adding headcount.",
         "provider": {
-          "@id": "https://www.geekatyourspot.com/#organization"
+          "@id": "https://geekatyourspot.com/#organization"
         },
         "areaServed": {
           "@type": "City",
@@ -115,61 +115,61 @@ export const generateMetadata = async (): Promise<Metadata> => {
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.geekatyourspot.com/#webpage",
-        "url": "https://www.geekatyourspot.com",
+        "@id": "https://geekatyourspot.com/#webpage",
+        "url": "https://geekatyourspot.com",
         "name": "AI Consulting for South Florida Small Businesses",
         "description": "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
         "isPartOf": {
-          "@id": "https://www.geekatyourspot.com/#website"
+          "@id": "https://geekatyourspot.com/#website"
         },
         "primaryImageOfPage": {
-          "@id": "https://www.geekatyourspot.com/#primaryimage"
+          "@id": "https://geekatyourspot.com/#primaryimage"
         },
         "datePublished": "2024-01-01",
         "breadcrumb": {
-          "@id": "https://www.geekatyourspot.com/#breadcrumb"
+          "@id": "https://geekatyourspot.com/#breadcrumb"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.geekatyourspot.com/#breadcrumb",
+        "@id": "https://geekatyourspot.com/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.geekatyourspot.com"
+            "item": "https://geekatyourspot.com"
           }
         ]
       },
       {
         "@type": "Website",
-        "@id": "https://www.geekatyourspot.com/#website",
-        "url": "https://www.geekatyourspot.com",
+        "@id": "https://geekatyourspot.com/#website",
+        "url": "https://geekatyourspot.com",
         "name": "Geek at Your Spot",
         "description": "AI consulting for South Florida small businesses",
         "potentialAction": {
           "@type": "SearchAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://www.geekatyourspot.com/search?q={search_term_string}"
+            "urlTemplate": "https://geekatyourspot.com/search?q={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         }
       },
       {
         "@type": "ImageObject",
-        "@id": "https://www.geekatyourspot.com/#primaryimage",
+        "@id": "https://geekatyourspot.com/#primaryimage",
         "inLanguage": "en-US",
-        "url": "https://www.geekatyourspot.com/images/action-figure.jpeg",
-        "contentUrl": "https://www.geekatyourspot.com/images/action-figure.jpeg",
+        "url": "https://geekatyourspot.com/images/action-figure.jpeg",
+        "contentUrl": "https://geekatyourspot.com/images/action-figure.jpeg",
         "width": 1024,
         "height": 1536,
         "caption": "Geek At Your Spot - AI-created action figure representing founder's hands-on approach to AI consulting"
       },
       {
         "@type": "FAQPage",
-        "@id": "https://www.geekatyourspot.com/#faqpage",
+        "@id": "https://geekatyourspot.com/#faqpage",
         "mainEntity": [
           {
             "@type": "Question",
@@ -208,7 +208,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     ]
   }
   return {
-    metadataBase: new URL('https://www.geekatyourspot.com'),
+    metadataBase: new URL('https://geekatyourspot.com'),
     title: {
       default: 'AI Consulting for Small Business | Delray Beach, South Florida',
       template: '%s | Geek at Your Spot',
@@ -230,7 +230,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     authors: [
       {
         name: 'Geek at Your Spot',
-        url: 'https://www.geekatyourspot.com',
+        url: 'https://geekatyourspot.com',
       },
     ],
     creator: 'Geek at Your Spot LLC',
@@ -246,18 +246,18 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'AI Consulting for Small Business | Delray Beach, South Florida',
       description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.',
-      url: 'https://www.geekatyourspot.com',
+      url: 'https://geekatyourspot.com',
       siteName: 'Geek at Your Spot',
       images: [
         {
-          url: 'https://www.geekatyourspot.com/images/action-figure.jpeg',
+          url: 'https://geekatyourspot.com/images/action-figure.jpeg',
           width: 1024,
           height: 1536,
           alt: 'Geek At Your Spot - AI-created action figure representing hands-on AI consulting approach',
           type: 'image/jpeg',
         },
         {
-          url: 'https://www.geekatyourspot.com/images/GeekAtYourSpot.svg',
+          url: 'https://geekatyourspot.com/images/GeekAtYourSpot.svg',
           width: 116,
           height: 48,
           alt: 'Geek at Your Spot logo',
@@ -272,7 +272,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       title: 'AI Consulting for Small Business | Delray Beach, South Florida',
       description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses.',
       creator: '@geekatyourspot',
-      images: ['https://www.geekatyourspot.com/images/action-figure.jpeg'],
+      images: ['https://geekatyourspot.com/images/action-figure.jpeg'],
       site: '@geekatyourspot',
     },
     robots: {

@@ -18,7 +18,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "headline": "Automated Accounts Payable",
                 "description": "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
                 "image": [
-                    "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                    "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
                 ],
                 "author": {
                     "@type": "Person",
@@ -29,14 +29,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     "name": "Geek At Your Spot",
                     "logo": {
                         "@type": "ImageObject",
-                        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
                     }
                 },
                 "datePublished": "2026-07-23T13:31:17.5026845Z",
                 "dateModified": "2026-07-23T13:31:17.5026845Z",
                 "mainEntityOfPage": {
                     "@type": "WebPage",
-                    "@id": "https://www.geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable"
+                    "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable"
                 },
                 "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
                 "wordCount": 3474,
@@ -44,7 +44,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "citation": [
                     {
                         "@type": "BlogPosting",
-                        "url": "https://www.geekatyourspot.com/blog/accounting/accounts-payable/why-automating-accounts-payable-is-a-game-changer-for-your-business"
+                        "url": "https://geekatyourspot.com/blog/accounting/accounts-payable/why-automating-accounts-payable-is-a-game-changer-for-your-business"
                     }
                 ]
             },
@@ -54,7 +54,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Tipalti is a comprehensive payables automation solution that streamlines the end-to-end AP process. It offers capabilities such as global payments automation, supplier management, and compliance with tax and regulatory requirements.",
-                "url": "https://www.geekatyourspot.com/tools/accounting/accounts-payable/tipalti"
+                "url": "https://geekatyourspot.com/tools/accounting/accounts-payable/tipalti"
             },
             {
                 "@type": "SoftwareApplication",
@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Medius offers AI-driven accounts payable automation with a focus on invoice management and processing. It provides an intuitive platform that simplifies invoice capture, processing, and approval workflows.",
-                "url": "https://www.geekatyourspot.com/tools/accounting/accounts-payable/medius"
+                "url": "https://geekatyourspot.com/tools/accounting/accounts-payable/medius"
             },
             {
                 "@type": "SoftwareApplication",
@@ -70,7 +70,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Basware provides a cloud-based platform for automating invoice processing and procurement, renowned for its scalability and advanced data analytics. It supports organizations in improving cash flow visibility and supplier relationships.",
-                "url": "https://www.geekatyourspot.com/tools/accounting/accounts-payable/basware"
+                "url": "https://geekatyourspot.com/tools/accounting/accounts-payable/basware"
             },
             {
                 "@type": "SoftwareApplication",
@@ -78,7 +78,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Rillion is a user-friendly AP automation platform that emphasizes fast implementation and ease of use. It automates invoice processing, approval workflows, and integrates seamlessly with existing financial systems.",
-                "url": "https://www.geekatyourspot.com/tools/accounting/accounts-payable/rillion"
+                "url": "https://geekatyourspot.com/tools/accounting/accounts-payable/rillion"
             }
         ]
     };

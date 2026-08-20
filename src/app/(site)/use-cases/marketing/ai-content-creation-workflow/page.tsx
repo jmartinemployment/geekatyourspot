@@ -19,7 +19,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "headline": "AI Content Creation Workflow",
                 "description": "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
                 "image": [
-                    "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                    "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
                 ],
                 "author": {
                     "@type": "Person",
@@ -30,14 +30,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     "name": "Geek At Your Spot",
                     "logo": {
                         "@type": "ImageObject",
-                        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
                     }
                 },
                 "datePublished": "2026-08-18T11:42:58.9278075Z",
                 "dateModified": "2026-08-18T11:42:58.9278075Z",
                 "mainEntityOfPage": {
                     "@type": "WebPage",
-                    "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
+                    "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
                 },
                 "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
                 "wordCount": 4379,
@@ -45,7 +45,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "citation": [
                     {
                         "@type": "BlogPosting",
-                        "url": "https://www.geekatyourspot.com/blog/marketing/how-to-streamline-your-content-workflow-with-ai"
+                        "url": "https://geekatyourspot.com/blog/marketing/how-to-streamline-your-content-workflow-with-ai"
                     }
                 ]
             },
@@ -55,7 +55,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Enhance your AI content creation workflow with Jasper AI for seamless integration and productivity.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/jasper-ai"
+                "url": "https://geekatyourspot.com/tools/marketing/jasper-ai"
             },
             {
                 "@type": "SoftwareApplication",
@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Boost content creation efficiency with Copy.ai\u0027s AI workflow. Integrate seamlessly and enhance productivity.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/copyai"
+                "url": "https://geekatyourspot.com/tools/marketing/copyai"
             },
             {
                 "@type": "SoftwareApplication",
@@ -71,7 +71,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/chatgpt"
+                "url": "https://geekatyourspot.com/tools/marketing/chatgpt"
             },
             {
                 "@type": "SoftwareApplication",
@@ -79,7 +79,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Boost your content creation with Claude\u0027s AI workflow automation for efficient and creative text generation.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/claude"
+                "url": "https://geekatyourspot.com/tools/marketing/claude"
             },
             {
                 "@type": "SoftwareApplication",
@@ -87,7 +87,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "Web",
                 "description": "Optimize your AI content creation workflow with ContentStudios automation and scheduling features for social media.",
-                "url": "https://www.geekatyourspot.com/tools/marketing/contentstudio"
+                "url": "https://geekatyourspot.com/tools/marketing/contentstudio"
             }
         ]
     }

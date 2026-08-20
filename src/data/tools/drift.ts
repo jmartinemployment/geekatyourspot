@@ -9,7 +9,7 @@ export const driftContent: ToolPageContent = {
   "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
   "datePublished": "2026-07-26T14:53:22.2607360Z",
   "dateModified": "2026-07-26T14:53:22.2607360Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Drift",
@@ -18,9 +18,9 @@ export const driftContent: ToolPageContent = {
     "description": "Drift's intelligent lead capture pipeline enhances engagement and conversions with chatbots.",
     "@context": "https://schema.org",
     "headline": "Drift",
-    "url": "https://www.geekatyourspot.com/tools/marketing/drift",
+    "url": "https://geekatyourspot.com/tools/marketing/drift",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const driftContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-26T14:53:22.2607360Z",
     "dateModified": "2026-07-26T14:53:22.2607360Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/marketing/drift"
+      "@id": "https://geekatyourspot.com/tools/marketing/drift"
     },
     "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
     }
   },
   "sections": [

@@ -5,7 +5,7 @@ import { faFunnelDollar, faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { getToolsByDepartment } from "@/lib/tools-mapper";
 import type { ToolPageContent } from "@/types/tool";
 
-const SITE_URL = "https://www.geekatyourspot.com";
+const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Marketing AI Tools & Platforms";
 const PAGE_DESCRIPTION =

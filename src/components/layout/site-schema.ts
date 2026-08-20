@@ -1,4 +1,4 @@
-const SITE_URL = "https://www.geekatyourspot.com";
+const SITE_URL = "https://geekatyourspot.com";
 const BUSINESS_ID = `${SITE_URL}/#business`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const FOUNDER_ID = `${SITE_URL}/#founder`;

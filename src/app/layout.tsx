@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.geekatyourspot.com"),
+  metadataBase: new URL("https://geekatyourspot.com"),
   title: {
     default: "Geek @ Your Spot | AI Consultancy for South Florida Small Businesses",
     template: "%s | Geek @ Your Spot",
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
     title: "AI Consultancy for South Florida Small Businesses | Geek @ Your Spot",
     description:
       "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
-    url: "https://www.geekatyourspot.com",
+    url: "https://geekatyourspot.com",
     siteName: "Geek at Your Spot",
     images: [
       {
-        url: "https://www.geekatyourspot.com/images/action-figure.jpeg",
+        url: "https://geekatyourspot.com/images/action-figure.jpeg",
         width: 1024,
         height: 1536,
         alt: "Geek at Your Spot",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "AI Consultancy for South Florida Small Businesses | Geek @ Your Spot",
     description:
       "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
-    images: ["https://www.geekatyourspot.com/images/action-figure.jpeg"],
+    images: ["https://geekatyourspot.com/images/action-figure.jpeg"],
   },
   robots: {
     index: true,

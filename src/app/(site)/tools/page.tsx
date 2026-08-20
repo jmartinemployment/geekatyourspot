@@ -6,7 +6,7 @@ import { getAllTools } from "@/lib/tools-mapper";
 import { DEPARTMENT_ICONS, DepartmentName } from "@/types/department";
 import type { ToolPageContent } from "@/types/tool";
 
-const SITE_URL = "https://www.geekatyourspot.com";
+const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "AI Tools & Platforms";
 const PAGE_DESCRIPTION =

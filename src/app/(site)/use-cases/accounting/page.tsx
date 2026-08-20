@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalculator, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const SITE_URL = "https://www.geekatyourspot.com";
+const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Accounting & Finance Use Cases";
 const PAGE_DESCRIPTION =

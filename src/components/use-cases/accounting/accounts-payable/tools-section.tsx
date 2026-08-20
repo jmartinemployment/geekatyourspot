@@ -16,7 +16,7 @@ export default function ToolsSection() {
             </div>
             <div className="col-span-6">
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-                <a href="https://www.geekatyourspot.com/tools/accounting/tipalti">
+                <a href="https://geekatyourspot.com/tools/accounting/tipalti">
                   Tipalti
                 </a>
               </h3>
@@ -39,7 +39,7 @@ export default function ToolsSection() {
                 organization&#39;s operational needs. If custom development is required, Geek At Your Spot can extend Tipalti&#39;s
                 functionality through its open API, allowing for bespoke integrations that enhance the tool&#39;s core capabilities.
                 These efforts lead to faster realization of benefits, reduced error rates, and robust compliance management.</p>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://www.geekatyourspot.com/tools/accounting/basware">Basware</a></h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/basware">Basware</a></h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Basware provides a cloud-based platform for automating invoice processing and procurement, renowned for its
                 scalability and advanced data analytics. It supports organizations in improving cash flow visibility and supplier
                 relationships.</p>
@@ -59,7 +59,7 @@ export default function ToolsSection() {
             </div>
             <div className="col-span-6">
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-                <a href="https://www.geekatyourspot.com/tools/accounting/medius">
+                <a href="https://geekatyourspot.com/tools/accounting/medius">
                   Medius</a></h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Medius offers AI-driven accounts payable automation with a focus on invoice management and processing. It provides
                 an intuitive platform that simplifies invoice capture, processing, and approval workflows.</p>
@@ -77,7 +77,7 @@ export default function ToolsSection() {
                 hierarchies and exception handling. For custom code needs, Geek At Your Spot can leverage Medius&#39;s API to
                 integrate additional functionalities, such as bespoke validation rules or third-party service integrations,
                 ultimately achieving greater operational efficiency and enhanced user adoption.</p>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://www.geekatyourspot.com/tools/accounting/rillion">Rillion</a></h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/rillion">Rillion</a></h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Rillion is a user-friendly AP automation platform that emphasizes fast implementation and ease of use. It automates
                 invoice processing, approval workflows, and integrates seamlessly with existing financial systems.</p>
               <ul className="list-disc list-outside pl-3 space-y-2">

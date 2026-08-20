@@ -11,12 +11,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "name": "ChatGPT",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.geekatyourspot.com/tools/marketing/chatgpt",
+        "url": "https://geekatyourspot.com/tools/marketing/chatgpt",
         "@context": "https://schema.org",
         "headline": "ChatGPT",
         "description": "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
         "image": [
-            "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
         "author": {
             "@type": "Person",
@@ -27,19 +27,19 @@ export const generateMetadata = async (): Promise<Metadata> => {
             "name": "Geek At Your Spot",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
         "datePublished": "2026-08-18T11:42:50.5822275Z",
         "dateModified": "2026-08-18T11:42:50.5822275Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.geekatyourspot.com/tools/marketing/chatgpt"
+            "@id": "https://geekatyourspot.com/tools/marketing/chatgpt"
         },
         "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
+            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
         }
     };
     // Add the return statement to fix the TypeScript error

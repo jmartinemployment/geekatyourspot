@@ -9,7 +9,7 @@ export const mailchimpContent: ToolPageContent = {
   "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
   "datePublished": "2026-07-29T16:48:35.5898188Z",
   "dateModified": "2026-07-29T16:48:35.5898188Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Mailchimp",
@@ -18,9 +18,9 @@ export const mailchimpContent: ToolPageContent = {
     "description": "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
     "@context": "https://schema.org",
     "headline": "Mailchimp",
-    "url": "https://www.geekatyourspot.com/tools/marketing/mailchimp",
+    "url": "https://geekatyourspot.com/tools/marketing/mailchimp",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const mailchimpContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-29T16:48:35.5898188Z",
     "dateModified": "2026-07-29T16:48:35.5898188Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/marketing/mailchimp"
+      "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
     },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
     }
   },
   "sections": [

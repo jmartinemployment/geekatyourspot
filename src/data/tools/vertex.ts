@@ -9,7 +9,7 @@ export const vertexContent: ToolPageContent = {
   "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
   "datePublished": "2026-07-25T20:43:36.4877875Z",
   "dateModified": "2026-07-25T20:43:36.4877875Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Vertex",
@@ -18,9 +18,9 @@ export const vertexContent: ToolPageContent = {
     "description": "Automate tax compliance with Vertex for efficient regulation management and error reduction.",
     "@context": "https://schema.org",
     "headline": "Vertex",
-    "url": "https://www.geekatyourspot.com/tools/accounting/vertex",
+    "url": "https://geekatyourspot.com/tools/accounting/vertex",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const vertexContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-25T20:43:36.4877875Z",
     "dateModified": "2026-07-25T20:43:36.4877875Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/accounting/vertex"
+      "@id": "https://geekatyourspot.com/tools/accounting/vertex"
     },
     "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
+      "@id": "https://geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
     }
   },
   "sections": [

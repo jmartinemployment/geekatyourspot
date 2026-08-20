@@ -11,7 +11,7 @@ export const baswareContent: ToolPageContent = {
   keywords: "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
   datePublished: "2026-07-23T13:30:59.8391884Z",
   dateModified: "2026-07-23T13:30:59.8391884Z",
-  relatedArticleId: "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
+  relatedArticleId: "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
   jsonLd: {
     "@type": "SoftwareApplication",
     "name": "Basware",
@@ -20,9 +20,9 @@ export const baswareContent: ToolPageContent = {
     "description": "Basware automates accounts payable, enhancing efficiency and cash flow with cloud-based solutions.",
     "@context": "https://schema.org",
     "headline": "Basware",
-    "url": "https://www.geekatyourspot.com/tools/accounting/basware",
+    "url": "https://geekatyourspot.com/tools/accounting/basware",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -33,19 +33,19 @@ export const baswareContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-23T13:30:59.8391884Z",
     "dateModified": "2026-07-23T13:30:59.8391884Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/accounting/basware"
+      "@id": "https://geekatyourspot.com/tools/accounting/basware"
     },
     "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
+      "@id": "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
     }
   },
   sections: [

@@ -18,7 +18,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "headline": "Intelligent Lead Capture Pipeline",
                 "description": "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.",
                 "image": [
-                    "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                    "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
                 ],
                 "author": {
                     "@type": "Person",
@@ -29,14 +29,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     "name": "Geek At Your Spot",
                     "logo": {
                         "@type": "ImageObject",
-                        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
                     }
                 },
                 "datePublished": "2026-07-26T14:56:10.1903634Z",
                 "dateModified": "2026-07-26T14:56:10.1903634Z",
                 "mainEntityOfPage": {
                     "@type": "WebPage",
-                    "@id": "https://www.geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
+                    "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
                 },
                 "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
                 "wordCount": 3028,
@@ -44,7 +44,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "citation": [
                     {
                         "@type": "BlogPosting",
-                        "url": "https://www.geekatyourspot.com/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline"
+                        "url": "https://geekatyourspot.com/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline"
                     }
                 ]
             },

@@ -14,9 +14,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "description": "AI-driven marketing automation with Salesforce Pardot enhances lead management and campaign efficiency.",
         "@context": "https://schema.org",
         "headline": "Salesforce Pardot",
-        "url": "https://www.geekatyourspot.com/tools/marketing/salesforce-pardot",
+        "url": "https://geekatyourspot.com/tools/marketing/salesforce-pardot",
         "image": [
-            "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
         "author": {
             "@type": "Person",
@@ -27,19 +27,19 @@ export const generateMetadata = async (): Promise<Metadata> => {
             "name": "Geek At Your Spot",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
         "datePublished": "2026-07-29T16:48:23.5553589Z",
         "dateModified": "2026-07-29T16:48:23.5553589Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.geekatyourspot.com/tools/marketing/salesforce-pardot"
+            "@id": "https://geekatyourspot.com/tools/marketing/salesforce-pardot"
         },
         "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
         }
     }
     // Add the return statement to fix the TypeScript error

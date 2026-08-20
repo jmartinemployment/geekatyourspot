@@ -9,7 +9,7 @@ export const adobeSenseiContent: ToolPageContent = {
   "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
   "datePublished": "2026-07-30T16:50:08.0460632Z",
   "dateModified": "2026-07-30T16:50:08.0460632Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Adobe Sensei",
@@ -18,9 +18,9 @@ export const adobeSenseiContent: ToolPageContent = {
     "description": "Automate content creation workflows with Adobe Sensei's AI-driven platform for enhanced efficiency and intelligence.",
     "@context": "https://schema.org",
     "headline": "Adobe Sensei",
-    "url": "https://www.geekatyourspot.com/tools/marketing/adobe-sensei",
+    "url": "https://geekatyourspot.com/tools/marketing/adobe-sensei",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const adobeSenseiContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-30T16:50:08.0460632Z",
     "dateModified": "2026-07-30T16:50:08.0460632Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/marketing/adobe-sensei"
+      "@id": "https://geekatyourspot.com/tools/marketing/adobe-sensei"
     },
     "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
     }
   },
   "sections": [

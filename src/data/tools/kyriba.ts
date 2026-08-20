@@ -9,7 +9,7 @@ export const kyribaContent: ToolPageContent = {
   "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
   "datePublished": "2026-07-23T20:48:38.9540816Z",
   "dateModified": "2026-07-23T20:48:38.9540816Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/accounting/cash-flow-forecasting",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Kyriba",
@@ -18,9 +18,9 @@ export const kyribaContent: ToolPageContent = {
     "description": "Kyriba: Advanced cash flow forecasting and liquidity management for informed financial decisions.",
     "@context": "https://schema.org",
     "headline": "Kyriba",
-    "url": "https://www.geekatyourspot.com/tools/accounting/kyriba",
+    "url": "https://geekatyourspot.com/tools/accounting/kyriba",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const kyribaContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-23T20:48:38.9540816Z",
     "dateModified": "2026-07-23T20:48:38.9540816Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/accounting/kyriba"
+      "@id": "https://geekatyourspot.com/tools/accounting/kyriba"
     },
     "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
+      "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
     }
   },
   "sections": [

@@ -9,7 +9,7 @@ export const leadfeederContent: ToolPageContent = {
   "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
   "datePublished": "2026-07-26T14:53:11.8768993Z",
   "dateModified": "2026-07-26T14:53:11.8768993Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Leadfeeder",
@@ -18,9 +18,9 @@ export const leadfeederContent: ToolPageContent = {
     "description": "Leadfeeder converts website visits to sales leads, enhancing B2B strategies with Google Analytics integration.",
     "@context": "https://schema.org",
     "headline": "Leadfeeder",
-    "url": "https://www.geekatyourspot.com/tools/marketing/leadfeeder",
+    "url": "https://geekatyourspot.com/tools/marketing/leadfeeder",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const leadfeederContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-26T14:53:11.8768993Z",
     "dateModified": "2026-07-26T14:53:11.8768993Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/marketing/leadfeeder"
+      "@id": "https://geekatyourspot.com/tools/marketing/leadfeeder"
     },
     "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
     }
   },
   "sections": [

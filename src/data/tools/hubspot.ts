@@ -9,7 +9,7 @@ export const hubspotContent: ToolPageContent = {
   "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
   "datePublished": "2026-07-29T16:48:23.1157456Z",
   "dateModified": "2026-07-29T16:48:23.1157456Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "HubSpot",
@@ -18,9 +18,9 @@ export const hubspotContent: ToolPageContent = {
     "description": "HubSpot offers AI marketing systems to automate and enhance business processes efficiently.",
     "@context": "https://schema.org",
     "headline": "HubSpot",
-    "url": "https://www.geekatyourspot.com/tools/marketing/hubspot",
+    "url": "https://geekatyourspot.com/tools/marketing/hubspot",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const hubspotContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-29T16:48:23.1157456Z",
     "dateModified": "2026-07-29T16:48:23.1157456Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/marketing/hubspot"
+      "@id": "https://geekatyourspot.com/tools/marketing/hubspot"
     },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
     }
   },
   "sections": [

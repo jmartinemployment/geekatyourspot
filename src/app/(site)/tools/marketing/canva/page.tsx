@@ -14,9 +14,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "description": "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
         "@context": "https://schema.org",
         "headline": "Canva",
-        "url": "https://www.geekatyourspot.com/tools/marketing/canva",
+        "url": "https://geekatyourspot.com/tools/marketing/canva",
         "image": [
-            "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
         "author": {
             "@type": "Person",
@@ -27,19 +27,19 @@ export const generateMetadata = async (): Promise<Metadata> => {
             "name": "Geek At Your Spot",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
         "datePublished": "2026-07-30T16:49:55.0255581Z",
         "dateModified": "2026-07-30T16:49:55.0255581Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.geekatyourspot.com/tools/marketing/canva"
+            "@id": "https://geekatyourspot.com/tools/marketing/canva"
         },
         "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
+            "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
         }
     }
     // Add the return statement to fix the TypeScript error

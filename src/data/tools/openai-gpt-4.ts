@@ -9,7 +9,7 @@ export const openaiGpt4Content: ToolPageContent = {
   "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
   "datePublished": "2026-07-30T16:49:54.7781600Z",
   "dateModified": "2026-07-30T16:49:54.7781600Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "OpenAI GPT-4",
@@ -18,9 +18,9 @@ export const openaiGpt4Content: ToolPageContent = {
     "description": "Boost efficiency with OpenAI GPT-4, automating content creation for high-quality, precise results.",
     "@context": "https://schema.org",
     "headline": "OpenAI GPT-4",
-    "url": "https://www.geekatyourspot.com/tools/marketing/openai-gpt-4",
+    "url": "https://geekatyourspot.com/tools/marketing/openai-gpt-4",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const openaiGpt4Content: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-30T16:49:54.7781600Z",
     "dateModified": "2026-07-30T16:49:54.7781600Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/marketing/openai-gpt-4"
+      "@id": "https://geekatyourspot.com/tools/marketing/openai-gpt-4"
     },
     "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
     }
   },
   "sections": [

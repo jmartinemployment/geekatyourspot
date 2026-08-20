@@ -9,7 +9,7 @@ export const boardContent: ToolPageContent = {
   "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
   "datePublished": "2026-07-23T20:48:38.1939909Z",
   "dateModified": "2026-07-23T20:48:38.1939909Z",
-  "relatedArticleId": "https://www.geekatyourspot.com/use-cases/accounting/cash-flow-forecasting",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Board",
@@ -18,9 +18,9 @@ export const boardContent: ToolPageContent = {
     "description": "Board enhances cash flow forecasting with AI, unifying data for insightful financial planning.",
     "@context": "https://schema.org",
     "headline": "Board",
-    "url": "https://www.geekatyourspot.com/tools/accounting/board",
+    "url": "https://geekatyourspot.com/tools/accounting/board",
     "image": [
-      "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
     ],
     "author": {
       "@type": "Person",
@@ -31,19 +31,19 @@ export const boardContent: ToolPageContent = {
       "name": "Geek At Your Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.geekatyourspot.com/images/GeekAtYourSpot.svg"
+        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
       }
     },
     "datePublished": "2026-07-23T20:48:38.1939909Z",
     "dateModified": "2026-07-23T20:48:38.1939909Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.geekatyourspot.com/tools/accounting/board"
+      "@id": "https://geekatyourspot.com/tools/accounting/board"
     },
     "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
     "subjectOf": {
       "@type": "TechArticle",
-      "@id": "https://www.geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
+      "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
     }
   },
   "sections": [
