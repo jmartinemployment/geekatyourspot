@@ -93,7 +93,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     authors: [{ name: 'Geek at Your Spot', url: 'https://geekatyourspot.com/' }],
     creator: 'Geek at Your Spot Llc',
     publisher: 'Geek at Your Spot Llc',
-    metadataBase: new URL('https://geekatyourspot.com/'),
+    metadataBase: new URL('https://geekatyourspot.com'),
     alternates: {
       canonical: '/cash-flow-forecasting/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
       languages: {

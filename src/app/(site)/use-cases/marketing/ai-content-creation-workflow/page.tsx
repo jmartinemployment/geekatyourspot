@@ -101,7 +101,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
-        metadataBase: new URL('https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow'),
+        metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/marketing/AI-content-creation-workflow',
             languages: {
