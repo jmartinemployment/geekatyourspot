@@ -5,19 +5,8 @@ const nextConfig: NextConfig = {
     formats: ['image/avif', 'image/webp'],
     qualities: [75, 100],
   },
-  // Apex → www, 308 permanent. Both hostnames resolve to Vercel and both served 200, so the same
-  // page existed at two URLs. rel=canonical already declares www as authoritative; this makes the
-  // redirect match the declaration so nothing crawls the duplicate in the first place.
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'geekatyourspot.com' }],
-        destination: 'https://www.geekatyourspot.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
+  // Host canonicalization lives in Vercel (Settings > Domains), not here. Having both caused a
+  // redirect loop: this file sent apex -> www while the dashboard sent www -> apex.
 };
 
 export default nextConfig;
