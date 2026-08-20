@@ -1,1 +1,0 @@
-A generic software tile/icon representing grammar and writing enhancement tools, using symbols like a pen and checkmark. The design should be neutral and abstract, not specific to any brand.
