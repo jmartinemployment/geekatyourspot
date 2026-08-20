@@ -11,7 +11,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFunnelDollar,
-    faBellConcierge,
     faTag,
     faUsersBetweenLines,
     faCalculator,
@@ -1748,44 +1747,6 @@ export function UseCasesSection() {
                             </CardContent>
                         </Card>
                     </div>
-                    {/* <div className="col-span-6 bg-[#CBCBCB] px-5 py-5 scroll-mt-24">
-                        <h3 className="text-black text-3xl font-bold shadow-text">
-                            Customer Service
-                        </h3>
-                        <p className="text-black text-xs">
-                            High-priority targets for improvement include fixing support responsiveness, eliminating repetition, reducing after-hours delays, and introducing self-service options.
-                        </p>
-                        <ol>
-                            <h4 className="text-black font-bold lg:text-lg shadow-text">High volume, Limited Staff</h4>
-                            <ul className="text-black list-disc text-xs list- pl-3 ">
-                                <li className="pl-.5">
-                                    <strong className="text-sm">Chatbots, Interactive Voice Response  : </strong>
-                                    Answer FAQs, capture details, deflect tickets 24/7. Phone Interactive Voice Response (IVR) systems can route calls by topic, provide recorded answers to FAQs, and prioritize high-value customers, reducing wait times and misrouted calls.
-                                </li>
-                                <li className="pl-.5">
-                                    <strong className="text-sm">Repetition Fatigue: </strong>
-                                    Use omnichannel helpdesks to unify all communications into a single, centralized dashboard. Solutions like Freshdesk give support reps a 360-degree view of previous interactions so customers never have to repeat themselves.
-                                </li>
-                                <li className="pl-.5">
-                                    <strong className="text-sm">"After-Hours" Silence: </strong>
-                                    Deploy basic AI-driven or rule-based chatbots to handle basic, routine inquiries and route after-hours requests. You can set up automation workflows via ManyChat or HubSpot to instantly acknowledge customer messages and set expectations for when a human will respond.
-                                </li>
-                                <li className="pl-.5">
-                                    <strong className="text-sm">Self-Service Options: </strong>
-                                    Build a comprehensive Knowledge Base or FAQ page on your website. Use website builders like Squarespace or Shopify to embed these self-service portals directly into your checkout and contact pages.
-                                </li>
-                            </ul>
-                        </ol>
-                    </div> 
-                    <div className="col-span-6 flex flex-col items-center justify-center py-5 bg-[#023059] scroll-mt-24">
-                        <FontAwesomeIcon
-                            icon={faBellConcierge}
-                            width={256}
-                            height={256}
-                            className="text-white mb-4"
-                        />
-                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Customer Service</p>
-                    </div>*/}
                     <div className="col-span-6">
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
                             <CardContent>
