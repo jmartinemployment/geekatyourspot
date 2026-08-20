@@ -22,14 +22,16 @@ export function NewspaperFrontGrid({ data }: NewspaperFrontGridProps): React.JSX
             pillars.map((pillar) => (
               <article
                 key={pillar.slug}
-                className="space-y-1 border-b border-neutral-300 pb-4 last:border-0 last:pb-0"
+                className="border-b border-neutral-300 pb-4 last:border-0 last:pb-0"
               >
-                <Link href={pillar.href}>
-                  <h4 className="font-[family-name:var(--font-news-header)] text-xl leading-tight font-bold hover:underline">
+                <Link href={pillar.href} className="group block space-y-1">
+                  <h4 className="font-[family-name:var(--font-news-header)] text-xl leading-tight font-bold group-hover:underline">
                     {pillar.title}
                   </h4>
+                  <p className="text-justify font-sans text-xs leading-relaxed text-neutral-700">
+                    {pillar.excerpt}
+                  </p>
                 </Link>
-                <p className="text-justify font-sans text-xs leading-relaxed text-neutral-700">{pillar.excerpt}</p>
               </article>
             ))
           ) : (
@@ -45,15 +47,15 @@ export function NewspaperFrontGrid({ data }: NewspaperFrontGridProps): React.JSX
         </h3>
 
         {lead ? (
-          <article className="space-y-3">
-            <Link href={lead.href}>
-              <h2 className="text-center font-[family-name:var(--font-news-header)] text-2xl leading-tight font-extrabold tracking-tight uppercase md:text-4xl hover:underline">
+          <article>
+            <Link href={lead.href} className="group block space-y-3">
+              <h2 className="text-center font-[family-name:var(--font-news-header)] text-2xl leading-tight font-extrabold tracking-tight uppercase md:text-4xl group-hover:underline">
                 {lead.title}
               </h2>
+              <p className="border-y border-neutral-300 py-1.5 text-center font-sans text-sm text-neutral-700">
+                {lead.excerpt}
+              </p>
             </Link>
-            <p className="border-y border-neutral-300 py-1.5 text-center font-sans text-sm text-neutral-700">
-              {lead.excerpt}
-            </p>
           </article>
         ) : (
           <p className="font-sans text-sm text-neutral-600">No published blog posts on this page.</p>
@@ -65,13 +67,13 @@ export function NewspaperFrontGrid({ data }: NewspaperFrontGridProps): React.JSX
               {lead ? "More on the wire" : "On the wire"}
             </h4>
             {wire.map((post) => (
-              <article key={post.slug} className="space-y-1">
-                <Link href={post.href}>
-                  <h5 className="font-[family-name:var(--font-news-header)] text-lg font-bold leading-tight hover:underline">
+              <article key={post.slug}>
+                <Link href={post.href} className="group block space-y-1">
+                  <h5 className="font-[family-name:var(--font-news-header)] text-lg font-bold leading-tight group-hover:underline">
                     {post.title}
                   </h5>
+                  <p className="font-sans text-xs leading-relaxed text-neutral-700">{post.excerpt}</p>
                 </Link>
-                <p className="font-sans text-xs leading-relaxed text-neutral-700">{post.excerpt}</p>
               </article>
             ))}
           </div>
@@ -89,12 +91,12 @@ export function NewspaperFrontGrid({ data }: NewspaperFrontGridProps): React.JSX
               className="border-2 border-black bg-neutral-100 p-3 font-sans text-xs shadow-[4px_4px_0_0_#000]"
             >
               <p className="mb-1 text-[9px] font-bold tracking-widest text-neutral-500 uppercase">Sponsored</p>
-              <Link href={tool.href}>
-                <p className="font-[family-name:var(--font-news-header)] text-sm font-bold leading-tight hover:underline">
+              <Link href={tool.href} className="group block">
+                <p className="font-[family-name:var(--font-news-header)] text-sm font-bold leading-tight group-hover:underline">
                   {tool.title}
                 </p>
+                <p className="mt-2 leading-relaxed text-neutral-700">{tool.excerpt}</p>
               </Link>
-              <p className="mt-2 leading-relaxed text-neutral-700">{tool.excerpt}</p>
             </aside>
           ))}
           {tools.length === 0 && (

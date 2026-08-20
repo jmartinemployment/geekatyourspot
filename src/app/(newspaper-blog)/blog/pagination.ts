@@ -1,3 +1,5 @@
+import { listEntries } from "@/lib/content-writer/content";
+
 export type NewspaperItem = {
   slug: string;
   href: string;
@@ -12,27 +14,31 @@ export type NewspaperPageData = {
   blogs: NewspaperItem[];
 };
 
-export const NEWSPAPER_TOTAL_PAGES = 1;
+/** Blog posts printed per edition: one lead story plus the wire column. */
+export const POSTS_PER_PAGE = 4;
 
+/**
+ * Sidebar rails. These stay hand-curated because they point at hand-built
+ * marketing pages, not at Content Writer exports.
+ */
 export const pillars: NewspaperItem[] = [
   {
-    slug: "ai-for-small-business",
-    href: "/blog/pillar/ai-for-small-business",
-    title: "Why South Florida Small Businesses Are Finally Adopting AI",
-    
+    slug: "ai-marketing-systems",
+    href: "/use-cases/marketing/ai-marketing-systems",
+    title: "AI Marketing Systems for Small Businesses",
     excerpt:
       "Local shops that once dismissed AI as enterprise-only are now automating scheduling, invoicing, and customer follow-up with tools built for their scale.",
   },
   {
-    slug: "reduce-manual-work",
-    href: "/blog/pillar/reduce-manual-work",
+    slug: "automated-accounts-payable",
+    href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
     title: "The Real Cost of Manual Data Entry, Quantified",
     excerpt:
       "We tallied the hours a five-person accounting office spends on copy-paste work in a year. The number surprised even us.",
   },
   {
-    slug: "tax-compliance-playbook",
-    href: "/blog/pillar/tax-compliance-playbook",
+    slug: "tax-compliance-regulations",
+    href: "/use-cases/accounting/tax-compliance-regulations",
     title: "A Tax Season Playbook for Two-Person Firms",
     excerpt:
       "Compliance automation isn't just for the Big Four. Here's what a lean bookkeeping shop can put in place before January.",
@@ -41,17 +47,17 @@ export const pillars: NewspaperItem[] = [
 
 export const tools: NewspaperItem[] = [
   {
-    slug: "lead-capture-pipeline",
-    href: "/blog/tools/lead-capture-pipeline",
+    slug: "intelligent-lead-capture-pipeline",
+    href: "/use-cases/marketing/intelligent-lead-capture-pipeline",
     title: "Inside the Marketing Lead-Capture Pipeline",
     excerpt:
       "A look at how automated intake forms route qualified leads straight to a rep's calendar in under sixty seconds.",
   },
   {
-    slug: "customer-service-assistant",
-    href: "/use-cases/customer-service",
-    title: "AI Customer Service Assistant",
-    excerpt: "Round-the-clock answers for order status, hours, and common questions.",
+    slug: "ai-content-creation-workflow",
+    href: "/use-cases/marketing/ai-content-creation-workflow",
+    title: "AI Content Creation Workflow",
+    excerpt: "Plan, draft, and publish without the copy-paste relay between four tools.",
   },
   {
     slug: "accounting-automation-suite",
@@ -67,31 +73,29 @@ export const tools: NewspaperItem[] = [
   },
 ];
 
-export const blogs: NewspaperItem[] = [
-  {
-    slug: "customer-service-ai-launch",
-    href: "/blog/customer-service-ai-launch",
-    title: "Geek at Your Spot Launches AI Customer-Service Assistant for Local Retailers",
-    excerpt:
-      "The new assistant answers after-hours questions, tracks order status, and hands off to a human the moment a customer asks for one.",
-  },
-  {
-    slug: "calendar-automation-notes",
-    href: "/blog/calendar-automation-notes",
-    title: "Field Notes: Automating Appointment Scheduling for a Delray Beach Salon",
-    excerpt: "No-shows dropped 40% after we wired confirmation texts into the booking calendar. Here's the setup.",
-  },
-  {
-    slug: "accounting-department-rollout",
-    href: "/blog/accounting-department-rollout",
-    title: "What a Two-Week AI Rollout Looks Like for an Accounting Department",
-    excerpt: "Day one: shadow the process. Day fourteen: the team stops opening the old spreadsheet entirely.",
-  },
-];
+function toNewspaperItems(): NewspaperItem[] {
+  return listEntries("blog").map((entry) => ({
+    slug: `${entry.department}/${entry.slug}`,
+    href: entry.href,
+    title: entry.headline || entry.title,
+    excerpt: entry.excerpt,
+  }));
+}
 
-export const sampleNewspaperPage: NewspaperPageData = {
-  page: 1,
-  pillars,
-  tools,
-  blogs,
-};
+export function getTotalPages(): number {
+  return Math.max(1, Math.ceil(toNewspaperItems().length / POSTS_PER_PAGE));
+}
+
+export function getNewspaperPage(page: number): NewspaperPageData {
+  const all = toNewspaperItems();
+  const totalPages = Math.max(1, Math.ceil(all.length / POSTS_PER_PAGE));
+  const current = Math.min(Math.max(1, page), totalPages);
+  const start = (current - 1) * POSTS_PER_PAGE;
+
+  return {
+    page: current,
+    pillars,
+    tools,
+    blogs: all.slice(start, start + POSTS_PER_PAGE),
+  };
+}

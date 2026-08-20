@@ -250,3 +250,162 @@ html, body {
     font-size: 1.5rem !important;
     line-height: 2rem !important;
   }
+
+/* ---------------------------------------------------------------------------
+   Newspaper blog
+   --------------------------------------------------------------------------- */
+
+/* Body copy for Content Writer article exports rendered as raw HTML. */
+.newspaper-article h2 {
+  font-family: var(--font-news-header), serif;
+  font-size: 1.65rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.newspaper-article h3 {
+  font-family: var(--font-news-header), serif;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.newspaper-article h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.newspaper-article p {
+  font-size: 1rem;
+  line-height: 1.75;
+  text-align: justify;
+  hyphens: auto;
+  margin-bottom: 1rem;
+  color: #1f1f1f;
+}
+
+.newspaper-article ul,
+.newspaper-article ol {
+  margin: 0 0 1.25rem 1.25rem;
+  padding-left: 1rem;
+  line-height: 1.7;
+}
+
+.newspaper-article ul {
+  list-style: square outside;
+}
+
+.newspaper-article ol {
+  list-style: decimal outside;
+}
+
+.newspaper-article li {
+  margin-bottom: 0.4rem;
+}
+
+.newspaper-article a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+
+.newspaper-article blockquote {
+  border-left: 3px solid #000;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+.newspaper-article img {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border: 1px solid #d4d4d4;
+}
+
+.newspaper-article figcaption {
+  font-size: 0.75rem;
+  font-style: italic;
+  text-align: center;
+  color: #525252;
+}
+
+/* Page-turn pagination on the blog front page. */
+.newspaper-page-shell {
+  perspective: 2200px;
+}
+
+.newspaper-page-sheet {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+.newspaper-page-sheet--turn-next {
+  animation: newspaper-turn-next 520ms ease-in forwards;
+}
+
+.newspaper-page-sheet--turn-prev {
+  animation: newspaper-turn-prev 520ms ease-in forwards;
+}
+
+@keyframes newspaper-turn-next {
+  from {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(-95deg);
+    opacity: 0.15;
+  }
+}
+
+@keyframes newspaper-turn-prev {
+  from {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(95deg);
+    opacity: 0.15;
+  }
+}
+
+.newspaper-page-corner {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid #000;
+  background: linear-gradient(135deg, transparent 46%, #e6e1d5 46%);
+  box-shadow: 2px 2px 0 0 #000;
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.newspaper-page-corner:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, transparent 46%, #d6cfbd 46%);
+}
+
+.newspaper-page-corner:disabled {
+  opacity: 0.4;
+}
+
+.newspaper-page-corner--prev {
+  transform: scaleX(-1);
+}
+
+.newspaper-page-corner--prev:hover:not(:disabled) {
+  transform: scaleX(-1) translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .newspaper-page-sheet--turn-next,
+  .newspaper-page-sheet--turn-prev {
+    animation: none;
+  }
+}
