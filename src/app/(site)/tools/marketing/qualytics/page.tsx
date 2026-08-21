@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewToolSection from "@/components/tools/canva/overview-section";
-import KeyCapabilitiesSection from "@/components/tools/canva/key-capabilities";
-import ImplementationSection from "@/components/tools/canva/implementation-section";
-import WhenToUseSection from "@/components/tools/canva/when-to-use-section";
+import OverviewToolSection from "@/components/tools/qualytics/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/qualytics/key-capabilities";
+import ImplementationSection from "@/components/tools/qualytics/implementation-section";
+import WhenToUseSection from "@/components/tools/qualytics/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const jsonLd = {
         "@type": "SoftwareApplication",
-        "name": "Canva",
+        "name": "Qualytics",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "description": "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
+        "url": "https://geekatyourspot.com/tools/marketing/qualytics",
         "@context": "https://schema.org",
-        "headline": "Canva",
-        "url": "https://geekatyourspot.com/tools/marketing/canva",
+        "headline": "Qualytics",
+        "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
         "image": [
             "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
@@ -31,16 +31,16 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
-        "datePublished": "2026-07-30T16:49:55.0255581Z",
-        "dateModified": "2026-07-30T16:49:55.0255581Z",
+        "datePublished": "2026-08-20T18:37:13.3818938Z",
+        "dateModified": "2026-08-20T18:37:13.3818938Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://geekatyourspot.com/tools/marketing/canva"
+            "@id": "https://geekatyourspot.com/tools/marketing/qualytics"
         },
-        "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
+        "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
+            "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
         }
     }
     // Add the return statement to fix the TypeScript error
@@ -49,22 +49,22 @@ export const generateMetadata = async (): Promise<Metadata> => {
             default: 'Geek at Your Spot',
             template: '%s | Geek at Your Spot', // Appends to child page titles automatically
         },
-        description: "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
-        keywords: ["Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies"],
+        description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
+        keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/tools/marketing/canva',
+            canonical: '/tools/marketing/qualytics',
             languages: {
                 'en-US': '/en-US',
                 'es-ES': '/es-ES',
             },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Canva',
-            description: 'Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.',
+            title: "Geek at Your Spot | Qualytics",
+            description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
             url: 'https://geekatyourspot.com/',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
@@ -80,8 +80,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Canva',
-            description: 'Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.',
+            title: "Geek at Your Spot | Qualytics",
+            description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
@@ -120,8 +120,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Canva's AI Tool";
-    const heroSummary = "Streamline your content creation with Canva, a powerful tool for efficient, automated graphic design workflows.";
+    const title = "Qualytics AI Tool";
+    const heroSummary = "Optimize ad spend with Qualytics by automating data quality checks for precise and reliable marketing decisions.";
     return (
         <>
             <ToolsHeroSection
