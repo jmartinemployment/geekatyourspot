@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function KeyCapabilitiesSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white">
