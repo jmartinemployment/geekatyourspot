@@ -1,4 +1,12 @@
-const GTM_LINK_PREFIX = 'gtm-link-'
+// DOM ids must not look like analytics hooks. uBlock Origin, AdGuard, Ghostery and Brave all
+// ship cosmetic filters matching `gtm-` prefixed selectors, so ids built with the old prefix were
+// hidden client-side for anyone running a blocker -- the nav hamburger (`gtm-click-nav-menu-toggle`)
+// disappeared entirely, leaving those visitors with no way to open the menu. The element loaded and
+// was then hidden, so nothing showed up as an error.
+//
+// These are still the ids GTM reports on: the tracker below reads them and pushes them as
+// `link_id` / `click_id`. Only the prefix changed, so trigger event names are unaffected.
+const GTM_LINK_PREFIX = 'gys-link-'
 
 export { GTM_LINK_PREFIX }
 
@@ -52,7 +60,7 @@ export function gtmLinkIdFromHref(href: string, suffix?: string): string {
   return gtmLinkId(parts, suffix)
 }
 
-export const GTM_CLICK_PREFIX = 'gtm-click-'
+export const GTM_CLICK_PREFIX = 'gys-btn-'
 
 export function gtmClickId(segments: string | readonly string[]): string {
   const parts = (typeof segments === 'string' ? [segments] : [...segments])
