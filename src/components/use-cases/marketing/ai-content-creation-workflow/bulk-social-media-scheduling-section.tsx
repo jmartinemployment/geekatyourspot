@@ -75,7 +75,7 @@ export default function BulkSocialMediaSchedulingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
             <div className="col-span-7">
-              <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="bulk-social-media-scheduling-consistency-across-platforms">Bulk Social Media Scheduling: Consistency Across
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="bulk-social-media-scheduling-consistency-across-platforms">Bulk Social Media Scheduling: Consistency Across
                 Platforms</h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Managing a consistent presence on multiple social media platforms can be overwhelming for many businesses. The

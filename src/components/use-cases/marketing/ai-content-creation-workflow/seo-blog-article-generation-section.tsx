@@ -128,7 +128,7 @@ export default function SEOBlogArticleGenerationSection() {
                 style={{ width: '100%', height: '460' }} />
             </div>
             <div className="col-span-7">
-              <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="seo-blog-and-article-generation-enhance-visibility-with-ai-2">SEO Blog and Article Generation: Enhance
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="seo-blog-and-article-generation-enhance-visibility-with-ai-2">SEO Blog and Article Generation: Enhance
                 Visibility with AI</h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Maintaining a robust online presence is challenging for many businesses due to time constraints and limited

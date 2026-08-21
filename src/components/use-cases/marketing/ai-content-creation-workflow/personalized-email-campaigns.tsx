@@ -110,7 +110,7 @@ export default function PersonalizedEmailCampaignsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
             <div className="col-span-7">
-              <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalized-email-campaigns-tailored-communication-at-scale">Personalized Email Campaigns: Tailored
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalized-email-campaigns-tailored-communication-at-scale">Personalized Email Campaigns: Tailored
                 Communication at Scale</h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 One of the biggest challenges marketing teams face is crafting personalized email campaigns that truly resonate
