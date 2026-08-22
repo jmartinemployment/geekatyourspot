@@ -1,0 +1,1 @@
+A teaching diagram displaying the steps to implement AI for content efficiency in a business setting. Show stages like planning, tool selection, integration, and monitoring, with visual symbols for each step.
