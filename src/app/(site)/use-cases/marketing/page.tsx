@@ -73,6 +73,13 @@ export default function MarketingUseCasesPage() {
         "Build smarter lead capture strategies with AI-powered tools that improve qualification and conversion rates.",
       href: "/use-cases/marketing/intelligent-lead-capture-pipeline",
     },
+    {
+      title: "AI Content Repurposing",
+      slug: "ai-content-repurposing",
+      description:
+        "Transform your content with AI repurposing tools, saving time and enhancing audience engagement across platforms.",
+      href: "/use-cases/marketing/ai-content-repurposing",
+    },
   ];
 
   const jsonLd = {

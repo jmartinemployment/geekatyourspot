@@ -181,6 +181,11 @@ export default function Navbar(): React.JSX.Element {
                       label="AI Content Creation Workflow"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/use-cases/marketing/ai-content-repurposing"
+                      label="AI Content Repurposing"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
 
@@ -232,6 +237,11 @@ export default function Navbar(): React.JSX.Element {
                       label="Why Your B2B Sales Need an Intelligent Lead Capture Pipeline"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/marketing/unlocking-the-power-of-ai-for-content-repurposing"
+                      label="Unlocking the Power of AI for Content Repurposing"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
 
@@ -265,6 +275,11 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/grammarly" label="Grammarly" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/hubspot" label="HubSpot" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/contentstudio" label="ContentStudio" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/copyai" label="Copy.ai" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/makecom" label="Make.com" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/marketo" label="Marketo" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/openai-gpt-4" label="OpenAI GPT-4" onNavigate={closeSidebar} />

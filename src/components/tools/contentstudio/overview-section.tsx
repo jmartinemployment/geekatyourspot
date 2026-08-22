@@ -1,0 +1,33 @@
+export default function OverviewSection() {
+  return (
+    <>
+      <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 gap-x-4">
+            <div className="col-span-5"></div>
+            <div className="col-span-7">
+              <h2 className="text-white text-right text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Overview</h2>
+                </div>
+            <div className="col-span-12">
+              <p className="text-md text-white shadow-text pt-3">ContentStudio is a versatile platform designed to help businesses maximize the lifespan of their content through AI-driven repurposing strategies. In a digital landscape where content can quickly become outdated, ContentStudio offers a solution to keep your material fresh and engaging. It enables users to transform existing content into multiple formats, making it accessible and appealing to a broader audience. This tool is particularly beneficial for small teams looking to extend the reach of their content without additional costly investments in new material.</p><p className="text-md text-white shadow-text pt-3">By using ContentStudio, businesses can efficiently manage and repurpose content across various channels such as social media, blogs, and email campaigns. The platform's AI capabilities allow for seamless transformation of content types, ensuring that your message remains consistent and impactful. For example, a blog post can be converted into a series of engaging social media updates or an informative infographic, maximizing the content's reach and effectiveness.</p><p className="text-md text-white shadow-text pt-3">ContentStudio stands out in the AI content repurposing space by offering a comprehensive suite of tools that streamline content management and distribution. It integrates with popular platforms, allowing for easy sharing and scheduling of repurposed content. This not only saves time but also reduces the likelihood of errors and inconsistencies that can occur when content is manually adapted for different formats and platforms.</p><p className="text-md text-white shadow-text pt-3">In an era where content relevance is key to maintaining audience engagement, ContentStudio provides a practical solution for businesses to keep their content alive and pertinent. By leveraging AI technology, it helps users avoid the cycle of constant content creation, focusing instead on maximizing the value of existing assets. This approach not only conserves resources but also enhances audience interaction and satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-5"></div>
+            <div className="col-span-7">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Overview</h2>
+              <p className="text-md text-white shadow-text pt-3">ContentStudio is a versatile platform designed to help businesses maximize the lifespan of their content through AI-driven repurposing strategies. In a digital landscape where content can quickly become outdated, ContentStudio offers a solution to keep your material fresh and engaging. It enables users to transform existing content into multiple formats, making it accessible and appealing to a broader audience. This tool is particularly beneficial for small teams looking to extend the reach of their content without additional costly investments in new material.</p><p className="text-md text-white shadow-text pt-3">By using ContentStudio, businesses can efficiently manage and repurpose content across various channels such as social media, blogs, and email campaigns. The platform's AI capabilities allow for seamless transformation of content types, ensuring that your message remains consistent and impactful. For example, a blog post can be converted into a series of engaging social media updates or an informative infographic, maximizing the content's reach and effectiveness.</p><p className="text-md text-white shadow-text pt-3">ContentStudio stands out in the AI content repurposing space by offering a comprehensive suite of tools that streamline content management and distribution. It integrates with popular platforms, allowing for easy sharing and scheduling of repurposed content. This not only saves time but also reduces the likelihood of errors and inconsistencies that can occur when content is manually adapted for different formats and platforms.</p><p className="text-md text-white shadow-text pt-3">In an era where content relevance is key to maintaining audience engagement, ContentStudio provides a practical solution for businesses to keep their content alive and pertinent. By leveraging AI technology, it helps users avoid the cycle of constant content creation, focusing instead on maximizing the value of existing assets. This approach not only conserves resources but also enhances audience interaction and satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
