@@ -121,7 +121,7 @@ export default function Navbar(): React.JSX.Element {
           id="site-menu"
           side="top"
           showCloseButton={false}
-          className="!inset-x-0 !top-16 !bottom-auto !h-auto !w-full !max-w-none gap-0 overflow-hidden border-x-0 border-b border-t-0 bg-white p-0 text-foreground shadow-md data-ending-style:translate-y-0 data-starting-style:translate-y-0"
+          className="!inset-x-0 !top-16 !bottom-auto !h-auto !w-full !max-w-none gap-0 overflow-hidden border-x-0 border-b border-t-0 bg-white p-0 text-foreground shadow-md"
         >
           <SheetTitle className="sr-only">Site menu</SheetTitle>
 
