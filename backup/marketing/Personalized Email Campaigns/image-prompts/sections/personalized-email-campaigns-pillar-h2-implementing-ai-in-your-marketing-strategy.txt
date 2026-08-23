@@ -1,0 +1,1 @@
+A step-by-step process diagram showing the implementation of AI into a marketing strategy, with stages like planning, execution, and analysis, represented by abstract shapes and arrows.

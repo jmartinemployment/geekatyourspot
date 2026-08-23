@@ -101,7 +101,7 @@ function parseFile(filePath: string): ParsedFile | null {
   const slug = rest[0];
 
   const meta: Record<string, string> = {};
-  for (const match of html.matchAll(/<meta name="([^"]+)" content="([^"]*)"\s*\/?>/g)) {
+  for (const match of html.matchAll(/<meta name="([^"]+)"\s+content="([^"]*)"\s*\/?>/gs)) {
     meta[match[1]] = decodeEntities(match[2]);
   }
 

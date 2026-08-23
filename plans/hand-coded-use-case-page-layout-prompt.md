@@ -24,9 +24,11 @@ Each section (except FAQ/PAA) must have **two parallel `<section>` blocks**:
 
 ### 2. Desktop Section (`hidden lg:block`)
 - Use `<section className="min-h-screen bg-[#COLOR] text-white py-5 hidden lg:block">`
-- Same alternating col-span pattern as mobile, but with actual images OR empty divs
+- Same alternating col-span pattern as mobile (empty↔content on left/right)
+- **KEY DIFFERENCE**: Body content goes **inside the content column** with the heading, NOT in a separate col-span-12 row
 - Desktop heading uses larger font: `lg:text-[3.5rem]` (vs mobile `text-[6vw] sm:text-4xl md:text-5xl`)
-- Body content in the content column, empty div on the opposite side
+- Grid structure: Two columns only on desktop (col-span-5 empty div + col-span-7 with heading+body)
+- **NOTE:** Use empty divs for now—do NOT add Image components until corresponding images are generated
 
 ### 3. Special Case: FAQ/PAA Section
 - Single `<section>` block (no mobile/desktop split)
@@ -37,27 +39,46 @@ Each section (except FAQ/PAA) must have **two parallel `<section>` blocks**:
 
 ## Grid Column Layout (12-column grid)
 
-**Alternating pattern (mobile & desktop identical):**
+**Mobile (`lg:hidden`) — Heading and body separated:**
 ```
 Section 1 (Lede):
-  [col-span-5 empty] [col-span-7 content]
+  [col-span-5 empty] [col-span-7 heading]
   [col-span-12 body]
 
 Section 2 (Benefits):
-  [col-span-7 content] [col-span-5 empty]
+  [col-span-7 heading] [col-span-5 empty]
   [col-span-12 body]
 
 Section 3 (Streamlining):
-  [col-span-5 empty] [col-span-7 content]
+  [col-span-5 empty] [col-span-7 heading]
   [col-span-12 body]
 
 Section 4 (Implementing):
-  [col-span-7 content] [col-span-5 empty]
+  [col-span-7 heading] [col-span-5 empty]
   [col-span-12 body]
 
 Section 5 (PAA):
   [col-span-9 heading]
   [col-span-12 body]
+```
+
+**Desktop (`hidden lg:block`) — Heading and body together in content column:**
+```
+Section 1 (Lede):
+  [col-span-5 empty] [col-span-7 heading+body]
+
+Section 2 (Benefits):
+  [col-span-7 heading+body] [col-span-5 empty]
+
+Section 3 (Streamlining):
+  [col-span-5 empty] [col-span-7 heading+body]
+
+Section 4 (Implementing):
+  [col-span-7 heading+body] [col-span-5 empty]
+
+Section 5 (PAA):
+  [col-span-9 heading]
+  [col-span-12 body] (single section, no mobile/desktop split)
 ```
 
 ---
@@ -103,42 +124,53 @@ All content must be written by hand in the JSX:
 
 ---
 
-## Shared Body Pattern (Optional)
+## Shared Body Pattern (Recommended)
 
-For sections with multiple paragraphs and subsections, define a reusable `const body = ( <> ... </> )` before the return statement, then use it in both mobile and desktop sections:
+For sections with multiple paragraphs and subsections, define a reusable `const body = ( <> ... </> )` before the return statement, then use it in both mobile and desktop sections. This avoids code duplication.
 
+**Mobile section structure:**
 ```tsx
-const body = (
-  <>
-    <p>...</p>
-    <h3>...</h3>
-    <p>...</p>
-    <ul>
-      <li>...</li>
-    </ul>
-  </>
-);
-
-return (
-  <>
-    <section className="... lg:hidden">
-      <div>...{body}</div>
-    </section>
-    <section className="... hidden lg:block">
-      <div>...{body}</div>
-    </section>
-  </>
-);
+<section className="min-h-screen bg-[#COLOR] text-white py-5 lg:hidden">
+  <div className="container">
+    <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+      <div className="col-span-5"></div>
+      <div className="col-span-7">
+        <h2>Heading</h2>
+      </div>
+      <div className="col-span-12">
+        {body}
+      </div>
+    </div>
+  </div>
+</section>
 ```
+
+**Desktop section structure:**
+```tsx
+<section className="min-h-screen bg-[#COLOR] text-white py-5 hidden lg:block">
+  <div className="container">
+    <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+      <div className="col-span-5"></div>
+      <div className="col-span-7">
+        <h2 className="lg:text-[3.5rem]">Heading</h2>
+        {body}
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+**Key difference:** Desktop has body INSIDE the col-span-7 div with the heading, not in a separate col-span-12 row.
 
 ---
 
 ## Verification Checklist
 
 - [ ] All sections (except PAA) have both `lg:hidden` (mobile) and `hidden lg:block` (desktop) blocks
-- [ ] Mobile and desktop sections use the SAME heading/column layout (same alternation)
+- [ ] **Mobile sections:** Heading in content column, body in separate `col-span-12` row
+- [ ] **Desktop sections:** Heading AND body both inside the content column (same `col-span-7` or `col-span-5` div)
 - [ ] Desktop section heading font is `lg:text-[3.5rem]`, mobile is `text-[6vw] sm:text-4xl md:text-5xl`
-- [ ] Col-span pattern alternates: empty↔heading on left/right across sections
+- [ ] Col-span pattern alternates: empty↔heading on left/right across sections (same for mobile & desktop)
 - [ ] Background colors follow the 5-color rotation (hardcoded on each `<section>`)
 - [ ] All content is hand-written JSX (no `.map()`, no arrays for repeated items)
 - [ ] All headings and links have `id` attributes matching the raw HTML source

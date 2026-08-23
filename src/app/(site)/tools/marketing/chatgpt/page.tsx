@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewToolSection from "@/components/tools/marketing/ai-content-creation-workflow/chatgpt/overview-section";
-import ImplementationSection from "@/components/tools/marketing/ai-content-creation-workflow/chatgpt/implementation-section";
-import KeyCapabilitiesSection from "@/components/tools/marketing/ai-content-creation-workflow/chatgpt/key-capabilities";
+import OverviewSection from "@/components/tools/marketing/chatgpt/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/marketing/chatgpt/key-capabilities-section";
+import ImplementationSection from "@/components/tools/marketing/chatgpt/implementation-section";
+import WhenToUseSection from "@/components/tools/marketing/chatgpt/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 export const generateMetadata = async (): Promise<Metadata> => {
@@ -14,7 +15,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "url": "https://geekatyourspot.com/tools/marketing/chatgpt",
         "@context": "https://schema.org",
         "headline": "ChatGPT",
-        "description": "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
+        "description": "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
         "image": [
             "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
         ],
@@ -30,41 +31,33 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
             }
         },
-        "datePublished": "2026-08-18T11:42:50.5822275Z",
-        "dateModified": "2026-08-18T11:42:50.5822275Z",
+        "datePublished": "2026-08-23T15:32:42.9694402Z",
+        "dateModified": "2026-08-23T15:32:42.9694402Z",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://geekatyourspot.com/tools/marketing/chatgpt"
         },
-        "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
+        "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
+            "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation"
         }
-    };
-    // Add the return statement to fix the TypeScript error
+    }
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot', // Appends to child page titles automatically
-        },
-        description: "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
-        keywords: ["AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        title: "ChatGPT | Geek At Your Spot",
+        description: "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
+        keywords: ["ChatGPT", "SEO content generation", "AI content tools", "content automation"],
+        authors: [{ name: 'Geek At Your Spot Editorial Team', url: 'https://geekatyourspot.com' }],
         creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot llc',
+        publisher: 'Geek at Your Spot Llc',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/chatgpt',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Active Campaign',
-            description: 'Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.',
-            url: 'https://geekatyourspot.com/',
+            title: 'ChatGPT | Geek At Your Spot',
+            description: "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
+            url: 'https://geekatyourspot.com/tools/marketing/chatgpt',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -79,38 +72,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Active Campaign',
-            description: 'Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.',
+            title: 'ChatGPT | Geek At Your Spot',
+            description: "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
             index: true,
             follow: true,
-            nocache: false,
-            googleBot: {
-                index: true,
-                follow: true,
-                noimageindex: false,
-                'max-video-preview': -1,
-                'max-image-preview': 'large',
-                'max-snippet': -1,
-            },
-        },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
-        icons: {
-            icon: '/favicon.ico',
-            shortcut: '/shortcut-icon.png',
-            apple: '/apple-icon.png',
-        },
-        appleWebApp: {
-            capable: true,
-            statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
         },
         other: {
             'script:ld+json': JSON.stringify(jsonLd),
@@ -119,18 +88,17 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "ChatGPT AI Content Creation Tool";
-    const heroSummary = "Boost your content creation process with ChatGPT, offering tailored solutions for seamless integration."
+    const title = "ChatGPT";
+    const summary = "Leverage ChatGPT to automate your SEO blog and article generation, enhancing content quality and search engine performance.";
+
     return (
         <>
-            <ToolsHeroSection
-                title={title}
-                summary={heroSummary} />
-            <OverviewToolSection />
+            <ToolsHeroSection title={title} summary={summary} />
+            <OverviewSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />
+            <WhenToUseSection />
             <SchedulerShell />
-
         </>
     );
 }

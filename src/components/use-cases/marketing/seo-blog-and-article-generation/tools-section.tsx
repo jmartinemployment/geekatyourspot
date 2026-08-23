@@ -1,0 +1,77 @@
+import Link from "next/link";
+
+export default function ToolsSection() {
+  const body = (
+    <>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Creating high-quality content consistently is a major challenge for businesses looking to maintain or improve their online presence. Traditional content creation methods can be time-consuming and often require a skilled team, which can be costly. Enter AI blog and article generator tools—these platforms promise to streamline the process, reducing the time and cost associated with content production while maintaining quality.
+      </p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Geek At Your Spot specializes in leveraging these AI tools to help businesses craft engaging and optimized content. Our approach ensures that companies can meet their content needs effectively while focusing on core business activities. Let&apos;s explore some tools that make this possible.
+      </p>
+      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+        <li><Link id="tools-marketing-chatgpt-4" href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">ChatGPT</Link>: Known for its natural language processing capabilities, ChatGPT excels at generating human-like text. By training on a diverse range of topics, it assists in creating articles that resonate with target audiences. This tool is particularly useful for drafting engaging introductions and conclusions.</li>
+        <li><Link id="tools-marketing-surfer-seo-4" href="/tools/marketing/surfer-seo" className="text-[#C83803] hover:underline">Surfer SEO</Link>: This tool combines AI with SEO optimization, ensuring that every piece of content is not just well-written but also ranks well. Surfer SEO provides data-driven insights into keyword density, structure, and readability, making it a comprehensive solution for content creators aiming to improve their search engine rankings.</li>
+        <li><Link id="tools-marketing-frase-3" href="/tools/marketing/frase" className="text-[#C83803] hover:underline">Frase</Link>: Frase focuses on content briefs and topic research. It helps in identifying gaps in existing content and suggests how to fill them with new articles. By analyzing top-performing articles in a niche, it provides recommendations that help in crafting content that meets user intent.</li>
+        <li><Link id="tools-marketing-claude-2" href="/tools/marketing/claude" className="text-[#C83803] hover:underline">Claude</Link>: This tool offers advanced text generation and editing features, allowing users to refine the tone and style of their content. Claude is particularly effective for creating more nuanced content that requires a deeper understanding of context and subtleties in language.</li>
+        <li><Link id="tools-marketing-hubspot-ai-2" href="/tools/marketing/hubspot-ai" className="text-[#C83803] hover:underline">HubSpot AI</Link>: Part of the broader HubSpot ecosystem, this AI assists in refining marketing strategies by generating personalized content. It integrates seamlessly with HubSpot&apos;s CRM, allowing for targeted content creation that aligns with customer data.</li>
+      </ul>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        By integrating these tools into your content creation process, you can significantly enhance productivity and ensure that each piece of content is crafted with precision and purpose. At Geek At Your Spot, we guide businesses in selecting and implementing the right tools, ensuring a strategic fit that boosts content quality and efficiency.
+      </p>
+      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="selecting-the-right-tool-for-your-needs">Selecting the Right Tool for Your Needs</h3>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Choosing the right AI tool involves understanding your specific content needs and the existing gaps in your strategy. Each tool offers unique features that cater to different aspects of content creation.
+      </p>
+      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+        <li>Evaluate your current content process to identify bottlenecks or areas where AI could add value.</li>
+        <li>Consider the level of customization offered by each tool to ensure it aligns with your brand voice.</li>
+        <li>Assess the tool&apos;s ability to integrate with your existing platforms and workflows.</li>
+      </ul>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="customization-and-brand-voice">Customization and Brand Voice</h4>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Ensuring that the content generated by AI tools aligns with your brand voice is crucial. Tools like Claude provide advanced editing capabilities to fine-tune the tone and style, ensuring consistency across all content.
+      </p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Geek At Your Spot helps businesses configure these tools to reflect their unique voice, maintaining brand integrity while leveraging AI&apos;s efficiency.
+      </p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="integration-with-existing-workflows">Integration with Existing Workflows</h4>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Seamless integration with existing workflows is vital for maximizing the benefits of AI tools. HubSpot AI, for instance, integrates with CRM systems, allowing for personalized content generation based on customer insights. This ensures that the content not only engages but also converts.
+      </p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">
+        Our consultancy services at Geek At Your Spot focus on ensuring smooth tool integration, minimizing disruptions and enhancing overall productivity.
+      </p>
+    </>
+  );
+
+  return (
+    <>
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 lg:hidden">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+            <div className="col-span-7">
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="top-ai-blog-article-generator-tools">Top AI Blog &amp; Article Generator Tools</h2>
+            </div>
+            <div className="col-span-5"></div>
+            <div className="col-span-12">
+              {body}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+            <div className="col-span-7">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="top-ai-blog-article-generator-tools-desktop">Top AI Blog &amp; Article Generator Tools</h2>
+              {body}
+            </div>
+            <div className="col-span-5"></div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

@@ -2,7 +2,7 @@ export default function WhenToUseSection() {
   return (
     <section className="min-h-screen bg-[#8C4E2A] text-white py-5">
       <div className="container">
-        <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+        <div className="grid min-h-screen grid-cols-12 gap-x-4 lg:place-items-center">
           <div className="col-span-7">
             <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">When to Use</h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">ContentStudio is particularly beneficial for businesses looking to maximize their content's lifespan without investing heavily in creating new material. It is ideal for small teams that need to maintain a consistent online presence but lack the resources for constant content production.</p>

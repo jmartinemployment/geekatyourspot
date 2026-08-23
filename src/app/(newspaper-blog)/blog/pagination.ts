@@ -17,61 +17,27 @@ export type NewspaperPageData = {
 /** Blog posts printed per edition: one lead story plus the wire column. */
 export const POSTS_PER_PAGE = 4;
 
-/**
- * Sidebar rails. These stay hand-curated because they point at hand-built
- * marketing pages, not at Content Writer exports.
- */
-export const pillars: NewspaperItem[] = [
-  {
-    slug: "ai-marketing-systems",
-    href: "/use-cases/marketing/ai-marketing-systems",
-    title: "AI Marketing Systems for Small Businesses",
-    excerpt:
-      "Local shops that once dismissed AI as enterprise-only are now automating scheduling, invoicing, and customer follow-up with tools built for their scale.",
-  },
-  {
-    slug: "automated-accounts-payable",
-    href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
-    title: "The Real Cost of Manual Data Entry, Quantified",
-    excerpt:
-      "We tallied the hours a five-person accounting office spends on copy-paste work in a year. The number surprised even us.",
-  },
-  {
-    slug: "tax-compliance-regulations",
-    href: "/use-cases/accounting/tax-compliance-regulations",
-    title: "A Tax Season Playbook for Two-Person Firms",
-    excerpt:
-      "Compliance automation isn't just for the Big Four. Here's what a lean bookkeeping shop can put in place before January.",
-  },
-];
+function getPillars(page: number): NewspaperItem[] {
+  const all = listEntries("use-cases").map((entry) => ({
+    slug: `${entry.department}/${entry.slug}`,
+    href: entry.href,
+    title: entry.headline || entry.title,
+    excerpt: entry.excerpt,
+  }));
+  const offset = ((page - 1) * 3) % Math.max(all.length, 1);
+  return all.slice(offset, offset + 3);
+}
 
-export const tools: NewspaperItem[] = [
-  {
-    slug: "intelligent-lead-capture-pipeline",
-    href: "/use-cases/marketing/intelligent-lead-capture-pipeline",
-    title: "Inside the Marketing Lead-Capture Pipeline",
-    excerpt:
-      "A look at how automated intake forms route qualified leads straight to a rep's calendar in under sixty seconds.",
-  },
-  {
-    slug: "ai-content-creation-workflow",
-    href: "/use-cases/marketing/ai-content-creation-workflow",
-    title: "AI Content Creation Workflow",
-    excerpt: "Plan, draft, and publish without the copy-paste relay between four tools.",
-  },
-  {
-    slug: "accounting-automation-suite",
-    href: "/use-cases/accounting",
-    title: "Accounting Automation Suite",
-    excerpt: "Cuts manual entry and reconciliation time for small back offices.",
-  },
-  {
-    slug: "marketing-lead-capture",
-    href: "/use-cases/marketing",
-    title: "Marketing Lead-Capture Pipeline",
-    excerpt: "Routes and qualifies inbound leads before your team ever sees them.",
-  },
-];
+function getTools(page: number): NewspaperItem[] {
+  const all = listEntries("tools").map((entry) => ({
+    slug: `${entry.department}/${entry.slug}`,
+    href: entry.href,
+    title: entry.headline || entry.title,
+    excerpt: entry.excerpt,
+  }));
+  const offset = ((page - 1) * 4) % Math.max(all.length, 1);
+  return all.slice(offset, offset + 4);
+}
 
 function toNewspaperItems(): NewspaperItem[] {
   return listEntries("blog").map((entry) => ({
@@ -94,8 +60,8 @@ export function getNewspaperPage(page: number): NewspaperPageData {
 
   return {
     page: current,
-    pillars,
-    tools,
+    pillars: getPillars(current),
+    tools: getTools(current),
     blogs: all.slice(start, start + POSTS_PER_PAGE),
   };
 }
