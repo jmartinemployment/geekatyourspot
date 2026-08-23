@@ -1,0 +1,273 @@
+# Hand-Coded Tool Page Layout Pattern Prompt
+
+Use this prompt when building or rebuilding tool pages for individual marketing tools. Tool pages follow a specific structure distinct from use-case/pillar pages, featuring a single-section layout (no mobile/desktop split) for most components.
+
+---
+
+## The Task
+
+Hand-code a marketing tool page using the ContentStudio tool page as the structural and styling reference. Do NOT use arrays, `.map()`, or generated code — every element must be written by hand.
+
+Tool pages are simpler than use-case pages: they focus on a single product/tool and its capabilities, not a broad business problem.
+
+---
+
+## Page Component Structure
+
+Each tool page has exactly **6 components**:
+
+```
+ToolsHeroSection (shared, prop-based)
+├─ OverviewSection (tool-specific)
+├─ KeyCapabilitiesSection (tool-specific)
+├─ ImplementationSection (tool-specific)
+├─ WhenToUseSection (tool-specific)
+└─ SchedulerShell (shared CTA)
+```
+
+**Note:** Unlike use-case pages, tool pages do NOT have an `<article>` wrapper — sections are rendered directly after the hero.
+
+---
+
+## Section Structure & Styling
+
+### 1. ToolsHeroSection (Shared)
+- **File location:** `src/components/shared/tools-hero-section.tsx`
+- **Props:** `title` (tool name), `summary` (value proposition)
+- **Styling:** Dark blue background with large headline + summary + "Get Your Free AI Assessment" CTA button
+- **No custom variants needed** — reuse as-is
+
+---
+
+### 2. OverviewSection (Tool-Specific)
+- **Structure:** **Mobile/desktop split** (like use-case pages)
+  - Mobile (`lg:hidden`): col-span-5 empty (left) + col-span-7 heading (right) + col-span-12 body
+  - Desktop (`hidden lg:block`): col-span-7 content (left) + col-span-5 empty (right)
+- **Background color:** `#023059` (dark blue)
+- **Heading:** "Overview" (not tool-specific)
+- **Content:** 3-4 paragraphs explaining tool purpose, value, and differentiation vs competitors
+  - Start with "What is this tool and why use it?"
+  - Mention business value and problem solved
+  - Discuss differentiation (e.g., "compared to Zapier, Make.com excels at...")
+  - End with strategic value
+- **Styling:**
+  - Mobile heading: `text-[6vw] sm:text-4xl md:text-5xl`
+  - Desktop heading: `lg:text-[3.5rem]`
+  - Paragraphs: `text-md font-normal text-white shadow-text pt-3`
+
+---
+
+### 3. KeyCapabilitiesSection (Tool-Specific)
+- **Structure:** **Single section** (desktop only, no mobile/desktop split)
+- **Background color:** `#024059` (medium blue)
+- **Grid layout:** `col-span-7` content (left) + `col-span-5` empty (right)
+- **Heading:** "Key Capabilities" (not tool-specific)
+- **Content structure:**
+  1. Intro paragraph (why these capabilities matter)
+  2. **5 bullet points** (hand-written `<li>` elements, NOT mapped from array)
+     - Each bullet is 1-2 sentences describing a specific feature
+     - Bullets are about what the tool CAN DO, not general benefits
+- **Styling:**
+  - Heading: `lg:text-[3.5rem]`
+  - Bullets: `list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3`
+
+---
+
+### 4. ImplementationSection (Tool-Specific)
+- **Structure:** **Single section** (desktop only)
+- **Background color:** `#025E73` (teal/blue-green)
+- **Grid layout:** `col-span-9` for heading, `col-span-12` for body
+- **Heading:** "Implementation Considerations" (not tool-specific)
+- **Content structure:**
+  - 1 intro paragraph (context for implementation)
+  - **4 subsections** (hand-written, NOT generated), each with `<h3>` + paragraph:
+    1. **Accelerated Deployment** — how quickly can you get it live?
+    2. **Data Model Design** — how should data be structured/mapped?
+    3. **Workflow and Process Configuration** — customization options, approval chains, routing
+    4. **Custom Code and Development** — extensibility, scripting, APIs (explain if tool supports custom code)
+  - Reference Geek At Your Spot services in the text where appropriate
+- **Styling:**
+  - h3 subsection headings: `text-[5vw] sm:text-3xl lg:text-3xl`
+  - Body paragraphs: `text-md font-normal text-white shadow-text pt-3`
+
+---
+
+### 5. WhenToUseSection (Tool-Specific)
+- **Structure:** **Single section** (desktop only)
+- **Background color:** `#8C4E2A` (warm brown/rust)
+- **Grid layout:** `col-span-7` content (left) + `col-span-5` empty (right)
+- **Heading:** "When to Use" (not tool-specific)
+- **Content:** **4 paragraphs** describing ideal use cases and business contexts:
+  1. General scenario when this tool is best (problem it solves)
+  2. Specific org type or use case (e.g., "enterprises with diverse tech stacks")
+  3. Why this tool over similar alternatives (comparison to competitors like Zapier, ContentStudio)
+  4. Concluding thought on strategic value and decision factors
+- **Styling:**
+  - Heading: `lg:text-[3.5rem]`
+  - Paragraphs: `text-md font-normal text-white shadow-text pt-3`
+
+---
+
+## Color Palette (No Variation)
+
+Tool pages use a **fixed 4-color sequence** (does NOT rotate per tool):
+- Hero: handled by ToolsHeroSection component
+- Overview: `#023059` (dark blue)
+- Key Capabilities: `#024059` (slightly darker blue)
+- Implementation: `#025E73` (teal)
+- When to Use: `#8C4E2A` (warm brown)
+
+---
+
+## Hand-Coding Requirements
+
+### Headings
+- **Heading tags:** Always use matching IDs for linking: `id="overview"`, `id="key-capabilities"`, `id="implementation-considerations"`, `id="when-to-use"`
+- **Desktop heading font:** `lg:text-[3.5rem]` (for single-section components)
+- **Mobile heading font (overview only):** `text-[6vw] sm:text-4xl md:text-5xl`
+- **All headings:** `font-black font-[var(--font-sora)] shadow-text`
+
+### Body Content
+- **Paragraphs:** `<p className="pt-3 text-md font-normal text-white shadow-text">`
+- **Bullet lists:** `<ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">` with individual `<li>` elements (NEVER `.map()`)
+- **Subsection headings (h3 in Implementation):** `text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text`
+
+### Links
+- Use `<Link>` component with unique `id` attributes for GTM tracking
+- Color: `text-[#C83803] hover:underline`
+- Example: `id="tools-marketing-zapier"`
+
+---
+
+## Shared Body Pattern (Optional)
+
+For sections with multiple paragraphs, you can optionally define a `const body` JSX fragment at the component level, then use it in the return statement:
+
+```tsx
+const body = (
+  <>
+    <p>First paragraph...</p>
+    <p>Second paragraph...</p>
+    <h3>Subheading...</h3>
+    <p>More content...</p>
+  </>
+);
+
+return (
+  <section className="...">
+    <div className="...">
+      <div className="...">
+        <div className="...">
+          <h2>...</h2>
+          {body}
+        </div>
+      </div>
+    </div>
+  </section>
+);
+```
+
+---
+
+## Page.tsx Template
+
+```tsx
+import type { Metadata } from "next";
+import ToolsHeroSection from "@/components/shared/tools-hero-section";
+import OverviewSection from "@/components/tools/marketing/[tool-name]/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/marketing/[tool-name]/key-capabilities-section";
+import ImplementationSection from "@/components/tools/marketing/[tool-name]/implementation-section";
+import WhenToUseSection from "@/components/tools/marketing/[tool-name]/when-to-use-section";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+
+export const generateMetadata = async (): Promise<Metadata> => {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "[Tool Name]",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://geekatyourspot.com/tools/marketing/[tool-slug]",
+        "description": "[From backup meta description]",
+        "keywords": "AI Content Repurposing, content transformation, [Tool Name], workflow automation",
+        "subjectOf": {
+            "@type": "TechArticle",
+            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing"
+        }
+        // ... full JSON-LD from backup HTML head
+    };
+    // Return full metadata object
+};
+
+export default async function Page() {
+    const title = "[Tool Name]";
+    const summary = "[From backup heroSummary meta tag]";
+
+    return (
+        <>
+            <ToolsHeroSection title={title} summary={summary} />
+            <OverviewSection />
+            <KeyCapabilitiesSection />
+            <ImplementationSection />
+            <WhenToUseSection />
+            <SchedulerShell />
+        </>
+    );
+}
+```
+
+---
+
+## Raw Content Source
+
+All tool pages pull content from `/Users/jeffmartin/development/geekatyourspot/backup/marketing/AI Content Repurposing/tools/[tool-name].html`
+
+Each HTML file contains:
+- `<meta name="slug">` → tool-slug
+- `<meta name="department">` → "marketing"
+- `<meta name="date">` → publication date
+- `<meta name="heroSummary">` → value prop for ToolsHeroSection
+- `<meta name="description">` → SEO description
+- `<title>` → page title
+- JSON-LD SoftwareApplication schema in `<script type="application/ld+json">`
+- Body content: `<h2>Overview</h2>`, `<h2>Key Capabilities</h2>`, `<h2>Implementation Considerations</h2>`, `<h2>When to Use</h2>`
+
+Extract and hand-code each section's content from the backup HTML exactly as written.
+
+---
+
+## Directory Structure
+
+```
+src/components/tools/marketing/[tool-name]/
+├── overview-section.tsx (mobile/desktop split)
+├── key-capabilities-section.tsx (single section)
+├── implementation-section.tsx (single section)
+└── when-to-use-section.tsx (single section)
+
+src/app/(site)/tools/marketing/[tool-name]/
+└── page.tsx (main entry, imports ToolsHeroSection + 4 sections + SchedulerShell)
+```
+
+---
+
+## Verification Checklist
+
+- [ ] Page.tsx imports ToolsHeroSection (shared), 4 tool-specific sections, SchedulerShell
+- [ ] OverviewSection has mobile (`lg:hidden`) and desktop (`hidden lg:block`) variants
+- [ ] OverviewSection uses alternating col-span layout (mobile: empty left + heading right; desktop: content left + empty right)
+- [ ] OverviewSection background: `#023059`
+- [ ] KeyCapabilitiesSection: single section, `#024059` background, exactly 5 hand-written bullet points
+- [ ] ImplementationSection: single section, `#025E73` background, exactly 4 h3 subsections
+- [ ] WhenToUseSection: single section, `#8C4E2A` background, exactly 4 paragraphs
+- [ ] All content is hand-written JSX (no `.map()`, no arrays for repeated items)
+- [ ] All headings have proper `id` attributes
+- [ ] Build passes with `npm run build`
+
+---
+
+## Example Files
+
+- **Reference page:** `src/app/(site)/tools/marketing/contentstudio/page.tsx`
+- **Reference components:** `src/components/tools/marketing/contentstudio/{overview,key-capabilities,implementation,when-to-use}-section.tsx`
+- **Raw content:** `/backup/marketing/AI Content Repurposing/tools/contentstudio.html`
