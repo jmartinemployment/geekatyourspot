@@ -186,6 +186,11 @@ export default function Navbar(): React.JSX.Element {
                       label="AI Content Repurposing"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/use-cases/marketing/seo-blog-and-article-generation"
+                      label="SEO Blog and Article Generation"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
 
@@ -272,22 +277,23 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/adobe-sensei" label="Adobe Sensei" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/canva" label="Canva" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/chatgpt" label="ChatGPT" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/grammarly" label="Grammarly" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/hubspot" label="HubSpot" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/claude" label="Claude" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/contentstudio" label="ContentStudio" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/copyai" label="Copy.ai" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/makecom" label="Make.com" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/frase" label="Frase" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/grammarly" label="Grammarly" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/hubspot" label="HubSpot" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/hubspot-ai" label="HubSpot AI" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/keyword-insights" label="Keyword Insights" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/makecom" label="Make.com" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/marketo" label="Marketo" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/openai-gpt-4" label="OpenAI GPT-4" onNavigate={closeSidebar} />
-                    <MenuLink
-                      href="/tools/marketing/salesforce-pardot"
-                      label="Salesforce Pardot"
-                      onNavigate={closeSidebar}
-                    />
+                    <MenuLink href="/tools/marketing/salesforce-pardot" label="Salesforce Pardot" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/surfer-seo" label="Surfer SEO" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />
                   </ul>
                 </div>
 
