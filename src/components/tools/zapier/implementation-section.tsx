@@ -1,4 +1,4 @@
-export default function ImplementationConsiderationsSection() {
+export default function ImplementationSection() {
   return (
     <>
       <section className="min-h-screen bg-[#025E73] text-white py-5 lg:hidden">

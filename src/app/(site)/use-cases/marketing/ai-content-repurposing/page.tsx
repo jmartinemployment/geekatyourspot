@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import SharedHeroSection from "@/components/shared/shared-hero-section";
+import HeroSection from '@/components/use-cases/marketing/ai-content-repurposing/hero-section'
 import LedeSection from '@/components/use-cases/marketing/ai-content-repurposing/lede-section'
 import BenefitsSection from '@/components/use-cases/marketing/ai-content-repurposing/benefits-section'
 import StreamliningSection from '@/components/use-cases/marketing/ai-content-repurposing/streamlining-section'
-import TopToolsSection from '@/components/use-cases/marketing/ai-content-repurposing/top-tools-section'
 import ImplementingSection from '@/components/use-cases/marketing/ai-content-repurposing/implementing-section'
 import PAASection from '@/components/use-cases/marketing/ai-content-repurposing/paa-section'
 
@@ -172,22 +171,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "AI Content Repurposing";
-    const heroSummary = "Revitalize your content strategy with AI content repurposing, extending the lifespan and engagement of your material effortlessly.";
-    const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-    const imgAlt = "AI Content Repurposing"
     return (
         <>
-            <SharedHeroSection
-                title={title}
-                summary={heroSummary}
-                image={heroImage}
-                imgAlt={imgAlt} />
+            <HeroSection />
             <article>
                 <LedeSection />
                 <BenefitsSection />
                 <StreamliningSection />
-                <TopToolsSection />
                 <ImplementingSection />
                 <PAASection />
                 <SchedulerShell />

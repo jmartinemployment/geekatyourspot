@@ -1,6 +1,6 @@
 export default function PAASection() {
   return (
-    <section className="min-h-screen bg-[#024059] text-white">
+    <section className="min-h-screen bg-[#BF5934] text-white">
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-9 w-full">

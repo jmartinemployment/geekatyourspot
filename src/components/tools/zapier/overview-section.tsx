@@ -1,4 +1,4 @@
-export default function OverviewSection() {
+export default function OverviewToolSection() {
   return (
     <>
       <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
