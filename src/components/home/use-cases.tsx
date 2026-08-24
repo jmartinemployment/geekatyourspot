@@ -2004,7 +2004,7 @@ export function UseCasesSection() {
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>
                                             <h5><strong className="text-black text-base">
-                                                Smart Chatbots:</strong></h5>
+                                                Smart Chatbots for Marketing:</strong></h5>
                                             <p className="text-black text-sm">
                                                 Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
                                             </p>
