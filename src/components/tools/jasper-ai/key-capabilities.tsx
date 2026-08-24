@@ -4,7 +4,7 @@ export default function KeyCapabilitiesSection() {
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-7">
-            <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
+            <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Key Capabilities</h2>
             <p className="text-md text-white shadow-text pt-3">Jasper AI offers a suite of capabilities that make it a standout tool in the realm of automated content creation.
               These features are specifically designed to address common challenges faced by content creators and marketers.</p>

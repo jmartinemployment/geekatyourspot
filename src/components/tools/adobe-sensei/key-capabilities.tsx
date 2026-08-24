@@ -4,7 +4,7 @@ export default function KeyCapabilitiesSection() {
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-7">
-            <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
+            <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Key Capabilities</h2>
             <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
               <li>Automated Image Tagging: Adobe Sensei uses AI to analyze and tag images automatically, which simplifies the

@@ -4,7 +4,7 @@ export default function KeyCapabilitiesSection() {
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-7">
-            <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
+            <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Key Capabilities</h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">ActiveCampaign provides a range of features designed to streamline marketing efforts and improve customer
               engagement. Here are some of the key capabilities that make it a powerful tool for businesses:</p>

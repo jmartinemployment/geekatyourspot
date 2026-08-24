@@ -4,7 +4,7 @@ export default function KeyCapabilitiesSection() {
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-7">
-            <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
+            <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Key Capabilities</h2>
             <p className="text-md text-white shadow-text pt-3">OpenAI GPT-4 offers a range of capabilities that enhance the content creation process, making it a versatile tool
               for various applications. Here are some of the key features that set GPT-4 apart:</p>

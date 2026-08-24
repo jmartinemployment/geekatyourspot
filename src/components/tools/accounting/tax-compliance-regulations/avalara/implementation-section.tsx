@@ -6,7 +6,7 @@ export default function ImplementationSection() {
         <div className="grid min-h-screen grid-cols-12 gap-x-4 py-5 place-items-center">
           <div className="col-span-5"></div>
           <div className="col-span-7">
-            <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
+            <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Implementation Considerations</h2>
             <p className="text-md text-white shadow-text pt-3">Implementing OpenAI GPT-4 into your content creation workflow involves several considerations to ensure a smooth
               and effective integration. Here are key aspects to focus on:</p>
@@ -27,7 +27,7 @@ export default function ImplementationSection() {
             <p className="text-md text-white shadow-text pt-3">By focusing on these areas, Geek At Your Spot helps clients bridge the gap between their current content creation
               processes and the enhanced capabilities offered by GPT-4. This consultative approach ensures that the transition is
               seamless and that the tool is used to its full potential.</p>
-            <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
+            <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               When to Use</h2>
             <p className="text-md text-white shadow-text pt-3">Determining when to use OpenAI GPT-4 depends on your specific content creation needs and objectives. Here are
               scenarios where GPT-4 can provide significant value:</p>
