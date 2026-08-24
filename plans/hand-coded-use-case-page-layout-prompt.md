@@ -1,18 +1,18 @@
-# Hand-Coded Use Case Page Layout Pattern Prompt
+# Hand-Coded Page Layout Pattern Prompt
 
-Use this prompt when building or rebuilding use-case pages following the `ai-content-creation-workflow` template pattern.
+Use this prompt when building or rebuilding use-case pages and tool pages following the `ai-content-creation-workflow` template pattern.
 
 ---
 
 ## The Task
 
-Hand-code a use-case page's section components using the `ai-content-creation-workflow` template as the structural and styling reference. Do NOT use arrays, `.map()`, or generated code — every repeated element must be written by hand.
+Hand-code a page's section components using the `ai-content-creation-workflow` template as the structural and styling reference. This pattern applies to both use-case pages and tool pages. Do NOT use arrays, `.map()`, or generated code — every repeated element must be written by hand.
 
 ---
 
 ## Section Structure Requirements
 
-Each section (except FAQ/PAA) must have **two parallel `<section>` blocks**:
+Each section (except FAQ/PAA) must have **two parallel `<section>` blocks** (applies to both use-case and tool pages):
 
 ### 1. Mobile Section (`lg:hidden`)
 - Use `<section className="min-h-screen bg-[#COLOR] text-white py-5 lg:hidden">`
@@ -34,6 +34,7 @@ Each section (except FAQ/PAA) must have **two parallel `<section>` blocks**:
 - Single `<section>` block (no mobile/desktop split)
 - Use `col-span-9` for the `<h2>`, then `col-span-12` for the full-width FAQ body
 - No alternating pattern needed
+- **PAA Q&A separator:** Add `<hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />` before the first Q&A item and between each Q&A item (but NOT after the last one)
 
 ---
 
@@ -120,7 +121,9 @@ All content must be written by hand in the JSX:
 
 ### Links
 - Use `<Link>` component with unique `id` attributes: `id="tools-marketing-[toolname]"` or `id="tools-marketing-[toolname]-[number]"` (for duplicates on same page)
-- Color: `className="text-[#C83803] hover:underline"`
+- **Link color by background:**
+  - Default (lighter backgrounds): `className="text-[#C83803] hover:underline"` (orange)
+  - Dark backgrounds (`#8C4E2A`, `#BF5934`): `className="text-[#0B162A] hover:underline"` (dark blue) — orange is not visible on these darker backgrounds
 
 ---
 
@@ -175,6 +178,8 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] All content is hand-written JSX (no `.map()`, no arrays for repeated items)
 - [ ] All headings and links have `id` attributes matching the raw HTML source
 - [ ] PAA section is single block with `col-span-9` heading and `col-span-12` body
+- [ ] PAA section has `<hr>` separators before first Q&A item and between each Q&A item (but not after the last)
+- [ ] Link colors match background: `text-[#C83803]` (default), `text-[#0B162A]` (on `#8C4E2A` or `#BF5934` backgrounds)
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)
 - [ ] Page loads and sections display correctly on mobile and desktop
 
@@ -182,6 +187,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 
 ## Example File Structure
 
+**Use-case pages:**
 ```
 src/components/use-cases/marketing/[use-case-name]/
   hero-section.tsx (custom hero, not parameterized)
@@ -190,6 +196,17 @@ src/components/use-cases/marketing/[use-case-name]/
   [another]-section.tsx
   paa-section.tsx (single section, FAQ format)
 ```
+
+**Tool pages:**
+```
+src/components/tools/marketing/[tool-name]/
+  overview-section.tsx (2 sections: mobile + desktop)
+  key-capabilities-section.tsx (2 sections each)
+  implementation-section.tsx (2 sections each)
+  when-to-use-section.tsx (2 sections each)
+```
+
+Both follow the same mobile/desktop alternating layout pattern.
 
 ---
 

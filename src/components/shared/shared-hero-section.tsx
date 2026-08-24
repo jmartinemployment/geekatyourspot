@@ -70,12 +70,14 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
-              <Image
-                width="460"
-                height="460"
-                src={image}
-                alt={imgAlt}
-                loading="eager" />
+              {image && (
+                <Image
+                  width="460"
+                  height="460"
+                  src={image}
+                  alt={imgAlt}
+                  loading="eager" />
+              )}
               {/* <HeroImage image={ image} title={title} summary={summary} /> */}
 
             {/* <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Accounting</p> */}

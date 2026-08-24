@@ -275,6 +275,7 @@ export default function Navbar(): React.JSX.Element {
                   <ul className={`${LIST_CLASS} columns-2 gap-x-4`}>
                     <MenuLink href="/tools/marketing/active-campaign" label="ActiveCampaign" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/adobe-sensei" label="Adobe Sensei" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/canva" label="Canva" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/chatgpt" label="ChatGPT" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/claude" label="Claude" onNavigate={closeSidebar} />
@@ -283,8 +284,6 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/frase" label="Frase" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/grammarly" label="Grammarly" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/hubspot" label="HubSpot" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/hubspot-ai" label="HubSpot AI" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/keyword-insights" label="Keyword Insights" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
