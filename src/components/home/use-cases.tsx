@@ -2020,16 +2020,16 @@ export function UseCasesSection() {
                                             </p>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/fin", "Fin.ai")}
-                                                    href="/tools/marketing/fin"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/bot-penguin", "BotPenguin")}
+                                                    href="/tools/marketing/bot-penguin"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Fin.ai
+                                                    BotPenguin
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lyro", "Lyro")}
-                                                    href="/tools/marketing/lyro"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/many-chat", "ManyChat")}
+                                                    href="/tools/marketing/many-chat"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Tidio - Lyro AI Agent
+                                                    ManyChat
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
@@ -2038,16 +2038,16 @@ export function UseCasesSection() {
                                                     Pipedrive
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/drift", "Drift")}
-                                                    href="/tools/marketing/drift"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/custom-gpt", "CustomGPT.ai")}
+                                                    href="/tools/marketing/custom-gpt"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Salesloft - Drift
+                                                    CustomGPT
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/chatbot", "Chatbot")}
-                                                    href="/tools/marketing/chatbot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/getchipbot", "getchipbot")}
+                                                    href="/tools/marketing/getchipbot"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Chatbot.com
+                                                    Get-Chip-Bot
                                                 </Link>,&nbsp;
                                             </p>
                                         </li>
