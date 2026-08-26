@@ -2020,10 +2020,10 @@ export function UseCasesSection() {
                                             </p>
                                             <h6 className="text-sm inline">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/intercom", "Intercom")}
-                                                    href="/tools/marketing/intercom"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/fin", "Fin.ai")}
+                                                    href="/tools/marketing/fin"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Intercom
+                                                    Fin.ai
                                                 </Link>,&nbsp;
                                                 </h6>
                                                 <h6 className="text-sm inline">
