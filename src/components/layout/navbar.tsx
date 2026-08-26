@@ -167,16 +167,6 @@ export default function Navbar(): React.JSX.Element {
                   <MenuHeading href="/use-cases/marketing" label="Marketing" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
                     <MenuLink
-                      href="/use-cases/marketing/ai-marketing-systems"
-                      label="AI Marketing Systems"
-                      onNavigate={closeSidebar}
-                    />
-                    <MenuLink
-                      href="/use-cases/marketing/intelligent-lead-capture-pipeline"
-                      label="Intelligent Lead Capture Pipeline"
-                      onNavigate={closeSidebar}
-                    />
-                    <MenuLink
                       href="/use-cases/marketing/ai-content-creation-workflow"
                       label="AI Content Creation Workflow"
                       onNavigate={closeSidebar}
@@ -187,8 +177,28 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/marketing/ai-marketing-systems"
+                      label="AI Marketing Systems"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/marketing/automated-ad-spend-optimization"
+                      label="Automated Ad Spend Optimization"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/marketing/intelligent-lead-capture-pipeline"
+                      label="Intelligent Lead Capture Pipeline"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/marketing/seo-blog-and-article-generation"
                       label="SEO Blog and Article Generation"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/marketing/smart-chatbots-for-marketing"
+                      label="Smart Chatbots for Marketing"
                       onNavigate={closeSidebar}
                     />
                   </ul>
@@ -223,8 +233,23 @@ export default function Navbar(): React.JSX.Element {
                   <MenuHeading href="/blog" label="Marketing" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
                     <MenuLink
+                      href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth"
+                      label="How AI Marketing Systems Transform Small Business Growth"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies"
                       label="How AI Transforms Ad Spend: 4 Key Strategies"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/marketing/how-personalized-email-campaigns-drive-real-results"
+                      label="How Personalized Email Campaigns Drive Real Results"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/marketing/how-smart-chatbots-revolutionize-b2b-marketing"
+                      label="How Smart Chatbots Revolutionize B2B Marketing"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -233,18 +258,18 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
-                      href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth"
-                      label="How AI Marketing Systems Transform Small Business Growth"
-                      onNavigate={closeSidebar}
-                    />
-                    <MenuLink
-                      href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline"
-                      label="Why Your B2B Sales Need an Intelligent Lead Capture Pipeline"
+                      href="/blog/marketing/unlocking-the-potential-of-ai-in-seo-content-creation"
+                      label="Unlocking the Potential of AI in SEO Content Creation"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
                       href="/blog/marketing/unlocking-the-power-of-ai-for-content-repurposing"
                       label="Unlocking the Power of AI for Content Repurposing"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline"
+                      label="Why Your B2B Sales Need an Intelligent Lead Capture Pipeline"
                       onNavigate={closeSidebar}
                     />
                   </ul>

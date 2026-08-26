@@ -990,6 +990,13 @@ export function UseCasesSection() {
                                             </ul>
                                         </li>
                                     </ul>
+                                    <Link
+                                        id={gtmLinkIdFromHref("/use-cases/marketing/smart-chatbots-for-marketing", "Smart Chatbots for Marketing")}
+                                        href="/use-cases/marketing/smart-chatbots-for-marketing"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
+                                        <h4 className="text-black text-base font-bold shadow-text">
+                                            Smart Chatbots for Marketing</h4>
+                                    </Link>
                                     <h4 className="text-black text-base font-bold shadow-text">
                                         Automated Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
@@ -2008,29 +2015,51 @@ export function UseCasesSection() {
                                             <p className="text-black text-sm">
                                                 Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
                                             </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
+                                            <p className="text-black text-sm font-bold pt-1">
                                                 Top AI Chatbot Tools:
-                                            </h6>
-                                            <p className="text-sm">
+                                            </p>
+                                            <h6 className="text-sm inline">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/intercom", "Intercom")}
                                                     href="/tools/marketing/intercom"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Intercom
                                                 </Link>,&nbsp;
+                                                </h6>
+                                                <h6 className="text-sm inline">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/tidio", "Tidio")}
                                                     href="/tools/marketing/tidio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Tidio
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,&nbsp;
+                                                </h6>
+                                                <h6 className="text-sm inline">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
                                                     href="/tools/marketing/hubspot"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     HubSpot
-                                                </Link>.
-                                            </p>
+                                                </Link>,&nbsp;
+                                                </h6>
+                                                <h6 className="text-sm inline">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/drift", "Drift")}
+                                                    href="/tools/marketing/drift"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Drift
+                                                </Link>,&nbsp;
+                                                </h6>
+                                                <h6 className="text-sm inline">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/chatbot", "Chatbot")}
+                                                    href="/tools/marketing/chatbot"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Chatbot.com
+                                                </Link>,&nbsp;
+                                                </h6>
+
+                                            
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-base">
@@ -2121,6 +2150,13 @@ export function UseCasesSection() {
                                             </ul>
                                         </li>
                                     </ul>
+                                    <Link
+                                        id={gtmLinkIdFromHref("/use-cases/marketing/smart-chatbots-for-marketing", "Smart Chatbots for Marketing")}
+                                        href="/use-cases/marketing/smart-chatbots-for-marketing"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
+                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
+                                            Smart Chatbots for Marketing</h4>
+                                    </Link>
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                         Automated Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
