@@ -2032,10 +2032,10 @@ export function UseCasesSection() {
                                                     Tidio - Lyro AI Agent
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
-                                                    href="/tools/marketing/hubspot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    HubSpot
+                                                    Pipedrive
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/drift", "Drift")}
