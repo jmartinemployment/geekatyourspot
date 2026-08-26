@@ -2028,10 +2028,10 @@ export function UseCasesSection() {
                                                 </h6>
                                                 <h6 className="text-sm inline">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/tidio", "Tidio")}
-                                                    href="/tools/marketing/tidio"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lyro", "Lyro")}
+                                                    href="/tools/marketing/lyro"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Tidio
+                                                    Tidio - Lyro AI Agent
                                                 </Link>,&nbsp;
                                                 </h6>
                                                 <h6 className="text-sm inline">
