@@ -2047,7 +2047,7 @@ export function UseCasesSection() {
                                                     id={gtmLinkIdFromHref("/tools/marketing/getchipbot", "getchipbot")}
                                                     href="/tools/marketing/getchipbot"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Get-Chip-Bot
+                                                    Get Chip Bot
                                                 </Link>,&nbsp;
                                             </p>
                                         </li>
@@ -2140,13 +2140,6 @@ export function UseCasesSection() {
                                             </ul>
                                         </li>
                                     </ul>
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/smart-chatbots-for-marketing", "Smart Chatbots for Marketing")}
-                                        href="/use-cases/marketing/smart-chatbots-for-marketing"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            Smart Chatbots for Marketing</h4>
-                                    </Link>
                                     <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                         Automated Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
