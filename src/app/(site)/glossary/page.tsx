@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getGlossaryTermsGroupedByLetter, getAllGlossaryTerms } from "@/lib/glossary";
 import { GlossaryBookLeather } from "@/components/glossary/glossary-book-leather";
+import GlossaryHeroSection from "@/components/glossary/shared/glossary-hero";
 
 const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
@@ -45,6 +46,9 @@ export const metadata: Metadata = {
 };
 
 export default function GlossaryPage() {
+  const title = "Glossary";
+  const heroSummary = "Essential terms and definitions for customer experience, automation, and business technology."
+
   const groupedTerms = getGlossaryTermsGroupedByLetter();
   const allTerms = getAllGlossaryTerms();
 
@@ -67,22 +71,12 @@ export default function GlossaryPage() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950">
-      <div className="mx-auto max-w-4xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
-        {/* Hero */}
-        <div className="space-y-4 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl">
-            Glossary
-          </h1>
-          <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400">
-            Essential terms and definitions for customer experience,
-            automation, and business technology.
-          </p>
-        </div>
-
-        {/* Index */}
-        <GlossaryBookLeather groupedTerms={groupedTerms} />
-      </div>
-    </div>
+    <>
+      <GlossaryHeroSection
+        title={title}
+        summary={heroSummary} />
+        <GlossaryBookLeather 
+          groupedTerms={groupedTerms} />
+    </>
   );
 }

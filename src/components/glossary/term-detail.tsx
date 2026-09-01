@@ -11,41 +11,39 @@ export function TermDetail({ term }: TermDetailProps) {
   const simpleDefinition = !hasDefinitions && term.definition;
 
   return (
-    <article className="space-y-8">
-      {/* Header */}
-      <header className="border-b-2 border-gray-200 pb-8 dark:border-gray-700">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
-          {term.title}
-        </h1>
-        {term.category && (
-          <div className="mt-4 flex items-center gap-2">
-            <span className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-900 dark:bg-blue-900/30 dark:text-blue-200">
+    <article className="space-y-8 font-serif max-w-4xl">
+      {/* Dictionary Entry Header */}
+      <header className="border-b-4 border-black dark:border-white pb-6">
+        <div className="flex items-baseline gap-6 mb-2">
+          <h1 className="text-6xl font-black text-black dark:text-white tracking-tight">
+            {term.title}
+          </h1>
+          {term.category && (
+            <span className="italic text-sm font-semibold text-gray-600 dark:text-gray-400">
               {term.category}
             </span>
-          </div>
-        )}
+          )}
+        </div>
       </header>
 
-      {/* Dictionary-style definitions (new format with examples) */}
+      {/* Multiple Definitions - Dictionary Style */}
       {hasDefinitions && term.definitions && (
-        <section className="space-y-8">
+        <section className="space-y-6">
           {term.definitions.map((def, index) => (
-            <div key={index} className="space-y-3">
-              <div className="flex gap-6 items-start">
-                <div className="flex gap-2">
-                  <span className="text-sm font-semibold text-gray-700 dark:text-gray-300 min-w-fit">
-                    {def.partOfSpeech}
-                  </span>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">
-                    {index + 1}.
-                  </span>
-                </div>
+            <div key={index} className="space-y-2">
+              <div className="flex gap-3 items-baseline">
+                <span className="font-bold text-base text-black dark:text-white">
+                  {index + 1}.
+                </span>
+                <span className="italic text-sm text-gray-700 dark:text-gray-300 font-semibold">
+                  {def.partOfSpeech}
+                </span>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed ml-10">
+              <p className="text-gray-800 dark:text-gray-200 leading-relaxed text-base ml-6">
                 {def.text}
               </p>
               {def.example && (
-                <p className="ml-10 pl-4 text-gray-600 dark:text-gray-400 italic border-l-2 border-gray-300 dark:border-gray-600">
+                <p className="text-gray-700 dark:text-gray-300 text-sm ml-6 pl-4 border-l-3 border-gray-400 dark:border-gray-600 italic">
                   "{def.example}"
                 </p>
               )}
@@ -54,20 +52,25 @@ export function TermDetail({ term }: TermDetailProps) {
         </section>
       )}
 
-      {/* Simple definition (fallback for entries without examples) */}
+      {/* Simple Definition Fallback */}
       {simpleDefinition && (
-        <section className="prose prose-sm max-w-none dark:prose-invert">
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+        <section>
+          <div className="flex gap-3 items-baseline mb-2">
+            <span className="font-bold text-base text-black dark:text-white">
+              1.
+            </span>
+          </div>
+          <p className="text-gray-800 dark:text-gray-200 leading-relaxed text-base ml-6">
             {simpleDefinition}
           </p>
         </section>
       )}
 
       {/* Navigation */}
-      <div className="flex gap-4 border-t border-gray-200 pt-6 dark:border-gray-700">
+      <div className="border-t-4 border-black dark:border-white pt-6">
         <Link
           href="/glossary"
-          className="inline-flex items-center gap-2 font-medium text-blue-600 transition-colors hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+          className="inline-flex items-center gap-2 font-semibold text-blue-600 transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 text-sm"
         >
           ← Back to Glossary
         </Link>

@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { GlossaryTerm } from "@/types/glossary";
-import { LetterJumpNav } from "./letter-jump-nav";
 
 interface GlossaryBookLeatherProps {
   groupedTerms: Record<string, GlossaryTerm[]>;
@@ -21,21 +20,26 @@ function getTermPreview(term: GlossaryTerm): string {
 
 function LetterPage({ letter, terms }: { letter: string; terms: GlossaryTerm[] }) {
   return (
-    <div className="space-y-6 px-6 py-8 h-full">
-      <h2 className="text-2xl font-bold text-gray-900 border-b border-gray-300 pb-2">
+    <div className="space-y-6 px-6 py-8 h-full overflow-y-auto font-serif">
+      <h2 className="text-3xl font-black text-gray-900 border-b-2 border-gray-300 pb-3">
         {letter}
       </h2>
-      <div className="space-y-5">
+      <div className="space-y-4">
         {terms.map((term) => (
           <Link
             key={term.slug}
             href={`/glossary/${term.slug}`}
             className="group block transition-colors hover:text-blue-600"
           >
-            <h3 className="font-semibold text-sm text-gray-900 group-hover:text-blue-600">
+            <h3 className="font-bold text-base text-gray-900 group-hover:text-blue-600">
               {term.title}
             </h3>
-            <p className="text-xs text-gray-600 mt-1 line-clamp-2 leading-relaxed">
+            {term.category && (
+              <p className="text-xs italic text-gray-600 mt-1">
+                {term.category}
+              </p>
+            )}
+            <p className="text-xs text-gray-700 mt-1 line-clamp-2 leading-relaxed">
               {getTermPreview(term)}
             </p>
           </Link>
@@ -60,64 +64,75 @@ export function GlossaryBookLeather({ groupedTerms }: GlossaryBookLeatherProps) 
 
   const spread = spreads[currentSpread];
 
-  return (
-    <div className="w-full max-w-6xl mx-auto space-y-8 px-4">
-      {/* Book Spread */}
-      <div
-        key={`spread-${currentSpread}`}
-        id={`letter-${spread.left}`}
-        className="scroll-mt-32"
-      >
-        <div className="flex bg-white rounded-lg shadow-2xl overflow-hidden min-h-screen">
-          {/* Left Page */}
-          <div
-            onClick={() => setCurrentSpread(Math.max(0, currentSpread - 1))}
-            className="flex-1 bg-neutral-100 dark:bg-neutral-950 relative overflow-y-auto [&::-webkit-scrollbar]:hidden cursor-pointer hover:opacity-95 transition-opacity"
-            style={{
-              boxShadow: "inset 2px 0 4px rgba(0, 0, 0, 0.1)",
-              scrollbarWidth: "none",
-            }}
-          >
-            <LetterPage letter={spread.left} terms={groupedTerms[spread.left]} />
-          </div>
+  if (!spread || !letters.length) {
+    return <div className="w-full bg-[#025E73] min-h-screen py-5" />;
+  }
 
-          {/* Right Page */}
-          {spread.right ? (
-            <div
+  return (
+    <>
+      <section id="glossary-book-section" className="w-full bg-[#025E73] min-h-screen py-5 hidden lg:block">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 gap-x-4 mb-8">
+            {/* Left Page */}
+            <div className="col-span-6 w-full h-full bg-white rounded-lg shadow-2xl overflow-hidden"
+              onClick={() => setCurrentSpread(Math.max(0, currentSpread - 1))}
+              style={{
+                boxShadow: "inset 2px 0 4px rgba(0, 0, 0, 0.1)",
+                scrollbarWidth: "none",
+              }}
+            >
+              <div className="bg-neutral-100 dark:bg-neutral-950 relative overflow-y-auto [&::-webkit-scrollbar]:hidden cursor-pointer hover:opacity-95 transition-opacity w-full h-full">
+                <LetterPage letter={spread.left} terms={groupedTerms[spread.left]} />
+              </div>
+            </div>
+
+            {/* Right Page */}
+            <div className="col-span-6 w-full h-full bg-white rounded-lg shadow-2xl overflow-hidden"
               onClick={() => setCurrentSpread(Math.min(spreads.length - 1, currentSpread + 1))}
-              className="flex-1 bg-neutral-100 dark:bg-neutral-950 relative overflow-y-auto [&::-webkit-scrollbar]:hidden cursor-pointer hover:opacity-95 transition-opacity"
               style={{
                 boxShadow: "inset -2px 0 4px rgba(0, 0, 0, 0.1)",
                 scrollbarWidth: "none",
               }}
             >
-              <LetterPage letter={spread.right} terms={groupedTerms[spread.right]} />
+              <div className="bg-neutral-100 dark:bg-neutral-950 relative overflow-y-auto [&::-webkit-scrollbar]:hidden cursor-pointer hover:opacity-95 transition-opacity w-full h-full">
+                {spread.right ? (
+                  <LetterPage letter={spread.right} terms={groupedTerms[spread.right]} />
+                ) : (
+                  <div />
+                )}
+              </div>
             </div>
-          ) : (
-            <div
-              onClick={() => setCurrentSpread(Math.min(spreads.length - 1, currentSpread + 1))}
-              className="flex-1 bg-neutral-100 dark:bg-neutral-950 cursor-pointer hover:opacity-95 transition-opacity"
-            />
-          )}
+          </div>
+
+          {/* Letter Jump Navigation */}
+          <nav className="flex flex-wrap gap-2 justify-center rounded-lg border border-gray-300 bg-white p-4 shadow-md">
+            {letters.map((letter) => {
+              const spreadIndex = spreads.findIndex(s => s.left === letter);
+              const hasItems = spreadIndex !== -1;
+              return (
+                <button
+                  key={letter}
+                  onClick={() => {
+                    if (hasItems) {
+                      setCurrentSpread(spreadIndex);
+                    }
+                  }}
+                  disabled={!hasItems}
+                  className={`inline-flex h-10 w-10 items-center justify-center rounded font-semibold text-sm transition-colors ${
+                    hasItems
+                      ? spreadIndex === currentSpread
+                        ? "bg-[#025E73] text-white"
+                        : "bg-gray-100 text-gray-900 hover:bg-gray-200"
+                      : "bg-gray-50 text-gray-300 cursor-not-allowed"
+                  }`}
+                >
+                  {letter}
+                </button>
+              );
+            })}
+          </nav>
         </div>
-
-      </div>
-
-      {/* Letter Jump Navigation */}
-      <nav className="flex flex-wrap gap-1 rounded-lg border border-gray-200 bg-neutral-100 dark:bg-neutral-950 p-3 shadow-sm">
-        {letters.map((letter) => {
-          const spreadIndex = spreads.findIndex(s => s.left === letter);
-          return (
-            <button
-              key={letter}
-              onClick={() => setCurrentSpread(Math.max(0, spreadIndex))}
-              className="inline-flex h-8 w-8 items-center justify-center rounded font-semibold text-sm transition-colors hover:bg-gray-100 text-black"
-            >
-              {letter}
-            </button>
-          );
-        })}
-      </nav>
-    </div>
+      </section>
+    </>
   );
 }
