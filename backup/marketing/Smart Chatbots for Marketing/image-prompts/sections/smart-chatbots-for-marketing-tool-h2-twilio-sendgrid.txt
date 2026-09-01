@@ -1,1 +1,0 @@
-An icon representing Twilio SendGrid, using abstract elements symbolizing email delivery, communication, and analytics.

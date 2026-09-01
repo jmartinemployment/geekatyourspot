@@ -923,34 +923,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
-                                                    href="/tools/marketing/hubspot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/active-campaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    HubSpot
+                                                    ActiveCampaign
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
-                                                    href="/tools/marketing/salesforce-einstein"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/Apollo", "Apollo")}
+                                                    href="/tools/marketing/Apollo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Salesforce Einstein
+                                                    Apollo
                                                 </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>,&nbsp;or&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/madkudu", ". LeadSquared ")}
+                                                    href="/tools/marketing/lead-squared "
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    LeadSquared
+                                                </Link>,&nbsp; 
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
                                                     href="/tools/marketing/6sense"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     6sense
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/clay", "Clay")}
-                                                    href="/tools/marketing/clay"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Clay
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madkudu", "MadKudu")}
-                                                    href="/tools/marketing/madkudu"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    MadKudu
                                                 </Link>.
                                             </p>
                                         </li>

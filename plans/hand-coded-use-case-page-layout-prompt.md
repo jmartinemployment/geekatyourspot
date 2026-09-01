@@ -32,7 +32,7 @@ Each section (except FAQ/PAA) must have **two parallel `<section>` blocks** (app
 
 ### 3. Special Case: FAQ/PAA Section
 - Single `<section>` block (no mobile/desktop split)
-- Use `col-span-9` for the `<h2>`, then `col-span-12` for the full-width FAQ body
+- Use `col-span-12` for the `<h2>`, then `col-span-12` for the full-width FAQ body
 - No alternating pattern needed
 - **PAA Q&A separator:** Add `<hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />` before the first Q&A item and between each Q&A item (but NOT after the last one)
 
@@ -59,7 +59,7 @@ Section 4 (Implementing):
   [col-span-12 body]
 
 Section 5 (PAA):
-  [col-span-9 heading]
+  [col-span-12 heading]
   [col-span-12 body]
 ```
 
@@ -78,7 +78,7 @@ Section 4 (Implementing):
   [col-span-7 heading+body] [col-span-5 empty]
 
 Section 5 (PAA):
-  [col-span-9 heading]
+  [col-span-12 heading]
   [col-span-12 body] (single section, no mobile/desktop split)
 ```
 
@@ -177,7 +177,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] Background colors follow the 5-color rotation (hardcoded on each `<section>`)
 - [ ] All content is hand-written JSX (no `.map()`, no arrays for repeated items)
 - [ ] All headings and links have `id` attributes matching the raw HTML source
-- [ ] PAA section is single block with `col-span-9` heading and `col-span-12` body
+- [ ] PAA section is single block with `col-span-12` heading and `col-span-12` body
 - [ ] PAA section has `<hr>` separators before first Q&A item and between each Q&A item (but not after the last)
 - [ ] Link colors match background: `text-[#C83803]` (default), `text-[#0B162A]` (on `#8C4E2A` or `#BF5934` backgrounds)
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)
