@@ -968,16 +968,16 @@ export function UseCasesSection() {
                                                 <li>
                                                     <p className="text-xs">
                                                         <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/retell-ai", "Retell AI")}
-                                                            href="/tools/marketing/retell-ai"
+                                                            id={gtmLinkIdFromHref("/tools/marketing/call-agent-ai", "CallAgentAI")}
+                                                            href="/tools/marketing/call-agent-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Retell AI
+                                                            CallAgentAI
                                                         </Link>,&nbsp;
                                                         <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/bland-ai", "Bland AI")}
-                                                            href="/tools/marketing/bland-ai"
+                                                            id={gtmLinkIdFromHref("/tools/marketing/speak-ai", "Speak AI")}
+                                                            href="/tools/marketing/speak-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Bland AI
+                                                            Speakai
                                                         </Link>,&nbsp;
                                                         <Link
                                                             id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}

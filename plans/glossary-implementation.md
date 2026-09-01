@@ -34,8 +34,11 @@ dimension.
    distinct, accurate definition.
 2. **Definitions get inline links to other glossary terms**, not just a
    trailing "related terms" list.
-3. **Glossary is linked from the footer *and* elsewhere across the site**
-   (see auto-linking below) — not just a single nav entry.
+3. **No dedicated footer link.** The site-wide auto-linker (below) already
+   surfaces the glossary everywhere a term is mentioned in body copy, which
+   covers discoverability without a standing nav/footer entry. The
+   `/glossary` index page itself is still a normal indexed route (reachable
+   directly, included in the sitemap) — it's just not pinned in the footer.
 4. **Existing tool/use-case/blog body copy gets retrofitted** with links
    into the new glossary terms, in this same pass.
 
@@ -55,6 +58,35 @@ applied in a few places, not 50+ manual edits.
 
 ### Phase 1 — Data model and lookup layer
 
+**Where terms and definitions actually live:** a single new TypeScript
+source file, `src/data/glossary.ts`, committed to the repo like any other
+source file (not a database, not a JSON file fetched at runtime, not the
+`content-writer`/`backup` HTML pipeline). It exports one plain array
+literal, hand-authored/edited directly in that file:
+
+```ts
+// src/data/glossary.ts
+import type { GlossaryTerm } from "@/types/glossary";
+
+export const glossaryTerms: GlossaryTerm[] = [
+  {
+    title: "A/B Testing",
+    slug: "a-b-testing",
+    definition: "", // filled in during Phase 5
+  },
+  {
+    title: "Agent Interface",
+    slug: "agent-interface",
+    definition: "",
+  },
+  // ...257 more, one object per line in plans/glossary_terms_alphabetized.txt
+];
+```
+
+This is the single source of truth — routes, sitemap, and the auto-linker
+all read from this one array (via the accessors below), so there's exactly
+one place to add, edit, or remove a term.
+
 - `src/types/glossary.ts` — new `GlossaryTerm` interface:
   `{ title: string; slug: string; definition: string; category?: string; shortSummary?: string }`.
   No `relatedTerms` field needed — the auto-linker derives relations from
@@ -62,12 +94,17 @@ applied in a few places, not 50+ manual edits.
   in sync.
 - `src/data/glossary.ts` — single array of all 259 `GlossaryTerm` records,
   seeded from `plans/glossary_terms_alphabetized.txt` (Title-Cased `title`
-  from each slug, `definition: ""` placeholder initially). One file, not
-  one-per-term — 259 entries of 2-4 sentences is a large but reasonably
-  scannable single data file, and avoids a 259-line hand-maintained import
-  registry the way `src/data/tools/*` would require.
-- `src/lib/glossary.ts` — pure accessor functions: `getAllGlossaryTerms()`,
-  `getGlossaryTerm(slug)`, `getGlossaryTermsGroupedByLetter()`.
+  from each slug, `definition: ""` placeholder initially, per the sketch
+  above). One file, not one-per-term — 259 entries of 2-4 sentences is a
+  large but reasonably scannable single data file, and avoids a 259-line
+  hand-maintained import registry the way `src/data/tools/*` would require.
+- `src/lib/glossary.ts` — pure accessor functions built on top of that
+  array: `getAllGlossaryTerms()` (returns `glossaryTerms`),
+  `getGlossaryTerm(slug)` (finds one by slug), `getGlossaryTermsGroupedByLetter()`
+  (buckets `glossaryTerms` by first letter of `title` for the index page).
+  These are the only functions the routes, sitemap, and auto-linker are
+  allowed to import from — nothing reaches into `src/data/glossary.ts`
+  directly.
 
 ### Phase 2 — Auto-linker utility
 
@@ -117,8 +154,10 @@ applied in a few places, not 50+ manual edits.
   `priority: 0.5`, `changeFrequency: "monthly"`. The static `/glossary`
   index is auto-picked-up by the existing `staticRoutes()` walk once its
   `page.tsx` exists — no extra code needed for that one.
-- `src/components/layout/footer.tsx` — add a "Glossary" entry to the
-  footer nav links.
+- No footer/navbar changes — the auto-linker (Phase 2) makes glossary
+  terms discoverable from wherever they're mentioned in body copy, and the
+  `/glossary` index is reachable directly and via the sitemap without a
+  standing nav entry.
 - `src/lib/content-writer/content.ts` — pipe `bodyHtml` through
   `linkGlossaryTerms()` in `sanitizeBody()` (or immediately after) so blog
   articles get auto-linked without touching the parser's core logic.
@@ -154,4 +193,3 @@ applied in a few places, not 50+ manual edits.
   terms appear in body).
 - Check generated `sitemap.xml` (`/sitemap.xml` in dev) includes all 259
   glossary URLs plus the `/glossary` index.
-- Confirm footer renders the new Glossary link on a couple of pages.
