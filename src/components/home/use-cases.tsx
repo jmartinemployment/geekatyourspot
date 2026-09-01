@@ -996,7 +996,7 @@ export function UseCasesSection() {
                                                             href="/tools/marketing/synthflow-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                             Synthflow AI
-                                                        </Link>.;
+                                                        </Link>.
                                                     </p>
                                                 </li>
                                             </ul>
@@ -2139,7 +2139,7 @@ export function UseCasesSection() {
                                                             href="/tools/marketing/synthflow-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                             Synthflow AI
-                                                        </Link>.;
+                                                        </Link>.
                                                     </p>
                                                 </li>
                                             </ul>

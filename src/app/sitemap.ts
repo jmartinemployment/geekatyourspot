@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { MetadataRoute } from "next";
 import { listEntries } from "@/lib/content-writer/content";
+import { getAllGlossaryTerms } from "@/lib/glossary";
 
 const BASE_URL = "https://geekatyourspot.com";
 const APP_DIR = path.join(process.cwd(), "src", "app");
@@ -55,5 +56,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...pages, ...posts].sort((a, b) => a.url.localeCompare(b.url));
+  const glossaryPages = getAllGlossaryTerms().map((term) => ({
+    url: `${BASE_URL}/glossary/${term.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
+  return [...pages, ...posts, ...glossaryPages].sort((a, b) =>
+    a.url.localeCompare(b.url),
+  );
 }
