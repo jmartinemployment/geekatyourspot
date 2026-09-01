@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getGlossaryTermsGroupedByLetter } from "@/lib/glossary";
-import { GlossaryIndex } from "@/components/glossary/glossary-index";
+import { GlossaryBookLeather } from "@/components/glossary/glossary-book-leather";
 
 export const metadata: Metadata = {
   title: "Glossary",
@@ -36,7 +36,8 @@ export default function GlossaryPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <div className="mx-auto max-w-4xl space-y-8 px-4 py-12 sm:px-6 lg:px-8">
+      <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950">
+        <div className="mx-auto max-w-4xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
         {/* Hero */}
         <div className="space-y-4 text-center">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl">
@@ -49,7 +50,8 @@ export default function GlossaryPage() {
         </div>
 
         {/* Index */}
-        <GlossaryIndex groupedTerms={groupedTerms} />
+        <GlossaryBookLeather groupedTerms={groupedTerms} />
+        </div>
       </div>
     </>
   );

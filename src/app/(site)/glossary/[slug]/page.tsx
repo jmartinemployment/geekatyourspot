@@ -2,6 +2,14 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllGlossaryTerms, getGlossaryTerm } from "@/lib/glossary";
 import { TermDetail } from "@/components/glossary/term-detail";
+import type { GlossaryTerm } from "@/types/glossary";
+
+function getTermDescription(term: GlossaryTerm): string {
+  if (term.definitions && term.definitions.length > 0) {
+    return term.definitions.map((d) => d.text).join(" ");
+  }
+  return term.definition || "";
+}
 
 export function generateStaticParams() {
   return getAllGlossaryTerms().map(({ slug }) => ({
@@ -21,23 +29,26 @@ export async function generateMetadata({
     return {};
   }
 
+  const description = (
+    term.shortSummary || getTermDescription(term)
+  ).substring(0, 160);
+
   return {
     title: `${term.title} — Glossary`,
-    description:
-      term.shortSummary || term.definition.substring(0, 160),
+    description,
     alternates: {
       canonical: `https://geekatyourspot.com/glossary/${term.slug}`,
     },
     openGraph: {
       type: "website",
       title: term.title,
-      description: term.shortSummary || term.definition.substring(0, 160),
+      description,
       url: `https://geekatyourspot.com/glossary/${term.slug}`,
     },
     twitter: {
       card: "summary",
       title: term.title,
-      description: term.shortSummary || term.definition.substring(0, 160),
+      description,
     },
   };
 }
@@ -59,7 +70,7 @@ export default async function TermPage({
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
     name: term.title,
-    description: term.definition,
+    description: getTermDescription(term),
     url: `https://geekatyourspot.com/glossary/${term.slug}`,
     inDefinedTermSet: "https://geekatyourspot.com/glossary",
   };
