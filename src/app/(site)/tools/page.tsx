@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faScrewdriverWrench, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { getAllTools } from "@/lib/tools-mapper";
 import { DEPARTMENT_ICONS, DepartmentName } from "@/types/department";
 import type { ToolPageContent } from "@/types/tool";
+import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 
 const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
@@ -100,28 +101,16 @@ export default function ToolsPage() {
   };
 
   return (
-    <div className="bg-[rgb(2,48,89)] text-white">
+    <div className="text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="container py-16 lg:py-24">
-        <div className="flex items-center gap-x-4">
-          <FontAwesomeIcon
-            icon={faScrewdriverWrench}
-            width={64}
-            height={64}
-            className="text-[#C83803]"
-          />
-          <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text text-[9vw] sm:text-6xl lg:text-[4.0rem]">
-            AI Tools &amp; Platforms
-          </h1>
-        </div>
-        <p className="pt-5 max-w-3xl text-xl text-white shadow-text lg:text-2xl">
-          These are the platforms we help South Florida small businesses
-          implement — set up, integrated, and automated so you see value faster
-          and skip the failed pilots.
-        </p>
+      <ToolsHeroSection
+        title="AI Tools &amp; Platforms"
+        summary="These are the platforms we help South Florida small businesses implement — set up, integrated, and automated so you see value faster and skip the failed pilots."
+      />
+      <section className="container py-16 lg:py-24 bg-[rgb(2,48,89)]">
 
         {departments.map((department) => (
           <div key={department} className="pt-14">

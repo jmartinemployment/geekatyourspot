@@ -1,43 +1,74 @@
 import type { Metadata } from "next";
-import { getGlossaryTermsGroupedByLetter } from "@/lib/glossary";
+import { getGlossaryTermsGroupedByLetter, getAllGlossaryTerms } from "@/lib/glossary";
 import { GlossaryBookLeather } from "@/components/glossary/glossary-book-leather";
 
+const SITE_URL = "https://geekatyourspot.com";
+const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
+const PAGE_TITLE = "Glossary";
+const PAGE_DESCRIPTION =
+  "A comprehensive glossary of customer experience, AI, and business automation terms. Look up definitions for key concepts in chatbots, marketing automation, and customer support.";
+
 export const metadata: Metadata = {
-  title: "Glossary",
-  description:
-    "A comprehensive glossary of customer experience, AI, and business automation terms. Look up definitions for key concepts in chatbots, marketing automation, and customer support.",
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
+  keywords: [
+    "glossary",
+    "business terms",
+    "AI terminology",
+    "chatbot",
+    "marketing automation",
+    "customer experience",
+    "automation",
+  ],
   alternates: {
-    canonical: "https://geekatyourspot.com/glossary",
+    canonical: "/glossary",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    description: PAGE_DESCRIPTION,
+    url: `${SITE_URL}/glossary`,
+    siteName: "Geek at Your Spot",
+    locale: "en_US",
+    images: [{ url: LOGO_IMAGE }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    description: PAGE_DESCRIPTION,
+    images: [LOGO_IMAGE],
   },
 };
 
 export default function GlossaryPage() {
   const groupedTerms = getGlossaryTermsGroupedByLetter();
+  const allTerms = getAllGlossaryTerms();
 
-  // JSON-LD DefinedTermSet schema
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "DefinedTermSet",
-    name: "Glossary",
-    url: "https://geekatyourspot.com/glossary",
-    hasDefinedTerm: Object.entries(groupedTerms).flatMap(([, terms]) =>
-      terms.map((term) => ({
+    "@type": "CollectionPage",
+    name: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: `${SITE_URL}/glossary`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: allTerms.map((term, index) => ({
         "@type": "DefinedTerm",
+        position: index + 1,
         name: term.title,
-        url: `https://geekatyourspot.com/glossary/${term.slug}`,
+        description: term.definition || term.shortSummary || "",
+        url: `${SITE_URL}/glossary/${term.slug}`,
       })),
-    ),
+    },
   };
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-      <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950">
-        <div className="mx-auto max-w-4xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950">
+      <div className="mx-auto max-w-4xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
         {/* Hero */}
         <div className="space-y-4 text-center">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-5xl">
@@ -51,8 +82,7 @@ export default function GlossaryPage() {
 
         {/* Index */}
         <GlossaryBookLeather groupedTerms={groupedTerms} />
-        </div>
       </div>
-    </>
+    </div>
   );
 }

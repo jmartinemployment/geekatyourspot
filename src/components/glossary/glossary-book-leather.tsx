@@ -49,7 +49,7 @@ export function GlossaryBookLeather({ groupedTerms }: GlossaryBookLeatherProps) 
   const [currentSpread, setCurrentSpread] = useState(0);
 
   const letters = Object.keys(groupedTerms).sort();
-  const spreads = [];
+  const spreads: Array<{ left: string; right: string | null }> = [];
 
   for (let i = 0; i < letters.length; i += 2) {
     spreads.push({
