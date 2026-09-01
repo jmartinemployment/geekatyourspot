@@ -980,23 +980,23 @@ export function UseCasesSection() {
                                                             Speakai
                                                         </Link>,&nbsp;
                                                         <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}
-                                                            href="/tools/marketing/synthflow-ai"
+                                                            id={gtmLinkIdFromHref("/tools/marketing/voice-genie-ai", "VoiceGenie AI")}
+                                                            href="/tools/marketing/voice-genie-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Synthflow AI
+                                                            VoiceGenie
                                                         </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/polyAI", "PolyAI")}
-                                                            href="/tools/marketing/polyAI"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            PolyAI
-                                                        </Link>,&nbsp;or&nbsp;
                                                         <Link
                                                             id={gtmLinkIdFromHref("/tools/marketing/eveninglabs-conversational-ai", "ElevenLabs Conversational AI")}
                                                             href="/tools/marketing/eveninglabs-conversational-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                             ElevenLabs Conversational AI
-                                                        </Link>.
+                                                        </Link>,&nbsp;
+                                                        <Link
+                                                            id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}
+                                                            href="/tools/marketing/synthflow-ai"
+                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                            Synthflow AI
+                                                        </Link>.;
                                                     </p>
                                                 </li>
                                             </ul>
@@ -2067,34 +2067,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
-                                                    href="/tools/marketing/hubspot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/active-campaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    HubSpot
+                                                    ActiveCampaign
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
-                                                    href="/tools/marketing/salesforce-einstein"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/Apollo", "Apollo")}
+                                                    href="/tools/marketing/Apollo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Salesforce Einstein
+                                                    Apollo
                                                 </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>,&nbsp;or&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/madkudu", ". LeadSquared ")}
+                                                    href="/tools/marketing/lead-squared "
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    LeadSquared
+                                                </Link>,&nbsp; 
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
                                                     href="/tools/marketing/6sense"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     6sense
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/clay", "Clay")}
-                                                    href="/tools/marketing/clay"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Clay
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madkudu", "MadKudu")}
-                                                    href="/tools/marketing/madkudu"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    MadKudu
                                                 </Link>.
                                             </p>
                                         </li>
@@ -2111,35 +2111,35 @@ export function UseCasesSection() {
                                                 <li>
                                                     <p className="text-sm">
                                                         <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/retell-ai", "Retell AI")}
-                                                            href="/tools/marketing/retell-ai"
+                                                            id={gtmLinkIdFromHref("/tools/marketing/call-agent-ai", "CallAgentAI")}
+                                                            href="/tools/marketing/call-agent-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Retell AI
+                                                            CallAgentAI
                                                         </Link>,&nbsp;
                                                         <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/bland-ai", "Bland AI")}
-                                                            href="/tools/marketing/bland-ai"
+                                                            id={gtmLinkIdFromHref("/tools/marketing/speak-ai", "Speak AI")}
+                                                            href="/tools/marketing/speak-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Bland AI
+                                                            Speakai
+                                                        </Link>,&nbsp;
+                                                        <Link
+                                                            id={gtmLinkIdFromHref("/tools/marketing/voice-genie-ai", "VoiceGenie AI")}
+                                                            href="/tools/marketing/voice-genie-ai"
+                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                            VoiceGenie
+                                                        </Link>,&nbsp;
+                                                        <Link
+                                                            id={gtmLinkIdFromHref("/tools/marketing/eveninglabs-conversational-ai", "ElevenLabs Conversational AI")}
+                                                            href="/tools/marketing/eveninglabs-conversational-ai"
+                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                            ElevenLabs Conversational AI
                                                         </Link>,&nbsp;
                                                         <Link
                                                             id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}
                                                             href="/tools/marketing/synthflow-ai"
                                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                             Synthflow AI
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/polyAI", "PolyAI")}
-                                                            href="/tools/marketing/polyAI"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            PolyAI
-                                                        </Link>,&nbsp;or&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/eveninglabs-conversational-ai", "ElevenLabs Conversational AI")}
-                                                            href="/tools/marketing/eveninglabs-conversational-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            ElevenLabs Conversational AI
-                                                        </Link>.
+                                                        </Link>.;
                                                     </p>
                                                 </li>
                                             </ul>
