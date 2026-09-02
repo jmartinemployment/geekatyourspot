@@ -730,9 +730,9 @@ All **13** backup blog HTML files linked (40 glossary anchors total, max ~5 per 
 
 Top-linked terms improved in `0037_glossary_definition_quality.sql`: marketing-automation, analytics, machine-learning, engagement-rate, kpi, personalized-marketing, conversion-funnel, api-integration, keyword-density, crm.
 
-## Post-crawl go-live checklist
+## Go-live checklist — complete
 
-1. Run GeekRepository migrations (`0034`–`0037`)
-2. Start GeekAPI + set `GEEK_API_URL` in geekatyourspot
-3. `next build` and verify `/glossary/chatbot`
-4. Deploy geekatyourspot
+1. ~~Run GeekRepository migrations (`0034`–`0037`)~~ — applied via Railway deploy
+2. ~~Set `GEEK_API_URL` in geekatyourspot~~ — `https://api.geekatyourspot.com`
+3. ~~`next build` and verify `/glossary/chatbot`~~ — build passes; page live
+4. ~~Deploy geekatyourspot~~ — production serving glossary pages
