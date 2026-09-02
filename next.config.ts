@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [{ source: "/glossary", destination: "/", permanent: true }];
-  },
   images: {
     formats: ['image/avif', 'image/webp'],
     qualities: [75, 100],

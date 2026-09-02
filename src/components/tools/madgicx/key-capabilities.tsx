@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -14,13 +15,13 @@ export default function KeyCapabilitiesSection() {
                 management. These capabilities include audience targeting, creative intelligence, and performance tracking, all of
                 which contribute to a more efficient ad spend strategy.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Audience Targeting: Madgicx uses AI to analyze audience behavior and preferences, allowing businesses to
+                <li>Audience Targeting: Madgicx uses <GlossaryLink slug="machine-learning">AI</GlossaryLink> to analyze audience behavior and preferences, allowing businesses to
                   target the most relevant audiences with precision. This ensures that ads are shown to potential customers
                   who are more likely to convert, enhancing the effectiveness of marketing campaigns.</li>
                 <li>Creative Intelligence: The platform provides insights into which creative elements are performing best,
                   enabling marketers to optimize their ad content. This feature helps in crafting messages that resonate with
-                  the target audience, leading to higher engagement rates.</li>
-                <li>Performance Tracking: Madgicx offers robust analytics tools that track the performance of ad campaigns in
+                  the target audience, leading to higher <GlossaryLink slug="engagement-rate">engagement rates</GlossaryLink>.</li>
+                <li>Performance Tracking: Madgicx offers robust <GlossaryLink slug="analytics">analytics</GlossaryLink> tools that track the performance of ad campaigns in
                   real-time. These insights allow businesses to make informed decisions about where to allocate their ad spend
                   for maximum impact.</li>
                 <li>Real-Time Bidding Optimization: By adjusting bids in real-time based on data-driven insights, Madgicx
@@ -44,12 +45,12 @@ export default function KeyCapabilitiesSection() {
                 management. These capabilities include audience targeting, creative intelligence, and performance tracking, all of
                 which contribute to a more efficient ad spend strategy.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Audience Targeting: Madgicx uses AI to analyze audience behavior and preferences, allowing businesses to
+                <li>Audience Targeting: Madgicx uses <GlossaryLink slug="machine-learning">AI</GlossaryLink> to analyze audience behavior and preferences, allowing businesses to
                   target the most relevant audiences with precision. This ensures that ads are shown to potential customers
                   who are more likely to convert, enhancing the effectiveness of marketing campaigns.</li>
                 <li>Creative Intelligence: The platform provides insights into which creative elements are performing best,
                   enabling marketers to optimize their ad content. This feature helps in crafting messages that resonate with
-                  the target audience, leading to higher engagement rates.</li>
+                  the target audience, leading to higher <GlossaryLink slug="engagement-rate">engagement rates</GlossaryLink>.</li>
                 <li>Performance Tracking: Madgicx offers robust analytics tools that track the performance of ad campaigns in
                   real-time. These insights allow businesses to make informed decisions about where to allocate their ad spend
                   for maximum impact.</li>

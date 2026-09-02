@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DynamicCreativeOptimizationSection() {
   return (
@@ -14,7 +15,7 @@ export default function DynamicCreativeOptimizationSection() {
               In the modern landscape of digital advertising, marketers face the constant challenge of creating relevant and
               engaging ads that capture audience attention without exceeding budget constraints. Traditional methods of designing
               and testing ads often result in time-consuming processes and increased costs due to trial and error. This is where
-              dynamic creative optimization (DCO) comes into play, offering a solution to automate and enhance ad creation.</p>
+              dynamic creative optimization (<GlossaryLink slug="dynamic-creative-optimization">DCO</GlossaryLink>) comes into play, offering a solution to automate and enhance ad creation.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Dynamic creative optimization leverages AI to automatically tailor and deliver personalized ad content to different
               audience segments. This not only saves time but also significantly improves ad performance by ensuring the right
@@ -29,7 +30,7 @@ export default function DynamicCreativeOptimizationSection() {
               </Link>&nbsp;are at the forefront of this innovation, enabling marketers to automate creative testing and optimize
               content in real-time based on performance data.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              These platforms use machine learning algorithms to analyze user interactions and preferences, dynamically adjusting
+              These platforms use <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to analyze user interactions and preferences, dynamically adjusting
               ad elements such as images, text, and calls-to-action to maximize engagement. For instance, a hypothetical retail
               company might use DCO to automatically display different product images to users based on their browsing history,
               increasing the likelihood of conversion without the manual labor traditionally required for such precise
@@ -37,7 +38,7 @@ export default function DynamicCreativeOptimizationSection() {
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
               <li>Save time by automating the creative process, reducing the need for manual design revisions.</li>
               <li>Increase ad relevance and performance through personalized content delivery.</li>
-              <li>Reduce costs associated with traditional A/B testing methods.</li>
+              <li>Reduce costs associated with traditional <GlossaryLink slug="a-b-testing">A/B testing</GlossaryLink> methods.</li>
             </ul>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Implementing DCO requires a strategic approach, where understanding customer behavior and segmenting audiences is
@@ -45,7 +46,7 @@ export default function DynamicCreativeOptimizationSection() {
               marketing goals and provide measurable results in terms of increased conversion rates and customer engagement.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalization-in-action">Personalization in Action</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Personalization is a core component of dynamic creative optimization. It involves tailoring ad content to meet the
+              <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is a core component of dynamic creative optimization. It involves tailoring ad content to meet the
               specific needs and preferences of individual users. This approach is more than just a buzzword; it&#39;s a practical
               strategy to enhance customer experience and drive sales.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">

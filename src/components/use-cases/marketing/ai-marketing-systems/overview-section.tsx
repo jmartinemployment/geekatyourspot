@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
   return (
@@ -23,7 +24,7 @@ export default function OverviewSection() {
                 hours but also increase the risk of errors and missed opportunities. The constant juggling act leaves little room
                 for strategic thinking or creative innovation, causing frustration and stifling growth.
               </p>
-              <p className="text-md text-white shadow-text pt-3">Enter AI Marketing Systems. These intelligent solutions streamline marketing efforts by automating repetitive
+              <p className="text-md text-white shadow-text pt-3">Enter <GlossaryLink slug="marketing-automation">AI Marketing Systems</GlossaryLink>. These intelligent solutions streamline marketing efforts by automating repetitive
                 Enter AI Marketing Systems, a game-changer that streamlines these processes and frees up valuable time. By
                 automating routine tasks, AI helps small businesses focus on what truly matters: building relationships and driving
                 sales. With features like accelerated deployment and workflow configuration, AI empowers teams to execute marketing

@@ -1,3 +1,5 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
+
 export default function PAASection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white">
@@ -12,7 +14,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-are-different-types-of-ad-spending-optimization">What are different types of ad spending optimization?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Ad spending optimization can involve several strategies. These include bid adjustments to allocate budget
-              efficiently, audience targeting to reach the right users, and creative testing to find the most effective ad content.
+              efficiently, audience targeting to reach the right users, and <GlossaryLink slug="a-b-testing">creative testing</GlossaryLink> to find the most effective ad content.
               Automated systems can streamline these processes by analyzing data and making real-time adjustments to improve
               performance and reduce wasted spend.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -32,7 +34,7 @@ export default function PAASection() {
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="can-ai-determine-the-saturated-cap-of-an-audience">Can AI determine the saturated cap of an audience?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              AI can help identify when an audience has reached saturation by analyzing engagement metrics and conversion rates.
+              AI can help identify when an audience has reached saturation by analyzing <GlossaryLink slug="engagement-rate">engagement metrics</GlossaryLink> and <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>.
               Once engagement starts to drop, it may indicate that the audience is no longer responsive. AI tools can alert
               marketers to these changes, allowing them to adjust strategies or explore new audience segments, ensuring continued
               campaign effectiveness.</p>

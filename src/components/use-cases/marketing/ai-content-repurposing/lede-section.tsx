@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
   return (
@@ -16,11 +17,11 @@ export default function LedeSection() {
             <div className="col-span-12">
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Imagine spending hours crafting the perfect blog post, only to watch it gather dust after a few weeks.
-                This is a common scene for many small businesses. The initial rush of engagement fades, and the
+                This is a common scene for many small businesses. The initial rush of <GlossaryLink slug="engagement-rate">engagement</GlossaryLink> fades, and the
                 content&#39;s potential remains untapped. You&#39;re left wondering if there&#39;s a more efficient way to keep
                 your content alive and relevant.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                AI content repurposing changes this narrative by breathing new life into your existing assets. Tools
+                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink> changes this narrative by breathing new life into your existing assets. Tools
                 like&nbsp;
                 <Link id="tools-marketing-jasper-ai" href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
@@ -65,11 +66,11 @@ export default function LedeSection() {
               </h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Imagine spending hours crafting the perfect blog post, only to watch it gather dust after a few weeks.
-                This is a common scene for many small businesses. The initial rush of engagement fades, and the
+                This is a common scene for many small businesses. The initial rush of <GlossaryLink slug="engagement-rate">engagement</GlossaryLink> fades, and the
                 content&#39;s potential remains untapped. You&#39;re left wondering if there&#39;s a more efficient way to keep
                 your content alive and relevant.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                AI content repurposing changes this narrative by breathing new life into your existing assets. Tools
+                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink> changes this narrative by breathing new life into your existing assets. Tools
                 like&nbsp;
                 <Link id="tools-marketing-jasper-ai-2" href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI

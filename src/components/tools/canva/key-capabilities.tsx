@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -20,12 +21,12 @@ export default function KeyCapabilitiesSection() {
                   simultaneously. This feature is crucial for teams that need to align on branding and messaging quickly.</li>
                 <li>Integration Capabilities: Canva integrates with various platforms such as social media networks and cloud
                   storage services, streamlining the process of sharing and storing designs.</li>
-                <li>AI-Powered Design Suggestions: Canva&#39;s AI-driven tools provide users with design suggestions to enhance
+                <li><GlossaryLink slug="machine-learning">AI-Powered</GlossaryLink> Design Suggestions: Canva&#39;s AI-driven tools provide users with design suggestions to enhance
                   their creations, helping to ensure that the final product is both visually appealing and on-brand.</li>
                 <li>Batch Processing: This feature allows users to create multiple designs at once, which is particularly useful for
                   campaigns that require consistent visuals across different channels.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">These capabilities make Canva an ideal solution for businesses looking to optimize their content creation
+              <p className="text-md text-white shadow-text pt-3">These capabilities make Canva an ideal solution for businesses looking to optimize their <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>
                 workflows. By leveraging its features, teams can produce high-quality visuals quickly and efficiently, ensuring that
                 their marketing efforts are both impactful and consistent.</p>
             </div>

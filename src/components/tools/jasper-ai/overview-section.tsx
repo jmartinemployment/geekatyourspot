@@ -1,10 +1,11 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">Jasper AI is a powerful content creation platform designed to enhance the efficiency and quality of writing
+      <p className="text-md text-white shadow-text pt-3">Jasper AI is a powerful <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> platform designed to enhance the efficiency and quality of writing
         processes for businesses. It leverages artificial intelligence to streamline content generation, enabling users to
         produce high-quality material quickly and with less manual effort. This tool is particularly beneficial for
-        organizations looking to optimize their content creation workflows, allowing teams to focus on strategic tasks
+        organizations looking to optimize their <GlossaryLink slug="marketing-automation">content creation workflows</GlossaryLink>, allowing teams to focus on strategic tasks
         rather than getting bogged down by repetitive writing chores.</p>
       <p className="text-md text-white shadow-text pt-3">With Jasper AI, businesses can expect to see significant improvements in the speed and consistency of their content
         output. The platform offers a range of features tailored to meet diverse writing needs, from drafting blog posts and

@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -10,7 +11,7 @@ export default function KeyCapabilitiesSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">AdCreative.ai offers a suite of capabilities designed to optimize ad spend through intelligent automation and
+              <p className="text-md text-white shadow-text pt-3">AdCreative.ai offers a suite of capabilities designed to optimize ad spend through intelligent <GlossaryLink slug="marketing-automation">automation</GlossaryLink> and
                 creative enhancement. These capabilities ensure that businesses can focus on strategic growth while the platform
                 handles the complexities of ad management.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
@@ -22,7 +23,7 @@ export default function KeyCapabilitiesSection() {
                   campaigns to maximize effectiveness.</li>
                 <li>Audience Targeting Optimization: By analyzing data patterns, AdCreative.ai identifies the most promising
                   audience segments and adjusts targeting parameters accordingly. This helps in reaching the most relevant
-                  potential customers, enhancing conversion rates.</li>
+                  potential customers, enhancing <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>.</li>
                 <li>Integration with Existing Tools: AdCreative.ai integrates seamlessly with other marketing platforms such as
                   HubSpot and Salesforce Einstein, ensuring that businesses can leverage their existing data and workflows
                   without disruption.</li>

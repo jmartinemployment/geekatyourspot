@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -11,8 +12,8 @@ export default function WhenToUseSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Adobe Mix Modeler is particularly beneficial for businesses that are looking to enhance their ad spend optimization
-                efforts through automation. It is ideal for companies that are experiencing inefficiencies in their current ad
+              <p className="text-md text-white shadow-text pt-3">Adobe Mix Modeler is particularly beneficial for businesses that are looking to enhance their <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>
+                efforts through <GlossaryLink slug="marketing-automation">automation</GlossaryLink>. It is ideal for companies that are experiencing inefficiencies in their current ad
                 management processes and are seeking a more streamlined approach to campaign management.</p>
               <p className="text-md text-white shadow-text pt-3">This tool is well-suited for organizations that have multiple advertising channels and require a unified solution to
                 manage them effectively. By integrating with platforms like HubSpot and Salesforce Einstein, Adobe Mix Modeler

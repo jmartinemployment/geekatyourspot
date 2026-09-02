@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -12,11 +13,11 @@ export default function OverviewToolSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Tableau AI and Adobe Analytics are powerful tools designed to optimize ad spend through advanced data analysis and
                 visualization capabilities. They provide businesses with the insights needed to make informed decisions, reducing
-                wasted budget and increasing return on investment (ROI). By integrating artificial intelligence, these platforms
+                wasted budget and increasing return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>). By integrating artificial intelligence, these platforms
                 offer automated solutions that streamline the process of ad management, ensuring that campaigns are both efficient
                 and effective.</p>
-              <p className="text-md text-white shadow-text pt-3">In the context of automated ad spend optimization, Tableau AI and Adobe Analytics excel by offering real-time data
-                processing and predictive analytics. These capabilities allow businesses to adapt quickly to market changes,
+              <p className="text-md text-white shadow-text pt-3">In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Tableau AI and Adobe Analytics excel by offering real-time data
+                processing and <GlossaryLink slug="analytics">predictive analytics</GlossaryLink>. These capabilities allow businesses to adapt quickly to market changes,
                 ensuring that ad spend is allocated to the most promising opportunities. This is crucial for businesses in dynamic
                 markets, such as those in Palm Beach and Broward counties, where competition is fierce and market conditions can
                 shift rapidly.</p>
@@ -25,7 +26,7 @@ export default function OverviewToolSection() {
                 providing detailed insights into customer behavior and campaign performance. Together, they form a comprehensive
                 suite for managing and optimizing ad spend.</p>
               <p className="text-md text-white shadow-text pt-3">For businesses looking to enhance their ad spend strategies, these tools offer a way to reduce manual intervention
-                and guesswork. By leveraging machine learning, they enable more precise targeting and bidding strategies, akin to
+                and guesswork. By leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, they enable more precise targeting and bidding strategies, akin to
                 tools like Google Ads Smart Bidding, but with a broader scope of data analysis and visualization. This results in
                 more efficient campaigns, saving time and resources while boosting sales and customer satisfaction.</p>
             </div>

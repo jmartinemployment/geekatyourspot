@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ToolsSection() {
   return (
@@ -6,7 +7,7 @@ export default function ToolsSection() {
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 py-5">
           <div className="col-span-12">
-            <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-orange">Top AI Tools for Cash Flow Forecasting</h2>
+            <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-orange">Top AI Tools for <GlossaryLink slug="cash-flow-forecasting" className="text-white hover:underline">Cash Flow Forecasting</GlossaryLink></h2>
             <p className="pt-5 text-md font-normal text-white shadow-text-orange">In today&#39;s dynamic financial environment, leveraging AI tools for cash flow forecasting is pivotal for
               businesses aiming to maintain liquidity and optimize financial operations. Geek At Your Spot, as an AI
               implementation consultancy, focuses on deploying these tools to enhance forecasting accuracy and operational
@@ -20,7 +21,7 @@ export default function ToolsSection() {
             AI-driven capabilities facilitate dynamic and collaborative planning across various business functions, making it a
             powerful tool for cash flow forecasting.</p>
           <ul className="list-disc list-outside pl-3 space-y-2">
-            <li>Advanced predictive analytics for real-time forecasting adjustments.</li>
+            <li>Advanced <GlossaryLink slug="analytics">predictive analytics</GlossaryLink> for real-time forecasting adjustments.</li>
             <li>Scenario planning that enables businesses to model different financial outcomes.</li>
             <li>Collaborative features that integrate inputs from multiple stakeholders.</li>
             <li>Highly customizable dashboards for detailed financial insights.</li>
@@ -59,7 +60,7 @@ export default function ToolsSection() {
             <li>Real-time cash visibility across global accounts.</li>
             <li>Predictive analytics for proactive liquidity management.</li>
             <li>Automated cash positioning and forecasting.</li>
-            <li>Strong integration capabilities with ERP systems.</li>
+            <li>Strong integration capabilities with <GlossaryLink slug="erp">ERP</GlossaryLink> systems.</li>
           </ul>
           <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">How an AI implementer helps with Kyriba</h4>
           <p className="pt-5 text-md font-normal text-white shadow-text-orange">Geek At Your Spot accelerates Kyriba&#39;s go-live by utilizing its robust integration tools to connect with

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function KeyStrategiesAccurateForecastingSection() {
 
@@ -15,14 +16,14 @@ export default function KeyStrategiesAccurateForecastingSection() {
           </div>
           <div className="col-span-7">
             <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Key Strategies for Accurate Forecasting</h2>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate cash flow forecasting is essential for maintaining the financial health of any organization. Misjudging
+            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate <GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink> is essential for maintaining the financial health of any organization. Misjudging
               cash flow can lead to missed opportunities or, worse, financial distress. Geek At Your Spot specializes in deploying
               AI-driven solutions to enhance forecasting accuracy, ensuring that businesses can plan effectively and mitigate
               financial risk. By leveraging advanced technologies, organizations can achieve precision in their cash flow
               predictions, providing a foundation for strategic decision-making.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Data Integration and Management</h3>
             <p className="pt-5 text-md font-normal text-white shadow-text">A foundational strategy in achieving accurate cash flow forecasts involves robust data integration and management.
-              Companies often have disparate financial data sources, including ERP systems, CRM platforms, and external financial
+              Companies often have disparate financial data sources, including <GlossaryLink slug="erp">ERP</GlossaryLink> systems, <GlossaryLink slug="crm">CRM</GlossaryLink> platforms, and external financial
               data feeds. Geek At Your Spot assists clients by integrating these data sources into a unified platform. This
               integration not only streamlines access to critical financial information but also enhances data accuracy by
               reducing manual entry errors.</p>
@@ -32,7 +33,7 @@ export default function KeyStrategiesAccurateForecastingSection() {
             </p>
             </div>
             <div className="col-span-12">
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Utilizing Predictive Analytics</h3>
+            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Utilizing <GlossaryLink slug="analytics">Predictive Analytics</GlossaryLink></h3>
             <p className="pt-5 text-md font-normal text-white shadow-text">Predictive analytics is a powerful tool in cash flow forecasting, enabling businesses to anticipate future
               financial conditions based on historical data and market trends. Geek At Your Spot employs AI algorithms to analyze
               vast datasets, uncovering patterns and trends that human analysts might overlook. By doing so, businesses can

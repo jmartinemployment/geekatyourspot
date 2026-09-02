@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <>
@@ -32,10 +33,10 @@ export default function ImplementationSection() {
               <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">
                 When to Use
               </h2>
-              <p className="text-md text-white shadow-text pt-3">Jasper AI is best utilized in scenarios where businesses need to enhance their content creation efficiency and quality. Here are some situations where Jasper AI can provide significant benefits:</p>
+              <p className="text-md text-white shadow-text pt-3">Jasper AI is best utilized in scenarios where businesses need to enhance their <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> efficiency and quality. Here are some situations where Jasper AI can provide significant benefits:</p>
               <p className="text-md text-white shadow-text pt-3">High-Volume Content Production: For businesses that need to generate large amounts of content regularly, Jasper AI can automate much of the writing process, reducing the workload on human writers.</p>
               <p className="text-md text-white shadow-text pt-3">Diverse Content Needs: Companies that produce a variety of content types, such as blog posts, product descriptions, and social media updates, can benefit from Jasper AI&apos;s versatile capabilities.</p>
-              <p className="text-md text-white shadow-text pt-3">SEO-Driven Strategies: Businesses focused on improving their search engine rankings will find Jasper AI&apos;s SEO optimization features particularly useful.</p>
+              <p className="text-md text-white shadow-text pt-3"><GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink>-Driven Strategies: Businesses focused on improving their search engine rankings will find Jasper AI&apos;s SEO optimization features particularly useful.</p>
               <p className="text-md text-white shadow-text pt-3">In these contexts, Jasper AI not only saves time and reduces costs but also enhances the overall quality and consistency of the content produced. By integrating Jasper AI into their content strategies, businesses can achieve more with less effort, ultimately leading to better engagement and improved outcomes.</p>
             </div>
           </div>

@@ -1,3 +1,5 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
+
 export default function PAASection() {
   return (
     <section className="min-h-screen bg-[#BF5934] text-white">
@@ -15,7 +17,7 @@ export default function PAASection() {
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-are-some-effective-ai-tools-for-repurposing-content">What are some effective AI tools for repurposing content?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Effective AI tools for repurposing content include platforms like Copy.ai, Jasper, and Lumen5. These tools help transform existing content into different formats, such as turning a blog post into a video or social media snippets. They use natural language processing and machine learning to understand the essence of the content, making it easy to adapt without losing the original message. These tools not only save time but also enhance the reach and impact of the content by tailoring it for various platforms.</p>
+              Effective AI tools for repurposing content include platforms like Copy.ai, Jasper, and Lumen5. These tools help transform existing content into different formats, such as turning a blog post into a video or social media snippets. They use <GlossaryLink slug="natural-language-processing">natural language processing</GlossaryLink> and <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to understand the essence of the content, making it easy to adapt without losing the original message. These tools not only save time but also enhance the reach and impact of the content by tailoring it for various platforms.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-are-some-easy-repurposing-ideas">What are some easy repurposing ideas?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">

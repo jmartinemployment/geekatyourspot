@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function AutomatedRulesBiddingSection() {
   return (
@@ -29,7 +30,7 @@ export default function AutomatedRulesBiddingSection() {
               frees up marketers to focus on higher-level strategic planning, rather than day-to-day bid management.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               For example, a hypothetical e-commerce business might set rules to automatically increase bids during peak shopping
-              hours. By using AI-driven bidding strategies, the business can ensure competitive ad placements without manual
+              hours. By using <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> bidding strategies, the business can ensure competitive ad placements without manual
               oversight, thereby reducing the risk of overspending while maximizing visibility and sales.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
               <li>Ensure competitive ad placements with real-time bid adjustments.</li>

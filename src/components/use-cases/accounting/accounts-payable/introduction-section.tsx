@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function IntroductionSection() {
 
@@ -11,9 +12,9 @@ export default function IntroductionSection() {
               <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Introduction to Automated Accounts Payable
               </h2>
-              <p className="text-md font-normal text-white shadow-text">Automated Accounts Payable (AP) is revolutionizing how businesses manage their financial operations, offering
+              <p className="text-md font-normal text-white shadow-text">Automated <GlossaryLink slug="accounts-payable">Accounts Payable</GlossaryLink> (AP) is revolutionizing how businesses manage their financial operations, offering
                 significant improvements in efficiency and accuracy. By leveraging advanced technologies such as artificial
-                intelligence and machine learning, companies can automate repetitive tasks, reduce human error, and streamline their
+                intelligence and <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, companies can automate repetitive tasks, reduce human error, and streamline their
                 AP processes. For organizations considering this transition, understanding the foundational aspects of AP automation
                 is crucial to optimizing their financial workflows.</p>
               <p className="pt-5 text-md font-normal text-white shadow-text">Geek At Your Spot, a leading AI implementation consultancy, specializes in guiding businesses through the
@@ -50,7 +51,7 @@ export default function IntroductionSection() {
                 measurable results.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Integration with Existing Systems</h3>
               <p className="pt-5 text-md font-normal text-white shadow-text">A critical aspect of successful AP automation is the integration of new technologies with existing enterprise
-                resource planning (ERP) systems. This step is essential to ensure that data flows seamlessly across platforms,
+                resource planning (<GlossaryLink slug="erp">ERP</GlossaryLink>) systems. This step is essential to ensure that data flows seamlessly across platforms,
                 maintaining consistency and accuracy. Geek At Your Spot excels in configuring integrations that preserve the
                 integrity of financial data while enhancing the overall system functionality.</p>
               <ul className="list-disc list-outside pl-3 space-y-2">

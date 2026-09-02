@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white">
@@ -6,7 +7,7 @@ export default function KeyCapabilitiesSection() {
           <div className="col-span-7">
             <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Key Capabilities</h2>
-            <p className="text-md text-white shadow-text pt-3">Grammarly offers a range of capabilities that enhance the content creation process by ensuring that writing is not
+            <p className="text-md text-white shadow-text pt-3">Grammarly offers a range of capabilities that enhance the <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> process by ensuring that writing is not
               only correct but also engaging and effective. Here are some of its key features:</p>
             <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
               <li>Grammar and Spelling Check: Grammarly&#39;s core function is to identify and correct grammatical errors,
@@ -19,7 +20,7 @@ export default function KeyCapabilitiesSection() {
                 ensuring content originality and integrity.</li>
               <li>Vocabulary Enhancement: It suggests synonyms and alternative words to improve vocabulary usage and make the
                 content more engaging.</li>
-              <li>Integration Capabilities: Grammarly integrates with a variety of platforms including Microsoft Word, Google
+              <li><GlossaryLink slug="api-integration">Integration</GlossaryLink> Capabilities: Grammarly integrates with a variety of platforms including Microsoft Word, Google
                 Docs, and email clients, allowing for seamless editing across different writing environments.</li>
               <li>Customizable Settings: Users can customize Grammarly&#39;s settings to prioritize certain types of suggestions
                 based on their specific needs and preferences.</li>

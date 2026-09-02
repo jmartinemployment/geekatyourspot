@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FAQItem } from "@/types/use-case";
 
 interface FAQSectionProps {
@@ -34,14 +35,14 @@ export default function FAQSection() {
           </h3>
           <p className="pt-5 text-md font-normal text-white shadow-text">
             Developing a pipeline involves setting up processes for moving leads through different stages until they are ready
-            to purchase. Start by mapping out each stage of your sales process. Then, use CRM tools to track lead progress and
+            to purchase. Start by mapping out each stage of your sales process. Then, use <GlossaryLink slug="crm">CRM</GlossaryLink> tools to track lead progress and
             automate communication. Regularly review and refine the pipeline to improve conversion rates.
           </p>
           <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
             What is the lead capture process?
           </h3>
           <p className="pt-5 text-md font-normal text-white shadow-text">
-            The lead capture process involves attracting potential customers and collecting their information for follow-up. It
+            The <GlossaryLink slug="lead-generation">lead capture</GlossaryLink> process involves attracting potential customers and collecting their information for follow-up. It
             typically starts with generating interest through marketing efforts, then capturing details via forms or landing
             pages. The information is then used to nurture leads until they are ready to make a purchase.
           </p>
@@ -51,7 +52,7 @@ export default function FAQSection() {
           <p className="pt-5 text-md font-normal text-white shadow-text">
             To build a good pipeline, ensure it is structured and scalable. Identify key stages from lead awareness to sale
             closure, and use CRM software to manage and track leads. Regularly analyze the pipeline&#39;s performance to
-            identify bottlenecks and optimize for efficiency.
+            identify bottlenecks and optimize for <GlossaryLink slug="conversion-funnel">efficiency</GlossaryLink>.
           </p>
           <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
             What are the 5 stages of a sales pipeline?

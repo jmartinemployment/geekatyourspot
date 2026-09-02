@@ -1,7 +1,8 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">OpenAI GPT-4 is a state-of-the-art AI language model designed to enhance content creation workflows by automating
+      <p className="text-md text-white shadow-text pt-3">OpenAI GPT-4 is a state-of-the-art AI language model designed to enhance <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> workflows by automating
         various aspects of writing and editing. This tool is particularly beneficial for businesses and teams aiming to
         produce high-quality content with greater efficiency and less manual intervention. Whether you&#39;re drafting blog
         posts, creating marketing materials, or generating technical documents, GPT-4 can significantly streamline the
@@ -11,7 +12,7 @@ export default function OverviewToolSection() {
         <li>Enhances language precision, ensuring that content is clear and free of errors.</li>
         <li>Generates creative ideas, helping teams brainstorm and refine concepts.</li>
         <li>Supports a wide range of content types, from articles and reports to social media posts and email campaigns.</li>
-        <li>Integrates seamlessly with existing workflows, making it easy to adopt and use alongside other tools.</li>
+        <li>Integrates seamlessly with existing <GlossaryLink slug="marketing-automation">workflows</GlossaryLink>, making it easy to adopt and use alongside other tools.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">OpenAI GPT-4 is recognized for its ability to produce text that closely mimics human writing, making it a powerful
         asset in any content creation strategy. It is designed to work with minimal setup, allowing teams to quickly

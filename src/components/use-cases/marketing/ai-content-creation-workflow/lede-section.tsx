@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
   return (
@@ -28,7 +29,7 @@ export default function LedeSection() {
                 challenge that many small businesses in Broward and West Palm Beach counties know all too well.</p>
               <p className="text-md text-white shadow-text pt-3">
                 Imagine if you could cut those hours down significantly while maintaining quality and creativity. This is where
-                AI-assisted content creation steps in. By automating repetitive tasks, AI tools like&nbsp;
+                AI-assisted <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> steps in. By automating repetitive tasks, AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-streamlining-jasper-ai"
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
@@ -67,7 +68,7 @@ export default function LedeSection() {
                 high-quality materials. Whether you&#39;re drafting a blog post or crafting a social media update, AI can handle
                 repetitive tasks, allowing your team to focus on strategy and creativity.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Moreover, AI-driven solutions help in repurposing existing content, maximizing its reach and effectiveness without
+                Moreover, AI-driven solutions help in <GlossaryLink slug="content-repurposing">repurposing</GlossaryLink> existing content, maximizing its reach and effectiveness without
                 starting from scratch each time. Tools like&nbsp;
                 <Link id="ai-content-creation-workflow-streamlining-contentstudio-1"
                   href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">

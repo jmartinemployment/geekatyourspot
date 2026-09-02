@@ -1,8 +1,9 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Frase is an AI-powered tool designed to streamline the process of creating SEO-optimized blog posts and articles. It helps businesses automate the labor-intensive aspects of content creation, such as topic brainstorming, keyword research, and drafting, thereby saving time and reducing errors. Frase is particularly beneficial for small businesses in areas like Palm Beach and Broward counties, where resources may be limited and the demand for high-quality content is high.
+        Frase is an <GlossaryLink slug="machine-learning">AI-powered</GlossaryLink> tool designed to streamline the process of creating <GlossaryLink slug="search-engine-optimization">SEO-optimized</GlossaryLink> blog posts and articles. It helps businesses automate the labor-intensive aspects of <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>, such as topic brainstorming, <GlossaryLink slug="keyword-density">keyword research</GlossaryLink>, and drafting, thereby saving time and reducing errors. Frase is particularly beneficial for small businesses in areas like Palm Beach and Broward counties, where resources may be limited and the demand for high-quality content is high.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         By leveraging AI, Frase enables users to generate content that is not only relevant but also optimized for search engines, improving the likelihood of higher rankings and increased visibility. This tool is part of a growing suite of AI-driven platforms that are transforming how content is produced by focusing on efficiency and effectiveness.

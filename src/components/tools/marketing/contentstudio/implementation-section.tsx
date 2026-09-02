@@ -1,3 +1,5 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
+
 export default function ImplementationSection() {
   return (
     <section className="min-h-screen bg-[#025E73] text-white">
@@ -13,9 +15,9 @@ export default function ImplementationSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-model-design">Data Model Design</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">Designing a data model that aligns with ContentStudio's capabilities is crucial. Consider how different content types will be transformed and mapped within the platform. This involves planning how content will be tagged, categorized, and stored to facilitate efficient repurposing and retrieval.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="workflow-configuration">Workflow and Process Configuration</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">ContentStudio allows for detailed configuration of workflows, including approval chains and content routing. Establishing clear processes for content transformation and distribution ensures that the right content reaches the right audience at the right time. Automation rules can be set up to streamline these processes, further enhancing efficiency.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">ContentStudio allows for detailed configuration of <GlossaryLink slug="marketing-automation">workflows</GlossaryLink>, including approval chains and content routing. Establishing clear processes for content transformation and distribution ensures that the right content reaches the right audience at the right time. <GlossaryLink slug="marketing-automation">Automation</GlossaryLink> rules can be set up to streamline these processes, further enhancing efficiency.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="custom-development">Custom Code and Development</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">While ContentStudio is primarily a configuration-based platform, it does offer APIs for more advanced customizations. Businesses with specific needs can leverage these APIs to extend the platform's functionality, integrating it more deeply with bespoke systems or workflows. Geek At Your Spot can assist with these advanced implementations.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">While ContentStudio is primarily a configuration-based platform, it does offer <GlossaryLink slug="api">APIs</GlossaryLink> for more advanced customizations. Businesses with specific needs can leverage these APIs to extend the platform's functionality, integrating it more deeply with bespoke systems or workflows. Geek At Your Spot can assist with these advanced implementations.</p>
           </div>
         </div>
       </div>

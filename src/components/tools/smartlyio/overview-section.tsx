@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -10,16 +11,16 @@ export default function OverviewToolSection() {
                 Overview</h2>
                 </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Smartly.io is a leading platform for automated ad spend optimization, offering businesses a way to streamline their
+              <p className="text-md text-white shadow-text pt-3">Smartly.io is a leading platform for automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, offering businesses a way to streamline their
                 digital advertising efforts. In the fast-paced world of digital marketing, manual ad management can be inefficient
                 and prone to errors. Smartly.io addresses these challenges by providing tools that automate and optimize ad
                 campaigns across multiple platforms, ensuring that marketing budgets are used effectively. This platform is
-                particularly beneficial for businesses looking to reduce wasted ad spend and improve return on investment (ROI)
-                through data-driven decision-making.</p>
+                particularly beneficial for businesses looking to reduce wasted ad spend and improve return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>)
+                through <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making.</p>
               <p className="text-md text-white shadow-text pt-3">Designed with user-friendly interfaces and robust integrations, Smartly.io enables marketers to manage ads on
                 platforms like Facebook, Instagram, and Pinterest from a single dashboard. This unification reduces the complexity
                 of handling multiple campaigns and allows for real-time adjustments based on performance data. The platform&#39;s
-                AI-driven capabilities mean that businesses can rely on machine learning to automate bid adjustments, targeting, and
+                AI-driven capabilities mean that businesses can rely on <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to automate bid adjustments, targeting, and
                 creative optimizations, which are crucial for reaching the right audience at the right time.</p>
               <p className="text-md text-white shadow-text pt-3">Smartly.io also integrates seamlessly with other marketing tools such as HubSpot and Salesforce Einstein, allowing
                 for a cohesive marketing strategy that spans customer relationship management and advertising. This integration

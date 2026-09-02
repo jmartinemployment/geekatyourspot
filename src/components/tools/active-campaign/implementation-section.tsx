@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <>
@@ -32,8 +33,8 @@ export default function ImplementationSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">
                 When to Use
               </h2>
-              <p className="pt-3 text-md font-normal text-white shadow-text">ActiveCampaign is an ideal solution for businesses looking to enhance their marketing efforts through automation and personalization. Here are some scenarios where the platform can deliver significant value:</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">Small to Medium-Sized Businesses: ActiveCampaign&#39;s affordability and scalability make it a perfect fit for small to medium-sized businesses that need a robust marketing automation solution without the high costs associated with enterprise-level platforms.</p>
+              <p className="pt-3 text-md font-normal text-white shadow-text">ActiveCampaign is an ideal solution for businesses looking to enhance their marketing efforts through automation and <GlossaryLink slug="personalized-marketing">personalization</GlossaryLink>. Here are some scenarios where the platform can deliver significant value:</p>
+              <p className="pt-3 text-md font-normal text-white shadow-text">Small to Medium-Sized Businesses: ActiveCampaign&#39;s affordability and scalability make it a perfect fit for small to medium-sized businesses that need a robust <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> solution without the high costs associated with enterprise-level platforms.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">Businesses Seeking Personalization: Companies aiming to deliver personalized customer experiences will benefit from ActiveCampaign&#39;s advanced segmentation and targeting features. These capabilities allow businesses to tailor their messages to specific audience segments, improving engagement and loyalty.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">Organizations with Limited Technical Expertise: The platform&#39;s intuitive interface and configuration-based setup make it accessible to businesses with limited technical resources. This ease of use ensures that marketing teams can quickly get up to speed and start leveraging the platform&#39;s capabilities.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">In summary, ActiveCampaign is a versatile tool that can significantly enhance marketing efforts for businesses of all sizes. By automating repetitive tasks and enabling personalized communication, it helps businesses save time, reduce costs, and drive more sales. Whether you&#39;re a small business owner or part of a larger marketing team, ActiveCampaign offers the tools you need to succeed in today&#39;s competitive landscape.</p>

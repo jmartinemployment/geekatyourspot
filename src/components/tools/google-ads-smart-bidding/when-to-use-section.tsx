@@ -1,3 +1,5 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
+
 export default function WhenToUseSection() {
 
   return (
@@ -15,7 +17,7 @@ export default function WhenToUseSection() {
                 manual intervention. Here are some scenarios where this tool can be especially beneficial:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High-Volume Campaigns: When managing large-scale campaigns with numerous variables, Smart Bidding can
-                  automate the complex process of bid adjustments, ensuring that each ad is optimized for the best possible
+                  <GlossaryLink slug="marketing-automation">automate</GlossaryLink> the complex process of bid adjustments, ensuring that each ad is optimized for the best possible
                   performance.</li>
                 <li>Dynamic Markets: In rapidly changing markets where consumer behavior can shift quickly, Smart Bidding’s
                   real-time adjustments keep your ads relevant and effective.</li>
@@ -25,7 +27,7 @@ export default function WhenToUseSection() {
                   details will find Smart Bidding invaluable. It frees up time and resources, allowing marketers to
                   concentrate on broader business objectives.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">By choosing Google Ads Smart Bidding, businesses can unlock the potential of automated ad spend optimization,
+              <p className="text-md text-white shadow-text pt-3">By choosing Google Ads Smart Bidding, businesses can unlock the potential of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>,
                 ensuring that every dollar spent contributes to achieving better marketing outcomes. Its ability to adapt and
                 optimize in real-time makes it a crucial tool for any business looking to enhance its digital advertising strategy.</p>
             </div>
@@ -42,7 +44,7 @@ export default function WhenToUseSection() {
                 manual intervention. Here are some scenarios where this tool can be especially beneficial:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High-Volume Campaigns: When managing large-scale campaigns with numerous variables, Smart Bidding can
-                  automate the complex process of bid adjustments, ensuring that each ad is optimized for the best possible
+                  <GlossaryLink slug="marketing-automation">automate</GlossaryLink> the complex process of bid adjustments, ensuring that each ad is optimized for the best possible
                   performance.</li>
                 <li>Dynamic Markets: In rapidly changing markets where consumer behavior can shift quickly, Smart Bidding’s
                   real-time adjustments keep your ads relevant and effective.</li>
@@ -52,7 +54,7 @@ export default function WhenToUseSection() {
                   details will find Smart Bidding invaluable. It frees up time and resources, allowing marketers to
                   concentrate on broader business objectives.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">By choosing Google Ads Smart Bidding, businesses can unlock the potential of automated ad spend optimization,
+              <p className="text-md text-white shadow-text pt-3">By choosing Google Ads Smart Bidding, businesses can unlock the potential of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>,
                 ensuring that every dollar spent contributes to achieving better marketing outcomes. Its ability to adapt and
                 optimize in real-time makes it a crucial tool for any business looking to enhance its digital advertising strategy.</p>
             </div>

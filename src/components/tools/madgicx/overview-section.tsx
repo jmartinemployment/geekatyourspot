@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -13,10 +14,10 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">Madgicx is a powerful AI-driven platform designed to optimize ad spend automatically. It helps businesses,
                 particularly those in Palm Beach and Broward counties, overcome the challenges of inefficient ad management.
                 Traditional methods often result in wasted budgets and missed opportunities due to the reliance on manual
-                adjustments and complex data analysis. Madgicx addresses these issues by leveraging machine learning to dynamically
-                adjust ad strategies, ensuring maximum return on investment (ROI).</p>
+                adjustments and complex data analysis. Madgicx addresses these issues by leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to dynamically
+                adjust ad strategies, ensuring maximum return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>).</p>
               <p className="text-md text-white shadow-text pt-3">The platform integrates seamlessly into existing marketing systems, providing businesses with the tools to make
-                data-driven decisions. By automating the ad spend optimization process, Madgicx reduces the need for constant manual
+                <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. By automating the <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> process, Madgicx reduces the need for constant manual
                 intervention, allowing marketing teams to focus on strategic initiatives that drive real results. This not only cuts
                 down on wasted ad spend but also enhances overall campaign effectiveness.</p>
               <p className="text-md text-white shadow-text pt-3">Madgicx stands out by offering a comprehensive suite of features tailored for automated ad spend optimization. It

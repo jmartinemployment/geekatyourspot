@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -16,8 +17,8 @@ export default function OverviewToolSection() {
                 platform that streamlines the creation and management of ad content, ensuring that marketing efforts are both
                 effective and efficient.</p>
               <p className="text-md text-white shadow-text pt-3">The tool is especially beneficial for businesses in competitive markets, such as Palm Beach and Broward counties,
-                where every advertising dollar needs to be maximized. By using AI-powered insights, AdCreative.ai helps marketers
-                make data-driven decisions that enhance the return on investment (ROI) of their campaigns. This is achieved through
+                where every advertising dollar needs to be maximized. By using <GlossaryLink slug="machine-learning">AI-powered</GlossaryLink> insights, AdCreative.ai helps marketers
+                make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions that enhance the return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>) of their campaigns. This is achieved through
                 automated processes that adjust ad content and placement strategies in real time, ensuring that ads are always
                 targeted to the right audience at the right time.</p>
               <p className="text-md text-white shadow-text pt-3">In comparison to other tools like Google Ads Smart Bidding, which focuses primarily on bid adjustments,

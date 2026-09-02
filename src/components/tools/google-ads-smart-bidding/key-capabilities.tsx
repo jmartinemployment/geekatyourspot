@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -14,14 +15,14 @@ export default function KeyCapabilitiesSection() {
                 capabilities are designed to enhance the efficiency and effectiveness of your ad campaigns, ultimately driving
                 better results.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Real-Time Bid Adjustments: The tool uses machine learning to adjust bids in real-time based on a variety of
+                <li>Real-Time Bid Adjustments: The tool uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to adjust bids in real-time based on a variety of
                   signals such as device, location, time of day, and user intent. This ensures that your ads are shown to the
                   most relevant audience, increasing the chances of conversion.</li>
                 <li>Flexible Bidding Strategies: Google Ads Smart Bidding offers multiple bidding strategies to suit different
                   campaign goals, including Target CPA (Cost Per Acquisition), Target ROAS (Return on Ad Spend), and Enhanced
                   CPC (Cost Per Click). Each strategy is tailored to optimize for specific outcomes, whether you aim to
                   increase conversions, maximize revenue, or improve click-through rates.</li>
-                <li>Integration with Google Analytics: By integrating with Google Analytics, Smart Bidding can access a broader
+                <li>Integration with Google <GlossaryLink slug="analytics">Analytics</GlossaryLink>: By integrating with Google Analytics, Smart Bidding can access a broader
                   set of data points, enhancing its ability to predict and optimize for conversions. This integration allows
                   for more comprehensive performance tracking and analysis.</li>
                 <li>Automated Performance Tracking: The tool provides automated reports and insights into campaign performance,

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RealTimeBudgetReallocationSection() {
   return (
@@ -24,7 +25,7 @@ export default function RealTimeBudgetReallocationSection() {
               <Link id="automated-ad-spend-optimization-budget-madgicx"
                 href="/tools/marketing/madgicx" className="text-[#0B162A] font-bold hover:underline">
                 Madgicx
-              </Link>&nbsp;are at the forefront of this capability. They use AI algorithms to monitor and analyze campaign
+              </Link>&nbsp;are at the forefront of this capability. They use <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI algorithms</GlossaryLink> to monitor and analyze campaign
               performance continuously. This allows marketers to shift budgets to high-performing ads or channels instantly,
               without manual intervention. Such automation not only saves time but also significantly enhances the return on ad
               spend (ROAS).</p>
@@ -47,7 +48,7 @@ export default function RealTimeBudgetReallocationSection() {
               <Link id="automated-ad-spend-optimization-budget-advantage"
                 href="/tools/marketing/advantage" className="text-[#0B162A] font-bold hover:underline">
                 Advantage
-              </Link>&nbsp;use predictive analytics to anticipate shifts in consumer behavior and adjust budgets accordingly. This
+              </Link>&nbsp;use <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">predictive analytics</GlossaryLink> to anticipate shifts in consumer behavior and adjust budgets accordingly. This
               foresight allows businesses to capitalize on emerging opportunities swiftly.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Geek At Your Spot customizes these platforms to ensure they integrate seamlessly with your existing marketing

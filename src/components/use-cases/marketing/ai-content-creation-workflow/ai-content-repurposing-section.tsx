@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function AIContentRepurposingSection() {
 
@@ -28,7 +29,7 @@ export default function AIContentRepurposingSection() {
                 game, allowing marketers to effectively repurpose content, ensuring it resonates with diverse audiences while
                 minimizing creation efforts.</p>
               <p className="text-md text-white shadow-text pt-3">
-                AI content repurposing involves transforming existing content into new formats and styles, making it accessible and
+                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink> involves transforming existing content into new formats and styles, making it accessible and
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-jasper-ai-1"
@@ -75,7 +76,7 @@ export default function AIContentRepurposingSection() {
                 Enhancing Content Reach with AI-Driven Personalization
               </h3>
               <p className="text-md text-white shadow-text pt-3">
-                Personalization is key to making content resonate with individual audience members. AI tools like&nbsp;
+                <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is key to making content resonate with individual audience members. AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-claude-1"
                   href="/tools/marketing/claude" className="text-[#C83803] hover:underline">
                   Claude
@@ -88,7 +89,7 @@ export default function AIContentRepurposingSection() {
                 needs and interests of various groups, enhancing both customer satisfaction and conversion rates.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-driven-segmentation-for-tailored-messaging">AI-Driven Segmentation for Tailored Messaging</h4>
               <p className="text-md text-white shadow-text pt-3">
-                Segmentation allows for the delivery of tailored messaging that aligns with the unique characteristics of each
+                <GlossaryLink slug="behavioral-segmentation">Segmentation</GlossaryLink> allows for the delivery of tailored messaging that aligns with the unique characteristics of each
                 audience segment. AI tools can automate this process, ensuring that each piece of content is optimized for its
                 intended audience without additional manual effort.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="using-ai-to-optimize-content-timing-and-distribution">Using AI to Optimize Content Timing and Distribution

@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function KeyCapabilitiesSection() {
               <p className="text-md text-white shadow-text pt-3">Omneky offers a range of capabilities that empower businesses to optimize their ad spend effectively. These features
                 are designed to streamline processes, enhance targeting precision, and improve overall campaign performance.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Automated Bid Adjustments: Omneky&#39;s AI-driven algorithms continuously analyze market conditions and
+                <li>Automated Bid Adjustments: Omneky&#39;s <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> algorithms continuously analyze market conditions and
                   audience behavior to dynamically adjust bids. This ensures that ads are displayed to the right audience at
                   the right time, maximizing the impact of every dollar spent.</li>
                 <li>Audience Insights: The platform provides detailed insights into audience demographics and behavior patterns,
@@ -22,8 +23,8 @@ export default function KeyCapabilitiesSection() {
                 <li>Seamless Integration: Omneky integrates with existing marketing ecosystems, including popular platforms like
                   Google Ads Smart Bidding and HubSpot. This compatibility ensures that businesses can leverage their current
                   tools while enhancing their capabilities with Omneky&#39;s advanced features.</li>
-                <li>Performance Analytics: With comprehensive analytics tools, Omneky offers real-time data on ad performance.
-                  Marketers can track key metrics, such as click-through rates and conversion rates, to assess the
+                <li>Performance <GlossaryLink slug="analytics">Analytics</GlossaryLink>: With comprehensive analytics tools, Omneky offers real-time data on ad performance.
+                  Marketers can track key metrics, such as click-through rates and <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>, to assess the
                   effectiveness of their campaigns and make informed decisions.</li>
                 <li>Budget Management: Omneky provides tools for effective budget allocation, allowing businesses to set
                   spending limits and monitor expenditures closely. This helps in preventing overspending and ensures that

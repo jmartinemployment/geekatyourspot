@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <section className="min-h-screen bg-[#025E73] text-white py-5">
@@ -8,7 +9,7 @@ export default function ImplementationSection() {
               Implementation Considerations
             </h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Implementing Frase in your content creation workflow requires careful planning and consideration of several factors to ensure a smooth transition and effective use of the tool.
+              Implementing Frase in your <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> workflow requires careful planning and consideration of several factors to ensure a smooth transition and effective use of the tool.
             </p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">
               Accelerated Deployment
@@ -20,7 +21,7 @@ export default function ImplementationSection() {
               Data Model Design
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              When using Frase, it is crucial to establish a clear data model that aligns with your content strategy. This involves mapping out how content will be structured, tagged, and categorized within the platform to ensure it meets SEO requirements and business objectives.
+              When using Frase, it is crucial to establish a clear data model that aligns with your content strategy. This involves mapping out how content will be structured, tagged, and categorized within the platform to ensure it meets <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> requirements and business objectives.
             </p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="workflow-and-process-configuration">
               Workflow and Process Configuration

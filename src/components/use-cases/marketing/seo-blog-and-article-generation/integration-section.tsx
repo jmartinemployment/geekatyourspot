@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function IntegrationSection() {
   const body = (
@@ -11,7 +12,7 @@ export default function IntegrationSection() {
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="aligning-content-with-business-goals">Aligning Content with Business Goals</h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        AI tools like <Link id="tools-marketing-keyword-insights-3" href="/tools/marketing/keyword-insights" className="text-[#0B162A] hover:underline">Keyword Insights</Link> can analyze vast amounts of data to identify trends and opportunities that align with your business objectives. By understanding these insights, businesses can create content that not only attracts visitors but also drives them towards conversion.
+        AI tools like <Link id="tools-marketing-keyword-insights-3" href="/tools/marketing/keyword-insights" className="text-[#0B162A] hover:underline">Keyword Insights</Link> can analyze vast amounts of data to identify trends and opportunities that align with your business objectives. By understanding these insights, businesses can create content that not only attracts visitors but also drives them towards <GlossaryLink slug="conversion-funnel" className="text-[#0B162A] hover:underline">conversion</GlossaryLink>.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Geek At Your Spot ensures that the AI tools you choose are configured to support your business goals, optimizing content for both search engines and human readers.
@@ -25,7 +26,7 @@ export default function IntegrationSection() {
       </p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-audience-engagement">Enhancing Audience Engagement</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Engaging content is essential for retaining your audience and encouraging interaction. AI tools like <Link id="tools-marketing-chatgpt-5" href="/tools/marketing/chatgpt" className="text-[#0B162A] hover:underline">ChatGPT</Link> can craft personalized content that speaks directly to the interests and needs of your audience, enhancing engagement and building brand loyalty.
+        Engaging content is essential for retaining your audience and encouraging interaction. AI tools like <Link id="tools-marketing-chatgpt-5" href="/tools/marketing/chatgpt" className="text-[#0B162A] hover:underline">ChatGPT</Link> can craft <GlossaryLink slug="personalized-marketing" className="text-[#0B162A] hover:underline">personalized content</GlossaryLink> that speaks directly to the interests and needs of your audience, enhancing engagement and building brand loyalty.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Geek At Your Spot guides businesses in utilizing these tools to refine their messaging, ensuring that content not only reaches the audience but resonates with them effectively.

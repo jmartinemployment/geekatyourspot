@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -12,9 +13,9 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Salesforce Einstein offers a suite of capabilities designed to optimize ad spend through intelligent automation and
                 data analysis. These capabilities are essential for businesses looking to enhance their marketing strategies and
-                achieve better ROI.</p>
+                achieve better <GlossaryLink slug="kpi">ROI</GlossaryLink>.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Predictive Analytics: Salesforce Einstein uses machine learning algorithms to predict future trends and
+                <li><GlossaryLink slug="analytics">Predictive Analytics</GlossaryLink>: Salesforce Einstein uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to predict future trends and
                   customer behaviors. This capability allows businesses to anticipate market changes and adjust their ad
                   strategies accordingly, minimizing wasted spend and maximizing impact.</li>
                 <li>AI-Powered Insights: The platform provides actionable insights by analyzing customer data and identifying
@@ -23,7 +24,7 @@ export default function KeyCapabilitiesSection() {
                 <li>Seamless Integration: Salesforce Einstein integrates with other marketing tools like Advantage, Omneky, and
                   Smartly.io, enhancing its ability to optimize ad campaigns across multiple platforms. This interoperability
                   ensures that businesses can leverage existing tools alongside Salesforce Einstein for a more comprehensive
-                  approach to ad spend optimization.</li>
+                  approach to <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.</li>
                 <li>Automated Campaign Management: By automating the management of ad campaigns, Salesforce Einstein reduces the
                   need for constant manual adjustments. This feature is particularly beneficial for businesses with limited
                   resources, as it saves time and reduces the risk of human error.</li>

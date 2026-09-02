@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white">
@@ -9,8 +10,8 @@ export default function KeyCapabilitiesSection() {
             <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
               <li>Automated Image Tagging: Adobe Sensei uses AI to analyze and tag images automatically, which simplifies the
                 process of organizing large media libraries.</li>
-              <li>Content Personalization: The platform can tailor content to individual user preferences in real-time, enhancing
-                user engagement and satisfaction.</li>
+              <li>Content <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink>: The platform can tailor content to individual user preferences in real-time, enhancing
+                <GlossaryLink slug="engagement-rate">user engagement</GlossaryLink> and satisfaction.</li>
               <li>Intelligent Editing Suggestions: Adobe Sensei provides smart suggestions for edits, helping users refine their
                 designs quickly and effectively.</li>
               <li>Automated Content Generation: It can generate content variations automatically, allowing creators to explore
@@ -20,7 +21,7 @@ export default function KeyCapabilitiesSection() {
               <li>Enhanced Search Capabilities: The platform improves search functionality within Adobe tools, making it easier to
                 find and reuse assets.</li>
             </ul>
-            <p className="text-md text-white shadow-text pt-3">Adobe Sensei&#39;s capabilities are designed to enhance both the speed and quality of content creation. By
+            <p className="text-md text-white shadow-text pt-3">Adobe Sensei&#39;s capabilities are designed to enhance both the speed and quality of <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>. By
               automating the tagging of images, users can keep their media libraries organized with minimal effort. This is
               particularly beneficial for large teams managing extensive collections of digital assets. The platform&#39;s ability
               to personalize content in real-time means that businesses can deliver more relevant experiences to their audiences,
@@ -28,7 +29,7 @@ export default function KeyCapabilitiesSection() {
             <p className="text-md text-white shadow-text pt-3">Intelligent editing suggestions and automated content generation are two features that significantly reduce the
               time spent on manual design tasks. These capabilities allow creative professionals to focus on more strategic
               elements of their projects, such as conceptual development and storytelling. Furthermore, Adobe Sensei&#39;s
-              seamless integration with Adobe&#39;s suite of creative tools ensures that users can leverage these AI-driven
+              seamless integration with Adobe&#39;s suite of creative tools ensures that users can leverage these <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink>
               features without disrupting their existing workflows.</p>
             <p className="text-md text-white shadow-text pt-3">The enhanced search capabilities offered by Adobe Sensei also play a vital role in improving efficiency. By
               enabling users to quickly locate and reuse assets, the platform helps prevent duplication of effort and ensures that

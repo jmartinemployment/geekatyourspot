@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataValidationCleaningSection() {
   return (
@@ -13,7 +14,7 @@ export default function DataValidationCleaningSection() {
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Poor data quality is a significant hurdle in automated ad spend optimization. Inconsistent data can lead to misguided
               spending decisions, resulting in wasted budget and missed opportunities. Ensuring high-quality data is crucial for
-              accurate insights and effective ad strategies.</p>
+              accurate <GlossaryLink slug="analytics">insights</GlossaryLink> and effective ad strategies.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               To address this, Geek At Your Spot assists organizations in implementing robust data quality assessments. By
               leveraging advanced tools and methodologies, businesses can ensure that their data is reliable and actionable. This
@@ -73,7 +74,7 @@ export default function DataValidationCleaningSection() {
               ad spend decisions. This not only saves time but also enhances the precision of budget allocations.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="error-identification-and-correction">Error Identification and Correction</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Qualytics uses machine learning algorithms to detect errors in datasets, offering suggestions for corrections. This
+              Qualytics uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to detect errors in datasets, offering suggestions for corrections. This
               reduces the reliance on manual data checks and ensures that data is consistently accurate.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               For instance, in a representative scenario, an e-commerce company could leverage Qualytics to automatically correct

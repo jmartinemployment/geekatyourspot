@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function IntroductionSection() {
 
@@ -8,8 +9,8 @@ export default function IntroductionSection() {
         <div className="container py-4">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Understanding Cash Flow Forecasting</h2>
-              <p className="pt-5 text-md font-normal text-white shadow-text">Cash flow forecasting is an essential financial practice that helps businesses predict their future cash positions,
+              <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Understanding <GlossaryLink slug="cash-flow-forecasting" className="text-white hover:underline">Cash Flow Forecasting</GlossaryLink></h2>
+              <p className="pt-5 text-md font-normal text-white shadow-text"><GlossaryLink slug="cash-flow-forecasting">Cash flow forecasting</GlossaryLink> is an essential financial practice that helps businesses predict their future cash positions,
                 enabling them to make informed decisions about budgeting, investing, and operational planning. By estimating the
                 inflow and outflow of cash over a specified period, organizations can better manage their liquidity, ensuring they
                 have sufficient funds to meet their obligations while also identifying opportunities for growth.</p>

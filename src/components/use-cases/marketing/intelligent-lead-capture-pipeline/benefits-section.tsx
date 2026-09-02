@@ -1,5 +1,6 @@
 import { px } from "motion/react";
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BenefitsSection() {
 
@@ -21,7 +22,7 @@ export default function BenefitsSection() {
               Benefits of Implementing AI in Lead Capture
             </h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Manual lead capture processes are often fraught with errors and inefficiencies that can cost businesses time and
+              Manual <GlossaryLink slug="lead-generation">lead capture</GlossaryLink> processes are often fraught with errors and inefficiencies that can cost businesses time and
               potential revenue. Mistakes in data entry or delayed follow-ups can mean losing leads to competitors. Companies may
               also find their sales teams overwhelmed by the volume of unqualified leads, leading to wasted effort and
               frustration. Implementing AI can address these pain points, offering more precise and efficient lead capture.
@@ -36,12 +37,12 @@ export default function BenefitsSection() {
               <li>Prioritized leads: AI tools can rank leads based on predefined criteria, ensuring that sales teams prioritize
                 high-potential opportunities.</li>
               <li>Increased conversion rates: In a hypothetical mid-sized tech firm, AI-led improvements in lead quality and speed
-                of response led to a 20% increase in conversion rates.</li>
+                of response led to a 20% increase in <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>.</li>
             </ul>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Geek At Your Spot, as an AI implementation consultancy, plays a crucial role in ensuring these benefits are
               realized. By designing a robust data model, they enable businesses to map customer information accurately, which is
-              essential for personalized lead nurturing. Their expertise in workflow configuration helps automate approval chains
+              essential for <GlossaryLink slug="personalized-marketing">personalized lead nurturing</GlossaryLink>. Their expertise in workflow configuration helps automate approval chains
               and routing, making sure that leads are assigned to the right sales reps promptly.
             </p>
             <p className="pt-3 text-md font-normal text-white shadow-text">

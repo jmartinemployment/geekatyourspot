@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function KeyCapabilitiesSection() {
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Real-Time Data Processing: Both tools allow for the continuous collection and analysis of data, providing
                   up-to-the-minute insights that help businesses stay ahead of market trends.</li>
-                <li>Predictive Analytics: By using machine learning algorithms, these platforms can predict future trends and
+                <li><GlossaryLink slug="analytics">Predictive Analytics</GlossaryLink>: By using <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms, these platforms can predict future trends and
                   outcomes, allowing marketers to allocate budgets more effectively and anticipate customer behavior.</li>
                 <li>Customizable Dashboards: Tableau AI offers highly customizable dashboards that enable users to visualize
                   data in ways that are most meaningful to their specific needs. This flexibility is crucial for tailoring

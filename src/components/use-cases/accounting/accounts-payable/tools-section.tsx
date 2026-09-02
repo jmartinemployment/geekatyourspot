@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ToolsSection() {
   return (
@@ -8,10 +9,10 @@ export default function ToolsSection() {
             <div className="col-span-12">
               <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-orange">
                 Top AI Tools for Accounts Payable Automation</h2>
-              <p className="pt-5 text-md font-normal text-white shadow-text-orange">In the evolving landscape of automated accounts payable (AP) processes, selecting the right AI tools is crucial to
+              <p className="pt-5 text-md font-normal text-white shadow-text-orange">In the evolving landscape of automated <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> (AP) processes, selecting the right AI tools is crucial to
                 achieving optimal efficiency and accuracy. Geek At Your Spot specializes in guiding organizations through the
                 selection and implementation of these tools, ensuring a tailored fit for each client&#39;s specific needs. Below, we
-                explore several leading AI-powered platforms that have transformed how businesses manage their accounts payable
+                explore several leading <GlossaryLink slug="machine-learning" className="text-white hover:underline">AI-powered</GlossaryLink> platforms that have transformed how businesses manage their accounts payable
                 functions.</p>
             </div>
             <div className="col-span-6">
@@ -67,7 +68,7 @@ export default function ToolsSection() {
                 <li>Automated invoice capture using AI-powered data extraction.</li>
                 <li>Streamlined approval workflows with customizable routing rules.</li>
                 <li>Real-time analytics and reporting for enhanced visibility.</li>
-                <li>Seamless integration with major ERP systems.</li>
+                <li>Seamless integration with major <GlossaryLink slug="erp">ERP</GlossaryLink> systems.</li>
               </ul>
               <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">How an AI implementer helps with Medius</h4>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">An AI implementer like Geek At Your Spot can expedite Medius deployment by utilizing its ERP connectors and

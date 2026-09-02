@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function IntroductionSection() {
 
@@ -21,8 +22,8 @@ export default function IntroductionSection() {
                 efforts with AI-driven solutions that are both efficient and cost-effective.
               </p>
               <p className="text-md text-white shadow-text pt-3">
-                AI marketing systems transform how businesses approach their marketing strategies. By leveraging machine learning
-                and data analytics, these systems can provide insights that drive more personalized and targeted campaigns. Geek At
+                AI marketing systems transform how businesses approach their marketing strategies. By leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>
+                and <GlossaryLink slug="analytics">data analytics</GlossaryLink>, these systems can provide insights that drive more personalized and targeted campaigns. Geek At
                 Your Spot assists clients in deploying these systems quickly, ensuring they are tailored to meet specific business
                 needs. The result is a more agile marketing operation that can adapt swiftly to market changes, reduce errors, and
                 enhance customer engagement.
@@ -63,12 +64,12 @@ export default function IntroductionSection() {
                   guides businesses in setting up these tools, allowing them to maintain an engaging online presence with less effort.
                 </p>
                 <h3 id="lead-capture-pipeline" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
-                  Lead Capture Pipeline
+                  <GlossaryLink slug="lead-generation">Lead Capture Pipeline</GlossaryLink>
                 </h3>
                 <p className="text-md text-white shadow-text pt-3">Capturing leads efficiently is crucial for any business. AI marketing systems enhance lead capture by automating
                   data collection and analysis, enabling businesses to identify potential customers more accurately. Geek At Your Spot
                   assists in configuring these systems to ensure seamless integration with existing customer relationship management
-                  (CRM) tools.</p>
+                  (<GlossaryLink slug="crm">CRM</GlossaryLink>) tools.</p>
                 <h4 id="automated-lead-nurturing" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Automated Lead Nurturing</h4>
                 <p className="text-md text-white shadow-text pt-3">Once leads are captured, nurturing them through the sales funnel is key. AI systems automate this process by
                   delivering personalized content and follow-ups based on individual customer behaviors and preferences. Geek At Your
@@ -80,7 +81,7 @@ export default function IntroductionSection() {
                   deploying these tools to ensure that advertising dollars are spent wisely, achieving better results with less waste.
                 </p>
                 <h4 id="predictive-analytics-for-advertising" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Predictive Analytics for Advertising</h4>
-                <p className="text-md text-white shadow-text pt-3">Predictive analytics use historical data to forecast future ad performance, allowing businesses to make informed
+                <p className="text-md text-white shadow-text pt-3"><GlossaryLink slug="analytics">Predictive analytics</GlossaryLink> use historical data to forecast future ad performance, allowing businesses to make informed
                   decisions about where to allocate their marketing budget. Geek At Your Spot helps businesses implement predictive
                   analytics tools, enhancing their ability to plan and execute more effective advertising strategies.</p>
               </div>

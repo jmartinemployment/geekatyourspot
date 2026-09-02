@@ -1,15 +1,16 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">Grammarly is a powerful writing assistant designed to enhance content quality through real-time grammar,
-        punctuation, and style checks. It integrates seamlessly into various content creation workflows, enabling users to
+        punctuation, and style checks. It integrates seamlessly into various <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> workflows, enabling users to
         streamline their editing processes and ensure their content is clear, concise, and error-free. This tool is
         particularly useful for teams looking to improve the efficiency and accuracy of their written communication while
         reducing the time spent on manual proofreading.</p>
       <p className="text-md text-white shadow-text pt-3">By using Grammarly, users can automatically detect and correct a wide range of writing issues, from basic spelling
         mistakes to complex grammatical errors. The tool also provides suggestions for improving sentence structure and
         style, helping writers produce more engaging and polished content. Grammarly&#39;s user-friendly interface and
-        integration capabilities make it accessible for both individual users and collaborative teams.</p>
+        <GlossaryLink slug="api-integration">integration</GlossaryLink> capabilities make it accessible for both individual users and collaborative teams.</p>
       <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
         <li>Real-time grammar and punctuation checks</li>
         <li>Style and tone suggestions</li>

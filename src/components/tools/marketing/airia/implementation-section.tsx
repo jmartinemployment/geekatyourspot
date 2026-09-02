@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <section className="min-h-screen bg-[#025E73] text-white">
@@ -7,9 +8,9 @@ export default function ImplementationSection() {
             <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementation-considerations">Implementation Considerations</h2>
           </div>
           <div className="col-span-12">
-            <p className="pt-3 text-md font-normal text-white shadow-text">Implementing Airia into your content strategy involves several key considerations to ensure a smooth and effective deployment. These considerations are tailored to the specific capabilities and features of Airia, helping businesses maximize their investment in AI content repurposing.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Implementing Airia into your content strategy involves several key considerations to ensure a smooth and effective deployment. These considerations are tailored to the specific capabilities and features of Airia, helping businesses maximize their investment in AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">Accelerated Deployment</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Airia offers pre-built connectors and templated setups that significantly shorten the go-live process. By using these resources, businesses can quickly integrate Airia into their existing workflows, minimizing downtime and accelerating the benefits of AI-driven content repurposing.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Airia offers pre-built connectors and templated setups that significantly shorten the go-live process. By using these resources, businesses can quickly integrate Airia into their existing workflows, minimizing downtime and accelerating the benefits of <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> content repurposing.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-model-design">Data Model Design</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">A critical step in implementing Airia is designing a data model that aligns with your content strategy. This involves mapping out how different content formats will be generated and distributed across platforms. Proper data model design ensures that the content repurposing process is efficient and aligned with business goals.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="workflow-configuration">Workflow and Process Configuration</h3>

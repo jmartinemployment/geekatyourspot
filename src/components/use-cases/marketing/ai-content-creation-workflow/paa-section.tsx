@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers, faPersonCircleQuestion, faCircleQuestion, faQuestion } from "@fortawesome/free-solid-svg-icons";
 
@@ -25,12 +26,12 @@ export default function PAASection() {
             <p className="pt-3 text-md font-normal text-white shadow-text">
               AI maintains a consistent brand voice by analyzing existing content to understand the tone, style, and language
               preferences. It uses this analysis to generate new content that aligns with the established brand voice. Tools like
-              natural language processing (NLP) help ensure that all content pieces reflect the same personality and message,
+              <GlossaryLink slug="natural-language-processing">natural language processing</GlossaryLink> (NLP) help ensure that all content pieces reflect the same personality and message,
               reducing the risk of inconsistencies.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-can-ai-help-in-repurposing-content">How can AI help in repurposing content?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              AI helps in repurposing content by identifying key themes and segments that can be adapted into different formats.
+              AI helps in <GlossaryLink slug="content-repurposing">repurposing content</GlossaryLink> by identifying key themes and segments that can be adapted into different formats.
               For instance, AI can transform a blog post into a series of social media updates or a podcast script. This maximizes
               content reach and engagement without starting from scratch each time, saving time and resources.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -49,7 +50,7 @@ export default function PAASection() {
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-does-ai-personalize-email">How does AI personalize email?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              AI personalizes email by analyzing user data to tailor content to individual preferences and behaviors. It can
+              AI <GlossaryLink slug="personalized-marketing">personalizes email</GlossaryLink> by analyzing user data to tailor content to individual preferences and behaviors. It can
               adjust subject lines, content, and call-to-actions based on past interactions and demographic information. This
               level of personalization increases open rates and engagement, making email marketing more effective.</p>
           </div>

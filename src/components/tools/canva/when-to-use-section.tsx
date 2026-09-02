@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -19,8 +20,8 @@ export default function WhenToUseSection() {
                   campaigns across multiple channels.</li>
                 <li>Small Businesses: For small businesses with limited resources, Canva offers an affordable solution for creating
                   high-quality marketing materials without the need for a dedicated design team.</li>
-                <li>Social Media Managers: Canva&#39;s integration with social media platforms makes it a valuable tool for social
-                  media managers looking to streamline the content creation and posting process.</li>
+                <li>Social Media Managers: Canva&#39;s <GlossaryLink slug="api-integration">integration</GlossaryLink> with social media platforms makes it a valuable tool for social
+                  media managers looking to streamline the <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> and posting process.</li>
                 <li>Educational Institutions: Schools and universities can use Canva to create engaging educational materials and
                   promotional content with ease.</li>
               </ul>

@@ -1,7 +1,9 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
+
 export default function StreamliningSection() {
   const body = (
     <>
-      <p className="pt-3 text-md font-normal text-white shadow-text">Managing content workflows can be a tangled web of tasks and approvals, often leading to bottlenecks and delays. AI tools streamline these workflows by automating repetitive tasks, which reduces the potential for error and speeds up the content production process. This is where Geek At Your Spot excels, by deploying tools like Zapier and Make.com to integrate various processes into a seamless operational flow.</p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">Managing content workflows can be a tangled web of tasks and approvals, often leading to bottlenecks and delays. AI tools streamline these workflows by automating repetitive tasks through <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink>, which reduces the potential for error and speeds up the content production process. This is where Geek At Your Spot excels, by deploying tools like Zapier and Make.com to integrate various processes into a seamless operational flow.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automating-routine-tasks">Automating Routine Tasks</h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">Routine tasks such as content scheduling, data entry, and updates can slow down productivity if handled manually. AI tools like Make.com automate these processes, allowing employees to focus on more strategic tasks, thus enhancing overall efficiency within the organization.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="efficiency-gains-with-automation">Efficiency Gains with Automation</h4>

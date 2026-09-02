@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white">
@@ -6,17 +7,17 @@ export default function KeyCapabilitiesSection() {
           <div className="col-span-7">
             <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Key Capabilities</h2>
-            <p className="text-md text-white shadow-text pt-3">Marketo offers a range of powerful features designed to support marketing automation and improve campaign outcomes.
+            <p className="text-md text-white shadow-text pt-3">Marketo offers a range of powerful features designed to support <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> and improve campaign outcomes.
               Here are some of its key capabilities:</p>
             <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-              <li>Lead Management: Marketo enables businesses to capture, score, and nurture leads effectively. This helps in
+              <li><GlossaryLink slug="lead-generation">Lead Management</GlossaryLink>: Marketo enables businesses to capture, score, and nurture leads effectively. This helps in
                 identifying high-quality prospects and moving them through the sales funnel efficiently.</li>
               <li>Email Marketing: The platform provides tools for creating and managing email campaigns, including A/B testing,
                 dynamic content, and automated workflows. This ensures that messages are timely, relevant, and personalized.</li>
-              <li>Customer Engagement: Marketo facilitates personalized customer interactions across multiple channels, such as
+              <li>Customer Engagement: Marketo facilitates <GlossaryLink slug="personalized-marketing">personalized customer</GlossaryLink> interactions across multiple channels, such as
                 email, social media, and web. This enhances customer satisfaction and loyalty.</li>
               <li>Analytics and Reporting: Users can access detailed insights into campaign performance, customer behavior, and
-                ROI. This data-driven approach helps in optimizing marketing strategies and achieving better results.</li>
+                ROI. This <GlossaryLink slug="analytics">data-driven</GlossaryLink> approach helps in optimizing marketing strategies and achieving better results.</li>
               <li>Integration Capabilities: Marketo seamlessly integrates with a variety of third-party applications, including
                 CRM systems, social media platforms, and web analytics tools. This integration streamlines workflows and enhances
                 data accuracy.</li>

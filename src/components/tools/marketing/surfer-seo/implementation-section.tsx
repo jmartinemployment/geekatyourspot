@@ -1,8 +1,9 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        When implementing Surfer SEO, there are several considerations to ensure a smooth deployment and effective use of the tool.
+        When implementing Surfer <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink>, there are several considerations to ensure a smooth deployment and effective use of the tool.
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">
         Accelerated Deployment
@@ -20,7 +21,7 @@ export default function ImplementationSection() {
         Workflow and Process Configuration
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Workflow and process configuration is essential for optimizing the use of Surfer SEO. The tool allows for the customization of approval chains, routing, and automation logic, which can be tailored to fit the specific needs of a business. By setting up these processes, businesses can ensure that content creation is streamlined and that all team members are aligned with SEO goals.
+        Workflow and process configuration is essential for optimizing the use of Surfer SEO. The tool allows for the customization of approval chains, routing, and automation logic, which can be tailored to fit the specific needs of a business. By setting up these processes, businesses can ensure that <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> is streamlined and that all team members are aligned with SEO goals.
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="custom-code-and-development">
         Custom Code and Development

@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -10,8 +11,8 @@ export default function KeyCapabilitiesSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated ad spend optimization.
-                These features are designed to ensure data accuracy and integrity, which are foundational for any data-driven
+              <p className="text-md text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.
+                These features are designed to ensure data accuracy and integrity, which are foundational for any <GlossaryLink slug="analytics">data-driven</GlossaryLink>
                 marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows

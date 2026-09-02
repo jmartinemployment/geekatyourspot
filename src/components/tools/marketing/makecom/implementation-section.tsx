@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <section className="min-h-screen bg-[#025E73] text-white">
@@ -7,7 +8,7 @@ export default function ImplementationSection() {
             <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementation-considerations">Implementation Considerations</h2>
           </div>
           <div className="col-span-12">
-            <p className="pt-3 text-md font-normal text-white shadow-text">Implementing Make.com for content repurposing involves several key considerations that can impact the success and efficiency of your automation strategy. Understanding these factors will help ensure a smooth deployment and maximum return on your investment.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Implementing Make.com for <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink> involves several key considerations that can impact the success and efficiency of your <GlossaryLink slug="marketing-automation">automation</GlossaryLink> strategy. Understanding these factors will help ensure a smooth deployment and maximum return on your investment.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">Accelerated Deployment</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">Make.com's pre-built templates and quick-start guides enable rapid deployment of content repurposing workflows. Teams can go from setup to live automation in a matter of hours or days, rather than weeks or months. The platform's intuitive interface reduces the learning curve, allowing team members to quickly become proficient in designing and managing workflows.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-model-design">Data Model Design</h3>

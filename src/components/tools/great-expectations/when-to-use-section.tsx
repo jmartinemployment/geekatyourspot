@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -13,12 +14,12 @@ export default function WhenToUseSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Great Expectations is best used when businesses need to ensure high data quality for their automated ad spend
                 optimization efforts. It is particularly useful in scenarios where data integrity is critical to the success of ad
-                campaigns. For instance, companies employing Salesforce Einstein or HubSpot for marketing automation can benefit
+                campaigns. For instance, companies employing Salesforce Einstein or HubSpot for <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> can benefit
                 from integrating Great Expectations to validate the data flowing into these platforms, ensuring more accurate
-                analytics and reporting.</p>
+                <GlossaryLink slug="analytics">analytics</GlossaryLink> and reporting.</p>
               <p className="text-md text-white shadow-text pt-3">Businesses experiencing inconsistent ad performance due to poor data quality should consider using Great
                 Expectations to identify and rectify data issues. By implementing this tool, companies can achieve more consistent
-                and reliable results from their ad spend optimization efforts, ultimately leading to better ROI and more efficient
+                and reliable results from their <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> efforts, ultimately leading to better <GlossaryLink slug="kpi">ROI</GlossaryLink> and more efficient
                 use of marketing budgets.</p>
               <p className="text-md text-white shadow-text pt-3">Moreover, Great Expectations is ideal for organizations looking to automate their data validation processes as part
                 of a broader digital transformation strategy. It allows businesses to focus on strategic initiatives by reducing the

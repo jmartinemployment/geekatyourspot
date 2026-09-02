@@ -1,7 +1,8 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">Mailchimp is a leading platform in the realm of email marketing automation, designed to help businesses of all
+      <p className="text-md text-white shadow-text pt-3">Mailchimp is a leading platform in the realm of email <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink>, designed to help businesses of all
         sizes enhance their marketing efforts. It offers a comprehensive suite of tools that enable users to create,
         execute, and analyze email marketing campaigns effectively. With Mailchimp, businesses can streamline their outreach
         processes, making it easier to connect with their audience and increase engagement.</p>
@@ -10,9 +11,9 @@ export default function OverviewToolSection() {
         of designing and sending emails. Users can leverage customizable templates to create professional-looking emails
         that resonate with their target audience.</p>
       <p className="text-md text-white shadow-text pt-3">Moreover, Mailchimp&#39;s analytics capabilities allow businesses to track the performance of their campaigns in
-        real-time. This includes metrics such as open rates, click-through rates, and conversion rates, which are crucial
+        real-time. This includes metrics such as open rates, click-through rates, and <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>, which are crucial
         for understanding customer behavior and refining marketing strategies. By providing these insights, Mailchimp helps
-        businesses make data-driven decisions that can lead to improved customer engagement and increased sales.</p>
+        businesses make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions that can lead to improved <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink> and increased sales.</p>
       <p className="text-md text-white shadow-text pt-3">In addition to its core email marketing features, Mailchimp offers integrations with various other platforms,
         enhancing its functionality and allowing for a more cohesive marketing approach. The platform also supports
         automation, enabling businesses to set up automated email sequences that save time and ensure consistent

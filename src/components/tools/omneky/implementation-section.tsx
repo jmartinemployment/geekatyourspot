@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -21,7 +22,7 @@ export default function ImplementationSection() {
                   to map their data accurately to ensure that the platform can analyze and utilize it effectively. This
                   involves understanding data sources and ensuring compatibility with Omneky&#39;s algorithms.</li>
                 <li>Workflow and Process Configuration: Omneky allows for customization of workflows and processes to fit
-                  specific business needs. This includes setting up approval chains, routing rules, and automation logic to
+                  specific business needs. This includes setting up approval chains, routing rules, and <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic to
                   ensure that the platform operates seamlessly within the existing marketing framework.</li>
                 <li>Custom Code and Development: While Omneky is primarily a configuration-based platform, it offers an API for
                   further customization. Businesses with specific needs can leverage this API to extend the platform&#39;s
@@ -29,7 +30,7 @@ export default function ImplementationSection() {
               </ul>
               <p className="text-md text-white shadow-text pt-3">Geek At Your Spot specializes in helping businesses navigate these implementation considerations, ensuring a
                 seamless transition to using Omneky. By focusing on these key areas, companies can maximize the benefits of
-                automated ad spend optimization and achieve significant improvements in their marketing outcomes.</p>
+                automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and achieve significant improvements in their marketing outcomes.</p>
             </div>
           </div>
         </div >

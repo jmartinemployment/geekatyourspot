@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <section className="min-h-screen bg-[#025E73] text-white py-5">
@@ -8,7 +9,7 @@ export default function ImplementationSection() {
               Implementation Considerations
             </h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Implementing ChatGPT for SEO blog and article generation involves several key considerations to ensure a smooth and effective deployment. Understanding these factors can help businesses maximize the tool&apos;s potential while minimizing any disruptions to existing workflows.
+              Implementing ChatGPT for <GlossaryLink slug="search-engine-optimization">SEO blog</GlossaryLink> and article generation involves several key considerations to ensure a smooth and effective deployment. Understanding these factors can help businesses maximize the tool&apos;s potential while minimizing any disruptions to existing workflows.
             </p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">
               Accelerated Deployment
@@ -35,7 +36,7 @@ export default function ImplementationSection() {
               While ChatGPT is primarily a configuration-based tool, businesses may need to develop custom scripts or APIs to enhance its functionality or integrate it with other platforms. This could involve creating custom interfaces or automation scripts to streamline content generation and publication.
             </p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              At Geek At Your Spot, we specialize in bridging the gap for clients looking to implement AI tools like ChatGPT. Our consultative approach focuses on accelerated deployment, data model design, workflow configuration, and any necessary custom development. By addressing these considerations, we help businesses fully leverage ChatGPT&apos;s capabilities, ensuring a successful integration into their content creation strategy.
+              At Geek At Your Spot, we specialize in bridging the gap for clients looking to implement AI tools like ChatGPT. Our consultative approach focuses on accelerated deployment, data model design, workflow configuration, and any necessary custom development. By addressing these considerations, we help businesses fully leverage ChatGPT&apos;s capabilities, ensuring a successful integration into their <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> strategy.
             </p>
           </div>
         </div>

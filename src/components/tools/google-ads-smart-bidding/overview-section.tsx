@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -11,8 +12,8 @@ export default function OverviewToolSection() {
                 </div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Google Ads Smart Bidding is a powerful AI-driven tool designed to optimize ad spend automatically, ensuring that
-                marketing budgets are used efficiently and effectively. It leverages machine learning to adjust bids in real-time,
-                aiming to maximize return on investment (ROI) by targeting the right audience at the right time. This is
+                marketing budgets are used efficiently and effectively. It leverages <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to adjust bids in real-time,
+                aiming to maximize return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>) by targeting the right audience at the right time. This is
                 particularly beneficial for businesses struggling with traditional ad management methods, which often involve manual
                 adjustments and guesswork.</p>
               <p className="text-md text-white shadow-text pt-3">In areas like Palm Beach and Broward counties, where businesses frequently face challenges related to inefficient ad
@@ -21,7 +22,7 @@ export default function OverviewToolSection() {
                 on strategic decisions rather than operational details.</p>
               <p className="text-md text-white shadow-text pt-3">The tool integrates seamlessly with existing Google Ads campaigns, utilizing historical data and contextual signals
                 to predict the likelihood of conversions. This predictive capability enables more precise targeting, which can lead
-                to higher conversion rates and improved customer engagement.</p>
+                to higher <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink> and improved <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink>.</p>
               <p className="text-md text-white shadow-text pt-3">Unlike traditional bidding strategies, Google Ads Smart Bidding uses advanced algorithms to continuously learn and
                 adapt to changing market conditions. This adaptability ensures that your ads are always optimized for performance,
                 regardless of fluctuations in consumer behavior or market trends. The result is a more efficient allocation of ad

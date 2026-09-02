@@ -1,17 +1,18 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">HubSpot is a robust platform designed to streamline marketing, sales, and customer service processes for businesses
         of all sizes. Its comprehensive suite of tools is particularly beneficial for small businesses aiming to enhance
         their marketing strategies and customer engagement without incurring significant additional costs. By integrating
-        various functions into a single ecosystem, HubSpot allows businesses to automate routine tasks, personalize customer
+        various functions into a single ecosystem, HubSpot allows businesses to automate routine tasks, <GlossaryLink slug="personalized-marketing">personalize customer</GlossaryLink>
         interactions, and efficiently manage their marketing campaigns.</p>
       <p className="text-md text-white shadow-text pt-3">One of HubSpot&#39;s key strengths is its ability to automate marketing workflows, which helps businesses save time
         and reduce manual effort. This automation is achieved through features like email marketing, social media
-        management, and customer segmentation, all of which are designed to enhance the efficiency of marketing teams.
+        management, and <GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink>, all of which are designed to enhance the efficiency of marketing teams.
         Additionally, HubSpot provides powerful analytics tools that offer insights into customer behavior and campaign
-        performance, enabling businesses to make data-driven decisions.</p>
-      <p className="text-md text-white shadow-text pt-3">The platform also supports sales and service teams by providing tools for lead management, customer support, and
+        performance, enabling businesses to make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions.</p>
+      <p className="text-md text-white shadow-text pt-3">The platform also supports sales and service teams by providing tools for <GlossaryLink slug="lead-generation">lead management</GlossaryLink>, customer support, and
         relationship building. HubSpot&#39;s CRM system is central to these capabilities, offering a unified view of
         customer interactions across various touchpoints. This integration ensures that all teams within a business can
         access the information they need to deliver personalized and effective customer experiences.</p>

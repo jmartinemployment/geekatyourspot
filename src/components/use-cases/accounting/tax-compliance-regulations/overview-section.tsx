@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
   const title = "Automated Accounts Payable";
@@ -24,8 +25,8 @@ export default function OverviewSection() {
               </h2>
               <p className="text-md text-white shadow-text">
                 Imagine navigating a river without a map or compass, where unexpected twists and turns can lead to treacherous
-                waters. This is often how businesses feel when tackling the unpredictable currents of cash flow without a reliable
-                forecasting strategy in place. Cash flow forecasting is more than just a financial exercise; it&#39;s a critical
+                waters. This is often how businesses feel when tackling the unpredictable currents of <GlossaryLink slug="cash-flow-forecasting">cash flow</GlossaryLink> without a reliable
+                forecasting strategy in place. <GlossaryLink slug="cash-flow-forecasting">Cash flow forecasting</GlossaryLink> is more than just a financial exercise; it&#39;s a critical
                 navigation tool that guides businesses through the complexities of their financial landscape, ensuring smooth
                 sailing towards sustainable growth and stability.
               </p>

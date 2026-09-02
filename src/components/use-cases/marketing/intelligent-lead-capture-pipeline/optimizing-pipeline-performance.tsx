@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OptimizingPipelinePerformanceSection() {
   return (
@@ -14,7 +15,7 @@ export default function OptimizingPipelinePerformanceSection() {
               increased overhead. A common problem is the bottleneck created by manual data entry, where errors and delays occur,
               causing potential leads to slip through the cracks. This inefficiency not only wastes valuable resources but also
               slows down the entire sales process, affecting the bottom line. To overcome these hurdles, it&#39;s crucial to
-              optimize your lead capture pipeline with intelligent automation.
+              optimize your <GlossaryLink slug="lead-generation">lead capture pipeline</GlossaryLink> with intelligent automation.
             </p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Geek At Your Spot, an AI implementation consultancy, helps companies enhance their lead capture systems by
@@ -85,7 +86,7 @@ export default function OptimizingPipelinePerformanceSection() {
               scenarios.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
               Integration and Scalability</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (ERP) systems and scalability to accommodate growth are
+            <p className="pt-3 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (<GlossaryLink slug="erp">ERP</GlossaryLink>) systems and scalability to accommodate growth are
               critical features for any AP automation solution. Seamless integration ensures that data flows smoothly between
               different systems, eliminating the need for duplicate data entry and reducing the risk of inconsistencies.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">Geek At Your Spot employs a comprehensive approach to integration, ensuring that AP automation systems are

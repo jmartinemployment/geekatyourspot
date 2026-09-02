@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MeasuringSuccessRoiSection() {
   return (
@@ -20,7 +21,7 @@ export default function MeasuringSuccessRoiSection() {
                 return on investment (ROI) is crucial for making informed decisions about AI marketing investments. This section
                 will guide you through the practical steps to evaluate AI&#39;s impact on your marketing efforts.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
-                <li>Track conversion rates before and after AI integration.</li>
+                <li>Track <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink> before and after AI integration.</li>
                 <li>Measure time saved on repetitive tasks using automation.</li>
                 <li>Monitor customer engagement metrics, such as click-through rates and dwell time.</li>
                 <li>Calculate cost savings from reduced manual efforts and errors.</li>
@@ -30,7 +31,7 @@ export default function MeasuringSuccessRoiSection() {
                 objectives should align with broader business goals, such as increasing sales, improving customer engagement, or
                 reducing marketing costs. By setting specific, measurable, achievable, relevant, and time-bound (SMART) goals,
                 businesses can better assess whether their AI initiatives are hitting the mark.</p>
-              <h4 id="defining-key-performance-indicators-kpis" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Defining Key Performance Indicators (KPIs)</h4>
+              <h4 id="defining-key-performance-indicators-kpis" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Defining Key Performance Indicators (<GlossaryLink slug="kpi">KPIs</GlossaryLink>)</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">Selecting the right KPIs is crucial. For instance, if the goal is to boost online sales, relevant KPIs might
                 include conversion rates and average order value. Geek At Your Spot can help businesses identify these KPIs and
                 integrate them into their AI systems for real-time tracking, ensuring that every marketing effort is tied to a
@@ -47,7 +48,7 @@ export default function MeasuringSuccessRoiSection() {
                 needed to analyze performance and make informed decisions. Geek At Your Spot can recommend and integrate tools that
                 suit individual business needs, from analytics platforms to AI-specific reporting software.</p>
               <h4 id="analytics-platforms" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Analytics Platforms</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">Platforms like Google Analytics and HubSpot offer powerful tracking and reporting capabilities. They can be used to
+              <p className="pt-3 text-md font-normal text-white shadow-text">Platforms like Google <GlossaryLink slug="analytics">Analytics</GlossaryLink> and HubSpot offer powerful tracking and reporting capabilities. They can be used to
                 monitor website traffic, user behavior, and conversion metrics. Geek At Your Spot helps businesses set up and
                 customize these platforms to extract actionable insights from AI-driven campaigns.</p>
               <h4 id="ai-specific-reporting-tools" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">AI-Specific Reporting Tools</h4>

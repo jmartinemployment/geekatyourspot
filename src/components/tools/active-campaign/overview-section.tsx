@@ -1,7 +1,8 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">ActiveCampaign is a comprehensive marketing automation platform designed to help businesses enhance customer
+      <p className="text-md text-white shadow-text pt-3">ActiveCampaign is a comprehensive <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> platform designed to help businesses enhance customer
         engagement through personalized email campaigns, targeted messaging, and effective customer relationship management.
         Tailored for small to medium-sized enterprises, it simplifies complex marketing tasks, enabling companies to focus
         on building meaningful relationships with their customers. By automating repetitive tasks, businesses can save time
@@ -9,9 +10,9 @@ export default function OverviewToolSection() {
       <p className="text-md text-white shadow-text pt-3">ActiveCampaign offers a powerful suite of tools that integrate seamlessly into existing workflows, providing
         businesses with the flexibility to create customized marketing strategies. Its intuitive interface ensures that even
         users with limited technical expertise can effectively leverage its capabilities. The platform&#39;s robust
-        analytics and reporting features offer insights into campaign performance, allowing businesses to make data-driven
+        analytics and reporting features offer insights into campaign performance, allowing businesses to make <GlossaryLink slug="analytics">data-driven</GlossaryLink>
         decisions that enhance their marketing efforts.</p>
-      <p className="text-md text-white shadow-text pt-3">One of the key benefits of ActiveCampaign is its ability to deliver highly personalized content to customers at
+      <p className="text-md text-white shadow-text pt-3">One of the key benefits of ActiveCampaign is its ability to deliver highly <GlossaryLink slug="personalized-marketing">personalized content</GlossaryLink> to customers at
         scale. By utilizing advanced segmentation and targeting features, businesses can ensure that their messages reach
         the right audience at the right time. This level of personalization not only improves engagement rates but also
         fosters stronger customer loyalty.</p>

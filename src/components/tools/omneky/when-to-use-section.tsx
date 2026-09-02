@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -12,10 +13,10 @@ export default function WhenToUseSection() {
             <div className="col-span-5"></div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Omneky is best suited for businesses that face challenges with inefficient ad spend and are looking to enhance their
-                marketing strategies through automation. Here are some scenarios where Omneky can deliver substantial value.</p>
+                marketing strategies through <GlossaryLink slug="marketing-automation">automation</GlossaryLink>. Here are some scenarios where Omneky can deliver substantial value.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High Ad Spend with Variable Results: Companies that invest heavily in digital advertising but see
-                  inconsistent returns can benefit from Omneky&#39;s automated bid adjustments and performance analytics.</li>
+                  inconsistent returns can benefit from Omneky&#39;s automated bid adjustments and performance <GlossaryLink slug="analytics">analytics</GlossaryLink>.</li>
                 <li>Limited Marketing Resources: For teams with limited manpower, Omneky reduces the burden of manual ad
                   management, allowing staff to focus on strategic planning and creative development.</li>
                 <li>Complex Campaigns Across Multiple Platforms: Businesses running campaigns across various platforms can use

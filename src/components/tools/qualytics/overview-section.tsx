@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -10,8 +11,8 @@ export default function OverviewToolSection() {
                 Overview</h2>
                 </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your data-driven
-                decisions. In the context of automated ad spend optimization, Qualytics plays a crucial role by ensuring that the
+              <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>
+                decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
                 data feeding into your ad platforms is clean, consistent, and actionable. This is especially important for
                 businesses in Palm Beach and Broward counties looking to maximize their marketing budgets without the usual pitfalls
                 of manual ad management.</p>
@@ -22,7 +23,7 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">With Qualytics, businesses can reduce the time spent on manual data cleaning and focus on strategic decision-making.
                 The platform integrates seamlessly with existing systems, facilitating an accelerated deployment process. By
                 maintaining high data quality, Qualytics supports tools like Google Ads Smart Bidding and Salesforce Einstein,
-                enhancing their effectiveness in optimizing ad spend and improving ROI.</p>
+                enhancing their effectiveness in optimizing ad spend and improving <GlossaryLink slug="kpi">ROI</GlossaryLink>.</p>
               <p className="text-md text-white shadow-text pt-3">Qualytics provides a robust framework for data validation, anomaly detection, and data governance. This ensures that
                 marketing teams can trust the data they use for campaign optimization, leading to more consistent and successful
                 outcomes. By automating these processes, Qualytics not only saves time but also reduces errors, ultimately resulting

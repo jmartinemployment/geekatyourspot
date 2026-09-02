@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -11,7 +12,7 @@ export default function ImplementationSection() {
                 Implementation Considerations</h2>
             </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Implementing Basis Technologies for automated ad spend optimization involves several key considerations to ensure a
+              <p className="text-md text-white shadow-text pt-3">Implementing Basis Technologies for automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> involves several key considerations to ensure a
                 successful deployment and integration with existing systems. Here are some specific aspects to focus on during the
                 implementation process.</p>
               <p className="text-md text-white shadow-text pt-3">1. Accelerated Deployment: Basis Technologies offers pre-built connectors and templated setups that facilitate a
@@ -21,9 +22,9 @@ export default function ImplementationSection() {
               <p className="text-md text-white shadow-text pt-3">2. Data Model Design: A critical step in the implementation is designing a data model that aligns with Basis
                 Technologies’ capabilities. This involves mapping out how data will flow between the platform and other integrated
                 tools such as Salesforce Einstein and Adobe Mix Modeler. Careful consideration of data structure and mapping ensures
-                seamless data exchange and accurate analytics.</p>
+                seamless data exchange and accurate <GlossaryLink slug="analytics">analytics</GlossaryLink>.</p>
               <p className="text-md text-white shadow-text pt-3">3. Workflow/Process Configuration: Configuring workflows and processes within Basis Technologies is crucial for
-                optimizing ad spend. This includes setting up approval chains, routing, and automation logic that align with the
+                optimizing ad spend. This includes setting up approval chains, routing, and <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic that align with the
                 company’s marketing strategies. By tailoring these configurations, businesses can ensure that their campaigns are
                 managed efficiently and effectively.</p>
               <p className="text-md text-white shadow-text pt-3">4. Custom Code/Development: While Basis Technologies primarily operates through configuration, it also provides APIs

@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -12,9 +13,9 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-12">
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Automated Data Quality Checks: Qualytics automates the process of checking data quality, ensuring that the
-                  information used for ad spend optimization is accurate and reliable. This reduces the need for manual data
+                  information used for <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> is accurate and reliable. This reduces the need for manual data
                   validation, saving time and reducing errors.</li>
-                <li>Anomaly Detection: The platform uses machine learning algorithms to detect anomalies in data patterns. This
+                <li>Anomaly Detection: The platform uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to detect anomalies in data patterns. This
                   helps in identifying potential issues before they impact ad spend decisions, ensuring that campaigns are
                   based on consistent and correct data.</li>
                 <li>Seamless Integration: Qualytics integrates smoothly with existing ad management tools like Smartly.io and
@@ -24,7 +25,7 @@ export default function KeyCapabilitiesSection() {
                   optimization.</li>
                 <li>Customizable Alerts: Users can set up alerts for specific data quality issues, allowing for quick action to
                   be taken when anomalies are detected. This proactive approach helps in maintaining the integrity of
-                  data-driven decisions.</li>
+                  <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">Qualytics enhances the effectiveness of automated ad spend optimization tools by ensuring that the underlying data
                 is of the highest quality. By integrating with platforms like HubSpot and Advantage, it provides a unified view of

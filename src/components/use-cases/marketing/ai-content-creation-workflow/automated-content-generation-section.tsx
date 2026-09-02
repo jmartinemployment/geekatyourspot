@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function AutomatedContentGenerationSection() {
   return (
@@ -53,11 +54,11 @@ export default function AutomatedContentGenerationSection() {
                 <Link id="ai-content-creation-workflow-automating-chatgpt-1"
                   href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
                   ChatGPT
-                </Link>&nbsp; are designed to understand context and semantics, ensuring the content
+                </Link>&nbsp; are designed to understand context and <GlossaryLink slug="natural-language-processing">semantics</GlossaryLink>, ensuring the content
                 is not only coherent but also engaging. These tools can analyze existing content to learn your brand’s voice, making
                 generated content feel authentic and personalized.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Moreover, by using machine learning, these AI tools continuously improve their outputs based on feedback, leading
+                Moreover, by using <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, these AI tools continuously improve their outputs based on feedback, leading
                 to progressively better content quality over time. This iterative improvement can help your organization maintain a
                 competitive edge in content marketing.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ensuring-consistent-brand-voice-with-ai">

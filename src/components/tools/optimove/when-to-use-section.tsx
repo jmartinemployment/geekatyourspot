@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -12,14 +13,14 @@ export default function WhenToUseSection() {
             <div className="col-span-5"></div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Optimove is ideal for businesses that are ready to move beyond traditional ad management methods and embrace
-                automated ad spend optimization. Companies facing challenges with inefficient ad spend, inconsistent campaign
+                automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Companies facing challenges with inefficient ad spend, inconsistent campaign
                 results, and complex data analysis will find Optimove particularly beneficial.</p>
               <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing
-                ROI is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
+                <GlossaryLink slug="kpi">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
                 and provide real-time insights makes it a valuable tool for businesses looking to enhance their marketing strategies
                 without increasing operational workload.</p>
               <p className="text-md text-white shadow-text pt-3">Furthermore, businesses already using tools like Salesforce Einstein or HubSpot can integrate Optimove to further
-                enhance their customer engagement and marketing efforts. The platform’s ability to work seamlessly with existing
+                enhance their <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink> and marketing efforts. The platform’s ability to work seamlessly with existing
                 systems makes it an attractive option for businesses looking to optimize their ad spend without overhauling their
                 entire marketing infrastructure.</p>
             </div>

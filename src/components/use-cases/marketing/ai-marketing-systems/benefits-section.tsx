@@ -1,5 +1,6 @@
 import { px } from "motion/react";
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BenefitsSection() {
 
@@ -25,13 +26,13 @@ export default function BenefitsSection() {
               bogged down by routine tasks. Here’s how AI marketing can benefit small businesses in tangible ways.
             </p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
-              <li>Automated customer segmentation allows marketers to target specific groups based on behavior and preferences,
+              <li>Automated <GlossaryLink slug="behavioral-segmentation">customer segmentation</GlossaryLink> allows marketers to target specific groups based on behavior and preferences,
                 resulting in more personalized marketing campaigns that resonate with customers.</li>
-              <li>Predictive analytics enable businesses to forecast customer behavior and trends, leading to proactive
+              <li><GlossaryLink slug="analytics">Predictive analytics</GlossaryLink> enable businesses to forecast customer behavior and trends, leading to proactive
                 decision-making and better allocation of marketing resources.</li>
               <li>Real-time data processing helps in optimizing marketing campaigns on the go, ensuring strategies are responsive
                 to current market dynamics.</li>
-              <li>Chatbots and virtual assistants handle customer inquiries around the clock, freeing up staff to focus on complex
+              <li><GlossaryLink slug="chatbot">Chatbots</GlossaryLink> and virtual assistants handle customer inquiries around the clock, freeing up staff to focus on complex
                 tasks and improving customer satisfaction with instant responses.</li>
               <li>Content generation tools produce tailored content at scale, cutting down the time spent on content creation and
                 allowing for more consistent brand messaging across channels.</li>
@@ -58,7 +59,7 @@ export default function BenefitsSection() {
               example, a hypothetical small retail business might use AI to send personalized promotions to customers based on
               their purchase history, resulting in increased engagement and sales.</p>
             <h4 id="ai-powered-personalization" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">AI-Powered Personalization</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Personalization is key to engaging customers, and AI makes it achievable at scale. By analyzing data such as
+            <p className="pt-3 text-md font-normal text-white shadow-text"><GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is key to engaging customers, and AI makes it achievable at scale. By analyzing data such as
               browsing history and purchase patterns, AI systems can suggest products or services that align with individual
               customer interests, enhancing the likelihood of conversion.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">Geek At Your Spot configures AI tools to automate these personalized interactions, ensuring small businesses can
@@ -88,7 +89,7 @@ export default function BenefitsSection() {
               solid insights for their marketing decisions. This reduces the risk of errors and improves overall campaign
               effectiveness.</p>            <h4 id="seamless-integration-with-existing-systems" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Seamless Integration with Existing Systems</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">Integrating AI marketing tools with existing business systems can be challenging, but it’s essential for maximizing
-              the benefits. Seamless integration ensures that AI tools work harmoniously with CRM, email marketing, and e-commerce
+              the benefits. Seamless integration ensures that AI tools work harmoniously with <GlossaryLink slug="crm">CRM</GlossaryLink>, email marketing, and e-commerce
               platforms.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">Geek At Your Spot assists small businesses in integrating AI solutions into their current infrastructure,
               minimizing disruptions and ensuring smooth operation. This integration facilitates a cohesive marketing strategy

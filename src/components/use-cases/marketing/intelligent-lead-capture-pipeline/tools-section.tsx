@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ToolsSection() {
   return (
@@ -7,14 +8,14 @@ export default function ToolsSection() {
         <div className="grid min-h-screen grid-cols-12 gap-x-4 py-5">
           <div className="col-span-12">
             <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-orange">
-              Top AI Tools for Lead Generation and Management
+              Top AI Tools for <GlossaryLink slug="lead-generation" className="text-white hover:underline">Lead Generation</GlossaryLink> and Management
             </h2>
           </div>
           <div className="col-span-6">
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
               HubSpot</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              HubSpot is a powerful platform that streamlines lead management by automating repetitive tasks and providing
+              HubSpot is a powerful platform that streamlines <GlossaryLink slug="lead-generation">lead management</GlossaryLink> by automating repetitive tasks and providing
               insightful analytics. For businesses struggling with manual lead tracking, HubSpot offers a cohesive approach that
               integrates contacts, marketing, and sales into one seamless system. This reduces human error and frees up valuable
               time for teams to focus on nurturing relationships and closing deals.
@@ -44,8 +45,8 @@ export default function ToolsSection() {
               making it easier to convert leads into sales.
             </p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
-              <li>Automatic lead scoring to identify the most promising prospects.</li>
-              <li>Predictive analytics to forecast sales outcomes and guide decision-making.</li>
+              <li>Automatic <GlossaryLink slug="sales-qualified-lead">lead scoring</GlossaryLink> to identify the most promising prospects.</li>
+              <li><GlossaryLink slug="analytics">Predictive analytics</GlossaryLink> to forecast sales outcomes and guide decision-making.</li>
               <li>AI-driven recommendations for next-best actions to improve customer engagement.</li>
             </ul>
             <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
@@ -95,7 +96,7 @@ export default function ToolsSection() {
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
               <li>Automate email campaigns and lead nurturing processes to maintain consistent communication with prospects.</li>
               <li>Segment audiences based on behavior and interests for targeted engagement.</li>
-              <li>Track and analyze customer interactions across multiple touchpoints for actionable insights.</li>
+              <li>Track and analyze <GlossaryLink slug="customer-journey">customer interactions across multiple touchpoints</GlossaryLink> for actionable insights.</li>
             </ul>
             <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
               How an AI implementer helps with Marketo Engage

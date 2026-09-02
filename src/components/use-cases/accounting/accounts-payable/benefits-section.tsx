@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BenefitsSection() {
 
@@ -16,7 +17,7 @@ export default function BenefitsSection() {
             </div>
             <div className="col-span-7">
               <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Benefits of Automating Accounts Payable</h2>
-              <p className="pt-5 text-md font-normal text-white shadow-text">Incorporating automation into the accounts payable (AP) process offers a multitude of advantages that can
+              <p className="pt-5 text-md font-normal text-white shadow-text">Incorporating automation into the <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> (AP) process offers a multitude of advantages that can
                 significantly enhance business operations. By leveraging AI-powered AP automation, companies can realize substantial
                 gains in efficiency, accuracy, and overall financial health. Geek At Your Spot, as an AI implementation consultancy,
                 specializes in unlocking these benefits for enterprises, ensuring that the transition to automated systems is
@@ -35,7 +36,7 @@ export default function BenefitsSection() {
                 Automated systems, equipped with AI, minimize these errors by ensuring accurate data capture and validation. Geek At
                 Your Spot provides consultation on governance and change management, ensuring that automated solutions are not only
                 robust but also compliant with industry standards. This proactive approach helps in significantly reducing the risk
-                of fraud by incorporating advanced anomaly detection algorithms.</p>
+                of fraud by incorporating advanced <GlossaryLink slug="machine-learning">anomaly detection</GlossaryLink> algorithms.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Improved Vendor Relationships</h3>
               <p className="pt-5 text-md font-normal text-white shadow-text">Timely payments and transparent communication are key factors in maintaining strong vendor relationships. Automated
                 AP systems enable faster invoice processing and provide real-time status updates, which help in fostering trust and

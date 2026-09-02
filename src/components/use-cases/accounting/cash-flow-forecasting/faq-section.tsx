@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FAQItem } from "@/types/use-case";
 
 interface FAQSectionProps {
@@ -12,7 +13,7 @@ export default function FAQSection() {
           <div className="col-span-1">
             <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">People Also Ask</h2>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What is meant by cash flow forecast?</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">A cash flow forecast is a financial tool used to estimate the flow of cash in and out of a business over a specific
+            <p className="pt-5 text-md font-normal text-white shadow-text">A <GlossaryLink slug="cash-flow-forecasting">cash flow forecast</GlossaryLink> is a financial tool used to estimate the flow of cash in and out of a business over a specific
               period. It helps organizations predict their future financial position and manage liquidity effectively by
               anticipating cash shortages or surpluses.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What is the cash flow forecast system?</h3>
@@ -29,7 +30,7 @@ export default function FAQSection() {
               software to project cash flow over a chosen period, adjusting assumptions as necessary.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What tools can I use for cash flow forecasting?</h3>
             <p className="pt-5 text-md font-normal text-white shadow-text">Popular tools for cash flow forecasting include Excel, specialized financial software like QuickBooks or Float, and
-              AI-driven platforms that offer predictive analytics. These tools help automate data collection, model cash flow
+              AI-driven platforms that offer <GlossaryLink slug="analytics">predictive analytics</GlossaryLink>. These tools help automate data collection, model cash flow
               scenarios, and provide insights for better financial planning.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What are the 4 forecasting models?</h3>
             <p className="pt-5 text-md font-normal text-white shadow-text">The four common forecasting models are qualitative, time series analysis, causal models, and simulation models.

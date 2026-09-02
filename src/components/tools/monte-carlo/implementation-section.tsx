@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -13,7 +14,7 @@ export default function ImplementationSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Successfully implementing Monte Carlo requires careful planning and consideration of several factors unique to the
                 platform. Here’s how Geek At Your Spot can help bridge the gap for your business in terms of accelerated deployment,
-                data model design, workflow configuration, and custom code development.</p>
+                data model design, <GlossaryLink slug="marketing-automation">workflow</GlossaryLink> configuration, and custom code development.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Monte Carlo offers pre-built connectors and templated setups that significantly
                   shorten the deployment timeline. By leveraging these resources, businesses can quickly integrate Monte Carlo
@@ -27,11 +28,11 @@ export default function ImplementationSection() {
                   alerted to data issues, enabling timely interventions. Our team can guide you through configuring these
                   workflows to suit your organizational needs.</li>
                 <li>Custom Code/Development: While Monte Carlo is largely a configuration-driven platform, it does offer some
-                  customization options through its API. This allows businesses to tailor the platform to specific needs, such
+                  customization options through its <GlossaryLink slug="api">API</GlossaryLink>. This allows businesses to tailor the platform to specific needs, such
                   as integrating with bespoke systems or creating custom alerts.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth and effective implementation of Monte Carlo,
-                paving the way for improved ad spend optimization. Unlike some tools that require extensive custom development,
+                paving the way for improved <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Unlike some tools that require extensive custom development,
                 Monte Carlo’s configuration-first approach can be more accessible and cost-effective for teams looking to enhance
                 their data observability.</p>
             </div>

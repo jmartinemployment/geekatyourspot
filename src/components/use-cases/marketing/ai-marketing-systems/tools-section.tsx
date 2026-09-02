@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faScrewdriverWrench,
@@ -12,7 +13,7 @@ export default function ToolsSection() {
         <div className="flex justify-center items-center">
           <div className="col-span-9 ">
             <h2 id="top-ai-tools-for-marketing-automation" className="text-white pt-3 lg:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-dark-blue">
-              Top AI Tools for Marketing Automation</h2>
+              Top AI Tools for <GlossaryLink slug="marketing-automation" className="text-white hover:underline">Marketing Automation</GlossaryLink></h2>
           </div>
           <div className="col-span-3">
             <FontAwesomeIcon
@@ -33,7 +34,7 @@ export default function ToolsSection() {
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
               <li>Automate repetitive marketing tasks like email campaigns and social media scheduling with ease.</li>
               <li>Utilize advanced analytics to gain insights into customer behavior and refine marketing strategies.</li>
-              <li>Integrate seamlessly with CRM systems to enhance lead management and customer relationships.</li>
+              <li>Integrate seamlessly with <GlossaryLink slug="crm">CRM</GlossaryLink> systems to enhance lead management and customer relationships.</li>
             </ul>
             <h4 id="how-an-ai-implementer-helps-with-hubspot" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with HubSpot</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">An AI implementer accelerates deployment by setting up HubSpot environments swiftly, ensuring businesses start
@@ -64,10 +65,10 @@ export default function ToolsSection() {
             <h3 id="salesforce-pardot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/salesforce-pardot">Salesforce
               Pardot</a></h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Salesforce Pardot is a powerful marketing automation platform designed to help businesses efficiently manage their
-              marketing campaigns. It streamlines lead generation, nurturing, and conversion, making it easier for marketing teams
+              marketing campaigns. It streamlines <GlossaryLink slug="lead-generation">lead generation</GlossaryLink>, nurturing, and conversion, making it easier for marketing teams
               to focus on strategic initiatives rather than manual tasks.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
-              <li>Automates lead scoring and grading to prioritize high-quality leads.</li>
+              <li>Automates <GlossaryLink slug="sales-qualified-lead">lead scoring</GlossaryLink> and grading to prioritize high-quality leads.</li>
               <li>Provides in-depth analytics to measure campaign effectiveness and ROI.</li>
               <li>Integrates seamlessly with Salesforce CRM for unified data management.</li>
             </ul>
@@ -89,7 +90,7 @@ export default function ToolsSection() {
               by simplifying complex marketing tasks, leading to more effective customer interactions.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
               <li>Automates email marketing campaigns to deliver personalized content based on customer behavior.</li>
-              <li>Provides customer segmentation tools to tailor messages to specific audience groups.</li>
+              <li>Provides <GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> tools to tailor messages to specific audience groups.</li>
               <li>Offers CRM integration to manage customer data and interactions seamlessly.</li>
             </ul>
             <h4 id="how-an-ai-implementer-helps-with-activecampaign" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with ActiveCampaign</h4>

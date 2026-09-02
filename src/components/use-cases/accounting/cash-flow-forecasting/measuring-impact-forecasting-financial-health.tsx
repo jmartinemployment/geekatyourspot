@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MeasuringImpactForecastingFinancialHealthSection() {
 
@@ -15,7 +16,7 @@ export default function MeasuringImpactForecastingFinancialHealthSection() {
           </div>
           <div className="col-span-7">
             <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Measuring the Impact of Forecasting on Financial Health</h2>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate cash flow forecasting is a strategic asset for any business seeking to enhance its financial health. By
+            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate <GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink> is a strategic asset for any business seeking to enhance its financial health. By
               providing a detailed projection of future cash inflows and outflows, businesses can make informed decisions that
               optimize their operational efficiency and strategic planning. Geek At Your Spot, an AI implementation consultancy,
               assists organizations in leveraging advanced forecasting techniques to not only predict cash flow but also measure
@@ -34,7 +35,7 @@ export default function MeasuringImpactForecastingFinancialHealthSection() {
             <p className="pt-5 text-md font-normal text-white shadow-text">The consultancy focuses on integrating AI tools that enhance the accuracy and efficiency of these forecasts. These
               tools can analyze vast datasets to detect patterns that might elude traditional forecasting methods, enabling
               businesses to refine their financial strategies. Furthermore, Geek At Your Spot ensures that clients can measure the
-              impact of these forecasts through tailored KPIs, linking cash flow predictions directly to financial health
+              impact of these forecasts through tailored <GlossaryLink slug="kpi">KPIs</GlossaryLink>, linking cash flow predictions directly to financial health
               indicators like profitability, solvency, and growth potential.</p>
             <ul className="list-disc list-outside pl-3 space-y-2">
               <li>Improved liquidity management through proactive financial planning.</li>
@@ -69,7 +70,7 @@ export default function MeasuringImpactForecastingFinancialHealthSection() {
             <p className="pt-5 text-md font-normal text-white shadow-text">In a hypothetical example, a manufacturing firm could use advanced forecasting to spot a potential supply chain
               disruption, allowing them to diversify their supplier base and reduce dependency on a single source.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Integration of AI for Forecast Accuracy</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">AI integration in cash flow forecasting elevates the precision and reliability of predictions. By processing vast
+            <p className="pt-5 text-md font-normal text-white shadow-text">AI integration in <GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink> elevates the precision and reliability of predictions. By processing vast
               amounts of data, AI tools can uncover trends and correlations that traditional methods might miss. Geek At Your Spot
               specializes in deploying these tools, customizing them to fit the unique financial landscape of each client.</p>
             <p className="pt-5 text-md font-normal text-white shadow-text">These AI-enhanced forecasts provide a competitive edge by enabling businesses to make data-driven decisions that

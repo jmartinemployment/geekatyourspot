@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -20,11 +21,11 @@ export default function WhenToUseSection() {
                 time.</p>
               <p className="text-md text-white shadow-text pt-3">In scenarios where traditional ad management tools fall short, such as when dealing with complex audience
                 segmentation or rapidly changing market conditions, Madgicx provides a robust solution. Its ability to integrate
-                with existing systems and offer comprehensive analytics makes it a versatile tool for businesses aiming to enhance
+                with existing systems and offer comprehensive <GlossaryLink slug="analytics">analytics</GlossaryLink> makes it a versatile tool for businesses aiming to enhance
                 their ad spend strategies.</p>
               <p className="text-md text-white shadow-text pt-3">For companies already using platforms like HubSpot or Salesforce Einstein, Madgicx can complement these tools by
-                providing additional layers of automation and optimization. This makes it a valuable addition to any marketing
-                technology stack focused on achieving better ROI through automated ad spend optimization.</p>
+                providing additional layers of <GlossaryLink slug="marketing-automation">automation</GlossaryLink> and optimization. This makes it a valuable addition to any marketing
+                technology stack focused on achieving better <GlossaryLink slug="kpi">ROI</GlossaryLink> through automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.</p>
             </div>
           </div>
         </div >

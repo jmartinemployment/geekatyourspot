@@ -1,6 +1,7 @@
 import { px } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BulkSocialMediaSchedulingSection() {
   return (
@@ -38,7 +39,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 effortlessly.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 ContentStudio, in particular, provides an intuitive interface where users can schedule posts months in advance,
-                ensuring that the content aligns with marketing campaigns and seasonal promotions. This tool also offers analytics
+                ensuring that the content aligns with marketing campaigns and seasonal promotions. This tool also offers <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">analytics</GlossaryLink>
                 to track engagement, enabling businesses to refine their strategies based on real-time performance data.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
                 <li>Simplifies the process of managing multiple social media accounts from one dashboard.</li>
@@ -54,7 +55,7 @@ export default function BulkSocialMediaSchedulingSection() {
                   ContentStudio
                 </Link>&nbsp;alleviate this
                 burden. By automating content distribution, businesses can ensure that their posts are consistently published at
-                optimal times for audience engagement, reducing the risk of missing key posting windows.</p>
+                optimal times for <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">audience engagement</GlossaryLink>, reducing the risk of missing key posting windows.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="integrating-content-calendars">Integrating Content Calendars</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 One of the critical elements of successful bulk scheduling is the integration of content calendars. This involves

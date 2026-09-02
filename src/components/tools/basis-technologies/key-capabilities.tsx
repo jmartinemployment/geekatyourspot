@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -14,16 +15,16 @@ export default function KeyCapabilitiesSection() {
                 intelligent decision-making. Here are some of the key capabilities that make it a powerful tool in the realm of
                 digital marketing.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>AI-Driven Bid Adjustments: The platform uses advanced machine learning algorithms to automatically adjust
+                <li>AI-Driven Bid Adjustments: The platform uses advanced <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to automatically adjust
                   bids based on real-time data. This ensures that ads are targeted to the most relevant audiences at the best
-                  possible times, maximizing engagement and conversion rates.</li>
+                  possible times, maximizing engagement and <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>.</li>
                 <li>Seamless Integration: Basis Technologies integrates with other leading marketing platforms like Smartly.io
-                  and HubSpot, providing a holistic approach to marketing automation. This integration allows for a unified
+                  and HubSpot, providing a holistic approach to <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink>. This integration allows for a unified
                   strategy across different channels, ensuring consistency and efficiency.</li>
                 <li>User-Friendly Interface: Designed with ease of use in mind, the platform offers an intuitive interface that
                   simplifies the process of managing ad campaigns. Users can easily navigate through various features without
                   needing extensive technical knowledge.</li>
-                <li>Comprehensive Analytics: With robust analytics capabilities, Basis Technologies provides detailed insights
+                <li>Comprehensive <GlossaryLink slug="analytics">Analytics</GlossaryLink>: With robust analytics capabilities, Basis Technologies provides detailed insights
                   into campaign performance. Users can track key metrics and make informed decisions to optimize their
                   marketing strategies further.</li>
                 <li>Customizable Campaigns: The platform allows for the customization of ad campaigns, enabling businesses to

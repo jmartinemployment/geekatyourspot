@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -12,11 +13,11 @@ export default function OverviewToolSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Salesforce Einstein is an AI-driven platform designed to enhance marketing and sales processes through intelligent
                 data analysis and automation. For businesses struggling with inefficient ad spend, Salesforce Einstein provides a
-                solution that optimizes ad budgets by making data-driven decisions. It integrates seamlessly with existing
+                solution that optimizes ad budgets by making <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. It integrates seamlessly with existing
                 Salesforce environments, allowing marketers to leverage AI without the need for extensive manual intervention.</p>
-              <p className="text-md text-white shadow-text pt-3">Automated ad spend optimization is crucial for businesses aiming to maximize their return on investment (ROI).
+              <p className="text-md text-white shadow-text pt-3">Automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> is crucial for businesses aiming to maximize their return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>).
                 Traditional methods often involve guesswork and manual adjustments, which can lead to wasted resources. Salesforce
-                Einstein changes this by using machine learning to analyze vast amounts of data quickly and accurately. It
+                Einstein changes this by using <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to analyze vast amounts of data quickly and accurately. It
                 identifies patterns and trends that humans might miss, ensuring that ad budgets are allocated effectively.</p>
               <p className="text-md text-white shadow-text pt-3">The platform integrates with other tools such as Google Ads Smart Bidding, providing a comprehensive solution for ad
                 management. By doing so, Salesforce Einstein helps businesses in Palm Beach and Broward counties, and beyond, to cut

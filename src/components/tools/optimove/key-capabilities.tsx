@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -14,12 +15,12 @@ export default function KeyCapabilitiesSection() {
                 features are designed to provide businesses with the tools they need to maximize their marketing efforts while
                 minimizing unnecessary costs.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Predictive Analytics: Optimove uses AI-driven predictive analytics to forecast customer behavior and
+                <li><GlossaryLink slug="analytics">Predictive Analytics</GlossaryLink>: Optimove uses AI-driven predictive analytics to forecast customer behavior and
                   preferences. This allows businesses to tailor their ad campaigns more effectively, ensuring that they reach
                   the right audience with the right message at the right time.</li>
-                <li>Customer Segmentation: The platform enables detailed customer segmentation, allowing businesses to target
-                  specific groups with personalized marketing strategies. This leads to more efficient ad spend and higher
-                  conversion rates.</li>
+                <li><GlossaryLink slug="user-segmentation">Customer Segmentation</GlossaryLink>: The platform enables detailed customer segmentation, allowing businesses to target
+                  specific groups with <GlossaryLink slug="personalized-marketing">personalized marketing</GlossaryLink> strategies. This leads to more efficient ad spend and higher
+                  <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>.</li>
                 <li>Multi-Channel Campaign Management: Optimove supports the management of advertising campaigns across multiple
                   channels, ensuring consistent messaging and strategy. This capability helps businesses maintain a cohesive
                   brand presence while optimizing their ad spend across different platforms.</li>

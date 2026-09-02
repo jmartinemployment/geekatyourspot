@@ -1,10 +1,11 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">Adobe Sensei is an AI-driven platform that enhances creative workflows by automating routine tasks and boosting
         content intelligence. This tool is part of Adobe&#39;s suite of solutions aimed at improving design efficiency and
-        delivering personalized experiences in real-time. By leveraging advanced machine learning algorithms, Adobe Sensei
-        enables businesses to streamline their content creation processes, ultimately saving time and reducing operational
+        delivering personalized experiences in real-time. By leveraging advanced <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms, Adobe Sensei
+        enables businesses to streamline their <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> processes, ultimately saving time and reducing operational
         costs.</p>
       <p className="text-md text-white shadow-text pt-3">The platform integrates seamlessly with Adobe&#39;s creative applications, such as Photoshop, Illustrator, and
         Premiere Pro, allowing users to harness AI capabilities directly within their existing tools. This integration is
@@ -12,8 +13,8 @@ export default function OverviewToolSection() {
         and learning new interfaces. Adobe Sensei&#39;s AI technology can automatically tag images, suggest edits, and even
         generate content variations, which can significantly accelerate the creative process.</p>
       <p className="text-md text-white shadow-text pt-3">Businesses that adopt Adobe Sensei can expect to see improvements in their content creation workflows through
-        enhanced efficiency and reduced manual effort. The platform&#39;s ability to deliver personalized content
-        experiences in real-time is a significant advantage, especially in industries where customer engagement and
+        enhanced efficiency and reduced manual effort. The platform&#39;s ability to deliver <GlossaryLink slug="personalized-marketing">personalized content</GlossaryLink>
+        experiences in real-time is a significant advantage, especially in industries where <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink> and
         satisfaction are paramount. By automating repetitive tasks and providing intelligent insights, Adobe Sensei empowers
         creative professionals to focus on more strategic and innovative aspects of their work.</p>
       <p className="text-md text-white shadow-text pt-3">Overall, Adobe Sensei is a valuable tool for organizations looking to optimize their creative processes and deliver

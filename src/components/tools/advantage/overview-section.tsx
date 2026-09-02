@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -13,18 +14,18 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">Advantage is designed to streamline ad spend management through AI-driven automation, ensuring that marketing
                 budgets are utilized efficiently and effectively. In today&#39;s fast-paced digital landscape, businesses often
                 struggle with manual ad management, which can lead to inefficient spending and missed opportunities. Advantage
-                addresses these challenges by automating the process of ad spend optimization, allowing businesses to focus on
+                addresses these challenges by automating the process of <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, allowing businesses to focus on
                 strategic growth rather than operational details.</p>
-              <p className="text-md text-white shadow-text pt-3">The tool leverages advanced machine learning algorithms to dynamically adjust ad bids, ensuring that ads reach the
+              <p className="text-md text-white shadow-text pt-3">The tool leverages advanced <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to dynamically adjust ad bids, ensuring that ads reach the
                 right audience at the optimal time. This approach reduces wasted ad spend by eliminating the guesswork associated
                 with traditional ad management practices. By automating these processes, Advantage helps businesses achieve a higher
-                return on investment (ROI) and improved campaign performance.</p>
+                return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>) and improved campaign performance.</p>
               <p className="text-md text-white shadow-text pt-3">Advantage is particularly beneficial for businesses in regions like Palm Beach and Broward counties, where
                 competition for consumer attention is fierce, and marketing budgets need to be managed with precision. By
                 integrating with existing marketing systems, Advantage provides a seamless transition to automated ad spend
                 optimization, minimizing disruption and maximizing efficiency.</p>
               <p className="text-md text-white shadow-text pt-3">In comparison to other tools like Google Ads Smart Bidding, Advantage offers a comprehensive solution that not only
-                focuses on bid adjustments but also provides insights into audience engagement and campaign effectiveness. This
+                focuses on bid adjustments but also provides insights into <GlossaryLink slug="engagement-rate">audience engagement</GlossaryLink> and campaign effectiveness. This
                 holistic approach ensures that businesses can make informed decisions that drive real results and sustainable
                 growth.</p>
             </div>

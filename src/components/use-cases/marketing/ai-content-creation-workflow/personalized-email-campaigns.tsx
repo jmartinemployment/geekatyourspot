@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PersonalizedEmailCampaignsSection() {
   return (
@@ -21,7 +22,7 @@ export default function PersonalizedEmailCampaignsSection() {
             </div>
             <div className="col-span-12">
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                One of the biggest challenges marketing teams face is crafting personalized email campaigns that truly resonate
+                One of the biggest challenges marketing teams face is crafting <GlossaryLink slug="personalized-marketing">personalized email campaigns</GlossaryLink> that truly resonate
                 with each recipient. This task is both time-consuming and prone to errors, especially when handled manually. The
                 pressure to deliver relevant content to thousands of subscribers without sacrificing quality often results in
                 generic messages that fail to engage. However, AI tools can transform this process, allowing businesses to create
@@ -63,7 +64,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 emails remain relevant and engaging, leading to enhanced customer loyalty and increased sales.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-ab-testing">Automated A/B Testing</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Automated A/B testing allows marketers to test different versions of email content to see which performs better,
+                Automated <GlossaryLink slug="a-b-testing">A/B testing</GlossaryLink> allows marketers to test different versions of email content to see which performs better,
                 without the manual hassle. AI tools can run these tests on a large scale, quickly analyzing results to guide future
                 campaigns. This not only saves time but also ensures that marketing efforts are optimized for success.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -84,7 +85,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 with existing email marketing platforms, helping businesses capitalize on these insights for better results.</p>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-engagement-through-segmentation">Enhancing Engagement Through Segmentation</h3>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                A crucial aspect of personalized email campaigns is audience segmentation. By dividing the email list into smaller,
+                A crucial aspect of personalized email campaigns is <GlossaryLink slug="behavioral-segmentation">audience segmentation</GlossaryLink>. By dividing the email list into smaller,
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">

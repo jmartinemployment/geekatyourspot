@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -17,7 +18,7 @@ export default function WhenToUseSection() {
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High Competition Markets: In areas like Palm Beach and Broward counties, where competition is high, these
                   tools help businesses gain a competitive edge by optimizing ad spend and improving targeting precision.</li>
-                <li>Data-Driven Decision Making: For companies aiming to transition from intuition-based to data-driven
+                <li><GlossaryLink slug="analytics">Data-Driven</GlossaryLink> Decision Making: For companies aiming to transition from intuition-based to data-driven
                   strategies, Tableau AI and Adobe Analytics offer the insights needed to make informed decisions that enhance
                   marketing effectiveness.</li>
                 <li>Complex Campaigns: Businesses managing multiple campaigns across various channels can benefit from the
@@ -27,7 +28,7 @@ export default function WhenToUseSection() {
                   growth.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">In essence, Tableau AI and Adobe Analytics are ideal for businesses that want to move beyond traditional advertising
-                methods and embrace a more sophisticated, data-centric approach to ad spend optimization. By leveraging these tools,
+                methods and embrace a more sophisticated, data-centric approach to <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. By leveraging these tools,
                 companies can expect to see not only improved marketing outcomes but also a more efficient allocation of their
                 marketing resources.</p>
             </div>

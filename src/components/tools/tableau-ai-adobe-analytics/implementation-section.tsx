@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -12,7 +13,7 @@ export default function ImplementationSection() {
             </div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Implementing Tableau AI and Adobe Analytics requires careful planning and execution to maximize their potential for
-                ad spend optimization. Here are key considerations to keep in mind during deployment and integration.</p>
+                <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are key considerations to keep in mind during deployment and integration.</p>
               <p className="text-md text-white shadow-text pt-3">1. Accelerated Deployment: To speed up the go-live process, leverage pre-built connectors and templated setups that
                 are available within both Tableau AI and Adobe Analytics. These tools offer ready-made solutions that reduce the
                 time needed for initial configuration, allowing businesses to start benefiting from data insights sooner.</p>
@@ -22,7 +23,7 @@ export default function ImplementationSection() {
                 ensure seamless integration and analysis.</p>
               <p className="text-md text-white shadow-text pt-3">3. Workflow and Process Configuration: Both tools allow for extensive customization of workflows and processes. In
                 Tableau AI, configure approval chains and routing to match your organization’s decision-making structure. Adobe
-                Analytics provides automation logic that can be tailored to specific campaign needs, ensuring that data-driven
+                Analytics provides <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic that can be tailored to specific campaign needs, ensuring that <GlossaryLink slug="analytics">data-driven</GlossaryLink>
                 decisions are made efficiently.</p>
               <p className="text-md text-white shadow-text pt-3">4. Custom Code and Development: While Tableau AI and Adobe Analytics are primarily configuration-based, they do
                 offer some customization options through APIs and scripting. This allows for deeper integration with existing

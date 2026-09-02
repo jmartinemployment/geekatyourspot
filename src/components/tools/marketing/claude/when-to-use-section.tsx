@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
   return (
     <section className="min-h-screen bg-[#8C4E2A] text-white py-5">
@@ -8,7 +9,7 @@ export default function WhenToUseSection() {
               When to Use
             </h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Claude is particularly beneficial for businesses looking to enhance their content creation processes, especially in the realm of SEO blog and article generation. It is ideal for small to medium-sized businesses that need to produce high-quality, SEO-optimized content but lack the resources for a full-time content team.
+              Claude is particularly beneficial for businesses looking to enhance their <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> processes, especially in the realm of <GlossaryLink slug="search-engine-optimization">SEO blog</GlossaryLink> and article generation. It is ideal for small to medium-sized businesses that need to produce high-quality, SEO-optimized content but lack the resources for a full-time content team.
             </p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               When you need to reduce the time and effort spent on content creation, Claude automates many of the labor-intensive tasks, allowing your team to focus on strategy and creativity. Its integration with other tools like Surfer SEO and ChatGPT creates a comprehensive content strategy that improves both quality and performance.

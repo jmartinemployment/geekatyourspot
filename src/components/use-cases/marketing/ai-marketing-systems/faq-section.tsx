@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faScrewdriverWrench,
@@ -28,7 +29,7 @@ export default function FAQSection() {
               and reduce manual work. AI workflows allow businesses to streamline operations, make data-driven decisions, and
               enhance customer experiences.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue" id="how-are-small-businesses-using-ai-for-marketing">How are small businesses using AI for marketing?</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Small businesses use AI for marketing by automating customer service with chatbots, personalizing email campaigns,
+            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Small businesses use AI for marketing by automating customer service with <GlossaryLink slug="chatbot">chatbots</GlossaryLink>, <GlossaryLink slug="personalized-marketing">personalizing email campaigns</GlossaryLink>,
               and optimizing ad placements. AI helps in analyzing customer data to create targeted marketing strategies, leading
               to better engagement and higher conversion rates. This approach helps small businesses compete with larger companies
               by providing efficient and cost-effective marketing solutions.</p>
@@ -72,7 +73,7 @@ export default function FAQSection() {
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">The golden rule of marketing is to understand and meet the needs of your customers. This involves knowing your
               audience, delivering value, and building strong relationships. By focusing on customer satisfaction and engagement,
               businesses can foster loyalty and drive growth. AI can assist in this process by providing insights and
-              personalizing customer interactions.</p>
+              <GlossaryLink slug="personalized-marketing">personalizing customer interactions</GlossaryLink>.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue" id="what-are-the-top-5-marketing-strategies">What are the top 5 marketing strategies?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">The top 5 marketing strategies include content marketing, social media marketing, email marketing, search engine
               optimization (SEO), and pay-per-click (PPC) advertising. These strategies help businesses reach their target

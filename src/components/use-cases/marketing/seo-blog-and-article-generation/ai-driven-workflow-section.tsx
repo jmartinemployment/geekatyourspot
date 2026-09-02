@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function AIDrivenWorkflowSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Many businesses struggle with the slow, error-prone process of optimizing content for search engines. Traditional SEO workflows often involve manual keyword research, content planning, and tedious content optimization tasks. These processes can lead to delays, misalignment with changing SEO trends, and ultimately, lost opportunities for visibility and traffic.
+        Many businesses struggle with the slow, error-prone process of optimizing content for search engines. Traditional <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> workflows often involve manual <GlossaryLink slug="keyword-density">keyword research</GlossaryLink>, content planning, and tedious content optimization tasks. These processes can lead to delays, misalignment with changing SEO trends, and ultimately, lost opportunities for visibility and traffic.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Implementing an AI-driven workflow can significantly streamline these tasks, reducing the time spent on repetitive activities and allowing teams to focus more on strategic initiatives. Tools like <Link id="tools-marketing-surfer-seo-2" href="/tools/marketing/surfer-seo" className="text-[#C83803] hover:underline">Surfer SEO</Link> and <Link id="tools-marketing-keyword-insights" href="/tools/marketing/keyword-insights" className="text-[#C83803] hover:underline">Keyword Insights</Link> are pivotal in this transformation. They automate the analysis of search intent and competitive content landscapes, providing actionable data to refine content strategies and align them with user expectations.
@@ -26,7 +27,7 @@ export default function AIDrivenWorkflowSection() {
         Geek At Your Spot addresses this issue by integrating AI tools like <Link id="tools-marketing-frase" href="/tools/marketing/frase" className="text-[#C83803] hover:underline">Frase</Link> and <Link id="tools-marketing-hubspot-ai" href="/tools/marketing/hubspot-ai" className="text-[#C83803] hover:underline">HubSpot AI</Link>, ensuring they work seamlessly with your existing software. This integration supports continuous data flow, enhancing the accuracy and effectiveness of your SEO campaigns.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Data synchronization between AI tools and existing CRM systems.</li>
+        <li>Data synchronization between AI tools and existing <GlossaryLink slug="crm">CRM</GlossaryLink> systems.</li>
         <li>Automated updates and insights pushed to collaborative platforms.</li>
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="customizing-data-models">Customizing Data Models</h4>

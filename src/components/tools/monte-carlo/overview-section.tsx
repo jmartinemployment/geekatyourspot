@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -11,8 +12,8 @@ export default function OverviewToolSection() {
                 </div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">In the fast-paced world of digital marketing, optimizing ad spend is crucial for maximizing return on investment
-                (ROI). Monte Carlo offers a robust solution to tackle this challenge by providing a comprehensive platform for
-                automated ad spend optimization. Designed to seamlessly integrate with your existing marketing tools, Monte Carlo
+                (<GlossaryLink slug="kpi">ROI</GlossaryLink>). Monte Carlo offers a robust solution to tackle this challenge by providing a comprehensive platform for
+                automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Designed to seamlessly integrate with your existing marketing tools, Monte Carlo
                 helps businesses refine their advertising strategies by ensuring data accuracy and reliability.</p>
               <p className="text-md text-white shadow-text pt-3">Monte Carlo stands out by focusing on data observability, which is essential for making informed decisions in ad
                 spend optimization. By monitoring data pipelines and identifying anomalies, it ensures that the data driving your ad
@@ -24,7 +25,7 @@ export default function OverviewToolSection() {
                 enhancing the efficiency and effectiveness of your ad spend.</p>
               <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Palm Beach and Broward counties can benefit from Monte Carlo&#39;s ability to
                 streamline data processes and reduce the manual effort involved in campaign management. By minimizing the guesswork
-                and enhancing data-driven decision-making, Monte Carlo empowers marketers to focus on strategic initiatives that
+                and enhancing <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making, Monte Carlo empowers marketers to focus on strategic initiatives that
                 drive real results.</p>
             </div>
           </div>

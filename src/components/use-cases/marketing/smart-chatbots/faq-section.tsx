@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FAQSection() {
   return (
@@ -14,7 +14,7 @@ export default function FAQSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-is-smart-chatbot">
               What is a Smart Chatbot and How Does it Work?
             </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">A smart chatbot is an AI-driven tool that simulates human conversation, using natural language processing to understand and respond to user queries. It works by analyzing input text, interpreting the intent, and generating a relevant response. This interaction can happen across various platforms, such as websites or messaging apps, providing users with instant assistance and information.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">A smart <GlossaryLink slug="chatbot">chatbot</GlossaryLink> is an AI-driven tool that simulates human conversation, using <GlossaryLink slug="natural-language-processing">natural language processing</GlossaryLink> to understand and respond to user queries. It works by analyzing input text, interpreting the intent, and generating a relevant response. This interaction can happen across various platforms, such as websites or messaging apps, providing users with instant assistance and information.</p>
 
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
 
@@ -28,14 +28,14 @@ export default function FAQSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="types-of-smart-chatbots">
               What Are The Types of Smart Chatbots?
             </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">There are generally two types of smart chatbots: rule-based and AI-based. Rule-based chatbots follow predefined scripts and are ideal for specific tasks with limited variables. AI-based chatbots, on the other hand, use machine learning to understand context and evolve their responses over time. This makes AI-based chatbots more versatile and capable of handling complex interactions.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">There are generally two types of smart chatbots: <GlossaryLink slug="rule-based-chatbot">rule-based</GlossaryLink> and AI-based. Rule-based chatbots follow predefined scripts and are ideal for specific tasks with limited variables. AI-based chatbots, on the other hand, use <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to understand context and evolve their responses over time. This makes AI-based chatbots more versatile and capable of handling complex interactions.</p>
 
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
 
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chatbots-helping-businesses">
               How Smart Chatbots Are Helping Businesses?
             </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Smart chatbots help businesses by providing 24/7 customer support, reducing the need for human intervention, and streamlining operations. They enhance customer satisfaction by delivering quick responses and personalized service. Additionally, chatbots can identify and capture leads, helping businesses increase conversion rates and grow their customer base efficiently.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Smart chatbots help businesses by providing 24/7 customer support, reducing the need for human intervention, and streamlining operations. They enhance customer satisfaction by delivering quick responses and personalized service. Additionally, chatbots can identify and capture <GlossaryLink slug="lead-generation">leads</GlossaryLink>, helping businesses increase conversion rates and grow their customer base efficiently.</p>
 
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
 

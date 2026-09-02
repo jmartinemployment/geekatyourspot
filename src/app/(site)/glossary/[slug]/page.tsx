@@ -1,8 +1,11 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getAllGlossaryTerms, getGlossaryTerm } from "@/lib/glossary";
+import { getAllGlossarySlugs, getGlossaryTerm } from "@/lib/glossary";
 import { TermDetail } from "@/components/glossary/term-detail";
 import type { GlossaryTerm } from "@/types/glossary";
+
+export const revalidate = 3600;
+export const dynamicParams = true;
 
 function getTermDescription(term: GlossaryTerm): string {
   if (term.definitions && term.definitions.length > 0) {
@@ -11,10 +14,9 @@ function getTermDescription(term: GlossaryTerm): string {
   return term.definition || "";
 }
 
-export function generateStaticParams() {
-  return getAllGlossaryTerms().map(({ slug }) => ({
-    slug,
-  }));
+export async function generateStaticParams() {
+  const slugs = await getAllGlossarySlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -23,7 +25,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const term = getGlossaryTerm(slug);
+  const term = await getGlossaryTerm(slug);
 
   if (!term) {
     return {};
@@ -59,13 +61,12 @@ export default async function TermPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const term = getGlossaryTerm(slug);
+  const term = await getGlossaryTerm(slug);
 
   if (!term) {
     notFound();
   }
 
-  // JSON-LD DefinedTerm schema
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTerm",

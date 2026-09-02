@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HeroSection() {
   const title = "AI Content Repurposing";
-  const summary = "Revitalize your content strategy with AI content repurposing, extending the lifespan and engagement of your material effortlessly.";
+  const summary = <>Revitalize your content strategy with AI <GlossaryLink slug="content-repurposing" className="text-white hover:underline">content repurposing</GlossaryLink>, extending the lifespan and <GlossaryLink slug="engagement-rate" className="text-white hover:underline">engagement</GlossaryLink> of your material effortlessly.</>;
 
   return (
     <>

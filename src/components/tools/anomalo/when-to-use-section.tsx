@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -11,10 +12,10 @@ export default function WhenToUseSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing ROI through automated ad spend
+              <p className="text-md text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing <GlossaryLink slug="kpi">ROI</GlossaryLink> through automated ad spend
                 optimization. Here are scenarios where Anomalo proves particularly beneficial:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Data-Driven Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
+                <li><GlossaryLink slug="analytics">Data-Driven</GlossaryLink> Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
                   from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like Optimove that
                   require precise input to deliver effective results.</li>
                 <li>Large-Scale Campaigns: For companies running extensive marketing campaigns across multiple platforms,
@@ -22,7 +23,7 @@ export default function WhenToUseSection() {
                   issues from affecting campaign performance.</li>
                 <li>Integration with AI Tools: If your marketing strategy involves the use of AI tools like Smartly.io, Anomalo
                   ensures that the data feeding into these systems is reliable, enhancing their overall effectiveness.</li>
-                <li>Preventing Ad Spend Waste: Businesses looking to cut down on wasted ad spend will find Anomalo invaluable.
+                <li>Preventing Ad Spend Waste: Businesses looking to cut down on <GlossaryLink slug="dynamic-creative-optimization">wasted ad spend</GlossaryLink> will find Anomalo invaluable.
                   By catching data anomalies early, it helps prevent flawed data from leading to inefficient marketing spend.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By incorporating Anomalo into their data management strategy, businesses can ensure that their marketing efforts are

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function IntroductionSection() {
 
@@ -12,7 +13,7 @@ export default function IntroductionSection() {
                 Understanding Intelligent Lead Capture Pipelines
               </h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Manual lead capture is fraught with challenges, from costly errors in data entry to significant time wasted on
+                Manual <GlossaryLink slug="lead-generation">lead capture</GlossaryLink> is fraught with challenges, from costly errors in data entry to significant time wasted on
                 administrative tasks. Sales teams often find themselves bogged down by repetitive processes that divert focus from
                 strategic activities. This inefficiency not only delays response times but also risks losing potential customers to
                 competitors who can engage more swiftly. To tackle these issues, organizations need a streamlined approach that
@@ -33,8 +34,8 @@ export default function IntroductionSection() {
               </div>
               <div className="col-span-7">
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">The Role of AI in AP Automation</h3>
-              <p className="pt-3 text-md font-normal text-white shadow-text">Artificial intelligence plays a pivotal role in transforming the accounts payable landscape. By employing machine
-                learning algorithms, AI systems can accurately categorize and process invoices, reducing the need for manual
+              <p className="pt-3 text-md font-normal text-white shadow-text">Artificial intelligence plays a pivotal role in transforming the accounts payable landscape. By employing <GlossaryLink slug="machine-learning">machine
+                learning</GlossaryLink> algorithms, AI systems can accurately categorize and process invoices, reducing the need for manual
                 intervention. This technology enables the automatic extraction of data, matching invoices with purchase orders, and
                 even predicting payment times based on historical data. At Geek At Your Spot, we ensure that AI is not just a tool
                 but a strategic asset that aligns with our clients&#39; business objectives.</p>
@@ -44,7 +45,7 @@ export default function IntroductionSection() {
                 measurable results.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Integration with Existing Systems</h3>
               <p className="pt-3 text-md font-normal text-white shadow-text">A critical aspect of successful AP automation is the integration of new technologies with existing enterprise
-                resource planning (ERP) systems. This step is essential to ensure that data flows seamlessly across platforms,
+                resource planning (<GlossaryLink slug="erp">ERP</GlossaryLink>) systems. This step is essential to ensure that data flows seamlessly across platforms,
                 maintaining consistency and accuracy. Geek At Your Spot excels in configuring integrations that preserve the
                 integrity of financial data while enhancing the overall system functionality.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">

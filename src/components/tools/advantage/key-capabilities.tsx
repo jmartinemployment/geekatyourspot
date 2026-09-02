@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -12,12 +13,12 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Advantage offers a range of capabilities that make it a powerful tool for automated ad spend optimization. Its
                 primary strength lies in its ability to leverage AI to enhance campaign performance through intelligent automation
-                and data-driven insights.</p>
+                and <GlossaryLink slug="analytics">data-driven</GlossaryLink> insights.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Dynamic Bid Adjustments: Advantage uses machine learning algorithms to analyze market trends and audience
+                <li>Dynamic Bid Adjustments: Advantage uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to analyze market trends and audience
                   behavior in real-time. This allows for dynamic bid adjustments that ensure ads are shown to the right
-                  audience at the right time, optimizing ad spend and maximizing ROI.</li>
-                <li>Audience Targeting: The tool provides advanced audience segmentation capabilities, enabling businesses to
+                  audience at the right time, optimizing ad spend and maximizing <GlossaryLink slug="kpi">ROI</GlossaryLink>.</li>
+                <li>Audience Targeting: The tool provides advanced <GlossaryLink slug="user-segmentation">audience segmentation</GlossaryLink> capabilities, enabling businesses to
                   target specific demographics with precision. By understanding audience preferences and behaviors, Advantage
                   ensures that marketing messages resonate with the intended audience.</li>
                 <li>Performance Analytics: Advantage offers comprehensive analytics tools that provide insights into campaign

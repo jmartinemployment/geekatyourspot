@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataQualityAssessmentsSection() {
   return (
@@ -23,7 +24,7 @@ export default function DataQualityAssessmentsSection() {
               <Link id="automated-ad-spend-optimization-dq-monte-carlo"
                 href="/tools/marketing/monte-carlo" className="text-[#0B162A] font-bold hover:underline">
                 Monte Carlo
-              </Link>&nbsp;help automate the detection of data anomalies. These platforms use machine learning algorithms to
+              </Link>&nbsp;help automate the detection of data anomalies. These platforms use <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink> algorithms to
               identify inconsistencies and missing data points, alerting marketers to potential issues before they impact campaign
               performance.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -32,7 +33,7 @@ export default function DataQualityAssessmentsSection() {
               providing actionable insights for improvement.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
               <li>Improved accuracy in campaign targeting and performance measurement.</li>
-              <li>Reduced risk of misallocated budgets due to faulty data.</li>
+              <li>Reduced risk of misallocated budgets due to faulty <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">data</GlossaryLink>.</li>
               <li>Enhanced confidence in decision-making, backed by reliable data.</li>
             </ul>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ensuring-data-integrity">Ensuring Data Integrity</h3>

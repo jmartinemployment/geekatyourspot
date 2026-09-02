@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <>
@@ -32,10 +33,10 @@ export default function ImplementationSection() {
               <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">
                 When to Use
               </h2>
-              <p className="text-md text-white shadow-text pt-3">Marketo is best utilized by businesses looking to enhance their marketing automation and customer engagement efforts. Here are some scenarios where Marketo can be particularly beneficial:</p>
+              <p className="text-md text-white shadow-text pt-3">Marketo is best utilized by businesses looking to enhance their <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> and <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink> efforts. Here are some scenarios where Marketo can be particularly beneficial:</p>
               <p className="text-md text-white shadow-text pt-3">When a business needs to manage large volumes of leads and requires a robust system to score and nurture them effectively.</p>
-              <p className="text-md text-white shadow-text pt-3">When personalized and targeted marketing campaigns are essential for improving customer engagement and conversion rates.</p>
-              <p className="text-md text-white shadow-text pt-3">When a company requires detailed analytics to measure the performance of its marketing efforts and make data-driven decisions.</p>
+              <p className="text-md text-white shadow-text pt-3">When personalized and targeted marketing campaigns are essential for improving customer engagement and <GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>.</p>
+              <p className="text-md text-white shadow-text pt-3">When a company requires detailed analytics to measure the performance of its marketing efforts and make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions.</p>
               <p className="text-md text-white shadow-text pt-3">By understanding the specific needs and challenges of their marketing operations, businesses can determine if Marketo is the right tool to help them achieve their objectives. Its comprehensive feature set and flexibility make it a valuable asset for any organization looking to optimize its marketing processes.</p>
             </div>
           </div>

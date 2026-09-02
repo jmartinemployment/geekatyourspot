@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
     <>
@@ -14,13 +15,13 @@ export default function KeyCapabilitiesSection() {
                 optimize their ad spend. These features are designed to simplify the process and enhance the effectiveness of
                 marketing campaigns.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li>Automated Bid Management: The tool uses machine learning algorithms to automatically adjust bids based on
+                <li>Automated Bid Management: The tool uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to automatically adjust bids based on
                   real-time data, ensuring that ads are shown to the right audience at the right time. This reduces the need
-                  for manual intervention and helps maximize ROI.</li>
+                  for manual intervention and helps maximize <GlossaryLink slug="kpi">ROI</GlossaryLink>.</li>
                 <li>Multi-Channel Integration: Adobe Mix Modeler can seamlessly integrate with various advertising platforms,
                   such as Smartly.io and Omneky, allowing businesses to manage their campaigns across multiple channels from a
                   single interface.</li>
-                <li>Predictive Analytics: The tool provides insights into future ad performance by analyzing historical data,
+                <li><GlossaryLink slug="analytics">Predictive Analytics</GlossaryLink>: The tool provides insights into future ad performance by analyzing historical data,
                   helping marketers make informed decisions about budget allocation and strategy adjustments.</li>
                 <li>Customizable Dashboards: Users can create personalized dashboards to monitor campaign performance in real
                   time, making it easier to track key metrics and identify areas for improvement.</li>

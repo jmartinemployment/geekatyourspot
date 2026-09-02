@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -8,8 +9,8 @@ export default function ImplementationSection() {
           <div className="col-span-7">
             <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">
               Implementation Considerations</h2>
-            <p className="text-md text-white shadow-text pt-3">Implementing OpenAI GPT-4 into your content creation workflow involves several considerations to ensure a smooth
-              and effective integration. Here are key aspects to focus on:</p>
+            <p className="text-md text-white shadow-text pt-3">Implementing OpenAI GPT-4 into your <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> workflow involves several considerations to ensure a smooth
+              and effective <GlossaryLink slug="api-integration">integration</GlossaryLink>. Here are key aspects to focus on:</p>
             <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
               <li>Accelerated Deployment: GPT-4 offers pre-built connectors and templates that can significantly shorten the
                 deployment time. These resources allow for a phased rollout, ensuring that teams can gradually adapt to the new
@@ -20,7 +21,7 @@ export default function ImplementationSection() {
               <li>Workflow and Process Configuration: Configuring GPT-4 to align with your specific content workflows is crucial.
                 This includes setting up approval chains, content routing, and automation logic tailored to your
                 organization&#39;s needs.</li>
-              <li>Custom Code and Development: While GPT-4 is primarily a configuration-based tool, it offers an API that allows
+              <li>Custom Code and Development: While GPT-4 is primarily a configuration-based tool, it offers an <GlossaryLink slug="api">API</GlossaryLink> that allows
                 for further customization and integration into bespoke applications. This flexibility can be leveraged to extend
                 the tool&#39;s capabilities and tailor it to specific business requirements.</li>
             </ul>

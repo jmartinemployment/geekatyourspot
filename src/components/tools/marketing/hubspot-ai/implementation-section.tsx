@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   return (
     <section className="min-h-screen bg-[#025E73] text-white py-5">
@@ -26,13 +27,13 @@ export default function ImplementationSection() {
               Workflow and Process Configuration
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Configuring workflows and processes within HubSpot AI is critical for automating tasks and ensuring efficiency. This includes setting up approval chains and routing logic to streamline content creation and publication processes. Geek At Your Spot can provide guidance on best practices for workflow configuration to maximize productivity.
+              Configuring workflows and processes within HubSpot AI is critical for automating tasks and ensuring efficiency. This includes setting up approval chains and routing logic to streamline <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> and publication processes. Geek At Your Spot can provide guidance on best practices for workflow configuration to maximize productivity.
             </p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="custom-code-and-development">
               Custom Code and Development
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              While HubSpot AI is largely a configuration-based tool, there may be instances where custom integrations or enhancements are needed. Geek At Your Spot can assist with any necessary custom development, ensuring that the tool integrates seamlessly with existing systems and meets specific business needs.
+              While HubSpot AI is largely a configuration-based tool, there may be instances where custom <GlossaryLink slug="api-integration">integrations</GlossaryLink> or enhancements are needed. Geek At Your Spot can assist with any necessary custom development, ensuring that the tool integrates seamlessly with existing systems and meets specific business needs.
             </p>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -17,12 +18,12 @@ export default function ImplementationSection() {
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Advantage offers pre-built connectors and templated setups that streamline the
                   deployment process. This allows businesses to quickly integrate the tool with their existing systems and
-                  start benefiting from automated ad spend optimization without lengthy setup times.</li>
+                  start benefiting from automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> without lengthy setup times.</li>
                 <li>Data Model Design: A well-thought-out data model is crucial for maximizing the effectiveness of Advantage.
                   Businesses need to map their data structures to align with Advantage&#39;s algorithms, ensuring that the
                   tool can accurately analyze and leverage data for optimal ad performance.</li>
                 <li>Workflow and Process Configuration: Advantage allows for the configuration of custom approval chains and
-                  automation logic. Businesses should define their workflow processes in advance to ensure that the tool
+                  <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic. Businesses should define their workflow processes in advance to ensure that the tool
                   operates in line with organizational goals and compliance requirements.</li>
                 <li>Custom Code and Development: While Advantage is largely configuration-based, there is room for customization
                   through APIs and scripting where necessary. Businesses that require specific functionalities can leverage

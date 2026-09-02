@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function OverviewToolSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Canva is a versatile platform designed to streamline the graphic design process for businesses of all sizes. Its
                 user-friendly interface allows teams to create professional-quality visual content without needing extensive design
-                experience. By automating parts of the content creation workflow, Canva helps businesses save time and reduce costs
+                experience. By automating parts of the <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> workflow, Canva helps businesses save time and reduce costs
                 while maintaining high-quality output. This platform is particularly beneficial for teams looking to enhance their
                 brand&#39;s visual presence efficiently.</p>
               <p className="text-md text-white shadow-text pt-3">Canva offers a wide range of templates and design elements that users can customize to fit their specific needs.
@@ -25,10 +26,10 @@ export default function OverviewToolSection() {
                 ensure that all stakeholders are aligned. Canva&#39;s cloud-based nature also means that designs are accessible from
                 anywhere, promoting flexibility and adaptability in today&#39;s fast-paced work environments.</p>
               <p className="text-md text-white shadow-text pt-3">In addition to its design capabilities, Canva offers features that support automated content creation workflows.
-                These include batch processing for creating multiple pieces of content simultaneously and AI-driven design
+                These include batch processing for creating multiple pieces of content simultaneously and <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> design
                 suggestions that help users enhance their creations with minimal effort. By leveraging these tools, businesses can
                 significantly reduce the time spent on content creation, allowing teams to focus on strategic initiatives that drive
-                growth and customer engagement.</p>
+                growth and <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink>.</p>
             </div>
           </div>
         </div>

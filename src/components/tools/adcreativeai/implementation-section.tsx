@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -20,7 +21,7 @@ export default function ImplementationSection() {
                   overhead.</li>
                 <li>Data Model Design: It is crucial to map out how AdCreative.ai will interact with your existing data
                   structures. This involves understanding how the tool integrates with platforms like Tableau AI / Adobe
-                  Analytics to ensure data consistency and accuracy in reporting and analysis.</li>
+                  <GlossaryLink slug="analytics">Analytics</GlossaryLink> to ensure data consistency and accuracy in reporting and analysis.</li>
                 <li>Workflow and Process Configuration: AdCreative.ai allows for customization of approval chains and routing
                   processes. Businesses should configure these workflows to align with their internal processes, ensuring that
                   ad content is reviewed and approved efficiently.</li>
@@ -29,7 +30,7 @@ export default function ImplementationSection() {
                   specific needs, although it generally does not require extensive custom development.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can maximize the benefits of AdCreative.ai, ensuring that the tool is
-                not only implemented effectively but also delivers the desired outcomes in terms of ad spend optimization.</p>
+                not only implemented effectively but also delivers the desired outcomes in terms of <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.</p>
             </div>
           </div>
         </div >

@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -12,7 +13,7 @@ export default function ImplementationSection() {
             </div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Implementing Smartly.io involves several considerations that can impact the success of its deployment and
-                integration into existing marketing workflows. Here are some key areas to focus on during implementation:</p>
+                <GlossaryLink slug="api-integration">integration</GlossaryLink> into existing marketing <GlossaryLink slug="marketing-automation">workflows</GlossaryLink>. Here are some key areas to focus on during implementation:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Smartly.io offers pre-built connectors and templated setups that streamline the
                   deployment process. These tools allow businesses to get up and running quickly, minimizing downtime and
@@ -26,7 +27,7 @@ export default function ImplementationSection() {
                   automation logic tailored to specific business needs. Setting up these workflows correctly ensures that ad
                   campaigns are managed efficiently and that all stakeholders are aligned.</li>
                 <li>Custom Code and Development: While Smartly.io offers robust configuration options, there may be scenarios
-                  where custom development is necessary to meet unique business requirements. The platform supports API
+                  where custom development is necessary to meet unique business requirements. The platform supports <GlossaryLink slug="api">API</GlossaryLink>
                   integrations, allowing for custom solutions that extend its functionality. However, for most use cases,
                   Smartly.io&#39;s existing features are sufficient without the need for extensive custom coding.</li>
               </ul>

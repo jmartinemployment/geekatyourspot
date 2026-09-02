@@ -1,16 +1,17 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">Salesforce Pardot is a comprehensive marketing automation platform tailored for businesses looking to enhance their
-        marketing campaigns through AI-driven solutions. It offers a suite of tools that facilitate lead generation,
+      <p className="text-md text-white shadow-text pt-3">Salesforce Pardot is a comprehensive <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> platform tailored for businesses looking to enhance their
+        marketing campaigns through AI-driven solutions. It offers a suite of tools that facilitate <GlossaryLink slug="lead-generation">lead generation</GlossaryLink>,
         nurturing, and conversion, allowing marketing teams to redirect their efforts from manual tasks to strategic
         initiatives. By leveraging AI, Salesforce Pardot helps organizations automate repetitive marketing tasks, enabling
         more efficient campaign management and improved customer engagement.</p>
       <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-        <li>Streamlined lead management: Automate lead scoring and nurturing processes to focus on high-value prospects.</li>
+        <li>Streamlined lead management: Automate <GlossaryLink slug="sales-qualified-lead">lead scoring</GlossaryLink> and nurturing processes to focus on high-value prospects.</li>
         <li>Enhanced email marketing: Create personalized email campaigns with dynamic content tailored to individual
           customer preferences.</li>
-        <li>Advanced reporting: Gain insights into campaign performance with detailed analytics and reporting tools.</li>
+        <li>Advanced reporting: Gain insights into campaign performance with detailed <GlossaryLink slug="analytics">analytics</GlossaryLink> and reporting tools.</li>
         <li>AI-driven insights: Utilize AI to predict customer behavior and optimize marketing strategies.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">Salesforce Pardot is designed to be user-friendly, making it accessible for teams without extensive technical

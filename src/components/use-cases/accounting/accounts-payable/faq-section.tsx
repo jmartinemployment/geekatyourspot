@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FAQItem } from "@/types/use-case";
 
 interface FAQSectionProps {
@@ -13,15 +14,15 @@ export default function FAQSection() {
             <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               People Also Ask</h2>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What are automated accounts payable?</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Automated accounts payable (AP) refers to the use of technology to streamline and optimize the AP process, reducing
+            <p className="pt-5 text-md font-normal text-white shadow-text">Automated <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> (AP) refers to the use of technology to streamline and optimize the AP process, reducing
               manual tasks and errors. It involves utilizing software solutions to automate tasks such as invoice processing,
               approval workflows, and payments, thereby increasing efficiency and accuracy.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What does AP mean in invoicing?</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">In invoicing, AP stands for Accounts Payable, which is the department responsible for managing outgoing payments to
+            <p className="pt-5 text-md font-normal text-white shadow-text">In invoicing, AP stands for <GlossaryLink slug="accounts-payable">Accounts Payable</GlossaryLink>, which is the department responsible for managing outgoing payments to
               vendors and suppliers. It involves processing invoices, verifying transaction details, and ensuring timely payments.
             </p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What is the AP process in accounts payable?</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">The AP process in accounts payable includes several steps: invoice receipt, verification of details, approval
+            <p className="pt-5 text-md font-normal text-white shadow-text">The AP process in <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> includes several steps: invoice receipt, verification of details, approval
               routing, and payment execution. By automating these processes, organizations can reduce processing time and minimize
               errors, ensuring that vendors are paid accurately and on time.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What is invoicing in accounts payable?</h3>

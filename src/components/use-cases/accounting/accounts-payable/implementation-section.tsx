@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementationSection() {
 
@@ -60,12 +61,12 @@ export default function ImplementationSection() {
                 consultants are adept at performing detailed audits, which serve as the foundation for developing an automation
                 strategy tailored to your specific needs.</p>
               <p className="pt-5 text-md font-normal text-white shadow-text">Key considerations during this phase include evaluating the volume of invoices processed, the complexity of
-                approval hierarchies, and the integration capabilities of existing ERP systems. By understanding these elements,
+                approval hierarchies, and the integration capabilities of existing <GlossaryLink slug="erp">ERP</GlossaryLink> systems. By understanding these elements,
                 Geek At Your Spot can recommend targeted solutions that address your unique challenges and maximize the benefits of
                 automation.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Choosing the Right Technology</h3>
               <p className="pt-5 text-md font-normal text-white shadow-text">Selecting the appropriate technology is pivotal for successful AP automation implementation. Geek At Your Spot
-                provides insights into the latest AI-powered tools that offer robust features such as machine learning-based data
+                provides insights into the latest AI-powered tools that offer robust features such as <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>-based data
                 extraction, automated workflows, and real-time analytics. The consultancy ensures that chosen solutions align with
                 your business objectives and seamlessly integrate with your existing financial systems.</p>
               <p className="pt-5 text-md font-normal text-white shadow-text">In addition to evaluating software capabilities, Geek At Your Spot assists in assessing vendor reliability and

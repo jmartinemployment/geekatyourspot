@@ -1,3 +1,4 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
   return (
@@ -11,8 +12,8 @@ export default function WhenToUseSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Basis Technologies is an ideal solution for businesses seeking to optimize their ad spend through automation and
-                data-driven decision-making. Here are some scenarios where implementing this tool would be particularly beneficial.</p>
+              <p className="text-md text-white shadow-text pt-3">Basis Technologies is an ideal solution for businesses seeking to optimize their ad spend through <GlossaryLink slug="marketing-automation">automation</GlossaryLink> and
+                <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making. Here are some scenarios where implementing this tool would be particularly beneficial.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High Ad Spend Volume: Companies with a large volume of ad spend can significantly benefit from Basis
                   Technologies’ automated bid adjustments and comprehensive analytics. The platform’s ability to handle large
@@ -29,7 +30,7 @@ export default function WhenToUseSection() {
                   provides detailed metrics that help refine marketing strategies and improve overall campaign performance.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">In conclusion, Basis Technologies is a versatile tool that can be leveraged by businesses of all sizes to enhance
-                their marketing efforts through automated ad spend optimization. Whether you are dealing with high ad spend volumes,
+                their marketing efforts through automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Whether you are dealing with high ad spend volumes,
                 managing multiple campaigns, or operating with limited resources, this platform can provide the necessary tools to
                 achieve your advertising goals efficiently.</p>
             </div>

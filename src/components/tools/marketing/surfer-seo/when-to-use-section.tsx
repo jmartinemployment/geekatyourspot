@@ -1,11 +1,12 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Surfer SEO is particularly useful for businesses looking to enhance their SEO blog and article generation processes. It is ideal for small businesses in competitive markets, such as those in Palm Beach and Broward counties, where efficient content production and optimization are crucial for maintaining visibility and driving traffic.
+        Surfer SEO is particularly useful for businesses looking to enhance their <GlossaryLink slug="search-engine-optimization">SEO blog</GlossaryLink> and article generation processes. It is ideal for small businesses in competitive markets, such as those in Palm Beach and Broward counties, where efficient content production and optimization are crucial for maintaining visibility and driving traffic.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        The tool is best utilized when a business needs to produce a high volume of content quickly without compromising on quality. Surfer SEO&apos;s capabilities make it possible to generate SEO-optimized content that ranks well in search engines, thus saving time and reducing the costs associated with traditional content creation methods. By automating much of the research and analysis, businesses can focus on developing creative and strategic content that resonates with their audience.
+        The tool is best utilized when a business needs to produce a high volume of content quickly without compromising on quality. Surfer SEO&apos;s capabilities make it possible to generate SEO-optimized content that ranks well in search engines, thus saving time and reducing the costs associated with traditional <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> methods. By automating much of the research and analysis, businesses can focus on developing creative and strategic content that resonates with their audience.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Surfer SEO is also a valuable tool for businesses aiming to improve existing content. Its Audit Tool provides insights and recommendations that can help refine and enhance content, ensuring it remains competitive in search engine rankings. This ongoing optimization is essential for adapting to changing SEO algorithms and maintaining a strong online presence.
