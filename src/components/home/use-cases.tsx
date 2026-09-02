@@ -945,7 +945,7 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/lead-squared "
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     LeadSquared
-                                                </Link>,&nbsp; 
+                                                </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
                                                     href="/tools/marketing/6sense"
@@ -1019,7 +1019,7 @@ export function UseCasesSection() {
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-creative", "AdCreative")}
                                                     href="/tools/marketing/ad-creative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                        AdCreative
+                                                    AdCreative
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
@@ -2090,7 +2090,7 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/lead-squared "
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     LeadSquared
-                                                </Link>,&nbsp; 
+                                                </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
                                                     href="/tools/marketing/6sense"
@@ -2160,33 +2160,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/meta-advantage", "Meta Advantage")}
-                                                    href="/tools/marketing/meta-advantage"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >Advantage
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-creative", "AdCreative")}
+                                                    href="/tools/marketing/ad-creative"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    AdCreative
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/omneky", "Omneky")}
-                                                    href="/tools/marketing/omneky"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
+                                                    href="/tools/marketing/madgicx"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Omneky
+                                                    Madgicx
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/smartly-io", "Smartly.io")}
-                                                    href="/tools/marketing/smartly-io"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/creatify", "Creatify")}
+                                                    href="/tools/marketing/creatify"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Smartly.io
+                                                    Creatify
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/adcreative-ai", "AdCreative.ai")}
-                                                    href="/tools/marketing/adcreative-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/cometly", "Cometly")}
+                                                    href="/tools/marketing/cometly"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    AdCreative.ai
+                                                    Cometly
                                                 </Link>&nbsp;or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
-                                                    href="/tools/marketing/jasper"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/meta-advantage", "Meta Advantage")}
+                                                    href="/tools/marketing/meta-advantage"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Jasper
+                                                    Meta Advantage + Pipedrive
                                                 </Link>.
                                             </p>
                                         </li>
