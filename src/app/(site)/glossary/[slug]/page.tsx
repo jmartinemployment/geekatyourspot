@@ -72,7 +72,6 @@ export default async function TermPage({
     name: term.title,
     description: getTermDescription(term),
     url: `https://geekatyourspot.com/glossary/${term.slug}`,
-    inDefinedTermSet: "https://geekatyourspot.com/glossary",
   };
 
   return (

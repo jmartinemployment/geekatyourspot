@@ -122,15 +122,6 @@ export default function Footer() {
             </p>
             <p className="inline-block text-center text-xs">
               <a
-                id={gtmLinkIdFromHref("/glossary")}
-                className="hover:text-white transition-colors"
-                href="/glossary"
-              >
-                Glossary
-              </a>
-            </p>
-            <p className="inline-block text-center text-xs">
-              <a
                 id={gtmLinkIdFromHref("/privacy-policy")}
                 className="hover:text-white transition-colors"
                 href="/privacy-policy"

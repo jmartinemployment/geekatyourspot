@@ -1,6 +1,4 @@
-import Link from "next/link";
 import type { GlossaryTerm } from "@/types/glossary";
-import { linkGlossaryTerms } from "@/lib/glossary-linker";
 
 interface TermDetailProps {
   term: GlossaryTerm;
@@ -65,16 +63,6 @@ export function TermDetail({ term }: TermDetailProps) {
           </p>
         </section>
       )}
-
-      {/* Navigation */}
-      <div className="border-t-4 border-black dark:border-white pt-6">
-        <Link
-          href="/glossary"
-          className="inline-flex items-center gap-2 font-semibold text-blue-600 transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 text-sm"
-        >
-          ← Back to Glossary
-        </Link>
-      </div>
     </article>
   );
 }
