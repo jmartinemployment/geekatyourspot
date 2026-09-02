@@ -146,6 +146,12 @@ Tool pages use a **fixed 4-color sequence** (does NOT rotate per tool):
   - Dark backgrounds (`#8C4E2A`, `#BF5934`): `text-[#0B162A] hover:underline` (dark blue) — orange is not visible on dark brown/rust
 - Example: `id="tools-marketing-zapier"`
 
+### Glossary
+- If content contains words/terms that should be in the Glossary (e.g., `lead scoring`, `CRM`, `predictive analytics`, `marketing automation`, `AI`), **create a glossary entry and link to the definition**.
+- Check existing terms via `GET /api/glossary/terms` (or `src/lib/glossary.ts`); if missing, create entry via `POST /api/glossary/terms` with `X-API-Key` and trigger revalidation (`POST /api/revalidate`).
+- Wrap every occurrence with `<GlossaryLink slug="term-slug">term</GlossaryLink>` (defaults to `text-[#C83803] hover:underline`, links to `/glossary/{slug}`).
+- Use kebab-case slug (e.g., `lead-scoring`, `predictive-analytics`); ensure slug matches glossary entry.
+
 ---
 
 ## Shared Body Pattern (Optional)
