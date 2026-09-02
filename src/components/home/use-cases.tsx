@@ -1040,10 +1040,10 @@ export function UseCasesSection() {
                                                     Cometly
                                                 </Link>&nbsp;or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/meta-advantage", "Meta Advantage")}
-                                                    href="/tools/marketing/meta-advantage"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Meta Advantage + Pipedrive
+                                                    Pipedrive
                                                 </Link>.
                                             </p>
                                         </li>
@@ -2184,10 +2184,10 @@ export function UseCasesSection() {
                                                     Cometly
                                                 </Link>&nbsp;or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/meta-advantage", "Meta Advantage")}
-                                                    href="/tools/marketing/meta-advantage"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Meta Advantage + Pipedrive
+                                                    Pipedrive
                                                 </Link>.
                                             </p>
                                         </li>
