@@ -225,6 +225,7 @@ Offline editorial pass — links deploy when site + API go live.
 
 Scope: overview-section, key-capabilities(-section), implementation-section, when-to-use-section across all tool pages. **161/162** files linked; `shared/tools-hero.tsx` skipped (hero chrome only).
 
+## Batch 12: Blog HTML (`backup/**/blog/*.html`)
 
 All **13** backup blog HTML files linked (40 glossary anchors total, max ~5 per file, first-occurrence only). Pattern: `<a href="/glossary/{slug}">`.
 
@@ -244,16 +245,7 @@ All **13** backup blog HTML files linked (40 glossary anchors total, max ~5 per 
 | `backup/accounting/cash-flow-forecasting/blog/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai.html` | cash-flow-forecasting, etc. |
 | `backup/marketing/ai-marketing-systems/old/blog/unlocking-the-power-of-ai-marketing-systems-for-small-businesses.html` | marketing-automation, etc. |
 
-## Post-crawl go-live checklist
-
-1. Run GeekRepository migrations (`0034`–`0036`)
-2. Start GeekAPI + set `GEEK_API_URL` in geekatyourspot
-3. `next build` and verify `/glossary/chatbot`
-4. Deploy geekatyourspot
-
-## Batch 11: Tools (`src/components/tools/`)
-
-Scope: overview-section, key-capabilities(-section), implementation-section, when-to-use-section across all tool pages.
+## Batch 11 detail: Tools link table
 
 | File | Anchor text | Slug | Notes |
 |------|-------------|------|-------|
@@ -733,3 +725,14 @@ Scope: overview-section, key-capabilities(-section), implementation-section, whe
 |------|-------|-----------|
 | tax-compliance | Tax Compliance | `0036_add_glossary_speed_to_lead.sql` |
 | data-quality | Data Quality | `0036_add_glossary_speed_to_lead.sql` |
+
+## Definition quality pass (Batch 13)
+
+Top-linked terms improved in `0037_glossary_definition_quality.sql`: marketing-automation, analytics, machine-learning, engagement-rate, kpi, personalized-marketing, conversion-funnel, api-integration, keyword-density, crm.
+
+## Post-crawl go-live checklist
+
+1. Run GeekRepository migrations (`0034`–`0037`)
+2. Start GeekAPI + set `GEEK_API_URL` in geekatyourspot
+3. `next build` and verify `/glossary/chatbot`
+4. Deploy geekatyourspot
