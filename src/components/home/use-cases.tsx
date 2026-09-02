@@ -2195,40 +2195,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/google-ads-smart-bidding", "Google Ads Smart Bidding")}
-                                                    href="/tools/marketing/google-ads-smart-bidding"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/adzooma", "Adzooma")}
+                                                    href="/tools/marketing/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Google Ads Smart Bidding
+                                                    Adzooma
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
-                                                    href="/tools/marketing/hubspot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/optmyzr", "Optmyzr")}
+                                                    href="/tools/marketing/optmyzr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    HubSpot
+                                                    Optmyzr
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
-                                                    href="/tools/marketing/salesforce-einstein"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/opteo", "Opteo")}
+                                                    href="/tools/marketing/opteo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Salesforce Einstein
+                                                    Opteo
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
-                                                    href="/tools/marketing/madgicx"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/wordStream", "WordStream")}
+                                                    href="/tools/marketing/wordStream"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Madgicx
+                                                    WordStream
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/salesforce-einstein", "Salesforce Einstein")}
-                                                    href="/tools/marketing/salesforce-einstein"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                                    href="/tools/marketing/zapier"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Salesforce Einstein
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/basis-technologies", "Basis Technologies")}
-                                                    href="/tools/marketing/basis-technologies"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Basis Technologies
+                                                    Zapier
                                                 </Link>.
                                             </p>
                                         </li>
