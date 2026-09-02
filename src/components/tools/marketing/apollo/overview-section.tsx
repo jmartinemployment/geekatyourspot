@@ -49,7 +49,7 @@ export default function OverviewSection() {
       <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-            <div className="col-span-7">
+            <div className="col-span-5 flex items-center justify-center"></div><div className="col-span-7">
               <h2
                 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text"
                 id="overview"
@@ -58,7 +58,6 @@ export default function OverviewSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
           </div>
         </div>
       </section>

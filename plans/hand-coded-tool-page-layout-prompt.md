@@ -40,10 +40,10 @@ ToolsHeroSection (shared, prop-based)
 ---
 
 ### 2. OverviewSection (Tool-Specific)
-- **Structure:** **Mobile/desktop split** (like use-case pages)
+- **Structure:** **Mobile/desktop split** (like use-case pages) — **alternating layout, same as use-case pillars**
   - Mobile (`lg:hidden`): col-span-5 empty (left) + col-span-7 heading (right) + col-span-12 body
-  - Desktop (`hidden lg:block`): col-span-7 content (left) + col-span-5 empty (right)
-  - **IMPORTANT:** Desktop section layout has **empty div AFTER content**, not before. Column order is: `col-span-7` (heading + body) then `col-span-5` (empty)
+  - Desktop (`hidden lg:block`): col-span-5 empty (left) + col-span-7 content (right, heading + body)
+  - **Alternating:** Overview is **Section 1 (odd)** — text on right (empty left). Same side for both mobile heading and desktop content. Matches use-case pillar Section 1 pattern.
 - **Background color:** `#023059` (dark blue)
 - **Heading:** "Overview" (not tool-specific)
 - **Content:** 3-4 paragraphs explaining tool purpose, value, and differentiation vs competitors
@@ -59,9 +59,10 @@ ToolsHeroSection (shared, prop-based)
 ---
 
 ### 3. KeyCapabilitiesSection (Tool-Specific)
-- **Structure:** **Single section** (no mobile/desktop split — rendered as-is on all screen sizes)
+- **Structure:** **Single section** (no mobile/desktop split — rendered as-is on all screen sizes) — **alternating layout**
 - **Background color:** `#024059` (medium blue)
 - **Grid layout:** `col-span-7` content (left) + `col-span-5` empty (right)
+- **Alternating:** Key Capabilities is **Section 2 (even)** — text on left (empty right). Opposite side from Overview/Implementation.
 - **Heading:** "Key Capabilities" (not tool-specific)
 - **Content structure:**
   1. Intro paragraph (why these capabilities matter)
@@ -75,9 +76,10 @@ ToolsHeroSection (shared, prop-based)
 ---
 
 ### 4. ImplementationSection (Tool-Specific)
-- **Structure:** **Single section** (desktop only)
+- **Structure:** **Single section** (desktop only) — **alternating layout, same as use-case pillars**
 - **Background color:** `#025E73` (teal/blue-green)
-- **Grid layout:** `col-span-9` for heading, `col-span-12` for body
+- **Grid layout:** `col-span-5` empty (left) + `col-span-7` content (right, heading + body) — **text on right**
+- **Alternating:** Implementation is **Section 3 (odd)** — text on right (empty left). Same side as Overview, opposite from Key Capabilities/When to Use.
 - **Heading:** "Implementation Considerations" (not tool-specific)
 - **Content structure:**
   - 1 intro paragraph (context for implementation)
@@ -94,9 +96,10 @@ ToolsHeroSection (shared, prop-based)
 ---
 
 ### 5. WhenToUseSection (Tool-Specific)
-- **Structure:** **Single section** (desktop only)
+- **Structure:** **Single section** (desktop only) — **alternating layout**
 - **Background color:** `#8C4E2A` (warm brown/rust)
 - **Grid layout:** `col-span-7` content (left) + `col-span-5` empty (right)
+- **Alternating:** When to Use is **Section 4 (even)** — text on left (empty right). Same side as Key Capabilities, opposite from Overview/Implementation.
 - **Heading:** "When to Use" (not tool-specific)
 - **Content:** **4 paragraphs** describing ideal use cases and business contexts:
   1. General scenario when this tool is best (problem it solves)
@@ -138,7 +141,9 @@ Tool pages use a **fixed 4-color sequence** (does NOT rotate per tool):
 
 ### Links
 - Use `<Link>` component with unique `id` attributes for GTM tracking
-- Color: `text-[#C83803] hover:underline`
+- **Color by background (same as use-case pillars):**
+  - Light backgrounds (`#023059`, `#024059`, `#025E73`): `text-[#C83803] hover:underline` (orange)
+  - Dark backgrounds (`#8C4E2A`, `#BF5934`): `text-[#0B162A] hover:underline` (dark blue) — orange is not visible on dark brown/rust
 - Example: `id="tools-marketing-zapier"`
 
 ---
@@ -259,15 +264,15 @@ src/app/(site)/tools/marketing/[tool-name]/
 
 - [ ] Page.tsx imports ToolsHeroSection (shared), 4 tool-specific sections, SchedulerShell
 - [ ] OverviewSection has mobile (`lg:hidden`) and desktop (`hidden lg:block`) variants
-- [ ] OverviewSection uses alternating col-span layout (mobile: empty left + heading right; desktop: content left + empty right)
+- [ ] OverviewSection uses alternating col-span layout (mobile: empty left + heading right; desktop: empty left + content right) — both on right (Section 1 odd)
 - [ ] OverviewSection background: `#023059`
 - [ ] **FONT SIZES CORRECT:**
   - [ ] OverviewSection mobile heading: `text-[6vw] sm:text-4xl md:text-5xl` (NOT `lg:text-[3.5rem]` in mobile section)
   - [ ] OverviewSection desktop heading: `lg:text-[3.5rem]` (ONLY in desktop section, NOT mobile)
   - [ ] All section headings use same ID for both mobile/desktop (e.g., `id="overview"` not `id="overview-desktop"`)
-- [ ] KeyCapabilitiesSection: single section, `#024059` background, exactly 5 hand-written bullet points, heading with `lg:text-[3.5rem]`
-- [ ] ImplementationSection: single section, `#025E73` background, exactly 4 h3 subsections, heading with `lg:text-[3.5rem]`
-- [ ] WhenToUseSection: single section, `#8C4E2A` background, exactly 4 paragraphs, heading with `lg:text-[3.5rem]`
+- [ ] KeyCapabilitiesSection: single section, `#024059` background, exactly 5 hand-written bullet points, heading with `lg:text-[3.5rem]`, alternating **text on left** (Section 2 even: `col-span-7` content + `col-span-5` empty)
+- [ ] ImplementationSection: single section, `#025E73` background, exactly 4 h3 subsections, heading with `lg:text-[3.5rem]`, alternating **text on right** (Section 3 odd: `col-span-5` empty + `col-span-7` content)
+- [ ] WhenToUseSection: single section, `#8C4E2A` background, exactly 4 paragraphs, heading with `lg:text-[3.5rem]`, alternating **text on left** (Section 4 even: `col-span-7` content + `col-span-5` empty)
 - [ ] All content is hand-written JSX (no `.map()`, no arrays for repeated items)
 - [ ] All headings have proper `id` attributes (consistent between mobile/desktop sections)
 - [ ] Build passes with `npm run build`
@@ -329,10 +334,12 @@ Pages affected:
 - Needs complete rewrite to match Zapier/ContentStudio pattern with both mobile and desktop sections
 
 **Key principles to prevent future issues:**
-1. Desktop OverviewSection layout should mirror Zapier/ContentStudio exactly
-2. Use ONE ID for headings across mobile/desktop sections (`id="overview"`, not separate IDs)
-3. Mobile heading font: only in OverviewSection mobile variant
-4. Single-section components (Key Capabilities, Implementation, When to Use) should NOT have mobile/desktop split
+1. **Alternating:** All sections alternate text side like use-case pillars — Odd (1,3) text on right (`col-span-5` empty left + `col-span-7` content right), Even (2,4) text on left (`col-span-7` content left + `col-span-5` empty right)
+2. Desktop OverviewSection layout should mirror use-case pillar pattern (empty left + content right for odd sections), not the old Zapier/ContentStudio buggy left+empty
+3. Use ONE ID for headings across mobile/desktop sections (`id="overview"`, not separate IDs)
+4. Mobile heading font: only in OverviewSection mobile variant
+5. Single-section components (Key Capabilities, Implementation, When to Use) should NOT have mobile/desktop split but still alternate empty/content side per section number
+6. **Link colors alternate by background:** `text-[#C83803]` on `#023059`/`#024059`/`#025E73`, `text-[#0B162A]` on `#8C4E2A`/`#BF5934`
 
 ---
 

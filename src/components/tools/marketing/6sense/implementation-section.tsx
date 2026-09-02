@@ -2,13 +2,12 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementationSection() {
   return (
-    <section className="min-h-screen bg-[#025E73] text-white">
+    <section className="min-h-screen bg-[#025E73] text-white py-5">
       <div className="container">
-        <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
-          <div className="col-span-9 w-full">
-            <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementation-considerations">Implementation Considerations</h2>
-          </div>
-          <div className="col-span-12">
+        <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+          <div className="col-span-5 flex items-center justify-center"></div>
+          <div className="col-span-7">
+            <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementation-considerations">Implementation Considerations</h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">Implementing 6sense for <GlossaryLink slug="ai">AI</GlossaryLink>-powered <GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink> can streamline your sales process, but it requires careful planning around data, workflows, and system integration to achieve reliable results.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">Accelerated Deployment</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">6sense accelerates time-to-value through pre-built integrations and a user-friendly interface that small businesses can adopt without heavy IT lift. By connecting existing marketing and sales tools early, teams can go live quickly and start benefiting from <GlossaryLink slug="ai">AI</GlossaryLink>-driven insights within weeks. Geek At Your Spot helps plan a phased rollout that validates scoring accuracy before expanding across the full pipeline.</p>

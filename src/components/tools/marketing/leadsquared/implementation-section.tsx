@@ -2,13 +2,12 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementationSection() {
   return (
-    <section className="min-h-screen bg-[#025E73] text-white">
+    <section className="min-h-screen bg-[#025E73] text-white py-5">
       <div className="container">
-        <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
-          <div className="col-span-9 w-full">
-            <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementation-considerations">Implementation Considerations</h2>
-          </div>
-          <div className="col-span-12">
+        <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+          <div className="col-span-5 flex items-center justify-center"></div>
+          <div className="col-span-7">
+            <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementation-considerations">Implementation Considerations</h2>
             <p className="pt-3 text-md font-normal text-white shadow-text">Implementing LeadSquared for <GlossaryLink slug="lead-scoring">AI-powered lead scoring</GlossaryLink> requires attention to deployment speed, data structure, process design, and extensibility. Planning these areas up front helps small and mid-sized teams achieve accurate scoring and rapid adoption.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="accelerated-deployment">Accelerated Deployment</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">LeadSquared provides pre-built templates and out-of-the-box integrations that shorten initial configuration. By reusing proven setup patterns for scoring rules, assignment logic, and email sequences, teams can go live quickly and let sales start working prioritized leads within weeks rather than months. Geek At Your Spot accelerates this further by aligning templates to your existing funnel and tech stack.</p>
