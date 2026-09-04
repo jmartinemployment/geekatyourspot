@@ -50,17 +50,24 @@ function mapTerm(term: ApiGlossaryTerm): GlossaryTerm {
 }
 
 export async function getAllGlossaryTerms(): Promise<GlossaryTerm[]> {
-  const summaries = await geekApiFetch<ApiGlossaryTermSummary[]>(
-    "/api/glossary/terms",
-    { tags: [GLOSSARY_TAG], revalidate: 3600 },
-  );
+  try {
+    const summaries = await geekApiFetch<ApiGlossaryTermSummary[]>(
+      "/api/glossary/terms",
+      { tags: [GLOSSARY_TAG], revalidate: 3600 },
+    );
 
-  return summaries.map((summary) => ({
-    title: summary.title,
-    slug: summary.slug,
-    category: summary.category ?? undefined,
-    shortSummary: summary.shortSummary ?? undefined,
-  }));
+    return summaries.map((summary) => ({
+      title: summary.title,
+      slug: summary.slug,
+      category: summary.category ?? undefined,
+      shortSummary: summary.shortSummary ?? undefined,
+    }));
+  } catch {
+    // Geek API may be unavailable at build time (localhost:5051 not running, preview envs, etc.)
+    // Returning [] lets generateStaticParams/sitemap build succeed; pages render on-demand via dynamicParams.
+    console.warn("[glossary] getAllGlossaryTerms: Geek API unavailable, returning 0 terms");
+    return [];
+  }
 }
 
 export async function getAllGlossarySlugs(): Promise<string[]> {
