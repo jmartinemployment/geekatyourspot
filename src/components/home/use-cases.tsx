@@ -704,7 +704,7 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/copy-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
-                                                </Link>.
+                                               </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
