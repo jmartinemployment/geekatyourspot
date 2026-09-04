@@ -631,9 +631,18 @@ export function UseCasesSection() {
                                     </p>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5 ">
-                                            <h5><strong className="text-black text-sm">
-                                                Automated Content Generation:
-                                            </strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/automated-content-generation-transforming-small-business-marketing", "Automated Content Generation")}
+                                                href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
+                                                    Automated Content Generation:
+                                                </strong>
+                                                </h5>
+                                            </Link>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Automated Content Generation Tools:
+                                            </h6>
                                             <p className="text-black text-xs">
                                                 Automated content creation uses artificial intelligence and software tools to research, generate, repurpose, and publish text, images, and video with minimal human effort.                                            </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
@@ -1779,17 +1788,28 @@ export function UseCasesSection() {
                                     </Link>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5 ">
-                                            <h5><strong className="text-black text-base">
-                                                Automated Content Generation:
-                                            </strong></h5>
-                                            AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/automated-content-generation-transforming-small-business-marketing", "Automated Content Generation")}
+                                                href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
+                                                    Automated Content Generation:
+                                                </strong></h5>
+                                            </Link>
+                                            <p className="text-black text-sm">
+                                                AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Automated Content Generation Tools:
+                                            </h6>
                                             <p className="text-black text-sm">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
                                                     href="/tools/marketing/writesonic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Writesonic
-                                                </Link>,&nbsp;                                                <Link
+                                                </Link>,&nbsp;
+                                                <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper")}
                                                     href="/tools/marketing/jasper-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
@@ -1806,7 +1826,8 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/pictory"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Pictory
-                                                </Link>,&nbsp;                                                <Link
+                                                </Link>,&nbsp;
+                                                <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
                                                     href="/tools/marketing/copy-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
