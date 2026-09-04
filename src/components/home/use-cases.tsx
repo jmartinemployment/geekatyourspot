@@ -678,33 +678,41 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
-                                                    href="/tools/marketing/writesonic"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Writesonic
-                                                </Link>,&nbsp;                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper")}
+                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
                                                     href="/tools/marketing/jasper-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper
+                                                    Jasper AI
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/synthesia", "Synthesia")}
-                                                    href="/tools/marketing/synthesia"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Synthesia
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
-                                                    href="/tools/marketing/pictory"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pictory
-                                                </Link>,&nbsp;                                                <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
                                                     href="/tools/marketing/copy-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
-                                               </Link>.
+                                                </Link>,
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
+                                                    href="/tools/marketing/contentstudio"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    ContentStudio
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/airia", "Airia")}
+                                                    href="/tools/marketing/airia"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Airia
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/make-com", "Make.com")}
+                                                    href="/tools/marketing/make-com"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Make.com
+                                                </Link>,&nbsp;or,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                                    href="/tools/marketing/zapier"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Zapier
+                                                </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -1777,28 +1785,32 @@ export function UseCasesSection() {
                                             AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.
                                             <p className="text-black text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
+                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
+                                                    href="/tools/marketing/writesonic"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Writesonic
+                                                </Link>,&nbsp;                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper")}
                                                     href="/tools/marketing/jasper-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper AI
+                                                    Jasper
                                                 </Link>,&nbsp;
                                                 <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/synthesia", "Synthesia")}
+                                                    href="/tools/marketing/synthesia"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Synthesia
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
+                                                    href="/tools/marketing/pictory"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Pictory
+                                                </Link>,&nbsp;                                                <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
                                                     href="/tools/marketing/copy-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
-                                                    href="/tools/marketing/chatgpt"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ChatGPT
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
-                                                    href="/tools/marketing/claude"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Claude
                                                 </Link>.
                                             </p>
                                         </li>
