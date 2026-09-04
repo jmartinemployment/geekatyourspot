@@ -1,5 +1,6 @@
 import { google } from 'googleapis'
 import type { TimeSlot, Booking, ContactInfo } from '@/components/shared/scheduler/state/types'
+import { HOLD_DURATION_MS, tagSlot } from '@/lib/booking/scarcity'
 
 function envValue(name: string): string | undefined {
   const value = process.env[name]?.trim()
@@ -242,6 +243,7 @@ export async function getSlotsForDate(dateStr: string): Promise<TimeSlot[]> {
   const busy = freeBusy.data.calendars?.[calendarId]?.busy ?? []
 
   const slots: TimeSlot[] = []
+  const now = Date.now()
   // Last bookable slot must end + buffer before window closes
   // e.g. endHour=17 → last slot starts at 16:00 (16:00 appt + 16:30 buffer = 17:00)
   const lastSlotHour = endHour - 1
@@ -251,6 +253,8 @@ export async function getSlotsForDate(dateStr: string): Promise<TimeSlot[]> {
       if (hour === lastSlotHour && minute === 30) continue
 
       const slotStart = new Date(Date.UTC(year, month, day, hour - etOffset, minute, 0, 0))
+      if (slotStart.getTime() <= now) continue
+
       const slotEnd = new Date(slotStart.getTime() + 30 * 60 * 1000)
       const blockEnd = new Date(slotStart.getTime() + 60 * 60 * 1000)
 
@@ -273,8 +277,15 @@ export async function getSlotsForDate(dateStr: string): Promise<TimeSlot[]> {
           minute: '2-digit',
           hour12: true,
         })
+        const isoStart = slotStart.toISOString()
+        const tags = tagSlot(isoStart, dateStr)
 
-        slots.push({ startTime, endTime, isoStart: slotStart.toISOString() })
+        slots.push({
+          startTime,
+          endTime,
+          isoStart,
+          ...(tags.length > 0 ? { tags } : {}),
+        })
       }
     }
   }
@@ -282,9 +293,68 @@ export async function getSlotsForDate(dateStr: string): Promise<TimeSlot[]> {
   return slots
 }
 
+export interface SoftHoldResult {
+  holdEventId: string
+  expiresAt: string
+}
+
+export async function createSoftHold(isoStart: string): Promise<SoftHoldResult> {
+  const calendar = getCalendarClient()
+  if (!calendar) throw new Error('Google Calendar credentials not configured')
+
+  const calendarId = envValue('GOOGLE_CALENDAR_ID')
+  if (!calendarId) throw new Error('GOOGLE_CALENDAR_ID not set')
+
+  const eventStart = new Date(isoStart)
+  if (Number.isNaN(eventStart.getTime())) {
+    throw new Error('Invalid slot start time')
+  }
+  if (eventStart.getTime() <= Date.now()) {
+    throw new Error('That slot is no longer available')
+  }
+
+  const eventEnd = new Date(eventStart.getTime() + 60 * 60 * 1000)
+  const expiresAt = new Date(Date.now() + HOLD_DURATION_MS)
+
+  const inserted = await calendar.events.insert({
+    calendarId,
+    requestBody: {
+      summary: 'HOLD — AI Consultation',
+      description: `Soft hold expires at ${expiresAt.toISOString()}`,
+      start: { dateTime: eventStart.toISOString(), timeZone: 'America/New_York' },
+      end: { dateTime: eventEnd.toISOString(), timeZone: 'America/New_York' },
+      transparency: 'opaque',
+      status: 'tentative',
+    },
+  })
+
+  const holdEventId = inserted.data.id
+  if (!holdEventId) throw new Error('Failed to create slot hold')
+
+  return { holdEventId, expiresAt: expiresAt.toISOString() }
+}
+
+export async function releaseSoftHold(holdEventId: string): Promise<void> {
+  if (!holdEventId.trim()) return
+
+  const calendar = getCalendarClient()
+  if (!calendar) return
+
+  const calendarId = envValue('GOOGLE_CALENDAR_ID')
+  if (!calendarId) return
+
+  try {
+    await calendar.events.delete({ calendarId, eventId: holdEventId })
+  } catch (error) {
+    // Already deleted / expired — ignore
+    console.warn('[calendar] releaseSoftHold failed:', error)
+  }
+}
+
 export async function createCalendarEvent(
   booking: Booking,
   contact: ContactInfo,
+  holdEventId?: string | null,
 ): Promise<void> {
   const calendar = getCalendarClient()
   if (!calendar) throw new Error('Google Calendar credentials not configured')
@@ -294,16 +364,31 @@ export async function createCalendarEvent(
 
   const eventStart = new Date(booking.slot.isoStart)
   const eventEnd = new Date(eventStart.getTime() + 60 * 60 * 1000)
+  const requestBody = {
+    summary: `AI Strategy Call. ${contact.firstName} ${contact.lastName}`,
+    description: `Strategy call booked by ${contact.firstName} ${contact.lastName} (${contact.email})`,
+    start: { dateTime: eventStart.toISOString(), timeZone: 'America/New_York' },
+    end: { dateTime: eventEnd.toISOString(), timeZone: 'America/New_York' },
+    status: 'confirmed' as const,
+    // Attendees omitted. service account requires Domain-Wide Delegation to send invites.
+    // Confirmation is delivered via email through the onSubmit callback instead.
+  }
+
+  if (holdEventId) {
+    try {
+      await calendar.events.patch({
+        calendarId,
+        eventId: holdEventId,
+        requestBody,
+      })
+      return
+    } catch (error) {
+      console.warn('[calendar] hold convert failed, inserting new event:', error)
+    }
+  }
 
   await calendar.events.insert({
     calendarId,
-    requestBody: {
-      summary: `AI Strategy Call. ${contact.firstName} ${contact.lastName}`,
-      description: `Strategy call booked by ${contact.firstName} ${contact.lastName} (${contact.email})`,
-      start: { dateTime: eventStart.toISOString(), timeZone: 'America/New_York' },
-      end: { dateTime: eventEnd.toISOString(), timeZone: 'America/New_York' },
-      // Attendees omitted. service account requires Domain-Wide Delegation to send invites.
-      // Confirmation is delivered via email through the onSubmit callback instead.
-    },
+    requestBody,
   })
 }

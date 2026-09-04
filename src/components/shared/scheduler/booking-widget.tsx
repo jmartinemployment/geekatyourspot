@@ -1,21 +1,19 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Calendar } from "@/components/ui/calendar";
 import { cn } from "@/lib/utils";
+import {
+  firstSelectableBusinessDay,
+  isSelectableBusinessDay,
+  listNextBusinessDayKeys,
+  toDateKey,
+  visibleSlotLimit,
+} from "@/lib/booking/scarcity";
 import type { TimeSlot } from "./state/types";
 
 const MAX_ATTEMPTS = 4;
 const RETRY_DELAY_MS = 1200;
-
-function nextWeekday(): string {
-  const date = new Date();
-  date.setHours(0, 0, 0, 0);
-  const day = date.getDay();
-  if (day === 6) date.setDate(date.getDate() + 2); // Saturday → Monday
-  if (day === 0) date.setDate(date.getDate() + 1); // Sunday → Monday
-  return date.toLocaleDateString("en-CA");
-}
 
 interface BookingWidgetProps {
   selectedDate: string | null;
@@ -28,6 +26,105 @@ interface BookingWidgetProps {
   slotsError: boolean;
   selectedSlot: TimeSlot | null;
   onSlotSelect: (slot: TimeSlot) => void;
+  selectingSlot?: boolean;
+}
+
+function SlotList({
+  availableSlots,
+  selectedSlot,
+  onSlotSelect,
+  slotsLoading,
+  slotsError,
+  selectedDate,
+  columns,
+  selectingSlot,
+}: {
+  availableSlots: TimeSlot[];
+  selectedSlot: TimeSlot | null;
+  onSlotSelect: (slot: TimeSlot) => void;
+  slotsLoading: boolean;
+  slotsError: boolean;
+  selectedDate: string | null;
+  columns: 1 | 2;
+  selectingSlot?: boolean;
+}): React.JSX.Element {
+  const [expanded, setExpanded] = useState(false);
+
+  useEffect(() => {
+    setExpanded(false);
+  }, [selectedDate]);
+
+  const limit = visibleSlotLimit(availableSlots.length);
+  const visible = expanded
+    ? availableSlots
+    : availableSlots.slice(0, limit);
+  const hiddenCount = availableSlots.length - visible.length;
+  const spotLabel =
+    availableSlots.length === 1
+      ? "1 spot left this day"
+      : `${String(availableSlots.length)} spots left this day`;
+
+  return (
+    <div className="w-full space-y-3">
+      {!slotsError &&
+        !slotsLoading &&
+        selectedDate &&
+        availableSlots.length === 0 && (
+          <p className="text-white/60 text-sm">
+            No availability on this date. Please choose another day.
+          </p>
+        )}
+
+      {availableSlots.length > 0 && (
+        <>
+          <p className="text-white text-sm font-semibold tracking-wide">
+            {spotLabel}
+          </p>
+          <div
+            className={cn(
+              "grid gap-2 transition-opacity duration-200",
+              columns === 1 ? "grid-cols-1" : "grid-cols-2",
+              (slotsLoading || selectingSlot) &&
+                "opacity-40 pointer-events-none",
+            )}
+          >
+            {visible.map((slot) => {
+              const isSelected = selectedSlot?.isoStart === slot.isoStart;
+              return (
+                <button
+                  key={slot.isoStart}
+                  type="button"
+                  onClick={() => onSlotSelect(slot)}
+                  className={cn(
+                    "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 text-left",
+                    isSelected
+                      ? "border-[#8C2703] bg-[#8C2703] text-white"
+                      : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
+                  )}
+                >
+                  <span className="block">{slot.startTime}</span>
+                  {slot.tags && slot.tags.length > 0 && (
+                    <span className="mt-0.5 block text-[11px] font-normal text-white/70">
+                      {slot.tags.join(" · ")}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+          {hiddenCount > 0 && (
+            <button
+              type="button"
+              onClick={() => setExpanded(true)}
+              className="text-sm font-medium text-white underline-offset-4 hover:underline"
+            >
+              Show more times
+            </button>
+          )}
+        </>
+      )}
+    </div>
+  );
 }
 
 export function BookingWidget({
@@ -41,17 +138,38 @@ export function BookingWidget({
   slotsError,
   selectedSlot,
   onSlotSelect,
+  selectingSlot = false,
 }: Readonly<BookingWidgetProps>): React.JSX.Element {
   const attemptRef = useRef(0);
   const cancelledRef = useRef(false);
 
-  // Auto-select today on mount
+  const allowedDayKeys = useMemo(
+    () => listNextBusinessDayKeys(),
+    // Recompute once per mount / day boundary is fine for a booking session
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  );
+  const allowedSet = useMemo(
+    () => new Set(allowedDayKeys),
+    [allowedDayKeys],
+  );
+
+  const startMonth = useMemo(() => {
+    const first = firstSelectableBusinessDay();
+    return new Date(first.getFullYear(), first.getMonth(), 1);
+  }, []);
+
+  const endMonth = useMemo(() => {
+    const lastKey = allowedDayKeys[allowedDayKeys.length - 1];
+    const [y, m] = lastKey.split("-").map(Number);
+    return new Date(y, m - 1, 1);
+  }, [allowedDayKeys]);
+
   useEffect(() => {
-    onDateChange(nextWeekday());
+    onDateChange(toDateKey(firstSelectableBusinessDay()));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Fetch slots when date changes
   useEffect(() => {
     if (!selectedDate) return;
 
@@ -89,21 +207,32 @@ export function BookingWidget({
 
   function handleDateSelect(date: Date | undefined): void {
     if (!date) return;
-    onDateChange(date.toLocaleDateString("en-CA"));
+    if (!isSelectableBusinessDay(date, allowedSet)) return;
+    onDateChange(toDateKey(date));
   }
-
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
 
   const selectedDateObj = selectedDate
     ? new Date(`${selectedDate}T00:00:00`)
     : undefined;
 
+  function isDisabled(date: Date): boolean {
+    return !isSelectableBusinessDay(date, allowedSet);
+  }
+
+  const calendarShared = {
+    mode: "single" as const,
+    selected: selectedDateObj,
+    onSelect: handleDateSelect,
+    disabled: isDisabled,
+    startMonth,
+    endMonth,
+  };
+
   return (
     <>
       <div className="lg:hidden py-5 space-y-4 w-full">
         <Calendar
-          mode="single"
+          {...calendarShared}
           className="mx-auto w-fit border rounded-md shadow font-semibold"
           classNames={{
             months: "relative flex w-fit flex-col gap-2",
@@ -113,57 +242,24 @@ export function BookingWidget({
             day_today: "font-bold",
             caption_label: "text-lg font-semibold",
           }}
-          selected={selectedDateObj}
-          onSelect={handleDateSelect}
-          disabled={(date) => {
-            const d = new Date(date);
-            d.setHours(0, 0, 0, 0);
-            return d < today || d.getDay() === 0 || d.getDay() === 6;
-          }}
         />
-
-        {!slotsError &&
-          !slotsLoading &&
-          selectedDate &&
-          availableSlots.length === 0 && (
-            <p className="text-white/60 text-sm">
-              No availability on this date. please choose another day.
-            </p>
-          )}
-
-        {availableSlots.length > 0 && (
-          <div
-            className={cn(
-              "grid grid-cols-1 gap-2 transition-opacity duration-200",
-              slotsLoading && "opacity-40 pointer-events-none",
-            )}
-          >
-            {availableSlots.map((slot) => {
-              const isSelected = selectedSlot?.isoStart === slot.isoStart;
-              return (
-                <button
-                  key={slot.isoStart}
-                  type="button"
-                  onClick={() => onSlotSelect(slot)}
-                  className={cn(
-                    "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
-                    isSelected
-                      ? "border-[#8C2703] bg-[#8C2703] text-white"
-                      : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-                  )}
-                >
-                  {slot.startTime}
-                </button>
-              );
-            })}
-          </div>
-        )}
+        <SlotList
+          availableSlots={availableSlots}
+          selectedSlot={selectedSlot}
+          onSlotSelect={onSlotSelect}
+          slotsLoading={slotsLoading}
+          slotsError={slotsError}
+          selectedDate={selectedDate}
+          columns={1}
+          selectingSlot={selectingSlot}
+        />
       </div>
+
       <div className="hidden lg:block xl:hidden py-5">
         <div className="grid grid-cols-12 gap-4 place-items-center py-5">
           <div className="col-span-6 mx-auto">
             <Calendar
-              mode="single"
+              {...calendarShared}
               className="w-full h-full border rounded-md shadow font-semibold"
               classNames={{
                 day: "h-12 w-12 p-0 font-normal aria-selected:opacity-100",
@@ -172,60 +268,28 @@ export function BookingWidget({
                 day_today: "font-bold",
                 caption_label: "text-lg font-semibold",
               }}
-              selected={selectedDateObj}
-              onSelect={handleDateSelect}
-              disabled={(date) => {
-                const d = new Date(date);
-                d.setHours(0, 0, 0, 0);
-                return d < today || d.getDay() === 0 || d.getDay() === 6;
-              }}
             />
           </div>
-          <div className="col-span-6 mx-auto">
-            {!slotsError &&
-              !slotsLoading &&
-              selectedDate &&
-              availableSlots.length === 0 && (
-                <p className="text-white/60 text-sm">
-                  No availability on this date. please choose another day.
-                </p>
-              )}
-
-            {availableSlots.length > 0 && (
-              <div
-                className={cn(
-                  "grid grid-cols-2 gap-2 transition-opacity duration-200",
-                  slotsLoading && "opacity-40 pointer-events-none",
-                )}
-              >
-                {availableSlots.map((slot) => {
-                  const isSelected = selectedSlot?.isoStart === slot.isoStart;
-                  return (
-                    <button
-                      key={slot.isoStart}
-                      type="button"
-                      onClick={() => onSlotSelect(slot)}
-                      className={cn(
-                        "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
-                        isSelected
-                          ? "border-[#8C2703] bg-[#8C2703] text-white"
-                          : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-                      )}
-                    >
-                      {slot.startTime}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
+          <div className="col-span-6 mx-auto w-full">
+            <SlotList
+              availableSlots={availableSlots}
+              selectedSlot={selectedSlot}
+              onSlotSelect={onSlotSelect}
+              slotsLoading={slotsLoading}
+              slotsError={slotsError}
+              selectedDate={selectedDate}
+              columns={2}
+              selectingSlot={selectingSlot}
+            />
           </div>
         </div>
       </div>
+
       <div className="hidden xl:block 2xl:hidden py-5">
         <div className="grid grid-cols-12 gap-4 place-items-center py-5">
           <div className="col-span-6 mx-auto">
             <Calendar
-              mode="single"
+              {...calendarShared}
               className="border rounded-md shadow font-semibold"
               classNames={{
                 month: "space-y-4 text-xl",
@@ -233,60 +297,28 @@ export function BookingWidget({
                 day_today: "font-bold",
                 caption_label: "text-lg font-semibold",
               }}
-              selected={selectedDateObj}
-              onSelect={handleDateSelect}
-              disabled={(date) => {
-                const d = new Date(date);
-                d.setHours(0, 0, 0, 0);
-                return d < today || d.getDay() === 0 || d.getDay() === 6;
-              }}
             />
           </div>
-          <div className="col-span-6 mx-auto ps-5">
-            {!slotsError &&
-              !slotsLoading &&
-              selectedDate &&
-              availableSlots.length === 0 && (
-                <p className="text-white/60 text-sm">
-                  No availability on this date. please choose another day.
-                </p>
-              )}
-
-            {availableSlots.length > 0 && (
-              <div
-                className={cn(
-                  "grid grid-cols-2 gap-2 transition-opacity duration-200",
-                  slotsLoading && "opacity-40 pointer-events-none",
-                )}
-              >
-                {availableSlots.map((slot) => {
-                  const isSelected = selectedSlot?.isoStart === slot.isoStart;
-                  return (
-                    <button
-                      key={slot.isoStart}
-                      type="button"
-                      onClick={() => onSlotSelect(slot)}
-                      className={cn(
-                        "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
-                        isSelected
-                          ? "border-[#8C2703] bg-[#8C2703] text-white"
-                          : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-                      )}
-                    >
-                      {slot.startTime}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
+          <div className="col-span-6 mx-auto ps-5 w-full">
+            <SlotList
+              availableSlots={availableSlots}
+              selectedSlot={selectedSlot}
+              onSlotSelect={onSlotSelect}
+              slotsLoading={slotsLoading}
+              slotsError={slotsError}
+              selectedDate={selectedDate}
+              columns={2}
+              selectingSlot={selectingSlot}
+            />
           </div>
         </div>
       </div>
+
       <div className="hidden xl:hidden 2xl:block py-5">
         <div className="grid grid-cols-12 gap-4 place-items-center py-5">
           <div className="col-span-6 mx-auto">
             <Calendar
-              mode="single"
+              {...calendarShared}
               className="w-full h-full border rounded-md shadow font-semibold"
               classNames={{
                 day: "h-12 w-12 p-0 font-normal aria-selected:opacity-100",
@@ -295,122 +327,22 @@ export function BookingWidget({
                 day_today: "font-bold",
                 caption_label: "text-lg font-semibold",
               }}
-              selected={selectedDateObj}
-              onSelect={handleDateSelect}
-              disabled={(date) => {
-                const d = new Date(date);
-                d.setHours(0, 0, 0, 0);
-                return d < today || d.getDay() === 0 || d.getDay() === 6;
-              }}
             />
           </div>
-          <div className="col-span-6 mx-auto ps-5">
-            {!slotsError &&
-              !slotsLoading &&
-              selectedDate &&
-              availableSlots.length === 0 && (
-                <p className="text-white/60 text-sm">
-                  No availability on this date. please choose another day.
-                </p>
-              )}
-
-            {availableSlots.length > 0 && (
-              <div
-                className={cn(
-                  "grid grid-cols-2 gap-2 transition-opacity duration-200",
-                  slotsLoading && "opacity-40 pointer-events-none",
-                )}
-              >
-                {availableSlots.map((slot) => {
-                  const isSelected = selectedSlot?.isoStart === slot.isoStart;
-                  return (
-                    <button
-                      key={slot.isoStart}
-                      type="button"
-                      onClick={() => onSlotSelect(slot)}
-                      className={cn(
-                        "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
-                        isSelected
-                          ? "border-[#8C2703] bg-[#8C2703] text-white"
-                          : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-                      )}
-                    >
-                      {slot.startTime}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
+          <div className="col-span-6 mx-auto ps-5 w-full">
+            <SlotList
+              availableSlots={availableSlots}
+              selectedSlot={selectedSlot}
+              onSlotSelect={onSlotSelect}
+              slotsLoading={slotsLoading}
+              slotsError={slotsError}
+              selectedDate={selectedDate}
+              columns={2}
+              selectingSlot={selectingSlot}
+            />
           </div>
         </div>
       </div>
     </>
-    // <div className="grid grid-cols-12 gap-0 hidden 2xl:hidden h-screen">
-    //   <div className="col-span-6 gap-4 flex place-items-center mx-auto h-screen">
-    //     <Calendar
-    //       mode="single"
-    //       className="rounded-md border shadow w-full  caption_label: text-lg font-semibold"
-    //       selected={selectedDateObj}
-    //       onSelect={handleDateSelect}
-    //       disabled={(date) => {
-    //         const d = new Date(date);
-    //         d.setHours(0, 0, 0, 0);
-    //         return d < today || d.getDay() === 0 || d.getDay() === 6;
-    //       }}
-    //       classNames={{
-    //         day: "h-12 w-12 p-0 font-normal aria-selected:opacity-100",
-    //         month: "space-y-4 text-xl",
-    //         day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-    //         day_today: "font-bold",
-    //         caption_label: "text-lg font-semibold",
-    //       }}
-    //     />
-    //   </div>
-    //   <div className="col-span-6 gap-4 flex place-items-center mx-auto h-full">
-    //     {!slotsError &&
-    //       !slotsLoading &&
-    //       selectedDate &&
-    //       availableSlots.length === 0 && (
-    //         <p className="text-white/60 text-sm">
-    //           No availability on this date. please choose another day.
-    //         </p>
-    //       )}
-
-    //     {availableSlots.length > 0 && (
-    //       <div
-    //         className={cn(
-    //           "grid grid-cols-2 gap-2 transition-opacity duration-200",
-    //           slotsLoading && "opacity-40 pointer-events-none",
-    //         )}
-    //       >
-    //         {availableSlots.map((slot) => {
-    //           const isSelected = selectedSlot?.isoStart === slot.isoStart;
-    //           return (
-    //             <button
-    //               key={slot.isoStart}
-    //               type="button"
-    //               onClick={() => onSlotSelect(slot)}
-    //               className={cn(
-    //                 "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50",
-    //                 isSelected
-    //                   ? "border-[#8C2703] bg-[#8C2703] text-white"
-    //                   : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-    //               )}
-    //             >
-    //               {slot.startTime}
-    //             </button>
-    //           );
-    //         })}
-    //       </div>
-    //     )}
-    //   </div>
-    // </div>
-    //     months: "flex w-full flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0 flex-1",
-    // month: "space-y-4 w-full flex flex-col",
-    // table: "w-full h-full border-collapse space-y-1",
-    // head_cell: "text-muted-foreground rounded-md w-12 font-normal text-[1rem]", // Larger headers
-    // day: "h-12 w-12 text-lg p-0 font-normal aria-selected:opacity-100", // Larger cells
-    // caption_label: "text-xl font-medium", // Larger month name
-    // }}
   );
 }

@@ -1,9 +1,9 @@
-'use server';
+"use server";
 
-import { createCalendarEvent } from '@/services/google-calendar.service';
-import { sendBookingConfirmation } from '@/services/booking-confirmation.service';
-import { setBookingConfirmationCookie } from '@/lib/booking/confirmation-cookie';
-import type { Booking, ContactInfo } from '@/components/shared/scheduler/state/types';
+import { createCalendarEvent } from "@/services/google-calendar.service";
+import { sendBookingConfirmation } from "@/services/booking-confirmation.service";
+import { setBookingConfirmationCookie } from "@/lib/booking/confirmation-cookie";
+import type { Booking, ContactInfo } from "@/components/shared/scheduler/state/types";
 
 export interface CreateBookingResult {
   success: boolean;
@@ -13,9 +13,10 @@ export interface CreateBookingResult {
 export async function createBooking(
   booking: Booking,
   contact: ContactInfo,
+  holdEventId?: string | null,
 ): Promise<CreateBookingResult> {
   try {
-    await createCalendarEvent(booking, contact);
+    await createCalendarEvent(booking, contact, holdEventId);
     await sendBookingConfirmation(booking, contact);
     await setBookingConfirmationCookie({
       date: booking.date,
@@ -25,7 +26,7 @@ export async function createBooking(
     });
     return { success: true };
   } catch (error) {
-    const message = error instanceof Error ? error.message : 'Booking failed';
+    const message = error instanceof Error ? error.message : "Booking failed";
     return { success: false, error: message };
   }
 }

@@ -1,9 +1,13 @@
 "use client";
 
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect, useRef } from "react";
 import { BookingWidget } from "@/components/shared/scheduler/booking-widget";
 import { ContactDrawer } from "@/components/shared/scheduler/contact-drawer";
-import type { TimeSlot } from "@/components/shared/scheduler/state/types";
+import { holdSlot, releaseSlotHold } from "@/lib/actions/hold-slot";
+import type {
+  TimeSlot,
+  SlotHold,
+} from "@/components/shared/scheduler/state/types";
 
 export function SchedulerShell(): React.JSX.Element {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
@@ -12,12 +16,41 @@ export function SchedulerShell(): React.JSX.Element {
   const [slotsLoading, setSlotsLoading] = useState(false);
   const [slotsError, setSlotsError] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [hold, setHold] = useState<SlotHold | null>(null);
+  const [selectingSlot, setSelectingSlot] = useState(false);
+  const [holdError, setHoldError] = useState<string | null>(null);
+  const holdRef = useRef<SlotHold | null>(null);
+
+  useEffect(() => {
+    holdRef.current = hold;
+  }, [hold]);
+
+  const releaseCurrentHold = useCallback(async () => {
+    const current = holdRef.current;
+    holdRef.current = null;
+    setHold(null);
+    if (current?.holdEventId) {
+      await releaseSlotHold(current.holdEventId);
+    }
+  }, []);
+
+  useEffect(() => {
+    function onUnload(): void {
+      const current = holdRef.current;
+      if (!current?.holdEventId) return;
+      // Best-effort: server action may not finish on unload; calendar hold still expires visually for others via freebusy until deleted.
+      void releaseSlotHold(current.holdEventId);
+    }
+    window.addEventListener("beforeunload", onUnload);
+    return () => window.removeEventListener("beforeunload", onUnload);
+  }, []);
 
   const handleDateChange = useCallback((date: string) => {
     setSelectedDate(date);
     setSelectedSlot(null);
     setAvailableSlots([]);
     setSlotsError(false);
+    setHoldError(null);
   }, []);
 
   const handleSlotsLoading = useCallback(() => {
@@ -36,15 +69,51 @@ export function SchedulerShell(): React.JSX.Element {
     setSlotsError(true);
   }, []);
 
-  const handleSlotSelect = useCallback((slot: TimeSlot) => {
-    setSelectedSlot(slot);
-    setDrawerOpen(true);
-  }, []);
+  const handleSlotSelect = useCallback(
+    async (slot: TimeSlot) => {
+      setHoldError(null);
+      setSelectingSlot(true);
+      await releaseCurrentHold();
 
-  const handleDrawerChange = useCallback((open: boolean) => {
-    setDrawerOpen(open);
-    if (!open) setSelectedSlot(null);
-  }, []);
+      const result = await holdSlot(slot.isoStart);
+      setSelectingSlot(false);
+
+      if (!result.success || !result.holdEventId || !result.expiresAt) {
+        setHoldError(
+          result.error ?? "That slot could not be held. Please pick another.",
+        );
+        return;
+      }
+
+      const nextHold: SlotHold = {
+        holdEventId: result.holdEventId,
+        expiresAt: result.expiresAt,
+      };
+      holdRef.current = nextHold;
+      setHold(nextHold);
+      setSelectedSlot(slot);
+      setDrawerOpen(true);
+    },
+    [releaseCurrentHold],
+  );
+
+  const handleDrawerChange = useCallback(
+    (open: boolean) => {
+      setDrawerOpen(open);
+      if (!open) {
+        void releaseCurrentHold();
+        setSelectedSlot(null);
+      }
+    },
+    [releaseCurrentHold],
+  );
+
+  const handleHoldExpired = useCallback(() => {
+    void releaseCurrentHold();
+    setDrawerOpen(false);
+    setSelectedSlot(null);
+    setHoldError("Your hold expired. Please choose a time again.");
+  }, [releaseCurrentHold]);
 
   return (
     <article
@@ -64,6 +133,9 @@ export function SchedulerShell(): React.JSX.Element {
           </p>
         </div>
         <div className="w-full lg:col-span-12 xl:col-span-6">
+          {holdError && (
+            <p className="mb-3 text-sm font-medium text-white/90">{holdError}</p>
+          )}
           <BookingWidget
             selectedDate={selectedDate}
             onDateChange={handleDateChange}
@@ -74,13 +146,18 @@ export function SchedulerShell(): React.JSX.Element {
             slotsLoading={slotsLoading}
             slotsError={slotsError}
             selectedSlot={selectedSlot}
-            onSlotSelect={handleSlotSelect}
+            onSlotSelect={(slot) => {
+              void handleSlotSelect(slot);
+            }}
+            selectingSlot={selectingSlot}
           />
           <ContactDrawer
             open={drawerOpen}
             onOpenChange={handleDrawerChange}
             selectedDate={selectedDate}
             selectedSlot={selectedSlot}
+            hold={hold}
+            onHoldExpired={handleHoldExpired}
           />
         </div>
       </div>
