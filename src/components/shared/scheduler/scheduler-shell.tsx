@@ -47,150 +47,43 @@ export function SchedulerShell(): React.JSX.Element {
   }, []);
 
   return (
-    <>
-      <article id="consultationAppointmentxs" className="w-full bg-[#C83803] min-h-screen lg:hidden">
-        <div className="grid grid-cols-1 gap-6 place-items-center min-h-screen container py-8">
-          <div className="col-span-1">
-            <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Schedule a Free
-              <br />
-              <span className="text-[#0B162A] tracking-tight">Consultation</span>
-            </h2>
-            <p className="text-white text-lg shadow-text">
-              South Florida technology consultancy serving small businesses in
-              Broward, Palm Beach, and Miami-Dade.
-            </p>
-          </div>
-          <div className="col-span-1 w-full">
-            <BookingWidget
-              selectedDate={selectedDate}
-              onDateChange={handleDateChange}
-              availableSlots={availableSlots}
-              onSlotsLoading={handleSlotsLoading}
-              onSlotsLoaded={handleSlotsLoaded}
-              onSlotsError={handleSlotsError}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedSlot={selectedSlot}
-              onSlotSelect={handleSlotSelect}
-            />
-            <ContactDrawer
-              open={drawerOpen}
-              onOpenChange={handleDrawerChange}
-              selectedDate={selectedDate}
-              selectedSlot={selectedSlot}
-            />
-          </div>
+    <article
+      id="consultationAppointment"
+      className="w-full min-h-screen bg-[#C83803] lg:bg-[#8C2703]"
+    >
+      <div className="container grid grid-cols-1 place-items-center gap-6 py-8 min-h-screen lg:grid-cols-12 lg:gap-0 lg:h-screen lg:py-0">
+        <div className="w-full lg:col-span-12 xl:col-span-6">
+          <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[5.5rem] 2xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
+            Schedule a Free
+            <br />
+            <span className="text-[#0B162A] tracking-tight">Consultation</span>
+          </h2>
+          <p className="text-white text-lg lg:text-xl shadow-text">
+            South Florida technology consultancy serving small businesses in
+            Broward, Palm Beach, and Miami-Dade.
+          </p>
         </div>
-      </article>
-
-      <article id="consultationAppointmentlg" className="w-full bg-[#8C2703] min-h-screen hidden lg:block xl:hidden">
-        <div className="grid grid-cols-12 gap-0 place-items-center h-screen container">
-          <div className="col-span-12">
-            <h2 className="text-white lg:text-7xl 2xl:text-[6.5rem]  leading-[0.95] font-black font-[var(--font-sora)] shadow-text pb-5">
-              Schedule a Free
-              <br />
-              <span className="text-[#0B162A]">Consultation</span>
-            </h2>
-            <p className="text-white text-xl shadow-text">
-              South Florida technology consultancy serving small businesses in
-              Broward, Palm Beach, and Miami-Dade.
-            </p>
-          </div>
-          <div className="col-span-12">
-            <BookingWidget
-              selectedDate={selectedDate}
-              onDateChange={handleDateChange}
-              availableSlots={availableSlots}
-              onSlotsLoading={handleSlotsLoading}
-              onSlotsLoaded={handleSlotsLoaded}
-              onSlotsError={handleSlotsError}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedSlot={selectedSlot}
-              onSlotSelect={handleSlotSelect}
-            />
-            <ContactDrawer
-              open={drawerOpen}
-              onOpenChange={handleDrawerChange}
-              selectedDate={selectedDate}
-              selectedSlot={selectedSlot}
-            />
-          </div>
+        <div className="w-full lg:col-span-12 xl:col-span-6">
+          <BookingWidget
+            selectedDate={selectedDate}
+            onDateChange={handleDateChange}
+            availableSlots={availableSlots}
+            onSlotsLoading={handleSlotsLoading}
+            onSlotsLoaded={handleSlotsLoaded}
+            onSlotsError={handleSlotsError}
+            slotsLoading={slotsLoading}
+            slotsError={slotsError}
+            selectedSlot={selectedSlot}
+            onSlotSelect={handleSlotSelect}
+          />
+          <ContactDrawer
+            open={drawerOpen}
+            onOpenChange={handleDrawerChange}
+            selectedDate={selectedDate}
+            selectedSlot={selectedSlot}
+          />
         </div>
-      </article>
-
-      <article id="consultationAppointment2xl" className="w-full bg-[#8C2703] min-h-screen hidden xl:block">
-        <div className="grid grid-cols-12 gap-0 place-items-center h-screen container">
-          <div className="col-span-6">
-            <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-[5.5rem] 2xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Schedule a Free
-              <br />
-              <span className="text-[#0B162A]">Consultation</span>
-            </h2>
-            <p className="text-white text-xl shadow-text">
-              South Florida technology consultancy serving small businesses in
-              Broward, Palm Beach, and Miami-Dade.
-            </p>
-          </div>
-          <div className="col-span-6">
-            <BookingWidget
-              selectedDate={selectedDate}
-              onDateChange={handleDateChange}
-              availableSlots={availableSlots}
-              onSlotsLoading={handleSlotsLoading}
-              onSlotsLoaded={handleSlotsLoaded}
-              onSlotsError={handleSlotsError}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedSlot={selectedSlot}
-              onSlotSelect={handleSlotSelect}
-            />
-            <ContactDrawer
-              open={drawerOpen}
-              onOpenChange={handleDrawerChange}
-              selectedDate={selectedDate}
-              selectedSlot={selectedSlot}
-            />
-          </div>
-        </div>
-      </article>
-      {/* <section id="consultationAppointment" className="w-full bg-[#8C2703] min-h-screen hidden xl:block">
-        <div className="grid grid-cols-12 gap-4 container h-screen">
-          <div className="col-span-6 place-items-center">
-            <h2 className="lg:text-7xl leading-[0.95] font-black font-(--font-sora) shadow-text">
-              Schedule a Free
-              <br />
-              <span className="text-[#023059]">Consultation</span>
-            </h2>
-            <p className="text-white text-xl font-normal shadow-text ">
-              South Florida technology consultancy serving small businesses in
-              Broward, Palm Beach, and Miami-Dade.
-            </p>
-          </div>
-
-          <div className="col-span-6 flex flex-col justify-center">
-            <BookingWidget
-              selectedDate={selectedDate}
-              onDateChange={handleDateChange}
-              availableSlots={availableSlots}
-              onSlotsLoading={handleSlotsLoading}
-              onSlotsLoaded={handleSlotsLoaded}
-              onSlotsError={handleSlotsError}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedSlot={selectedSlot}
-              onSlotSelect={handleSlotSelect}
-            />
-            <ContactDrawer
-              open={drawerOpen}
-              onOpenChange={handleDrawerChange}
-              selectedDate={selectedDate}
-              selectedSlot={selectedSlot}
-            />
-          </div>
-        </div>
-      </section> */}
-    </>
+      </div>
+    </article>
   );
 }
