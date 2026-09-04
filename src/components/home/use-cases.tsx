@@ -640,42 +640,42 @@ export function UseCasesSection() {
                                                 </strong>
                                                 </h5>
                                             </Link>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Automated Content Generation Tools:
-                                            </h6>
                                             <p className="text-black text-xs">
-                                                Automated content creation uses artificial intelligence and software tools to research, generate, repurpose, and publish text, images, and video with minimal human effort.                                            </p>
+                                                Automated content creation uses artificial intelligence and software tools to research, generate, repurpose, and publish text, images, and video with minimal human effort.
+                                            </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Content Creation Tools:
+                                                Top AI Automated Content Generation Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
-                                                    href="/tools/marketing/writesonic"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
+                                                    href="/tools/marketing/chatgpt"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Writesonic
-                                                </Link>,&nbsp;                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper")}
-                                                    href="/tools/marketing/jasper-ai"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper
+                                                    ChatGPT
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/synthesia", "Synthesia")}
-                                                    href="/tools/marketing/synthesia"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
+                                                    href="/tools/marketing/claude"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Synthesia
+                                                    Claude
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
-                                                    href="/tools/marketing/pictory"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
+                                                    href="/tools/marketing/contentstudio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pictory
-                                                </Link>,&nbsp;                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
-                                                    href="/tools/marketing/copy-ai"
+                                                    ContentStudio
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/copyai", "Copy.ai")}
+                                                    href="/tools/marketing/copyai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
+                                                    href="/tools/marketing/jasper-ai"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Jasper AI
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1804,34 +1804,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-black text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
-                                                    href="/tools/marketing/writesonic"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
+                                                    href="/tools/marketing/chatgpt"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Writesonic
+                                                    ChatGPT
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper")}
-                                                    href="/tools/marketing/jasper-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
+                                                    href="/tools/marketing/claude"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper
+                                                    Claude
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/synthesia", "Synthesia")}
-                                                    href="/tools/marketing/synthesia"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
+                                                    href="/tools/marketing/contentstudio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Synthesia
+                                                    ContentStudio
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
-                                                    href="/tools/marketing/pictory"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pictory
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
-                                                    href="/tools/marketing/copy-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/copyai", "Copy.ai")}
+                                                    href="/tools/marketing/copyai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
+                                                    href="/tools/marketing/jasper-ai"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Jasper AI
                                                 </Link>.
                                             </p>
                                         </li>

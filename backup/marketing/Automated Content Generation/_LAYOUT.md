@@ -109,9 +109,65 @@ No code changes required — fixing canonicals is sufficient for the newspaper t
 3. Drop file as `backup/marketing/Automated Content Generation/blog/<new-slug>.html` (and optionally commit same file to `content-writer-output/blog/<new-slug>.html` to override backup)
 4. Verify: `npm run urls` should show `/blog/marketing/<new-slug>` and `getTotalPages()` increments when count crosses multiple of 4
 
-## 6. Files touched in this layout pass
+## 6. Use-case page (hand-coded)
+
+Created per `plans/hand-coded-use-case-page-layout-prompt.md`:
+
+- `src/app/(site)/use-cases/marketing/automated-content-generation-transforming-small-business-marketing/page.tsx` — `SharedHeroSection` (title `Automated Content Generation: Transforming Small Business Marketing`, heroSummary from `<meta name="heroSummary">`) + 5 content sections + PAA + `SchedulerShell`, canonical `/use-cases/marketing/automated-content-generation-transforming-small-business-marketing`
+- `src/components/use-cases/marketing/automated-content-generation-transforming-small-business-marketing/`
+  - `lede-section.tsx` (`#023059`, `The Core Problem: Inconsistent Marketing Output`)
+  - `ai-content-to-lead-engine-section.tsx` (`#024059`, `AI Content-to-Lead Engine`)
+  - `generate-primary-asset-section.tsx` (`#025E73`, `Generate a Primary Asset`)
+  - `repurpose-automatically-section.tsx` (`#8C4E2A`, `Repurpose Automatically` — dark bg links `text-[#0B162A]`)
+  - `route-approval-publishing-section.tsx` (`#BF5934`, `Route through approval and publishing` — dark bg)
+  - `paa-section.tsx` (single-block PAA, `hr` separators, `#023059`)
+
+Homepage link: `src/components/home/use-cases.tsx` — both mobile (`~line 634`) and desktop (`~line 1787`) `Automated Content Generation:` headings now wrapped in `<Link href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing">` with `gtmLinkIdFromHref`.
+
+## 7. Tools layout — `backup/marketing/AI Content Creation Workflow/tools/`
+
+Source folder (excluding the two aggregate/empty entries per prompt):
+
+```
+backup/marketing/AI Content Creation Workflow/tools/
+  chatgpt.html          → <title>ChatGPT</title>          slug=chatgpt        canonical /tools/marketing/chatgpt
+  claude.html           → <title>Claude</title>           slug=claude         canonical /tools/marketing/claude
+  contentstudio.html    → <title>ContentStudio</title>     slug=contentstudio  canonical /tools/marketing/contentstudio
+  copyai.html           → <title>Copy.ai</title>           slug=copyai         canonical /tools/marketing/copyai
+  jasper-ai.html        → <title>Jasper AI</title>         slug=jasper-ai      canonical /tools/marketing/jasper-ai
+  (excluded) ai-content-creation-workflow/                — empty dir, not a tool
+  (excluded) top-ai-tools-for-ai-content-creation-workflow.html — aggregate list page, not a distinct tool
+```
+
+Distinctness check (5 distinct `slug` values, no duplicates; normalized `copyai` not `copy-ai`, `jasper-ai` not `jasper` — the Automated campaign's `tools/marketing/jasper.html` (`slug=jasper`) is a separate campaign artifact and is **not** merged here):
+
+```
+chatgpt, claude, contentstudio, copyai, jasper-ai — 5/5 unique
+```
+
+Each has a hand-coded page under `src/app/(site)/tools/marketing/<slug>/page.tsx` (verified: `chatgpt`, `claude`, `contentstudio`, `copyai`, `jasper-ai` all exist).
+
+Homepage wiring — `src/components/home/use-cases.tsx` → `Automated Content Generation:` → `Top AI Automated Content Generation Tools:`:
+
+```tsx
+<h6>Top AI Automated Content Generation Tools:</h6>
+<p className="text-xs">
+  <Link href="/tools/marketing/chatgpt">ChatGPT</Link>,
+  <Link href="/tools/marketing/claude">Claude</Link>,
+  <Link href="/tools/marketing/contentstudio">ContentStudio</Link>,
+  <Link href="/tools/marketing/copyai">Copy.ai</Link>,
+  <Link href="/tools/marketing/jasper-ai">Jasper AI</Link>.
+</p>
+```
+
+Both mobile and desktop blocks updated; display names match `<title>` exactly, `href` matches `<meta name="slug">`/`canonical`, `id={gtmLinkIdFromHref(...)}` for analytics. The previous list (`Writesonic`, `Jasper`, `Synthesia`, `Pictory`, `Copy.ai`) is retired from this position — those remain distinct tools under `backup/marketing/Automated Content Generation/tools/marketing/` (`copyai`, `jasper`, `pictory`, `synthesia`, `writesonic`) and are still indexed via `content.ts` for the blog/use-cases that reference them.
+
+## 8. Files touched in this layout pass
 
 - `backup/marketing/Automated Content Generation/blog/unlocking-the-potential-of-automated-content-generation-for-small-businesses.html` — moved + patched (3 URLs)
 - `backup/marketing/Automated Content Generation/use-cases/automated-content-generation-transforming-small-business-marketing.html` — patched canonical (1 URL + JSON-LD)
 - `backup/marketing/Automated Content Generation/blog/blog/` — removed
-- This file (`_LAYOUT.md`) — added as living doc
+- `src/components/use-cases/marketing/automated-content-generation-transforming-small-business-marketing/*` (6 sections) — created
+- `src/app/(site)/use-cases/marketing/automated-content-generation-transforming-small-business-marketing/page.tsx` — created
+- `src/components/home/use-cases.tsx` — `Automated Content Generation:` now links to new use-case; `Top AI Automated Content Generation Tools:` now lists `ChatGPT`/`Claude`/`ContentStudio`/`Copy.ai`/`Jasper AI` matching the 5 distinct slugs above (both responsive blocks)
+- This file (`_LAYOUT.md`) — updated
