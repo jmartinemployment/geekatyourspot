@@ -720,26 +720,26 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-sm">
-                                                Bulk Social Media Scheduling:
+                                                Social Media Scheduling:
                                             </strong></h5>
                                             <p className="text-black text-xs">
                                                 AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Bulk Social Media Scheduling Tools:
+                                                Top AI Social Media Scheduling Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/buffer", "Buffer")}
-                                                    href="/tools/marketing/buffer"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/metricool", "Metricool")}
+                                                    href="/tools/marketing/metricool"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Buffer
+                                                    Metricool
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hootsuite", "Hootsuite")}
-                                                    href="/tools/marketing/hootsuite"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/publer", "Publer")}
+                                                    href="/tools/marketing/publer"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Hootsuite
+                                                    Publer
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/socialbee", "SocialBee")}
@@ -754,76 +754,54 @@ export function UseCasesSection() {
                                                     CoSchedule
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/socialpilot", "SocialPilot")}
-                                                    href="/tools/marketing/socialpilot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/sendible", "Sendible")}
+                                                    href="/tools/marketing/sendible"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    SocialPilot
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zoho-social", "Zoho Social")}
-                                                    href="/tools/marketing/zoho-social"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Zoho Social
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
-                                                    href="/tools/marketing/hubspot"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    HubSpot
+                                                    Sendible
                                                 </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-sm">
-                                                SEO Blog and Article Generation:
-                                            </strong></h5>
-                                            <p className="text-black text-xs">
-                                                AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.
-                                            </p>
+                                        <h5><strong className="text-black text-base">
+                                            Approval Workflows:
+                                        </strong>
+                                        </h5>
+                                        <p className="text-black text-sm">
+                                            Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
+                                        </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Blog & Article Generator Tools:
+                                            Top 5 Automated Approval Workflow Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/surfer-seo", "Surfer SEO")}
-                                                    href="/tools/marketing/surfer-seo"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pabbly", "Pabbly")}
+                                                    href="/tools/marketing/pabbly"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Surfer SEO
+                                                    Pabbly
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
-                                                    href="/tools/marketing/chatgpt"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    ChatGPT
+                                                    id={gtmLinkIdFromHref("/tools/marketing/make", "Make")}
+                                                    href="/tools/marketing/make"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Make
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
-                                                    href="/tools/marketing/claude"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    Claude
+                                                    id={gtmLinkIdFromHref("/tools/marketing/n8n", "N8N")}
+                                                    href="/tools/marketing/n8n"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    N8N
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/frase", "Frase")}
-                                                    href="/tools/marketing/frase"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    Frase
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Pipedrive
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot-ai", "HubSpot AI")}
-                                                    href="/tools/marketing/hubspot-ai"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    HubSpot AI
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/keyword-insights", "Keyword Insights")}
-                                                    href="/tools/marketing/keyword-insights"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    Keyword Insights
+                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                                    href="/tools/marketing/zapier"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Zapier
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1871,25 +1849,25 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-base">Bulk Social Media Scheduling: </strong></h5>
+                                            <h5><strong className="text-base">Social Media Scheduling: </strong></h5>
                                             <p className="text-black text-sm">
                                                 AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Bulk Social Media Scheduling Tools:
+                                                Top AI Social Media Scheduling Tools:
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/buffer", "Buffer")}
-                                                    href="/tools/marketing/buffer"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/metricool", "Metricool")}
+                                                    href="/tools/marketing/metricool"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Buffer
+                                                    Metricool
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hootsuite", "Hootsuite")}
-                                                    href="/tools/marketing/hootsuite"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/publer", "Publer")}
+                                                    href="/tools/marketing/publer"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Hootsuite
+                                                    Publer
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/socialbee", "SocialBee")}
@@ -1904,74 +1882,51 @@ export function UseCasesSection() {
                                                     CoSchedule
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/socialpilot", "SocialPilot")}
-                                                    href="/tools/marketing/socialpilot"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/sendible", "Sendible")}
+                                                    href="/tools/marketing/sendible"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    SocialPilot
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zoho-social", "Zoho Social")}
-                                                    href="/tools/marketing/zoho-social"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Zoho Social
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot", "HubSpot")}
-                                                    href="/tools/marketing/hubspot"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    HubSpot
+                                                    Sendible
                                                 </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-base">SEO Blog and Article Generation: </strong></h5>
+                                            <h5><strong className="text-base">Approval Process: </strong></h5>
                                             <p className="text-black text-sm">
-                                                AI-powered SEO blog and article generation automates keyword research, content brief creation, long-form drafting, and on-page optimization.
+                                                AI-powered approval workflows streamline content review and sign-off processes.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Blog & Article Generator Tools:
+                                                Top AI Approval Process Tools:
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/surfer-seo", "Surfer SEO")}
-                                                    href="/tools/marketing/surfer-seo"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pabbly", "Pabbly")}
+                                                    href="/tools/marketing/pabbly"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Surfer SEO
+                                                    Pabbly
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
-                                                    href="/tools/marketing/chatgpt"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    ChatGPT
+                                                    id={gtmLinkIdFromHref("/tools/marketing/make", "Make")}
+                                                    href="/tools/marketing/make"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Make
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
-                                                    href="/tools/marketing/claude"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    Claude
+                                                    id={gtmLinkIdFromHref("/tools/marketing/n8n", "N8N")}
+                                                    href="/tools/marketing/n8n"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    N8N
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/frase", "Frase")}
-                                                    href="/tools/marketing/frase"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    Frase
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Pipedrive
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot-ai", "HubSpot AI")}
-                                                    href="/tools/marketing/hubspot-ai"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    HubSpot AI
-                                                </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/keyword-insights", "Keyword Insights")}
-                                                    href="/tools/marketing/keyword-insights"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline"
-                                                >
-                                                    Keyword Insights
+                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                                    href="/tools/marketing/zapier"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Zapier
                                                 </Link>.
                                             </p>
                                         </li>
