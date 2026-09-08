@@ -687,16 +687,16 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
-                                                    href="/tools/marketing/jasper-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
+                                                    href="/tools/marketing/pictory"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper AI
+                                                    Pictory
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
-                                                    href="/tools/marketing/copy-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/opusclip", "OpusClip")}
+                                                    href="/tools/marketing/opusclip"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Copy.ai
+                                                    OpusClip
                                                 </Link>,
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
@@ -705,22 +705,16 @@ export function UseCasesSection() {
                                                     ContentStudio
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/airia", "Airia")}
-                                                    href="/tools/marketing/airia"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/repurpose", "Repurpose")}
+                                                    href="/tools/marketing/repurpose"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Airia
+                                                    Repurpose
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/make-com", "Make.com")}
-                                                    href="/tools/marketing/make-com"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/vizard", "Vizard")}
+                                                    href="/tools/marketing/vizard"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Make.com
-                                                </Link>,&nbsp;or,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
-                                                    href="/tools/marketing/zapier"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Zapier
+                                                    Vizard
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1845,16 +1839,16 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
-                                                    href="/tools/marketing/jasper-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
+                                                    href="/tools/marketing/pictory"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper AI
+                                                    Pictory
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
-                                                    href="/tools/marketing/copy-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/opusclip", "OpusClip")}
+                                                    href="/tools/marketing/opusclip"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Copy.ai
+                                                    OpusClip
                                                 </Link>,
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
@@ -1863,22 +1857,16 @@ export function UseCasesSection() {
                                                     ContentStudio
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/airia", "Airia")}
-                                                    href="/tools/marketing/airia"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/repurpose", "Repurpose")}
+                                                    href="/tools/marketing/repurpose"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Airia
+                                                    Repurpose
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/make-com", "Make.com")}
-                                                    href="/tools/marketing/make-com"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/vizard", "Vizard")}
+                                                    href="/tools/marketing/vizard"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Make.com
-                                                </Link>,&nbsp;or,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
-                                                    href="/tools/marketing/zapier"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Zapier
+                                                    Vizard
                                                 </Link>.
                                             </p>
                                         </li>
