@@ -36,7 +36,6 @@ function SlotList({
   slotsLoading,
   slotsError,
   selectedDate,
-  columns,
   selectingSlot,
 }: {
   availableSlots: TimeSlot[];
@@ -45,14 +44,9 @@ function SlotList({
   slotsLoading: boolean;
   slotsError: boolean;
   selectedDate: string | null;
-  columns: 1 | 2;
   selectingSlot?: boolean;
 }): React.JSX.Element {
   const [expanded, setExpanded] = useState(false);
-
-  useEffect(() => {
-    setExpanded(false);
-  }, [selectedDate]);
 
   const limit = visibleSlotLimit(availableSlots.length);
   const visible = expanded
@@ -82,8 +76,7 @@ function SlotList({
           </p>
           <div
             className={cn(
-              "grid gap-2 transition-opacity duration-200",
-              columns === 1 ? "grid-cols-1" : "grid-cols-2",
+              "grid grid-cols-1 gap-2 transition-opacity duration-200 sm:grid-cols-2",
               (slotsLoading || selectingSlot) &&
                 "opacity-40 pointer-events-none",
             )}
@@ -145,8 +138,6 @@ export function BookingWidget({
 
   const allowedDayKeys = useMemo(
     () => listNextBusinessDayKeys(),
-    // Recompute once per mount / day boundary is fine for a booking session
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   );
   const allowedSet = useMemo(
@@ -229,120 +220,43 @@ export function BookingWidget({
   };
 
   return (
-    <>
-      <div className="lg:hidden py-5 space-y-4 w-full">
+    <div className="grid w-full grid-cols-1 items-start gap-6 py-5 lg:grid-cols-[auto_minmax(0,1fr)] lg:gap-8">
+      <section className="min-w-0">
+        <p className="mb-2 text-sm font-semibold tracking-wide text-white">
+          Choose a date
+        </p>
         <Calendar
           {...calendarShared}
-          className="mx-auto w-fit border rounded-md shadow font-semibold"
+          className="mx-auto w-fit max-w-full rounded-md border shadow font-semibold lg:mx-0 lg:[--cell-size:--spacing(10)]"
           classNames={{
-            months: "relative flex w-fit flex-col gap-2",
-            month: "flex w-fit flex-col gap-2",
-            table: "w-fit border-collapse",
+            months: "relative flex w-fit max-w-full flex-col gap-2",
+            month: "flex w-fit max-w-full flex-col gap-2",
+            table: "w-fit max-w-full border-collapse",
             day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
             day_today: "font-bold",
-            caption_label: "text-lg font-semibold",
+            day_button: "disabled:opacity-100",
+            disabled: "text-foreground/55 opacity-100",
+            outside: "text-foreground/40 opacity-100",
+            caption_label: "text-base font-semibold lg:text-lg",
           }}
         />
+      </section>
+
+      <section className="min-w-0">
+        <p className="mb-2 text-sm font-semibold tracking-wide text-white">
+          Available times
+        </p>
         <SlotList
+          key={selectedDate ?? "no-date"}
           availableSlots={availableSlots}
           selectedSlot={selectedSlot}
           onSlotSelect={onSlotSelect}
           slotsLoading={slotsLoading}
           slotsError={slotsError}
           selectedDate={selectedDate}
-          columns={1}
           selectingSlot={selectingSlot}
         />
-      </div>
-
-      <div className="hidden lg:block xl:hidden py-5">
-        <div className="grid grid-cols-12 gap-4 place-items-center py-5">
-          <div className="col-span-6 mx-auto">
-            <Calendar
-              {...calendarShared}
-              className="w-full h-full border rounded-md shadow font-semibold"
-              classNames={{
-                day: "h-12 w-12 p-0 font-normal aria-selected:opacity-100",
-                month: "space-y-4 text-xl",
-                day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-                day_today: "font-bold",
-                caption_label: "text-lg font-semibold",
-              }}
-            />
-          </div>
-          <div className="col-span-6 mx-auto w-full">
-            <SlotList
-              availableSlots={availableSlots}
-              selectedSlot={selectedSlot}
-              onSlotSelect={onSlotSelect}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedDate={selectedDate}
-              columns={2}
-              selectingSlot={selectingSlot}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="hidden xl:block 2xl:hidden py-5">
-        <div className="grid grid-cols-12 gap-4 place-items-center py-5">
-          <div className="col-span-6 mx-auto">
-            <Calendar
-              {...calendarShared}
-              className="border rounded-md shadow font-semibold"
-              classNames={{
-                month: "space-y-4 text-xl",
-                day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-                day_today: "font-bold",
-                caption_label: "text-lg font-semibold",
-              }}
-            />
-          </div>
-          <div className="col-span-6 mx-auto ps-5 w-full">
-            <SlotList
-              availableSlots={availableSlots}
-              selectedSlot={selectedSlot}
-              onSlotSelect={onSlotSelect}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedDate={selectedDate}
-              columns={2}
-              selectingSlot={selectingSlot}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="hidden xl:hidden 2xl:block py-5">
-        <div className="grid grid-cols-12 gap-4 place-items-center py-5">
-          <div className="col-span-6 mx-auto">
-            <Calendar
-              {...calendarShared}
-              className="w-full h-full border rounded-md shadow font-semibold"
-              classNames={{
-                day: "h-12 w-12 p-0 font-normal aria-selected:opacity-100",
-                month: "space-y-4 text-xl",
-                day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-                day_today: "font-bold",
-                caption_label: "text-lg font-semibold",
-              }}
-            />
-          </div>
-          <div className="col-span-6 mx-auto ps-5 w-full">
-            <SlotList
-              availableSlots={availableSlots}
-              selectedSlot={selectedSlot}
-              onSlotSelect={onSlotSelect}
-              slotsLoading={slotsLoading}
-              slotsError={slotsError}
-              selectedDate={selectedDate}
-              columns={2}
-              selectingSlot={selectingSlot}
-            />
-          </div>
-        </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 }

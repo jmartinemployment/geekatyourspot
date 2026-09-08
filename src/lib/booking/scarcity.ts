@@ -1,4 +1,7 @@
-export const BUSINESS_DAY_WINDOW = 5;
+// Keep enough upcoming dates visible for visitors to plan ahead. Actual
+// scarcity is communicated by the live slot count, not an artificially
+// narrow calendar window.
+export const BUSINESS_DAY_WINDOW = 20;
 export const HOLD_DURATION_MS = 5 * 60 * 1000;
 export const SHOW_MORE_THRESHOLD = 6;
 export const INITIAL_VISIBLE_SLOTS = 3;
