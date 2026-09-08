@@ -720,13 +720,13 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-sm">
-                                                Social Media Scheduling:
+                                                BulkScheduling:
                                             </strong></h5>
                                             <p className="text-black text-xs">
                                                 AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Social Media Scheduling Tools:
+                                                Top AI Bulk Scheduling Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
@@ -827,22 +827,22 @@ export function UseCasesSection() {
                                                     Mailchimp
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot-marketing-hub", "HubSpot Marketing Hub")}
-                                                    href="/tools/marketing/hubspot-marketing-hub"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/getresponse", "GetResponse")}
+                                                    href="/tools/marketing/getresponse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    HubSpot Marketing Hub
+                                                    GetResponse
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/twilio-sendgrid", "Twilio SendGrid")}
-                                                    href="/tools/marketing/twilio-sendgrid"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/activecampaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/activecampaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Twilio SendGrid
+                                                    ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
-                                                    href="/tools/marketing/copy-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/mailerlite", "MailerLite")}
+                                                    href="/tools/marketing/mailerlite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Copy.ai
+                                                    MailerLite
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1849,12 +1849,12 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-base">Social Media Scheduling: </strong></h5>
+                                            <h5><strong className="text-base">Bulk Scheduling: </strong></h5>
                                             <p className="text-black text-sm">
                                                 AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Social Media Scheduling Tools:
+                                                Top AI Bulk Scheduling Tools:
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
@@ -1952,24 +1952,23 @@ export function UseCasesSection() {
                                                     Mailchimp
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/hubspot-marketing-hub", "HubSpot Marketing Hub")}
-                                                    href="/tools/marketing/hubspot-marketing-hub"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/getresponse", "GetResponse")}
+                                                    href="/tools/marketing/getresponse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    HubSpot Marketing Hub
+                                                    GetResponse
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/twilio-sendgrid", "Twilio SendGrid")}
-                                                    href="/tools/marketing/twilio-sendgrid"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/activecampaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/activecampaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Twilio SendGrid
+                                                    ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copy-ai", "Copy.ai")}
-                                                    href="/tools/marketing/copy-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/mailerlite", "MailerLite")}
+                                                    href="/tools/marketing/mailerlite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Copy.ai
-                                                </Link>.
-                                            </p>
+                                                    MailerLite
+                                                </Link>.                                            </p>
                                         </li>
                                     </ul>
                                     <Link
