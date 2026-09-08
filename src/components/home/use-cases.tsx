@@ -720,7 +720,7 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-sm">
-                                                BulkScheduling:
+                                                Bulk Scheduling:
                                             </strong></h5>
                                             <p className="text-black text-xs">
                                                 AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
