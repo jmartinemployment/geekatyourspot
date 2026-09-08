@@ -648,16 +648,16 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
-                                                    href="/tools/marketing/chatgpt"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ChatGPT
+                                                    Scalenut
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
-                                                    href="/tools/marketing/claude"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
+                                                    href="/tools/marketing/writesonic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Claude
+                                                    Writesonic
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
@@ -666,16 +666,16 @@ export function UseCasesSection() {
                                                     ContentStudio
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copyai", "Copy.ai")}
-                                                    href="/tools/marketing/copyai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/rytr", "Rytr")}
+                                                    href="/tools/marketing/rytr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Copy.ai
+                                                    Rytr
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
+                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
                                                     href="/tools/marketing/jasper-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper AI
+                                                    Jasper
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1804,16 +1804,16 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-black text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/chatgpt", "ChatGPT")}
-                                                    href="/tools/marketing/chatgpt"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ChatGPT
+                                                    Scalenut
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/claude", "Claude")}
-                                                    href="/tools/marketing/claude"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
+                                                    href="/tools/marketing/writesonic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Claude
+                                                    Writesonic
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
@@ -1822,16 +1822,16 @@ export function UseCasesSection() {
                                                     ContentStudio
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/copyai", "Copy.ai")}
-                                                    href="/tools/marketing/copyai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/rytr", "Rytr")}
+                                                    href="/tools/marketing/rytr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Copy.ai
+                                                    Rytr
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper-ai", "Jasper AI")}
+                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
                                                     href="/tools/marketing/jasper-ai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Jasper AI
+                                                    Jasper
                                                 </Link>.
                                             </p>
                                         </li>
