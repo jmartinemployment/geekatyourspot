@@ -121,8 +121,8 @@ export function SchedulerShell(): React.JSX.Element {
       className="w-full min-h-screen bg-[#C83803] lg:bg-[#8C2703]"
     >
       <div className="container grid min-h-screen content-center items-center grid-cols-1 gap-8 py-12 lg:grid-cols-12 lg:py-16 xl:gap-10">
-        <div className="w-full lg:col-span-12 xl:col-span-5">
-          <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[5.5rem] 2xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
+        <div className="min-w-0 w-full lg:col-span-12 xl:col-span-5">
+          <h2 className="max-w-full text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[4rem] 2xl:text-[4.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
             Schedule a Free
             <br />
             <span className="text-[#0B162A] tracking-tight">Consultation</span>
