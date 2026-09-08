@@ -762,11 +762,11 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
+                                        <h5><strong className="text-black text-sm">
                                             Approval Workflows:
                                         </strong>
                                         </h5>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-xs">
                                             Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
                                         </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
