@@ -68,102 +68,12 @@ export function UseCasesSection() {
                                         <h5><strong className="text-black text-xs">
                                             Automated Data Entry &amp; Processing:</strong></h5>
                                         <p className="text-black text-xs">
-                                            Utilize Optical Character Recognition (OCR) Technology to automatically extract data from invoices and vendor payments then populate corresponding fields in your AP system with high accuracy.
+                                            Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Automated Data Entry Processing Tools:
                                         </h6>
                                         <p className="text-black text-xs whitespace-nowrap">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zapier", "Zapier")}
-                                                href="/tools/accounting/zapier"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zapier
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks-online", "QuickBooks Online")}
-                                                href="/tools/accounting/quickbooks-online"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lido", "Lido")}
-                                                href="/tools/accounting/lido"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lido
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/jotform", "Jotform")}
-                                                href="/tools/accounting/jotform"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Jotform
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/uiPath", "UiPath")}
-                                                href="/tools/accounting/uiPath"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                UiPath
-                                            </Link>.
-                                        </p>
-                                    </li>
-                                    <li className="pl-.5">
-                                        <strong className="text-sm"> </strong>
-                                        <h5><strong className="text-black text-xsm">
-                                            Approval Workflows:
-                                        </strong></h5>
-                                        <p className="text-black text-xs">
-                                            Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
-                                        </p>
-                                        <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Automated Approval Workflow Tools:
-                                        </h6>
-                                        <p className="text-black text-xs">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zapier", "Zapier")}
-                                                href="/tools/accounting/zapier"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zapier
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/jotform-workflows", "Jotform Workflows")}
-                                                href="/tools/accounting/jotform-workflows"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Jotform Workflows
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/kissflow", "Kissflow")}
-                                                href="/tools/accounting/kissflow"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Kissflow
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/process-street", "Process Street")}
-                                                href="/tools/accounting/process-street"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Process Street
-                                            </Link>,&nbsp;or&nbsp;                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>.
-                                        </p>
-                                    </li>
-                                    <li className="pl-.5">
-                                        <h5><strong className="text-black text-xs">Automated Payment Execution:</strong></h5>
-                                        <p className="text-black text-xs">
-                                            Automate your payment execution so you can schedule payments in advance, taking advantage of early-pay discounts and ensuring you never miss a deadline.
-                                        </p>
-                                        <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Automated Payment Execution Tools:
-                                        </h6>
-                                        <p className="text-xs">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
-                                            </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
                                                 href="/tools/accounting/melio"
@@ -171,16 +81,113 @@ export function UseCasesSection() {
                                                 Melio
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks"
+                                                id={gtmLinkIdFromHref("/tools/accounting/dext", "Dext")}
+                                                href="/tools/accounting/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;or&nbsp;                                            <Link
+                                                Dext
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
+                                                href="/tools/accounting/lightyear"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Lightyear
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
+                                                href="/tools/accounting/stampli"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stampli
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
+                                                href="/tools/accounting/avidXchange"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                AvidXchange
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                    <li className="pl-.5">
+                                        <strong className="text-sm"> </strong>
+                                        <h5><strong className="text-black text-xsm">
+                                            Automated Accounting Approval Workflows:
+                                        </strong></h5>
+                                        <p className="text-black text-xs">
+                                            We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
+                                        <h6 className="text-black text-xs font-bold pt-1">
+                                            Top 5 Automated Accounting Approval Workflow Tools:
+                                        </h6>
+                                        <p className="text-black text-xs">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/approvalmax", "ApprovalMax")}
+                                                href="/tools/accounting/approvalmax"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                ApprovalMax
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                href="/tools/accounting/bill"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                BILL
+                                            </Link>,&nbsp;
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
                                                 href="/tools/accounting/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/plooto", "Plooto")}
+                                                href="/tools/accounting/plooto"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Plooto
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
+                                                href="/tools/accounting/stampli"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stampli
                                             </Link>.
+                                        </p>
+                                    </li>
+                                    <li className="pl-.5">
+                                        <h5><strong className="text-black text-xs">
+                                            Automated Payment Execution:</strong></h5>
+                                        <p className="text-black text-xs">
+                                            Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
+                                        <h6 className="text-black text-xs font-bold pt-1">
+                                            Top 5 Automated Payment Execution Tools:
+                                        </h6>
+                                        <p className="text-xs">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Melio
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
+                                                href="/tools/accounting/bill"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Bill
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
+                                                href="/tools/accounting/avidXchange"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                AvidXchange
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
+                                                href="/tools/accounting/corpay"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Corpay
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
+                                                href="/tools/accounting/tipalti"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Tipalti
+                                            </Link>.;
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -200,10 +207,10 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
-                                                href="/tools/accounting/ramp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
+                                                href="/tools/accounting/corpay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Ramp
+                                                Corpay
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
@@ -212,10 +219,10 @@ export function UseCasesSection() {
                                                 Stampli
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/yooz", "Yooz")}
-                                                href="/tools/accounting/yooz"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Yooz
+                                                AvidXchange
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/Tipalti", "Tipalti")}
@@ -762,15 +769,15 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Approval Workflows:
-                                        </strong>
-                                        </h5>
-                                        <p className="text-black text-xs">
-                                            Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
-                                        </p>
+                                            <h5><strong className="text-black text-sm">
+                                                Approval Workflows:
+                                            </strong>
+                                            </h5>
+                                            <p className="text-black text-xs">
+                                                Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
+                                            </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Automated Approval Workflow Tools:
+                                                Top 5 Automated Approval Workflow Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
@@ -1196,7 +1203,7 @@ export function UseCasesSection() {
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm text-shadow">
-                                    You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
+                                    You face heavy administrative burdens in accounts payable (AP) because of the entire intake-to-posting chain.  Email attachments, PDFs, paper invoices, manually entered into your accounting system that have predictable business consequences.
                                 </p>
 
                                 <ul className="list-disc text-black list- pl-3 ">
@@ -1206,103 +1213,12 @@ export function UseCasesSection() {
                                         </strong>
                                         </h5>
                                         <p className="text-black text-sm">
-                                            Utilize Optical Character Recognition (OCR) Technology to automatically extract data from invoices and vendor payments then populate corresponding fields in your AP system with high accuracy.
+                                            Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Automated Data Entry Processing Tools:
                                         </h6>
                                         <p className="text-black text-sm whitespace-nowrap">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zapier", "Zapier")}
-                                                href="/tools/accounting/zapier"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zapier
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks-online", "QuickBooks Online")}
-                                                href="/tools/accounting/quickbooks-online"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lido", "Lido")}
-                                                href="/tools/accounting/lido"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lido
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/jotform", "Jotform")}
-                                                href="/tools/accounting/jotform"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Jotform
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/uiPath", "UiPath")}
-                                                href="/tools/accounting/uiPath"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                UiPath
-                                            </Link>.
-                                        </p>
-                                    </li>
-                                    <li className="pl-.5">
-                                        <strong className="text-sm"> </strong>
-                                        <h5><strong className="text-black text-base">
-                                            Approval Workflows:
-                                        </strong>
-                                        </h5>
-                                        <p className="text-black text-sm">
-                                            Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
-                                        </p>
-                                        <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Automated Approval Workflow Tools:
-                                        </h6>
-                                        <p className="text-black text-sm">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zapier", "Zapier")}
-                                                href="/tools/accounting/zapier"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zapier
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/jotform-workflows", "Jotform Workflows")}
-                                                href="/tools/accounting/jotform-workflows"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Jotform Workflows
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/kissflow", "Kissflow")}
-                                                href="/tools/accounting/kissflow"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Kissflow
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/process-street", "Process Street")}
-                                                href="/tools/accounting/process-street"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Process Street
-                                            </Link>,&nbsp;or&nbsp;                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>.
-                                        </p>
-                                    </li>
-                                    <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">Automated Payment Execution:</strong></h5>
-                                        <p className="text-black text-sm">
-                                            Automate your payment execution so you can schedule payments in advance, taking advantage of early-pay discounts and ensuring you never miss a deadline.
-                                        </p>
-                                        <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Automated Payment Execution Tools:
-                                        </h6>
-                                        <p className="text-black text-sm">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
-                                            </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
                                                 href="/tools/accounting/melio"
@@ -1310,17 +1226,113 @@ export function UseCasesSection() {
                                                 Melio
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks"
+                                                id={gtmLinkIdFromHref("/tools/accounting/dext", "Dext")}
+                                                href="/tools/accounting/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;or&nbsp;                                            <Link
+                                                Dext
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
+                                                href="/tools/accounting/lightyear"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Lightyear
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
+                                                href="/tools/accounting/stampli"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stampli
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
+                                                href="/tools/accounting/avidXchange"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                AvidXchange
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                    <li className="pl-.5">
+                                        <strong className="text-sm"> </strong>
+                                        <h5><strong className="text-black text-base">
+                                            Automated Accounting Approval Workflows:
+                                        </strong>
+                                        </h5>
+                                        <p className="text-black text-sm">
+                                            We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
+                                        <h6 className="text-black text-sm font-bold pt-1">
+                                            Top 5 Automated Accounting Approval Workflow Tools:
+                                        </h6>
+                                        <p className="text-black text-sm">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/approvalmax", "ApprovalMax")}
+                                                href="/tools/accounting/approvalmax"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                ApprovalMax
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                href="/tools/accounting/bill"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                BILL
+                                            </Link>,&nbsp;
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
                                                 href="/tools/accounting/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/plooto", "Plooto")}
+                                                href="/tools/accounting/plooto"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Plooto
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
+                                                href="/tools/accounting/stampli"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stampli
                                             </Link>.
                                         </p>
+                                    </li>
+                                    <li className="pl-.5">
+                                        <h5><strong className="text-black text-base">Automated Payment Execution:</strong></h5>
+                                        <p className="text-black text-sm">
+                                            Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
+                                        <h6 className="text-black text-sm font-bold pt-1">
+                                            Top 5 Automated Payment Execution Tools:
+                                        </h6>
+                                        <p className="text-black text-sm">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Melio
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
+                                                href="/tools/accounting/bill"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Bill
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
+                                                href="/tools/accounting/avidXchange"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                AvidXchange
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
+                                                href="/tools/accounting/corpay"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Corpay
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
+                                                href="/tools/accounting/tipalti"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Tipalti
+                                            </Link>.;                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">
@@ -1339,10 +1351,10 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
-                                                href="/tools/accounting/ramp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
+                                                href="/tools/accounting/corpay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Ramp
+                                                Corpay
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
@@ -1351,10 +1363,10 @@ export function UseCasesSection() {
                                                 Stampli
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/yooz", "Yooz")}
-                                                href="/tools/accounting/yooz"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Yooz
+                                                AvidXchange
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/Tipalti", "Tipalti")}
