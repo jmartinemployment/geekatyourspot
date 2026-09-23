@@ -17,34 +17,8 @@ export const thomsonReutersOnesourceContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Thomson Reuters ONESOURCE streamlines global tax management for multinationals with comprehensive compliance solutions.",
     "@context": "https://schema.org",
-    "headline": "Thomson Reuters ONESOURCE",
-    "url": "https://geekatyourspot.com/tools/accounting/thomson-reuters-onesource",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-25T20:43:36.7499440Z",
-    "dateModified": "2026-07-25T20:43:36.7499440Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/thomson-reuters-onesource"
-    },
     "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
-    }
+    "@id": "#software-thomsonreutersonesource"
   },
   "sections": [
     {

@@ -17,34 +17,8 @@ export const anaplanContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Optimize cash flow forecasting with Anaplan's AI-driven platform for dynamic, real-time financial planning and analysis.",
     "@context": "https://schema.org",
-    "headline": "Anaplan",
-    "url": "https://geekatyourspot.com/tools/accounting/anaplan",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-23T20:48:51.4441769Z",
-    "dateModified": "2026-07-23T20:48:51.4441769Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/anaplan"
-    },
     "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
-    }
+    "@id": "#software-anaplan"
   },
   "sections": [
     {

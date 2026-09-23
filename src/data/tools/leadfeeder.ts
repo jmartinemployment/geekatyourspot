@@ -17,34 +17,12 @@ export const leadfeederContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Leadfeeder converts website visits to sales leads, enhancing B2B strategies with Google Analytics integration.",
     "@context": "https://schema.org",
-    "headline": "Leadfeeder",
-    "url": "https://geekatyourspot.com/tools/marketing/leadfeeder",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-26T14:53:11.8768993Z",
-    "dateModified": "2026-07-26T14:53:11.8768993Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/marketing/leadfeeder"
-    },
     "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
-    }
+    },
+    "@id": "#software-leadfeeder"
   },
   "sections": [
     {

@@ -17,34 +17,12 @@ export const avalaraContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.",
     "@context": "https://schema.org",
-    "headline": "Avalara",
-    "url": "https://geekatyourspot.com/tools/accounting/avalara",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-25T20:43:34.4485036Z",
-    "dateModified": "2026-07-25T20:43:34.4485036Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/accounting/avalara"
     },
     "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
-    }
+    "@id": "https://geekatyourspot.com/tools/accounting/avalara#software"
   },
   "sections": [
     {

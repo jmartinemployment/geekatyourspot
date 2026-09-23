@@ -19,34 +19,12 @@ export const tipaltiContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Automate accounts payable with Tipalti for streamlined global payments and improved financial controls.",
     "@context": "https://schema.org",
-    "headline": "Tipalti",
-    "url": "https://geekatyourspot.com/tools/accounting/tipalti",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-23T13:31:04.2701960Z",
-    "dateModified": "2026-07-23T13:31:04.2701960Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/tipalti"
-    },
     "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
     "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
-    }
+      "@type": "Article",
+      "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable"
+    },
+    "@id": "#software-tipalti"
   },
   sections: [
     {

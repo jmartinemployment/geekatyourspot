@@ -17,34 +17,16 @@ export const activecampaignContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
     "@context": "https://schema.org",
-    "headline": "ActiveCampaign",
-    "url": "https://geekatyourspot.com/tools/marketing/activecampaign",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-29T16:48:26.6144734Z",
-    "dateModified": "2026-07-29T16:48:26.6144734Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/activecampaign"
     },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/activecampaign#software"
   },
   "sections": [
     {

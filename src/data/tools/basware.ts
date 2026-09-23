@@ -19,34 +19,12 @@ export const baswareContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Basware automates accounts payable, enhancing efficiency and cash flow with cloud-based solutions.",
     "@context": "https://schema.org",
-    "headline": "Basware",
-    "url": "https://geekatyourspot.com/tools/accounting/basware",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-23T13:30:59.8391884Z",
-    "dateModified": "2026-07-23T13:30:59.8391884Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/basware"
-    },
     "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
     "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable"
-    }
+      "@type": "Article",
+      "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable"
+    },
+    "@id": "#software-basware"
   },
   sections: [
     {

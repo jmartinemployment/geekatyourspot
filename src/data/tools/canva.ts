@@ -17,34 +17,12 @@ export const canvaContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
     "@context": "https://schema.org",
-    "headline": "Canva",
-    "url": "https://geekatyourspot.com/tools/marketing/canva",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-30T16:49:55.0255581Z",
-    "dateModified": "2026-07-30T16:49:55.0255581Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/canva"
     },
     "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
-    }
+    "@id": "https://geekatyourspot.com/tools/marketing/canva#software"
   },
   "sections": [
     {

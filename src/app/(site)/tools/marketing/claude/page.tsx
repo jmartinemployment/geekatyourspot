@@ -6,27 +6,28 @@ import ImplementationSection from "@/components/tools/marketing/claude/implement
 import WhenToUseSection from "@/components/tools/marketing/claude/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
+const jsonLd = {
+    "@type": "SoftwareApplication",
+    "name": "Claude",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "@context": "https://schema.org",
+    "description": "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/claude"
+    },
+    "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation"
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/claude#software"
+};
+
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@type": "SoftwareApplication",
-        "name": "Claude",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "url": "https://geekatyourspot.com/tools/marketing/claude",
-        "@context": "https://schema.org",
-        "headline": "Claude",
-        "description": "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
-        "image": ["https://geekatyourspot.com/images/GeekAtYourSpot.svg"],
-        "author": {"@type": "Person", "name": "Geek At Your Spot Editorial Team"},
-        "publisher": {"@type": "Organization", "name": "Geek At Your Spot", "logo": {"@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"}},
-        "datePublished": "2026-08-23T15:33:00.2360922Z",
-        "dateModified": "2026-08-23T15:33:00.2360922Z",
-        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/claude"},
-        "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
-        "subjectOf": {"@type": "TechArticle", "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation"}
-    }
     return {
-        title: "Claude | Geek At Your Spot",
+        title: "Claude",
         description: "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
         keywords: ["Claude", "SEO content generation", "AI content tools", "content automation"],
         authors: [{ name: 'Geek At Your Spot Editorial Team' }],
@@ -35,7 +36,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {canonical: '/tools/marketing/claude'},
         openGraph: {
-            title: 'Claude | Geek At Your Spot',
+            title: "Claude",
             description: "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
             url: 'https://geekatyourspot.com/tools/marketing/claude',
             siteName: 'Geek at Your Spot',
@@ -45,13 +46,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Claude | Geek At Your Spot',
+            title: "Claude",
             description: "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {index: true, follow: true},
-        other: {'script:ld+json': JSON.stringify(jsonLd)},
     };
 };
 
@@ -60,6 +60,10 @@ export default async function Page() {
     const summary = "Streamline SEO blog and article creation with Claude, an AI tool designed for high-quality, optimized content.";
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ToolsHeroSection title={title} summary={summary} />
             <OverviewSection />
             <KeyCapabilitiesSection />

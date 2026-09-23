@@ -6,46 +6,28 @@ import ImplementationSection from "@/components/tools/marketing/apollo/implement
 import WhenToUseSection from "@/components/tools/marketing/apollo/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
-export const generateMetadata = async (): Promise<Metadata> => {
-  const jsonLd = {
+const jsonLd = {
     "@type": "SoftwareApplication",
-    name: "Apollo",
-    applicationCategory: "BusinessApplication",
-    operatingSystem: "Web",
-    url: "https://geekatyourspot.com/tools/marketing/apollo",
+    "name": "Apollo",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
     "@context": "https://schema.org",
-    headline: "Apollo",
-    description: "Optimize sales with Apollo's AI-powered lead scoring, enhancing lead identification accuracy and efficiency.",
-    image: ["https://geekatyourspot.com/images/GeekAtYourSpot.svg"],
-    author: {
-      "@type": "Person",
-      name: "Geek At Your Spot Editorial Team",
+    "description": "Optimize sales with Apollo's AI-powered lead scoring, enhancing lead identification accuracy and efficiency.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/apollo"
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Geek At Your Spot",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://geekatyourspot.com/images/GeekAtYourSpot.svg",
-      },
+    "keywords": "Lead Scoring",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
     },
-    datePublished: "2026-09-02T17:27:15.4287618Z",
-    dateModified: "2026-09-02T17:27:15.4287618Z",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/marketing/apollo",
-    },
-    keywords: "Lead Scoring",
-    subjectOf: {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses",
-    },
-  };
+    "@id": "https://geekatyourspot.com/tools/marketing/apollo#software"
+};
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: {
-      default: "Geek at Your Spot",
-      template: "%s | Geek at Your Spot",
-    },
+    title: "Apollo",
     description: "Optimize sales with Apollo's AI-powered lead scoring, enhancing lead identification accuracy and efficiency.",
     keywords: ["Lead Scoring"],
     authors: [{ name: "Development Team", url: "https://geekatyourspot.com/" }],
@@ -54,15 +36,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
     metadataBase: new URL("https://geekatyourspot.com"),
     alternates: {
       canonical: "/tools/marketing/apollo",
-      languages: {
-        "en-US": "/en-US",
-        "es-ES": "/es-ES",
-      },
     },
     openGraph: {
-      title: "Geek at Your Spot | Apollo",
+      title: "Apollo",
       description: "Optimize sales with Apollo's AI-powered lead scoring, enhancing lead identification accuracy and efficiency.",
-      url: "https://geekatyourspot.com/",
+      url: 'https://geekatyourspot.com/tools/marketing/apollo',
       siteName: "Geek at Your Spot",
       locale: "en_US",
       type: "website",
@@ -77,7 +55,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Geek at Your Spot | Apollo",
+      title: "Apollo",
       description: "Optimize sales with Apollo's AI-powered lead scoring, enhancing lead identification accuracy and efficiency.",
       creator: "Geek at Your Spot",
       images: ["/images/GeekAtYourSpot.svg"],
@@ -95,23 +73,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "max-snippet": -1,
       },
     },
-    verification: {
-      google: "_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI",
-      yandex: "yandex-verification-token",
-      yahoo: "yahoo-verification-token",
-    },
-    icons: {
-      icon: "/favicon.ico",
-      shortcut: "/shortcut-icon.png",
-      apple: "/apple-icon.png",
-    },
     appleWebApp: {
       capable: true,
       statusBarStyle: "default",
       title: "Geek at Your Spot",
-    },
-    other: {
-      "script:ld+json": JSON.stringify(jsonLd),
     },
   };
 };
@@ -122,6 +87,10 @@ export default async function Page() {
     "Enhance your sales strategy with Apollo's AI-driven lead scoring, designed to identify promising leads and improve conversion rates.";
   return (
     <>
+      <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ToolsHeroSection title={title} summary={summary} />
       <OverviewSection />
       <KeyCapabilitiesSection />

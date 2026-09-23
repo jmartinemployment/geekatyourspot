@@ -17,34 +17,12 @@ export const jasperAiContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Jasper AI automates content creation, enhancing efficiency and quality with AI-driven workflows for businesses.",
     "@context": "https://schema.org",
-    "headline": "Jasper AI",
-    "url": "https://geekatyourspot.com/tools/marketing/jasper-ai",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-30T16:49:52.9520059Z",
-    "dateModified": "2026-07-30T16:49:52.9520059Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai"
     },
     "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
-    }
+    "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
   },
   "sections": [
     {

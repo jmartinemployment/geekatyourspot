@@ -4,49 +4,29 @@ import OverviewToolSection from "@/components/tools/hubspot/overview-section";
 import KeyCapabilitiesSection from "@/components/tools/hubspot/key-capabilities";
 import ImplementationSection from "@/components/tools/hubspot/implementation-section";
 
+const jsonLd = {
+    "@type": "SoftwareApplication",
+    "name": "HubSpot",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Streamline your marketing with HubSpot&#39;s automation and analytics, designed to boost efficiency and customer engagement.",
+    "@context": "https://schema.org",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/hubspot"
+    },
+    "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
+};
+
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
- "@type": "SoftwareApplication",
-  "name": "HubSpot",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web",
-  "description": "Streamline your marketing with HubSpot&#39;s automation and analytics, designed to boost efficiency and customer engagement.",
-  "@context": "https://schema.org",
-  "headline": "HubSpot",
-  "url": "https://geekatyourspot.com/tools/marketing/hubspot",
-  "image": [
-    "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-  ],
-  "author": {
-    "@type": "Person",
-    "name": "Geek At Your Spot Editorial Team"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Geek At Your Spot",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    }
-  },
-  "datePublished": "2026-07-29T16:48:23.1157456Z",
-  "dateModified": "2026-07-29T16:48:23.1157456Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://geekatyourspot.com/tools/marketing/hubspot"
-  },
-  "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
-  "subjectOf": {
-    "@type": "TechArticle",
-    "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
-  }
-}
     // Add the return statement to fix the TypeScript error
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot', // Appends to child page titles automatically
-        },
+        title: "HubSpot",
         description: "Streamline your marketing with HubSpot&#39;s automation and analytics, designed to boost efficiency and customer engagement.",
         keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -55,15 +35,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/hubspot',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: 'Geek at Your Spot | HubSpot',
+            title: "HubSpot",
             description: 'Streamline your marketing with HubSpot&#39;s automation and analytics, designed to boost efficiency and customer engagement.',
-            url: 'https://geekatyourspot.com/',
+            url: 'https://geekatyourspot.com/tools/marketing/hubspot',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -78,7 +54,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | HubSpot',
+            title: "HubSpot",
             description: 'Streamline your marketing with HubSpot&#39;s automation and analytics, designed to boost efficiency and customer engagement.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -96,23 +72,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-snippet': -1,
             },
         },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
-        icons: {
-            icon: '/favicon.ico',
-            shortcut: '/shortcut-icon.png',
-            apple: '/apple-icon.png',
-        },
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
             title: 'Geek at Your Spot',
-        },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
         },
     };
 };
@@ -122,6 +85,10 @@ export default async function Page() {
     const heroSummary = "Streamline your marketing with HubSpot's automation and analytics, designed to boost efficiency and customer engagement.";
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ToolsHeroSection
                 title={title}
                 summary={heroSummary} />

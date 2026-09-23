@@ -6,45 +6,28 @@ import ImplementationSection from "@/components/tools/marketing/chatgpt/implemen
 import WhenToUseSection from "@/components/tools/marketing/chatgpt/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
+const jsonLd = {
+    "@type": "SoftwareApplication",
+    "name": "ChatGPT",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "@context": "https://schema.org",
+    "description": "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/chatgpt"
+    },
+    "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation"
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/chatgpt#software"
+};
+
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@type": "SoftwareApplication",
-        "name": "ChatGPT",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "url": "https://geekatyourspot.com/tools/marketing/chatgpt",
-        "@context": "https://schema.org",
-        "headline": "ChatGPT",
-        "description": "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
-        "image": [
-            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-        ],
-        "author": {
-            "@type": "Person",
-            "name": "Geek At Your Spot Editorial Team"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Geek At Your Spot",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-            }
-        },
-        "datePublished": "2026-08-23T15:32:42.9694402Z",
-        "dateModified": "2026-08-23T15:32:42.9694402Z",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://geekatyourspot.com/tools/marketing/chatgpt"
-        },
-        "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
-        "subjectOf": {
-            "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation"
-        }
-    }
     return {
-        title: "ChatGPT | Geek At Your Spot",
+        title: "ChatGPT",
         description: "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
         keywords: ["ChatGPT", "SEO content generation", "AI content tools", "content automation"],
         authors: [{ name: 'Geek At Your Spot Editorial Team', url: 'https://geekatyourspot.com' }],
@@ -55,7 +38,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/chatgpt',
         },
         openGraph: {
-            title: 'ChatGPT | Geek At Your Spot',
+            title: "ChatGPT",
             description: "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
             url: 'https://geekatyourspot.com/tools/marketing/chatgpt',
             siteName: 'Geek at Your Spot',
@@ -72,7 +55,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'ChatGPT | Geek At Your Spot',
+            title: "ChatGPT",
             description: "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -80,9 +63,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
         robots: {
             index: true,
             follow: true,
-        },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
         },
     };
 };
@@ -93,6 +73,10 @@ export default async function Page() {
 
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ToolsHeroSection title={title} summary={summary} />
             <OverviewSection />
             <KeyCapabilitiesSection />

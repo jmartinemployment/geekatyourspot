@@ -5,49 +5,29 @@ import KeyCapabilitiesSection from "@/components/tools/mailchimp/key-capabilitie
 import ImplementationSection from "@/components/tools/mailchimp/implementation-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
+const jsonLd = {
+    "@type": "SoftwareApplication",
+    "name": "Mailchimp",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
+    "@context": "https://schema.org",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
+    },
+    "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
+};
+
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@type": "SoftwareApplication",
-        "name": "Mailchimp",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "description": "Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
-        "@context": "https://schema.org",
-        "headline": "Mailchimp",
-        "url": "https://geekatyourspot.com/tools/marketing/mailchimp",
-        "image": [
-            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-        ],
-        "author": {
-            "@type": "Person",
-            "name": "Geek At Your Spot Editorial Team"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Geek At Your Spot",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-            }
-        },
-        "datePublished": "2026-07-29T16:48:35.5898188Z",
-        "dateModified": "2026-07-29T16:48:35.5898188Z",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
-        },
-        "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
-        "subjectOf": {
-            "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
-        }
-    }
     // Add the return statement to fix the TypeScript error
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot', // Appends to child page titles automatically
-        },
+        title: "Mailchimp",
         description: "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
         keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -56,15 +36,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/mailchimp',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Mailchimp',
+            title: "Mailchimp",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
-            url: 'https://geekatyourspot.com/',
+            url: 'https://geekatyourspot.com/tools/marketing/mailchimp',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -79,7 +55,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Mailchimp',
+            title: "Mailchimp",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -97,23 +73,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-snippet': -1,
             },
         },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
-        icons: {
-            icon: '/favicon.ico',
-            shortcut: '/shortcut-icon.png',
-            apple: '/apple-icon.png',
-        },
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
             title: 'Geek at Your Spot',
-        },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
         },
     };
 };
@@ -123,6 +86,10 @@ export default async function Page() {
     const heroSummary = "Mailchimp offers AI-powered email marketing tools that streamline campaign creation and improve audience interaction.";
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ToolsHeroSection
                 title={title}
                 summary={heroSummary} />

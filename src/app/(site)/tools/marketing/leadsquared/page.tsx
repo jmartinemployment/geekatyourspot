@@ -6,48 +6,28 @@ import ImplementationSection from "@/components/tools/marketing/leadsquared/impl
 import WhenToUseSection from "@/components/tools/marketing/leadsquared/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
+const jsonLd = {
+    "@type": "SoftwareApplication",
+    "name": "LeadSquared",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "@context": "https://schema.org",
+    "description": "LeadSquared uses AI for efficient lead scoring, improving sales team focus and conversion rates.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/leadsquared"
+    },
+    "keywords": "Lead Scoring",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/leadsquared#software"
+};
+
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@type": "SoftwareApplication",
-        "name": "LeadSquared",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "url": "https://geekatyourspot.com/tools/marketing/leadsquared",
-        "@context": "https://schema.org",
-        "headline": "LeadSquared",
-        "description": "LeadSquared uses AI for efficient lead scoring, improving sales team focus and conversion rates.",
-        "image": [
-            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-        ],
-        "author": {
-            "@type": "Person",
-            "name": "Geek At Your Spot Editorial Team"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Geek At Your Spot",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-            }
-        },
-        "datePublished": "2026-09-02T17:28:15.6470017Z",
-        "dateModified": "2026-09-02T17:28:15.6470017Z",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://geekatyourspot.com/tools/marketing/leadsquared"
-        },
-        "keywords": "Lead Scoring",
-        "subjectOf": {
-            "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
-        }
-    }
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot',
-        },
+        title: "LeadSquared",
         description: "LeadSquared uses AI for efficient lead scoring, improving sales team focus and conversion rates.",
         keywords: ["Lead Scoring"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -56,15 +36,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/leadsquared',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: "Geek at Your Spot | LeadSquared",
+            title: "LeadSquared",
             description: "LeadSquared uses AI for efficient lead scoring, improving sales team focus and conversion rates.",
-            url: 'https://geekatyourspot.com/',
+            url: 'https://geekatyourspot.com/tools/marketing/leadsquared',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -79,7 +55,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Geek at Your Spot | LeadSquared",
+            title: "LeadSquared",
             description: "LeadSquared uses AI for efficient lead scoring, improving sales team focus and conversion rates.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -97,23 +73,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-snippet': -1,
             },
         },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
-        icons: {
-            icon: '/favicon.ico',
-            shortcut: '/shortcut-icon.png',
-            apple: '/apple-icon.png',
-        },
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
             title: 'Geek at Your Spot',
-        },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
         },
     };
 };
@@ -123,6 +86,10 @@ export default async function Page() {
     const summary = "LeadSquared enhances sales with AI-driven lead scoring, focusing on high-potential leads to improve efficiency and conversion.";
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ToolsHeroSection
                 title={title}
                 summary={summary} />

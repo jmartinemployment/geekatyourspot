@@ -17,34 +17,8 @@ export const kyribaContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Kyriba: Advanced cash flow forecasting and liquidity management for informed financial decisions.",
     "@context": "https://schema.org",
-    "headline": "Kyriba",
-    "url": "https://geekatyourspot.com/tools/accounting/kyriba",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-23T20:48:38.9540816Z",
-    "dateModified": "2026-07-23T20:48:38.9540816Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/kyriba"
-    },
     "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
-    }
+    "@id": "#software-kyriba"
   },
   "sections": [
     {

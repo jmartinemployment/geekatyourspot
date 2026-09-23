@@ -6,49 +6,29 @@ import ImplementationSection from "@/components/tools/tableau-ai-adobe-analytics
 import WhenToUseSection from "@/components/tools/tableau-ai-adobe-analytics/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
+const jsonLd = {
+    "@type": "SoftwareApplication",
+    "name": "Tableau AI / Adobe Analytics",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "@context": "https://schema.org",
+    "description": "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics"
+    },
+    "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "subjectOf": {
+        "@type": "Article",
+        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics#software"
+};
+
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@type": "SoftwareApplication",
-        "name": "Tableau AI / Adobe Analytics",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "url": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics",
-        "@context": "https://schema.org",
-        "headline": "Tableau AI / Adobe Analytics",
-        "description": "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
-        "image": [
-            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-        ],
-        "author": {
-            "@type": "Person",
-            "name": "Geek At Your Spot Editorial Team"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Geek At Your Spot",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-            }
-        },
-        "datePublished": "2026-08-20T18:35:15.7119551Z",
-        "dateModified": "2026-08-20T18:35:15.7119551Z",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics"
-        },
-        "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-        "subjectOf": {
-            "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-        }
-    }
     // Add the return statement to fix the TypeScript error
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot', // Appends to child page titles automatically
-        },
+        title: "Tableau AI / Adobe Analytics",
         description: "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -57,15 +37,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/tableau-ai-adobe-analytics',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: "Geek at Your Spot | Tableau AI / Adobe Analytics",
+            title: "Tableau AI / Adobe Analytics",
             description: "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
-            url: 'https://geekatyourspot.com/',
+            url: 'https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -80,7 +56,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Geek at Your Spot | Tableau AI / Adobe Analytics",
+            title: "Tableau AI / Adobe Analytics",
             description: "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -98,23 +74,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-snippet': -1,
             },
         },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
-        icons: {
-            icon: '/favicon.ico',
-            shortcut: '/shortcut-icon.png',
-            apple: '/apple-icon.png',
-        },
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
             title: 'Geek at Your Spot',
-        },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
         },
     };
 };
@@ -124,6 +87,10 @@ export default async function Page() {
     const heroSummary = "Unlock ad spend potential with automated insights from Tableau AI and Adobe Analytics.";
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ToolsHeroSection
                 title={title}
                 summary={heroSummary} />

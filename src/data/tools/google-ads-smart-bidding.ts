@@ -15,36 +15,18 @@ export const googleAdsSmartBiddingContent: ToolPageContent = {
     "name": "Google Ads Smart Bidding",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://geekatyourspot.com/tools/marketing/google-ads-smart-bidding",
     "@context": "https://schema.org",
-    "headline": "Google Ads Smart Bidding",
     "description": "Optimize ad spend with AI-driven Google Ads Smart Bidding for better ROI and audience targeting.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-20T18:31:34.2616776Z",
-    "dateModified": "2026-08-20T18:31:34.2616776Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/google-ads-smart-bidding"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/google-ads-smart-bidding#software"
   },
   "sections": [
     {

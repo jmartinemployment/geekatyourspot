@@ -17,34 +17,12 @@ export const driftContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Drift's intelligent lead capture pipeline enhances engagement and conversions with chatbots.",
     "@context": "https://schema.org",
-    "headline": "Drift",
-    "url": "https://geekatyourspot.com/tools/marketing/drift",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-26T14:53:22.2607360Z",
-    "dateModified": "2026-07-26T14:53:22.2607360Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/marketing/drift"
-    },
     "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
-    }
+    },
+    "@id": "#software-drift"
   },
   "sections": [
     {
