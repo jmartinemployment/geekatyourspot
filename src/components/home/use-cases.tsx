@@ -65,7 +65,7 @@ export function UseCasesSection() {
                                 </Link>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-xs">
+                                        <h5><strong className="text-black text-sm">
                                             Automated Data Entry &amp; Processing:</strong></h5>
                                         <p className="text-black text-xs">
                                             Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
@@ -108,7 +108,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm"> </strong>
-                                        <h5><strong className="text-black text-xsm">
+                                        <h5><strong className="text-black text-sm">
                                             Automated Accounting Approval Workflows:
                                         </strong></h5>
                                         <p className="text-black text-xs">
@@ -150,7 +150,7 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-xs">
+                                        <h5><strong className="text-black text-sm">
                                             Automated Payment Execution:</strong></h5>
                                         <p className="text-black text-xs">
                                             Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
