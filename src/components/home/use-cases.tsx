@@ -124,10 +124,10 @@ export function UseCasesSection() {
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                BILL
+                                                Melio
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
@@ -1270,10 +1270,10 @@ export function UseCasesSection() {
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
                                                 href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                BILL
+                                                Bill
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
@@ -1288,10 +1288,10 @@ export function UseCasesSection() {
                                                 Plooto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Melio
                                             </Link>.
                                         </p>
                                     </li>
