@@ -142,10 +142,10 @@ export function UseCasesSection() {
                                                 Plooto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
+                                                href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Bill
                                             </Link>.
                                         </p>
                                     </li>
