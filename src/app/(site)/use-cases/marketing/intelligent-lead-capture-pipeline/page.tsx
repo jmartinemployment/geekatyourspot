@@ -6,9 +6,11 @@ import BenefitsSection from "@/components/use-cases/marketing/intelligent-lead-c
 import OptimizingPipelinePerformanceSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/optimizing-pipeline-performance";
 import ToolsSection from '@/components/use-cases/marketing/intelligent-lead-capture-pipeline/tools-section'
 import FAQSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/faq-section";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -40,7 +42,6 @@ const jsonLd = {
             "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
             "wordCount": 3028,
             "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline"
         },
         {
             "@type": "SoftwareApplication",
@@ -147,7 +148,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

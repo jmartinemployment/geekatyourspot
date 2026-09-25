@@ -5,8 +5,10 @@ import KeyCapabilitiesSection from "@/components/tools/qualytics/key-capabilitie
 import ImplementationSection from "@/components/tools/qualytics/implementation-section";
 import WhenToUseSection from "@/components/tools/qualytics/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { SoftwareApplication, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
     "name": "Qualytics",
     "applicationCategory": "BusinessApplication",
@@ -89,7 +91,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
                 title={title}

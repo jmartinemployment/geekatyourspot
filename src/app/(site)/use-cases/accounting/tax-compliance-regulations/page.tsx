@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
 import OverviewSection from '@/components/use-cases/accounting/tax-compliance-regulations/overview-section'
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "Article",
             "headline": "Automated Tax Compliance & Regulations",
+            "image": "https://geekatyourspot.com/images/accounting/use-cases/tax-compliance-regulations/intelligent-tax-compliance-regulations-hero.avif",
             "description": "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.",
             "author": {
                 "@type": "Organization",
@@ -31,7 +34,6 @@ const jsonLd = {
             "keywords": "Automated Tax Compliance, Tax Regulations Automation, AI in Tax Compliance, Financial Operations Automation, Tax Compliance Software, AI Solutions Integration, Regulatory Compliance, Tax Automation Tools, Financial Process Automation, AI Implementation Consultancy",
             "wordCount": 3337,
             "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article",
-            "relatedLink": "https://geekatyourspot.com/blog/accounting/why-automating-tax-compliance-is-a-game-changer-for-businesses",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/accounting/avalara#software"
@@ -145,13 +147,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
 export default async function Page() {
     const title = "Intelligent Tax Compliance & Regulations";
     const heroSummary = "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations."
-    const heroImage = "/images/accounting/use-cases/tax-compliance-regulations/cash-flow-forecasting-pillar-hero.avif";
+    const heroImage = "/images/accounting/use-cases/tax-compliance-regulations/intelligent-tax-compliance-regulations-hero.avif";
     const imgAlt = "Intelligent tax compliance and regulations";
     return (
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

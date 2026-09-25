@@ -6,9 +6,10 @@ import TriggerInstantAcknowledgmentSection from "@/components/use-cases/marketin
 import EnrichTheLeadInstantlySection from "@/components/use-cases/marketing/smart-chatbots/enrich-the-lead-instantly-section";
 import FAQSection from "@/components/use-cases/marketing/smart-chatbots/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Article, WithContext } from "schema-dts";
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const jsonLd = {
+  const jsonLd: WithContext<Article> = {
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Smart Chatbots for Marketing: Transforming Customer Engagement",
@@ -64,17 +65,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
       images: ["https://geekatyourspot.com/images/GeekAtYourSpot.svg"],
       creator: "Geek At Your Spot",
     },
-    other: {
-      "ld+json": JSON.stringify(jsonLd),
-      "canonical": "https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing-transforming-customer-engagement",
-    },
   };
 };
 
 export default async function Page() {
   const title = "Smart Chatbots for Marketing";
   const summary = "Uncover the power of smart chatbots in revolutionizing marketing through enhanced customer interactions and lead optimization.";
-  const heroImage = "/images/marketing/use-cases/smart-chatbots/smart-chatbots-pillar-hero.avif";
+  const heroImage = "";
   const imgAlt = "Transform marketing with AI chatbots";
 
   return (

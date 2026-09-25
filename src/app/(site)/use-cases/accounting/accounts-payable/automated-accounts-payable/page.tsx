@@ -7,8 +7,10 @@ import KeyFeaturesSection from "@/components/use-cases/accounting/accounts-payab
 import ToolsSection from '@/components/use-cases/accounting/accounts-payable/tools-section'
 import FAQSection from "@/components/use-cases/accounting/accounts-payable/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -40,7 +42,6 @@ const jsonLd = {
             "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
             "wordCount": 3474,
             "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article",
-            "relatedLink": "https://geekatyourspot.com/blog/accounting/accounts-payable/why-automating-accounts-payable-is-a-game-changer-for-your-business",
             "mentions": [
                 {
                     "@id": "#software-tipalti"
@@ -157,7 +158,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

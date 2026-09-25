@@ -9,8 +9,10 @@ import DataValidationCleaningSection from '@/components/use-cases/marketing/auto
 import PAASection from '@/components/use-cases/marketing/automated-ad-spend-optimization/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -42,7 +44,6 @@ const jsonLd = {
             "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
             "wordCount": 3309,
             "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/advantage#software"
@@ -374,7 +375,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

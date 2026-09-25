@@ -7,8 +7,10 @@ import KeyImplementationStrategiesSection from "@/components/use-cases/marketing
 import MeasuringSuccessRoiSection from "@/components/use-cases/marketing/ai-marketing-systems/measuring-sucess-roi";
 import ToolsSection from "@/components/use-cases/marketing/ai-marketing-systems/tools-section";
 import FAQSection from "@/components/use-cases/marketing/ai-marketing-systems/faq-section";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -40,7 +42,6 @@ const jsonLd = {
             "keywords": "AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding",
             "wordCount": 4404,
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/unlocking-the-power-of-ai-marketing-systems-for-small-businesses",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
@@ -183,7 +184,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

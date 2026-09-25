@@ -306,24 +306,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
       yandex: 'YOUR_YANDEX_VERIFICATION',
       yahoo: 'YOUR_YAHOO_VERIFICATION',
     },
-    other: {
-      'og:email': 'contact@geekatyourspot.com',
-      'og:phone_number': 'YOUR_PHONE_NUMBER',
-      'og:street-address': 'Delray Beach, FL 33444',
-      'og:locality': 'Delray Beach',
-      'og:region': 'FL',
-      'og:postal-code': '33444',
-      'og:country-name': 'United States',
-      'article:author': 'Geek at Your Spot',
-      'article:publisher': 'Geek at Your Spot',
-      'business:contact_data:street_address': 'Delray Beach, FL 33444',
-      'business:contact_data:locality': 'Delray Beach',
-      'business:contact_data:region': 'FL',
-      'business:contact_data:postal_code': '33444',
-      'business:contact_data:country_name': 'United States',
-      'msapplication-TileColor': '#023059',
-      'msapplication-TileImage': '/icon.png',
-    },
   };
 };
 

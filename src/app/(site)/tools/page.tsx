@@ -6,6 +6,8 @@ import { getAllTools } from "@/lib/tools-mapper";
 import { DEPARTMENT_ICONS, DepartmentName } from "@/types/department";
 import type { ToolPageContent } from "@/types/tool";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
@@ -72,7 +74,7 @@ export default function ToolsPage() {
 
   const departments = Object.keys(toolsByDepartment).sort();
 
-  const jsonLd = {
+  const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -90,7 +92,7 @@ export default function ToolsPage() {
         },
       },
       ...tools.map((tool) => ({
-        "@type": "SoftwareApplication",
+        "@type": "SoftwareApplication" as const,
         name: tool.title,
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
@@ -104,7 +106,7 @@ export default function ToolsPage() {
     <div className="text-white">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <ToolsHeroSection
         title="AI Tools &amp; Platforms"

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalculator, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import type { CollectionPage, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
@@ -75,7 +77,7 @@ export default function AccountingUseCasesPage() {
     },
   ];
 
-  const jsonLd = {
+  const jsonLd: WithContext<CollectionPage> = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: PAGE_TITLE,
@@ -97,7 +99,7 @@ export default function AccountingUseCasesPage() {
     <div className="bg-[rgb(2,48,89)] text-white">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <section className="container py-16 lg:py-24">
         <div className="flex items-center gap-x-4">

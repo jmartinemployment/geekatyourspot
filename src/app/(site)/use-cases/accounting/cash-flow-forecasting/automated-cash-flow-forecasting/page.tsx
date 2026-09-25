@@ -8,8 +8,10 @@ import MeasuringImpactForecastingFinancialHealthSection from "@/components/use-c
 import ToolsSection from '@/components/use-cases/accounting/cash-flow-forecasting/tools-section'
 import FAQSection from "@/components/use-cases/accounting/cash-flow-forecasting/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -41,7 +43,6 @@ const jsonLd = {
             "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
             "wordCount": 3540,
             "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#article",
-            "relatedLink": "https://geekatyourspot.com/blog/accounting/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai",
             "mentions": [
                 {
                     "@id": "#software-anaplan"
@@ -157,7 +158,7 @@ export default async function Page() {
     <>
       <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <SharedHeroSection
         title={title}

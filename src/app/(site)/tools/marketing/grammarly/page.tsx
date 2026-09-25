@@ -4,8 +4,10 @@ import OverviewToolSection from "@/components/tools/grammarly/overview-section";
 import KeyCapabilitiesSection from "@/components/tools/grammarly/key-capabilities";
 import ImplementationSection from "@/components/tools/grammarly/implementation-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { SoftwareApplication, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
     "name": "Grammarly",
     "applicationCategory": "BusinessApplication",
@@ -84,7 +86,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
                 title={title}

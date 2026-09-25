@@ -7,8 +7,10 @@ import ImplementingSection from '@/components/use-cases/marketing/ai-content-rep
 import PAASection from '@/components/use-cases/marketing/ai-content-repurposing/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -37,7 +39,6 @@ const jsonLd = {
             "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
             "wordCount": 2881,
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/unlocking-the-power-of-ai-for-content-repurposing",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
@@ -198,7 +199,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <HeroSection />
             <article>

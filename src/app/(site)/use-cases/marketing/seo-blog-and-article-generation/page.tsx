@@ -8,8 +8,10 @@ import IntegrationSection from '@/components/use-cases/marketing/seo-blog-and-ar
 import PAASection from '@/components/use-cases/marketing/seo-blog-and-article-generation/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -38,7 +40,6 @@ const jsonLd = {
             "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
             "wordCount": 2745,
             "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/unlocking-the-potential-of-ai-in-seo-content-creation",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/surfer-seo#software"
@@ -199,7 +200,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

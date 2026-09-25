@@ -5,8 +5,10 @@ import KeyCapabilitiesSection from "@/components/tools/makecom/key-capabilities"
 import ImplementationSection from "@/components/tools/makecom/implementation-section";
 import WhenToUseSection from "@/components/tools/makecom/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { SoftwareApplication, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
     "name": "Make.com",
     "applicationCategory": "BusinessApplication",
@@ -88,7 +90,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
                 title={title}

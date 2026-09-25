@@ -4,8 +4,10 @@ import OverviewToolSection from "@/components/tools/openai-gpt-4/overview-sectio
 import KeyCapabilitiesSection from "@/components/tools/openai-gpt-4/key-capabilities";
 import ImplementationSection from "@/components/tools/openai-gpt-4/implementation-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { SoftwareApplication, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
     "name": "OpenAI GPT-4",
     "applicationCategory": "BusinessApplication",
@@ -84,7 +86,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
                 title={title}

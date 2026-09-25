@@ -5,8 +5,10 @@ import KeyCapabilitiesSection from "@/components/tools/contentstudio/key-capabil
 import ImplementationSection from "@/components/tools/contentstudio/implementation-section";
 import WhenToUseSection from "@/components/tools/contentstudio/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { WithContext, SoftwareApplication } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
     "name": "ContentStudio",
     "applicationCategory": "BusinessApplication",
@@ -88,7 +90,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
                 title={title}

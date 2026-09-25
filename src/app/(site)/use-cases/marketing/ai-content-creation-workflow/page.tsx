@@ -9,8 +9,10 @@ import PersonalizedEmailCampaignsSection from '@/components/use-cases/marketing/
 import PAASection from '@/components/use-cases/marketing/ai-content-creation-workflow/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -42,7 +44,6 @@ const jsonLd = {
             "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
             "wordCount": 4379,
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/how-to-streamline-your-content-workflow-with-ai",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
@@ -189,7 +190,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <SharedHeroSection
                 title={title}

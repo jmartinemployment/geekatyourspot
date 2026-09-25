@@ -7,8 +7,10 @@ import RepurposeAutomaticallySection from "@/components/use-cases/marketing/auto
 import RouteApprovalPublishingSection from "@/components/use-cases/marketing/automated-content-generation-transforming-small-business-marketing/route-approval-publishing-section";
 import PAASection from "@/components/use-cases/marketing/automated-content-generation-transforming-small-business-marketing/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -37,7 +39,6 @@ const jsonLd = {
             "keywords": "Automated Content Generation, AI content tools, small business AI, content automation, AI marketing",
             "wordCount": 2900,
             "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-generation-transforming-small-business-marketing#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/unlocking-the-potential-of-automated-content-generation-for-small-businesses",
             "mentions": [
                 {
                     "@id": "#software-writesonic"
@@ -155,7 +156,7 @@ export default async function Page() {
     <>
       <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <SharedHeroSection title={title} summary={heroSummary} image={heroImage} imgAlt={imgAlt} />
       <article>

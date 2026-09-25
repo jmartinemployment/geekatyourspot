@@ -3,8 +3,10 @@ import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 import OverviewToolSection from "@/components/tools/active-campaign/overview-section";
 import KeyCapabilitiesSection from "@/components/tools/active-campaign/key-capabilities";
 import ImplementationSection from "@/components/tools/active-campaign/implementation-section";
+import type { SoftwareApplication, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
     "name": "Active Campaign",
     "applicationCategory": "BusinessApplication",
@@ -87,7 +89,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
                 title={title}

@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFunnelDollar, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { getToolsByDepartment } from "@/lib/tools-mapper";
 import type { ToolPageContent } from "@/types/tool";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
@@ -55,7 +57,7 @@ export default function MarketingToolsPage() {
     a.title.localeCompare(b.title)
   );
 
-  const jsonLd = {
+  const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -73,7 +75,7 @@ export default function MarketingToolsPage() {
         },
       },
       ...tools.map((tool) => ({
-        "@type": "SoftwareApplication",
+        "@type": "SoftwareApplication" as const,
         name: tool.title,
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
@@ -87,7 +89,7 @@ export default function MarketingToolsPage() {
     <div className="bg-[rgb(2,48,89)] text-white">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <section className="container py-16 lg:py-24">
         <div className="flex items-center gap-x-4">

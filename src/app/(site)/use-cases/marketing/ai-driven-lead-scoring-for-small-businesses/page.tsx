@@ -8,8 +8,10 @@ import ScoringModelSection from '@/components/use-cases/marketing/ai-driven-lead
 import PAASection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd = {
+const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
@@ -38,7 +40,6 @@ const jsonLd = {
             "keywords": "Lead Scoring, AI Consulting, Small Business, ActiveCampaign, Pipedrive, Apollo, LeadSquared, 6sense",
             "wordCount": 2703,
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses#article",
-            "relatedLink": "https://geekatyourspot.com/blog/marketing/how-ai-powered-lead-scoring-can-boost-your-sales-funnel",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
@@ -184,7 +185,7 @@ export default async function Page() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <HeroSection />
             <article>
