@@ -5,50 +5,28 @@ import KeyCapabilitiesSection from "@/components/tools/canva/key-capabilities";
 import ImplementationSection from "@/components/tools/canva/implementation-section";
 import WhenToUseSection from "@/components/tools/canva/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { SoftwareApplication, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
+
+const jsonLd: WithContext<SoftwareApplication> = {
+    "@type": "SoftwareApplication",
+    "name": "Canva",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
+    "@context": "https://schema.org",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://geekatyourspot.com/tools/marketing/canva"
+    },
+    "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
+    "@id": "https://geekatyourspot.com/tools/marketing/canva#software"
+};
 
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@type": "SoftwareApplication",
-        "name": "Canva",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "description": "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
-        "@context": "https://schema.org",
-        "headline": "Canva",
-        "url": "https://geekatyourspot.com/tools/marketing/canva",
-        "image": [
-            "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-        ],
-        "author": {
-            "@type": "Person",
-            "name": "Geek At Your Spot Editorial Team"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Geek At Your Spot",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-            }
-        },
-        "datePublished": "2026-07-30T16:49:55.0255581Z",
-        "dateModified": "2026-07-30T16:49:55.0255581Z",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://geekatyourspot.com/tools/marketing/canva"
-        },
-        "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
-        "subjectOf": {
-            "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
-        }
-    }
     // Add the return statement to fix the TypeScript error
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot', // Appends to child page titles automatically
-        },
+        title: "Canva",
         description: "Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.",
         keywords: ["Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -57,15 +35,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/canva',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: 'Geek at Your Spot | Canva',
+            title: "Canva",
             description: 'Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.',
-            url: 'https://geekatyourspot.com/',
+            url: 'https://geekatyourspot.com/tools/marketing/canva',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -80,7 +54,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | Canva',
+            title: "Canva",
             description: 'Canva automates content creation, enhancing design efficiency with user-friendly tools and AI-driven features.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -98,23 +72,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-snippet': -1,
             },
         },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
-        icons: {
-            icon: '/favicon.ico',
-            shortcut: '/shortcut-icon.png',
-            apple: '/apple-icon.png',
-        },
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
             title: 'Geek at Your Spot',
-        },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
         },
     };
 };
@@ -124,6 +85,10 @@ export default async function Page() {
     const heroSummary = "Streamline your content creation with Canva, a powerful tool for efficient, automated graphic design workflows.";
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
+            />
             <ToolsHeroSection
                 title={title}
                 summary={heroSummary} />

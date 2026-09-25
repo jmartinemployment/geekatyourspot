@@ -15,36 +15,18 @@ export const smartlyioContent: ToolPageContent = {
     "name": "Smartly.io",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://geekatyourspot.com/tools/marketing/smartlyio",
     "@context": "https://schema.org",
-    "headline": "Smartly.io",
     "description": "Automate ad spend optimization with Smartly.io to enhance ROI and streamline digital campaigns.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-20T18:30:06.5220897Z",
-    "dateModified": "2026-08-20T18:30:06.5220897Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/smartlyio"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/smartlyio#software"
   },
   "sections": [
     {

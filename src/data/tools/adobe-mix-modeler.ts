@@ -15,36 +15,18 @@ export const adobeMixModelerContent: ToolPageContent = {
     "name": "Adobe Mix Modeler",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler",
     "@context": "https://schema.org",
-    "headline": "Adobe Mix Modeler",
     "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-20T18:34:09.6530073Z",
-    "dateModified": "2026-08-20T18:34:09.6530073Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#software"
   },
   "sections": [
     {

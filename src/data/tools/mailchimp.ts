@@ -17,34 +17,16 @@ export const mailchimpContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
     "@context": "https://schema.org",
-    "headline": "Mailchimp",
-    "url": "https://geekatyourspot.com/tools/marketing/mailchimp",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-29T16:48:35.5898188Z",
-    "dateModified": "2026-07-29T16:48:35.5898188Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
     },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
   },
   "sections": [
     {

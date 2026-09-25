@@ -7,101 +7,137 @@ import ImplementingSection from '@/components/use-cases/marketing/ai-content-rep
 import PAASection from '@/components/use-cases/marketing/ai-content-repurposing/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
+
+const jsonLd: Graph = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Article",
+            "headline": "AI Content Repurposing",
+            "description": "Explore AI Content Repurposing to save time, reduce costs, and enhance engagement. Learn about tools and strategies for effective content transformation.",
+            "author": {
+                "@type": "Organization",
+                "@id": "https://geekatyourspot.com/#organization",
+                "name": "Geek at Your Spot"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Geek At Your Spot",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
+                }
+            },
+            "datePublished": "2026-08-22T13:35:50.1761797Z",
+            "dateModified": "2026-08-22T13:35:50.1761797Z",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing"
+            },
+            "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
+            "wordCount": 2881,
+            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing#article",
+            "mentions": [
+                {
+                    "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
+                },
+                {
+                    "@id": "https://geekatyourspot.com/tools/marketing/copyai#software"
+                },
+                {
+                    "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
+                },
+                {
+                    "@id": "https://geekatyourspot.com/tools/marketing/airia#software"
+                },
+                {
+                    "@id": "https://geekatyourspot.com/tools/marketing/makecom#software"
+                },
+                {
+                    "@id": "https://geekatyourspot.com/tools/marketing/zapier#software"
+                }
+            ]
+        },
+        {
+            "@type": "SoftwareApplication",
+            "name": "Jasper AI",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Jasper AI transforms content into multiple formats, enhancing reach and engagement efficiently.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai"
+            },
+            "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
+        },
+        {
+            "@type": "SoftwareApplication",
+            "name": "Copy.ai",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Copy.ai: AI-powered content repurposing tool that extends content life and boosts engagement across formats.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/tools/marketing/copyai"
+            },
+            "@id": "https://geekatyourspot.com/tools/marketing/copyai#software"
+        },
+        {
+            "@type": "SoftwareApplication",
+            "name": "ContentStudio",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/tools/marketing/contentstudio"
+            },
+            "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
+        },
+        {
+            "@type": "SoftwareApplication",
+            "name": "Airia",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Airia repurposes content into various formats with AI, enhancing reach and engagement efficiently.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/tools/marketing/airia"
+            },
+            "@id": "https://geekatyourspot.com/tools/marketing/airia#software"
+        },
+        {
+            "@type": "SoftwareApplication",
+            "name": "Make.com",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Automate AI content repurposing with Make.com to transform and distribute content efficiently across formats.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/tools/marketing/makecom"
+            },
+            "@id": "https://geekatyourspot.com/tools/marketing/makecom#software"
+        },
+        {
+            "@type": "SoftwareApplication",
+            "name": "Zapier",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://geekatyourspot.com/tools/marketing/zapier"
+            },
+            "@id": "https://geekatyourspot.com/tools/marketing/zapier#software"
+        }
+    ]
+};
 
 export const generateMetadata = async (): Promise<Metadata> => {
-    const jsonLd = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "TechArticle",
-                "headline": "AI Content Repurposing",
-                "description": "Explore AI Content Repurposing to save time, reduce costs, and enhance engagement. Learn about tools and strategies for effective content transformation.",
-                "image": [
-                    "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                ],
-                "author": {
-                    "@type": "Person",
-                    "name": "Geek At Your Spot Editorial Team"
-                },
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "Geek At Your Spot",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                    }
-                },
-                "datePublished": "2026-08-22T13:35:50.1761797Z",
-                "dateModified": "2026-08-22T13:35:50.1761797Z",
-                "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing"
-                },
-                "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-                "wordCount": 2881,
-                "proficiencyLevel": "Beginner",
-                "citation": [
-                    {
-                        "@type": "BlogPosting",
-                        "url": "https://geekatyourspot.com/blog/marketing/unlocking-the-power-of-ai-for-content-repurposing"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "Jasper AI",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "Jasper AI transforms content into multiple formats, enhancing reach and engagement efficiently.",
-                "url": "https://geekatyourspot.com/tools/marketing/jasper-ai"
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "Copy.ai",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "Copy.ai: AI-powered content repurposing tool that extends content life and boosts engagement across formats.",
-                "url": "https://geekatyourspot.com/tools/marketing/copyai"
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "ContentStudio",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
-                "url": "https://geekatyourspot.com/tools/marketing/contentstudio"
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "Airia",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "Airia repurposes content into various formats with AI, enhancing reach and engagement efficiently.",
-                "url": "https://geekatyourspot.com/tools/marketing/airia"
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "Make.com",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "Automate AI content repurposing with Make.com to transform and distribute content efficiently across formats.",
-                "url": "https://geekatyourspot.com/tools/marketing/makecom"
-            },
-            {
-                "@type": "SoftwareApplication",
-                "name": "Zapier",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "description": "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
-                "url": "https://geekatyourspot.com/tools/marketing/zapier"
-            }
-        ]
-    }
     return {
-        title: {
-            default: 'Geek at Your Spot',
-            template: '%s | Geek at Your Spot',
-        },
+        title: "AI Content Repurposing",
         description: "Explore AI Content Repurposing to save time, reduce costs, and enhance engagement. Learn about tools and strategies for effective content transformation.",
         keywords: ["AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing' }],
@@ -110,13 +146,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/marketing/ai-content-repurposing',
-            languages: {
-                'en-US': '/en-US',
-                'es-ES': '/es-ES',
-            },
         },
         openGraph: {
-            title: 'Geek at Your Spot | AI Content Repurposing',
+            title: "AI Content Repurposing",
             description: "Explore AI Content Repurposing to save time, reduce costs, and enhance engagement. Learn about tools and strategies for effective content transformation.",
             url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing',
             siteName: 'Geek at Your Spot',
@@ -133,7 +165,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Geek at Your Spot | AI Content Repurposing',
+            title: "AI Content Repurposing",
             description: "Explore AI Content Repurposing to save time, reduce costs, and enhance engagement. Learn about tools and strategies for effective content transformation.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -151,11 +183,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-snippet': -1,
             },
         },
-        verification: {
-            google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-            yandex: 'yandex-verification-token',
-            yahoo: 'yahoo-verification-token',
-        },
         icons: {
             icon: '/favicon.ico',
         },
@@ -164,15 +191,16 @@ export const generateMetadata = async (): Promise<Metadata> => {
             statusBarStyle: 'default',
             title: 'Geek at Your Spot',
         },
-        other: {
-            'script:ld+json': JSON.stringify(jsonLd),
-        },
     };
 };
 
 export default async function Page() {
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
+            />
             <HeroSection />
             <article>
                 <LedeSection />

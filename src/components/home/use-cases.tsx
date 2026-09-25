@@ -65,7 +65,7 @@ export function UseCasesSection() {
                                 </Link>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-xs">
+                                        <h5><strong className="text-black text-sm">
                                             Automated Data Entry &amp; Processing:</strong></h5>
                                         <p className="text-black text-xs">
                                             Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
@@ -108,7 +108,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <strong className="text-sm"> </strong>
-                                        <h5><strong className="text-black text-xsm">
+                                        <h5><strong className="text-black text-sm">
                                             Automated Accounting Approval Workflows:
                                         </strong></h5>
                                         <p className="text-black text-xs">
@@ -124,10 +124,10 @@ export function UseCasesSection() {
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                BILL
+                                                Melio
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
@@ -142,15 +142,15 @@ export function UseCasesSection() {
                                                 Plooto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
+                                                href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Bill
                                             </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-xs">
+                                        <h5><strong className="text-black text-sm">
                                             Automated Payment Execution:</strong></h5>
                                         <p className="text-black text-xs">
                                             Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
@@ -1270,10 +1270,10 @@ export function UseCasesSection() {
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
                                                 href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                BILL
+                                                Bill
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
@@ -1288,10 +1288,10 @@ export function UseCasesSection() {
                                                 Plooto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Melio
                                             </Link>.
                                         </p>
                                     </li>

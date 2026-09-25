@@ -46,7 +46,13 @@ const COLLECTION_BY_SEGMENT = new Map<string, Collection>(
   COLLECTIONS.map((collection) => [collection, collection]),
 );
 
-function decodeEntities(value: string): string {
+/**
+ * The sanitized body keeps its entities (161 `&#39;` and 4 `&quot;` across the blog
+ * corpus). Raw-HTML rendering let the browser decode those; rendering the body as
+ * React nodes does not, so the article parser decodes through this same function
+ * rather than keeping a second table that could drift from it.
+ */
+export function decodeEntities(value: string): string {
   return value
     .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
     .replace(/&quot;/g, '"')

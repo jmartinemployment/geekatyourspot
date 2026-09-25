@@ -15,36 +15,18 @@ export const basisTechnologiesContent: ToolPageContent = {
     "name": "Basis Technologies",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://geekatyourspot.com/tools/marketing/basis-technologies",
     "@context": "https://schema.org",
-    "headline": "Basis Technologies",
     "description": "Optimize ad spend with AI-driven strategies from Basis Technologies, enhancing ROI and reducing inefficiencies.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-20T18:33:38.7010854Z",
-    "dateModified": "2026-08-20T18:33:38.7010854Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/basis-technologies"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/basis-technologies#software"
   },
   "sections": [
     {

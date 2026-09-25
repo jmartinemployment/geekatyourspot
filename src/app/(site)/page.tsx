@@ -8,211 +8,204 @@ import type { Metadata, Viewport } from "next";
 
 
 
-export const generateMetadata = async (): Promise<Metadata> => {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://geekatyourspot.com/#organization",
-        "name": "Geek at Your Spot",
-        "url": "https://geekatyourspot.com",
-        "logo": "https://geekatyourspot.com/logo.png",
-        "description": "AI consultancy building practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
-        "sameAs": [
-          "https://www.facebook.com/geekatyourspot",
-          "https://www.linkedin.com/company/geek-at-your-spot",
-          "https://twitter.com/geekatyourspot"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Delray Beach",
-          "addressLocality": "Delray Beach",
-          "addressRegion": "FL",
-          "postalCode": "33444",
-          "addressCountry": "US"
-        },
-        "areaServed": {
-          "@type": "City",
-          "name": "Delray Beach"
-        },
-        "foundingDate": "2024",
-        "knowsAbout": ["Artificial Intelligence", "Machine Learning", "AI Integration", "Business Automation", "Process Optimization"]
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://geekatyourspot.com/#organization",
+      "name": "Geek at Your Spot",
+      "url": "https://geekatyourspot.com",
+      "logo": "https://geekatyourspot.com/images/GeekAtYourSpot.svg",
+      "description": "AI consultancy building practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+      "sameAs": [
+        "https://www.facebook.com/geekatyourspot",
+        "https://www.linkedin.com/company/geek-at-your-spot",
+        "https://twitter.com/geekatyourspot"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Delray Beach",
+        "addressLocality": "Delray Beach",
+        "addressRegion": "FL",
+        "postalCode": "33444",
+        "addressCountry": "US"
       },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://geekatyourspot.com/#localbusiness",
-        "name": "Geek at Your Spot",
-        "url": "https://geekatyourspot.com",
-        "image": "https://geekatyourspot.com/images/action-figure.jpeg",
-        "description": "AI consulting firm specializing in designing, building, and deploying AI systems for small businesses.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Delray Beach",
-          "addressRegion": "FL",
-          "addressCountry": "US"
-        },
-        "areaServed": [
-          { "@type": "City", "name": "Delray Beach" },
-          { "@type": "State", "name": "Florida" },
-          { "@type": "Region", "name": "South Florida" }
-        ],
-        "serviceType": "AI Consulting",
-        "priceRange": "$$"
+      "areaServed": {
+        "@type": "City",
+        "name": "Delray Beach"
       },
-      {
-        "@type": "Service",
-        "@id": "https://geekatyourspot.com/#service",
-        "name": "AI Consulting and Implementation",
-        "description": "Design, build, and deploy AI systems that fit your existing stack. Our four-phase methodology helps small businesses scale without adding headcount.",
-        "provider": {
-          "@id": "https://geekatyourspot.com/#organization"
-        },
-        "areaServed": {
-          "@type": "City",
-          "name": "Delray Beach"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "AI Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Free AI Assessment",
-                "description": "Complimentary consultation to evaluate your business needs and AI opportunities"
-              },
-              "price": "0",
-              "priceCurrency": "USD"
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "AI System Design",
-                "description": "Custom AI solution design tailored to your existing tech stack and business requirements"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "AI Implementation",
-                "description": "Build and deploy AI systems with hands-on engineering expertise"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Business Automation",
-                "description": "Reduce manual work and errors through AI-powered automation"
-              }
-            }
-          ]
-        }
+      "foundingDate": "2024",
+      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "AI Integration", "Business Automation", "Process Optimization"]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://geekatyourspot.com/#localbusiness",
+      "name": "Geek at Your Spot",
+      "url": "https://geekatyourspot.com",
+      "image": "https://geekatyourspot.com/images/action-figure.jpeg",
+      "description": "AI consulting firm specializing in designing, building, and deploying AI systems for small businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delray Beach",
+        "addressRegion": "FL",
+        "addressCountry": "US"
       },
-      {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/#webpage",
-        "url": "https://geekatyourspot.com",
-        "name": "AI Consulting for South Florida Small Businesses",
-        "description": "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
-        "isPartOf": {
-          "@id": "https://geekatyourspot.com/#website"
-        },
-        "primaryImageOfPage": {
-          "@id": "https://geekatyourspot.com/#primaryimage"
-        },
-        "datePublished": "2024-01-01",
-        "breadcrumb": {
-          "@id": "https://geekatyourspot.com/#breadcrumb"
-        }
+      "areaServed": [
+        { "@type": "City", "name": "Delray Beach" },
+        { "@type": "State", "name": "Florida" },
+        { "@type": "Region", "name": "South Florida" }
+      ],
+      "serviceType": "AI Consulting",
+      "priceRange": "$$"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://geekatyourspot.com/#service",
+      "name": "AI Consulting and Implementation",
+      "description": "Design, build, and deploy AI systems that fit your existing stack. Our four-phase methodology helps small businesses scale without adding headcount.",
+      "provider": {
+        "@id": "https://geekatyourspot.com/#organization"
       },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://geekatyourspot.com/#breadcrumb",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delray Beach"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Services",
         "itemListElement": [
           {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://geekatyourspot.com"
-          }
-        ]
-      },
-      {
-        "@type": "Website",
-        "@id": "https://geekatyourspot.com/#website",
-        "url": "https://geekatyourspot.com",
-        "name": "Geek at Your Spot",
-        "description": "AI consulting for South Florida small businesses",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://geekatyourspot.com/search?q={search_term_string}"
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Free AI Assessment",
+              "description": "Complimentary consultation to evaluate your business needs and AI opportunities"
+            },
+            "price": "0",
+            "priceCurrency": "USD"
           },
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@type": "ImageObject",
-        "@id": "https://geekatyourspot.com/#primaryimage",
-        "inLanguage": "en-US",
-        "url": "https://geekatyourspot.com/images/action-figure.jpeg",
-        "contentUrl": "https://geekatyourspot.com/images/action-figure.jpeg",
-        "width": 1024,
-        "height": 1536,
-        "caption": "Geek At Your Spot - AI-created action figure representing founder's hands-on approach to AI consulting"
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://geekatyourspot.com/#faqpage",
-        "mainEntity": [
           {
-            "@type": "Question",
-            "name": "What services does Geek at Your Spot offer?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We design, build, and deploy AI systems tailored to your existing stack. Services include free AI assessment, system design, implementation, and business automation."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI System Design",
+              "description": "Custom AI solution design tailored to your existing tech stack and business requirements"
             }
           },
           {
-            "@type": "Question",
-            "name": "Is the initial AI assessment really free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, we offer a free consultation to evaluate your business needs and AI opportunities with no obligation."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Implementation",
+              "description": "Build and deploy AI systems with hands-on engineering expertise"
             }
           },
           {
-            "@type": "Question",
-            "name": "What is the four-phase methodology?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Our structured approach guides you from assessment through implementation, ensuring AI solutions fit seamlessly into your business operations."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Who is your ideal client?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We specialize in working with small businesses in South Florida who want to leverage AI to scale without adding headcount, reduce manual work, and cut errors."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Automation",
+              "description": "Reduce manual work and errors through AI-powered automation"
             }
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://geekatyourspot.com/#webpage",
+      "url": "https://geekatyourspot.com",
+      "name": "AI Consulting for South Florida Small Businesses",
+      "description": "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+      "isPartOf": {
+        "@id": "https://geekatyourspot.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://geekatyourspot.com/#primaryimage"
+      },
+      "datePublished": "2024-01-01",
+      "breadcrumb": {
+        "@id": "https://geekatyourspot.com/#breadcrumb"
+      },
+      "hasPart": {
+        "@id": "https://geekatyourspot.com/#faqpage"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://geekatyourspot.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://geekatyourspot.com"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://geekatyourspot.com/#website",
+      "url": "https://geekatyourspot.com",
+      "name": "Geek at Your Spot",
+      "description": "AI consulting for South Florida small businesses"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://geekatyourspot.com/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://geekatyourspot.com/images/action-figure.jpeg",
+      "contentUrl": "https://geekatyourspot.com/images/action-figure.jpeg",
+      "width": 1024,
+      "height": 1536,
+      "caption": "Geek At Your Spot - AI-created action figure representing founder's hands-on approach to AI consulting"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://geekatyourspot.com/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What services does Geek at Your Spot offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We design, build, and deploy AI systems tailored to your existing stack. Services include free AI assessment, system design, implementation, and business automation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the initial AI assessment really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we offer a free consultation to evaluate your business needs and AI opportunities with no obligation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the four-phase methodology?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our structured approach guides you from assessment through implementation, ensuring AI solutions fit seamlessly into your business operations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is your ideal client?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We specialize in working with small businesses in South Florida who want to leverage AI to scale without adding headcount, reduce manual work, and cut errors."
+          }
+        }
+      ]
+    }
+  ]
+};
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     metadataBase: new URL('https://geekatyourspot.com'),
-    title: {
-      default: 'AI Consulting for Small Business | Delray Beach, South Florida',
-      template: '%s | Geek at Your Spot',
-    },
+    title: "Geek at Your Spot",
     description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work. Free consultation with 40 years of engineering expertise.',
     keywords: [
       'AI consulting',
@@ -244,9 +237,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
       canonical: '/',
     },
     openGraph: {
-      title: 'AI Consulting for Small Business | Delray Beach, South Florida',
+      title: "Geek at Your Spot",
       description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.',
-      url: 'https://geekatyourspot.com',
+      url: 'https://geekatyourspot.com/page.tsx',
       siteName: 'Geek at Your Spot',
       images: [
         {
@@ -269,7 +262,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'AI Consulting for Small Business | Delray Beach, South Florida',
+      title: "Geek at Your Spot",
       description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses.',
       creator: '@geekatyourspot',
       images: ['https://geekatyourspot.com/images/action-figure.jpeg'],
@@ -310,27 +303,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     verification: {
       google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-      yandex: 'YOUR_YANDEX_VERIFICATION',
-      yahoo: 'YOUR_YAHOO_VERIFICATION',
-    },
-    other: {
-      'script:ld+json': JSON.stringify(jsonLd),
-      'og:email': 'contact@geekatyourspot.com',
-      'og:phone_number': 'YOUR_PHONE_NUMBER',
-      'og:street-address': 'Delray Beach, FL 33444',
-      'og:locality': 'Delray Beach',
-      'og:region': 'FL',
-      'og:postal-code': '33444',
-      'og:country-name': 'United States',
-      'article:author': 'Geek at Your Spot',
-      'article:publisher': 'Geek at Your Spot',
-      'business:contact_data:street_address': 'Delray Beach, FL 33444',
-      'business:contact_data:locality': 'Delray Beach',
-      'business:contact_data:region': 'FL',
-      'business:contact_data:postal_code': '33444',
-      'business:contact_data:country_name': 'United States',
-      'msapplication-TileColor': '#023059',
-      'msapplication-TileImage': '/icon.png',
     },
   };
 };
@@ -353,6 +325,10 @@ export default async function Home() {
 
   return (
     <>
+      <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <HeroSection />
       <CloneYourselfSection />
       <UseCasesSection />

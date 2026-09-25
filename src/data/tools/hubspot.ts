@@ -17,34 +17,16 @@ export const hubspotContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "HubSpot offers AI marketing systems to automate and enhance business processes efficiently.",
     "@context": "https://schema.org",
-    "headline": "HubSpot",
-    "url": "https://geekatyourspot.com/tools/marketing/hubspot",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-29T16:48:23.1157456Z",
-    "dateModified": "2026-07-29T16:48:23.1157456Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/hubspot"
     },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
   },
   "sections": [
     {

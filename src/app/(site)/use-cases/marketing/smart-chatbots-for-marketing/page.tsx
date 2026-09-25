@@ -6,49 +6,47 @@ import TriggerInstantAcknowledgmentSection from "@/components/use-cases/marketin
 import EnrichTheLeadInstantlySection from "@/components/use-cases/marketing/smart-chatbots/enrich-the-lead-instantly-section";
 import FAQSection from "@/components/use-cases/marketing/smart-chatbots/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Article, WithContext } from "schema-dts";
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "headline": "Smart Chatbots for Marketing: Transforming Customer Engagement",
-    "description": "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-29",
-    "dateModified": "2026-08-29",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing"
-    },
-    "keywords": "Smart Chatbots for Marketing",
-    "proficiencyLevel": "Beginner"
+  const jsonLd: WithContext<Article> = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Smart Chatbots for Marketing: Transforming Customer Engagement",
+      "description": "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
+      "author": {
+          "@type": "Organization",
+          "name": "Geek At Your Spot"
+      },
+      "publisher": {
+          "@type": "Organization",
+          "name": "Geek At Your Spot",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
+          }
+      },
+      "datePublished": "2026-08-29",
+      "dateModified": "2026-08-29",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing"
+      },
+      "keywords": "Smart Chatbots for Marketing",
+      "@id": "https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing#article"
   };
 
   return {
-    title: "Smart Chatbots for Marketing | Geek At Your Spot",
+    title: "Smart Chatbots for Marketing",
     description: "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
     keywords: "Smart Chatbots for Marketing",
     authors: [{ name: "Geek At Your Spot Editorial Team" }],
     robots: "index, follow",
     openGraph: {
-      title: "Smart Chatbots for Marketing: Transforming Customer Engagement | Geek At Your Spot",
+      title: "Smart Chatbots for Marketing: Transforming Customer Engagement",
       description: "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
       type: "article",
-      url: "https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing-transforming-customer-engagement",
+      url: 'https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing',
       images: [
         {
           url: "https://geekatyourspot.com/images/GeekAtYourSpot.svg",
@@ -62,14 +60,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Smart Chatbots for Marketing: Transforming Customer Engagement | Geek At Your Spot",
+      title: "Smart Chatbots for Marketing: Transforming Customer Engagement",
       description: "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
       images: ["https://geekatyourspot.com/images/GeekAtYourSpot.svg"],
       creator: "Geek At Your Spot",
-    },
-    other: {
-      "ld+json": JSON.stringify(jsonLd),
-      "canonical": "https://geekatyourspot.com/use-cases/marketing/smart-chatbots-for-marketing-transforming-customer-engagement",
     },
   };
 };
@@ -77,7 +71,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 export default async function Page() {
   const title = "Smart Chatbots for Marketing";
   const summary = "Uncover the power of smart chatbots in revolutionizing marketing through enhanced customer interactions and lead optimization.";
-  const heroImage = "/images/marketing/use-cases/smart-chatbots/smart-chatbots-pillar-hero.avif";
+  const heroImage = "";
   const imgAlt = "Transform marketing with AI chatbots";
 
   return (

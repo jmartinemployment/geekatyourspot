@@ -17,34 +17,12 @@ export const openaiGpt4Content: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Boost efficiency with OpenAI GPT-4, automating content creation for high-quality, precise results.",
     "@context": "https://schema.org",
-    "headline": "OpenAI GPT-4",
-    "url": "https://geekatyourspot.com/tools/marketing/openai-gpt-4",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-30T16:49:54.7781600Z",
-    "dateModified": "2026-07-30T16:49:54.7781600Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/openai-gpt-4"
     },
     "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
-    }
+    "@id": "https://geekatyourspot.com/tools/marketing/openai-gpt-4#software"
   },
   "sections": [
     {

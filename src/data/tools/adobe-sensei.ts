@@ -17,34 +17,12 @@ export const adobeSenseiContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Automate content creation workflows with Adobe Sensei's AI-driven platform for enhanced efficiency and intelligence.",
     "@context": "https://schema.org",
-    "headline": "Adobe Sensei",
-    "url": "https://geekatyourspot.com/tools/marketing/adobe-sensei",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-30T16:50:08.0460632Z",
-    "dateModified": "2026-07-30T16:50:08.0460632Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/adobe-sensei"
     },
     "keywords": "Automated Content Creation Workflow, AI Content Automation, Content Workflow Efficiency, AI Marketing Tools, B2B Content Strategies",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-content-creation-workflow"
-    }
+    "@id": "https://geekatyourspot.com/tools/marketing/adobe-sensei#software"
   },
   "sections": [
     {

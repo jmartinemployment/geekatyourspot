@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { getAllGlossarySlugs, getGlossaryTerm } from "@/lib/glossary";
 import { TermDetail } from "@/components/glossary/term-detail";
 import type { GlossaryTerm } from "@/types/glossary";
+import type { DefinedTerm, WithContext } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -67,7 +69,7 @@ export default async function TermPage({
     notFound();
   }
 
-  const jsonLd = {
+  const jsonLd: WithContext<DefinedTerm> = {
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
     name: term.title,
@@ -79,7 +81,7 @@ export default async function TermPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
       <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">

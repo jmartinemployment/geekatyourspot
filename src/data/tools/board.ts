@@ -17,34 +17,8 @@ export const boardContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Board enhances cash flow forecasting with AI, unifying data for insightful financial planning.",
     "@context": "https://schema.org",
-    "headline": "Board",
-    "url": "https://geekatyourspot.com/tools/accounting/board",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-23T20:48:38.1939909Z",
-    "dateModified": "2026-07-23T20:48:38.1939909Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/board"
-    },
     "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting"
-    }
+    "@id": "#software-board"
   },
   "sections": [
     {

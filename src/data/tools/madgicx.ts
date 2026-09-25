@@ -15,36 +15,18 @@ export const madgicxContent: ToolPageContent = {
     "name": "Madgicx",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://geekatyourspot.com/tools/marketing/madgicx",
     "@context": "https://schema.org",
-    "headline": "Madgicx",
     "description": "Optimize ad spend with Madgicx's AI-driven platform, boosting ROI and efficiency effortlessly.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-20T18:33:07.1745731Z",
-    "dateModified": "2026-08-20T18:33:07.1745731Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/madgicx"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/madgicx#software"
   },
   "sections": [
     {

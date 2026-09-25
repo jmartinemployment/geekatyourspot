@@ -17,34 +17,8 @@ export const vertexContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Automate tax compliance with Vertex for efficient regulation management and error reduction.",
     "@context": "https://schema.org",
-    "headline": "Vertex",
-    "url": "https://geekatyourspot.com/tools/accounting/vertex",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-07-25T20:43:36.4877875Z",
-    "dateModified": "2026-07-25T20:43:36.4877875Z",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/vertex"
-    },
     "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
-    "subjectOf": {
-      "@type": "TechArticle",
-      "@id": "https://geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations"
-    }
+    "@id": "#software-vertex"
   },
   "sections": [
     {

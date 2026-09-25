@@ -15,36 +15,18 @@ export const tableauAiAdobeAnalyticsContent: ToolPageContent = {
     "name": "Tableau AI / Adobe Analytics",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics",
     "@context": "https://schema.org",
-    "headline": "Tableau AI / Adobe Analytics",
     "description": "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
-    "image": [
-      "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-    ],
-    "author": {
-      "@type": "Person",
-      "name": "Geek At Your Spot Editorial Team"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Geek At Your Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-      }
-    },
-    "datePublished": "2026-08-20T18:35:15.7119551Z",
-    "dateModified": "2026-08-20T18:35:15.7119551Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
-      "@type": "TechArticle",
+      "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    }
+    },
+    "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics#software"
   },
   "sections": [
     {
