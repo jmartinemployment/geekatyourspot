@@ -303,8 +303,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     verification: {
       google: '_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI',
-      yandex: 'YOUR_YANDEX_VERIFICATION',
-      yahoo: 'YOUR_YAHOO_VERIFICATION',
     },
   };
 };
