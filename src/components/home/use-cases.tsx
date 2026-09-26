@@ -446,28 +446,28 @@ export function UseCasesSection() {
                                                 Gusto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/rippling", "Rippling")}
-                                                href="/tools/accounting/rippling"
+                                                id={gtmLinkIdFromHref("/tools/accounting/adp", "ADP")}
+                                                href="/tools/accounting/adp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Rippling
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/adp-run", "ADP Run")}
-                                                href="/tools/accounting/adp-run"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                ADP Run
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks-payroll", "QuickBooks Payroll")}
-                                                href="/tools/accounting/quickbooks-payroll"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks Payroll
+                                                ADP
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/onpay", "OnPay")}
                                                 href="/tools/accounting/onpay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 OnPay
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/deel", "Deel")}
+                                                href="/tools/accounting/deel"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Deel
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/remote", "Remote")}
+                                                href="/tools/accounting/remote"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Remote
                                             </Link>.
                                         </p>
                                     </li>
@@ -1591,28 +1591,28 @@ export function UseCasesSection() {
                                                 Gusto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/rippling", "Rippling")}
-                                                href="/tools/accounting/rippling"
+                                                id={gtmLinkIdFromHref("/tools/accounting/adp", "ADP")}
+                                                href="/tools/accounting/adp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Rippling
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/adp-run", "ADP Run")}
-                                                href="/tools/accounting/adp-run"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                ADP Run
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks-payroll", "QuickBooks Payroll")}
-                                                href="/tools/accounting/quickbooks-payroll"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks Payroll
+                                                ADP
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/onpay", "OnPay")}
                                                 href="/tools/accounting/onpay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 OnPay
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/deel", "Deel")}
+                                                href="/tools/accounting/deel"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Deel
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/remote", "Remote")}
+                                                href="/tools/accounting/remote"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Remote
                                             </Link>.
                                         </p>
                                     </li>
