@@ -396,34 +396,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
+                                                href="/tools/accounting/sovos"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Sovos
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax1099", "Tax1099")}
+                                                href="/tools/accounting/tax1099"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Tax1099
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
+                                                href="/tools/accounting/anrok"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Anrok
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/numeral", "Numeral")}
+                                                href="/tools/accounting/numeral"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Numeral
+                                            </Link>,&nbsp;
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
                                                 href="/tools/accounting/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/turbtax-business", "TurboTax Business")}
-                                                href="/tools/accounting/turbtax-business"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TurboTax Business
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxact-business", "TaxAct Business")}
-                                                href="/tools/accounting/taxact-business"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxAct Business
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lettuce", "Lettuce")}
-                                                href="/tools/accounting/lettuce"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lettuce
                                             </Link>.
                                         </p>
                                     </li>
@@ -1541,34 +1541,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
+                                                href="/tools/accounting/sovos"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Sovos
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax1099", "Tax1099")}
+                                                href="/tools/accounting/tax1099"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Tax1099
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
+                                                href="/tools/accounting/anrok"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Anrok
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/numeral", "Numeral")}
+                                                href="/tools/accounting/numeral"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Numeral
+                                            </Link>,&nbsp;
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
                                                 href="/tools/accounting/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/turbtax-business", "TurboTax Business")}
-                                                href="/tools/accounting/turbtax-business"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TurboTax Business
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxact-business", "TaxAct Business")}
-                                                href="/tools/accounting/taxact-business"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxAct Business
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lettuce", "Lettuce")}
-                                                href="/tools/accounting/lettuce"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lettuce
                                             </Link>.
                                         </p>
                                     </li>
