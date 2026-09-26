@@ -187,7 +187,7 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
-                                            </Link>.;
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -247,7 +247,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-sm">
-                                            Accounts Receivable:</strong></h5>
+                                            Automated Accounts Receivable:</strong></h5>
                                         <p className="text-black text-xs ">
                                             Clients take 30, 60, or 90 days to settle bills, leaving you to cover payroll and materials out of pocket while waiting.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
@@ -255,22 +255,22 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/freshbooks", "FreshBooks")}
-                                                href="/tools/accounting/freshbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                FreshBooks
-                                            </Link>,&nbsp;
-                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
                                                 href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zoho-books", "Zoho Books")}
-                                                href="/tools/accounting/zoho-books"
+                                                id={gtmLinkIdFromHref("/tools/accounting/versapay", "Versapay")}
+                                                href="/tools/accounting/versapay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zoho Books
+                                                Versapay
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Melio
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/chaser", "Chaser")}
@@ -279,10 +279,10 @@ export function UseCasesSection() {
                                                 Chaser
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/paidnice", "Paidnice")}
-                                                href="/tools/accounting/paidnice"
+                                                id={gtmLinkIdFromHref("/tools/accounting/invoiced", "Invoiced")}
+                                                href="/tools/accounting/invoiced"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Paidnice
+                                                Invoiced
                                             </Link>.
                                         </p>
                                     </li>
@@ -1332,7 +1332,7 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
-                                            </Link>.;                                        </p>
+                                            </Link>.                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">
@@ -1391,7 +1391,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">
-                                            Accounts Receivable:</strong></h5>
+                                            Automated Accounts Receivable:</strong></h5>
                                         <p className="text-black text-sm ">
                                             Clients take 30, 60, or 90 days to settle bills, leaving you to cover payroll and materials out of pocket while waiting.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
@@ -1399,22 +1399,22 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/freshbooks", "FreshBooks")}
-                                                href="/tools/accounting/freshbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                FreshBooks
-                                            </Link>,&nbsp;
-                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
                                                 href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zoho-books", "Zoho Books")}
-                                                href="/tools/accounting/zoho-books"
+                                                id={gtmLinkIdFromHref("/tools/accounting/versapay", "Versapay")}
+                                                href="/tools/accounting/versapay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zoho Books
+                                                Versapay
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
+                                                href="/tools/accounting/melio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Melio
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/chaser", "Chaser")}
@@ -1423,10 +1423,10 @@ export function UseCasesSection() {
                                                 Chaser
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/paidnice", "Paidnice")}
-                                                href="/tools/accounting/paidnice"
+                                                id={gtmLinkIdFromHref("/tools/accounting/invoiced", "Invoiced")}
+                                                href="/tools/accounting/invoiced"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Paidnice
+                                                Invoiced
                                             </Link>.
                                         </p>
                                     </li>
