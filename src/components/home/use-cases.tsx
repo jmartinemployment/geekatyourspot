@@ -483,34 +483,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxjar", "TaxJar")}
-                                                href="/tools/accounting/taxjar"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxJar
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stripe-tax", "Stripe Tax")}
-                                                href="/tools/accounting/stripe-tax"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stripe Tax
-                                            </Link>,&nbsp;
-                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
                                                 href="/tools/accounting/anrok"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Anrok
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quaderno", "Quaderno")}
-                                                href="/tools/accounting/quaderno"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
+                                                href="/tools/accounting/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Quaderno
+                                                Avalara
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxcloud", "TaxCloud")}
-                                                href="/tools/accounting/taxcloud"
+                                                id={gtmLinkIdFromHref("/tools/accounting/taxconnex", "TaxConnex")}
+                                                href="/tools/accounting/taxconnex"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxCloud
+                                                TaxConnex
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
+                                                href="/tools/accounting/sovos"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Sovos
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/stripe", "Stripe")}
+                                                href="/tools/accounting/stripe"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stripe
                                             </Link>.
                                         </p>
                                     </li>
@@ -1628,34 +1628,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxjar", "TaxJar")}
-                                                href="/tools/accounting/taxjar"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxJar
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stripe-tax", "Stripe Tax")}
-                                                href="/tools/accounting/stripe-tax"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stripe Tax
-                                            </Link>,&nbsp;
-                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
                                                 href="/tools/accounting/anrok"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Anrok
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quaderno", "Quaderno")}
-                                                href="/tools/accounting/quaderno"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
+                                                href="/tools/accounting/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Quaderno
+                                                Avalara
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxcloud", "TaxCloud")}
-                                                href="/tools/accounting/taxcloud"
+                                                id={gtmLinkIdFromHref("/tools/accounting/taxconnex", "TaxConnex")}
+                                                href="/tools/accounting/taxconnex"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxCloud
+                                                TaxConnex
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
+                                                href="/tools/accounting/sovos"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Sovos
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/stripe", "Stripe")}
+                                                href="/tools/accounting/stripe"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stripe
                                             </Link>.
                                         </p>
                                     </li>
