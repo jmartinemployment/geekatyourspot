@@ -290,7 +290,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-sm">
-                                            Outdated Spreadsheet Data::
+                                            Automated Spreadsheet Data:
                                         </strong>
                                         </h5>
                                         <p className="text-black text-xs ">
@@ -301,40 +301,40 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/airtable", "Airtable")}
-                                                href="/tools/accounting/airtable"
+                                                id={gtmLinkIdFromHref("/tools/accounting/datarails", "Datarails")}
+                                                href="/tools/accounting/datarails"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Airtable
+                                                Datarails
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/clickup", "ClickUp")}
-                                                href="/tools/accounting/clickup"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-frog", "Cash Flow Frog")}
+                                                href="/tools/accounting/cash-flow-frog"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                ClickUp
+                                                Cash Flow Frog
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/smartsheet", "Smartsheet")}
-                                                href="/tools/accounting/smartsheet"
+                                                id={gtmLinkIdFromHref("/tools/accounting/fathom", "Fathom")}
+                                                href="/tools/accounting/fathom"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Smartsheet
+                                                Fathom
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/rows", "Rows")}
-                                                href="/tools/accounting/rows"
+                                                id={gtmLinkIdFromHref("/tools/accounting/liveplan", "LivePlan")}
+                                                href="/tools/accounting/liveplan"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Rows
+                                                LivePlan
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/notion", "Notion")}
-                                                href="/tools/accounting/notion"
+                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
+                                                href="/tools/accounting/float"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Notion
-                                            </Link>,&nbsp;
+                                                Float
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-sm">
-                                            Enterprise Resource Planning:
+                                            Automated Enterprise Resource Planning:
                                         </strong>
                                         </h5>
                                         <p className="text-black text-xs ">
@@ -345,34 +345,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
-                                                href="/tools/accounting/float"
+                                                id={gtmLinkIdFromHref("/tools/accounting/netsuite", "NetSuite")}
+                                                href="/tools/accounting/netsuite"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Float
+                                                NetSuite
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/pulse", "Pulse")}
-                                                href="/tools/accounting/pulse"
+                                                id={gtmLinkIdFromHref("/tools/accounting/odoo", "Odoo")}
+                                                href="/tools/accounting/odoo"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Pulse
+                                                Odoo
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-analytics", "CashAnalytics")}
-                                                href="/tools/accounting/cash-analytics"
+                                                id={gtmLinkIdFromHref("/tools/accounting/zoho", "Zoho")}
+                                                href="/tools/accounting/zoho"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                CashAnalytics
+                                                Zoho
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/agicap", "Agicap")}
-                                                href="/tools/accounting/agicap"
+                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
+                                                href="/tools/accounting/acumatica"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Agicap
+                                                Acumatica
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/fluidly", "Fluidly")}
-                                                href="/tools/accounting/fluidly"
+                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "MS Dynamics 365 Business Central")}
+                                                href="/tools/accounting/ms-dynamics-365-business-central"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Fluidly
+                                                MS Dynamics 365 Business Central
                                             </Link>.
                                         </p>
                                     </li>
@@ -1434,7 +1434,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">
-                                            Outdated Spreadsheet Data:
+                                            Automated Spreadsheet Data:
                                         </strong>
                                         </h5>
                                         <p className="text-black text-sm ">
@@ -1445,40 +1445,40 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/airtable", "Airtable")}
-                                                href="/tools/accounting/airtable"
+                                                id={gtmLinkIdFromHref("/tools/accounting/datarails", "Datarails")}
+                                                href="/tools/accounting/datarails"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Airtable
+                                                Datarails
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/clickup", "ClickUp")}
-                                                href="/tools/accounting/clickup"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-frog", "Cash Flow Frog")}
+                                                href="/tools/accounting/cash-flow-frog"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                ClickUp
+                                                Cash Flow Frog
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/smartsheet", "Smartsheet")}
-                                                href="/tools/accounting/smartsheet"
+                                                id={gtmLinkIdFromHref("/tools/accounting/fathom", "Fathom")}
+                                                href="/tools/accounting/fathom"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Smartsheet
+                                                Fathom
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/rows", "Rows")}
-                                                href="/tools/accounting/rows"
+                                                id={gtmLinkIdFromHref("/tools/accounting/liveplan", "LivePlan")}
+                                                href="/tools/accounting/liveplan"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Rows
+                                                LivePlan
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/notion", "Notion")}
-                                                href="/tools/accounting/notion"
+                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
+                                                href="/tools/accounting/float"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Notion
-                                            </Link>,&nbsp;
+                                                Float
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">
-                                            Enterprise Resource Planning:
+                                            Automated Enterprise Resource Planning:
                                         </strong>
                                         </h5>
                                         <p className="text-black text-sm ">
@@ -1489,34 +1489,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
-                                                href="/tools/accounting/float"
+                                                id={gtmLinkIdFromHref("/tools/accounting/netsuite", "NetSuite")}
+                                                href="/tools/accounting/netsuite"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Float
+                                                NetSuite
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/pulse", "Pulse")}
-                                                href="/tools/accounting/pulse"
+                                                id={gtmLinkIdFromHref("/tools/accounting/odoo", "Odoo")}
+                                                href="/tools/accounting/odoo"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Pulse
+                                                Odoo
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-analytics", "CashAnalytics")}
-                                                href="/tools/accounting/cash-analytics"
+                                                id={gtmLinkIdFromHref("/tools/accounting/zoho", "Zoho")}
+                                                href="/tools/accounting/zoho"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                CashAnalytics
+                                                Zoho
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/agicap", "Agicap")}
-                                                href="/tools/accounting/agicap"
+                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
+                                                href="/tools/accounting/acumatica"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Agicap
+                                                Acumatica
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/fluidly", "Fluidly")}
-                                                href="/tools/accounting/fluidly"
+                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "MS Dynamics 365 Business Central")}
+                                                href="/tools/accounting/ms-dynamics-365-business-central"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Fluidly
+                                                MS Dynamics 365 Business Central
                                             </Link>.
                                         </p>
                                     </li>
