@@ -82,11 +82,6 @@ export function SlotList({
                 )}
               >
                 <span className="block">{slot.startTime}</span>
-                {slot.tags && slot.tags.length > 0 && (
-                  <span className="mt-0.5 block text-[11px] font-normal text-white/70">
-                    {slot.tags.join(" · ")}
-                  </span>
-                )}
               </button>
             );
           })}
@@ -183,14 +178,17 @@ export function BookingWidget({
       )}
     >
       {/*
-        Every colour here is explicit. The calendar sits on the scheduler's rust
-        ground with no surface of its own, and the shadcn defaults it would
-        otherwise inherit (`text-muted-foreground`, the ghost button's inherited
-        colour) resolve near-black against it — which is why the selectable days
-        and the month label read as missing until hover paints a background
-        behind them. `selected` and `today` are the react-day-picker v9 keys;
-        the v8 spellings this used before (`day_selected`, `day_today`,
-        `day_button`) are silently ignored by v9 and styled nothing.
+        The calendar is a white card, not a transparent panel: shadcn's root
+        carries `bg-background`, which is oklch(1 0 0). Its text is therefore
+        dark, and must be forced dark — the scheduler is rendered inside page
+        wrappers that set `text-white`, and the ghost day button declares no
+        colour of its own, so a selectable day inherits white onto white and
+        disappears until hover paints `bg-muted` behind it. Disabled days never
+        vanished because they were explicitly coloured.
+
+        `selected` and `today` are the react-day-picker v9 keys. The v8
+        spellings this carried before (`day_selected`, `day_today`,
+        `day_button`) are unknown to v9 and styled nothing at all.
       */}
       <Calendar
         mode="single"
@@ -199,19 +197,23 @@ export function BookingWidget({
         disabled={isDisabled}
         startMonth={startMonth}
         endMonth={endMonth}
-        className="mx-auto w-fit max-w-full rounded-md border border-white/20 font-semibold text-white shadow lg:mx-0 lg:[--cell-size:--spacing(10)]"
+        className="mx-auto w-fit max-w-full rounded-md border font-semibold text-foreground shadow lg:mx-0 lg:[--cell-size:--spacing(10)]"
         classNames={{
           months: "relative flex w-fit max-w-full flex-col gap-2",
           month: "flex w-fit max-w-full flex-col gap-2",
           table: "w-fit max-w-full border-collapse",
-          caption_label: "select-none text-base font-semibold text-white lg:text-lg",
+          caption_label:
+            "select-none text-base font-semibold text-foreground lg:text-lg",
           weekday:
-            "flex-1 select-none text-[0.8rem] font-normal text-white/70",
-          day: "group/day relative aspect-square h-full w-full rounded-(--cell-radius) p-0 text-center text-white select-none",
-          selected: "rounded-(--cell-radius) bg-[#8C2703] text-white",
-          today: "rounded-(--cell-radius) font-bold text-white",
-          disabled: "text-white/40 opacity-100",
-          outside: "text-white/30 opacity-100",
+            "flex-1 select-none text-[0.8rem] font-normal text-muted-foreground",
+          day: "group/day relative aspect-square h-full w-full rounded-(--cell-radius) p-0 text-center text-foreground select-none",
+          // The day button's own data-[selected-single=true] rules are more
+          // specific than a plain descendant class, hence the important flag.
+          selected:
+            "rounded-(--cell-radius) [&_button]:!bg-[#8C2703] [&_button]:!text-white",
+          today: "font-bold text-foreground",
+          disabled: "text-foreground/40 opacity-100",
+          outside: "text-foreground/30 opacity-100",
         }}
       />
     </div>

@@ -124,31 +124,24 @@ export function SchedulerShell(): React.JSX.Element {
       className="w-full min-h-screen bg-[#C83803] lg:bg-[#8C2703]"
     >
       {/*
-        Full-bleed rather than `container`: the gutters are one grid column on
-        each side, so the scheduler widens with the viewport instead of stopping
-        at the container's 1320px cap. Below `lg` the grid is a single column and
-        those spacers collapse, so `px-4` carries the padding `container` used to.
+        Full-bleed rather than `container`, so the scheduler widens with the
+        viewport instead of stopping at the container's 1320px cap. The heading
+        takes nine columns and the calendar three, which fills the grid — so the
+        breathing room is page padding rather than spacer columns.
       */}
-      <div className="grid min-h-screen content-center items-center grid-cols-1 gap-8 px-4 py-12 lg:grid-cols-12 lg:px-0 lg:py-16 xl:gap-10">
-        <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
-
-        <div className="min-w-0 w-full lg:col-span-10 xl:col-span-4">
+      <div className="grid min-h-screen content-center items-center grid-cols-1 gap-8 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:px-10 lg:py-16 xl:gap-10 2xl:px-16">
+        <div className="min-w-0 w-full lg:col-span-9">
           <h2 className="max-w-full text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[4rem] 2xl:text-[4.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
             Schedule a Free
             <br />
             <span className="text-[#0B162A] tracking-tight">Consultation</span>
           </h2>
-          <p className="text-white text-lg lg:text-xl shadow-text">
+          <p className="text-white text-2xl text-center shadow-text pt-5">
             South Florida technology consultancy serving small businesses in
             Broward, Palm Beach, and Miami-Dade.
           </p>
         </div>
-        {/*
-          Explicit starts: between `lg` and `xl` both columns are 10 wide and
-          wrap onto their own rows, and auto-placement would drop the second one
-          at column 1 — inside the left gutter — rather than under the first.
-        */}
-        <div className="w-full lg:col-start-2 lg:col-span-10 xl:col-start-6 xl:col-span-6">
+        <div className="w-full lg:col-span-3">
           {holdError && (
             <p className="mb-3 text-sm font-medium text-white/90">{holdError}</p>
           )}
@@ -170,8 +163,8 @@ export function SchedulerShell(): React.JSX.Element {
           />
         </div>
 
-        {/* Times sit on their own row across all ten content columns. */}
-        <div className="w-full lg:col-start-2 lg:col-span-10">
+        {/* Times sit on their own row, across the full grid. */}
+        <div className="w-full lg:col-span-12">
           <SlotList
             key={selectedDate ?? "no-date"}
             availableSlots={availableSlots}
@@ -185,8 +178,6 @@ export function SchedulerShell(): React.JSX.Element {
             selectingSlot={selectingSlot}
           />
         </div>
-
-        <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
       </div>
     </article>
   );
