@@ -8,6 +8,7 @@ import type { ToolPageContent } from "@/types/tool";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
@@ -165,6 +166,8 @@ export default function ToolsPage() {
           </div>
         ))}
       </section>
+
+      <SchedulerShell />
     </div>
   );
 }

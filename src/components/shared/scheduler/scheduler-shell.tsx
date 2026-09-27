@@ -117,7 +117,7 @@ export function SchedulerShell(): React.JSX.Element {
 
   return (
     <article
-      id="consultationAppointment"
+      id="consultationAppointment2xl"
       className="w-full min-h-screen bg-[#C83803] lg:bg-[#8C2703]"
     >
       <div className="container grid min-h-screen content-center items-center grid-cols-1 gap-8 py-12 lg:grid-cols-12 lg:py-16 xl:gap-10">

@@ -8,6 +8,7 @@ import ToolsSection from '@/components/use-cases/marketing/intelligent-lead-capt
 import FAQSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/faq-section";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 
 const jsonLd: Graph = {
@@ -163,6 +164,8 @@ export default async function Page() {
                 <ToolsSection />
                 <FAQSection />
             </article>
+
+            <SchedulerShell />
 
         </>
     );

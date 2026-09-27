@@ -3,6 +3,7 @@ import SharedHeroSection from "@/components/shared/shared-hero-section";
 import OverviewSection from '@/components/use-cases/accounting/tax-compliance-regulations/overview-section'
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -164,6 +165,7 @@ export default async function Page() {
                 <OverviewSection />
 
             </article>
+            <SchedulerShell />
         </>
     )
 }

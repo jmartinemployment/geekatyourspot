@@ -5,6 +5,7 @@ import KeyCapabilitiesSection from "@/components/tools/active-campaign/key-capab
 import ImplementationSection from "@/components/tools/active-campaign/implementation-section";
 import type { SoftwareApplication, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
@@ -97,6 +98,8 @@ export default async function Page() {
             <OverviewToolSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />
+
+            <SchedulerShell />
 
         </>
     );

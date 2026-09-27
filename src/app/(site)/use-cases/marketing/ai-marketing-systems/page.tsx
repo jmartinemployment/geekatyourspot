@@ -9,6 +9,7 @@ import ToolsSection from "@/components/use-cases/marketing/ai-marketing-systems/
 import FAQSection from "@/components/use-cases/marketing/ai-marketing-systems/faq-section";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -200,6 +201,8 @@ export default async function Page() {
                 <ToolsSection />
                 <FAQSection />
             </article>
+
+            <SchedulerShell />
 
         </>
     );
