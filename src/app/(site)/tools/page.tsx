@@ -103,7 +103,7 @@ export default function ToolsPage() {
   };
 
   return (
-    <div className="text-white">
+    <div className="bg-[rgb(2,48,89)] text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
@@ -112,7 +112,7 @@ export default function ToolsPage() {
         title="AI Tools &amp; Platforms"
         summary="These are the platforms we help South Florida small businesses implement — set up, integrated, and automated so you see value faster and skip the failed pilots."
       />
-      <section className="container py-16 lg:py-24 bg-[rgb(2,48,89)]">
+      <section className="container py-16 lg:py-24">
 
         {departments.map((department) => (
           <div key={department} className="pt-14">
