@@ -41,9 +41,9 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
 
       <section className={cn("min-h-screen py-16 text-white", FIRST_SECTION_BACKGROUND)}>
         <div className="container">
-          {/* Three unequal columns: posts lead, use cases beside them, tools narrowest. */}
+          {/* Use cases lead the page at span 8; posts and tools flank them as narrow rails. */}
           <div className="grid grid-cols-12 gap-x-8 gap-y-12">
-            <div className="col-span-12 lg:col-span-5">
+            <div className="col-span-12 lg:col-span-2">
               <h2
                 id="latest-posts"
                 className="text-[6vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-4xl md:text-5xl lg:text-[3.5rem]"
@@ -111,7 +111,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               )}
             </div>
 
-            <div className="col-span-12 lg:col-span-4">
+            <div className="col-span-12 lg:col-span-8">
               <h2
                 id="use-cases"
                 className="text-[5vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-3xl lg:text-4xl"
@@ -138,7 +138,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               ))}
             </div>
 
-            <div className="col-span-12 lg:col-span-3">
+            <div className="col-span-12 lg:col-span-2">
               <h2
                 id="tools"
                 className="text-[5vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-3xl lg:text-4xl"
