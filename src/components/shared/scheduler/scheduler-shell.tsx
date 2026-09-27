@@ -141,7 +141,7 @@ export function SchedulerShell(): React.JSX.Element {
           </h2>
           <p className="text-white text-2xl text-center shadow-text pt-5">
             South Florida technology consultancy serving small businesses in
-            Broward, Palm Beach, and Miami-Dade.
+            Broward and Palm Beach.
           </p>
         </div>
         <div className="w-full lg:col-span-3">
