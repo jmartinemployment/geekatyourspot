@@ -125,12 +125,15 @@ export function SchedulerShell(): React.JSX.Element {
     >
       {/*
         Full-bleed rather than `container`, so the scheduler widens with the
-        viewport instead of stopping at the container's 1320px cap. The heading
-        takes nine columns and the calendar three, which fills the grid — so the
-        breathing room is page padding rather than spacer columns.
+        viewport instead of stopping at the container's 1320px cap. The twelve
+        columns divide 1 / 7 / 3 / 1: a gutter column each side, heading seven,
+        calendar three. Below `lg` the grid is a single column and those spacers
+        collapse, so `px-4` carries the padding `container` used to supply.
       */}
-      <div className="grid min-h-screen content-center items-center grid-cols-1 gap-8 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:px-10 lg:py-16 xl:gap-10 2xl:px-16">
-        <div className="min-w-0 w-full lg:col-span-9">
+      <div className="grid min-h-screen content-center items-center grid-cols-1 gap-8 px-4 py-12 lg:grid-cols-12 lg:px-0 lg:py-16 xl:gap-10">
+        <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
+
+        <div className="min-w-0 w-full lg:col-span-7">
           <h2 className="max-w-full text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[4rem] 2xl:text-[4.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
             Schedule a Free
             <br />
@@ -163,8 +166,8 @@ export function SchedulerShell(): React.JSX.Element {
           />
         </div>
 
-        {/* Times sit on their own row, across the full grid. */}
-        <div className="w-full lg:col-span-12">
+        {/* Times sit on their own row, across the ten columns inside the gutters. */}
+        <div className="w-full lg:col-start-2 lg:col-span-10">
           <SlotList
             key={selectedDate ?? "no-date"}
             availableSlots={availableSlots}
@@ -178,6 +181,8 @@ export function SchedulerShell(): React.JSX.Element {
             selectingSlot={selectingSlot}
           />
         </div>
+
+        <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
       </div>
     </article>
   );
