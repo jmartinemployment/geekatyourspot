@@ -120,8 +120,16 @@ export function SchedulerShell(): React.JSX.Element {
       id="consultationAppointment2xl"
       className="w-full min-h-screen bg-[#C83803] lg:bg-[#8C2703]"
     >
-      <div className="container grid min-h-screen content-center items-center grid-cols-1 gap-8 py-12 lg:grid-cols-12 lg:py-16 xl:gap-10">
-        <div className="min-w-0 w-full lg:col-span-12 xl:col-span-5">
+      {/*
+        Full-bleed rather than `container`: the gutters are one grid column on
+        each side, so the scheduler widens with the viewport instead of stopping
+        at the container's 1320px cap. Below `lg` the grid is a single column and
+        those spacers collapse, so `px-4` carries the padding `container` used to.
+      */}
+      <div className="grid min-h-screen content-center items-center grid-cols-1 gap-8 px-4 py-12 lg:grid-cols-12 lg:px-0 lg:py-16 xl:gap-10">
+        <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
+
+        <div className="min-w-0 w-full lg:col-span-10 xl:col-span-4">
           <h2 className="max-w-full text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[4rem] 2xl:text-[4.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
             Schedule a Free
             <br />
@@ -132,7 +140,12 @@ export function SchedulerShell(): React.JSX.Element {
             Broward, Palm Beach, and Miami-Dade.
           </p>
         </div>
-        <div className="w-full lg:col-span-12 xl:col-span-7">
+        {/*
+          Explicit starts: between `lg` and `xl` both columns are 10 wide and
+          wrap onto their own rows, and auto-placement would drop the second one
+          at column 1 — inside the left gutter — rather than under the first.
+        */}
+        <div className="w-full lg:col-start-2 lg:col-span-10 xl:col-start-6 xl:col-span-6">
           {holdError && (
             <p className="mb-3 text-sm font-medium text-white/90">{holdError}</p>
           )}
@@ -160,6 +173,8 @@ export function SchedulerShell(): React.JSX.Element {
             onHoldExpired={handleHoldExpired}
           />
         </div>
+
+        <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
       </div>
     </article>
   );
