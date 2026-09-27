@@ -134,7 +134,7 @@ export function SchedulerShell(): React.JSX.Element {
         <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
 
         <div className="min-w-0 w-full lg:col-span-7">
-          <h2 className="max-w-full text-white text-[12vw] sm:text-6xl md:text-7xl lg:text-7xl xl:text-[4rem] 2xl:text-[4.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text lg:pb-5">
+          <h2 className="text-white text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
             Schedule a Free
             <br />
             <span className="text-[#0B162A] tracking-tight">Consultation</span>
