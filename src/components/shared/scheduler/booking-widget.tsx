@@ -212,8 +212,12 @@ export function BookingWidget({
           selected:
             "rounded-(--cell-radius) [&_button]:!bg-[#8C2703] [&_button]:!text-white",
           today: "font-bold text-foreground",
-          disabled: "text-foreground/40 opacity-100",
-          outside: "text-foreground/30 opacity-100",
+          // Lightened so the two selectable days carry the contrast. The
+          // descendant selector is needed because the ghost button sets its own
+          // colour on hover, which would otherwise darken a disabled day.
+          disabled:
+            "text-foreground/25 opacity-100 [&_button]:text-foreground/25 [&_button]:hover:text-foreground/25 [&_button]:hover:bg-transparent",
+          outside: "text-foreground/20 opacity-100",
         }}
       />
     </div>
