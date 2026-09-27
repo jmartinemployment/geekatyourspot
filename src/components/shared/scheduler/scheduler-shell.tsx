@@ -1,7 +1,10 @@
 "use client";
 
 import React, { useState, useCallback, useEffect, useRef } from "react";
-import { BookingWidget } from "@/components/shared/scheduler/booking-widget";
+import {
+  BookingWidget,
+  SlotList,
+} from "@/components/shared/scheduler/booking-widget";
 import { ContactDrawer } from "@/components/shared/scheduler/contact-drawer";
 import { holdSlot, releaseSlotHold } from "@/lib/actions/hold-slot";
 import type {
@@ -152,17 +155,10 @@ export function SchedulerShell(): React.JSX.Element {
           <BookingWidget
             selectedDate={selectedDate}
             onDateChange={handleDateChange}
-            availableSlots={availableSlots}
             onSlotsLoading={handleSlotsLoading}
             onSlotsLoaded={handleSlotsLoaded}
             onSlotsError={handleSlotsError}
             slotsLoading={slotsLoading}
-            slotsError={slotsError}
-            selectedSlot={selectedSlot}
-            onSlotSelect={(slot) => {
-              void handleSlotSelect(slot);
-            }}
-            selectingSlot={selectingSlot}
           />
           <ContactDrawer
             open={drawerOpen}
@@ -171,6 +167,22 @@ export function SchedulerShell(): React.JSX.Element {
             selectedSlot={selectedSlot}
             hold={hold}
             onHoldExpired={handleHoldExpired}
+          />
+        </div>
+
+        {/* Times sit on their own row across all ten content columns. */}
+        <div className="w-full lg:col-start-2 lg:col-span-10">
+          <SlotList
+            key={selectedDate ?? "no-date"}
+            availableSlots={availableSlots}
+            selectedSlot={selectedSlot}
+            onSlotSelect={(slot) => {
+              void handleSlotSelect(slot);
+            }}
+            slotsLoading={slotsLoading}
+            slotsError={slotsError}
+            selectedDate={selectedDate}
+            selectingSlot={selectingSlot}
           />
         </div>
 

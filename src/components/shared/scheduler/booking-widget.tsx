@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef } from "react";
 import { Calendar } from "@/components/ui/calendar";
 import { cn } from "@/lib/utils";
 import {
@@ -8,7 +8,6 @@ import {
   isSelectableBusinessDay,
   listNextBusinessDayKeys,
   toDateKey,
-  visibleSlotLimit,
 } from "@/lib/booking/scarcity";
 import type { TimeSlot } from "./state/types";
 
@@ -18,26 +17,13 @@ const RETRY_DELAY_MS = 1200;
 interface BookingWidgetProps {
   selectedDate: string | null;
   onDateChange: (date: string) => void;
-  availableSlots: TimeSlot[];
   onSlotsLoading: () => void;
   onSlotsLoaded: (slots: TimeSlot[]) => void;
   onSlotsError: () => void;
   slotsLoading: boolean;
-  slotsError: boolean;
-  selectedSlot: TimeSlot | null;
-  onSlotSelect: (slot: TimeSlot) => void;
-  selectingSlot?: boolean;
 }
 
-function SlotList({
-  availableSlots,
-  selectedSlot,
-  onSlotSelect,
-  slotsLoading,
-  slotsError,
-  selectedDate,
-  selectingSlot,
-}: {
+interface SlotListProps {
   availableSlots: TimeSlot[];
   selectedSlot: TimeSlot | null;
   onSlotSelect: (slot: TimeSlot) => void;
@@ -45,19 +31,23 @@ function SlotList({
   slotsError: boolean;
   selectedDate: string | null;
   selectingSlot?: boolean;
-}): React.JSX.Element {
-  const [expanded, setExpanded] = useState(false);
+}
 
-  const limit = visibleSlotLimit(availableSlots.length);
-  const visible = expanded
-    ? availableSlots
-    : availableSlots.slice(0, limit);
-  const hiddenCount = availableSlots.length - visible.length;
-  const spotLabel =
-    availableSlots.length === 1
-      ? "1 spot left this day"
-      : `${String(availableSlots.length)} spots left this day`;
-
+/**
+ * Rendered as its own row of the scheduler grid rather than beside the
+ * calendar, so every slot for the day is laid out across the full content
+ * width. All of them show: there is no longer a reveal control, so a limit
+ * here would put times permanently out of reach.
+ */
+export function SlotList({
+  availableSlots,
+  selectedSlot,
+  onSlotSelect,
+  slotsLoading,
+  slotsError,
+  selectedDate,
+  selectingSlot,
+}: Readonly<SlotListProps>): React.JSX.Element {
   return (
     <div className="w-full space-y-3">
       {!slotsError &&
@@ -70,51 +60,37 @@ function SlotList({
         )}
 
       {availableSlots.length > 0 && (
-        <>
-          <p className="text-white text-sm font-semibold tracking-wide">
-            {spotLabel}
-          </p>
-          <div
-            className={cn(
-              "grid grid-cols-1 gap-2 transition-opacity duration-200 sm:grid-cols-2",
-              (slotsLoading || selectingSlot) &&
-                "opacity-40 pointer-events-none",
-            )}
-          >
-            {visible.map((slot) => {
-              const isSelected = selectedSlot?.isoStart === slot.isoStart;
-              return (
-                <button
-                  key={slot.isoStart}
-                  type="button"
-                  onClick={() => onSlotSelect(slot)}
-                  className={cn(
-                    "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 text-left",
-                    isSelected
-                      ? "border-[#8C2703] bg-[#8C2703] text-white"
-                      : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
-                  )}
-                >
-                  <span className="block">{slot.startTime}</span>
-                  {slot.tags && slot.tags.length > 0 && (
-                    <span className="mt-0.5 block text-[11px] font-normal text-white/70">
-                      {slot.tags.join(" · ")}
-                    </span>
-                  )}
-                </button>
-              );
-            })}
-          </div>
-          {hiddenCount > 0 && (
-            <button
-              type="button"
-              onClick={() => setExpanded(true)}
-              className="text-sm font-medium text-white underline-offset-4 hover:underline"
-            >
-              Show more times
-            </button>
+        <div
+          className={cn(
+            "grid grid-cols-2 gap-2 transition-opacity duration-200 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6",
+            (slotsLoading || selectingSlot) &&
+              "opacity-40 pointer-events-none",
           )}
-        </>
+        >
+          {availableSlots.map((slot) => {
+            const isSelected = selectedSlot?.isoStart === slot.isoStart;
+            return (
+              <button
+                key={slot.isoStart}
+                type="button"
+                onClick={() => onSlotSelect(slot)}
+                className={cn(
+                  "rounded-lg border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 text-left",
+                  isSelected
+                    ? "border-[#8C2703] bg-[#8C2703] text-white"
+                    : "border-white/20 bg-white/5 text-white hover:border-white/50 hover:bg-white/10",
+                )}
+              >
+                <span className="block">{slot.startTime}</span>
+                {slot.tags && slot.tags.length > 0 && (
+                  <span className="mt-0.5 block text-[11px] font-normal text-white/70">
+                    {slot.tags.join(" · ")}
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
       )}
     </div>
   );
@@ -123,27 +99,16 @@ function SlotList({
 export function BookingWidget({
   selectedDate,
   onDateChange,
-  availableSlots,
   onSlotsLoading,
   onSlotsLoaded,
   onSlotsError,
   slotsLoading,
-  slotsError,
-  selectedSlot,
-  onSlotSelect,
-  selectingSlot = false,
 }: Readonly<BookingWidgetProps>): React.JSX.Element {
   const attemptRef = useRef(0);
   const cancelledRef = useRef(false);
 
-  const allowedDayKeys = useMemo(
-    () => listNextBusinessDayKeys(),
-    [],
-  );
-  const allowedSet = useMemo(
-    () => new Set(allowedDayKeys),
-    [allowedDayKeys],
-  );
+  const allowedDayKeys = useMemo(() => listNextBusinessDayKeys(), []);
+  const allowedSet = useMemo(() => new Set(allowedDayKeys), [allowedDayKeys]);
 
   const startMonth = useMemo(() => {
     const first = firstSelectableBusinessDay();
@@ -210,53 +175,45 @@ export function BookingWidget({
     return !isSelectableBusinessDay(date, allowedSet);
   }
 
-  const calendarShared = {
-    mode: "single" as const,
-    selected: selectedDateObj,
-    onSelect: handleDateSelect,
-    disabled: isDisabled,
-    startMonth,
-    endMonth,
-  };
-
   return (
-    <div className="grid w-full grid-cols-1 items-start gap-6 py-5 lg:grid-cols-[auto_minmax(0,1fr)] lg:gap-8">
-      <section className="min-w-0">
-        <p className="mb-2 text-sm font-semibold tracking-wide text-white">
-          Choose a date
-        </p>
-        <Calendar
-          {...calendarShared}
-          className="mx-auto w-fit max-w-full rounded-md border shadow font-semibold lg:mx-0 lg:[--cell-size:--spacing(10)]"
-          classNames={{
-            months: "relative flex w-fit max-w-full flex-col gap-2",
-            month: "flex w-fit max-w-full flex-col gap-2",
-            table: "w-fit max-w-full border-collapse",
-            day_selected: "bg-[#8C2703] text-white hover:bg-[#8C2703]",
-            day_today: "font-bold",
-            day_button: "disabled:opacity-100",
-            disabled: "text-foreground/55 opacity-100",
-            outside: "text-foreground/40 opacity-100",
-            caption_label: "text-base font-semibold lg:text-lg",
-          }}
-        />
-      </section>
-
-      <section className="min-w-0">
-        <p className="mb-2 text-sm font-semibold tracking-wide text-white">
-          Available times
-        </p>
-        <SlotList
-          key={selectedDate ?? "no-date"}
-          availableSlots={availableSlots}
-          selectedSlot={selectedSlot}
-          onSlotSelect={onSlotSelect}
-          slotsLoading={slotsLoading}
-          slotsError={slotsError}
-          selectedDate={selectedDate}
-          selectingSlot={selectingSlot}
-        />
-      </section>
+    <div
+      className={cn(
+        "w-full transition-opacity duration-200",
+        slotsLoading && "opacity-80",
+      )}
+    >
+      {/*
+        Every colour here is explicit. The calendar sits on the scheduler's rust
+        ground with no surface of its own, and the shadcn defaults it would
+        otherwise inherit (`text-muted-foreground`, the ghost button's inherited
+        colour) resolve near-black against it — which is why the selectable days
+        and the month label read as missing until hover paints a background
+        behind them. `selected` and `today` are the react-day-picker v9 keys;
+        the v8 spellings this used before (`day_selected`, `day_today`,
+        `day_button`) are silently ignored by v9 and styled nothing.
+      */}
+      <Calendar
+        mode="single"
+        selected={selectedDateObj}
+        onSelect={handleDateSelect}
+        disabled={isDisabled}
+        startMonth={startMonth}
+        endMonth={endMonth}
+        className="mx-auto w-fit max-w-full rounded-md border border-white/20 font-semibold text-white shadow lg:mx-0 lg:[--cell-size:--spacing(10)]"
+        classNames={{
+          months: "relative flex w-fit max-w-full flex-col gap-2",
+          month: "flex w-fit max-w-full flex-col gap-2",
+          table: "w-fit max-w-full border-collapse",
+          caption_label: "select-none text-base font-semibold text-white lg:text-lg",
+          weekday:
+            "flex-1 select-none text-[0.8rem] font-normal text-white/70",
+          day: "group/day relative aspect-square h-full w-full rounded-(--cell-radius) p-0 text-center text-white select-none",
+          selected: "rounded-(--cell-radius) bg-[#8C2703] text-white",
+          today: "rounded-(--cell-radius) font-bold text-white",
+          disabled: "text-white/40 opacity-100",
+          outside: "text-white/30 opacity-100",
+        }}
+      />
     </div>
   );
 }
