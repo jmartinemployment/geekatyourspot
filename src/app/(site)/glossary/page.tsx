@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import GlossaryHeroSection from "@/components/glossary/glossary-hero";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { getAllGlossaryTerms } from "@/lib/glossary";
+import { getAllGlossaryTerms, getGlossaryTerm } from "@/lib/glossary";
 import type { GlossaryTerm } from "@/types/glossary";
 import { cn } from "@/lib/utils";
 import type { DefinedTermSet, WithContext } from "schema-dts";
@@ -69,6 +69,43 @@ function letterHref(letter: string): string {
     : `/glossary?letter=${encodeURIComponent(letter)}`;
 }
 
+const BLURB_MAX = 170;
+
+/** Trim to a word boundary so a card never ends mid-word. */
+function clamp(text: string): string {
+  const collapsed = text.replace(/\s+/g, " ").trim();
+  if (collapsed.length <= BLURB_MAX) return collapsed;
+  const cut = collapsed.slice(0, BLURB_MAX);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${(lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[,;:.]$/, "")}…`;
+}
+
+interface CardTerm extends GlossaryTerm {
+  blurb?: string;
+}
+
+/**
+ * The list endpoint carries no definitions, and shortSummary is null for most
+ * terms, so a card would otherwise be a bare title. Pagination is what makes
+ * the second call affordable: only one letter is on screen, so this fetches
+ * detail for those terms alone, not all 273. getGlossaryTerm returns null when
+ * the Geek API is unreachable, leaving the card title-only rather than failing.
+ */
+async function withBlurbs(terms: GlossaryTerm[]): Promise<CardTerm[]> {
+  return Promise.all(
+    terms.map(async (term): Promise<CardTerm> => {
+      if (term.shortSummary) {
+        return { ...term, blurb: clamp(term.shortSummary) };
+      }
+
+      const full = await getGlossaryTerm(term.slug);
+      const text = full?.definitions?.[0]?.text ?? full?.definition;
+
+      return { ...term, blurb: text ? clamp(text) : undefined };
+    }),
+  );
+}
+
 type GlossaryPageProps = Readonly<{
   searchParams: Promise<{ letter?: string }>;
 }>;
@@ -128,7 +165,7 @@ export default async function GlossaryPage({
   const terms = await getAllGlossaryTerms();
   const groups = groupByLetter(terms);
   const active = resolveLetter(letter, groups);
-  const visible = groups.get(active) ?? [];
+  const visible = await withBlurbs(groups.get(active) ?? []);
 
   const jsonLd: WithContext<DefinedTermSet> = {
     "@context": "https://schema.org",
@@ -221,9 +258,9 @@ export default async function GlossaryPage({
                   {term.category}
                 </p>
               )}
-              {term.shortSummary && (
+              {term.blurb && (
                 <p className="pt-3 text-md font-normal text-white/80">
-                  {term.shortSummary}
+                  {term.blurb}
                 </p>
               )}
               <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">

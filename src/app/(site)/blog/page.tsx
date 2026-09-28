@@ -12,7 +12,9 @@ import { cn } from "@/lib/utils";
 import { getBlogIndexPage, getTotalPages } from "./pagination";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Geek Post",
+  description:
+    "Dispatches from the actual work — what AI does for a South Florida small business across content, campaigns, lead capture, cash flow and compliance, and where it falls short.",
   alternates: { canonical: "/blog" },
 };
 
@@ -35,8 +37,8 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   return (
     <>
       <BlogHeroSection
-        title="Blog"
-        summary="Practical guides to putting AI to work in a small business — from content and campaigns to lead capture, cash flow, and compliance."
+        title="Geek Post"
+        summary="Dispatches from the actual work — what AI does for a South Florida small business across content, campaigns, lead capture, cash flow and compliance, and where it falls short."
       />
 
       <section className={cn("min-h-screen py-16 text-white", FIRST_SECTION_BACKGROUND)}>

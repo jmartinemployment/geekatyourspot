@@ -41,7 +41,9 @@ export function BlogHeroSection({
               {title}
             </h1>
 
-            <p className="pt-3 text-xl text-white shadow-text lg:text-2xl">{summary}</p>
+            <p className="text-white text-2xl font-normal shadow-text">
+              {summary}
+            </p>
 
             <div className="pt-6">
               <Link
