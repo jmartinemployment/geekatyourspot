@@ -44,14 +44,14 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Key Capabilities</h2>
-              <p className="text-md text-white shadow-text pt-3">Great Expectations offers a robust set of features that make it an indispensable tool for ensuring data quality in
-                automated ad spend optimization. Here are some of its key capabilities:</p>
+              <p className="text-md text-white shadow-text pt-3">Great Expectations offers a robust set of features that make it an indispensable tool for ensuring <GlossaryLink slug="data-quality">data quality</GlossaryLink> in
+                automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some of its key capabilities:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data Validation Framework: Great Expectations provides a comprehensive framework for validating data. It
                   allows users to define expectations, which are conditions that data must satisfy. This ensures that only
                   high-quality data is used in decision-making processes.</li>
                 <li>Automated Testing: The tool supports automated testing of data against predefined expectations. This
-                  automation helps in identifying data anomalies quickly, reducing manual effort and ensuring that data issues
+                  <GlossaryLink slug="marketing-automation">automation</GlossaryLink> helps in identifying data anomalies quickly, reducing manual effort and ensuring that data issues
                   do not go unnoticed.</li>
                 <li>Integration with Data Pipelines: Great Expectations can be easily integrated into existing data pipelines.
                   This seamless integration ensures that data validation is part of the data flow, preventing bad data from

@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function CleanEnrichSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Sales teams often grapple with the challenge of messy data that leads to inaccurate lead scoring. Duplicate entries, incomplete details, and spam submissions can inflate lead counts, giving a false impression of success. This wastes valuable sales time and resources in chasing non-existent or unqualified leads. To address this pain point, AI tools can automate the cleaning, enriching, and de-duplicating of data, helping teams focus on genuine opportunities.
+        Sales teams often grapple with the challenge of messy data that leads to inaccurate <GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>. Duplicate entries, incomplete details, and spam submissions can inflate lead counts, giving a false impression of success. This wastes valuable sales time and resources in chasing non-existent or unqualified leads. To address this pain point, AI tools can automate the cleaning, enriching, and de-duplicating of data, helping teams focus on genuine opportunities.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         <Link id="tools-marketing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">
@@ -24,7 +25,7 @@ export default function CleanEnrichSection() {
         <Link id="tools-marketing-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">
           Pipedrive
         </Link>
-        &nbsp;can automatically match and merge duplicate contacts, ensuring your CRM remains clean and reliable. This saves time and prevents sales reps from contacting the same lead multiple times, which can lead to a poor customer experience.
+        &nbsp;can automatically match and merge duplicate contacts, ensuring your <GlossaryLink slug="crm">CRM</GlossaryLink> remains clean and reliable. This saves time and prevents sales reps from contacting the same lead multiple times, which can lead to a poor customer experience.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         In addition to cleaning and de-duplicating, it&apos;s crucial to block obvious spam from entering your system.&nbsp;

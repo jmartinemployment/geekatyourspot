@@ -40,8 +40,8 @@ export default function OverviewToolSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview</h2>
-              <p className="text-md text-white shadow-text pt-3">Omneky is an innovative AI-driven platform designed to enhance automated ad spend optimization, providing businesses
-                with the tools they need to maximize their advertising ROI. By leveraging advanced machine learning algorithms,
+              <p className="text-md text-white shadow-text pt-3">Omneky is an innovative AI-driven platform designed to enhance automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, providing businesses
+                with the tools they need to maximize their advertising <GlossaryLink slug="kpi">ROI</GlossaryLink>. By leveraging advanced <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms,
                 Omneky enables companies to precisely target their audiences, optimize ad placements, and manage budgets more
                 effectively. This tool is particularly beneficial for businesses in Palm Beach and Broward counties that struggle
                 with inefficient ad spend and complex data analysis.</p>

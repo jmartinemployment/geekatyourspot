@@ -37,13 +37,13 @@ export default function WhenToUseSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Use</h2>
-              <p className="text-md text-white shadow-text pt-3">Smartly.io is an ideal choice for businesses looking to optimize their ad spend through automation and data-driven
+              <p className="text-md text-white shadow-text pt-3">Smartly.io is an ideal choice for businesses looking to optimize their ad spend through <GlossaryLink slug="marketing-automation">automation</GlossaryLink> and <GlossaryLink slug="analytics">data-driven</GlossaryLink>
                 insights. Here are scenarios where Smartly.io can be particularly beneficial:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High Ad Spend Volumes: For companies managing large volumes of ad spend across multiple channels, Smartly.io
                   offers the automation and efficiency needed to manage these campaigns effectively.</li>
                 <li>Complex Campaign Structures: Businesses with complex campaign structures that require frequent adjustments
-                  and optimizations can benefit from Smartly.io&#39;s AI-driven automation capabilities, reducing the need for
+                  and optimizations can benefit from Smartly.io&#39;s <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> automation capabilities, reducing the need for
                   constant manual intervention.</li>
                 <li>Need for Cross-Platform Consistency: If maintaining consistent messaging across various social media
                   platforms is a priority, Smartly.io&#39;s centralized management system is invaluable.</li>

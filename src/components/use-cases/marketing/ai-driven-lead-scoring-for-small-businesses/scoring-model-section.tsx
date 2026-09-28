@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ScoringModelSection() {
   const body = (
@@ -10,7 +11,7 @@ export default function ScoringModelSection() {
         Creating a scoring model begins with defining what makes a lead valuable. This involves assessing various factors such as fit, intent, and engagement. The model assigns points to each factor, leading to a total score out of 100. This approach offers a straightforward way to determine lead quality, enabling sales teams to focus on high-potential prospects.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        An effective lead scoring model consists of both positive and negative criteria. Positive criteria add points, indicating a higher likelihood of conversion, while negative criteria subtract points, signaling potential disqualification. Let&apos;s explore how to structure these criteria.
+        An effective <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink> model consists of both positive and negative criteria. Positive criteria add points, indicating a higher likelihood of conversion, while negative criteria subtract points, signaling potential disqualification. Let&apos;s explore how to structure these criteria.
       </p>
       <h3 id="define-positive-criteria" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Define Positive Criteria
@@ -58,7 +59,7 @@ export default function ScoringModelSection() {
         <Link id="tools-marketing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">
           6sense
         </Link>
-        &nbsp;can help automate the identification of negative criteria. These tools use machine learning to flag leads that fall outside desired parameters, ensuring the sales team focuses on qualified prospects.
+        &nbsp;can help automate the identification of negative criteria. These tools use <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink> to flag leads that fall outside desired parameters, ensuring the sales team focuses on qualified prospects.
       </p>
       <h3 id="evaluate-and-adjust-scoring-model" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Evaluate and Adjust Scoring Model

@@ -43,7 +43,7 @@ export default function ImplementationSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
               <p className="text-md text-white shadow-text pt-3">Implementing Madgicx requires careful planning to ensure a smooth transition and effective use of its capabilities.
-                Here are some specific considerations for businesses looking to deploy Madgicx for automated ad spend optimization.</p>
+                Here are some specific considerations for businesses looking to deploy Madgicx for automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Madgicx offers pre-built connectors and templated setups that facilitate quick
                   integration with existing marketing systems. This accelerates the deployment process, allowing businesses to
@@ -52,7 +52,7 @@ export default function ImplementationSection() {
                   used. This involves understanding how audience data, creative content, and performance metrics will be
                   organized and accessed within the platform.</li>
                 <li>Workflow and Process Configuration: Madgicx requires setting up specific workflows for ad approval and
-                  campaign management. This includes configuring automation logic to ensure that ads are optimized and
+                  campaign management. This includes configuring <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic to ensure that ads are optimized and
                   deployed efficiently.</li>
                 <li>Custom Code and Development: While Madgicx primarily relies on configuration, there may be instances where
                   custom development is needed to integrate with other tools or systems. Understanding the platform&#39;s API

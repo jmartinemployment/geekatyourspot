@@ -44,7 +44,7 @@ export default function ImplementationSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
-              <p className="text-md text-white shadow-text pt-3">Implementing Canva into your business&#39;s content creation workflow involves several considerations to ensure a
+              <p className="text-md text-white shadow-text pt-3">Implementing Canva into your business&#39;s <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> workflow involves several considerations to ensure a
                 smooth transition and optimal utilization of its features. Here are some key areas to focus on:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Canva&#39;s pre-built templates and intuitive interface significantly reduce the time
@@ -57,7 +57,7 @@ export default function ImplementationSection() {
                   processes and design workflows. Businesses should define these processes to ensure efficient team collaboration
                   and quality control.</li>
                 <li>Custom Code and Development: Canva is largely a configuration-based platform with limited need for custom code.
-                  However, businesses can leverage Canva&#39;s API for advanced integrations and automation, enhancing their
+                  However, businesses can leverage Canva&#39;s <GlossaryLink slug="api">API</GlossaryLink> for advanced <GlossaryLink slug="api-integration">integrations</GlossaryLink> and automation, enhancing their
                   existing workflows.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">Geek At Your Spot can assist businesses in navigating these considerations by providing expert guidance on how to

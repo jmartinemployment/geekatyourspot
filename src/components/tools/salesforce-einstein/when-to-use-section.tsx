@@ -44,13 +44,13 @@ export default function WhenToUseSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Use</h2>
-              <p className="text-md text-white shadow-text pt-3">Salesforce Einstein is particularly beneficial for businesses looking to enhance their ad spend optimization through
-                AI-driven insights and automation. It is ideal for organizations that are already using Salesforce and want to
+              <p className="text-md text-white shadow-text pt-3">Salesforce Einstein is particularly beneficial for businesses looking to enhance their <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> through
+                <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> insights and automation. It is ideal for organizations that are already using Salesforce and want to
                 integrate advanced AI capabilities into their existing workflows. Here are some scenarios where Salesforce Einstein
                 can be especially valuable.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>High Ad Spend Volume: Businesses with significant ad budgets can benefit from Salesforce Einstein&#39;s
-                  ability to optimize spending and improve ROI. The platform&#39;s predictive analytics and real-time data
+                  ability to optimize spending and improve <GlossaryLink slug="kpi">ROI</GlossaryLink>. The platform&#39;s <GlossaryLink slug="analytics">predictive analytics</GlossaryLink> and real-time data
                   processing ensure that ad dollars are spent wisely.</li>
                 <li>Complex Marketing Data: Organizations dealing with large volumes of marketing data can leverage Salesforce
                   Einstein to gain actionable insights. The platform&#39;s AI capabilities help distill complex data into

@@ -44,7 +44,7 @@ export default function ImplementationSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
-              <p className="text-md text-white shadow-text pt-3">Implementing Salesforce Einstein for automated ad spend optimization requires careful planning and execution. Here
+              <p className="text-md text-white shadow-text pt-3">Implementing Salesforce Einstein for automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> requires careful planning and execution. Here
                 are some specific considerations to ensure a successful deployment.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Salesforce Einstein offers pre-built connectors and templated setups that simplify
@@ -53,7 +53,7 @@ export default function ImplementationSection() {
                 <li>Data Model Design: A well-structured data model is crucial for effective use of Salesforce Einstein.
                   Businesses need to map their data accurately to ensure that the AI can analyze it effectively. This involves
                   identifying key data points and ensuring they are captured consistently across systems.</li>
-                <li>Workflow and Process Configuration: Configuring workflows and automation logic is essential for leveraging
+                <li>Workflow and Process Configuration: Configuring workflows and <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic is essential for leveraging
                   Salesforce Einstein&#39;s capabilities. This includes setting up approval chains and routing rules to
                   streamline ad management processes. Businesses should ensure that these configurations align with their
                   overall marketing strategies.</li>

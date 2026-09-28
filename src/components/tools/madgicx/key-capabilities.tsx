@@ -51,7 +51,7 @@ export default function KeyCapabilitiesSection() {
                 <li>Creative Intelligence: The platform provides insights into which creative elements are performing best,
                   enabling marketers to optimize their ad content. This feature helps in crafting messages that resonate with
                   the target audience, leading to higher <GlossaryLink slug="engagement-rate">engagement rates</GlossaryLink>.</li>
-                <li>Performance Tracking: Madgicx offers robust analytics tools that track the performance of ad campaigns in
+                <li>Performance Tracking: Madgicx offers robust <GlossaryLink slug="analytics">analytics</GlossaryLink> tools that track the performance of ad campaigns in
                   real-time. These insights allow businesses to make informed decisions about where to allocate their ad spend
                   for maximum impact.</li>
                 <li>Real-Time Bidding Optimization: By adjusting bids in real-time based on data-driven insights, Madgicx

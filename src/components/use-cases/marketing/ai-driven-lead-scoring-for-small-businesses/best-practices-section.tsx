@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BestPracticesSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Without effective lead scoring, small businesses can waste valuable time and resources on leads that are unlikely to convert. This can lead to missed opportunities and decreased sales. By implementing best practices in lead scoring, businesses can prioritize high-quality leads and improve their sales efficiency. Geek At Your Spot leverages AI-driven systems to help clients establish robust lead scoring models, ensuring that every lead is evaluated accurately and efficiently.
+        Without effective <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>, small businesses can waste valuable time and resources on leads that are unlikely to convert. This can lead to missed opportunities and decreased sales. By implementing best practices in lead scoring, businesses can prioritize high-quality leads and improve their sales efficiency. Geek At Your Spot leverages AI-driven systems to help clients establish robust lead scoring models, ensuring that every lead is evaluated accurately and efficiently.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         One of the key practices in lead scoring is to start with a clear understanding of your ideal customer profile. Without this, businesses may find themselves chasing leads that do not align with their target market, leading to lower conversion rates. Geek At Your Spot assists businesses in defining their ideal customer profiles by analyzing existing customer data and market trends, which informs the creation of precise lead scoring models.
@@ -13,7 +14,7 @@ export default function BestPracticesSection() {
         Data-Driven Scoring Criteria
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek At Your Spot emphasizes the use of data-driven scoring criteria. By leveraging AI and machine learning algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
+        Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek At Your Spot emphasizes the use of data-driven scoring criteria. By leveraging AI and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink> algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         To implement data-driven scoring, Geek At Your Spot uses tools like&nbsp;
@@ -26,7 +27,7 @@ export default function BestPracticesSection() {
         Integrating Diverse Data Sources
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Lead scoring is only as good as the data it uses. Integrating diverse data sources, such as CRM systems, email marketing platforms, and social media interactions, is crucial for comprehensive lead evaluation. Without this integration, lead scores may be incomplete or misleading.
+        Lead scoring is only as good as the data it uses. Integrating diverse data sources, such as <GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink> systems, email marketing platforms, and social media interactions, is crucial for comprehensive lead evaluation. Without this integration, lead scores may be incomplete or misleading.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Geek At Your Spot excels in integrating tools like&nbsp;

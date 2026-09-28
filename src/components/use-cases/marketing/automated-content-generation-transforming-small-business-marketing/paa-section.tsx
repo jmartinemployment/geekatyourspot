@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PAASection() {
   return (
@@ -46,7 +47,7 @@ export default function PAASection() {
               Can AI be a content generator?
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Yes, AI can be a powerful content generator. It uses machine learning to analyze data and produce relevant content quickly. Tools like{" "}
+              Yes, AI can be a powerful content generator. It uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to analyze data and produce relevant content quickly. Tools like{" "}
               <Link id="tools-marketing-pictory-paa-1" href="/tools/marketing/pictory" className="text-[#C83803] hover:underline">
                 Pictory
               </Link>{" "}
