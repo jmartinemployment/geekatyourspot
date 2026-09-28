@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import GlossaryHeroSection from "@/components/glossary/glossary-hero";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { getAllGlossaryTerms, getGlossaryTerm } from "@/lib/glossary";
+import { getAllGlossaryTerms } from "@/lib/glossary";
 import type { GlossaryTerm } from "@/types/glossary";
 import { cn } from "@/lib/utils";
 import type { DefinedTermSet, WithContext } from "schema-dts";
@@ -81,29 +81,33 @@ function clamp(text: string): string {
 }
 
 interface CardTerm extends GlossaryTerm {
+  /** Full definition text, for structured data. */
+  description: string;
+  /** Same text, clamped for the card. */
   blurb?: string;
 }
 
-/**
- * The list endpoint carries no definitions, and shortSummary is null for most
- * terms, so a card would otherwise be a bare title. Pagination is what makes
- * the second call affordable: only one letter is on screen, so this fetches
- * detail for those terms alone, not all 273. getGlossaryTerm returns null when
- * the Geek API is unreachable, leaving the card title-only rather than failing.
- */
-async function withBlurbs(terms: GlossaryTerm[]): Promise<CardTerm[]> {
-  return Promise.all(
-    terms.map(async (term): Promise<CardTerm> => {
-      if (term.shortSummary) {
-        return { ...term, blurb: clamp(term.shortSummary) };
-      }
+/** The definition body shown on the card and in structured data. */
+function definitionText(term: GlossaryTerm): string {
+  const fromDefinitions = term.definitions
+    ?.map((definition) => definition.text.trim())
+    .filter((text) => text.length > 0)
+    .join(" ");
 
-      const full = await getGlossaryTerm(term.slug);
-      const text = full?.definitions?.[0]?.text ?? full?.definition;
+  return (fromDefinitions || term.definition || "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-      return { ...term, blurb: text ? clamp(text) : undefined };
-    }),
-  );
+function withDefinitions(terms: GlossaryTerm[]): CardTerm[] {
+  return terms.map((term) => {
+    const description = definitionText(term);
+    return {
+      ...term,
+      description,
+      blurb: description ? clamp(description) : undefined,
+    };
+  });
 }
 
 type GlossaryPageProps = Readonly<{
@@ -165,7 +169,7 @@ export default async function GlossaryPage({
   const terms = await getAllGlossaryTerms();
   const groups = groupByLetter(terms);
   const active = resolveLetter(letter, groups);
-  const visible = await withBlurbs(groups.get(active) ?? []);
+  const visible = withDefinitions(groups.get(active) ?? []);
 
   const jsonLd: WithContext<DefinedTermSet> = {
     "@context": "https://schema.org",
@@ -176,6 +180,7 @@ export default async function GlossaryPage({
     hasDefinedTerm: visible.map((term) => ({
       "@type": "DefinedTerm" as const,
       name: term.title,
+      ...(term.description ? { description: term.description } : {}),
       url: `${SITE_URL}/glossary/${term.slug}`,
     })),
   };

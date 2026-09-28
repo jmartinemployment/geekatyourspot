@@ -10,6 +10,15 @@ const nextConfig: NextConfig = {
 
   // Keep the site out of search results until launch. This header beats the per-page `robots`
   // metadata exports, so there is no page to forget. Set ALLOW_INDEXING=true in Vercel to launch.
+  async redirects() {
+    return [
+      {
+        source: "/glossary/artificial-intelligence",
+        destination: "/glossary/ai",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     if (process.env.ALLOW_INDEXING === "true") return [];
     return [
