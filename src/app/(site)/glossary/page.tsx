@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import GlossaryHeroSection from "@/components/glossary/glossary-hero";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { getAllGlossaryTerms } from "@/lib/glossary";
 import type { GlossaryTerm } from "@/types/glossary";
+import { cn } from "@/lib/utils";
 import type { DefinedTermSet, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
@@ -14,54 +19,17 @@ const PAGE_DESCRIPTION =
 /** Matches the term pages, so the index and its entries expire together. */
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: PAGE_TITLE,
-  description: PAGE_DESCRIPTION,
-  keywords: [
-    "AI glossary",
-    "automation terms",
-    "marketing glossary",
-    "accounting glossary",
-    "small business AI",
-  ],
-  alternates: {
-    canonical: "/glossary",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  openGraph: {
-    type: "website",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
-    description: PAGE_DESCRIPTION,
-    url: `${SITE_URL}/glossary`,
-    siteName: "Geek at Your Spot",
-    locale: "en_US",
-    images: [{ url: LOGO_IMAGE }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
-    description: PAGE_DESCRIPTION,
-    images: [LOGO_IMAGE],
-  },
-};
-
-/** Terms that do not start with a letter collect under this heading, sorted last. */
+/** Terms that do not start with a letter collect here, sorted last. */
 const NON_ALPHA_KEY = "#";
+const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const DEFAULT_LETTER = "A";
 
 function bucketKey(term: GlossaryTerm): string {
   const first = term.title.trim().charAt(0).toUpperCase();
   return first >= "A" && first <= "Z" ? first : NON_ALPHA_KEY;
 }
 
-/** "#" is not a usable fragment, so the non-alphabetic group gets a named anchor. */
-function anchorFor(key: string): string {
-  return key === NON_ALPHA_KEY ? "letter-other" : `letter-${key}`;
-}
-
-function groupByLetter(terms: GlossaryTerm[]): [string, GlossaryTerm[]][] {
+function groupByLetter(terms: GlossaryTerm[]): Map<string, GlossaryTerm[]> {
   const groups = new Map<string, GlossaryTerm[]>();
 
   for (const term of terms) {
@@ -78,99 +46,201 @@ function groupByLetter(terms: GlossaryTerm[]): [string, GlossaryTerm[]][] {
     bucket.sort((a, b) => a.title.localeCompare(b.title));
   }
 
-  return Array.from(groups.entries()).sort(([a], [b]) => {
-    if (a === NON_ALPHA_KEY) return 1;
-    if (b === NON_ALPHA_KEY) return -1;
-    return a.localeCompare(b);
-  });
+  return groups;
 }
 
-export default async function GlossaryPage() {
+/**
+ * The requested letter when it exists, otherwise A. An unknown or empty letter
+ * resolves to A rather than an empty page, so /glossary and /glossary?letter=A
+ * are the same page — which is why A alone carries the bare canonical.
+ */
+function resolveLetter(
+  requested: string | undefined,
+  groups: Map<string, GlossaryTerm[]>,
+): string {
+  if (!requested) return DEFAULT_LETTER;
+  const upper = requested.trim().toUpperCase();
+  return groups.has(upper) ? upper : DEFAULT_LETTER;
+}
+
+function letterHref(letter: string): string {
+  return letter === DEFAULT_LETTER
+    ? "/glossary"
+    : `/glossary?letter=${encodeURIComponent(letter)}`;
+}
+
+type GlossaryPageProps = Readonly<{
+  searchParams: Promise<{ letter?: string }>;
+}>;
+
+export async function generateMetadata({
+  searchParams,
+}: GlossaryPageProps): Promise<Metadata> {
+  const { letter } = await searchParams;
+  const terms = await getAllGlossaryTerms();
+  const active = resolveLetter(letter, groupByLetter(terms));
+
+  const title = active === DEFAULT_LETTER ? PAGE_TITLE : `${PAGE_TITLE} — ${active}`;
+  const description =
+    active === DEFAULT_LETTER
+      ? PAGE_DESCRIPTION
+      : `Glossary terms beginning with ${active}. ${PAGE_DESCRIPTION}`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      "AI glossary",
+      "automation terms",
+      "marketing glossary",
+      "accounting glossary",
+      "small business AI",
+    ],
+    alternates: {
+      canonical: letterHref(active),
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    openGraph: {
+      type: "website",
+      title: `${title} | Geek at Your Spot`,
+      description,
+      url: `${SITE_URL}${letterHref(active)}`,
+      siteName: "Geek at Your Spot",
+      locale: "en_US",
+      images: [{ url: LOGO_IMAGE }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | Geek at Your Spot`,
+      description,
+      images: [LOGO_IMAGE],
+    },
+  };
+}
+
+export default async function GlossaryPage({
+  searchParams,
+}: GlossaryPageProps) {
+  const { letter } = await searchParams;
   const terms = await getAllGlossaryTerms();
   const groups = groupByLetter(terms);
+  const active = resolveLetter(letter, groups);
+  const visible = groups.get(active) ?? [];
 
   const jsonLd: WithContext<DefinedTermSet> = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
     name: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    url: `${SITE_URL}/glossary`,
-    hasDefinedTerm: terms.map((term) => ({
+    url: `${SITE_URL}${letterHref(active)}`,
+    hasDefinedTerm: visible.map((term) => ({
       "@type": "DefinedTerm" as const,
       name: term.title,
       url: `${SITE_URL}/glossary/${term.slug}`,
     })),
   };
 
+  const pages = groups.has(NON_ALPHA_KEY)
+    ? [...ALPHABET, NON_ALPHA_KEY]
+    : ALPHABET;
+
   return (
-    <>
+    <div className="bg-[rgb(2,48,89)] text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
+      <GlossaryHeroSection
+        title="Glossary"
+        summary="The AI, automation, marketing, and accounting terms that come up when a small business starts putting AI to work — defined in plain language."
+      />
 
-      <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="space-y-8 font-serif">
-          <header className="border-b-4 border-black dark:border-white pb-6">
-            <h1 className="text-6xl font-black text-black dark:text-white tracking-tight">
-              {PAGE_TITLE}
-            </h1>
-            <p className="mt-4 text-base leading-relaxed text-gray-800 dark:text-gray-200">
-              {PAGE_DESCRIPTION}
-            </p>
-          </header>
+      <section className="container py-16 lg:py-24">
+        <nav
+          aria-label="Glossary pages"
+          className="flex flex-wrap gap-x-2 gap-y-2 border-b border-white/15 pb-8"
+        >
+          {pages.map((page) => {
+            const count = groups.get(page)?.length ?? 0;
+            const isActive = page === active;
 
-          <nav
-            aria-label="Jump to letter"
-            className="flex flex-wrap gap-x-4 gap-y-2"
-          >
-            {groups.map(([letter]) => (
-              <a
-                key={letter}
-                href={`#${anchorFor(letter)}`}
-                className="text-base font-bold text-black underline-offset-4 hover:underline dark:text-white"
+            if (count === 0) {
+              return (
+                <span
+                  key={page}
+                  aria-disabled="true"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-md font-bold text-white/25"
+                >
+                  {page}
+                </span>
+              );
+            }
+
+            return (
+              <Link
+                key={page}
+                href={letterHref(page)}
+                aria-current={isActive ? "page" : undefined}
+                className={cn(
+                  "inline-flex h-10 w-10 items-center justify-center rounded-lg text-md font-bold transition-colors",
+                  isActive
+                    ? "bg-[#C83803] text-white"
+                    : "bg-[#0B162A] text-white hover:bg-[#132340]",
+                )}
               >
-                {letter}
-              </a>
-            ))}
-          </nav>
+                {page}
+              </Link>
+            );
+          })}
+        </nav>
 
-          {groups.map(([letter, letterTerms]) => (
-            <section
-              key={letter}
-              id={anchorFor(letter)}
-              className="scroll-mt-8 space-y-4"
+        <div className="flex items-baseline gap-x-4 pt-10">
+          <h2 className="text-3xl font-black font-(--font-sora) text-white shadow-text lg:text-4xl">
+            {active}
+          </h2>
+          <p className="text-md font-normal text-white/70">
+            {visible.length === 1 ? "1 term" : `${String(visible.length)} terms`}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 pt-8 md:grid-cols-2 lg:grid-cols-3">
+          {visible.map((term) => (
+            <Link
+              key={term.slug}
+              href={`/glossary/${term.slug}`}
+              className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
             >
-              <h2 className="border-b-2 border-gray-400 pb-2 text-3xl font-black tracking-tight text-black dark:border-gray-600 dark:text-white">
-                {letter}
-              </h2>
-
-              <ul className="space-y-3">
-                {letterTerms.map((term) => (
-                  <li key={term.slug}>
-                    <Link
-                      href={`/glossary/${term.slug}`}
-                      className="text-base font-bold text-black underline-offset-4 hover:underline dark:text-white"
-                    >
-                      {term.title}
-                    </Link>
-                    {term.category && (
-                      <span className="ml-3 text-sm font-semibold italic text-gray-600 dark:text-gray-400">
-                        {term.category}
-                      </span>
-                    )}
-                    {term.shortSummary && (
-                      <p className="ml-6 text-sm leading-relaxed text-gray-800 dark:text-gray-200">
-                        {term.shortSummary}
-                      </p>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </section>
+              <h3 className="text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
+                {term.title}
+              </h3>
+              {term.category && (
+                <p className="pt-2 text-sm font-bold uppercase tracking-wide text-[#C83803]">
+                  {term.category}
+                </p>
+              )}
+              {term.shortSummary && (
+                <p className="pt-3 text-md font-normal text-white/80">
+                  {term.shortSummary}
+                </p>
+              )}
+              <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
+                Read the definition
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  width={16}
+                  height={16}
+                  className="transition-transform group-hover:translate-x-1"
+                />
+              </span>
+            </Link>
           ))}
         </div>
-      </div>
-    </>
+      </section>
+
+      <SchedulerShell />
+    </div>
   );
 }
