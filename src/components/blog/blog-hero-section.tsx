@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
@@ -11,6 +12,11 @@ type BlogHeroSectionProps = Readonly<{
   meta?: string;
   /** Icon column is dropped rather than substituted when the department is unmapped. */
   department?: string;
+  /**
+   * Overrides the department lookup. The index has no department, so without
+   * one it would render as text over five empty columns.
+   */
+  icon?: IconDefinition;
 }>;
 
 function iconFor(department: string | undefined) {
@@ -23,8 +29,9 @@ export function BlogHeroSection({
   summary,
   meta,
   department,
+  icon: iconOverride,
 }: BlogHeroSectionProps): React.JSX.Element {
-  const icon = iconFor(department);
+  const icon = iconOverride ?? iconFor(department);
 
   return (
     <header className="min-h-screen bg-[#0B162A]">
@@ -41,7 +48,7 @@ export function BlogHeroSection({
               {title}
             </h1>
 
-            <p className="text-white text-2xl font-normal shadow-text">
+            <p className="pt-3 text-white text-2xl font-normal shadow-text">
               {summary}
             </p>
 
