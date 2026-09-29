@@ -75,34 +75,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-xs whitespace-nowrap">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Melio
-                                            </Link>,&nbsp;
-                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/dext", "Dext")}
                                                 href="/tools/accounting/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
-                                                href="/tools/accounting/lightyear"
+                                                id={gtmLinkIdFromHref("/tools/accounting/nexus-ap", "Nexus AP")}
+                                                href="/tools/accounting/nexus-ap"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lightyear
+                                                Nexus AP
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/airbase", "Airbase")}
+                                                href="/tools/accounting/airbase"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Airbase
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
                                                 href="/tools/accounting/avidXchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                href="/tools/accounting/bill"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                BILL
                                             </Link>.
                                         </p>
                                     </li>
@@ -1220,34 +1220,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm whitespace-nowrap">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Melio
-                                            </Link>,&nbsp;
-                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/dext", "Dext")}
                                                 href="/tools/accounting/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
-                                                href="/tools/accounting/lightyear"
+                                                id={gtmLinkIdFromHref("/tools/accounting/nexus-ap", "Nexus AP")}
+                                                href="/tools/accounting/nexus-ap"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lightyear
+                                                Nexus AP
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/airbase", "Airbase")}
+                                                href="/tools/accounting/airbase"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Airbase
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
                                                 href="/tools/accounting/avidXchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                href="/tools/accounting/bill"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                BILL
                                             </Link>.
                                         </p>
                                     </li>
