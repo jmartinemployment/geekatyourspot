@@ -99,10 +99,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
                                                 href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                BILL
+                                                Bill
                                             </Link>.
                                         </p>
                                     </li>
@@ -1244,10 +1244,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "BILL")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
                                                 href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                BILL
+                                                Bill
                                             </Link>.
                                         </p>
                                     </li>
