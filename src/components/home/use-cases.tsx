@@ -81,16 +81,16 @@ export function UseCasesSection() {
                                                 Dext
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/nexus-ap", "Nexus AP")}
-                                                href="/tools/accounting/nexus-ap"
+                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
+                                                href="/tools/accounting/lightyear"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Nexus AP
+                                                Lightyear
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/airbase", "Airbase")}
-                                                href="/tools/accounting/airbase"
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
+                                                href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Airbase
+                                                Bill
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
@@ -99,10 +99,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks Online")}
+                                                href="/tools/accounting/quickbooks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
+                                                QuickBooks Online
                                             </Link>.
                                         </p>
                                     </li>
@@ -1226,16 +1226,16 @@ export function UseCasesSection() {
                                                 Dext
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/nexus-ap", "Nexus AP")}
-                                                href="/tools/accounting/nexus-ap"
+                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
+                                                href="/tools/accounting/lightyear"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Nexus AP
+                                                Lightyear
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/airbase", "Airbase")}
-                                                href="/tools/accounting/airbase"
+                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
+                                                href="/tools/accounting/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Airbase
+                                                Bill
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
@@ -1244,10 +1244,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks Online")}
+                                                href="/tools/accounting/quickbooks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
+                                                QuickBooks Online
                                             </Link>.
                                         </p>
                                     </li>
