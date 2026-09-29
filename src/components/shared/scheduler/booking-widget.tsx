@@ -222,12 +222,15 @@ export function BookingWidget({
           // It needs the important flag for the same reason `selected` above
           // does: `:disabled` outranks a plain descendant selector.
           //
-          // The hover rules are needed because the ghost variant sets its own
-          // colour and background on hover with no regard for the disabled
-          // state, which would otherwise darken a day that cannot be picked.
+          // The hover rule is needed because the ghost variant sets its own
+          // background on hover with no regard for the disabled state, which
+          // would otherwise highlight a day that cannot be picked. Only the
+          // background needs saying: the important colour above already wins
+          // over the variant's hover colour at every state.
           disabled:
-            "text-[#6B7280] opacity-100 [&_button]:!text-[#6B7280] [&_button]:!opacity-100 [&_button]:hover:text-[#6B7280] [&_button]:hover:bg-transparent",
-          outside: "text-[#9CA3AF] opacity-100 [&_button]:!opacity-100",
+            "text-muted-foreground opacity-100 [&_button]:!text-muted-foreground [&_button]:!opacity-100 [&_button]:hover:bg-transparent",
+          outside:
+            "text-muted-foreground/70 opacity-100 [&_button]:!opacity-100",
         }}
       />
     </div>
