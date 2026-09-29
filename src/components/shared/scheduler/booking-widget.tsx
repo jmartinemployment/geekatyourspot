@@ -212,13 +212,22 @@ export function BookingWidget({
           selected:
             "rounded-(--cell-radius) [&_button]:!bg-[#8C2703] [&_button]:!text-white",
           today: "font-bold text-foreground",
-          // Light enough that the two selectable days carry the contrast, dark
-          // enough to still read as a date. The descendant selector is needed
-          // because the ghost button sets its own colour on hover, which would
-          // otherwise darken a disabled day.
+          // A disabled day has to read as a date you cannot pick, not as an
+          // empty cell. Two things have to be said for that to hold:
+          //
+          // [&_button]:!opacity-100 -- the base button variant carries
+          // `disabled:opacity-50` (button.tsx:9) and a disabled day is a real
+          // disabled <button>, so without this the colour renders at half
+          // strength, which is why earlier attempts here kept coming out pale.
+          // It needs the important flag for the same reason `selected` above
+          // does: `:disabled` outranks a plain descendant selector.
+          //
+          // The hover rules are needed because the ghost variant sets its own
+          // colour and background on hover with no regard for the disabled
+          // state, which would otherwise darken a day that cannot be picked.
           disabled:
-            "text-foreground/35 opacity-100 [&_button]:text-foreground/35 [&_button]:hover:text-foreground/35 [&_button]:hover:bg-transparent",
-          outside: "text-foreground/25 opacity-100",
+            "text-[#6B7280] opacity-100 [&_button]:!text-[#6B7280] [&_button]:!opacity-100 [&_button]:hover:text-[#6B7280] [&_button]:hover:bg-transparent",
+          outside: "text-[#9CA3AF] opacity-100 [&_button]:!opacity-100",
         }}
       />
     </div>
