@@ -109,12 +109,12 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm"> </strong>
                                         <h5><strong className="text-black text-sm">
-                                            Automated Accounting Approval Workflows:
+                                            Automated Approval Workflows:
                                         </strong></h5>
                                         <p className="text-black text-xs">
                                             We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Automated Accounting Approval Workflow Tools:
+                                            Top 5 Automated Approval Workflow Tools:
                                         </h6>
                                         <p className="text-black text-xs">
                                             <Link
@@ -1254,13 +1254,13 @@ export function UseCasesSection() {
                                     <li className="pl-.5">
                                         <strong className="text-sm"> </strong>
                                         <h5><strong className="text-black text-base">
-                                            Automated Accounting Approval Workflows:
+                                            Automated Approval Workflows:
                                         </strong>
                                         </h5>
                                         <p className="text-black text-sm">
                                             We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Automated Accounting Approval Workflow Tools:
+                                            Top 5 Automated Approval Workflow Tools:
                                         </h6>
                                         <p className="text-black text-sm">
                                             <Link
