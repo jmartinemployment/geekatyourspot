@@ -99,10 +99,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks Online")}
-                                                href="/tools/accounting/quickbooks"
+                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
+                                                href="/tools/accounting/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks Online
+                                                Stampli
                                             </Link>.
                                         </p>
                                     </li>
@@ -1244,10 +1244,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks Online")}
-                                                href="/tools/accounting/quickbooks"
+                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
+                                                href="/tools/accounting/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks Online
+                                                Stampli
                                             </Link>.
                                         </p>
                                     </li>
