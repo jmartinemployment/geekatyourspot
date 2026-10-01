@@ -225,8 +225,8 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/Tipalti", "Tipalti")}
-                                                href="/tools/accounting/Tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
+                                                href="/tools/accounting/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
                                             </Link>.
@@ -1369,8 +1369,8 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/Tipalti", "Tipalti")}
-                                                href="/tools/accounting/Tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
+                                                href="/tools/accounting/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
                                             </Link>.
