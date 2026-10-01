@@ -81,10 +81,10 @@ export function UseCasesSection() {
                                                 Dext
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
-                                                href="/tools/accounting/lightyear"
+                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
+                                                href="/tools/accounting/corpay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lightyear
+                                                Corpay
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
@@ -99,10 +99,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
+                                                href="/tools/accounting/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Tipalti
                                             </Link>.
                                         </p>
                                     </li>
@@ -1226,10 +1226,10 @@ export function UseCasesSection() {
                                                 Dext
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/lightyear", "Lightyear")}
-                                                href="/tools/accounting/lightyear"
+                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
+                                                href="/tools/accounting/corpay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Lightyear
+                                                Corpay
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
@@ -1244,10 +1244,10 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
+                                                href="/tools/accounting/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stampli
+                                                Tipalti
                                             </Link>.
                                         </p>
                                     </li>
