@@ -1,0 +1,1 @@
+A diagram showing an AI engine producing multiple types of content like articles, social media posts, and emails from a single input. Use arrows to demonstrate the flow from input to output.
