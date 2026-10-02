@@ -96,16 +96,31 @@ export default async function TermPage({
       */}
       <div className="bg-[#0B162A] text-white">
         {/*
-          The term and its definitions ARE this page's hero, so this mirrors
-          GlossaryHeroSection's shell -- same min-h-screen, same centring --
-          and TermDetail carries the hero's type ramp.
+          The term and its definitions ARE this page's hero, so these two
+          headers are GlossaryHeroSection's own shell, class for class, with
+          TermDetail where its h1 and summary go: one column on mobile, two
+          on desktop (`col-span-7` text + an empty `col-span-5`). Width comes from
+          `col-span-7`, which is why TermDetail carries no max-w-* -- a max
+          width there is what pushed the article off the container gutter so
+          it stopped lining up with the back link below.
         */}
-        <header className="min-h-screen">
+        <header className="min-h-screen lg:hidden">
           <div className="container min-h-screen">
-            <div className="grid min-h-screen grid-cols-1 place-items-center py-16">
+            <div className="grid min-h-screen grid-cols-1 place-items-center">
               <div className="col-span-full">
                 <TermDetail term={term} />
               </div>
+            </div>
+          </div>
+        </header>
+
+        <header className="hidden min-h-screen lg:block">
+          <div className="container min-h-screen">
+            <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+              <div className="col-span-7">
+                <TermDetail term={term} />
+              </div>
+              <div className="col-span-5 flex min-h-screen flex-col items-center justify-center"></div>
             </div>
           </div>
         </header>

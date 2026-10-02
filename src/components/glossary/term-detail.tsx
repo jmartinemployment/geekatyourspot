@@ -9,7 +9,7 @@ export function TermDetail({ term }: TermDetailProps) {
   const simpleDefinition = !hasDefinitions && term.definition;
 
   return (
-    <article className="max-w-4xl space-y-8">
+    <article className="space-y-8">
       {/* Dictionary Entry Header */}
       <header className="border-b-4 border-white/25 pb-6">
         <div className="mb-2 flex flex-wrap items-baseline gap-x-6 gap-y-2">
