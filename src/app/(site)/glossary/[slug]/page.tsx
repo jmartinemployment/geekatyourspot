@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { getAllGlossarySlugs, getGlossaryTerm } from "@/lib/glossary";
 import { TermDetail } from "@/components/glossary/term-detail";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
@@ -99,7 +99,8 @@ export default async function TermPage({
           The term and its definitions ARE this page's hero, so these two
           headers are GlossaryHeroSection's own shell, class for class, with
           TermDetail where its h1 and summary go: one column on mobile, two
-          on desktop (`col-span-7` text + an empty `col-span-5`). Width comes from
+          on desktop (`col-span-7` text + the same `faBookOpen` in
+          `col-span-5` that GlossaryHeroSection uses). Width comes from
           `col-span-7`, which is why TermDetail carries no max-w-* -- a max
           width there is what pushed the article off the container gutter so
           it stopped lining up with the back link below.
@@ -120,7 +121,13 @@ export default async function TermPage({
               <div className="col-span-7">
                 <TermDetail term={term} />
               </div>
-              <div className="col-span-5 flex min-h-screen flex-col items-center justify-center"></div>
+              <div className="col-span-5 flex min-h-screen flex-col items-center justify-center">
+                <FontAwesomeIcon
+                  icon={faBookOpen}
+                  className="text-[#C83803]"
+                  style={{ width: "16rem", height: "16rem" }}
+                />
+              </div>
             </div>
           </div>
         </header>
