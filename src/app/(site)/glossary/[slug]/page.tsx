@@ -88,14 +88,19 @@ export default async function TermPage({
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
 
-      <div className="bg-[rgb(2,48,89)] text-white">
+      {/*
+        The whole term page is the hero colour, not just the term block. The
+        back link and the scheduler sat on the lighter body blue
+        (rgb(2,48,89)), which put a seam right under the hero -- there is no
+        body content on a term page for that lighter blue to belong to.
+      */}
+      <div className="bg-[#0B162A] text-white">
         {/*
           The term and its definitions ARE this page's hero, so this mirrors
-          GlossaryHeroSection's shell -- same #0B162A, same min-h-screen, same
-          centring -- and TermDetail carries the hero's type ramp. The glossary
-          index puts a hero band on the lighter body blue; this does the same.
+          GlossaryHeroSection's shell -- same min-h-screen, same centring --
+          and TermDetail carries the hero's type ramp.
         */}
-        <header className="min-h-screen bg-[#0B162A]">
+        <header className="min-h-screen">
           <div className="container min-h-screen">
             <div className="grid min-h-screen grid-cols-1 place-items-center py-16">
               <div className="col-span-full">
