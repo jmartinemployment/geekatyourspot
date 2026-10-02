@@ -89,12 +89,22 @@ export default async function TermPage({
       />
 
       <div className="bg-[rgb(2,48,89)] text-white">
-        <section className="container py-16 lg:py-24">
-          <TermDetail term={term} />
+        {/*
+          The term and its definitions are this page's hero, so they sit on the
+          hero colour the rest of the site uses (#0B162A) rather than on the
+          lighter body blue. Same composition as the glossary index: a dark hero
+          band, then the body.
+        */}
+        <header className="bg-[#0B162A]">
+          <section className="container py-16 lg:py-24">
+            <TermDetail term={term} />
+          </section>
+        </header>
 
+        <section className="container py-12">
           <Link
             href="/glossary"
-            className="mt-12 inline-flex items-center gap-x-2 text-md font-bold text-[#C83803]"
+            className="inline-flex items-center gap-x-2 text-md font-bold text-[#C83803]"
           >
             <FontAwesomeIcon
               icon={faArrowLeft}
