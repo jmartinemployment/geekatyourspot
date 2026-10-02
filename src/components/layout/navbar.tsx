@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/sheet";
 import { gtmClickId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 
-type MenuSection = "use-cases" | "blog" | "tools";
+type MenuSection = "use-cases" | "blog" | "tools" | "glossary";
 
 /**
  * Every href below is hand-maintained and points at a route that exists in
@@ -159,6 +159,14 @@ export default function Navbar(): React.JSX.Element {
               >
                 Tools
               </button>
+              <button
+                type="button"
+                id={gtmClickId(["nav", "glossary"])}
+                className={sectionButtonClass("glossary")}
+                onClick={() => setActiveSection("glossary")}
+              >
+                Glossary
+              </button>
             </div>
 
             {activeSection === "use-cases" && (
@@ -177,6 +185,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
+                      label="AI-Driven Lead Scoring for Small Businesses"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/marketing/ai-marketing-systems"
                       label="AI Marketing Systems"
                       onNavigate={closeSidebar}
@@ -184,6 +197,11 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink
                       href="/use-cases/marketing/automated-ad-spend-optimization"
                       label="Automated Ad Spend Optimization"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing"
+                      label="Automated Content Generation"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -213,6 +231,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/accounting/accounts-payable/automated-data-entry-processing"
+                      label="Automated Data Entry &amp; Processing"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
                       label="Automated Cash Flow Forecasting"
                       onNavigate={closeSidebar}
@@ -233,6 +256,11 @@ export default function Navbar(): React.JSX.Element {
                   <MenuHeading href="/blog" label="Marketing" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
                     <MenuLink
+                      href="/blog/marketing/are-smart-chatbots-the-secret-weapon-for-marketing-success"
+                      label="Are Smart Chatbots the Secret Weapon for Marketing Success?"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth"
                       label="How AI Marketing Systems Transform Small Business Growth"
                       onNavigate={closeSidebar}
@@ -240,6 +268,11 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink
                       href="/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies"
                       label="How AI Transforms Ad Spend: 4 Key Strategies"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/marketing/how-ai-powered-lead-scoring-can-boost-your-sales-funnel"
+                      label="How AI-Powered Lead Scoring Can Boost Your Sales Funnel"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -268,6 +301,16 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/blog/marketing/unlocking-the-potential-of-automated-content-generation-for-small-businesses"
+                      label="Unlocking the Potential of Automated Content Generation for Small Businesses"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/marketing/unlocking-the-power-of-automated-content-generation"
+                      label="Unlocking the Power of Automated Content Generation"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline"
                       label="Why Your B2B Sales Need an Intelligent Lead Capture Pipeline"
                       onNavigate={closeSidebar}
@@ -278,6 +321,11 @@ export default function Navbar(): React.JSX.Element {
                 <div className={COLUMN_CLASS}>
                   <MenuHeading href="/blog" label="Accounting" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
+                    <MenuLink
+                      href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing"
+                      label="How AI Transforms Accounts Payable: Automated Data Entry &amp; Processing"
+                      onNavigate={closeSidebar}
+                    />
                     <MenuLink
                       href="/blog/accounting/how-ai-is-revolutionizing-tax-compliance-what-you-need-to-know"
                       label="How AI is Revolutionizing Tax Compliance"
@@ -298,25 +346,44 @@ export default function Navbar(): React.JSX.Element {
                 <div className={COLUMN_CLASS}>
                   <MenuHeading href="/tools/marketing" label="Marketing" onNavigate={closeSidebar} />
                   <ul className={`${LIST_CLASS} columns-2 gap-x-4`}>
+                    <MenuLink href="/tools/marketing/6sense" label="6sense" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/active-campaign" label="ActiveCampaign" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/adcreativeai" label="AdCreative.ai" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/adobe-mix-modeler" label="Adobe Mix Modeler" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/adobe-sensei" label="Adobe Sensei" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/advantage" label="Advantage" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/anomalo" label="Anomalo" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/apollo" label="Apollo" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/basis-technologies" label="Basis Technologies" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/canva" label="Canva" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/chatgpt" label="ChatGPT" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/claude" label="Claude" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/contentstudio" label="ContentStudio" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/copyai" label="Copy.ai" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/frase" label="Frase" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/google-ads-smart-bidding" label="Google Ads Smart Bidding" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/grammarly" label="Grammarly" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/great-expectations" label="Great Expectations" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/hubspot" label="HubSpot" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/keyword-insights" label="Keyword Insights" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/leadsquared" label="LeadSquared" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/madgicx" label="Madgicx" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/makecom" label="Make.com" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/marketo" label="Marketo" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/monte-carlo" label="Monte Carlo" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/omneky" label="Omneky" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/openai-gpt-4" label="OpenAI GPT-4" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/optimove" label="Optimove" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/pipedrive" label="Pipedrive" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/qualytics" label="Qualytics" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/salesforce-einstein" label="Salesforce Einstein" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/salesforce-pardot" label="Salesforce Pardot" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/smartlyio" label="Smartly.io" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/surfer-seo" label="Surfer SEO" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/tableau-ai-adobe-analytics" label="Tableau AI / Adobe Analytics" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />
                   </ul>
                 </div>
@@ -325,6 +392,50 @@ export default function Navbar(): React.JSX.Element {
                   <MenuHeading href="/tools/accounting" label="Accounting" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
                     <MenuLink href="/tools/accounting/avalara" label="Avalara" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/avidxchange" label="AvidXchange" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/bill" label="Bill" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/dext" label="Dext" onNavigate={closeSidebar} />
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {activeSection === "glossary" && (
+              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-2">
+                <div className={COLUMN_CLASS}>
+                  <MenuHeading href="/glossary" label="Browse by letter" onNavigate={closeSidebar} />
+                  {/*
+                    The index pages by `?letter=`, and A is its default, so A
+                    links to the bare /glossary. X and Y have no terms in
+                    src/data/glossary/terms.ts -- the index renders those as
+                    disabled, so they are omitted here rather than linking to a
+                    page that silently falls back to A.
+                  */}
+                  <ul className={`${LIST_CLASS} columns-4 gap-x-4 sm:columns-6`}>
+                    <MenuLink href="/glossary" label="A" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=B" label="B" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=C" label="C" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=D" label="D" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=E" label="E" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=F" label="F" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=G" label="G" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=H" label="H" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=I" label="I" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=J" label="J" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=K" label="K" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=L" label="L" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=M" label="M" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=N" label="N" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=O" label="O" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=P" label="P" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=Q" label="Q" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=R" label="R" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=S" label="S" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=T" label="T" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=U" label="U" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=V" label="V" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=W" label="W" onNavigate={closeSidebar} />
+                    <MenuLink href="/glossary?letter=Z" label="Z" onNavigate={closeSidebar} />
                   </ul>
                 </div>
               </div>
