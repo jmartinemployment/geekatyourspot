@@ -90,15 +90,19 @@ export default async function TermPage({
 
       <div className="bg-[rgb(2,48,89)] text-white">
         {/*
-          The term and its definitions are this page's hero, so they sit on the
-          hero colour the rest of the site uses (#0B162A) rather than on the
-          lighter body blue. Same composition as the glossary index: a dark hero
-          band, then the body.
+          The term and its definitions ARE this page's hero, so this mirrors
+          GlossaryHeroSection's shell -- same #0B162A, same min-h-screen, same
+          centring -- and TermDetail carries the hero's type ramp. The glossary
+          index puts a hero band on the lighter body blue; this does the same.
         */}
-        <header className="bg-[#0B162A]">
-          <section className="container py-16 lg:py-24">
-            <TermDetail term={term} />
-          </section>
+        <header className="min-h-screen bg-[#0B162A]">
+          <div className="container min-h-screen">
+            <div className="grid min-h-screen grid-cols-1 place-items-center py-16">
+              <div className="col-span-full">
+                <TermDetail term={term} />
+              </div>
+            </div>
+          </div>
         </header>
 
         <section className="container py-12">
