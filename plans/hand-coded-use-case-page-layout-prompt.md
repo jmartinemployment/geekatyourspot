@@ -98,6 +98,10 @@ Then repeat if more sections exist.
 
 **Color assignment:** Hardcode each color directly as `bg-[#HEX]` on the `<section>` tag — no arrays, no props, no dynamic assignment.
 
+**The hero is `#0B162A`**, set by `SharedHeroSection` / `ToolsHeroSection`. The rotation above starts at the first body section, so `#0B162A` is never the first entry.
+
+**Where the home page fits.** The home page is the reference for the site palette, and it uses a subset of it: its top-level sections run `#0B162A` (hero) → `#023059` (Clone Yourself) → `#025E73` (Use Cases) → `#0B162A` (The Methodology) → `#8C4E2A` (Seamless Integrations), with `#C83803` and `#CBCBCB` as card/accent colors inside those sections, never as section backgrounds. `#024059` and `#BF5934` appear only in the page rotation — they are deliberately not on the home page, so do not treat their absence there as evidence the rotation is stale. Checked against `src/components/home/*.tsx` on 2026-10-02.
+
 ---
 
 ## Hand-Coding Content
@@ -127,7 +131,7 @@ All content must be written by hand in the JSX:
 
 ### Glossary
 - If content contains words/terms that should be in the Glossary (e.g., `lead scoring`, `CRM`, `predictive analytics`, `marketing automation`, `AI`), **create a glossary entry and link to the definition**.
-- Check existing terms via `GET /api/glossary/terms` (or `src/lib/glossary.ts`); if missing, create entry via `POST /api/glossary/terms` with `X-API-Key` and trigger revalidation (`POST /api/revalidate`).
+- The glossary is served from the repo, not GeekAPI: `src/data/glossary/terms.ts` is the only copy of the definitions and `src/lib/glossary.ts` reads it. Check a slug exists there before linking it; adding a term is a code change and a deploy, not an API call. (The old `POST /api/glossary/terms` route is gone — do not reach for it.)
 - Wrap every occurrence with `<GlossaryLink slug="term-slug">term</GlossaryLink>` (defaults to `text-[#C83803] hover:underline`, links to `/glossary/{slug}`).
 - Use kebab-case slug (e.g., `lead-scoring`, `predictive-analytics`); ensure slug matches glossary entry.
 

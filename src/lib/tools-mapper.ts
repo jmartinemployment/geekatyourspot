@@ -8,11 +8,14 @@ import { advantageContent } from "@/data/tools/advantage";
 import { anaplanContent } from "@/data/tools/anaplan";
 import { anomaloContent } from "@/data/tools/anomalo";
 import { avalaraContent } from "@/data/tools/avalara";
+import { avidxchangeContent } from "@/data/tools/avidxchange";
 import { basisTechnologiesContent } from "@/data/tools/basis-technologies";
 import { baswareContent } from "@/data/tools/basware";
+import { billContent } from "@/data/tools/bill";
 import { boardContent } from "@/data/tools/board";
 import { canvaContent } from "@/data/tools/canva";
 import { coupaContent } from "@/data/tools/coupa";
+import { dextContent } from "@/data/tools/dext";
 import { driftContent } from "@/data/tools/drift";
 import { googleAdsSmartBiddingContent } from "@/data/tools/google-ads-smart-bidding";
 import { grammarlyContent } from "@/data/tools/grammarly";
@@ -50,11 +53,14 @@ const toolsMap: Record<string, ToolPageContent> = {
   "anaplan": anaplanContent,
   "anomalo": anomaloContent,
   "avalara": avalaraContent,
+  "avidxchange": avidxchangeContent,
   "basis-technologies": basisTechnologiesContent,
   "basware": baswareContent,
+  "bill": billContent,
   "board": boardContent,
   "canva": canvaContent,
   "coupa": coupaContent,
+  "dext": dextContent,
   "drift": driftContent,
   "google-ads-smart-bidding": googleAdsSmartBiddingContent,
   "grammarly": grammarlyContent,

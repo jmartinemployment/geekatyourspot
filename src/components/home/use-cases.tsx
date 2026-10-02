@@ -65,8 +65,12 @@ export function UseCasesSection() {
                                 </Link>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Automated Data Entry &amp; Processing:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-data-entry-processing"
+                                            href="/use-cases/accounting/accounts-payable/automated-data-entry-processing"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Automated Data Entry &amp; Processing:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs">
                                             Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
                                         </p>
@@ -93,8 +97,8 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
-                                                href="/tools/accounting/avidXchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -171,8 +175,8 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
-                                                href="/tools/accounting/avidXchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -1208,10 +1212,14 @@ export function UseCasesSection() {
 
                                 <ul className="list-disc text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
-                                            Automated Data Entry &amp; Processing:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-automated-data-entry-processing"
+                                            href="/use-cases/accounting/accounts-payable/automated-data-entry-processing"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Automated Data Entry &amp; Processing:
+                                            </strong>
+                                            </h5>
+                                        </Link>
                                         <p className="text-black text-sm">
                                             Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
                                         </p>
@@ -1238,8 +1246,8 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
-                                                href="/tools/accounting/avidXchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -1316,8 +1324,8 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidXchange", "AvidXchange")}
-                                                href="/tools/accounting/avidXchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;

@@ -112,14 +112,19 @@ ToolsHeroSection (shared, prop-based)
 
 ---
 
-## Color Palette (No Variation)
+## Color Palette
 
-Tool pages use a **fixed 4-color sequence** (does NOT rotate per tool):
-- Hero: handled by ToolsHeroSection component
+Hero: handled by the ToolsHeroSection component (`#0B162A`).
+
+A tool page built on the **fixed 4-section shape** uses this fixed sequence (it does NOT rotate per tool):
 - Overview: `#023059` (dark blue)
 - Key Capabilities: `#024059` (slightly darker blue)
 - Implementation: `#025E73` (teal)
 - When to Use: `#8C4E2A` (warm brown)
+
+A tool page whose supplied content **does not fit the 4-section shape** — more sections, each with its own heading — keeps those headings and falls back to the use-case page's 5-color rotation (`#023059` → `#024059` → `#025E73` → `#8C4E2A` → `#BF5934`, repeating), with the same alternating left/right pattern. The accounting AP tool pages (`dext`, `bill`, `avidxchange`) are built this way; `avalara` and the marketing tools use the 4-section shape. Decided by Jeff, 2026-10-02.
+
+**Where the home page fits.** The home page is the reference for the site palette, and it uses a subset of it: `#0B162A` (hero) → `#023059` → `#025E73` → `#0B162A` → `#8C4E2A`, with `#C83803` and `#CBCBCB` as card/accent colors inside sections, never as section backgrounds. `#024059` and `#BF5934` appear only in the page rotation — they are deliberately not on the home page, so their absence there is not evidence the sequence above is stale. Checked against `src/components/home/*.tsx` on 2026-10-02.
 
 ---
 
@@ -148,7 +153,7 @@ Tool pages use a **fixed 4-color sequence** (does NOT rotate per tool):
 
 ### Glossary
 - If content contains words/terms that should be in the Glossary (e.g., `lead scoring`, `CRM`, `predictive analytics`, `marketing automation`, `AI`), **create a glossary entry and link to the definition**.
-- Check existing terms via `GET /api/glossary/terms` (or `src/lib/glossary.ts`); if missing, create entry via `POST /api/glossary/terms` with `X-API-Key` and trigger revalidation (`POST /api/revalidate`).
+- The glossary is served from the repo, not GeekAPI: `src/data/glossary/terms.ts` is the only copy of the definitions and `src/lib/glossary.ts` reads it. Check a slug exists there before linking it; adding a term is a code change and a deploy, not an API call. (The old `POST /api/glossary/terms` route is gone — do not reach for it.)
 - Wrap every occurrence with `<GlossaryLink slug="term-slug">term</GlossaryLink>` (defaults to `text-[#C83803] hover:underline`, links to `/glossary/{slug}`).
 - Use kebab-case slug (e.g., `lead-scoring`, `predictive-analytics`); ensure slug matches glossary entry.
 
