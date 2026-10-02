@@ -10,6 +10,7 @@ export const dextContent: ToolPageContent = {
   "title": "Dext",
   "slug": "dext",
   "department": "accounting",
+  "useCase": "accounts-payable",
   "description":
     "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.",
   "heroSummary":

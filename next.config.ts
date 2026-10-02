@@ -17,6 +17,29 @@ const nextConfig: NextConfig = {
         destination: "/glossary/ai",
         permanent: true,
       },
+      // Accounting tools moved to /tools/<department>/<use-case>/<tool> on
+      // 2026-10-02. See plans/tools-directory-structure.md; marketing has not
+      // moved yet, so only these four have a use-case segment.
+      {
+        source: "/tools/accounting/dext",
+        destination: "/tools/accounting/accounts-payable/dext",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/bill",
+        destination: "/tools/accounting/accounts-payable/bill",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/avidxchange",
+        destination: "/tools/accounting/accounts-payable/avidxchange",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/avalara",
+        destination: "/tools/accounting/tax-compliance-regulations/avalara",
+        permanent: true,
+      },
     ];
   },
   async headers() {

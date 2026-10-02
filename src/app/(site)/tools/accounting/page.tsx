@@ -49,7 +49,9 @@ export const metadata: Metadata = {
 };
 
 function toolHref(tool: ToolPageContent): string {
-  return `/tools/${tool.department}/${tool.slug}`;
+  return tool.useCase
+    ? `/tools/${tool.department}/${tool.useCase}/${tool.slug}`
+    : `/tools/${tool.department}/${tool.slug}`;
 }
 
 export default function AccountingToolsPage() {

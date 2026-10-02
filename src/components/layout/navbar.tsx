@@ -391,10 +391,10 @@ export default function Navbar(): React.JSX.Element {
                 <div className={COLUMN_CLASS}>
                   <MenuHeading href="/tools/accounting" label="Accounting" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
-                    <MenuLink href="/tools/accounting/avalara" label="Avalara" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/avidxchange" label="AvidXchange" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/bill" label="Bill" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/dext" label="Dext" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/avalara" label="Avalara" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/avidxchange" label="AvidXchange" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/bill" label="Bill" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/dext" label="Dext" onNavigate={closeSidebar} />
                   </ul>
                 </div>
               </div>

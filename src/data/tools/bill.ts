@@ -10,6 +10,7 @@ export const billContent: ToolPageContent = {
   "title": "Bill",
   "slug": "bill",
   "department": "accounting",
+  "useCase": "accounts-payable",
   "description":
     "Bill automates invoice processing, approvals, and expense management, with AI-powered invoice coding and configurable approval workflows.",
   "heroSummary":

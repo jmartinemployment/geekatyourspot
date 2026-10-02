@@ -19,6 +19,14 @@ export interface ToolPageContent {
   title: string;
   slug: string;
   department: string;
+  /**
+   * Use-case segment of the tool's URL: /tools/<department>/<useCase>/<slug>.
+   * Set it and the tool links three segments deep; leave it off and the tool
+   * stays at the flat /tools/<department>/<slug>. See
+   * plans/tools-directory-structure.md -- accounting moved first, marketing
+   * has not moved yet.
+   */
+  useCase?: string;
   description: string;
   heroSummary: string;
   image?: string;

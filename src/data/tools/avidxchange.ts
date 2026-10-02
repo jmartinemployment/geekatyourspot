@@ -10,6 +10,7 @@ export const avidxchangeContent: ToolPageContent = {
   "title": "AvidXchange",
   "slug": "avidxchange",
   "department": "accounting",
+  "useCase": "accounts-payable",
   "description":
     "AvidXchange automates invoice management and B2B payments, extracting, matching, and routing invoice data while integrating with existing accounting systems.",
   "heroSummary":

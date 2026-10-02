@@ -16,14 +16,14 @@ const jsonLd: WithContext<SoftwareApplication> = {
     "@context": "https://schema.org",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/accounting/avalara"
+        "@id": "https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara"
     },
     "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
     "subjectOf": {
         "@type": "Article",
         "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations"
     },
-    "@id": "https://geekatyourspot.com/tools/accounting/avalara#software"
+    "@id": "https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara#software"
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
@@ -37,12 +37,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek at Your Spot Llc',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/tools/accounting/avalara',
+            canonical: '/tools/accounting/tax-compliance-regulations/avalara',
         },
         openGraph: {
             title: "Avalara® Compliance Platform",
             description: 'Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.',
-            url: 'https://geekatyourspot.com/tools/accounting/avalara',
+            url: 'https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',

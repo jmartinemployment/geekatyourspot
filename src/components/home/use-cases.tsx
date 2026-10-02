@@ -79,8 +79,8 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-xs whitespace-nowrap">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/dext", "Dext")}
-                                                href="/tools/accounting/dext"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/dext", "Dext")}
+                                                href="/tools/accounting/accounts-payable/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
                                             </Link>,&nbsp;
@@ -91,14 +91,14 @@ export function UseCasesSection() {
                                                 Corpay
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -146,8 +146,8 @@ export function UseCasesSection() {
                                                 Plooto
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>.
@@ -169,14 +169,14 @@ export function UseCasesSection() {
                                                 Melio
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -205,8 +205,8 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
@@ -223,8 +223,8 @@ export function UseCasesSection() {
                                                 Stampli
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -259,8 +259,8 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
@@ -424,8 +424,8 @@ export function UseCasesSection() {
                                                 Numeral
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
-                                                href="/tools/accounting/avalara"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
+                                                href="/tools/accounting/tax-compliance-regulations/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
                                             </Link>.
@@ -493,8 +493,8 @@ export function UseCasesSection() {
                                                 Anrok
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
-                                                href="/tools/accounting/avalara"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
+                                                href="/tools/accounting/tax-compliance-regulations/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
                                             </Link>,&nbsp;
@@ -555,8 +555,8 @@ export function UseCasesSection() {
                                                 Xero
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>.
@@ -1228,8 +1228,8 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm whitespace-nowrap">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/dext", "Dext")}
-                                                href="/tools/accounting/dext"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/dext", "Dext")}
+                                                href="/tools/accounting/accounts-payable/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
                                             </Link>,&nbsp;
@@ -1240,14 +1240,14 @@ export function UseCasesSection() {
                                                 Corpay
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -1278,8 +1278,8 @@ export function UseCasesSection() {
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
@@ -1318,14 +1318,14 @@ export function UseCasesSection() {
                                                 Melio
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -1353,8 +1353,8 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
@@ -1371,8 +1371,8 @@ export function UseCasesSection() {
                                                 Stampli
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
@@ -1407,8 +1407,8 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
@@ -1573,8 +1573,8 @@ export function UseCasesSection() {
                                                 Numeral
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
-                                                href="/tools/accounting/avalara"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
+                                                href="/tools/accounting/tax-compliance-regulations/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
                                             </Link>.
@@ -1642,8 +1642,8 @@ export function UseCasesSection() {
                                                 Anrok
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/avalara", "Avalara")}
-                                                href="/tools/accounting/avalara"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
+                                                href="/tools/accounting/tax-compliance-regulations/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
                                             </Link>,&nbsp;
@@ -1704,8 +1704,8 @@ export function UseCasesSection() {
                                                 Xero
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/bill", "Bill")}
-                                                href="/tools/accounting/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>.

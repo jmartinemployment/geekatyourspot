@@ -8,7 +8,7 @@ export default function HowItWorksSection() {
         enhances accuracy, speed, and control. The journey begins with automated data capture, a technology
         that extracts invoice details using tools like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-dext"
-          href="/tools/accounting/dext" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>. This tool converts paper invoices into digital formats and extracts essential data points,
         such as vendor details and amounts, with precision. This step dramatically reduces manual data entry,
@@ -26,7 +26,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         After approval, the process moves to payment execution. Solutions like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-avidxchange"
-          href="/tools/accounting/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;ensure payments are processed securely and efficiently. AvidXchange offers multiple
         payment methods, including electronic transfers, which reduce the reliance on paper checks and speed
@@ -35,7 +35,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, the integration with accounting software, facilitated by tools like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-bill"
-          href="/tools/accounting/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, ensures that all transaction data is seamlessly updated in the company&#39;s financial
         systems. This integration provides real-time visibility into financial operations, allowing

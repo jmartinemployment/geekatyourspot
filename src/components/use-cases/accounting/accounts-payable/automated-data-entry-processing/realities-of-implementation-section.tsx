@@ -11,7 +11,7 @@ export default function RealitiesOfImplementationSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration with existing systems is another critical aspect. Tools like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-realities-avidxchange"
-          href="/tools/accounting/avidxchange" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;excel in this area by offering seamless integration with numerous accounting systems,
         allowing for a smoother transition and less disruption to daily operations. Ensuring that data flows

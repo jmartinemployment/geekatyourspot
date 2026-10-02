@@ -17,7 +17,7 @@ export default function TamingTheBeastSection() {
         down on errors, speed up processing times, and free their teams to focus on higher-value work.
         Automated solutions like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-dext"
-          href="/tools/accounting/dext" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-lightyear"
@@ -25,7 +25,7 @@ export default function TamingTheBeastSection() {
           Lightyear
         </Link>, and&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-bill"
-          href="/tools/accounting/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;transform the way companies handle invoices, turning what was once a cumbersome process
         into a streamlined operation. These tools ensure data accuracy, reduce manual entry errors, and
@@ -43,7 +43,7 @@ export default function TamingTheBeastSection() {
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;into accounts payable workflows, companies can achieve
         over 99% accuracy in data capture, as evident with tools like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-avidxchange"
-          href="/tools/accounting/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;and&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-stampli"

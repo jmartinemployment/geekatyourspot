@@ -4,6 +4,7 @@ export const avalaraContent: ToolPageContent = {
   "title": "Avalara",
   "slug": "avalara",
   "department": "accounting",
+  "useCase": "tax-compliance-regulations",
   "description": "Automate tax compliance with Avalara, ensuring up-to-date adherence to regulations across jurisdictions.",
   "heroSummary": "Avalara automates tax compliance, helping businesses adhere to changing regulations with ease.",
   "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
@@ -19,7 +20,7 @@ export const avalaraContent: ToolPageContent = {
     "@context": "https://schema.org",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/accounting/avalara"
+      "@id": "https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara"
     },
     "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
     "@id": "https://geekatyourspot.com/tools/accounting/avalara#software"

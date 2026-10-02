@@ -14,7 +14,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "Dext";
 const DESCRIPTION =
     "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.";
-const CANONICAL = "/tools/accounting/dext";
+const CANONICAL = "/tools/accounting/accounts-payable/dext";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: WithContext<SoftwareApplication> = {
