@@ -349,6 +349,12 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
+                                                href="/tools/accounting/acumatica"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Acumatica
+                                            </Link>,&nbsp;
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/netsuite", "NetSuite")}
                                                 href="/tools/accounting/netsuite"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
@@ -361,22 +367,16 @@ export function UseCasesSection() {
                                                 Odoo
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zoho", "Zoho")}
-                                                href="/tools/accounting/zoho"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zoho
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
-                                                href="/tools/accounting/acumatica"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Acumatica
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "MS Dynamics 365 Business Central")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "Microsoft Dynamics 365 Business")}
                                                 href="/tools/accounting/ms-dynamics-365-business-central"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                MS Dynamics 365 Business Central
+                                                Microsoft Dynamics 365 Business
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/sage", "Sage")}
+                                                href="/tools/accounting/sage"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Sage
                                             </Link>.
                                         </p>
                                     </li>
@@ -1497,6 +1497,12 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
+                                                href="/tools/accounting/acumatica"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Acumatica
+                                            </Link>,&nbsp;
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/netsuite", "NetSuite")}
                                                 href="/tools/accounting/netsuite"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
@@ -1509,22 +1515,16 @@ export function UseCasesSection() {
                                                 Odoo
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zoho", "Zoho")}
-                                                href="/tools/accounting/zoho"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zoho
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
-                                                href="/tools/accounting/acumatica"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Acumatica
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "MS Dynamics 365 Business Central")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "Microsoft Dynamics 365 Business")}
                                                 href="/tools/accounting/ms-dynamics-365-business-central"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                MS Dynamics 365 Business Central
+                                                Microsoft Dynamics 365 Business
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/sage", "Sage")}
+                                                href="/tools/accounting/sage"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Sage
                                             </Link>.
                                         </p>
                                     </li>
