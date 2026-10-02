@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Archived content, not source. Tool pages retired from the site live here
+    // with their imports pointing at paths that no longer exist.
+    "backup/**",
   ]),
 ]);
 

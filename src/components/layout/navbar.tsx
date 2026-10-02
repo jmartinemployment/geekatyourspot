@@ -348,42 +348,17 @@ export default function Navbar(): React.JSX.Element {
                   <ul className={`${LIST_CLASS} columns-2 gap-x-4`}>
                     <MenuLink href="/tools/marketing/6sense" label="6sense" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/active-campaign" label="ActiveCampaign" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/adcreativeai" label="AdCreative.ai" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/adobe-mix-modeler" label="Adobe Mix Modeler" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/adobe-sensei" label="Adobe Sensei" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/advantage" label="Advantage" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/airia" label="Airia" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/anomalo" label="Anomalo" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/apollo" label="Apollo" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/basis-technologies" label="Basis Technologies" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/canva" label="Canva" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/chatgpt" label="ChatGPT" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/claude" label="Claude" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/contentstudio" label="ContentStudio" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/copyai" label="Copy.ai" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/frase" label="Frase" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/google-ads-smart-bidding" label="Google Ads Smart Bidding" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/grammarly" label="Grammarly" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/great-expectations" label="Great Expectations" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/hubspot" label="HubSpot" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/keyword-insights" label="Keyword Insights" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/leadsquared" label="LeadSquared" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/madgicx" label="Madgicx" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/makecom" label="Make.com" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/marketo" label="Marketo" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/monte-carlo" label="Monte Carlo" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/omneky" label="Omneky" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/openai-gpt-4" label="OpenAI GPT-4" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/optimove" label="Optimove" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/pipedrive" label="Pipedrive" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/qualytics" label="Qualytics" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/salesforce-einstein" label="Salesforce Einstein" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/salesforce-pardot" label="Salesforce Pardot" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/smartlyio" label="Smartly.io" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/surfer-seo" label="Surfer SEO" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/tableau-ai-adobe-analytics" label="Tableau AI / Adobe Analytics" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />
                   </ul>
                 </div>
