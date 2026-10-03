@@ -1,8 +1,8 @@
 import { ToolPageContent } from "@/types/tool";
 
-export const activecampaignContent: ToolPageContent = {
+export const activeCampaignContent: ToolPageContent = {
   "title": "ActiveCampaign",
-  "slug": "activecampaign",
+  "slug": "active-campaign",
   "department": "marketing",
   "description": "",
   "heroSummary": "",
@@ -19,14 +19,14 @@ export const activecampaignContent: ToolPageContent = {
     "@context": "https://schema.org",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/marketing/activecampaign"
+      "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
     },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
     },
-    "@id": "https://geekatyourspot.com/tools/marketing/activecampaign#software"
+    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
   },
   "sections": [
     {

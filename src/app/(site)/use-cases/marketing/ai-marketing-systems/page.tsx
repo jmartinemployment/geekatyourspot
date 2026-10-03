@@ -51,7 +51,7 @@ const jsonLd: Graph = {
                     "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/activecampaign#software"
+                    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
                 },
                 {
                     "@id": "#software-hootsuite"
@@ -93,9 +93,9 @@ const jsonLd: Graph = {
             "description": "ActiveCampaign enhances email marketing efforts by automating customer interactions and improving engagement. It helps businesses manage customer relationships through personalized email campaigns, ensuring messages reach the right people at the right time. ActiveCampaign also uses AI to analyze customer behaviors, allowing businesses to tailor their marketing strategies for better results.",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/activecampaign"
+                "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/activecampaign#software"
+            "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
         },
         {
             "@type": "SoftwareApplication",

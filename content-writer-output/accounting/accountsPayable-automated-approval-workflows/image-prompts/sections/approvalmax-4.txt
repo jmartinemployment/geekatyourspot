@@ -1,0 +1,1 @@
+Step-by-step diagram showing the process of implementing ApprovalMax, from initial setup to integration with existing systems.

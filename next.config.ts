@@ -40,6 +40,14 @@ const nextConfig: NextConfig = {
         destination: "/tools/accounting/tax-compliance-regulations/avalara",
         permanent: true,
       },
+      // ActiveCampaign shipped at two URLs. The hyphenated one is canonical;
+      // the one-word route was retired on 2026-10-03 and its page's content
+      // now serves the hyphenated path.
+      {
+        source: "/tools/marketing/activecampaign",
+        destination: "/tools/marketing/active-campaign",
+        permanent: true,
+      },
     ];
   },
   async headers() {

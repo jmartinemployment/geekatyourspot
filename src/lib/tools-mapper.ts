@@ -1,5 +1,5 @@
 import { ToolPageContent } from "@/types/tool";
-import { activecampaignContent } from "@/data/tools/activecampaign";
+import { activeCampaignContent } from "@/data/tools/active-campaign";
 import { adaptiveInsightsContent } from "@/data/tools/adaptive-insights";
 import { adobeMixModelerContent } from "@/data/tools/adobe-mix-modeler";
 import { anaplanContent } from "@/data/tools/anaplan";
@@ -29,7 +29,7 @@ import { tipaltiContent } from "@/data/tools/tipalti";
 import { vertexContent } from "@/data/tools/vertex";
 
 const toolsMap: Record<string, ToolPageContent> = {
-  "activecampaign": activecampaignContent,
+  "active-campaign": activeCampaignContent,
   "adaptive-insights": adaptiveInsightsContent,
   "adobe-mix-modeler": adobeMixModelerContent,
   "anaplan": anaplanContent,

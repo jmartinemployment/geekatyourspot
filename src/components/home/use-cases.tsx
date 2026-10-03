@@ -844,8 +844,8 @@ export function UseCasesSection() {
                                                     GetResponse
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/activecampaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/activecampaign"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/active-campaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;
@@ -1978,8 +1978,8 @@ export function UseCasesSection() {
                                                     GetResponse
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/activecampaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/activecampaign"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/active-campaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;

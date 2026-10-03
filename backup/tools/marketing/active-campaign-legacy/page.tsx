@@ -1,48 +1,48 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/marketing/activecampaign/overview-section";
-import KeyCapabilitiesSection from "@/components/tools/marketing/activecampaign/key-capabilities-section";
-import ImplementationSection from "@/components/tools/marketing/activecampaign/implementation-section";
-import WhenToUseSection from "@/components/tools/marketing/activecampaign/when-to-use-section";
-import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import OverviewToolSection from "@/components/tools/active-campaign/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/active-campaign/key-capabilities";
+import ImplementationSection from "@/components/tools/active-campaign/implementation-section";
 import type { SoftwareApplication, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 const jsonLd: WithContext<SoftwareApplication> = {
     "@type": "SoftwareApplication",
-    "name": "ActiveCampaign",
+    "name": "Active Campaign",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
+    "description": "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
     "@context": "https://schema.org",
-    "description": "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/activecampaign"
+        "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
     },
-    "keywords": "Lead Scoring",
+    "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
     "subjectOf": {
         "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
+        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
     },
-    "@id": "https://geekatyourspot.com/tools/marketing/activecampaign#software"
+    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
+    // Add the return statement to fix the TypeScript error
     return {
-        title: "ActiveCampaign",
-        description: "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
-        keywords: ["Lead Scoring"],
+        title: "Active Campaign",
+        description: "ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.",
+        keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/tools/marketing/activecampaign',
+            canonical: '/tools/marketing/active-campaign',
         },
         openGraph: {
-            title: "ActiveCampaign",
-            description: "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
-            url: 'https://geekatyourspot.com/tools/marketing/activecampaign',
+            title: "Active Campaign",
+            description: 'ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.',
+            url: 'https://geekatyourspot.com/tools/marketing/active-campaign',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
             type: 'website',
@@ -57,8 +57,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "ActiveCampaign",
-            description: "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
+            title: "Active Campaign",
+            description: 'ActiveCampaign: AI marketing systems for personalized automation and enhanced customer engagement.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
         },
@@ -84,8 +84,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "ActiveCampaign";
-    const summary = "Boost your sales efficiency with ActiveCampaign's AI-driven lead scoring, designed to prioritize and engage high-potential leads.";
+    const title = "Active Campaign AI Tools";
+    const heroSummary = "Active Campaign empowers businesses with AI marketing systems for personalized customer engagement and efficient automation.  Email Marketing, Marketing Automation, Active Intelligence, SMS Marketing, WhatsApp Messaging, CRM, Analytics & Reporting, and Content Creation"
     return (
         <>
             <script
@@ -94,12 +94,13 @@ export default async function Page() {
             />
             <ToolsHeroSection
                 title={title}
-                summary={summary} />
-            <OverviewSection />
+                summary={heroSummary} />
+            <OverviewToolSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />
-            <WhenToUseSection />
+
             <SchedulerShell />
+
         </>
     );
 }

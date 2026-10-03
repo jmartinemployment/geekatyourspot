@@ -1,0 +1,1 @@
+A decision-making flowchart with indicators for readiness, such as volume of transactions and current manual workload, leading to a decision point for automation implementation.

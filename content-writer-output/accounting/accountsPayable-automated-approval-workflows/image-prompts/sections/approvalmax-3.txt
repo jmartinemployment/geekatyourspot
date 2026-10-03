@@ -1,0 +1,1 @@
+Technical diagram illustrating a simplified architecture of ApprovalMax, with components like user interfaces, process flows, and integrations.

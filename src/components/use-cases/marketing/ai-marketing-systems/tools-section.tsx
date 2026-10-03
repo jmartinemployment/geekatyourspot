@@ -83,7 +83,7 @@ export default function ToolsSection() {
 
           </div>
           <div className="col-span-6">
-            <h3 id="activecampaign" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/activecampaign">ActiveCampaign</a>
+            <h3 id="activecampaign" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><a href="https://geekatyourspot.com/tools/marketing/active-campaign">ActiveCampaign</a>
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">ActiveCampaign is a marketing automation tool that helps businesses streamline their customer engagement through
               personalized email campaigns, targeted messaging, and customer relationship management. It supports small businesses
