@@ -122,34 +122,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/approvalmax", "ApprovalMax")}
-                                                href="/tools/accounting/approvalmax"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/tipalti"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Tipalti
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/approvalmax", "ApprovalMax")}
+                                                href="/tools/accounting/accounts-payable/approvalmax"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Melio
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
-                                                href="/tools/accounting/ramp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/plooto", "Plooto")}
-                                                href="/tools/accounting/plooto"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Plooto
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/stampli", "Stampli")}
+                                                href="/tools/accounting/accounts-payable/stampli"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Stampli
                                             </Link>.
                                         </p>
                                     </li>
@@ -1272,10 +1272,22 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/approvalmax", "ApprovalMax")}
-                                                href="/tools/accounting/approvalmax"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/tipalti"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Tipalti
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/approvalmax", "ApprovalMax")}
+                                                href="/tools/accounting/accounts-payable/approvalmax"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ApprovalMax
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/ramp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Ramp
                                             </Link>,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/bill", "Bill")}
@@ -1284,22 +1296,10 @@ export function UseCasesSection() {
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ramp", "Ramp")}
-                                                href="/tools/accounting/ramp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/stampli", "Stampli")}
+                                                href="/tools/accounting/accounts-payable/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Ramp
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/plooto", "Plooto")}
-                                                href="/tools/accounting/plooto"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Plooto
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Melio
+                                                Stampli
                                             </Link>.
                                         </p>
                                     </li>
