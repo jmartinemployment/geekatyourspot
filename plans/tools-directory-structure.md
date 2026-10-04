@@ -7,41 +7,75 @@ count below was taken from the tree that day, so re-grep before trusting an old 
 
 ## The structure
 
-A tool page is addressed by **department, then use case, then tool**:
+A tool page is addressed by **department, category, pillar, then tool**:
 
 ```
-/tools/<department>/<use-case>/<tool>
+/tools/<department>/<category>/<pillar>/<tool>
 ```
 
 ```
-/tools/accounting/accounts-payable/dext
-/tools/accounting/accounts-payable/bill
-/tools/accounting/accounts-payable/avidxchange
-/tools/accounting/tax-compliance-regulations/avalara
-/tools/marketing/ai-content-creation-workflow/chatgpt
+/tools/accounting/accounts-payable/automated-data-entry-processing/dext
+/tools/accounting/accounts-payable/automated-data-entry-processing/bill
+/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/approvalmax
+/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/bill
 ```
 
-The use-case segment is the same slug as the pillar it belongs to. `dext` sits under
-`accounts-payable` because the pillar it supports is
-`/use-cases/accounting/accounts-payable/automated-data-entry-processing`.
+It mirrors the use-case tree one level at a time:
 
-**Why the segment earns its place.** A tool is only ever written up *for* a use case — the
-Dext page argues Dext for AP data entry, not Dext in the abstract — and the same vendor can
-be written up twice for two different jobs. A flat `/tools/accounting/dext` has nowhere to
-put the second write-up and no way to say which pillar the first one serves. The nesting
-also makes the URL answer "why am I reading about this tool," which a flat slug cannot.
+| Segment | Is | Example |
+|---|---|---|
+| department | the card on the home page | `accounting` |
+| category | the `<h4>` under it, **without "Automated"** | `accounts-payable` |
+| pillar | the `<h5>` under that, slug of the pillar page | `automated-data-entry-processing` |
+| tool | the tool named in that pillar's "Top 5" list | `bill` |
+
+**"Automated" belongs to the pillar, not the category.** The home page heading reads
+"Automated Accounts Payable" but the category segment is `accounts-payable`; the word lives
+in the pillar slug below it (`automated-data-entry-processing`,
+`automated-approval-workflows-...`). This matches the use-case routes, which have always been
+`/use-cases/accounting/accounts-payable/automated-accounts-payable`.
+
+**The pillar segment is that pillar's slug verbatim** — not a shortened version of it. Where
+a pillar shipped with a long slug, its tools inherit it:
+`/tools/accounting/.../automated-approval-workflows-boosting-efficiency-with-ai/approvalmax`.
+One rule, no per-tool judgement call about how much of the slug to keep.
+
+**Why four segments.** A tool is written up *for* a pillar, and the same vendor is written up
+more than once for different jobs. Bill has one write-up for AP data entry and another for AP
+approval workflows; they are different arguments about the same product. Three segments gave
+Bill one slot and forced a choice between them. Four gives each write-up its own URL, and the
+URL says which pillar it is arguing for.
+
+Where a category has no pillar below it — tax compliance is a pillar directly under the
+department — the tool sits one level shallower:
+`/tools/accounting/tax-compliance-regulations/avalara`. Mirror the use-case tree; do not
+invent a segment to pad the depth.
+
+### Marketing
+
+The same rule, not a second scheme. Marketing's tools are still flat at
+`/tools/marketing/<tool>` and are expected to move in the week after 2026-10-03. Read the
+segments off the home page's marketing card exactly as above: the `<h4>` is the category, the
+`<h5>` above each "Top 5" list is the pillar, and the links in that list are the tools. For
+example a ContentStudio page written up for the content-repurposing pillar becomes
+`/tools/marketing/ai-content-creation-workflow/ai-content-repurposing/contentstudio` once
+those pillars' slugs are confirmed against `src/app/(site)/use-cases/marketing/`.
 
 ### Directories
 
 | Concern | Path |
 |---|---|
-| Route | `src/app/(site)/tools/<department>/<use-case>/<tool>/page.tsx` |
-| Sections | `src/components/tools/<department>/<use-case>/<tool>/*-section.tsx` |
+| Route | `src/app/(site)/tools/<department>/<category>/<pillar>/<tool>/page.tsx` |
+| Sections | `src/components/tools/<department>/<category>/<pillar>/<tool>/*-section.tsx` |
 | Listing metadata | `src/data/tools/<tool>.ts`, registered in `src/lib/tools-mapper.ts` |
 | Shared hero | `src/components/tools/shared/tools-hero.tsx` |
 
-Route path and component path carry the same three segments. When they agree, the file that
-renders a URL is reachable from the URL by inspection.
+Route path and component path carry the same segments. When they agree, the file that renders
+a URL is reachable from the URL by inspection.
+
+A tool written up twice needs two data entries, because `src/data/tools/<tool>.ts` is keyed by
+slug and `toolHref()` builds one href per entry. Name the second for its pillar
+(`bill-approval-workflows.ts`) rather than overloading one entry with two URLs.
 
 ---
 
@@ -77,11 +111,11 @@ Note the split this creates today: `accounting/accounts-payable/dext` renders at
 2. **Move the components** to the matching three-segment path and fix the page's imports.
 3. **Update the page's own URLs.** Each `page.tsx` hardcodes its path in `CANONICAL`, in
    `openGraph.url`, and in the JSON-LD `mainEntityOfPage.@id` and `@id`. All four change.
-4. **Update the registry.** `toolHref()` builds `/tools/${tool.department}/${tool.slug}`
-   (`src/app/(site)/tools/accounting/page.tsx:51`, and the same function in the marketing
-   index). Adding a use-case segment means adding a field to `ToolPageContent`
-   (`src/types/tool.ts`) and filling it in for every `src/data/tools/*.ts` entry — the
-   type has `slug` and `department` and nothing between them.
+4. **Update the registry.** `toolHref()` (`src/app/(site)/tools/accounting/page.tsx:51`, and
+   the same function in the marketing index) builds the href from `ToolPageContent`
+   (`src/types/tool.ts`). It carries an optional `useCase` field holding the segments between
+   department and slug; a tool without it stays at the flat `/tools/<department>/<slug>`, which
+   is how marketing still renders.
 5. **Update every inbound link by hand.** There are **707** hardcoded `"/tools/..."` strings
    across roughly 50 files: `src/components/layout/navbar.tsx`, `src/components/home/use-cases.tsx`,
    and the pillar section components under `src/components/use-cases/**`. They are hand-written

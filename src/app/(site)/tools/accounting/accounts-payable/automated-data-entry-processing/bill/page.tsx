@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/accounting/accounts-payable/dext/overview-section";
-import ManualBookkeepingChallengesSection from "@/components/tools/accounting/accounts-payable/dext/manual-bookkeeping-challenges-section";
-import HowDextTransformsSection from "@/components/tools/accounting/accounts-payable/dext/how-dext-transforms-section";
-import MechanicsSection from "@/components/tools/accounting/accounts-payable/dext/mechanics-section";
-import ImplementationSection from "@/components/tools/accounting/accounts-payable/dext/implementation-section";
-import EvaluatingSection from "@/components/tools/accounting/accounts-payable/dext/evaluating-section";
-import RightFitSection from "@/components/tools/accounting/accounts-payable/dext/right-fit-section";
+import OverviewSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/overview-section";
+import ManualApChallengesSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/manual-ap-challenges-section";
+import HowBillTransformsSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/how-bill-transforms-section";
+import CoreFunctionalitySection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/core-functionality-section";
+import ImplementationSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/implementation-section";
+import EvaluatingSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/evaluating-section";
+import RightFitSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/right-fit-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { SoftwareApplication, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Dext";
+const TITLE = "Bill";
 const DESCRIPTION =
-    "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.";
-const CANONICAL = "/tools/accounting/accounts-payable/dext";
+    "Bill automates invoice processing, approvals, and expense management, with AI-powered invoice coding and configurable approval workflows.";
+const CANONICAL = "/tools/accounting/accounts-payable/automated-data-entry-processing/bill";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: WithContext<SoftwareApplication> = {
@@ -28,7 +28,13 @@ const jsonLd: WithContext<SoftwareApplication> = {
         "@type": "WebPage",
         "@id": PAGE_URL
     },
-    "keywords": "Dext, automated data entry, accounts payable automation, receipt capture, invoice processing, bookkeeping automation, AI Assist, data extraction, accounting integrations, AI implementation",
+    "keywords": "Bill, accounts payable automation, invoice coding, approval workflows, expense management, PO matching, payment processing, fraud detection, QuickBooks integration, AI implementation",
+    "offers": {
+        "@type": "Offer",
+        "price": "49",
+        "priceCurrency": "USD",
+        "description": "Published pricing starting at $49 per user per month."
+    },
     "subjectOf": {
         "@type": "Article",
         "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing"
@@ -41,12 +47,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: [
-            "Dext",
-            "automated data entry",
+            "Bill",
             "accounts payable automation",
-            "receipt capture",
-            "invoice processing",
-            "bookkeeping automation",
+            "invoice coding",
+            "approval workflows",
+            "expense management",
+            "PO matching",
         ],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
@@ -101,7 +107,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Dext turns receipts, bills and invoices into structured records automatically, with over 99% accuracy and real-time visibility.";
+        "Bill automates invoice entry, approvals and payments so AP processing time drops by half instead of consuming your week.";
     return (
         <>
             <script
@@ -112,9 +118,9 @@ export default async function Page() {
                 title={TITLE}
                 summary={heroSummary} />
             <OverviewSection />
-            <ManualBookkeepingChallengesSection />
-            <HowDextTransformsSection />
-            <MechanicsSection />
+            <ManualApChallengesSection />
+            <HowBillTransformsSection />
+            <CoreFunctionalitySection />
             <ImplementationSection />
             <EvaluatingSection />
             <RightFitSection />

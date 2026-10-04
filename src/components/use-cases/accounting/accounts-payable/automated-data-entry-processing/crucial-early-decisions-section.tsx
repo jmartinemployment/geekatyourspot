@@ -9,7 +9,7 @@ export default function CrucialEarlyDecisionsSection() {
         seamless part of your operations or a source of frustration. One key decision is selecting the right
         tools that align with your business needs.&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-decisions-dext"
-          href="/tools/accounting/accounts-payable/dext" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#0B162A] hover:underline">
           Dext
         </Link>&nbsp;is particularly effective for firms looking to streamline bookkeeping and improve
         workflow insight. Its AI-powered features help reduce manual handling and errors, making it a strong
@@ -21,7 +21,7 @@ export default function CrucialEarlyDecisionsSection() {
         payable needs to be automated, and over-automation can lead to rigidity that stifles flexibility.
         Tools like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-decisions-bill"
-          href="/tools/accounting/accounts-payable/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;offer customizable approval workflows, which can be tailored to suit varying business
         requirements, allowing for a balanced approach that maintains control while improving efficiency.</p>

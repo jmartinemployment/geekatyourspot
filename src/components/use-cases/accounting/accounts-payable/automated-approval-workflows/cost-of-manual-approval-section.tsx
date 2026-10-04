@@ -26,7 +26,7 @@ export default function CostOfManualApprovalSection() {
       <p className="text-md text-white shadow-text pt-3">
         Tools like&nbsp;
         <Link id="use-cases-accounting-automated-approval-workflows-cost-bill"
-          href="/tools/accounting/accounts-payable/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;can help mitigate these issues by automating many of the approval steps. Bill, for
         instance, offers automated invoice routing and approval workflows that ensure invoices are processed

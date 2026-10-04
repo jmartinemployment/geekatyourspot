@@ -8,15 +8,15 @@ export default function RightMoveSection() {
         time-consuming manual processes, frequent data entry errors, and delayed invoice approvals. If your
         business experiences these pain points, implementing automated solutions like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-right-move-dext"
-          href="/tools/accounting/accounts-payable/dext" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-right-move-bill"
-          href="/tools/accounting/accounts-payable/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, and&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-right-move-avidxchange"
-          href="/tools/accounting/accounts-payable/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;could be the right decision. These tools offer automated data capture and streamlined
         workflows that reduce manual intervention and enhance accuracy.</p>

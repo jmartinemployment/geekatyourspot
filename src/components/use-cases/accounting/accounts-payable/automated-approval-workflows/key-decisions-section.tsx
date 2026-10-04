@@ -8,7 +8,7 @@ export default function KeyDecisionsSection() {
         implementation. A critical decision is selecting the right software that aligns with existing systems
         and business needs. For instance,&nbsp;
         <Link id="use-cases-accounting-automated-approval-workflows-decisions-bill"
-          href="/tools/accounting/accounts-payable/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;offers customizable workflows that can be tailored to specific business rules, ensuring
         a seamless integration into the current processes. This flexibility is vital for accommodating unique

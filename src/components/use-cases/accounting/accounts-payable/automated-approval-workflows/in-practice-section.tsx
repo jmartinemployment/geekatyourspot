@@ -25,7 +25,7 @@ export default function InPracticeSection() {
         them on the functionalities of the new tool, like using mobile apps for on-the-go approvals,
         which&nbsp;
         <Link id="use-cases-accounting-automated-approval-workflows-practice-bill"
-          href="/tools/accounting/accounts-payable/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;provides. This empowers employees to adapt quickly and reduces resistance to change.</p>
       <p className="text-md text-white shadow-text pt-3">

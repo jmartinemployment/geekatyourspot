@@ -36,6 +36,21 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/tools/accounting/accounts-payable/dext",
+        destination: "/tools/accounting/accounts-payable/automated-data-entry-processing/dext",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/accounts-payable/bill",
+        destination: "/tools/accounting/accounts-payable/automated-data-entry-processing/bill",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/accounts-payable/avidxchange",
+        destination: "/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange",
+        permanent: true,
+      },
+      {
         source: "/tools/accounting/avalara",
         destination: "/tools/accounting/tax-compliance-regulations/avalara",
         permanent: true,

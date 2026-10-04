@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/avidxchange/` is the
+ * `src/components/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange/` is the
  * content of record; `sections` here carries each section's heading and opening
  * paragraph so the registry stays readable, not a second copy of the page.
  */
@@ -10,7 +10,7 @@ export const avidxchangeContent: ToolPageContent = {
   "title": "AvidXchange",
   "slug": "avidxchange",
   "department": "accounting",
-  "useCase": "accounts-payable",
+  "useCase": "accounts-payable/automated-data-entry-processing",
   "description":
     "AvidXchange automates invoice management and B2B payments, extracting, matching, and routing invoice data while integrating with existing accounting systems.",
   "heroSummary":

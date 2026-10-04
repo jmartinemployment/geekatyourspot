@@ -16,7 +16,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Tools like&nbsp;
         <Link id="use-cases-accounting-automated-approval-workflows-evaluating-bill"
-          href="/tools/accounting/accounts-payable/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
         <Link id="use-cases-accounting-automated-approval-workflows-evaluating-ramp"

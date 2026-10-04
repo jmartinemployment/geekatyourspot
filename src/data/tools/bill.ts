@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/bill/` is the content of
+ * `src/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/` is the content of
  * record; `sections` here carries each section's heading and opening paragraph
  * so the registry stays readable, not a second copy of the page.
  */
@@ -10,7 +10,7 @@ export const billContent: ToolPageContent = {
   "title": "Bill",
   "slug": "bill",
   "department": "accounting",
-  "useCase": "accounts-payable",
+  "useCase": "accounts-payable/automated-data-entry-processing",
   "description":
     "Bill automates invoice processing, approvals, and expense management, with AI-powered invoice coding and configurable approval workflows.",
   "heroSummary":

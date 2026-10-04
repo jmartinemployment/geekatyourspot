@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/accounting/accounts-payable/avidxchange/overview-section";
-import CostOfManualApSection from "@/components/tools/accounting/accounts-payable/avidxchange/cost-of-manual-ap-section";
-import HowAvidxchangeTransformsSection from "@/components/tools/accounting/accounts-payable/avidxchange/how-avidxchange-transforms-section";
-import StreamlinesApSection from "@/components/tools/accounting/accounts-payable/avidxchange/streamlines-ap-section";
-import DeployingSection from "@/components/tools/accounting/accounts-payable/avidxchange/deploying-section";
-import EvaluatingSection from "@/components/tools/accounting/accounts-payable/avidxchange/evaluating-section";
-import RightFitSection from "@/components/tools/accounting/accounts-payable/avidxchange/right-fit-section";
+import OverviewSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/overview-section";
+import ManualBookkeepingChallengesSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/manual-bookkeeping-challenges-section";
+import HowDextTransformsSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/how-dext-transforms-section";
+import MechanicsSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/mechanics-section";
+import ImplementationSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/implementation-section";
+import EvaluatingSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/evaluating-section";
+import RightFitSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/right-fit-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { SoftwareApplication, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "AvidXchange";
+const TITLE = "Dext";
 const DESCRIPTION =
-    "AvidXchange automates invoice management and B2B payments, extracting, matching, and routing invoice data while integrating with existing accounting systems.";
-const CANONICAL = "/tools/accounting/accounts-payable/avidxchange";
+    "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.";
+const CANONICAL = "/tools/accounting/accounts-payable/automated-data-entry-processing/dext";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: WithContext<SoftwareApplication> = {
@@ -28,7 +28,7 @@ const jsonLd: WithContext<SoftwareApplication> = {
         "@type": "WebPage",
         "@id": PAGE_URL
     },
-    "keywords": "AvidXchange, accounts payable automation, invoice automation, B2B payments, paperless AP, approval workflows, fraud controls, Microsoft Dynamics integration, payment security, AI implementation",
+    "keywords": "Dext, automated data entry, accounts payable automation, receipt capture, invoice processing, bookkeeping automation, AI Assist, data extraction, accounting integrations, AI implementation",
     "subjectOf": {
         "@type": "Article",
         "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing"
@@ -41,12 +41,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: [
-            "AvidXchange",
+            "Dext",
+            "automated data entry",
             "accounts payable automation",
-            "invoice automation",
-            "B2B payments",
-            "paperless AP",
-            "approval workflows",
+            "receipt capture",
+            "invoice processing",
+            "bookkeeping automation",
         ],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
@@ -101,7 +101,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "AvidXchange captures invoice data at header and line-item level with 99.2% accuracy, then routes, approves and pays it without paper.";
+        "Dext turns receipts, bills and invoices into structured records automatically, with over 99% accuracy and real-time visibility.";
     return (
         <>
             <script
@@ -112,10 +112,10 @@ export default async function Page() {
                 title={TITLE}
                 summary={heroSummary} />
             <OverviewSection />
-            <CostOfManualApSection />
-            <HowAvidxchangeTransformsSection />
-            <StreamlinesApSection />
-            <DeployingSection />
+            <ManualBookkeepingChallengesSection />
+            <HowDextTransformsSection />
+            <MechanicsSection />
+            <ImplementationSection />
             <EvaluatingSection />
             <RightFitSection />
             <SchedulerShell />

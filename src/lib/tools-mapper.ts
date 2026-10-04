@@ -4,6 +4,7 @@ import { adaptiveInsightsContent } from "@/data/tools/adaptive-insights";
 import { adobeMixModelerContent } from "@/data/tools/adobe-mix-modeler";
 import { anaplanContent } from "@/data/tools/anaplan";
 import { anomaloContent } from "@/data/tools/anomalo";
+import { approvalmaxContent } from "@/data/tools/approvalmax";
 import { avalaraContent } from "@/data/tools/avalara";
 import { avidxchangeContent } from "@/data/tools/avidxchange";
 import { baswareContent } from "@/data/tools/basware";
@@ -34,6 +35,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "adobe-mix-modeler": adobeMixModelerContent,
   "anaplan": anaplanContent,
   "anomalo": anomaloContent,
+  "approvalmax": approvalmaxContent,
   "avalara": avalaraContent,
   "avidxchange": avidxchangeContent,
   "basware": baswareContent,
