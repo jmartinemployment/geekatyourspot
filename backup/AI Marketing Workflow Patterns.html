@@ -1,0 +1,486 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>AI Marketing Workflow Patterns</title>
+
+<style>
+  /* ── GEEK @ YOUR SPOT BRAND TOKENS ── */
+  :root {
+    /* Brand palette from globals.css */
+    --maastricht:  #012840;
+    --brand-blue:  #023059;
+    --teal-blue:   #024059;
+    --ocean-blue:  #025e73;
+    --dark-water:  #024873;
+    --salsa-red:   #8c2703;
+    --teak:        #8c4e2a;
+    --true-black:  #0a080d;
+    --frost-aqua:  #bdf2f2;
+    --orange-red:  #C83803;
+
+    /* Page layout */
+    --bg:          var(--maastricht);
+    --surface:     var(--brand-blue);
+    --surface-alt: var(--teal-blue);
+    --border:      rgba(189, 242, 242, 0.14);
+    --rule:        rgba(189, 242, 242, 0.20);
+
+    /* Text */
+    --text-1:      #ffffff;
+    --text-2:      rgba(189, 242, 242, 0.85);
+    --text-3:      rgba(189, 242, 242, 0.45);
+
+    /* Step-type chip colors */
+    --c-trigger:      var(--ocean-blue);
+    --c-trigger-text: var(--frost-aqua);
+    --c-trigger-bg:   rgba(2, 94, 115, 0.4);
+
+    --c-ai:      var(--frost-aqua);
+    --c-ai-text: var(--maastricht);
+    --c-ai-bg:   rgba(189, 242, 242, 0.15);
+
+    --c-out:      var(--orange-red);
+    --c-out-text: #ffffff;
+    --c-out-bg:   rgba(200, 56, 3, 0.22);
+
+    --f-b: system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
+    --f-m: 'SF Mono', 'Cascadia Code', Consolas, monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: var(--f-b);
+    font-size: 13.5px;
+    line-height: 1.6;
+    padding: 52px 28px 88px;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  /* ── PAGE HEADER ── */
+  header {
+    padding-bottom: 36px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--f-m);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--orange-red);
+    margin-bottom: 16px;
+  }
+
+  .eyebrow::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 36px;
+    background: var(--orange-red);
+    opacity: 0.5;
+  }
+
+  h1 {
+    font-size: clamp(28px, 4vw, 40px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-wrap: balance;
+    max-width: 580px;
+    margin-bottom: 12px;
+  }
+
+  h1 span {
+    color: var(--orange-red);
+  }
+
+  .sub {
+    font-size: 14px;
+    color: var(--text-2);
+    max-width: 500px;
+    line-height: 1.7;
+  }
+
+  /* ── LEGEND ── */
+  .legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .leg {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--f-m);
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-3);
+  }
+
+  .pip { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+  .pip-t { background: var(--c-trigger); }
+  .pip-a { background: var(--c-ai); }
+  .pip-o { background: var(--c-out); }
+
+  /* ── WORKFLOW CARD ── */
+  .wf {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  /* Alternate section surface tones */
+  .wf:nth-child(odd)  { background: var(--surface); }
+  .wf:nth-child(even) { background: var(--surface-alt); }
+
+  .wf-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding: 20px 26px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .wf-n {
+    font-family: var(--f-m);
+    font-size: 9px;
+    color: var(--text-3);
+    flex-shrink: 0;
+    padding-top: 3px;
+    letter-spacing: 0.06em;
+  }
+
+  .wf-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: var(--text-1);
+    text-wrap: balance;
+  }
+
+  /* ── FLOW DIAGRAM ── */
+  .flow-scroll {
+    overflow-x: auto;
+    padding: 15px 26px;
+    border-bottom: 1px solid var(--border);
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .flow {
+    display: flex;
+    align-items: flex-end;
+    min-width: max-content;
+  }
+
+  .step { display: flex; flex-direction: column; gap: 3px; flex-shrink: 0; }
+
+  .s-type {
+    font-family: var(--f-m);
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0 2px;
+  }
+
+  .s-box {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    padding: 5px 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+    border: 1px solid;
+    line-height: 1.3;
+  }
+
+  .step.trig .s-type { color: var(--c-trigger-text); }
+  .step.trig .s-box  { color: var(--c-trigger-text); background: var(--c-trigger-bg); border-color: var(--c-trigger); }
+
+  .step.ai   .s-type { color: var(--c-ai); }
+  .step.ai   .s-box  { color: var(--c-ai-text); background: var(--c-ai-bg); border-color: var(--c-ai); }
+
+  .step.out  .s-type { color: var(--c-out); }
+  .step.out  .s-box  { color: var(--c-out-text); background: var(--c-out-bg); border-color: var(--c-out); }
+
+  .arr {
+    padding: 0 7px;
+    padding-bottom: 7px;
+    align-self: flex-end;
+    color: var(--text-3);
+    font-family: var(--f-m);
+    font-size: 14px;
+    user-select: none;
+    flex-shrink: 0;
+  }
+
+  /* ── DETAIL GRID ── */
+  .details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: 16px 24px;
+    padding: 16px 26px 20px;
+  }
+
+  .d-label {
+    font-family: var(--f-m);
+    font-size: 8.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--orange-red);
+    margin-bottom: 5px;
+  }
+
+  .d-body {
+    font-size: 12.5px;
+    color: var(--text-2);
+    line-height: 1.62;
+  }
+
+  ul.d-body {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  ul.d-body li::before {
+    content: "–\00a0";
+    color: var(--text-3);
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 580px) {
+    body { padding: 28px 16px 56px; }
+    .wf-head, .flow-scroll, .details { padding-left: 16px; padding-right: 16px; }
+    .details { grid-template-columns: 1fr; }
+  }
+</style>
+
+<header>
+  <div class="eyebrow">Geek @ Your Spot · AI Marketing Operations</div>
+  <h1>Core <span>Workflow</span> Patterns</h1>
+  <p class="sub">Five automation blueprints that turn manual marketing tasks into orchestrated, AI-driven sequences — from first lead contact to campaign optimization and team coaching.</p>
+</header>
+
+<div class="legend">
+  <div class="leg"><span class="pip pip-t"></span>Trigger / Input</div>
+  <div class="leg"><span class="pip pip-a"></span>AI Process</div>
+  <div class="leg"><span class="pip pip-o"></span>Output / Action</div>
+</div>
+
+<!-- 01 -->
+<div class="wf">
+  <div class="wf-head">
+    <span class="wf-n">01</span>
+    <h2 class="wf-title">Lead Capture → Instant Qualification → Personalized Follow-Up</h2>
+  </div>
+  <div class="flow-scroll">
+    <div class="flow">
+      <div class="step trig"><span class="s-type">Trigger</span><span class="s-box">New Lead</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Enrichment</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Scoring & Routing</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Personalized First Touch</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Multi-Touch Nurture</span></div>
+    </div>
+  </div>
+  <div class="details">
+    <div>
+      <div class="d-label">Source</div>
+      <p class="d-body">Website form, chat, or landing page via HubSpot, Pipedrive, or Marketo</p>
+    </div>
+    <div>
+      <div class="d-label">AI Enrichment</div>
+      <p class="d-body">Company headcount, location, recent funding, news, and social signals</p>
+    </div>
+    <div>
+      <div class="d-label">First Touch</div>
+      <p class="d-body">Context-aware email, SMS, or DM referencing industry, role, and pain points — sent immediately or after a short delay</p>
+    </div>
+    <div>
+      <div class="d-label">Nurture Sequence</div>
+      <ul class="d-body">
+        <li>Case study angle</li>
+        <li>Checklist or resource</li>
+        <li>Short video script</li>
+        <li>CRM lifecycle updated automatically</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 02 -->
+<div class="wf">
+  <div class="wf-head">
+    <span class="wf-n">02</span>
+    <h2 class="wf-title">Content Creation → Repurposing → Distribution</h2>
+  </div>
+  <div class="flow-scroll">
+    <div class="flow">
+      <div class="step trig"><span class="s-type">Input</span><span class="s-box">Pillar Asset</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Repurpose</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Multi-Format Content</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Auto-Schedule</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">Ongoing</span><span class="s-box">Refresh & Consolidate</span></div>
+    </div>
+  </div>
+  <div class="details">
+    <div>
+      <div class="d-label">Pillar Formats</div>
+      <p class="d-body">Blog, webinar, deck, or case study becomes the strategic anchor for all derivative content</p>
+    </div>
+    <div>
+      <div class="d-label">AI Generates</div>
+      <ul class="d-body">
+        <li>Homepage sections & CTAs</li>
+        <li>Email outreach sequences</li>
+        <li>Social posts & carousels</li>
+        <li>Short video scripts & captions</li>
+        <li>Launch articles (before/during/after)</li>
+      </ul>
+    </div>
+    <div>
+      <div class="d-label">Scheduling</div>
+      <p class="d-body">Auto-publish to LinkedIn, Instagram, Facebook, and Google Business via Zapier, Make, or n8n</p>
+    </div>
+    <div>
+      <div class="d-label">Maintenance</div>
+      <p class="d-body">AI flags outdated content, suggests refreshes, and consolidates overlapping pieces over time</p>
+    </div>
+  </div>
+</div>
+
+<!-- 03 -->
+<div class="wf">
+  <div class="wf-head">
+    <span class="wf-n">03</span>
+    <h2 class="wf-title">Campaign Reporting → Insights → Action</h2>
+  </div>
+  <div class="flow-scroll">
+    <div class="flow">
+      <div class="step trig"><span class="s-type">Trigger</span><span class="s-box">Data Pull</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Summarization</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Anomaly Detection</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Recommendations</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Stakeholder Report</span></div>
+    </div>
+  </div>
+  <div class="details">
+    <div>
+      <div class="d-label">Data Sources</div>
+      <p class="d-body">Ads, email, web analytics, and CRM aggregated automatically into a unified view</p>
+    </div>
+    <div>
+      <div class="d-label">AI Insights</div>
+      <p class="d-body">Performance summary, anomaly highlights, and plain-language interpretation of what changed and why</p>
+    </div>
+    <div>
+      <div class="d-label">Actions Proposed</div>
+      <ul class="d-body">
+        <li>Pause underperforming ads</li>
+        <li>Reallocate budget</li>
+        <li>Test new hooks or audiences</li>
+        <li>Adjust offer or landing page</li>
+      </ul>
+    </div>
+    <div>
+      <div class="d-label">Reporting</div>
+      <p class="d-body">Auto-generated weekly client and internal summaries with charts and bullet insights</p>
+    </div>
+  </div>
+</div>
+
+<!-- 04 -->
+<div class="wf">
+  <div class="wf-head">
+    <span class="wf-n">04</span>
+    <h2 class="wf-title">SEO & Paid Media Optimization</h2>
+  </div>
+  <div class="flow-scroll">
+    <div class="flow">
+      <div class="step trig"><span class="s-type">Research</span><span class="s-box">Keyword Discovery</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Programmatic Content</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Location Pages</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Process</span><span class="s-box">Ad Copy Variants</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Intent-Led Testing</span></div>
+    </div>
+  </div>
+  <div class="details">
+    <div>
+      <div class="d-label">Keyword Strategy</div>
+      <p class="d-body">AI identifies long-tail, high-intent keywords with lower competition for each service area</p>
+    </div>
+    <div>
+      <div class="d-label">Programmatic SEO</div>
+      <p class="d-body">Location- and service-specific pages — e.g., "AI Implementations for Small Delray Beach Businesses"</p>
+    </div>
+    <div>
+      <div class="d-label">Ad Creative</div>
+      <p class="d-body">Multiple copy variants generated and tested, aligned to search intent and landing page messaging for each audience segment</p>
+    </div>
+  </div>
+</div>
+
+<!-- 05 -->
+<div class="wf">
+  <div class="wf-head">
+    <span class="wf-n">05</span>
+    <h2 class="wf-title">Team Enablement & Coaching at Scale</h2>
+  </div>
+  <div class="flow-scroll">
+    <div class="flow">
+      <div class="step trig"><span class="s-type">Input</span><span class="s-box">Playbooks & Content</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Training</span><span class="s-box">AI SDR / Coach</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">FAQ & Objection Handling</span></div>
+      <span class="arr">→</span>
+      <div class="step ai"><span class="s-type">AI Review</span><span class="s-box">Call & Chat Analysis</span></div>
+      <span class="arr">→</span>
+      <div class="step out"><span class="s-type">Output</span><span class="s-box">Coaching Notes & Scripts</span></div>
+    </div>
+  </div>
+  <div class="details">
+    <div>
+      <div class="d-label">AI SDR / Coach</div>
+      <p class="d-body">Trained on best content and playbooks to answer FAQs and handle objections for SDRs or front-desk staff in real time</p>
+    </div>
+    <div>
+      <div class="d-label">Performance Review</div>
+      <p class="d-body">AI reviews call and chat transcripts, surfaces coaching opportunities, and generates improvement scripts automatically</p>
+    </div>
+    <div>
+      <div class="d-label">Scale Impact</div>
+      <p class="d-body">Consistent, high-quality guidance delivered without requiring a dedicated full-time coach or large training team</p>
+    </div>
+  </div>
+</div>
+
+</body></html>

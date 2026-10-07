@@ -1,0 +1,1 @@
+A detailed infographic of a layered architecture diagram showing various components like databases, user interfaces, and workflow engines, connected to represent Stampli's system architecture.

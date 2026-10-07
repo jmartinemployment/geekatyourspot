@@ -1,1 +1,0 @@
-A technical diagram illustrating the architecture of a software tool with interconnected modules and data flows, showcasing the inner workings of a digital accounts payable solution.

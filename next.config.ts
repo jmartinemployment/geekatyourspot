@@ -58,6 +58,18 @@ const nextConfig: NextConfig = {
       // ActiveCampaign shipped at two URLs. The hyphenated one is canonical;
       // the one-word route was retired on 2026-10-03 and its page's content
       // now serves the hyphenated path.
+      // Friday's approval-workflows pillar was superseded by a new export on
+      // 2026-10-07 with a different slug; the old pages are in backup/.
+      {
+        source: "/use-cases/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai",
+        destination: "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/approvalmax",
+        destination: "/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/approvalmax",
+        permanent: true,
+      },
       {
         source: "/tools/marketing/activecampaign",
         destination: "/tools/marketing/active-campaign",
