@@ -22,7 +22,7 @@ export const POSTS_PER_PAGE = 13;
 
 function toBlogItems(): BlogIndexItem[] {
   return listEntries("blog").map((entry) => ({
-    slug: `${entry.department}/${entry.slug}`,
+    slug: entry.href,
     href: entry.href,
     title: entry.headline || entry.title,
     excerpt: entry.excerpt,

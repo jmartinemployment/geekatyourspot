@@ -1,0 +1,1 @@
+A step-by-step illustration depicting the integration of Melio into a business's existing infrastructure, with stages from initial setup to full deployment shown in a sequential manner.

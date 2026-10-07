@@ -1,0 +1,1 @@
+A step-by-step flowchart showing the process of integrating Ramp into an existing business environment.

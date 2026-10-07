@@ -17,11 +17,19 @@ import { cn } from "@/lib/utils";
 import { formatDate } from "../../format-date";
 
 type BlogArticleProps = Readonly<{
-  params: Promise<{ department: string; slug: string }>;
+  params: Promise<{ department: string; slug: string[] }>;
 }>;
 
-export function generateStaticParams(): Array<{ department: string; slug: string }> {
-  return listEntries("blog").map(({ department, slug }) => ({ department, slug }));
+/**
+ * A post is either /blog/<department>/<slug> or, when the export files it under
+ * a category, /blog/<department>/<category>/<slug>. The catch-all covers both,
+ * so `slug` is the path after the department.
+ */
+export function generateStaticParams(): Array<{ department: string; slug: string[] }> {
+  return listEntries("blog").map(({ department, category, slug }) => ({
+    department,
+    slug: category ? [category, slug] : [slug],
+  }));
 }
 
 export async function generateMetadata({ params }: BlogArticleProps): Promise<Metadata> {

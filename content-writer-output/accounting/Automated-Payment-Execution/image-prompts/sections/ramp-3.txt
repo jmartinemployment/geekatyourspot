@@ -1,0 +1,1 @@
+A technical diagram illustrating the architecture of Ramp, with components representing different functionalities and their interactions.

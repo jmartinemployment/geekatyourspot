@@ -21,6 +21,12 @@ export type Collection = (typeof COLLECTIONS)[number];
 export type ContentEntry = {
   collection: Collection;
   department: string;
+  /**
+   * Middle path segment for an entry filed under a category, as in
+   * /blog/accounting/accounts-payable/<slug>. Null for the plain
+   * /<collection>/<department>/<slug> shape most exports still use.
+   */
+  category: string | null;
   slug: string;
   href: string;
   title: string;
@@ -102,9 +108,10 @@ function parseFile(filePath: string): ParsedFile | null {
     .filter(Boolean);
 
   const collection = COLLECTION_BY_SEGMENT.get(collectionSegment ?? "");
-  if (!collection || !department || rest.length !== 1) return null;
+  if (!collection || !department || rest.length < 1 || rest.length > 2) return null;
 
-  const slug = rest[0];
+  const slug = rest[rest.length - 1];
+  const category = rest.length === 2 ? rest[0] : null;
 
   const meta: Record<string, string> = {};
   for (const match of html.matchAll(/<meta name="([^"]+)"\s+content="([^"]*)"\s*\/?>/gs)) {
@@ -137,8 +144,9 @@ function parseFile(filePath: string): ParsedFile | null {
   const entry: ContentEntry = {
     collection,
     department,
+    category,
     slug,
-    href: `/${collection}/${department}/${slug}`,
+    href: `/${collection}/${department}/${category ? `${category}/` : ""}${slug}`,
     title,
     headline,
     description: meta.description ?? excerpt,
@@ -311,12 +319,13 @@ export function listEntries(collection: Collection): ContentEntry[] {
     .sort(byDateDesc);
 }
 
+/** `segments` is the path after the department: `[slug]`, or `[category, slug]`. */
 export function getEntry(
   collection: Collection,
   department: string,
-  slug: string,
+  segments: readonly string[],
 ): ContentPage | null {
-  const parsed = getCache().get(`/${collection}/${department}/${slug}`);
+  const parsed = getCache().get(`/${collection}/${department}/${segments.join("/")}`);
   if (!parsed) return null;
   return { ...parsed.entry, bodyHtml: parsed.bodyHtml };
 }
