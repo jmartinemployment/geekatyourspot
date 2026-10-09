@@ -20,14 +20,8 @@ export default function DynamicCreativeOptimizationSection() {
               Dynamic creative optimization leverages AI to automatically tailor and deliver personalized ad content to different
               audience segments. This not only saves time but also significantly improves ad performance by ensuring the right
               message reaches the right people at the right time. Tools like&nbsp;
-              <Link id="automated-ad-spend-optimization-dco-adcreativeai"
-                href="/tools/marketing/adcreativeai" className="text-[#C83803] hover:underline">
-                AdCreative.ai
-              </Link>&nbsp;and&nbsp;
-              <Link id="automated-ad-spend-optimization-dco-omneky"
-                href="/tools/marketing/omneky" className="text-[#C83803] hover:underline">
-                Omneky
-              </Link>&nbsp;are at the forefront of this innovation, enabling marketers to automate creative testing and optimize
+              AdCreative.ai&nbsp;and&nbsp;
+              Omneky&nbsp;are at the forefront of this innovation, enabling marketers to automate creative testing and optimize
               content in real-time based on performance data.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               These platforms use <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to analyze user interactions and preferences, dynamically adjusting
@@ -71,10 +65,7 @@ export default function DynamicCreativeOptimizationSection() {
               perform best. However, with AI-powered platforms, this process can be streamlined and optimized.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Platforms like&nbsp;
-              <Link id="automated-ad-spend-optimization-dco-smartlyio"
-                href="/tools/marketing/smartlyio" className="text-[#C83803] hover:underline">
-                Smartly.io
-              </Link>&nbsp;facilitate the automation of creative testing by continuously analyzing ad performance and adjusting
+              Smartly.io&nbsp;facilitate the automation of creative testing by continuously analyzing ad performance and adjusting
               creative elements in real-time. This allows for rapid iteration and improvement, ensuring that only the most
               effective ads are delivered to audiences.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="real-time-performance-insights">Real-Time Performance Insights</h4>

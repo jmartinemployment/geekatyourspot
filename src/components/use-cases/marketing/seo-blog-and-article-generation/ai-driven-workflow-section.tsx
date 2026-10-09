@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function AIDrivenWorkflowSection() {
@@ -8,7 +7,7 @@ export default function AIDrivenWorkflowSection() {
         Many businesses struggle with the slow, error-prone process of optimizing content for search engines. Traditional <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> workflows often involve manual <GlossaryLink slug="keyword-density">keyword research</GlossaryLink>, content planning, and tedious content optimization tasks. These processes can lead to delays, misalignment with changing SEO trends, and ultimately, lost opportunities for visibility and traffic.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Implementing an AI-driven workflow can significantly streamline these tasks, reducing the time spent on repetitive activities and allowing teams to focus more on strategic initiatives. Tools like <Link id="tools-marketing-surfer-seo-2" href="/tools/marketing/surfer-seo" className="text-[#C83803] hover:underline">Surfer SEO</Link> and <Link id="tools-marketing-keyword-insights" href="/tools/marketing/keyword-insights" className="text-[#C83803] hover:underline">Keyword Insights</Link> are pivotal in this transformation. They automate the analysis of search intent and competitive content landscapes, providing actionable data to refine content strategies and align them with user expectations.
+        Implementing an AI-driven workflow can significantly streamline these tasks, reducing the time spent on repetitive activities and allowing teams to focus more on strategic initiatives. Tools like Surfer SEO and Keyword Insights are pivotal in this transformation. They automate the analysis of search intent and competitive content landscapes, providing actionable data to refine content strategies and align them with user expectations.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Geek At Your Spot, as an AI implementation consultancy, assists businesses by configuring these tools to fit unique workflows. This ensures that the AI applications are not just installed but are integrated into daily operations to maximize their utility.
@@ -24,7 +23,7 @@ export default function AIDrivenWorkflowSection() {
         One of the main hurdles in adopting new technologies is ensuring compatibility with existing systems. Many companies find themselves trapped in a web of disconnected tools, which complicates data sharing and collaboration.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot addresses this issue by integrating AI tools like <Link id="tools-marketing-frase" href="/tools/marketing/frase" className="text-[#C83803] hover:underline">Frase</Link> and <Link id="tools-marketing-hubspot-ai" href="/tools/marketing/hubspot-ai" className="text-[#C83803] hover:underline">HubSpot AI</Link>, ensuring they work seamlessly with your existing software. This integration supports continuous data flow, enhancing the accuracy and effectiveness of your SEO campaigns.
+        Geek At Your Spot addresses this issue by integrating AI tools like Frase and HubSpot AI, ensuring they work seamlessly with your existing software. This integration supports continuous data flow, enhancing the accuracy and effectiveness of your SEO campaigns.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Data synchronization between AI tools and existing <GlossaryLink slug="crm">CRM</GlossaryLink> systems.</li>
@@ -42,7 +41,7 @@ export default function AIDrivenWorkflowSection() {
         Content teams often face the challenge of maintaining high output without sacrificing quality. Traditional methods of content creation can lead to burnout and inconsistencies, especially when teams are tasked with producing large volumes of SEO-optimized content.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        AI-driven tools like <Link id="tools-marketing-chatgpt-2" href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">ChatGPT</Link> and <Link id="tools-marketing-claude" href="/tools/marketing/claude" className="text-[#C83803] hover:underline">Claude</Link> can help alleviate these pressures by automating parts of the writing process. These tools generate drafts based on predefined parameters, allowing human writers to focus on refining and adding creative insights.
+        AI-driven tools like ChatGPT and Claude can help alleviate these pressures by automating parts of the writing process. These tools generate drafts based on predefined parameters, allowing human writers to focus on refining and adding creative insights.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Drafts generated automatically to speed up initial content creation.</li>

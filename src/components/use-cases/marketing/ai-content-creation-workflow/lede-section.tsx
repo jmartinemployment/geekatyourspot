@@ -34,14 +34,8 @@ export default function LedeSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>,&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-copy-ai"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>, &nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-chatgpt"
-                  href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
-                  ChatGPT
-                </Link>&nbsp;help marketers generate content efficiently, reducing errors and
+                Copy.ai, &nbsp;and&nbsp;
+                ChatGPT&nbsp;help marketers generate content efficiently, reducing errors and
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
               <p className="text-md text-white shadow-text pt-3">
@@ -60,10 +54,7 @@ export default function LedeSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>,&nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-copy-ai-1"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>,&nbsp; offer a way out of this cycle. These tools leverage artificial
+                Copy.ai,&nbsp; offer a way out of this cycle. These tools leverage artificial
                 intelligence to automate content generation, significantly reducing the time and effort required to produce
                 high-quality materials. Whether you&#39;re drafting a blog post or crafting a social media update, AI can handle
                 repetitive tasks, allowing your team to focus on strategy and creativity.</p>
@@ -113,14 +104,8 @@ export default function LedeSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>,&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-copy-ai"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>, &nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-chatgpt"
-                  href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
-                  ChatGPT
-                </Link>&nbsp; help marketers generate content efficiently, reducing errors and
+                Copy.ai, &nbsp;and&nbsp;
+                ChatGPT&nbsp; help marketers generate content efficiently, reducing errors and
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
               <p className="text-md text-white shadow-text pt-3">
@@ -139,10 +124,7 @@ export default function LedeSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>,&nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-copy-ai-2"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;offer a way out of this cycle. These tools leverage artificial
+                Copy.ai&nbsp;offer a way out of this cycle. These tools leverage artificial
                 intelligence to automate content generation, significantly reducing the time and effort required to produce
                 high-quality materials. Whether you&#39;re drafting a blog post or crafting a social media update, AI can handle
                 repetitive tasks, allowing your team to focus on strategy and creativity.</p>

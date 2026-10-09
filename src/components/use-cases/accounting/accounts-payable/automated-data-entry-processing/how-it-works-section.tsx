@@ -16,7 +16,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Once data is captured, it moves to the processing phase. Here, tools like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-stampli"
-          href="/tools/accounting/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;take over by automating the approval workflow. Stampli routes invoices to the right
         approvers based on predefined criteria, minimizing the time spent on manual follow-ups. Approvers

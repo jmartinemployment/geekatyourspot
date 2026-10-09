@@ -52,9 +52,7 @@ export default function ScoringModelSection() {
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         AI tools such as&nbsp;
-        <Link id="tools-marketing-apollo" href="/tools/marketing/Apollo" className="text-[#0B162A] hover:underline">
-          Apollo
-        </Link>
+        Apollo
         &nbsp;and&nbsp;
         <Link id="tools-marketing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">
           6sense
@@ -76,9 +74,7 @@ export default function ScoringModelSection() {
           Pipedrive
         </Link>
         &nbsp;and&nbsp;
-        <Link id="tools-marketing-lead-squared" href="/tools/marketing/lead-squared" className="text-[#0B162A] hover:underline">
-          LeadSquared
-        </Link>
+        LeadSquared
         &nbsp;play a crucial role in facilitating this continuous improvement by offering detailed analytics and reporting capabilities.
       </p>
     </>

@@ -25,7 +25,7 @@ export default function RightMoveSection() {
         maintaining accuracy under pressure. Automation can free your team from repetitive tasks, allowing
         them to focus on strategic initiatives that drive business growth. For example,&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-right-move-stampli"
-          href="/tools/accounting/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;excels at integrating with existing accounting systems to automate invoice approval and
         payment workflows, minimizing delays and errors.</p>
@@ -37,7 +37,7 @@ export default function RightMoveSection() {
         Before making a decision, assess your current process bottlenecks and the potential for improvement.
         Evaluate solutions like&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-right-move-melio"
-          href="/tools/accounting/melio" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>&nbsp;for their capability to streamline processes without disrupting your existing workflows.
         Each tool has its own strengths, such as Melio&#39;s ability to handle multi-source invoice capture

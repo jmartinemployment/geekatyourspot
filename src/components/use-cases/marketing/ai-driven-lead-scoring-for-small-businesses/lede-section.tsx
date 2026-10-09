@@ -23,13 +23,9 @@ export default function LedeSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Imagine having a clear view of every lead&apos;s journey, from initial contact to conversion. AI-driven tools offer this clarity by integrating and analyzing data from various sources. Solutions like&nbsp;
-        <Link id="tools-marketing-apollo" href="/tools/marketing/Apollo" className="text-[#C83803] hover:underline">
-          Apollo
-        </Link>
+        Apollo
         &nbsp;and&nbsp;
-        <Link id="tools-marketing-lead-squared" href="/tools/marketing/lead-squared" className="text-[#C83803] hover:underline">
-          LeadSquared
-        </Link>
+        LeadSquared
         &nbsp;not only organize your leads but also rank them by potential value, allowing you to focus on what truly drives your business forward.
       </p>
     </>

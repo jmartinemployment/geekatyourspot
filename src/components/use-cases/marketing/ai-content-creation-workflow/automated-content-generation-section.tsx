@@ -31,10 +31,7 @@ export default function AutomatedContentGenerationSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-automating-copy-ai-1"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;can drastically reduce the workload on your team. These platforms
+                Copy.ai&nbsp;can drastically reduce the workload on your team. These platforms
                 leverage advanced algorithms to create high-quality content in a fraction of the time it would take a human. By
                 using these tools, marketing teams can maintain a steady flow of content without sacrificing quality or creativity.
               </p>
@@ -51,10 +48,7 @@ export default function AutomatedContentGenerationSection() {
                 Leveraging AI to Enhance Content Quality</h3>
               <p className="text-md text-white shadow-text pt-3">
                 Many worry that automated content might lack the nuance of human writing. However, tools like
-                <Link id="ai-content-creation-workflow-automating-chatgpt-1"
-                  href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
-                  ChatGPT
-                </Link>&nbsp; are designed to understand context and <GlossaryLink slug="natural-language-processing">semantics</GlossaryLink>, ensuring the content
+                ChatGPT&nbsp; are designed to understand context and <GlossaryLink slug="natural-language-processing">semantics</GlossaryLink>, ensuring the content
                 is not only coherent but also engaging. These tools can analyze existing content to learn your brand’s voice, making
                 generated content feel authentic and personalized.</p>
               <p className="text-md text-white shadow-text pt-3">
@@ -98,10 +92,7 @@ export default function AutomatedContentGenerationSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-automating-copy-ai-2"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;can drastically reduce the workload on your team. These platforms
+                Copy.ai&nbsp;can drastically reduce the workload on your team. These platforms
                 leverage advanced algorithms to create high-quality content in a fraction of the time it would take a human. By
                 using these tools, marketing teams can maintain a steady flow of content without sacrificing quality or creativity.
               </p>
@@ -118,10 +109,7 @@ export default function AutomatedContentGenerationSection() {
                 Leveraging AI to Enhance Content Quality</h3>
               <p className="text-md text-white shadow-text pt-3">
                 Many worry that automated content might lack the nuance of human writing. However, tools like&nbsp;
-                <Link id="ai-content-creation-workflow-automating-chatgpt-2"
-                  href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
-                  ChatGPT
-                </Link>&nbsp;are designed to understand context and <GlossaryLink slug="natural-language-processing">semantics</GlossaryLink>, ensuring the content
+                ChatGPT&nbsp;are designed to understand context and <GlossaryLink slug="natural-language-processing">semantics</GlossaryLink>, ensuring the content
                 is not only coherent but also engaging. These tools can analyze existing content to learn your brand’s voice, making
                 generated content feel authentic and personalized.</p>
               <p className="text-md text-white shadow-text pt-3">

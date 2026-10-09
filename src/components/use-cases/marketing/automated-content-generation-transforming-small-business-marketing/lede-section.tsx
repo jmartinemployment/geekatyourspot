@@ -8,9 +8,7 @@ export default function LedeSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         <strong>Automated content generation</strong> offers a way out of this cycle. By leveraging AI-driven tools, you can streamline content creation, ensuring that your marketing remains consistent, relevant, and engaging. Imagine having a reliable system that helps you produce quality content without the usual overhead. Tools like{" "}
-        <Link id="tools-marketing-writesonic" href="/tools/marketing/writesonic" className="text-[#C83803] hover:underline">
-          Writesonic
-        </Link>{" "}
+        Writesonic{" "}
         and{" "}
         <Link id="tools-marketing-jasper-ai" href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
           Jasper

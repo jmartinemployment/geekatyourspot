@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BenefitsSection() {
@@ -8,7 +7,7 @@ export default function BenefitsSection() {
         Creating <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> content manually can be a time-consuming process filled with repetitive tasks and potential for human error. This often results in delayed content delivery and missed opportunities in fast-moving markets.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Automated SEO content generation provides a solution, enabling businesses to keep up with demand while maintaining quality and relevance. With tools like <Link id="tools-marketing-surfer-seo-3" href="/tools/marketing/surfer-seo" className="text-[#C83803] hover:underline">Surfer SEO</Link> and <Link id="tools-marketing-frase-2" href="/tools/marketing/frase" className="text-[#C83803] hover:underline">Frase</Link>, content is optimized for search engines right from the start, minimizing the need for extensive revisions.
+        Automated SEO content generation provides a solution, enabling businesses to keep up with demand while maintaining quality and relevance. With tools like Surfer SEO and Frase, content is optimized for search engines right from the start, minimizing the need for extensive revisions.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Geek At Your Spot specializes in configuring these tools to automate content generation processes effectively, ensuring that content is not only produced quickly but also aligns with SEO best practices.
@@ -24,7 +23,7 @@ export default function BenefitsSection() {
         In the ever-changing landscape of SEO, staying updated with trends is crucial. However, manually tracking these trends can be overwhelming and inefficient.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        With automated systems, businesses can adapt content strategies in real-time. Tools like <Link id="tools-marketing-keyword-insights-2" href="/tools/marketing/keyword-insights" className="text-[#C83803] hover:underline">Keyword Insights</Link> provide ongoing trend analysis, enabling content to stay relevant and competitive.
+        With automated systems, businesses can adapt content strategies in real-time. Tools like Keyword Insights provide ongoing trend analysis, enabling content to stay relevant and competitive.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Adaptive content strategies that respond to current SEO insights.</li>
@@ -42,7 +41,7 @@ export default function BenefitsSection() {
         Errors in content production can lead to misinformation, brand damage, and lost trust. Manual processes are more prone to these errors due to human oversight and fatigue.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Automated content generation minimizes these risks by using AI to check facts, grammar, and SEO compliance. Tools like <Link id="tools-marketing-chatgpt-3" href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">ChatGPT</Link> ensure that content meets high standards before publication.
+        Automated content generation minimizes these risks by using AI to check facts, grammar, and SEO compliance. Tools like ChatGPT ensure that content meets high standards before publication.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Content errors caught and corrected automatically before publication.</li>

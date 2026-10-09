@@ -18,13 +18,9 @@ export default function PAASection() {
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               AI can automate content generation by using advanced algorithms to create text, images, and videos. Tools like{" "}
-              <Link id="tools-marketing-writesonic-paa-1" href="/tools/marketing/writesonic" className="text-[#C83803] hover:underline">
-                Writesonic
-              </Link>{" "}
+              Writesonic{" "}
               and{" "}
-              <Link id="tools-marketing-copyai-paa-1" href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                Copy.ai
-              </Link>{" "}
+              Copy.ai{" "}
               help small businesses by producing marketing materials quickly and accurately. This saves time, reduces costs, and allows teams to focus on strategy rather than manual content creation.
             </p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -37,9 +33,7 @@ export default function PAASection() {
                 Jasper
               </Link>{" "}
               is known for its ability to create engaging copy, while{" "}
-              <Link id="tools-marketing-synthesia-paa-1" href="/tools/marketing/synthesia" className="text-[#C83803] hover:underline">
-                Synthesia
-              </Link>{" "}
+              Synthesia{" "}
               excels in generating video content. Each tool offers unique features that cater to different types of content, making them versatile options for businesses looking to enhance their marketing efforts.
             </p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -48,13 +42,9 @@ export default function PAASection() {
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Yes, AI can be a powerful content generator. It uses <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to analyze data and produce relevant content quickly. Tools like{" "}
-              <Link id="tools-marketing-pictory-paa-1" href="/tools/marketing/pictory" className="text-[#C83803] hover:underline">
-                Pictory
-              </Link>{" "}
+              Pictory{" "}
               help create video content from scripts or articles, while platforms like{" "}
-              <Link id="tools-marketing-copyai-paa-2" href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                Copy.ai
-              </Link>{" "}
+              Copy.ai{" "}
               automate text creation, helping businesses scale their content marketing efforts efficiently.
             </p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -70,9 +60,7 @@ export default function PAASection() {
             </h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Automating social media content is straightforward with AI tools like{" "}
-              <Link id="tools-marketing-writesonic-paa-2" href="/tools/marketing/writesonic" className="text-[#C83803] hover:underline">
-                Writesonic
-              </Link>
+              Writesonic
               . These platforms can generate posts, captions, and hashtags tailored to your brand voice. By automating these tasks, businesses can maintain a consistent online presence without spending excessive time on manual content creation, ultimately boosting engagement and reach.
             </p>
           </div>

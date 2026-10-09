@@ -16,8 +16,9 @@ A tool page is addressed by **department, category, pillar, then tool**:
 ```
 /tools/accounting/accounts-payable/automated-data-entry-processing/dext
 /tools/accounting/accounts-payable/automated-data-entry-processing/bill
-/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/approvalmax
-/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/bill
+/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax
+/tools/accounting/accounts-payable/automated-approval-workflows/bill
+/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill
 ```
 
 It mirrors the use-case tree one level at a time:
@@ -35,10 +36,19 @@ in the pillar slug below it (`automated-data-entry-processing`,
 `automated-approval-workflows-...`). This matches the use-case routes, which have always been
 `/use-cases/accounting/accounts-payable/automated-accounts-payable`.
 
-**The pillar segment is that pillar's slug verbatim** — not a shortened version of it. Where
-a pillar shipped with a long slug, its tools inherit it:
-`/tools/accounting/.../automated-approval-workflows-boosting-efficiency-with-ai/approvalmax`.
-One rule, no per-tool judgement call about how much of the slug to keep.
+**The pillar segment is chosen once per pillar, when its tools ship, and recorded here.** It is
+the pillar page's slug unless Jeff shortens it. Segments in use:
+
+| Pillar | Tools segment | Note |
+|---|---|---|
+| Automated Data Entry & Processing | `automated-data-entry-processing` | the slug |
+| Automated Approval Workflows | `automated-approval-workflows` | shortened from `automated-approval-workflows-transforming-accounts-payable` by Jeff, 2026-10-09, when its five tool pages shipped |
+| Automated Payment Execution | `automated-payment-execution-streamlining-accounts-payable-with-ai` | the slug; shipped 2026-10-09, not shortened |
+| Automated Fraud & Duplicate Payment Controls | `automated-fraud-duplicate-payment-controls` | shortened from `automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs` on the approval-workflows precedent when its three tool pages (Bill, Medius, Tipalti) shipped, 2026-10-09 |
+| Automated Accounts Receivable (under `cash-flow-forecasting`) | `automated-accounts-receivable` | no pillar page exists yet (the export carried only tools and a blog post); segment taken from the home-card `<h5>` when its four tool pages (Chaserhq, Invoiced, Upflow, Versapay) shipped, 2026-10-09; their JSON-LD `subjectOf` and registry `relatedArticleId` point at the category page `/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting` until a pillar ships |
+
+The earlier wording here — "the slug verbatim, no judgement call" — is withdrawn. What survives
+of it: a pillar's tools all share one segment, and that segment is never decided per tool.
 
 **Why four segments.** A tool is written up *for* a pillar, and the same vendor is written up
 more than once for different jobs. Bill has one write-up for AP data entry and another for AP

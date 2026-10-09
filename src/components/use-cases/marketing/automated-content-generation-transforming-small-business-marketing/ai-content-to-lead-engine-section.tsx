@@ -14,9 +14,7 @@ export default function AIContentToLeadEngineSection() {
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Creating personalized content is crucial for engaging potential leads. AI tools like{" "}
-        <Link id="tools-marketing-writesonic-2" href="/tools/marketing/writesonic" className="text-[#C83803] hover:underline">
-          Writesonic
-        </Link>{" "}
+        Writesonic{" "}
         and{" "}
         <Link id="tools-marketing-jasper-ai-2" href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
           Jasper
@@ -34,9 +32,7 @@ export default function AIContentToLeadEngineSection() {
         For small businesses, the ability to create and repurpose content quickly is a game changer. Using AI, businesses can take a single piece of content and adapt it for various platforms, maximizing reach and impact without the need for extensive manual effort.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        <Link id="tools-marketing-pictory" href="/tools/marketing/pictory" className="text-[#C83803] hover:underline">
-          Pictory
-        </Link>{" "}
+        Pictory{" "}
         excels in transforming written content into engaging videos, making it easier to reach audiences on video-centric platforms. This not only saves time but also broadens the content&apos;s appeal.
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="lead-capture-and-conversion">
@@ -44,9 +40,7 @@ export default function AIContentToLeadEngineSection() {
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Once the content is crafted and distributed, the next step is capturing leads effectively. AI tools like{" "}
-        <Link id="tools-marketing-copyai" href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-          Copy.ai
-        </Link>{" "}
+        Copy.ai{" "}
         offer comprehensive solutions to enhance lead capture processes. By automating workflows, businesses can ensure that no lead slips through the cracks.
       </p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automating-lead-processing">

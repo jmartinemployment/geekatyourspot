@@ -26,9 +26,7 @@ export default function LedeSection() {
                 <Link id="tools-marketing-jasper-ai" href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
-                <Link id="tools-marketing-copyai" href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;can transform a single piece of content into multiple formats, extending its reach and
+                Copy.ai&nbsp;can transform a single piece of content into multiple formats, extending its reach and
                 impact. Whether it&#39;s turning a blog post into a series of social media updates or converting a
                 podcast into a blog article, AI helps you maximize your content&#39;s lifespan without starting from
                 scratch every time. This approach not only saves time but also reduces costs and increases audience
@@ -75,9 +73,7 @@ export default function LedeSection() {
                 <Link id="tools-marketing-jasper-ai-2" href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
-                <Link id="tools-marketing-copyai-2" href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;can transform a single piece of content into multiple formats, extending its reach and
+                Copy.ai&nbsp;can transform a single piece of content into multiple formats, extending its reach and
                 impact. Whether it&#39;s turning a blog post into a series of social media updates or converting a
                 podcast into a blog article, AI helps you maximize your content&#39;s lifespan without starting from
                 scratch every time. This approach not only saves time but also reduces costs and increases audience

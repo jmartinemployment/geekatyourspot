@@ -30,9 +30,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-to-calculate-lead-score">How to calculate lead score?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               To calculate a lead score, businesses typically assign points to different actions and characteristics of a lead. For example, visiting a pricing page might score higher than opening an email. These points are summed to give a total score, reflecting the lead&apos;s potential value. Many businesses use CRM tools like&nbsp;
-              <Link id="tools-marketing-apollo" href="/tools/marketing/Apollo" className="text-[#C83803] hover:underline">
-                Apollo
-              </Link>
+              Apollo
               &nbsp;to automate and refine this scoring process.
             </p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -48,9 +46,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="why-score-leads">Why score leads?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Scoring leads helps businesses prioritize their efforts on the most promising prospects, which can lead to higher sales and better resource allocation. By understanding which leads are most likely to convert, businesses can tailor their marketing strategies accordingly. Using platforms like&nbsp;
-              <Link id="tools-marketing-lead-squared" href="/tools/marketing/lead-squared" className="text-[#C83803] hover:underline">
-                LeadSquared
-              </Link>
+              LeadSquared
               &nbsp;ensures that marketing and sales teams focus on high-value opportunities, ultimately leading to increased revenue and improved customer relationships.
             </p>
           </div>

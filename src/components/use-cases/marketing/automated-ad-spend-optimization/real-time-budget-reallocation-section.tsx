@@ -18,10 +18,7 @@ export default function RealTimeBudgetReallocationSection() {
               dynamically adjusting budgets based on live data.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Tools like&nbsp;
-              <Link id="automated-ad-spend-optimization-budget-smartlyio"
-                href="/tools/marketing/smartlyio" className="text-[#0B162A] font-bold hover:underline">
-                Smartly.io
-              </Link>&nbsp;and&nbsp;
+              Smartly.io&nbsp;and&nbsp;
               <Link id="automated-ad-spend-optimization-budget-madgicx"
                 href="/tools/marketing/madgicx" className="text-[#0B162A] font-bold hover:underline">
                 Madgicx
@@ -45,10 +42,7 @@ export default function RealTimeBudgetReallocationSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="maximizing-roi-with-ai">Maximizing ROI with AI</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               The primary goal of real-time budget reallocation is to maximize return on investment. AI-driven platforms like&nbsp;
-              <Link id="automated-ad-spend-optimization-budget-advantage"
-                href="/tools/marketing/advantage" className="text-[#0B162A] font-bold hover:underline">
-                Advantage
-              </Link>&nbsp;use <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">predictive analytics</GlossaryLink> to anticipate shifts in consumer behavior and adjust budgets accordingly. This
+              Advantage&nbsp;use <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">predictive analytics</GlossaryLink> to anticipate shifts in consumer behavior and adjust budgets accordingly. This
               foresight allows businesses to capitalize on emerging opportunities swiftly.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Geek At Your Spot customizes these platforms to ensure they integrate seamlessly with your existing marketing
@@ -60,10 +54,7 @@ export default function RealTimeBudgetReallocationSection() {
               strategy work in harmony.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Platforms like&nbsp;
-              <Link id="automated-ad-spend-optimization-budget-hubspot"
-                href="/tools/marketing/hubspot" className="text-[#0B162A] font-bold hover:underline">
-                HubSpot
-              </Link>&nbsp;can be synced with AI tools to streamline workflows, automate data collection, and enhance
+              HubSpot&nbsp;can be synced with AI tools to streamline workflows, automate data collection, and enhance
               decision-making processes. Geek At Your Spot specializes in this integration, minimizing disruption and maximizing
               the strategic value of these technologies.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="customizing-ai-models-for-business-needs">Customizing AI Models for Business Needs</h4>

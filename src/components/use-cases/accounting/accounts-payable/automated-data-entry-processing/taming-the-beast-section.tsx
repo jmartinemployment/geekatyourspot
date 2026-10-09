@@ -20,10 +20,7 @@ export default function TamingTheBeastSection() {
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-taming-lightyear"
-          href="/tools/accounting/lightyear" className="text-[#C83803] hover:underline">
-          Lightyear
-        </Link>, and&nbsp;
+        Lightyear, and&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-bill"
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
@@ -47,7 +44,7 @@ export default function TamingTheBeastSection() {
           AvidXchange
         </Link>&nbsp;and&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-taming-stampli"
-          href="/tools/accounting/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>. These platforms automate the extraction, validation, and processing of invoices,
         drastically reducing the time spent on manual tasks. The result is a more efficient, accurate, and

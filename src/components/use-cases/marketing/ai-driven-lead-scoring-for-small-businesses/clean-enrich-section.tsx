@@ -15,9 +15,7 @@ export default function CleanEnrichSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Enriching records is another crucial step. It involves adding relevant information to your leads, which can improve the accuracy of your lead scoring model. For instance, tools like&nbsp;
-        <Link id="tools-marketing-apollo" href="/tools/marketing/Apollo" className="text-[#C83803] hover:underline">
-          Apollo
-        </Link>
+        Apollo
         &nbsp;can append data such as company size or industry, giving you a fuller picture of the lead&apos;s potential value. This added context enhances decision-making, allowing your sales team to prioritize leads more effectively.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -29,9 +27,7 @@ export default function CleanEnrichSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         In addition to cleaning and de-duplicating, it&apos;s crucial to block obvious spam from entering your system.&nbsp;
-        <Link id="tools-marketing-lead-squared" href="/tools/marketing/lead-squared" className="text-[#C83803] hover:underline">
-          LeadSquared
-        </Link>
+        LeadSquared
         &nbsp;provides features to filter out spam submissions effectively, ensuring that your sales team spends time only on real prospects. This helps in maintaining the integrity of your lead database and improves overall lead quality.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">

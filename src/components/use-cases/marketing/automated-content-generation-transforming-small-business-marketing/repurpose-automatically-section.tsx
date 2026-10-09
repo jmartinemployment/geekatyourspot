@@ -8,21 +8,13 @@ export default function RepurposeAutomaticallySection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         A well-crafted blog post can evolve into several engaging pieces through automation. This is where tools like{" "}
-        <Link id="tools-marketing-pictory-2" href="/tools/marketing/pictory" className="text-[#0B162A] hover:underline">
-          Pictory
-        </Link>{" "}
+        Pictory{" "}
         and{" "}
-        <Link id="tools-marketing-synthesia" href="/tools/marketing/synthesia" className="text-[#0B162A] hover:underline">
-          Synthesia
-        </Link>{" "}
+        Synthesia{" "}
         come into play. By converting long-form content or recordings into short, captioned videos,{" "}
-        <Link id="tools-marketing-pictory-3" href="/tools/marketing/pictory" className="text-[#0B162A] hover:underline">
-          Pictory
-        </Link>{" "}
+        Pictory{" "}
         enables businesses to capture the attention of audiences who prefer visual content. Meanwhile,{" "}
-        <Link id="tools-marketing-synthesia-2" href="/tools/marketing/synthesia" className="text-[#0B162A] hover:underline">
-          Synthesia
-        </Link>{" "}
+        Synthesia{" "}
         is perfect for creating polished explainer videos, making it easier to introduce services or onboard new customers with an engaging avatar format.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -38,17 +30,13 @@ export default function RepurposeAutomaticallySection() {
       </ul>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         The use of AI-driven platforms like{" "}
-        <Link id="tools-marketing-writesonic-4" href="/tools/marketing/writesonic" className="text-[#0B162A] hover:underline">
-          Writesonic
-        </Link>
+        Writesonic
         ,{" "}
         <Link id="tools-marketing-jasper-ai-4" href="/tools/marketing/jasper-ai" className="text-[#0B162A] hover:underline">
           Jasper
         </Link>
         , and{" "}
-        <Link id="tools-marketing-copyai-3" href="/tools/marketing/copyai" className="text-[#0B162A] hover:underline">
-          Copy.ai
-        </Link>{" "}
+        Copy.ai{" "}
         further eases the process by automating content creation workflows. They help in drafting engaging copy for various platforms, ensuring that the tone and voice remain consistent with the brand&apos;s identity. This integrated approach reduces the need for manual intervention, allowing teams to focus on strategic tasks rather than repetitive content adaptation.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -59,9 +47,7 @@ export default function RepurposeAutomaticallySection() {
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         AI tools can significantly streamline the content repurposing process, allowing small businesses to maximize their marketing efforts with minimal resources. By utilizing platforms such as{" "}
-        <Link id="tools-marketing-writesonic-5" href="/tools/marketing/writesonic" className="text-[#0B162A] hover:underline">
-          Writesonic
-        </Link>{" "}
+        Writesonic{" "}
         and{" "}
         <Link id="tools-marketing-jasper-ai-5" href="/tools/marketing/jasper-ai" className="text-[#0B162A] hover:underline">
           Jasper
@@ -73,9 +59,7 @@ export default function RepurposeAutomaticallySection() {
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Small businesses often face the challenge of limited resources when it comes to content creation. AI tools like{" "}
-        <Link id="tools-marketing-writesonic-6" href="/tools/marketing/writesonic" className="text-[#0B162A] hover:underline">
-          Writesonic
-        </Link>{" "}
+        Writesonic{" "}
         can help bridge this gap by generating high-quality content quickly and efficiently. This allows businesses to focus on other strategic activities while ensuring their content remains fresh and relevant.
       </p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="maintaining-brand-voice-across-channels">
@@ -83,9 +67,7 @@ export default function RepurposeAutomaticallySection() {
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Consistency in brand messaging is crucial for building trust with your audience. Tools like{" "}
-        <Link id="tools-marketing-copyai-4" href="/tools/marketing/copyai" className="text-[#0B162A] hover:underline">
-          Copy.ai
-        </Link>{" "}
+        Copy.ai{" "}
         ensure that the tone and voice of content remain uniform across different channels, enhancing brand recognition and customer loyalty.
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-video-for-engagement">
@@ -93,13 +75,9 @@ export default function RepurposeAutomaticallySection() {
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Video content is a powerful tool for engaging audiences across various platforms. Automated tools like{" "}
-        <Link id="tools-marketing-pictory-4" href="/tools/marketing/pictory" className="text-[#0B162A] hover:underline">
-          Pictory
-        </Link>{" "}
+        Pictory{" "}
         and{" "}
-        <Link id="tools-marketing-synthesia-3" href="/tools/marketing/synthesia" className="text-[#0B162A] hover:underline">
-          Synthesia
-        </Link>{" "}
+        Synthesia{" "}
         make it easy to repurpose existing content into short, impactful videos. These videos can be used for social media marketing, customer education, and more, significantly increasing engagement rates.
       </p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="creating-engaging-social-media-content">
@@ -107,9 +85,7 @@ export default function RepurposeAutomaticallySection() {
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Social media platforms thrive on visual content. By transforming written content into videos using{" "}
-        <Link id="tools-marketing-pictory-5" href="/tools/marketing/pictory" className="text-[#0B162A] hover:underline">
-          Pictory
-        </Link>
+        Pictory
         , businesses can effectively capture the attention of their audience, leading to increased interaction and brand recall.
       </p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-customer-onboarding-and-training">
@@ -117,9 +93,7 @@ export default function RepurposeAutomaticallySection() {
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         With{" "}
-        <Link id="tools-marketing-synthesia-4" href="/tools/marketing/synthesia" className="text-[#0B162A] hover:underline">
-          Synthesia
-        </Link>
+        Synthesia
         , businesses can create engaging, avatar-led videos for onboarding and training purposes. These videos provide a dynamic way to communicate essential information, improving comprehension and retention.
       </p>
     </>

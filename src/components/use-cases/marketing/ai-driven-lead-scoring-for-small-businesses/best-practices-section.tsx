@@ -44,9 +44,7 @@ export default function BestPracticesSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         This iterative process ensures that lead scoring models remain relevant and accurate, helping businesses stay ahead of the competition. By using tools like&nbsp;
-        <Link id="tools-marketing-lead-squared" href="/tools/marketing/lead-squared" className="text-[#0B162A] hover:underline">
-          LeadSquared
-        </Link>
+        LeadSquared
         , businesses can automate this refinement process, making adjustments as needed without manual intervention.
       </p>
       <h3 id="automating-lead-scoring-processes" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

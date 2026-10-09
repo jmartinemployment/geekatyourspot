@@ -11,16 +11,12 @@ export default function GeneratePrimaryAssetSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         One effective tool for generating primary content is{" "}
-        <Link id="tools-marketing-writesonic-3" href="/tools/marketing/writesonic" className="text-[#C83803] hover:underline">
-          Writesonic
-        </Link>
+        Writesonic
         . This platform is designed to produce SEO-friendly articles, service pages, and research-based content. By automating these processes, Writesonic helps businesses produce valuable content quickly, making it easier to attract and engage their target audience.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         For sales-focused content,{" "}
-        <Link id="tools-marketing-copyai-2" href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-          Copy.ai
-        </Link>{" "}
+        Copy.ai{" "}
         provides a robust solution. It excels in crafting sales copy, outreach sequences, and lead-nurture emails. Businesses can use Copy.ai to streamline their marketing efforts, creating compelling content that effectively guides potential customers through the sales funnel.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">

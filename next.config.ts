@@ -55,6 +55,38 @@ const nextConfig: NextConfig = {
         destination: "/tools/accounting/tax-compliance-regulations/avalara",
         permanent: true,
       },
+      // The home page linked these flat accounting paths before their pages
+      // existed (found 2026-10-09). Each now has a page under its pillar.
+      {
+        source: "/tools/accounting/chaser",
+        destination: "/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/invoiced",
+        destination: "/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/versapay",
+        destination: "/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/melio",
+        destination: "/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/stampli",
+        destination: "/tools/accounting/accounts-payable/automated-approval-workflows/stampli",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/tipalti",
+        destination: "/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti",
+        permanent: true,
+      },
       // ActiveCampaign shipped at two URLs. The hyphenated one is canonical;
       // the one-word route was retired on 2026-10-03 and its page's content
       // now serves the hyphenated path.
@@ -67,7 +99,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/approvalmax",
-        destination: "/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/approvalmax",
+        destination: "/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax",
         permanent: true,
       },
       {

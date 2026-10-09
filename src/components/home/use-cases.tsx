@@ -88,12 +88,7 @@ export function UseCasesSection() {
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
                                             </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
-                                                href="/tools/accounting/corpay"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Corpay
-                                            </Link>,&nbsp;
+                                            Corpay,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
@@ -107,8 +102,8 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
-                                                href="/tools/accounting/tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
                                             </Link>.
@@ -128,32 +123,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/tipalti", "Tipalti")}
-                                                href="/tools/accounting/accounts-payable/tipalti"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Tipalti
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/approvalmax", "ApprovalMax")}
-                                                href="/tools/accounting/accounts-payable/approvalmax"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax", "ApprovalMax")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/ramp", "Ramp")}
-                                                href="/tools/accounting/accounts-payable/ramp"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Ramp
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/stampli", "Stampli")}
-                                                href="/tools/accounting/accounts-payable/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/melio", "Melio")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/melio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Melio
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Ramp
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Stampli
                                             </Link>.
@@ -205,8 +200,12 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Automated Fraud & Duplicate Payment Controls:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-fraud-duplicate-payment-controls"
+                                            href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Automated Fraud &amp; Duplicate Payment Controls:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs ">
                                             Automate the matching of Purchase Orders, Receiving Reports, and Invoices before payment is released, and route payments through virtual cards — which carry stronger fraud controls than traditional payment methods.
                                         </p>
@@ -215,34 +214,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius", "Medius")}
+                                                href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
+                                                Medius
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
-                                                href="/tools/accounting/corpay"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Corpay
+                                                Tipalti
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Stampli
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                AvidXchange
+                                                Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
-                                                href="/tools/accounting/tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Tipalti
+                                                Ramp
                                             </Link>.
                                         </p>
                                     </li>
@@ -269,34 +268,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq", "Chaserhq")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
+                                                Chaserhq
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/versapay", "Versapay")}
-                                                href="/tools/accounting/versapay"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced", "Invoiced")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Invoiced
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay", "Versapay")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Versapay
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow", "Upflow")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Melio
+                                                Upflow
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/chaser", "Chaser")}
-                                                href="/tools/accounting/chaser"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Chaser
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/invoiced", "Invoiced")}
-                                                href="/tools/accounting/invoiced"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Invoiced
+                                                Bill
                                             </Link>.
                                         </p>
                                     </li>
@@ -314,36 +313,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Spreadsheet Replacement Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/datarails", "Datarails")}
-                                                href="/tools/accounting/datarails"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Datarails
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-frog", "Cash Flow Frog")}
-                                                href="/tools/accounting/cash-flow-frog"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Cash Flow Frog
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/fathom", "Fathom")}
-                                                href="/tools/accounting/fathom"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Fathom
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/liveplan", "LivePlan")}
-                                                href="/tools/accounting/liveplan"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                LivePlan
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
-                                                href="/tools/accounting/float"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Float
-                                            </Link>.
+                                            Datarails,&nbsp;
+                                            Cash Flow Frog,&nbsp;
+                                            Fathom,&nbsp;
+                                            LivePlan,&nbsp;
+                                            Float.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -358,36 +332,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Enterprise Planning Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
-                                                href="/tools/accounting/acumatica"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Acumatica
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/netsuite", "NetSuite")}
-                                                href="/tools/accounting/netsuite"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                NetSuite
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/odoo", "Odoo")}
-                                                href="/tools/accounting/odoo"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Odoo
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "Microsoft Dynamics 365 Business")}
-                                                href="/tools/accounting/ms-dynamics-365-business-central"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Microsoft Dynamics 365 Business
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/sage", "Sage")}
-                                                href="/tools/accounting/sage"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Sage
-                                            </Link>.
+                                            Acumatica,&nbsp;
+                                            NetSuite,&nbsp;
+                                            Odoo,&nbsp;
+                                            Microsoft Dynamics 365 Business,&nbsp;
+                                            Sage.
                                         </p>
                                     </li>
                                 </ul>
@@ -413,30 +362,10 @@ export function UseCasesSection() {
                                             Top 5 Automated Tax Law Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
-                                                href="/tools/accounting/sovos"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Sovos
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax1099", "Tax1099")}
-                                                href="/tools/accounting/tax1099"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Tax1099
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
-                                                href="/tools/accounting/anrok"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Anrok
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/numeral", "Numeral")}
-                                                href="/tools/accounting/numeral"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Numeral
-                                            </Link>,&nbsp;
+                                            Sovos,&nbsp;
+                                            Tax1099,&nbsp;
+                                            Anrok,&nbsp;
+                                            Numeral,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
                                                 href="/tools/accounting/tax-compliance-regulations/avalara"
@@ -457,36 +386,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Payroll Tax Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/gusto", "Gusto")}
-                                                href="/tools/accounting/gusto"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Gusto
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/adp", "ADP")}
-                                                href="/tools/accounting/adp"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                ADP
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/onpay", "OnPay")}
-                                                href="/tools/accounting/onpay"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                OnPay
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/deel", "Deel")}
-                                                href="/tools/accounting/deel"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Deel
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/remote", "Remote")}
-                                                href="/tools/accounting/remote"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Remote
-                                            </Link>.
+                                            Gusto,&nbsp;
+                                            ADP,&nbsp;
+                                            OnPay,&nbsp;
+                                            Deel,&nbsp;
+                                            Remote.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -500,36 +404,16 @@ export function UseCasesSection() {
                                             Top 5 Automated Multi-State Sales Tax Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
-                                                href="/tools/accounting/anrok"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Anrok
-                                            </Link>,&nbsp;
+                                            Anrok,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
                                                 href="/tools/accounting/tax-compliance-regulations/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
                                             </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxconnex", "TaxConnex")}
-                                                href="/tools/accounting/taxconnex"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxConnex
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
-                                                href="/tools/accounting/sovos"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Sovos
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stripe", "Stripe")}
-                                                href="/tools/accounting/stripe"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stripe
-                                            </Link>.
+                                            TaxConnex,&nbsp;
+                                            Sovos,&nbsp;
+                                            Stripe.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -544,30 +428,10 @@ export function UseCasesSection() {
                                             Top 5 Automated Cash Flow & Deadline Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks-online"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
-                                                href="/tools/accounting/float"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Float
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-frog", "Cash Flow Frog")}
-                                                href="/tools/accounting/cash-flow-frog"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Cash Flow Frog
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/xero", "Xero")}
-                                                href="/tools/accounting/xero"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Xero
-                                            </Link>,&nbsp;
+                                            QuickBooks,&nbsp;
+                                            Float,&nbsp;
+                                            Cash Flow Frog,&nbsp;
+                                            Xero,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
@@ -588,36 +452,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Recordkeeping Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks-online"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/xero", "Xero")}
-                                                href="/tools/accounting/xero"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Xero
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zoho-books", "Zoho Books")}
-                                                href="/tools/accounting/zoho-books"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zoho Books
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/freshbooks", "FreshBooks")}
-                                                href="/tools/accounting/freshbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                FreshBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/dext-prepare", "Dext Prepare")}
-                                                href="/tools/accounting/dext-prepare"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Dext Prepare
-                                            </Link>.
+                                            QuickBooks,&nbsp;
+                                            Xero,&nbsp;
+                                            Zoho Books,&nbsp;
+                                            FreshBooks,&nbsp;
+                                            Dext Prepare.
                                         </p>
                                     </li>
                                 </ul>
@@ -672,30 +511,15 @@ export function UseCasesSection() {
                                                 Top AI Automated Content Generation Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/scalenut", "Scalenut")}
-                                                    href="/tools/marketing/scalenut"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Scalenut
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
-                                                    href="/tools/marketing/writesonic"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Writesonic
-                                                </Link>,&nbsp;
+                                                Scalenut,&nbsp;
+                                                Writesonic,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
                                                     href="/tools/marketing/contentstudio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ContentStudio
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/rytr", "Rytr")}
-                                                    href="/tools/marketing/rytr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Rytr
-                                                </Link>,&nbsp;
+                                                Rytr,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
                                                     href="/tools/marketing/jasper-ai"
@@ -711,36 +535,16 @@ export function UseCasesSection() {
                                                 Top AI Content Repurposing Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
-                                                    href="/tools/marketing/pictory"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pictory
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/opusclip", "OpusClip")}
-                                                    href="/tools/marketing/opusclip"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    OpusClip
-                                                </Link>,
+                                                Pictory,&nbsp;
+                                                OpusClip,
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
                                                     href="/tools/marketing/contentstudio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ContentStudio
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/repurpose", "Repurpose")}
-                                                    href="/tools/marketing/repurpose"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Repurpose
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/vizard", "Vizard")}
-                                                    href="/tools/marketing/vizard"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Vizard
-                                                </Link>.
+                                                Repurpose,&nbsp;
+                                                Vizard.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -754,36 +558,11 @@ export function UseCasesSection() {
                                                 Top AI Bulk Scheduling Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/metricool", "Metricool")}
-                                                    href="/tools/marketing/metricool"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Metricool
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/publer", "Publer")}
-                                                    href="/tools/marketing/publer"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Publer
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/socialbee", "SocialBee")}
-                                                    href="/tools/marketing/socialbee"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    SocialBee
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/coschedule", "CoSchedule")}
-                                                    href="/tools/marketing/coschedule"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    CoSchedule
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/sendible", "Sendible")}
-                                                    href="/tools/marketing/sendible"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Sendible
-                                                </Link>.
+                                                Metricool,&nbsp;
+                                                Publer,&nbsp;
+                                                SocialBee,&nbsp;
+                                                CoSchedule,&nbsp;
+                                                Sendible.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -798,24 +577,9 @@ export function UseCasesSection() {
                                                 Top 5 Automated Approval Workflow Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pabbly", "Pabbly")}
-                                                    href="/tools/marketing/pabbly"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pabbly
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/make", "Make")}
-                                                    href="/tools/marketing/make"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Make
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/n8n", "N8N")}
-                                                    href="/tools/marketing/n8n"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    N8N
-                                                </Link>,&nbsp;
+                                                Pabbly,&nbsp;
+                                                Make,&nbsp;
+                                                N8N,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
@@ -839,36 +603,21 @@ export function UseCasesSection() {
                                                 Top AI Email Campaign Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/klaviyo", "Klaviyo")}
-                                                    href="/tools/marketing/klaviyo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Klaviyo
-                                                </Link>,&nbsp;
+                                                Klaviyo,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/mailchimp", "Mailchimp")}
                                                     href="/tools/marketing/mailchimp"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Mailchimp
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/getresponse", "GetResponse")}
-                                                    href="/tools/marketing/getresponse"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    GetResponse
-                                                </Link>,&nbsp;
+                                                GetResponse,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
                                                     href="/tools/marketing/active-campaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/mailerlite", "MailerLite")}
-                                                    href="/tools/marketing/mailerlite"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    MailerLite
-                                                </Link>.
+                                                MailerLite.
                                             </p>
                                         </li>
                                     </ul>
@@ -890,36 +639,16 @@ export function UseCasesSection() {
                                                 Top AI Chatbot Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/bot-penguin", "BotPenguin")}
-                                                    href="/tools/marketing/bot-penguin"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    BotPenguin
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/many-chat", "ManyChat")}
-                                                    href="/tools/marketing/many-chat"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    ManyChat
-                                                </Link>,&nbsp;
+                                                BotPenguin,&nbsp;
+                                                ManyChat,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Pipedrive
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/custom-gpt", "CustomGPT.ai")}
-                                                    href="/tools/marketing/custom-gpt"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    CustomGPT
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/getchipbot", "getchipbot")}
-                                                    href="/tools/marketing/getchipbot"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Get Chip Bot
-                                                </Link>
+                                                CustomGPT,&nbsp;
+                                                Get Chip Bot
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -938,24 +667,14 @@ export function UseCasesSection() {
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     ActiveCampaign
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/Apollo", "Apollo")}
-                                                    href="/tools/marketing/Apollo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Apollo
-                                                </Link>,&nbsp;
+                                                Apollo,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Pipedrive
                                                 </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madkudu", ". LeadSquared ")}
-                                                    href="/tools/marketing/lead-squared "
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    LeadSquared
-                                                </Link>,&nbsp;
+                                                LeadSquared,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
                                                     href="/tools/marketing/6sense"
@@ -977,36 +696,11 @@ export function UseCasesSection() {
                                             <ul>
                                                 <li>
                                                     <p className="text-xs">
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/call-agent-ai", "CallAgentAI")}
-                                                            href="/tools/marketing/call-agent-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            CallAgentAI
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/speak-ai", "Speak AI")}
-                                                            href="/tools/marketing/speak-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Speakai
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/voice-genie-ai", "VoiceGenie AI")}
-                                                            href="/tools/marketing/voice-genie-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            VoiceGenie
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/eveninglabs-conversational-ai", "ElevenLabs Conversational AI")}
-                                                            href="/tools/marketing/eveninglabs-conversational-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            ElevenLabs Conversational AI
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}
-                                                            href="/tools/marketing/synthflow-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Synthflow AI
-                                                        </Link>.
+                                                        CallAgentAI,&nbsp;
+                                                        Speakai,&nbsp;
+                                                        VoiceGenie,&nbsp;
+                                                        ElevenLabs Conversational AI,&nbsp;
+                                                        Synthflow AI.
                                                     </p>
                                                 </li>
                                             </ul>
@@ -1025,30 +719,15 @@ export function UseCasesSection() {
                                                 Top AI Dynamic Optimization Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-creative", "AdCreative")}
-                                                    href="/tools/marketing/ad-creative"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    AdCreative
-                                                </Link>,&nbsp;
+                                                AdCreative,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
                                                     href="/tools/marketing/madgicx"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Madgicx
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/creatify", "Creatify")}
-                                                    href="/tools/marketing/creatify"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Creatify
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/cometly", "Cometly")}
-                                                    href="/tools/marketing/cometly"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Cometly
-                                                </Link>&nbsp;or&nbsp;
+                                                Creatify,&nbsp;
+                                                Cometly&nbsp;or&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
@@ -1066,30 +745,10 @@ export function UseCasesSection() {
                                                 Top AI Automated Bidding Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/adzooma", "Adzooma")}
-                                                    href="/tools/marketing/adzooma"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Adzooma
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/optmyzr", "Optmyzr")}
-                                                    href="/tools/marketing/optmyzr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Optmyzr
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/opteo", "Opteo")}
-                                                    href="/tools/marketing/opteo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Opteo
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/wordStream", "WordStream")}
-                                                    href="/tools/marketing/wordStream"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    WordStream
-                                                </Link>,&nbsp;
+                                                Adzooma,&nbsp;
+                                                Optmyzr,&nbsp;
+                                                Opteo,&nbsp;
+                                                WordStream,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
                                                     href="/tools/marketing/zapier"
@@ -1126,12 +785,7 @@ export function UseCasesSection() {
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Optimove
                                                 </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/tableau-ai", "Tableau AI / Adobe Analytics")}
-                                                    href="/tools/marketing/tableau-ai"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Tableau AI / Adobe Analytics
-                                                </Link>.
+                                                Tableau AI / Adobe Analytics.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -1247,12 +901,7 @@ export function UseCasesSection() {
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
                                             </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
-                                                href="/tools/accounting/corpay"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Corpay
-                                            </Link>,&nbsp;
+                                            Corpay,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
@@ -1266,8 +915,8 @@ export function UseCasesSection() {
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
-                                                href="/tools/accounting/tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
                                             </Link>.
@@ -1289,32 +938,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/tipalti", "Tipalti")}
-                                                href="/tools/accounting/accounts-payable/tipalti"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Tipalti
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/approvalmax", "ApprovalMax")}
-                                                href="/tools/accounting/accounts-payable/approvalmax"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax", "ApprovalMax")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ApprovalMax
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/ramp", "Ramp")}
-                                                href="/tools/accounting/accounts-payable/ramp"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Ramp
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/stampli", "Stampli")}
-                                                href="/tools/accounting/accounts-payable/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/melio", "Melio")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/melio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Melio
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Ramp
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Stampli
                                             </Link>.
@@ -1368,8 +1017,12 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
-                                            Automated Fraud & Duplicate Payment Controls:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-fraud-duplicate-payment-controls"
+                                            href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Automated Fraud &amp; Duplicate Payment Controls:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-sm ">
                                             Automate the matching of Purchase Orders, Receiving Reports, and Invoices before payment is released, and route payments through virtual cards — which carry stronger fraud controls than traditional payment methods.
                                         </p>
@@ -1378,34 +1031,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius", "Medius")}
+                                                href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
+                                                Medius
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
-                                                href="/tools/accounting/corpay"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Corpay
+                                                Tipalti
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stampli", "Stampli")}
-                                                href="/tools/accounting/stampli"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli")}
+                                                href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Stampli
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                AvidXchange
+                                                Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
-                                                href="/tools/accounting/tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Tipalti
+                                                Ramp
                                             </Link>.
                                         </p>
                                     </li>
@@ -1432,34 +1085,34 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq", "Chaserhq")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Bill
+                                                Chaserhq
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/versapay", "Versapay")}
-                                                href="/tools/accounting/versapay"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced", "Invoiced")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Invoiced
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay", "Versapay")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Versapay
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow", "Upflow")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Melio
+                                                Upflow
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/chaser", "Chaser")}
-                                                href="/tools/accounting/chaser"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Chaser
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/invoiced", "Invoiced")}
-                                                href="/tools/accounting/invoiced"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Invoiced
+                                                Bill
                                             </Link>.
                                         </p>
                                     </li>
@@ -1477,36 +1130,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Spreadsheet Replacement Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/datarails", "Datarails")}
-                                                href="/tools/accounting/datarails"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Datarails
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-frog", "Cash Flow Frog")}
-                                                href="/tools/accounting/cash-flow-frog"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Cash Flow Frog
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/fathom", "Fathom")}
-                                                href="/tools/accounting/fathom"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Fathom
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/liveplan", "LivePlan")}
-                                                href="/tools/accounting/liveplan"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                LivePlan
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
-                                                href="/tools/accounting/float"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Float
-                                            </Link>.
+                                            Datarails,&nbsp;
+                                            Cash Flow Frog,&nbsp;
+                                            Fathom,&nbsp;
+                                            LivePlan,&nbsp;
+                                            Float.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -1521,36 +1149,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Enterprise Planning Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/acumatica", "Acumatica")}
-                                                href="/tools/accounting/acumatica"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Acumatica
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/netsuite", "NetSuite")}
-                                                href="/tools/accounting/netsuite"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                NetSuite
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/odoo", "Odoo")}
-                                                href="/tools/accounting/odoo"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Odoo
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/ms-dynamics-365-business-central", "Microsoft Dynamics 365 Business")}
-                                                href="/tools/accounting/ms-dynamics-365-business-central"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Microsoft Dynamics 365 Business
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/sage", "Sage")}
-                                                href="/tools/accounting/sage"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Sage
-                                            </Link>.
+                                            Acumatica,&nbsp;
+                                            NetSuite,&nbsp;
+                                            Odoo,&nbsp;
+                                            Microsoft Dynamics 365 Business,&nbsp;
+                                            Sage.
                                         </p>
                                     </li>
                                 </ul>
@@ -1577,30 +1180,10 @@ export function UseCasesSection() {
                                             Top 5 Automated Tax Law Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
-                                                href="/tools/accounting/sovos"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Sovos
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax1099", "Tax1099")}
-                                                href="/tools/accounting/tax1099"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Tax1099
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
-                                                href="/tools/accounting/anrok"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Anrok
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/numeral", "Numeral")}
-                                                href="/tools/accounting/numeral"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Numeral
-                                            </Link>,&nbsp;
+                                            Sovos,&nbsp;
+                                            Tax1099,&nbsp;
+                                            Anrok,&nbsp;
+                                            Numeral,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
                                                 href="/tools/accounting/tax-compliance-regulations/avalara"
@@ -1621,36 +1204,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Payroll Tax Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/gusto", "Gusto")}
-                                                href="/tools/accounting/gusto"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Gusto
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/adp", "ADP")}
-                                                href="/tools/accounting/adp"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                ADP
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/onpay", "OnPay")}
-                                                href="/tools/accounting/onpay"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                OnPay
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/deel", "Deel")}
-                                                href="/tools/accounting/deel"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Deel
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/remote", "Remote")}
-                                                href="/tools/accounting/remote"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Remote
-                                            </Link>.
+                                            Gusto,&nbsp;
+                                            ADP,&nbsp;
+                                            OnPay,&nbsp;
+                                            Deel,&nbsp;
+                                            Remote.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -1664,36 +1222,16 @@ export function UseCasesSection() {
                                             Top 5 Automated Multi-State Sales Tax Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/anrok", "Anrok")}
-                                                href="/tools/accounting/anrok"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Anrok
-                                            </Link>,&nbsp;
+                                            Anrok,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
                                                 href="/tools/accounting/tax-compliance-regulations/avalara"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Avalara
                                             </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/taxconnex", "TaxConnex")}
-                                                href="/tools/accounting/taxconnex"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                TaxConnex
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/sovos", "Sovos")}
-                                                href="/tools/accounting/sovos"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Sovos
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/stripe", "Stripe")}
-                                                href="/tools/accounting/stripe"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Stripe
-                                            </Link>.
+                                            TaxConnex,&nbsp;
+                                            Sovos,&nbsp;
+                                            Stripe.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -1708,30 +1246,10 @@ export function UseCasesSection() {
                                             Top 5 Automated Cash Flow & Deadline Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks-online"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/float", "Float")}
-                                                href="/tools/accounting/float"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Float
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-frog", "Cash Flow Frog")}
-                                                href="/tools/accounting/cash-flow-frog"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Cash Flow Frog
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/xero", "Xero")}
-                                                href="/tools/accounting/xero"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Xero
-                                            </Link>,&nbsp;
+                                            QuickBooks,&nbsp;
+                                            Float,&nbsp;
+                                            Cash Flow Frog,&nbsp;
+                                            Xero,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
@@ -1752,36 +1270,11 @@ export function UseCasesSection() {
                                             Top 5 Automated Recordkeeping Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/quickbooks", "QuickBooks")}
-                                                href="/tools/accounting/quickbooks-online"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                QuickBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/xero", "Xero")}
-                                                href="/tools/accounting/xero"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Xero
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/zoho-books", "Zoho Books")}
-                                                href="/tools/accounting/zoho-books"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Zoho Books
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/freshbooks", "FreshBooks")}
-                                                href="/tools/accounting/freshbooks"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                FreshBooks
-                                            </Link>,&nbsp;
-                                            <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/dext-prepare", "Dext Prepare")}
-                                                href="/tools/accounting/dext-prepare"
-                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Dext Prepare
-                                            </Link>.
+                                            QuickBooks,&nbsp;
+                                            Xero,&nbsp;
+                                            Zoho Books,&nbsp;
+                                            FreshBooks,&nbsp;
+                                            Dext Prepare.
                                         </p>
                                     </li>
                                 </ul>
@@ -1824,30 +1317,15 @@ export function UseCasesSection() {
                                                 Top AI Automated Content Generation Tools:
                                             </h6>
                                             <p className="text-black text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/scalenut", "Scalenut")}
-                                                    href="/tools/marketing/scalenut"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Scalenut
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/writesonic", "Writesonic")}
-                                                    href="/tools/marketing/writesonic"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Writesonic
-                                                </Link>,&nbsp;
+                                                Scalenut,&nbsp;
+                                                Writesonic,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
                                                     href="/tools/marketing/contentstudio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ContentStudio
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/rytr", "Rytr")}
-                                                    href="/tools/marketing/rytr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Rytr
-                                                </Link>,&nbsp;
+                                                Rytr,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
                                                     href="/tools/marketing/jasper-ai"
@@ -1865,36 +1343,16 @@ export function UseCasesSection() {
                                                 Top AI Content Repurposing Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pictory", "Pictory")}
-                                                    href="/tools/marketing/pictory"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pictory
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/opusclip", "OpusClip")}
-                                                    href="/tools/marketing/opusclip"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    OpusClip
-                                                </Link>,
+                                                Pictory,&nbsp;
+                                                OpusClip,
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
                                                     href="/tools/marketing/contentstudio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ContentStudio
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/repurpose", "Repurpose")}
-                                                    href="/tools/marketing/repurpose"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Repurpose
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/vizard", "Vizard")}
-                                                    href="/tools/marketing/vizard"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Vizard
-                                                </Link>.
+                                                Repurpose,&nbsp;
+                                                Vizard.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -1906,36 +1364,11 @@ export function UseCasesSection() {
                                                 Top AI Bulk Scheduling Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/metricool", "Metricool")}
-                                                    href="/tools/marketing/metricool"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Metricool
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/publer", "Publer")}
-                                                    href="/tools/marketing/publer"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Publer
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/socialbee", "SocialBee")}
-                                                    href="/tools/marketing/socialbee"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    SocialBee
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/coschedule", "CoSchedule")}
-                                                    href="/tools/marketing/coschedule"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    CoSchedule
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/sendible", "Sendible")}
-                                                    href="/tools/marketing/sendible"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Sendible
-                                                </Link>.
+                                                Metricool,&nbsp;
+                                                Publer,&nbsp;
+                                                SocialBee,&nbsp;
+                                                CoSchedule,&nbsp;
+                                                Sendible.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -1947,24 +1380,9 @@ export function UseCasesSection() {
                                                 Top AI Approval Process Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pabbly", "Pabbly")}
-                                                    href="/tools/marketing/pabbly"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pabbly
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/make", "Make")}
-                                                    href="/tools/marketing/make"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Make
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/n8n", "N8N")}
-                                                    href="/tools/marketing/n8n"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    N8N
-                                                </Link>,&nbsp;
+                                                Pabbly,&nbsp;
+                                                Make,&nbsp;
+                                                N8N,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
@@ -1988,36 +1406,21 @@ export function UseCasesSection() {
                                                 Top AI Email Campaign Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/klaviyo", "Klaviyo")}
-                                                    href="/tools/marketing/klaviyo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Klaviyo
-                                                </Link>,&nbsp;
+                                                Klaviyo,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/mailchimp", "Mailchimp")}
                                                     href="/tools/marketing/mailchimp"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Mailchimp
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/getresponse", "GetResponse")}
-                                                    href="/tools/marketing/getresponse"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    GetResponse
-                                                </Link>,&nbsp;
+                                                GetResponse,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
                                                     href="/tools/marketing/active-campaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/mailerlite", "MailerLite")}
-                                                    href="/tools/marketing/mailerlite"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    MailerLite
-                                                </Link>.                                            </p>
+                                                MailerLite.                                            </p>
                                         </li>
                                     </ul>
                                     <Link
@@ -2039,36 +1442,16 @@ export function UseCasesSection() {
                                                 Top AI Chatbot Tools:
                                             </p>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/bot-penguin", "BotPenguin")}
-                                                    href="/tools/marketing/bot-penguin"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    BotPenguin
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/many-chat", "ManyChat")}
-                                                    href="/tools/marketing/many-chat"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    ManyChat
-                                                </Link>,&nbsp;
+                                                BotPenguin,&nbsp;
+                                                ManyChat,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Pipedrive
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/custom-gpt", "CustomGPT.ai")}
-                                                    href="/tools/marketing/custom-gpt"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    CustomGPT
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/getchipbot", "getchipbot")}
-                                                    href="/tools/marketing/getchipbot"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Get Chip Bot
-                                                </Link>
+                                                CustomGPT,&nbsp;
+                                                Get Chip Bot
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -2087,24 +1470,14 @@ export function UseCasesSection() {
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     ActiveCampaign
                                                 </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/Apollo", "Apollo")}
-                                                    href="/tools/marketing/Apollo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Apollo
-                                                </Link>,&nbsp;
+                                                Apollo,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                     href="/tools/marketing/pipedrive"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Pipedrive
                                                 </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madkudu", ". LeadSquared ")}
-                                                    href="/tools/marketing/lead-squared "
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    LeadSquared
-                                                </Link>,&nbsp;
+                                                LeadSquared,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
                                                     href="/tools/marketing/6sense"
@@ -2125,36 +1498,11 @@ export function UseCasesSection() {
                                             <ul>
                                                 <li>
                                                     <p className="text-sm">
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/call-agent-ai", "CallAgentAI")}
-                                                            href="/tools/marketing/call-agent-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            CallAgentAI
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/speak-ai", "Speak AI")}
-                                                            href="/tools/marketing/speak-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Speakai
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/voice-genie-ai", "VoiceGenie AI")}
-                                                            href="/tools/marketing/voice-genie-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            VoiceGenie
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/eveninglabs-conversational-ai", "ElevenLabs Conversational AI")}
-                                                            href="/tools/marketing/eveninglabs-conversational-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            ElevenLabs Conversational AI
-                                                        </Link>,&nbsp;
-                                                        <Link
-                                                            id={gtmLinkIdFromHref("/tools/marketing/synthflow-ai", "Synthflow AI")}
-                                                            href="/tools/marketing/synthflow-ai"
-                                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                            Synthflow AI
-                                                        </Link>.
+                                                        CallAgentAI,&nbsp;
+                                                        Speakai,&nbsp;
+                                                        VoiceGenie,&nbsp;
+                                                        ElevenLabs Conversational AI,&nbsp;
+                                                        Synthflow AI.
                                                     </p>
                                                 </li>
                                             </ul>
@@ -2173,30 +1521,10 @@ export function UseCasesSection() {
                                                 Top AI Dynamic Optimization Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/adzooma", "Adzooma")}
-                                                    href="/tools/marketing/adzooma"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Adzooma
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/optmyzr", "Optmyzr")}
-                                                    href="/tools/marketing/optmyzr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Optmyzr
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/opteo", "Opteo")}
-                                                    href="/tools/marketing/opteo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Opteo
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/wordStream", "WordStream")}
-                                                    href="/tools/marketing/wordStream"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    WordStream
-                                                </Link>,&nbsp;
+                                                Adzooma,&nbsp;
+                                                Optmyzr,&nbsp;
+                                                Opteo,&nbsp;
+                                                WordStream,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
                                                     href="/tools/marketing/zapier"
@@ -2214,30 +1542,10 @@ export function UseCasesSection() {
                                                 Top AI Automated Bidding Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/adzooma", "Adzooma")}
-                                                    href="/tools/marketing/adzooma"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Adzooma
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/optmyzr", "Optmyzr")}
-                                                    href="/tools/marketing/optmyzr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Optmyzr
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/opteo", "Opteo")}
-                                                    href="/tools/marketing/opteo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Opteo
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/wordStream", "WordStream")}
-                                                    href="/tools/marketing/wordStream"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    WordStream
-                                                </Link>,&nbsp;
+                                                Adzooma,&nbsp;
+                                                Optmyzr,&nbsp;
+                                                Opteo,&nbsp;
+                                                WordStream,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
                                                     href="/tools/marketing/zapier"
@@ -2274,12 +1582,7 @@ export function UseCasesSection() {
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Optimove
                                                 </Link>,&nbsp;or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/tableau-ai", "Tableau AI / Adobe Analytics")}
-                                                    href="/tools/marketing/tableau-ai"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Tableau AI / Adobe Analytics
-                                                </Link>.
+                                                Tableau AI / Adobe Analytics.
                                             </p>
                                         </li>
                                         <li className="pl-.5">

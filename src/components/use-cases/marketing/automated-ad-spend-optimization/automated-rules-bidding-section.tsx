@@ -18,14 +18,8 @@ export default function AutomatedRulesBiddingSection() {
               providing a way to streamline and enhance the management of digital advertising efforts.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Automated bidding tools like&nbsp;
-              <Link id="automated-ad-spend-optimization-rules-google-ads-smart-bidding"
-                href="/tools/marketing/google-ads-smart-bidding" className="text-[#C83803] hover:underline">
-                Google Ads Smart Bidding
-              </Link>&nbsp;and&nbsp;
-              <Link id="automated-ad-spend-optimization-rules-salesforce-einstein"
-                href="/tools/marketing/salesforce-einstein" className="text-[#C83803] hover:underline">
-                Salesforce Einstein
-              </Link>&nbsp;use AI to automatically adjust bids based on real-time data and pre-defined goals, such as maximizing
+              Google Ads Smart Bidding&nbsp;and&nbsp;
+              Salesforce Einstein&nbsp;use AI to automatically adjust bids based on real-time data and pre-defined goals, such as maximizing
               conversions or achieving a target return on ad spend (ROAS). This not only ensures optimal bid strategies but also
               frees up marketers to focus on higher-level strategic planning, rather than day-to-day bid management.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -48,10 +42,7 @@ export default function AutomatedRulesBiddingSection() {
               campaigns while minimizing manual intervention.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Tools like&nbsp;
-              <Link id="automated-ad-spend-optimization-rules-hubspot"
-                href="/tools/marketing/hubspot" className="text-[#C83803] hover:underline">
-                HubSpot
-              </Link>&nbsp;and&nbsp;
+              HubSpot&nbsp;and&nbsp;
               <Link id="automated-ad-spend-optimization-rules-madgicx"
                 href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">
                 Madgicx
@@ -70,10 +61,7 @@ export default function AutomatedRulesBiddingSection() {
               ad spend.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Tools like&nbsp;
-              <Link id="automated-ad-spend-optimization-rules-basis-technologies"
-                href="/tools/marketing/basis-technologies" className="text-[#C83803] hover:underline">
-                Basis Technologies
-              </Link>&nbsp;provide advanced algorithms that adjust bids dynamically based on real-time market conditions and
+              Basis Technologies&nbsp;provide advanced algorithms that adjust bids dynamically based on real-time market conditions and
               performance data. This ensures that every dollar spent is optimized for the highest possible return, providing
               marketers with a competitive edge in the digital landscape.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-advanced-algorithms">Implementing Advanced Algorithms</h4>

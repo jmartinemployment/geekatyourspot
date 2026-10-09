@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import fs from "node:fs";
+import path from "node:path";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFunnelDollar, faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -54,10 +56,22 @@ function toolHref(tool: ToolPageContent): string {
     : `/tools/${tool.department}/${tool.slug}`;
 }
 
-export default function MarketingToolsPage() {
-  const tools = getToolsByDepartment("marketing").sort((a, b) =>
-    a.title.localeCompare(b.title)
+/**
+ * The registry also catalogues tools whose page has not been built yet
+ * (see plans/tools-directory-structure.md, "Known inconsistencies"). Listing
+ * those would send readers to 404s, so only tools whose route exists are
+ * rendered. The check runs at build time against the app directory.
+ */
+function hasPage(tool: ToolPageContent): boolean {
+  return fs.existsSync(
+    path.join(process.cwd(), "src", "app", "(site)", ...toolHref(tool).split("/").filter(Boolean), "page.tsx")
   );
+}
+
+export default function MarketingToolsPage() {
+  const tools = getToolsByDepartment("marketing")
+    .filter(hasPage)
+    .sort((a, b) => a.title.localeCompare(b.title));
 
   const jsonLd: Graph = {
     "@context": "https://schema.org",

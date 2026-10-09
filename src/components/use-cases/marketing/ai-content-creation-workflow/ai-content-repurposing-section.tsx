@@ -48,10 +48,7 @@ export default function AIContentRepurposingSection() {
               <p className="text-md text-white shadow-text pt-3">
                 To effectively reach varied audiences, it&#39;s crucial to present content in formats that they prefer. AI tools
                 such as&nbsp;
-                <Link id="ai-content-creation-workflow-repurposing-copyai-1"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;excel at converting long-form content into concise, impactful
+                Copy.ai&nbsp;excel at converting long-form content into concise, impactful
                 pieces that fit different media types. For instance, a comprehensive blog post can be transformed into a series of
                 engaging social media posts or a compelling video script with minimal manual intervention.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -77,10 +74,7 @@ export default function AIContentRepurposingSection() {
               </h3>
               <p className="text-md text-white shadow-text pt-3">
                 <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is key to making content resonate with individual audience members. AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-repurposing-claude-1"
-                  href="/tools/marketing/claude" className="text-[#C83803] hover:underline">
-                  Claude
-                </Link>&nbsp;can analyze audience data to tailor content variations that speak
+                Claude&nbsp;can analyze audience data to tailor content variations that speak
                 directly to different segments. This ensures that repurposed content not only extends reach but also maintains
                 relevance and engagement.</p>
               <p className="text-md text-white shadow-text pt-3">
@@ -166,10 +160,7 @@ export default function AIContentRepurposingSection() {
               </h3>
               <p className="text-md text-white shadow-text pt-3">
                 <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is key to making content resonate with individual audience members. AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-repurposing-claude-2"
-                  href="/tools/marketing/claude" className="text-[#C83803] hover:underline">
-                  Claude
-                </Link>&nbsp; can analyze audience data to tailor content variations that speak
+                Claude&nbsp; can analyze audience data to tailor content variations that speak
                 directly to different segments. This ensures that repurposed content not only extends reach but also maintains
                 relevance and engagement.</p>
               <p className="text-md text-white shadow-text pt-3">

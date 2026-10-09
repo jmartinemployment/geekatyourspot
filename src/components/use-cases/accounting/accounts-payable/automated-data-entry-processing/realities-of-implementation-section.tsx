@@ -20,7 +20,7 @@ export default function RealitiesOfImplementationSection() {
       <p className="text-md text-white shadow-text pt-3">
         Data quality is paramount. Before automating, it&#39;s essential to clean and validate current data.&nbsp;
         <Link id="use-cases-accounting-automated-data-entry-processing-realities-stampli"
-          href="/tools/accounting/stampli" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;offers robust data extraction capabilities that can help maintain high data quality by
         automating the capture and validation of invoice data. This step is crucial to prevent garbage in,

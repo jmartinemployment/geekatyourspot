@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
@@ -8,7 +7,7 @@ export default function LedeSection() {
         Imagine spending countless hours brainstorming topics, researching <GlossaryLink slug="keyword-density">keywords</GlossaryLink>, and drafting articles, only to find your content still isn&apos;t ranking well in search engines. Many small businesses in Palm Beach and Broward counties face this daily grind. The process is not only time-consuming but also fraught with the risk of human error, leading to missed opportunities and wasted resources.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Enter AI-driven tools like <Link id="tools-marketing-chatgpt" href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline"><strong>ChatGPT</strong></Link> and <Link id="tools-marketing-surfer-seo" href="/tools/marketing/surfer-seo" className="text-[#C83803] hover:underline"><strong>Surfer SEO</strong></Link>. These tools are transforming content creation by automating much of the labor-intensive work. They help generate high-quality, <GlossaryLink slug="search-engine-optimization">SEO-optimized</GlossaryLink> blog posts and articles with a fraction of the effort, allowing you to focus on strategy and creativity. With AI, you can produce content faster, reduce errors, and improve search engine rankings.
+        Enter AI-driven tools like <strong>ChatGPT</strong> and <strong>Surfer SEO</strong>. These tools are transforming content creation by automating much of the labor-intensive work. They help generate high-quality, <GlossaryLink slug="search-engine-optimization">SEO-optimized</GlossaryLink> blog posts and articles with a fraction of the effort, allowing you to focus on strategy and creativity. With AI, you can produce content faster, reduce errors, and improve search engine rankings.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         In today&apos;s fast-paced digital landscape, small businesses often struggle to keep up with the demands of content creation. The traditional approach to writing SEO-optimized blogs and articles is both time-consuming and costly. It involves extensive research, meticulous drafting, and constant updates to align with ever-changing SEO algorithms. This not only drains resources but also leaves room for errors, resulting in missed opportunities and suboptimal marketing outcomes.

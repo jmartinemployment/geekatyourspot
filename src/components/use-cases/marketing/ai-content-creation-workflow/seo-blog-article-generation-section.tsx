@@ -61,10 +61,7 @@ export default function SEOBlogArticleGenerationSection() {
                 potential customers.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Similarly,&nbsp;
-                <Link id="ai-content-creation-workflow-seo-claude-2"
-                  href="/tools/marketing/claude" className="text-[#0B162A] font-bold hover:underline">
-                  Claude
-                </Link>&nbsp;assists in fine-tuning content to match search engine
+                Claude&nbsp;assists in fine-tuning content to match search engine
                 algorithms by optimizing meta descriptions and headers, further boosting your SEO efforts. These tools help
                 businesses stay ahead of the competition by maintaining a high standard of content quality and relevance.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automating-keyword-research">Automating Keyword Research</h4>
@@ -77,10 +74,7 @@ export default function SEOBlogArticleGenerationSection() {
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-content-structure">Enhancing Content Structure</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-seo-copy-ai-1"
-                  href="/tools/marketing/copy-ai" className="text-[#0B162A] font-bold hover:underline">
-                  Copy.ai
-                </Link>&nbsp;help in structuring your articles effectively, ensuring that they are both engaging and
+                Copy.ai&nbsp;help in structuring your articles effectively, ensuring that they are both engaging and
                 optimized for SEO. By generating outlines and suggesting headers, these tools guide you in creating content that is
                 easier for search engines to index and users to read. This approach not only improves readability but also increases
                 the chances of higher rankings in search results.</p>
@@ -155,7 +149,7 @@ export default function SEOBlogArticleGenerationSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 By using&nbsp;
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-2"
-                  href="/tools/marketing/claude" className="text-[#0B162A] font-bold hover:underline">
+                  href="/tools/marketing/jasper-ai" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
                 </Link>, businesses can enhance their content&#39;s relevance
                 to search engines by incorporating trending topics and frequently searched terms. This results in articles that are
@@ -163,10 +157,7 @@ export default function SEOBlogArticleGenerationSection() {
                 potential customers.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Similarly,&nbsp;
-                <Link id="ai-content-creation-workflow-seo-claude-2"
-                  href="/tools/marketing/claude" className="text-[#0B162A] font-bold hover:underline">
-                  Claude
-                </Link>&nbsp assists in fine-tuning content to match search engine
+                Claude&nbsp assists in fine-tuning content to match search engine
                 algorithms by optimizing meta descriptions and headers, further boosting your SEO efforts. These tools help
                 businesses stay ahead of the competition by maintaining a high standard of content quality and relevance.</p>
               <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="automating-keyword-research">Automating Keyword Research</h4>

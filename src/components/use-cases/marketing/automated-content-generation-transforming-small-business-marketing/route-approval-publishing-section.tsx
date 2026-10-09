@@ -8,16 +8,12 @@ export default function RouteApprovalPublishingSection() {
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         One of the effective ways to enhance your content lifecycle is by leveraging AI-driven platforms like{" "}
-        <Link id="tools-marketing-writesonic-7" href="/tools/marketing/writesonic" className="text-[#0B162A] hover:underline">
-          Writesonic
-        </Link>
+        Writesonic
         , which can assist in generating content variations and manage approval stages through automated workflows. This ensures that content is not only ready for publication faster but also aligns with your brand voice and messaging.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Similarly,{" "}
-        <Link id="tools-marketing-copyai-5" href="/tools/marketing/copyai" className="text-[#0B162A] hover:underline">
-          Copy.ai
-        </Link>{" "}
+        Copy.ai{" "}
         offers a comprehensive platform for developing and managing content strategies. It helps in automating the feedback loop by allowing instant revisions and updates, thus reducing the back-and-forth usually required during the approval process. With this tool, businesses can integrate their go-to-market (GTM) strategies into a single platform, eliminating the need for multiple point solutions and ensuring a more cohesive content workflow.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -45,9 +41,7 @@ export default function RouteApprovalPublishingSection() {
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         For small businesses, the ability to repurpose content effectively can be a game-changer. Tools like{" "}
-        <Link id="tools-marketing-pictory-6" href="/tools/marketing/pictory" className="text-[#0B162A] hover:underline">
-          Pictory
-        </Link>{" "}
+        Pictory{" "}
         help in transforming existing content into different formats, such as videos or infographics, which can be quickly approved and published across multiple platforms. This approach not only saves time but also maximizes the reach and impact of your marketing efforts.
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automating-publishing-workflows">

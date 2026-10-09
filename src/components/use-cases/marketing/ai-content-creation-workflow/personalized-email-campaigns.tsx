@@ -33,10 +33,7 @@ export default function PersonalizedEmailCampaignsSection() {
                   href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-email-copyai-1"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
+                Copy.ai&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
                 crafting tailored email content that speaks directly to the needs and interests of individual recipients. By
                 automating the personalization process, marketing teams can focus on strategy rather than execution, ensuring that
                 each email feels like a one-on-one conversation without the manual labor.</p>
@@ -57,10 +54,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 recommendations based on a customer’s past purchases and browsing history.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Geek At Your Spot facilitates the integration of AI solutions like&nbsp;
-                <Link id="ai-content-creation-workflow-email-chatgpt-1"
-                  href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
-                  ChatGPT
-                </Link>&nbsp;for businesses aiming to implement dynamic content strategies. By harnessing these tools, companies can ensure their
+                ChatGPT&nbsp;for businesses aiming to implement dynamic content strategies. By harnessing these tools, companies can ensure their
                 emails remain relevant and engaging, leading to enhanced customer loyalty and increased sales.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-ab-testing">Automated A/B Testing</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -98,10 +92,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 precise segments. This approach allows for more tailored messaging and better alignment with customer needs.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 With the help of AI tools like
-                <Link id="ai-content-creation-workflow-email-claude-1"
-                  href="/tools/marketing/claude" className="text-[#C83803] hover:underline">
-                  Claude
-                </Link>, businesses can develop sophisticated
+                Claude, businesses can develop sophisticated
                 segmentation strategies that enhance the effectiveness of their email marketing campaigns.</p>
             </div>
           </div>
@@ -122,13 +113,10 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-Jasper-AI-2"
-                  href="/tools/marketing/claude" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
-                <Link id="ai-content-creation-workflow-email-copyai-2"
-                  href="/tools/marketing/copyai" className="text-[#C83803] hover:underline">
-                  Copy.ai
-                </Link>&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
+                Copy.ai&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
                 crafting tailored email content that speaks directly to the needs and interests of individual recipients. By
                 automating the personalization process, marketing teams can focus on strategy rather than execution, ensuring that
                 each email feels like a one-on-one conversation without the manual labor.</p>
@@ -149,10 +137,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 recommendations based on a customer’s past purchases and browsing history.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Geek At Your Spot facilitates the integration of AI solutions like&nbsp;
-                <Link id="ai-content-creation-workflow-email-chatgpt-2"
-                  href="/tools/marketing/chatgpt" className="text-[#C83803] hover:underline">
-                  ChatGPT
-                </Link>&nbsp;for businesses aiming to implement dynamic content strategies. By harnessing these tools, companies can ensure their
+                ChatGPT&nbsp;for businesses aiming to implement dynamic content strategies. By harnessing these tools, companies can ensure their
                 emails remain relevant and engaging, leading to enhanced customer loyalty and increased sales.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-ab-testing">Automated A/B Testing</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -190,10 +175,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 precise segments. This approach allows for more tailored messaging and better alignment with customer needs.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 With the help of AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-email-claude-2"
-                  href="/tools/marketing/claude" className="text-[#C83803] hover:underline">
-                  Claude
-                </Link>&nbsp;businesses can develop sophisticated
+                Claude&nbsp;businesses can develop sophisticated
                 segmentation strategies that enhance the effectiveness of their email marketing campaigns.</p>
             </div>
             <div className="col-span-5">

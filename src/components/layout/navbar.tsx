@@ -236,8 +236,18 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable"
+                      label="Automated Approval Workflows"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai"
                       label="Automated Payment Execution"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
+                      label="Automated Fraud &amp; Duplicate Payment Controls"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -283,11 +293,6 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink
                       href="/blog/marketing/how-personalized-email-campaigns-drive-real-results"
                       label="How Personalized Email Campaigns Drive Real Results"
-                      onNavigate={closeSidebar}
-                    />
-                    <MenuLink
-                      href="/blog/marketing/how-smart-chatbots-revolutionize-b2b-marketing"
-                      label="How Smart Chatbots Revolutionize B2B Marketing"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -341,6 +346,11 @@ export default function Navbar(): React.JSX.Element {
                       label="Unlocking the Secrets to Effective Cash Flow Forecasting with AI"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-boosts-your-business-efficiency"
+                      label="How Automated Accounts Receivable Boosts Your Business Efficiency"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
               </div>
@@ -371,15 +381,27 @@ export default function Navbar(): React.JSX.Element {
                 <div className={COLUMN_CLASS}>
                   <MenuHeading href="/tools/accounting" label="Accounting" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" label="ApprovalMax" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/avalara" label="Avalara" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" label="AvidXchange (Data Entry)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" label="AvidXchange (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" label="Bill (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" label="Bill (Data Entry)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" label="Bill (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" label="Bill (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" label="Chaserhq" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" label="Dext" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" label="Melio" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" label="Invoiced" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" label="Medius" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" label="Melio (Approval Workflows)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" label="Melio (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" label="Ramp (Approval Workflows)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" label="Stampli" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" label="Tipalti (Fraud Controls)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" label="Upflow" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay" label="Versapay" onNavigate={closeSidebar} />
                   </ul>
                 </div>
               </div>
