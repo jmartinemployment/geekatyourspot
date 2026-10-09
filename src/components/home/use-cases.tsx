@@ -39,9 +39,13 @@ export function UseCasesSection() {
                         <Card className="bg-[#CBCBCB] pt-0 shadow-xl gap-1">
                             <CardHeader className="bg-[#023059] py-2">
                                 <CardTitle>
-                                    <h3 className="text-3xl text-white font-bold shadow-text inline">
-                                        Accounting
-                                    </h3>
+                                    <Link
+                                        id={gtmLinkIdFromHref("/use-cases/accounting")}
+                                        href="/use-cases/accounting">
+                                        <h3 className="text-3xl text-white hover:text-[#C83803] font-bold shadow-text inline">
+                                            Accounting
+                                        </h3>
+                                    </Link>
                                 </CardTitle>
                                 <CardAction>
                                     <FontAwesomeIcon
@@ -111,10 +115,12 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm"> </strong>
-                                        <h5><strong className="text-black text-sm">
-                                            Automated Approval Workflows:
-                                        </strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-approval-workflows"
+                                            href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Automated Approval Workflows:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs">
                                             We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
@@ -242,7 +248,7 @@ export function UseCasesSection() {
                                     </li>
                                 </ul>
                                 <Link
-                                    id=""
+                                    id="home-use-cases-accounting-automated-cash-flow-forecasting"
                                     href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
                                     className="hover:text-[#C83803] hover:underline">
                                     <h4 className="text-black font-bold text-base">
@@ -385,9 +391,13 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                 </ul>
-                                <h4 className="text-black font-bold text-base">
-                                    Tax Compliance & Regulations
-                                </h4>
+                                <Link id="home-use-cases-accounting-tax-compliance-regulations"
+                                    href="/use-cases/accounting/tax-compliance-regulations"
+                                    className="hover:underline">
+                                    <h4 className="text-black hover:text-[#C83803] font-bold text-base">
+                                        Tax Compliance & Regulations
+                                    </h4>
+                                </Link>
                                 <p className="text-black text-xs ">
                                     Automated tax compliance software streamlines calculations, nexus tracking, exemption management, and filings across thousands of global jurisdictions.  Applies real-time regulatory updates, minimize manual human errors, and generate signature-ready reports.
                                 </p>                                <ul className="list-disc text-xs text-black list- pl-3 ">
@@ -1194,8 +1204,8 @@ export function UseCasesSection() {
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
                             <CardContent>
                                 <Link
-                                    id={gtmLinkIdFromHref("/use-cases/accounting/ai-accounting-systems", "AI Accounting Systems")}
-                                    href="/use-cases/accounting/ai-accounting-systems">
+                                    id={gtmLinkIdFromHref("/use-cases/accounting")}
+                                    href="/use-cases/accounting">
                                     <h3 className="text-black text-3xl text-shadow hover:text-[#C83803] font-bold shadow-text">
                                         Accounting Systems
                                     </h3>
@@ -1264,11 +1274,14 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <strong className="text-sm"> </strong>
-                                        <h5><strong className="text-black text-base">
-                                            Automated Approval Workflows:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-automated-approval-workflows"
+                                            href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Automated Approval Workflows:
+                                            </strong>
+                                            </h5>
+                                        </Link>
                                         <p className="text-black text-sm">
                                             We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
@@ -1398,7 +1411,7 @@ export function UseCasesSection() {
                                     </li>
                                 </ul>
                                 <Link
-                                    id=""
+                                    id="home-use-cases-accounting-automated-cash-flow-forecasting"
                                     href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
                                     className="hover:text-[#C83803] hover:underline">
                                     <h4 className="text-black font-bold text-lg">
@@ -1541,9 +1554,13 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                 </ul>
-                                <h4 className="text-black font-bold text-lg">
-                                    Tax Compliance & Regulations
-                                </h4>
+                                <Link id="home-use-cases-accounting-tax-compliance-regulations"
+                                    href="/use-cases/accounting/tax-compliance-regulations"
+                                    className="hover:underline">
+                                    <h4 className="text-black hover:text-[#C83803] font-bold text-lg">
+                                        Tax Compliance & Regulations
+                                    </h4>
+                                </Link>
                                 <p className="text-black text-sm ">
                                     Automated tax compliance software streamlines calculations, nexus tracking, exemption management, and filings across thousands of global jurisdictions. It integrates directly with ERP and e-commerce platforms to apply real-time regulatory updates, minimize manual human errors, and generate signature-ready reports.
                                 </p>
