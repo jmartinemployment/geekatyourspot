@@ -1,0 +1,1 @@
+A diagram depicting the architecture of Bill's system, emphasizing the streamlined flow of accounts payable processes, with components like data integration, automation, and seamless transactions.

@@ -1,0 +1,1 @@
+Decision-making flowchart to determine if Tipalti is suitable for a business, with considerations like business size, payment volume, and compliance needs.

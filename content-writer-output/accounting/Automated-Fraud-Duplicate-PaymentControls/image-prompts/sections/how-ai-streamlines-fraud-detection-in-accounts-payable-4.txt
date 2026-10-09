@@ -1,0 +1,1 @@
+A flowchart illustrating steps for implementing automated fraud and duplicate payment controls, with icons for planning, testing, and deployment stages.

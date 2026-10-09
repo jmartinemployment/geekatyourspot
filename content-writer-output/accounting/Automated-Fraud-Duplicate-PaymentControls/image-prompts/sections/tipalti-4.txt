@@ -1,0 +1,1 @@
+A step-by-step flowchart illustrating the process of integrating Tipalti into an existing business infrastructure, indicating key implementation phases and considerations.

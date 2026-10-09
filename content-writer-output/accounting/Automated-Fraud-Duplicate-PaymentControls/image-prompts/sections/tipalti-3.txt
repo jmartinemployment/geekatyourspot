@@ -1,0 +1,1 @@
+Detailed diagram of a layered architecture, showcasing the various components and workflows within Tipalti's system, highlighting its technical structure and mechanics.

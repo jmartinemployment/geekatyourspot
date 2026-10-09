@@ -1,0 +1,1 @@
+Flowchart showing the decision-making process for selecting appropriate automated controls, with paths leading to different types of solutions based on business size and needs.

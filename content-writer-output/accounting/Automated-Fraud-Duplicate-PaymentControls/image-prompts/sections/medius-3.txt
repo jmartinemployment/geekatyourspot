@@ -1,0 +1,1 @@
+Technical diagram of Medius's architecture, showing interconnected modules and data flow lines, representing the mechanics of the system.
