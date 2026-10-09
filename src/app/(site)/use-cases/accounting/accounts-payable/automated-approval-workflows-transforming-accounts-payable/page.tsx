@@ -16,7 +16,7 @@ const DESCRIPTION =
     "Explore Automated Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable`;
+const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/accounts-payable/automated-approval-workflows`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",

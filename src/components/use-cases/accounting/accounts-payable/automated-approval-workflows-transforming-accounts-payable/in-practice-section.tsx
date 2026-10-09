@@ -13,7 +13,7 @@ export default function InPracticeSection() {
         identifying inefficiencies and areas where automation can add value. During this phase, tools
         like&nbsp;
         <Link id="use-cases-accounting-approval-workflows-practice-approvalmax"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/approvalmax" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#0B162A] hover:underline">
           ApprovalMax
         </Link>&nbsp;can be invaluable, as they allow you to visualize and configure complex approval pathways
         tailored to your organization&#39;s specific needs.</p>
@@ -22,7 +22,7 @@ export default function InPracticeSection() {
         selected automation tools with your existing financial systems. It&#39;s crucial that these
         integrations are seamless to avoid disruptions.&nbsp;
         <Link id="use-cases-accounting-approval-workflows-practice-melio"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/melio" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#0B162A] hover:underline">
           Melio
         </Link>&nbsp;is known for its easy integration capabilities, especially with popular accounting
         software like QuickBooks, which can help maintain consistency across your financial operations.</p>
@@ -31,7 +31,7 @@ export default function InPracticeSection() {
         systems, maintaining accuracy and integrity. This may include setting up data validation rules and
         automating data entry processes to minimize manual intervention. Tools like&nbsp;
         <Link id="use-cases-accounting-approval-workflows-practice-stampli"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/stampli" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;can automate invoice data capture, reducing manual entry errors and speeding up the
         approval process.</p>

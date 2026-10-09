@@ -16,15 +16,15 @@ export default function HowItTransformsSection() {
         to ensure consistency across the board. With clean data, the next phase involves selecting the right
         technology. Tools such as&nbsp;
         <Link id="use-cases-accounting-approval-workflows-transform-bill"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>,&nbsp;
         <Link id="use-cases-accounting-approval-workflows-transform-ramp"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/ramp" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">
           Ramp
         </Link>, and&nbsp;
         <Link id="use-cases-accounting-approval-workflows-transform-approvalmax"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/approvalmax" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">
           ApprovalMax
         </Link>&nbsp;are integrated to automate various stages of the workflow, from invoice capture to
         approval routing. Each tool is chosen based on its ability to work seamlessly with existing systems,
@@ -38,11 +38,11 @@ export default function HowItTransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         As invoices enter the system, tools like&nbsp;
         <Link id="use-cases-accounting-approval-workflows-transform-stampli"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;and&nbsp;
         <Link id="use-cases-accounting-approval-workflows-transform-melio"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/melio" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>&nbsp;take over, automating data entry and routing invoices to the appropriate approvers based
         on pre-set rules. These systems maintain a comprehensive audit trail, ensuring every action is logged

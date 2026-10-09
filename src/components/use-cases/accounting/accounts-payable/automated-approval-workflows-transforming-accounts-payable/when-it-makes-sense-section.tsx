@@ -10,11 +10,11 @@ export default function WhenItMakesSenseSection() {
         experiencing frequent approval delays are prime candidates for automation. This is where tools
         like&nbsp;
         <Link id="use-cases-accounting-approval-workflows-sense-bill"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
         <Link id="use-cases-accounting-approval-workflows-sense-ramp"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/ramp" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">
           Ramp
         </Link>&nbsp;come into play, offering streamlined workflows that reduce manual intervention and
         errors.</p>

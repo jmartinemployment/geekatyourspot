@@ -18,7 +18,7 @@ export default function CriticalDecisionsSection() {
         This might involve cleaning existing records and setting up processes to maintain high data quality
         going forward. Tools like&nbsp;
         <Link id="use-cases-accounting-approval-workflows-decisions-bill"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;can assist with data validation and ensure that your approval workflows are fed with
         reliable information.</p>
@@ -28,7 +28,7 @@ export default function CriticalDecisionsSection() {
         grows. Consider how these tools integrate with your existing systems, such as QuickBooks or Xero, to
         avoid creating silos of information.&nbsp;
         <Link id="use-cases-accounting-approval-workflows-decisions-ramp"
-          href="/tools/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/ramp" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>, for example, offers robust integration capabilities that can seamlessly connect with various
         financial systems, ensuring a cohesive flow of information.</p>
