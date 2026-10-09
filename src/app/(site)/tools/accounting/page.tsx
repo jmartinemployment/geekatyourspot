@@ -72,7 +72,7 @@ export default function AccountingToolsPage() {
           itemListElement: tools.map((tool, index) => ({
             "@type": "ListItem",
             position: index + 1,
-            url: `${SITE_URL}/tools/${tool.department}/${tool.slug}`,
+            url: `${SITE_URL}${toolHref(tool)}`,
           })),
         },
       },
@@ -82,7 +82,7 @@ export default function AccountingToolsPage() {
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
         description: tool.description,
-        url: `${SITE_URL}/tools/${tool.department}/${tool.slug}`,
+        url: `${SITE_URL}${toolHref(tool)}`,
       })),
     ],
   };
@@ -115,7 +115,7 @@ export default function AccountingToolsPage() {
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {tools.map((tool) => (
               <Link
-                key={tool.slug}
+                key={toolHref(tool)}
                 href={toolHref(tool)}
                 className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
               >

@@ -1,1 +1,1 @@
-A technical diagram illustrating the architecture of Ramp, with components representing different functionalities and their interactions.
+Technical diagram showcasing the architecture of Ramp, including components like servers, databases, and user interfaces, connected by flow lines indicating data processing.

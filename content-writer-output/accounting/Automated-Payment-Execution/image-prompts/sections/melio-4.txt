@@ -1,1 +1,1 @@
-A step-by-step illustration depicting the integration of Melio into a business's existing infrastructure, with stages from initial setup to full deployment shown in a sequential manner.
+An instructional diagram illustrating the steps to implement Melio in a business setting, featuring icons for setup, integration, and user adoption.

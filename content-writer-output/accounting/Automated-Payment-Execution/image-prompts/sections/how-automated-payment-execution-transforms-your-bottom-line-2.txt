@@ -1,0 +1,1 @@
+A diagram highlighting hidden costs of manual payment execution. Include elements like time clocks, money leaking from broken pipes, and a scale tipping towards inefficiency.

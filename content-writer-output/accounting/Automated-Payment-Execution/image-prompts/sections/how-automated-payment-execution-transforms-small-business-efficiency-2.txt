@@ -1,1 +1,0 @@
-A diagram illustrating various hidden cost elements like errors, delays, and resource wastage in a tangled network, representing the complexities of manual payment processes.

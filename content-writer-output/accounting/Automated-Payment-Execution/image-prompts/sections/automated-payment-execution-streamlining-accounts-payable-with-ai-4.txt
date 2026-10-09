@@ -1,0 +1,1 @@
+An illustration of a step-by-step process for implementing automated payment execution, using layers or steps in a progressive sequence to represent stages like planning, integration, and execution.

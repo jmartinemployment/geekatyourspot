@@ -236,6 +236,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai"
+                      label="Automated Payment Execution"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
                       label="Automated Cash Flow Forecasting"
                       onNavigate={closeSidebar}
@@ -367,9 +372,14 @@ export default function Navbar(): React.JSX.Element {
                   <MenuHeading href="/tools/accounting" label="Accounting" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/avalara" label="Avalara" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" label="AvidXchange" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" label="Bill" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" label="AvidXchange (Data Entry)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" label="AvidXchange (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" label="Bill (Data Entry)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" label="Bill (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" label="Dext" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" label="Melio" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti" onNavigate={closeSidebar} />
                   </ul>
                 </div>
               </div>

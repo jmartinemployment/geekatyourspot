@@ -1,0 +1,1 @@
+A visual guide showing the steps of integrating Tipalti into a business's existing systems, with icons representing setup, configuration, and deployment stages.

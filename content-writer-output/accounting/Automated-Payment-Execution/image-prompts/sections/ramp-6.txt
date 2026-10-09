@@ -1,1 +1,1 @@
-A balanced scale with pros and cons on either side, symbolizing the evaluation of Ramp's suitability for a business.
+Decision tree diagram guiding businesses through the decision process of adopting Ramp, with branching paths and decision points symbolized by question marks and check marks.

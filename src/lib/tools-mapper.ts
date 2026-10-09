@@ -7,8 +7,10 @@ import { anomaloContent } from "@/data/tools/anomalo";
 import { approvalmaxContent } from "@/data/tools/approvalmax";
 import { avalaraContent } from "@/data/tools/avalara";
 import { avidxchangeContent } from "@/data/tools/avidxchange";
+import { avidxchangePaymentExecutionContent } from "@/data/tools/avidxchange-payment-execution";
 import { baswareContent } from "@/data/tools/basware";
 import { billContent } from "@/data/tools/bill";
+import { billPaymentExecutionContent } from "@/data/tools/bill-payment-execution";
 import { boardContent } from "@/data/tools/board";
 import { coupaContent } from "@/data/tools/coupa";
 import { dextContent } from "@/data/tools/dext";
@@ -20,9 +22,11 @@ import { leadfeederContent } from "@/data/tools/leadfeeder";
 import { madgicxContent } from "@/data/tools/madgicx";
 import { mailchimpContent } from "@/data/tools/mailchimp";
 import { mediusContent } from "@/data/tools/medius";
+import { melioContent } from "@/data/tools/melio";
 import { monteCarloContent } from "@/data/tools/monte-carlo";
 import { optimoveContent } from "@/data/tools/optimove";
 import { qualyticsContent } from "@/data/tools/qualytics";
+import { rampContent } from "@/data/tools/ramp";
 import { rillionContent } from "@/data/tools/rillion";
 import { sovosContent } from "@/data/tools/sovos";
 import { thomsonReutersOnesourceContent } from "@/data/tools/thomson-reuters-onesource";
@@ -38,8 +42,10 @@ const toolsMap: Record<string, ToolPageContent> = {
   "approvalmax": approvalmaxContent,
   "avalara": avalaraContent,
   "avidxchange": avidxchangeContent,
+  "avidxchange-payment-execution": avidxchangePaymentExecutionContent,
   "basware": baswareContent,
   "bill": billContent,
+  "bill-payment-execution": billPaymentExecutionContent,
   "board": boardContent,
   "coupa": coupaContent,
   "dext": dextContent,
@@ -51,9 +57,11 @@ const toolsMap: Record<string, ToolPageContent> = {
   "madgicx": madgicxContent,
   "mailchimp": mailchimpContent,
   "medius": mediusContent,
+  "melio": melioContent,
   "monte-carlo": monteCarloContent,
   "optimove": optimoveContent,
   "qualytics": qualyticsContent,
+  "ramp": rampContent,
   "rillion": rillionContent,
   "sovos": sovosContent,
   "thomson-reuters-onesource": thomsonReutersOnesourceContent,

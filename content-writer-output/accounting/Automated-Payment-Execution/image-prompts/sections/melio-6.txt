@@ -1,1 +1,1 @@
-A decision-making flowchart helping businesses determine the suitability of Melio, with branches leading to different business scenarios and outcomes.
+A decision tree diagram helping businesses assess the compatibility and benefits of using Melio, with branches for various business scenarios and outcomes.

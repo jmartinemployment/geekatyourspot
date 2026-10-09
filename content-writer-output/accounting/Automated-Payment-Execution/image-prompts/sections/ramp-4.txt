@@ -1,1 +1,1 @@
-A step-by-step flowchart showing the process of integrating Ramp into an existing business environment.
+Flowchart demonstrating the steps to integrate Ramp into an existing business environment, with stages like planning, integration, and testing represented by icons and arrows.

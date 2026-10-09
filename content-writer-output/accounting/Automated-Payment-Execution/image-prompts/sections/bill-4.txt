@@ -1,1 +1,1 @@
-A step-by-step diagram showing the implementation process of Bill in a business environment, with icons representing different stages like setup, integration, and operation.
+A step-by-step flowchart depicting the process of integrating Bill into a business environment, focusing on key implementation stages.

@@ -1,1 +1,1 @@
-A diagram showing a simplified flowchart of payment processes, with arrows leading smoothly through digital pathways, symbolizing the streamlined execution provided by Melio.
+A process flow diagram showing the streamlined steps of payment execution with Melio, highlighting integration, efficiency, and simplicity.

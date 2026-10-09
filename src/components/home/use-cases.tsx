@@ -154,8 +154,12 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Automated Payment Execution:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-payment-execution"
+                                            href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Automated Payment Execution:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs">
                                             Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
@@ -163,32 +167,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio", "Melio")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Melio
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
-                                                href="/tools/accounting/corpay"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Corpay
+                                                Ramp
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
-                                                href="/tools/accounting/tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
                                             </Link>.
@@ -1304,7 +1308,14 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">Automated Payment Execution:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-payment-execution"
+                                            href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Automated Payment Execution:
+                                            </strong>
+                                            </h5>
+                                        </Link>
                                         <p className="text-black text-sm">
                                             Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
@@ -1312,35 +1323,36 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/melio", "Melio")}
-                                                href="/tools/accounting/melio"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio", "Melio")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Melio
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill", "Bill")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange", "AvidXchange")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange", "AvidXchange")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/corpay", "Corpay")}
-                                                href="/tools/accounting/corpay"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Corpay
+                                                Ramp
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tipalti", "Tipalti")}
-                                                href="/tools/accounting/tipalti"
+                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti")}
+                                                href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
-                                            </Link>.                                        </p>
+                                            </Link>.
+                                        </p>
                                     </li>
                                     <li className="pl-.5">
                                         <h5><strong className="text-black text-base">

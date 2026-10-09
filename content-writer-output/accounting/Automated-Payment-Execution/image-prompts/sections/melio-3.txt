@@ -1,1 +1,1 @@
-An infographic displaying the architecture of Melio, with layered sections representing different components like user interface, database, and transaction processing modules, connected through digital pathways.
+A technical diagram showcasing Melio's system architecture, with elements representing its components, data flow, and interaction between modules.
