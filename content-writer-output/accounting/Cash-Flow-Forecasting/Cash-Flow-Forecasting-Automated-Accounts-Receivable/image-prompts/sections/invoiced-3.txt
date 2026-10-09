@@ -1,0 +1,1 @@
+A schematic diagram illustrating the architecture of an invoicing system, showing interconnected modules and data pathways in a cloud setting.

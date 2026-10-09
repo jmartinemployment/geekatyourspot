@@ -1,0 +1,1 @@
+A technical flat vector diagram depicting the inner workings of Upflow’s automated accounts receivable system, showcasing data flow and automation mechanics.

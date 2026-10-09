@@ -1,0 +1,1 @@
+Technical diagram of Versapay's architecture, showing interconnected digital components and data flow enhancing accounts receivable automation.

@@ -1,0 +1,1 @@
+A step-by-step flowchart depicting the deployment process of an invoicing system within a corporate infrastructure, showing integration points and user interaction.

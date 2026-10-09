@@ -1,0 +1,1 @@
+A layered diagram illustrating the architecture of Chaserhq, showing interconnected components like data processing, user interfaces, and automation modules.

@@ -1,0 +1,1 @@
+A decision-making diagram with various criteria and checkpoints for assessing the suitability of an invoicing tool for business requirements.
