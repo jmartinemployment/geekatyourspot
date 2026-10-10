@@ -1,1 +1,1 @@
-Decision tree diagram illustrating key considerations for choosing Versapay, guiding users through a series of business-related questions.
+Infographic showing data nodes and connections, representing data structuring and mapping processes.

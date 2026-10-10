@@ -259,8 +259,12 @@ export function UseCasesSection() {
                                 </p>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Automated Accounts Receivable:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-accounts-receivable"
+                                            href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Automated Accounts Receivable:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs ">
                                             Clients take 30, 60, or 90 days to settle bills, leaving you to cover payroll and materials out of pocket while waiting.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
@@ -292,8 +296,8 @@ export function UseCasesSection() {
                                                 Upflow
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill", "Bill")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>.
@@ -1076,8 +1080,12 @@ export function UseCasesSection() {
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
-                                            Automated Accounts Receivable:</strong></h5>
+                                        <Link id="home-use-cases-accounting-automated-accounts-receivable"
+                                            href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Automated Accounts Receivable:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-sm ">
                                             Clients take 30, 60, or 90 days to settle bills, leaving you to cover payroll and materials out of pocket while waiting.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
@@ -1109,8 +1117,8 @@ export function UseCasesSection() {
                                                 Upflow
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
-                                                href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill", "Bill")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
                                             </Link>.

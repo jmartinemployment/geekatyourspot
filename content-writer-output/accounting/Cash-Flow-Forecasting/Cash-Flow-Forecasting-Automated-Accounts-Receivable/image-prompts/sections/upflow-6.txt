@@ -1,1 +1,1 @@
-A flat vector flowchart illustrating the types of businesses that benefit from Upflow and the steps they can take to implement it.
+A diagram showing different data structures and mapping techniques, highlighting the decision-making process for deploying Upflow with various data types.

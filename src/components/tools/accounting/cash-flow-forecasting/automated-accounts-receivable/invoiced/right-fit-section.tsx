@@ -1,39 +1,34 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Invoiced suits businesses that handle a large volume of invoices and require automation to manage
-        accounts receivable efficiently. Small businesses in Miami-Dade, Broward, and West Palm Beach counties
-        will find Invoiced particularly useful if they struggle with manual cash flow management and need to
-        improve forecasting accuracy.</p>
+        Invoiced is particularly well-suited for small to mid-sized businesses in sectors such as technology,
+        healthcare, and professional services. These businesses often face challenges with manual accounts
+        receivable processes, which can be time-consuming and prone to errors. By automating these tasks, Invoiced
+        helps businesses save time and reduce the risk of human error, allowing them to focus on strategic growth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For businesses that experience delays in payment collection, Invoiced can significantly reduce Days
-        Sales Outstanding (DSO). By automating collections and utilizing&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-driven tools, businesses can expect faster payment processing
-        and better cash flow management. This is ideal for companies that need to optimize their working
-        capital and reduce reliance on manual processes.</p>
+        However, Invoiced may not be the best fit for businesses that require highly customized solutions or those
+        with complex billing needs that go beyond standard accounts receivable processes. For these companies, a
+        more tailored solution might be necessary to meet specific operational requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
-        However, Invoiced might not be the best fit for very small businesses or those with straightforward
-        invoicing needs. If your current system is meeting your requirements without significant issues, the
-        investment in a comprehensive platform may not be justified. Consider the scale of your operations and
-        whether the features of Invoiced align with your business objectives.</p>
+        For businesses considering Invoiced, it&#39;s essential to evaluate how the platform integrates with
+        existing systems and whether its features align with their financial objectives. Small businesses in the
+        specified counties can benefit from Geek @ Your Spot&#39;s expertise in implementing Invoiced, ensuring a
+        smooth transition and effective use of the platform&#39;s capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those considering Invoiced, a next step would be to assess your current accounts receivable process
-        and identify specific pain points. Determine if automation could address these issues and provide
-        tangible benefits such as time savings and error reduction. Consulting with a specialist like Geek @
-        Your Spot can also provide insights into how Invoiced can be tailored to your business needs.</p>
+        Geek @ Your Spot offers comprehensive support, from initial setup to ongoing management, helping businesses
+        leverage Invoiced to its full potential. This includes configuring the platform to match specific business
+        needs, training staff, and providing insights into optimizing accounts receivable processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Ultimately, the decision to implement Invoiced should be based on a clear understanding of its
-        capabilities and how they align with your business strategy. If you decide to proceed, Geek @ Your Spot
-        can assist with the deployment and integration, ensuring a smooth transition to automated accounts
-        receivable management.</p>
+        Ultimately, businesses should weigh the benefits of automation against their current processes and consider
+        the long-term impact on efficiency and cash flow. Invoiced provides a robust solution for those looking to
+        streamline their automated accounts receivable operations, but it&#39;s crucial to ensure it aligns with the
+        company&#39;s overall financial strategy.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-accounts-receivable-invoiced-right-fit-consultation"
-          href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id="tools-accounting-accounts-receivable-invoiced-right-fit-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -50,26 +45,26 @@ export default function RightFitSection() {
 
   return (
     <>
-      <section className="min-h-screen bg-[#024059] text-white py-5 lg:hidden">
+      <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-invoiced-right-for-your-business">
-                Is Invoiced Right for Your Business?
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-benefits-most-from-invoiced-and-what-to-consider">
+                Who Benefits Most from Invoiced, and What to Consider
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
           </div>
         </div>
       </section>
-      <section className="min-h-screen bg-[#024059] text-white py-5 hidden lg:block">
+      <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-invoiced-right-for-your-business">
-                Is Invoiced Right for Your Business?
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-benefits-most-from-invoiced-and-what-to-consider">
+                Who Benefits Most from Invoiced, and What to Consider
               </h2>
               {body}
             </div>

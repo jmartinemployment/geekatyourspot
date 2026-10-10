@@ -4,69 +4,63 @@ export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Versapay&#39;s architecture is designed to streamline Automated Accounts Receivable by integrating
-        seamlessly with existing systems. At the core of Versapay&#39;s solution is its ability to connect with
-        enterprise resource planning (<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>) systems,
-        allowing businesses to automate the cash application process. This integration eliminates the need for
-        manual data entry, saving time and reducing errors. Versapay captures remittance and payment data in
-        various formats and uses advanced&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;and optical
-        character recognition (OCR) to match payments to open receivables automatically. This automation ensures
-        that financial teams have greater control over cash flow, reducing reconciliation delays and enhancing
-        accuracy.</p>
+        Versapay is built on a cloud-based architecture that supports seamless integration with
+        existing&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
+        This design ensures that businesses can maintain a single source of truth for their financial data,
+        eliminating the silos that often lead to discrepancies and inefficiencies. The platform&#39;s architecture
+        is designed to be flexible, accommodating a range of ERP systems and allowing for easy integration
+        through&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;connectors.</p>
       <p className="text-md text-white shadow-text pt-3">
-        One standout feature of Versapay is its collaborative accounts receivable capabilities. The platform
-        combines automation with a cloud-based network that facilitates communication between teams and
-        customers. This collaborative environment is crucial for resolving issues like short-pays or disputes
-        quickly, ensuring that the reconciliation process is smooth and efficient. With built-in exception
-        workflows, Versapay routes discrepancies to the appropriate team members for resolution, maintaining the
-        flow of cash application without disruption.</p>
+        The integration capabilities of Versapay are a standout feature. By connecting directly with ERP systems,
+        Versapay ensures that all payment data is automatically synchronized, reducing the need for manual data
+        entry and minimizing errors. This connectivity extends to various payment methods, enabling businesses to
+        accept and process payments from multiple channels, including credit cards, ACH, and wire transfers.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Versapay&#39;s platform also includes a comprehensive dashboard that provides real-time insights into
-        accounts receivable performance. Key performance metrics, such as days sales outstanding (DSO) and
-        average days to pay (ADP), are readily available, allowing finance teams to monitor trends and adjust
-        strategies proactively. This visibility into financial operations not only helps in maintaining cash
-        flow but also improves customer satisfaction by ensuring timely and accurate payment processing.</p>
+        Versapay&#39;s architecture also includes robust security features. It complies with industry standards such
+        as PCI DSS, ensuring that all payment data is handled securely. This compliance is critical for protecting
+        sensitive financial information and maintaining customer trust. Additionally, the platform&#39;s use of
+        tokenization and encryption further enhances its security posture, safeguarding against data breaches and
+        unauthorized access.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Furthermore, Versapay supports a variety of payment methods, including credit cards, ACH, and virtual
-        cards, all processed in real-time. This flexibility ensures that customers can choose their preferred
-        payment method, enhancing the overall payment experience. By unifying invoicing, B2B payments, and cash
-        application, Versapay eliminates system silos, accelerating cash flow and providing a seamless experience
-        for both the accounts receivable team and their customers.</p>
+        Beyond security, Versapay&#39;s architecture supports advanced analytics capabilities. By
+        leveraging&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-powered
+        insights, businesses can gain a deeper understanding of payment behaviors and cash flow trends. This
+        analytical capability allows finance teams to make informed decisions, optimize their collections processes,
+        and improve cash flow predictability.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In summary, Versapay&#39;s architecture supports Automated Accounts Receivable by integrating with
-        existing ERP systems, automating payment matching, and providing a collaborative platform for resolving
-        payment issues. Its real-time dashboards and flexible payment options further enhance financial
-        operations, making it a robust solution for businesses looking to improve their accounts receivable
-        process.</p>
+        In essence, Versapay&#39;s architecture is designed to provide a comprehensive and secure solution for
+        managing accounts receivable. Its seamless integration with ERP systems, coupled with advanced security and
+        analytics features, makes it an ideal choice for businesses looking to enhance their financial operations.
+        By centralizing payment processes and providing real-time insights, Versapay empowers businesses to operate
+        more efficiently and effectively.</p>
     </>
   );
 
   return (
     <>
-      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 lg:hidden">
+      <section className="min-h-screen bg-[#BF5934] text-white py-5 lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-versapays-architecture-powers-automated-accounts-receivable">
-                How Versapay&#39;s Architecture Powers Automated Accounts Receivable
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="versapays-architecture-and-integrations">
+                Versapay&#39;s Architecture and Integrations
               </h2>
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-12">{body}</div>
           </div>
         </div>
       </section>
-      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
+      <section className="min-h-screen bg-[#BF5934] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-versapays-architecture-powers-automated-accounts-receivable">
-                How Versapay&#39;s Architecture Powers Automated Accounts Receivable
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="versapays-architecture-and-integrations">
+                Versapay&#39;s Architecture and Integrations
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
           </div>
         </div>
       </section>

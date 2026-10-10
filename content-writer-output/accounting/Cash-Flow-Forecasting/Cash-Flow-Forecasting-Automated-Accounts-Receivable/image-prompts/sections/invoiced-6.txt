@@ -1,1 +1,1 @@
-A balance scale infographic weighing the pros and cons of adopting an invoicing solution, with icons representing business benefits and challenges.
+A diagram of data structures and mapping decisions for deploying Invoiced, showing databases, data flow arrows, and decision nodes, emphasizing careful planning and organization.

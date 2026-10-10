@@ -72,6 +72,13 @@ const nextConfig: NextConfig = {
         destination: "/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay",
         permanent: true,
       },
+      // The accounts receivable blog post was re-exported under a new slug on
+      // 2026-10-10; the old slug had been live since 2026-10-09.
+      {
+        source: "/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-boosts-your-business-efficiency",
+        destination: "/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow",
+        permanent: true,
+      },
       {
         source: "/tools/accounting/melio",
         destination: "/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio",

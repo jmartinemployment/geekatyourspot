@@ -1,0 +1,1 @@
+A visual FAQ layout with question mark symbols and abstract representations of common queries regarding Upflow.

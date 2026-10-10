@@ -1,1 +1,1 @@
-A step-by-step flowchart depicting the deployment process of an invoicing system within a corporate infrastructure, showing integration points and user interaction.
+A technical diagram depicting the architecture of Invoiced, including cloud servers, databases, and integration points with other software systems, connected by network paths.

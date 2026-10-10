@@ -1,0 +1,1 @@
+Diagram showing a digital workflow of accounts receivable automation using 'Bill', featuring arrows indicating smooth data flow, automated notifications, and seamless transaction processing.

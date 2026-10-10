@@ -2,7 +2,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FaqSection() {
   return (
-    <section className="min-h-screen bg-[#025E73] text-white py-5">
+    <section className="min-h-screen bg-[#024059] text-white py-5">
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
           <div className="col-span-12">
@@ -16,58 +16,67 @@ export default function FaqSection() {
               How does automating cash application fix cash flow forecasting errors?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Automating cash application with Versapay helps finance teams match incoming payments to outstanding
-              invoices automatically. This reduces manual work and reconciliation delays, providing greater control
-              over cash flow. By eliminating errors in the reconciliation process, businesses can improve the
-              accuracy of their cash flow forecasts.&nbsp;
-              <a id="tools-accounting-accounts-receivable-versapay-faq-cash-application"
-                href="https://www.versapay.com/solutions/cash-application"
-                target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
-                Reconcile payments automatically
-              </a></p>
+              Automating cash application improves&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
+              forecasting</GlossaryLink>&nbsp;by providing real-time visibility into financial data. This eliminates the
+              guesswork associated with manual accounts receivable processes, allowing finance leaders to quickly identify
+              where cash is tied up and which accounts are overdue. With automated dashboards, teams can spot risks early
+              and make more informed financial decisions, reducing missed opportunities and reactive decision-making.</p>
+            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              How does the platform predict when payments will arrive?
+            </h3>
+            <p className="text-md text-white shadow-text pt-3">
+              Versapay uses&nbsp;<GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;to analyze
+              payment patterns and segment customers by risk level.
+              This&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-powered approach helps predict when payments will arrive
+              by forecasting cash flow based on these insights. It allows businesses to collect payments faster and manage
+              their cash flow more effectively.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What are &quot;Promise-to-Pay&quot; forecasts?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Promise-to-Pay forecasts are part of Versapay&#39;s AR reporting dashboard, which includes key
-              performance metrics. These forecasts help monitor trends and manage risk by predicting when customers
-              are likely to pay, allowing businesses to streamline collections and improve cash flow
-              predictability.&nbsp;
-              <a id="tools-accounting-accounts-receivable-versapay-faq-reporting-reconciliation"
-                href="https://www.versapay.com/solutions/reporting-reconciliation"
-                target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
-                Forecast cash flow and close faster
-              </a></p>
+              &quot;Promise-to-Pay&quot; forecasts involve tracking and managing promised payments for outstanding
+              invoices. Versapay allows businesses to capture these promises and send reminders before payments become
+              overdue. This feature helps predict short-term cash inflows and focus collections on at-risk gaps, improving
+              overall cash flow management.</p>
+            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              How do customer risk segments influence the cash forecast?
+            </h3>
+            <p className="text-md text-white shadow-text pt-3">
+              Customer risk segments influence cash forecasts by allowing businesses to categorize customers based on
+              their payment behaviors and risk levels. Versapay uses AI-powered collections automation to analyze these
+              segments, predict payments, and forecast cash flow. This segmentation helps businesses focus their
+              collection efforts on higher-risk accounts, improving cash flow predictability.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Can dispute resolution capabilities protect the forecast pipeline?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Versapay&#39;s automated invoice processing and dispute resolution capabilities provide instant access
-              to relevant documentation when a customer questions an invoice. This turns potential payment delays
-              into quick resolutions, protecting the forecast pipeline by maintaining the speed and accuracy of
-              cash flow predictions.&nbsp;
-              <a id="tools-accounting-accounts-receivable-versapay-faq-manual-ar-heavy-industries"
-                href="https://www.versapay.com/resources/why-manual-ar-in-heavy-industries-threatens-financial-stability"
-                target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
-                Why Manual AR in Heavy Industries Threatens Financial Stability
-              </a></p>
+              Yes, Versapay&#39;s dispute resolution capabilities can protect the forecast pipeline by resolving disputes
+              quickly and efficiently. The platform provides visibility into disputes and affected customers, allowing
+              businesses to spot trends and protect expected cash flow. This alignment between accounts receivable and
+              sales ensures that disputes do not disrupt cash flow forecasts.</p>
+            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              How does Autopay integration improve treasury planning?
+            </h3>
+            <p className="text-md text-white shadow-text pt-3">
+              Autopay integration improves treasury planning by ensuring more invoices are paid on time through automatic
+              payments. This reduces the uncertainty of payment timings, allowing for more accurate cash flow forecasts
+              and better treasury management. By automating payments, businesses can streamline their cash application
+              processes and enhance overall financial planning.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Which ERPs support Versapay&#39;s forecasting features?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Versapay integrates seamlessly with various&nbsp;
-              <GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems, using&nbsp;
-              <GlossaryLink slug="api">API</GlossaryLink>&nbsp;connectors or native integrations. This allows
-              businesses to maintain a source of truth and leverage Versapay&#39;s forecasting features
-              effectively.&nbsp;
-              <a id="tools-accounting-accounts-receivable-versapay-faq-versapay-vs-blackline"
-                href="https://www.versapay.com/versapay-vs-blackline"
-                target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
-                Versapay vs. BlackLine
-              </a></p>
+              Versapay supports integration with several
+              major&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems, including Oracle NetSuite, Microsoft
+              Dynamics 365 Business Central and Finance and Operations, and Sage Intacct. These built-for ERP connectors
+              ensure seamless integration, allowing businesses to leverage Versapay&#39;s forecasting features without
+              disrupting existing systems.</p>
           </div>
         </div>
       </div>

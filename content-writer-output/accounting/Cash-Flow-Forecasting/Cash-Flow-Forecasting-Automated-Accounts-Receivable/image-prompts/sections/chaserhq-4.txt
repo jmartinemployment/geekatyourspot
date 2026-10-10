@@ -1,1 +1,1 @@
-A flowchart depicting the steps of integrating Chaserhq into a business environment, from initial setup to full deployment and operation.
+Diagram showing Chaserhq's architecture, with various software integrations converging into a central, cohesive system.

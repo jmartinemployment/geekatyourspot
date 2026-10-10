@@ -1,1 +1,1 @@
-Illustration of a business environment with digital implementation steps, showing a seamless integration of Versapay into existing systems.
+Diagram showing a central Versapay system with various integrations and data flows to other business systems.

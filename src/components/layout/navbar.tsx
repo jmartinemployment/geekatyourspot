@@ -256,6 +256,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai"
+                      label="Automated Accounts Receivable"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/accounting/tax-compliance-regulations"
                       label="Tax Compliance &amp; Regulations"
                       onNavigate={closeSidebar}
@@ -347,8 +352,8 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
-                      href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-boosts-your-business-efficiency"
-                      label="How Automated Accounts Receivable Boosts Your Business Efficiency"
+                      href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow"
+                      label="How Automated Accounts Receivable Can Transform Your Cash Flow"
                       onNavigate={closeSidebar}
                     />
                   </ul>
@@ -385,6 +390,7 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/avalara" label="Avalara" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" label="AvidXchange (Data Entry)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" label="AvidXchange (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" label="Bill (Accounts Receivable)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" label="Bill (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" label="Bill (Data Entry)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" label="Bill (Fraud Controls)" onNavigate={closeSidebar} />

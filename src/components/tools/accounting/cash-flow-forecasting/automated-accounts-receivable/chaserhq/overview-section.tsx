@@ -2,26 +2,32 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every month, small business owners across Miami-Dade, Broward, and West Palm Beach find themselves
-        entangled in the tedious web of manual accounts receivable management. Whether it&#39;s the relentless
-        chase of overdue invoices or the constant juggling of payment timelines, these tasks consume valuable
-        hours that could be better spent on growth and innovation. The pressure mounts as cash flow becomes
-        unpredictable, leading to stress and potential financial instability. For many, this scenario is all too
-        familiar—an ongoing cycle that seems impossible to break.</p>
+        Every month, small business owners in Miami-Dade, Broward, and West Palm Beach counties face the daunting
+        task of managing accounts receivable manually. Hours are spent pouring over spreadsheets, sending follow-up
+        emails, and making uncomfortable phone calls to clients about overdue invoices. This process not only
+        consumes valuable time but also increases the likelihood of errors and strained client relationships. As
+        businesses grow, these manual methods become increasingly unsustainable, risking cash flow instability and
+        stifling potential growth opportunities.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated Accounts Receivable systems offer a way out. By leveraging advanced tools like Chaser,
-        businesses can streamline their processes, reduce manual workloads, and enhance cash flow predictability.
-        This technology categorizes receivables into actionable segments, such as promised, disputed, and at-risk
-        cash, helping teams prioritize tasks and address potential issues before they escalate. Such systems not
-        only increase efficiency but also provide a clear, forward-looking view of expected payments, enabling
-        businesses to plan with confidence.</p>
+        Manual invoicing and payment tracking often lead to delayed payments, affecting the cash flow that small
+        businesses critically depend on. The stress of unpredictable income can prevent business owners from making
+        confident decisions about hiring, investments, or expansion. Moreover, the administrative burden pulls focus
+        from core business activities, potentially jeopardizing service quality and customer satisfaction. This
+        isn&#39;t just an operational inconvenience; it&#39;s a significant barrier to sustained business growth and
+        financial health.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For local businesses aiming to thrive in a competitive market, adopting automated solutions is no longer
-        a luxury—it&#39;s a necessity. The real-time insights and automated workflows these tools provide allow
-        businesses to transform their accounts receivable processes. By reducing reliance on static reports and
-        gut feelings, companies can make informed decisions that protect revenue and promote growth. With the
-        right technology, the burden of manual receivables management becomes a thing of the past, paving the
-        way for a more stable and prosperous future.</p>
+        Automated Accounts Receivable solutions, like those offered by Chaser, transform this outdated process. By
+        automating invoicing, reminders, and payment tracking, businesses can ensure more timely payments and reduce
+        the time spent on collections by up to 50%. Tools like Chaser not only improve cash flow predictability but
+        also enhance customer relationships by maintaining consistent and professional communication. This
+        automation allows small businesses to focus on growth and service excellence, rather than being bogged down
+        by collection tasks.</p>
+      <p className="text-md text-white shadow-text pt-3">
+        In the competitive landscape of South Florida, leveraging Automated Accounts Receivable can be a
+        game-changer for small businesses. It provides a clear, real-time view of expected payments, allowing for
+        better financial planning and resource allocation. With less time spent on manual tasks and more reliable
+        cash flow, businesses can confidently navigate challenges and seize opportunities, ensuring resilience and
+        growth in an ever-changing market.</p>
     </>
   );
 

@@ -1,0 +1,1 @@
+Technical diagram illustrating the architecture of 'Bill', with interconnected modules and integration points to various business systems, symbolizing flexible and scalable architecture.

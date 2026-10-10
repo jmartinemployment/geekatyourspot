@@ -10,6 +10,7 @@ import { avidxchangeContent } from "@/data/tools/avidxchange";
 import { avidxchangePaymentExecutionContent } from "@/data/tools/avidxchange-payment-execution";
 import { baswareContent } from "@/data/tools/basware";
 import { billContent } from "@/data/tools/bill";
+import { billAccountsReceivableContent } from "@/data/tools/bill-accounts-receivable";
 import { billApprovalWorkflowsContent } from "@/data/tools/bill-approval-workflows";
 import { billFraudDuplicatePaymentControlsContent } from "@/data/tools/bill-fraud-duplicate-payment-controls";
 import { billPaymentExecutionContent } from "@/data/tools/bill-payment-execution";
@@ -55,6 +56,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "avidxchange-payment-execution": avidxchangePaymentExecutionContent,
   "basware": baswareContent,
   "bill": billContent,
+  "bill-accounts-receivable": billAccountsReceivableContent,
   "bill-approval-workflows": billApprovalWorkflowsContent,
   "bill-fraud-duplicate-payment-controls": billFraudDuplicatePaymentControlsContent,
   "bill-payment-execution": billPaymentExecutionContent,

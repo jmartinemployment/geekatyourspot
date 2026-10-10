@@ -1,1 +1,1 @@
-A decision tree diagram showing the process of determining if Chaserhq is suitable for a business, with branches leading to different business needs and outcomes.
+Diagram illustrating data flow and mapping, with structured data paths leading into Chaserhq's system for processing.

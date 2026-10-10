@@ -1,1 +1,1 @@
-Technical diagram of Versapay's architecture, showing interconnected digital components and data flow enhancing accounts receivable automation.
+Flowchart illustrating the step-by-step process of Versapay’s accounts receivable automation.

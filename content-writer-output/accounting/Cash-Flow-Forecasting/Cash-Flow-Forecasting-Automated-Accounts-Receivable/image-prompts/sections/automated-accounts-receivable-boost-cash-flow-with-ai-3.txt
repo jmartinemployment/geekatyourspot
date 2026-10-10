@@ -1,0 +1,1 @@
+A detailed diagram showing the inner workings of an automated accounts receivable system, featuring interconnected digital components such as algorithms, databases, and real-time analytics.

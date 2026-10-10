@@ -1,0 +1,1 @@
+Visual representation of data structure and mapping process within 'Bill', featuring data flow charts and mapping icons to illustrate how data is organized and utilized.
