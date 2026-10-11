@@ -1,0 +1,1 @@
+A roadmap graphic depicting the key steps to successfully implement automated spreadsheets, such as integration, testing, and training, shown as milestones on a path to success.

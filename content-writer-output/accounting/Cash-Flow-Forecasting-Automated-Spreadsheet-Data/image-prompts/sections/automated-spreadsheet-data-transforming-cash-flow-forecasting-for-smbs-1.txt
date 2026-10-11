@@ -1,0 +1,1 @@
+A diagram illustrating common challenges in spreadsheet-based cash flow management, such as data silos, errors, and manual entry, represented by icons like broken chains, error symbols, and manual data entry.

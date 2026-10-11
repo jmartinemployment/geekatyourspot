@@ -1,0 +1,1 @@
+A schematic diagram showing configuration settings in Floatapp, including approval chains, routing paths, and automation logic with flow arrows.

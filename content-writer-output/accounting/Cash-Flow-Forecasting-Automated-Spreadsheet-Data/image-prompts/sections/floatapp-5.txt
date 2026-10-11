@@ -1,0 +1,1 @@
+A step-by-step process flowchart showing the stages of implementing Floatapp, from initial setup to going live, with milestone icons.

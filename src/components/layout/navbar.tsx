@@ -261,6 +261,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
+                      label="Automated Spreadsheet Data"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/accounting/tax-compliance-regulations"
                       label="Tax Compliance &amp; Regulations"
                       onNavigate={closeSidebar}
@@ -356,6 +361,11 @@ export default function Navbar(): React.JSX.Element {
                       label="How Automated Accounts Receivable Can Transform Your Cash Flow"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/accounting/cash-flow-forecasting/how-automating-spreadsheet-data-boosts-cash-flow-forecasting"
+                      label="How Automating Spreadsheet Data Boosts Cash Flow Forecasting"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
               </div>
@@ -395,8 +405,13 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" label="Bill (Data Entry)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" label="Bill (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" label="Bill (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" label="Cashflowfrog" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" label="Chaserhq" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" label="Clockwork" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" label="Dext" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" label="Dryrun" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" label="Floatapp" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq" label="Helmhq" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" label="Invoiced" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" label="Medius" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" label="Melio (Approval Workflows)" onNavigate={closeSidebar} />

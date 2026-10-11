@@ -1,0 +1,1 @@
+A sequential process diagram with numbered steps showing the implementation stages of automated cash flow forecasting, from initial planning to full deployment.

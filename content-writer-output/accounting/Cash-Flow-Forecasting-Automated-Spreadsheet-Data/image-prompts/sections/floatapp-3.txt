@@ -1,0 +1,1 @@
+A technical diagram showing the flow of data in real-time cash flow forecasting using Floatapp, with icons for data streams and forecasting tools.

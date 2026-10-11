@@ -1,0 +1,1 @@
+A visual of a map with data points connecting to different nodes, illustrating data structure and mapping considerations.

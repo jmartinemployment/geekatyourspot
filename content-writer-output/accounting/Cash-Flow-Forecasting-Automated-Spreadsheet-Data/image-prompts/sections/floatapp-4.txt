@@ -1,0 +1,1 @@
+An architectural diagram depicting the integration of various data sources into Floatapp, with network connections and database symbols.

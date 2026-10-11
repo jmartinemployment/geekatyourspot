@@ -1,0 +1,1 @@
+A detailed diagram showing Helmhq's system architecture with various third-party integrations, represented as modules connecting to a central hub.

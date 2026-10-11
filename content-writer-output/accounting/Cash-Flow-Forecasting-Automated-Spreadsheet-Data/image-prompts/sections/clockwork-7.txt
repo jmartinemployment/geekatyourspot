@@ -1,0 +1,1 @@
+Visual representation of a configuration interface, displaying approval chains, routing paths, and automation logic in a structured layout.

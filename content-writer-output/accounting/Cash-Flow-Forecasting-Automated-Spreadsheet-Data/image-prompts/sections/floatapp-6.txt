@@ -1,0 +1,1 @@
+A diagram illustrating data structure and mapping for deploying Floatapp, with layers representing data inputs, processing, and outputs.

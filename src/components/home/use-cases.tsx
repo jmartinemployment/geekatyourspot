@@ -306,10 +306,12 @@ export function UseCasesSection() {
                                 </ul>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Automated Spreadsheet Data:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-automated-spreadsheet-data"
+                                            href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Automated Spreadsheet Data:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs ">
                                             Static spreadsheets show old data instead of live numbers. Manual entry into basic grids leads to human error, outdated figures, and broken formulas. Bank accounts, invoicing software, and payroll tools do not always sync automatically.
                                         </p>
@@ -317,11 +319,36 @@ export function UseCasesSection() {
                                             Top 5 Automated Spreadsheet Replacement Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            Datarails,&nbsp;
-                                            Cash Flow Frog,&nbsp;
-                                            Fathom,&nbsp;
-                                            LivePlan,&nbsp;
-                                            Float.
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog", "Cashflowfrog")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Cashflowfrog
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork", "Clockwork")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Clockwork
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun", "Dryrun")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Dryrun
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp", "Floatapp")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Floatapp
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq", "Helmhq")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Helmhq
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -433,8 +460,18 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             QuickBooks,&nbsp;
-                                            Float,&nbsp;
-                                            Cash Flow Frog,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp", "Float")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Float
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog", "Cash Flow Frog")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Cash Flow Frog
+                                            </Link>,&nbsp;
                                             Xero,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
@@ -1127,10 +1164,12 @@ export function UseCasesSection() {
                                 </ul>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
-                                            Automated Spreadsheet Data:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-automated-spreadsheet-data"
+                                            href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Automated Spreadsheet Data:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-sm ">
                                             Static spreadsheets show old data instead of live numbers. Manual entry into basic grids leads to human error, outdated figures, and broken formulas. Bank accounts, invoicing software, and payroll tools do not always sync automatically.
                                         </p>
@@ -1138,11 +1177,36 @@ export function UseCasesSection() {
                                             Top 5 Automated Spreadsheet Replacement Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            Datarails,&nbsp;
-                                            Cash Flow Frog,&nbsp;
-                                            Fathom,&nbsp;
-                                            LivePlan,&nbsp;
-                                            Float.
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog", "Cashflowfrog")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Cashflowfrog
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork", "Clockwork")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Clockwork
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun", "Dryrun")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Dryrun
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp", "Floatapp")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Floatapp
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq", "Helmhq")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Helmhq
+                                            </Link>.
                                         </p>
                                     </li>
                                     <li className="pl-.5">
@@ -1255,8 +1319,18 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             QuickBooks,&nbsp;
-                                            Float,&nbsp;
-                                            Cash Flow Frog,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp", "Float")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Float
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog", "Cash Flow Frog")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Cash Flow Frog
+                                            </Link>,&nbsp;
                                             Xero,&nbsp;
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}

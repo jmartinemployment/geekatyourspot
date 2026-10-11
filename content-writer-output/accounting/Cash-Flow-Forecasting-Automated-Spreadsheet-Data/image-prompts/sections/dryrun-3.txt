@@ -1,0 +1,1 @@
+Illustrated flowchart showing the step-by-step operation of Dryrun, with stages represented as interconnected gears and digital data nodes.

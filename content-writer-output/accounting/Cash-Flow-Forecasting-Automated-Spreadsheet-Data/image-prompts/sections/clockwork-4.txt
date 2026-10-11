@@ -1,0 +1,1 @@
+Diagram showcasing the architecture of Clockwork, including cloud-based servers, databases, and integration points with other business software systems.

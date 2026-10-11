@@ -1,0 +1,1 @@
+Diagram showing a flow of approval chains, routing, and automation logic, with customizable paths and decision points highlighted in a network.

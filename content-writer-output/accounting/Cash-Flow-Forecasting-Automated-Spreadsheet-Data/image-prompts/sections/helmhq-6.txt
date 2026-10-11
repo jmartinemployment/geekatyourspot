@@ -1,0 +1,1 @@
+An infographic showing data structures and mapping considerations, with highlighted paths for how Helmhq manages and organizes data.

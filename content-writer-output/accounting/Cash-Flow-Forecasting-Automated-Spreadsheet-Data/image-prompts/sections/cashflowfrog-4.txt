@@ -1,0 +1,1 @@
+A layered diagram showing different software components connecting seamlessly, representing architecture and integrations.

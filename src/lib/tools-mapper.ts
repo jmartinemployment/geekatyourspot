@@ -15,11 +15,16 @@ import { billApprovalWorkflowsContent } from "@/data/tools/bill-approval-workflo
 import { billFraudDuplicatePaymentControlsContent } from "@/data/tools/bill-fraud-duplicate-payment-controls";
 import { billPaymentExecutionContent } from "@/data/tools/bill-payment-execution";
 import { boardContent } from "@/data/tools/board";
+import { cashflowfrogContent } from "@/data/tools/cashflowfrog";
 import { chaserhqContent } from "@/data/tools/chaserhq";
+import { clockworkContent } from "@/data/tools/clockwork";
 import { coupaContent } from "@/data/tools/coupa";
 import { dextContent } from "@/data/tools/dext";
 import { driftContent } from "@/data/tools/drift";
+import { dryrunContent } from "@/data/tools/dryrun";
+import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
+import { helmhqContent } from "@/data/tools/helmhq";
 import { invoicedContent } from "@/data/tools/invoiced";
 import { jasperAiContent } from "@/data/tools/jasper-ai";
 import { kyribaContent } from "@/data/tools/kyriba";
@@ -61,11 +66,16 @@ const toolsMap: Record<string, ToolPageContent> = {
   "bill-fraud-duplicate-payment-controls": billFraudDuplicatePaymentControlsContent,
   "bill-payment-execution": billPaymentExecutionContent,
   "board": boardContent,
+  "cashflowfrog": cashflowfrogContent,
   "chaserhq": chaserhqContent,
+  "clockwork": clockworkContent,
   "coupa": coupaContent,
   "dext": dextContent,
   "drift": driftContent,
+  "dryrun": dryrunContent,
+  "floatapp": floatappContent,
   "great-expectations": greatExpectationsContent,
+  "helmhq": helmhqContent,
   "invoiced": invoicedContent,
   "jasper-ai": jasperAiContent,
   "kyriba": kyribaContent,
