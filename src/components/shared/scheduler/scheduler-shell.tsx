@@ -126,15 +126,19 @@ export function SchedulerShell(): React.JSX.Element {
       {/*
         Full-bleed rather than `container`, so the scheduler widens with the
         viewport instead of stopping at the container's 1320px cap. The twelve
-        columns divide 1 / 7 / 3 / 1: a gutter column each side, heading seven,
-        calendar three. Below `lg` the grid is a single column and those spacers
-        collapse, so `px-4` carries the padding `container` used to supply.
+        columns divide 1 / 6 / 4 / 1 from `lg`, and 1 / 7 / 3 / 1 from `2xl`: a
+        gutter column each side, then heading and calendar. The calendar needs
+        about 306px for its seven 40px cells plus padding, and three columns
+        only reach that at about 1340px wide, so below `2xl` it takes four
+        columns and the heading steps down to six. Below `lg` the grid is a
+        single column and those spacers collapse, so `px-4` carries the padding
+        `container` used to supply.
       */}
       <div className="grid min-h-screen content-center items-center grid-cols-1 gap-8 px-4 py-12 lg:grid-cols-12 lg:px-0 lg:py-16 xl:gap-10">
         <div className="hidden lg:block lg:col-span-1" aria-hidden="true" />
 
-        <div className="min-w-0 w-full lg:col-span-7">
-          <h2 className="text-white text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <div className="min-w-0 w-full lg:col-span-6 2xl:col-span-7">
+          <h2 className="text-white text-[4.25rem] xl:text-[5rem] 2xl:text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
             Schedule a Free
             <br />
             <span className="text-[#0B162A] tracking-tight">Consultation</span>
@@ -144,7 +148,7 @@ export function SchedulerShell(): React.JSX.Element {
             Broward and Palm Beach.
           </p>
         </div>
-        <div className="w-full lg:col-span-3">
+        <div className="w-full lg:col-span-4 2xl:col-span-3">
           {holdError && (
             <p className="mb-3 text-sm font-medium text-white/90">{holdError}</p>
           )}
