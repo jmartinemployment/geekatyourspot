@@ -60,6 +60,8 @@ interface UseCaseGroup {
   slug: string;
   description: string;
   href: string;
+  /** One-paragraph framing shown above the cards. */
+  summary: string;
   /** Sub-pillars laid out under this category, in navbar order. */
   pillars: UseCase[];
 }
@@ -70,6 +72,9 @@ interface UseCaseGroup {
  * links; this list was three cards from 2026-10-02 until 2026-10-12, so six
  * pillars shipped without appearing here. Keep the three in step.
  */
+/** Site section rotation, as literal classes so Tailwind can see them. */
+const SECTION_BACKGROUNDS = ["bg-[#023059]", "bg-[#024059]", "bg-[#025E73]", "bg-[#8C4E2A]", "bg-[#BF5934]"] as const;
+
 const USE_CASE_GROUPS: UseCaseGroup[] = [
   {
     title: "Automated Accounts Payable",
@@ -77,6 +82,8 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
     description:
       "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",
     href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
+    summary:
+      "Accounts payable is where most of the manual work hides: keying invoices, chasing approvals, cutting payments, and catching duplicates after the fact. The category pillar frames the whole function; each pillar below it takes one stage and the tools that automate it.",
     pillars: [
       {
         title: "Automated Data Entry & Processing",
@@ -114,6 +121,8 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
     description:
       "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
     href: "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
+    summary:
+      "A forecast is only as current as the data feeding it. These pillars cover the two inputs that go stale fastest: receivables that pay late, and the spreadsheets that still hold the model together.",
     pillars: [
       {
         title: "Automated Accounts Receivable",
@@ -137,6 +146,8 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
     description:
       "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations.",
     href: "/use-cases/accounting/tax-compliance-regulations",
+    summary:
+      "Sales tax, payroll tax, and filing deadlines across multiple jurisdictions change faster than a small finance team can track by hand. This pillar covers the automation that keeps a business compliant without a dedicated tax department.",
     pillars: [],
   },
 ];
@@ -191,7 +202,7 @@ export default function AccountingUseCasesPage() {
   };
 
   return (
-    <div className="bg-[rgb(2,48,89)] text-white">
+    <div className="text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
@@ -201,21 +212,60 @@ export default function AccountingUseCasesPage() {
         title="Accounting Use Cases"
         summary="Practical accounting automation for South Florida small businesses: accounts payable, cash flow forecasting, and tax compliance, each laid out as a pillar with the tools we implement under it."
       />
-      <section className="container py-16 lg:py-24">
-        {USE_CASE_GROUPS.map((group) => (
-          <div key={group.slug} className="pt-14 first:pt-0">
-            <h2 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text text-[7vw] sm:text-4xl lg:text-5xl">
-              {group.title}
-            </h2>
-            <div className="grid grid-cols-1 gap-6 pt-6 md:grid-cols-2 lg:grid-cols-3">
-              <UseCaseCard useCase={group} />
-              {group.pillars.map((pillar) => (
-                <UseCaseCard key={pillar.slug} useCase={pillar} />
-              ))}
-            </div>
+      {USE_CASE_GROUPS.map((group, index) => {
+        const background = SECTION_BACKGROUNDS[index % SECTION_BACKGROUNDS.length];
+        const textOnRight = index % 2 === 0;
+        const heading = (sizes: string) => (
+          <h2
+            id={group.slug}
+            className={`text-white ${sizes} leading-[0.95] font-black font-(--font-sora) shadow-text`}
+          >
+            {group.title}
+          </h2>
+        );
+        const intro = (
+          <p className="pt-3 text-md text-white shadow-text">{group.summary}</p>
+        );
+        const cards = (
+          <div className="grid grid-cols-1 gap-6 pt-6 md:grid-cols-2">
+            <UseCaseCard useCase={group} />
+            {group.pillars.map((pillar) => (
+              <UseCaseCard key={pillar.slug} useCase={pillar} />
+            ))}
           </div>
-        ))}
-      </section>
+        );
+        const empty = <div className="col-span-5 flex items-center justify-center"></div>;
+        return (
+          <div key={group.slug}>
+            <section className={`min-h-screen ${background} text-white py-5 lg:hidden`}>
+              <div className="container">
+                <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+                  {textOnRight && empty}
+                  <div className="col-span-7">{heading("text-[6vw] sm:text-4xl md:text-5xl")}</div>
+                  {!textOnRight && empty}
+                  <div className="col-span-12">
+                    {intro}
+                    {cards}
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className={`min-h-screen ${background} text-white py-5 hidden lg:block`}>
+              <div className="container">
+                <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+                  {textOnRight && empty}
+                  <div className="col-span-7">
+                    {heading("lg:text-[3.5rem]")}
+                    {intro}
+                    {cards}
+                  </div>
+                  {!textOnRight && empty}
+                </div>
+              </div>
+            </section>
+          </div>
+        );
+      })}
       <SchedulerShell />
     </div>
   );
