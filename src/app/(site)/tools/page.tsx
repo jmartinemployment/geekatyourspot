@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import fs from "node:fs";
+import path from "node:path";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -52,8 +54,25 @@ export const metadata: Metadata = {
 };
 
 function toolHref(tool: ToolPageContent): string {
-  return `/tools/${tool.department}/${tool.slug}`;
+  return tool.useCase
+    ? `/tools/${tool.department}/${tool.useCase}/${tool.slug}`
+    : `/tools/${tool.department}/${tool.slug}`;
 }
+
+/**
+ * The registry also catalogues tools whose page has not been built yet
+ * (see plans/tools-directory-structure.md, "Known inconsistencies"). Listing
+ * those would send readers to 404s, so only tools whose route exists are
+ * rendered. The check runs at build time against the app directory.
+ */
+function hasPage(tool: ToolPageContent): boolean {
+  return fs.existsSync(
+    path.join(process.cwd(), "src", "app", "(site)", ...toolHref(tool).split("/").filter(Boolean), "page.tsx")
+  );
+}
+
+/** Site section rotation, as literal classes so Tailwind can see them. */
+const SECTION_BACKGROUNDS = ["bg-[#023059]", "bg-[#024059]", "bg-[#025E73]", "bg-[#8C4E2A]", "bg-[#BF5934]"] as const;
 
 function formatDepartment(department: string): string {
   return department
@@ -63,7 +82,9 @@ function formatDepartment(department: string): string {
 }
 
 export default function ToolsPage() {
-  const tools = getAllTools();
+  const tools = getAllTools()
+    .filter(hasPage)
+    .sort((a, b) => a.title.localeCompare(b.title));
 
   const toolsByDepartment = tools.reduce<Record<string, ToolPageContent[]>>(
     (acc, tool) => {
@@ -88,7 +109,7 @@ export default function ToolsPage() {
           itemListElement: tools.map((tool, index) => ({
             "@type": "ListItem",
             position: index + 1,
-            url: `${SITE_URL}/tools/${tool.department}/${tool.slug}`,
+            url: `${SITE_URL}${toolHref(tool)}`,
           })),
         },
       },
@@ -98,13 +119,13 @@ export default function ToolsPage() {
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
         description: tool.description,
-        url: `${SITE_URL}/tools/${tool.department}/${tool.slug}`,
+        url: `${SITE_URL}${toolHref(tool)}`,
       })),
     ],
   };
 
   return (
-    <div className="bg-[rgb(2,48,89)] text-white">
+    <div className="text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
@@ -113,59 +134,68 @@ export default function ToolsPage() {
         title="AI Tools &amp; Platforms"
         summary="These are the platforms we help South Florida small businesses implement — set up, integrated, and automated so you see value faster and skip the failed pilots."
       />
-      <section className="container py-16 lg:py-24">
-
-        {departments.map((department) => (
-          <div key={department} className="pt-14">
-            <Link
-              href={`/tools/${department}`}
-              className="group flex items-center gap-x-3 border-b border-white/15 pb-4"
-            >
-              <FontAwesomeIcon
-                icon={DEPARTMENT_ICONS[department as DepartmentName]}
-                width={32}
-                height={32}
-                className="text-[#C83803]"
-              />
-              <h2 className="text-3xl font-black font-(--font-sora) text-white shadow-text lg:text-4xl group-hover:underline">
-                {formatDepartment(department)}
-              </h2>
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                width={20}
-                height={20}
-                className="text-[#C83803] transition-transform group-hover:translate-x-1"
-              />
-            </Link>
-
-            <div className="grid grid-cols-1 gap-6 pt-8 md:grid-cols-2 lg:grid-cols-3">
-              {toolsByDepartment[department].map((tool) => (
-                <Link
-                  key={tool.slug}
-                  href={toolHref(tool)}
-                  className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
-                >
-                  <h3 className="text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
-                    {tool.title}
-                  </h3>
-                  <p className="pt-3 text-md font-normal text-white/80">
-                    {tool.description}
-                  </p>
-                  <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
-                    Learn more
+      {departments.map((department, index) => {
+        const background = SECTION_BACKGROUNDS[index % SECTION_BACKGROUNDS.length];
+        return (
+          <section key={department} className={`min-h-screen ${background} text-white py-5`}>
+            <div className="container">
+              <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+                <div className="col-span-12">
+                  <Link
+                    href={`/tools/${department}`}
+                    className="group inline-flex items-center gap-x-4 hover:underline"
+                  >
+                    <FontAwesomeIcon
+                      icon={DEPARTMENT_ICONS[department as DepartmentName]}
+                      width={48}
+                      height={48}
+                      className="text-[#C83803]"
+                    />
+                    <h2
+                      id={department}
+                      className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-(--font-sora) shadow-text"
+                    >
+                      {formatDepartment(department)}
+                    </h2>
                     <FontAwesomeIcon
                       icon={faArrowRight}
-                      width={16}
-                      height={16}
-                      className="transition-transform group-hover:translate-x-1"
+                      width={20}
+                      height={20}
+                      className="text-[#C83803] transition-transform group-hover:translate-x-1"
                     />
-                  </span>
-                </Link>
-              ))}
+                  </Link>
+
+                  <div className="grid grid-cols-1 gap-6 pt-8 md:grid-cols-2 lg:grid-cols-3">
+                    {toolsByDepartment[department].map((tool) => (
+                      <Link
+                        key={toolHref(tool)}
+                        href={toolHref(tool)}
+                        className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
+                      >
+                        <h3 className="text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
+                          {tool.title}
+                        </h3>
+                        <p className="pt-3 text-md font-normal text-white/80">
+                          {tool.description}
+                        </p>
+                        <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
+                          Learn more
+                          <FontAwesomeIcon
+                            icon={faArrowRight}
+                            width={16}
+                            height={16}
+                            className="transition-transform group-hover:translate-x-1"
+                          />
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        ))}
-      </section>
+          </section>
+        );
+      })}
 
       <SchedulerShell />
     </div>

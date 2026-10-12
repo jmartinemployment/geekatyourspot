@@ -243,71 +243,41 @@ export default function UseCasesPage() {
       />
       {DEPARTMENTS.map((department, index) => {
         const background = SECTION_BACKGROUNDS[index % SECTION_BACKGROUNDS.length];
-        const textOnRight = index % 2 === 0;
-        const heading = (sizes: string) => (
-          <Link href={department.href} className="group inline-flex items-center gap-x-4 hover:underline">
-            <FontAwesomeIcon
-              icon={DEPARTMENT_ICONS[department.name]}
-              width={48}
-              height={48}
-              className="text-[#C83803]"
-            />
-            <h2
-              id={department.name}
-              className={`text-white ${sizes} leading-[0.95] font-black font-(--font-sora) shadow-text`}
-            >
-              {department.title}
-            </h2>
-          </Link>
-        );
-        const intro = (
-          <>
-            <p className="pt-3 text-md text-white shadow-text">{department.summary}</p>
-            <p className="pt-3 text-md text-white shadow-text">
-              <Link href={department.href} className="inline-flex items-center gap-x-2 font-bold text-[#C83803] hover:underline">
-                All {department.title.toLowerCase()} use cases
-                <FontAwesomeIcon icon={faArrowRight} width={16} height={16} />
-              </Link>
-            </p>
-          </>
-        );
-        const cards = (
-          <div className="grid grid-cols-1 gap-6 pt-6 md:grid-cols-2">
-            {department.useCases.map((useCase) => (
-              <UseCaseCard key={useCase.slug} useCase={useCase} />
-            ))}
-          </div>
-        );
-        const empty = <div className="col-span-5 flex items-center justify-center"></div>;
         return (
-          <div key={department.name}>
-            <section className={`min-h-screen ${background} text-white py-5 lg:hidden`}>
-              <div className="container">
-                <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-                  {textOnRight && empty}
-                  <div className="col-span-7">{heading("text-[6vw] sm:text-4xl md:text-5xl")}</div>
-                  {!textOnRight && empty}
-                  <div className="col-span-12">
-                    {intro}
-                    {cards}
+          <section key={department.name} className={`min-h-screen ${background} text-white py-5`}>
+            <div className="container">
+              <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+                <div className="col-span-12">
+                  <Link href={department.href} className="group inline-flex items-center gap-x-4 hover:underline">
+                    <FontAwesomeIcon
+                      icon={DEPARTMENT_ICONS[department.name]}
+                      width={48}
+                      height={48}
+                      className="text-[#C83803]"
+                    />
+                    <h2
+                      id={department.name}
+                      className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-(--font-sora) shadow-text"
+                    >
+                      {department.title}
+                    </h2>
+                  </Link>
+                  <p className="pt-3 text-md text-white shadow-text">{department.summary}</p>
+                  <p className="pt-3 text-md text-white shadow-text">
+                    <Link href={department.href} className="inline-flex items-center gap-x-2 font-bold text-[#C83803] hover:underline">
+                      All {department.title.toLowerCase()} use cases
+                      <FontAwesomeIcon icon={faArrowRight} width={16} height={16} />
+                    </Link>
+                  </p>
+                  <div className="grid grid-cols-1 gap-6 pt-6 md:grid-cols-2 lg:grid-cols-3">
+                    {department.useCases.map((useCase) => (
+                      <UseCaseCard key={useCase.slug} useCase={useCase} />
+                    ))}
                   </div>
                 </div>
               </div>
-            </section>
-            <section className={`min-h-screen ${background} text-white py-5 hidden lg:block`}>
-              <div className="container">
-                <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-                  {textOnRight && empty}
-                  <div className="col-span-7">
-                    {heading("lg:text-[3.5rem]")}
-                    {intro}
-                    {cards}
-                  </div>
-                  {!textOnRight && empty}
-                </div>
-              </div>
-            </section>
-          </div>
+            </div>
+          </section>
         );
       })}
       <SchedulerShell />
