@@ -4,9 +4,9 @@ export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Takethehelm is built on a robust architecture designed to handle complex financial data with ease. At
+        Take the Helm is built on a robust architecture designed to handle complex financial data with ease. At
         its core, the platform integrates seamlessly with popular accounting software like QuickBooks, Xero, and
-        Sage. This integration is crucial as it allows Takethehelm to access real-time data, ensuring that all
+        Sage. This integration is crucial as it allows Take the Helm to access real-time data, ensuring that all
         forecasts are based on the most up-to-date information.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform&#39;s architecture supports a range of features that enhance its functionality. For
@@ -15,12 +15,12 @@ export default function ArchitectureSection() {
         financial health. This dashboard is customizable, allowing users to track the metrics that matter most
         to them.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Takethehelm also incorporates advanced scenario planning capabilities. Users can create unlimited
+        Take the Helm also incorporates advanced scenario planning capabilities. Users can create unlimited
         scenarios, comparing them side-by-side to understand potential impacts on their cash flow. This feature
         is supported by the platform&#39;s ability to handle large volumes of data efficiently, providing quick
         and reliable insights.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Additionally, Takethehelm&#39;s architecture is designed to facilitate easy data export. Users can
+        Additionally, Take the Helm&#39;s architecture is designed to facilitate easy data export. Users can
         generate reports in both PDF and CSV formats, making it simple to share insights with stakeholders or
         integrate them into other business processes.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -39,7 +39,7 @@ export default function ArchitectureSection() {
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
               <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="takethehelm-s-architecture-and-integrations">
-                Takethehelm&#39;s Architecture and Integrations
+                Take the Helm&#39;s Architecture and Integrations
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -52,7 +52,7 @@ export default function ArchitectureSection() {
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="takethehelm-s-architecture-and-integrations">
-                Takethehelm&#39;s Architecture and Integrations
+                Take the Helm&#39;s Architecture and Integrations
               </h2>
               {body}
             </div>

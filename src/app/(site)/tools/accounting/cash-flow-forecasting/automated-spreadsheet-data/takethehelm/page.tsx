@@ -15,9 +15,9 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Takethehelm";
+const TITLE = "Take the Helm";
 const DESCRIPTION =
-    "Takethehelm automates spreadsheet data for accurate cash flow forecasting in South Florida's small businesses.";
+    "Take the Helm automates spreadsheet data for accurate cash flow forecasting in South Florida's small businesses.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "operatingSystem": "Web",
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Takethehelm, Helm, automated spreadsheet data, cash flow forecasting, QuickBooks, Xero, Sage, scenario planning, KPI dashboard, drag-and-drop forecasting, Veem payments, accounts payable, South Florida small business",
+            "keywords": "Take the Helm, Helm, automated spreadsheet data, cash flow forecasting, QuickBooks, Xero, Sage, scenario planning, KPI dashboard, drag-and-drop forecasting, Veem payments, accounts payable, South Florida small business",
             "subjectOf": {
                 "@type": "Article",
                 "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
@@ -45,7 +45,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Takethehelm", "Helm", "automated spreadsheet data", "cash flow forecasting", "scenario planning", "QuickBooks", "Xero", "Sage"],
+        keywords: ["Take the Helm", "Helm", "automated spreadsheet data", "cash flow forecasting", "scenario planning", "QuickBooks", "Xero", "Sage"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
@@ -80,7 +80,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Automate your cash flow forecasting with Takethehelm, transforming spreadsheet data management for South Florida's small businesses.";
+        "Automate your cash flow forecasting with Take the Helm, transforming spreadsheet data management for South Florida's small businesses.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

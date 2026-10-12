@@ -31,7 +31,7 @@ export default function ChallengesSection() {
         current bank balances without considering future cash flow projections. This can result in liquidity
         issues down the line, especially if unexpected expenses arise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        To address these challenges, businesses need a real-time view of their financial runway. Takethehelm
+        To address these challenges, businesses need a real-time view of their financial runway. Take the Helm
         provides this by automating the collection and analysis of financial data, ensuring that decisions are
         based on current information rather than outdated figures. This allows businesses to plan strategically
         and avoid the pitfalls of manual data entry.</p>

@@ -344,10 +344,10 @@ export function UseCasesSection() {
                                                 Floatapp
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Takethehelm")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Take the Helm")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Takethehelm
+                                                Take the Helm
                                             </Link>.
                                         </p>
                                     </li>
@@ -1202,10 +1202,10 @@ export function UseCasesSection() {
                                                 Floatapp
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Takethehelm")}
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Take the Helm")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Takethehelm
+                                                Take the Helm
                                             </Link>.
                                         </p>
                                     </li>

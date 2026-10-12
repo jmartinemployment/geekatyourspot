@@ -67,7 +67,7 @@ export default function MechanicsSection() {
         adjustments can be made based on the outcomes. For example,&nbsp;
         <Link id="use-cases-accounting-spreadsheet-data-mechanics-takethehelm"
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">
-          Takethehelm
+          Take the Helm
         </Link>’s platform allows businesses to scale content operations predictably, ensuring that the implemented systems
         can handle increased loads without compromising performance. This phase is critical for identifying
         potential issues early and ensuring a smooth transition to full automation.</p>

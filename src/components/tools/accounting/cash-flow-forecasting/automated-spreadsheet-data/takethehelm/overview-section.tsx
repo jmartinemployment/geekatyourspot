@@ -14,13 +14,13 @@ export default function OverviewSection() {
         entirely.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automated Spreadsheet Data offers a compelling solution to this bottleneck. By integrating tools like
-        Takethehelm, businesses can streamline their data entry processes, ensuring that cash flow forecasts are
+        Take the Helm, businesses can streamline their data entry processes, ensuring that cash flow forecasts are
         not only accurate but also up-to-date. This automation allows financial teams to focus on strategic
         decision-making rather than getting bogged down in manual data entry, which often leads to errors and
         inefficiencies. With up-to-the-minute insights, businesses can quickly adapt to changing conditions,
         making informed decisions that drive growth and stability.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Takethehelm automates the collection and analysis of financial data, syncing with platforms like
+        Take the Helm automates the collection and analysis of financial data, syncing with platforms like
         QuickBooks, Xero, and Sage to generate forecasts in seconds. This not only saves valuable time but also
         reduces the risk of human error. The automated system ensures that the data used for&nbsp;<GlossaryLink
         slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>&nbsp;is always current, allowing

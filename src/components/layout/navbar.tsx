@@ -418,7 +418,7 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" label="Ramp (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" label="Stampli" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Takethehelm" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Take the Helm" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" label="Tipalti (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" label="Upflow" onNavigate={closeSidebar} />
