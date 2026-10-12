@@ -1,12 +1,16 @@
 import Link from "next/link";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
 
 interface UseCasesHeroSectionProps {
   title: string;
   summary: string;
+  /** Department whose icon fills the right column. */
   department: DepartmentName;
+  /** Overrides the department icon; the top-level /use-cases index has no single department. */
+  icon?: IconDefinition;
 }
 
 /**
@@ -14,7 +18,7 @@ interface UseCasesHeroSectionProps {
  * (`src/components/tools/shared/tools-hero.tsx`) with the department's icon
  * in place of the wrench, so the index pages open the way every pillar does.
  */
-export default async function UseCasesHeroSection({ title, summary, department }: UseCasesHeroSectionProps) {
+export default async function UseCasesHeroSection({ title, summary, department, icon }: UseCasesHeroSectionProps) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
@@ -63,7 +67,7 @@ export default async function UseCasesHeroSection({ title, summary, department }
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
               <FontAwesomeIcon
-                icon={DEPARTMENT_ICONS[department]}
+                icon={icon ?? DEPARTMENT_ICONS[department]}
                 className="text-[#C83803]"
                 style={{ width: "16rem", height: "16rem" }}
               />

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLightbulb, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
+import UseCasesHeroSection from "@/components/use-cases/shared/use-cases-hero";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { CollectionPage, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
@@ -47,21 +49,30 @@ export const metadata: Metadata = {
   },
 };
 
-/**
- * Departments, not individual use cases.
- *
- * Each department page owns its own list of use cases. Repeating those lists
- * here would be a second copy to keep in step, which is how /tools came to
- * advertise pages that were never built. This page links to the department
- * index and lets that page stay the single answer to "what is in it".
- */
+interface UseCase {
+  title: string;
+  slug: string;
+  description: string;
+  href: string;
+}
+
 interface Department {
   name: DepartmentName;
   title: string;
   description: string;
   href: string;
+  /** One-paragraph framing shown above the cards. */
+  summary: string;
+  /** Top-level pillars of the department, in navbar order. Sub-pillars live on the department index. */
+  useCases: UseCase[];
 }
 
+/**
+ * One section per department. The department index remains the full answer
+ * to "what is in it" (sub-pillars included); this page lists the top-level
+ * pillars so a reader can jump straight to one. Keep both in step with the
+ * navbar (`src/components/layout/navbar.tsx`).
+ */
 const DEPARTMENTS: Department[] = [
   {
     name: "accounting",
@@ -69,6 +80,31 @@ const DEPARTMENTS: Department[] = [
     description:
       "Automate the finance back office — accounts payable, cash flow forecasting, and tax compliance.",
     href: "/use-cases/accounting",
+    summary:
+      "The finance back office is where manual work piles up fastest: invoices keyed by hand, approvals chased by email, forecasts rebuilt in spreadsheets, and tax rules that change by county. Each pillar below takes one of those jobs and the tools that automate it.",
+    useCases: [
+      {
+        title: "Automated Accounts Payable",
+        slug: "automated-accounts-payable",
+        description:
+          "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",
+        href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
+      },
+      {
+        title: "Automated Cash Flow Forecasting",
+        slug: "automated-cash-flow-forecasting",
+        description:
+          "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
+        href: "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
+      },
+      {
+        title: "Intelligent Tax Compliance & Regulations",
+        slug: "tax-compliance-regulations",
+        description:
+          "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations.",
+        href: "/use-cases/accounting/tax-compliance-regulations",
+      },
+    ],
   },
   {
     name: "marketing",
@@ -76,8 +112,103 @@ const DEPARTMENTS: Department[] = [
     description:
       "Put AI to work across marketing — lead capture, content creation, ad spend, and marketing systems.",
     href: "/use-cases/marketing",
+    summary:
+      "Marketing automation earns its keep in the repetitive middle of the funnel: capturing and scoring leads, producing and repurposing content, tuning ad spend, and answering the same questions in chat. These pillars cover each of those jobs for a small team.",
+    useCases: [
+      {
+        title: "AI Content Creation Workflow",
+        slug: "ai-content-creation-workflow",
+        description:
+          "Streamline your content creation with AI-driven workflows that improve design efficiency and reduce time-to-market.",
+        href: "/use-cases/marketing/ai-content-creation-workflow",
+      },
+      {
+        title: "AI Content Repurposing",
+        slug: "ai-content-repurposing",
+        description:
+          "Transform your content with AI repurposing tools, saving time and enhancing audience engagement across platforms.",
+        href: "/use-cases/marketing/ai-content-repurposing",
+      },
+      {
+        title: "AI-Driven Lead Scoring for Small Businesses",
+        slug: "ai-driven-lead-scoring-for-small-businesses",
+        description:
+          "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
+        href: "/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses",
+      },
+      {
+        title: "AI Marketing Systems",
+        slug: "ai-marketing-systems",
+        description:
+          "Elevate your marketing game with AI systems that automate processes and enhance decision-making for better results.",
+        href: "/use-cases/marketing/ai-marketing-systems",
+      },
+      {
+        title: "Automated Ad Spend Optimization",
+        slug: "automated-ad-spend-optimization",
+        description:
+          "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
+        href: "/use-cases/marketing/automated-ad-spend-optimization",
+      },
+      {
+        title: "Automated Content Generation",
+        slug: "automated-content-generation-transforming-small-business-marketing",
+        description:
+          "Explore how Automated Content Generation boosts efficiency and engagement for small businesses. Learn practical AI applications and benefits.",
+        href: "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing",
+      },
+      {
+        title: "Intelligent Lead Capture Pipeline",
+        slug: "intelligent-lead-capture-pipeline",
+        description:
+          "Build smarter lead capture strategies with AI-powered tools that improve qualification and conversion rates.",
+        href: "/use-cases/marketing/intelligent-lead-capture-pipeline",
+      },
+      {
+        title: "SEO Blog and Article Generation",
+        slug: "seo-blog-and-article-generation",
+        description:
+          "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
+        href: "/use-cases/marketing/seo-blog-and-article-generation",
+      },
+      {
+        title: "Smart Chatbots for Marketing",
+        slug: "smart-chatbots-for-marketing",
+        description:
+          "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
+        href: "/use-cases/marketing/smart-chatbots-for-marketing",
+      },
+    ],
   },
 ];
+
+/** Site section rotation, as literal classes so Tailwind can see them. */
+const SECTION_BACKGROUNDS = ["bg-[#023059]", "bg-[#024059]", "bg-[#025E73]", "bg-[#8C4E2A]", "bg-[#BF5934]"] as const;
+
+function UseCaseCard({ useCase }: { useCase: UseCase }) {
+  return (
+    <Link
+      href={useCase.href}
+      className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
+    >
+      <h3 className="text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
+        {useCase.title}
+      </h3>
+      <p className="pt-3 text-md font-normal text-white/80">
+        {useCase.description}
+      </p>
+      <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
+        Learn more
+        <FontAwesomeIcon
+          icon={faArrowRight}
+          width={16}
+          height={16}
+          className="transition-transform group-hover:translate-x-1"
+        />
+      </span>
+    </Link>
+  );
+}
 
 export default function UseCasesPage() {
   const jsonLd: WithContext<CollectionPage> = {
@@ -99,62 +230,87 @@ export default function UseCasesPage() {
   };
 
   return (
-    <div className="bg-[rgb(2,48,89)] text-white">
+    <div className="text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <section className="container py-16 lg:py-24">
-        <div className="flex items-center gap-x-4">
-          <FontAwesomeIcon
-            icon={faLightbulb}
-            width={64}
-            height={64}
-            className="text-[#C83803]"
-          />
-          <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text text-[9vw] sm:text-6xl lg:text-[4.0rem]">
-            Use Cases
-          </h1>
-        </div>
-        <p className="pt-5 max-w-3xl text-xl text-white shadow-text lg:text-2xl">
-          The work we actually do for South Florida small businesses, grouped by
-          the department it lands in. Start with the one that owns the problem.
-        </p>
-
-        <div className="pt-14">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {DEPARTMENTS.map((department) => (
-              <Link
-                key={department.name}
-                href={department.href}
-                className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
-              >
-                <FontAwesomeIcon
-                  icon={DEPARTMENT_ICONS[department.name]}
-                  width={40}
-                  height={40}
-                  className="text-[#C83803]"
-                />
-                <h2 className="pt-4 text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
-                  {department.title}
-                </h2>
-                <p className="pt-3 text-md font-normal text-white/80">
-                  {department.description}
-                </p>
-                <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
-                  Learn more
-                  <FontAwesomeIcon
-                    icon={faArrowRight}
-                    width={16}
-                    height={16}
-                    className="transition-transform group-hover:translate-x-1"
-                  />
-                </span>
+      <UseCasesHeroSection
+        department="accounting"
+        icon={faLightbulb}
+        title="Use Cases"
+        summary="A use case is a practical application: a specific way AI can be put to use in your business. These are the ones we build for South Florida small businesses, grouped by the department that owns the problem."
+      />
+      {DEPARTMENTS.map((department, index) => {
+        const background = SECTION_BACKGROUNDS[index % SECTION_BACKGROUNDS.length];
+        const textOnRight = index % 2 === 0;
+        const heading = (sizes: string) => (
+          <Link href={department.href} className="group inline-flex items-center gap-x-4 hover:underline">
+            <FontAwesomeIcon
+              icon={DEPARTMENT_ICONS[department.name]}
+              width={48}
+              height={48}
+              className="text-[#C83803]"
+            />
+            <h2
+              id={department.name}
+              className={`text-white ${sizes} leading-[0.95] font-black font-(--font-sora) shadow-text`}
+            >
+              {department.title}
+            </h2>
+          </Link>
+        );
+        const intro = (
+          <>
+            <p className="pt-3 text-md text-white shadow-text">{department.summary}</p>
+            <p className="pt-3 text-md text-white shadow-text">
+              <Link href={department.href} className="inline-flex items-center gap-x-2 font-bold text-[#C83803] hover:underline">
+                All {department.title.toLowerCase()} use cases
+                <FontAwesomeIcon icon={faArrowRight} width={16} height={16} />
               </Link>
+            </p>
+          </>
+        );
+        const cards = (
+          <div className="grid grid-cols-1 gap-6 pt-6 md:grid-cols-2">
+            {department.useCases.map((useCase) => (
+              <UseCaseCard key={useCase.slug} useCase={useCase} />
             ))}
           </div>
-        </div>
-      </section>
+        );
+        const empty = <div className="col-span-5 flex items-center justify-center"></div>;
+        return (
+          <div key={department.name}>
+            <section className={`min-h-screen ${background} text-white py-5 lg:hidden`}>
+              <div className="container">
+                <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+                  {textOnRight && empty}
+                  <div className="col-span-7">{heading("text-[6vw] sm:text-4xl md:text-5xl")}</div>
+                  {!textOnRight && empty}
+                  <div className="col-span-12">
+                    {intro}
+                    {cards}
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className={`min-h-screen ${background} text-white py-5 hidden lg:block`}>
+              <div className="container">
+                <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+                  {textOnRight && empty}
+                  <div className="col-span-7">
+                    {heading("lg:text-[3.5rem]")}
+                    {intro}
+                    {cards}
+                  </div>
+                  {!textOnRight && empty}
+                </div>
+              </div>
+            </section>
+          </div>
+        );
+      })}
+      <SchedulerShell />
     </div>
   );
 }
