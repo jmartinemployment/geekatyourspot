@@ -19,7 +19,7 @@ export default function RolesSection() {
         bogged down in data entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         Moreover, the role of IT professionals in the organization shifts from troubleshooting data entry errors to
-        maintaining and optimizing the automated systems. With platforms like Helmhq, IT teams can focus on ensuring
+        maintaining and optimizing the automated systems. With platforms like Takethehelm, IT teams can focus on ensuring
         that integrations are running smoothly and that data flows are uninterrupted, allowing the business to
         operate seamlessly.</p>
       <p className="text-md text-white shadow-text pt-3">

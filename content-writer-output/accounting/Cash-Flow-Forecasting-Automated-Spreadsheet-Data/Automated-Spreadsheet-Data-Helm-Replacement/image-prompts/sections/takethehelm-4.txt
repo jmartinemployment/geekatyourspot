@@ -1,0 +1,1 @@
+Technical diagram depicting the architecture of Takethehelm, with various integrations and data pathways connected, representing a seamless tech ecosystem.

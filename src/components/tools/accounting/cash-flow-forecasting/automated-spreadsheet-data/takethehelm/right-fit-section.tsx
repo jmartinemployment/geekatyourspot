@@ -5,36 +5,35 @@ export default function RightFitSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Helmhq is ideally suited for small businesses in Miami-Dade, Broward, and West Palm Beach that need to
-        automate content operations and enhance&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>. Its robust platform offers tools that are particularly beneficial for businesses
-        looking to scale without adding significant overhead. The platform&#39;s ability to automate repetitive
-        tasks and integrate with existing systems makes it a valuable asset for businesses aiming to improve
-        efficiency and reduce manual errors.</p>
+        Takethehelm is particularly suited for small businesses that require a robust yet flexible solution
+        for&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>. Its
+        integration with popular accounting systems like QuickBooks, Xero, and Sage makes it an ideal choice for
+        businesses already using these platforms. The tool&#39;s ability to provide real-time insights and
+        automate tedious tasks can significantly reduce the workload for small finance teams, allowing them to
+        focus on strategic planning rather than data entry.</p>
       <p className="text-md text-white shadow-text pt-3">
-        However, Helmhq may not be the best fit for businesses that require highly specialized features beyond its
-        current offerings. Companies with unique requirements that fall outside of Helmhq&#39;s integrated
-        capabilities might find more tailored solutions in niche applications. Additionally, businesses that do not
-        heavily rely on content marketing or SEO might not fully leverage Helmhq&#39;s strengths.</p>
+        However, Takethehelm might not be the best fit for businesses that have highly specialized or complex
+        financial processes that require custom-built solutions. While it offers a high degree of customization,
+        there are limits to what can be achieved without custom development work. Businesses with unique needs
+        may find that they require additional tools or bespoke solutions to complement Takethehelm&#39;s
+        capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those considering Helmhq, it&#39;s important to evaluate whether the platform&#39;s features align with
-        your business objectives and operational needs. The platform&#39;s pricing model, starting at $1999 per
-        month for the Pro Plus tier, includes comprehensive features like onboarding and strategy support, which are
-        crucial for businesses planning to scale.</p>
+        For those considering Takethehelm, the next step is to evaluate how well it aligns with your current
+        systems and processes. Geek @ Your Spot can assist in this evaluation by providing a detailed analysis
+        of your needs and how Takethehelm can be configured to meet them. This consultancy service is invaluable
+        for ensuring that the transition to automated&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
+        forecasting</GlossaryLink>&nbsp;is as smooth and effective as possible.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot, based in the same region, offers expert implementation services to ensure Helmhq
-        integrates smoothly into your existing environment. Their local expertise and consultative approach help
-        tailor the deployment to meet specific business requirements, maximizing the platform&#39;s effectiveness.</p>
+        In summary, Takethehelm offers a powerful combination of features and ease of use that makes it a strong
+        contender for small businesses looking to automate their automated spreadsheet data management. By
+        leveraging the expertise of Geek @ Your Spot, businesses can ensure that they not only implement the
+        tool effectively but also extract maximum value from its capabilities. This partnership can lead to
+        significant improvements in efficiency, accuracy, and financial insight.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Ultimately, businesses should weigh the benefits of Helmhq&#39;s integrated approach against their specific
-        needs and constraints. By considering the full range of features and the support available from Geek @ Your
-        Spot, businesses can make an informed decision on whether Helmhq is the right tool to drive efficiency and
-        growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
-        Answer these questions when&nbsp;
-        <Link id="tools-accounting-spreadsheet-data-helmhq-right-fit-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
-          booking your free consultation
-        </Link>.</p>
+        Answer these questions when&nbsp;<Link
+        id="tools-accounting-spreadsheet-data-takethehelm-right-fit-consultation"
+        href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking your free
+        consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Offer a free &quot;Cash Flow Fragility Audit&quot; to prospects. Have them send you their current manual Excel forecast. Point out the broken links, the hard-coded numbers that are already out of date, and the formulas that will break if they add a new row. Then, show them a video mockup of how that exact same spreadsheet looks when powered seamlessly by your partner software&#39;s live data feed.</li>
         <li>How much time does your team spend manually collecting, consolidating, and updating cash flow data each week or month?</li>
@@ -55,8 +54,8 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-helmhq-right-for-your-business">
-                Is Helmhq Right for Your Business?
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-takethehelm-right-for-your-business">
+                Is Takethehelm Right for Your Business?
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -68,8 +67,8 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-helmhq-right-for-your-business">
-                Is Helmhq Right for Your Business?
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-takethehelm-right-for-your-business">
+                Is Takethehelm Right for Your Business?
               </h2>
               {body}
             </div>

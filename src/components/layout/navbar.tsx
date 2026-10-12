@@ -411,7 +411,6 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" label="Dext" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" label="Dryrun" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" label="Floatapp" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq" label="Helmhq" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" label="Invoiced" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" label="Medius" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" label="Melio (Approval Workflows)" onNavigate={closeSidebar} />
@@ -419,6 +418,7 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" label="Ramp (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" label="Stampli" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Takethehelm" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" label="Tipalti (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" label="Upflow" onNavigate={closeSidebar} />

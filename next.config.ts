@@ -12,6 +12,13 @@ const nextConfig: NextConfig = {
   // metadata exports, so there is no page to forget. Set ALLOW_INDEXING=true in Vercel to launch.
   async redirects() {
     return [
+      // Helm was first laid out under its old vendor handle on 2026-10-11 and
+      // re-exported as takethehelm on 2026-10-12.
+      {
+        source: "/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq",
+        destination: "/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm",
+        permanent: true,
+      },
       {
         source: "/glossary/artificial-intelligence",
         destination: "/glossary/ai",

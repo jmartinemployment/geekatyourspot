@@ -1,0 +1,1 @@
+A decision-making tree diagram showing critical early decisions in implementing automated spreadsheet data, featuring branching paths with icons representing different choices and outcomes.

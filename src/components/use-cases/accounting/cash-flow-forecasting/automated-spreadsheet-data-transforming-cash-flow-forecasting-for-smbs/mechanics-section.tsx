@@ -65,9 +65,9 @@ export default function MechanicsSection() {
         phase allows businesses to validate their setups, ensuring everything functions as expected before a
         full-scale rollout. During this phase, smoke tests can be conducted to simulate real-world scenarios, and
         adjustments can be made based on the outcomes. For example,&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-mechanics-helmhq"
-          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq" className="text-[#0B162A] hover:underline">
-          Helmhq
+        <Link id="use-cases-accounting-spreadsheet-data-mechanics-takethehelm"
+          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">
+          Takethehelm
         </Link>’s platform allows businesses to scale content operations predictably, ensuring that the implemented systems
         can handle increased loads without compromising performance. This phase is critical for identifying
         potential issues early and ensuring a smooth transition to full automation.</p>

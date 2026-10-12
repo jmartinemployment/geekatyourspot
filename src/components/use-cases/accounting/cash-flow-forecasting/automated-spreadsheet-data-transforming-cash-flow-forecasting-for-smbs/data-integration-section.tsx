@@ -28,7 +28,7 @@ export default function DataIntegrationSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, the implementation process should include a thorough assessment of the existing data environment.
         This involves identifying any potential data silos and ensuring that all relevant data sources are unified
-        within the automated system. Helmhq excels in this area, offering tools to streamline content and data
+        within the automated system. Takethehelm excels in this area, offering tools to streamline content and data
         management, ensuring that all necessary information is centralized and easily accessible.</p>
       <p className="text-md text-white shadow-text pt-3">
         By focusing on these key areas, businesses can ensure that their automated spreadsheet data systems provide

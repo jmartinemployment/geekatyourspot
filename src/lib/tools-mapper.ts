@@ -24,7 +24,7 @@ import { driftContent } from "@/data/tools/drift";
 import { dryrunContent } from "@/data/tools/dryrun";
 import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
-import { helmhqContent } from "@/data/tools/helmhq";
+import { takethehelmContent } from "@/data/tools/takethehelm";
 import { invoicedContent } from "@/data/tools/invoiced";
 import { jasperAiContent } from "@/data/tools/jasper-ai";
 import { kyribaContent } from "@/data/tools/kyriba";
@@ -75,7 +75,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "dryrun": dryrunContent,
   "floatapp": floatappContent,
   "great-expectations": greatExpectationsContent,
-  "helmhq": helmhqContent,
+  "takethehelm": takethehelmContent,
   "invoiced": invoicedContent,
   "jasper-ai": jasperAiContent,
   "kyriba": kyribaContent,

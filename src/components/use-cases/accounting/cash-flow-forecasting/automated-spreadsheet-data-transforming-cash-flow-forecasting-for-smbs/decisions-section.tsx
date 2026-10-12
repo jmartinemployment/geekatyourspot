@@ -30,7 +30,7 @@ export default function DecisionsSection() {
         spreadsheet-based forecasts.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, consider the scalability of the chosen solution. As your business grows, your cash flow forecasting
-        needs will evolve. A platform like Helmhq, which supports multi-entity and multi-currency operations, offers
+        needs will evolve. A platform like Takethehelm, which supports multi-entity and multi-currency operations, offers
         the flexibility needed to scale operations without the need for complex reconfigurations. This foresight
         prevents the need for costly overhauls as your business environment changes.</p>
     </>

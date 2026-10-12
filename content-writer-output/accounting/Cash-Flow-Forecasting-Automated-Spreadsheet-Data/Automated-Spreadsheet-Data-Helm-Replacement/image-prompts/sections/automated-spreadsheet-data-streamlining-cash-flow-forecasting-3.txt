@@ -1,0 +1,1 @@
+A step-by-step flowchart-style illustration showing the implementation process of automated spreadsheet data, with icons representing each stage such as planning, execution, and review, connected by arrows.

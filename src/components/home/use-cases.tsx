@@ -344,10 +344,10 @@ export function UseCasesSection() {
                                                 Floatapp
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq", "Helmhq")}
-                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Takethehelm")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Helmhq
+                                                Takethehelm
                                             </Link>.
                                         </p>
                                     </li>
@@ -1202,10 +1202,10 @@ export function UseCasesSection() {
                                                 Floatapp
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq", "Helmhq")}
-                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/helmhq"
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Takethehelm")}
+                                                href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Helmhq
+                                                Takethehelm
                                             </Link>.
                                         </p>
                                     </li>
