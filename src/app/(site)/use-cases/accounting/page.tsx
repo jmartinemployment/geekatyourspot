@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalculator, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import UseCasesHeroSection from "@/components/use-cases/shared/use-cases-hero";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { CollectionPage, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
@@ -194,26 +196,14 @@ export default function AccountingUseCasesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
+      <UseCasesHeroSection
+        department="accounting"
+        title="Accounting Use Cases"
+        summary="Practical accounting automation for South Florida small businesses: accounts payable, cash flow forecasting, and tax compliance, each laid out as a pillar with the tools we implement under it."
+      />
       <section className="container py-16 lg:py-24">
-        <div className="flex items-center gap-x-4">
-          <FontAwesomeIcon
-            icon={faCalculator}
-            width={64}
-            height={64}
-            className="text-[#C83803]"
-          />
-          <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text text-[9vw] sm:text-6xl lg:text-[4.0rem]">
-            Accounting Use Cases
-          </h1>
-        </div>
-        <p className="pt-5 max-w-3xl text-xl text-white shadow-text lg:text-2xl">
-          Explore practical use cases for accounting automation that help South
-          Florida small businesses streamline financial operations and improve
-          efficiency.
-        </p>
-
         {USE_CASE_GROUPS.map((group) => (
-          <div key={group.slug} className="pt-14">
+          <div key={group.slug} className="pt-14 first:pt-0">
             <h2 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text text-[7vw] sm:text-4xl lg:text-5xl">
               {group.title}
             </h2>
@@ -226,6 +216,7 @@ export default function AccountingUseCasesPage() {
           </div>
         ))}
       </section>
+      <SchedulerShell />
     </div>
   );
 }
