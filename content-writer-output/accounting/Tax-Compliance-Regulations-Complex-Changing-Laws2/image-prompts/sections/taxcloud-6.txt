@@ -1,0 +1,1 @@
+Diagram showing data nodes and connections, representing the data structure and mapping process for deploying TaxCloud.

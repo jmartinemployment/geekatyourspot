@@ -1,0 +1,1 @@
+Technical diagram showing a layered architecture, symbolizing the structural framework of TaxCloud.

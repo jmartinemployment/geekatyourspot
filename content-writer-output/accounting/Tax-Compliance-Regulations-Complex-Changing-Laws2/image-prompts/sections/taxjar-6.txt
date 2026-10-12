@@ -1,0 +1,1 @@
+A flat vector illustration showing a data flow diagram, detailing how data is structured and mapped during TaxJar deployment, with arrows indicating data pathways.

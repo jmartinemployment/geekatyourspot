@@ -25,6 +25,9 @@ import { dryrunContent } from "@/data/tools/dryrun";
 import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
 import { takethehelmContent } from "@/data/tools/takethehelm";
+import { taxcloudContent } from "@/data/tools/taxcloud";
+import { taxjarContent } from "@/data/tools/taxjar";
+import { thetaxvaletContent } from "@/data/tools/thetaxvalet";
 import { invoicedContent } from "@/data/tools/invoiced";
 import { jasperAiContent } from "@/data/tools/jasper-ai";
 import { kyribaContent } from "@/data/tools/kyriba";
@@ -37,6 +40,7 @@ import { melioApprovalWorkflowsContent } from "@/data/tools/melio-approval-workf
 import { monteCarloContent } from "@/data/tools/monte-carlo";
 import { optimoveContent } from "@/data/tools/optimove";
 import { qualyticsContent } from "@/data/tools/qualytics";
+import { quadernoContent } from "@/data/tools/quaderno";
 import { rampContent } from "@/data/tools/ramp";
 import { rampApprovalWorkflowsContent } from "@/data/tools/ramp-approval-workflows";
 import { rillionContent } from "@/data/tools/rillion";
@@ -48,6 +52,7 @@ import { tipaltiFraudDuplicatePaymentControlsContent } from "@/data/tools/tipalt
 import { upflowContent } from "@/data/tools/upflow";
 import { versapayContent } from "@/data/tools/versapay";
 import { vertexContent } from "@/data/tools/vertex";
+import { zampContent } from "@/data/tools/zamp";
 
 const toolsMap: Record<string, ToolPageContent> = {
   "active-campaign": activeCampaignContent,
@@ -76,6 +81,9 @@ const toolsMap: Record<string, ToolPageContent> = {
   "floatapp": floatappContent,
   "great-expectations": greatExpectationsContent,
   "takethehelm": takethehelmContent,
+  "taxcloud": taxcloudContent,
+  "taxjar": taxjarContent,
+  "thetaxvalet": thetaxvaletContent,
   "invoiced": invoicedContent,
   "jasper-ai": jasperAiContent,
   "kyriba": kyribaContent,
@@ -88,6 +96,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "monte-carlo": monteCarloContent,
   "optimove": optimoveContent,
   "qualytics": qualyticsContent,
+  "quaderno": quadernoContent,
   "ramp": rampContent,
   "ramp-approval-workflows": rampApprovalWorkflowsContent,
   "rillion": rillionContent,
@@ -99,6 +108,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "upflow": upflowContent,
   "versapay": versapayContent,
   "vertex": vertexContent,
+  "zamp": zampContent,
 };
 
 export function getToolContent(slug: string): ToolPageContent | null {

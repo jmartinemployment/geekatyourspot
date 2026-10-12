@@ -47,6 +47,7 @@ the pillar page's slug unless Jeff shortens it. Segments in use:
 | Automated Fraud & Duplicate Payment Controls | `automated-fraud-duplicate-payment-controls` | shortened from `automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs` on the approval-workflows precedent when its three tool pages (Bill, Medius, Tipalti) shipped, 2026-10-09 |
 | Automated Accounts Receivable (under `cash-flow-forecasting`) | `automated-accounts-receivable` | pillar `/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai` shipped 2026-10-10 from a full re-export (eleven sections plus FAQ on every page) that replaced the 2026-10-09 tool pages for Chaserhq, Invoiced, Upflow, Versapay and Bill; segment taken from the home-card `<h5>` and kept across the re-export; their JSON-LD `subjectOf` and registry `relatedArticleId` point at that pillar |
 | Automated Spreadsheet Data (under `cash-flow-forecasting`) | `automated-spreadsheet-data` | pillar `/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs` and tools Cashflowfrog, Clockwork, Dryrun, Floatapp, Helmhq shipped together 2026-10-11 (export folder `accounting/Cash-Flow-Forecasting-Automated-Spreadsheet-Data`, eleven sections plus FAQ per page); segment shortened from the home-card `<h5>` on the accounts receivable precedent; JSON-LD `subjectOf` and registry `relatedArticleId` point at the pillar |
+| Complex and Changing Laws (under `tax-compliance-regulations`) | `complex-and-changing-laws` | pillar `/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws` and tools Quaderno, TaxCloud, TaxJar, TaxValet (`thetaxvalet`), Zamp shipped together 2026-10-12 (export folder `accounting/Tax-Compliance-Regulations-Complex-Changing-Laws2`, eleven sections plus FAQ per page); segment taken from the home-card `<h5>` on the spreadsheet-data precedent. Avalara stays one level shallower at `/tools/accounting/tax-compliance-regulations/avalara` because it predates the sub-pillar |
 
 The earlier wording here — "the slug verbatim, no judgement call" — is withdrawn. What survives
 of it: a pillar's tools all share one segment, and that segment is never decided per tool.
@@ -57,10 +58,10 @@ approval workflows; they are different arguments about the same product. Three s
 Bill one slot and forced a choice between them. Four gives each write-up its own URL, and the
 URL says which pillar it is arguing for.
 
-Where a category has no pillar below it — tax compliance is a pillar directly under the
-department — the tool sits one level shallower:
-`/tools/accounting/tax-compliance-regulations/avalara`. Mirror the use-case tree; do not
-invent a segment to pad the depth.
+Where a category has no pillar below it the tool sits one level shallower. Avalara was laid out
+that way (`/tools/accounting/tax-compliance-regulations/avalara`) while tax compliance had no
+sub-pillar; the 2026-10-12 tax export added one, and its tools take the four-segment shape above.
+Mirror the use-case tree; do not invent a segment to pad the depth.
 
 ### Marketing
 

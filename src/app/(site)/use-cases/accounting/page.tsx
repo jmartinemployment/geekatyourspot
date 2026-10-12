@@ -68,7 +68,7 @@ interface UseCaseGroup {
 
 /**
  * Every accounting pillar with a built route. The navbar
- * (`src/components/layout/navbar.tsx`) and the home page carry the same nine
+ * (`src/components/layout/navbar.tsx`) and the home page carry the same ten
  * links; this list was three cards from 2026-10-02 until 2026-10-12, so six
  * pillars shipped without appearing here. Keep the three in step.
  */
@@ -147,8 +147,16 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
       "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations.",
     href: "/use-cases/accounting/tax-compliance-regulations",
     summary:
-      "Sales tax, payroll tax, and filing deadlines across multiple jurisdictions change faster than a small finance team can track by hand. This pillar covers the automation that keeps a business compliant without a dedicated tax department.",
-    pillars: [],
+      "Sales tax, payroll tax, and filing deadlines across multiple jurisdictions change faster than a small finance team can track by hand. The category pillar frames the problem; the pillar below it covers the AI tooling that tracks rate and rule changes so a business stays compliant without a dedicated tax department.",
+    pillars: [
+      {
+        title: "AI Solutions for Complex and Changing Tax Laws",
+        slug: "ai-solutions-for-complex-and-changing-tax-laws",
+        description:
+          "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
+        href: "/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+      },
+    ],
   },
 ];
 

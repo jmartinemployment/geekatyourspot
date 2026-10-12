@@ -1,0 +1,1 @@
+A flowchart depicting the steps involved in implementing Zamp, with streamlined pathways leading to a successful 'go live' scenario.

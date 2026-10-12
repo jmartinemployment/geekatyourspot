@@ -1,0 +1,1 @@
+Side-by-side comparison of two abstracted software interfaces, highlighting differences and similarities.

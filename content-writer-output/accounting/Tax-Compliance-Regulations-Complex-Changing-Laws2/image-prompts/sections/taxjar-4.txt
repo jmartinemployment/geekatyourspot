@@ -1,0 +1,1 @@
+A flat vector diagram illustrating TaxJar’s system architecture, highlighting integrations with different platforms and how data is managed and processed within the system.

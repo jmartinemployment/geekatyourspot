@@ -382,10 +382,12 @@ export function UseCasesSection() {
                                     Automated tax compliance software streamlines calculations, nexus tracking, exemption management, and filings across thousands of global jurisdictions.  Applies real-time regulatory updates, minimize manual human errors, and generate signature-ready reports.
                                 </p>                                <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Complex and Changing Laws:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-complex-and-changing-laws"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Complex and Changing Laws:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs ">
                                             Frequent updates to tax codes, deductions, and specialized reporting requirements make it difficult to stay current without dedicated legal or accounting staff.
                                         </p>
@@ -393,15 +395,35 @@ export function UseCasesSection() {
                                             Top 5 Automated Tax Law Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            Sovos,&nbsp;
-                                            Tax1099,&nbsp;
-                                            Anrok,&nbsp;
-                                            Numeral,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
-                                                href="/tools/accounting/tax-compliance-regulations/avalara"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno", "Quaderno")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Avalara
+                                                Quaderno
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud", "TaxCloud")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                TaxCloud
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar", "TaxJar")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                TaxJar
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet", "TaxValet")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                TaxValet
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp", "Zamp")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Zamp
                                             </Link>.
                                         </p>
                                     </li>
@@ -1241,10 +1263,12 @@ export function UseCasesSection() {
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
-                                            Complex and Changing Laws:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-complex-and-changing-laws"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Complex and Changing Laws:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-sm ">
                                             Frequent updates to tax codes, deductions, and specialized reporting requirements make it difficult to stay current without dedicated legal or accounting staff.
                                         </p>
@@ -1252,15 +1276,35 @@ export function UseCasesSection() {
                                             Top 5 Automated Tax Law Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            Sovos,&nbsp;
-                                            Tax1099,&nbsp;
-                                            Anrok,&nbsp;
-                                            Numeral,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/avalara", "Avalara")}
-                                                href="/tools/accounting/tax-compliance-regulations/avalara"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno", "Quaderno")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                Avalara
+                                                Quaderno
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud", "TaxCloud")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                TaxCloud
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar", "TaxJar")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                TaxJar
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet", "TaxValet")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                TaxValet
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp", "Zamp")}
+                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Zamp
                                             </Link>.
                                         </p>
                                     </li>
