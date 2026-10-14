@@ -6,7 +6,7 @@ export default function CloneYourselfSection() {
           <div className="grid grid-cols-2">
             <div className="col-span-2">
               <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Clone Yourself
+                Clone Yourself{" "}
                 <br />
                 <span className="text-[#C83803]">Work 24/7</span>
               </h2>
@@ -57,7 +57,7 @@ export default function CloneYourselfSection() {
           <div className="grid grid-cols-2 content-center gap-4 items-center min-h-screen">
             <div>
               <h2 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Clone Yourself
+                Clone Yourself{" "}
                 <br />
                 <span className="text-[#C83803]">Work 24/7</span>
               </h2>

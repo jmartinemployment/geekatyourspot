@@ -26,8 +26,8 @@ export function UseCasesSection() {
                     <div className="col-span-full">
 
                         <h2 className="hover:text-[#0B162A] text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                            Artificial<br />
-                            Intelligence<br />
+                            Artificial{" "}<br />
+                            Intelligence{" "}<br />
                             <span className="hover:text-[#0B162A] text-[#C83803] shadow-text">Use Cases</span>
                         </h2>
 
@@ -924,8 +924,8 @@ export function UseCasesSection() {
                 <div className="grid grid-cols-1 container mb-5">
                     <div className="col-span-full">
                         <h2 className="hover:text-[#0B162A] text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                            Artificial<br />
-                            Intelligence<br />
+                            Artificial{" "}<br />
+                            Intelligence{" "}<br />
                             <span className="hover:text-[#0B162A] text-[#C83803] shadow-text">Use Cases</span>
                         </h2>
                     </div>
