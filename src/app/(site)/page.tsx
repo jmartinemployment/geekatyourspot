@@ -8,69 +8,65 @@ import type { Metadata, Viewport } from "next";
 
 
 
+// Matches the Google Business Profile: name, address, phone and hours must agree
+// with it, or the two read as different businesses.
+const areaServed = [
+  { "@type": "City", "name": "Delray Beach" },
+  { "@type": "AdministrativeArea", "name": "Palm Beach County" },
+  { "@type": "AdministrativeArea", "name": "Broward County" },
+  { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
+  { "@type": "Place", "name": "South Florida" }
+];
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "LocalBusiness"],
       "@id": "https://geekatyourspot.com/#organization",
       "name": "Geek at Your Spot",
+      "alternateName": "Geek @ Your Spot",
       "url": "https://geekatyourspot.com",
       "logo": "https://geekatyourspot.com/images/GeekAtYourSpot.svg",
+      "image": "https://geekatyourspot.com/images/action-figure.jpeg",
       "description": "AI consultancy building practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+      "telephone": "+1-561-526-3512",
       "sameAs": [
         "https://www.facebook.com/geekatyourspot",
-        "https://www.linkedin.com/company/geek-at-your-spot",
+        "https://www.linkedin.com/company/geekatyourspot",
         "https://twitter.com/geekatyourspot"
       ],
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Delray Beach",
+        "streetAddress": "2025 NW 18th Street",
         "addressLocality": "Delray Beach",
         "addressRegion": "FL",
-        "postalCode": "33444",
+        "postalCode": "33445",
         "addressCountry": "US"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delray Beach"
-      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "areaServed": areaServed,
+      "priceRange": "$$",
       "foundingDate": "2024",
       "knowsAbout": ["Artificial Intelligence", "Machine Learning", "AI Integration", "Business Automation", "Process Optimization"]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://geekatyourspot.com/#localbusiness",
-      "name": "Geek at Your Spot",
-      "url": "https://geekatyourspot.com",
-      "image": "https://geekatyourspot.com/images/action-figure.jpeg",
-      "description": "AI consulting firm specializing in designing, building, and deploying AI systems for small businesses.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delray Beach",
-        "addressRegion": "FL",
-        "addressCountry": "US"
-      },
-      "areaServed": [
-        { "@type": "City", "name": "Delray Beach" },
-        { "@type": "State", "name": "Florida" },
-        { "@type": "Region", "name": "South Florida" }
-      ],
-      "serviceType": "AI Consulting",
-      "priceRange": "$$"
     },
     {
       "@type": "Service",
       "@id": "https://geekatyourspot.com/#service",
       "name": "AI Consulting and Implementation",
+      "serviceType": "AI Consulting",
       "description": "Design, build, and deploy AI systems that fit your existing stack. Our four-phase methodology helps small businesses scale without adding headcount.",
       "provider": {
         "@id": "https://geekatyourspot.com/#organization"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delray Beach"
-      },
+      "areaServed": areaServed,
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "AI Services",
@@ -239,7 +235,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: "Geek at Your Spot",
       description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.',
-      url: 'https://geekatyourspot.com/page.tsx',
+      url: 'https://geekatyourspot.com',
       siteName: 'Geek at Your Spot',
       images: [
         {
