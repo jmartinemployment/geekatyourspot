@@ -122,7 +122,7 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
       "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
     href: "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
     summary:
-      "A forecast is only as current as the data feeding it. These pillars cover the two inputs that go stale fastest: receivables that pay late, and the spreadsheets that still hold the model together.",
+      "A forecast is only as current as the data feeding it. These pillars cover the two inputs that go stale fastest, receivables that pay late and the spreadsheets that still hold the model together, and the planning tools that turn live books into a rolling forecast.",
     pillars: [
       {
         title: "Intelligent Accounts Receivable",
@@ -137,6 +137,13 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
         description:
           "Discover how Intelligent Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
         href: "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+      },
+      {
+        title: "Intelligent Resource Planning",
+        slug: "intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+        description:
+          "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.",
+        href: "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
       },
     ],
   },

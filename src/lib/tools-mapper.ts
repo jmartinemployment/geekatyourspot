@@ -16,6 +16,7 @@ import { billFraudDuplicatePaymentControlsContent } from "@/data/tools/bill-frau
 import { billPaymentExecutionContent } from "@/data/tools/bill-payment-execution";
 import { boardContent } from "@/data/tools/board";
 import { cashflowfrogContent } from "@/data/tools/cashflowfrog";
+import { cashflowfrogIntelligentResourcePlanningContent } from "@/data/tools/cashflowfrog-intelligent-resource-planning";
 import { chaserhqContent } from "@/data/tools/chaserhq";
 import { clockworkContent } from "@/data/tools/clockwork";
 import { coupaContent } from "@/data/tools/coupa";
@@ -23,9 +24,11 @@ import { deelContent } from "@/data/tools/deel";
 import { dextContent } from "@/data/tools/dext";
 import { driftContent } from "@/data/tools/drift";
 import { dryrunContent } from "@/data/tools/dryrun";
+import { fathomhqContent } from "@/data/tools/fathomhq";
 import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
 import { takethehelmContent } from "@/data/tools/takethehelm";
+import { takethehelmIntelligentResourcePlanningContent } from "@/data/tools/takethehelm-intelligent-resource-planning";
 import { taxcloudContent } from "@/data/tools/taxcloud";
 import { taxcloudMultiStateSalesTaxNexusContent } from "@/data/tools/taxcloud-multi-state-sales-tax-nexus";
 import { taxjarContent } from "@/data/tools/taxjar";
@@ -36,6 +39,7 @@ import { gustoContent } from "@/data/tools/gusto";
 import { invoicedContent } from "@/data/tools/invoiced";
 import { justworksContent } from "@/data/tools/justworks";
 import { jasperAiContent } from "@/data/tools/jasper-ai";
+import { jiravContent } from "@/data/tools/jirav";
 import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
 import { madgicxContent } from "@/data/tools/madgicx";
@@ -48,6 +52,7 @@ import { optimoveContent } from "@/data/tools/optimove";
 import { qualyticsContent } from "@/data/tools/qualytics";
 import { quadernoContent } from "@/data/tools/quaderno";
 import { quadernoMultiStateSalesTaxNexusContent } from "@/data/tools/quaderno-multi-state-sales-tax-nexus";
+import { quickbooksContent } from "@/data/tools/quickbooks";
 import { rampContent } from "@/data/tools/ramp";
 import { rampApprovalWorkflowsContent } from "@/data/tools/ramp-approval-workflows";
 import { rillionContent } from "@/data/tools/rillion";
@@ -81,6 +86,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "bill-payment-execution": billPaymentExecutionContent,
   "board": boardContent,
   "cashflowfrog": cashflowfrogContent,
+  "cashflowfrog-intelligent-resource-planning": cashflowfrogIntelligentResourcePlanningContent,
   "chaserhq": chaserhqContent,
   "clockwork": clockworkContent,
   "coupa": coupaContent,
@@ -88,9 +94,11 @@ const toolsMap: Record<string, ToolPageContent> = {
   "dext": dextContent,
   "drift": driftContent,
   "dryrun": dryrunContent,
+  "fathomhq": fathomhqContent,
   "floatapp": floatappContent,
   "great-expectations": greatExpectationsContent,
   "takethehelm": takethehelmContent,
+  "takethehelm-intelligent-resource-planning": takethehelmIntelligentResourcePlanningContent,
   "taxcloud": taxcloudContent,
   "taxcloud-multi-state-sales-tax-nexus": taxcloudMultiStateSalesTaxNexusContent,
   "taxjar": taxjarContent,
@@ -101,6 +109,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "invoiced": invoicedContent,
   "justworks": justworksContent,
   "jasper-ai": jasperAiContent,
+  "jirav": jiravContent,
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
   "madgicx": madgicxContent,
@@ -113,6 +122,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "qualytics": qualyticsContent,
   "quaderno": quadernoContent,
   "quaderno-multi-state-sales-tax-nexus": quadernoMultiStateSalesTaxNexusContent,
+  "quickbooks": quickbooksContent,
   "ramp": rampContent,
   "ramp-approval-workflows": rampApprovalWorkflowsContent,
   "rillion": rillionContent,

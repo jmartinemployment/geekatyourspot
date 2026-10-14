@@ -1,0 +1,7 @@
+If you run a small business in South Florida and your books are a mess, you are not alone. Most owners I meet in Miami-Dade, Broward and Palm Beach are still stitching together old spreadsheets, email chains, and desktop files. The result: forecasting cash is guesswork, hiring is risky, and you waste hours every week just moving numbers from one place to another. That is not just admin, it is a real financial risk.
+
+When your data is scattered and your reporting is slow, you pay for it. You miss early warnings when cash will run short. You make hiring or buying decisions on numbers that are out of date. You get bottlenecks before payroll or tax deadlines. Even if you upgrade to QuickBooks, you hit walls fast: manual exports, clunky permissions, and no live view of cash across all your accounts. Migrating to a full ERP sounds like a budget-buster, so most wait, and the problems pile up.
+
+This deck breaks down the five core tools that actually fix what goes wrong, one pain point at a time. You will see how each tool answers a specific failure: from Jirav’s rolling forecasts and headcount planning, to Takethehelm’s drag-and-drop cash timing, to Cashflowfrog’s real-time cash alerts, to Fathomhq’s operational KPIs and consolidation, to how QuickBooks stretches before you need a full ERP. Each slide gets specific: what goes wrong, what it costs, and how the right piece fits in.
+
+If you are sick of paying for fixes that never stick, start here. These are the same solutions we implement in the field for small teams just like yours.

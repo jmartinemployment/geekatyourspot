@@ -1,0 +1,1 @@
+A flat vector decision-tree diagram showing different data structure options, with branches leading to various mapping icons, databases, and cloud symbols, highlighting important deployment choices.

@@ -1,0 +1,1 @@
+A layered architecture diagram with icons for various business tools (CRM, ERP, etc.) feeding into Fathomhq’s central platform, showing data storage, integration points, and cloud scalability, all depicted as interconnected modules in a flat vector style.

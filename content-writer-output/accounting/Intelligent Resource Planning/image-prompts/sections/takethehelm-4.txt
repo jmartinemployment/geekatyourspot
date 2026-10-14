@@ -1,0 +1,1 @@
+A technical flat vector infographic showing modular architecture blocks: integrations with various SaaS tools, secure data pipelines, a central processing hub, and user control panels, all interconnected to represent Takethehelm’s robust architecture.

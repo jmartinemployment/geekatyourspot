@@ -1,0 +1,1 @@
+A decision tree flat vector diagram showing branching choices from manual to automated resource planning, with some paths highlighted as optimal and others leading to question marks, representing exceptions.

@@ -1,0 +1,1 @@
+Decision tree diagram illustrating different business personas evaluating Cashflowfrog, with branching paths leading to outcomes like adoption, alternative tool selection, or further research.

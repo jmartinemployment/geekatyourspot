@@ -266,6 +266,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business"
+                      label="Intelligent Resource Planning"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/accounting/tax-compliance-regulations"
                       label="Tax Compliance &amp; Regulations"
                       onNavigate={closeSidebar}
@@ -382,6 +387,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida"
+                      label="Intelligent Resource Planning: How to Fix Cash Flow Headaches"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-smbs-must-know-before-choosing-compliance-solutions"
                       label="Payroll Tax &amp; Worker Misclassification: What Miami SMBs Must Know"
                       onNavigate={closeSidebar}
@@ -430,26 +440,31 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" label="Bill (Data Entry)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" label="Bill (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" label="Bill (Payment Execution)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" label="Cashflowfrog" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog" label="Cashflowfrog (Resource Planning)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" label="Cashflowfrog (Spreadsheet Data)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" label="Chaserhq" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" label="Clockwork" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" label="Deel" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" label="Dext" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" label="Dryrun" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" label="Fathom" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" label="Floatapp" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" label="Gusto" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" label="Invoiced" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav" label="Jirav" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks" label="Justworks" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" label="Medius" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" label="Melio (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" label="Melio (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" label="Quaderno (Sales Tax Nexus)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno" label="Quaderno (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" label="QuickBooks Online Advanced" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" label="Ramp (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling" label="Rippling" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" label="Stampli" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Take the Helm" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm" label="Take the Helm (Resource Planning)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Take the Helm (Spreadsheet Data)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" label="TaxCloud (Sales Tax Nexus)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud" label="TaxCloud (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" label="TaxJar (Sales Tax Nexus)" onNavigate={closeSidebar} />

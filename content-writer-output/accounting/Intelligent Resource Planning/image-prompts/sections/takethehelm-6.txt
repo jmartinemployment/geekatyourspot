@@ -1,0 +1,1 @@
+A flat vector diagram showing various data sources and structures connecting through mapping nodes into a unified, organized dashboard, highlighting the importance of data structure and mapping in unlocking immediate value.

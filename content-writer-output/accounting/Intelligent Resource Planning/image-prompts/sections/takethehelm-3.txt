@@ -1,0 +1,1 @@
+A step-by-step flat vector diagram illustrating the journey from raw data inputs (databases, spreadsheets) through a processing pipeline, ending with dynamic cash flow forecast charts and dashboards, emphasizing data transformation and real-time insight.

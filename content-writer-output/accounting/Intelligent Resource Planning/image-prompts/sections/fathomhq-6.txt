@@ -1,0 +1,1 @@
+A schematic diagram showing data sources flowing into a mapping grid, with highlighted nodes for key data structure decisions, connectors representing mapping logic, all in a precise flat vector style suitable for B2B tech.

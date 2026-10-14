@@ -1,0 +1,1 @@
+Flat vector showing a seamless data pipeline from various sources (banks, invoices, financial platforms) flowing automatically into a forecasting dashboard, with real-time graphs updating and no human intervention depicted.

@@ -1,0 +1,1 @@
+A flat vector Venn diagram showing overlapping and non-overlapping circles, with icons for different business types, to visualize which small businesses benefit from Jirav and which do not.

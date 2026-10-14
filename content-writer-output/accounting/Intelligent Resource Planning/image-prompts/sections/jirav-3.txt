@@ -1,0 +1,1 @@
+A step-by-step flat vector flowchart showing data collection, processing, analysis, and dashboard visualization, connected by arrows, illustrating the sequence of automated steps behind Jirav's resource planning.

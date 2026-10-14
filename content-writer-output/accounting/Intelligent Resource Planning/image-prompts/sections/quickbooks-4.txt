@@ -1,0 +1,1 @@
+A flat vector cutaway diagram of a software architecture, showing interconnected modules, APIs, and data flows between cloud, database, and application layers, emphasizing system structure.

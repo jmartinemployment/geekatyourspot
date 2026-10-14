@@ -1,0 +1,1 @@
+Infographic-style illustration of a layered architecture: integration nodes (banks, apps) feeding into secure data storage, with shield and lock icons, and outputting to an analytics interface, all in a modern tech style.

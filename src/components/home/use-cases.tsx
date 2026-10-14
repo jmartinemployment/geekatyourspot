@@ -352,22 +352,49 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-sm">
-                                            Intelligent Enterprise Resource Planning:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-intelligent-resource-planning"
+                                            href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-sm hover:text-[#C83803]">
+                                                Intelligent Resource Planning:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-xs ">
                                             Sales fluctuate, making it hard to guess future income. Copying numbers from bank accounts wastes time and causes human error.  Sudden bills or repairs break the budget without warning.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Enterprise Planning Tools:
+                                            Top 5 Intelligent Resource Planning Tools:
                                         </h6>
                                         <p className="text-xs ">
-                                            Acumatica,&nbsp;
-                                            NetSuite,&nbsp;
-                                            Odoo,&nbsp;
-                                            Microsoft Dynamics 365 Business,&nbsp;
-                                            Sage.
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog", "Cashflowfrog")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Cashflowfrog
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq", "Fathom")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Fathom
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav", "Jirav")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Jirav
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks", "QuickBooks Online Advanced")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                QuickBooks Online Advanced
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm", "Take the Helm")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Take the Helm
+                                            </Link>.
                                         </p>
                                     </li>
                                 </ul>
@@ -1229,22 +1256,49 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5><strong className="text-black text-base">
-                                            Intelligent Enterprise Resource Planning:
-                                        </strong>
-                                        </h5>
+                                        <Link id="home-use-cases-accounting-intelligent-resource-planning"
+                                            href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business"
+                                            className="hover:underline">
+                                            <h5><strong className="text-black text-base hover:text-[#C83803]">
+                                                Intelligent Resource Planning:</strong></h5>
+                                        </Link>
                                         <p className="text-black text-sm ">
                                             Sales fluctuate, making it hard to guess future income. Copying numbers from bank accounts wastes time and causes human error.  Sudden bills or repairs break the budget without warning.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Enterprise Planning Tools:
+                                            Top 5 Intelligent Resource Planning Tools:
                                         </h6>
                                         <p className="text-black text-sm ">
-                                            Acumatica,&nbsp;
-                                            NetSuite,&nbsp;
-                                            Odoo,&nbsp;
-                                            Microsoft Dynamics 365 Business,&nbsp;
-                                            Sage.
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog", "Cashflowfrog")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Cashflowfrog
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq", "Fathom")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Fathom
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav", "Jirav")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Jirav
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks", "QuickBooks Online Advanced")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                QuickBooks Online Advanced
+                                            </Link>,&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm", "Take the Helm")}
+                                                href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Take the Helm
+                                            </Link>.
                                         </p>
                                     </li>
                                 </ul>

@@ -1,0 +1,1 @@
+A flat vector diagram of interconnected gears and flow arrows, each gear representing rules, automation, and configuration modules, demonstrating how these components interact within Jirav.

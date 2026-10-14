@@ -1,0 +1,1 @@
+A flat vector schematic showing tables, fields, and mapping lines between data sources and Quickbooks modules, highlighting decisions in data organization and integration.

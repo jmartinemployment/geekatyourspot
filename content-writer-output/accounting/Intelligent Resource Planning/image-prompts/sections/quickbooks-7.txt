@@ -1,0 +1,1 @@
+A flat vector interface mockup showing toggles, sliders, and rule settings, with visual indicators of customization options and automation flows within a software dashboard.

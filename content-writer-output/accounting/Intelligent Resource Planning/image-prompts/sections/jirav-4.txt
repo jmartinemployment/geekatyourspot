@@ -1,0 +1,1 @@
+A layered flat vector diagram depicting Jirav’s system architecture: cloud infrastructure at the base, integration connectors linking to various business apps, and a structured data model layer, all visually connected.
