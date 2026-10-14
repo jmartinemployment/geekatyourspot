@@ -76,7 +76,7 @@ export function UseCasesSection() {
                                                 Intelligent Data Entry &amp; Processing:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs">
-                                            Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
+                                            Stop burning billable hours on manual data entry.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Data Entry Processing Tools:
@@ -117,7 +117,7 @@ export function UseCasesSection() {
                                                 Intelligent Approval Workflows:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs">
-                                            We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
+                                            Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Approval Workflow Tools:
                                         </h6>
@@ -162,7 +162,7 @@ export function UseCasesSection() {
                                                 Intelligent Payment Execution:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs">
-                                            Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
+                                            Control exactly how and when your cash moves, automatically.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Payment Execution Tools:
                                         </h6>
@@ -207,7 +207,7 @@ export function UseCasesSection() {
                                                 Intelligent Fraud &amp; Duplicate Payment Controls:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Automate the matching of Purchase Orders, Receiving Reports, and Invoices before payment is released, and route payments through virtual cards — which carry stronger fraud controls than traditional payment methods.
+                                            Stop financial leaks before they walk out the door.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Fraud & Duplicate Payment Controls Tools:
@@ -255,7 +255,7 @@ export function UseCasesSection() {
                                     </h4>
                                 </Link>
                                 <p className="text-black text-xs">
-                                    You face unpredictable income, delayed customer collections, hidden or rising overhead costs, manual data entry errors, and confusing high profit on paper with actual available bank cash.
+                                    See around corners and never run out of cash.
                                 </p>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
@@ -266,7 +266,7 @@ export function UseCasesSection() {
                                                 Intelligent Accounts Receivable:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Clients take 30, 60, or 90 days to settle bills, leaving you to cover payroll and materials out of pocket while waiting.                                        </p>
+                                            Get paid faster without ever chasing a client again.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Accounts Receivable Tools:
                                         </h6>
@@ -313,7 +313,7 @@ export function UseCasesSection() {
                                                 Intelligent Spreadsheet Data:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Static spreadsheets show old data instead of live numbers. Manual entry into basic grids leads to human error, outdated figures, and broken formulas. Bank accounts, invoicing software, and payroll tools do not always sync automatically.
+                                            Turn static rows of cells into a dynamic, living business playbook.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Spreadsheet Replacement Tools:
@@ -359,7 +359,7 @@ export function UseCasesSection() {
                                                 Intelligent Resource Planning:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Sales fluctuate, making it hard to guess future income. Copying numbers from bank accounts wastes time and causes human error.  Sudden bills or repairs break the budget without warning.
+                                            Get big-enterprise efficiency without the big-enterprise price tag.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Resource Planning Tools:
@@ -406,17 +406,17 @@ export function UseCasesSection() {
                                     </h4>
                                 </Link>
                                 <p className="text-black text-xs ">
-                                    Intelligent tax compliance software streamlines calculations, nexus tracking, exemption management, and filings across thousands of global jurisdictions.  Applies real-time regulatory updates, minimize manual human errors, and generate signature-ready reports.
+                                    Turn tax season into just another Tuesday.
                                 </p>                                <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-complex-and-changing-laws"
                                             href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                Intelligent Tax Law Tools:</strong></h5>
+                                                Intelligent Tax Law:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Frequent updates to tax codes, deductions, and specialized reporting requirements make it difficult to stay current without dedicated legal or accounting staff.
+                                            Stop guessing your way through complex tax codes.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Tax Law Tools:
@@ -459,10 +459,10 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                Intelligent Payroll Tax Tools:</strong></h5>
+                                                Intelligent Payroll Tax:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Handling payroll tax deposits, tracking overtime rules, and correctly distinguishing between W-2 employees and 1099 independent contractors trigger high risks of penalties.
+                                            Take the liability and absolute dread out of payroll administration.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Payroll Tax Tools:
@@ -505,10 +505,10 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                Intelligent Multi-State Sales Tax Tools:</strong></h5>
+                                                Intelligent Multi-State Sales Tax:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
-                                            Online and remote sales force tracking economic or physical presence across multiple state lines, complicating collection and remittance.
+                                            Expand your market without inheriting a compliance nightmare.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Multi-State Sales Tax Tools:
@@ -976,7 +976,7 @@ export function UseCasesSection() {
                                             </h5>
                                         </Link>
                                         <p className="text-black text-sm">
-                                            Turn AP email chaos into a controlled, QuickBooks-connected invoice-to-payment workflow in 30 days.
+                                            Stop burning billable hours on manual data entry.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Data Entry Processing Tools:
@@ -1019,7 +1019,7 @@ export function UseCasesSection() {
                                             </h5>
                                         </Link>
                                         <p className="text-black text-sm">
-                                            We implement an AP approval workflow so vendor invoices are automatically captured, checked, assigned to the right decision-maker, escalated if delayed, recorded in QuickBooks, and paid only after the required authorization.                                        </p>
+                                            Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Approval Workflow Tools:
                                         </h6>
@@ -1066,7 +1066,7 @@ export function UseCasesSection() {
                                             </h5>
                                         </Link>
                                         <p className="text-black text-sm">
-                                            Centralize bill intake, approvals, payment execution, and client/accountant visibility in a repeatable AP process.                                        </p>
+                                            Control exactly how and when your cash moves, automatically.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Payment Execution Tools:
                                         </h6>
@@ -1111,7 +1111,7 @@ export function UseCasesSection() {
                                                 Intelligent Fraud &amp; Duplicate Payment Controls:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Automate the matching of Purchase Orders, Receiving Reports, and Invoices before payment is released, and route payments through virtual cards — which carry stronger fraud controls than traditional payment methods.
+                                            Stop financial leaks before they walk out the door.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Fraud & Duplicate Payment Controls Tools:
@@ -1159,7 +1159,7 @@ export function UseCasesSection() {
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm ">
-                                    You face unpredictable income, delayed customer collections, hidden or rising overhead costs, manual data entry errors, and confusing high profit on paper with actual available bank cash.
+                                    See around corners and never run out of cash.
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
@@ -1170,7 +1170,7 @@ export function UseCasesSection() {
                                                 Intelligent Accounts Receivable:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Clients take 30, 60, or 90 days to settle bills, leaving you to cover payroll and materials out of pocket while waiting.                                        </p>
+                                            Get paid faster without ever chasing a client again.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Accounts Receivable Tools:
                                         </h6>
@@ -1217,7 +1217,7 @@ export function UseCasesSection() {
                                                 Intelligent Spreadsheet Data:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Static spreadsheets show old data instead of live numbers. Manual entry into basic grids leads to human error, outdated figures, and broken formulas. Bank accounts, invoicing software, and payroll tools do not always sync automatically.
+                                            Turn static rows of cells into a dynamic, living business playbook.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Spreadsheet Replacement Tools:
@@ -1263,7 +1263,7 @@ export function UseCasesSection() {
                                                 Intelligent Resource Planning:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Sales fluctuate, making it hard to guess future income. Copying numbers from bank accounts wastes time and causes human error.  Sudden bills or repairs break the budget without warning.
+                                            Get big-enterprise efficiency without the big-enterprise price tag.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Resource Planning Tools:
@@ -1310,7 +1310,7 @@ export function UseCasesSection() {
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm ">
-                                    Intelligent tax compliance software streamlines calculations, nexus tracking, exemption management, and filings across thousands of global jurisdictions. It integrates directly with ERP and e-commerce platforms to apply real-time regulatory updates, minimize manual human errors, and generate signature-ready reports.
+                                    Turn tax season into just another Tuesday.
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
@@ -1318,10 +1318,10 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                Intelligent Tax Law Tools:</strong></h5>
+                                                Intelligent Tax Law:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Frequent updates to tax codes, deductions, and specialized reporting requirements make it difficult to stay current without dedicated legal or accounting staff.
+                                            Stop guessing your way through complex tax codes.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Tax Law Tools:
@@ -1364,10 +1364,10 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                Intelligent Payroll Tax Tools:</strong></h5>
+                                                Intelligent Payroll Tax:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Handling payroll tax deposits, tracking overtime rules, and correctly distinguishing between W-2 employees and 1099 independent contractors trigger high risks of penalties.
+                                            Take the liability and absolute dread out of payroll administration.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Payroll Tax Tools:
@@ -1410,10 +1410,10 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                Intelligent Multi-State Sales Tax Tools:</strong></h5>
+                                                Intelligent Multi-State Sales Tax:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
-                                            Online and remote sales force tracking economic or physical presence across multiple state lines, complicating collection and remittance.
+                                            Expand your market without inheriting a compliance nightmare.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Multi-State Sales Tax Tools:
