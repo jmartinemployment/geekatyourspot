@@ -317,7 +317,7 @@ export const generateViewport = (): Viewport => ({
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
     { media: '(prefers-color-scheme: dark)', color: '#023059' },
   ],
-  colorScheme: 'light dark',
+  colorScheme: 'light',
 });
 
 export default async function Home() {
