@@ -16,7 +16,7 @@ export default function IntegratingAiCashFlowManagementSection() {
               financial data swiftly, providing insights that are both predictive and prescriptive. Geek At Your Spot, a leader in
               AI implementation for B2B organizations, facilitates this integration by designing robust data models, configuring
               workflows, and ensuring seamless integration with existing financial systems.</p>
-            <p className="pt-5 text-md font-normal text-white shadow-text">AI&#39;s role in cash flow management extends beyond traditional forecasting methods. By leveraging <GlossaryLink slug="machine-learning">machine
+            <p className="pt-5 text-md font-normal text-white shadow-text">AI&#39;s role in cash flow management extends beyond traditional forecasting methods. By leveraging <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine
               learning</GlossaryLink> algorithms, AI can identify patterns and predict future cash flow scenarios with a higher degree of
               accuracy. This capability allows businesses to anticipate cash shortages or surpluses, enabling proactive
               decision-making.</p>
@@ -56,7 +56,7 @@ export default function IntegratingAiCashFlowManagementSection() {
               <li>Streamlined report generation with real-time updates</li>
               <li>Integration with existing ERP and financial software</li>
             </ul>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (<GlossaryLink slug="erp">ERP</GlossaryLink>) systems and financial software is a critical component
+            <p className="pt-5 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>) systems and financial software is a critical component
               of successful AI implementation. By ensuring compatibility and seamless data flow between systems, Geek At Your Spot
               enhances the efficiency of financial operations and supports informed decision-making.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Governance and Change Management</h3>
