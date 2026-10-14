@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Typewriter from "./typewriter";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 
 export default function HeroSection() {
@@ -13,16 +12,14 @@ export default function HeroSection() {
               <h1 className="font-[var(--font-sora)] text-[12vw] font-black leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 Redefine Your Business
                 <br />
-                <Typewriter
-                  words={["Efficiency", "Automation", "Revenue", "Growth"]}
-                />
+                <span className="text-[#C83803]">Efficiency</span>
               </h1>
-              <p className="py-15 text-lg text-white shadow-text">
+              <p className="pt-3 text-xl text-white shadow-text">
                 Design, build, and deploy AI systems that fit your existing
                 stack. Free consultation, four-phase methodology, 40 years of
                 hands-on engineering, scale without adding headcount.
               </p>
-              <div className="pb-15">
+              <div className="pt-6">
                 <Link
                   id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
                   href="#consultationAppointment2xl"
@@ -43,11 +40,9 @@ export default function HeroSection() {
               <h1 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Redefine Your Business
                 <br />
-                <Typewriter
-                  words={["Efficiency", "Automation", "Revenue", "Growth"]}
-                />
+                <span className="text-[#C83803]">Efficiency</span>
               </h1>
-              <p className="max-w-3xl pt-5 text-xl font-normal text-white shadow-text">
+              <p className="pt-3 text-2xl text-white shadow-text">
                 Design, build, and deploy AI systems that fit your existing
                 stack. Free consultation, four-phase methodology, 40 years of
                 hands-on engineering, scale without adding headcount.
