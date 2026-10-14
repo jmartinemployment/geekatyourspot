@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Payroll Tax & Worker Misclassification: AI Implementation for Local SMB Compliance";
+const TITLE = "Intelligent Payroll Tax";
 const DESCRIPTION =
     "AI solutions for Payroll Tax & Worker Misclassification help SMBs in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.";
 const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance";

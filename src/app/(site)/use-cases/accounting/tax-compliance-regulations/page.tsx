@@ -16,7 +16,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Automated Tax Compliance & Regulations",
+            "headline": "Tax Compliance & Regulations",
             "image": "https://geekatyourspot.com/images/accounting/use-cases/tax-compliance-regulations/intelligent-tax-compliance-regulations-hero.avif",
             "description": "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.",
             "author": {
@@ -114,7 +114,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "Automated Tax Compliance & Regulations",
+        title: "Tax Compliance & Regulations",
         description: "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.",
         keywords: ["Automated Tax Compliance", "Tax Regulations Automation", "AI in Tax Compliance", "Financial Operations Automation", "Tax Compliance Software", "AI Solutions Integration", "Regulatory Compliance", "Tax Automation Tools", "Financial Process Automation", "AI Implementation Consultancy"],
         authors: [{ name: 'Geek at Your Spot', url: 'https://geekatyourspot.com/' }],
@@ -125,7 +125,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/accounting/tax-compliance-regulations',
         },
         openGraph: {
-            title: "Automated Tax Compliance & Regulations",
+            title: "Tax Compliance & Regulations",
             description: 'Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.',
             url: 'https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations',
             siteName: 'Geek at Your Spot',
@@ -142,7 +142,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Automated Tax Compliance & Regulations",
+            title: "Tax Compliance & Regulations",
             description: 'Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -169,7 +169,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Intelligent Tax Compliance & Regulations";
+    const title = "Tax Compliance & Regulations";
     const heroSummary = "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations."
     const heroImage = "/images/accounting/use-cases/tax-compliance-regulations/intelligent-tax-compliance-regulations-hero.avif";
     const imgAlt = "Intelligent tax compliance and regulations";

@@ -11,7 +11,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Automated Payment Execution: Streamlining Accounts Payable with AI";
+const TITLE = "Intelligent Payment Execution";
 const DESCRIPTION =
     "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai";

@@ -119,7 +119,7 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
       },
       {
-        title: "Intelligent Cash Flow Forecasting",
+        title: "Cash Flow Forecasting",
         slug: "automated-cash-flow-forecasting",
         description:
           "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
@@ -147,28 +147,28 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
       },
       {
-        title: "Intelligent Tax Compliance & Regulations",
+        title: "Tax Compliance & Regulations",
         slug: "tax-compliance-regulations",
         description:
           "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations.",
         href: "/use-cases/accounting/tax-compliance-regulations",
       },
       {
-        title: "AI Solutions for Complex and Changing Tax Laws",
+        title: "Intelligent Tax Law",
         slug: "automating-complex-and-changing-laws",
         description:
           "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
         href: "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
       },
       {
-        title: "Payroll Tax & Worker Misclassification",
+        title: "Intelligent Payroll Tax",
         slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
         description:
           "AI solutions for Payroll Tax & Worker Misclassification help SMBs in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.",
         href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
       },
       {
-        title: "Multi-State Sales Tax Nexus",
+        title: "Intelligent Multi-State Sales Tax",
         slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
         description:
           "Multi-State Sales Tax Nexus compliance made simple for South Florida SMBs. Automate filings, reduce errors, and stay audit-ready with local AI expertise.",

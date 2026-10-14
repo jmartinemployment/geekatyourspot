@@ -11,7 +11,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Automated Fraud & Duplicate Payment Controls: Boosting Efficiency for SMBs";
+const TITLE = "Intelligent Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Implement Automated Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs";

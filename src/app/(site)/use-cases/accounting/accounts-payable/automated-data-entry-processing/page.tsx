@@ -10,7 +10,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Streamlining Accounts Payable: Automated Data Entry & Processing";
+const TITLE = "Intelligent Data Entry & Processing";
 const DESCRIPTION =
     "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-data-entry-processing";

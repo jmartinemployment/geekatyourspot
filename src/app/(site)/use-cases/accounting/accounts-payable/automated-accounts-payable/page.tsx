@@ -15,7 +15,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Automated Accounts Payable",
+            "headline": "Accounts Payable",
             "description": "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
             "image": [
                 "https://geekatyourspot.com/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-hero.avif"
@@ -95,7 +95,7 @@ const jsonLd: Graph = {
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Automated Accounts Payable",
+        title: "Accounts Payable",
         description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
         keywords: ["automated accounts payable", "AP automation", "AI in finance", "accounts payable software", "financial operations", "invoice processing", "AP efficiency", "AI-driven finance", "AP tools", "business automation"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -106,7 +106,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/accounting/accounts-payable/automated-accounts-payable',
         },
         openGraph: {
-            title: "Automated Accounts Payable",
+            title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
             url: 'https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable',
             siteName: 'Geek at Your Spot',
@@ -123,7 +123,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Automated Accounts Payable",
+            title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -150,7 +150,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Automated Accounts Payable";
+    const title = "Accounts Payable";
     const heroSummary = "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy."
     const heroImage = "/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-hero.avif";
     const imgAlt = "Automated accounts payable";

@@ -150,7 +150,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-  const title = "Automated Cash Flow Forecasting";
+  const title = "Cash Flow Forecasting";
   const heroSummary = "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management."
   const heroImage = "/images/accounting/use-cases/cash-flow-forecasting/cash-flow-forecasting-pillar-hero.avif";
   const imgAlt = "Automated cash flow forecasting"

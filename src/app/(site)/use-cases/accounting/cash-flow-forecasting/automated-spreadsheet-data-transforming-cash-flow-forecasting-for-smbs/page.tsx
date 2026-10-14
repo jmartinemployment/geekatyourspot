@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Automated Spreadsheet Data: Transforming Cash Flow Forecasting for SMBs";
+const TITLE = "Intelligent Spreadsheet Data";
 const DESCRIPTION =
     "Discover how Automated Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs";

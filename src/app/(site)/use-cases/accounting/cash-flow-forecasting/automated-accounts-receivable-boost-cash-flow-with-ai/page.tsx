@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Automated Accounts Receivable: Boost Cash Flow with AI";
+const TITLE = "Intelligent Accounts Receivable";
 const DESCRIPTION =
     "Automated Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai";
