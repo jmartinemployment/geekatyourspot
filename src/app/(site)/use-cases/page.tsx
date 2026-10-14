@@ -63,15 +63,15 @@ interface Department {
   href: string;
   /** One-paragraph framing shown above the cards. */
   summary: string;
-  /** Top-level pillars of the department, in navbar order. Sub-pillars live on the department index. */
+  /** The department's pillars, in navbar order. Accounting lists each category followed by its sub-pillars. */
   useCases: UseCase[];
 }
 
 /**
- * One section per department. The department index remains the full answer
- * to "what is in it" (sub-pillars included); this page lists the top-level
- * pillars so a reader can jump straight to one. Keep both in step with the
- * navbar (`src/components/layout/navbar.tsx`).
+ * One section per department, listing every pillar so a reader can jump
+ * straight to one. Accounting's cards match the department index
+ * (`/use-cases/accounting`); keep both in step with the navbar
+ * (`src/components/layout/navbar.tsx`).
  */
 const DEPARTMENTS: Department[] = [
   {
@@ -91,6 +91,34 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
       },
       {
+        title: "Intelligent Data Entry & Processing",
+        slug: "automated-data-entry-processing",
+        description:
+          "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.",
+        href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing",
+      },
+      {
+        title: "Intelligent Approval Workflows",
+        slug: "automated-approval-workflows-transforming-accounts-payable",
+        description:
+          "Explore Intelligent Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
+        href: "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable",
+      },
+      {
+        title: "Intelligent Payment Execution",
+        slug: "automated-payment-execution-streamlining-accounts-payable-with-ai",
+        description:
+          "Intelligent Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
+        href: "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+      },
+      {
+        title: "Intelligent Fraud & Duplicate Payment Controls",
+        slug: "automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
+        description:
+          "Implement Intelligent Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.",
+        href: "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
+      },
+      {
         title: "Intelligent Cash Flow Forecasting",
         slug: "automated-cash-flow-forecasting",
         description:
@@ -98,11 +126,53 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
       },
       {
+        title: "Intelligent Accounts Receivable",
+        slug: "automated-accounts-receivable-boost-cash-flow-with-ai",
+        description:
+          "Intelligent Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
+        href: "/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai",
+      },
+      {
+        title: "Intelligent Spreadsheet Data",
+        slug: "automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+        description:
+          "Discover how Intelligent Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
+        href: "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+      },
+      {
+        title: "Intelligent Resource Planning",
+        slug: "intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+        description:
+          "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.",
+        href: "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+      },
+      {
         title: "Intelligent Tax Compliance & Regulations",
         slug: "tax-compliance-regulations",
         description:
           "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations.",
         href: "/use-cases/accounting/tax-compliance-regulations",
+      },
+      {
+        title: "AI Solutions for Complex and Changing Tax Laws",
+        slug: "automating-complex-and-changing-laws",
+        description:
+          "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
+        href: "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+      },
+      {
+        title: "Payroll Tax & Worker Misclassification",
+        slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+        description:
+          "AI solutions for Payroll Tax & Worker Misclassification help SMBs in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.",
+        href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+      },
+      {
+        title: "Multi-State Sales Tax Nexus",
+        slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
+        description:
+          "Multi-State Sales Tax Nexus compliance made simple for South Florida SMBs. Automate filings, reduce errors, and stay audit-ready with local AI expertise.",
+        href: "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
       },
     ],
   },
