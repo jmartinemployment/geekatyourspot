@@ -1,42 +1,49 @@
-import Image from "next/image";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const title = "Automated Accounts Payable";
-  const heroSummary = "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy."
-  const heroImage = "";
-
+  const body = (
+    <>
+      <p className="text-md text-white shadow-text pt-3">
+        In the ever-evolving landscape of taxation, businesses often find themselves navigating a complex
+        labyrinth of regulations and compliance requirements. As governments worldwide continuously update tax
+        codes to reflect new economic realities, the challenge of staying compliant becomes increasingly
+        daunting. However, like Ariadne’s thread guiding Theseus through the maze,
+        automated&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;solutions offer a
+        beacon of hope, simplifying the path forward for businesses large and small.</p>
+      <p className="text-md text-white shadow-text pt-3">
+        Automated tax compliance systems are not just about digitizing paperwork; they are transformative tools
+        that integrate seamlessly into existing financial operations. These systems leverage advanced algorithms
+        and real-time data analytics to ensure that businesses remain compliant with the latest regulations,
+        reducing the risk of costly errors and penalties. By adopting these technologies, organizations can
+        focus more on strategic growth and less on the intricacies of tax law, turning a potential quagmire into
+        a streamlined, efficient process.</p>
+    </>
+  );
 
   return (
     <>
-      <section className="min-h-screen bg-[#024059] text-white py-5">
+      <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center">
-              <Image
-                width="460"
-                height="460"
-                src="/images/accounting/use-cases/cash-flow-forecasting/cash-flow-forecasting-overview.avif"
-                alt="Introduction to Automated Accounts Payable" />
-            </div>
+            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
-                Navigating the River of Cash Flow: Forecasting for Financial Success
+              <h2 id="navigating-the-labyrinth-embracing-automated-tax-compliance" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Navigating the Labyrinth: Embracing Automated Tax Compliance
               </h2>
-              <p className="text-md text-white shadow-text">
-                Imagine navigating a river without a map or compass, where unexpected twists and turns can lead to treacherous
-                waters. This is often how businesses feel when tackling the unpredictable currents of <GlossaryLink slug="cash-flow-forecasting">cash flow</GlossaryLink> without a reliable
-                forecasting strategy in place. <GlossaryLink slug="cash-flow-forecasting">Cash flow forecasting</GlossaryLink> is more than just a financial exercise; it&#39;s a critical
-                navigation tool that guides businesses through the complexities of their financial landscape, ensuring smooth
-                sailing towards sustainable growth and stability.
-              </p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
-                In today&#39;s fast-paced business environment, the ability to accurately predict cash flow is paramount. With the
-                integration of advanced AI tools, companies can now harness data-driven insights to refine their forecasting models,
-                providing a clearer vision of their financial future. This article delves into the strategies and technological
-                advancements that empower businesses to master cash flow forecasting, transforming it from a daunting challenge into
-                a strategic advantage.
-              </p>
+            </div>
+            <div className="col-span-12">{body}</div>
+          </div>
+        </div>
+      </section>
+      <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-7">
+              <h2 id="navigating-the-labyrinth-embracing-automated-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Navigating the Labyrinth: Embracing Automated Tax Compliance
+              </h2>
+              {body}
             </div>
           </div>
         </div>
