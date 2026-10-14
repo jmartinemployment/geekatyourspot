@@ -46,7 +46,7 @@ const jsonLd: Graph = {
             },
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara#software"
+                    "@id": "#software-avalara"
                 },
                 {
                     "@id": "#software-thomsonreutersonesource"
@@ -65,11 +65,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Avalara is a leading platform that simplifies tax compliance for businesses by automating various tax-related tasks. It provides comprehensive tools that ensure accurate tax calculations and filing processes, which are crucial for businesses operating across multiple jurisdictions.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara"
-            },
-            "@id": "https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/avalara#software"
+            "@id": "#software-avalara"
         },
         {
             "@type": "SoftwareApplication",

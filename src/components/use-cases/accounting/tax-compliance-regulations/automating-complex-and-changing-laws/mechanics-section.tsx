@@ -15,7 +15,7 @@ export default function MechanicsSection() {
         comprehensive&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>&nbsp;assessment. This involves evaluating the current data&#39;s accuracy,
         completeness, and timeliness. Tools
-        like&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-quaderno" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno" className="text-[#0B162A] hover:underline">Quaderno</Link>&nbsp;can
+        like&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-quaderno" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno" className="text-[#0B162A] hover:underline">Quaderno</Link>&nbsp;can
         streamline this by automating compliance with local and international tax regulations, ensuring that
         every transaction meets legal standards. Quaderno&#39;s ability to handle real-time tax calculations and
         generate compliant invoices in local languages and currencies is particularly useful for businesses
@@ -23,7 +23,7 @@ export default function MechanicsSection() {
       <p className="text-md text-white shadow-text pt-3">
         The third step is selecting the right technology stack. Choosing tools that integrate seamlessly with
         existing systems minimizes disruption and maximizes
-        efficiency.&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-zamp" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>,
+        efficiency.&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-zamp" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>,
         for example, offers a comprehensive tax management solution that simplifies multi-state compliance by
         providing a dedicated team to handle every aspect of tax management, from registration to notice
         resolution. This eliminates the need for businesses to act like tax attorneys, allowing them to focus on
@@ -31,14 +31,14 @@ export default function MechanicsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Implementation follows a pilot strategy, ensuring minimal risk and maximum learning. A small-scale
         rollout allows businesses to test the system&#39;s effectiveness and gather
-        insights.&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-taxcloud" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>’s
+        insights.&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-taxcloud" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>’s
         hands-free autofiling feature can be invaluable here, automating the generation and submission of tax
         returns across numerous jurisdictions, reducing the manual burden and potential for error.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, continuous scaling and monitoring ensure that the system remains effective as the business
         grows. This involves regular updates and system checks to adapt to any changes in tax laws or business
         operations. Tools
-        like&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-taxvalet" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet" className="text-[#0B162A] hover:underline">TaxValet</Link>&nbsp;provide
+        like&nbsp;<Link id="use-cases-accounting-complex-changing-laws-mechanics-taxvalet" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet" className="text-[#0B162A] hover:underline">TaxValet</Link>&nbsp;provide
         complete audit protection and proactive monitoring, ensuring that businesses remain compliant without
         the constant fear of audits.</p>
     </>

@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/overview-section";
-import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/challenges-section";
-import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/transforms-section";
-import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/how-it-works-section";
-import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/architecture-section";
-import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/implementing-section";
-import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/data-mapping-section";
-import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/configuring-section";
-import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/evaluating-section";
-import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/comparing-section";
-import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/right-fit-section";
-import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/faq-section";
+import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/overview-section";
+import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/challenges-section";
+import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/transforms-section";
+import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/how-it-works-section";
+import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/architecture-section";
+import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/implementing-section";
+import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/data-mapping-section";
+import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/configuring-section";
+import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/evaluating-section";
+import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/comparing-section";
+import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/right-fit-section";
+import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "Zamp";
 const DESCRIPTION =
     "Zamp helps Miami-area small businesses manage complex tax laws with automated compliance solutions.";
-const CANONICAL = "/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp";
+const CANONICAL = "/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "keywords": "Zamp, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
             "subjectOf": {
                 "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
             },
             "@id": `${PAGE_URL}#software`
         },

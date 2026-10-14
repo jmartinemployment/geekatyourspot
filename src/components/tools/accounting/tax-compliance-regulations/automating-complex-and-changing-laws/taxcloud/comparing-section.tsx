@@ -9,9 +9,9 @@ export default function ComparingSection() {
         compliance</GlossaryLink>&nbsp;software, businesses often weigh multiple options to find the best fit
         for their needs. TaxCloud stands out in the landscape of tax compliance tools, particularly for small to
         mid-sized businesses dealing with complex and changing tax laws. Its main competitors include platforms
-        like&nbsp;<Link id="tools-accounting-complex-changing-laws-taxcloud-comparing-avalara" href="/tools/accounting/tax-compliance-regulations/avalara" className="text-[#0B162A] hover:underline">Avalara</Link>,
+        like&nbsp;Avalara,
         Sovos,
-        and&nbsp;<Link id="tools-accounting-complex-changing-laws-taxcloud-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
+        and&nbsp;<Link id="tools-accounting-complex-changing-laws-taxcloud-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
         each offering unique features tailored to different business sizes and complexities.</p>
       <p className="text-md text-white shadow-text pt-3">
         Avalara is known for its comprehensive compliance capabilities, making it a go-to for enterprise-level

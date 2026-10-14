@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/`
+ * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const thetaxvaletContent: ToolPageContent = {
   "title": "TaxValet",
   "slug": "thetaxvalet",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
   "description":
     "Streamline tax compliance for Miami-area small businesses with TaxValet's expert-managed services.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const thetaxvaletContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
   "sections": [
     {"title": "Overview", "description": "For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, the task of managing sales tax compliance feels like an insurmountable hurdle."},
     {"title": "The Cost of Navigating Complex and Changing Laws", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing sales tax compliance amidst complex and changing laws is a daunting task."},

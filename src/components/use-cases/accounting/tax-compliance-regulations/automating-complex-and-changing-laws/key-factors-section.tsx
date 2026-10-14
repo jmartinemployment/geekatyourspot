@@ -14,7 +14,7 @@ export default function KeyFactorsSection() {
       <p className="text-md text-white shadow-text pt-3">
         An effective implementation is characterized by proactive planning and flexibility. It&#39;s about
         anticipating potential challenges and having a plan to address them. For
-        instance,&nbsp;<Link id="use-cases-accounting-complex-changing-laws-key-factors-taxjar" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offers
+        instance,&nbsp;<Link id="use-cases-accounting-complex-changing-laws-key-factors-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offers
         a
         SmartCalcs&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;that
         provides real-time, precise sales tax calculations, which can prevent issues related to incorrect tax

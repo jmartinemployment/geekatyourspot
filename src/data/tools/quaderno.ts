@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno/`
+ * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const quadernoContent: ToolPageContent = {
   "title": "Quaderno",
   "slug": "quaderno",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
   "description":
     "Quaderno automates tax compliance for South Florida businesses, tackling complex, changing laws efficiently.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const quadernoContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
   "sections": [
     {"title": "Overview", "description": "For many small businesses in South Florida, the excitement of scaling online sales quickly turns into a nightmare when faced with the labyrinthine maze of international tax compliance."},
     {"title": "The Challenges of Navigating Complex and Changing Tax Laws", "description": "For small digital product and SaaS developers in South Florida, the journey from local to global sales is fraught with tax challenges."},

@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/lede-section";
-import ChallengesSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/challenges-section";
-import StatusQuoSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/status-quo-section";
-import MechanicsSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/key-factors-section";
-import DecisionsSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/decisions-section";
-import SequenceSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/data-integration-section";
-import RolesSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/roles-section";
-import RightFitSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/right-fit-section";
-import PreparingSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/preparing-section";
-import PAASection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws/paa-section";
+import LedeSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/lede-section";
+import ChallengesSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/challenges-section";
+import StatusQuoSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/status-quo-section";
+import MechanicsSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/key-factors-section";
+import DecisionsSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/decisions-section";
+import SequenceSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/data-integration-section";
+import RolesSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/roles-section";
+import RightFitSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/right-fit-section";
+import PreparingSection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/preparing-section";
+import PAASection from "@/components/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,9 +19,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "AI Solutions for Complex and Changing Tax Laws";
 const DESCRIPTION =
     "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.";
-const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws";
+const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/complex-and-changing-laws`;
+const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",

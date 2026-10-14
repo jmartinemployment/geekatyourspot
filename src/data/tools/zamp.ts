@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp/`
+ * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const zampContent: ToolPageContent = {
   "title": "Zamp",
   "slug": "zamp",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
   "description":
     "Zamp helps Miami-area small businesses manage complex tax laws with automated compliance solutions.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const zampContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
   "sections": [
     {"title": "Overview", "description": "Small business owners in Miami-Dade, Broward, and West Palm Beach counties often find themselves buried under the weight of complex and changing laws."},
     {"title": "The Cost of Navigating Complex and Changing Laws", "description": "Small business owners in Miami-Dade, Broward, and West Palm Beach counties often grapple with the intricacies of tax compliance due to complex and changing laws."},

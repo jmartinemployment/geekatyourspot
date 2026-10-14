@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/overview-section";
-import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/challenges-section";
-import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/transforms-section";
-import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/how-it-works-section";
-import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/architecture-section";
-import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/implementing-section";
-import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/data-mapping-section";
-import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/configuring-section";
-import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/evaluating-section";
-import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/comparing-section";
-import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/right-fit-section";
-import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/faq-section";
+import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/overview-section";
+import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/challenges-section";
+import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/transforms-section";
+import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/how-it-works-section";
+import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/architecture-section";
+import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/implementing-section";
+import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/data-mapping-section";
+import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/configuring-section";
+import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/evaluating-section";
+import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/comparing-section";
+import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/right-fit-section";
+import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "TaxJar";
 const DESCRIPTION =
     "TaxJar automates tax compliance for Miami-Dade, Broward, and West Palm Beach small businesses, simplifying complex laws.";
-const CANONICAL = "/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar";
+const CANONICAL = "/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "keywords": "TaxJar, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
             "subjectOf": {
                 "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
             },
             "@id": `${PAGE_URL}#software`
         },

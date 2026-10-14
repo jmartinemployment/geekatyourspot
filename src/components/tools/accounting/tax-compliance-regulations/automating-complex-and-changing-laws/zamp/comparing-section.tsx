@@ -9,7 +9,7 @@ export default function ComparingSection() {
         compliance</GlossaryLink>&nbsp;solution, small businesses often weigh multiple options. Zamp stands out
         in the landscape by offering a fully managed service that combines automation with expert oversight.
         This contrasts with platforms
-        like&nbsp;<Link id="tools-accounting-complex-changing-laws-zamp-comparing-avalara" href="/tools/accounting/tax-compliance-regulations/avalara" className="text-[#0B162A] hover:underline">Avalara</Link>&nbsp;and&nbsp;<Link id="tools-accounting-complex-changing-laws-zamp-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
+        like&nbsp;Avalara&nbsp;and&nbsp;<Link id="tools-accounting-complex-changing-laws-zamp-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
         which primarily focus on self-service models.</p>
       <p className="text-md text-white shadow-text pt-3">
         Avalara, for instance, provides a suite of tools for sales tax compliance but requires businesses to

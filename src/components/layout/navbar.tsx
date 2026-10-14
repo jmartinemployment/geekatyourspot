@@ -252,7 +252,7 @@ export default function Navbar(): React.JSX.Element {
                     />
                     <MenuLink
                       href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
-                      label="Automated Cash Flow Forecasting"
+                      label="Intelligent Cash Flow Forecasting"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -271,8 +271,8 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
-                      href="/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
-                      label="AI Solutions for Complex and Changing Tax Laws"
+                      href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
+                      label="Automating Complex &amp; Changing Laws"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -423,7 +423,6 @@ export default function Navbar(): React.JSX.Element {
                   <ul className={LIST_CLASS}>
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" label="ADP" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" label="ApprovalMax" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/avalara" label="Avalara" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" label="AvidXchange (Data Entry)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" label="AvidXchange (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" label="Bill (Accounts Receivable)" onNavigate={closeSidebar} />
@@ -445,24 +444,24 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" label="Melio (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" label="Melio (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" label="Quaderno (Sales Tax Nexus)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno" label="Quaderno (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno" label="Quaderno (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" label="Ramp (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling" label="Rippling" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" label="Stampli" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Take the Helm" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" label="TaxCloud (Sales Tax Nexus)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud" label="TaxCloud (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud" label="TaxCloud (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" label="TaxJar (Sales Tax Nexus)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" label="TaxJar (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" label="TaxJar (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet" label="TaxValet (Sales Tax Nexus)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet" label="TaxValet (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet" label="TaxValet (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" label="Tipalti (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" label="Upflow" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay" label="Versapay" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp" label="Zamp (Sales Tax Nexus)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp" label="Zamp (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp" label="Zamp (Tax Laws)" onNavigate={closeSidebar} />
                   </ul>
                 </div>
               </div>

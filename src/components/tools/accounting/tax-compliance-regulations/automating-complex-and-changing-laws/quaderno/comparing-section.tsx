@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -20,7 +19,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Quaderno&#39;s pricing model is another advantage. It offers transparent pricing with no hidden fees,
         making it easier for businesses to budget. This contrasts with some competitors,
-        like&nbsp;<Link id="tools-accounting-complex-changing-laws-quaderno-comparing-avalara" href="/tools/accounting/tax-compliance-regulations/avalara" className="text-[#0B162A] hover:underline">Avalara</Link>,
+        like&nbsp;Avalara,
         which often have complex pricing structures that can lead to unexpected costs. Additionally, Quaderno
         provides flexible contracts, allowing businesses to pay monthly without long-term commitments, which is
         ideal for growing companies that need flexibility.</p>

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/`
+ * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const taxcloudContent: ToolPageContent = {
   "title": "TaxCloud",
   "slug": "taxcloud",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
   "description":
     "Automate tax compliance for South Florida businesses with TaxCloud, managing complex laws effortlessly.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const taxcloudContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
   "sections": [
     {"title": "Overview", "description": "Imagine running a bustling online store in Miami, with sales skyrocketing beyond Florida's borders."},
     {"title": "The Hidden Costs of Manual Tax Compliance", "description": "For small businesses in South Florida, navigating the maze of tax compliance is a daily challenge."},

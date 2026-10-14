@@ -57,11 +57,6 @@ const nextConfig: NextConfig = {
         destination: "/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange",
         permanent: true,
       },
-      {
-        source: "/tools/accounting/avalara",
-        destination: "/tools/accounting/tax-compliance-regulations/avalara",
-        permanent: true,
-      },
       // The home page linked these flat accounting paths before their pages
       // existed (found 2026-10-09). Each now has a page under its pillar.
       {
@@ -114,6 +109,19 @@ const nextConfig: NextConfig = {
       {
         source: "/tools/accounting/accounts-payable/automated-approval-workflows-boosting-efficiency-with-ai/approvalmax",
         destination: "/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax",
+        permanent: true,
+      },
+      // The complex and changing laws pillar and its tools moved to the
+      // automating-complex-and-changing-laws segment on 2026-10-14, after the
+      // home card renamed the use case; both had been live since 2026-10-12.
+      {
+        source: "/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+        destination: "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+        permanent: true,
+      },
+      {
+        source: "/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/:tool",
+        destination: "/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/:tool",
         permanent: true,
       },
       {

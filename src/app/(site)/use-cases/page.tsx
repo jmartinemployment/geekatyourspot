@@ -91,7 +91,7 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
       },
       {
-        title: "Automated Cash Flow Forecasting",
+        title: "Intelligent Cash Flow Forecasting",
         slug: "automated-cash-flow-forecasting",
         description:
           "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar/`
+ * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const taxjarContent: ToolPageContent = {
   "title": "TaxJar",
   "slug": "taxjar",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
   "description":
     "TaxJar automates tax compliance for Miami-Dade, Broward, and West Palm Beach small businesses, simplifying complex laws.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const taxjarContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
   "sections": [
     {"title": "Overview", "description": "In the heart of Miami-Dade, a local boutique owner, Emma, spends her weekends buried in spreadsheets, manually updating tax rates for her online store."},
     {"title": "The Cost of Navigating Complex and Changing Laws", "description": "Small businesses in Miami-Dade, Broward, and West Palm Beach face a relentless challenge: keeping up with the complex and ever-changing landscape of local tax laws."},

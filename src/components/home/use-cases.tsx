@@ -383,10 +383,10 @@ export function UseCasesSection() {
                                 </p>                                <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-complex-and-changing-laws"
-                                            href="/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                                            href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                Complex and Changing Laws:</strong></h5>
+                                                Intelligent Tax Law Tools:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
                                             Frequent updates to tax codes, deductions, and specialized reporting requirements make it difficult to stay current without dedicated legal or accounting staff.
@@ -396,32 +396,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno", "Quaderno")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "Quaderno")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud", "TaxCloud")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "TaxCloud")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar", "TaxJar")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "TaxJar")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet", "TaxValet")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "TaxValet")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp", "Zamp")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "Zamp")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Zamp
                                             </Link>.
@@ -432,7 +432,7 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                Payroll Tax &amp; Worker Misclassification:</strong></h5>
+                                                Intelligent Payroll Tax Tools:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
                                             Handling payroll tax deposits, tracking overtime rules, and correctly distinguishing between W-2 employees and 1099 independent contractors trigger high risks of penalties.
@@ -478,7 +478,7 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                Multi-State Sales Tax Nexus:</strong></h5>
+                                                Intelligent Multi-State Sales Tax Tools:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
                                             Online and remote sales force tracking economic or physical presence across multiple state lines, complicating collection and remittance.
@@ -1261,10 +1261,10 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-complex-and-changing-laws"
-                                            href="/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                                            href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                Complex and Changing Laws:</strong></h5>
+                                                Intelligent Tax Law Tools:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
                                             Frequent updates to tax codes, deductions, and specialized reporting requirements make it difficult to stay current without dedicated legal or accounting staff.
@@ -1274,32 +1274,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm ">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno", "Quaderno")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "Quaderno")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud", "TaxCloud")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "TaxCloud")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar", "TaxJar")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "TaxJar")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet", "TaxValet")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "TaxValet")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
                                             </Link>,&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp", "Zamp")}
-                                                href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "Zamp")}
+                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Zamp
                                             </Link>.
@@ -1310,7 +1310,7 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                Payroll Tax &amp; Worker Misclassification:</strong></h5>
+                                                Intelligent Payroll Tax Tools:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
                                             Handling payroll tax deposits, tracking overtime rules, and correctly distinguishing between W-2 employees and 1099 independent contractors trigger high risks of penalties.
@@ -1356,7 +1356,7 @@ export function UseCasesSection() {
                                             href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                Multi-State Sales Tax Nexus:</strong></h5>
+                                                Intelligent Multi-State Sales Tax Tools:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
                                             Online and remote sales force tracking economic or physical presence across multiple state lines, complicating collection and remittance.

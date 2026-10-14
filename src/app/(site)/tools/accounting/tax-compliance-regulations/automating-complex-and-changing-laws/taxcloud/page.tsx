@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/overview-section";
-import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/challenges-section";
-import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/transforms-section";
-import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/how-it-works-section";
-import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/architecture-section";
-import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/implementing-section";
-import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/data-mapping-section";
-import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/configuring-section";
-import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/evaluating-section";
-import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/comparing-section";
-import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/right-fit-section";
-import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud/faq-section";
+import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/overview-section";
+import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/challenges-section";
+import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/transforms-section";
+import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/how-it-works-section";
+import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/architecture-section";
+import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/implementing-section";
+import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/data-mapping-section";
+import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/configuring-section";
+import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/evaluating-section";
+import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/comparing-section";
+import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/right-fit-section";
+import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "TaxCloud";
 const DESCRIPTION =
     "Automate tax compliance for South Florida businesses with TaxCloud, managing complex laws effortlessly.";
-const CANONICAL = "/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud";
+const CANONICAL = "/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "keywords": "TaxCloud, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
             "subjectOf": {
                 "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
             },
             "@id": `${PAGE_URL}#software`
         },

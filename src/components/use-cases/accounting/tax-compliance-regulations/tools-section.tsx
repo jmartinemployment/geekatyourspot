@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ToolsSection() {
@@ -12,7 +11,7 @@ export default function ToolsSection() {
         the specific needs of B2B organizations, providing a strategic advantage in managing regulatory
         requirements effectively.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id="use-cases-accounting-tax-compliance-regulations-tools-avalara" href="/tools/accounting/tax-compliance-regulations/avalara" className="text-[#0B162A] hover:underline">Avalara</Link>
+        Avalara
       </h3>
       <p className="text-md text-white shadow-text pt-3">
         Avalara is a leading platform that

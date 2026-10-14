@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/overview-section";
-import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/challenges-section";
-import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/transforms-section";
-import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/how-it-works-section";
-import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/architecture-section";
-import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/implementing-section";
-import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/data-mapping-section";
-import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/configuring-section";
-import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/evaluating-section";
-import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/comparing-section";
-import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/right-fit-section";
-import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet/faq-section";
+import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/overview-section";
+import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/challenges-section";
+import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/transforms-section";
+import HowItWorksSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/how-it-works-section";
+import ArchitectureSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/architecture-section";
+import ImplementingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/implementing-section";
+import DataMappingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/data-mapping-section";
+import ConfiguringSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/configuring-section";
+import EvaluatingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/evaluating-section";
+import ComparingSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/comparing-section";
+import RightFitSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/right-fit-section";
+import FaqSection from "@/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "TaxValet";
 const DESCRIPTION =
     "Streamline tax compliance for Miami-area small businesses with TaxValet's expert-managed services.";
-const CANONICAL = "/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet";
+const CANONICAL = "/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "keywords": "TaxValet, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
             "subjectOf": {
                 "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
             },
             "@id": `${PAGE_URL}#software`
         },

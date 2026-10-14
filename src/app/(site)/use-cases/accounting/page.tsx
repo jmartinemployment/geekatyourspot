@@ -116,7 +116,7 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
     ],
   },
   {
-    title: "Automated Cash Flow Forecasting",
+    title: "Intelligent Cash Flow Forecasting",
     slug: "cash-flow-forecasting",
     description:
       "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
@@ -151,10 +151,10 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
     pillars: [
       {
         title: "AI Solutions for Complex and Changing Tax Laws",
-        slug: "ai-solutions-for-complex-and-changing-tax-laws",
+        slug: "automating-complex-and-changing-laws",
         description:
           "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
-        href: "/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+        href: "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
       },
       {
         title: "Payroll Tax & Worker Misclassification",

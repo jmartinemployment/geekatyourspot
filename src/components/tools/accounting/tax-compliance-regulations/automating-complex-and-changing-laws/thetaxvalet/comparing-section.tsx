@@ -8,7 +8,7 @@ export default function ComparingSection() {
         When small businesses face the challenge of managing
         sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
         compliance</GlossaryLink>, they often consider a range of software solutions. Platforms
-        like&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-comparing-avalara" href="/tools/accounting/tax-compliance-regulations/avalara" className="text-[#0B162A] hover:underline">Avalara</Link>&nbsp;and&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offer
+        like&nbsp;Avalara&nbsp;and&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offer
         basic automation for filing and calculation, but they leave significant gaps that can lead to compliance
         issues. These tools require manual updates and intervention, putting the onus on business owners to stay
         informed about changing regulations. This DIY approach can be risky and time-consuming, as it demands

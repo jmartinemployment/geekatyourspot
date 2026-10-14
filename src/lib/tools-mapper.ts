@@ -6,7 +6,6 @@ import { adpContent } from "@/data/tools/adp";
 import { anaplanContent } from "@/data/tools/anaplan";
 import { anomaloContent } from "@/data/tools/anomalo";
 import { approvalmaxContent } from "@/data/tools/approvalmax";
-import { avalaraContent } from "@/data/tools/avalara";
 import { avidxchangeContent } from "@/data/tools/avidxchange";
 import { avidxchangePaymentExecutionContent } from "@/data/tools/avidxchange-payment-execution";
 import { baswareContent } from "@/data/tools/basware";
@@ -72,7 +71,6 @@ const toolsMap: Record<string, ToolPageContent> = {
   "anaplan": anaplanContent,
   "anomalo": anomaloContent,
   "approvalmax": approvalmaxContent,
-  "avalara": avalaraContent,
   "avidxchange": avidxchangeContent,
   "avidxchange-payment-execution": avidxchangePaymentExecutionContent,
   "basware": baswareContent,
