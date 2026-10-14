@@ -1,0 +1,1 @@
+A platform architecture diagram with a central hub labeled as the payroll platform, surrounded by icons representing HR tools, accounting systems, and banks, all interconnected by directional data flow arrows.

@@ -1,0 +1,1 @@
+A layered flat vector diagram of a cloud-based system architecture, with interconnected modules representing tax calculation, state compliance, and integrations, highlighting scalability and modularity.

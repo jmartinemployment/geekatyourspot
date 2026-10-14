@@ -1,0 +1,1 @@
+Diagram showing interconnected data blocks and mapping lines, emphasizing structured data flow from input to compliance checks, with icons for databases and compliance shields.

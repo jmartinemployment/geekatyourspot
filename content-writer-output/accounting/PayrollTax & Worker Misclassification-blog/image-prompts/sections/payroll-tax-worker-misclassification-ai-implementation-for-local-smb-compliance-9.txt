@@ -1,0 +1,1 @@
+A flat vector decision matrix with checkmarks and cross marks, showing scenarios where payroll automation is a good fit versus where it is not, using abstract business icons.

@@ -1,0 +1,1 @@
+Flat vector flowchart diagram showing interconnected backend systems: data flows between payroll, tax, and worker classification modules, with gears and automation symbols representing seamless behind-the-scenes operations, B2B tech style.

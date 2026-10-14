@@ -1,0 +1,1 @@
+A decision-tree style vector diagram with two branching paths from a central point: one path leading to automation icons and smooth workflows, the other showing manual processes and potential pitfalls, visually comparing scenarios for automation.

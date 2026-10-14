@@ -1,0 +1,1 @@
+A flat vector diagram showing organized data tables and mapping lines connecting business systems, highlighting data structure alignment as the foundation for successful automation.

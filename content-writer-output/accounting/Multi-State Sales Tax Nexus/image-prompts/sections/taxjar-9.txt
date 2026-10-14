@@ -1,0 +1,1 @@
+A flat vector comparison matrix with columns for Taxjar and alternative solutions, using icons to represent features present or absent, and lines connecting to adjacent approaches.

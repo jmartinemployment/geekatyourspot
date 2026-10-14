@@ -1,0 +1,1 @@
+A diagram showing a payroll system automatically sorting workers into employee and contractor categories, with digital tax calculations branching off, illustrating how software manages payroll tax and worker classification.

@@ -1,0 +1,1 @@
+A flat vector diagram illustrating database tables and mapping lines, with highlighted nodes representing South Florida-specific payroll tax and classification parameters.

@@ -1,0 +1,1 @@
+A decision-tree diagram highlighting key data points and mapping choices, with branches leading to 'success' or 'issues' outcomes, visually emphasizing the importance of correct data mapping.

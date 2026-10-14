@@ -227,27 +227,27 @@ export default function Navbar(): React.JSX.Element {
                   <ul className={LIST_CLASS}>
                     <MenuLink
                       href="/use-cases/accounting/accounts-payable/automated-accounts-payable"
-                      label="Automated Accounts Payable"
+                      label="Accounts Payable"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
                       href="/use-cases/accounting/accounts-payable/automated-data-entry-processing"
-                      label="Automated Data Entry &amp; Processing"
+                      label="Intelligent Data Entry &amp; Processing"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
                       href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable"
-                      label="Automated Approval Workflows"
+                      label="Intelligent Approval Workflows"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
                       href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai"
-                      label="Automated Payment Execution"
+                      label="Intelligent Payment Execution"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
                       href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
-                      label="Automated Fraud &amp; Duplicate Payment Controls"
+                      label="Intelligent Fraud &amp; Duplicate Payment Controls"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -257,12 +257,12 @@ export default function Navbar(): React.JSX.Element {
                     />
                     <MenuLink
                       href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai"
-                      label="Automated Accounts Receivable"
+                      label="Intelligent Accounts Receivable"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
                       href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
-                      label="Automated Spreadsheet Data"
+                      label="Intelligent Spreadsheet Data"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
@@ -273,6 +273,16 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink
                       href="/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws"
                       label="AI Solutions for Complex and Changing Tax Laws"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
+                      label="Payroll Tax &amp; Worker Misclassification"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
+                      label="Multi-State Sales Tax Nexus"
                       onNavigate={closeSidebar}
                     />
                   </ul>
@@ -371,6 +381,16 @@ export default function Navbar(): React.JSX.Element {
                       label="How Automating Spreadsheet Data Boosts Cash Flow Forecasting"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-smbs-must-know-before-choosing-compliance-solutions"
+                      label="Payroll Tax &amp; Worker Misclassification: What Miami SMBs Must Know"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-smbs-need-to-know-and-fix-before-expanding"
+                      label="Multi-State Sales Tax Nexus: What South Florida SMBs Need to Know"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
               </div>
@@ -401,6 +421,7 @@ export default function Navbar(): React.JSX.Element {
                 <div className={COLUMN_CLASS}>
                   <MenuHeading href="/tools/accounting" label="Accounting" onNavigate={closeSidebar} />
                   <ul className={LIST_CLASS}>
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" label="ADP" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" label="ApprovalMax" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/tax-compliance-regulations/avalara" label="Avalara" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" label="AvidXchange (Data Entry)" onNavigate={closeSidebar} />
@@ -413,26 +434,35 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" label="Cashflowfrog" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" label="Chaserhq" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" label="Clockwork" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" label="Deel" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" label="Dext" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" label="Dryrun" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" label="Floatapp" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" label="Gusto" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" label="Invoiced" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks" label="Justworks" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" label="Medius" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" label="Melio (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" label="Melio (Payment Execution)" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno" label="Quaderno" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" label="Quaderno (Sales Tax Nexus)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/quaderno" label="Quaderno (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" label="Ramp (Approval Workflows)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" label="Ramp (Payment Execution)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling" label="Rippling" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" label="Stampli" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" label="Take the Helm" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud" label="TaxCloud" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" label="TaxJar" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet" label="TaxValet" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" label="TaxCloud (Sales Tax Nexus)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxcloud" label="TaxCloud (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" label="TaxJar (Sales Tax Nexus)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar" label="TaxJar (Tax Laws)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet" label="TaxValet (Sales Tax Nexus)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/thetaxvalet" label="TaxValet (Tax Laws)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" label="Tipalti (Fraud Controls)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" label="Tipalti (Payment Execution)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" label="Upflow" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay" label="Versapay" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp" label="Zamp" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp" label="Zamp (Sales Tax Nexus)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/zamp" label="Zamp (Tax Laws)" onNavigate={closeSidebar} />
                   </ul>
                 </div>
               </div>

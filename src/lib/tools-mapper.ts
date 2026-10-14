@@ -2,6 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 import { activeCampaignContent } from "@/data/tools/active-campaign";
 import { adaptiveInsightsContent } from "@/data/tools/adaptive-insights";
 import { adobeMixModelerContent } from "@/data/tools/adobe-mix-modeler";
+import { adpContent } from "@/data/tools/adp";
 import { anaplanContent } from "@/data/tools/anaplan";
 import { anomaloContent } from "@/data/tools/anomalo";
 import { approvalmaxContent } from "@/data/tools/approvalmax";
@@ -19,6 +20,7 @@ import { cashflowfrogContent } from "@/data/tools/cashflowfrog";
 import { chaserhqContent } from "@/data/tools/chaserhq";
 import { clockworkContent } from "@/data/tools/clockwork";
 import { coupaContent } from "@/data/tools/coupa";
+import { deelContent } from "@/data/tools/deel";
 import { dextContent } from "@/data/tools/dext";
 import { driftContent } from "@/data/tools/drift";
 import { dryrunContent } from "@/data/tools/dryrun";
@@ -26,9 +28,14 @@ import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
 import { takethehelmContent } from "@/data/tools/takethehelm";
 import { taxcloudContent } from "@/data/tools/taxcloud";
+import { taxcloudMultiStateSalesTaxNexusContent } from "@/data/tools/taxcloud-multi-state-sales-tax-nexus";
 import { taxjarContent } from "@/data/tools/taxjar";
+import { taxjarMultiStateSalesTaxNexusContent } from "@/data/tools/taxjar-multi-state-sales-tax-nexus";
 import { thetaxvaletContent } from "@/data/tools/thetaxvalet";
+import { thetaxvaletMultiStateSalesTaxNexusContent } from "@/data/tools/thetaxvalet-multi-state-sales-tax-nexus";
+import { gustoContent } from "@/data/tools/gusto";
 import { invoicedContent } from "@/data/tools/invoiced";
+import { justworksContent } from "@/data/tools/justworks";
 import { jasperAiContent } from "@/data/tools/jasper-ai";
 import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
@@ -41,9 +48,11 @@ import { monteCarloContent } from "@/data/tools/monte-carlo";
 import { optimoveContent } from "@/data/tools/optimove";
 import { qualyticsContent } from "@/data/tools/qualytics";
 import { quadernoContent } from "@/data/tools/quaderno";
+import { quadernoMultiStateSalesTaxNexusContent } from "@/data/tools/quaderno-multi-state-sales-tax-nexus";
 import { rampContent } from "@/data/tools/ramp";
 import { rampApprovalWorkflowsContent } from "@/data/tools/ramp-approval-workflows";
 import { rillionContent } from "@/data/tools/rillion";
+import { ripplingContent } from "@/data/tools/rippling";
 import { sovosContent } from "@/data/tools/sovos";
 import { stampliContent } from "@/data/tools/stampli";
 import { thomsonReutersOnesourceContent } from "@/data/tools/thomson-reuters-onesource";
@@ -53,11 +62,13 @@ import { upflowContent } from "@/data/tools/upflow";
 import { versapayContent } from "@/data/tools/versapay";
 import { vertexContent } from "@/data/tools/vertex";
 import { zampContent } from "@/data/tools/zamp";
+import { zampMultiStateSalesTaxNexusContent } from "@/data/tools/zamp-multi-state-sales-tax-nexus";
 
 const toolsMap: Record<string, ToolPageContent> = {
   "active-campaign": activeCampaignContent,
   "adaptive-insights": adaptiveInsightsContent,
   "adobe-mix-modeler": adobeMixModelerContent,
+  "adp": adpContent,
   "anaplan": anaplanContent,
   "anomalo": anomaloContent,
   "approvalmax": approvalmaxContent,
@@ -75,6 +86,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "chaserhq": chaserhqContent,
   "clockwork": clockworkContent,
   "coupa": coupaContent,
+  "deel": deelContent,
   "dext": dextContent,
   "drift": driftContent,
   "dryrun": dryrunContent,
@@ -82,9 +94,14 @@ const toolsMap: Record<string, ToolPageContent> = {
   "great-expectations": greatExpectationsContent,
   "takethehelm": takethehelmContent,
   "taxcloud": taxcloudContent,
+  "taxcloud-multi-state-sales-tax-nexus": taxcloudMultiStateSalesTaxNexusContent,
   "taxjar": taxjarContent,
+  "taxjar-multi-state-sales-tax-nexus": taxjarMultiStateSalesTaxNexusContent,
   "thetaxvalet": thetaxvaletContent,
+  "thetaxvalet-multi-state-sales-tax-nexus": thetaxvaletMultiStateSalesTaxNexusContent,
+  "gusto": gustoContent,
   "invoiced": invoicedContent,
+  "justworks": justworksContent,
   "jasper-ai": jasperAiContent,
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
@@ -97,9 +114,11 @@ const toolsMap: Record<string, ToolPageContent> = {
   "optimove": optimoveContent,
   "qualytics": qualyticsContent,
   "quaderno": quadernoContent,
+  "quaderno-multi-state-sales-tax-nexus": quadernoMultiStateSalesTaxNexusContent,
   "ramp": rampContent,
   "ramp-approval-workflows": rampApprovalWorkflowsContent,
   "rillion": rillionContent,
+  "rippling": ripplingContent,
   "sovos": sovosContent,
   "stampli": stampliContent,
   "thomson-reuters-onesource": thomsonReutersOnesourceContent,
@@ -109,6 +128,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "versapay": versapayContent,
   "vertex": vertexContent,
   "zamp": zampContent,
+  "zamp-multi-state-sales-tax-nexus": zampMultiStateSalesTaxNexusContent,
 };
 
 export function getToolContent(slug: string): ToolPageContent | null {

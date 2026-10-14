@@ -84,7 +84,7 @@ const DEPARTMENTS: Department[] = [
       "The finance back office is where manual work piles up fastest: invoices keyed by hand, approvals chased by email, forecasts rebuilt in spreadsheets, and tax rules that change by county. Each pillar below takes one of those jobs and the tools that automate it.",
     useCases: [
       {
-        title: "Automated Accounts Payable",
+        title: "Accounts Payable",
         slug: "automated-accounts-payable",
         description:
           "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",

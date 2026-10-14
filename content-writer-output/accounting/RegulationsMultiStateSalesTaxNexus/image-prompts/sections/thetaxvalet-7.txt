@@ -1,0 +1,1 @@
+A control panel interface in flat vector style, with sliders and toggles representing configurable rules and automation boundaries, illustrating levels of customization possible within Thetaxvalet.

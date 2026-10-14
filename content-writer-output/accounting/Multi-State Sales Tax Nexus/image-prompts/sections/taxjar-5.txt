@@ -1,0 +1,1 @@
+A step-by-step flat vector flowchart showing integration steps: connecting existing e-commerce platform, configuring settings, syncing data, and going live, with arrows and abstract tech icons.

@@ -1,0 +1,1 @@
+A step-by-step flat vector flowchart with icons representing data input, automated calculation, compliance validation, and reporting, connected by arrows to visualize the automation process for multi-state tax compliance.

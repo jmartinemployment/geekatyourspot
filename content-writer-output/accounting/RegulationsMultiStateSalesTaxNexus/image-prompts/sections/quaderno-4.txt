@@ -1,0 +1,1 @@
+A flat vector system architecture diagram showing cloud integrations, data pipelines, secure shields, and interconnected platforms, visually mapping out how Quaderno integrates, processes data, and ensures security.

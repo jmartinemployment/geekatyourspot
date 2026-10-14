@@ -1,0 +1,1 @@
+A layered flat vector diagram displaying interconnected modules, APIs, databases, and security shields, visually representing platform architecture, integrations, and data control.

@@ -1,0 +1,1 @@
+Flat vector diagram showing organized data tables and mapping lines being aligned to a cloud, contrasting with a messy tangle of data failing to connect, highlighting good versus poor data structure decisions.

@@ -1,0 +1,1 @@
+A split diagram: one side shows chaotic, mismatched data sources; the other side shows organized, color-coded data flows smoothly integrating into a clean central database, demonstrating the importance of structured data mapping for multi-state tax management.

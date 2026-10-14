@@ -1,0 +1,1 @@
+A configuration dashboard with toggles, rules, and automation gears, visually representing customizable settings and extensible workflows for payroll tax and worker classification.

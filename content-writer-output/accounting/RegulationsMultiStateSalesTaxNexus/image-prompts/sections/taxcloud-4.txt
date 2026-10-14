@@ -1,0 +1,1 @@
+Flat vector schematic of a cloud platform at the center, connected with arrows to various third-party systems, databases, and APIs, illustrating integrations and structured data flow.

@@ -1,0 +1,1 @@
+A flat vector diagram showing data fields mapping between systems, with connectors and icons representing product categories, locations, and customer types, emphasizing careful alignment.

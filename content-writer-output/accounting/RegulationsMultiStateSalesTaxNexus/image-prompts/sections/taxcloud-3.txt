@@ -1,0 +1,1 @@
+Professional diagram showing data flowing from multiple e-commerce platforms into a central cloud, which then branches out to various US states, with icons for tracking, calculators, and filing documents along the flow.

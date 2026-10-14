@@ -1,0 +1,1 @@
+A network diagram in flat vector style displaying interconnected nodes representing business systems (ecommerce, accounting, ERP) linking securely to a central Zamp platform, with shield and cloud icons denoting data security and centralized management for multi-state compliance.

@@ -1,0 +1,1 @@
+Flat vector diagram of a configuration interface with toggles, sliders, and dropdowns, connected to icons representing tax categories and worker types, highlighting setup and customization.

@@ -68,7 +68,7 @@ interface UseCaseGroup {
 
 /**
  * Every accounting pillar with a built route. The navbar
- * (`src/components/layout/navbar.tsx`) and the home page carry the same ten
+ * (`src/components/layout/navbar.tsx`) and the home page carry the same twelve
  * links; this list was three cards from 2026-10-02 until 2026-10-12, so six
  * pillars shipped without appearing here. Keep the three in step.
  */
@@ -77,7 +77,7 @@ const SECTION_BACKGROUNDS = ["bg-[#023059]", "bg-[#024059]", "bg-[#025E73]", "bg
 
 const USE_CASE_GROUPS: UseCaseGroup[] = [
   {
-    title: "Automated Accounts Payable",
+    title: "Accounts Payable",
     slug: "accounts-payable",
     description:
       "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",
@@ -86,31 +86,31 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
       "Accounts payable is where most of the manual work hides: keying invoices, chasing approvals, cutting payments, and catching duplicates after the fact. The category pillar frames the whole function; each pillar below it takes one stage and the tools that automate it.",
     pillars: [
       {
-        title: "Automated Data Entry & Processing",
+        title: "Intelligent Data Entry & Processing",
         slug: "automated-data-entry-processing",
         description:
           "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.",
         href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing",
       },
       {
-        title: "Automated Approval Workflows",
+        title: "Intelligent Approval Workflows",
         slug: "automated-approval-workflows-transforming-accounts-payable",
         description:
-          "Explore Automated Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
+          "Explore Intelligent Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
         href: "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable",
       },
       {
-        title: "Automated Payment Execution",
+        title: "Intelligent Payment Execution",
         slug: "automated-payment-execution-streamlining-accounts-payable-with-ai",
         description:
-          "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
+          "Intelligent Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
         href: "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
       },
       {
-        title: "Automated Fraud & Duplicate Payment Controls",
+        title: "Intelligent Fraud & Duplicate Payment Controls",
         slug: "automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
         description:
-          "Implement Automated Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.",
+          "Implement Intelligent Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.",
         href: "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
       },
     ],
@@ -125,17 +125,17 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
       "A forecast is only as current as the data feeding it. These pillars cover the two inputs that go stale fastest: receivables that pay late, and the spreadsheets that still hold the model together.",
     pillars: [
       {
-        title: "Automated Accounts Receivable",
+        title: "Intelligent Accounts Receivable",
         slug: "automated-accounts-receivable-boost-cash-flow-with-ai",
         description:
-          "Automated Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
+          "Intelligent Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
         href: "/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai",
       },
       {
-        title: "Automated Spreadsheet Data",
+        title: "Intelligent Spreadsheet Data",
         slug: "automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
         description:
-          "Discover how Automated Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
+          "Discover how Intelligent Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
         href: "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
       },
     ],
@@ -147,7 +147,7 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
       "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations.",
     href: "/use-cases/accounting/tax-compliance-regulations",
     summary:
-      "Sales tax, payroll tax, and filing deadlines across multiple jurisdictions change faster than a small finance team can track by hand. The category pillar frames the problem; the pillar below it covers the AI tooling that tracks rate and rule changes so a business stays compliant without a dedicated tax department.",
+      "Sales tax, payroll tax, and filing deadlines across multiple jurisdictions change faster than a small finance team can track by hand. The category pillar frames the problem; the pillars below it cover the AI tooling that tracks rate and rule changes, the payroll platforms that keep tax deposits and W-2 versus 1099 classification defensible, and the sales tax platforms that track nexus and file across state lines, so a business stays compliant without a dedicated tax department.",
     pillars: [
       {
         title: "AI Solutions for Complex and Changing Tax Laws",
@@ -155,6 +155,20 @@ const USE_CASE_GROUPS: UseCaseGroup[] = [
         description:
           "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
         href: "/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+      },
+      {
+        title: "Payroll Tax & Worker Misclassification",
+        slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+        description:
+          "AI solutions for Payroll Tax & Worker Misclassification help SMBs in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.",
+        href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+      },
+      {
+        title: "Multi-State Sales Tax Nexus",
+        slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
+        description:
+          "Multi-State Sales Tax Nexus compliance made simple for South Florida SMBs. Automate filings, reduce errors, and stay audit-ready with local AI expertise.",
+        href: "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
       },
     ],
   },

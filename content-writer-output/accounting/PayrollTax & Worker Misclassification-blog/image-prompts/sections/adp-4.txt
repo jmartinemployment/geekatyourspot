@@ -1,0 +1,1 @@
+Technical schematic showing layers of software architecture, with APIs, database symbols, security shields, and integration nodes connecting to various business tools, all in a clean, flat vector style.

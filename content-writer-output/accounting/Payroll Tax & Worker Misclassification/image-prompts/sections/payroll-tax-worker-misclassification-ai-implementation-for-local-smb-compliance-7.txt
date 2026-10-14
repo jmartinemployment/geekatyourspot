@@ -1,0 +1,1 @@
+A flat vector infographic showing interconnected data sources, databases, and integration pipelines flowing into a central payroll automation platform, highlighting required data and integrations.
