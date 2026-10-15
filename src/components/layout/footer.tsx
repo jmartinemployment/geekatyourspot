@@ -41,7 +41,7 @@ export default function Footer() {
                 >
                   <svg
                     className="w-8 h-8 group-hover:scale-110 transition-transform"
-                    fill="#ff0000"
+                    fill="#c83803"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
@@ -63,7 +63,7 @@ export default function Footer() {
                 >
                   <svg
                     className="w-7 h-8 group-hover:scale-110 transition-transform"
-                    fill="#ff0000"
+                    fill="#c83803"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >

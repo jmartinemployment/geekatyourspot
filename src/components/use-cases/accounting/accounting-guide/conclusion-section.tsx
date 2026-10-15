@@ -40,11 +40,11 @@ export default function ConclusionSection() {
         Your Next Step: An Architectural Infrastructure Audit
       </h3>
       <p className="text-md text-white shadow-text pt-3">
-        The fastest way to find your own black boxes is an <strong>Architectural Infrastructure
-        Audit</strong>. We review your ledger, payables, receivables, forecasting, sales tax, and payroll
-        setup. We show you where data is typed twice, where approvals leave no trail, where a spreadsheet
-        holds up a decision, and where a compliance deadline depends on one person’s memory. You leave with a
-        clear picture of what to fix first and what it will take.</p>
+        The fastest way to find your own black boxes is an <strong><Link id="use-cases-accounting-conclusion-audit" href="/architectural-infrastructure-audit" className="text-[#0B162A] hover:underline">Architectural
+        Infrastructure Audit</Link></strong>. We review your ledger, payables, receivables, forecasting, sales
+        tax, and payroll setup. We show you where data is typed twice, where approvals leave no trail, where a
+        spreadsheet holds up a decision, and where a compliance deadline depends on one person’s memory. You
+        leave with a clear picture of what to fix first and what it will take.</p>
       <p className="text-md text-white shadow-text pt-3">
         The audit begins with a free consultation, and there is no obligation. Book your time with the
         scheduler below, and we will start with your business rather than a software pitch. You can also read
