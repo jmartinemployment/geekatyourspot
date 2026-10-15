@@ -573,10 +573,98 @@ export function UseCasesSection() {
                             </CardHeader>
                             <CardContent>
                                 <ol>
+                                    <Link
+                                        id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
+                                        href="/use-cases/marketing/intelligent-lead-capture-pipeline"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
+                                        <h4 className="text-black text-base font-bold shadow-text">
+                                            Lead Capture Pipeline</h4>
+                                    </Link>
+                                    <p className="text-black text-xs">
+                                        Capture every inbound call, text, web chat, and form inquiry—even after hours—and turn it into a qualified lead.
+                                    </p>
+                                    <ul className="text-black list-disc text-sm list- pl-3 ">
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
+                                                Smart Chatbots for Marketing:</strong></h5>
+                                            <p className="text-black text-xs">
+                                                Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Chatbot Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                BotPenguin,&nbsp;
+                                                ManyChat,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>,&nbsp;
+                                                CustomGPT,&nbsp;
+                                                Get Chip Bot
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
+                                                Lead Scoring:</strong></h5>
+                                            <p className="text-black text-xs">
+                                                AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Lead Scoring Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/active-campaign"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    ActiveCampaign
+                                                </Link>,&nbsp;
+                                                Apollo,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>,&nbsp;or&nbsp;
+                                                LeadSquared,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
+                                                    href="/tools/marketing/6sense"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    6sense
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
+                                                Voice Assistants:
+                                            </strong></h5>
+                                            <p className="text-black text-xs">
+                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Voice Assistance Tools:
+                                            </h6>
+                                            <ul>
+                                                <li>
+                                                    <p className="text-xs">
+                                                        CallAgentAI,&nbsp;
+                                                        Speakai,&nbsp;
+                                                        VoiceGenie,&nbsp;
+                                                        ElevenLabs Conversational AI,&nbsp;
+                                                        Synthflow AI.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-1"
                                         href="/use-cases/marketing/ai-content-creation-workflow" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
-                                            AI Content Creation Workflow</h4>
+                                            Content Creation Workflow</h4>
                                     </Link><p className="text-black text-xs">
                                         AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
                                     </p>
@@ -706,91 +794,6 @@ export function UseCasesSection() {
                                                 </Link>,&nbsp;or&nbsp;
                                                 MailerLite.
                                             </p>
-                                        </li>
-                                    </ul>
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
-                                        href="/use-cases/marketing/intelligent-lead-capture-pipeline"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-black text-base font-bold shadow-text">
-                                            Lead Capture Pipeline</h4>
-                                    </Link>
-                                    <ul className="text-black list-disc text-sm list- pl-3 ">
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Smart Chatbots for Marketing:</strong></h5>
-                                            <p className="text-black text-xs">
-                                                Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Chatbot Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                BotPenguin,&nbsp;
-                                                ManyChat,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
-                                                </Link>,&nbsp;
-                                                CustomGPT,&nbsp;
-                                                Get Chip Bot
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Lead Scoring:</strong></h5>
-                                            <p className="text-black text-xs">
-                                                AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Lead Scoring Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/active-campaign"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    ActiveCampaign
-                                                </Link>,&nbsp;
-                                                Apollo,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
-                                                </Link>,&nbsp;or&nbsp;
-                                                LeadSquared,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
-                                                    href="/tools/marketing/6sense"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    6sense
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Voice Assistants:
-                                            </strong></h5>
-                                            <p className="text-black text-xs">
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Voice Assistance Tools:
-                                            </h6>
-                                            <ul>
-                                                <li>
-                                                    <p className="text-xs">
-                                                        CallAgentAI,&nbsp;
-                                                        Speakai,&nbsp;
-                                                        VoiceGenie,&nbsp;
-                                                        ElevenLabs Conversational AI,&nbsp;
-                                                        Synthflow AI.
-                                                    </p>
-                                                </li>
-                                            </ul>
                                         </li>
                                     </ul>
                                     <h4 className="text-black text-base font-bold shadow-text">
@@ -1469,10 +1472,98 @@ export function UseCasesSection() {
                                     South Florida small-business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                                 </p>
                                 <ol>
+                                    <Link
+                                        id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
+                                        href="/use-cases/marketing/intelligent-lead-capture-pipeline"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
+                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
+                                            Lead Capture Pipeline</h4>
+                                    </Link>
+                                    <p className="text-black text-sm">
+                                        Capture every inbound call, text, web chat, and form inquiry—even after hours—and turn it into a qualified lead.
+                                    </p>
+                                    <ul className="text-black list-disc text-sm list- pl-3 ">
+                                        <li className="pl-.5">
+                                            <strong className="text-sm"> </strong>
+                                            <h5><strong className="text-black text-base">
+                                                Smart Chatbots for Marketing:</strong></h5>
+                                            <p className="text-black text-sm">
+                                                Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
+                                            </p>
+                                            <p className="text-black text-sm font-bold pt-1">
+                                                Top AI Chatbot Tools:
+                                            </p>
+                                            <p className="text-sm">
+                                                BotPenguin,&nbsp;
+                                                ManyChat,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>,&nbsp;
+                                                CustomGPT,&nbsp;
+                                                Get Chip Bot
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-base">
+                                                Lead Scoring:</strong></h5>
+                                            <p className="text-black text-sm">
+                                                AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Lead Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/active-campaign"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    ActiveCampaign
+                                                </Link>,&nbsp;
+                                                Apollo,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>,&nbsp;or&nbsp;
+                                                LeadSquared,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
+                                                    href="/tools/marketing/6sense"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    6sense
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <strong className="text-sm"> </strong>
+                                            <h5><strong className="text-black text-base">Voice Assistants: </strong></h5>
+                                            <p className="text-black text-sm">
+                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Voice Tools:
+                                            </h6>
+                                            <ul>
+                                                <li>
+                                                    <p className="text-sm">
+                                                        CallAgentAI,&nbsp;
+                                                        Speakai,&nbsp;
+                                                        VoiceGenie,&nbsp;
+                                                        ElevenLabs Conversational AI,&nbsp;
+                                                        Synthflow AI.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-2"
                                         href="/use-cases/marketing/ai-content-creation-workflow" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            AI Content Creation Workflow</h4>
+                                            Content Creation Workflow</h4>
                                     </Link>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5 ">
@@ -1595,91 +1686,6 @@ export function UseCasesSection() {
                                                     ActiveCampaign
                                                 </Link>,&nbsp;or&nbsp;
                                                 MailerLite.                                            </p>
-                                        </li>
-                                    </ul>
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
-                                        href="/use-cases/marketing/intelligent-lead-capture-pipeline"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            Lead Capture Pipeline</h4>
-                                    </Link>
-                                    <ul className="text-black list-disc text-sm list- pl-3 ">
-                                        <li className="pl-.5">
-                                            <strong className="text-sm"> </strong>
-                                            <h5><strong className="text-black text-base">
-                                                Smart Chatbots for Marketing:</strong></h5>
-                                            <p className="text-black text-sm">
-                                                Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
-                                            </p>
-                                            <p className="text-black text-sm font-bold pt-1">
-                                                Top AI Chatbot Tools:
-                                            </p>
-                                            <p className="text-sm">
-                                                BotPenguin,&nbsp;
-                                                ManyChat,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
-                                                </Link>,&nbsp;
-                                                CustomGPT,&nbsp;
-                                                Get Chip Bot
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-base">
-                                                Lead Scoring:</strong></h5>
-                                            <p className="text-black text-sm">
-                                                AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Lead Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/active-campaign"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    ActiveCampaign
-                                                </Link>,&nbsp;
-                                                Apollo,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
-                                                </Link>,&nbsp;or&nbsp;
-                                                LeadSquared,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
-                                                    href="/tools/marketing/6sense"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    6sense
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <strong className="text-sm"> </strong>
-                                            <h5><strong className="text-black text-base">Voice Assistants: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Voice Tools:
-                                            </h6>
-                                            <ul>
-                                                <li>
-                                                    <p className="text-sm">
-                                                        CallAgentAI,&nbsp;
-                                                        Speakai,&nbsp;
-                                                        VoiceGenie,&nbsp;
-                                                        ElevenLabs Conversational AI,&nbsp;
-                                                        Synthflow AI.
-                                                    </p>
-                                                </li>
-                                            </ul>
                                         </li>
                                     </ul>
                                     <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
