@@ -592,7 +592,7 @@ export function UseCasesSection() {
                                                 24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Voice Assistance Tools:
+                                                Top Intelligent Receptionist Tools:
                                             </h6>
                                             <ul>
                                                 <li>
@@ -1490,7 +1490,7 @@ export function UseCasesSection() {
                                                 24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Voice Tools:
+                                                Top Intelligent Receptionist Tools:
                                             </h6>
                                             <ul>
                                                 <li>
