@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { MethogologyRevealOnScroll } from "./methodology-reveal-on-scroll";
+import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   Card,
@@ -21,11 +23,15 @@ export default function TheMethodologySection() {
         <div className="container">
           <div className="grid grid-cols-1">
             <div className="col-span-full">
-              <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.9] font-black font-[var(--font-sora)] shadow-text">
-                The &nbsp;
-                <br />
-                <span className="text-[#C83803]">Methodology</span>
-              </h2>
+              <Link
+                id={gtmLinkIdFromHref("/methodology")}
+                href="/methodology">
+                <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.9] font-black font-[var(--font-sora)] shadow-text">
+                  The &nbsp;
+                  <br />
+                  <span className="text-[#C83803]">Methodology</span>
+                </h2>
+              </Link>
               <p className="text-white text-lg shadow-text">
                 Every project starts with a free consultation and a clear
                 four-phase plan, define business objectives, assess data quality,
@@ -217,11 +223,15 @@ export default function TheMethodologySection() {
             <div className="col-span-8 min-h-screen">
               {/* <div className="grid grid-cols-1 min-h-screen place-items-center"> */}
                 {/* <div className=""> */}
-                  <h2 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                    The&nbsp;
-                    <br />
-                    <span className="text-[#C83803] leading-[1.1]">Methodology</span>
-                  </h2>
+                  <Link
+                    id={gtmLinkIdFromHref("/methodology", "desktop")}
+                    href="/methodology">
+                    <h2 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                      The&nbsp;
+                      <br />
+                      <span className="text-[#C83803] leading-[1.1]">Methodology</span>
+                    </h2>
+                  </Link>
                   <p className="text-white text-xl font-normal shadow-text">
                     Every project starts with a free consultation and a clear
                     four-phase plan, define business objectives, assess data
