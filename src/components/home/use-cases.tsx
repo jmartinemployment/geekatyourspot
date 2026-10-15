@@ -589,7 +589,7 @@ export function UseCasesSection() {
                                                 Intelligent Receptionist:
                                             </strong></h5>
                                             <p className="text-black text-xs">
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                                24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top Intelligent Receptionist Tools:
@@ -1487,7 +1487,7 @@ export function UseCasesSection() {
                                             <strong className="text-sm"> </strong>
                                             <h5><strong className="text-black text-base">Intelligent Receptionist: </strong></h5>
                                             <p className="text-black text-sm">
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                                24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top Intelligent Receptionist Tools:
