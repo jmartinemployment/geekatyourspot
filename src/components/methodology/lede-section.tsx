@@ -2,24 +2,25 @@ export default function LedeSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        You are not against automation. You are against handing your books to something you cannot see
-        inside. Software that posts entries nobody checked. A system that moves money on rules nobody in your
-        building wrote. An error that compounds quietly for months and surfaces in a <strong>compliance
-        audit</strong> or an <strong>IRS notice</strong>. That is <strong>black box anxiety</strong>, and for a
-        business running on tight margins it is a reasonable fear.</p>
+        You are not against automation. You are against handing your books to software you cannot see inside.
+        You worry about entries that post without anyone checking them, and about a system that moves money on
+        rules nobody in your building wrote. Worst of all, you worry about an error that compounds quietly for
+        months and then surfaces in a <strong>compliance audit</strong> or an <strong>IRS notice</strong>. That
+        is <strong>black box anxiety</strong>, and for a business running on tight margins it is a reasonable
+        fear.</p>
       <p className="text-md text-white shadow-text pt-3">
         Owners across <strong>Miami-Dade</strong>, <strong>Broward</strong>, and <strong>Palm Beach</strong> hear
-        the same pitch. A platform first. A demo. A multi-year contract. Then a rollout that bends the business
-        to fit the software. When it goes wrong, nobody can explain what the system did, because nobody can see
-        inside it.</p>
+        the same pitch again and again. The vendor leads with a platform and a polished demo, and then asks for a
+        contract that runs for years. The rollout that follows bends the business to fit the software. When
+        something goes wrong, nobody can explain what the system did, because nobody can see inside it.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Our methodology runs the other way. Four phases, each one a checkpoint. Each one ends with something you
-        can see and approve. Your business sets the rules. Your data gets inspected before any system acts on
-        it. Your tools are chosen on your terms. Your old process keeps running until the new one proves
-        itself.</p>
+        Our methodology works the other way around. It runs in four phases, and each phase is a checkpoint that
+        ends with something you can see and approve. Your business sets the rules, and your data is inspected
+        before any system acts on it. You choose your tools on your own terms, and your old process keeps running
+        until the new one proves itself.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Every project starts with a <strong>free consultation</strong>. Here is what happens after it, phase by
-        phase, and why each step is built to keep a human at the wheel.</p>
+        Every project starts with a <strong>free consultation</strong>. The sections below explain what happens
+        after that conversation, phase by phase, and how each step keeps a person at the wheel.</p>
     </>
   );
 
