@@ -186,7 +186,7 @@ const DEPARTMENTS: Department[] = [
       "Marketing automation earns its keep in the repetitive middle of the funnel: capturing and scoring leads, producing and repurposing content, tuning ad spend, and answering the same questions in chat. These pillars cover each of those jobs for a small team.",
     useCases: [
       {
-        title: "AI Content Creation Workflow",
+        title: "Content Creation Workflow",
         slug: "ai-content-creation-workflow",
         description:
           "Streamline your content creation with AI-driven workflows that improve design efficiency and reduce time-to-market.",

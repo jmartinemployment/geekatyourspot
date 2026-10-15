@@ -176,7 +176,7 @@ export default function Navbar(): React.JSX.Element {
                   <ul className={LIST_CLASS}>
                     <MenuLink
                       href="/use-cases/marketing/ai-content-creation-workflow"
-                      label="AI Content Creation Workflow"
+                      label="Content Creation Workflow"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink

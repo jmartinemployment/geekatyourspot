@@ -17,7 +17,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "AI Content Creation Workflow",
+            "headline": "Content Creation Workflow",
             "description": "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
@@ -127,7 +127,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "AI Content Creation Workflow",
+        title: "Content Creation Workflow",
         description: "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
         keywords: ["AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow' }],
@@ -138,7 +138,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/marketing/AI-content-creation-workflow',
         },
         openGraph: {
-            title: "AI Content Creation Workflow",
+            title: "Content Creation Workflow",
             description: "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
             url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow',
             siteName: 'Geek at Your Spot',
@@ -155,7 +155,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "AI Content Creation Workflow",
+            title: "Content Creation Workflow",
             description: "Explore how an AI content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -182,8 +182,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "AI Content Creation Workflow";
-    const heroSummary = "Enhance your marketing strategy with streamlined AI Content Creation Workflow, automating tasks to save time and improve results."
+    const title = "Content Creation Workflow";
+    const heroSummary = "Stop letting manual content creation bottleneck your growth."
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
     const imgAlt = "Streamline the chaos"
     return (

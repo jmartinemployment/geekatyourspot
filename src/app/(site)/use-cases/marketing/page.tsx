@@ -62,7 +62,7 @@ export default function MarketingUseCasesPage() {
       href: "/use-cases/marketing/ai-marketing-systems",
     },
     {
-      title: "AI Content Creation Workflow",
+      title: "Content Creation Workflow",
       slug: "ai-content-creation-workflow",
       description:
         "Streamline your content creation with AI-driven workflows that improve design efficiency and reduce time-to-market.",
