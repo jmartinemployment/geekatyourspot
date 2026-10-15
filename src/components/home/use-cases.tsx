@@ -581,7 +581,7 @@ export function UseCasesSection() {
                                             Lead Capture Pipeline &amp; Instant Response</h4>
                                     </Link>
                                     <p className="text-black text-xs">
-                                        Capture every inbound call, text, web chat, and form inquiry—even after hours—and turn it into a qualified lead.
+                                        Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
                                     </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
@@ -1480,7 +1480,7 @@ export function UseCasesSection() {
                                             Lead Capture Pipeline &amp; Instant Response</h4>
                                     </Link>
                                     <p className="text-black text-sm">
-                                        Capture every inbound call, text, web chat, and form inquiry—even after hours—and turn it into a qualified lead.
+                                        Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
                                     </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
