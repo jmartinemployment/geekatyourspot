@@ -586,6 +586,28 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-sm">
+                                                Intelligent Receptionist:
+                                            </strong></h5>
+                                            <p className="text-black text-xs">
+                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Voice Assistance Tools:
+                                            </h6>
+                                            <ul>
+                                                <li>
+                                                    <p className="text-xs">
+                                                        CallAgentAI,&nbsp;
+                                                        Speakai,&nbsp;
+                                                        VoiceGenie,&nbsp;
+                                                        ElevenLabs Conversational AI,&nbsp;
+                                                        Synthflow AI.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
                                                 Smart Chatbots for Marketing:</strong></h5>
                                             <p className="text-black text-xs">
                                                 Marketing teams use smart AI chatbots to run campaigns around the clock, sort and qualify leads, deliver personal product tips, and recover lost sales.
@@ -637,28 +659,6 @@ export function UseCasesSection() {
                                                     6sense
                                                 </Link>.
                                             </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Voice Assistants:
-                                            </strong></h5>
-                                            <p className="text-black text-xs">
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Voice Assistance Tools:
-                                            </h6>
-                                            <ul>
-                                                <li>
-                                                    <p className="text-xs">
-                                                        CallAgentAI,&nbsp;
-                                                        Speakai,&nbsp;
-                                                        VoiceGenie,&nbsp;
-                                                        ElevenLabs Conversational AI,&nbsp;
-                                                        Synthflow AI.
-                                                    </p>
-                                                </li>
-                                            </ul>
                                         </li>
                                     </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-1"
@@ -1485,6 +1485,27 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>
+                                            <h5><strong className="text-black text-base">Intelligent Receptionist: </strong></h5>
+                                            <p className="text-black text-sm">
+                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Voice Tools:
+                                            </h6>
+                                            <ul>
+                                                <li>
+                                                    <p className="text-sm">
+                                                        CallAgentAI,&nbsp;
+                                                        Speakai,&nbsp;
+                                                        VoiceGenie,&nbsp;
+                                                        ElevenLabs Conversational AI,&nbsp;
+                                                        Synthflow AI.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <strong className="text-sm"> </strong>
                                             <h5><strong className="text-black text-base">
                                                 Smart Chatbots for Marketing:</strong></h5>
                                             <p className="text-black text-sm">
@@ -1537,27 +1558,6 @@ export function UseCasesSection() {
                                                     6sense
                                                 </Link>.
                                             </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <strong className="text-sm"> </strong>
-                                            <h5><strong className="text-black text-base">Voice Assistants: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                24/7 marketing, or "always-on" marketing, uses digital automation to engage customers around the clock. By running continuous systems rather than isolated campaigns, businesses achieve an average ROI of $5.44 for every $1 spent, driving higher lead volumes and non-stop global reach.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Voice Tools:
-                                            </h6>
-                                            <ul>
-                                                <li>
-                                                    <p className="text-sm">
-                                                        CallAgentAI,&nbsp;
-                                                        Speakai,&nbsp;
-                                                        VoiceGenie,&nbsp;
-                                                        ElevenLabs Conversational AI,&nbsp;
-                                                        Synthflow AI.
-                                                    </p>
-                                                </li>
-                                            </ul>
                                         </li>
                                     </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-2"
