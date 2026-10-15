@@ -26,10 +26,10 @@ export default function TheMethodologySection() {
               <Link
                 id={gtmLinkIdFromHref("/methodology")}
                 href="/methodology">
-                <h2 className="text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.9] font-black font-[var(--font-sora)] shadow-text">
+                <h2 className="hover:text-[#C83803] text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.9] font-black font-[var(--font-sora)] shadow-text">
                   The &nbsp;
                   <br />
-                  <span className="text-[#C83803]">Methodology</span>
+                  <span className="hover:text-white text-[#C83803]">Methodology</span>
                 </h2>
               </Link>
               <p className="text-white text-lg shadow-text">
@@ -226,10 +226,10 @@ export default function TheMethodologySection() {
                   <Link
                     id={gtmLinkIdFromHref("/methodology", "desktop")}
                     href="/methodology">
-                    <h2 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                    <h2 className="hover:text-[#C83803] text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                       The&nbsp;
                       <br />
-                      <span className="text-[#C83803] leading-[1.1]">Methodology</span>
+                      <span className="hover:text-white text-[#C83803] leading-[1.1]">Methodology</span>
                     </h2>
                   </Link>
                   <p className="text-white text-xl font-normal shadow-text">
