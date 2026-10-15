@@ -76,6 +76,13 @@ export default function MarketingUseCasesPage() {
       href: "/use-cases/marketing/intelligent-lead-capture-pipeline",
     },
     {
+      title: "Intelligent Receptionist",
+      slug: "intelligent-receptionist",
+      description:
+        "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
+      href: "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses",
+    },
+    {
       title: "AI Content Repurposing",
       slug: "ai-content-repurposing",
       description:

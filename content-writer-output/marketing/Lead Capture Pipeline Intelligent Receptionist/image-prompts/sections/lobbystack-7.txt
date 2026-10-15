@@ -1,0 +1,1 @@
+Configuration interface visualization, with gears, sliders, and modular logic blocks, depicting customization of business rules and call routing, in a flat B2B tech diagram style.

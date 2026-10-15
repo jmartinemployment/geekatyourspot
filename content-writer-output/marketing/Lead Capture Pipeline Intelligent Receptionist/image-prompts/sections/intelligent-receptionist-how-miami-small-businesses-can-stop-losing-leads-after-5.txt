@@ -1,0 +1,1 @@
+A flat vector dashboard with various data charts (bar, pie, line) and analytic icons, with some areas faded or blurred to represent unknowns. Emphasizes measurable outcomes vs. unproven areas, in a clean, professional infographic design.

@@ -1,0 +1,1 @@
+Layered diagram of a tech stack showing interconnected modules for integrations, databases, and data control, with abstract server and API icons, representing robust architecture in a B2B infographic style.

@@ -585,26 +585,53 @@ export function UseCasesSection() {
                                     </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Intelligent Receptionist:
-                                            </strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses", "Intelligent Receptionist")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
+                                                    Intelligent Receptionist:
+                                                </strong>
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-xs">
                                                 24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top Intelligent Receptionist Tools:
                                             </h6>
-                                            <ul>
-                                                <li>
-                                                    <p className="text-xs">
-                                                        CallAgentAI,&nbsp;
-                                                        Speakai,&nbsp;
-                                                        VoiceGenie,&nbsp;
-                                                        ElevenLabs Conversational AI,&nbsp;
-                                                        Synthflow AI.
-                                                    </p>
-                                                </li>
-                                            </ul>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", "LobbyStack")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    LobbyStack
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Nextiva
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Smith.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Voksha
+                                                </Link>.
+                                            </p>
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-sm">
@@ -1485,24 +1512,53 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>
-                                            <h5><strong className="text-black text-base">Intelligent Receptionist: </strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses", "Intelligent Receptionist")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
+                                                    Intelligent Receptionist:
+                                                </strong>
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-sm">
                                                 24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top Intelligent Receptionist Tools:
                                             </h6>
-                                            <ul>
-                                                <li>
-                                                    <p className="text-sm">
-                                                        CallAgentAI,&nbsp;
-                                                        Speakai,&nbsp;
-                                                        VoiceGenie,&nbsp;
-                                                        ElevenLabs Conversational AI,&nbsp;
-                                                        Synthflow AI.
-                                                    </p>
-                                                </li>
-                                            </ul>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", "LobbyStack")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    LobbyStack
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Nextiva
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Smith.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Voksha
+                                                </Link>.
+                                            </p>
                                         </li>
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>

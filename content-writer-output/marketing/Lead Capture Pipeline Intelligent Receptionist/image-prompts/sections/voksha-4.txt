@@ -1,0 +1,1 @@
+Flat vector technical diagram showing the Voksha platform architecture: core system, integration points with other business tools (calendars, CRMs), and data flow arrows connecting components, all in a clean, professional style.

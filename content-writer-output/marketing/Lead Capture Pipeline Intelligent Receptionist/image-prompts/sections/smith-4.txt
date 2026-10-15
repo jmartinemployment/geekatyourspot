@@ -1,0 +1,1 @@
+A simplified architecture diagram in vector style showing Smith system components: AI engine, human operator, database, business software integrations, and interconnected data flows. Clean lines, layered structure, tech aesthetic.

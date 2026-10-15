@@ -1,0 +1,1 @@
+A network diagram showing an intelligent receptionist hub connecting to various business apps and data sources, with some links glowing (successful integrations) and others dimmed (missed connections). Flat vector, B2B tech style.

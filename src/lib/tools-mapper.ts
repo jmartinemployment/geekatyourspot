@@ -42,13 +42,18 @@ import { jasperAiContent } from "@/data/tools/jasper-ai";
 import { jiravContent } from "@/data/tools/jirav";
 import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
+import { lobbystackContent } from "@/data/tools/lobbystack";
 import { madgicxContent } from "@/data/tools/madgicx";
 import { mailchimpContent } from "@/data/tools/mailchimp";
 import { mediusContent } from "@/data/tools/medius";
 import { melioContent } from "@/data/tools/melio";
 import { melioApprovalWorkflowsContent } from "@/data/tools/melio-approval-workflows";
 import { monteCarloContent } from "@/data/tools/monte-carlo";
+import { myaifrontdeskContent } from "@/data/tools/myaifrontdesk";
+import { nextivaContent } from "@/data/tools/nextiva";
 import { optimoveContent } from "@/data/tools/optimove";
+import { smithContent } from "@/data/tools/smith";
+import { vokshaContent } from "@/data/tools/voksha";
 import { qualyticsContent } from "@/data/tools/qualytics";
 import { quadernoContent } from "@/data/tools/quaderno";
 import { quadernoMultiStateSalesTaxNexusContent } from "@/data/tools/quaderno-multi-state-sales-tax-nexus";
@@ -112,12 +117,15 @@ const toolsMap: Record<string, ToolPageContent> = {
   "jirav": jiravContent,
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
+  "lobbystack": lobbystackContent,
   "madgicx": madgicxContent,
   "mailchimp": mailchimpContent,
   "medius": mediusContent,
   "melio": melioContent,
   "melio-approval-workflows": melioApprovalWorkflowsContent,
   "monte-carlo": monteCarloContent,
+  "myaifrontdesk": myaifrontdeskContent,
+  "nextiva": nextivaContent,
   "optimove": optimoveContent,
   "qualytics": qualyticsContent,
   "quaderno": quadernoContent,
@@ -127,6 +135,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "ramp-approval-workflows": rampApprovalWorkflowsContent,
   "rillion": rillionContent,
   "rippling": ripplingContent,
+  "smith": smithContent,
   "sovos": sovosContent,
   "stampli": stampliContent,
   "thomson-reuters-onesource": thomsonReutersOnesourceContent,
@@ -135,6 +144,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "upflow": upflowContent,
   "versapay": versapayContent,
   "vertex": vertexContent,
+  "voksha": vokshaContent,
   "zamp": zampContent,
   "zamp-multi-state-sales-tax-nexus": zampMultiStateSalesTaxNexusContent,
 };

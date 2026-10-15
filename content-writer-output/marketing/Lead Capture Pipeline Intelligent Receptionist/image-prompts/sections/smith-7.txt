@@ -1,0 +1,1 @@
+A layered vector illustration showing modules for rules, automation logic, and plug-in extensions, represented as building blocks being assembled into a cohesive system. Visual focus on customization and modularity.
