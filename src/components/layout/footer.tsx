@@ -86,11 +86,11 @@ export default function Footer() {
               <li className="py-2">
                 <span className="font-bold text-white text-sm shadow-text">
                   2025 NW 18th Street <br /> Delray Beach, FL 33445
-                </span>
+                </span><br />
                 <a
                   id={gtmLinkIdFromHref("tel:+15615263512")}
                   href="tel:+15615263512"
-                  className="text-white text-sm shadow-text"
+                  className="font-bold text-white text-sm shadow-text hover:text-[#c83803] transition-colors"
                 >
                   (561) 526-3512
                 </a>
