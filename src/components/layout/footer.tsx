@@ -84,29 +84,15 @@ export default function Footer() {
             </h2>
             <ul>
               <li className="py-2">
+                <span className="font-bold text-white text-sm shadow-text">
+                  2025 NW 18th Street <br /> Delray Beach, FL 33445
+                </span>
                 <a
                   id={gtmLinkIdFromHref("tel:+15615263512")}
                   href="tel:+15615263512"
                   className="text-white text-sm shadow-text"
                 >
-                  <span className="font-bold text-white text-sm shadow-text">
-                    Call Us
-                  </span>
-                  <br />
                   (561) 526-3512
-                </a>
-              </li>
-              <li className="py-2">
-                <a
-                  id={gtmLinkIdFromHref("https://share.google/N5czXCIcHvptENeqr", "hq")}
-                  href="https://share.google/N5czXCIcHvptENeqr"
-                  className="text-white text-sm shadow-text"
-                >
-                  <span className="font-bold text-white text-sm shadow-text">
-                    Headquarters
-                  </span>
-                  <br />
-                  Delray Beach, Fl
                 </a>
               </li>
             </ul>
