@@ -255,13 +255,6 @@ const DEPARTMENTS: Department[] = [
           "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
         href: "/use-cases/marketing/seo-blog-and-article-generation",
       },
-      {
-        title: "Smart Chatbots for Marketing",
-        slug: "smart-chatbots-for-marketing",
-        description:
-          "Explore Smart Chatbots for Marketing to boost engagement, streamline customer interactions, and enhance your business strategy with AI.",
-        href: "/use-cases/marketing/smart-chatbots-for-marketing",
-      },
     ],
   },
 ];

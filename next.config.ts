@@ -129,6 +129,13 @@ const nextConfig: NextConfig = {
         destination: "/tools/marketing/active-campaign",
         permanent: true,
       },
+      // The Smart Chatbots for Marketing pillar moved to the blog on 2026-10-16;
+      // Cross-Platform Chatbot is the pillar for this topic now.
+      {
+        source: "/use-cases/marketing/smart-chatbots-for-marketing",
+        destination: "/blog/marketing/smart-chatbots-for-marketing-transforming-customer-engagement",
+        permanent: true,
+      },
     ];
   },
   async headers() {

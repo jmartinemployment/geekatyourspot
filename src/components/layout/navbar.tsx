@@ -224,11 +224,6 @@ export default function Navbar(): React.JSX.Element {
                       label="SEO Blog and Article Generation"
                       onNavigate={closeSidebar}
                     />
-                    <MenuLink
-                      href="/use-cases/marketing/smart-chatbots-for-marketing"
-                      label="Smart Chatbots for Marketing"
-                      onNavigate={closeSidebar}
-                    />
                   </ul>
                 </div>
 
@@ -313,6 +308,11 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink
                       href="/blog/marketing/are-smart-chatbots-the-secret-weapon-for-marketing-success"
                       label="Are Smart Chatbots the Secret Weapon for Marketing Success?"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/marketing/smart-chatbots-for-marketing-transforming-customer-engagement"
+                      label="Smart Chatbots for Marketing: Transforming Customer Engagement"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
