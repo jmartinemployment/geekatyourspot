@@ -684,9 +684,9 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-sm">
-                                                Lead Scoring:</strong></h5>
+                                                Lead Enrichment and Predictive Scoring:</strong></h5>
                                             <p className="text-black text-xs">
-                                                AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
+                                                Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI Lead Scoring Tools:
@@ -1639,9 +1639,9 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-base">
-                                                Lead Scoring:</strong></h5>
+                                                Lead Enrichment and Predictive Scoring:</strong></h5>
                                             <p className="text-black text-sm">
-                                                AI lead scoring replaces static, manual point systems with dynamic machine learning models. It analyzes historical conversions, real-time intent, and firmographics to rank prospects by purchase readiness.
+                                                Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI Lead Tools:
