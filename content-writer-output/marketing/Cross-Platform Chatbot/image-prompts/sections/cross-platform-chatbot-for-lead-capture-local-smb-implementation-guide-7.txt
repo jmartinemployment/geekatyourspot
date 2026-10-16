@@ -1,0 +1,1 @@
+A schematic diagram showing a chatbot at the center connected to various business tools (CRM, email, analytics), with data streams flowing between them, representing essential integrations for effective lead capture.

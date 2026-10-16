@@ -1,0 +1,1 @@
+Flat vector schematic of a tech architecture diagram: central chatbot system connected via lines to various service icons (CRM, social platforms, APIs), with arrows representing data flow through modules and integrations.

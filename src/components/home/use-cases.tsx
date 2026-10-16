@@ -634,8 +634,15 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Cross-Platform Chatbot:</strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide", "Cross-Platform Chatbot")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
+                                                    Cross-Platform Chatbot:
+                                                </strong>
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-xs">
                                                 Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
                                             </p>
@@ -643,16 +650,36 @@ export function UseCasesSection() {
                                                 Top AI Chatbot Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                BotPenguin,&nbsp;
-                                                ManyChat,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "BotPenguin")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    BotPenguin
                                                 </Link>,&nbsp;
-                                                CustomGPT,&nbsp;
-                                                Get Chip Bot
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Dapta
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Manychat
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Tidio
+                                                </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -1562,8 +1589,15 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>
-                                            <h5><strong className="text-black text-base">
-                                                Cross-Platform Chatbot:</strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide", "Cross-Platform Chatbot")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
+                                                    Cross-Platform Chatbot:
+                                                </strong>
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-sm">
                                                 Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
                                             </p>
@@ -1571,16 +1605,36 @@ export function UseCasesSection() {
                                                 Top AI Chatbot Tools:
                                             </p>
                                             <p className="text-sm">
-                                                BotPenguin,&nbsp;
-                                                ManyChat,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "BotPenguin")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    BotPenguin
                                                 </Link>,&nbsp;
-                                                CustomGPT,&nbsp;
-                                                Get Chip Bot
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Dapta
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Manychat
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Tidio
+                                                </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">

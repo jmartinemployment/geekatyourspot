@@ -1,0 +1,1 @@
+Flat vector diagram of a data map: user profiles, labeled data fields, and connecting lines to chatbot decision nodes, illustrating structured data mapping and its influence on automation.

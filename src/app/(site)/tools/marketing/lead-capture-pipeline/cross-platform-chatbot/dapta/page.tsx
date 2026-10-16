@@ -1,0 +1,102 @@
+import type { Metadata } from "next";
+import ToolsHeroSection from "@/components/tools/shared/tools-hero";
+import OverviewSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/overview-section";
+import ChallengesSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/challenges-section";
+import TransformsSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/transforms-section";
+import HowItWorksSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/how-it-works-section";
+import ArchitectureSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/architecture-section";
+import ImplementingSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/implementing-section";
+import DataMappingSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/data-mapping-section";
+import ConfiguringSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/configuring-section";
+import EvaluatingSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/evaluating-section";
+import ComparingSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/comparing-section";
+import RightFitSection from "@/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta/right-fit-section";
+import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import type { Graph } from "schema-dts";
+import { safeJsonLd } from "@/lib/seo/json-ld";
+
+const TITLE = "Dapta";
+const DESCRIPTION =
+    "Cross-Platform Chatbot Dapta keeps Miami-Dade, Broward, and West Palm Beach small businesses connected, capturing every lead from every channel with ease.";
+const CANONICAL = "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta";
+const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
+
+const jsonLd: Graph = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "SoftwareApplication",
+            "name": TITLE,
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": DESCRIPTION,
+            "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
+            "keywords": "Dapta, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
+            "subjectOf": {
+                "@type": "Article",
+                "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
+            },
+            "@id": `${PAGE_URL}#software`
+        }
+    ]
+};
+
+export const generateMetadata = async (): Promise<Metadata> => {
+    return {
+        title: TITLE,
+        description: DESCRIPTION,
+        keywords: ["Dapta", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
+        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        creator: 'Geek at Your Spot Llc',
+        publisher: 'Geek at Your Spot Llc',
+        metadataBase: new URL('https://geekatyourspot.com'),
+        alternates: { canonical: CANONICAL },
+        openGraph: {
+            title: TITLE,
+            description: DESCRIPTION,
+            url: PAGE_URL,
+            siteName: 'Geek at Your Spot',
+            locale: 'en_US',
+            type: 'website',
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: TITLE,
+            description: DESCRIPTION,
+            creator: 'Geek at Your Spot',
+            images: ['/images/GeekAtYourSpot.svg'],
+        },
+        robots: {
+            index: true, follow: true, nocache: false,
+            googleBot: {
+                index: true, follow: true, noimageindex: false,
+                'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
+            },
+        },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+    };
+};
+
+export default async function Page() {
+    const heroSummary =
+        "Dapta centralizes inbound messages from every channel, ensuring your local team can respond quickly and consistently to every lead without missing a beat.";
+    return (
+        <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
+            <ToolsHeroSection title={TITLE} summary={heroSummary} />
+            <OverviewSection />
+            <ChallengesSection />
+            <TransformsSection />
+            <HowItWorksSection />
+            <ArchitectureSection />
+            <ImplementingSection />
+            <DataMappingSection />
+            <ConfiguringSection />
+            <EvaluatingSection />
+            <ComparingSection />
+            <RightFitSection />
+            <SchedulerShell />
+        </>
+    );
+}

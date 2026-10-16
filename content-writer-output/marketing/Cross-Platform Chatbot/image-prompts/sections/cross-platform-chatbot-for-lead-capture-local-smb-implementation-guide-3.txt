@@ -1,0 +1,1 @@
+A step-by-step flow diagram showing a user initiating contact on multiple platforms, a centralized chatbot processing the interactions, qualifying leads, and seamlessly delivering them to a unified business dashboard.

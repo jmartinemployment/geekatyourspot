@@ -1,0 +1,1 @@
+A flat vector cutaway diagram showing layered software architecture: core modules, integration connectors, and a structured database, connected by clean lines and nodes, representing technical infrastructure. B2B tech visual style.

@@ -1,0 +1,1 @@
+Flat vector step-by-step flowchart, illustrating a message moving through stages: incoming message, chatbot processing, response generation, and reply sent across multiple device icons, representing cross-platform conversation handling.

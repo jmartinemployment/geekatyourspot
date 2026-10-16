@@ -1,0 +1,1 @@
+A schematic illustration of database tables and mapping lines connecting fields between systems, visualizing structured data flow and decision points, with color-coded nodes for clarity.

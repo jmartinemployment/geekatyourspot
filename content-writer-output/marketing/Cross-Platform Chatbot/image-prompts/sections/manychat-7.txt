@@ -1,0 +1,1 @@
+Flat vector flowchart showing chatbot configuration: logic rules, branching paths, and automation triggers, with gears and toggles representing customization and setup.

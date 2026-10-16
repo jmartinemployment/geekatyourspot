@@ -1,0 +1,1 @@
+Vector schematic of a software architecture with a chatbot core, integrated APIs, databases, and cloud services, all interconnected with lines, representing robust platform architecture.

@@ -1,0 +1,1 @@
+Vector diagram showing data flow between chatbot, structured data tables, and mapping elements like fields and entities, highlighting key decision points in deployment.

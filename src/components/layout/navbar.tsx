@@ -205,6 +205,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
+                      label="Cross-Platform Chatbot"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/marketing/intelligent-lead-capture-pipeline"
                       label="Intelligent Lead Capture Pipeline"
                       onNavigate={closeSidebar}
@@ -365,6 +370,11 @@ export default function Navbar(): React.JSX.Element {
                       label="Intelligent Receptionist: How to Stop Losing Leads After Hours"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline"
+                      label="Cross-Platform Chatbot: The Missing Link in Your Lead Capture Pipeline"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
 
@@ -425,19 +435,24 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/active-campaign" label="ActiveCampaign" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/adobe-mix-modeler" label="Adobe Mix Modeler" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/anomalo" label="Anomalo" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" label="BotPenguin" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/contentstudio" label="ContentStudio" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" label="Dapta" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/great-expectations" label="Great Expectations" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" label="LobbyStack" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/madgicx" label="Madgicx" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" label="Manychat" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/monte-carlo" label="Monte Carlo" onNavigate={closeSidebar} />
-                    <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" label="My AI Front Desk" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk" label="My AI Front Desk (Cross-Platform Chatbot)" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" label="My AI Front Desk (Intelligent Receptionist)" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva" label="Nextiva" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/optimove" label="Optimove" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/pipedrive" label="Pipedrive" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/qualytics" label="Qualytics" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" label="Smith.ai" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" label="Tidio" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha" label="Voksha" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />
                   </ul>

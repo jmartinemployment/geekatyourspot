@@ -1,0 +1,1 @@
+A layered technical diagram showing Dapta at the center, connected by clean lines to various third-party platforms (represented by generic icons for CRM, calendar, chat apps, and cloud services), highlighting modular architecture.

@@ -1,0 +1,1 @@
+A branching decision tree diagram, showing early foundational choices splitting into multiple future pathways, illustrating how initial decisions impact the entire chatbot project outcome.

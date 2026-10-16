@@ -15,11 +15,13 @@ import { billApprovalWorkflowsContent } from "@/data/tools/bill-approval-workflo
 import { billFraudDuplicatePaymentControlsContent } from "@/data/tools/bill-fraud-duplicate-payment-controls";
 import { billPaymentExecutionContent } from "@/data/tools/bill-payment-execution";
 import { boardContent } from "@/data/tools/board";
+import { botpenguinContent } from "@/data/tools/botpenguin";
 import { cashflowfrogContent } from "@/data/tools/cashflowfrog";
 import { cashflowfrogIntelligentResourcePlanningContent } from "@/data/tools/cashflowfrog-intelligent-resource-planning";
 import { chaserhqContent } from "@/data/tools/chaserhq";
 import { clockworkContent } from "@/data/tools/clockwork";
 import { coupaContent } from "@/data/tools/coupa";
+import { daptaContent } from "@/data/tools/dapta";
 import { deelContent } from "@/data/tools/deel";
 import { dextContent } from "@/data/tools/dext";
 import { driftContent } from "@/data/tools/drift";
@@ -45,14 +47,17 @@ import { leadfeederContent } from "@/data/tools/leadfeeder";
 import { lobbystackContent } from "@/data/tools/lobbystack";
 import { madgicxContent } from "@/data/tools/madgicx";
 import { mailchimpContent } from "@/data/tools/mailchimp";
+import { manychatContent } from "@/data/tools/manychat";
 import { mediusContent } from "@/data/tools/medius";
 import { melioContent } from "@/data/tools/melio";
 import { melioApprovalWorkflowsContent } from "@/data/tools/melio-approval-workflows";
 import { monteCarloContent } from "@/data/tools/monte-carlo";
 import { myaifrontdeskContent } from "@/data/tools/myaifrontdesk";
+import { myaifrontdeskCrossPlatformChatbotContent } from "@/data/tools/myaifrontdesk-cross-platform-chatbot";
 import { nextivaContent } from "@/data/tools/nextiva";
 import { optimoveContent } from "@/data/tools/optimove";
 import { smithContent } from "@/data/tools/smith";
+import { tidioContent } from "@/data/tools/tidio";
 import { vokshaContent } from "@/data/tools/voksha";
 import { qualyticsContent } from "@/data/tools/qualytics";
 import { quadernoContent } from "@/data/tools/quaderno";
@@ -90,11 +95,13 @@ const toolsMap: Record<string, ToolPageContent> = {
   "bill-fraud-duplicate-payment-controls": billFraudDuplicatePaymentControlsContent,
   "bill-payment-execution": billPaymentExecutionContent,
   "board": boardContent,
+  "botpenguin": botpenguinContent,
   "cashflowfrog": cashflowfrogContent,
   "cashflowfrog-intelligent-resource-planning": cashflowfrogIntelligentResourcePlanningContent,
   "chaserhq": chaserhqContent,
   "clockwork": clockworkContent,
   "coupa": coupaContent,
+  "dapta": daptaContent,
   "deel": deelContent,
   "dext": dextContent,
   "drift": driftContent,
@@ -120,11 +127,13 @@ const toolsMap: Record<string, ToolPageContent> = {
   "lobbystack": lobbystackContent,
   "madgicx": madgicxContent,
   "mailchimp": mailchimpContent,
+  "manychat": manychatContent,
   "medius": mediusContent,
   "melio": melioContent,
   "melio-approval-workflows": melioApprovalWorkflowsContent,
   "monte-carlo": monteCarloContent,
   "myaifrontdesk": myaifrontdeskContent,
+  "myaifrontdesk-cross-platform-chatbot": myaifrontdeskCrossPlatformChatbotContent,
   "nextiva": nextivaContent,
   "optimove": optimoveContent,
   "qualytics": qualyticsContent,
@@ -139,6 +148,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "sovos": sovosContent,
   "stampli": stampliContent,
   "thomson-reuters-onesource": thomsonReutersOnesourceContent,
+  "tidio": tidioContent,
   "tipalti": tipaltiContent,
   "tipalti-fraud-duplicate-payment-controls": tipaltiFraudDuplicatePaymentControlsContent,
   "upflow": upflowContent,

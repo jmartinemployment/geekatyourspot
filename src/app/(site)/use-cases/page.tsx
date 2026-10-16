@@ -242,6 +242,13 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses",
       },
       {
+        title: "Cross-Platform Chatbot",
+        slug: "cross-platform-chatbot",
+        description:
+          "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
+        href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide",
+      },
+      {
         title: "SEO Blog and Article Generation",
         slug: "seo-blog-and-article-generation",
         description:
