@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import OverviewSection from '@/components/use-cases/marketing/intelligent-lead-capture-pipeline/overview-section'
-import IntroductionSection from '@/components/use-cases/marketing/intelligent-lead-capture-pipeline/introduction-section'
+import OverviewSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/overview-section";
+import IntroductionSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/introduction-section";
 import BenefitsSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/benefits-section";
-import OptimizingPipelinePerformanceSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/optimizing-pipeline-performance";
-import ToolsSection from '@/components/use-cases/marketing/intelligent-lead-capture-pipeline/tools-section'
-import FAQSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/faq-section";
+import ToolsSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/tools-section";
+import OptimizingSection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/optimizing-section";
+import PAASection from "@/components/use-cases/marketing/intelligent-lead-capture-pipeline/paa-section";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
@@ -41,43 +41,38 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
             },
             "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
-            "wordCount": 3028,
             "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article",
+            "hasPart": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#faq" },
+            "mentions": [
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio#software" }
+            ]
         },
         {
-            "@type": "SoftwareApplication",
-            "name": "HubSpot",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "HubSpot is a powerful platform that streamlines lead management by automating repetitive tasks and providing insightful analytics. For businesses struggling with manual lead tracking, HubSpot offers a cohesive approach that integrates contacts, marketing, and sales into one seamless system. This reduces human error and frees up valuable time for teams to focus on nurturing relationships and closing deals."
-        },
-        {
-            "@type": "SoftwareApplication",
-            "name": "Salesforce Einstein",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Salesforce Einstein integrates AI directly into Salesforce, helping businesses automate and optimize customer interactions. It enhances CRM by providing smarter insights, predictive analytics, and personalized recommendations, making it easier to convert leads into sales."
-        },
-        {
-            "@type": "SoftwareApplication",
-            "name": "Marketo Engage",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Marketo Engage transforms how businesses manage marketing automation and customer engagement. It offers tools for precise campaign execution, lead management, and personalization to enhance customer experiences. By automating and optimizing these processes, Marketo Engage helps businesses efficiently capture and nurture leads."
-        },
-        {
-            "@type": "SoftwareApplication",
-            "name": "Zoho CRM",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Zoho CRM offers businesses a comprehensive tool to manage customer relationships, streamline sales processes, and enhance lead generation efforts. By using Zoho CRM, teams can automate repetitive tasks, reduce manual data entry errors, and provide a more personalized customer experience. This platform is designed to help businesses boost sales efficiency and improve customer satisfaction."
-        },
-        {
-            "@type": "SoftwareApplication",
-            "name": "Pardot",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Pardot is a marketing automation tool that helps businesses streamline lead generation and management processes. It simplifies capturing leads, nurturing them, and converting them into sales, reducing the manual work involved."
+            "@type": "FAQPage",
+            "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#faq",
+            "mainEntity": [
+                {"@type": "Question", "name": "How to build a lead pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "Building a lead pipeline involves identifying potential customers and nurturing them until they are ready to buy. First, define your target audience. Then, use marketing strategies like content marketing, social media, and email campaigns to attract interest. Capture contact information using lead forms and engage leads with personalized follow-ups."}},
+                {"@type": "Question", "name": "How to create a lead capture form?", "acceptedAnswer": {"@type": "Answer", "text": "To create a lead capture form, start by deciding what information you need from potential leads, such as name and email. Use a simple design to avoid overwhelming users. Ensure the form is easy to find on your website and consider offering an incentive for filling it out, like a free eBook or discount."}},
+                {"@type": "Question", "name": "How to develop a pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "Developing a pipeline involves setting up processes for moving leads through different stages until they are ready to purchase. Start by mapping out each stage of your sales process. Then, use CRM tools to track lead progress and automate communication. Regularly review and refine the pipeline to improve conversion rates."}},
+                {"@type": "Question", "name": "What is the lead capture process?", "acceptedAnswer": {"@type": "Answer", "text": "The lead capture process involves attracting potential customers and collecting their information for follow-up. It typically starts with generating interest through marketing efforts, then capturing details via forms or landing pages. The information is then used to nurture leads until they are ready to make a purchase."}},
+                {"@type": "Question", "name": "How to build a good pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "To build a good pipeline, ensure it is structured and scalable. Identify key stages from lead awareness to sale closure, and use CRM software to manage and track leads. Regularly analyze the pipeline's performance to identify bottlenecks and optimize for efficiency."}},
+                {"@type": "Question", "name": "What are the 5 stages of a sales pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "The 5 stages of a sales pipeline often include: 1) Lead Generation - attracting potential customers, 2) Lead Qualification - assessing if leads fit your criteria, 3) Proposal - presenting your offering, 4) Negotiation - discussing terms, and 5) Closing - finalizing the sale."}},
+                {"@type": "Question", "name": "What are the 5 stages of pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "The 5 stages of a pipeline generally refer to stages in a process, which can include: 1) Prospecting, 2) Initial Contact, 3) Qualification, 4) Proposal, and 5) Closing. Each stage represents a step in moving a lead from initial interest to a completed transaction."}},
+                {"@type": "Question", "name": "What is a lead pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "A lead pipeline is a structured process used by businesses to track and manage potential customers as they move through the sales process. It helps in organizing leads, ensuring follow-up, and increasing the likelihood of converting them into paying customers."}},
+                {"@type": "Question", "name": "What are the three types of pipelines?", "acceptedAnswer": {"@type": "Answer", "text": "The three main types of pipelines include: 1) Sales Pipelines, which track potential sales opportunities, 2) Marketing Pipelines, which manage leads generated through marketing efforts, and 3) Project Pipelines, which oversee the flow of tasks and projects within an organization."}},
+                {"@type": "Question", "name": "How to design a pipeline system?", "acceptedAnswer": {"@type": "Answer", "text": "Designing a pipeline system requires identifying the key stages and processes your organization needs to track. Map out each stage and define the criteria for moving leads through the stages. Use software tools to automate and monitor the pipeline, ensuring data is consistently updated and accessible."}},
+                {"@type": "Question", "name": "What is the formula for pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "The formula for a sales pipeline typically involves calculating the value of potential sales at each stage of the pipeline. This is often done by multiplying the probability of closing a deal at each stage by the deal's expected value, helping to forecast potential revenue."}},
+                {"@type": "Question", "name": "How to develop a project pipeline", "acceptedAnswer": {"@type": "Answer", "text": "To develop a project pipeline, start by outlining the key phases of project development, such as planning, execution, and completion. Use project management tools to track progress and allocate resources. Regularly review the pipeline to ensure projects are on track and adjust plans as needed."}}
+            ]
         }
     ]
 };
@@ -160,9 +155,9 @@ export default async function Page() {
                 <OverviewSection />
                 <IntroductionSection />
                 <BenefitsSection />
-                <OptimizingPipelinePerformanceSection />
                 <ToolsSection />
-                <FAQSection />
+                <OptimizingSection />
+                <PAASection />
             </article>
 
             <SchedulerShell />

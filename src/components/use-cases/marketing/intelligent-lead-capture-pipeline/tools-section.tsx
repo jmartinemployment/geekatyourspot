@@ -1,145 +1,106 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ToolsSection() {
+  const body = (
+    <>
+      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist" href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#0B162A] hover:underline">Intelligent Receptionist</Link>
+      </h3>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-lobbystack" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" className="text-[#0B162A] hover:underline">LobbyStack</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        LobbyStack empowers local small businesses to stop missing calls and control their customer
+        interactions with a customizable Intelligent Receptionist.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-myaifrontdesk" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" className="text-[#0B162A] hover:underline">My AI Front Desk</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        My AI Front Desk is an Intelligent Receptionist designed for South Florida small businesses, ensuring
+        every call is answered, leads are captured, and appointments are booked without missing a beat.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-nextiva" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva" className="text-[#0B162A] hover:underline">Nextiva</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        Nextiva provides small teams with an Intelligent Receptionist that consolidates all communication
+        channels, making it easier to capture and follow up on every lead.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-smith" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" className="text-[#0B162A] hover:underline">Smith.ai</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        Smith.ai offers an Intelligent Receptionist solution tailored for South Florida small businesses,
+        combining automated lead capture with live human backup for every call.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-voksha" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha" className="text-[#0B162A] hover:underline">Voksha</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        Voksha offers an Intelligent Receptionist solution designed for small businesses in South Florida,
+        ensuring every call is answered and every lead is captured efficiently.</p>
+      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide" className="text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
+      </h3>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-botpenguin" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" className="text-[#0B162A] hover:underline">BotPenguin</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        BotPenguin helps South Florida small businesses capture and manage leads efficiently by unifying every
+        chat channel into a single, organized workflow.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-dapta" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" className="text-[#0B162A] hover:underline">Dapta</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        Dapta centralizes inbound messages from every channel, ensuring your local team can respond quickly
+        and consistently to every lead without missing a beat.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-manychat" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-[#0B162A] hover:underline">Manychat</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        Manychat unifies your customer chats across multiple platforms, helping local small businesses
+        automate responses, capture leads and keep every conversation on track.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-myaifrontdesk" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk" className="text-[#0B162A] hover:underline">My AI Front Desk</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        My AI Front Desk streamlines every customer message from chat, text, and social media into a single,
+        easy-to-manage view. Designed for South Florida businesses, it ensures no lead slips through the
+        cracks.</p>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-tidio" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" className="text-[#0B162A] hover:underline">Tidio</Link>
+      </h4>
+      <p className="text-md text-white shadow-text pt-3">
+        Tidio centralizes customer conversations from website, SMS, Messenger, and Instagram, helping small
+        businesses in Miami-Dade, Broward, and West Palm Beach manage leads and support seamlessly.</p>
+    </>
+  );
+
   return (
-    <section className="min-h-screen bg-[#0A080D] text-white">
-      <div className="container">
-        <div className="grid min-h-screen grid-cols-12 gap-x-4 py-5">
-          <div className="col-span-12">
-            <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-orange">
-              Top AI Tools for <GlossaryLink slug="lead-generation" className="text-white hover:underline">Lead Generation</GlossaryLink> and Management
-            </h2>
-          </div>
-          <div className="col-span-6">
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-              HubSpot</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              HubSpot is a powerful platform that streamlines <GlossaryLink slug="lead-generation">lead management</GlossaryLink> by automating repetitive tasks and providing
-              insightful analytics. For businesses struggling with manual lead tracking, HubSpot offers a cohesive approach that
-              integrates contacts, marketing, and sales into one seamless system. This reduces human error and frees up valuable
-              time for teams to focus on nurturing relationships and closing deals.
-            </p>
-            <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
-              <li>Automated workflows streamline lead nurturing by setting up triggers and sequences.</li>
-              <li>Real-time analytics provide insights into lead behavior and engagement.</li>
-              <li>Integrates with email marketing for cohesive communication strategies.</li>
-            </ul>
-            <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
-              How an AI implementer helps with HubSpot
-            </h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              Accelerated deployment in HubSpot focuses on quickly setting up the platform with pre-configured templates and
-              workflows, reducing time-to-value. Data model design involves mapping out the interaction between leads, contacts,
-              and deals, ensuring efficient data flow and fewer errors. Workflow and process configuration in HubSpot includes
-              setting up automated sequences for approvals and lead scoring, optimizing the sales funnel. While HubSpot does not
-              support custom code development directly, it allows for the use of APIs to extend functionality, enabling more
-              tailored integrations. These efforts lead to faster go-live, a more stable platform, and ready-to-use automation.
-            </p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-              Salesforce Einstein
-            </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              Salesforce Einstein integrates AI directly into Salesforce, helping businesses automate and optimize customer
-              interactions. It enhances CRM by providing smarter insights, predictive analytics, and personalized recommendations,
-              making it easier to convert leads into sales.
-            </p>
-            <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
-              <li>Automatic <GlossaryLink slug="sales-qualified-lead">lead scoring</GlossaryLink> to identify the most promising prospects.</li>
-              <li><GlossaryLink slug="analytics">Predictive analytics</GlossaryLink> to forecast sales outcomes and guide decision-making.</li>
-              <li>AI-driven recommendations for next-best actions to improve customer engagement.</li>
-            </ul>
-            <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
-              How an AI implementer helps with Salesforce Einstein
-            </h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              An AI implementer accelerates deployment of Salesforce Einstein by setting up pre-configured solutions and best
-              practices, reducing time-to-value. They design data models that effectively map and structure CRM data for optimized
-              AI processing, leading to fewer failed pilots. Implementers configure key workflows in Salesforce Einstein, such as
-              approval chains and automation rules, ensuring production-ready automation. If customization is needed, they extend
-              capabilities using Salesforce&#39;s native development tools, such as Apex or Lightning Web Components, to tailor
-              the platform to specific business needs.
-            </p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-              Pardot
-            </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              Pardot is a marketing automation tool that helps businesses streamline lead generation and management processes. It
-              simplifies capturing leads, nurturing them, and converting them into sales, reducing the manual work involved.
-            </p>
-            <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
-              <li>Automated lead scoring to prioritize high-quality leads quickly.</li>
-              <li>Advanced segmentation to target specific audiences with precision.</li>
-              <li>Real-time analytics to track the performance of marketing campaigns.</li>
-            </ul>
-            <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
-              How an AI implementer helps with Pardot
-            </h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              An AI implementer accelerates Pardot deployment by setting up pre-configured templates and integrations that cut
-              down the time to go live. They design a Pardot-specific data model that ensures accurate mapping between leads and
-              their attributes, preventing data silos. For workflow configuration, they implement complex approval chains and
-              automation rules that align with your business processes. Although Pardot does not support custom code development
-              like some platforms, an AI implementer can still optimize existing features to meet unique business needs, leading
-              to a faster realization of benefits and fewer failed pilots.
-            </p>
-          </div>
-          <div className="col-span-6">
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-              Marketo Engage
-            </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              Marketo Engage transforms how businesses manage marketing automation and customer engagement. It offers tools for
-              precise campaign execution, lead management, and personalization to enhance customer experiences. By automating and
-              optimizing these processes, Marketo Engage helps businesses efficiently capture and nurture leads.
-            </p>
-            <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
-              <li>Automate email campaigns and lead nurturing processes to maintain consistent communication with prospects.</li>
-              <li>Segment audiences based on behavior and interests for targeted engagement.</li>
-              <li>Track and analyze <GlossaryLink slug="customer-journey">customer interactions across multiple touchpoints</GlossaryLink> for actionable insights.</li>
-            </ul>
-            <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
-              How an AI implementer helps with Marketo Engage
-            </h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              Accelerated deployment with Marketo Engage involves speeding up the setup of automated campaigns and workflows,
-              reducing time-to-value. Expert data model design ensures that lead data is structured to maximize insight and
-              engagement potential. Configuring workflows in Marketo Engage includes setting up automated routing rules and
-              approval processes tailored to specific campaigns. While Marketo Engage does not provide a custom code layer, the
-              platform&#39;s extensive API support allows for tailored integrations and data synchronization. With these measures,
-              businesses see fewer failed pilots and can achieve production-ready automation more swiftly.
-            </p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-              Zoho CRM
-            </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              Zoho CRM offers businesses a comprehensive tool to manage customer relationships, streamline sales processes, and
-              enhance lead generation efforts. By using Zoho CRM, teams can automate repetitive tasks, reduce manual data entry
-              errors, and provide a more personalized customer experience. This platform is designed to help businesses boost
-              sales efficiency and improve customer satisfaction.
-            </p>
-            <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text-orange">
-              <li>Automated workflows streamline tasks like lead assignment and follow-ups, saving time and reducing errors.</li>
-              <li>Customizable dashboards and reports provide insights into sales performance and customer interactions.</li>
-              <li>Integration capabilities with popular tools like Slack and Google Workspace enhance collaboration and
-                communication.
-              </li>
-            </ul>
-            <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">
-              How an AI implementer helps with Zoho CRM
-            </h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-orange">
-              An AI implementer accelerates the deployment of Zoho CRM by ensuring seamless data migration and system
-              integration, reducing the time to go-live. They design a data model that accurately reflects the client&apos;s business
-              needs, optimizing the CRM&apos;s data structure for best performance. Implementers also configure Zoho CRM&#39;s
-              workflows and automation logic, such as lead routing and approval processes, to ensure efficient operations. For
-              businesses needing specific capabilities, implementers can develop custom functions using Zoho&#39;s scripting
-              language, allowing for tailored solutions. These actions help achieve faster time-to-value, fewer implementation
-              setbacks, and robust, production-ready CRM systems.
-            </p>
+    <>
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 lg:hidden">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-7">
+              <h2 id="top-ai-tools-for-lead-generation-and-management" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Top AI Tools for Lead Generation and Management
+              </h2>
+            </div>
+            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-12">{body}</div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-7">
+              <h2 id="top-ai-tools-for-lead-generation-and-management" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Top AI Tools for Lead Generation and Management
+              </h2>
+              {body}
+            </div>
+            <div className="col-span-5 flex items-center justify-center"></div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
