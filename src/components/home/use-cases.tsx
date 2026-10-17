@@ -683,8 +683,15 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Lead Enrichment and Predictive Scoring:</strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
+                                                    Lead Enrichment and Predictive Scoring:
+                                                </strong>
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-xs">
                                                 Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
@@ -693,24 +700,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/active-campaign"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    ActiveCampaign
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Apollo
                                                 </Link>,&nbsp;
-                                                Apollo,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
-                                                </Link>,&nbsp;or&nbsp;
-                                                LeadSquared,&nbsp;
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Factors
+                                                </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
-                                                    href="/tools/marketing/6sense"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    6sense
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Leadfeeder
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Lusha
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Snitcher
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1638,8 +1655,15 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-base">
-                                                Lead Enrichment and Predictive Scoring:</strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
+                                                    Lead Enrichment and Predictive Scoring:
+                                                </strong>
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-sm">
                                                 Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
@@ -1648,24 +1672,34 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/active-campaign"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    ActiveCampaign
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Apollo
                                                 </Link>,&nbsp;
-                                                Apollo,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
-                                                </Link>,&nbsp;or&nbsp;
-                                                LeadSquared,&nbsp;
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Factors
+                                                </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/6sense", "6sense")}
-                                                    href="/tools/marketing/6sense"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    6sense
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Leadfeeder
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Lusha
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Snitcher
                                                 </Link>.
                                             </p>
                                         </li>

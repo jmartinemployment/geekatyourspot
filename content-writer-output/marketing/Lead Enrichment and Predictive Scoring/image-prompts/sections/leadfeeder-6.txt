@@ -1,0 +1,1 @@
+Flat vector diagram of data fields and mapping connections: abstract database tables linked to various data sources, with mapping lines showing relationships. Clean, minimal, no text.

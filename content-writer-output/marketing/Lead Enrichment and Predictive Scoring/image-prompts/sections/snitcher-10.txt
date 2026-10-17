@@ -1,0 +1,1 @@
+A flat vector Venn diagram with overlapping sections: one side with target business icons, another with non-target icons, and a highlighted path leading to a next-step arrow, in a clean B2B style.

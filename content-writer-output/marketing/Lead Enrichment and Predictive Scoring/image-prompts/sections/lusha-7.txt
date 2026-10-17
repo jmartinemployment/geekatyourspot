@@ -1,0 +1,1 @@
+A flat vector flowchart showing automation rules being set up, with toggles, branching logic, and extension modules connecting to a sales pipeline, representing configurable automation within Lusha.

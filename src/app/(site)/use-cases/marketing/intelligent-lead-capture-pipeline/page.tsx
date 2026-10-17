@@ -53,7 +53,12 @@ const jsonLd: Graph = {
                 { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta#software" },
                 { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat#software" },
                 { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk#software" },
-                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio#software" }
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha#software" },
+                { "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher#software" }
             ]
         },
         {

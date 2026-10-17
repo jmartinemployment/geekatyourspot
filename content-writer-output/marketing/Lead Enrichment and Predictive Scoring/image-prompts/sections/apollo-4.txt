@@ -1,0 +1,1 @@
+A flat vector architecture diagram showing a central data hub (Apollo) connecting with multiple external software platforms and databases via integration lines, with data streams visualized as flowing lines, in a professional tech style.

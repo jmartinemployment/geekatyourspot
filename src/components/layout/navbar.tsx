@@ -220,6 +220,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs"
+                      label="Lead Enrichment and Predictive Scoring"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/marketing/seo-blog-and-article-generation"
                       label="SEO Blog and Article Generation"
                       onNavigate={closeSidebar}
@@ -375,6 +380,11 @@ export default function Navbar(): React.JSX.Element {
                       label="Cross-Platform Chatbot: The Missing Link in Your Lead Capture Pipeline"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales"
+                      label="Lead Enrichment and Predictive Scoring: Turn More Leads Into Sales"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
 
@@ -435,12 +445,16 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/active-campaign" label="ActiveCampaign" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/adobe-mix-modeler" label="Adobe Mix Modeler" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/anomalo" label="Anomalo" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo" label="Apollo" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" label="BotPenguin" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/contentstudio" label="ContentStudio" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" label="Dapta" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors" label="Factors" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/great-expectations" label="Great Expectations" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder" label="Leadfeeder" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" label="LobbyStack" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha" label="Lusha" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/madgicx" label="Madgicx" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/mailchimp" label="Mailchimp" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" label="Manychat" onNavigate={closeSidebar} />
@@ -452,6 +466,7 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/pipedrive" label="Pipedrive" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/qualytics" label="Qualytics" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" label="Smith.ai" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher" label="Snitcher" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" label="Tidio" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha" label="Voksha" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/zapier" label="Zapier" onNavigate={closeSidebar} />

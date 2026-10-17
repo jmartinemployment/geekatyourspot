@@ -1,0 +1,1 @@
+A flat vector schematic showing interconnected databases, cloud integrations, API connectors, and data pipelines feeding into a central lead enrichment platform, illustrating robust data architecture and integrations.

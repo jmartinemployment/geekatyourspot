@@ -1,0 +1,1 @@
+A network diagram in flat vector style, illustrating interconnected data sources, cloud databases, and integration nodes, with flow lines showing data movement within a modular software architecture.

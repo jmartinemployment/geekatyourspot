@@ -5,6 +5,7 @@ import { adobeMixModelerContent } from "@/data/tools/adobe-mix-modeler";
 import { adpContent } from "@/data/tools/adp";
 import { anaplanContent } from "@/data/tools/anaplan";
 import { anomaloContent } from "@/data/tools/anomalo";
+import { apolloContent } from "@/data/tools/apollo";
 import { approvalmaxContent } from "@/data/tools/approvalmax";
 import { avidxchangeContent } from "@/data/tools/avidxchange";
 import { avidxchangePaymentExecutionContent } from "@/data/tools/avidxchange-payment-execution";
@@ -26,6 +27,7 @@ import { deelContent } from "@/data/tools/deel";
 import { dextContent } from "@/data/tools/dext";
 import { driftContent } from "@/data/tools/drift";
 import { dryrunContent } from "@/data/tools/dryrun";
+import { factorsContent } from "@/data/tools/factors";
 import { fathomhqContent } from "@/data/tools/fathomhq";
 import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
@@ -45,6 +47,7 @@ import { jiravContent } from "@/data/tools/jirav";
 import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
 import { lobbystackContent } from "@/data/tools/lobbystack";
+import { lushaContent } from "@/data/tools/lusha";
 import { madgicxContent } from "@/data/tools/madgicx";
 import { mailchimpContent } from "@/data/tools/mailchimp";
 import { manychatContent } from "@/data/tools/manychat";
@@ -57,6 +60,7 @@ import { myaifrontdeskCrossPlatformChatbotContent } from "@/data/tools/myaifront
 import { nextivaContent } from "@/data/tools/nextiva";
 import { optimoveContent } from "@/data/tools/optimove";
 import { smithContent } from "@/data/tools/smith";
+import { snitcherContent } from "@/data/tools/snitcher";
 import { tidioContent } from "@/data/tools/tidio";
 import { vokshaContent } from "@/data/tools/voksha";
 import { qualyticsContent } from "@/data/tools/qualytics";
@@ -85,6 +89,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "adp": adpContent,
   "anaplan": anaplanContent,
   "anomalo": anomaloContent,
+  "apollo": apolloContent,
   "approvalmax": approvalmaxContent,
   "avidxchange": avidxchangeContent,
   "avidxchange-payment-execution": avidxchangePaymentExecutionContent,
@@ -106,6 +111,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "dext": dextContent,
   "drift": driftContent,
   "dryrun": dryrunContent,
+  "factors": factorsContent,
   "fathomhq": fathomhqContent,
   "floatapp": floatappContent,
   "great-expectations": greatExpectationsContent,
@@ -125,6 +131,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
   "lobbystack": lobbystackContent,
+  "lusha": lushaContent,
   "madgicx": madgicxContent,
   "mailchimp": mailchimpContent,
   "manychat": manychatContent,
@@ -145,6 +152,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "rillion": rillionContent,
   "rippling": ripplingContent,
   "smith": smithContent,
+  "snitcher": snitcherContent,
   "sovos": sovosContent,
   "stampli": stampliContent,
   "thomson-reuters-onesource": thomsonReutersOnesourceContent,

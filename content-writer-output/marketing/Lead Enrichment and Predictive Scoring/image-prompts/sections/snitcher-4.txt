@@ -1,0 +1,1 @@
+A flat vector diagram of a modular software architecture: central Snitcher core module, arrows connecting to various integration icons (CRM, analytics, APIs), and smoothly flowing data streams, all in a clean, technical B2B aesthetic.

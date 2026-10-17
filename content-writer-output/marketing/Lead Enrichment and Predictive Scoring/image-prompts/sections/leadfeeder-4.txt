@@ -1,0 +1,1 @@
+Vector schematic showing a central Leadfeeder platform node with arrows connecting to various integration icons (clouds, databases, CRM, analytics) and data flow lines. Abstract representation of system architecture, no text.

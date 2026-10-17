@@ -1,0 +1,1 @@
+A flat vector diagram of a decision tree or mapping flow: various data fields being matched and mapped into a structured database, with branching paths and key decision point icons, in a clear B2B style.

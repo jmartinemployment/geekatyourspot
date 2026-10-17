@@ -1,0 +1,1 @@
+A flat vector diagram showing a transition from manual data entry (hands, papers) to automated lead enrichment, with data seamlessly flowing from multiple sources into a computer, transforming into enriched profiles and predictive scores.

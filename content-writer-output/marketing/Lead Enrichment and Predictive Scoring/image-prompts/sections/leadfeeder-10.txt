@@ -1,0 +1,1 @@
+Flat vector flowchart with branching paths: one side shows ideal users (business teams, sales), the other shows non-ideal users (confused individuals). Ends with an arrow pointing to a next step icon. No text.
