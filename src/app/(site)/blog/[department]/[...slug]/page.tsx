@@ -14,7 +14,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { getEntry, listEntries } from "@/lib/content-writer/content";
 import { toArticleSections } from "@/lib/content-writer/article-sections";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
-import { cn } from "@/lib/utils";
 import { formatDate } from "../../format-date";
 
 type BlogArticleProps = Readonly<{
@@ -75,12 +74,28 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
     .slice(0, 3);
 
   // The related block continues the colour cycle rather than restarting it, so
-  // it never lands on the same ground as the section directly above it.
+  // it never lands on the same ground as the section directly above it. It is
+  // laid out like the article sections: one block below lg and one from lg up.
   const relatedIndex = sections.length;
   const relatedBackground = backgroundForSection(relatedIndex);
   const relatedLinkClass = linkClassForBackground(relatedBackground);
   const relatedOnRight = textOnRight(relatedIndex);
-  const relatedSpacer = <div className="hidden lg:col-span-5 lg:block" />;
+  const relatedSpacer = <div className="col-span-5 flex items-center justify-center"></div>;
+  const relatedList = related.map((entry) => (
+    <div key={entry.href} className="pt-6">
+      <Link
+        id={gtmLinkIdFromHref(entry.href, "related")}
+        href={entry.href}
+        className={clsx(
+          "text-2xl leading-[1.1] font-black font-[var(--font-sora)] shadow-text",
+          relatedLinkClass,
+        )}
+      >
+        {entry.headline || entry.title}
+      </Link>
+      <p className="pt-2 text-md font-normal text-white shadow-text">{entry.excerpt}</p>
+    </div>
+  ));
 
   return (
     <>
@@ -103,45 +118,42 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
       ))}
 
       {related.length > 0 && (
-        <section className={cn("min-h-screen py-5 text-white", relatedBackground)}>
-          <div className="container">
-            <div className="grid min-h-screen grid-cols-12 gap-x-4 lg:place-items-center">
-              {relatedOnRight && relatedSpacer}
-
-              <div className="col-span-12 lg:col-span-7">
-                <h2
-                  id="more-from-the-blog"
-                  className={clsx(
-                    "text-[6vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-4xl md:text-5xl lg:text-[3.5rem]",
-                    relatedOnRight ? "text-right lg:text-left" : "text-left",
-                  )}
-                >
-                  More from the Blog
-                </h2>
-
-                {related.map((entry) => (
-                  <div key={entry.href} className="pt-6">
-                    <Link
-                      id={gtmLinkIdFromHref(entry.href, "related")}
-                      href={entry.href}
-                      className={clsx(
-                        "text-2xl leading-[1.1] font-black font-[var(--font-sora)] shadow-text",
-                        relatedLinkClass,
-                      )}
-                    >
-                      {entry.headline || entry.title}
-                    </Link>
-                    <p className="pt-2 text-md font-normal text-white shadow-text">
-                      {entry.excerpt}
-                    </p>
-                  </div>
-                ))}
+        <>
+          <section className={clsx("min-h-screen text-white py-5 lg:hidden", relatedBackground)}>
+            <div className="container">
+              <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+                {relatedOnRight && relatedSpacer}
+                <div className="col-span-7">
+                  <h2
+                    id="more-from-the-blog"
+                    className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text"
+                  >
+                    More from the Blog
+                  </h2>
+                </div>
+                {!relatedOnRight && relatedSpacer}
+                <div className="col-span-12">{relatedList}</div>
               </div>
-
-              {!relatedOnRight && relatedSpacer}
             </div>
-          </div>
-        </section>
+          </section>
+          <section className={clsx("min-h-screen text-white py-5 hidden lg:block", relatedBackground)}>
+            <div className="container">
+              <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+                {relatedOnRight && relatedSpacer}
+                <div className="col-span-7">
+                  <h2
+                    id="more-from-the-blog"
+                    className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text"
+                  >
+                    More from the Blog
+                  </h2>
+                  {relatedList}
+                </div>
+                {!relatedOnRight && relatedSpacer}
+              </div>
+            </div>
+          </section>
+        </>
       )}
 
       <SchedulerShell />

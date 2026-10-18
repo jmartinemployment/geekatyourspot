@@ -39,7 +39,8 @@ export function linkClassForBackground(background: string): string {
 
 /**
  * Sections alternate sides the way the use-case pillars do: odd-numbered
- * sections put their text on the right, even-numbered on the left.
+ * sections put the empty five-column spacer on the left and the heading
+ * column on the right, even-numbered the reverse.
  */
 export function textOnRight(index: number): boolean {
   return index % 2 === 0;

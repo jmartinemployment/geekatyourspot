@@ -392,7 +392,7 @@ export default function Navbar(): React.JSX.Element {
                     />
                     <MenuLink
                       href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-smbs-can-save-hours-and-drive-more-sales"
-                      label="Intelligent Content Planning: Save Hours and Drive More Sales"
+                      label="Intelligent Content Planning"
                       onNavigate={closeSidebar}
                     />
                   </ul>

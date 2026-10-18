@@ -1,6 +1,27 @@
 # Hand-Coded Tool Page Layout Pattern Prompt
 
-Use this prompt when building or rebuilding tool pages for individual marketing tools. Tool pages follow a specific structure distinct from use-case/pillar pages, featuring a single-section layout (no mobile/desktop split) for most components.
+Use this prompt when building or rebuilding tool pages.
+
+## Layout: the same as pillar pages and blog posts
+
+Tool pages, pillar pages and blog posts share one layout (Jeff, 2026-10-18). `plans/hand-coded-use-case-page-layout-prompt.md` is the reference for it:
+
+- Every section has a `lg:hidden` block and a `hidden lg:block` block.
+- The heading sits in `col-span-7` beside an empty `col-span-5` spacer, and the sections alternate sides.
+- On mobile the body sits in its own `col-span-12` row; on desktop it sits under the heading.
+- Backgrounds follow the five-colour rotation (`#023059` → `#024059` → `#025E73` → `#8C4E2A` → `#BF5934`).
+- Links are `#C83803` on the cool grounds and `#0B162A` on the two warm ones. This applies to `GlossaryLink` too, whose default is `#C83803`.
+- The FAQ is a single `col-span-12` block with an `<hr>` above each question.
+
+What is specific to a tool page built from a Content Writer export (the current shape, since 2026-10-09):
+
+- **Route:** `/tools/<department>/<category>/<segment>/<tool>`. The segment is chosen per pillar; `plans/tools-directory-structure.md` lists them.
+- **Hero:** `ToolsHeroSection` with the registry title and the export's `hero-summary` paragraph.
+- **Sections:** eleven, one component file each, plus `faq-section.tsx` when the export has a FAQ. The first section's heading is retitled "Overview". The FAQ continues the rotation (section 11 is `#023059`, the FAQ `#024059`).
+- **JSON-LD:** a `SoftwareApplication` whose `subjectOf` is the pillar's `#article`, plus a `FAQPage`.
+- **Registry:** an entry in `src/data/tools/<tool>.ts`, registered in `src/lib/tools-mapper.ts`.
+
+The sections below describe the **legacy 4-section tool pages** (ContentStudio, Zapier, Mailchimp and the other early marketing tools). Those predate the shared layout: three of their four components are single-section with no mobile block. Keep the description for maintaining those pages, and do not build new pages to it.
 
 ---
 

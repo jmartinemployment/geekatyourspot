@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Intelligent Content Planning for Small Businesses: Real Results with AI";
+const TITLE = "Intelligent Content Planning";
 const DESCRIPTION =
     "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.";
 const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai";

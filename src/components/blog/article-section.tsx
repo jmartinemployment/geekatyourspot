@@ -1,6 +1,5 @@
 import { clsx } from "clsx";
 
-import { cn } from "@/lib/utils";
 import type { ArticleSection } from "@/lib/content-writer/article-sections";
 
 import { ArticleBody } from "./article-body";
@@ -11,6 +10,22 @@ type ArticleSectionBlockProps = Readonly<{
   /** Zero-based position; drives both the background colour and the text side. */
   index: number;
 }>;
+
+/*
+ * The hand-coded pillar and tool sections, class for class: one block below lg and one from lg
+ * up, the heading in seven of twelve columns beside an empty five-column spacer, and the FAQ as
+ * a single full-width block with a rule above each question. These go through clsx, never cn():
+ * tailwind-merge reads font-[var(--font-sora)] as a font weight and drops font-black.
+ */
+const H2_MOBILE =
+  "text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text";
+const H2_DESKTOP =
+  "text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text";
+const H2_SINGLE =
+  "text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text";
+
+/** Headings the exports give their question-and-answer section. */
+const QUESTION_HEADINGS = new Set(["Frequently Asked Questions", "People Also Ask"]);
 
 /**
  * One full-height section of an article. Colour and side come from the
@@ -24,38 +39,70 @@ export function ArticleSectionBlock({
   const background = backgroundForSection(index);
   const linkClassName = linkClassForBackground(background);
   const onRight = textOnRight(index);
+  const questions = section.heading !== null && QUESTION_HEADINGS.has(section.heading);
 
-  const spacer = <div className="hidden lg:col-span-5 lg:block" />;
+  const body = (
+    <ArticleBody
+      blocks={section.blocks}
+      linkClassName={linkClassName}
+      sectionId={section.id}
+      questions={questions}
+    />
+  );
 
-  return (
-    <section className={cn("min-h-screen py-5 text-white", background)}>
-      <div className="container">
-        <div className="grid min-h-screen grid-cols-12 gap-x-4 lg:place-items-center">
-          {onRight && spacer}
-
-          <div className="col-span-12 lg:col-span-7">
-            {section.heading && (
-              <h2
-                id={section.id}
-                className={clsx(
-                  "text-[6vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-4xl md:text-5xl lg:text-[3.5rem]",
-                  onRight ? "text-right lg:text-left" : "text-left",
-                )}
-              >
+  if (questions) {
+    return (
+      <section className={clsx("min-h-screen text-white py-5", background)}>
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-12">
+              <h2 id={section.id} className={H2_SINGLE}>
                 {section.heading}
               </h2>
-            )}
-
-            <ArticleBody
-              blocks={section.blocks}
-              linkClassName={linkClassName}
-              sectionId={section.id}
-            />
+            </div>
+            <div className="col-span-12">{body}</div>
           </div>
-
-          {!onRight && spacer}
         </div>
-      </div>
-    </section>
+      </section>
+    );
+  }
+
+  const spacer = <div className="col-span-5 flex items-center justify-center"></div>;
+
+  return (
+    <>
+      <section className={clsx("min-h-screen text-white py-5 lg:hidden", background)}>
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            {onRight && spacer}
+            <div className="col-span-7">
+              {section.heading && (
+                <h2 id={section.id} className={H2_MOBILE}>
+                  {section.heading}
+                </h2>
+              )}
+            </div>
+            {!onRight && spacer}
+            <div className="col-span-12">{body}</div>
+          </div>
+        </div>
+      </section>
+      <section className={clsx("min-h-screen text-white py-5 hidden lg:block", background)}>
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            {onRight && spacer}
+            <div className="col-span-7">
+              {section.heading && (
+                <h2 id={section.id} className={H2_DESKTOP}>
+                  {section.heading}
+                </h2>
+              )}
+              {body}
+            </div>
+            {!onRight && spacer}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

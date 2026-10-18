@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import Link from "next/link";
 
 import { GlossaryLink } from "@/components/glossary/glossary-link";
@@ -6,10 +6,11 @@ import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import type { BlockNode, InlineNode } from "@/lib/content-writer/article-sections";
 
 /**
- * Renders the parsed article body. There is one copy of this markup and the
- * responsive behaviour is CSS, so a phone and a desktop cannot end up with
- * different prose -- the drift that left 82 of 84 hand-coded tool sections
- * with glossary links on mobile and none on desktop.
+ * Renders the parsed article body. ArticleSectionBlock renders it once per
+ * section and places that same element in both breakpoint blocks, the way the
+ * hand-coded sections reuse their `body` constant, so a phone and a desktop
+ * cannot end up with different prose -- the drift that left 82 of 84
+ * hand-coded tool sections with glossary links on mobile and none on desktop.
  */
 
 type LinkIdCounter = { next: number };
@@ -20,6 +21,8 @@ type RenderContext = {
   /** Section id, so every link id on the page is distinct. */
   sectionId: string;
   counter: LinkIdCounter;
+  /** A question-and-answer section: each question gets the hand-coded FAQ rule above it. */
+  questions: boolean;
 };
 
 function renderInline(nodes: readonly InlineNode[], context: RenderContext): ReactNode[] {
@@ -81,6 +84,17 @@ function renderBlock(block: BlockNode, key: number, context: RenderContext): Rea
     );
   }
 
+  if (block.kind === "subheading" && block.level === 3 && context.questions) {
+    return (
+      <Fragment key={key}>
+        <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+        <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+          {block.text}
+        </h3>
+      </Fragment>
+    );
+  }
+
   if (block.kind === "subheading") {
     return block.level === 3 ? (
       <h3
@@ -122,13 +136,15 @@ type ArticleBodyProps = Readonly<{
   blocks: readonly BlockNode[];
   linkClassName: string;
   sectionId: string;
+  questions: boolean;
 }>;
 
 export function ArticleBody({
   blocks,
   linkClassName,
   sectionId,
+  questions,
 }: ArticleBodyProps): React.JSX.Element {
-  const context: RenderContext = { linkClassName, sectionId, counter: { next: 0 } };
+  const context: RenderContext = { linkClassName, sectionId, counter: { next: 0 }, questions };
   return <>{blocks.map((block, index) => renderBlock(block, index, context))}</>;
 }

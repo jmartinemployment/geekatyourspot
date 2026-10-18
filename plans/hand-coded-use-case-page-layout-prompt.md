@@ -2,6 +2,8 @@
 
 Use this prompt when building or rebuilding use-case pages and tool pages following the `ai-content-creation-workflow` template pattern.
 
+**Pillar pages, tool pages and blog posts share this one layout** (Jeff, 2026-10-18): the same two blocks per breakpoint, the same seven/five column split alternating sides, the same five-colour rotation, the same link colours and the same single-block FAQ with a rule above each question. Pillars and tools are hand-coded to it; blog posts are rendered to it by the blog template (see Blog Posts below). A change to the layout is a change to all three.
+
 ---
 
 ## The Task
@@ -217,6 +219,51 @@ src/components/tools/marketing/[tool-name]/
 ```
 
 Both follow the same mobile/desktop alternating layout pattern.
+
+---
+
+## Blog Posts (Rendered From the Export, Same Layout)
+
+Blog posts are not hand-coded. `src/app/(site)/blog/[department]/[...slug]/page.tsx` renders each one from its Content Writer export, using the same section pattern as the pages above. When this pattern changes, change the blog template to match. Jeff reads a blog post next to its pillar, and any drift between them shows as an inconsistency (2026-10-18).
+
+**Where each piece lives:**
+
+| Piece | File |
+|---|---|
+| Sections | `src/components/blog/article-section.tsx` |
+| Body | `src/components/blog/article-body.tsx` |
+| Colour rotation and link colours | `src/components/blog/section-palette.ts` |
+| Splitting the body into sections | `src/lib/content-writer/article-sections.ts` |
+| Hero summary and link fixes | `src/lib/content-writer/content.ts` |
+
+**Sections:**
+- Every section has a `lg:hidden` block and a `hidden lg:block` block, with the heading in `col-span-7` beside an empty `col-span-5` spacer.
+- The sections alternate sides, and on mobile the body sits in its own `col-span-12` row.
+- The body is rendered once and placed in both blocks, like the hand-coded `body` constant.
+
+**FAQ and PAA:** a section headed "Frequently Asked Questions" or "People Also Ask" is a single block. The `col-span-12` heading uses the single-block class, and each question has the `<hr>` above it, as in the Special Case above.
+
+**Hero:**
+- The hero shows the export's `<p class="hero-summary">`, as the pillar heroes do.
+- The body drops that paragraph rather than running it as a section with no heading.
+- Copy that comes before the first `<h2>` is titled "Overview", as the tool pages title their opening section.
+
+**Classes:** class lists go through `clsx`, never `cn()`. `cn()` runs tailwind-merge, which reads `font-[var(--font-sora)]` as a font weight and silently drops `font-black`. That is why every blog heading rendered at 400 until 002dfd5.
+
+**Links:**
+- In-article links are colour-matched by `section-palette.ts`: `#C83803` on the cool grounds and `#0B162A` on `#8C4E2A` and `#BF5934`.
+- A link whose target was never built gets an entry in `LINK_OVERRIDES` in `content.ts`.
+  - A string value sends the link to the real route.
+  - A `null` value drops the anchor and keeps its words as plain text.
+  - Remove the entry once the page ships.
+
+**Blog verification:**
+- [ ] Every blog post has a navbar entry.
+- [ ] No in-article link is broken or goes through a redirect.
+- [ ] No section is missing its heading.
+- [ ] Headings measure weight 900 at both breakpoints.
+- [ ] Links have the right colour for their ground.
+- [ ] There is no horizontal overflow at 375px.
 
 ---
 
