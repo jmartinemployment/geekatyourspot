@@ -1,0 +1,1 @@
+Vector diagram of an interconnected network: nodes representing content, data, and teams linked by lines to a central digital hub. Icons illustrate collaboration, database, and content, emphasizing seamless integration within Hootsuite’s architecture.

@@ -1,0 +1,1 @@
+A flat vector decision tree: branching paths showing business personas, some leading to Scalenut and others to alternative solutions, visualizing decision-making pathways.

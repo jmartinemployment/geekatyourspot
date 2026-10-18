@@ -22,7 +22,7 @@ export default function MechanicsSection() {
         a lightweight AI search listening tool, something that can scrape live behaviors and surface the
         hidden “easy win” topics your competitors missed. This is not a manual export from Google Search
         Console or a one-off spreadsheet. It is a system that keeps feeding new signals into your plan, so you
-        are never working from stale data. MarketMuse is critical at this stage: it maps your existing content
+        are never working from stale data.&nbsp;<Link id="use-cases-marketing-intelligent-content-planning-mechanics-marketmuse" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse" className="text-[#0B162A] hover:underline">MarketMuse</Link>&nbsp;is critical at this stage: it maps your existing content
         against what is actually working for competitors, highlights where your site already has authority,
         and points to the gaps that are low competition but high value. Instead of chasing after high-volume
         keywords, your team gets a personalized difficulty score and a clear map of what to publish next.</p>

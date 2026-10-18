@@ -769,7 +769,12 @@ export function UseCasesSection() {
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     HyperWrite
                                                 </Link>,&nbsp;
-                                                MarketMuse,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "MarketMuse")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    MarketMuse
+                                                </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
@@ -1783,7 +1788,12 @@ export function UseCasesSection() {
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     HyperWrite
                                                 </Link>,&nbsp;
-                                                MarketMuse,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "MarketMuse")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    MarketMuse
+                                                </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"

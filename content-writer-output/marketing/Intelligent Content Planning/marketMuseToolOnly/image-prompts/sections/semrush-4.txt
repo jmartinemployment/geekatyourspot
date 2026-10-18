@@ -1,0 +1,1 @@
+Flat vector architecture diagram of Semrush platform: core engine, integration nodes (APIs, third-party tools), and dynamic data flows connecting components, with abstract representations of cloud and databases.

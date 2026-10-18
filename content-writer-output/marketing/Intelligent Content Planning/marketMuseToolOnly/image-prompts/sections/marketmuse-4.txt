@@ -1,0 +1,1 @@
+A flat vector schematic of a cloud-based architecture, showing interconnected databases, AI modules, analytics engines, and external content sources, visually mapping how data flows through the system's core components and integrations.

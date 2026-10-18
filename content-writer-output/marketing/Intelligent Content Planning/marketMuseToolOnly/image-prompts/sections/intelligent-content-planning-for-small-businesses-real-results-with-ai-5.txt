@@ -1,0 +1,1 @@
+A flat vector branching diagram representing early decision points in a process, with some branches locked in or marked as irreversible, illustrating the importance and impact of initial choices.

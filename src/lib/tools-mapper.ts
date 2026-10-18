@@ -56,6 +56,7 @@ import { manychatContent } from "@/data/tools/manychat";
 import { mediusContent } from "@/data/tools/medius";
 import { melioContent } from "@/data/tools/melio";
 import { melioApprovalWorkflowsContent } from "@/data/tools/melio-approval-workflows";
+import { marketmuseContent } from "@/data/tools/marketmuse";
 import { monteCarloContent } from "@/data/tools/monte-carlo";
 import { myaifrontdeskContent } from "@/data/tools/myaifrontdesk";
 import { myaifrontdeskCrossPlatformChatbotContent } from "@/data/tools/myaifrontdesk-cross-platform-chatbot";
@@ -144,6 +145,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "medius": mediusContent,
   "melio": melioContent,
   "melio-approval-workflows": melioApprovalWorkflowsContent,
+  "marketmuse": marketmuseContent,
   "monte-carlo": monteCarloContent,
   "myaifrontdesk": myaifrontdeskContent,
   "myaifrontdesk-cross-platform-chatbot": myaifrontdeskCrossPlatformChatbotContent,

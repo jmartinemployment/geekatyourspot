@@ -1,0 +1,1 @@
+A flat vector diagram illustrating branching database structures, nodes, and connectors, highlighting key decision points and mapping strategies important for initial data setup in a content planning system.

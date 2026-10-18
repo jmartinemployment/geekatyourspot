@@ -1,0 +1,1 @@
+Flat vector diagram of structured data blocks and mapping lines connecting them, showing how information is organized and linked during Semrush setup. Includes icons for fields, categories, and relationships.

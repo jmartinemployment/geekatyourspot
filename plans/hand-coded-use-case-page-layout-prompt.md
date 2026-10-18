@@ -134,6 +134,13 @@ All content must be written by hand in the JSX:
 - A `GlossaryLink` on a dark background must pass `className="text-[#0B162A] hover:underline"`; its default is the orange.
 - Links are relative (`/tools/...`), never `https://geekatyourspot.com/...`.
 
+### Navbar categories
+Use Cases, Blog and Tools in `src/components/layout/navbar.tsx` are `USE_CASES_MENU`, `BLOG_MENU` and `TOOLS_MENU`. Each department holds the categories the home page cards use (Lead Capture Pipeline, Content Creation Workflow, Automated Ad Spend Optimization; Accounts Payable, Cash Flow Forecasting, Tax Compliance & Regulations), and a page that fits none goes in the department's own `items`.
+
+- A new pillar, tool page or blog post goes into its category's `items`. A new category gets an entry with an `id` of the form `<section>-<department>-<category>`.
+- A category shows its pages on hover with a mouse and on tap on a touch screen; a second tap or Enter closes it. Below `lg` the pages open under the category, and from `lg` up they open beside the category list, so hovering one never moves the others.
+- The category is a button, not a link, so it does not use the tap toggle below. A category page that exists is the first entry in that category's `items`.
+
 ### Hover on touch screens
 Tailwind's `hover:` variant sits inside `@media (hover: hover)`, so a phone never shows it. The site makes it show with a tap toggle, and no page needs anything extra for it:
 
@@ -270,7 +277,7 @@ Blog posts are not hand-coded. `src/app/(site)/blog/[department]/[...slug]/page.
   - Remove the entry once the page ships.
 
 **Blog verification:**
-- [ ] Every blog post has a navbar entry.
+- [ ] Every blog post has a navbar entry, in its category's `items` in `BLOG_MENU` (`src/components/layout/navbar.tsx`).
 - [ ] No in-article link is broken or goes through a redirect.
 - [ ] No section is missing its heading.
 - [ ] Headings measure weight 900 at both breakpoints.

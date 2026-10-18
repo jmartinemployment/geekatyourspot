@@ -47,7 +47,8 @@ const jsonLd: Graph = {
                 { "@id": `${TOOLS_BASE}/hootsuite#software` },
                 { "@id": `${TOOLS_BASE}/hyperwriteai#software` },
                 { "@id": `${TOOLS_BASE}/scalenut#software` },
-                { "@id": `${TOOLS_BASE}/semrush#software` }
+                { "@id": `${TOOLS_BASE}/semrush#software` },
+                { "@id": `${TOOLS_BASE}/marketmuse#software` }
             ]
         },
         {
