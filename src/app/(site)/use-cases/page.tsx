@@ -193,6 +193,13 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/ai-content-creation-workflow",
       },
       {
+        title: "Intelligent Content Planning",
+        slug: "intelligent-content-planning",
+        description:
+          "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.",
+        href: "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+      },
+      {
         title: "AI Content Repurposing",
         slug: "ai-content-repurposing",
         description:

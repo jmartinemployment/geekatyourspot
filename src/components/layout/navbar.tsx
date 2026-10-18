@@ -210,6 +210,11 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai"
+                      label="Intelligent Content Planning"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/use-cases/marketing/intelligent-lead-capture-pipeline"
                       label="Intelligent Lead Capture Pipeline"
                       onNavigate={closeSidebar}
@@ -385,6 +390,11 @@ export default function Navbar(): React.JSX.Element {
                       label="Lead Enrichment and Predictive Scoring: Turn More Leads Into Sales"
                       onNavigate={closeSidebar}
                     />
+                    <MenuLink
+                      href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-smbs-can-save-hours-and-drive-more-sales"
+                      label="Intelligent Content Planning: Save Hours and Drive More Sales"
+                      onNavigate={closeSidebar}
+                    />
                   </ul>
                 </div>
 
@@ -451,6 +461,8 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" label="Dapta" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors" label="Factors" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/great-expectations" label="Great Expectations" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite" label="Hootsuite" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai" label="HyperWrite" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/jasper-ai" label="Jasper AI" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder" label="Leadfeeder" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" label="LobbyStack" onNavigate={closeSidebar} />
@@ -465,6 +477,8 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink href="/tools/marketing/optimove" label="Optimove" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/pipedrive" label="Pipedrive" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/qualytics" label="Qualytics" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut" label="Scalenut" onNavigate={closeSidebar} />
+                    <MenuLink href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush" label="Semrush" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" label="Smith.ai" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher" label="Snitcher" onNavigate={closeSidebar} />
                     <MenuLink href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" label="Tidio" onNavigate={closeSidebar} />

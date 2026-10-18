@@ -40,6 +40,8 @@ import { taxjarMultiStateSalesTaxNexusContent } from "@/data/tools/taxjar-multi-
 import { thetaxvaletContent } from "@/data/tools/thetaxvalet";
 import { thetaxvaletMultiStateSalesTaxNexusContent } from "@/data/tools/thetaxvalet-multi-state-sales-tax-nexus";
 import { gustoContent } from "@/data/tools/gusto";
+import { hootsuiteContent } from "@/data/tools/hootsuite";
+import { hyperwriteaiContent } from "@/data/tools/hyperwriteai";
 import { invoicedContent } from "@/data/tools/invoiced";
 import { justworksContent } from "@/data/tools/justworks";
 import { jasperAiContent } from "@/data/tools/jasper-ai";
@@ -71,6 +73,8 @@ import { rampContent } from "@/data/tools/ramp";
 import { rampApprovalWorkflowsContent } from "@/data/tools/ramp-approval-workflows";
 import { rillionContent } from "@/data/tools/rillion";
 import { ripplingContent } from "@/data/tools/rippling";
+import { scalenutContent } from "@/data/tools/scalenut";
+import { semrushContent } from "@/data/tools/semrush";
 import { sovosContent } from "@/data/tools/sovos";
 import { stampliContent } from "@/data/tools/stampli";
 import { thomsonReutersOnesourceContent } from "@/data/tools/thomson-reuters-onesource";
@@ -124,6 +128,8 @@ const toolsMap: Record<string, ToolPageContent> = {
   "thetaxvalet": thetaxvaletContent,
   "thetaxvalet-multi-state-sales-tax-nexus": thetaxvaletMultiStateSalesTaxNexusContent,
   "gusto": gustoContent,
+  "hootsuite": hootsuiteContent,
+  "hyperwriteai": hyperwriteaiContent,
   "invoiced": invoicedContent,
   "justworks": justworksContent,
   "jasper-ai": jasperAiContent,
@@ -151,6 +157,8 @@ const toolsMap: Record<string, ToolPageContent> = {
   "ramp-approval-workflows": rampApprovalWorkflowsContent,
   "rillion": rillionContent,
   "rippling": ripplingContent,
+  "scalenut": scalenutContent,
+  "semrush": semrushContent,
   "smith": smithContent,
   "snitcher": snitcherContent,
   "sovos": sovosContent,

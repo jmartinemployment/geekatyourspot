@@ -740,6 +740,50 @@ export function UseCasesSection() {
                                         AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
                                     </p>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
+                                        <li className="pl-.5">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai", "Intelligent Content Planning")}
+                                                href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
+                                                    Intelligent Content Planning:
+                                                </strong>
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-xs">
+                                                Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Content Planning Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "Hootsuite")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Hootsuite
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai", "HyperWrite")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    HyperWrite
+                                                </Link>,&nbsp;
+                                                MarketMuse,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Scalenut
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", "Semrush")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Semrush
+                                                </Link>.
+                                            </p>
+                                        </li>
                                         <li className="pl-.5 ">
                                             <Link
                                                 id={gtmLinkIdFromHref("/use-cases/marketing/automated-content-generation-transforming-small-business-marketing", "Automated Content Generation")}
@@ -1710,6 +1754,50 @@ export function UseCasesSection() {
                                             Content Creation Workflow</h4>
                                     </Link>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
+                                        <li className="pl-.5">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai", "Intelligent Content Planning")}
+                                                href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai"
+                                                className="hover:underline">
+                                                <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
+                                                    Intelligent Content Planning:
+                                                </strong>
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-sm">
+                                                Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Content Planning Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "Hootsuite")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Hootsuite
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai", "HyperWrite")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    HyperWrite
+                                                </Link>,&nbsp;
+                                                MarketMuse,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Scalenut
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", "Semrush")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Semrush
+                                                </Link>.
+                                            </p>
+                                        </li>
                                         <li className="pl-.5 ">
                                             <Link
                                                 id={gtmLinkIdFromHref("/use-cases/marketing/automated-content-generation-transforming-small-business-marketing", "Automated Content Generation")}

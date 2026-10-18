@@ -69,6 +69,13 @@ export default function MarketingUseCasesPage() {
       href: "/use-cases/marketing/ai-content-creation-workflow",
     },
     {
+      title: "Intelligent Content Planning",
+      slug: "intelligent-content-planning",
+      description:
+        "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.",
+      href: "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+    },
+    {
       title: "Intelligent Lead Capture Pipeline",
       slug: "intelligent-lead-capture-pipeline",
       description:

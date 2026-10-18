@@ -1,0 +1,1 @@
+A schematic flat vector diagram illustrating a cloud-based architecture: labeled blocks for cloud, local servers, APIs, and databases connected by arrows, showing data flows between modules.
