@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { clsx } from "clsx";
 
 import { BlogHeroSection } from "@/components/blog/blog-hero-section";
 import { ArticleSectionBlock } from "@/components/blog/article-section";
@@ -110,7 +111,7 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
               <div className="col-span-12 lg:col-span-7">
                 <h2
                   id="more-from-the-blog"
-                  className={cn(
+                  className={clsx(
                     "text-[6vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-4xl md:text-5xl lg:text-[3.5rem]",
                     relatedOnRight ? "text-right lg:text-left" : "text-left",
                   )}
@@ -123,7 +124,7 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
                     <Link
                       id={gtmLinkIdFromHref(entry.href, "related")}
                       href={entry.href}
-                      className={cn(
+                      className={clsx(
                         "text-2xl leading-[1.1] font-black font-[var(--font-sora)] shadow-text",
                         relatedLinkClass,
                       )}

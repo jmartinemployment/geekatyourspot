@@ -29,7 +29,7 @@ export default function RolesSection() {
         Instead of manually pulling numbers across platforms, they get real-time visibility into what is
         ranking, what is being cited by AI search engines, and what topics are driving actual leads. With
         Scalenut’s brand mention tracking and Semrush’s visibility dashboards,
-        the&nbsp;<GlossaryLink slug="feedback-loop">feedback loop</GlossaryLink>&nbsp;tightens. The team can
+        the&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback loop</GlossaryLink>&nbsp;tightens. The team can
         see, week by week, which content is actually achieving measurable results, and adjust course
         instantly, rather than waiting for a monthly review.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -17,7 +17,7 @@ export default function KeyFactorsSection() {
         or manager can see and measure. This keeps everyone focused when the novelty wears off and the first
         rough drafts hit the calendar.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Second, implementation fails when&nbsp;<GlossaryLink slug="data-quality">data
+        Second, implementation fails when&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>&nbsp;is ignored or left for later. If your system is still running on scattered
         spreadsheets, half-filled fields, or missing tracking tags, the AI will only amplify the mess. Rushed
         deployments that treat data as “good enough” end up with content plans built on noise, not insight.
@@ -31,14 +31,14 @@ export default function KeyFactorsSection() {
         expecting it to change habits on its own. A tool only works if it lives where your team already works.
         HyperWrite, for example, wins because it sits inside your browser tabs, learning your team’s style and
         plugging into live drafting, not asking you to learn a new app. Hootsuite works because it pulls
-        real-time trends and&nbsp;<GlossaryLink slug="sentiment-analysis">sentiment
+        real-time trends and&nbsp;<GlossaryLink slug="sentiment-analysis" className="text-[#0B162A] hover:underline">sentiment
         analysis</GlossaryLink>&nbsp;into the same dashboard your social coordinator uses, not a separate
         analytics silo. Scalenut’s agent model is the fix for the “analysis paralysis” that kills momentum. It
         automates execution by routing tasks and publishing in parallel, so the bottleneck is never a single
         overwhelmed staffer.</p>
       <p className="text-md text-white shadow-text pt-3">
         Fourth, the rollout fails when teams treat implementation as a one-off event instead of a pilot
-        with&nbsp;<GlossaryLink slug="feedback-loop">feedback loops</GlossaryLink>. The best implementations
+        with&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback loops</GlossaryLink>. The best implementations
         launch a “mini version” in a sandbox, measure what works, and adjust before rolling out everywhere.
         Semrush is the engine behind this loop: it tracks keyword wins, traffic shifts, and conversion data,
         feeding those insights back into the plan. When something underperforms, the workflow adapts, not by

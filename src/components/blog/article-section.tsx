@@ -1,3 +1,5 @@
+import { clsx } from "clsx";
+
 import { cn } from "@/lib/utils";
 import type { ArticleSection } from "@/lib/content-writer/article-sections";
 
@@ -35,7 +37,7 @@ export function ArticleSectionBlock({
             {section.heading && (
               <h2
                 id={section.id}
-                className={cn(
+                className={clsx(
                   "text-[6vw] leading-[0.95] font-black font-[var(--font-sora)] text-white shadow-text sm:text-4xl md:text-5xl lg:text-[3.5rem]",
                   onRight ? "text-right lg:text-left" : "text-left",
                 )}

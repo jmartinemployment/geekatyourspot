@@ -48,7 +48,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         Semrush is the answer for small businesses guessing at what to write or burning time repurposing
         content for each channel. When you cannot afford to waste resources on blogs that never rank,
-        Semrush’s search intelligence and&nbsp;<GlossaryLink slug="content-repurposing">content
+        Semrush’s search intelligence and&nbsp;<GlossaryLink slug="content-repurposing" className="text-[#0B162A] hover:underline">content
         repurposing</GlossaryLink>&nbsp;tools help you create and adapt content that matches both what your
         audience wants and what search engines reward. If you are not interested in ranking or expanding your
         digital footprint, and your content is only for current clients, the full stack of Semrush features

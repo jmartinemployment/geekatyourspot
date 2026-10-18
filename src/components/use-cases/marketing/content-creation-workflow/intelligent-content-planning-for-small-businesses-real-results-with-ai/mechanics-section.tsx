@@ -17,7 +17,7 @@ export default function MechanicsSection() {
         less churn, or a calendar that does not slip every week. This is where the first phase of the
         methodology comes in: aligning on outcomes that matter, not just output for its own sake.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The next phase is&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment.
+        The next phase is&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink>&nbsp;assessment.
         Here, the workflow pulls in real search data, not a generic keyword dump. The key move is integrating
         a lightweight AI search listening tool, something that can scrape live behaviors and surface the
         hidden “easy win” topics your competitors missed. This is not a manual export from Google Search
@@ -57,7 +57,7 @@ export default function MechanicsSection() {
         The entire process is built to scale with small teams, no headcount, no custom IT. It is a closed
         loop: business goals set the plan, live data finds the gaps, AI tools plug in where work happens, and
         results are validated and fed back. The system is always learning and always getting sharper. For a
-        marketing coordinator in Miami who has never touched a&nbsp;<GlossaryLink slug="data-model">data
+        marketing coordinator in Miami who has never touched a&nbsp;<GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data
         model</GlossaryLink>, everything runs from the same browser tabs and dashboards they already use.
         Within weeks, the team moves from guessing and rewriting to publishing targeted, competitive content
         on schedule, and with a clear line to results.</p>
