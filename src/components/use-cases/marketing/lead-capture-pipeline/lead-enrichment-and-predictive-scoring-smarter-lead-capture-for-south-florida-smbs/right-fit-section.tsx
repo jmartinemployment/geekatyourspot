@@ -35,7 +35,7 @@ export default function RightFitSection() {
         On the other hand, if your business is still figuring out product-market fit, or if the only visitors
         to your website are competitors and job seekers, this is not the moment to invest in predictive
         scoring. Wait until you have a steady stream of the right visitors, then automate. If
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is a mess, or if sales and marketing cannot
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;is a mess, or if sales and marketing cannot
         agree on what &quot;qualified&quot; means, you will want to fix the foundations first. Predictive
         models are only as good as the data and definitions you feed them. The best pipeline in the world
         cannot rescue a business from unclear goals, broken process, or a lack of real demand.</p>

@@ -135,7 +135,7 @@ export default async function TermPage({
         <section className="container py-12">
           <Link
             href="/glossary"
-            className="inline-flex items-center gap-x-2 text-md font-bold text-[#C83803]"
+            className="inline-flex items-center gap-x-2 text-md font-bold text-[#C83803] hover:underline"
           >
             <FontAwesomeIcon
               icon={faArrowLeft}

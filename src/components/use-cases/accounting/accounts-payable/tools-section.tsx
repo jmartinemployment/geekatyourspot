@@ -12,14 +12,12 @@ export default function ToolsSection() {
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">In the evolving landscape of automated <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> (AP) processes, selecting the right AI tools is crucial to
                 achieving optimal efficiency and accuracy. Geek At Your Spot specializes in guiding organizations through the
                 selection and implementation of these tools, ensuring a tailored fit for each client&#39;s specific needs. Below, we
-                explore several leading <GlossaryLink slug="machine-learning" className="text-white hover:underline">AI-powered</GlossaryLink> platforms that have transformed how businesses manage their accounts payable
+                explore several leading <GlossaryLink slug="machine-learning">AI-powered</GlossaryLink> platforms that have transformed how businesses manage their accounts payable
                 functions.</p>
             </div>
             <div className="col-span-6">
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-                <a href="https://geekatyourspot.com/tools/accounting/tipalti">
-                  Tipalti
-                </a>
+                <Link id="use-cases-accounting-accounts-payable-tools-tipalti" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>
               </h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Tipalti is a comprehensive payables automation solution that streamlines the end-to-end AP process. It offers
                 capabilities such as global payments automation, supplier management, and compliance with tax and regulatory
@@ -40,7 +38,7 @@ export default function ToolsSection() {
                 organization&#39;s operational needs. If custom development is required, Geek At Your Spot can extend Tipalti&#39;s
                 functionality through its open API, allowing for bespoke integrations that enhance the tool&#39;s core capabilities.
                 These efforts lead to faster realization of benefits, reduced error rates, and robust compliance management.</p>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/basware">Basware</a></h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">Basware</h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Basware provides a cloud-based platform for automating invoice processing and procurement, renowned for its
                 scalability and advanced data analytics. It supports organizations in improving cash flow visibility and supplier
                 relationships.</p>
@@ -60,8 +58,7 @@ export default function ToolsSection() {
             </div>
             <div className="col-span-6">
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
-                <a href="https://geekatyourspot.com/tools/accounting/medius">
-                  Medius</a></h3>
+                <Link id="use-cases-accounting-accounts-payable-tools-medius" href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">Medius</Link></h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Medius offers AI-driven accounts payable automation with a focus on invoice management and processing. It provides
                 an intuitive platform that simplifies invoice capture, processing, and approval workflows.</p>
               <ul className="list-disc list-outside pl-3 space-y-2">
@@ -78,7 +75,7 @@ export default function ToolsSection() {
                 hierarchies and exception handling. For custom code needs, Geek At Your Spot can leverage Medius&#39;s API to
                 integrate additional functionalities, such as bespoke validation rules or third-party service integrations,
                 ultimately achieving greater operational efficiency and enhanced user adoption.</p>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange"><a href="https://geekatyourspot.com/tools/accounting/rillion">Rillion</a></h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">Rillion</h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Rillion is a user-friendly AP automation platform that emphasizes fast implementation and ease of use. It automates
                 invoice processing, approval workflows, and integrates seamlessly with existing financial systems.</p>
               <ul className="list-disc list-outside pl-3 space-y-2">

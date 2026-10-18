@@ -129,7 +129,18 @@ All content must be written by hand in the JSX:
 - Use `<Link>` component with unique `id` attributes: `id="tools-marketing-[toolname]"` or `id="tools-marketing-[toolname]-[number]"` (for duplicates on same page)
 - **Link color by background:**
   - Default (lighter backgrounds): `className="text-[#C83803] hover:underline"` (orange)
-  - Dark backgrounds (`#8C4E2A`, `#BF5934`): `className="text-[#0B162A] hover:underline"` (dark blue) — orange is not visible on these darker backgrounds
+  - Dark backgrounds (`#8C4E2A`, `#BF5934`, and `#8C2703` on the older pillars): `className="text-[#0B162A] hover:underline"` (dark blue) — orange is not visible on these darker backgrounds
+- **Heading links follow the same rule** (Jeff, 2026-10-18). A `Link` or `GlossaryLink` inside an `h1` to `h6` takes the colour of the body links on that ground and carries `hover:underline`. It is never `text-white`, and it is never a bare `<a>` with no class. A heading names a tool with no page as plain text, with no link.
+- A `GlossaryLink` on a dark background must pass `className="text-[#0B162A] hover:underline"`; its default is the orange.
+- Links are relative (`/tools/...`), never `https://geekatyourspot.com/...`.
+
+### Hover on touch screens
+Tailwind's `hover:` variant sits inside `@media (hover: hover)`, so a phone never shows it. The site makes it show with a tap toggle, and no page needs anything extra for it:
+
+- `src/app/globals.css` redefines `hover:` with `@custom-variant hover` so it also matches `[data-tapped]` and anything inside a `[data-tapped]` element.
+- `src/components/shared/link-tap-toggle.tsx`, mounted once in `src/app/(site)/layout.tsx`, sets `data-tapped` on the first tap of a link on a screen that cannot hover. The second tap follows the link, and a tap anywhere else clears it. A keyboard, a screen reader and a mouse are not affected and follow the link at once.
+- It covers every link whose class contains `hover:underline`, and every link that wraps a heading carrying a `hover:` class (the home page cards). A card whose only hover is a background change, such as the tool index cards, is not a text link and opens on the first tap.
+- So a new link gets the toggle by carrying `hover:underline`, the same class it needs for the desktop hover.
 
 ### Glossary
 - If content contains words/terms that should be in the Glossary (e.g., `lead scoring`, `CRM`, `predictive analytics`, `marketing automation`, `AI`), **create a glossary entry and link to the definition**.
@@ -192,6 +203,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] PAA section is single block with `col-span-12` heading and `col-span-12` body
 - [ ] PAA section has `<hr>` separators before first Q&A item and between each Q&A item (but not after the last)
 - [ ] Link colors match background: `text-[#C83803]` (default), `text-[#0B162A]` (on `#8C4E2A` or `#BF5934` backgrounds)
+- [ ] Every link, including one inside a heading, carries `hover:underline` and the ground's link colour
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)
 - [ ] Page loads and sections display correctly on mobile and desktop
 

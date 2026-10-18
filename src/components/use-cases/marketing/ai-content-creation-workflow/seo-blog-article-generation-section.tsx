@@ -23,7 +23,7 @@ export default function SEOBlogArticleGenerationSection() {
             <div className="col-span-12">
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Maintaining a robust online presence is challenging for many businesses due to time constraints and limited
-                resources. Creating <GlossaryLink slug="search-engine-optimization">SEO-optimized</GlossaryLink> content that improves search engine rankings often demands expertise and
+                resources. Creating <GlossaryLink slug="search-engine-optimization" className="text-[#0B162A] hover:underline">SEO-optimized</GlossaryLink> content that improves search engine rankings often demands expertise and
                 significant effort. Without it, even well-crafted content can get lost in the vast sea of the internet, leading to
                 missed opportunities for engagement and growth. This is where AI-powered tools like Jasper AI and Copy.ai come into
                 play, offering a powerful solution to streamline the content creation process and enhance visibility.</p>
@@ -66,7 +66,7 @@ export default function SEOBlogArticleGenerationSection() {
                 businesses stay ahead of the competition by maintaining a high standard of content quality and relevance.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automating-keyword-research">Automating Keyword Research</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                <GlossaryLink slug="keyword-density">Keyword research</GlossaryLink> is a fundamental aspect of SEO that often requires significant time and expertise. AI tools
+                <GlossaryLink slug="keyword-density" className="text-[#0B162A] hover:underline">Keyword research</GlossaryLink> is a fundamental aspect of SEO that often requires significant time and expertise. AI tools
                 simplify this process by automatically identifying and suggesting keywords that align with your content goals. For
                 example, Jasper AI can scan millions of web pages to identify trending keywords, providing suggestions that ensure
                 your content is in line with current search trends. This automation reduces the manual effort required and increases
@@ -127,7 +127,7 @@ export default function SEOBlogArticleGenerationSection() {
                 Visibility with AI</h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Maintaining a robust online presence is challenging for many businesses due to time constraints and limited
-                resources. Creating <GlossaryLink slug="search-engine-optimization">SEO-optimized</GlossaryLink> content that improves search engine rankings often demands expertise and
+                resources. Creating <GlossaryLink slug="search-engine-optimization" className="text-[#0B162A] hover:underline">SEO-optimized</GlossaryLink> content that improves search engine rankings often demands expertise and
                 significant effort. Without it, even well-crafted content can get lost in the vast sea of the internet, leading to
                 missed opportunities for engagement and growth. This is where AI-powered tools like Jasper AI and Copy.ai come into
                 play, offering a powerful solution to streamline the content creation process and enhance visibility.</p>
@@ -162,7 +162,7 @@ export default function SEOBlogArticleGenerationSection() {
                 businesses stay ahead of the competition by maintaining a high standard of content quality and relevance.</p>
               <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="automating-keyword-research">Automating Keyword Research</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                <GlossaryLink slug="keyword-density">Keyword research</GlossaryLink> is a fundamental aspect of SEO that often requires significant time and expertise. AI tools
+                <GlossaryLink slug="keyword-density" className="text-[#0B162A] hover:underline">Keyword research</GlossaryLink> is a fundamental aspect of SEO that often requires significant time and expertise. AI tools
                 simplify this process by automatically identifying and suggesting keywords that align with your content goals. For
                 example, Jasper AI can scan millions of web pages to identify trending keywords, providing suggestions that ensure
                 your content is in line with current search trends. This automation reduces the manual effort required and increases

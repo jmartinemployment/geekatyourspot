@@ -11,6 +11,7 @@ Tool pages, pillar pages and blog posts share one layout (Jeff, 2026-10-18). `pl
 - On mobile the body sits in its own `col-span-12` row; on desktop it sits under the heading.
 - Backgrounds follow the five-colour rotation (`#023059` → `#024059` → `#025E73` → `#8C4E2A` → `#BF5934`).
 - Links are `#C83803` on the cool grounds and `#0B162A` on the two warm ones. This applies to `GlossaryLink` too, whose default is `#C83803`.
+- Every link carries `hover:underline`, and a link inside a heading is no exception: it takes the same colour as the body links on that ground, never white. On a phone the first tap shows the hover and the second follows the link; see "Hover on touch screens" in the pillar prompt.
 - The FAQ is a single `col-span-12` block with an `<hr>` above each question.
 
 What is specific to a tool page built from a Content Writer export (the current shape, since 2026-10-09):

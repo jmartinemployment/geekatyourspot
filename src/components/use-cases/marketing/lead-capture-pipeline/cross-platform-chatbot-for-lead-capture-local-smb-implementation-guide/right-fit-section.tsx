@@ -30,7 +30,7 @@ export default function RightFitSection() {
         outweighs the time saved.</p>
       <p className="text-md text-white shadow-text pt-3">
         It is also not a fit if your data is scattered and cannot be unified, or if you do not have the
-        ability to integrate your lead sources,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and
+        ability to integrate your lead sources,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and
         scheduling systems. A chatbot cannot bridge a gap the business will not close. If you expect the AI to
         replace all human touch, you will be disappointed. Even the best systems, Tidio’s drag-and-drop
         builder or Dapta’s bilingual voice and chat agents, work because they escalate when a lead needs

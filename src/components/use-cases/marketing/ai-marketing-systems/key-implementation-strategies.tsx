@@ -44,7 +44,7 @@ export default function KeyImplementationStrategiesSection() {
               insights.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">In a hypothetical scenario, a small e-commerce business might struggle with fragmented customer data spread across
               multiple platforms. Geek At Your Spot would unify these datasets, creating a comprehensive view that enhances
-              AI-driven <GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> and personalization strategies.</p>
+              AI-driven <GlossaryLink slug="user-segmentation" className="text-[#0B162A] hover:underline">customer segmentation</GlossaryLink> and personalization strategies.</p>
             <h4 id="mapping-key-data-points" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Mapping Key Data Points</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">Identifying and mapping essential data points is critical. This includes customer demographics, purchase history,
               and engagement metrics. Proper mapping enables AI systems to generate more accurate predictions and recommendations,

@@ -26,7 +26,7 @@ export default function RolesSection() {
         in-market accounts, and wasted spend on dead-end traffic dropping fast.</p>
       <p className="text-md text-white shadow-text pt-3">
         Operations and RevOps teams feel the change in the quality and automation of their data. Before, they
-        spent hours every week cleaning up&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;records,
+        spent hours every week cleaning up&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;records,
         merging duplicates, and hunting for the right owner of a hot lead. Now, enrichment tools run in the
         background. Lusha and Apollo update contact and account records when someone changes jobs or gets
         promoted, and new leads are routed automatically based on score, fit, or engagement. If a lead’s score
@@ -45,7 +45,7 @@ export default function RolesSection() {
         week’s campaign didn’t convert or who owns the new inbound lead, they are moving deals forward with
         confidence. The sales rep is wrapping up a call with a decision-maker they reached on the first dial.
         Marketing has proof that their ad budget actually turned into pipeline. Ops is closing the week with
-        a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;that’s clean, current, and ready for Monday.
+        a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;that’s clean, current, and ready for Monday.
         That’s not hype, it’s what happens when the right enrichment and scoring pipeline fits the way your
         people work, rather than forcing them to work around the tool.</p>
     </>

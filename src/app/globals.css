@@ -17,6 +17,21 @@ html, body {
 
 @custom-variant dark (&:is(.dark *));
 
+/* hover: also matches a link tapped once on a screen that cannot hover, and the heading inside it; see link-tap-toggle.tsx. */
+@custom-variant hover {
+  @media (hover: hover) {
+    &:hover {
+      @slot;
+    }
+  }
+  &[data-tapped] {
+    @slot;
+  }
+  [data-tapped] & {
+    @slot;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HeroSection() {
   const title = "AI-Driven Lead Scoring for Small Businesses";
-  const summary = <>Stop chasing every lead. Use <GlossaryLink slug="lead-scoring" className="text-white hover:underline">AI-driven lead scoring</GlossaryLink> to unify fragmented data, rank every prospect by real buying intent, and focus your small business team on leads most likely to convert.</>;
+  const summary = <>Stop chasing every lead. Use <GlossaryLink slug="lead-scoring">AI-driven lead scoring</GlossaryLink> to unify fragmented data, rank every prospect by real buying intent, and focus your small business team on leads most likely to convert.</>;
 
   return (
     <>

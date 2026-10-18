@@ -13,7 +13,7 @@ export default function KeyFactorsSection() {
         reality, your prospects are scattered across WhatsApp, Instagram, Facebook, SMS, and the phone. If
         your chatbot is only on your website chat, you’ve captured one channel and left four open leaks. My AI
         Front Desk, for instance, works because it answers calls, texts, emails, and website chat as a single
-        agent, if you skip that&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;setup,
+        agent, if you skip that&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;setup,
         you’re still missing leads. BotPenguin and Manychat solve the next common pitfall: fragmented social
         messaging. If you don’t connect every major platform and treat them as one pipeline, you’re still
         toggling between apps and losing context.</p>
@@ -24,11 +24,11 @@ export default function KeyFactorsSection() {
         leads with structured, bilingual questions and pass only the best on to your team. But if you don’t
         define those questions up front, or if you skip the step of segmenting leads by urgency, you end up
         with a bot that dumps raw, unqualified contacts into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, creating more work, not less.</p>
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, creating more work, not less.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another common stall comes from underestimating the importance of clean, connected data. Chatbots and
         voice agents are only as good as the data they collect and the way they sync it. If
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or spreadsheet is not set up to receive and
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or spreadsheet is not set up to receive and
         organize every captured detail, you’ll find yourself back to manual entry or, worse, missing crucial
         context on follow-up. Tidio is designed to make this easy with its drag-and-drop interface and live
         chat integrations, but if you skip the data mapping and validation step, even the best automation will
