@@ -41,7 +41,10 @@ export type BlockNode =
 export type ArticleSection = {
   /** Slugified heading, unique within the article; anchors and GTM ids hang off it. */
   id: string;
-  /** Null for the lede -- the copy some posts run before their first `<h2>`. */
+  /**
+   * "Overview" for the lede, the copy some posts run before their first `<h2>`, which is how the
+   * tool pages title their opening section. Null only when the export's own `<h2>` is empty.
+   */
   heading: string | null;
   blocks: BlockNode[];
 };
@@ -173,7 +176,7 @@ export function toArticleSections(bodyHtml: string): ArticleSection[] {
   const ledeHtml = boundaries.length > 0 ? bodyHtml.slice(0, boundaries[0].index) : bodyHtml;
   const ledeBlocks = parseBlocks(ledeHtml);
   if (ledeBlocks.length > 0) {
-    sections.push({ id: uniqueId("introduction", taken, 0), heading: null, blocks: ledeBlocks });
+    sections.push({ id: uniqueId("overview", taken, 0), heading: "Overview", blocks: ledeBlocks });
   }
 
   for (const [position, boundary] of boundaries.entries()) {

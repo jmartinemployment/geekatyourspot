@@ -40,7 +40,12 @@ export type ContentEntry = {
 };
 
 export type ContentPage = ContentEntry & {
-  /** Article body, sanitized and with the leading <h1> removed. */
+  /**
+   * The hero's summary: the export's `hero-summary` paragraph when it has one,
+   * which is what the pillar pages show in their hero, otherwise the excerpt.
+   */
+  heroSummary: string;
+  /** Article body, sanitized and with the leading <h1> and hero-summary paragraph removed. */
   bodyHtml: string;
 };
 
@@ -87,6 +92,7 @@ function walkHtmlFiles(dir: string, found: string[] = []): string[] {
 
 type ParsedFile = {
   entry: ContentEntry;
+  heroSummary: string;
   bodyHtml: string;
 };
 
@@ -162,7 +168,15 @@ function parseFile(filePath: string): ParsedFile | null {
     sourcePath: path.relative(ROOT, filePath),
   };
 
-  return { entry, bodyHtml: sanitizeBody(rawBody, headline) };
+  // Newer exports open with <p class="hero-summary">. The pillar pages show it in the hero, so the
+  // post does too, and the body drops it rather than running it as a section with no heading.
+  const heroMatch = rawBody.match(/<p class="hero-summary">([\s\S]*?)<\/p>/);
+  const heroSummary = heroMatch
+    ? decodeEntities(heroMatch[1].replace(/<[^>]+>/g, "")).trim()
+    : excerpt;
+  const articleBody = heroMatch ? rawBody.replace(heroMatch[0], "") : rawBody;
+
+  return { entry, heroSummary, bodyHtml: sanitizeBody(articleBody, headline) };
 }
 
 function datePublishedFromJsonLd(jsonLd: string | null): string | null {
@@ -200,18 +214,47 @@ const ALLOWED_TAGS = new Set([
 
 /**
  * Hand-maintained fixes for in-article links whose path does not match the
- * route that actually got built. Add an entry when an export links somewhere
- * that does not exist; remove it once the real page ships.
+ * route that actually got built. A string sends the link to that route. Null
+ * means there is no page to link to, so the anchor goes and its words stay as
+ * plain text. Add an entry when an export links somewhere that does not exist;
+ * remove it once the real page ships.
  */
-const LINK_OVERRIDES: Record<string, string> = {
+const LINK_OVERRIDES: Record<string, string | null> = {
   // Route is nested one level deeper than the export assumes.
   "/use-cases/accounting/cash-flow-forecasting":
     "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
   // Export uses the "intelligent-" prefix; the route does not.
   "/use-cases/accounting/intelligent-tax-compliance-regulations":
     "/use-cases/accounting/tax-compliance-regulations",
-  // No page for this use case yet -- fall back to the department index.
-  "/use-cases/marketing/automated-ad-spend-optimization": "/use-cases/marketing",
+  // The pillar slug carries a subtitle the export left off.
+  "/use-cases/marketing/automated-content-generation":
+    "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing",
+  // Apollo's write-up sits under its lead capture pillar.
+  "/tools/marketing/Apollo":
+    "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo",
+  // These accounts payable tools moved under their pillars; next.config.ts only redirects
+  // the old paths, some of them in two hops.
+  "/tools/accounting/dext": "/tools/accounting/accounts-payable/automated-data-entry-processing/dext",
+  "/tools/accounting/bill": "/tools/accounting/accounts-payable/automated-data-entry-processing/bill",
+  "/tools/accounting/avidxchange":
+    "/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange",
+  "/tools/accounting/stampli": "/tools/accounting/accounts-payable/automated-approval-workflows/stampli",
+  "/tools/accounting/melio":
+    "/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio",
+  // No page for these.
+  "/tools/accounting/lightyear": null,
+  "/tools/marketing/chatgpt": null,
+  "/tools/marketing/claude": null,
+  "/tools/marketing/copy-ai": null,
+  "/tools/marketing/frase": null,
+  "/tools/marketing/hubspot-ai": null,
+  "/tools/marketing/keyword-insights": null,
+  "/tools/marketing/lead-squared": null,
+  "/tools/marketing/pictory": null,
+  "/tools/marketing/surfer-seo": null,
+  "/tools/marketing/synthesia": null,
+  "/tools/marketing/writesonic": null,
+  "/use-cases/marketing/personalized-email-campaigns": null,
 };
 
 /**
@@ -219,7 +262,7 @@ const LINK_OVERRIDES: Record<string, string> = {
  * of bouncing the reader out to the production domain, then applies any
  * override above. Off-site links are left alone.
  */
-function internalizeHref(href: string): string {
+function internalizeHref(href: string): string | null {
   let path = href;
 
   const sameSite = href.match(/^https?:\/\/(?:www\.)?geekatyourspot\.com(\/[^"]*)?$/i);
@@ -232,7 +275,8 @@ function internalizeHref(href: string): string {
   const [pathname, suffix = ""] = path.split(/(?=[?#])/, 2);
   const normalized = pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
 
-  return (LINK_OVERRIDES[normalized] ?? normalized) + suffix;
+  const target = normalized in LINK_OVERRIDES ? LINK_OVERRIDES[normalized] : normalized;
+  return target === null ? null : target + suffix;
 }
 
 /**
@@ -247,6 +291,12 @@ function sanitizeBody(rawBody: string, headline: string): string {
     .replace(/<(script|style|noscript|iframe)[\s\S]*?<\/\1>/gi, "")
     .replace(/<h1[\s\S]*?<\/h1>/i, "")
     .trim();
+
+  // A link whose target has no page keeps its words and loses the anchor.
+  body = body.replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi, (anchor, attrs: string, inner: string) => {
+    const href = attrs.match(/\shref="([^"]*)"/i)?.[1] ?? "";
+    return /^(https?:|\/)/i.test(href) && internalizeHref(href) === null ? inner : anchor;
+  });
 
   // Some exports repeat the headline as the first <h2>; the page already prints it.
   const leadingH2 = body.match(/^<h2[^>]*>([\s\S]*?)<\/h2>/i);
@@ -264,7 +314,8 @@ function sanitizeBody(rawBody: string, headline: string): string {
 
     if (tagName === "a") {
       const href = attrs.match(/\shref="([^"]*)"/i)?.[1] ?? "";
-      const safeHref = /^(https?:|\/|#|mailto:)/i.test(href) ? internalizeHref(href) : "#";
+      // The pass above already unwrapped every anchor whose target resolves to null.
+      const safeHref = (/^(https?:|\/|#|mailto:)/i.test(href) && internalizeHref(href)) || "#";
       const external = /^https?:/i.test(safeHref);
       return `<a href="${safeHref}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>`;
     }
@@ -327,5 +378,5 @@ export function getEntry(
 ): ContentPage | null {
   const parsed = getCache().get(`/${collection}/${department}/${segments.join("/")}`);
   if (!parsed) return null;
-  return { ...parsed.entry, bodyHtml: parsed.bodyHtml };
+  return { ...parsed.entry, heroSummary: parsed.heroSummary, bodyHtml: parsed.bodyHtml };
 }

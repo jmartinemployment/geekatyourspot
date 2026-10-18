@@ -93,7 +93,7 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
 
       <BlogHeroSection
         title={post.headline}
-        summary={post.excerpt}
+        summary={post.heroSummary}
         meta={meta}
         department={post.department}
       />

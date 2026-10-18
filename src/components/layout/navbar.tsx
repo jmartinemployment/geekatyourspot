@@ -407,6 +407,21 @@ export default function Navbar(): React.JSX.Element {
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
+                      href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable"
+                      label="How Automated Approval Workflows Transform Accounts Payable"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line"
+                      label="How Automated Payment Execution Transforms Your Bottom Line"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable"
+                      label="How AI Streamlines Fraud Detection in Accounts Payable"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
                       href="/blog/accounting/how-ai-is-revolutionizing-tax-compliance-what-you-need-to-know"
                       label="How AI is Revolutionizing Tax Compliance"
                       onNavigate={closeSidebar}
@@ -424,6 +439,11 @@ export default function Navbar(): React.JSX.Element {
                     <MenuLink
                       href="/blog/accounting/cash-flow-forecasting/how-automating-spreadsheet-data-boosts-cash-flow-forecasting"
                       label="How Automating Spreadsheet Data Boosts Cash Flow Forecasting"
+                      onNavigate={closeSidebar}
+                    />
+                    <MenuLink
+                      href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting-for-local-smbs"
+                      label="How Automated Spreadsheet Data Transforms Cash Flow Forecasting for Local SMBs"
                       onNavigate={closeSidebar}
                     />
                     <MenuLink
