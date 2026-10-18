@@ -16,7 +16,7 @@ export default function ArchitectureSection() {
         together to identify high-intent, high-volume clusters, then map them to the prompts and questions
         that AI engines actually answer. This is not just about Google anymore. The system tracks prompt
         coverage for ChatGPT, Perplexity, Gemini, and Claude, so you know which topics will get you cited in
-        AI results, not just search listings. The&nbsp;<GlossaryLink slug="data-model">data
+        AI results, not just search listings. The&nbsp;<GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data
         model</GlossaryLink>&nbsp;is built for this dual focus: every topic, prompt, and keyword is tagged for
         both SEO and AI discoverability.</p>
       <p className="text-md text-white shadow-text pt-3">

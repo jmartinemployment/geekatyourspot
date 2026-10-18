@@ -17,7 +17,7 @@ export default function ComparingSection() {
         or voice-only automation, Dapta runs one agent across phone, WhatsApp, SMS, and web chat, so a
         conversation can start in one place and finish in another, with no details lost. This is not a bolt-on
         channel or a workaround, the agent is
-        truly&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>, and the same logic and data
+        truly&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>, and the same logic and data
         flow through each touchpoint.</p>
       <p className="text-md text-white shadow-text pt-3">
         Many competing products require separate setups for each channel, which means every update, every
@@ -31,7 +31,7 @@ export default function ComparingSection() {
         Salesforce, Google Calendar, Shopify, Zendesk, and Shopee. This lets it fit into the systems a
         business already runs, rather than forcing a migration or a patchwork of manual exports. The agent
         does not just record transcripts, it pushes structured lead data, booking details, and conversation
-        outcomes directly into the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so follow-up is immediate
+        outcomes directly into the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, so follow-up is immediate
         and nothing slips through. For a small business, this means less time spent copying notes and more
         time closing deals.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -41,7 +41,7 @@ export default function ComparingSection() {
         live on the call. This is a critical point for businesses serving both English- and Spanish-speaking
         customers, especially in South Florida, where switching between languages and channels is the norm.
         The platform’s ability to route calls based on intent, urgency, value, or time of day, while logging
-        every transfer to the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, means it can handle complex
+        every transfer to the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, means it can handle complex
         customer flows that chat-only bots cannot.</p>
       <p className="text-md text-white shadow-text pt-3">
         Other solutions may promise AI-driven lead capture, but many still rely on static scripts, manual
@@ -52,7 +52,7 @@ export default function ComparingSection() {
         for more technical platforms.</p>
       <p className="text-md text-white shadow-text pt-3">
         There are cases where Dapta is not the right fit. If a business is a software company wanting deep,
-        code-level control over a custom voice&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, or needs to
+        code-level control over a custom voice&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>, or needs to
         embed call logic directly in their own application, Dapta trades that for speed and ease of use. In
         those situations, a developer-focused platform may be better, but for the vast majority of small
         businesses looking for results rather than a technical project, Dapta’s approach covers more ground
@@ -60,7 +60,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In summary, Dapta’s strength is in unifying every inbound channel, voice, chat, WhatsApp, SMS, under
         one agent, with true bilingual support and
-        seamless&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integration. It is not just another
+        seamless&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;integration. It is not just another
         chatbot; it is an operational tool that removes the gaps where leads are lost, and it does this
         without a developer or a major IT lift. For South Florida businesses that need to reach customers on
         their terms, in their language, and on any device, Dapta fills the gap that chat-only or voice-only

@@ -16,7 +16,7 @@ export default function ComparingSection() {
         might work. This approach is cheap on paper but expensive in time and opportunity cost. Most content
         never ranks, and the cycle repeats as teams chase the next idea without real data. There is no system
         for surfacing low-competition topics or tracking why traffic drops on a specific day. When a post
-        flops, there is no&nbsp;<GlossaryLink slug="feedback-loop">feedback loop</GlossaryLink>, just more
+        flops, there is no&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback loop</GlossaryLink>, just more
         guessing. This is the treadmill that burns teams out and keeps businesses invisible online.</p>
       <p className="text-md text-white shadow-text pt-3">
         Single-purpose AI writers are everywhere now. They promise to generate a blog post or social caption

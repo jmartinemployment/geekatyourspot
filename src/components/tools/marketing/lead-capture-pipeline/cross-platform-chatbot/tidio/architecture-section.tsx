@@ -7,7 +7,7 @@ export default function ArchitectureSection() {
         Tidio’s architecture is designed around the reality that small businesses use many tools and channels.
         At its core, Tidio is a cloud-based platform that connects website chat, social messaging apps
         (WhatsApp, Instagram, Messenger), and email into one system. Every channel is wired into the same
-        backend, so a message from any source lands in the&nbsp;<GlossaryLink slug="unified-inbox">unified
+        backend, so a message from any source lands in the&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified
         inbox</GlossaryLink>. The system matches users across channels using email, phone, or login, building
         a single customer profile that carries conversation history, order data, tags, and custom properties.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -26,7 +26,7 @@ export default function ArchitectureSection() {
         Tidio’s automation builder, Flows, sits on top of this architecture. Flows are built visually and can
         be triggered by events across any channel, a new visitor, a specific page, an abandoned cart, or a
         keyword. Automations can collect contact details, qualify leads,
-        trigger&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;actions, or route chats to the right
+        trigger&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;actions, or route chats to the right
         team member. For every action, Flows can push data into other systems through integrations or APIs, so
         leads and customer details flow downstream without manual re-entry.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -34,7 +34,7 @@ export default function ArchitectureSection() {
         HubSpot, Drip, Front, ActiveCampaign, Pipedrive, AWeber, Google Ads, and more. For e-commerce, it
         hooks into Shopify and WooCommerce for real-time product and order management. The Premium plan lets
         you integrate with almost any app on the market, so you can sync leads,
-        update&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;records, trigger email campaigns, or feed
+        update&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;records, trigger email campaigns, or feed
         chat data into analytics tools. Tidio’s integrations are built to keep your marketing, sales, and
         support stack connected, without needing middleware or custom development.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -46,7 +46,7 @@ export default function ArchitectureSection() {
         including handoffs and escalations.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that want to go deeper, Tidio’s Flows and Lyro Actions can trigger
-        custom&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls, update external databases, or
+        custom&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;calls, update external databases, or
         automate tasks across your stack. This gives you the flexibility to adapt the system to your workflow,
         whether that’s pushing leads into Salesforce, updating a Google Sheet, or triggering a workflow in
         Zapier.</p>

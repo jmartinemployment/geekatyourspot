@@ -10,7 +10,7 @@ export default function HowItWorksSection() {
         details. The process begins the moment a customer reaches out, whether by phone, WhatsApp, SMS, or web
         chat. Dapta’s agent responds instantly, in natural English or Spanish, and keeps the conversation
         moving toward a real outcome: a booked appointment, a qualified lead in
-        the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, or a routed support case.</p>
+        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, or a routed support case.</p>
       <p className="text-md text-white shadow-text pt-3">
         When a call or message comes in, Dapta’s agent identifies the channel and the customer, then
         immediately starts gathering information. The agent uses structured questions, such as service type,
@@ -22,7 +22,7 @@ export default function HowItWorksSection() {
         Once the agent has enough information, it acts. If the inquiry is a fit, Dapta offers a real-time
         booking slot, checks the live calendar, and locks in the appointment. The agent sends reminders by SMS
         or WhatsApp, confirms the time, and updates
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;automatically. If the prospect is not
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;automatically. If the prospect is not
         qualified or needs a human, Dapta escalates the conversation with full context, no cold handoff, no
         lost notes. Every step, from first hello to scheduled meeting, is logged and reviewable, giving your
         team a clean record and analytics for every touchpoint.</p>
@@ -37,7 +37,7 @@ export default function HowItWorksSection() {
         The system is designed for speed and reliability. Most teams are live in under half an hour, with no
         coding required. Dapta’s agent can be set up by describing your business, hours, and scheduling rules
         in plain language. The platform’s autonomous setup tool, Dapti, builds the agent, connects it to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, calendar, and phone system, and trains it on
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, calendar, and phone system, and trains it on
         your own content. That means your business starts with a custom-fit workflow, not a blank template.
         Every conversation is logged, every booking is synced, and every qualified lead lands in your sales
         pipeline without manual effort.</p>

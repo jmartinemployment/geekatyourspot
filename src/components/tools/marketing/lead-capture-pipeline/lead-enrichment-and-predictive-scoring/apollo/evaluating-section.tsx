@@ -27,7 +27,7 @@ export default function EvaluatingSection() {
         relies on manual Google searches or lists bought online, Apollo’s verified data and regular updates
         are a clear upgrade.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="lead-scoring">Lead scoring</GlossaryLink>&nbsp;in Apollo is built for small teams
+        <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">Lead scoring</GlossaryLink>&nbsp;in Apollo is built for small teams
         who need to prioritize. The AI-powered scoring model ranks every new lead based on your own criteria,
         recent activity, ICP fit, engagement, and more. This means your reps spend their day on the prospects
         most likely to convert, not on dead ends. The system gets smarter as your data grows, so the scoring
@@ -37,7 +37,7 @@ export default function EvaluatingSection() {
         Integration is a deciding factor. Apollo connects natively with major CRMs like Salesforce and
         HubSpot, syncing data in real time or on a schedule. If you already run on one of these platforms,
         Apollo fits right in and keeps your records up to date. For teams using other tools,
-        Apollo’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and integration marketplace make it
+        Apollo’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and integration marketplace make it
         possible to connect with most modern stacks, but some custom setup may be needed. If your business
         relies on manual data entry or disconnected systems, Apollo’s integrations can cut out double work and
         reduce errors.</p>
@@ -62,8 +62,8 @@ export default function EvaluatingSection() {
         <li>Does your team spend more time finding leads than selling?</li>
         <li>Are you missing out on website visitors who never fill out a form?</li>
         <li>Is your current data incomplete, out-of-date, or hard to use?</li>
-        <li>Would instant&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;and routing save your team hours every week?</li>
-        <li>Do you need to sync data with Salesforce, HubSpot, or another&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>?</li>
+        <li>Would instant&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>&nbsp;and routing save your team hours every week?</li>
+        <li>Do you need to sync data with Salesforce, HubSpot, or another&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>?</li>
         <li>Is your sales process local, and do you need to filter by geography or industry?</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">

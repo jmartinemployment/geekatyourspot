@@ -9,9 +9,9 @@ export default function EvaluatingSection() {
         fit starts with your workflow: if your team juggles website chat, SMS, phone calls, and social DMs,
         and you are losing track of leads because each channel has its own inbox, My AI Front Desk is built to
         solve exactly that. It is not a generic chatbot builder or a tool that requires you to assemble your
-        own workflows from scratch. Instead, it comes with&nbsp;<GlossaryLink slug="unified-inbox">unified
+        own workflows from scratch. Instead, it comes with&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified
         inbox</GlossaryLink>&nbsp;logic, built-in lead qualification, and
-        direct&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;syncing as standard.</p>
+        direct&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;syncing as standard.</p>
       <p className="text-md text-white shadow-text pt-3">
         When judging fit, look at how your team works today. If you are spending time copying notes between
         systems, missing follow-up windows because details are scattered, or relying on voicemail and email as
@@ -23,10 +23,10 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The pricing model is straightforward and designed to be accessible for small teams. My AI Front Desk
         publishes a free-to-start tier, which includes all channels and
-        the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. There is no upfront charge just to get going.
+        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. There is no upfront charge just to get going.
         Paid plans start at $249 per month, as listed on the My AI Front Desk Keap alternative page. This is
         not a per-seat or per-interaction model; instead, it covers the full platform, phone, SMS, email,
-        chat, and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;features, under one price. Compared to
+        chat, and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;features, under one price. Compared to
         live answering services that charge per call or by the minute, or to hiring a full-time staff member,
         this is a fixed, predictable expense.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -40,10 +40,10 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When you compare My AI Front Desk to other tools, focus on what actually gets automated and what still
         falls on your team. Some platforms offer chat-only automation, leaving phone calls and texts as manual
-        work. Others require add-ons for&nbsp;<GlossaryLink slug="lead-scoring">lead
-        scoring</GlossaryLink>&nbsp;or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync. My AI Front
-        Desk includes phone, SMS, email, chat,&nbsp;<GlossaryLink slug="lead-scoring">lead
-        scoring</GlossaryLink>, and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;as part of the core
+        work. Others require add-ons for&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
+        scoring</GlossaryLink>&nbsp;or&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;sync. My AI Front
+        Desk includes phone, SMS, email, chat,&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
+        scoring</GlossaryLink>, and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;as part of the core
         system. This means you do not have to budget for extra modules or worry about features being locked
         behind higher tiers. The pricing is transparent: start free, then move to a fixed monthly plan as your
         needs grow.</p>

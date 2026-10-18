@@ -24,11 +24,11 @@ export default function ComparingSection() {
         data ages fast. A name and number scraped six months ago may now belong to someone who has moved on,
         changed roles, or left the company. For a small team, this means a high risk of calling the wrong
         person or sending emails that bounce. Lusha addresses this by running continuous enrichment and
-        syncing updates directly into the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. When a contact
+        syncing updates directly into the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. When a contact
         changes jobs or gets promoted, Lusha flags it and updates the record. That keeps the pipeline live,
         not static.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Some buyers look at AI-driven&nbsp;<GlossaryLink slug="intent-data">intent
+        Some buyers look at AI-driven&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent
         data</GlossaryLink>&nbsp;platforms. These tools use behavioral signals, like website visits, content
         downloads, or ad clicks, to suggest which accounts are &quot;in market.&quot; The theory is good:
         reach out when a prospect is ready to buy. In practice, the challenge is matching anonymous intent to

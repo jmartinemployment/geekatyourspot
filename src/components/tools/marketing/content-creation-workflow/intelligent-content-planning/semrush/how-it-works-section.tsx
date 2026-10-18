@@ -6,7 +6,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Semrush runs content planning as a connected, data-driven workflow. The platform does not just store
         topics and spit out blog ideas. It starts by pulling live keyword and
-        search&nbsp;<GlossaryLink slug="intent-data">intent data</GlossaryLink>&nbsp;from its own database,
+        search&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent data</GlossaryLink>&nbsp;from its own database,
         which covers over 26 billion keywords. This means that when a small team in Miami-Dade sits down to
         plan next month’s blogs or emails, they are not guessing, they are working from real data about what
         people in their area are searching for right now. Semrush’s Topic Finder and Keyword Magic Tool
@@ -37,7 +37,7 @@ export default function HowItWorksSection() {
         This is especially useful for teams where content needs a manager’s sign-off or legal review before
         publishing.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The&nbsp;<GlossaryLink slug="feedback-loop">feedback loop</GlossaryLink>&nbsp;in Semrush is not just
+        The&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback loop</GlossaryLink>&nbsp;in Semrush is not just
         about reporting traffic. The platform tracks rankings, visibility in both search and AI-generated
         answers, and even brand sentiment across major AI platforms. If traffic drops or a post underperforms,
         Semrush’s analytics show not only what happened but why, it will surface whether competitors are

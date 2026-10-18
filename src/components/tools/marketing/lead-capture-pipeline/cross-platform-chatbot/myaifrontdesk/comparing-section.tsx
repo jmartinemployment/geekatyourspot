@@ -12,7 +12,7 @@ export default function ComparingSection() {
         That is not the case with most options on the market.</p>
       <p className="text-md text-white shadow-text pt-3">
         Many chatbot solutions focus on a single channel or bolt onto an existing website as a widget. Others
-        promise&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;but deliver only partial
+        promise&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;but deliver only partial
         coverage, web chat and SMS, or Messenger and Instagram, but not voice, or not email. With these tools,
         every new channel you add means another inbox to check, another place for leads to fall through the
         cracks, and another workflow to manage. Even when they offer some integrations with CRMs, they often
@@ -20,12 +20,12 @@ export default function ComparingSection() {
         date. The result is more admin work, not less.</p>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk, by contrast, is designed as a
-        true&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;hub. The platform brings
+        true&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;hub. The platform brings
         together website chat, SMS, Facebook Messenger, Instagram DMs, phone calls, and email, all in
-        one&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>. As calls and messages come
+        one&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>. As calls and messages come
         in, the system automatically labels the channel, attaches the visitor’s identity, and keeps the full
         chat or call history visible. Operators can respond, escalate, or close from one interface, and every
-        conversation is linked to the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;contact with
+        conversation is linked to the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;contact with
         read/unread status and timestamps. This means your team sees the whole story, no matter how the
         prospect reached out or who handled the last touchpoint.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -38,7 +38,7 @@ export default function ComparingSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>My AI Front Desk handles inbound and outbound phone calls, SMS, email, website chat, Messenger, Instagram DMs, and even missed calls, all with one AI engine.</li>
         <li>It auto-replies with real, accurate answers from your own knowledge base, not just canned lines, and can book appointments live during the conversation.</li>
-        <li>Every conversation, regardless of channel, is transcribed, summarized, and logged to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;automatically, including intent, fit, urgency, and outcome.</li>
+        <li>Every conversation, regardless of channel, is transcribed, summarized, and logged to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;automatically, including intent, fit, urgency, and outcome.</li>
         <li>Operators can step in at any time, and the AI hands control back when asked, so there is never a dead end for a customer who wants a human.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function ComparingSection() {
         burning hours on configuration. The platform also integrates natively with major CRMs like HubSpot,
         Salesforce, and Pipedrive, so conversation data flows automatically without rep effort.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When it comes to&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;and
+        When it comes to&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>&nbsp;and
         prioritization, most chatbots and CRMs rely on static rules, a set of points for each field or action.
         My AI Front Desk uses real conversation signals from calls, chats, and forms to score leads
         dynamically. It evaluates call outcomes, chat intent, form answers, and engagement across all

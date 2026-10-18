@@ -12,7 +12,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Leadfeeder’s main distinction is its focus on company-level identification and real-time intent
         scoring, not just contact enrichment or static lead lists. Where traditional enrichment tools append
-        extra fields to an existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;record, Leadfeeder
+        extra fields to an existing&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;record, Leadfeeder
         starts upstream: it unmasks anonymous website visitors by matching their IP address to a proprietary
         global database of 60 million companies. This process is not about collecting more data for its own
         sake, it is about surfacing the 30–50% of your web traffic that is actually B2B, filtering out the
@@ -30,7 +30,7 @@ export default function ComparingSection() {
         plug-and-play enrichment services, the difference is not just in data depth, but in automation.
         Leadfeeder does not require a rep to chase down LinkedIn profiles or guess whether a company is in the
         market. Its scoring model weighs visit frequency, recency, and engagement depth, then pushes a ranked
-        list of accounts straight to the team’s&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
+        list of accounts straight to the team’s&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
         Slack. This is a sharp break from legacy approaches that hand over a static CSV or leave it to sales
         to decide which records to call.</p>
       <p className="text-md text-white shadow-text pt-3">

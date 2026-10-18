@@ -13,7 +13,7 @@ export default function EvaluatingSection() {
         Manychat’s fit comes down to how your customers reach you. If most of your inbound leads come through
         Instagram, WhatsApp, Facebook Messenger, SMS, or TikTok, Manychat’s automation is built to meet you
         there. It is not a generic website chat tool or a
-        full-service&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Instead, it is a social-first platform
+        full-service&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. Instead, it is a social-first platform
         that specializes in handling the messy, high-velocity world of DMs, comments, and replies across
         multiple apps. For businesses in Miami-Dade, Broward, and West Palm Beach that rely on social
         engagement, this is a direct match.</p>
@@ -42,7 +42,7 @@ export default function EvaluatingSection() {
         use tools like ActiveCampaign or Google Sheets for email marketing or lead tracking, Manychat can push
         contact details and tags directly into those systems. This avoids double entry and keeps your pipeline
         connected. If you need deep customization or want to build entirely new workflows, Manychat’s evidence
-        does not show an open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or scripting for custom
+        does not show an open&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;or scripting for custom
         code, so businesses needing heavy development may find limits here.</p>
       <p className="text-md text-white shadow-text pt-3">
         When judging Manychat, consider these criteria:</p>
@@ -50,7 +50,7 @@ export default function EvaluatingSection() {
         <li>Channel coverage: Does your business get leads from Instagram, WhatsApp, Messenger, SMS, TikTok, Telegram, or email? Manychat is strongest where social engagement drives sales.</li>
         <li>Volume: If you handle dozens or hundreds of inbound messages a week, automation saves time and reduces missed leads.</li>
         <li>Team size: Plans include user seats and inbox management. If you have multiple staff, check seat limits and permissions.</li>
-        <li>Integration: Manychat connects to ActiveCampaign and Google Sheets, so leads can flow into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or marketing system.</li>
+        <li>Integration: Manychat connects to ActiveCampaign and Google Sheets, so leads can flow into your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing system.</li>
         <li>Cost structure: Pricing is monthly, with clear limits on channels and contacts. Scale up as your engagement grows.</li>
         <li>DIY vs. expert setup: Manychat is built to be user-friendly, but configuring advanced automations, tagging, and integrations takes expertise. Geek @ Your Spot handles the setup so you get the system working for your unique sales process, not just a generic template.</li>
       </ul>
@@ -59,7 +59,7 @@ export default function EvaluatingSection() {
         follow-up. If you find your team buried in DMs, missing hot prospects, or spending hours copying
         details into spreadsheets, Manychat can make a measurable difference. The platform is not a fit for
         businesses that do not rely on social messaging or need a
-        full&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;with deep website chat features. But for
+        full&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;with deep website chat features. But for
         social-first businesses in South Florida, it is built for your workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
         The pricing model makes it easy to start small and grow. You can try the free trial, connect your main
@@ -71,7 +71,7 @@ export default function EvaluatingSection() {
         comment replies, lead tagging and segmentation, and seamless integration, to your real business needs.
         If your sales depend on fast response and organized follow-up across multiple messaging apps, Manychat
         is a fit. If you need a tool that connects every social conversation to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and keeps your team focused on selling
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and keeps your team focused on selling
         instead of sorting through inboxes, its pricing and features are built for you.</p>
     </>
   );

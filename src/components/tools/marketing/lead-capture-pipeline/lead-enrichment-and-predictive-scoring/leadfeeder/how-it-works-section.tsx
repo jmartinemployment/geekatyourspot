@@ -40,7 +40,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Alerts and automation are built in. Leadfeeder sends instant notifications, via email or Slack, when a
         target company visits key pages or when an account in your pipeline resurfaces. You can set up
-        workflows that trigger&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;record creation,
+        workflows that trigger&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;record creation,
         auto-tagging, or campaign audience refreshes based on these signals. This means your sales team gets
         notified the moment a local business from Miami-Dade, Broward, or Palm Beach shows buying intent,
         instead of finding out days later.</p>
@@ -49,7 +49,7 @@ export default function HowItWorksSection() {
         contacts directly into CRMs like HubSpot, Salesforce, or Pipedrive in bulk. The integration is
         two-way, so updates flow back and forth. Leadfeeder also connects to Google Ads, letting you see which
         campaigns drive actual high-value visits, and to LinkedIn for audience sync. For teams with custom
-        needs, there is&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;access and a browser plugin for
+        needs, there is&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;access and a browser plugin for
         on-the-fly research.</p>
       <p className="text-md text-white shadow-text pt-3">
         This step-by-step process gives small businesses a daily, real-time feed of qualified local leads,

@@ -16,14 +16,14 @@ export default function ComparingSection() {
         lists current. Apollo’s core advantage is that it combines a living database of over 240 million
         contacts with automation that keeps every record fresh and scored in the background. This is not just
         a bigger spreadsheet. It is a system that learns from your
-        own&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, updates records when people change jobs, and
+        own&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, updates records when people change jobs, and
         fills in missing details from multiple sources, so you never have to chase down a lead’s direct phone
         number or guess at their decision-making role again.</p>
       <p className="text-md text-white shadow-text pt-3">
         The difference shows up most clearly in the day-to-day. With a typical data provider, the team spends
         hours exporting lists, cleaning up bounces, and cross-referencing LinkedIn to check if a prospect is
         still in their role. Apollo removes that busywork. It runs a seven-step email and phone validation
-        before a record ever reaches your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and layers on job
+        before a record ever reaches your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and layers on job
         change alerts and intent signals so your team is not working off last quarter’s data. When a new
         visitor hits your website, Apollo can identify the company, match the visitor to a real person (on US
         traffic), and score them against your ideal customer profile, all within seconds. That is a leap from
@@ -34,20 +34,20 @@ export default function ComparingSection() {
         enrichment, another for scoring, a third for outreach, Apollo connects data, intelligence, and
         execution in a single system. The practical upshot is that you can go from anonymous website visitor
         to a fully-enriched, scored, and assigned lead in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;without touching a spreadsheet or waiting
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;without touching a spreadsheet or waiting
         for a weekly data sync. The platform’s Chrome extension and integrations with HubSpot, Salesforce, and
         Slack mean your team can access verified contact details and score leads wherever they already work,
         without switching tabs or copying data by hand.</p>
       <p className="text-md text-white shadow-text pt-3">
         Where other tools rely on static point systems or require manual tuning to keep scoring models
         relevant, Apollo’s predictive scoring uses both your
-        own&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;data and its global database to surface the
+        own&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;data and its global database to surface the
         prospects most likely to buy. The model gets smarter as you work, learning from real conversions and
         intent signals. This is not a black box: you control the rules, but you are not left tuning weights by
         trial and error. The result is a daily hit-list of local accounts actively researching your services,
         ranked by actual purchase readiness, not just a guess at fit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Some platforms claim to offer similar&nbsp;<GlossaryLink slug="intent-data">intent
+        Some platforms claim to offer similar&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent
         data</GlossaryLink>&nbsp;or visitor identification, but Apollo’s edge is in the details: it can filter
         website visitors by 65+ firmographic and technographic attributes, layer in intent scores, and even
         identify the decision-maker by name and contact details, provided the traffic is US-based and you have

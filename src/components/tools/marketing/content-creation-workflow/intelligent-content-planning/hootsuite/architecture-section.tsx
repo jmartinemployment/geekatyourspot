@@ -30,7 +30,7 @@ export default function ArchitectureSection() {
         networks and tailors each post for the platform it is going to. The calendar view gives a single
         source of truth for every scheduled, pending, or published post. Teams can collaborate inside Perch,
         with drafts, comments, and approval routing all in one place.
-        The&nbsp;<GlossaryLink slug="model-context-protocol">Model Context Protocol</GlossaryLink>&nbsp;(MCP)
+        The&nbsp;<GlossaryLink slug="model-context-protocol" className="text-[#0B162A] hover:underline">Model Context Protocol</GlossaryLink>&nbsp;(MCP)
         allows external AI assistants, like ChatGPT or Claude, to connect securely to your workspace, so you
         can use your preferred AI tools without breaking compliance or risking data leaks. This keeps
         sensitive publishing channels under tight control while still enabling advanced automation.</p>

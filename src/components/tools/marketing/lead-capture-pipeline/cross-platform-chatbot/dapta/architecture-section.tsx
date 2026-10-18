@@ -7,9 +7,9 @@ export default function ArchitectureSection() {
         Dapta’s platform is built for small and medium-sized businesses that need to unify customer
         conversations without hiring developers or adding new software silos. The architecture centers on a
         no-code, modular agent that connects to every major channel, voice, SMS, WhatsApp, and web chat, while
-        syncing data in real time with your existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        syncing data in real time with your existing&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
         calendar, and support stack. This is not a bolt-on chatbot or a single-channel widget. Dapta runs as a
-        true&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;engine, holding the full
+        true&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;engine, holding the full
         conversation and customer record across every touchpoint.</p>
       <p className="text-md text-white shadow-text pt-3">
         At the core is Dapti, Dapta’s autonomous agent builder. Dapti takes plain-language input about your
@@ -23,9 +23,9 @@ export default function ArchitectureSection() {
         1,000 business tools, including HubSpot, Salesforce, Google Calendar, Shopify, Zendesk, and Shopee.
         This means every booking, message, and lead detail flows directly into the systems your team already
         uses. When a customer books an appointment, Dapta checks the live calendar, locks the slot, and writes
-        the event back to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, no manual entry, no risk of
+        the event back to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, no manual entry, no risk of
         double-booking or missed follow-up. Structured data from every conversation, names, intent, budget,
-        timeline, lands as&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;fields, not as unsearchable
+        timeline, lands as&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;fields, not as unsearchable
         transcripts.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security and reliability are built in. Dapta is SOC 2 certified, trusted by over 50,000 companies and
@@ -42,7 +42,7 @@ export default function ArchitectureSection() {
         ensures that complex or sensitive cases do not get lost in the shuffle, and that your staff picks up
         every thread with full context. Emergency calls, high-value leads, and after-hours inquiries are
         routed per your rules, with each transfer logged to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>.</p>
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses in Miami-Dade, Broward, and West Palm Beach, where customers expect fast, accurate, and
         bilingual responses across multiple channels, Dapta’s architecture closes the gaps that other tools

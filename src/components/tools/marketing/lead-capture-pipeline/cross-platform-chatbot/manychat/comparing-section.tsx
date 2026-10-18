@@ -20,7 +20,7 @@ export default function ComparingSection() {
         prospect moves from one channel to another.</p>
       <p className="text-md text-white shadow-text pt-3">
         Second, there are all-in-one marketing automation suites that
-        promise&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;engagement, website
+        promise&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;engagement, website
         chat, SMS, email, sometimes even voice. These platforms often require heavy setup, higher monthly
         costs, and ongoing management. They may offer some social integrations, but these are usually limited
         to basic Facebook Messenger support or require extra configuration to handle Instagram or WhatsApp.
@@ -40,7 +40,7 @@ export default function ComparingSection() {
         DMs, story replies, specific keywords, and it is designed to reply instantly, 24/7, even when your
         staff are offline. This is a direct answer to the pain point most small businesses face: comments and
         DMs that go unanswered, leads that never make it into
-        the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and opportunities lost because no one was there
+        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and opportunities lost because no one was there
         to reply at the moment of interest.</p>
       <p className="text-md text-white shadow-text pt-3">
         Manychat also brings segmentation and tagging to the front. Instead of just capturing a name and
@@ -65,7 +65,7 @@ export default function ComparingSection() {
         For businesses that want to bring their social engagement, lead capture, and follow-up into one
         unified workflow, without hiring a developer or buying an enterprise suite, Manychat is the platform
         that fits. It is not the right answer if your main channel is website chat or if you need a
-        full-featured&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;out of the box. But for teams who
+        full-featured&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;out of the box. But for teams who
         are drowning in DMs, missing leads in Instagram comments, or struggling to keep their pipeline
         organized as they grow, Manychat is built to solve exactly those problems. Its focus on social-first
         automation, simple setup, and clear pricing makes it the standout choice for cross-platform lead

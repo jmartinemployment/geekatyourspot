@@ -29,7 +29,7 @@ export default function ArchitectureSection() {
         content is performing across search, paid, and local channels.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform is built to handle automation at every stage. Routine tasks like prompt generation, link
-        recommendations, content optimization, and even&nbsp;<GlossaryLink slug="a-b-testing">A/B
+        recommendations, content optimization, and even&nbsp;<GlossaryLink slug="a-b-testing" className="text-[#0B162A] hover:underline">A/B
         testing</GlossaryLink>&nbsp;are managed by Semrush’s automation engine. The workflow is not a static
         checklist, it adapts to the business’s own rules and priorities. For example, if the team wants every
         post to go through legal before publishing, that rule can be set once and enforced automatically. If

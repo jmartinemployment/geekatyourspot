@@ -11,7 +11,7 @@ export default function ArchitectureSection() {
         update contact records in real time, all while staying within the rules of each channel.</p>
       <p className="text-md text-white shadow-text pt-3">
         Each connected channel becomes a stream feeding into
-        Manychat’s&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>&nbsp;and automation
+        Manychat’s&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>&nbsp;and automation
         engine. The system supports up to three channels on its Essential plan, so a small business can cover
         its main social touchpoints without paying for unused capacity. All incoming messages, comments, and
         DMs are handled in one place, with custom labels and rules to sort, prioritize, and assign
@@ -29,7 +29,7 @@ export default function ArchitectureSection() {
         The platform’s automation engine relies on event-driven triggers. You can set rules based on specific
         actions, a comment containing a keyword, a DM with a certain phrase, or a reply to a story. Each
         trigger can launch a custom automation: sending a message, tagging a contact, collecting information,
-        or syncing with a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. The logic is flexible but stays
+        or syncing with a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. The logic is flexible but stays
         user-friendly, so you don’t need to be a developer to build complex flows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Manychat’s analytics dashboard and reporting features give you visibility into how your pipeline is

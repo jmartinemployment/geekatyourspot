@@ -6,7 +6,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         HyperWrite is built to turn the slow, manual grind of intelligent content planning and writing into a
         fast, guided workflow. The process starts when a user opens a browser tab, Gmail, Google Docs,
-        LinkedIn, or a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Instead of switching between tools,
+        LinkedIn, or a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. Instead of switching between tools,
         HyperWrite sits inside the browser and follows along as you work. Its TypeAhead feature reads what you
         are typing and what is open in nearby tabs, so it can offer full-sentence suggestions that fit your
         context and match your writing style.</p>
@@ -54,7 +54,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real step-by-step flow with HyperWrite looks like this:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Open your browser and start a draft in your tool of choice, Gmail, Docs, LinkedIn, or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>.</li>
+        <li>Open your browser and start a draft in your tool of choice, Gmail, Docs, LinkedIn, or&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>.</li>
         <li>Type your message or content idea. HyperWrite reads the context and suggests full-sentence completions in real time.</li>
         <li>Accept, edit, or ignore the suggestions as you go. The tool adapts to your choices and learns your style over time.</li>
         <li>For intelligent content planning, enter your business goals and audience details. HyperWrite generates a tailored content calendar.</li>

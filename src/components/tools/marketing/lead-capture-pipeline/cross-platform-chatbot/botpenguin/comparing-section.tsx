@@ -20,7 +20,7 @@ export default function ComparingSection() {
         with one more inbox, not one less. BotPenguin, by contrast, brings all those channels into a single
         place and includes AI-powered responses on every plan, even the free tier. For a small business, this
         means you do not need to choose between being responsive on your site and on your social channels. The
-        platform’s&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>&nbsp;and automation
+        platform’s&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>&nbsp;and automation
         flows mean that every incoming message, whether it is a WhatsApp ping at midnight or a Facebook
         comment during a campaign, gets the same fast, consistent handling. This is what stops leads from
         slipping through the cracks.</p>
@@ -35,7 +35,7 @@ export default function ComparingSection() {
         pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin’s automation is not limited to chat replies. It captures leads with qualification flows,
-        maps the data to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;fields, and pushes it
+        maps the data to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;fields, and pushes it
         directly into your sales pipeline, no copy-paste, no manual entry. This stands out from solutions that
         only handle the chat and leave you to move the data by hand. The platform also supports live agent
         handoff at any point, so when a conversation needs a human, the bot passes the full context over
@@ -62,7 +62,7 @@ export default function ComparingSection() {
         qualification engine designed for small businesses that need to keep up with customers across every
         messaging channel. It stands out by treating every platform as a first-class citizen, merging
         conversations and contact profiles, and automating the entire pipeline from first message
-        to&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;entry. For businesses in Miami-Dade, Broward,
+        to&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;entry. For businesses in Miami-Dade, Broward,
         and West Palm Beach, this is the difference between keeping up with the volume and speed of modern
         customer conversations or falling behind while competitors reply faster and capture more leads.</p>
     </>

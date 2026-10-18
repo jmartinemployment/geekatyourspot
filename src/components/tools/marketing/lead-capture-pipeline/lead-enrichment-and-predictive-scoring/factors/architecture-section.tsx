@@ -11,14 +11,14 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         At its core, Factors ingests data from multiple sources. Website traffic is captured through a script
         you install, which sends every visit, page view, and event to the platform. From there, Factors
-        connects to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;(like Salesforce or
-        HubSpot),&nbsp;<GlossaryLink slug="marketing-automation">marketing
+        connects to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;(like Salesforce or
+        HubSpot),&nbsp;<GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">marketing
         automation</GlossaryLink>&nbsp;systems, ad platforms (LinkedIn, Google Ads, Meta), and
-        third-party&nbsp;<GlossaryLink slug="intent-data">intent data</GlossaryLink>&nbsp;sources (G2,
+        third-party&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent data</GlossaryLink>&nbsp;sources (G2,
         Bombora, Demandbase). Each integration is designed to pull in both account-level and contact-level
         details, so every signal is mapped to a named company and, where possible, to real people.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The platform’s&nbsp;<GlossaryLink slug="data-model">data model</GlossaryLink>&nbsp;is built around the
+        The platform’s&nbsp;<GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data model</GlossaryLink>&nbsp;is built around the
         concept of an account timeline. Every interaction, whether it is an ad impression, a content download,
         a website visit, or a sales email, is stitched together into a single, chronological feed for each
         company. This timeline is not just a list of events: it is structured so that you can see how an

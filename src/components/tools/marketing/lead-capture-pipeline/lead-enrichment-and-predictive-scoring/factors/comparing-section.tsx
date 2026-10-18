@@ -60,7 +60,7 @@ export default function ComparingSection() {
         the difference between another reporting tool and a platform that actually drives pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you want to see how these approaches work in practice, the publisher’s own Lead Capture Pipeline
-        page already covers the role of smart chatbots, AI-driven&nbsp;<GlossaryLink slug="lead-scoring">lead
+        page already covers the role of smart chatbots, AI-driven&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
         scoring</GlossaryLink>, and voice assistants in building a modern pipeline. Factors is the tool that
         brings those strategies together, giving you one place to see, score, and act on every lead that
         matters.</p>

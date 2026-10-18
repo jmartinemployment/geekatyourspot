@@ -20,9 +20,9 @@ export default function HowItWorksSection() {
         the data you need to qualify a lead. According to Apollo’s own documentation, this enrichment pulls
         from over 65 data points, so every record is as complete as possible.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The next step is real-time&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>.
+        The next step is real-time&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>.
         Apollo’s AI looks at both the data it just enriched and your
-        own&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;history. It checks which leads look most
+        own&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;history. It checks which leads look most
         like your best customers, using signals like job title, company size, recent buying intent, and even
         changes like a new funding round or a job switch. Every inbound lead gets scored the moment it
         arrives, so your sales team knows who to call first. This predictive scoring is not static. Apollo’s

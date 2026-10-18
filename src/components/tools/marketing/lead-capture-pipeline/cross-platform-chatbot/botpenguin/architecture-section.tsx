@@ -11,7 +11,7 @@ export default function ArchitectureSection() {
         set of isolated widgets, BotPenguin is engineered to work as a single control center for every chat
         channel a small business uses.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The system’s backbone is its&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>,
+        The system’s backbone is its&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>,
         which collects and manages all conversations from WhatsApp, Instagram DMs, Facebook Messenger,
         Telegram, website chat, and SMS. Every message, comment, or DM lands in the same workspace, so your
         team never has to jump between apps or lose track of a conversation. The platform merges contact
@@ -20,21 +20,21 @@ export default function ArchitectureSection() {
         single, up-to-date record for each lead or customer.</p>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin’s integration layer is extensive. It connects directly to leading CRMs like HubSpot,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Nutshell, and others, pushing qualified leads,
+        Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, Nutshell, and others, pushing qualified leads,
         mapped fields, and conversation histories into the systems your business already uses. The platform
         also integrates with cloud telephony (like Voxloud), email marketing tools (Mailchimp), e-commerce
         (Shopify), and helpdesk software (Zendesk). Over 100 integrations are supported, so you can automate
         handoffs, trigger workflows, and sync data between your chat channels and every major business tool.</p>
       <p className="text-md text-white shadow-text pt-3">
         For voice and phone, BotPenguin adds AI-powered voice agents that can qualify inbound and outbound
-        calls, log them to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and escalate to a human
+        calls, log them to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and escalate to a human
         agent when needed. Microsoft Teams integration lets you handle internal lead handoffs and keep
         pipeline updates current. Every integration is managed through a no-code dashboard, so setup does not
         require a developer and can be adjusted as your business grows.</p>
       <p className="text-md text-white shadow-text pt-3">
         The automation engine behind BotPenguin supports building custom conversation flows, qualification
         logic, and routing rules for each channel. You define what questions to ask, how to map responses to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and when to escalate to a human. The platform
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and when to escalate to a human. The platform
         supports AI-powered responses, dynamic flows, and conditional triggers, so the bot can adapt to the
         customer’s intent and needs in real time. Businesses can train the bot on their own data, FAQs, and
         documents, making responses more accurate and personalized.</p>
@@ -52,7 +52,7 @@ export default function ArchitectureSection() {
         For small businesses in Miami-Dade, Broward, and West Palm Beach, the result is a single platform that
         connects every chat, voice, and messaging channel to the systems you already use. No more juggling
         tabs, losing leads between inboxes, or manually copying details into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. BotPenguin’s architecture is built to fit into
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. BotPenguin’s architecture is built to fit into
         your environment, automate what can be automated, and keep your team focused on conversations that
         drive revenue.</p>
     </>

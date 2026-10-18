@@ -22,7 +22,7 @@ export default function ArchitectureSection() {
         tasks. These include modules for rewriting, summarizing, outlining, brainstorming, and more. Each
         module is accessible from the same interface, so users can switch from drafting an email to generating
         a blog outline or repurposing content without leaving their workflow. The platform’s Personas feature
-        is built on&nbsp;<GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;models
+        is built on&nbsp;<GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>&nbsp;models
         trained on your team’s past writing. This data is stored securely and used to ensure every piece of
         content matches your brand’s tone and style, no matter who is at the keyboard.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -52,7 +52,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         The modular design of HyperWrite allows for easy expansion. New AI tools and integrations can be added
         without disrupting the core workflow. For example, if your business adopts a
-        new&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or marketing platform, HyperWrite can
+        new&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing platform, HyperWrite can
         connect through its plugin system, pulling in context and pushing out content as needed. This
         flexibility is key for small businesses that grow and change quickly.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -30,7 +30,7 @@ export default function EvaluatingSection() {
         Growth plans set clear limits on users, prompts, and audits. The Starter plan includes up to three
         users, 350 custom prompts, and five page audits. The Growth tier raises these to five users, 700
         prompts, and ten audits. If your team is larger or needs more advanced features like SSO
-        or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;access, the Enterprise plan is custom.
+        or&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;access, the Enterprise plan is custom.
         Pricing starts at $79 per month for the Basic plan and goes up to $249 per month for Pro, with a
         seven-day free trial available. There are no hidden fees or forced annual contracts at the entry
         levels, what you see is what you get, and you can upgrade as your needs grow.</p>

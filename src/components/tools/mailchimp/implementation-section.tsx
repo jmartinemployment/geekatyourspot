@@ -33,9 +33,9 @@ export default function ImplementationSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">
                 When to Use
               </h2>
-              <p className="text-md text-white shadow-text pt-3">Mailchimp is particularly useful for businesses that aim to enhance their email marketing efforts through automation and <GlossaryLink slug="analytics">data-driven</GlossaryLink> strategies. It is an ideal solution for small to medium-sized businesses that need a cost-effective and user-friendly platform to manage their marketing campaigns.</p>
+              <p className="text-md text-white shadow-text pt-3">Mailchimp is particularly useful for businesses that aim to enhance their email marketing efforts through automation and <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">data-driven</GlossaryLink> strategies. It is an ideal solution for small to medium-sized businesses that need a cost-effective and user-friendly platform to manage their marketing campaigns.</p>
               <p className="text-md text-white shadow-text pt-3">Businesses looking to save time and reduce manual marketing efforts through automation.</p>
-              <p className="text-md text-white shadow-text pt-3">Companies that want to leverage data insights to improve <GlossaryLink slug="engagement-rate">customer engagement</GlossaryLink> and campaign performance.</p>
+              <p className="text-md text-white shadow-text pt-3">Companies that want to leverage data insights to improve <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">customer engagement</GlossaryLink> and campaign performance.</p>
               <p className="text-md text-white shadow-text pt-3">Mailchimp&#39;s versatility and ease of use make it a valuable tool for any business looking to streamline their marketing processes and achieve tangible results. By utilizing Mailchimp, businesses can enjoy increased efficiency, reduced costs, and enhanced customer satisfaction.</p>
             </div>
           </div>

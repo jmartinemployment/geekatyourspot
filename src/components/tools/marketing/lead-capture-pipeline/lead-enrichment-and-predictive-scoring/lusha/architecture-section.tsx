@@ -6,7 +6,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Lusha’s architecture is built to connect directly into the heart of your sales stack, making sure that
         enriched data, predictive scores, and buying signals flow seamlessly from its own databases into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, outreach tools, and marketing platforms. At its
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, outreach tools, and marketing platforms. At its
         core, Lusha maintains a global repository of verified business contact data, emails, mobile numbers,
         job titles, company firmographics, and technographics. This data is continuously updated,
         cross-checked, and scored for accuracy, with built-in mechanisms to flag outdated or risky information
@@ -22,14 +22,14 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration is where Lusha stands out for small businesses that already run on Salesforce, HubSpot,
         Zoho, Outreach, SalesLoft, or SourceWhale. Lusha is not a standalone silo. It pushes enriched and
-        scored data directly into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, mapping its fields to
+        scored data directly into your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, mapping its fields to
         your existing structure. For example, verified emails and confidence scores become custom properties
         in HubSpot; direct dials and mobile numbers are mapped to contact records in Salesforce; lead scores
         and buying signals are written as standard or custom fields, ready for workflow automation. This means
         the data your reps see is always current, and every automation, whether a lead routing rule or a drip
         campaign, runs on live, verified inputs.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Bulk processing is handled by Lusha’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, which can
+        Bulk processing is handled by Lusha’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>, which can
         process up to 100 records per request. For larger lists, the system batches requests and runs them in
         parallel, returning a fully enriched, deduplicated, and standardized file. The architecture is
         designed to minimize manual intervention: low-confidence matches are flagged automatically, and
@@ -45,9 +45,9 @@ export default function ArchitectureSection() {
         send/hold/do-not-send recommendations. This is especially critical for small businesses where a single
         bounce or compliance slip can have outsized consequences.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The predictive scoring engine is tightly coupled to the&nbsp;<GlossaryLink slug="data-model">data
+        The predictive scoring engine is tightly coupled to the&nbsp;<GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data
         model</GlossaryLink>. Scores are calculated on the fly using live firmographic
-        and&nbsp;<GlossaryLink slug="intent-data">intent data</GlossaryLink>, not just historical engagement.
+        and&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent data</GlossaryLink>, not just historical engagement.
         You can configure scoring criteria to match your own ICP, weighting signals like hiring surges,
         leadership changes, or IT spend shifts. Lusha’s scoring system is not just a number, it is a tiered,
         actionable ranking that routes leads to the right owner, triggers pre-call briefs, and powers
@@ -57,13 +57,13 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Lusha’s architecture also supports continuous enrichment. This means that as contacts change roles,
         get promoted, or leave, the system detects the change, updates the record, and triggers alerts or
-        workflow actions in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. For example, if a champion
+        workflow actions in your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. For example, if a champion
         at a target account is promoted, Lusha updates the contact record, flags the new buying power, and can
         even alert the responsible rep within 24 hours. This keeps your pipeline aligned with real-world
         changes, so your team never chases a dead lead or misses a new opportunity.</p>
       <p className="text-md text-white shadow-text pt-3">
         For local teams in South Florida, the practical effect is that
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is never static. Every day, new buying
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;is never static. Every day, new buying
         signals, updated contacts, and verified leads flow in. Integrations keep everything in sync, so your
         marketing, sales, and operations teams always work from the same, current data. The result is a sales
         engine that runs on live intelligence, not stale lists or guesswork. Lusha’s architecture is not just

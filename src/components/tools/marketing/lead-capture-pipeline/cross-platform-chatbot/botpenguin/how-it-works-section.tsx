@@ -21,9 +21,9 @@ export default function HowItWorksSection() {
         The qualification process is not just a static script. BotPenguin lets you build custom conversation
         flows for each channel. You can set up the bot to ask about budget, timeline, company size, or any
         field your sales team needs before a human ever joins the chat. This means every new lead arrives in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;with the details already filled in, no more
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;with the details already filled in, no more
         chasing down missing information or repeating the same questions across platforms. The platform
-        supports mapping these responses to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>’s own
+        supports mapping these responses to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>’s own
         fields, so the data is ready for the next step without manual entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin’s AI can handle the entire inquiry if it’s routine, answering FAQs, scheduling a call, or
@@ -40,7 +40,7 @@ export default function HowItWorksSection() {
         capturing every opportunity and qualifying leads without waiting for someone to log in.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once a lead is qualified, BotPenguin pushes the data directly into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or other connected business tools. The
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or other connected business tools. The
         integration is real-time and supports mapping to custom fields, so information like product interest,
         requirements, and contact details are ready for follow-up. If your process includes appointment
         booking or demo requests, BotPenguin can collect all necessary details and create the record for your

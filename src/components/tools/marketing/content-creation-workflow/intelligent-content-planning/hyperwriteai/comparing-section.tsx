@@ -20,7 +20,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Point solutions promise to solve one part of the workflow. A social media scheduler can queue posts,
         an AI email writer can speed up replies, and a separate tool might help with keyword research
-        or&nbsp;<GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>. These tools are
+        or&nbsp;<GlossaryLink slug="content-repurposing" className="text-[#0B162A] hover:underline">content repurposing</GlossaryLink>. These tools are
         often affordable and easy to try, and for a team with a single bottleneck, they can give a quick win.
         But as soon as the workflow stretches across more than one channel or requires coordination between
         team members, the cracks show. Each tool has its own interface, its own learning curve, and its own

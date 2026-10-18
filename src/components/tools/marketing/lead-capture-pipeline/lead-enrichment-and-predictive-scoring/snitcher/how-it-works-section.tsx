@@ -28,7 +28,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         When a target account, one that matches your Ideal Customer Profile (ICP), hits a key page or shows
         strong buying signals, Snitcher sends an instant alert. This can be a Slack notification, a push into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, or an automated message to your sales team. No
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, or an automated message to your sales team. No
         more waiting until someone fills out a form. Your reps get the context they need while the prospect’s
         interest is still fresh. For teams that run outreach through sequencers or want to automate follow-up,
         Snitcher can push leads directly into those workflows, complete with enriched contact details when

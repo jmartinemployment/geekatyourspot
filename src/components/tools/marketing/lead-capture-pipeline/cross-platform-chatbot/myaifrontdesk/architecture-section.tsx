@@ -5,7 +5,7 @@ export default function ArchitectureSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk is built as a
-        true&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;communication engine,
+        true&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;communication engine,
         designed to unify fragmented messaging and voice into a single, actionable system. At the core is its
         Unified Inbox, which serves as the operational hub for all inbound and outbound interactions. Every
         channel, website chat, SMS, Facebook Messenger, Instagram DMs, phone calls, and email, connects to
@@ -13,17 +13,17 @@ export default function ArchitectureSection() {
         comprehensive timeline that updates automatically with every new message or call.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform’s architecture prioritizes zero manual data entry. Every interaction is transcribed,
-        structured, and saved to the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;without staff
+        structured, and saved to the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;without staff
         intervention. Calls are recorded, transcribed, and summarized; chats and emails are parsed for intent,
         urgency, and outcome. This data is then mapped to each contact’s timeline, so
-        the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;stays current without anyone needing to type
+        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;stays current without anyone needing to type
         in notes or update fields. The system listens to every call and reads every message, extracting
         structured data, contact details, conversation intent, next steps, and making it available for
         reporting and automation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        My AI Front Desk’s&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is not a bolt-on or a
+        My AI Front Desk’s&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;is not a bolt-on or a
         separate tool. It is built into the platform, auto-populated from real conversations. There is no need
-        to set up a separate&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or integrate a third-party
+        to set up a separate&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or integrate a third-party
         database just to track leads. For teams using HubSpot, Salesforce, or Pipedrive, My AI Front Desk
         pushes conversation data directly into those systems, keeping them up to date without extra work from
         your reps. This means your sales or service team can keep working in the tools they already know,
@@ -34,7 +34,7 @@ export default function ArchitectureSection() {
         intent, fit, urgency, and engagement, so you always know which leads are most likely to convert. The
         system evaluates every form submission and conversation for buying signals, and can trigger follow-up
         actions or route the lead to the right teammate. This structure supports
-        true&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;and prioritization, not
+        true&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>&nbsp;and prioritization, not
         just basic tagging or manual sorting.</p>
       <p className="text-md text-white shadow-text pt-3">
         Reporting and analytics are built on this unified data layer. My AI Front Desk tracks calls answered,

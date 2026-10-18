@@ -45,7 +45,7 @@ export default function EvaluatingSection() {
         sensitive support, Tidio’s handoff and shared inbox make it possible.</p>
       <p className="text-md text-white shadow-text pt-3">
         On the other hand, if your business needs a chatbot that can be custom-coded for edge-case workflows
-        or integrated with an in-house app via&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, Tidio is not
+        or integrated with an in-house app via&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>, Tidio is not
         the best fit. It is designed for visual configuration, not for custom scripting or deep backend
         integrations. The platform’s strength is in making automation easy, accessible, and affordable for
         small teams, not in offering a blank slate for software engineers.</p>

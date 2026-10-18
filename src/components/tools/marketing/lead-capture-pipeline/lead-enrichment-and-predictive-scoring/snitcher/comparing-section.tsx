@@ -7,7 +7,7 @@ export default function ComparingSection() {
         Small businesses weighing Snitcher for lead enrichment and predictive scoring are usually comparing it
         against two other routes: legacy enterprise platforms that promise deep data but come with locked-in
         contracts and high minimums, and
-        all-in-one&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;add-ons that claim to do a little of
+        all-in-one&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;add-ons that claim to do a little of
         everything but rarely surface the real buyer signals from anonymous web traffic. Snitcher sits between
         these. It is built to give a small team the same visibility and automation as a much larger sales
         operation, but without the overhead, the annual lock-in, or the need for a dedicated data engineer.</p>
@@ -21,12 +21,12 @@ export default function ComparingSection() {
         your site, and start seeing named companies in your dashboard the same day. The pricing is public,
         starting at $49 a month, and you can leave at any time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        All-in-one&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;add-ons, such as those built into
+        All-in-one&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;add-ons, such as those built into
         HubSpot or Salesforce, offer enrichment and basic scoring, but they stop at the company level and keep
         everything inside their own ecosystem. If your team works entirely in one of those platforms, that
         might be enough, but you lose the ability to trigger real-time alerts in Slack, push leads into
         outreach tools, or export audiences for retargeting. Snitcher is built to integrate with the tools you
-        already use, HubSpot, Salesforce, Pipedrive, Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        already use, HubSpot, Salesforce, Pipedrive, Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
         Slack, and Zapier, so your team can keep its workflow and still get the full value of real-time
         visitor identification and scoring.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -45,8 +45,8 @@ export default function ComparingSection() {
         too much time spent chasing the wrong leads, not enough time on the right ones.</p>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s automation also goes further than most. With real-time
-        alerts,&nbsp;<GlossaryLink slug="webhooks">webhooks</GlossaryLink>, and
-        native&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integrations, you can trigger outreach or
+        alerts,&nbsp;<GlossaryLink slug="webhooks" className="text-[#0B162A] hover:underline">webhooks</GlossaryLink>, and
+        native&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;integrations, you can trigger outreach or
         marketing actions the moment a high-intent account hits your site. This is not just about faster
         follow-up; it means your team can act while the buyer’s interest is still fresh, rather than waiting
         days for someone to check the analytics or export a list. For small teams, that speed can be the
@@ -59,7 +59,7 @@ export default function ComparingSection() {
         Florida, these limits are usually outweighed by the value of seeing who is on your site and acting on
         it in real time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Snitcher also differs from AI-powered&nbsp;<GlossaryLink slug="lead-scoring">lead
+        Snitcher also differs from AI-powered&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
         scoring</GlossaryLink>&nbsp;tools like 6sense or ActiveCampaign, which are covered elsewhere on this
         site. Those platforms excel at using AI to model complex buying journeys and automate multi-channel
         engagement, but they often require a bigger investment in setup and ongoing management. Snitcher’s

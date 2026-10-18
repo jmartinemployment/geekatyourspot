@@ -19,7 +19,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s pricing is transparent and built for teams who want to start small and scale up as results
         come in. Every published plan includes unlimited seats and all integrations, meaning you do not pay
-        extra to add users or connect to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Slack, or
+        extra to add users or connect to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, Slack, or
         marketing tools. The entry plan gets you the same feature set as the top tier, with pricing metered by
         the number of unique companies identified, not by features gated behind higher tiers. For a small
         business, this means you can test the platform with a short trial, see real leads appear in your
@@ -41,12 +41,12 @@ export default function EvaluatingSection() {
         actually drive pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams who rely on HubSpot, Salesforce, Pipedrive,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, or Slack, Snitcher’s native integrations mean
+        Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, or Slack, Snitcher’s native integrations mean
         no extra middleware or manual data entry.
-        Two-way&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync and open APIs let you keep your
+        Two-way&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;sync and open APIs let you keep your
         lead data up to date across systems. If you have a unique workflow or want to power internal tools
         with visitor data,
-        Snitcher’s&nbsp;<GlossaryLink slug="webhooks">webhooks</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;let
+        Snitcher’s&nbsp;<GlossaryLink slug="webhooks" className="text-[#0B162A] hover:underline">webhooks</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;let
         Geek @ Your Spot build exactly what you need.</p>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s approach is self-serve and low-friction. You own your data on any plan, with no requirement

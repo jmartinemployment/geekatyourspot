@@ -43,14 +43,14 @@ export default function ComparingSection() {
         collaboration as a bolt-on, forcing users into new habits or separate chat apps. With Hootsuite, your
         team can review, approve, and discuss campaigns where they already work.</p>
       <p className="text-md text-white shadow-text pt-3">
-        AI&nbsp;<GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>&nbsp;and automated
+        AI&nbsp;<GlossaryLink slug="content-repurposing" className="text-[#0B162A] hover:underline">content repurposing</GlossaryLink>&nbsp;and automated
         generation are only as good as the data behind them. Hootsuite’s Blue Silk AI draws from 150 million
         sources across 187 languages, which is a scale most other platforms cannot match. This means your
         insights and recommendations are less likely to be stale or irrelevant. Competing tools often rely on
         sampled or outdated data, which can lead to missed trends and wasted campaigns.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams in Miami-Dade, Broward, and West Palm Beach, the local signal matters. Hootsuite’s trend
-        tracking and&nbsp;<GlossaryLink slug="sentiment-analysis">sentiment analysis</GlossaryLink>&nbsp;pull
+        tracking and&nbsp;<GlossaryLink slug="sentiment-analysis" className="text-[#0B162A] hover:underline">sentiment analysis</GlossaryLink>&nbsp;pull
         in hyper-local topics and conversations, so your campaigns hit when and where your audience is paying
         attention. Other platforms may offer broader analytics, but they miss the local nuance that drives
         engagement and conversion in a specific market.</p>

@@ -32,9 +32,9 @@ export default function EvaluatingSection() {
         moment.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration is where Lusha stands out for teams who already use Salesforce, HubSpot, Zoho, Outreach,
-        or SalesLoft. The platform’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and native
+        or SalesLoft. The platform’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and native
         integrations mean data flows directly into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and outreach tools, and Geek @ Your Spot
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and outreach tools, and Geek @ Your Spot
         ensures the mapping is set up so nothing gets lost. This is not just a technical detail, it is the
         difference between a tool that sits unused and one that actually makes your team more productive. If
         your current stack is built around these platforms, Lusha is a strong fit. If you use less common
@@ -54,7 +54,7 @@ export default function EvaluatingSection() {
         scaling up makes sense.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short, Lusha fits best for small, outbound-focused teams who need to reach real buyers fast, and
-        who already run on modern&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and outreach tools. It
+        who already run on modern&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and outreach tools. It
         is less suited to inbound-only teams, companies with highly specialized or local-only data needs, or
         those who want person-level website visitor identification as their main use case. The right move is
         to map your sales process against Lusha’s strengths, run a test, and only then decide if it is the

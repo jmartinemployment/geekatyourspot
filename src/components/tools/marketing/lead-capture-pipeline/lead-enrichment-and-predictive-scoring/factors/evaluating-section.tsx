@@ -15,8 +15,8 @@ export default function EvaluatingSection() {
         average of 40%. This means you see which local companies are looking at your services, not just a
         spike in traffic. For a team used to guessing, this alone can justify the switch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next, weigh how Factors handles&nbsp;<GlossaryLink slug="intent-data">intent
-        data</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>. The
+        Next, weigh how Factors handles&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent
+        data</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>. The
         platform’s AI models combine firmographic fit, real-time behavior, and pipeline stage to score each
         account. You do not have to build a scoring model from scratch. Instead, you get a system that learns
         from your own data and adapts as you use it. If you need to prioritize which leads get a call, and
@@ -24,7 +24,7 @@ export default function EvaluatingSection() {
         static, it updates as accounts engage, so your team always has a fresh list to work from.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation is another key fit question. Factors is not just an analytics tool. It triggers real-time
-        alerts to Slack or Teams, updates your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and syncs
+        alerts to Slack or Teams, updates your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and syncs
         audiences to LinkedIn and Google Ads. If you run paid campaigns and want to know which ads drive real
         pipeline, Factors can show you. It connects ad impressions, website visits, and sales outcomes in one
         timeline. This is a step up from platforms that only report clicks or form fills.</p>
