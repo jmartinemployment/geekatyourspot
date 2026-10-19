@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
@@ -32,7 +33,7 @@ export default function HowItWorksSection() {
         your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;automatically.
         My AI Front Desk creates or updates the contact record, attaches a full transcript and AI-generated
         summary, and tags the outcome (booked, transferred, callback, or no action). This means you get a
-        complete, searchable record of every inquiry, visible in HubSpot, Salesforce, Pipedrive, or Zoho without
+        complete, searchable record of every inquiry, visible in HubSpot, Salesforce,&nbsp;<Link id="tools-marketing-intelligent-receptionist-myaifrontdesk-how-it-works-pipedrive" href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, or Zoho without
         manual entry. If a call requires human judgment or empathy, the AI escalates it, transferring the caller
         or chat to a real person with all the conversation context included.</p>
       <p className="text-md text-white shadow-text pt-3">

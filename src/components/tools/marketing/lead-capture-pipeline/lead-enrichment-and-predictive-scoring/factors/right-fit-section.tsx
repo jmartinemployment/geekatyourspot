@@ -69,7 +69,7 @@ export default function RightFitSection() {
         <li>When you pull or buy a list of local businesses to target in Miami-Dade, Broward, or Palm Beach, what percentage of those emails bounce or phone numbers turn out to be dead ends?</li>
         <li>How do your sales reps currently decide which lead to call first on Monday morning? Is it based on a mathematical score, the newest lead, or just gut feeling?</li>
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
-        <li>What&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
+        <li>What&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho,&nbsp;<Link id="tools-marketing-lead-enrichment-factors-right-fit-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
     </>
   );

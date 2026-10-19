@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
@@ -10,7 +11,7 @@ export default function IntroductionSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
               <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Understanding <GlossaryLink slug="cash-flow-forecasting">Cash Flow Forecasting</GlossaryLink></h2>
-              <p className="pt-5 text-md font-normal text-white shadow-text"><GlossaryLink slug="cash-flow-forecasting">Cash flow forecasting</GlossaryLink> is an essential financial practice that helps businesses predict their future cash positions,
+              <p className="pt-5 text-md font-normal text-white shadow-text"><GlossaryLink slug="cash-flow-forecasting">Cash flow forecasting</GlossaryLink>&nbsp;is an essential financial practice that helps businesses predict their future cash positions,
                 enabling them to make informed decisions about budgeting, investing, and operational planning. By estimating the
                 inflow and outflow of cash over a specified period, organizations can better manage their liquidity, ensuring they
                 have sufficient funds to meet their obligations while also identifying opportunities for growth.</p>
@@ -40,7 +41,7 @@ export default function IntroductionSection() {
               reliability of the forecast.</p>
             <ul className="list-disc list-outside pl-3 space-y-2">
               <li>Starting Cash Balance: The initial amount of cash available at the beginning of the forecast period.</li>
-              <li>Cash Inflows: Expected receipts from various sources, including sales revenue, accounts receivable collections,
+              <li>Cash Inflows: Expected receipts from various sources, including sales revenue,&nbsp;<Link id="use-cases-accounting-cash-flow-forecasting-introduction-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;collections,
                 and other income.</li>
               <li>Cash Outflows: Estimated cash payments for operating expenses, payroll, debt servicing, and capital investments.
               </li>

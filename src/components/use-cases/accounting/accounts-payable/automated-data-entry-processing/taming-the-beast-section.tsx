@@ -5,8 +5,7 @@ export default function TamingTheBeastSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Imagine Sarah, a finance manager at a mid-sized retail company. Every month, she watches her
-        accounts payable team slog through a mountain of invoices, each one a potential error waiting to
+        Imagine Sarah, a finance manager at a mid-sized retail company. Every month, she watches her&nbsp;<Link id="use-cases-accounting-data-entry-taming-the-beast-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;team slog through a mountain of invoices, each one a potential error waiting to
         happen. The process is slow, tedious, and fraught with human error. These manual tasks consume
         valuable hours that could be better spent on strategic activities. The frustration is palpable as
         delays in invoice processing ripple through the organization, affecting cash flow and vendor
@@ -57,6 +56,7 @@ export default function TamingTheBeastSection() {
         workflows. Our approach focuses on minimizing disruptions while maximizing the benefits of
         automation, ultimately leading to cost savings, faster processing times, and improved accuracy in
         financial operations.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-data-entry-taming-the-beast-blog" href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">How AI Transforms Accounts Payable: Automated Data Entry &amp; Processing</Link> on our blog.</p>
     </>
   );
 

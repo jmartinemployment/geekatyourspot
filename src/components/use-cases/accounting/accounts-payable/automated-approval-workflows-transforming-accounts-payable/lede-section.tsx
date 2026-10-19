@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
@@ -19,7 +20,7 @@ export default function LedeSection() {
         operation.</p>
       <p className="text-md text-white shadow-text pt-3">
         In the fast-paced world of small business, every minute counts. Yet, many companies find themselves
-        stuck in outdated accounts payable processes that are slow, error-prone, and costly. Manual data entry
+        stuck in outdated&nbsp;<Link id="use-cases-accounting-approval-workflows-lede-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;processes that are slow, error-prone, and costly. Manual data entry
         and approval bottlenecks can lead to delayed payments, strained vendor relationships, and even
         financial inaccuracies. This is where automated approval workflows come in, promising to revolutionize
         how businesses handle their accounts payable.</p>
@@ -51,6 +52,7 @@ export default function LedeSection() {
         per-user pricing and potential savings in time and labor, should also factor into the decision-making
         process. By choosing the right solution, businesses can ensure a smooth transition to automated
         workflows that deliver tangible benefits.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-approval-workflows-lede-blog" href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">How Automated Approval Workflows Transform Accounts Payable</Link> on our blog.</p>
     </>
   );
 

@@ -1,9 +1,10 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">Jasper AI is a powerful <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> platform designed to enhance the efficiency and quality of writing
-        processes for businesses. It leverages artificial intelligence to streamline content generation, enabling users to
+      <p className="text-md text-white shadow-text pt-3">Jasper AI is a powerful <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>&nbsp;platform designed to enhance the efficiency and quality of writing
+        processes for businesses. It leverages artificial intelligence to streamline&nbsp;<Link id="tools-marketing-jasper-ai-overview-automated-content-generation" href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing" className="text-[#C83803] hover:underline">content generation</Link>, enabling users to
         produce high-quality material quickly and with less manual effort. This tool is particularly beneficial for
         organizations looking to optimize their <GlossaryLink slug="marketing-automation">content creation workflows</GlossaryLink>, allowing teams to focus on strategic tasks
         rather than getting bogged down by repetitive writing chores.</p>

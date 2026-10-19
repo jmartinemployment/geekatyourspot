@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -15,7 +16,7 @@ export default function OverviewSection() {
         managing&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;across states. Each
         jurisdiction not only has its own set of rules, but these rules are in constant flux. Missing a single
         update can lead to penalties or audits, putting your hard-earned profits at risk. For small businesses
-        in South Florida, the challenge of navigating these complex and changing laws without automated support
+        in South Florida, the challenge of navigating these&nbsp;<Link id="tools-accounting-complex-changing-laws-taxcloud-overview-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;without automated support
         becomes a significant barrier to growth.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is where an automated solution like TaxCloud can make a difference. By integrating tax compliance

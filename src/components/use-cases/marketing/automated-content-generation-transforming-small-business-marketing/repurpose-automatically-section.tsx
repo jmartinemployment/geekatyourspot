@@ -4,7 +4,7 @@ export default function RepurposeAutomaticallySection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Many small businesses struggle with maximizing the value of their content assets. Once a primary piece of content is created, it often sits underutilized, leading to missed opportunities for broader engagement. This scenario not only wastes the effort spent creating the content but also limits the potential for reaching different audience segments through varied channels. Automated content repurposing addresses this issue by transforming a single piece into multiple formats, saving time and extending reach.
+        Many small businesses struggle with maximizing the value of their content assets. Once a primary piece of content is created, it often sits underutilized, leading to missed opportunities for broader engagement. This scenario not only wastes the effort spent creating the content but also limits the potential for reaching different audience segments through varied channels. Automated&nbsp;<Link id="use-cases-marketing-automated-content-generation-repurpose-automatically-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#0B162A] hover:underline">content repurposing</Link>&nbsp;addresses this issue by transforming a single piece into multiple formats, saving time and extending reach.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         A well-crafted blog post can evolve into several engaging pieces through automation. This is where tools like{" "}
@@ -37,7 +37,7 @@ export default function RepurposeAutomaticallySection() {
         </Link>
         , and{" "}
         Copy.ai{" "}
-        further eases the process by automating content creation workflows. They help in drafting engaging copy for various platforms, ensuring that the tone and voice remain consistent with the brand&apos;s identity. This integrated approach reduces the need for manual intervention, allowing teams to focus on strategic tasks rather than repetitive content adaptation.
+        further eases the process by automating&nbsp;<Link id="use-cases-marketing-automated-content-generation-repurpose-automatically-ai-content-creation-workflow" href="/use-cases/marketing/ai-content-creation-workflow" className="text-[#0B162A] hover:underline">content creation workflows</Link>. They help in drafting engaging copy for various platforms, ensuring that the tone and voice remain consistent with the brand&apos;s identity. This integrated approach reduces the need for manual intervention, allowing teams to focus on strategic tasks rather than repetitive content adaptation.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Incorporating automated content repurposing into a marketing strategy not only enhances efficiency but also enables small businesses to maintain a consistent presence across multiple channels. This consistency is crucial for building brand recognition and nurturing customer relationships, ultimately leading to improved sales and customer satisfaction.

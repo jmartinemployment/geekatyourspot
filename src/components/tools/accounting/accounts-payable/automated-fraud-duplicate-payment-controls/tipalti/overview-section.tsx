@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -16,7 +17,7 @@ export default function OverviewSection() {
         chance of human error, and slows down payment cycles, making it difficult to maintain healthy cash flow
         and supplier relationships.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated Fraud &amp; Duplicate Payment Controls offer a solution to these pervasive issues. By
+        Automated&nbsp;<Link id="tools-accounting-fraud-controls-tipalti-overview-fraud-controls" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a solution to these pervasive issues. By
         integrating <GlossaryLink slug="ai">AI</GlossaryLink>-driven systems, businesses can streamline
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> processes, reducing manual
         workload and minimizing errors. These controls flag anomalies and duplicates early, ensuring that only

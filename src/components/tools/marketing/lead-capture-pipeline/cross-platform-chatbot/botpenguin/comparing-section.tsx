@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -25,7 +26,7 @@ export default function ComparingSection() {
         comment during a campaign, gets the same fast, consistent handling. This is what stops leads from
         slipping through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Compare this to platforms like Chatfuel or Manychat, which focus on Meta channels (Facebook and
+        Compare this to platforms like Chatfuel or&nbsp;<Link id="tools-marketing-cross-platform-chatbot-botpenguin-comparing-manychat" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-[#0B162A] hover:underline">Manychat</Link>, which focus on Meta channels (Facebook and
         Instagram) but do not cover Telegram or SMS natively. BotPenguin does. It also merges contact profiles
         across channels into a single view, so if a customer messages you on Facebook and then follows up on
         WhatsApp, you see the full conversation history and context in one place. This is a crucial difference

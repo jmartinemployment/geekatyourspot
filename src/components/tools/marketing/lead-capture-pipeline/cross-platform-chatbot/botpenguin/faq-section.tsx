@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FaqSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white py-5">
@@ -72,7 +74,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               BotPenguin connects directly with major CRM platforms like Zoho CRM and HighLevel. For
-              accounting tools such as QuickBooks Online or Xero, it uses native Zapier integrations. This
+              accounting tools such as QuickBooks Online or Xero, it uses native&nbsp;<Link id="tools-marketing-cross-platform-chatbot-botpenguin-faq-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;integrations. This
               setup lets the chatbot send lead details, payment questions, or scheduling data right into your
               financial pipeline, so you do not have to enter data by hand.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

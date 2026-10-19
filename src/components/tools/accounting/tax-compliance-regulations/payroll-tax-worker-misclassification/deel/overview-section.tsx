@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -12,7 +13,7 @@ export default function OverviewSection() {
         no HR or legal team, every payroll cycle feels like walking a tightrope over a pit of penalties.</p>
       <p className="text-md text-white shadow-text pt-3">
         This risk is not theoretical. In Miami-Dade, Broward, and Palm Beach counties, small businesses face
-        real exposure when handling Payroll Tax &amp; Worker Misclassification. A single error in classifying a
+        real exposure when handling&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-deel-overview-payroll-tax-worker-misclassification" href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>. A single error in classifying a
         worker as a contractor instead of an employee can lead to a cascade of back taxes, fines, and lawsuits.
         The IRS and Department of Labor have ramped up audits on gig-heavy industries—hospitality, construction,
         real estate, and local services—where seasonal and project-based hiring is common. Florida’s laws add

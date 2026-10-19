@@ -15,6 +15,7 @@ export default function LedeSection() {
         </Link>{" "}
         can transform how you approach marketing, saving you time and reducing errors. These platforms are designed to help small businesses like yours maintain a steady flow of content, which can lead to more consistent engagement and better sales outcomes.
       </p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id="use-cases-marketing-automated-content-generation-lede-blog" href="/blog/marketing/unlocking-the-potential-of-automated-content-generation-for-small-businesses" className="text-[#C83803] hover:underline">Unlocking the Potential of Automated Content Generation for Small Businesses</Link> and <Link id="use-cases-marketing-automated-content-generation-lede-blog-2" href="/blog/marketing/unlocking-the-power-of-automated-content-generation" className="text-[#C83803] hover:underline">Unlocking the Power of Automated Content Generation</Link> on our blog.</p>
     </>
   );
 

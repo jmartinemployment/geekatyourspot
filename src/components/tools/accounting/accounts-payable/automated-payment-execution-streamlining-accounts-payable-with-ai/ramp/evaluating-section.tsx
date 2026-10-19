@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function EvaluatingSection() {
   const body = (
     <>
@@ -20,7 +22,7 @@ export default function EvaluatingSection() {
         Enterprise tiers might offer additional functionalities that justify the investment. It&#39;s
         important to weigh the cost against the potential savings in time and error reduction.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Comparing Ramp to other solutions like AvidXchange and BILL, Ramp stands out with its comprehensive
+        Comparing Ramp to other solutions like&nbsp;<Link id="tools-accounting-payment-execution-ramp-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;and&nbsp;<Link id="tools-accounting-payment-execution-ramp-evaluating-bill" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">BILL</Link>, Ramp stands out with its comprehensive
         approach to spend management. It not only automates payments but also integrates expense management
         and procurement tools, offering a unified platform for complete spend control. This integration can be
         a deciding factor for businesses looking to consolidate their financial operations under one roof.</p>

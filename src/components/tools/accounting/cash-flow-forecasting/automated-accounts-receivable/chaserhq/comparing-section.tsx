@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function ComparingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In the landscape of automated accounts receivable solutions, Chaserhq stands out by offering a comprehensive
         suite of features that streamline the invoicing and payment process. However, businesses often compare it
-        with other tools like Versapay and Invoiced, which also promise to enhance cash flow management.
+        with other tools like&nbsp;<Link id="tools-accounting-accounts-receivable-chaserhq-comparing-versapay" href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay" className="text-[#0B162A] hover:underline">Versapay</Link>&nbsp;and&nbsp;<Link id="tools-accounting-accounts-receivable-chaserhq-comparing-invoiced" href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" className="text-[#0B162A] hover:underline">Invoiced</Link>, which also promise to enhance cash flow management.
         Understanding how Chaserhq differentiates itself is crucial for businesses evaluating these solutions.</p>
       <p className="text-md text-white shadow-text pt-3">
         Chaserhq excels in providing real-time updates and a high degree of customization. Its integration

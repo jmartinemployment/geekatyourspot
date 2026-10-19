@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
@@ -23,7 +24,7 @@ export default function EvaluatingSection() {
         businesses. However, it&#39;s important to note that certain features, like purchase order creation
         and 2-way matching, are only available on higher-tier plans or as add-ons.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In comparison to other platforms like Tipalti and AvidXchange, which are also popular for AP
+        In comparison to other platforms like&nbsp;<Link id="tools-accounting-approval-workflows-bill-evaluating-tipalti" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id="tools-accounting-approval-workflows-bill-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>, which are also popular for AP
         automation, Bill stands out for its&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven capabilities. The AI invoice coding reduces manual
         time by 20% and captures key invoice fields with 99% accuracy. This level of precision is

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
@@ -20,8 +21,7 @@ export default function EvaluatingSection() {
         extensive approval needs. Businesses should contact ApprovalMax directly to discuss their specific
         needs and obtain a tailored pricing plan.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When considering ApprovalMax, it&#39;s essential to weigh it against other automation tools like
-        Ramp and Bill. Each of these tools offers unique features that might better suit different business
+        When considering ApprovalMax, it&#39;s essential to weigh it against other automation tools like&nbsp;<Link id="tools-accounting-approval-workflows-approvalmax-evaluating-ramp" href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">Ramp</Link>&nbsp;and&nbsp;<Link id="tools-accounting-approval-workflows-approvalmax-evaluating-bill" href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>. Each of these tools offers unique features that might better suit different business
         models. For instance, Ramp provides real-time tracking and compliance checks, which might be more
         beneficial for businesses focused on financial oversight. On the other hand, Bill offers automated
         invoice routing and approval workflows that ensure efficiency and accuracy in processing

@@ -60,7 +60,7 @@ export default function ToolsSection() {
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-orange">
                 <Link id="use-cases-accounting-accounts-payable-tools-medius" href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">Medius</Link></h3>
               <p className="pt-5 text-md font-normal text-white shadow-text-orange">Medius offers AI-driven accounts payable automation with a focus on invoice management and processing. It provides
-                an intuitive platform that simplifies invoice capture, processing, and approval workflows.</p>
+                an intuitive platform that simplifies&nbsp;<Link id="use-cases-accounting-accounts-payable-tools-data-entry" href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">invoice capture</Link>, processing, and approval workflows.</p>
               <ul className="list-disc list-outside pl-3 space-y-2">
                 <li>Automated invoice capture using AI-powered data extraction.</li>
                 <li>Streamlined approval workflows with customizable routing rules.</li>

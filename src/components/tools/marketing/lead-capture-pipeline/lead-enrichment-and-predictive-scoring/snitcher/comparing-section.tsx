@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -60,8 +61,8 @@ export default function ComparingSection() {
         it in real time.</p>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher also differs from AI-powered&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
-        scoring</GlossaryLink>&nbsp;tools like 6sense or ActiveCampaign, which are covered elsewhere on this
-        site. Those platforms excel at using AI to model complex buying journeys and automate multi-channel
+        scoring</GlossaryLink>&nbsp;tools like&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-comparing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>&nbsp;or&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-comparing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>. Those
+        platforms excel at using AI to model complex buying journeys and automate multi-channel
         engagement, but they often require a bigger investment in setup and ongoing management. Snitcher’s
         strength is in surfacing the highest-value leads from your existing web traffic, enriching them with
         actionable data, and pushing them directly into your sales workflow, fast and without fuss.</p>

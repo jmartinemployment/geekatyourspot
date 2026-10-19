@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
@@ -73,7 +74,7 @@ export default function ConfiguringSection() {
         teams that need more than configuration, such as connecting HyperWrite output to
         a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or&nbsp;<GlossaryLink slug="marketing-automation">marketing
         automation</GlossaryLink>&nbsp;platform, we design the workflow so handoffs are smooth, even if it
-        means using Zapier or similar connectors to bridge the gap.</p>
+        means using&nbsp;<Link id="tools-marketing-intelligent-content-planning-hyperwriteai-configuring-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;or similar connectors to bridge the gap.</p>
       <p className="text-md text-white shadow-text pt-3">
         The result is a intelligent content planning and production system that feels built for your team, not
         bolted on. HyperWrite’s rules and automation logic handle the grunt work, the Personas feature keeps

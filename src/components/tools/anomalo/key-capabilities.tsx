@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
@@ -12,13 +13,12 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-5"></div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.
-                These features are designed to ensure data accuracy and integrity, which are foundational for any <GlossaryLink slug="analytics">data-driven</GlossaryLink>
-                marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
+                These features are designed to ensure data accuracy and integrity, which are foundational for any <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows
                   businesses to detect issues before they impact marketing campaigns, ensuring that data-driven decisions are
                   based on accurate information.</li>
-                <li>Flexible Integration: Anomalo integrates with various data platforms, including Adobe Mix Modeler and Basis
+                <li>Flexible Integration: Anomalo integrates with various data platforms, including&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-adobe-mix-modeler" href="/tools/marketing/adobe-mix-modeler" className="text-[#C83803] hover:underline">Adobe Mix Modeler</Link>&nbsp;and Basis
                   Technologies. This flexibility ensures that businesses can maintain data quality across all their tools,
                   enhancing the effectiveness of their ad spend optimization efforts.</li>
                 <li>Root Cause Analysis: When anomalies are detected, Anomalo provides detailed insights into the root causes.
@@ -32,7 +32,7 @@ export default function KeyCapabilitiesSection() {
                   provide reliable data monitoring.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">These capabilities make Anomalo a critical component for businesses focused on optimizing their ad spend. By
-                ensuring data quality, Anomalo supports the effective use of AI tools like Madgicx and Advantage, which rely on
+                ensuring data quality, Anomalo supports the effective use of AI tools like&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-madgicx" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>&nbsp;and Advantage, which rely on
                 accurate data to drive marketing success.</p>
             </div>
           </div>
@@ -45,13 +45,12 @@ export default function KeyCapabilitiesSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Key Capabilities</h2>
               <p className="text-md text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.
-                These features are designed to ensure data accuracy and integrity, which are foundational for any <GlossaryLink slug="analytics">data-driven</GlossaryLink>
-                marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
+                These features are designed to ensure data accuracy and integrity, which are foundational for any <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows
                   businesses to detect issues before they impact marketing campaigns, ensuring that data-driven decisions are
                   based on accurate information.</li>
-                <li>Flexible Integration: Anomalo integrates with various data platforms, including Adobe Mix Modeler and Basis
+                <li>Flexible Integration: Anomalo integrates with various data platforms, including&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-adobe-mix-modeler" href="/tools/marketing/adobe-mix-modeler" className="text-[#C83803] hover:underline">Adobe Mix Modeler</Link>&nbsp;and Basis
                   Technologies. This flexibility ensures that businesses can maintain data quality across all their tools,
                   enhancing the effectiveness of their ad spend optimization efforts.</li>
                 <li>Root Cause Analysis: When anomalies are detected, Anomalo provides detailed insights into the root causes.
@@ -65,7 +64,7 @@ export default function KeyCapabilitiesSection() {
                   provide reliable data monitoring.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">These capabilities make Anomalo a critical component for businesses focused on optimizing their ad spend. By
-                ensuring data quality, Anomalo supports the effective use of AI tools like Madgicx and Advantage, which rely on
+                ensuring data quality, Anomalo supports the effective use of AI tools like&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-madgicx" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>&nbsp;and Advantage, which rely on
                 accurate data to drive marketing success.</p>
             </div>
             <div className="col-span-5"></div>

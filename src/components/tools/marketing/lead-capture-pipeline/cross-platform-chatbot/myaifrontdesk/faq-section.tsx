@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FaqSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white py-5">
@@ -122,7 +124,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Frontdesk AI comes with its own AI-powered CRM, but it can also sync data to your current
-              systems. It uses Zapier and direct API connections for automation. For high-volume or enterprise
+              systems. It uses&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-faq-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;and direct API connections for automation. For high-volume or enterprise
               needs, the team builds custom integrations that map data directly to specialized systems like
               Property Management Systems, CRMs, or data lakes.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

@@ -15,8 +15,7 @@ export default function WhenToUseSection() {
               <p className="text-md text-white shadow-text pt-3">Optimove is ideal for businesses that are ready to move beyond traditional ad management methods and embrace
                 automated <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>. Companies facing challenges with inefficient ad spend, inconsistent campaign
                 results, and complex data analysis will find Optimove particularly beneficial.</p>
-              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing
-                <GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
+              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
                 and provide real-time insights makes it a valuable tool for businesses looking to enhance their marketing strategies
                 without increasing operational workload.</p>
               <p className="text-md text-white shadow-text pt-3">Furthermore, businesses already using tools like Salesforce Einstein or HubSpot can integrate Optimove to further
@@ -36,8 +35,7 @@ export default function WhenToUseSection() {
               <p className="text-md text-white shadow-text pt-3">Optimove is ideal for businesses that are ready to move beyond traditional ad management methods and embrace
                 automated <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>. Companies facing challenges with inefficient ad spend, inconsistent campaign
                 results, and complex data analysis will find Optimove particularly beneficial.</p>
-              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing
-                <GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
+              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
                 and provide real-time insights makes it a valuable tool for businesses looking to enhance their marketing strategies
                 without increasing operational workload.</p>
               <p className="text-md text-white shadow-text pt-3">Furthermore, businesses already using tools like Salesforce Einstein or HubSpot can integrate Optimove to further

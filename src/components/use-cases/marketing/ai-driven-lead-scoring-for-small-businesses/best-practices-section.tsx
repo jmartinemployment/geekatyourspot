@@ -14,7 +14,7 @@ export default function BestPracticesSection() {
         Data-Driven Scoring Criteria
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek At Your Spot emphasizes the use of data-driven scoring criteria. By leveraging AI and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink> algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
+        Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek At Your Spot emphasizes the use of data-driven scoring criteria. By leveraging AI and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>&nbsp;algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         To implement data-driven scoring, Geek At Your Spot uses tools like&nbsp;

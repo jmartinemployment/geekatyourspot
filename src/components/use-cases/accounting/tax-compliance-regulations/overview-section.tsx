@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -17,6 +18,7 @@ export default function OverviewSection() {
         reducing the risk of costly errors and penalties. By adopting these technologies, organizations can
         focus more on strategic growth and less on the intricacies of tax law, turning a potential quagmire into
         a streamlined, efficient process.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-tax-compliance-overview-blog" href="/blog/accounting/how-ai-is-revolutionizing-tax-compliance-what-you-need-to-know" className="text-[#C83803] hover:underline">How AI is Revolutionizing Tax Compliance: What You Need to Know</Link> on our blog.</p>
     </>
   );
 

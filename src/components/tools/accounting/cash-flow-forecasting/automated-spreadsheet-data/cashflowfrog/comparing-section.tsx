@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -13,7 +14,7 @@ export default function ComparingSection() {
         invoices and bills. This capability is crucial for companies that need detailed financial insights rather
         than just high-level overviews.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Many competitors, such as Float and QuickBooks Cash Flow Planner, offer simpler views that are adequate for
+        Many competitors, such as&nbsp;<Link id="tools-accounting-spreadsheet-data-cashflowfrog-comparing-floatapp" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">Float</Link>&nbsp;and QuickBooks Cash Flow Planner, offer simpler views that are adequate for
         basic forecasting needs. However, they often lack the depth of analysis and the ability to handle complex
         scenarios that Cashflowfrog offers. For instance, while QuickBooks Cash Flow Planner provides a clear
         monthly overview, it does not support the detailed breakdowns by class or project that Cashflowfrog excels

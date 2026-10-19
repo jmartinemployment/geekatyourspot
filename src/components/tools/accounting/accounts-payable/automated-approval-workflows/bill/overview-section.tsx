@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -24,7 +25,7 @@ export default function OverviewSection() {
         </a>&nbsp;come into play, offering a seamless solution to streamline and modernize these outdated
         processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        With automated approval workflows, businesses can transform their accounts payable operations. Tools
+        With automated&nbsp;<Link id="tools-accounting-approval-workflows-bill-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
         like&nbsp;
         <a id="tools-accounting-approval-workflows-bill-overview-bill"
           href="https://www.bill.com/product/accounts-payable"

@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function HiddenCostsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        For many small businesses, the manual handling of accounts payable (AP) remains a significant burden.
+        For many small businesses, the manual handling of&nbsp;<Link id="use-cases-accounting-payment-execution-hidden-costs-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;(AP) remains a significant burden.
         The process is often riddled with inefficiencies that lead to costly errors and delays. These issues
         are not just minor annoyances; they can significantly impact a business&#39;s bottom line.</p>
       <p className="text-md text-white shadow-text pt-3">

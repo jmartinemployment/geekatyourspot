@@ -39,8 +39,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 effortlessly.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 ContentStudio, in particular, provides an intuitive interface where users can schedule posts months in advance,
-                ensuring that the content aligns with marketing campaigns and seasonal promotions. This tool also offers <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">analytics</GlossaryLink>
-                to track engagement, enabling businesses to refine their strategies based on real-time performance data.</p>
+                ensuring that the content aligns with marketing campaigns and seasonal promotions. This tool also offers <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">analytics</GlossaryLink>&nbsp;to track engagement, enabling businesses to refine their strategies based on real-time performance data.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
                 <li>Simplifies the process of managing multiple social media accounts from one dashboard.</li>
                 <li>Enables advanced scheduling, allowing for months of content to be planned in advance.</li>
@@ -95,8 +94,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 effortlessly.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 ContentStudio, in particular, provides an intuitive interface where users can schedule posts months in advance,
-                ensuring that the content aligns with marketing campaigns and seasonal promotions. This tool also offers <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">analytics</GlossaryLink>
-                to track engagement, enabling businesses to refine their strategies based on real-time performance data.</p>
+                ensuring that the content aligns with marketing campaigns and seasonal promotions. This tool also offers <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">analytics</GlossaryLink>&nbsp;to track engagement, enabling businesses to refine their strategies based on real-time performance data.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
                 <li>Simplifies the process of managing multiple social media accounts from one dashboard.</li>
                 <li>Enables advanced scheduling, allowing for months of content to be planned in advance.</li>

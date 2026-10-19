@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -15,6 +16,7 @@ export default function OverviewSection() {
         captures data accurately and efficiently, reducing the time spent on manual tasks. This means sales
         teams can now allocate more time to strategic activities that directly contribute to revenue growth.
         The result? Faster lead processing, fewer errors, and an overall increase in sales potential.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-lead-capture-overview-blog" href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">Why Your B2B Sales Need an Intelligent Lead Capture Pipeline</Link> on our blog.</p>
     </>
   );
 

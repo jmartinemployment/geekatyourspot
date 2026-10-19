@@ -21,7 +21,7 @@ export default function RouteApprovalPublishingSection() {
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Approved content moves to the scheduler, CMS, email tool, and content library.</li>
-        <li>The status is written back to Pipedrive so you see what is planned, approved, published, and performing.</li>
+        <li>The status is written back to&nbsp;<Link id="use-cases-marketing-automated-content-generation-route-approval-publishing-pipedrive" href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>&nbsp;so you see what is planned, approved, published, and performing.</li>
       </ul>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlining-approval-processes">
         Streamlining Approval Processes

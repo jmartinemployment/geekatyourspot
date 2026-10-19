@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function OverviewSection() {
   const body = (
     <>
@@ -8,7 +10,7 @@ export default function OverviewSection() {
         in, leading to delayed payments and strained customer relationships. It&#39;s a familiar scenario for many
         small businesses in West Palm Beach and Broward County, where time and resources are often stretched thin.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated Accounts Receivable offers a lifeline to these businesses. By automating the tedious and
+        Automated&nbsp;<Link id="tools-accounting-accounts-receivable-upflow-overview-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">Accounts Receivable</Link>&nbsp;offers a lifeline to these businesses. By automating the tedious and
         error-prone tasks of invoice tracking and follow-ups, companies can transform their cash flow management.
         Tools like Upflow integrate seamlessly with existing systems, providing real-time insights and proactive
         reminders that ensure invoices are paid on time. This reduces the Days Sales Outstanding (DSO) and improves

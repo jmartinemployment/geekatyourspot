@@ -26,8 +26,7 @@ export default function ImplementationSection() {
                   automate approval chains and routing. Businesses should assess their current processes and configure the
                   tool to align with their specific operational needs, ensuring that it supports rather than disrupts existing
                   workflows.</li>
-                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api">API</GlossaryLink>
-                  for those who need to extend its capabilities. Businesses should evaluate whether they require custom
+                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api">API</GlossaryLink>&nbsp;for those who need to extend its capabilities. Businesses should evaluate whether they require custom
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
@@ -59,8 +58,7 @@ export default function ImplementationSection() {
                   automate approval chains and routing. Businesses should assess their current processes and configure the
                   tool to align with their specific operational needs, ensuring that it supports rather than disrupts existing
                   workflows.</li>
-                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api">API</GlossaryLink>
-                  for those who need to extend its capabilities. Businesses should evaluate whether they require custom
+                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api">API</GlossaryLink>&nbsp;for those who need to extend its capabilities. Businesses should evaluate whether they require custom
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to

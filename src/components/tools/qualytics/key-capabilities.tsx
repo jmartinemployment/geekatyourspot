@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   return (
@@ -21,11 +22,9 @@ export default function KeyCapabilitiesSection() {
                 <li>Seamless Integration: Qualytics integrates smoothly with existing ad management tools like Smartly.io and
                   AdCreative.ai, enhancing their capabilities by providing high-quality data inputs.</li>
                 <li>Data Governance: The platform provides comprehensive data governance features, ensuring compliance with data
-                  standards and protocols. This is crucial for maintaining trust in the data used for automated ad spend
-                  optimization.</li>
+                  standards and protocols. This is crucial for maintaining trust in the data used for automated&nbsp;<Link id="tools-marketing-qualytics-key-capabilities-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>.</li>
                 <li>Customizable Alerts: Users can set up alerts for specific data quality issues, allowing for quick action to
-                  be taken when anomalies are detected. This proactive approach helps in maintaining the integrity of
-                  <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions.</li>
+                  be taken when anomalies are detected. This proactive approach helps in maintaining the integrity of&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;decisions.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">Qualytics enhances the effectiveness of automated ad spend optimization tools by ensuring that the underlying data
                 is of the highest quality. By integrating with platforms like HubSpot and Advantage, it provides a unified view of
@@ -51,11 +50,9 @@ export default function KeyCapabilitiesSection() {
                 <li>Seamless Integration: Qualytics integrates smoothly with existing ad management tools like Smartly.io and
                   AdCreative.ai, enhancing their capabilities by providing high-quality data inputs.</li>
                 <li>Data Governance: The platform provides comprehensive data governance features, ensuring compliance with data
-                  standards and protocols. This is crucial for maintaining trust in the data used for automated ad spend
-                  optimization.</li>
+                  standards and protocols. This is crucial for maintaining trust in the data used for automated&nbsp;<Link id="tools-marketing-qualytics-key-capabilities-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>.</li>
                 <li>Customizable Alerts: Users can set up alerts for specific data quality issues, allowing for quick action to
-                  be taken when anomalies are detected. This proactive approach helps in maintaining the integrity of
-                  <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions.</li>
+                  be taken when anomalies are detected. This proactive approach helps in maintaining the integrity of&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;decisions.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">Qualytics enhances the effectiveness of automated ad spend optimization tools by ensuring that the underlying data
                 is of the highest quality. By integrating with platforms like HubSpot and Advantage, it provides a unified view of

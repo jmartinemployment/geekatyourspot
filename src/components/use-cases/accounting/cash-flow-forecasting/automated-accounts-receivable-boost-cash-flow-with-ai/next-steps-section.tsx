@@ -40,7 +40,7 @@ export default function NextStepsSection() {
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
+        <li>How does automated AR improve the accuracy of a&nbsp;<Link id="use-cases-accounting-accounts-receivable-next-steps-cash-flow-forecasting" href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#C83803] hover:underline">cash flow forecast</Link>?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
         <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>
         <li>What data does an automated AR system need to build a cash flow forecast?</li>

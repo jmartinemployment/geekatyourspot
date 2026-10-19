@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
@@ -25,8 +26,7 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">In addition to preventing ad spend inefficiencies, Anomalo integrates seamlessly with existing data ecosystems.
                 Whether you&#39;re using platforms like Tableau AI / Adobe <GlossaryLink slug="analytics">Analytics</GlossaryLink> or HubSpot, Anomalo ensures that the data
                 feeding into these systems is clean and reliable. This integration capability is crucial for businesses looking to
-                leverage other <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> marketing tools effectively. By maintaining high data quality, Anomalo supports the entire
-                ad spend optimization process, from data analysis to decision-making.</p>
+                leverage other <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> marketing tools effectively. By maintaining high data quality, Anomalo supports the entire&nbsp;<Link id="tools-marketing-anomalo-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>&nbsp;process, from data analysis to decision-making.</p>
               <p className="text-md text-white shadow-text pt-3">Overall, Anomalo empowers businesses to optimize their ad spend by providing a robust foundation of accurate data.
                 This not only enhances the performance of AI tools like Salesforce Einstein and Omneky, but also ensures that
                 marketing budgets are used efficiently, driving better results and maximizing <GlossaryLink slug="kpi">ROI</GlossaryLink>.</p>
@@ -56,8 +56,7 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">In addition to preventing ad spend inefficiencies, Anomalo integrates seamlessly with existing data ecosystems.
                 Whether you&#39;re using platforms like Tableau AI / Adobe <GlossaryLink slug="analytics">Analytics</GlossaryLink> or HubSpot, Anomalo ensures that the data
                 feeding into these systems is clean and reliable. This integration capability is crucial for businesses looking to
-                leverage other <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> marketing tools effectively. By maintaining high data quality, Anomalo supports the entire
-                ad spend optimization process, from data analysis to decision-making.</p>
+                leverage other <GlossaryLink slug="machine-learning">AI-driven</GlossaryLink> marketing tools effectively. By maintaining high data quality, Anomalo supports the entire&nbsp;<Link id="tools-marketing-anomalo-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>&nbsp;process, from data analysis to decision-making.</p>
               <p className="text-md text-white shadow-text pt-3">Overall, Anomalo empowers businesses to optimize their ad spend by providing a robust foundation of accurate data.
                 This not only enhances the performance of AI tools like Salesforce Einstein and Omneky, but also ensures that
                 marketing budgets are used efficiently, driving better results and maximizing <GlossaryLink slug="kpi">ROI</GlossaryLink>.</p>

@@ -31,7 +31,7 @@ export default function KeyFactorsSection() {
         support ensures that businesses have access to expert guidance whenever needed. This human element can
         be crucial in navigating complex tax scenarios that automated systems alone might not handle well.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, a successful implementation is scalable. As a business grows, its tax compliance needs will
+        Finally, a successful implementation is scalable. As a business grows, its&nbsp;<Link id="use-cases-accounting-complex-changing-laws-key-factors-tax-compliance" href="/use-cases/accounting/tax-compliance-regulations" className="text-[#0B162A] hover:underline">tax compliance</Link>&nbsp;needs will
         evolve. Solutions like TaxCloud’s multi-channel consolidation and proactive nexus alerts allow
         businesses to adapt to changes without overhauling their entire system. This scalability ensures that
         the tax compliance system remains robust and effective, even as the business landscape changes.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
@@ -17,8 +18,7 @@ export default function EvaluatingSection() {
         By automating tasks and reducing manual intervention, Melio can help lower operational costs over
         time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When considering adjacent approaches, businesses might also evaluate other tools like ApprovalMax,
-        Ramp, and Bill. Each of these tools offers unique features that could complement or compete with
+        When considering adjacent approaches, businesses might also evaluate other tools like&nbsp;<Link id="tools-accounting-approval-workflows-melio-evaluating-approvalmax" href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>,&nbsp;<Link id="tools-accounting-approval-workflows-melio-evaluating-ramp" href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">Ramp</Link>, and&nbsp;<Link id="tools-accounting-approval-workflows-melio-evaluating-bill" href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>. Each of these tools offers unique features that could complement or compete with
         Melio. For instance, ApprovalMax provides multi-level and customizable approval processes, which can
         be a significant advantage for businesses with complex approval hierarchies. Ramp offers real-time
         tracking and compliance checks, enhancing visibility and control over financial operations.</p>

@@ -16,8 +16,7 @@ export default function WhenToUseSection() {
                 to ensure the integrity of their data. If your organization is struggling with inconsistent data quality or frequent
                 data pipeline issues, Monte Carlo can provide the observability needed to maintain high data standards.</p>
               <p className="text-md text-white shadow-text pt-3">For companies in Palm Beach and Broward counties looking to optimize their ad spend, Monte Carlo is a critical tool
-                for ensuring that every dollar spent is backed by reliable data. This is especially true for businesses using
-                <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI-driven</GlossaryLink> tools like Omneky or AdCreative.ai, where the quality of input data directly impacts the effectiveness of
+                for ensuring that every dollar spent is backed by reliable data. This is especially true for businesses using&nbsp;<GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI-driven</GlossaryLink> tools like Omneky or AdCreative.ai, where the quality of input data directly impacts the effectiveness of
                 ad campaigns.</p>
               <p className="text-md text-white shadow-text pt-3">Monte Carlo is also ideal for organizations that have a complex data ecosystem and require a scalable solution that
                 can grow with their data needs. Whether you&#39;re a small business just starting with data observability or a large
@@ -37,8 +36,7 @@ export default function WhenToUseSection() {
                 to ensure the integrity of their data. If your organization is struggling with inconsistent data quality or frequent
                 data pipeline issues, Monte Carlo can provide the observability needed to maintain high data standards.</p>
               <p className="text-md text-white shadow-text pt-3">For companies in Palm Beach and Broward counties looking to optimize their ad spend, Monte Carlo is a critical tool
-                for ensuring that every dollar spent is backed by reliable data. This is especially true for businesses using
-                <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI-driven</GlossaryLink> tools like Omneky or AdCreative.ai, where the quality of input data directly impacts the effectiveness of
+                for ensuring that every dollar spent is backed by reliable data. This is especially true for businesses using&nbsp;<GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI-driven</GlossaryLink> tools like Omneky or AdCreative.ai, where the quality of input data directly impacts the effectiveness of
                 ad campaigns.</p>
               <p className="text-md text-white shadow-text pt-3">Monte Carlo is also ideal for organizations that have a complex data ecosystem and require a scalable solution that
                 can grow with their data needs. Whether you&#39;re a small business just starting with data observability or a large

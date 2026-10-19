@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
@@ -27,6 +28,7 @@ export default function LedeSection() {
         data-driven expected payment dates, these platforms bring accuracy and reliability to your financial
         planning. Automated, humanized email cadences adjust their tone based on client history, while centralized
         communication logs ensure that any disputes or payment promises are documented and managed effectively.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-accounts-receivable-lede-blog" href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">How Automated Accounts Receivable Can Transform Your Cash Flow</Link> on our blog.</p>
     </>
   );
 

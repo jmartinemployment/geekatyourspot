@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function EvaluatingSection() {
   const body = (
     <>
@@ -16,8 +18,7 @@ export default function EvaluatingSection() {
         transactions, it&#39;s important to weigh these costs against potential savings from reduced manual
         labor and improved efficiency.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When considering Tipalti, also weigh its fit against other platforms. Competitors like AvidXchange and
-        Bill offer similar services, but Tipalti stands out with its extensive support for over 200 countries
+        When considering Tipalti, also weigh its fit against other platforms. Competitors like&nbsp;<Link id="tools-accounting-payment-execution-tipalti-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;and&nbsp;<Link id="tools-accounting-payment-execution-tipalti-evaluating-bill" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;offer similar services, but Tipalti stands out with its extensive support for over 200 countries
         and 120 currencies, which is crucial for businesses with a global reach. Its compliance features, such
         as automated tax form collection, further enhance its appeal by reducing the risk of regulatory
         penalties.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -18,7 +19,7 @@ export default function OverviewSection() {
         they asked, and what was promised, because your team cannot see the full picture. When every channel
         runs as a separate inbox, context gets lost, responses are delayed, and the result is missed revenue.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A Cross-Platform Chatbot fixes this by connecting the dots across all your inbound channels. The
+        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-dapta-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;fixes this by connecting the dots across all your inbound channels. The
         system keeps customer identity, conversation history, and next action together, whether an inquiry
         starts on your website, flips to WhatsApp, or ends on a phone call. No lead falls through the cracks.
         Everyone on your team can pick up the conversation right where it left off, using the same information

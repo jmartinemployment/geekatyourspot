@@ -12,8 +12,7 @@ export default function WhenToUseSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Adobe Mix Modeler is particularly beneficial for businesses that are looking to enhance their <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>
-                efforts through <GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">automation</GlossaryLink>. It is ideal for companies that are experiencing inefficiencies in their current ad
+              <p className="text-md text-white shadow-text pt-3">Adobe Mix Modeler is particularly beneficial for businesses that are looking to enhance their <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>&nbsp;efforts through <GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">automation</GlossaryLink>. It is ideal for companies that are experiencing inefficiencies in their current ad
                 management processes and are seeking a more streamlined approach to campaign management.</p>
               <p className="text-md text-white shadow-text pt-3">This tool is well-suited for organizations that have multiple advertising channels and require a unified solution to
                 manage them effectively. By integrating with platforms like HubSpot and Salesforce Einstein, Adobe Mix Modeler
@@ -36,8 +35,7 @@ export default function WhenToUseSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Use</h2>
-              <p className="text-md text-white shadow-text pt-3">Adobe Mix Modeler is particularly beneficial for businesses that are looking to enhance their <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>
-                efforts through <GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">automation</GlossaryLink>. It is ideal for companies that are experiencing inefficiencies in their current ad
+              <p className="text-md text-white shadow-text pt-3">Adobe Mix Modeler is particularly beneficial for businesses that are looking to enhance their <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>&nbsp;efforts through <GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">automation</GlossaryLink>. It is ideal for companies that are experiencing inefficiencies in their current ad
                 management processes and are seeking a more streamlined approach to campaign management.</p>
               <p className="text-md text-white shadow-text pt-3">This tool is well-suited for organizations that have multiple advertising channels and require a unified solution to
                 manage them effectively. By integrating with platforms like HubSpot and Salesforce Einstein, Adobe Mix Modeler

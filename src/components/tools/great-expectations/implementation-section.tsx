@@ -12,8 +12,7 @@ export default function ImplementationSection() {
                 Implementation Considerations</h2>
             </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated
-                <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some specific factors to consider:</p>
+              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some specific factors to consider:</p>
               <p className="text-md text-white shadow-text pt-3">1. Accelerated Deployment: Great Expectations offers pre-built connectors and templates that can significantly
                 shorten the deployment time. These resources allow businesses to quickly integrate data validation into their
                 existing workflows, ensuring a faster go-live process and immediate improvements in <GlossaryLink slug="data-quality">data quality</GlossaryLink>.</p>
@@ -40,8 +39,7 @@ export default function ImplementationSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
-              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated
-                <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some specific factors to consider:</p>
+              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some specific factors to consider:</p>
               <p className="text-md text-white shadow-text pt-3">1. Accelerated Deployment: Great Expectations offers pre-built connectors and templates that can significantly
                 shorten the deployment time. These resources allow businesses to quickly integrate data validation into their
                 existing workflows, ensuring a faster go-live process and immediate improvements in <GlossaryLink slug="data-quality">data quality</GlossaryLink>.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
@@ -22,8 +23,7 @@ export default function IntroductionSection() {
                 efforts with AI-driven solutions that are both efficient and cost-effective.
               </p>
               <p className="text-md text-white shadow-text pt-3">
-                AI marketing systems transform how businesses approach their marketing strategies. By leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>
-                and <GlossaryLink slug="analytics">data analytics</GlossaryLink>, these systems can provide insights that drive more personalized and targeted campaigns. Geek At
+                AI marketing systems transform how businesses approach their marketing strategies. By leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;and <GlossaryLink slug="analytics">data analytics</GlossaryLink>, these systems can provide insights that drive more personalized and targeted campaigns. Geek At
                 Your Spot assists clients in deploying these systems quickly, ensuring they are tailored to meet specific business
                 needs. The result is a more agile marketing operation that can adapt swiftly to market changes, reduce errors, and
                 enhance customer engagement.
@@ -76,7 +76,7 @@ export default function IntroductionSection() {
                   Spot helps businesses set up these automated nurturing campaigns, improving conversion rates and customer
                   satisfaction.</p>
                 <h3 id="ad-spend-optimization">Ad Spend Optimization</h3>
-                <p className="text-md text-white shadow-text pt-3">Effective ad spend management is critical to maximizing marketing ROI. AI tools optimize ad placement and budget
+                <p className="text-md text-white shadow-text pt-3">Effective&nbsp;<Link id="use-cases-marketing-ai-marketing-systems-introduction-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend</Link>&nbsp;management is critical to maximizing marketing ROI. AI tools optimize ad placement and budget
                   allocation by analyzing performance data and predicting future trends. Geek At Your Spot provides expertise in
                   deploying these tools to ensure that advertising dollars are spent wisely, achieving better results with less waste.
                 </p>

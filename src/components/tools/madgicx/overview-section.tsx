@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   return (
@@ -16,11 +17,10 @@ export default function OverviewToolSection() {
                 Traditional methods often result in wasted budgets and missed opportunities due to the reliance on manual
                 adjustments and complex data analysis. Madgicx addresses these issues by leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to dynamically
                 adjust ad strategies, ensuring maximum return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>).</p>
-              <p className="text-md text-white shadow-text pt-3">The platform integrates seamlessly into existing marketing systems, providing businesses with the tools to make
-                <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. By automating the <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> process, Madgicx reduces the need for constant manual
+              <p className="text-md text-white shadow-text pt-3">The platform integrates seamlessly into existing marketing systems, providing businesses with the tools to make&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. By automating the <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> process, Madgicx reduces the need for constant manual
                 intervention, allowing marketing teams to focus on strategic initiatives that drive real results. This not only cuts
                 down on wasted ad spend but also enhances overall campaign effectiveness.</p>
-              <p className="text-md text-white shadow-text pt-3">Madgicx stands out by offering a comprehensive suite of features tailored for automated ad spend optimization. It
+              <p className="text-md text-white shadow-text pt-3">Madgicx stands out by offering a comprehensive suite of features tailored for automated&nbsp;<Link id="tools-marketing-madgicx-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. It
                 provides insights into audience behavior, optimizes creative content, and adjusts bidding strategies in real-time.
                 This ensures ads reach the right audience at the right time, maximizing engagement and conversions. With Madgicx,
                 businesses can expect a streamlined process that saves time, reduces errors, and ultimately leads to happier
@@ -45,11 +45,10 @@ export default function OverviewToolSection() {
                 Traditional methods often result in wasted budgets and missed opportunities due to the reliance on manual
                 adjustments and complex data analysis. Madgicx addresses these issues by leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to dynamically
                 adjust ad strategies, ensuring maximum return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>).</p>
-              <p className="text-md text-white shadow-text pt-3">The platform integrates seamlessly into existing marketing systems, providing businesses with the tools to make
-                <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. By automating the <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> process, Madgicx reduces the need for constant manual
+              <p className="text-md text-white shadow-text pt-3">The platform integrates seamlessly into existing marketing systems, providing businesses with the tools to make&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. By automating the <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> process, Madgicx reduces the need for constant manual
                 intervention, allowing marketing teams to focus on strategic initiatives that drive real results. This not only cuts
                 down on wasted ad spend but also enhances overall campaign effectiveness.</p>
-              <p className="text-md text-white shadow-text pt-3">Madgicx stands out by offering a comprehensive suite of features tailored for automated ad spend optimization. It
+              <p className="text-md text-white shadow-text pt-3">Madgicx stands out by offering a comprehensive suite of features tailored for automated&nbsp;<Link id="tools-marketing-madgicx-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. It
                 provides insights into audience behavior, optimizes creative content, and adjusts bidding strategies in real-time.
                 This ensures ads reach the right audience at the right time, maximizing engagement and conversions. With Madgicx,
                 businesses can expect a streamlined process that saves time, reduces errors, and ultimately leads to happier

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FaqSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white py-5">
@@ -49,7 +51,7 @@ export default function FaqSection() {
               Does Manychat link directly to my accounting software (QuickBooks Online, Xero, etc.)?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Manychat connects through middleware tools like Zapier or Make, and also supports native
+              Manychat connects through middleware tools like&nbsp;<Link id="tools-marketing-cross-platform-chatbot-manychat-faq-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;or Make, and also supports native
               webhooks. While it does not have a direct button for QuickBooks, it lets you capture customer
               details in a chat flow and push that data to integrations like Google Sheets. You can then
               trigger a workflow to create a client profile or estimate in your accounting system

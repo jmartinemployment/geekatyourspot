@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -14,7 +15,7 @@ export default function OverviewSection() {
         spends countless hours scrutinizing each document, aware that a single oversight could result in
         significant monetary loss and damage to the company’s reputation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated Fraud &amp; Duplicate Payment Controls offer a transformative solution to these challenges.
+        Automated&nbsp;<Link id="tools-accounting-fraud-controls-medius-overview-fraud-controls" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a transformative solution to these challenges.
         By harnessing the power of&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>, businesses can shift from
         reactive to proactive fraud prevention. Advanced algorithms and&nbsp;
         <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;analyze large volumes of

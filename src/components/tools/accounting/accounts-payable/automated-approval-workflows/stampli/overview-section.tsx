@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -14,7 +15,7 @@ export default function OverviewSection() {
         unnecessary delays in payments. These inefficiencies not only waste time but also increase the risk of
         compliance issues and financial discrepancies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated approval workflows offer a solution to this chaos by streamlining processes with predefined
+        Automated&nbsp;<Link id="tools-accounting-approval-workflows-stampli-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a solution to this chaos by streamlining processes with predefined
         routing that automatically directs documents to the right reviewers based on business rules and
         spending authority. This approach not only reduces errors but also ensures that all necessary
         approvals are documented, creating a single source of truth that is accessible and auditable. By

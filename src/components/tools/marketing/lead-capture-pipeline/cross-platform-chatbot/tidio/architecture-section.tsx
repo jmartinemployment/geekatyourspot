@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
@@ -31,7 +32,7 @@ export default function ArchitectureSection() {
         leads and customer details flow downstream without manual re-entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integrations are a core part of Tidio’s platform. The system connects directly with tools like
-        HubSpot, Drip, Front, ActiveCampaign, Pipedrive, AWeber, Google Ads, and more. For e-commerce, it
+        HubSpot, Drip, Front, ActiveCampaign,&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-architecture-pipedrive" href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, AWeber, Google Ads, and more. For e-commerce, it
         hooks into Shopify and WooCommerce for real-time product and order management. The Premium plan lets
         you integrate with almost any app on the market, so you can sync leads,
         update&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;records, trigger email campaigns, or feed
@@ -48,8 +49,7 @@ export default function ArchitectureSection() {
         For teams that want to go deeper, Tidio’s Flows and Lyro Actions can trigger
         custom&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;calls, update external databases, or
         automate tasks across your stack. This gives you the flexibility to adapt the system to your workflow,
-        whether that’s pushing leads into Salesforce, updating a Google Sheet, or triggering a workflow in
-        Zapier.</p>
+        whether that’s pushing leads into Salesforce, updating a Google Sheet, or triggering a workflow in&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>.</p>
       <p className="text-md text-white shadow-text pt-3">
         The architecture is built for scale, but stays simple for small teams. You get multilanguage support,
         desktop and mobile apps for on-the-go alerts, and a seat cap that matches the needs of small and

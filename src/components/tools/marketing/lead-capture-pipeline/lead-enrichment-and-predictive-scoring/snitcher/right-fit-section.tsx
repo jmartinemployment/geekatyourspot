@@ -34,7 +34,7 @@ export default function RightFitSection() {
         separately, which can add up if you have a sprawling web presence. And if you are looking for a
         platform that builds complex predictive models across multiple data sources, or that automates every
         step of your sales and marketing funnel, you may want to consider a broader tool like 6sense or
-        ActiveCampaign, both covered elsewhere on this site.</p>
+        ActiveCampaign.</p>
       <p className="text-md text-white shadow-text pt-3">
         The best way to know if Snitcher is right for your business is to run a trial with your own traffic.
         Because every company’s web audience is different, and because Snitcher identifies companies based on

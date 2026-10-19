@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
@@ -37,7 +38,7 @@ export default function ArchitectureSection() {
         activity and firmographics, while your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;can push
         updates back to Snitcher for better scoring and filtering. For teams using Slack or Microsoft Teams,
         Snitcher can send real-time alerts to dedicated channels, ensuring that sales reps see high-intent
-        activity as it happens. Zapier support and open APIs allow for further customization, connecting
+        activity as it happens.&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;support and open APIs allow for further customization, connecting
         Snitcher to hundreds of other business tools, automating lead routing, and triggering workflows based
         on specific behaviors.</p>
       <p className="text-md text-white shadow-text pt-3">

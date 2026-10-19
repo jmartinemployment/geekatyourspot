@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
@@ -28,7 +29,7 @@ export default function EvaluatingSection() {
         beneficial. It&#39;s crucial to evaluate the potential time savings and error reduction each plan
         offers against its cost to determine the best fit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Adjacent solutions like Stampli or Tipalti also offer Automated Fraud &amp; Duplicate Payment Controls,
+        Adjacent solutions like&nbsp;<Link id="tools-accounting-fraud-controls-bill-evaluating-stampli" href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id="tools-accounting-fraud-controls-bill-evaluating-tipalti" href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;also offer Automated Fraud &amp; Duplicate Payment Controls,
         and businesses should compare these alternatives to Bill. While Bill excels in its integration
         capabilities and user-friendly interface, competitors might offer different strengths such as specific
         industry customizations or pricing models. Evaluating these options side by side will help businesses

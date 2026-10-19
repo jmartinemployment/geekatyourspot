@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -20,7 +21,7 @@ export default function ComparingSection() {
         be a game-changer for small businesses that may not have a dedicated financial analyst on staff. This
         feature shifts the focus from maintaining spreadsheets to understanding and acting on financial data.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In the competitive landscape, tools like LiveFlow and Fathom offer their own strengths but often require
+        In the competitive landscape, tools like LiveFlow and&nbsp;<Link id="tools-accounting-spreadsheet-data-clockwork-comparing-fathomhq" href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" className="text-[#0B162A] hover:underline">Fathom</Link>&nbsp;offer their own strengths but often require
         more manual input and maintenance. LiveFlow, for example, is excellent for integrating live data into
         spreadsheets but leaves the burden of creating and maintaining the financial models on the user. Fathom
         provides detailed reporting but often relies on spreadsheet logic for forecasts, which can be cumbersome.</p>

@@ -13,6 +13,7 @@ import {
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { getEntry, listEntries } from "@/lib/content-writer/content";
 import { toArticleSections } from "@/lib/content-writer/article-sections";
+import { relatedBlogHrefs } from "@/lib/content-writer/related-posts";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { formatDate } from "../../format-date";
 
@@ -69,9 +70,8 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
   const published = formatDate(post.date);
   const meta = [post.department, published].filter(Boolean).join(" · ");
 
-  const related = listEntries("blog")
-    .filter((entry) => entry.href !== post.href)
-    .slice(0, 3);
+  const entriesByHref = new Map(listEntries("blog").map((entry) => [entry.href, entry]));
+  const related = relatedBlogHrefs(post.href, 3).flatMap((href) => entriesByHref.get(href) ?? []);
 
   // The related block continues the colour cycle rather than restarting it, so
   // it never lands on the same ground as the section directly above it. It is

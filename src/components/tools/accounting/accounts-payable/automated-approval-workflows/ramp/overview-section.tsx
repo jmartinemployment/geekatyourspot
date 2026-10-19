@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -12,7 +13,7 @@ export default function OverviewSection() {
         job, consuming valuable hours and introducing errors that can cost the business dearly. The time spent
         on these tasks means less time for strategic decision-making and growth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated Approval Workflows offer a transformative solution by streamlining these mundane tasks. By
+        Automated&nbsp;<Link id="tools-accounting-approval-workflows-ramp-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">Approval Workflows</Link>&nbsp;offer a transformative solution by streamlining these mundane tasks. By
         integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;technologies like Optical Character Recognition (OCR)
         and machine learning, businesses can now automate data extraction, invoice matching, and approval

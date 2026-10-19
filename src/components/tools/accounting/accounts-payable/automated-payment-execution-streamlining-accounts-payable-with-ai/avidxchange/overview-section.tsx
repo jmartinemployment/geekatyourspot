@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -11,7 +12,7 @@ export default function OverviewSection() {
         relationships and financial headaches. As her business grows, so does the stack of invoices, turning
         what was once a manageable task into a formidable burden.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This manual approach to payment execution is not only inefficient but costly. Each hour spent on
+        This manual approach to&nbsp;<Link id="tools-accounting-payment-execution-avidxchange-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>&nbsp;is not only inefficient but costly. Each hour spent on
         these tasks is an hour away from focusing on what truly matters—growing the business and delighting
         customers. For many small businesses, the pressure of maintaining accurate and timely payments can
         feel overwhelming. The administrative load pulls owners and their teams away from strategic

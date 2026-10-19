@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
@@ -45,7 +46,7 @@ export default function TransformsSection() {
         Every visitor looks the same until you score them — Snitcher ranks accounts by fit and intent so your
         team stops guessing and starts closing.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
-        Snitcher integrates with the platforms your team already runs, HubSpot, Salesforce, Pipedrive,
+        Snitcher integrates with the platforms your team already runs, HubSpot, Salesforce,&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-transforms-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>,
         Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Slack, and more, so there is no need for a
         disruptive overhaul. The setup is as simple as dropping a script into your website header. Within
         minutes, companies start appearing in your dashboard, and all the heavy lifting of enrichment and

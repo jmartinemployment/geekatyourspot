@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function WhenToUseSection() {
 
@@ -15,8 +16,8 @@ export default function WhenToUseSection() {
               <p className="text-md text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing <GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> through automated ad spend
                 optimization. Here are scenarios where Anomalo proves particularly beneficial:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li><GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Data-Driven</GlossaryLink> Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
-                  from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like Optimove that
+                <li><GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Data-Driven</GlossaryLink>&nbsp;Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
+                  from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like&nbsp;<Link id="tools-marketing-anomalo-when-to-use-optimove" href="/tools/marketing/optimove" className="text-[#0B162A] hover:underline">Optimove</Link>&nbsp;that
                   require precise input to deliver effective results.</li>
                 <li>Large-Scale Campaigns: For companies running extensive marketing campaigns across multiple platforms,
                   maintaining data integrity is crucial. Anomalo helps in monitoring these large datasets to prevent data
@@ -42,8 +43,8 @@ export default function WhenToUseSection() {
               <p className="text-md text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing <GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> through automated ad spend
                 optimization. Here are scenarios where Anomalo proves particularly beneficial:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-                <li><GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Data-Driven</GlossaryLink> Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
-                  from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like Optimove that
+                <li><GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Data-Driven</GlossaryLink>&nbsp;Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
+                  from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like&nbsp;<Link id="tools-marketing-anomalo-when-to-use-optimove" href="/tools/marketing/optimove" className="text-[#0B162A] hover:underline">Optimove</Link>&nbsp;that
                   require precise input to deliver effective results.</li>
                 <li>Large-Scale Campaigns: For companies running extensive marketing campaigns across multiple platforms,
                   maintaining data integrity is crucial. Anomalo helps in monitoring these large datasets to prevent data

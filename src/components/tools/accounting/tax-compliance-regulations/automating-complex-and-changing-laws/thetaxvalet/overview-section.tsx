@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
@@ -6,7 +7,7 @@ export default function OverviewSection() {
       <p className="text-md text-white shadow-text pt-3">
         For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, the task of managing
         sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;feels like an
-        insurmountable hurdle. The ever-shifting landscape of complex and changing laws makes it difficult for
+        insurmountable hurdle. The ever-shifting landscape of&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-overview-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;makes it difficult for
         business owners to keep up. Imagine a local boutique owner who spends countless hours sifting through
         receipts and spreadsheets, trying to ensure every transaction aligns with the latest state tax
         regulations. This is time that could be better spent on growing the business, yet it is consumed by the

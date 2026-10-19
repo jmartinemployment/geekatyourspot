@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
@@ -32,8 +33,7 @@ export default function TransformsSection() {
           Cash Flow Frog
         </a></p>
       <p className="text-md text-white shadow-text pt-3">
-        Cashflowfrog&#39;s integration with tools like Zapier
-        and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;assistants such as ChatGPT further streamlines
+        Cashflowfrog&#39;s integration with tools like&nbsp;<Link id="tools-accounting-spreadsheet-data-cashflowfrog-transforms-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;assistants such as ChatGPT further streamlines
         operations. These integrations allow for automated projections and updates, reducing the need for constant
         manual oversight. By leveraging these technologies, businesses can maintain an accurate and dynamic view of
         their cash position, leading to better financial management and strategic planning.</p>

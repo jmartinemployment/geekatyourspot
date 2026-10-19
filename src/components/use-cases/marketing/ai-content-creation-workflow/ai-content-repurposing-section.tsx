@@ -29,7 +29,7 @@ export default function AIContentRepurposingSection() {
                 game, allowing marketers to effectively repurpose content, ensuring it resonates with diverse audiences while
                 minimizing creation efforts.</p>
               <p className="text-md text-white shadow-text pt-3">
-                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink> involves transforming existing content into new formats and styles, making it accessible and
+                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>&nbsp;involves transforming existing content into new formats and styles, making it accessible and
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-jasper-ai-1"
@@ -40,8 +40,7 @@ export default function AIContentRepurposingSection() {
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot assists organizations in harnessing these tools to streamline their content repurposing
-                strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-ai-for-diverse-content-formats">Leveraging AI for Diverse Content Formats</h3>
@@ -73,7 +72,7 @@ export default function AIContentRepurposingSection() {
                 Enhancing Content Reach with AI-Driven Personalization
               </h3>
               <p className="text-md text-white shadow-text pt-3">
-                <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is key to making content resonate with individual audience members. AI tools like&nbsp;
+                <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink>&nbsp;is key to making content resonate with individual audience members. AI tools like&nbsp;
                 Claude&nbsp;can analyze audience data to tailor content variations that speak
                 directly to different segments. This ensures that repurposed content not only extends reach but also maintains
                 relevance and engagement.</p>
@@ -122,7 +121,7 @@ export default function AIContentRepurposingSection() {
                 game, allowing marketers to effectively repurpose content, ensuring it resonates with diverse audiences while
                 minimizing creation efforts.</p>
               <p className="text-md text-white shadow-text pt-3">
-                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink> involves transforming existing content into new formats and styles, making it accessible and
+                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>&nbsp;involves transforming existing content into new formats and styles, making it accessible and
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-jasper-ai-2"
@@ -133,8 +132,7 @@ export default function AIContentRepurposingSection() {
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot assists organizations in harnessing these tools to streamline their content repurposing
-                strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -159,7 +157,7 @@ export default function AIContentRepurposingSection() {
                 Enhancing Content Reach with AI-Driven Personalization
               </h3>
               <p className="text-md text-white shadow-text pt-3">
-                <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is key to making content resonate with individual audience members. AI tools like&nbsp;
+                <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink>&nbsp;is key to making content resonate with individual audience members. AI tools like&nbsp;
                 Claude&nbsp; can analyze audience data to tailor content variations that speak
                 directly to different segments. This ensures that repurposed content not only extends reach but also maintains
                 relevance and engagement.</p>

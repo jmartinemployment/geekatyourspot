@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function OverviewSection() {
   const body = (
     <>
@@ -11,7 +13,7 @@ export default function OverviewSection() {
         conversations that could have been promising leads. In the gaps, prospects drift away, follow-ups
         happen too late, and the real cost shows up as missed sales and wasted staff time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This isn’t just a workflow headache, it’s a revenue problem. Without a Cross-Platform Chatbot handling
+        This isn’t just a workflow headache, it’s a revenue problem. Without a&nbsp;<Link id="tools-marketing-cross-platform-chatbot-botpenguin-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;handling
         every channel as one, small businesses in South Florida lose context with every switch. Prospective
         buyers don’t care which app they use, they want answers right now, and they expect your team to
         remember what they said on Facebook, Instagram, or your site. When each channel acts as a separate

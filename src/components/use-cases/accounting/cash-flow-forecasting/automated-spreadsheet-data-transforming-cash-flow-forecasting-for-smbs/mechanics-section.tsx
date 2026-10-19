@@ -49,8 +49,7 @@ export default function MechanicsSection() {
         <Link id="use-cases-accounting-spreadsheet-data-mechanics-clockwork"
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" className="text-[#0B162A] hover:underline">
           Clockwork
-        </Link>&nbsp;pulls data directly from QuickBooks and Xero, enabling businesses to automate their cash flow
-        forecasting without manual intervention. Similarly,&nbsp;
+        </Link>&nbsp;pulls data directly from QuickBooks and Xero, enabling businesses to automate their&nbsp;<Link id="use-cases-accounting-spreadsheet-data-mechanics-cash-flow-forecasting" href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</Link>&nbsp;without manual intervention. Similarly,&nbsp;
         <Link id="use-cases-accounting-spreadsheet-data-mechanics-floatapp"
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">
           Floatapp

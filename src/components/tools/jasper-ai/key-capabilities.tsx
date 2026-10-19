@@ -10,7 +10,7 @@ export default function KeyCapabilitiesSection() {
             <p className="text-md text-white shadow-text pt-3">Jasper AI offers a suite of capabilities that make it a standout tool in the realm of automated <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>.
               These features are specifically designed to address common challenges faced by content creators and marketers.</p>
             <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
-              <li><GlossaryLink slug="machine-learning">AI-Powered</GlossaryLink> Content Generation: Jasper AI uses advanced algorithms to generate content that aligns with user
+              <li><GlossaryLink slug="machine-learning">AI-Powered</GlossaryLink>&nbsp;Content Generation: Jasper AI uses advanced algorithms to generate content that aligns with user
                 specifications. Whether it&apos;s creating blog posts or drafting emails, the AI ensures the output is coherent and
                 relevant.</li>
               <li>Customizable Templates: The platform provides a variety of templates that users can customize to fit their

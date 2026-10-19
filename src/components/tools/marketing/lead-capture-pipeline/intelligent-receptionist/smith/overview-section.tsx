@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function OverviewSection() {
   const body = (
     <>
@@ -16,7 +18,7 @@ export default function OverviewSection() {
         at once, especially across South Florida’s fast-moving service industries where timing and
         responsiveness decide who wins the work.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The risk grows when you rely on pure automation. Many so-called Intelligent Receptionist systems promise
+        The risk grows when you rely on pure automation. Many so-called&nbsp;<Link id="tools-marketing-intelligent-receptionist-smith-overview-intelligent-receptionist" href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;systems promise
         round-the-clock coverage but fall short in real-world situations. They drop the ball when a caller needs
         empathy, judgment, or fast escalation, missing the nuance in a distressed customer’s voice or failing to
         gather the right intake details for a high-value lead. Worse, a rigid automated script can pass along

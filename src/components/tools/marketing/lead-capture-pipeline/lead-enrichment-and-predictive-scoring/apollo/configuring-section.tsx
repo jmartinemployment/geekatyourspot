@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
@@ -52,7 +53,7 @@ export default function ConfiguringSection() {
         Extension in Apollo is handled through its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and
         integration marketplace. If your business runs on tools outside the standard stack,
         Apollo’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;lets you build custom connectors or
-        automate workflows using platforms like Zapier, Make, or n8n. For example, you might want to trigger a
+        automate workflows using platforms like&nbsp;<Link id="tools-marketing-lead-enrichment-apollo-configuring-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>, Make, or n8n. For example, you might want to trigger a
         Slack notification for every high-scoring lead, or send a daily report of new website visitors that
         match your ICP. These automations are not just nice-to-haves, they are what keep your team focused on
         the right actions, every day, without manual effort.</p>

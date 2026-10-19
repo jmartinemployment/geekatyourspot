@@ -57,7 +57,7 @@ export default function ToolsSection() {
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Accelerating deployment for Marketo involves setting up predefined templates and workflows that align with industry
               best practices, reducing the time to go live. Proper data model design is crucial, as it ensures that customer data
               is organized effectively for targeted campaigns and analytics. Configuring workflows and processes in Marketo
-              includes setting up lead scoring models, nurturing paths, and triggered actions tailored to specific customer
+              includes setting up&nbsp;<Link id="use-cases-marketing-ai-marketing-systems-tools-ai-driven-lead-scoring" href="/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses" className="text-[#C83803] hover:underline">lead scoring</Link>&nbsp;models, nurturing paths, and triggered actions tailored to specific customer
               journeys. While Marketo does not inherently support custom code development, an implementer can leverage its API for
               integrations and custom functionality, ensuring the platform meets unique business needs. These focused efforts lead
               to quicker realization of benefits, fewer implementation hiccups, and a smoother path to robust marketing

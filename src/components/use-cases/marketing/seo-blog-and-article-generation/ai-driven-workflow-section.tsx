@@ -1,10 +1,11 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function AIDrivenWorkflowSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Many businesses struggle with the slow, error-prone process of optimizing content for search engines. Traditional <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> workflows often involve manual <GlossaryLink slug="keyword-density">keyword research</GlossaryLink>, content planning, and tedious content optimization tasks. These processes can lead to delays, misalignment with changing SEO trends, and ultimately, lost opportunities for visibility and traffic.
+        Many businesses struggle with the slow, error-prone process of optimizing content for search engines. Traditional <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> workflows often involve manual <GlossaryLink slug="keyword-density">keyword research</GlossaryLink>,&nbsp;<Link id="use-cases-marketing-seo-blog-and-article-generation-ai-driven-workflow-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">content planning</Link>, and tedious content optimization tasks. These processes can lead to delays, misalignment with changing SEO trends, and ultimately, lost opportunities for visibility and traffic.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Implementing an AI-driven workflow can significantly streamline these tasks, reducing the time spent on repetitive activities and allowing teams to focus more on strategic initiatives. Tools like Surfer SEO and Keyword Insights are pivotal in this transformation. They automate the analysis of search intent and competitive content landscapes, providing actionable data to refine content strategies and align them with user expectations.

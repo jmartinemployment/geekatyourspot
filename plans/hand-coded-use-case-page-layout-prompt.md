@@ -134,8 +134,18 @@ All content must be written by hand in the JSX:
 - A `GlossaryLink` on a dark background must pass `className="text-[#0B162A] hover:underline"`; its default is the orange.
 - Links are relative (`/tools/...`), never `https://geekatyourspot.com/...`.
 
+### Internal links (Jeff, 2026-10-19)
+Every page in a cluster links to the others on words already in its text, at their first mention in body text (a paragraph, list item or table cell, not a heading). When a section has a block for each breakpoint, both blocks carry the link.
+
+- **Tool page to its pillar:** the first mention of the pillar's topic (for example "approval workflows" or "Multi-State Sales Tax Nexus") links to the pillar.
+- **Pillar to its blog post:** the pillar's lede, or the first section after the hero when there is no lede, ends with the sentence "For a shorter overview, read <post title> on our blog." The title links to the post.
+- **Blog post to its pillar:** the first mention of the pillar's topic in the post's body links to the pillar. The export carries the anchor, so edit every copy of that export.
+- **Pillar to pillar:** a pillar links its parent category page (Accounts Payable, Cash Flow Forecasting, Tax Compliance, Lead Capture Pipeline, Content Creation Workflow) and any sibling pillar whose topic it names. A passing mention such as "manual data entry" or "a spreadsheet" is not that topic.
+- **Tool names:** a tool that has a page is linked at its first mention on every page that names it, the pillar's own tool page when the tool has one under several pillars. QuickBooks stays plain text until a general QuickBooks page exists.
+- "More from the Blog" under each post lists the posts after it in its `BLOG_MENU` category, then the rest of its department (`src/lib/content-writer/related-posts.ts`), so a new post must be in `BLOG_MENU` to appear there.
+
 ### Navbar categories
-Use Cases, Blog and Tools in `src/components/layout/navbar.tsx` are `USE_CASES_MENU`, `BLOG_MENU` and `TOOLS_MENU`. Each department holds the categories the home page cards use (Lead Capture Pipeline, Content Creation Workflow, Automated Ad Spend Optimization; Accounts Payable, Cash Flow Forecasting, Tax Compliance & Regulations), and a page that fits none goes in the department's own `items`.
+Use Cases, Blog and Tools are `USE_CASES_MENU`, `BLOG_MENU` and `TOOLS_MENU` in `src/data/navigation/site-menus.ts`, which `src/components/layout/navbar.tsx` renders. Each department holds the categories the home page cards use (Lead Capture Pipeline, Content Creation Workflow, Automated Ad Spend Optimization; Accounts Payable, Cash Flow Forecasting, Tax Compliance & Regulations), and a page that fits none goes in the department's own `items`.
 
 - A new pillar, tool page or blog post goes into its category's `items`. A new category gets an entry with an `id` of the form `<section>-<department>-<category>`.
 - A category shows its pages on hover with a mouse and on tap on a touch screen; a second tap or Enter closes it. Below `lg` the pages open under the category, and from `lg` up they open beside the category list, so hovering one never moves the others.
@@ -211,6 +221,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] PAA section has `<hr>` separators before first Q&A item and between each Q&A item (but not after the last)
 - [ ] Link colors match background: `text-[#C83803]` (default), `text-[#0B162A]` (on `#8C4E2A` or `#BF5934` backgrounds)
 - [ ] Every link, including one inside a heading, carries `hover:underline` and the ground's link colour
+- [ ] Internal links are in place: pillar to parent, siblings and blog post; every tool named with a page is linked (see "Internal links")
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)
 - [ ] Page loads and sections display correctly on mobile and desktop
 
@@ -277,7 +288,8 @@ Blog posts are not hand-coded. `src/app/(site)/blog/[department]/[...slug]/page.
   - Remove the entry once the page ships.
 
 **Blog verification:**
-- [ ] Every blog post has a navbar entry, in its category's `items` in `BLOG_MENU` (`src/components/layout/navbar.tsx`).
+- [ ] Every blog post has a navbar entry, in its category's `items` in `BLOG_MENU` (`src/data/navigation/site-menus.ts`).
+- [ ] The post links its pillar, and the pillar's lede links the post (see "Internal links").
 - [ ] No in-article link is broken or goes through a redirect.
 - [ ] No section is missing its heading.
 - [ ] Headings measure weight 900 at both breakpoints.

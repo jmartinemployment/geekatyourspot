@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
@@ -30,6 +31,7 @@ export default function OverviewSection() {
                 sales. With features like accelerated deployment and workflow configuration, AI empowers teams to execute marketing
                 campaigns more efficiently and effectively, reducing costs and enhancing customer satisfaction.
               </p>
+              <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-marketing-systems-overview-blog" href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth" className="text-[#C83803] hover:underline">How AI Marketing Systems Transform Small Business Growth</Link> on our blog.</p>
             </div>
           </div>
         </div>

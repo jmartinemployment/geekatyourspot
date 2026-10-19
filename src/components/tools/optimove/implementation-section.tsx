@@ -21,8 +21,7 @@ export default function ImplementationSection() {
                 transition to automated ad spend optimization.</p>
               <p className="text-md text-white shadow-text pt-3">2. Data Model Design: Designing an effective data model is crucial when implementing Optimove. Businesses need to
                 map their data structures to align with Optimove’s requirements, ensuring that customer information and campaign
-                data are accurately captured and utilized. This step is essential for leveraging Optimove’s <GlossaryLink slug="analytics">predictive analytics</GlossaryLink> and
-                <GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> capabilities.</p>
+                data are accurately captured and utilized. This step is essential for leveraging Optimove’s <GlossaryLink slug="analytics">predictive analytics</GlossaryLink> and&nbsp;<GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> capabilities.</p>
               <p className="text-md text-white shadow-text pt-3">3. Workflow/Process Configuration: Optimove allows for the configuration of workflows and approval chains that align
                 with a business’s operational processes. This includes setting up <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic for campaign adjustments and
                 approvals, which can streamline operations and reduce the need for manual oversight.</p>
@@ -53,8 +52,7 @@ export default function ImplementationSection() {
                 transition to automated ad spend optimization.</p>
               <p className="text-md text-white shadow-text pt-3">2. Data Model Design: Designing an effective data model is crucial when implementing Optimove. Businesses need to
                 map their data structures to align with Optimove’s requirements, ensuring that customer information and campaign
-                data are accurately captured and utilized. This step is essential for leveraging Optimove’s <GlossaryLink slug="analytics">predictive analytics</GlossaryLink> and
-                <GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> capabilities.</p>
+                data are accurately captured and utilized. This step is essential for leveraging Optimove’s <GlossaryLink slug="analytics">predictive analytics</GlossaryLink> and&nbsp;<GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> capabilities.</p>
               <p className="text-md text-white shadow-text pt-3">3. Workflow/Process Configuration: Optimove allows for the configuration of workflows and approval chains that align
                 with a business’s operational processes. This includes setting up <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic for campaign adjustments and
                 approvals, which can streamline operations and reduce the need for manual oversight.</p>

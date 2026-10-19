@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RealCostsSection() {
   const body = (
     <>
@@ -16,8 +18,7 @@ export default function RealCostsSection() {
         early payment discounts, further impacting the bottom line.</p>
       <p className="text-md text-white shadow-text pt-3">
         The risks extend beyond financial costs. Manual processes often lack transparency and control, making
-        it difficult to monitor the status of invoices. This opacity can lead to unauthorized payments or
-        duplicate payments, increasing the risk of fraud. The absence of a streamlined workflow means that
+        it difficult to monitor the status of invoices. This opacity can lead to unauthorized payments or&nbsp;<Link id="use-cases-accounting-data-entry-real-costs-fraud-controls" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs" className="text-[#C83803] hover:underline">duplicate payments</Link>, increasing the risk of fraud. The absence of a streamlined workflow means that
         teams spend excessive time chasing approvals and reconciling discrepancies, rather than focusing on
         strategic initiatives.</p>
       <p className="text-md text-white shadow-text pt-3">

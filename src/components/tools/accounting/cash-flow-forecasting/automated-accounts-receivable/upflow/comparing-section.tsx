@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -16,7 +17,7 @@ export default function ComparingSection() {
         a company with net-30 payment terms but a 51-day DSO benefits significantly from a tool like Upflow, which
         accounts for such discrepancies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Many tools in the market, such as Chaser and Bill, cater to smaller teams with simpler needs, focusing
+        Many tools in the market, such as&nbsp;<Link id="tools-accounting-accounts-receivable-upflow-comparing-chaserhq" href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">Chaser</Link>&nbsp;and&nbsp;<Link id="tools-accounting-accounts-receivable-upflow-comparing-bill" href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">Bill</Link>, cater to smaller teams with simpler needs, focusing
         primarily on invoice follow-ups. These platforms might be adequate for businesses that require basic
         reminders and collections. However, they may fall short when it comes to the comprehensive forecasting and
         integration capabilities that Upflow provides.</p>

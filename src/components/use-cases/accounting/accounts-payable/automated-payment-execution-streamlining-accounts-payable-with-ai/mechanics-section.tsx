@@ -25,7 +25,7 @@ export default function MechanicsSection() {
         </Link>&nbsp;facilitate this integration, allowing for real-time data updates and minimizing
         discrepancies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Once the data is in the system, the focus shifts to automated approval workflows. These workflows are
+        Once the data is in the system, the focus shifts to automated&nbsp;<Link id="use-cases-accounting-payment-execution-mechanics-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>. These workflows are
         configured to route invoices to the appropriate approvers based on predefined rules, such as
         department or payment threshold. This ensures that invoices are reviewed and approved in a timely
         manner, reducing bottlenecks and speeding up the payment process.&nbsp;

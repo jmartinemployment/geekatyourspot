@@ -7,7 +7,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Automated Fraud &amp; Duplicate Payment Controls revolutionize the way businesses handle&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>. At the core of this solution
-        is the integration of <GlossaryLink slug="ai">AI</GlossaryLink> and&nbsp;
+        is the integration of <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
         <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;technologies that
         streamline processes and enhance accuracy. The system operates through several key components, each
         designed to tackle specific pain points in AP management.</p>

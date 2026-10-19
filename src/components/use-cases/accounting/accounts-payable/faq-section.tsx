@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FAQItem } from "@/types/use-case";
 
@@ -22,8 +23,8 @@ export default function FAQSection() {
               vendors and suppliers. It involves processing invoices, verifying transaction details, and ensuring timely payments.
             </p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What is the AP process in accounts payable?</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">The AP process in <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> includes several steps: invoice receipt, verification of details, approval
-              routing, and payment execution. By automating these processes, organizations can reduce processing time and minimize
+            <p className="pt-5 text-md font-normal text-white shadow-text">The AP process in <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;includes several steps: invoice receipt, verification of details, approval
+              routing, and&nbsp;<Link id="use-cases-accounting-accounts-payable-faq-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>. By automating these processes, organizations can reduce processing time and minimize
               errors, ensuring that vendors are paid accurately and on time.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What is invoicing in accounts payable?</h3>
             <p className="pt-5 text-md font-normal text-white shadow-text">Invoicing in accounts payable involves the receipt and processing of invoices from suppliers for goods and services

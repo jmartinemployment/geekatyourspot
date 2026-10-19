@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function OverviewSection() {
   const body = (
     <>
@@ -18,7 +20,7 @@ export default function OverviewSection() {
         full of dead ends. The wasted effort is visible in missed revenue, rising ad spend, and the
         frustration of seeing competitors win accounts that were already on your site.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Lead Enrichment and Predictive Scoring directly address this problem. Instead of waiting for a
+        <Link id="tools-marketing-lead-enrichment-leadfeeder-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs" className="text-[#C83803] hover:underline">Lead Enrichment and Predictive Scoring</Link>&nbsp;directly address this problem. Instead of waiting for a
         prospect to fill out a form or call, these systems identify which companies are visiting your site,
         what they look at, and how engaged they are, without asking them for anything. They pull in company
         details, score intent based on real behavior, and send instant alerts when a high-fit local business

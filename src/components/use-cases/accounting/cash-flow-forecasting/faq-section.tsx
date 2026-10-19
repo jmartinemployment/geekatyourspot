@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FAQItem } from "@/types/use-case";
 
@@ -29,7 +30,7 @@ export default function FAQSection() {
               and market trends to estimate future transactions. Organize this information into a spreadsheet or forecasting
               software to project cash flow over a chosen period, adjusting assumptions as necessary.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What tools can I use for cash flow forecasting?</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Popular tools for cash flow forecasting include Excel, specialized financial software like QuickBooks or Float, and
+            <p className="pt-5 text-md font-normal text-white shadow-text">Popular tools for cash flow forecasting include Excel, specialized financial software like QuickBooks or&nbsp;<Link id="use-cases-accounting-cash-flow-forecasting-faq-floatapp" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#C83803] hover:underline">Float</Link>, and
               AI-driven platforms that offer <GlossaryLink slug="analytics">predictive analytics</GlossaryLink>. These tools help automate data collection, model cash flow
               scenarios, and provide insights for better financial planning.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">What are the 4 forecasting models?</h3>

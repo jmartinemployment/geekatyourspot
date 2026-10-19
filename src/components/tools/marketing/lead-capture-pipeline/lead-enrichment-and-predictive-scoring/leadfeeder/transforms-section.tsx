@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
@@ -36,7 +37,7 @@ export default function TransformsSection() {
         platform can create a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;record, send a Slack
         alert, or trigger a workflow automatically. No one has to copy details from a dashboard or chase down
         contact information. This means sales reps spend more time talking to real prospects, and less time on
-        admin. The tools you already use, HubSpot, Salesforce, Pipedrive, Microsoft Dynamics, connect
+        admin. The tools you already use, HubSpot, Salesforce,&nbsp;<Link id="tools-marketing-lead-enrichment-leadfeeder-transforms-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>, Microsoft Dynamics, connect
         directly, so all the data flows where it is needed, with no double entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         For lead enrichment, Leadfeeder pulls in firmographic data, industry, headcount, tech stack, recent

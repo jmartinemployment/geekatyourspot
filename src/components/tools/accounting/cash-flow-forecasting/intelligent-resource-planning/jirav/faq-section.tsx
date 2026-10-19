@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FaqSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white py-5">
@@ -70,7 +72,7 @@ export default function FaqSection() {
               How does Jirav factor in our shifting employee headcount and local payroll costs?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Jirav integrates with HR and payroll providers like Gusto, ADP, and Justworks. It imports your
+              Jirav integrates with HR and payroll providers like&nbsp;<Link id="tools-accounting-intelligent-resource-planning-jirav-faq-gusto" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" className="text-[#C83803] hover:underline">Gusto</Link>, ADP, and&nbsp;<Link id="tools-accounting-intelligent-resource-planning-jirav-faq-justworks" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks" className="text-[#C83803] hover:underline">Justworks</Link>. It imports your
               headcount, rosters, and wage details securely, so you can forecast salary changes, bonuses, and
               new roles based on your real local needs.</p>
           </div>

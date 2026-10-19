@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
@@ -6,7 +7,7 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         Every month, small business owner Lisa finds herself drowning in a sea of invoices. Each document
         represents countless hours of manual data entry, potential errors, and the looming threat of late
-        fees. For Lisa, the <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> process has
+        fees. For Lisa, the <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process has
         become a bottleneck, consuming time she doesn&#39;t have and creating stress she doesn&#39;t need.
         This is a common struggle among small businesses in West Palm Beach, Broward, and Miami-Dade counties,
         where limited staff and resources make efficient payment execution a daunting task.</p>
@@ -16,6 +17,7 @@ export default function LedeSection() {
         reduces errors and speeds up payments but also liberates business owners to focus on growth rather
         than paperwork. This page lays out how this transition can redefine business efficiency, saving you
         time and reducing costs while keeping your payment processes transparent and secure.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-payment-execution-lede-blog" href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">How Automated Payment Execution Transforms Your Bottom Line</Link> on our blog.</p>
     </>
   );
 

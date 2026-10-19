@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
@@ -43,7 +44,7 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         That is where an AI-powered content planning process delivers a clear edge. Instead of rebuilding the
         wheel each week, you get a workflow that starts with your business objectives, audits your data for
-        quality, and selects the right mix of tools to automate drafting, repurposing, scheduling, and
+        quality, and selects the right mix of tools to automate drafting,&nbsp;<Link id="use-cases-marketing-intelligent-content-planning-lede-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#C83803] hover:underline">repurposing</Link>, scheduling, and
         approval. Each step is mapped to what matters for your market, not what a
         generic&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;tries to sell you. The result: your
         team goes from reactive, last-minute publishing to a predictable content engine that hits the right
@@ -61,6 +62,7 @@ export default function LedeSection() {
         bad data means bad results), choosing tools that let you automate the drudge work (from topic research
         to multi-channel repurposing), and running a real pilot so you see the results in your own numbers. If
         you are ready to stop guessing and start growing, this is where you begin.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-content-planning-lede-blog" href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-smbs-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> on our blog.</p>
     </>
   );
 

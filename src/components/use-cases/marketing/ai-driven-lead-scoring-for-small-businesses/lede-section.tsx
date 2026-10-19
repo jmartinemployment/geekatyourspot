@@ -22,12 +22,11 @@ export default function LedeSection() {
         In the world of small business, every minute counts. Yet, many businesses waste time sifting through disorganized data, losing track of promising leads. This fragmentation leads to missed opportunities and inconsistent customer interactions.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Imagine having a clear view of every lead&apos;s journey, from initial contact to conversion. AI-driven tools offer this clarity by integrating and analyzing data from various sources. Solutions like&nbsp;
-        Apollo
-        &nbsp;and&nbsp;
+        Imagine having a clear view of every lead&apos;s journey, from initial contact to conversion. AI-driven tools offer this clarity by integrating and analyzing data from various sources. Solutions like&nbsp;&nbsp;<Link id="use-cases-marketing-ai-driven-lead-scoring-lede-apollo" href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo" className="text-[#C83803] hover:underline">Apollo</Link>&nbsp;&nbsp;and&nbsp;
         LeadSquared
         &nbsp;not only organize your leads but also rank them by potential value, allowing you to focus on what truly drives your business forward.
       </p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id="use-cases-marketing-ai-driven-lead-scoring-lede-blog" href="/blog/marketing/how-ai-powered-lead-scoring-can-boost-your-sales-funnel" className="text-[#C83803] hover:underline">How AI-Powered Lead Scoring Can Boost Your Sales Funnel</Link> on our blog.</p>
     </>
   );
 

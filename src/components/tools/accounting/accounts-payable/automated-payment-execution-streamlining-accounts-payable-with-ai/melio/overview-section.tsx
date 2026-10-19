@@ -13,7 +13,7 @@ export default function OverviewSection() {
         manual process is a necessary evil, a relic of traditional accounting practices that seems
         unavoidable.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Enter automated payment execution. By streamlining&nbsp;
+        Enter automated&nbsp;<Link id="tools-accounting-payment-execution-melio-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>. By streamlining&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;with&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven tools, businesses like Lisa&#39;s can eliminate the
         repetitive tasks that bog down their operations. Automated systems handle the bulk of the workload,

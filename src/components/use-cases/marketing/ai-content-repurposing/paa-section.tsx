@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PAASection() {
@@ -13,7 +14,7 @@ export default function PAASection() {
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-to-automate-content-creation">How to Automate Content Creation?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Automating content creation involves using AI tools that can generate or transform content based on specific inputs. These tools can analyze existing materials and create new formats such as blog posts, social media updates, or newsletters. By setting predefined rules and templates, businesses can ensure consistent quality and style. This process saves time and reduces the need for manual content generation, allowing teams to focus on strategic tasks.</p>
+              Automating content creation involves using AI tools that can generate or transform content based on specific inputs. These tools can analyze existing materials and create new formats such as blog posts, social media updates, or newsletters. By setting predefined rules and templates, businesses can ensure consistent quality and style. This process saves time and reduces the need for manual&nbsp;<Link id="use-cases-marketing-ai-content-repurposing-paa-automated-content-generation" href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing" className="text-[#0B162A] hover:underline">content generation</Link>, allowing teams to focus on strategic tasks.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-are-some-effective-ai-tools-for-repurposing-content">What are some effective AI tools for repurposing content?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">

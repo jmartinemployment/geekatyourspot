@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function LedeSection() {
   const body = (
     <>
@@ -51,11 +53,12 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         This page breaks down what’s really going wrong in most local sales teams: the hours lost to bad data,
         the deals lost to slow follow-up, and the simple truth that most of your best-fit buyers never fill
-        out a form. We will show exactly how an automated lead capture pipeline works, what it takes to build
+        out a form. We will show exactly how an automated&nbsp;<Link id="use-cases-marketing-lead-enrichment-lede-intelligent-lead-capture" href="/use-cases/marketing/intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">lead capture pipeline</Link>&nbsp;works, what it takes to build
         one that fits your current systems, and how to avoid the traps that stall these projects in small
         business environments. You will see how to go from chasing cold leads to working a live, always-on
         pipeline of high-intent local accounts, without hiring more staff or adding complexity your team
         cannot manage.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-lead-enrichment-lede-blog" href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">Lead Enrichment and Predictive Scoring: How South Florida SMBs Can Turn More Leads Into Sales</Link> on our blog.</p>
     </>
   );
 

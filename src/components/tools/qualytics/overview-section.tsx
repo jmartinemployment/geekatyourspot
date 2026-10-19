@@ -11,8 +11,7 @@ export default function OverviewToolSection() {
                 Overview</h2>
                 </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>
-                decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
+              <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
                 data feeding into your ad platforms is clean, consistent, and actionable. This is especially important for
                 businesses in Palm Beach and Broward counties looking to maximize their marketing budgets without the usual pitfalls
                 of manual ad management.</p>
@@ -40,8 +39,7 @@ export default function OverviewToolSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview</h2>
-              <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>
-                decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
+              <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
                 data feeding into your ad platforms is clean, consistent, and actionable. This is especially important for
                 businesses in Palm Beach and Broward counties looking to maximize their marketing budgets without the usual pitfalls
                 of manual ad management.</p>

@@ -25,8 +25,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-does-ai-maintain-a-consistent-brand-voice">How does AI maintain a consistent brand voice?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               AI maintains a consistent brand voice by analyzing existing content to understand the tone, style, and language
-              preferences. It uses this analysis to generate new content that aligns with the established brand voice. Tools like
-              <GlossaryLink slug="natural-language-processing">natural language processing</GlossaryLink> (NLP) help ensure that all content pieces reflect the same personality and message,
+              preferences. It uses this analysis to generate new content that aligns with the established brand voice. Tools like&nbsp;<GlossaryLink slug="natural-language-processing">natural language processing</GlossaryLink> (NLP) help ensure that all content pieces reflect the same personality and message,
               reducing the risk of inconsistencies.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-can-ai-help-in-repurposing-content">How can AI help in repurposing content?</h3>

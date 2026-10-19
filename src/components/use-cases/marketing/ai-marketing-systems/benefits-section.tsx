@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { px } from "motion/react";
 import Image from "next/image";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
@@ -34,7 +35,7 @@ export default function BenefitsSection() {
                 to current market dynamics.</li>
               <li><GlossaryLink slug="chatbot" className="text-[#0B162A] hover:underline">Chatbots</GlossaryLink> and virtual assistants handle customer inquiries around the clock, freeing up staff to focus on complex
                 tasks and improving customer satisfaction with instant responses.</li>
-              <li>Content generation tools produce tailored content at scale, cutting down the time spent on content creation and
+              <li><Link id="use-cases-marketing-ai-marketing-systems-benefits-automated-content-generation" href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing" className="text-[#0B162A] hover:underline">Content generation</Link>&nbsp;tools produce tailored content at scale, cutting down the time spent on content creation and
                 allowing for more consistent brand messaging across channels.</li>
             </ul>
           </div>

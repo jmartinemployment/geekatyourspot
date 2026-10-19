@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
@@ -48,7 +49,7 @@ export default function ComparingSection() {
         not a generic fit score or a one-size-fits-all rule. It lets a business dial in the model to match
         their actual sales process, so the daily hit-list reflects real buying intent, not just website noise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those considering tools like 6sense, ActiveCampaign, or Clearbit, the key difference is that
+        For those considering tools like&nbsp;<Link id="tools-marketing-lead-enrichment-leadfeeder-comparing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>,&nbsp;<Link id="tools-marketing-lead-enrichment-leadfeeder-comparing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>, or Clearbit, the key difference is that
         Leadfeeder is purpose-built for the SMB use-case: quick setup, minimal IT lift, and a
         pay-for-what-you-use model. Some platforms are better suited for enterprise stacks with dedicated
         RevOps teams and custom data lakes. Leadfeeder’s architecture is designed to deliver value in days,

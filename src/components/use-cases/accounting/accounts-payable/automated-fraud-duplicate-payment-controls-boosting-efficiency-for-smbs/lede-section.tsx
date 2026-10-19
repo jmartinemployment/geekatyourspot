@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
@@ -22,8 +23,9 @@ export default function LedeSection() {
         processing time. Businesses can now focus on growth rather than firefighting administrative issues.
         With automation, the risk of fraud diminishes, compliance improves, and the tedious task of invoice
         management becomes a seamless operation. This page will walk you through how automated controls can
-        redefine your accounts payable, offering peace of mind and allowing your team to redirect their
+        redefine your&nbsp;<Link id="use-cases-accounting-fraud-controls-lede-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>, offering peace of mind and allowing your team to redirect their
         efforts to what truly matters.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-fraud-controls-lede-blog" href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">How AI Streamlines Fraud Detection in Accounts Payable</Link> on our blog.</p>
     </>
   );
 

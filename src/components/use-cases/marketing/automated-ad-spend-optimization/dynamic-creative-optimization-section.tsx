@@ -40,7 +40,7 @@ export default function DynamicCreativeOptimizationSection() {
               marketing goals and provide measurable results in terms of increased conversion rates and customer engagement.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalization-in-action">Personalization in Action</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink> is a core component of dynamic creative optimization. It involves tailoring ad content to meet the
+              <GlossaryLink slug="personalized-marketing">Personalization</GlossaryLink>&nbsp;is a core component of dynamic creative optimization. It involves tailoring ad content to meet the
               specific needs and preferences of individual users. This approach is more than just a buzzword; it&#39;s a practical
               strategy to enhance customer experience and drive sales.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">

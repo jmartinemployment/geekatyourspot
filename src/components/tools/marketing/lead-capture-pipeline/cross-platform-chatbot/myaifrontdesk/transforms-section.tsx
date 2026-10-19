@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
@@ -48,7 +49,7 @@ export default function TransformsSection() {
         so you can make decisions daily, not after the fact. There is no need to build separate reports or
         reconcile numbers across systems, My AI Front Desk does it as part of the workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Integration with HubSpot, Salesforce, and Pipedrive means conversation data flows directly to your
+        Integration with HubSpot, Salesforce, and&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-transforms-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>&nbsp;means conversation data flows directly to your
         existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, without extra effort from your team. The
         system auto-builds your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;from every interaction,
         powering dashboards and attribution without manual setup. Most businesses start seeing value within

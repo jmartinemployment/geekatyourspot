@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
@@ -22,7 +23,7 @@ export default function ArchitectureSection() {
         BotPenguin’s integration layer is extensive. It connects directly to leading CRMs like HubSpot,
         Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, Nutshell, and others, pushing qualified leads,
         mapped fields, and conversation histories into the systems your business already uses. The platform
-        also integrates with cloud telephony (like Voxloud), email marketing tools (Mailchimp), e-commerce
+        also integrates with cloud telephony (like Voxloud), email marketing tools (<Link id="tools-marketing-cross-platform-chatbot-botpenguin-architecture-mailchimp" href="/tools/marketing/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>), e-commerce
         (Shopify), and helpdesk software (Zendesk). Over 100 integrations are supported, so you can automate
         handoffs, trigger workflows, and sync data between your chat channels and every major business tool.</p>
       <p className="text-md text-white shadow-text pt-3">
