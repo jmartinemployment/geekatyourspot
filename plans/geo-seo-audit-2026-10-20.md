@@ -188,13 +188,22 @@ This is verified, and it is the navbar target for Marketing.
   - A Person entity linked from the Organization.
 
   The structured data track drafted a founder template with every unknown value left `null`.
+- **Rechecked on 2026-10-20 against `62169bd`, still open.** No H4 fix has been made. The same gap is SA M4 in `plans/seo-audit-2026-10-20.md`.
+  - The home page still names the business only in its footer copyright, and "40 years of engineering expertise" is still only in its meta description.
+  - `/about` and `/contact` still return 404, and there is still no email address on the site.
+  - Blog authors are now 11 "Editorial Team" Person nodes and 13 Organization nodes, down from 17 and 14. The seven posts deleted under SA H6 (`5f8619d`) carried the other 6 Person nodes and 1 Organization node.
+  - The files that carry the third-person boilerplate are the same ones as at the audit commit. A recount of visible page text finds "AI implementation consultancy" on 17 pages, against the 31 counted above. The site did not change, so the difference is in how the two counts matched the phrase.
+- **About page added on 2026-10-20 (`f914eee`), partly fixed.** The same change is SA M4 in `plans/seo-audit-2026-10-20.md`.
+  - `/about` names Jeff Martin as founder and CEO of Geek at Your Spot in Delray Beach, Florida, with his background and a timeline from 1982. "40 years of engineering expertise" is now visible copy there, not only the home meta description.
+  - It emits an `AboutPage` node and a `Person` node (`https://geekatyourspot.com/about#jeff-martin`) whose `worksFor` points at `#organization`. The footer's Resources list links it, and the sitemap lists it.
+  - Still open: the Organization node does not yet name the Person as `founder`, the home page still has no defining sentence, `/contact` still returns 404, there is no email address, and blog authors are still the Editorial Team.
 
 ### H5. Made-up people read as real case studies
 
 - **Unlabelled personas.** "Lisa Anderson, the owner of a boutique marketing agency in Miami" (`bill/overview-section.tsx:8`), "Maria Sanchez", "Lisa" and "Jane" appear with no "hypothetical" label at first mention.
 - **How common.** 40 pages open with "Picture" or "Imagine", 99 sections open with a scene instead of an answer, and only 30 pages say "hypothetical" anywhere.
 - **Fix.** Label each persona in its first sentence, or replace it with an anonymized real result. Put the answer before the story.
-- **Personas framed as examples on 2026-10-20.** Every named persona on the site is now introduced as an example in the sentence that first names it, on 10 pages: Maria Sanchez (Bill accounts receivable), Maria (Float, and the spreadsheet data pillar), Lisa Anderson (Bill approval workflows), Lisa (AvidXchange, Melio, and the payment execution pillar), Jane (the approval workflows pillar), Emma (TaxJar) and Sarah (the data entry pillar).
+- **Personas framed as examples on 2026-10-20 (`3879807`).** Every named persona on the site is now introduced as an example in the sentence that first names it, on 10 pages: Maria Sanchez (Bill accounts receivable), Maria (Float, and the spreadsheet data pillar), Lisa Anderson (Bill approval workflows), Lisa (AvidXchange, Melio, and the payment execution pillar), Jane (the approval workflows pillar), Emma (TaxJar) and Sarah (the data entry pillar).
   - The opening sentence now starts with "Take the example of", as in "Take the example of Jane, the owner of a small but growing business in West Palm Beach", or with "Consider" and an "owner like" phrase, as in "Consider a local boutique owner like Emma". There is no label or disclaimer. The location and the persona's line of work are kept, and the paragraph is shared by both breakpoint blocks, so the mobile and desktop copies both carry it.
   - "Morgan" on the Rytr page is a real client from Rytr's own published case study, so it is unchanged.
   - Still open: the scene-first openings. 40 pages open with "Picture" or "Imagine", and 99 sections open with a scene instead of an answer.
