@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { MetadataRoute } from "next";
 import { listEntries } from "@/lib/content-writer-disabled2/content-disabled";
+import { HAND_CODED_POSTS } from "@/data/blog/hand-coded-posts";
 import { getAllGlossaryTerms } from "@/lib/glossary";
 
 const BASE_URL = "https://geekatyourspot.com";
@@ -30,19 +31,28 @@ function staticRoutes(dir: string, segments: string[] = []): string[] {
   return routes;
 }
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date();
+/**
+ * `lastModified` is set only where the page carries a real date: a post's own date. Every other
+ * page has none to give, so it is left out rather than stamped with the build time, which would
+ * mark all of them modified on every deploy.
+ */
+const HAND_CODED_POST_DATES = new Map(HAND_CODED_POSTS.map((post) => [post.href, post.date]));
 
-  const pages = staticRoutes(APP_DIR).map((route) => ({
-    url: `${BASE_URL}${route === "/" ? "" : route}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: route === "/" ? 1 : route.split("/").length <= 2 ? 0.8 : 0.6,
-  }));
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const pages = staticRoutes(APP_DIR).map((route) => {
+    const date = HAND_CODED_POST_DATES.get(route);
+
+    return {
+      url: `${BASE_URL}${route === "/" ? "" : route}`,
+      ...(date ? { lastModified: new Date(date) } : {}),
+      changeFrequency: "monthly" as const,
+      priority: route === "/" ? 1 : route.split("/").length <= 2 ? 0.8 : 0.6,
+    };
+  });
 
   const posts = listEntries("blog").map((post) => ({
     url: post.href.startsWith("http") ? post.href : `${BASE_URL}${post.href}`,
-    lastModified: post.date ? new Date(post.date) : now,
+    ...(post.date ? { lastModified: new Date(post.date) } : {}),
     changeFrequency: "weekly" as const,
     priority: 0.7,
   }));
@@ -50,7 +60,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const glossaryTerms = await getAllGlossaryTerms();
   const glossaryPages = glossaryTerms.map((term) => ({
     url: `${BASE_URL}/glossary/${term.slug}`,
-    lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.5,
   }));
