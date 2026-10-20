@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Streamline Lead Capture for South Florida Small Businesses";
+const TITLE = "Intelligent Receptionist";
 const DESCRIPTION =
     "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses";

@@ -61,7 +61,7 @@ export default function LedeSection() {
         and tools that promised more than they delivered, you are in the right place. This guide is built from
         the ground up for South Florida’s small business owners and finance leads who want to see, decide, and
         act, without getting stuck in another month-end crunch.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-intelligent-resource-planning-lede-blog" href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">How to Fix Cash Flow Headaches in South Florida</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-intelligent-resource-planning-lede-blog" href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> on our blog.</p>
     </>
   );
 
