@@ -97,11 +97,11 @@ const jsonLd = {
       "@type": "ImageObject",
       "@id": "https://geekatyourspot.com/#primaryimage",
       "inLanguage": "en-US",
-      "url": "https://geekatyourspot.com/images/action-figure.jpeg",
-      "contentUrl": "https://geekatyourspot.com/images/action-figure.jpeg",
+      "url": "https://geekatyourspot.com/images/home-hero.webp",
+      "contentUrl": "https://geekatyourspot.com/images/home-hero.webp",
       "width": 1024,
-      "height": 1536,
-      "caption": "Geek @ Your Spot LLC - AI-created action figure representing founder's hands-on approach to AI consulting"
+      "height": 1024,
+      "caption": "A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."
     }
   ]
 };

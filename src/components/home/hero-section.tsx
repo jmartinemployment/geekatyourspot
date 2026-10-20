@@ -53,15 +53,22 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen">
-              <Image
-                src="/images/action-figure.jpeg"
-                priority
-                width={512}
-                height={768}
-                loading="eager"
-                alt="Geek @ Your Spot LLC - AI-created action figure of me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
-                className="h-auto w-full"
-              />
+              {/* The AVIF and WebP files are encoded already, so they are served as they are: the
+                  browser takes the AVIF source when it can and falls back to the WebP. A preload would
+                  name only one of them, so the image loads eagerly at high priority instead. */}
+              <picture>
+                <source srcSet="/images/home-hero.avif" type="image/avif" />
+                <Image
+                  src="/images/home-hero.webp"
+                  unoptimized
+                  width={1024}
+                  height={1024}
+                  loading="eager"
+                  fetchPriority="high"
+                  alt="A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."
+                  className="h-auto w-full"
+                />
+              </picture>
             </div>
           </div>
         </div>
