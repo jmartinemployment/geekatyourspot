@@ -194,6 +194,10 @@ This is verified, and it is the navbar target for Marketing.
 - **Unlabelled personas.** "Lisa Anderson, the owner of a boutique marketing agency in Miami" (`bill/overview-section.tsx:8`), "Maria Sanchez", "Lisa" and "Jane" appear with no "hypothetical" label at first mention.
 - **How common.** 40 pages open with "Picture" or "Imagine", 99 sections open with a scene instead of an answer, and only 30 pages say "hypothetical" anywhere.
 - **Fix.** Label each persona in its first sentence, or replace it with an anonymized real result. Put the answer before the story.
+- **Personas framed as examples on 2026-10-20.** Every named persona on the site is now introduced as an example in the sentence that first names it, on 10 pages: Maria Sanchez (Bill accounts receivable), Maria (Float, and the spreadsheet data pillar), Lisa Anderson (Bill approval workflows), Lisa (AvidXchange, Melio, and the payment execution pillar), Jane (the approval workflows pillar), Emma (TaxJar) and Sarah (the data entry pillar).
+  - The opening sentence now starts with "Take the example of", as in "Take the example of Jane, the owner of a small but growing business in West Palm Beach", or with "Consider" and an "owner like" phrase, as in "Consider a local boutique owner like Emma". There is no label or disclaimer. The location and the persona's line of work are kept, and the paragraph is shared by both breakpoint blocks, so the mobile and desktop copies both carry it.
+  - "Morgan" on the Rytr page is a real client from Rytr's own published case study, so it is unchanged.
+  - Still open: the scene-first openings. 40 pages open with "Picture" or "Imagine", and 99 sections open with a scene instead of an answer.
 
 ### H6. Scaled template content shows
 
