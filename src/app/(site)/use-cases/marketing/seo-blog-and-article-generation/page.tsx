@@ -51,7 +51,7 @@ const jsonLd: Graph = {
                     "@id": "#software-claude"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase#software"
+                    "@id": "https://geekatyourspot.com/#software-frase"
                 },
                 {
                     "@id": "#software-hubspotai"
@@ -95,7 +95,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase#software"
+            "@id": "https://geekatyourspot.com/#software-frase"
         },
         {
             "@type": "SoftwareApplication",

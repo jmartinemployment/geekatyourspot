@@ -4,32 +4,32 @@ import OverviewToolSection from "@/components/tools/mailchimp/overview-section";
 import KeyCapabilitiesSection from "@/components/tools/mailchimp/key-capabilities";
 import ImplementationSection from "@/components/tools/mailchimp/implementation-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Mailchimp",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "description": "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
-    },
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#article",
+    "headline": "Mailchimp for AI Marketing Systems",
+    "description": "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/mailchimp" },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-mailchimp",
+        "name": "Mailchimp",
+        "url": "https://mailchimp.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Mailchimp",
+        title: "Mailchimp for AI Marketing Systems",
         description: "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
         keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/mailchimp',
         },
         openGraph: {
-            title: "Mailchimp",
+            title: "Mailchimp for AI Marketing Systems",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
             url: 'https://geekatyourspot.com/tools/marketing/mailchimp',
             siteName: 'Geek at Your Spot',
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Mailchimp",
+            title: "Mailchimp for AI Marketing Systems",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -84,7 +84,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Mailchimp AI Tool";
+    const title = "Mailchimp for AI Marketing Systems";
     const heroSummary = "Mailchimp offers AI-powered email marketing tools that streamline campaign creation and improve audience interaction.";
     return (
         <>

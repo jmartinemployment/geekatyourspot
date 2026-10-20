@@ -17,6 +17,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Upflow";
+const PAGE_TITLE = "Upflow for Intelligent Accounts Receivable";
 const DESCRIPTION =
     "Automate accounts receivable with Upflow for better cash flow in Miami-Dade, Broward, and West Palm Beach.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow";
@@ -26,18 +27,21 @@ const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "SoftwareApplication",
-            "name": TITLE,
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
+            "@type": "TechArticle",
+            "@id": `${PAGE_URL}#article`,
+            "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Upflow, automated accounts receivable, cash flow forecasting, payment collection software, Stripe Billing integration, Billing Cohort Cash Forecast, Promises-to-Pay, dispute management, payment portal, native integrations, automated customer emails, live forecasting data",
-            "subjectOf": {
-                "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai"
-            },
-            "@id": `${PAGE_URL}#software`
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "about": {
+                "@type": "Thing",
+                "@id": "https://geekatyourspot.com/#software-upflow",
+                "name": TITLE,
+                "url": "https://upflow.io/",
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai#article" }
+            }
         },
         {
             "@type": "FAQPage",
@@ -65,7 +69,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["Upflow", "automated accounts receivable", "cash flow forecasting", "payment collection software", "Stripe Billing integration", "Billing Cohort Cash Forecast"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -74,7 +78,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -84,7 +88,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -106,7 +110,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={TITLE} summary={heroSummary} />
+            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />

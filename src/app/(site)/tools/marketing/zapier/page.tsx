@@ -5,31 +5,31 @@ import KeyCapabilitiesSection from "@/components/tools/zapier/key-capabilities";
 import ImplementationSection from "@/components/tools/zapier/implementation-section";
 import WhenToUseSection from "@/components/tools/zapier/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Zapier",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/zapier#article",
+    "headline": "Zapier for AI Content Repurposing",
     "description": "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/zapier"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/zapier" },
     "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/zapier#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-zapier",
+        "name": "Zapier",
+        "url": "https://zapier.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "Zapier",
+        title: "Zapier for AI Content Repurposing",
         description: "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
         keywords: ["AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/zapier',
         },
         openGraph: {
-            title: "Zapier",
+            title: "Zapier for AI Content Repurposing",
             description: "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
             url: 'https://geekatyourspot.com/tools/marketing/zapier',
             siteName: 'Geek at Your Spot',
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Zapier",
+            title: "Zapier for AI Content Repurposing",
             description: "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -84,7 +84,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Zapier AI Tool";
+    const title = "Zapier for AI Content Repurposing";
     const heroSummary = "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.";
     return (
         <>

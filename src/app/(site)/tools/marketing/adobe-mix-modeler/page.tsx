@@ -5,32 +5,32 @@ import KeyCapabilitiesSection from "@/components/tools/adobe-mix-modeler/key-cap
 import ImplementationSection from "@/components/tools/adobe-mix-modeler/implementation-section";
 import WhenToUseSection from "@/components/tools/adobe-mix-modeler/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Adobe Mix Modeler",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#article",
+    "headline": "Adobe Mix Modeler for Automated Ad Spend Optimization",
     "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler",
+        "name": "Adobe Mix Modeler",
+        "url": "https://business.adobe.com/products/mix-modeler.html",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Adobe Mix Modeler",
+        title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
         description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -41,7 +41,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/adobe-mix-modeler',
         },
         openGraph: {
-            title: "Adobe Mix Modeler",
+            title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
             url: 'https://geekatyourspot.com/tools/marketing/adobe-mix-modeler',
             siteName: 'Geek at Your Spot',
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Adobe Mix Modeler",
+            title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Adobe Mix Modeler AI Tool";
+    const title = "Adobe Mix Modeler for Automated Ad Spend Optimization";
     const heroSummary = "Achieve superior ad spend optimization with Adobe Mix Modeler, utilizing machine learning for precision and efficiency.";
     return (
         <>

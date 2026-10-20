@@ -58,7 +58,7 @@ const jsonLd: Graph = {
                     "@id": "#software-adcreativeai"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
+                    "@id": "https://geekatyourspot.com/#software-jasper"
                 },
                 {
                     "@id": "#software-google-ads-smart-bidding"
@@ -70,31 +70,31 @@ const jsonLd: Graph = {
                     "@id": "#software-salesforce-einstein"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/madgicx#software"
+                    "@id": "https://geekatyourspot.com/#software-madgicx"
                 },
                 {
                     "@id": "#software-basis-technologies"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#software"
+                    "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/optimove#software"
+                    "@id": "https://geekatyourspot.com/#software-optimove"
                 },
                 {
                     "@id": "#software-tableau-ai-adobe-analytics"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo#software"
+                    "@id": "https://geekatyourspot.com/#software-monte-carlo"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/anomalo#software"
+                    "@id": "https://geekatyourspot.com/#software-anomalo"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/great-expectations#software"
+                    "@id": "https://geekatyourspot.com/#software-great-expectations"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/qualytics#software"
+                    "@id": "https://geekatyourspot.com/#software-qualytics"
                 }
             ]
         },
@@ -140,7 +140,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
+            "@id": "https://geekatyourspot.com/#software-jasper"
         },
         {
             "@type": "SoftwareApplication",
@@ -176,7 +176,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/madgicx"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/madgicx#software"
+            "@id": "https://geekatyourspot.com/#software-madgicx"
         },
         {
             "@type": "SoftwareApplication",
@@ -196,7 +196,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#software"
+            "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler"
         },
         {
             "@type": "SoftwareApplication",
@@ -208,7 +208,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/optimove"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/optimove#software"
+            "@id": "https://geekatyourspot.com/#software-optimove"
         },
         {
             "@type": "SoftwareApplication",
@@ -228,7 +228,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo#software"
+            "@id": "https://geekatyourspot.com/#software-monte-carlo"
         },
         {
             "@type": "SoftwareApplication",
@@ -240,7 +240,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/anomalo"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/anomalo#software"
+            "@id": "https://geekatyourspot.com/#software-anomalo"
         },
         {
             "@type": "SoftwareApplication",
@@ -252,7 +252,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/great-expectations"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/great-expectations#software"
+            "@id": "https://geekatyourspot.com/#software-great-expectations"
         },
         {
             "@type": "SoftwareApplication",
@@ -264,7 +264,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/qualytics"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/qualytics#software"
+            "@id": "https://geekatyourspot.com/#software-qualytics"
         }
     ]
 };

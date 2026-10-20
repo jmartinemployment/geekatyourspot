@@ -17,6 +17,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Manychat";
+const PAGE_TITLE = "Manychat as a Cross-Platform Chatbot";
 const DESCRIPTION =
     "Cross-Platform Chatbot Manychat helps small businesses unify chats and automate lead capture across Instagram, WhatsApp and Messenger in South Florida.";
 const CANONICAL = "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat";
@@ -26,18 +27,21 @@ const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "SoftwareApplication",
-            "name": TITLE,
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
+            "@type": "TechArticle",
+            "@id": `${PAGE_URL}#article`,
+            "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Manychat, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
-            "subjectOf": {
-                "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
-            },
-            "@id": `${PAGE_URL}#software`
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "about": {
+                "@type": "Thing",
+                "@id": "https://geekatyourspot.com/#software-manychat",
+                "name": TITLE,
+                "url": "https://manychat.com/",
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide#article" }
+            }
         },
         {
             "@type": "FAQPage",
@@ -57,7 +61,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["Manychat", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -66,7 +70,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -76,7 +80,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -98,7 +102,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={TITLE} summary={heroSummary} />
+            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />

@@ -5,31 +5,31 @@ import KeyCapabilitiesSection from "@/components/tools/marketing/active-campaign
 import ImplementationSection from "@/components/tools/marketing/active-campaign/implementation-section";
 import WhenToUseSection from "@/components/tools/marketing/active-campaign/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "ActiveCampaign",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#article",
+    "headline": "ActiveCampaign for AI Lead Scoring",
     "description": "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/active-campaign" },
     "keywords": "Lead Scoring",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-activecampaign",
+        "name": "ActiveCampaign",
+        "url": "https://www.activecampaign.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "ActiveCampaign",
+        title: "ActiveCampaign for AI Lead Scoring",
         description: "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
         keywords: ["Lead Scoring"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/active-campaign',
         },
         openGraph: {
-            title: "ActiveCampaign",
+            title: "ActiveCampaign for AI Lead Scoring",
             description: "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
             url: 'https://geekatyourspot.com/tools/marketing/active-campaign',
             siteName: 'Geek at Your Spot',
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "ActiveCampaign",
+            title: "ActiveCampaign for AI Lead Scoring",
             description: "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -84,7 +84,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "ActiveCampaign";
+    const title = "ActiveCampaign for AI Lead Scoring";
     const summary = "Boost your sales efficiency with ActiveCampaign's AI-driven lead scoring, designed to prioritize and engage high-potential leads.";
     return (
         <>

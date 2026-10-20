@@ -13,6 +13,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Bill";
+const PAGE_TITLE = "Bill for Intelligent Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Automate fraud detection and prevent duplicate payments with Bill's advanced controls for small businesses.";
 const CANONICAL = "/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill";
@@ -22,18 +23,21 @@ const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "SoftwareApplication",
-            "name": TITLE,
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
+            "@type": "TechArticle",
+            "@id": `${PAGE_URL}#article`,
+            "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Bill, automated fraud and duplicate payment controls, accounts payable automation, duplicate invoice detection, invoice matching, purchase order matching, approval workflows, QuickBooks integration, Xero integration, predictive AI fraud prevention, audit trail, AI implementation",
-            "subjectOf": {
-                "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
-            },
-            "@id": `${PAGE_URL}#software`
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "about": {
+                "@type": "Thing",
+                "@id": "https://geekatyourspot.com/#software-bill",
+                "name": TITLE,
+                "url": "https://www.bill.com/",
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs#article" }
+            }
         },
         {
             "@type": "FAQPage",
@@ -55,7 +59,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["Bill", "automated fraud and duplicate payment controls", "accounts payable automation", "duplicate invoice detection", "invoice matching", "approval workflows"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -64,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -74,7 +78,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -96,7 +100,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={TITLE} summary={heroSummary} />
+            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <ChallengesSection />
             <SimplifiesSection />

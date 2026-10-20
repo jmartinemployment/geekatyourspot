@@ -5,32 +5,32 @@ import KeyCapabilitiesSection from "@/components/tools/great-expectations/key-ca
 import ImplementationSection from "@/components/tools/great-expectations/implementation-section";
 import WhenToUseSection from "@/components/tools/great-expectations/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Great Expectations",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/great-expectations#article",
+    "headline": "Great Expectations for Automated Ad Spend Optimization",
     "description": "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/great-expectations"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/great-expectations" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/great-expectations#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-great-expectations",
+        "name": "Great Expectations",
+        "url": "https://greatexpectations.io/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Great Expectations",
+        title: "Great Expectations for Automated Ad Spend Optimization",
         description: "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -41,7 +41,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/great-expectations',
         },
         openGraph: {
-            title: "Great Expectations",
+            title: "Great Expectations for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
             url: 'https://geekatyourspot.com/tools/marketing/great-expectations',
             siteName: 'Geek at Your Spot',
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Great Expectations",
+            title: "Great Expectations for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Great Expectations AI Tool";
+    const title = "Great Expectations for Automated Ad Spend Optimization";
     const heroSummary = "Great Expectations validates data for automated ad spend optimization, enhancing marketing efficiency.";
     return (
         <>

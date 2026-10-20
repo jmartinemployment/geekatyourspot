@@ -5,32 +5,32 @@ import KeyCapabilitiesSection from "@/components/tools/qualytics/key-capabilitie
 import ImplementationSection from "@/components/tools/qualytics/implementation-section";
 import WhenToUseSection from "@/components/tools/qualytics/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Qualytics",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/qualytics#article",
+    "headline": "Qualytics for Automated Ad Spend Optimization",
     "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/qualytics"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/qualytics" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/qualytics#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-qualytics",
+        "name": "Qualytics",
+        "url": "https://qualytics.ai/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Qualytics",
+        title: "Qualytics for Automated Ad Spend Optimization",
         description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -41,7 +41,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/qualytics',
         },
         openGraph: {
-            title: "Qualytics",
+            title: "Qualytics for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
             url: 'https://geekatyourspot.com/tools/marketing/qualytics',
             siteName: 'Geek at Your Spot',
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Qualytics",
+            title: "Qualytics for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Qualytics AI Tool";
+    const title = "Qualytics for Automated Ad Spend Optimization";
     const heroSummary = "Optimize ad spend with Qualytics by automating data quality checks for precise and reliable marketing decisions.";
     return (
         <>

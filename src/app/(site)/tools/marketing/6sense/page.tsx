@@ -5,31 +5,31 @@ import KeyCapabilitiesSection from "@/components/tools/marketing/6sense/key-capa
 import ImplementationSection from "@/components/tools/marketing/6sense/implementation-section";
 import WhenToUseSection from "@/components/tools/marketing/6sense/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "6sense",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/6sense#article",
+    "headline": "6sense for AI Lead Scoring",
     "description": "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/6sense"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/6sense" },
     "keywords": "Lead Scoring",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/6sense#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-6sense",
+        "name": "6sense",
+        "url": "https://6sense.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "6sense",
+        title: "6sense for AI Lead Scoring",
         description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
         keywords: ["Lead Scoring"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/6sense',
         },
         openGraph: {
-            title: "6sense",
+            title: "6sense for AI Lead Scoring",
             description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
             url: 'https://geekatyourspot.com/tools/marketing/6sense',
             siteName: 'Geek at Your Spot',
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "6sense",
+            title: "6sense for AI Lead Scoring",
             description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -84,7 +84,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "6sense";
+    const title = "6sense for AI Lead Scoring";
     const summary = "Transform your sales process with 6sense's AI-powered lead scoring, focusing on high-conversion leads.";
     return (
         <>

@@ -8,34 +8,38 @@ import DeployingSection from "@/components/tools/accounting/accounts-payable/aut
 import EvaluatingSection from "@/components/tools/accounting/accounts-payable/automated-approval-workflows/stampli/evaluating-section";
 import RightChoiceSection from "@/components/tools/accounting/accounts-payable/automated-approval-workflows/stampli/right-choice-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Stampli";
+const PAGE_TITLE = "Stampli for Intelligent Approval Workflows";
 const DESCRIPTION =
     "Transform your AP process with Stampli's automated approval workflows for faster, error-free operations.";
 const CANONICAL = "/tools/accounting/accounts-payable/automated-approval-workflows/stampli";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
-const jsonLd: WithContext<SoftwareApplication> = {
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": TITLE,
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+    "@type": "TechArticle",
+    "@id": `${PAGE_URL}#article`,
+    "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
     "keywords": "Stampli, automated approval workflows, accounts payable automation, invoice approval, predefined approval routing, ERP integration, purchase orders, AI-powered invoice processing, audit trails, AI implementation",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable"
-    },
-    "@id": `${PAGE_URL}#software`
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-stampli",
+        "name": TITLE,
+        "url": "https://www.stampli.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["Stampli", "automated approval workflows", "accounts payable automation", "invoice approval", "predefined approval routing", "ERP integration"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -44,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -54,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -76,7 +80,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={TITLE} summary={heroSummary} />
+            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <CostOfManualSection />
             <TransformsSection />

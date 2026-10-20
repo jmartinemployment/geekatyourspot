@@ -8,43 +8,38 @@ import ImplementationSection from "@/components/tools/accounting/accounts-payabl
 import EvaluatingSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/evaluating-section";
 import RightFitSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/bill/right-fit-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Bill";
+const PAGE_TITLE = "Bill for Intelligent Data Entry & Processing";
 const DESCRIPTION =
     "Bill automates invoice processing, approvals, and expense management, with AI-powered invoice coding and configurable approval workflows.";
 const CANONICAL = "/tools/accounting/accounts-payable/automated-data-entry-processing/bill";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
-const jsonLd: WithContext<SoftwareApplication> = {
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": TITLE,
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+    "@type": "TechArticle",
+    "@id": `${PAGE_URL}#article`,
+    "headline": PAGE_TITLE,
     "description": DESCRIPTION,
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": PAGE_URL
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
     "keywords": "Bill, accounts payable automation, invoice coding, approval workflows, expense management, PO matching, payment processing, fraud detection, QuickBooks integration, AI implementation",
-    "offers": {
-        "@type": "Offer",
-        "price": "49",
-        "priceCurrency": "USD",
-        "description": "Published pricing starting at $49 per user per month."
-    },
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing"
-    },
-    "@id": `${PAGE_URL}#software`
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-bill",
+        "name": TITLE,
+        "url": "https://www.bill.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: [
             "Bill",
@@ -62,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: CANONICAL,
         },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -79,7 +74,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -115,7 +110,7 @@ export default async function Page() {
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
-                title={TITLE}
+                title={PAGE_TITLE}
                 summary={heroSummary} />
             <OverviewSection />
             <ManualApChallengesSection />

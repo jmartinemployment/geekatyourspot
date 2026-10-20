@@ -46,10 +46,10 @@ const jsonLd: Graph = {
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article",
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
+                    "@id": "https://geekatyourspot.com/#software-jasper"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy#software"
+                    "@id": "https://geekatyourspot.com/#software-copy-ai"
                 },
                 {
                     "@id": "#software-chatgpt"
@@ -58,7 +58,7 @@ const jsonLd: Graph = {
                     "@id": "#software-claude"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
+                    "@id": "https://geekatyourspot.com/#software-contentstudio"
                 }
             ]
         },
@@ -72,7 +72,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
+            "@id": "https://geekatyourspot.com/#software-jasper"
         },
         {
             "@type": "SoftwareApplication",
@@ -84,7 +84,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy#software"
+            "@id": "https://geekatyourspot.com/#software-copy-ai"
         },
         {
             "@type": "SoftwareApplication",
@@ -112,7 +112,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/contentstudio"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
+            "@id": "https://geekatyourspot.com/#software-contentstudio"
         }
     ]
 };

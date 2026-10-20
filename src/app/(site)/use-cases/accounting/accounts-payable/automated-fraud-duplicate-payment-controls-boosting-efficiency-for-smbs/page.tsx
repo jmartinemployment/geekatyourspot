@@ -41,9 +41,9 @@ const jsonLd: Graph = {
             "mentions": [
                 { "@id": `${TOOLS_BASE}/medius#software` },
                 { "@id": `${TOOLS_BASE}/tipalti#software` },
-                { "@id": "https://geekatyourspot.com/tools/accounting/accounts-payable/automated-approval-workflows/stampli#software" },
+                { "@id": "https://geekatyourspot.com/#software-stampli" },
                 { "@id": `${TOOLS_BASE}/bill#software` },
-                { "@id": "https://geekatyourspot.com/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp#software" }
+                { "@id": "https://geekatyourspot.com/#software-ramp" }
             ]
         },
         {

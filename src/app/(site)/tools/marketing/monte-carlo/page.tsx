@@ -5,32 +5,32 @@ import KeyCapabilitiesSection from "@/components/tools/monte-carlo/key-capabilit
 import ImplementationSection from "@/components/tools/monte-carlo/implementation-section";
 import WhenToUseSection from "@/components/tools/monte-carlo/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Monte Carlo",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo#article",
+    "headline": "Monte Carlo for Automated Ad Spend Optimization",
     "description": "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-monte-carlo",
+        "name": "Monte Carlo",
+        "url": "https://montecarlo.ai/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Monte Carlo",
+        title: "Monte Carlo for Automated Ad Spend Optimization",
         description: "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -41,7 +41,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/monte-carlo',
         },
         openGraph: {
-            title: "Monte Carlo",
+            title: "Monte Carlo for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
             url: 'https://geekatyourspot.com/tools/marketing/monte-carlo',
             siteName: 'Geek at Your Spot',
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Monte Carlo",
+            title: "Monte Carlo for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Monte Carlo AI Tool";
+    const title = "Monte Carlo for Automated Ad Spend Optimization";
     const heroSummary = "Monte Carlo enhances ad spend strategies with automated optimization and data accuracy.";
     return (
         <>

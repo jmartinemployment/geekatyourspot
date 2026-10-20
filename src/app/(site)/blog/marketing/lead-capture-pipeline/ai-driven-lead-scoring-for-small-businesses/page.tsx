@@ -42,19 +42,19 @@ const jsonLd: Graph = {
             "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article",
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
+                    "@id": "https://geekatyourspot.com/#software-activecampaign"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/pipedrive#software"
+                    "@id": "https://geekatyourspot.com/#software-pipedrive"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo#software"
+                    "@id": "https://geekatyourspot.com/#software-apollo"
                 },
                 {
                     "@id": "#software-leadsquared"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/6sense#software"
+                    "@id": "https://geekatyourspot.com/#software-6sense"
                 }
             ]
         },
@@ -68,7 +68,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
+            "@id": "https://geekatyourspot.com/#software-activecampaign"
         },
         {
             "@type": "SoftwareApplication",
@@ -80,7 +80,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/pipedrive"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/pipedrive#software"
+            "@id": "https://geekatyourspot.com/#software-pipedrive"
         },
         {
             "@type": "SoftwareApplication",
@@ -92,7 +92,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo#software"
+            "@id": "https://geekatyourspot.com/#software-apollo"
         },
         {
             "@type": "SoftwareApplication",
@@ -112,7 +112,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/6sense"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/6sense#software"
+            "@id": "https://geekatyourspot.com/#software-6sense"
         }
     ]
 };

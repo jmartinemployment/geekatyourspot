@@ -17,6 +17,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Anyword";
+const PAGE_TITLE = "Anyword for Intelligent Content Generation";
 const DESCRIPTION =
     "Intelligent Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and more affordably.";
 const CANONICAL = "/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword";
@@ -26,18 +27,21 @@ const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "SoftwareApplication",
-            "name": TITLE,
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
+            "@type": "TechArticle",
+            "@id": `${PAGE_URL}#article`,
+            "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Anyword, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "subjectOf": {
-                "@type": "Article",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses"
-            },
-            "@id": `${PAGE_URL}#software`
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "about": {
+                "@type": "Thing",
+                "@id": "https://geekatyourspot.com/#software-anyword",
+                "name": TITLE,
+                "url": "https://www.anyword.com/",
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+            }
         },
         {
             "@type": "FAQPage",
@@ -59,7 +63,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["Anyword", "intelligent content generation", "AI content generation", "AI writing tools", "content creation workflow", "South Florida small business"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -68,7 +72,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -78,7 +82,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -100,7 +104,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={TITLE} summary={heroSummary} />
+            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />

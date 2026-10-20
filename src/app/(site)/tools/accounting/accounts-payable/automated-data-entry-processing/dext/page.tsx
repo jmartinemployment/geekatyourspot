@@ -8,37 +8,38 @@ import ImplementationSection from "@/components/tools/accounting/accounts-payabl
 import EvaluatingSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/evaluating-section";
 import RightFitSection from "@/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/right-fit-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Dext";
+const PAGE_TITLE = "Dext for Intelligent Data Entry & Processing";
 const DESCRIPTION =
     "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.";
 const CANONICAL = "/tools/accounting/accounts-payable/automated-data-entry-processing/dext";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
-const jsonLd: WithContext<SoftwareApplication> = {
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": TITLE,
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+    "@type": "TechArticle",
+    "@id": `${PAGE_URL}#article`,
+    "headline": PAGE_TITLE,
     "description": DESCRIPTION,
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": PAGE_URL
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
     "keywords": "Dext, automated data entry, accounts payable automation, receipt capture, invoice processing, bookkeeping automation, AI Assist, data extraction, accounting integrations, AI implementation",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing"
-    },
-    "@id": `${PAGE_URL}#software`
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-dext",
+        "name": TITLE,
+        "url": "https://dext.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: TITLE,
+        title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: [
             "Dext",
@@ -56,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: CANONICAL,
         },
         openGraph: {
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
             siteName: 'Geek at Your Spot',
@@ -73,7 +74,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: TITLE,
+            title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -109,7 +110,7 @@ export default async function Page() {
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
             <ToolsHeroSection
-                title={TITLE}
+                title={PAGE_TITLE}
                 summary={heroSummary} />
             <OverviewSection />
             <ManualBookkeepingChallengesSection />

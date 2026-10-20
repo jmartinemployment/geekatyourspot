@@ -5,32 +5,32 @@ import KeyCapabilitiesSection from "@/components/tools/optimove/key-capabilities
 import ImplementationSection from "@/components/tools/optimove/implementation-section";
 import WhenToUseSection from "@/components/tools/optimove/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Optimove",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/optimove#article",
+    "headline": "Optimove for Automated Ad Spend Optimization",
     "description": "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/optimove"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/optimove" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/optimove#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-optimove",
+        "name": "Optimove",
+        "url": "https://www.optimove.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Optimove",
+        title: "Optimove for Automated Ad Spend Optimization",
         description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -41,7 +41,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/optimove',
         },
         openGraph: {
-            title: "Optimove",
+            title: "Optimove for Automated Ad Spend Optimization",
             description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
             url: 'https://geekatyourspot.com/tools/marketing/optimove',
             siteName: 'Geek at Your Spot',
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Optimove",
+            title: "Optimove for Automated Ad Spend Optimization",
             description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Optimove AI Tool";
+    const title = "Optimove for Automated Ad Spend Optimization";
     const heroSummary = "Optimove leverages AI to optimize ad spend, targeting the right audience and maximizing ROI.";
     return (
         <>

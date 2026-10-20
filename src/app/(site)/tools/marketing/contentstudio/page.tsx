@@ -5,31 +5,31 @@ import KeyCapabilitiesSection from "@/components/tools/contentstudio/key-capabil
 import ImplementationSection from "@/components/tools/contentstudio/implementation-section";
 import WhenToUseSection from "@/components/tools/contentstudio/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { WithContext, SoftwareApplication } from "schema-dts";
+import type { WithContext, TechArticle } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "ContentStudio",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#article",
+    "headline": "ContentStudio for AI Content Repurposing",
     "description": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/contentstudio"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/contentstudio" },
     "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-contentstudio",
+        "name": "ContentStudio",
+        "url": "https://contentstudio.io/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "ContentStudio",
+        title: "ContentStudio for AI Content Repurposing",
         description: "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
         keywords: ["AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/contentstudio',
         },
         openGraph: {
-            title: "ContentStudio",
+            title: "ContentStudio for AI Content Repurposing",
             description: "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
             url: 'https://geekatyourspot.com/tools/marketing/contentstudio',
             siteName: 'Geek at Your Spot',
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "ContentStudio",
+            title: "ContentStudio for AI Content Repurposing",
             description: "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -84,7 +84,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "ContentStudio AI Tool";
+    const title = "ContentStudio for AI Content Repurposing";
     const heroSummary = "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.";
     return (
         <>

@@ -5,32 +5,32 @@ import KeyCapabilitiesSection from "@/components/tools/anomalo/key-capabilities"
 import ImplementationSection from "@/components/tools/anomalo/implementation-section";
 import WhenToUseSection from "@/components/tools/anomalo/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { SoftwareApplication, WithContext } from "schema-dts";
+import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const jsonLd: WithContext<SoftwareApplication> = {
-    "@type": "SoftwareApplication",
-    "name": "Anomalo",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
+const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://geekatyourspot.com/tools/marketing/anomalo#article",
+    "headline": "Anomalo for Automated Ad Spend Optimization",
     "description": "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://geekatyourspot.com/tools/marketing/anomalo"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/anomalo" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "subjectOf": {
-        "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/anomalo#software"
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "about": {
+        "@type": "Thing",
+        "@id": "https://geekatyourspot.com/#software-anomalo",
+        "name": "Anomalo",
+        "url": "https://www.anomalo.com/",
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+    }
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Anomalo",
+        title: "Anomalo for Automated Ad Spend Optimization",
         description: "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
@@ -41,7 +41,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/anomalo',
         },
         openGraph: {
-            title: "Anomalo",
+            title: "Anomalo for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
             url: 'https://geekatyourspot.com/tools/marketing/anomalo',
             siteName: 'Geek at Your Spot',
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Anomalo",
+            title: "Anomalo for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
             creator: 'Geek at Your Spot',
             images: ['/images/GeekAtYourSpot.svg'],
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Anomalo AI Tool";
+    const title = "Anomalo for Automated Ad Spend Optimization";
     const heroSummary = "Ensure your ad spend is optimized with Anomalo's automated data quality solutions.";
     return (
         <>

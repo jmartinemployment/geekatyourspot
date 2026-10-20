@@ -48,10 +48,10 @@ const jsonLd: Graph = {
                     "@id": "#software-hubspot"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
+                    "@id": "https://geekatyourspot.com/#software-mailchimp"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
+                    "@id": "https://geekatyourspot.com/#software-activecampaign"
                 },
                 {
                     "@id": "#software-hootsuite"
@@ -79,7 +79,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
+            "@id": "https://geekatyourspot.com/#software-mailchimp"
         },
         {
             "@type": "SoftwareApplication",
@@ -91,7 +91,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
+            "@id": "https://geekatyourspot.com/#software-activecampaign"
         },
         {
             "@type": "SoftwareApplication",
