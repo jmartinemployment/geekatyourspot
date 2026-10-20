@@ -5,8 +5,9 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        In the heart of Miami-Dade, a local boutique owner, Emma, spends her weekends buried in spreadsheets,
-        manually updating tax rates for her online store. Each change in the&nbsp;<Link id="tools-accounting-complex-changing-laws-taxjar-overview-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;governing
+        Consider a local boutique owner like Emma, who runs her shop in the heart of Miami-Dade and spends her
+        weekends buried in spreadsheets, manually updating tax rates for her online store.
+        Each change in the&nbsp;<Link id="tools-accounting-complex-changing-laws-taxjar-overview-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;governing
         local taxes feels like a new hurdle. Her afternoons, instead of being dedicated to customer engagement
         or inventory management, are consumed by the relentless task of ensuring compliance. The risk of a
         miscalculation looms large, with potential fines threatening her already slim profit margins. The

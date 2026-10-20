@@ -5,8 +5,9 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every month, Lisa Anderson, the owner of a boutique marketing agency in Miami, finds herself tangled
-        in a web of invoices and approvals. Her small team spends hours each week manually sorting through
+        Consider a business owner like Lisa Anderson, who runs a boutique marketing agency in Miami and finds
+        herself tangled in a web of invoices and approvals every month. Her small team spends hours each week
+        manually sorting through
         payment requests, checking them against project budgets, and chasing down approvals from remote team
         members. The process is not only time-consuming but also fraught with errors and delays. This
         cumbersome system often results in missed deadlines and strained vendor relationships, costing the

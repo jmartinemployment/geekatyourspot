@@ -5,8 +5,8 @@ export default function LedeSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every Monday morning, Maria, a small business owner in Miami, starts her week by piecing together her
-        company&#39;s cash flow. She logs into multiple bank accounts, exports data from
+        Take the example of Maria, a small business owner in Miami who starts every Monday morning by piecing
+        together her company&#39;s cash flow. She logs into multiple bank accounts, exports data from
         her&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system, and wrestles with outdated Excel
         spreadsheets. By the time she sorts through the figures, they’re already stale. This manual process leaves
         her with a rearview mirror perspective, unable to confidently plan her next business move.</p>

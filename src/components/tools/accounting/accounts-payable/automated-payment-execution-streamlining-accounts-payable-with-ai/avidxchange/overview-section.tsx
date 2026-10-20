@@ -5,8 +5,8 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every week, small business owners like Lisa find themselves tangled in a maze of manual payment
-        processes. As the owner of a local bakery, Lisa spends hours each Friday printing checks, stuffing
+        Every week, small business owners find themselves tangled in a maze of manual payment processes. Take
+        the example of Lisa, who owns a local bakery and spends hours each Friday printing checks, stuffing
         envelopes, and mailing payments. This routine is not just time-consuming; it&#39;s fraught with
         potential errors and delays. A single typo can lead to bounced checks, causing strained supplier
         relationships and financial headaches. As her business grows, so does the stack of invoices, turning

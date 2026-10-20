@@ -4,8 +4,9 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every month, Maria Sanchez, owner of a small graphic design firm in Miami, finds herself drowning in unpaid
-        invoices. Her clients, many of whom are reliable local businesses, often delay payments, leaving Maria to
+        Take the example of Maria Sanchez, who owns a small graphic design firm in Miami and finds herself
+        drowning in unpaid invoices every month. Her clients, many of whom are reliable local businesses, often
+        delay payments, leaving Maria to
         juggle her cash flow. The tedious process of manually following up on each invoice consumes hours she could
         spend growing her business. As the end of the month approaches, Maria faces the daunting task of reconciling
         payments, sending reminders, and worrying about her bottom line.</p>

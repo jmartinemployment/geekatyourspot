@@ -5,7 +5,8 @@ export default function LedeSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every month, small business owner Lisa finds herself drowning in a sea of invoices. Each document
+        Take the example of Lisa, a small business owner who finds herself drowning in a sea of invoices every
+        month. Each document
         represents countless hours of manual data entry, potential errors, and the looming threat of late
         fees. For Lisa, the <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process has
         become a bottleneck, consuming time she doesn&#39;t have and creating stress she doesn&#39;t need.

@@ -5,8 +5,9 @@ export default function LedeSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every Monday morning, Jane, the owner of a small but growing business in West Palm Beach, finds
-        herself buried under a mountain of invoices. Each one demands careful scrutiny, matching line items to
+        Take the example of Jane, the owner of a small but growing business in West Palm Beach, who finds
+        herself buried under a mountain of invoices every Monday morning. Each one demands careful scrutiny,
+        matching line items to
         purchase orders and receipts. This manual process not only eats up valuable time but also increases
         the risk of errors that could cost her business thousands. Jane knows there must be a better way to
         handle this tedious task.</p>

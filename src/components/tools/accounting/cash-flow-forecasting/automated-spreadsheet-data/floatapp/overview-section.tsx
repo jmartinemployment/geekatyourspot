@@ -5,8 +5,9 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        In the heart of Miami&#39;s bustling business district, a small retail store owner, Maria, sits at her desk,
-        staring at a spreadsheet filled with daunting numbers. Her Profit &amp; Loss statement paints a rosy picture
+        Consider a small retail store owner like Maria, sitting at her desk in the heart of Miami&#39;s bustling
+        business district and staring at a spreadsheet filled with daunting numbers. Her Profit &amp; Loss
+        statement paints a rosy picture
         of growth and success, yet her bank account tells a different story. The discrepancy between the two is more
         than a simple oversight; it reflects a common struggle for small businesses: the gap between paper
         profitability and actual cash flow. Maria&#39;s optimism, based on projected profits, often leads her to

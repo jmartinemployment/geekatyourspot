@@ -5,8 +5,9 @@ export default function OverviewSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every month, small business owner Lisa spends countless hours poring over invoices, manually entering
-        payment details, and reconciling accounts. Each keystroke is fraught with the risk of error, and every
+        Consider a small business owner like Lisa, who spends countless hours every month poring over invoices,
+        manually entering payment details, and reconciling accounts. Each keystroke is fraught with the risk of
+        error, and every
         oversight can lead to late fees or damaged vendor relationships. It is a tedious cycle that drains
         time and resources, leaving little room for strategic growth or innovation. The cost is not just
         measured in dollars but in opportunities lost and stress gained. For Lisa, like many others, this
