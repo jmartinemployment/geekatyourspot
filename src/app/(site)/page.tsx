@@ -123,9 +123,6 @@ const jsonLd = {
       "datePublished": "2024-01-01",
       "breadcrumb": {
         "@id": "https://geekatyourspot.com/#breadcrumb"
-      },
-      "hasPart": {
-        "@id": "https://geekatyourspot.com/#faqpage"
       }
     },
     {
@@ -156,44 +153,6 @@ const jsonLd = {
       "width": 1024,
       "height": 1536,
       "caption": "Geek At Your Spot - AI-created action figure representing founder's hands-on approach to AI consulting"
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://geekatyourspot.com/#faqpage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What services does Geek at Your Spot offer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We design, build, and deploy AI systems tailored to your existing stack. Services include free AI assessment, system design, implementation, and business automation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the initial AI assessment really free?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we offer a free consultation to evaluate your business needs and AI opportunities with no obligation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the four-phase methodology?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our structured approach guides you from assessment through implementation, ensuring AI solutions fit seamlessly into your business operations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is your ideal client?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We specialize in working with small businesses in South Florida who want to leverage AI to scale without adding headcount, reduce manual work, and cut errors."
-          }
-        }
-      ]
     }
   ]
 };
