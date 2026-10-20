@@ -194,8 +194,8 @@ This is verified, and it is the navbar target for Marketing.
   - Blog authors are now 11 "Editorial Team" Person nodes and 13 Organization nodes, down from 17 and 14. The seven posts deleted under SA H6 (`5f8619d`) carried the other 6 Person nodes and 1 Organization node.
   - The files that carry the third-person boilerplate are the same ones as at the audit commit. A recount of visible page text finds "AI implementation consultancy" on 17 pages, against the 31 counted above. The site did not change, so the difference is in how the two counts matched the phrase.
 - **About page added on 2026-10-20 (`f914eee`), partly fixed.** The same change is SA M4 in `plans/seo-audit-2026-10-20.md`.
-  - `/about` names Jeff Martin as founder and CEO of Geek at Your Spot in Delray Beach, Florida, with his background and a timeline from 1982. "40 years of engineering expertise" is now visible copy there, not only the home meta description.
-  - It emits an `AboutPage` node and a `Person` node (`https://geekatyourspot.com/about#jeff-martin`) whose `worksFor` points at `#organization`. The footer's Resources list links it, and the sitemap lists it.
+  - `/about` names Jeff Martin as founder and CEO of Geek @ Your Spot LLC in Delray Beach, Florida, with his background and a timeline from 1982. "40 years of engineering expertise" is now visible copy there, not only the home meta description.
+  - It emits an `AboutPage` node and a `Person` node (`https://geekatyourspot.com/about#jeff-martin`) whose `worksFor` points at `#organization`. The footer's Resources list links it, and the sitemap lists it. The navbar's top row links it too (`09f3a2b`). The navbar builds its links only when the menu opens, so the footer link is the one crawlers see.
   - Still open: the Organization node does not yet name the Person as `founder`, the home page still has no defining sentence, `/contact` still returns 404, there is no email address, and blog authors are still the Editorial Team.
 
 ### H5. Made-up people read as real case studies
