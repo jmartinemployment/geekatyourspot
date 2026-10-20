@@ -66,12 +66,19 @@ These go on top of SA's launch steps.
 
    Either one avoids a redirect. The GitHub repo's homepage field also points at this host.
 3. **Keep security headers out of the `ALLOW_INDEXING` branch.** `next.config.ts` returns `[]` when the variable is `true`, so any header added to that list disappears at launch. The deployed site sends HSTS and no other security headers (no CSP, `X-Content-Type-Options`, `Referrer-Policy` or `Permissions-Policy`).
-4. **Set up Bing.** `src/app/layout.tsx:31` verifies Google only. ChatGPT search and Copilot draw on Bing's index. Verify in Bing Webmaster Tools (it can import from Search Console), submit the sitemap, and add an IndexNow key file.
-5. **Fix the GTM container first** (finding M6), so post-launch analytics start clean.
+4. **Bing.** Verified in Bing Webmaster Tools on 2026-10-20 through `public/BingSiteAuth.xml`, which must stay in place because Bing re-checks it. At launch, submit `/sitemap.xml` in Bing Webmaster Tools and add an IndexNow key file.
+5. **GTM container, done.** Version 15 was published on 2026-10-20 (finding M6).
 
 ## Critical
 
 ### C1. Tax and legal pages state wrong figures
+
+**Fixed on 2026-10-20.**
+- Every figure below was corrected against the state agency sites.
+- The nexus pillar now has a threshold table dated October 20, 2026, linking the Florida, Texas, New York and California agencies. The blog post has the same thresholds as a list.
+- The same county payroll tax claim was also corrected on pages this finding did not list: the payroll pillar, Justworks, and seven more Rippling sections.
+- Generic "$100,000 or 200 transactions" examples on the nexus tool pages were left as they are. They describe many states but not all of them.
+- The raw tool and use-case exports in `content-writer-output` were not edited, because nothing renders them.
 
 All of this is verified in the source.
 
@@ -134,6 +141,12 @@ This is verified, and it is the navbar target for Marketing.
 - **Fix.** Repair the two paragraphs, delete the non-answer and off-intent questions (and their FAQPage entries), and replace the copied paragraphs.
 
 ### H2. Tool pages contradict themselves and leak pipeline wording
+
+**Fixed on 2026-10-20.**
+- **Jasper.** The sentence saying no public API and the sentence about a "closed extension model" are deleted. The "partner data" pricing sentence now gives the price as of that date, with a link to Jasper's pricing page. The FAQ price, and its FAQPage entry, are dated too.
+- **Mailchimp.** The pillar's "Mailchimp doesn't support custom code development" clause is deleted, so it no longer contradicts the tool page.
+- **Leaked pipeline wording.** Six pricing sentences said "partner data" or "the research". Floatapp and Jasper are listed in this finding; Hootsuite, Apollo, Factors and Tipalti were not. Each sentence now states the vendor's published price as of October 20, 2026, with a link to the vendor's pricing page.
+- **Extent.** A scan of every tool page found no other page that both denies and claims API access.
 
 - **Jasper.**
   - `jasper/evaluating-section.tsx:32` says "Pricing for Jasper is not published in the partner data", while the page's FAQ gives $69 a month.
@@ -326,6 +339,12 @@ This is verified.
   - A GA4 event tag uses the Page Hostname as its event name.
   - The track also reported a "HomePageView" conversion firing on non-home pages and an Ads remarketing cookie. Neither is in the container file, so I have not confirmed them.
   - Fix: replace those tags with GA4 event tags that have constant names, such as `contact_click`.
+  - **Fixed on 2026-10-20 in container version 15.**
+    - Built from version 14 in a new workspace (22). Workspace 21, with its 297 unpublished changes, was left untouched and now shows as out of date.
+    - The four broken tags are deleted. The Google tag `G-WL9NJH8FLH` stays.
+    - New trigger "Link Click - gys-link" fires when the Click ID starts with `gys-link-`. New tag "GA4 Event - link_click" sends `click_id` and `link_url`. It was tested in Tag Assistant and arrived in GA4 DebugView.
+    - The trigger only sees links built with `gtmLinkId` (navbar, footer, heroes, home page, blog index). Body links on pillar and tool pages have other ids or none, so they are not tracked.
+    - Both reported items are now confirmed. `HomePageView` is a GA4 key event, not a GTM tag, and it fires on every page view, including `/use-cases/accounting`. The Ads remarketing hits come from the Google tag's `AW-18291254305` destination.
 - **M7. Mobile LCP is inconsistent.**
   - PageSpeed mobile LCP ranged from 2.1 to 8.2 seconds across runs. The AI Marketing Systems pillar scored 58 and 61, and other pages scored 90 to 95.
   - The H1 paints at first paint, so the delay comes from what loads before it:
