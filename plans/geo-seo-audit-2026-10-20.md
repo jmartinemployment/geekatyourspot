@@ -170,6 +170,7 @@ This is verified, and it is the navbar target for Marketing.
   - Remove the badges, or replace them with measured client results.
   - Link every figure to its primary source, with an "as of" date.
   - Rewrite the glossary examples as hypothetical ones.
+- **Glossary part fixed on 2026-10-20 (`25926fb`).** The H5 rewrite removed all 35 glossary examples, so none speaks in the first person. The badges, the Gartner line and the missing source links are still open.
 
 ### H4. Nobody is behind the business, and no sentence says what it is
 
@@ -363,6 +364,7 @@ This is verified.
   - The lead capture pillar asks about project pipelines.
   - The competing post pairs carry identical question sets.
   - Fix: keep only questions a buyer of the service would ask.
+  - **Competing pairs fixed on 2026-10-20 (`5f8619d`).** The posts that repeated a question set were deleted under SA H6. The AP and lead capture pillar questions are still open.
 - **M9. Titles use your labels, not searchers' words.** Your call, metadata only.
   - The content generation pillar says "intelligent content generation" 40 times and "AI content generation" 0 times.
   - "Intelligent resource planning" returns no coherent search results at all.
@@ -377,7 +379,7 @@ This is verified.
   - Fix: one real 1200 px or wider image per post and pillar, such as a configuration screenshot or a diagram, used in both `image` and `og:image`.
 - **M12. The ad spend cluster holds the wrong tools.**
   - Anomalo, Great Expectations, Monte Carlo and Qualytics are enterprise data-observability tools.
-  - Pipedrive and Zapier are filed in two categories each, and 6sense is filed under SMB lead capture.
+  - Pipedrive and Zapier are filed in two categories each, and 6sense is filed under small business lead capture.
   - Removing tool pages costs nothing before launch.
 - **M13. The site has two marketing hubs.** `/use-cases/marketing` (about 220 words) and `ai-marketing-systems`, which is the navbar target. Hubs also sit at three different URL levels. Choose one marketing hub.
 - **M14. The structured data has broken internal links and no breadcrumbs.**
@@ -405,6 +407,7 @@ This is verified.
   - 14 meta descriptions and 587 places in visible copy also use them.
 - **L6. `www` in JSON-LD.** 24 JSON-LD URLs on 6 exported posts use the `www` host, including `mainEntityOfPage`.
 - **L7. Glossary definitions are fragments.** Definitions such as "The accounting function responsible for..." have no subject, and on term pages the meta description gives a different definition from the visible one.
+  - **Definitions fixed on 2026-10-20 (`25926fb`).** Every definition is now a full sentence with its subject. The meta description still comes from the older `shortSummary`, so it can still differ from the visible definition.
 - **L8. The lead scoring model adds up to 120.** The positive criteria in the "100-point model" sum to 120 (verified), and there is no qualifying threshold. It is still the most citable post on the site, so fix it first. Its headings "People Also Ask ?" and "Map every lead source." also need cleaning.
 - **L9. Leftover files.** `next.svg`, `vercel.svg`, `file.svg`, `window.svg`, `globe.svg` and an empty `mock-post.json` are served publicly.
 - **L10. Metadata gaps.**
@@ -432,9 +435,9 @@ None of these is mine to make.
 1. **The `vercel.app` host.** Use a host-scoped noindex header, or remove the domain in Vercel.
 2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt.
 3. **New page types.** A South Florida service page, up to three area pages, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages.
-4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay.
+4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
 5. **Metadata titles** carrying searcher terms next to the Intelligent labels.
-6. **Slugs.** Shorten long ones before launch, or keep them.
+6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`); the rest are unchanged.
 7. **One marketing hub.** Choose between `/use-cases/marketing` and `ai-marketing-systems`.
 8. **The ad spend cluster.** Re-scope it.
 9. **The GBP.** Choose the primary category, the service area and the founding year.
