@@ -1,20 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { clsx } from "clsx";
 
 import { BlogHeroSection } from "@/components/blog/blog-hero-section";
 import { ArticleSectionBlock } from "@/components/blog/article-section";
-import {
-  backgroundForSection,
-  linkClassForBackground,
-  textOnRight,
-} from "@/components/blog/section-palette";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { getEntry, listEntries } from "@/lib/content-writer-disabled/content-disabled";
 import { toArticleSections } from "@/lib/content-writer-disabled/article-sections-disabled";
-import { relatedBlogHrefs } from "@/lib/content-writer-disabled/related-posts";
-import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { formatDate } from "../../format-date";
 
 type BlogArticleProps = Readonly<{
@@ -70,33 +61,6 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
   const published = formatDate(post.date);
   const meta = [post.department, published].filter(Boolean).join(" · ");
 
-  const entriesByHref = new Map(listEntries("blog").map((entry) => [entry.href, entry]));
-  const related = relatedBlogHrefs(post.href, 3).flatMap((href) => entriesByHref.get(href) ?? []);
-
-  // The related block continues the colour cycle rather than restarting it, so
-  // it never lands on the same ground as the section directly above it. It is
-  // laid out like the article sections: one block below lg and one from lg up.
-  const relatedIndex = sections.length;
-  const relatedBackground = backgroundForSection(relatedIndex);
-  const relatedLinkClass = linkClassForBackground(relatedBackground);
-  const relatedOnRight = textOnRight(relatedIndex);
-  const relatedSpacer = <div className="col-span-5 flex items-center justify-center"></div>;
-  const relatedList = related.map((entry) => (
-    <div key={entry.href} className="pt-6">
-      <Link
-        id={gtmLinkIdFromHref(entry.href, "related")}
-        href={entry.href}
-        className={clsx(
-          "text-2xl leading-[1.1] font-black font-[var(--font-sora)] shadow-text",
-          relatedLinkClass,
-        )}
-      >
-        {entry.headline || entry.title}
-      </Link>
-      <p className="pt-2 text-md font-normal text-white shadow-text">{entry.excerpt}</p>
-    </div>
-  ));
-
   return (
     <>
       {post.jsonLd && (
@@ -116,45 +80,6 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
       {sections.map((section, index) => (
         <ArticleSectionBlock key={section.id} section={section} index={index} />
       ))}
-
-      {related.length > 0 && (
-        <>
-          <section className={clsx("min-h-screen text-white py-5 lg:hidden", relatedBackground)}>
-            <div className="container">
-              <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-                {relatedOnRight && relatedSpacer}
-                <div className="col-span-7">
-                  <h2
-                    id="more-from-the-blog"
-                    className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text"
-                  >
-                    More from the Blog
-                  </h2>
-                </div>
-                {!relatedOnRight && relatedSpacer}
-                <div className="col-span-12">{relatedList}</div>
-              </div>
-            </div>
-          </section>
-          <section className={clsx("min-h-screen text-white py-5 hidden lg:block", relatedBackground)}>
-            <div className="container">
-              <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-                {relatedOnRight && relatedSpacer}
-                <div className="col-span-7">
-                  <h2
-                    id="more-from-the-blog"
-                    className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text"
-                  >
-                    More from the Blog
-                  </h2>
-                  {relatedList}
-                </div>
-                {!relatedOnRight && relatedSpacer}
-              </div>
-            </div>
-          </section>
-        </>
-      )}
 
       <SchedulerShell />
     </>

@@ -2,7 +2,7 @@
  * Use Cases, Blog and Tools group their pages by category, the same categories the home page
  * cards use (Lead Capture Pipeline, Content Creation Workflow, Automated Ad Spend Optimization;
  * Accounts Payable, Cash Flow Forecasting, Tax Compliance & Regulations). The navbar renders all
- * three, and the blog page reads BLOG_MENU to pick the posts under "More from the Blog".
+ * three.
  *
  * Every href below is hand-maintained and points at a route that exists in src/app. When you add
  * a page, add its link here by hand.
@@ -32,7 +32,6 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
           { href: "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses", label: "Intelligent Receptionist" },
           { href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide", label: "Cross-Platform Chatbot" },
           { href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs", label: "Lead Enrichment and Predictive Scoring" },
-          { href: "/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses", label: "AI-Driven Lead Scoring for Small Businesses" },
         ],
       },
       {
@@ -107,12 +106,13 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         label: "Lead Capture Pipeline",
         items: [
           { href: "/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline", label: "Why Your B2B Sales Need an Intelligent Lead Capture Pipeline" },
-          { href: "/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "Intelligent Receptionist: How to Stop Losing Leads After Hours" },
-          { href: "/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "Cross-Platform Chatbot: The Missing Link in Your Lead Capture Pipeline" },
-          { href: "/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales", label: "Lead Enrichment and Predictive Scoring: Turn More Leads Into Sales" },
+          { href: "/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "How to Stop Losing Leads After Hours" },
+          { href: "/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "The Missing Link in Your Lead Capture Pipeline" },
+          { href: "/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales", label: "Turn More Leads Into Sales" },
           { href: "/blog/marketing/how-ai-powered-lead-scoring-can-boost-your-sales-funnel", label: "How AI-Powered Lead Scoring Can Boost Your Sales Funnel" },
+          { href: "/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses", label: "AI-Driven Lead Scoring for Small Businesses" },
           { href: "/blog/marketing/are-smart-chatbots-the-secret-weapon-for-marketing-success", label: "Are Smart Chatbots the Secret Weapon for Marketing Success?" },
-          { href: "/blog/marketing/smart-chatbots-for-marketing-transforming-customer-engagement", label: "Smart Chatbots for Marketing: Transforming Customer Engagement" },
+          { href: "/blog/marketing/smart-chatbots-for-marketing-transforming-customer-engagement", label: "Transforming Customer Engagement" },
         ],
       },
       {
@@ -124,7 +124,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
           { href: "/blog/marketing/how-to-streamline-your-content-workflow-with-ai", label: "How to Streamline Your Content Workflow with AI" },
           { href: "/blog/marketing/unlocking-the-potential-of-automated-content-generation-for-small-businesses", label: "Unlocking the Potential of Automated Content Generation for Small Businesses" },
           { href: "/blog/marketing/unlocking-the-power-of-automated-content-generation", label: "Unlocking the Power of Automated Content Generation" },
-          { href: "/blog/marketing/content-creation-workflow/automated-content-generation-transforming-small-business-marketing", label: "Automated Content Generation: Transforming Small Business Marketing" },
+          { href: "/blog/marketing/content-creation-workflow/automated-content-generation-transforming-small-business-marketing", label: "Transforming Small Business Marketing" },
           { href: "/blog/marketing/unlocking-the-power-of-ai-for-content-repurposing", label: "Unlocking the Power of AI for Content Repurposing" },
           { href: "/blog/marketing/content-creation-workflow/ai-content-repurposing", label: "AI Content Repurposing" },
           { href: "/blog/marketing/unlocking-the-potential-of-ai-in-seo-content-creation", label: "Unlocking the Potential of AI in SEO Content Creation" },
@@ -135,7 +135,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         id: "blog-marketing-automated-ad-spend-optimization",
         label: "Automated Ad Spend Optimization",
         items: [
-          { href: "/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies", label: "How AI Transforms Ad Spend: 4 Key Strategies" },
+          { href: "/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies", label: "4 Key Strategies" },
         ],
       },
     ],
@@ -151,7 +151,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         id: "blog-accounting-accounts-payable",
         label: "Accounts Payable",
         items: [
-          { href: "/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing", label: "How AI Transforms Accounts Payable: Automated Data Entry & Processing" },
+          { href: "/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing", label: "Automated Data Entry & Processing" },
           { href: "/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable", label: "How Automated Approval Workflows Transform Accounts Payable" },
           { href: "/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line", label: "How Automated Payment Execution Transforms Your Bottom Line" },
           { href: "/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable", label: "How AI Streamlines Fraud Detection in Accounts Payable" },
@@ -165,7 +165,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
           { href: "/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow", label: "How Automated Accounts Receivable Can Transform Your Cash Flow" },
           { href: "/blog/accounting/cash-flow-forecasting/how-automating-spreadsheet-data-boosts-cash-flow-forecasting", label: "How Automating Spreadsheet Data Boosts Cash Flow Forecasting" },
           { href: "/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting-for-local-smbs", label: "How Automated Spreadsheet Data Transforms Cash Flow Forecasting for Local SMBs" },
-          { href: "/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida", label: "Intelligent Resource Planning: How to Fix Cash Flow Headaches" },
+          { href: "/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida", label: "How to Fix Cash Flow Headaches" },
         ],
       },
       {
@@ -173,8 +173,8 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         label: "Tax Compliance & Regulations",
         items: [
           { href: "/blog/accounting/how-ai-is-revolutionizing-tax-compliance-what-you-need-to-know", label: "How AI is Revolutionizing Tax Compliance" },
-          { href: "/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-smbs-must-know-before-choosing-compliance-solutions", label: "Payroll Tax & Worker Misclassification: What Miami SMBs Must Know" },
-          { href: "/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-smbs-need-to-know-and-fix-before-expanding", label: "Multi-State Sales Tax Nexus: What South Florida SMBs Need to Know" },
+          { href: "/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-smbs-must-know-before-choosing-compliance-solutions", label: "What Miami SMBs Must Know" },
+          { href: "/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-smbs-need-to-know-and-fix-before-expanding", label: "What South Florida SMBs Need to Know" },
         ],
       },
     ],

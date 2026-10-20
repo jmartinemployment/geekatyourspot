@@ -1,3 +1,5 @@
+import { GlossaryLink } from "@/components/glossary/glossary-link";
+
 export default function FaqSection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white py-5">
@@ -75,7 +77,7 @@ export default function FaqSection() {
               What compliance certifications does Anyword hold?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Anyword&#39;s infrastructure meets SOC 2, ISO 27001, GDPR, and HIPAA requirements. It also
+              Anyword&#39;s infrastructure meets SOC 2, ISO 27001, GDPR, and <GlossaryLink slug="hipaa">HIPAA</GlossaryLink> requirements. It also
               offers enterprise security features such as single sign-on and role-based permissions.</p>
           </div>
         </div>

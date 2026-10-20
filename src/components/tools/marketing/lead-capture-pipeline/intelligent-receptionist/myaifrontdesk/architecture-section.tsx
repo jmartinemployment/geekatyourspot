@@ -50,7 +50,7 @@ export default function ArchitectureSection() {
         revenue.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security and compliance are built in. My AI Front Desk encrypts all data in transit and at rest. For
-        healthcare and other regulated industries, the platform supports HIPAA compliance and can sign a BAA.
+        healthcare and other regulated industries, the platform supports <GlossaryLink slug="hipaa" className="text-[#0B162A] hover:underline">HIPAA</GlossaryLink> compliance and can sign a BAA.
         Sensitive information, like payment card numbers or clinical details, is never collected by text;
         instead, the AI sends a secure link to a form or portal when needed.</p>
       <p className="text-md text-white shadow-text pt-3">

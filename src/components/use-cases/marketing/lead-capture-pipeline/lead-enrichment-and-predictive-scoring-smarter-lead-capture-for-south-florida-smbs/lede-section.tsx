@@ -58,7 +58,7 @@ export default function LedeSection() {
         business environments. You will see how to go from chasing cold leads to working a live, always-on
         pipeline of high-intent local accounts, without hiring more staff or adding complexity your team
         cannot manage.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-lead-enrichment-lede-blog" href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">Lead Enrichment and Predictive Scoring: How South Florida SMBs Can Turn More Leads Into Sales</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-lead-enrichment-lede-blog" href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">How South Florida SMBs Can Turn More Leads Into Sales</Link> on our blog.</p>
     </>
   );
 

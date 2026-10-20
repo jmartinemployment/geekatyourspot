@@ -33,8 +33,7 @@ export default function ArchitectureSection() {
         is designed to connect with the tools small businesses already use, so you do not have to rebuild your
         workflow from scratch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Security and compliance are not afterthoughts. Nextiva’s healthcare platform, for example, is
-        HIPAA-ready with end-to-end encryption and SOC 2 certification. It can sign a Business Associate
+        Security and compliance are not afterthoughts. Nextiva’s healthcare platform, for example, is <GlossaryLink slug="hipaa" className="text-[#0B162A] hover:underline">HIPAA</GlossaryLink>-ready with end-to-end encryption and SOC 2 certification. It can sign a Business Associate
         Agreement for clients who need it, and it supports out-of-the-box integration with Epic for medical
         practices. This means sensitive data stays protected, and you meet industry standards without extra
         effort.</p>

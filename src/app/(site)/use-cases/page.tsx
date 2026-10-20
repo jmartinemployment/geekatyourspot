@@ -207,13 +207,6 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
       },
       {
-        title: "AI-Driven Lead Scoring for Small Businesses",
-        slug: "ai-driven-lead-scoring-for-small-businesses",
-        description:
-          "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
-        href: "/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses",
-      },
-      {
         title: "AI Marketing Systems",
         slug: "ai-marketing-systems",
         description:

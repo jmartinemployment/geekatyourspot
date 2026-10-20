@@ -58,7 +58,7 @@ export default function PreparingSection() {
         <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
         <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
         <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
-        <li>Are there strict industry compliance guardrails (like HIPAA for medical offices or trust account rules for lawyers) governing how client information is gathered?</li>
+        <li>Are there strict industry compliance guardrails (like <GlossaryLink slug="hipaa">HIPAA</GlossaryLink> for medical offices or trust account rules for lawyers) governing how client information is gathered?</li>
         <li>What specific criteria or emergency situations should trigger the AI to instantly transfer a live caller to your personal cell phone or an on-call team member?</li>
         <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>

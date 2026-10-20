@@ -3,10 +3,11 @@ import type { GlossaryTerm } from "@/types/glossary";
 /**
  * The glossary corpus, exported from GeekAPI on 2026-09-28 and served from here.
  *
- * 273 terms, 279 definitions. Every definition, category and
- * example is the one GeekAPI returned; none were written for this file.
- * shortSummary is the exception: 24 came from GeekAPI, the other 249 are
- * condensed from that term's own definition, so index cards are not blank.
+ * 274 terms, 280 definitions. Every definition, category and
+ * example is the one GeekAPI returned, except HIPAA, which was written here
+ * on 2026-10-20. shortSummary is the other exception: 24 came from GeekAPI,
+ * the other 249 exported terms are condensed from that term's own definition,
+ * so index cards are not blank.
  */
 export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
   {
@@ -1550,6 +1551,17 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
       {
         partOfSpeech: "noun",
         text: "A system or team responsible for providing technical support and resolving user issues. Help desks serve as the first point of contact for technical problems and service requests.",
+      },
+    ],
+  },
+  {
+    title: "HIPAA",
+    slug: "hipaa",
+    shortSummary: "The Health Insurance Portability and Accountability Act, the U.S. federal law that protects patients' health information.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "The Health Insurance Portability and Accountability Act of 1996, the U.S. federal law that protects patients' health information. Its Privacy and Security Rules apply to medical practices and to the vendors that handle patient data for them, such as AI receptionists and chatbots, and a vendor must sign a Business Associate Agreement before it receives that data.",
       },
     ],
   },

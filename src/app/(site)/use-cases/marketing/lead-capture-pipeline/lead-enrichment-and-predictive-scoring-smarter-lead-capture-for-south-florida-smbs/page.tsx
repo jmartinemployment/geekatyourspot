@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Lead Enrichment and Predictive Scoring: Smarter Lead Capture for South Florida SMBs";
+const TITLE = "Smarter Lead Capture for South Florida SMBs";
 const DESCRIPTION =
     "Lead Enrichment and Predictive Scoring for South Florida SMBs: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs";

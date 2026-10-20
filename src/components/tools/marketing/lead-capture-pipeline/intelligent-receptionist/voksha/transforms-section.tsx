@@ -40,7 +40,7 @@ export default function TransformsSection() {
         alert by email or SMS. On the Premium plan, you can set up custom call flows that route urgent calls to
         the right team member. Every call comes with a structured summary, no more sticky notes, no more lost
         messages. The information flows directly into your workflow, not into a forgotten voicemail box. For
-        regulated businesses, HIPAA-compliant plans and BAAs are available at the Enterprise level, and
+        regulated businesses, <GlossaryLink slug="hipaa">HIPAA</GlossaryLink>-compliant plans and BAAs are available at the Enterprise level, and
         integrations like Dentrix can be set up for dental offices.</p>
       <blockquote cite="https://voksha.com/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
         Voksha picks up on the first ring, day or night, takes the caller&#39;s details and sends you a summary,

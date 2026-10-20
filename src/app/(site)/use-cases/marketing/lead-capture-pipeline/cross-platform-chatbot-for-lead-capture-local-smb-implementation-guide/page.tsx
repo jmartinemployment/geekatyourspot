@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Cross-Platform Chatbot for Lead Capture: Local SMB Implementation Guide";
+const TITLE = "Local SMB Implementation Guide";
 const DESCRIPTION =
     "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide";

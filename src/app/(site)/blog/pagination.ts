@@ -1,4 +1,5 @@
 import { listEntries } from "@/lib/content-writer-disabled/content-disabled";
+import { HAND_CODED_POSTS } from "@/data/blog/hand-coded-posts";
 
 export type BlogIndexItem = {
   slug: string;
@@ -20,8 +21,15 @@ export type BlogIndexData = {
  */
 export const POSTS_PER_PAGE = 13;
 
+function byDateDesc(a: BlogIndexItem, b: BlogIndexItem): number {
+  const left = a.date ? Date.parse(a.date) : 0;
+  const right = b.date ? Date.parse(b.date) : 0;
+  if (right !== left) return right - left;
+  return a.slug.localeCompare(b.slug);
+}
+
 function toBlogItems(): BlogIndexItem[] {
-  return listEntries("blog").map((entry) => ({
+  const exported = listEntries("blog").map((entry) => ({
     slug: entry.href,
     href: entry.href,
     title: entry.headline || entry.title,
@@ -29,6 +37,8 @@ function toBlogItems(): BlogIndexItem[] {
     department: entry.department,
     date: entry.date,
   }));
+  const handCoded = HAND_CODED_POSTS.map((post) => ({ slug: post.href, ...post }));
+  return [...exported, ...handCoded].sort(byDateDesc);
 }
 
 export function getTotalPages(): number {

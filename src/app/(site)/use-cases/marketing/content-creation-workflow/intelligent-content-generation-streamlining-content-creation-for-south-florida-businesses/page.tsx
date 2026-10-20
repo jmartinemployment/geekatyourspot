@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Intelligent Content Generation: Streamlining Content Creation for South Florida Businesses";
+const TITLE = "Streamlining Content Creation for South Florida Businesses";
 const DESCRIPTION =
     "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
 const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses";

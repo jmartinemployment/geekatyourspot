@@ -56,7 +56,7 @@ export default function TamingTheBeastSection() {
         workflows. Our approach focuses on minimizing disruptions while maximizing the benefits of
         automation, ultimately leading to cost savings, faster processing times, and improved accuracy in
         financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-data-entry-taming-the-beast-blog" href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">How AI Transforms Accounts Payable: Automated Data Entry &amp; Processing</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-data-entry-taming-the-beast-blog" href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">Automated Data Entry &amp; Processing</Link> on our blog.</p>
     </>
   );
 

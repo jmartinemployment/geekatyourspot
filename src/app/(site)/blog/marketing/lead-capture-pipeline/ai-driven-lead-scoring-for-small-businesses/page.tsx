@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import HeroSection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/hero-section'
-import LedeSection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/lede-section'
-import MapLeadSourceSection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/map-lead-source-section'
-import CleanEnrichSection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/clean-enrich-section'
-import BestPracticesSection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/best-practices-section'
-import ScoringModelSection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/scoring-model-section'
-import PAASection from '@/components/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses/paa-section'
+import HeroSection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/hero-section'
+import LedeSection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/lede-section'
+import MapLeadSourceSection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/map-lead-source-section'
+import CleanEnrichSection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/clean-enrich-section'
+import BestPracticesSection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/best-practices-section'
+import ScoringModelSection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/scoring-model-section'
+import PAASection from '@/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
@@ -15,7 +15,7 @@ const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "Article",
+            "@type": "BlogPosting",
             "headline": "AI-Driven Lead Scoring for Small Businesses",
             "description": "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
             "author": {
@@ -35,11 +35,11 @@ const jsonLd: Graph = {
             "dateModified": "2026-09-02T15:52:27.1724249Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
+                "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses"
             },
             "keywords": "Lead Scoring, AI Consulting, Small Business, ActiveCampaign, Pipedrive, Apollo, LeadSquared, 6sense",
             "wordCount": 2703,
-            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses#article",
+            "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article",
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
@@ -122,20 +122,20 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "AI-Driven Lead Scoring for Small Businesses",
         description: "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
         keywords: ["Lead Scoring, AI Consulting, Small Business, ActiveCampaign, Pipedrive, Apollo, LeadSquared, 6sense"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses' }],
+        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses',
+            canonical: '/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses',
         },
         openGraph: {
             title: "AI-Driven Lead Scoring for Small Businesses",
             description: "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
-            url: 'https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses',
+            url: 'https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses',
             siteName: 'Geek at Your Spot',
             locale: 'en_US',
-            type: 'website',
+            type: 'article',
             images: [
                 {
                     url: '/images/GeekAtYourSpot.svg',

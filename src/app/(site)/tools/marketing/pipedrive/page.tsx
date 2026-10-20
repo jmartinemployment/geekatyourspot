@@ -22,7 +22,7 @@ const jsonLd: WithContext<SoftwareApplication> = {
     "keywords": "Lead Scoring",
     "subjectOf": {
         "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses"
+        "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article"
     },
     "@id": "https://geekatyourspot.com/tools/marketing/pipedrive#software"
 };

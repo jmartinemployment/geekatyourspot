@@ -64,7 +64,7 @@ export default function LedeSection() {
               With AI, businesses can achieve more precise targeting and <GlossaryLink slug="personalized-marketing">personalization</GlossaryLink>. Tools like&nbsp;
               <strong>Smartly.io</strong>&nbsp;use consumer data to deliver personalized ad experiences, increasing engagement and <GlossaryLink slug="conversion-funnel">conversion
               rates</GlossaryLink>.</p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id="use-cases-marketing-automated-ad-spend-optimization-lede-blog" href="/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies" className="text-[#C83803] hover:underline">How AI Transforms Ad Spend: 4 Key Strategies</Link> on our blog.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id="use-cases-marketing-automated-ad-spend-optimization-lede-blog" href="/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies" className="text-[#C83803] hover:underline">4 Key Strategies</Link> on our blog.</p>
           </div>
         </div>
       </div>

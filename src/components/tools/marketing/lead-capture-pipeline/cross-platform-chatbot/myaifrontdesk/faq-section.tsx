@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FaqSection() {
   return (
@@ -132,7 +133,7 @@ export default function FaqSection() {
               Is the platform secure enough to handle sensitive customer or financial data?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Yes, the platform is enterprise-grade and HIPAA-compliant. It signs Business Associate
+              Yes, the platform is enterprise-grade and <GlossaryLink slug="hipaa">HIPAA</GlossaryLink>-compliant. It signs Business Associate
               Agreements, encrypts data in transit and at rest, and uses strict access controls. For
               extra-sensitive work, businesses can even run the AI models locally so no conversational data
               leaves their own secure environment.</p>

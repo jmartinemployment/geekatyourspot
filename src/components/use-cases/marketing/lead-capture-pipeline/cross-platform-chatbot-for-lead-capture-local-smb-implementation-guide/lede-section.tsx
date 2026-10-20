@@ -65,7 +65,7 @@ export default function LedeSection() {
         absorbing costs and risks that are no longer necessary. A proper Cross-Platform Chatbot is not a tech
         experiment, it is the new minimum for businesses that want to compete and win in South Florida’s
         always-on market.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-cross-platform-chatbot-lede-blog" href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot: The Missing Link in Your South Florida Lead Capture Pipeline</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-cross-platform-chatbot-lede-blog" href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">The Missing Link in Your South Florida Lead Capture Pipeline</Link> on our blog.</p>
     </>
   );
 
