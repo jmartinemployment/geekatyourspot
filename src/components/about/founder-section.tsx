@@ -6,7 +6,7 @@ export default function FounderSection() {
       src="/images/action-figure.jpeg"
       width={1024}
       height={1536}
-      alt="AI-created action figure of Jeff Martin, founder and CEO of Geek at Your Spot in Delray Beach, Florida."
+      alt="AI-created action figure of Jeff Martin, founder and CEO of Geek @ Your Spot LLC in Delray Beach, Florida."
       className="h-auto w-full"
     />
   );
@@ -14,7 +14,7 @@ export default function FounderSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        I am <strong>Jeff Martin</strong>, the founder and CEO of Geek at Your Spot in Delray Beach, Florida.</p>
+        I am <strong>Jeff Martin</strong>, the founder and CEO of Geek @ Your Spot LLC in Delray Beach, Florida.</p>
       <p className="text-md text-white shadow-text pt-3">
         I have spent four decades building technology, from the <strong>Timex Sinclair</strong> and
         the <strong>Commodore 64</strong> to the systems that power enterprise businesses. That work has included
@@ -23,8 +23,8 @@ export default function FounderSection() {
         of transactions.</p>
       <p className="text-md text-white shadow-text pt-3">
         My expertise spans full-stack development (C#, .NET, Angular, React), cloud infrastructure (AWS, Azure), AI
-        integration (Claude API, ChatGPT), database design (SQL Server, PostgreSQL), cybersecurity, and digital
-        marketing optimization.</p>
+        integration (Claude API, OpenAI API), database design (SQL Server, PostgreSQL), and digital marketing
+        optimization.</p>
       <p className="text-md text-white shadow-text pt-3">
         Technology should make business easier, not more complicated. I bring enterprise-level capabilities to
         small businesses, with practical, scalable solutions that come without the enterprise price tag.</p>
@@ -35,7 +35,6 @@ export default function FounderSection() {
         <li>Full Stack Development</li>
         <li>AI Integration</li>
         <li>Cloud Architecture</li>
-        <li>Cybersecurity</li>
         <li>Database Design</li>
         <li>SEO &amp; Analytics</li>
       </ul>

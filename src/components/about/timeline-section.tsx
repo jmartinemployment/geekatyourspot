@@ -2,12 +2,16 @@ import GeekPong from "@/components/about/geek-pong";
 import { TIMELINE, TimelineRow } from "@/components/about/timeline-cards";
 
 export default function TimelineSection() {
-  const body = (
+  const intro = (
+    <p className="text-md text-white shadow-text pt-3">
+      I have spent four decades staying ahead of technology curves. From the earliest home computers to
+      today&#39;s AI revolution, I&#39;ve been building solutions that help businesses thrive. Now I bring that
+      experience to small businesses ready to compete with the big players.</p>
+  );
+
+  // The timeline cards frame the game, so the three of them stay together and centered.
+  const timeline = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
-        I have spent four decades staying ahead of technology curves. From the earliest home computers to
-        today&#39;s AI revolution, I&#39;ve been building solutions that help businesses thrive. Now I bring that
-        experience to small businesses ready to compete with the big players.</p>
       <TimelineRow cards={TIMELINE.slice(0, 3)} />
       <GeekPong />
       <TimelineRow cards={TIMELINE.slice(3)} />
@@ -25,7 +29,10 @@ export default function TimelineSection() {
                 From Timex Sinclair to AI
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">
+              {intro}
+              {timeline}
+            </div>
           </div>
         </div>
       </section>
@@ -37,8 +44,9 @@ export default function TimelineSection() {
               <h2 id="from-timex-sinclair-to-ai" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 From Timex Sinclair to AI
               </h2>
-              {body}
+              {intro}
             </div>
+            <div className="col-span-12 w-full max-w-4xl">{timeline}</div>
           </div>
         </div>
       </section>

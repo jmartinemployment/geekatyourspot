@@ -288,6 +288,14 @@ export default function Navbar(): React.JSX.Element {
               >
                 Tools
               </button>
+              <Link
+                href="/about"
+                id={gtmLinkIdFromHref("/about", "nav")}
+                className="text-base font-semibold text-black no-underline hover:text-[#8C2703] sm:text-lg"
+                onClick={closeSidebar}
+              >
+                About
+              </Link>
             </div>
 
             {activeSection === "use-cases" && (

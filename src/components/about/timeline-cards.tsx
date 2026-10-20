@@ -33,8 +33,8 @@ export const TIMELINE: readonly TimelineCard[] = [
   },
   {
     year: "2026",
-    label: "Geek at Your Spot",
-    description: "Geek at Your Spot brings AI-powered solutions to small businesses that need enterprise power.",
+    label: "Geek @ Your Spot LLC",
+    description: "Geek @ Your Spot LLC brings AI-powered solutions to small businesses that need enterprise power.",
   },
 ];
 

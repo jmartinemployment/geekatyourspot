@@ -10,7 +10,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "About Jeff Martin";
 const HERO_TITLE = "Enterprise Expertise. Small Business Focus.";
 const DESCRIPTION =
-    "Meet Jeff Martin, the founder of Geek at Your Spot, who brings 40 years of engineering expertise to small businesses in South Florida.";
+    "Meet Jeff Martin, the founder of Geek @ Your Spot LLC, who brings 40 years of engineering expertise to small businesses in South Florida.";
 const CANONICAL = "/about";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const PERSON_ID = `${PAGE_URL}#jeff-martin`;
@@ -23,7 +23,7 @@ const jsonLd: Graph = {
             "@type": "AboutPage",
             "@id": `${PAGE_URL}#page`,
             "name": TITLE,
-            "description": "The story behind Geek at Your Spot, from a Timex Sinclair in 1982 to AI consulting for South Florida small businesses today.",
+            "description": "The story behind Geek @ Your Spot LLC, from a Timex Sinclair in 1982 to AI consulting for South Florida small businesses today.",
             "url": PAGE_URL,
             "about": { "@id": ORGANIZATION_ID },
             "mainEntity": { "@id": PERSON_ID },
@@ -34,14 +34,13 @@ const jsonLd: Graph = {
             "@id": PERSON_ID,
             "name": "Jeff Martin",
             "jobTitle": "Founder and CEO",
-            "description": "Jeff Martin is a full-stack developer and AI consultant with 40 years of engineering expertise, and the founder of Geek at Your Spot in Delray Beach, Florida.",
+            "description": "Jeff Martin is a full-stack developer and AI consultant with 40 years of engineering expertise, and the founder of Geek @ Your Spot LLC in Delray Beach, Florida.",
             "worksFor": { "@id": ORGANIZATION_ID },
             "knowsAbout": [
                 "Artificial Intelligence",
                 "Process Automation",
                 "AI Chatbots",
                 "Cloud Architecture",
-                "Cybersecurity",
                 "Full Stack Development",
                 "AI Strategy Consulting"
             ],
@@ -55,26 +54,26 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         authors: [{ name: 'Jeff Martin', url: PAGE_URL }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'profile',
             firstName: 'Jeff',
             lastName: 'Martin',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -84,7 +83,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
             },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

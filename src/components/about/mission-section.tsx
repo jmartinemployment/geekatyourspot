@@ -16,15 +16,14 @@ export default function MissionSection() {
       <p className="text-md text-white shadow-text pt-3">
         For too long, small businesses have been locked out of the technology solutions that power Fortune 500
         companies. That is not because those solutions do not exist, but because they have been priced and
-        packaged for enterprise budgets. At Geek at Your Spot, we are changing that. We bring 40 years of
+        packaged for enterprise budgets. At Geek @ Your Spot LLC, we are changing that. We bring 40 years of
         battle-tested engineering expertise, including systems built
         for <strong>Fortune 500 companies</strong> and <strong>government agencies</strong>, directly to the
         businesses that need these capabilities most.</p>
       <p className="text-md text-white shadow-text pt-3">
         We do not just build websites. We architect solutions. Whether it is WordPress sites supercharged with
-        Angular components, AI-powered business intelligence, cutting-edge cybersecurity, or conversion-optimized
-        marketing systems, we deliver enterprise-grade technology at prices that make sense for growing
-        businesses.</p>
+        Angular components, AI-powered business intelligence, or conversion-optimized marketing systems, we
+        deliver enterprise-grade technology at prices that make sense for growing businesses.</p>
       <p className="text-md text-white shadow-text pt-3">
         At the heart of everything we do is a simple belief: technology should amplify your business, not
         complicate it. From that first Timex computer in 1982 to today&#39;s AI revolution, the mission has always
