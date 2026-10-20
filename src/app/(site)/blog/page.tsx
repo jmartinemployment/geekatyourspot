@@ -17,12 +17,6 @@ import { getBlogIndexPage, getTotalPages, type BlogIndexItem } from "./paginatio
 const PAGE_SUMMARY =
   "Dispatches from the actual work — what AI does for a South Florida small business across content, campaigns, lead capture, cash flow and compliance, and where it falls short.";
 
-export const metadata: Metadata = {
-  title: "Geek Post",
-  description: PAGE_SUMMARY,
-  alternates: { canonical: "/blog" },
-};
-
 type BlogPageProps = Readonly<{
   searchParams: Promise<{ page?: string }>;
 }>;
@@ -31,6 +25,26 @@ const LINK_CLASS = linkClassForBackground(FIRST_SECTION_BACKGROUND);
 
 function pageHref(page: number): string {
   return page <= 1 ? "/blog" : `/blog?page=${String(page)}`;
+}
+
+function requestedPage(page: string | undefined): number {
+  const parsed = Number.parseInt(page ?? "1", 10);
+  return Number.isNaN(parsed) ? 1 : parsed;
+}
+
+/**
+ * Each page of the index lists different posts, so each page is its own canonical URL.
+ * The canonical follows the page actually shown, which getBlogIndexPage clamps into range.
+ */
+export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
+  const { page } = await searchParams;
+  const shown = getBlogIndexPage(requestedPage(page)).page;
+
+  return {
+    title: "Geek Post",
+    description: PAGE_SUMMARY,
+    alternates: { canonical: pageHref(shown) },
+  };
 }
 
 /** Department and date, the same pairing the article hero shows. */
@@ -111,8 +125,7 @@ function PostCard({ post }: Readonly<{ post: BlogIndexItem }>) {
 
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const { page } = await searchParams;
-  const requestedPage = Number.parseInt(page ?? "1", 10);
-  const data = getBlogIndexPage(Number.isNaN(requestedPage) ? 1 : requestedPage);
+  const data = getBlogIndexPage(requestedPage(page));
   const totalPages = getTotalPages();
   const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
