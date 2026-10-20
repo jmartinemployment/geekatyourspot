@@ -222,6 +222,7 @@ This is verified, and it is the navbar target for Marketing.
   - `/about` names Jeff Martin as founder and CEO of Geek @ Your Spot LLC in Delray Beach, Florida, with his background and a timeline from 1982. "40 years of engineering expertise" is now visible copy there, not only the home meta description.
   - It emits an `AboutPage` node and a `Person` node (`https://geekatyourspot.com/about#jeff-martin`) whose `worksFor` points at `#organization`. The footer's Resources list links it, and the sitemap lists it. The navbar's top row links it too (`09f3a2b`). The navbar builds its links only when the menu opens, so the footer link is the one crawlers see.
   - Still open: the Organization node does not yet name the Person as `founder`, the home page still has no defining sentence, `/contact` still returns 404, there is no email address, and blog authors are still the Editorial Team.
+- **Founder linked on 2026-10-20 (`d6989dc`), still partly open.** The site-wide Organization node now names `founder` as `https://geekatyourspot.com/about#jeff-martin` (SA M5). The home page's defining sentence, `/contact`, an email address and the blog authors are still open.
 
 ### H5. Made-up people read as real case studies
 
@@ -457,6 +458,11 @@ This is verified.
   - Pipedrive and Zapier are filed in two categories each, and 6sense is filed under small business lead capture.
   - Removing tool pages costs nothing before launch.
 - **M13. The site has two marketing hubs.** `/use-cases/marketing` (about 220 words) and `ai-marketing-systems`, which is the navbar target. Hubs also sit at three different URL levels. Choose one marketing hub.
+  - **Decided and fixed on 2026-10-20 (`dbd8cd8`).** At the owner's direction, AI Marketing Systems is the marketing department page at `/use-cases/marketing`, as the accounting guide is at `/use-cases/accounting`. The old 220-word card list is deleted, and `/use-cases/marketing/ai-marketing-systems` returns 404, with no redirect.
+    - The canonical, Open Graph URL, JSON-LD `@id`s and Service node use the new URL. The page is an Article like the accounting guide, so L11's Article and CollectionPage mismatch no longer applies to the department pages.
+    - The other 17 references to the old URL, in 10 files, now point at `/use-cases/marketing`: the navbar, the home card in both copies, the lead capture hub link (H11), body links on two pillars and the Mailchimp tool page, two tool data files and the AI Marketing Systems blog post. The `/use-cases` index dropped its AI Marketing Systems card, because the Marketing heading above it already links there, as Accounting's does.
+    - On the same page the "Top AI Tools for Marketing Automation" section is deleted, with the Marketo, Mailchimp and ActiveCampaign `mentions` it alone supported, and the People Also Ask section uses the one-column layout of the other pillars. Its questions and answers are unchanged.
+    - A crawl of all 447 pages finds no link to the old URL, no internal link that fails, every page reachable from `/`, and no duplicated id. The tool group levels are still open.
 - **M14. The structured data has broken internal links and no breadcrumbs.**
   - 85 of 90 tool pages point `subjectOf` at the pillar's URL instead of its `#article` node.
   - 35 relative `#software-*` ids make the same product a different entity on each page.
@@ -531,7 +537,7 @@ None of these is mine to make.
 4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
 5. **Metadata titles** carrying searcher terms next to the Intelligent labels.
 6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`); the rest are unchanged.
-7. **One marketing hub.** Choose between `/use-cases/marketing` and `ai-marketing-systems`.
+7. **One marketing hub.** Choose between `/use-cases/marketing` and `ai-marketing-systems`. Decided 2026-10-20: AI Marketing Systems moves to `/use-cases/marketing` (M13, `dbd8cd8`).
 8. **The ad spend cluster.** Re-scope it.
 9. **The GBP.** Choose the primary category, the service area and the founding year.
 10. **Pricing and language.** Whether to publish price ranges, and whether to state bilingual service.
