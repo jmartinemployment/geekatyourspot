@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import { BlogHeroSection } from "@/components/blog/blog-hero-section";
 import { ArticleSectionBlock } from "@/components/blog/article-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { getEntry, listEntries } from "@/lib/content-writer-disabled/content-disabled";
-import { toArticleSections } from "@/lib/content-writer-disabled/article-sections-disabled";
+import { getEntry, listEntries } from "@/lib/content-writer-disabled2/content-disabled";
+import { toArticleSections } from "@/lib/content-writer-disabled2/article-sections-disabled";
 import { formatDate } from "../../format-date";
 
 type BlogArticleProps = Readonly<{
