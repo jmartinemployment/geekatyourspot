@@ -28,8 +28,8 @@ export default function ConfiguringSection() {
         traditional&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK for custom development, its
         existing integrations and configurable options provide ample flexibility for most small business needs.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a vital role in configuring these features to match the unique needs of each client.
-        By understanding the specific workflows and challenges of a business, Geek @ Your Spot can tailor
+        Geek @ Your Spot LLC plays a vital role in configuring these features to match the unique needs of each client.
+        By understanding the specific workflows and challenges of a business, Geek @ Your Spot LLC can tailor
         Chaserhq&#39;s setup to optimize performance and ensure that the system aligns perfectly with existing
         processes. This bespoke configuration not only enhances operational efficiency but also ensures that the
         transition to an automated system is smooth and effective.</p>

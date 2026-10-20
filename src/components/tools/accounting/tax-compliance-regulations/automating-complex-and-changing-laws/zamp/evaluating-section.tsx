@@ -17,10 +17,10 @@ export default function EvaluatingSection() {
         accurately for compliance costs, avoiding the surprise fees that often accompany usage-based pricing
         models.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot provides a consultative approach to implementing Zamp, ensuring that the platform is
+        Geek @ Your Spot LLC provides a consultative approach to implementing Zamp, ensuring that the platform is
         tailored to the specific needs of each business. This includes a thorough assessment of current
         compliance processes and potential areas for improvement. By aligning Zamp&#39;s capabilities with the
-        unique challenges of your business, Geek @ Your Spot helps maximize the return on investment.</p>
+        unique challenges of your business, Geek @ Your Spot LLC helps maximize the return on investment.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses evaluating Zamp, it is crucial to consider how the platform&#39;s features align with
         their compliance needs. Zamp&#39;s ability to automate complex tax tasks and provide expert support is a
@@ -30,7 +30,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In conclusion, Zamp offers a robust solution for businesses looking to simplify their tax compliance
         processes. Its predictable pricing model and tailored implementation make it a valuable asset for small
-        businesses in the region. By partnering with Geek @ Your Spot, businesses can leverage Zamp&#39;s full
+        businesses in the region. By partnering with Geek @ Your Spot LLC, businesses can leverage Zamp&#39;s full
         potential, ensuring compliance with ease and efficiency.</p>
     </>
   );

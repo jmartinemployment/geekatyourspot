@@ -46,7 +46,7 @@ export const qualyticsContent: ToolPageContent = {
     },
     {
       "title": "Implementation Considerations",
-      "description": "Implementing Qualytics requires careful planning to ensure that the platform is integrated effectively into your existing data infrastructure. Here are some key considerations to keep in mind when deploying Qualytics for automated ad spend optimization. At Geek At Your Spot, we specialize in helping businesses navigate these implementation challenges. Our expertise in AI and data management ensures that Qualytics is deployed efficiently, maximizing its impact on your ad spend optimization efforts.",
+      "description": "Implementing Qualytics requires careful planning to ensure that the platform is integrated effectively into your existing data infrastructure. Here are some key considerations to keep in mind when deploying Qualytics for automated ad spend optimization. At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in AI and data management ensures that Qualytics is deployed efficiently, maximizing its impact on your ad spend optimization efforts.",
       "bullets": [
         "Accelerated Deployment: Qualytics offers pre-built connectors for popular ad platforms, which can significantly reduce the time required for deployment. This means businesses can start benefiting from improved data quality faster, allowing for quicker optimization of ad spend.",
         "Data Model Design: It's important to design a data model that aligns with your business objectives and ad optimization goals. Qualytics provides tools to map your data structures effectively, ensuring that data flows seamlessly across different platforms.",

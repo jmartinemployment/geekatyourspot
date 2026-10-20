@@ -20,7 +20,7 @@ export default function IntroductionSection() {
         data processing capabilities. AI systems can analyze vast amounts of data to identify patterns and
         anomalies that may indicate compliance issues. By automating these processes, businesses can not only
         ensure adherence to regulatory requirements but also gain valuable insights that can inform strategic
-        decision-making. Geek At Your Spot, as a leading consultancy in AI implementation, specializes in
+        decision-making. Geek @ Your Spot LLC, as a leading consultancy in AI implementation, specializes in
         designing and deploying AI-driven tax compliance solutions that are tailored to meet the specific needs
         of each client. This bespoke approach ensures that clients not only achieve compliance but also optimize
         their tax functions for greater efficiency.</p>
@@ -33,7 +33,7 @@ export default function IntroductionSection() {
         <li>Regulatory updates: Automated systems continuously monitor changes in tax regulations, ensuring that businesses remain compliant with the latest requirements.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
-        At Geek At Your Spot, we emphasize the importance of configuring these features to align with the
+        At Geek @ Your Spot LLC, we emphasize the importance of configuring these features to align with the
         specific regulatory landscapes of our clients. By customizing automation tools to fit the unique tax
         environments of different jurisdictions, we help organizations maintain compliance effortlessly while
         focusing on their core business operations.</p>
@@ -44,8 +44,7 @@ export default function IntroductionSection() {
         Consider a hypothetical mid-sized manufacturer that implements an automated tax compliance system. By
         integrating AI-driven tools, the company achieves a 40% reduction in the time spent on tax preparation
         and filing. This efficiency gain allows the finance team to allocate more resources to strategic
-        planning and analysis, ultimately enhancing the company&#39;s overall financial performance. Geek At
-        Your Spot&#39;s expertise in deploying such systems ensures that clients not only realize immediate
+        planning and analysis, ultimately enhancing the company&#39;s overall financial performance. Geek @ Your Spot LLC&#39;s expertise in deploying such systems ensures that clients not only realize immediate
         operational benefits but also position themselves for long-term success in an ever-evolving regulatory
         landscape.</p>
     </>

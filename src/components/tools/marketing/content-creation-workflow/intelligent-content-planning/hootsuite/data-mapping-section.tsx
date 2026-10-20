@@ -40,7 +40,7 @@ export default function DataMappingSection() {
         content creation and planning process. Human review remains central, AI can suggest and draft, but
         publishing always requires a final check.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to guide you through this mapping process. The team works with you to
+        Geek @ Your Spot LLC’s role is to guide you through this mapping process. The team works with you to
         inventory every source of content and data, design a tagging and approval structure that matches your
         business, and configure Hootsuite to support your goals. This upfront investment in data mapping pays
         off in fewer errors, faster workflows, and clearer reporting. It is the foundation that lets your team

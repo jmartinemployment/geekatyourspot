@@ -50,7 +50,7 @@ export default function LedeSection() {
         team goes from reactive, last-minute publishing to a predictable content engine that hits the right
         audience, on the right channels, every time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot specializes in this transition for small businesses across West Palm Beach, Broward,
+        Geek @ Your Spot LLC specializes in this transition for small businesses across West Palm Beach, Broward,
         and Miami-Dade. Our four-phase method starts with your business goals, not a tool demo, and ends with
         a live pilot that proves the approach on your turf. We do not recommend platform markups or force new
         headcount. Instead, we integrate lightweight, affordable AI tools that plug into what you already use,
@@ -62,7 +62,7 @@ export default function LedeSection() {
         bad data means bad results), choosing tools that let you automate the drudge work (from topic research
         to multi-channel repurposing), and running a real pilot so you see the results in your own numbers. If
         you are ready to stop guessing and start growing, this is where you begin.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-content-planning-lede-blog" href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Should You Automate Content Planning?</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-content-planning-lede-blog" href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> on our blog.</p>
     </>
   );
 

@@ -5,7 +5,7 @@ export default function ConfiguringSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Configuring Writesonic for a small business is about setting up a pipeline that fits your real work,
-        not just turning on an AI writer. Geek @ Your Spot makes this practical by mapping your business’s
+        not just turning on an AI writer. Geek @ Your Spot LLC makes this practical by mapping your business’s
         content needs to Writesonic’s own automation steps. The core of Writesonic’s setup is its multi-stage
         pipeline: each piece of content moves through research, outline, drafting, review, and approval. Every
         stage has its own logic, and each can be tuned for what your team actually needs published.</p>
@@ -19,7 +19,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Next comes the outline and intent mapping. Writesonic’s outline generation is not one-size-fits-all.
         It aligns to your audience’s search intent, so a post for a local HVAC contractor in Miami is
-        structured differently from a post for a Fort Lauderdale CPA. Geek @ Your Spot configures these
+        structured differently from a post for a Fort Lauderdale CPA. Geek @ Your Spot LLC configures these
         outlines to match your service areas and buyer questions, using Writesonic’s brand-voice training to
         keep the tone consistent. This is where the rules get specific: you set which topics matter, which
         questions must be answered, and which formats (FAQ, how-to, comparison) drive the most local leads.</p>
@@ -27,7 +27,7 @@ export default function ConfiguringSection() {
         Drafting is automated, but every draft is checked by Writesonic’s expert-role review passes. This is a
         built-in workflow where multiple AI experts review the content for technical accuracy, tone, and SEO
         structure. If a draft fails a quality gate, meaning it is off-brand, factually weak, or structurally
-        wrong, the system revises it before it ever hits your inbox. Geek @ Your Spot sets these thresholds up
+        wrong, the system revises it before it ever hits your inbox. Geek @ Your Spot LLC sets these thresholds up
         front, so your team only reviews content that already meets your standards. For teams used to
         rewriting agency drafts, this means the approval step is validation, not a full rewrite.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -35,13 +35,13 @@ export default function ConfiguringSection() {
         own blog posts, landing pages, and even email campaigns. Each client gets a unique voice profile, so
         your business does not sound like every other company using AI. This is more than just swapping out a
         few words, brand safety and tone are enforced at every step, and the pipeline holds this voice across
-        all formats. Geek @ Your Spot handles the training data mapping, so the AI learns from what actually
+        all formats. Geek @ Your Spot LLC handles the training data mapping, so the AI learns from what actually
         worked for your business, not from generic samples.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses with multi-language needs or technical content, Writesonic’s pipeline can be set to
         generate natively in the target language. This is not a translation, it is original content built for
         that audience, with technical accuracy and brand tone held throughout. If your team serves clients in
-        Spanish or deals with industry-specific regulations, Geek @ Your Spot configures the content engine to
+        Spanish or deals with industry-specific regulations, Geek @ Your Spot LLC configures the content engine to
         respect those constraints from the start.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation logic also covers when and how content gets refreshed. Writesonic tracks when your pages
@@ -52,7 +52,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Approval workflows are customizable. Writesonic lets you set dollar thresholds, departments, or
         content types that need review. For example, a new service page might always require a manager’s
-        sign-off, while routine blog posts go live after passing quality gates. Geek @ Your Spot sets up these
+        sign-off, while routine blog posts go live after passing quality gates. Geek @ Your Spot LLC sets up these
         rules in line with your team’s real-world processes, so nothing slips through and nothing gets stuck
         in limbo for weeks.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -60,10 +60,10 @@ export default function ConfiguringSection() {
         platforms like Sanity and CMSs such as WordPress, Webflow, and Contentful. You can push content live
         with one click or have it staged for approval. While Writesonic does not offer a public scripting SDK,
         its integrations and&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;endpoints are enough for
-        most small business needs, especially when Geek @ Your Spot handles the mapping and testing.</p>
+        most small business needs, especially when Geek @ Your Spot LLC handles the mapping and testing.</p>
       <p className="text-md text-white shadow-text pt-3">
         The end result is not a generic AI writer. It is a tailored, rule-based pipeline that produces content
-        in your voice, on your schedule, and to your standards. Geek @ Your Spot’s value is in configuring
+        in your voice, on your schedule, and to your standards. Geek @ Your Spot LLC’s value is in configuring
         these layers so your team spends time approving and publishing, not fixing and rewriting. The
         automation logic is what makes this scale safely for a small team, and the extension hooks mean it
         fits into your existing stack without a rebuild.</p>

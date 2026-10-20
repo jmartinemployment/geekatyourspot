@@ -5,7 +5,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Deploying Melio in a business environment involves several key steps that ensure a smooth transition
-        to automated approval workflows. Geek @ Your Spot, an&nbsp;
+        to automated approval workflows. Geek @ Your Spot LLC, an&nbsp;
         <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;implementation
         consultancy, plays a critical role in this process by tailoring Melio to fit the unique needs of each
         client. This involves configuring approval chains, setting up data mapping, and ensuring integration
@@ -17,7 +17,7 @@ export default function ImplementingSection() {
         and reduces bottlenecks in the workflow. For example, payments above a certain threshold may require
         additional sign-offs, while smaller, routine payments can be processed automatically.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Data mapping is another crucial aspect of deploying Melio. Geek @ Your Spot helps clients map their
+        Data mapping is another crucial aspect of deploying Melio. Geek @ Your Spot LLC helps clients map their
         existing data structures to Melio’s platform, ensuring a seamless transition. This step is essential
         for maintaining data integrity and ensuring that all financial information is accurately captured and
         processed. By aligning data structures, businesses can avoid discrepancies and ensure that their&nbsp;
@@ -30,10 +30,9 @@ export default function ImplementingSection() {
         integration allows for real-time updates and ensures that all financial transactions are accurately
         recorded and tracked.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot also provides training and support to ensure that businesses can fully leverage
+        Geek @ Your Spot LLC also provides training and support to ensure that businesses can fully leverage
         Melio&#39;s capabilities. This includes educating staff on how to use the platform effectively and
-        setting up automated tasks that streamline operations. By providing comprehensive support, Geek @ Your
-        Spot ensures that businesses can quickly adapt to the new system and start reaping the benefits of
+        setting up automated tasks that streamline operations. By providing comprehensive support, Geek @ Your Spot LLC ensures that businesses can quickly adapt to the new system and start reaping the benefits of
         automated approval workflows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, Melio&#39;s platform is designed to scale with the business. As companies grow, the platform

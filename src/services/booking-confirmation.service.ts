@@ -37,7 +37,7 @@ function buildICS(booking: Booking, contact: ContactInfo, organizerEmail: string
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Geek At Your Spot//Booking//EN',
+    'PRODID:-//Geek @ Your Spot LLC//Booking//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:REQUEST',
     'BEGIN:VEVENT',
@@ -45,9 +45,9 @@ function buildICS(booking: Booking, contact: ContactInfo, organizerEmail: string
     `DTSTAMP:${stampUTC}`,
     `DTSTART;TZID=${tz}:${startLocal}`,
     `DTEND;TZID=${tz}:${endLocal}`,
-    'SUMMARY:AI Strategy Call. Geek At Your Spot',
-    `DESCRIPTION:Your AI strategy call with Geek At Your Spot.\\nWe look forward to speaking with you ${contact.firstName}.`,
-    `ORGANIZER;CN=Geek At Your Spot:mailto:${organizerEmail}`,
+    'SUMMARY:AI Strategy Call. Geek @ Your Spot LLC',
+    `DESCRIPTION:Your AI strategy call with Geek @ Your Spot LLC.\\nWe look forward to speaking with you ${contact.firstName}.`,
+    `ORGANIZER;CN=Geek @ Your Spot LLC:mailto:${organizerEmail}`,
     `ATTENDEE;CN=${contact.firstName} ${contact.lastName};RSVP=TRUE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:${contact.email}`,
     'STATUS:CONFIRMED',
     'SEQUENCE:0',
@@ -67,7 +67,7 @@ function buildEmailHTML(booking: Booking, contact: ContactInfo): string {
   return `
     <div style="font-family:sans-serif;max-width:520px;margin:0 auto;padding:32px 24px;color:#111">
       <h1 style="font-size:22px;font-weight:700;margin:0 0 8px">You're on the calendar</h1>
-      <p style="color:#555;margin:0 0 24px">Here are the details for your AI strategy call with Geek At Your Spot.</p>
+      <p style="color:#555;margin:0 0 24px">Here are the details for your AI strategy call with Geek @ Your Spot LLC.</p>
 
       <table style="width:100%;border-collapse:collapse;background:#f9f9f9;border-radius:8px;overflow:hidden">
         <tr>
@@ -86,7 +86,7 @@ function buildEmailHTML(booking: Booking, contact: ContactInfo): string {
 
       <hr style="border:none;border-top:1px solid #eee;margin:32px 0" />
       <p style="font-size:12px;color:#aaa;margin:0">
-        Geek At Your Spot · Delray Beach, Florida
+        Geek @ Your Spot LLC · Delray Beach, Florida
       </p>
     </div>
   `.trim();
@@ -108,7 +108,7 @@ export async function sendBookingConfirmation(
   const resend = new Resend(apiKey);
 
   const result = await resend.emails.send({
-    from: `Geek At Your Spot <${fromEmail}>`,
+    from: `"Geek @ Your Spot LLC" <${fromEmail}>`,
     to: contact.email,
     subject: 'Your AI strategy call is confirmed',
     html,

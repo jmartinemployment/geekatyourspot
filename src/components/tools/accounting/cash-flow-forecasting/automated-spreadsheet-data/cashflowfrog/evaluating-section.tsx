@@ -28,8 +28,7 @@ export default function EvaluatingSection() {
         manual entry errors. This integration is vital for maintaining real-time data accuracy and ensuring that
         forecasts reflect the most current financial information.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The decision to implement Cashflowfrog should also consider the support and resources available from Geek @
-        Your Spot. Their expertise in configuring and optimizing the tool for your specific needs can significantly
+        The decision to implement Cashflowfrog should also consider the support and resources available from Geek @ Your Spot LLC. Their expertise in configuring and optimizing the tool for your specific needs can significantly
         enhance its value. They provide ongoing support to address any issues and help maximize the return on your
         investment in Cashflowfrog. This partnership ensures that your business not only adopts a powerful
         forecasting tool but also leverages it effectively to drive financial clarity and strategic planning.</p>

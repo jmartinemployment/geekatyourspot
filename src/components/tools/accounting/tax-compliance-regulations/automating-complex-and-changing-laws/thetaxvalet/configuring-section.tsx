@@ -31,7 +31,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         While TaxValet does not offer an extension mechanism like
         an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, its robust configuration capabilities
-        are sufficient for most small businesses. Geek @ Your Spot, as a local implementation partner, ensures
+        are sufficient for most small businesses. Geek @ Your Spot LLC, as a local implementation partner, ensures
         that TaxValet is tailored to your specific business environment. They handle the initial setup,
         including data mapping and integration with your existing systems, to ensure a seamless transition. This
         hands-on approach guarantees that TaxValet works effectively within your operational framework.</p>

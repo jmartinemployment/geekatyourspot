@@ -27,7 +27,7 @@ export default function ImplementingSection() {
         for feedback and adjustments to be made in real-time, enhancing the overall effectiveness of the
         implementation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout the implementation, Geek @ Your Spot plays a pivotal role in guiding businesses through each
+        Throughout the implementation, Geek @ Your Spot LLC plays a pivotal role in guiding businesses through each
         step. As an&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation consultancy, they provide
         expertise in configuring Floatapp to fit seamlessly with existing systems. This includes data mapping,
         training staff on the new platform, and offering ongoing support to address any challenges that arise. Their
@@ -35,7 +35,7 @@ export default function ImplementingSection() {
         client.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, going live with Floatapp is a well-orchestrated process that combines technical integration,
-        strategic setup, and phased implementation. With the support of Geek @ Your Spot, businesses can expect a
+        strategic setup, and phased implementation. With the support of Geek @ Your Spot LLC, businesses can expect a
         transformation in their cash flow management, moving from error-prone manual processes to a streamlined,
         automated system that delivers real-time financial insights.</p>
     </>

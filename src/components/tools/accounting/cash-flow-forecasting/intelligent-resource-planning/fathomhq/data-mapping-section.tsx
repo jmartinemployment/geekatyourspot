@@ -41,7 +41,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Data mapping is not a one-time task. As your business grows, adds new locations, or changes its
         structure, you will need to review and update your mappings. Fathom supports bulk updates and flexible
-        mapping adjustments, so you can adapt without breaking your reports. Geek @ Your Spot guides this
+        mapping adjustments, so you can adapt without breaking your reports. Geek @ Your Spot LLC guides this
         process, making sure your system evolves with your needs and avoids the drift that turns dashboards into
         noise.</p>
       <p className="text-md text-white shadow-text pt-3">

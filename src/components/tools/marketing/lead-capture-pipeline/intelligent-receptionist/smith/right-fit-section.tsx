@@ -30,7 +30,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For those leaning toward Smith.ai, the next step is clear: this is not a generic plug-and-play tool.
         Getting the most from Smith.ai means working with a partner who understands both the technology and the
-        realities of your business. Geek @ Your Spot specializes in this kind of implementation for small
+        realities of your business. Geek @ Your Spot LLC specializes in this kind of implementation for small
         businesses across South Florida. The process starts with a free consultation to define your objectives,
         review your existing systems, and map out the data and workflows Smith.ai will connect to. The right fit
         is not just about features, it is about matching the tool to your real intake needs, escalation paths,

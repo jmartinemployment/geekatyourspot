@@ -31,8 +31,8 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration is a practical test for fit. Factors connects with Salesforce, HubSpot, Google Ads,
         LinkedIn, G2, Segment, Apollo, ZoomInfo, Slack, and Teams. If your team already uses any of these, the
-        setup is straightforward, no need for custom engineering. Geek @ Your Spot manages the connections so
-        your data flows smoothly. If you use something outside this list, ask Geek @ Your Spot about
+        setup is straightforward, no need for custom engineering. Geek @ Your Spot LLC manages the connections so
+        your data flows smoothly. If you use something outside this list, ask Geek @ Your Spot LLC about
         compatibility before you buy. The platform is designed to fit into existing tech stacks, not force a
         rip-and-replace.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When judging fit, also consider adoption. Factors is configured to work with your team’s current
         workflow, alerts show up in the tools you already use, and reports are tailored to your pipeline.
-        There is no need to learn a new system from scratch. Geek @ Your Spot handles the setup, training, and
+        There is no need to learn a new system from scratch. Geek @ Your Spot LLC handles the setup, training, and
         ongoing tuning. If your team has struggled to get value from tools that require behavior change or
         manual data entry, this is a real advantage.</p>
       <p className="text-md text-white shadow-text pt-3">

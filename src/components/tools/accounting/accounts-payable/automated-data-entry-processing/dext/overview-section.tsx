@@ -31,7 +31,7 @@ export default function OverviewSection() {
         <Link id="tools-accounting-dext-overview-consultation"
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book a consultation
-        </Link>&nbsp;with <strong>Geek At Your Spot</strong> today and discover how Dext can revolutionize
+        </Link>&nbsp;with <strong>Geek @ Your Spot LLC</strong> today and discover how Dext can revolutionize
         your bookkeeping processes.</p>
     </>
   );

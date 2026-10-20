@@ -29,7 +29,7 @@ export default function OverviewSection() {
         driving growth without the need to expand administrative teams.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting AI solutions like those
-        provided by Geek @ Your Spot can mean the difference between stagnation and expansion. Automated
+        provided by Geek @ Your Spot LLC can mean the difference between stagnation and expansion. Automated
         Payment Execution is not just a tool but a pathway to modernizing financial operations, freeing up
         resources to focus on what truly matters: growing the business. Embracing these technologies leads to
         fewer errors, faster processing times, and happier customers, positioning small businesses to thrive in

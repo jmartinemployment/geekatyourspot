@@ -34,7 +34,7 @@ export default function ImplementingSection() {
         pushes alerts directly to your dashboard, so you can adjust your workflows as laws shift—no waiting for
         a quarterly review or a consultant’s memo.</p>
       <p className="text-md text-white shadow-text pt-3">
-        During rollout, Geek @ Your Spot handles the configuration and mapping work: making sure your pay codes,
+        During rollout, Geek @ Your Spot LLC handles the configuration and mapping work: making sure your pay codes,
         deduction rules, and worker types are set up to match your business, and that integrations with existing
         systems are mapped to your chart of accounts. This is not a one-size-fits-all launch. The team works
         directly with your finance and HR leads to make sure every field, rule, and approval flow fits your

@@ -12,7 +12,7 @@ export default function SequenceSection() {
       <p className="text-md text-white shadow-text pt-3">
         The first step is a comprehensive needs assessment. This involves understanding your current workflow,
         identifying pain points, and determining the specific requirements of your business. Engaging with a
-        consultancy like Geek @ Your Spot, which offers a free consultation, can provide valuable insights into
+        consultancy like Geek @ Your Spot LLC, which offers a free consultation, can provide valuable insights into
         potential areas for improvement and alignment with business objectives.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next, select the appropriate technology stack. This choice is critical as it determines the tools that will

@@ -53,17 +53,17 @@ export default function ConfiguringSection() {
         a&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;product aimed at small teams. Beyond its
         native integrations with major CRMs and Slack, Leadfeeder
         provides&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;access for custom workflows. This means
-        your developer (or Geek @ Your Spot, as your implementation partner) can pull Leadfeeder data into
+        your developer (or Geek @ Your Spot LLC, as your implementation partner) can pull Leadfeeder data into
         other tools, sync it with your data warehouse, or even trigger proprietary automations. There’s also a
         browser plugin for identifying companies behind any website you visit, and an MCP server access point
         for letting AI assistants query your live Leadfeeder data.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Geek @ Your Spot sets up Leadfeeder, the work is about mapping these rules and automations to
+        When Geek @ Your Spot LLC sets up Leadfeeder, the work is about mapping these rules and automations to
         your real-world process. That means working with your sales and marketing teams to define what a
         qualified lead looks like, setting up the right filters, and making sure alerts go to the right
         people. It also means configuring&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;syncs so every
         high-intent local account gets routed and tagged correctly, with no double entry. For teams with more
-        complex needs, Geek @ Your Spot can leverage
+        complex needs, Geek @ Your Spot LLC can leverage
         Leadfeeder’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;to build custom data flows or
         reporting dashboards, but for most small businesses, the out-of-the-box automations are enough to
         eliminate manual lead triage and follow-up.</p>

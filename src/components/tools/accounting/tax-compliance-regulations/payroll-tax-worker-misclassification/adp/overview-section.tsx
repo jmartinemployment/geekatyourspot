@@ -30,7 +30,7 @@ export default function OverviewSection() {
         time spent on admin, and a lower risk of triggering audits. For South Florida’s small businesses, this
         is the difference between growth and sudden setbacks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s approach starts here, identifying the real cost of misclassification and manual
+        Geek @ Your Spot LLC’s approach starts here, identifying the real cost of misclassification and manual
         compliance, then using AI-driven payroll solutions that plug into your existing systems. The goal is
         simple: let business owners focus on people and growth, not paperwork and penalties.</p>
     </>

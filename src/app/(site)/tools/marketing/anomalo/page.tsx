@@ -16,8 +16,8 @@ const jsonLd: WithContext<TechArticle> = {
     "description": "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/anomalo" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
         "@id": "https://geekatyourspot.com/#software-anomalo",
@@ -34,8 +34,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/anomalo',
@@ -44,7 +44,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "Anomalo for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
             url: 'https://geekatyourspot.com/tools/marketing/anomalo',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
             images: [
@@ -52,7 +52,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -60,7 +60,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Anomalo for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -79,7 +79,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

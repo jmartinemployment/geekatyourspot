@@ -31,7 +31,7 @@ export default function ImplementingSection() {
         platform’s predictive scoring means you can test variations before publishing, so you do not waste
         budget on copy that will not convert.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A typical rollout with Geek @ Your Spot follows a phased approach. First, the team connects your core
+        A typical rollout with Geek @ Your Spot LLC follows a phased approach. First, the team connects your core
         platforms and imports your best-performing content. Next, you define your brand voice and set up
         approval flows. Then, you launch a pilot campaign, often a batch of posts or an email sequence, using
         Anyword’s AI to generate, score, and optimize the content. You review the results in the performance
@@ -41,7 +41,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The main blockers to a fast go-live are usually data silos or unclear brand guidelines. Anyword’s
         connectors and templated setup help bypass these. If your data is scattered or your team is still
-        debating tone, Geek @ Your Spot will help you map out what matters and get it loaded into the
+        debating tone, Geek @ Your Spot LLC will help you map out what matters and get it loaded into the
         platform. The process is designed to be as hands-off as possible for the business owner: you answer a
         few questions, provide access to your channels, and the rest is handled by the implementation team.
         That is how you go from blank page to automated, optimized content in less than a week, without

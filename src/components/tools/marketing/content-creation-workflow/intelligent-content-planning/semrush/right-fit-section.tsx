@@ -39,12 +39,11 @@ export default function RightFitSection() {
         app.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next step for a business in Miami-Dade, Broward, or West Palm Beach is not just to buy software
-        but to get Semrush configured for their real workflow. This is where Geek @ Your Spot comes in. The
+        but to get Semrush configured for their real workflow. This is where Geek @ Your Spot LLC comes in. The
         right implementation is not just about turning on features, it is about mapping your data, connecting
         your existing tools, and setting up the rules that match how your business already works. A team that
         tries to &quot;DIY&quot; Semrush may get the basics running, but they risk missing out on the
-        platform&#39;s biggest strengths: automation, brand consistency, and actionable insights. Geek @ Your
-        Spot specializes in building the&nbsp;<GlossaryLink slug="data-model">data
+        platform&#39;s biggest strengths: automation, brand consistency, and actionable insights. Geek @ Your Spot LLC specializes in building the&nbsp;<GlossaryLink slug="data-model">data
         models</GlossaryLink>&nbsp;and integrations that let Semrush deliver on its promise, so you get a
         content engine that matches your team&#39;s size, your local market, and your growth goals.</p>
       <p className="text-md text-white shadow-text pt-3">

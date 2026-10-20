@@ -53,10 +53,10 @@ export default function EvaluatingSection() {
         through its Contractor of Record service is a concrete advantage for small businesses facing audit risk
         in South Florida’s gig-heavy economy.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, consider the implementation support. Deel is a powerful platform, but it is Geek @ Your Spot’s
+        Finally, consider the implementation support. Deel is a powerful platform, but it is Geek @ Your Spot LLC’s
         deployment and configuration that make it work for your business. The value is not just in the software;
         it is in the way it is set up to match your unique payroll structure, compliance risks, and reporting
-        needs. Geek @ Your Spot ensures the platform is configured so that every workflow, rule, and integration
+        needs. Geek @ Your Spot LLC ensures the platform is configured so that every workflow, rule, and integration
         is mapped to your real environment. This is what turns Deel from a generic payroll tool into a
         compliance shield that fits your business.</p>
       <p className="text-md text-white shadow-text pt-3">

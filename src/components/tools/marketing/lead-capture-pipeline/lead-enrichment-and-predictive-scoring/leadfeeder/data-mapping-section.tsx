@@ -12,7 +12,7 @@ export default function DataMappingSection() {
         specify which pages or actions signal buying interest, such as visits to pricing, demo, or service
         pages. Mapping these pages upfront is key. For a local accounting firm, this might mean flagging
         repeat visits to the “Services” or “Contact” page; for a medical practice, it could be time spent on
-        the “Insurance” section. Geek @ Your Spot works with you to list these high-value pages and set them
+        the “Insurance” section. Geek @ Your Spot LLC works with you to list these high-value pages and set them
         as triggers in Leadfeeder’s scoring model.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next is segmenting your website traffic. Leadfeeder’s filters allow you to separate local business
@@ -33,8 +33,7 @@ export default function DataMappingSection() {
         Leadfeeder’s scoring model is another area that requires input. The intent score is calculated using
         factors like depth of engagement, frequency of visits, and recency. You can adjust the weights or
         thresholds to match your own sales cycle. For example, a business with a long buying process may want
-        to score repeat visits higher, while a fast-moving service provider may prioritize recency. Geek @
-        Your Spot helps calibrate these settings so the score reflects what “ready to buy” looks like in your
+        to score repeat visits higher, while a fast-moving service provider may prioritize recency. Geek @ Your Spot LLC helps calibrate these settings so the score reflects what “ready to buy” looks like in your
         market.</p>
       <p className="text-md text-white shadow-text pt-3">
         Data enrichment is built into Leadfeeder, but you control what is appended and what is not. The tool
@@ -45,13 +44,12 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Privacy and compliance are also part of the mapping process. Leadfeeder works at the company level and
         is built for GDPR compliance, but you need to ensure that contact enrichment
-        and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync follow your own privacy policies. Geek
-        @ Your Spot reviews these requirements with you before launch, so you do not end up with data you
+        and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync follow your own privacy policies. Geek @ Your Spot LLC reviews these requirements with you before launch, so you do not end up with data you
         cannot use.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, plan for how Leadfeeder’s data will flow into your team’s daily routines. Decide who receives
         real-time alerts, who reviews new leads, and how follow-up is tracked. A clear mapping of roles and
-        responsibilities ensures that no hot lead sits idle. Geek @ Your Spot will help you document this
+        responsibilities ensures that no hot lead sits idle. Geek @ Your Spot LLC will help you document this
         process, so everyone knows what to do when a high-fit local company shows up in the system.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, the effectiveness of Leadfeeder in your pipeline depends on careful upfront mapping, of

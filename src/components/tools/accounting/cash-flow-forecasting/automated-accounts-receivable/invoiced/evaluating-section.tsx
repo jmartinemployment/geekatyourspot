@@ -28,10 +28,9 @@ export default function EvaluatingSection() {
         small businesses, this means reduced days sales outstanding (DSO) and improved cash flow, which are critical
         for maintaining liquidity and supporting growth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot enhances the value of Invoiced by offering tailored implementation services. Their local
+        Geek @ Your Spot LLC enhances the value of Invoiced by offering tailored implementation services. Their local
         expertise ensures that the platform is configured to meet the unique challenges faced by small businesses in
-        South Florida. By handling the technical aspects of deployment and providing ongoing support, Geek @ Your
-        Spot helps businesses maximize the benefits of Invoiced, ensuring a smooth and successful implementation.</p>
+        South Florida. By handling the technical aspects of deployment and providing ongoing support, Geek @ Your Spot LLC helps businesses maximize the benefits of Invoiced, ensuring a smooth and successful implementation.</p>
     </>
   );
 

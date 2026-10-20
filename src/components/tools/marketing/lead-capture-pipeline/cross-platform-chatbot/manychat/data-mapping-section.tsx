@@ -35,8 +35,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Consent and compliance are also built into the data structure. Manychat prompts for opt-in when
         collecting emails or phone numbers, and stores consent alongside contact details. This is critical for
-        staying compliant with messaging regulations and for keeping your marketing lists clean. Geek @ Your
-        Spot ensures these steps are configured from the start, so you do not risk sending messages to
+        staying compliant with messaging regulations and for keeping your marketing lists clean. Geek @ Your Spot LLC ensures these steps are configured from the start, so you do not risk sending messages to
         contacts who have not agreed to hear from you.</p>
       <p className="text-md text-white shadow-text pt-3">
         Analytics depend on clean, consistent data mapping. Manychat’s dashboard shows you how many contacts
@@ -53,7 +52,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real cost of skipping these decisions shows up fast: missed leads that never make it to
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, contacts stuck in the wrong campaign, or
-        compliance issues from missing consent records. Geek @ Your Spot works with clients to map out the
+        compliance issues from missing consent records. Geek @ Your Spot LLC works with clients to map out the
         data structure before launch, test integrations with real conversations, and build a foundation that
         lasts. That way, when your team comes back on Monday, every inquiry from Friday, no matter what
         channel it came in on, lands exactly where it should, ready for follow-up and tracked from first

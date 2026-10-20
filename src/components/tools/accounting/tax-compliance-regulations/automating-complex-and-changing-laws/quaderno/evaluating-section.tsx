@@ -32,13 +32,13 @@ export default function EvaluatingSection() {
         existing systems and whether it meets their specific needs. It also allows them to experience firsthand
         the benefits of automated tax compliance, such as reduced manual work and increased accuracy.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot enhances the evaluation process by offering expert guidance on how to best utilize
+        Geek @ Your Spot LLC enhances the evaluation process by offering expert guidance on how to best utilize
         Quaderno&#39;s features. They help businesses assess their specific tax compliance needs and configure
         the platform to address them effectively. This consultative approach ensures that businesses not only
         choose the right tool but also implement it in a way that maximizes its value.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, evaluating Quaderno as a tax compliance solution involves assessing its fit with business
-        operations and understanding its pricing model. With the support of Geek @ Your Spot, businesses in
+        operations and understanding its pricing model. With the support of Geek @ Your Spot LLC, businesses in
         South Florida can confidently adopt Quaderno, knowing it will streamline their tax compliance processes
         and support their growth ambitions.</p>
     </>

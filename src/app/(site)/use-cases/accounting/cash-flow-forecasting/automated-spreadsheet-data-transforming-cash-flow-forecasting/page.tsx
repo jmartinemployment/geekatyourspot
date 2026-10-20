@@ -30,10 +30,10 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
             },
             "datePublished": "2026-10-11T13:17:30.3879718Z",
@@ -71,24 +71,24 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: DESCRIPTION,
         keywords: ["Automated Spreadsheet Data", "Cash Flow Forecasting", "AI Implementation", "Small Business Automation", "Spreadsheet Automation", "Data Quality"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -98,7 +98,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
             },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

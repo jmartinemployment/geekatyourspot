@@ -38,7 +38,7 @@ export default function DataMappingSection() {
         tax rules, you will need to review and update mappings. TaxJar’s continuous law monitoring and AI
         recommendations help keep your codes current, but the initial structure must be solid.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Geek @ Your Spot leads a TaxJar rollout, the team starts with
+        When Geek @ Your Spot LLC leads a TaxJar rollout, the team starts with
         a&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment: reviewing your
         product list, sales history, and customer records for gaps or inconsistencies. They work with you to
         standardize codes, validate addresses, and set up exemption tracking before the platform goes live. This

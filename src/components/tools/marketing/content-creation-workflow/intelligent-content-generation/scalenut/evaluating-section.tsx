@@ -57,8 +57,7 @@ export default function EvaluatingSection() {
         leadership or original research. For most small businesses, though, the bulk of content needs fall
         squarely within Scalenut’s strengths.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The buying decision should also weigh the value of ongoing support and implementation. Geek @ Your
-        Spot’s role is to ensure Scalenut is set up to fit your real workflow, map your data correctly, and
+        The buying decision should also weigh the value of ongoing support and implementation. Geek @ Your Spot LLC’s role is to ensure Scalenut is set up to fit your real workflow, map your data correctly, and
         train your team to get the most out of the platform. This is not a “set and forget” tool; it is a
         system that grows with your business. The right implementation makes the difference between a tool
         that adds value every week and one that sits unused after the first month.</p>

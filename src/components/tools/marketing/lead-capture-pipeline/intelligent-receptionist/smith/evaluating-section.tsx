@@ -19,7 +19,7 @@ export default function EvaluatingSection() {
         fit if you want to automate structured screening, detailed intake, and appointment booking, and if you
         use mainstream CRMs, scheduling tools, or field service platforms. If you need custom scripting or
         feature extensions outside what Smith.ai’s integration catalog supports, or if your intake process is
-        radically different from standard forms, it may not be the right tool. Geek @ Your Spot’s job is to map
+        radically different from standard forms, it may not be the right tool. Geek @ Your Spot LLC’s job is to map
         your actual workflows to what Smith.ai can do, so you do not end up with a system that almost fits but
         leaves gaps.</p>
       <p className="text-md text-white shadow-text pt-3">

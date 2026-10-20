@@ -36,10 +36,10 @@ export default function RightFitSection() {
         features without locking you into a long-term contract. The key is to identify where your team is
         losing time or making errors, and use HyperWrite to automate those steps first.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a critical role in making HyperWrite work for local businesses. The consultancy
+        Geek @ Your Spot LLC plays a critical role in making HyperWrite work for local businesses. The consultancy
         does not just install the tool; it maps your data, configures automation rules, and integrates
         HyperWrite with your existing platforms. This means you get a system that fits your business, not a
-        generic template. Geek @ Your Spot also handles training and change management, so your team is not
+        generic template. Geek @ Your Spot LLC also handles training and change management, so your team is not
         left figuring things out on their own. The result is a faster go-live, less disruption, and a process
         that scales as your business grows. For South Florida small businesses, this local expertise is what
         turns HyperWrite from another tool into a real productivity driver.</p>
@@ -48,7 +48,7 @@ export default function RightFitSection() {
         scattered content, HyperWrite offers a way out. If your needs are simple or you only publish
         occasionally, a lighter solution is likely enough. But for teams ready to automate the hardest parts
         of intelligent content planning and free up time for work that matters, HyperWrite, set up and
-        supported by Geek @ Your Spot, delivers a measurable shift in what small business marketing can
+        supported by Geek @ Your Spot LLC, delivers a measurable shift in what small business marketing can
         achieve.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions

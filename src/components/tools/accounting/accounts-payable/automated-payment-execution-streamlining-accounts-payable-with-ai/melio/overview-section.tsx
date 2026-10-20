@@ -35,7 +35,7 @@ export default function OverviewSection() {
         competitive market. For those in West Palm Beach, Broward, and Miami-Dade counties,&nbsp;
         <Link id="tools-accounting-payment-execution-melio-overview-home"
           href="/" className="text-[#C83803] hover:underline">
-          Geek @ Your Spot
+          Geek @ Your Spot LLC
         </Link>&nbsp;provides tailored AI implementation services to help local businesses make this shift
         smoothly and effectively.</p>
     </>

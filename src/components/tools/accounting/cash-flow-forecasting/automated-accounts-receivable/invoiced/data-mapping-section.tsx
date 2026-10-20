@@ -11,7 +11,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The initial step involves a thorough assessment of your current data architecture. Understanding how your
         data is organized and flows through your systems helps in mapping it accurately to Invoiced&#39;s framework.
-        Geek @ Your Spot plays a pivotal role here, using their expertise to align your data structure with
+        Geek @ Your Spot LLC plays a pivotal role here, using their expertise to align your data structure with
         Invoiced&#39;s requirements, ensuring seamless integration and functionality.</p>
       <p className="text-md text-white shadow-text pt-3">
         Invoiced&#39;s platform requires precise mapping of data fields to ensure that information such as customer

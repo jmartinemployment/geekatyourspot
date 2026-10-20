@@ -21,7 +21,7 @@ export default function OverviewSection() {
         plugin fails, or a state updates its rules, there is no one watching. The risk is real and immediate:
         one missed notice or late registration can put the whole business at risk.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot works with small businesses in West Palm Beach, Broward and Miami-Dade counties who are
+        Geek @ Your Spot LLC works with small businesses in West Palm Beach, Broward and Miami-Dade counties who are
         stuck in exactly this bind. We see owners losing nights to spreadsheets, answering state letters they do
         not understand, and spending money on tax tools that still leave them exposed. The answer is not more
         software, it is a managed, AI-powered compliance process that fits the way small teams actually work.

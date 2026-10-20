@@ -24,7 +24,7 @@ export default function ImplementingSection() {
         learn to navigate the system, allowing them to focus on more strategic tasks rather than being bogged down
         by manual processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout the implementation, support from Geek @ Your Spot ensures that any challenges are addressed
+        Throughout the implementation, support from Geek @ Your Spot LLC ensures that any challenges are addressed
         promptly. Their expertise in&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation for small
         businesses means that they can provide tailored solutions that fit the unique needs of your business. This
         partnership not only accelerates the implementation process but also ensures that Chaserhq is configured to

@@ -28,7 +28,7 @@ export default function EvaluatingSection() {
         running HIPAA-compliant workflows, expect a few weeks for proper mapping and testing, but this is still
         much faster than hiring and training a new receptionist. The key is that Nextiva does not force you to
         change your business to fit its model; it adapts to your hours, your appointment types, your escalation
-        rules. Geek @ Your Spot’s implementation closes any remaining gap, handling the configuration, testing,
+        rules. Geek @ Your Spot LLC’s implementation closes any remaining gap, handling the configuration, testing,
         and training so your team doesn’t lose time learning a new system.</p>
       <p className="text-md text-white shadow-text pt-3">
         When judging Nextiva, look at the real impact on your week. Does it reduce the hours your staff spend on

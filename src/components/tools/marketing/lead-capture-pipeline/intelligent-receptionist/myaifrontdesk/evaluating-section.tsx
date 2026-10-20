@@ -41,7 +41,7 @@ export default function EvaluatingSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Does your business lose revenue to missed calls, after-hours inquiries, or slow response times?</li>
         <li>Do you want to automate routine questions, bookings, and lead capture without adding more staff?</li>
-        <li>Are you comfortable with a self-service setup, or do you need a partner like Geek @ Your Spot to configure and maintain the system for you?</li>
+        <li>Are you comfortable with a self-service setup, or do you need a partner like Geek @ Your Spot LLC to configure and maintain the system for you?</li>
         <li>Does your workflow depend on integration with Google Calendar, Outlook, Calendly, HubSpot, Salesforce, Pipedrive, Zoho, or Shopify?</li>
         <li>Is your client base multilingual, or do you want to serve callers in Spanish, French, Portuguese, or Mandarin without hiring bilingual staff?</li>
         <li>Is a predictable, flat monthly cost preferable to unpredictable per-call or per-minute billing?</li>
@@ -60,7 +60,7 @@ export default function EvaluatingSection() {
         caller on hold. The cost does not increase when your business grows, and there is no penalty for scaling
         up during peak season.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Where Geek @ Your Spot adds value is in making sure you get the fit right from the start. They help you
+        Where Geek @ Your Spot LLC adds value is in making sure you get the fit right from the start. They help you
         clarify your business objectives, assess your call and lead data, and choose the plan that matches your
         real-world usage. They handle the setup, integration, and ongoing tuning, so you do not pay for features
         you do not need or miss out on automation that could save you hours every week. The fit is not just

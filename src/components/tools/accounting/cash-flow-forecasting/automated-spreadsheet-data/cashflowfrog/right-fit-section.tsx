@@ -18,13 +18,13 @@ export default function RightFitSection() {
         features.</p>
       <p className="text-md text-white shadow-text pt-3">
         For those considering Cashflowfrog, the next step is to assess the specific needs of your business and how
-        they align with the tool&#39;s capabilities. Geek @ Your Spot can assist in this evaluation, providing
+        they align with the tool&#39;s capabilities. Geek @ Your Spot LLC can assist in this evaluation, providing
         expert guidance on how to best implement Cashflowfrog to meet your unique requirements. This includes
         configuring the tool to integrate seamlessly with your existing systems and ensuring that your team is
         trained to leverage its full potential.</p>
       <p className="text-md text-white shadow-text pt-3">
         A practical approach involves starting with a pilot program to measure the return on investment and ensure
-        that Cashflowfrog meets your expectations. By working with Geek @ Your Spot, businesses can benefit from
+        that Cashflowfrog meets your expectations. By working with Geek @ Your Spot LLC, businesses can benefit from
         tailored implementation strategies that minimize downtime and maximize the tool&#39;s impact. This
         partnership ensures that you are not only adopting a new tool but also enhancing your financial management
         processes.</p>

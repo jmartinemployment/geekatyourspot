@@ -28,7 +28,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 thin. This is where bulk social media scheduling can make a difference, allowing businesses to plan and automate
                 their posts, ensuring a steady flow of content without the last-minute scramble.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek At Your Spot helps businesses streamline this process by setting up AI-powered tools that automate social
+                Geek @ Your Spot LLC helps businesses streamline this process by setting up AI-powered tools that automate social
                 media scheduling. These tools, like&nbsp;
                 <Link id="ai-content-creation-workflow-bulk-contentstudio-1"
                   href="/tools/marketing/contentstudio" className="text-[#0B162A] font-bold hover:underline">
@@ -83,7 +83,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 thin. This is where bulk social media scheduling can make a difference, allowing businesses to plan and automate
                 their posts, ensuring a steady flow of content without the last-minute scramble.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek At Your Spot helps businesses streamline this process by setting up AI-powered tools that automate social
+                Geek @ Your Spot LLC helps businesses streamline this process by setting up AI-powered tools that automate social
                 media scheduling. These tools, like&nbsp; 
                 <Link id="ai-content-creation-workflow-bulk-contentstudio-3"
                   href="/tools/marketing/contentstudio" className="text-[#0B162A] font-bold hover:underline">

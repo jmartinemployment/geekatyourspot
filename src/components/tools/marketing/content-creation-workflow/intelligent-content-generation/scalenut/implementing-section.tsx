@@ -48,7 +48,7 @@ export default function ImplementingSection() {
         is modular, there’s no penalty for starting with one channel and adding others later. This approach
         reduces risk and lets teams see value quickly before committing to a full-scale deployment.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout the launch, Geek @ Your Spot handles the configuration, data mapping, and training. The
+        Throughout the launch, Geek @ Your Spot LLC handles the configuration, data mapping, and training. The
         consultancy ensures that every field, workflow, and automation matches the business’s real-world
         needs, not just the defaults. They manage the integration with existing systems and provide hands-on
         support during the first publishing cycles. This is what closes the gap between a powerful tool and

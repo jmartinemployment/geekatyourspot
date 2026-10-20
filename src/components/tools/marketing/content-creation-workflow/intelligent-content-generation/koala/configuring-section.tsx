@@ -46,9 +46,9 @@ export default function ConfiguringSection() {
         generate full articles with a single&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;call,
         connect Koala’s output to your own applications, or deliver finished content to other systems. Koala
         supports direct publishing to WordPress, Shopify, Webflow, and Ghost, and can reach any endpoint that
-        accepts a signed webhook. If you use a custom CMS or have a unique distribution need, Geek @ Your Spot
+        accepts a signed webhook. If you use a custom CMS or have a unique distribution need, Geek @ Your Spot LLC
         can configure these integrations so that content moves automatically from draft to live with no manual
-        copy-paste. This is where a local partner matters: Geek @ Your Spot maps your existing systems and
+        copy-paste. This is where a local partner matters: Geek @ Your Spot LLC maps your existing systems and
         data to Koala’s structure, sets up the right approval workflows, and trains your team on how to use
         the platform’s rules and automation logic. They also make sure your Brand DNA is set up correctly from
         day one, so you do not have to fix errors after the fact. The result is not just a tool, but a working
@@ -64,7 +64,7 @@ export default function ConfiguringSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h2 id="what-gets-configured-in-koala-and-how-geek-your-spot-makes-it-work-for-your-team" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Gets Configured in Koala and How Geek @ Your Spot Makes It Work for Your Team
+                What Gets Configured in Koala and How Geek @ Your Spot LLC Makes It Work for Your Team
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -77,7 +77,7 @@ export default function ConfiguringSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h2 id="what-gets-configured-in-koala-and-how-geek-your-spot-makes-it-work-for-your-team" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Gets Configured in Koala and How Geek @ Your Spot Makes It Work for Your Team
+                What Gets Configured in Koala and How Geek @ Your Spot LLC Makes It Work for Your Team
               </h2>
               {body}
             </div>

@@ -40,7 +40,7 @@ export default function ConfiguringSection() {
         open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for custom extensions in the way
         developer-heavy platforms do. All configuration happens within the dashboard, through visual tools,
         dropdowns, and field mapping. This lowers the technical barrier, letting a small business control its AI
-        receptionist without needing IT staff. Geek @ Your Spot’s role is to work with you to define these
+        receptionist without needing IT staff. Geek @ Your Spot LLC’s role is to work with you to define these
         rules, map your data, and test every scenario before launch. The team brings experience in translating
         real business processes into automation logic that fits your workflow, not the other way around. They
         make sure the AI’s responses match your brand voice, the escalation paths fit your team structure, and

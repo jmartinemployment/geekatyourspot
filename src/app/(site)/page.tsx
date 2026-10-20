@@ -24,8 +24,8 @@ const jsonLd = {
     {
       "@type": ["Organization", "LocalBusiness"],
       "@id": "https://geekatyourspot.com/#organization",
-      "name": "Geek at Your Spot",
-      "alternateName": "Geek @ Your Spot",
+      "name": "Geek @ Your Spot LLC",
+      "alternateName": "Geek @ Your Spot LLC",
       "url": "https://geekatyourspot.com",
       "logo": "https://geekatyourspot.com/images/GeekAtYourSpot.svg",
       "image": "https://geekatyourspot.com/images/action-figure.jpeg",
@@ -113,7 +113,7 @@ const jsonLd = {
       "@id": "https://geekatyourspot.com/#webpage",
       "url": "https://geekatyourspot.com",
       "name": "AI Consulting for South Florida Small Businesses",
-      "description": "Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+      "description": "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
       "isPartOf": {
         "@id": "https://geekatyourspot.com/#website"
       },
@@ -141,7 +141,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://geekatyourspot.com/#website",
       "url": "https://geekatyourspot.com",
-      "name": "Geek at Your Spot",
+      "name": "Geek @ Your Spot LLC",
       "description": "AI consulting for South Florida small businesses"
     },
     {
@@ -152,7 +152,7 @@ const jsonLd = {
       "contentUrl": "https://geekatyourspot.com/images/action-figure.jpeg",
       "width": 1024,
       "height": 1536,
-      "caption": "Geek At Your Spot - AI-created action figure representing founder's hands-on approach to AI consulting"
+      "caption": "Geek @ Your Spot LLC - AI-created action figure representing founder's hands-on approach to AI consulting"
     }
   ]
 };
@@ -160,8 +160,8 @@ const jsonLd = {
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
     metadataBase: new URL('https://geekatyourspot.com'),
-    title: "Geek at Your Spot",
-    description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work. Free consultation with 40 years of engineering expertise.',
+    title: "Geek @ Your Spot LLC",
+    description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work. Free consultation with 40 years of engineering expertise.',
     keywords: [
       'AI consulting',
       'AI for small business',
@@ -177,12 +177,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
     ],
     authors: [
       {
-        name: 'Geek at Your Spot',
+        name: 'Geek @ Your Spot LLC',
         url: 'https://geekatyourspot.com',
       },
     ],
-    creator: 'Geek at Your Spot LLC',
-    publisher: 'Geek at Your Spot LLC',
+    creator: 'Geek @ Your Spot LLC',
+    publisher: 'Geek @ Your Spot LLC',
     formatDetection: {
       email: false,
       address: false,
@@ -192,23 +192,23 @@ export const generateMetadata = async (): Promise<Metadata> => {
       canonical: '/',
     },
     openGraph: {
-      title: "Geek at Your Spot",
-      description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.',
+      title: "Geek @ Your Spot LLC",
+      description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.',
       url: 'https://geekatyourspot.com',
-      siteName: 'Geek at Your Spot',
+      siteName: 'Geek @ Your Spot LLC',
       images: [
         {
           url: 'https://geekatyourspot.com/images/action-figure.jpeg',
           width: 1024,
           height: 1536,
-          alt: 'Geek At Your Spot - AI-created action figure representing hands-on AI consulting approach',
+          alt: 'Geek @ Your Spot LLC - AI-created action figure representing hands-on AI consulting approach',
           type: 'image/jpeg',
         },
         {
           url: 'https://geekatyourspot.com/images/GeekAtYourSpot.svg',
           width: 116,
           height: 48,
-          alt: 'Geek at Your Spot logo',
+          alt: 'Geek @ Your Spot LLC logo',
           type: 'image/svg+xml',
         },
       ],
@@ -217,8 +217,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Geek at Your Spot",
-      description: 'Ready to put AI to work? Geek at Your Spot builds practical AI tools for South Florida small businesses.',
+      title: "Geek @ Your Spot LLC",
+      description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses.',
       creator: '@geekatyourspot',
       images: ['https://geekatyourspot.com/images/action-figure.jpeg'],
       site: '@geekatyourspot',
@@ -238,7 +238,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     category: 'technology',
     classification: 'Business Services',
-    applicationName: 'Geek at Your Spot',
+    applicationName: 'Geek @ Your Spot LLC',
     icons: {
       icon: '/favicon.gif',
       shortcut: '/favicon.ico',
@@ -253,7 +253,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     appleWebApp: {
       capable: true,
       statusBarStyle: 'black-translucent',
-      title: 'Geek at Your Spot',
+      title: 'Geek @ Your Spot LLC',
       startupImage: '/icon.png',
     },
     verification: {

@@ -19,15 +19,15 @@ export default function RightFitSection() {
         can accommodate their specific needs.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering TaxJar, the next step is to evaluate how its features align with their
-        specific tax compliance challenges. Geek @ Your Spot, located in West Palm Beach, Broward, and
+        specific tax compliance challenges. Geek @ Your Spot LLC, located in West Palm Beach, Broward, and
         Miami-Dade counties, offers expert implementation services to ensure that TaxJar is configured to meet
         the unique needs of your business. This local expertise is invaluable in navigating the nuances of
         regional tax laws and ensuring a smooth transition to automated compliance.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot provides a comprehensive implementation strategy that includes data mapping, system
+        Geek @ Your Spot LLC provides a comprehensive implementation strategy that includes data mapping, system
         integration, and training for your team. This ensures that your business can fully leverage TaxJar&#39;s
         capabilities without the typical growing pains associated with new software adoption. By partnering with
-        Geek @ Your Spot, businesses gain access to a wealth of local knowledge and technical expertise, making
+        Geek @ Your Spot LLC, businesses gain access to a wealth of local knowledge and technical expertise, making
         the transition to TaxJar as seamless as possible.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement TaxJar should be based on a thorough assessment of your

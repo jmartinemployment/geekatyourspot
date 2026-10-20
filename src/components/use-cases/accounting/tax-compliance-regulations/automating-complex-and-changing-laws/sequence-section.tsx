@@ -6,7 +6,7 @@ export default function SequenceSection() {
       <p className="text-md text-white shadow-text pt-3">
         Implementing a&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;solution in a
         real-world environment involves a series of deliberate steps that ensure the process is smooth and
-        effective. At Geek @ Your Spot, the implementation begins with a comprehensive analysis of the
+        effective. At Geek @ Your Spot LLC, the implementation begins with a comprehensive analysis of the
         business’s current tax compliance status. This assessment identifies existing gaps and potential areas
         for improvement, such as overlooked nexus thresholds or outdated compliance methods.</p>
       <p className="text-md text-white shadow-text pt-3">

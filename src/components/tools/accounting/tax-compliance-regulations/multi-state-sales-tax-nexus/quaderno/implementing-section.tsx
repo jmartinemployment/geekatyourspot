@@ -42,7 +42,7 @@ export default function ImplementingSection() {
         For South Florida clients, the difference is clear by the second week: the team that started with
         Quaderno’s connectors and a phased approach is already seeing live compliance alerts and tax-ready
         invoices, while the one stuck in manual mapping or waiting on a developer is still running test exports.
-        Geek @ Your Spot’s role is to keep the process short and focused, mapping your real sales flows to
+        Geek @ Your Spot LLC’s role is to keep the process short and focused, mapping your real sales flows to
         Quaderno’s connectors, validating that the data is flowing cleanly, and configuring the alerts and
         reports you actually need. No generic templates, no extra steps. The goal is live compliance in days,
         not months.</p>

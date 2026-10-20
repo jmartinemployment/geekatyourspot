@@ -39,7 +39,7 @@ export default function EvaluatingSection() {
         you are ready to follow a plan built on your data, not on hunches.</p>
       <p className="text-md text-white shadow-text pt-3">
         A buyer should also consider the support and configuration needed to make MarketMuse work. The
-        platform is not plug-and-play out of the box for every business. Geek @ Your Spot’s implementation
+        platform is not plug-and-play out of the box for every business. Geek @ Your Spot LLC’s implementation
         closes the gap by handling the initial mapping, setup, and training, making sure the platform’s logic
         matches your actual content goals and resource limits. Without that, even the best tool can stall.
         With it, you get a repeatable system that returns hours to your week and makes every content decision

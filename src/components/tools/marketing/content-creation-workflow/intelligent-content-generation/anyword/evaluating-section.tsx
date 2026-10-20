@@ -30,7 +30,7 @@ export default function EvaluatingSection() {
         with your own data and channels before committing. After that, you pay for the platform, there is no
         pay-per-output or metered usage for basic features. The real cost is in the initial setup and
         training: mapping your brand rules, connecting integrations, and teaching the AI with your historical
-        data. This is where Geek @ Your Spot adds value, making sure you do not waste time or money on a
+        data. This is where Geek @ Your Spot LLC adds value, making sure you do not waste time or money on a
         misconfigured system. There are no hidden usage fees, but as with
         any&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>, you
         will want to check the vendor’s current published pricing for the latest plans and limits.</p>
@@ -51,7 +51,7 @@ export default function EvaluatingSection() {
         workflows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, look at support and implementation. Anyword is self-serve for basic use, but the real value
-        comes from a setup that matches your business’s actual processes and goals. Geek @ Your Spot handles
+        comes from a setup that matches your business’s actual processes and goals. Geek @ Your Spot LLC handles
         the heavy lifting, mapping data, training the AI, and configuring automation rules, so your team can
         focus on results instead of troubleshooting. If you are weighing DIY against professional
         implementation, factor in the risk of wasted time or missed opportunities from a poorly configured

@@ -8,7 +8,7 @@ export default function DataMappingSection() {
         This is where small teams can win or lose the benefits of automation.</p>
       <p className="text-md text-white shadow-text pt-3">
         Jasper’s Brand Voice is not a set-it-and-forget-it style guide. It is a structured layer that pulls
-        from real company language, value propositions, and proof points. During setup, Geek @ Your Spot works
+        from real company language, value propositions, and proof points. During setup, Geek @ Your Spot LLC works
         with clients to collect and organize the documents that define the business, past campaigns, product
         descriptions, customer stories, and regulatory disclaimers. These assets are uploaded into Jasper’s
         Knowledge Base, which the platform references every time it generates or revises content. The more
@@ -35,8 +35,7 @@ export default function DataMappingSection() {
         channel-specific assets without manual rewriting.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integrations are mapped as part of the data structure. Jasper connects directly to tools like Google
-        Docs, Microsoft Word, Webflow, Asana, monday.com, and Google Search Console. During setup, Geek @ Your
-        Spot works with clients to map which data flows where, content drafts, approvals, performance metrics,
+        Docs, Microsoft Word, Webflow, Asana, monday.com, and Google Search Console. During setup, Geek @ Your Spot LLC works with clients to map which data flows where, content drafts, approvals, performance metrics,
         so nothing gets lost between systems. This mapping is what allows Jasper to slot into an existing
         workflow without creating new bottlenecks or manual steps.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -8,7 +8,7 @@ export default function BenefitsSection() {
         For many organizations, automating&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>&nbsp;is not merely a convenience but a strategic imperative. By leveraging
         technology, companies can significantly enhance their compliance processes, reduce the risk of errors,
-        and improve overall operational efficiency. As an AI implementation consultancy, Geek At Your Spot
+        and improve overall operational efficiency. As an AI implementation consultancy, Geek @ Your Spot LLC
         specializes in helping businesses unlock these benefits by tailoring automated solutions that align with
         their specific needs.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -31,13 +31,13 @@ export default function BenefitsSection() {
         Cost Savings: Implementing automated tax compliance solutions can lead to substantial cost reductions.
         By reducing the need for manual oversight and minimizing errors, organizations can lower their overall
         compliance costs. Additionally, automation allows for better resource allocation, enabling businesses to
-        invest in growth initiatives rather than spending on rectifying compliance issues. Geek At Your Spot
+        invest in growth initiatives rather than spending on rectifying compliance issues. Geek @ Your Spot LLC
         works with clients to identify the most cost-effective automation strategies, ensuring a strong return
         on investment.</p>
       <p className="text-md text-white shadow-text pt-3">
         Enhanced Compliance and Risk Management: Automation enhances a company&#39;s ability to stay compliant
         with ever-changing tax regulations. With automated systems, businesses can quickly adapt to new rules
-        and ensure that all filings are accurate and timely. Geek At Your Spot assists clients in configuring
+        and ensure that all filings are accurate and timely. Geek @ Your Spot LLC assists clients in configuring
         these systems to automatically update with the latest&nbsp;<Link id="use-cases-accounting-tax-compliance-benefits-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">regulatory changes</Link>, thereby maintaining compliance
         and reducing the risk of penalties.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -49,7 +49,7 @@ export default function BenefitsSection() {
         data, ensuring that nothing is overlooked. This is particularly beneficial for organizations that handle
         large volumes of transactions across multiple jurisdictions.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot provides expertise in designing data models that facilitate seamless data integration,
+        Geek @ Your Spot LLC provides expertise in designing data models that facilitate seamless data integration,
         enabling businesses to consolidate information from various sources. This not only improves data
         accuracy but also enhances decision-making capabilities by providing a comprehensive view of an
         organization&#39;s tax position.</p>
@@ -59,11 +59,10 @@ export default function BenefitsSection() {
       <p className="text-md text-white shadow-text pt-3">
         An automated tax compliance system is most effective when it is fully integrated with an
         organization&#39;s existing workflows and technology stack. This integration ensures that tax-related
-        processes are not isolated but are part of a cohesive operational framework. By working with Geek At
-        Your Spot, businesses can achieve a seamless integration that enhances workflow efficiency and reduces
+        processes are not isolated but are part of a cohesive operational framework. By working with Geek @ Your Spot LLC, businesses can achieve a seamless integration that enhances workflow efficiency and reduces
         bottlenecks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot&#39;s consultants provide end-to-end support, from initial system setup to ongoing
+        Geek @ Your Spot LLC&#39;s consultants provide end-to-end support, from initial system setup to ongoing
         optimization. This includes configuring workflows to align with business processes, ensuring that
         automation complements rather than disrupts existing operations.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -72,7 +71,7 @@ export default function BenefitsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Implementing automation in tax compliance is not just a technological shift; it requires a change in
         organizational culture and processes. Effective change management is crucial to realizing the full
-        benefits of automation. Geek At Your Spot assists clients in navigating this transition by providing
+        benefits of automation. Geek @ Your Spot LLC assists clients in navigating this transition by providing
         tailored change management strategies that address both technical and human factors.</p>
       <p className="text-md text-white shadow-text pt-3">
         This includes training programs to upskill employees, fostering a culture of innovation, and developing

@@ -109,7 +109,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               No. BotPenguin uses a no-code flow builder. You can build, train, and launch chat or voice
-              workflows with a visual drag-and-drop tool. Geek @ Your Spot can set up the initial system, and
+              workflows with a visual drag-and-drop tool. Geek @ Your Spot LLC can set up the initial system, and
               your staff can handle daily updates or view analytics without any coding.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

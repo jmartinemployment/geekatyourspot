@@ -20,7 +20,7 @@ export default function ImplementingSection() {
         features, such as scenario planning and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-driven insights, at a
         pace that suits your business needs.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Training and support are integral to the go-live process. Geek @ Your Spot provides tailored training
+        Training and support are integral to the go-live process. Geek @ Your Spot LLC provides tailored training
         sessions to ensure your team understands how to leverage Clockwork&#39;s features effectively. This hands-on
         guidance helps your staff transition smoothly to the new system, maximizing the benefits of automation from
         day one.</p>

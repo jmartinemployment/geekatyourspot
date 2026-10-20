@@ -40,7 +40,7 @@ export default function ConfiguringSection() {
         scripting language for building custom extensions; you work within the platform’s supported
         integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to get these configurations right for South Florida’s complex environment.
+        Geek @ Your Spot LLC’s role is to get these configurations right for South Florida’s complex environment.
         This means mapping your real workforce—seasonal, cross-county, hybrid roles—into Gusto’s logic so every
         worker is classified and paid correctly from day one. They audit your existing records, set up the right
         tax accounts, configure pay schedules, and test the system with real data before you go live. They also
@@ -50,14 +50,14 @@ export default function ConfiguringSection() {
         If you try to DIY, the biggest risk is missing a configuration detail, like entering the wrong Florida
         reemployment tax rate or setting a contractor’s pay schedule to match employees, because the platform
         will automate
-        whatever you tell it to, right or wrong. Geek @ Your Spot’s implementation closes those gaps by walking
+        whatever you tell it to, right or wrong. Geek @ Your Spot LLC’s implementation closes those gaps by walking
         through every edge case: out-of-state workers, job code mapping, tip credits for restaurants, and
         multi-location reporting. They know where South Florida payrolls get tripped up and set Gusto to catch
         those mistakes before the IRS or the Florida Department of Revenue does.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short, Gusto’s configuration is not about custom code or DIY logic. It’s about setting the right
         rules in a platform that knows the difference between W-2 and 1099 from the ground up, and automating
-        every deadline, filing, and payment so you do not have to. Geek @ Your Spot brings the local know-how to
+        every deadline, filing, and payment so you do not have to. Geek @ Your Spot LLC brings the local know-how to
         make sure those rules match your real-world team, so you get the benefit of automation without the risk
         of a misstep.</p>
     </>

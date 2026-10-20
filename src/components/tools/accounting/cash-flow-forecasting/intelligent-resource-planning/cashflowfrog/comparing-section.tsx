@@ -56,8 +56,7 @@ export default function ComparingSection() {
         require someone to assemble the bigger picture by hand. Cashflowfrog brings these elements together: it
         automates accounts receivable insights, replaces static spreadsheets, and integrates with the accounting
         and banking stack without adding complexity. This is why it is listed as a top tool for Automated
-        Accounts Receivable, Automated Spreadsheet Data, and Automated Enterprise Resource Planning on the Geek
-        @ Your Spot site.</p>
+        Accounts Receivable, Automated Spreadsheet Data, and Automated Enterprise Resource Planning on the Geek @ Your Spot LLC site.</p>
       <p className="text-md text-white shadow-text pt-3">
         For a small business, the real test is not the feature list, it is what the tool removes from the week.
         Cashflowfrog eliminates double data entry, manual scenario building, and the need to reconcile numbers

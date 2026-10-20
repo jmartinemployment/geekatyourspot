@@ -16,7 +16,7 @@ export default function EvaluatingSection() {
         The pricing model for Upflow is not explicitly detailed in the available data, but businesses should
         consider the value it brings in terms of time saved and improved cash flow management. By automating routine
         tasks and reducing Days Sales Outstanding (DSO), Upflow can significantly enhance a company&#39;s financial
-        health. Geek @ Your Spot advises clients to weigh these benefits against the cost of implementation and
+        health. Geek @ Your Spot LLC advises clients to weigh these benefits against the cost of implementation and
         ongoing use.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another key consideration is Upflow&#39;s integration capabilities. Its ability to connect with
@@ -26,13 +26,13 @@ export default function EvaluatingSection() {
         minimizing errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         When evaluating Upflow, businesses should also consider the level of support and customization offered by
-        Geek @ Your Spot. As a local consultancy, Geek @ Your Spot provides hands-on assistance in configuring and
+        Geek @ Your Spot LLC. As a local consultancy, Geek @ Your Spot LLC provides hands-on assistance in configuring and
         deploying Upflow, ensuring that it meets the specific needs of each client. This personalized service can be
         a significant advantage for businesses looking to optimize their automated accounts receivable processes.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement Upflow should be based on a thorough assessment of its fit with the
         business&#39;s operational needs and financial goals. By considering both the tangible benefits and the
-        support available from Geek @ Your Spot, businesses can make an informed choice that enhances their
+        support available from Geek @ Your Spot LLC, businesses can make an informed choice that enhances their
         financial management capabilities.</p>
     </>
   );

@@ -36,7 +36,7 @@ export default function ConfiguringSection() {
         Input guidance is another automation feature. Each template asks for only what the AI needs: a product
         name, a key phrase, or a few details about your offer. Rytr turns this input into a draft in seconds.
         You can refine the draft by adjusting length, tone, or language, but the heavy lifting is done for
-        you. This is where Geek @ Your Spot brings value in implementation, mapping your real content needs to
+        you. This is where Geek @ Your Spot LLC brings value in implementation, mapping your real content needs to
         the right Rytr templates, setting brand tones, and training your team to use the tool’s logic for
         every channel you run. No custom coding required, just an understanding of which settings matter for
         your business.</p>
@@ -45,13 +45,12 @@ export default function ConfiguringSection() {
         layer for custom automation. Instead, it focuses on a set of integrations, Gmail, Slack, and LinkedIn,
         so you can surface AI-generated drafts inside the tools your team already uses. This is a
         config-driven platform, not a developer sandbox. For most small businesses, that’s a strength: less
-        complexity, fewer things to break, and a shorter path from idea to publishable content. When Geek @
-        Your Spot configures Rytr for a client, the work is about aligning templates and tones to your
+        complexity, fewer things to break, and a shorter path from idea to publishable content. When Geek @ Your Spot LLC configures Rytr for a client, the work is about aligning templates and tones to your
         workflow, not writing code or building custom automations.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real-world impact is clear when you return to the local salon owner from earlier. She needs
         Instagram posts in English and Spanish, a product description for her booking page, and a quick
-        follow-up email template. With Rytr, Geek @ Your Spot sets up her account with the right templates,
+        follow-up email template. With Rytr, Geek @ Your Spot LLC sets up her account with the right templates,
         tunes the tone for each channel, and shows her team how to use the language selector. Next time she
         needs a caption or a product blurb, she picks the template, enters a few words, and Rytr handles the
         rest. No blank pages, no bottlenecks, and no risk of publishing a post in the wrong tone or language.

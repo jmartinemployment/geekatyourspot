@@ -21,14 +21,13 @@ export default function RightFitSection() {
         resources. It&#39;s important to weigh the cost against the benefits of improved cash flow management and
         reduced administrative workload.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For businesses unsure about whether Chaserhq is the right fit, Geek @ Your Spot offers consultation services
+        For businesses unsure about whether Chaserhq is the right fit, Geek @ Your Spot LLC offers consultation services
         to help evaluate its suitability. They can assist in assessing your current accounts receivable processes
         and determine how Chaserhq can address specific pain points. With their expertise, businesses can make an
         informed decision about whether to implement Chaserhq or consider alternative solutions.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, Chaserhq is a powerful tool for businesses looking to enhance their automated accounts
-        receivable processes through automation and integration. For those in South Florida, partnering with Geek @
-        Your Spot can ensure a smooth implementation, allowing businesses to focus on growth and customer
+        receivable processes through automation and integration. For those in South Florida, partnering with Geek @ Your Spot LLC can ensure a smooth implementation, allowing businesses to focus on growth and customer
         satisfaction.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;

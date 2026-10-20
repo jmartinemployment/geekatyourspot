@@ -23,7 +23,7 @@ export default function EvaluatingSection() {
         platform&#39;s automation capabilities mean that you can focus on growing your business rather than
         getting bogged down in compliance details.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a crucial role in ensuring that TaxValet fits seamlessly into your business
+        Geek @ Your Spot LLC plays a crucial role in ensuring that TaxValet fits seamlessly into your business
         environment. They provide expert guidance during the implementation process, customizing the platform to
         meet your specific requirements. This includes configuring TaxValet to align with your existing systems
         and workflows, ensuring that you can maximize its benefits without disrupting your operations.</p>

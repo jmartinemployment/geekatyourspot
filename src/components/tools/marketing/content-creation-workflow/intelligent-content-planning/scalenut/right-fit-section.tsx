@@ -33,11 +33,11 @@ export default function RightFitSection() {
         specific neighborhoods or industries in South Florida, Scalenut’s cluster strategy and AI visibility
         tracking are a direct fit. You can track how your brand is cited in AI engines for local prompts, and
         adjust your content in real time to capture those opportunities. If you are in a regulated industry or
-        require deep customization, Geek @ Your Spot can help configure Scalenut to fit your compliance and
+        require deep customization, Geek @ Your Spot LLC can help configure Scalenut to fit your compliance and
         workflow needs, ensuring your data is mapped and your approval workflows are set up before launch.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next step for a business considering Scalenut is not to dive into a trial alone. The real value
-        comes from a tailored implementation, which is where Geek @ Your Spot steps in. They close the gap
+        comes from a tailored implementation, which is where Geek @ Your Spot LLC steps in. They close the gap
         between the platform’s capabilities and your unique environment, handling data mapping, integration
         with your existing systems, and change management for your team. This is not a one-size-fits-all
         setup, each deployment is mapped to your business objectives,
@@ -49,7 +49,7 @@ export default function RightFitSection() {
         Scalenut is built for that job. If you need a platform that only analyzes or reports, or if your team
         is set on a manual, in-house approach, there are other tools better suited. For small businesses in
         South Florida who want to break out of the content treadmill and become the answer in AI-driven
-        search, Scalenut is the platform, and Geek @ Your Spot is the partner, to make it happen.</p>
+        search, Scalenut is the platform, and Geek @ Your Spot LLC is the partner, to make it happen.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<Link id="tools-marketing-intelligent-content-planning-scalenut-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking

@@ -7,7 +7,7 @@ export default function PreparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         If you have read this far and recognize your business in the problems described, the next step is not
         to install a chatbot and hope for the best. The right move is to start with a structured assessment,
-        what Geek @ Your Spot calls the free AI consultation. The process is built to make sure the solution
+        what Geek @ Your Spot LLC calls the free AI consultation. The process is built to make sure the solution
         fits your stack and solves your real pain, not just add another system.</p>
       <p className="text-md text-white shadow-text pt-3">
         First, expect to define your business objectives in measurable terms. That means spelling out where

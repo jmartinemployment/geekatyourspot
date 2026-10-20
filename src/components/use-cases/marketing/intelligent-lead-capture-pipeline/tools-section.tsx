@@ -71,7 +71,7 @@ export default function ToolsSection() {
         Tidio centralizes customer conversations from website, SMS, Messenger, and Instagram, helping small
         businesses in Miami-Dade, Broward, and West Palm Beach manage leads and support seamlessly.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-lead-enrichment-and-predictive-scoring" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#0B162A] hover:underline">Lead Enrichment and Predictive Scoring</Link>
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-lead-enrichment-and-predictive-scoring" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#0B162A] hover:underline">Lead Enrichment & Predictive Scoring</Link>
       </h3>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-lead-enrichment-and-predictive-scoring-apollo" href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo" className="text-[#0B162A] hover:underline">Apollo</Link>

@@ -50,8 +50,7 @@ export default function RightFitSection() {
         ready to act on real-time signals and want to focus your team on the accounts that are most likely to
         close.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those who want to see how Leadfeeder fits into a broader AI-driven lead capture pipeline, Geek @
-        Your Spot’s existing resources on smart chatbots for marketing,
+        For those who want to see how Leadfeeder fits into a broader AI-driven lead capture pipeline, Geek @ Your Spot LLC’s existing resources on smart chatbots for marketing,
         AI&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>, and voice assistants provide
         the context and detail on how these systems can work together. Leadfeeder is the piece that makes sure
         no high-intent local company slips through the cracks, tying your website activity directly to your

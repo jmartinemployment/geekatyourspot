@@ -10,7 +10,7 @@ export default function ImplementingSection() {
         metrics or learning a new interface from zero, most of the data the team needs is there from the
         start.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The order of rollout matters. Geek @ Your Spot, as the implementer, guides the business through a
+        The order of rollout matters. Geek @ Your Spot LLC, as the implementer, guides the business through a
         phased approach, never a big-bang cutover that risks lost data or missed deadlines. The first phase is
         always a focused pilot: one content workflow, one or two channels, and a single set of business
         objectives. This limits risk and shows results early. The pilot covers the core: keyword research,
@@ -36,13 +36,12 @@ export default function ImplementingSection() {
         For small businesses, one of the biggest barriers to AI adoption is fear of disruption, nobody wants
         to lose a week of sales to a failed software rollout. Semrush addresses this by centralizing
         everything in one dashboard, with user management and collaboration tools that let the team work
-        together without switching between tools or waiting for IT to stitch systems together. When Geek @
-        Your Spot implements Semrush, the team sets up user roles and permissions so only the right people can
+        together without switching between tools or waiting for IT to stitch systems together. When Geek @ Your Spot LLC implements Semrush, the team sets up user roles and permissions so only the right people can
         approve, edit, or schedule content. The process is designed to be reversible: if something does not
         work as expected, the team can roll back or pause without losing data or progress.</p>
       <p className="text-md text-white shadow-text pt-3">
         The final stage before going fully live is training and handoff. Semrush’s interface is built for
-        non-technical users, but Geek @ Your Spot still provides targeted training, focusing on the workflows
+        non-technical users, but Geek @ Your Spot LLC still provides targeted training, focusing on the workflows
         the team will actually use, not a generic tour of every feature. That means hands-on sessions for
         content scheduling, bulk publishing, and real-time visibility tracking. The team learns how to use
         Semrush’s recommendations to adjust on the fly, if traffic drops on a Tuesday, they see why and what

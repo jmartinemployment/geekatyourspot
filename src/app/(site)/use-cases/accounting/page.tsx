@@ -46,16 +46,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "article",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
     url: PAGE_URL,
-    siteName: "Geek at Your Spot",
+    siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
     images: [{ url: LOGO_IMAGE }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
     images: [LOGO_IMAGE],
   },
@@ -68,10 +68,10 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": PAGE_TITLE,
             "description": PAGE_DESCRIPTION,
-            "author": { "@type": "Organization", "@id": `${SITE_URL}/#organization`, "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": `${SITE_URL}/#organization`, "name": "Geek @ Your Spot LLC" },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": { "@type": "ImageObject", "url": LOGO_IMAGE }
             },
             "datePublished": "2026-10-15T00:00:00Z",

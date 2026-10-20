@@ -23,8 +23,7 @@ export default function RightChoiceSection() {
         AI-powered invoice processing, are designed to address these challenges and improve your overall
         financial operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        To ensure a successful implementation, partnering with an experienced consultancy like Geek @ Your
-        Spot can be invaluable. They specialize in configuring Stampli to fit your unique business
+        To ensure a successful implementation, partnering with an experienced consultancy like Geek @ Your Spot LLC can be invaluable. They specialize in configuring Stampli to fit your unique business
         environment, providing training, and ensuring seamless integration with your existing systems. Their
         expertise can help you maximize the benefits of Stampli and achieve a smoother transition to automated
         approval workflows.</p>

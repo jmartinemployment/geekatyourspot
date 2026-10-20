@@ -25,14 +25,14 @@ export default function RightFitSection() {
         potential time and cost savings, as well as the reduction in fraud risk, will help in making an
         informed decision.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot, as a local consultancy, can assist businesses in the West Palm Beach, Broward, and
+        Geek @ Your Spot LLC, as a local consultancy, can assist businesses in the West Palm Beach, Broward, and
         Miami-Dade counties with the implementation of Tipalti. They offer expertise in configuring the
         platform to fit the unique needs of each business, ensuring seamless integration with existing systems.
         Their local presence means they understand the specific challenges faced by businesses in the area and
         can provide tailored support.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, Tipalti is a powerful tool for businesses seeking to automate their accounts payable
-        processes and enhance fraud controls. For those unsure about the fit, consulting with Geek @ Your Spot
+        processes and enhance fraud controls. For those unsure about the fit, consulting with Geek @ Your Spot LLC
         can provide clarity and guidance. They can help determine if Tipalti is the right choice and support
         the transition to an automated system, ensuring that the business reaps the full benefits of the
         platform.</p>

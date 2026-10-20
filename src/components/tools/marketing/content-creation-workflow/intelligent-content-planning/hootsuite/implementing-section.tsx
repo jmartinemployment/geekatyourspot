@@ -11,7 +11,7 @@ export default function ImplementingSection() {
         connectors and templated setup, which allow most teams to skip custom development and go from
         fragmented to unified in days, not months.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The process starts with an audit of your current channels and publishing habits. Geek @ Your Spot
+        The process starts with an audit of your current channels and publishing habits. Geek @ Your Spot LLC
         works with your team to inventory every social account, content calendar, and approval spreadsheet you
         use now. This is not just a checklist, each source becomes a mapped input in Hootsuite’s dashboard. By
         bringing all accounts and historic content calendars into one place, you eliminate the risk of posts
@@ -45,7 +45,7 @@ export default function ImplementingSection() {
         workspace while keeping final publishing under human control. This is especially important for small
         teams that want to automate more while minimizing risk.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout the rollout, Geek @ Your Spot manages the mapping, integration, and training. The focus is
+        Throughout the rollout, Geek @ Your Spot LLC manages the mapping, integration, and training. The focus is
         on removing friction: getting your team out of spreadsheets and email threads and into a single,
         connected dashboard. The platform’s templated setup, role-based permissions, and direct integrations
         with existing tools mean that most teams can go live without downtime or a steep learning curve. The

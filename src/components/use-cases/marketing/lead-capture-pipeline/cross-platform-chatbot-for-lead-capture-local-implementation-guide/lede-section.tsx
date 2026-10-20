@@ -51,7 +51,7 @@ export default function LedeSection() {
         expect instant, personal engagement across every channel, in English or Spanish, and will not wait for
         you to catch up.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot helps businesses in this exact situation. Our approach starts with your business
+        Geek @ Your Spot LLC helps businesses in this exact situation. Our approach starts with your business
         objective: capture every qualified lead, route them to the right person, and close more deals without
         adding headcount. We assess your current&nbsp;<GlossaryLink slug="data-quality">data
         quality</GlossaryLink>&nbsp;and workflows, recommend proven cross-platform chatbot tools that fit your
@@ -65,7 +65,7 @@ export default function LedeSection() {
         absorbing costs and risks that are no longer necessary. A proper Cross-Platform Chatbot is not a tech
         experiment, it is the new minimum for businesses that want to compete and win in South Florida’s
         always-on market.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-cross-platform-chatbot-lede-blog" href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot, the Missing Link</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-cross-platform-chatbot-lede-blog" href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> on our blog.</p>
     </>
   );
 

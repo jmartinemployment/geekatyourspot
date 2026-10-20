@@ -49,13 +49,13 @@ export default function ConfiguringSection() {
         a booking is made, notify a specific team member; if a question cannot be answered from the knowledge
         base, open a ticket for review.</p>
       <p className="text-md text-white shadow-text pt-3">
-        What Geek @ Your Spot brings to this process is not just technical setup, but business alignment. Most
+        What Geek @ Your Spot LLC brings to this process is not just technical setup, but business alignment. Most
         small teams do not have the time or appetite to map every workflow, write every escalation rule, and
-        ensure that every integration is tested against real-world scenarios. Geek @ Your Spot guides you
+        ensure that every integration is tested against real-world scenarios. Geek @ Your Spot LLC guides you
         through the upfront decisions: which FAQs to load, how to phrase your greeting, which fields to capture,
         and how to handle exceptions. They configure the system to reflect your priorities, not just what the AI
         can do, but what it should do for your business. This is not a one-time setup: as your business changes,
-        Geek @ Your Spot can update your automations, expand your knowledge base, and refine escalation logic,
+        Geek @ Your Spot LLC can update your automations, expand your knowledge base, and refine escalation logic,
         so My AI Front Desk keeps pace with your growth.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you try to run My AI Front Desk out of the box, you get a generic receptionist. With the right
@@ -75,7 +75,7 @@ export default function ConfiguringSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h2 id="what-you-actually-configure-in-my-ai-front-desk-rules-automations-and-where-geek-your-spot-adds-value" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What You Actually Configure in My AI Front Desk: Rules, Automations, and Where Geek @ Your Spot Adds Value
+                What You Actually Configure in My AI Front Desk: Rules, Automations, and Where Geek @ Your Spot LLC Adds Value
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -88,7 +88,7 @@ export default function ConfiguringSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h2 id="what-you-actually-configure-in-my-ai-front-desk-rules-automations-and-where-geek-your-spot-adds-value" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What You Actually Configure in My AI Front Desk: Rules, Automations, and Where Geek @ Your Spot Adds Value
+                What You Actually Configure in My AI Front Desk: Rules, Automations, and Where Geek @ Your Spot LLC Adds Value
               </h2>
               {body}
             </div>

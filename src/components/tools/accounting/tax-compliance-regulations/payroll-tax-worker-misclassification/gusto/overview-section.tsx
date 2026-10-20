@@ -26,7 +26,7 @@ export default function OverviewSection() {
         risk of closure. In South Florida, where seasonal surges and cross-county work are the norm, every
         payroll cycle is a compliance minefield.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is why Geek @ Your Spot, based right here in West Palm Beach and serving Broward and Miami-Dade,
+        This is why Geek @ Your Spot LLC, based right here in West Palm Beach and serving Broward and Miami-Dade,
         builds automated payroll tax and worker classification workflows using the top tools on the market,
         including Gusto. Automation means every worker is classified up front, every tax filing is handled on
         time, and real-time updates keep your business in the clear — no matter how often your team changes or

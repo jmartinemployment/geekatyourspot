@@ -30,10 +30,10 @@ export default function ConfiguringSection() {
         scripting or SDK extension mechanism, its configurability and integration capabilities are robust enough to
         meet the needs of most small businesses without additional coding.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a crucial role in configuring Versapay for local businesses. They help set up these
+        Geek @ Your Spot LLC plays a crucial role in configuring Versapay for local businesses. They help set up these
         approval chains, routing paths, and automation logic to align with each client&#39;s unique operational
         requirements. This includes mapping out the necessary workflows and ensuring that all integrations are
-        correctly implemented. By doing so, Geek @ Your Spot ensures that Versapay operates efficiently within the
+        correctly implemented. By doing so, Geek @ Your Spot LLC ensures that Versapay operates efficiently within the
         existing business environment, maximizing the platform&#39;s potential to improve cash flow and reduce
         errors.</p>
     </>

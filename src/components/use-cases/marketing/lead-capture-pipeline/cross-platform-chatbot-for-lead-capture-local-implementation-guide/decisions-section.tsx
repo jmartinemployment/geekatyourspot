@@ -14,7 +14,7 @@ export default function DecisionsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Start by naming the single biggest bottleneck you want to fix. Is it missed calls after hours?
         Scattered social DMs? Leads slipping away in lengthy back-and-forth about qualification? For most
-        small teams, it is a mix, but pick the one you will measure against. Geek @ Your Spot’s own approach
+        small teams, it is a mix, but pick the one you will measure against. Geek @ Your Spot LLC’s own approach
         is to define that measurable business objective up front, whether that is a 40% reduction in missed
         leads, a set number of new appointments booked, or a drop in average response time. A project without
         this anchor will drift.</p>

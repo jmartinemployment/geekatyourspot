@@ -10,7 +10,7 @@ export default function DataMappingSection() {
         for their market.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first mapping decision is keyword structure. Semrush’s database covers over 26 billion keywords,
-        but only a fraction will matter to a local business. The team, with Geek @ Your Spot’s help, narrows
+        but only a fraction will matter to a local business. The team, with Geek @ Your Spot LLC’s help, narrows
         the focus to topics and queries that match the region, service lines, and buying signals that drive
         business locally. This means filtering out national or irrelevant terms and prioritizing those with
         high demand and low competition in Miami-Dade, Broward, and West Palm Beach. The result: the content
@@ -27,14 +27,14 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Approval workflows and user permissions are also defined at this stage. Semrush lets the team set
         rules for who can create, edit, approve, and publish content. Mapping these roles upfront is critical
-        for small teams that need to keep control without slowing down. Geek @ Your Spot works with the
+        for small teams that need to keep control without slowing down. Geek @ Your Spot LLC works with the
         business to define thresholds, who signs off on what, and at what step in the workflow. This mapping
         prevents bottlenecks and ensures compliance without endless back-and-forth or missed deadlines.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, there is the mapping of performance data. Semrush’s reporting and analytics tools visualize
         everything from keyword rankings to AI-generated brand sentiment. For this to work, the team must
         decide what metrics matter: is it organic traffic, local map pack visibility, or email click rates?
-        Geek @ Your Spot helps structure dashboards and reports so the business sees the numbers that drive
+        Geek @ Your Spot LLC helps structure dashboards and reports so the business sees the numbers that drive
         decisions, not a flood of irrelevant stats. This tailored mapping means the team can act quickly, if a
         content piece underperforms, they know exactly where to look and what to adjust.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -17,21 +17,21 @@ export default function RightFitSection() {
         that operate in highly regulated sectors might need additional compliance features not covered by
         Bill&#39;s standard offerings.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For businesses that find Bill a suitable match, the next step is to engage with Geek @ Your Spot,
+        For businesses that find Bill a suitable match, the next step is to engage with Geek @ Your Spot LLC,
         an&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation consultancy based in South Florida. Their
         expertise in configuring Bill to fit seamlessly into existing systems can be invaluable. They provide
         services such as data mapping, integration with current software, and user training to ensure that the
         transition to automated systems is smooth and effective.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot&#39;s local presence in Miami-Dade, Broward, and West Palm Beach counties means they
+        Geek @ Your Spot LLC&#39;s local presence in Miami-Dade, Broward, and West Palm Beach counties means they
         understand the unique challenges faced by businesses in this region. Their consultative approach helps
         in maximizing the benefits of Bill, ensuring that the software not only meets current needs but also
         adapts to future changes in business operations.</p>
       <p className="text-md text-white shadow-text pt-3">
         In conclusion, while Bill offers a strong solution for many small businesses, the decision to implement
         it should consider both the current operational needs and future growth plans. Engaging with a
-        knowledgeable implementation partner like Geek @ Your Spot can enhance the deployment process, ensuring
+        knowledgeable implementation partner like Geek @ Your Spot LLC can enhance the deployment process, ensuring
         that the business reaps the full benefits of automated fraud and duplicate payment controls.</p>
       <p className="text-md text-white shadow-text pt-3">
         <Link id="tools-accounting-fraud-controls-bill-right-fit-consultation"

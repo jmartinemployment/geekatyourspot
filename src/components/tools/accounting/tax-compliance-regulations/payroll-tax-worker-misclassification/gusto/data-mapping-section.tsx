@@ -41,7 +41,7 @@ export default function DataMappingSection() {
         mismatch here can lead to financial reports that do not reconcile, or worse, to misallocated payroll
         expenses that make tax time a nightmare. Gusto’s integration setup walks you through mapping each
         payroll field to your chart of accounts, with templates for common small business structures in Florida.
-        Geek @ Your Spot helps review these mappings to make sure payroll costs land in the right buckets from
+        Geek @ Your Spot LLC helps review these mappings to make sure payroll costs land in the right buckets from
         day one.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, benefits and deduction mappings cannot be skipped. For businesses offering health insurance,
@@ -53,7 +53,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In practice, the data mapping phase is where most payroll errors start—or are prevented. With Gusto, the
         goal is a one-time, thorough mapping that locks down compliance and keeps payroll running smoothly even
-        as your team grows or shifts. Geek @ Your Spot’s job is to walk through each mapping decision, test the
+        as your team grows or shifts. Geek @ Your Spot LLC’s job is to walk through each mapping decision, test the
         setup with sample pay runs, and confirm that every worker, rate, and tax ID is in the right place. That
         way, when the owner of that Miami HVAC company logs in on Friday, she sees a payroll summary that
         matches her books, her tax filings, and her real obligations—no surprises, no last-minute scrambles, and

@@ -32,9 +32,9 @@ export default function DataMappingSection() {
         TaxValet&#39;s proactive approach to monitoring ensures that businesses remain compliant with the latest
         regulations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a vital role in this data setup process. Their expertise in data mapping and
+        Geek @ Your Spot LLC plays a vital role in this data setup process. Their expertise in data mapping and
         system integration helps businesses configure TaxValet to meet their specific needs. By ensuring that
-        the data structure is correctly set up from the start, Geek @ Your Spot helps businesses avoid costly
+        the data structure is correctly set up from the start, Geek @ Your Spot LLC helps businesses avoid costly
         errors and ensures that TaxValet operates smoothly and efficiently.</p>
     </>
   );

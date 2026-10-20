@@ -8,7 +8,7 @@ export default function IntroductionSection() {
         risks losing potential customers to competitors who can engage more swiftly. To tackle these issues,
         organizations need a streamlined approach that minimizes errors and optimizes workforce productivity.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot specializes in transforming traditional lead capture processes into Intelligent Lead
+        Geek @ Your Spot LLC specializes in transforming traditional lead capture processes into Intelligent Lead
         Capture Pipelines. By harnessing AI, businesses can automate and enhance lead capture, reducing manual
         intervention and improving data accuracy. This transformation enables teams to focus on nurturing
         leads rather than being stuck in the weeds of data entry.</p>
@@ -26,7 +26,7 @@ export default function IntroductionSection() {
         is both correct and complete. This leads to improved data quality, which is crucial for informed
         decision-making and effective customer engagement.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot employs AI not only to automate these processes but also to continuously learn and
+        Geek @ Your Spot LLC employs AI not only to automate these processes but also to continuously learn and
         adapt to changing data patterns. This ensures that the lead capture system evolves alongside business
         needs, offering a scalable solution that grows with the organization.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -35,7 +35,7 @@ export default function IntroductionSection() {
       <p className="text-md text-white shadow-text pt-3">
         Implementing an Intelligent Lead Capture Pipeline involves several key steps, each aimed at enhancing
         efficiency and reducing time spent on non-value-added tasks. First, an assessment of the current lead
-        capture process helps identify bottlenecks and areas for improvement. Next, Geek At Your Spot
+        capture process helps identify bottlenecks and areas for improvement. Next, Geek @ Your Spot LLC
         collaborates with businesses to design a custom solution that integrates seamlessly with existing
         systems, ensuring minimal disruption and maximum effectiveness.</p>
       <p className="text-md text-white shadow-text pt-3">

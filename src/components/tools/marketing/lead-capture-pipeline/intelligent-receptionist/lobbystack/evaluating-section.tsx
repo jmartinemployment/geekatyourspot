@@ -51,7 +51,7 @@ export default function EvaluatingSection() {
         system in your browser, simulate real calls, and see how the receptionist handles your actual scripts
         and booking logic. Once you are confident, forwarding your business line is a simple carrier setting. If
         you outgrow the included minutes, you move up to the next plan, no contract lock-in, no surprise fees.
-        For businesses that need even more, Geek @ Your Spot can help map out a custom Enterprise deployment,
+        For businesses that need even more, Geek @ Your Spot LLC can help map out a custom Enterprise deployment,
         including self-hosted infrastructure and deeper integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short, judge LobbyStack by how well it fits your business’s real needs. If you want to keep control

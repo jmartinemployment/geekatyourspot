@@ -20,15 +20,15 @@ export default function RightFitSection() {
         or specific VAT management features might be more appropriate.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering TaxCloud, the next step is to assess their current tax compliance needs and
-        how these align with TaxCloud&#39;s offerings. Geek @ Your Spot can assist in this evaluation, providing
+        how these align with TaxCloud&#39;s offerings. Geek @ Your Spot LLC can assist in this evaluation, providing
         insights into how TaxCloud can integrate with existing systems and improve compliance processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Engaging with Geek @ Your Spot offers the advantage of a tailored implementation strategy, ensuring that
+        Engaging with Geek @ Your Spot LLC offers the advantage of a tailored implementation strategy, ensuring that
         TaxCloud is configured to meet specific business needs. This consultancy can guide businesses through
         data mapping, system integration, and staff training, ensuring a smooth transition to automated tax
         compliance.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Ultimately, businesses should consider scheduling a consultation with Geek @ Your Spot to explore how
+        Ultimately, businesses should consider scheduling a consultation with Geek @ Your Spot LLC to explore how
         TaxCloud can address their tax compliance challenges and support their growth objectives. This step will
         provide clarity on the benefits and potential return on investment that TaxCloud can offer.</p>
       <p className="text-md text-white shadow-text pt-3">

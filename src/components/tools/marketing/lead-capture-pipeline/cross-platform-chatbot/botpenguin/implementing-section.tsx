@@ -54,7 +54,7 @@ export default function ImplementingSection() {
         leads reach your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;with the right tags and
         details. If your business uses HubSpot, Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, or
         another supported system, BotPenguin’s integrations let you map fields and automate data sync without
-        a custom connector. This is where Geek @ Your Spot’s implementation makes a difference for South
+        a custom connector. This is where Geek @ Your Spot LLC’s implementation makes a difference for South
         Florida clients: we handle the mapping, test the flows across every channel, and make sure your team
         is ready to run the new pipeline on day one.</p>
       <p className="text-md text-white shadow-text pt-3">

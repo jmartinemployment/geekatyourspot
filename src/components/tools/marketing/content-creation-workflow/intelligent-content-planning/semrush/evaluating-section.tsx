@@ -27,7 +27,7 @@ export default function EvaluatingSection() {
         lets you configure automation and approval rules to match your real processes. You can set up bulk
         scheduling for social posts, automate repurposing for emails and Google Business Profile updates, and
         route drafts for review based on your team structure. The interface is designed for non-technical
-        users, so you do not need a developer or a dedicated IT team to keep things running. Geek @ Your Spot
+        users, so you do not need a developer or a dedicated IT team to keep things running. Geek @ Your Spot LLC
         handles the initial setup and ongoing adjustments, so your team can focus on content, not
         troubleshooting.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real test is whether Semrush removes enough manual work to justify its price. If your team spends
         hours every week guessing at topics, rewriting the same piece for multiple channels, or chasing down
-        why traffic dropped, Semrush pays for itself in returned time and fewer errors. Geek @ Your Spot’s
+        why traffic dropped, Semrush pays for itself in returned time and fewer errors. Geek @ Your Spot LLC’s
         role is to make sure you only pay for what you use, and that every module you add solves a real
         problem. There is no value in stacking features you will not touch.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -56,7 +56,7 @@ export default function EvaluatingSection() {
         business fit, transparent pricing, and workflow automation that matches real-world needs. The platform
         is not the cheapest, but it is priced for teams that want to grow without hiring more staff or paying
         agency markups. If you need to prove ROI, the time saved and errors avoided are the first places to
-        look, Semrush tracks both, and Geek @ Your Spot helps you measure the impact from day one.</p>
+        look, Semrush tracks both, and Geek @ Your Spot LLC helps you measure the impact from day one.</p>
     </>
   );
 

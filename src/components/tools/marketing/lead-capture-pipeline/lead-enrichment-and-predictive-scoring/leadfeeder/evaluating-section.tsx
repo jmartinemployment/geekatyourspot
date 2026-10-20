@@ -51,8 +51,7 @@ export default function EvaluatingSection() {
         records in bulk, keep your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;data fresh, and make
         sure every account is tagged and routed without manual effort. For teams with unique needs or a custom
         stack, Leadfeeder’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;lets you pull data into
-        other tools or build proprietary workflows. This is where an implementation partner like Geek @ Your
-        Spot adds value: mapping Leadfeeder’s data and triggers to your real sales process, so nothing falls
+        other tools or build proprietary workflows. This is where an implementation partner like Geek @ Your Spot LLC adds value: mapping Leadfeeder’s data and triggers to your real sales process, so nothing falls
         through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
         A buyer should also weigh Leadfeeder’s approach to privacy and compliance. The platform is fully GDPR

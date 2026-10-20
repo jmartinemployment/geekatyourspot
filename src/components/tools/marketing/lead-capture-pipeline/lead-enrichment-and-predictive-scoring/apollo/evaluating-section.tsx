@@ -54,7 +54,7 @@ export default function EvaluatingSection() {
         Apollo’s fit is also about the learning curve. The platform is built to be usable by non-technical
         teams, with most configuration handled through point-and-click interfaces. If your team is used to
         spreadsheets and manual workflows, there will be an adjustment, but the payoff is less busywork and
-        more real conversations. Geek @ Your Spot helps here by handling the setup, training your team, and
+        more real conversations. Geek @ Your Spot LLC helps here by handling the setup, training your team, and
         making sure the platform is tuned to your workflow, not just left at default settings.</p>
       <p className="text-md text-white shadow-text pt-3">
         Here’s a short checklist to judge Apollo’s fit:</p>
@@ -74,7 +74,7 @@ export default function EvaluatingSection() {
         teams without big IT resources.</p>
       <p className="text-md text-white shadow-text pt-3">
         When it comes to cost, the right question is not just what you pay per month, but what you get back in
-        saved time, fewer errors, and more deals closed. Geek @ Your Spot’s approach is to start with your
+        saved time, fewer errors, and more deals closed. Geek @ Your Spot LLC’s approach is to start with your
         business goals, run a pilot, and measure the impact, so you see the value before you commit. With
         Apollo, the fit is in the results: if your pipeline gets fuller, your team spends less time on
         busywork, and your sales cycle shortens, the platform is earning its keep.</p>

@@ -12,9 +12,8 @@ export default function ConfiguringSection() {
         everything from sales tax calculations to filing and remittance, ensuring accuracy and timeliness in
         compliance tasks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a crucial role in configuring Zamp for small businesses in Miami-Dade, Broward,
-        and West Palm Beach counties. By understanding the unique challenges faced by these businesses, Geek @
-        Your Spot ensures that Zamp&#39;s rules are aligned with local and state tax regulations. This involves
+        Geek @ Your Spot LLC plays a crucial role in configuring Zamp for small businesses in Miami-Dade, Broward,
+        and West Palm Beach counties. By understanding the unique challenges faced by these businesses, Geek @ Your Spot LLC ensures that Zamp&#39;s rules are aligned with local and state tax regulations. This involves
         setting up precise tax codes, exemptions, and filing schedules that reflect the latest legal
         requirements. The end result is a system that operates smoothly within the existing business framework,
         reducing the risk of errors and penalties.</p>
@@ -23,7 +22,7 @@ export default function ConfiguringSection() {
         require extensive coding to implement, it offers integration options through APIs, allowing businesses
         to connect Zamp with existing accounting
         and&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems. This integration is seamless,
-        providing real-time data synchronization and reducing the need for manual data entry. Geek @ Your Spot
+        providing real-time data synchronization and reducing the need for manual data entry. Geek @ Your Spot LLC
         leverages these capabilities to ensure that Zamp not only fits into the current systems but also
         enhances them, providing a comprehensive compliance solution.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -35,7 +34,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         In summary, Zamp&#39;s configuration options provide a robust foundation for tax compliance. By
         automating complex tasks and integrating seamlessly with existing systems, Zamp frees up valuable time
-        for business owners to focus on growth and customer service. With Geek @ Your Spot&#39;s expertise,
+        for business owners to focus on growth and customer service. With Geek @ Your Spot LLC&#39;s expertise,
         businesses can be confident that their compliance needs are met efficiently and effectively.</p>
     </>
   );

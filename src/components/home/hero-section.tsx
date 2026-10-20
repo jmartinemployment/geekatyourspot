@@ -60,7 +60,7 @@ export default function HeroSection() {
                 height={768}
                 quality={100}
                 loading="eager"
-                alt="Geek At Your Spot - AI-created action figure of me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
+                alt="Geek @ Your Spot LLC - AI-created action figure of me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
                 className="h-auto w-full"
               />
             </div>

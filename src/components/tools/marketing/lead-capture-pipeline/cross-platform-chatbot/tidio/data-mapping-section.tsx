@@ -59,7 +59,7 @@ export default function DataMappingSection() {
         In short, the up-front data decisions you make with Tidio are not just about technical setup, they
         shape how well your cross-platform chatbot works for your real business needs. The more deliberate you
         are about mapping fields, structuring knowledge, and routing conversations, the smoother your launch
-        and the cleaner your pipeline. Geek @ Your Spot guides clients through each of these choices, making
+        and the cleaner your pipeline. Geek @ Your Spot LLC guides clients through each of these choices, making
         sure the structure fits your business now and scales with you as you grow.</p>
     </>
   );

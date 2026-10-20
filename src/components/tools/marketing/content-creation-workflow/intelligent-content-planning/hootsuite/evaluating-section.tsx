@@ -49,7 +49,7 @@ export default function EvaluatingSection() {
         small businesses ready to step up to data-driven, automated content planning, Hootsuite brings the
         workflow, controls, and intelligence that used to be out of reach for anyone but large enterprises.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot helps you judge this fit before you commit. The implementation process starts with a
+        Geek @ Your Spot LLC helps you judge this fit before you commit. The implementation process starts with a
         free consultation that maps your business objectives,&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>, and workflow needs to what Hootsuite offers. The team walks you through what
         gets configured, what can be automated, and how integrations work with your existing systems. This is

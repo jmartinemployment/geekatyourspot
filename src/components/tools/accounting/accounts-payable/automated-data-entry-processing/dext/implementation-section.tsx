@@ -6,11 +6,11 @@ export default function ImplementationSection() {
         and operation. One of the primary tasks is setting up the data structure and mapping decisions that
         align with the business&#39;s specific needs. This involves configuring the platform to accommodate
         the unique workflows and data management requirements of the organization.
-        <strong> Geek At Your Spot</strong>, as an AI implementation consultancy, plays a crucial role in
+        <strong> Geek @ Your Spot LLC</strong>, as an AI implementation consultancy, plays a crucial role in
         facilitating this process, ensuring that Dext is tailored to fit seamlessly into the existing
         systems.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot assists in configuring approval chains, routing, and automation logic, which are
+        Geek @ Your Spot LLC assists in configuring approval chains, routing, and automation logic, which are
         critical for optimizing workflows. This customization allows businesses to automate routine tasks
         while maintaining control over more complex decision-making processes. The consultancy also provides
         guidance on leveraging Dext&#39;s features such as AI Assist, which aids in applying
@@ -22,13 +22,13 @@ export default function ImplementationSection() {
         various applications to manage their financial data efficiently.</p>
       <p className="text-md text-white shadow-text pt-3">
         The implementation process also involves training users to maximize the benefits of Dext&#39;s
-        automation features. Geek At Your Spot provides training and support to ensure that users are
+        automation features. Geek @ Your Spot LLC provides training and support to ensure that users are
         comfortable with the platform and can fully utilize its capabilities. This support is crucial for
         achieving a smooth transition and realizing the full potential of Dext&#39;s automation in improving
         productivity and reducing manual workload.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, implementing Dext requires careful planning and configuration to align with business
-        needs. Geek At Your Spot offers the expertise needed to customize and integrate Dext into existing
+        needs. Geek @ Your Spot LLC offers the expertise needed to customize and integrate Dext into existing
         environments, ensuring that businesses can leverage the platform&#39;s full capabilities for enhanced
         efficiency and productivity.</p>
     </>

@@ -16,7 +16,7 @@ export default function MechanicsSection() {
         concrete metric: maybe it is &#39;no more than two missed calls a week,&#39; &#39;every lead gets a
         response in under five minutes,&#39; or &#39;no more manual calendar work.&#39; The process starts by
         pinpointing where lost calls or missed connections are costing you actual revenue and reputation. The
-        team at Geek @ Your Spot works with you to identify these friction points and set measurable KPIs, so
+        team at Geek @ Your Spot LLC works with you to identify these friction points and set measurable KPIs, so
         you know what success looks like before you start.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next comes the&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data

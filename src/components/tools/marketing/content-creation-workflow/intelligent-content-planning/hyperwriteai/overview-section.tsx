@@ -30,7 +30,7 @@ export default function OverviewSection() {
         results that actually move the needle, more leads, higher engagement, and real sales.</p>
       <p className="text-md text-white shadow-text pt-3">
         For local small businesses, this is not a luxury, it is the difference between staying stuck and
-        scaling up. Geek @ Your Spot’s Intelligent Content Planning method is built for the realities of South
+        scaling up. Geek @ Your Spot LLC’s Intelligent Content Planning method is built for the realities of South
         Florida’s small teams. It replaces burnout with a repeatable, data-driven workflow that delivers
         content people actually find and respond to. If your team is tired of working harder for less, it is
         time to work smarter with a system that is proven to save time, cut costs, and deliver visible

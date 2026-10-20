@@ -30,7 +30,7 @@ export default function EvaluatingSection() {
         tools needed to navigate complex financial landscapes and make informed decisions.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement Dryrun should be based on a thorough evaluation of its fit with your
-        business processes and its potential to deliver a return on investment. Geek @ Your Spot can assist in this
+        business processes and its potential to deliver a return on investment. Geek @ Your Spot LLC can assist in this
         evaluation, ensuring that Dryrun is configured to meet your specific needs and deliver the maximum benefit.</p>
     </>
   );

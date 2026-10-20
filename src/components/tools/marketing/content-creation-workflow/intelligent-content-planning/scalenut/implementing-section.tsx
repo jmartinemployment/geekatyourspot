@@ -9,7 +9,7 @@ export default function ImplementingSection() {
         or waiting on a developer to build custom integrations. For a South Florida team with no technical
         headcount to spare, this means you can move from contract to first output in days, not weeks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The go-live process with Scalenut is defined by a clear sequence. First, Geek @ Your Spot reviews your
+        The go-live process with Scalenut is defined by a clear sequence. First, Geek @ Your Spot LLC reviews your
         current marketing setup, what content platforms you use, how you manage approvals, what analytics you
         rely on, and where your workflow stalls. Scalenut does not require you to rip out what works; it
         overlays your existing process, automating the steps that eat up most of your time. For example, if
@@ -27,14 +27,14 @@ export default function ImplementingSection() {
         visibility monitoring, and internal linking automation all at once, instead of waiting for one step to
         finish before starting the next. This is especially important for small teams: you do not have to wait
         for a blog series to be published before the system starts tracking AI citations or building out
-        internal links. Geek @ Your Spot configures each module for your actual business priorities, local
+        internal links. Geek @ Your Spot LLC configures each module for your actual business priorities, local
         landing pages for Miami or Fort Lauderdale, for example, so your team sees immediate movement on
         high-value topics.</p>
       <p className="text-md text-white shadow-text pt-3">
         Approval workflows in Scalenut are rule-based and can be set up in advance, so nothing goes live
         without the right sign-off. The platform supports multi-step approvals, version tracking, and audit
         logs, which is critical for regulated industries or teams with strict brand guidelines. If your
-        process calls for legal or compliance review, Geek @ Your Spot maps that into the workflow, so the
+        process calls for legal or compliance review, Geek @ Your Spot LLC maps that into the workflow, so the
         AI-generated drafts pause at the correct gate and notify the right reviewer.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bulk scheduling is another area where Scalenut shortens go-live. Once content is approved, the
@@ -54,10 +54,10 @@ export default function ImplementingSection() {
         replaced with a prioritized content plan. Approvals move through the workflow automatically. New
         content goes live in bulk, and the team gets its first AI-driven citation alerts before the next
         Monday standup. Going live with Scalenut is not about a big-bang launch; it is about cutting out every
-        step that used to slow you down, with Geek @ Your Spot configuring the system so that what matters to
+        step that used to slow you down, with Geek @ Your Spot LLC configuring the system so that what matters to
         your business is what gets done first.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Initial review of your current content stack and workflows by Geek @ Your Spot</li>
+        <li>Initial review of your current content stack and workflows by Geek @ Your Spot LLC</li>
         <li>Templated setup of topic clusters and keyword mapping, no manual spreadsheets</li>
         <li>Phased, parallel rollout of content, monitoring, and linking modules</li>
         <li>Rule-based approval workflows mapped to your team’s real-world process</li>

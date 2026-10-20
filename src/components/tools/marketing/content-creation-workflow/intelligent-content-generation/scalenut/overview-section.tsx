@@ -27,7 +27,7 @@ export default function OverviewSection() {
         <Link id="tools-marketing-intelligent-content-generation-scalenut-overview-intelligent-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this. Instead of getting stuck in the content creation
         bottleneck or draining the budget on outside help, small teams can use AI-driven tools to turn real
         expertise into finished marketing assets, quickly, affordably, and at the scale needed to compete. At
-        Geek @ Your Spot, we help South Florida businesses build a reliable workflow for automated content
+        Geek @ Your Spot LLC, we help South Florida businesses build a reliable workflow for automated content
         generation, AI-powered repurposing, bulk scheduling, approval workflows, and personalized email
         campaigns. With the right system, even a lean team can publish as consistently and professionally as
         any national competitor. The result is more leads, stronger trust, and real time back in your day.</p>

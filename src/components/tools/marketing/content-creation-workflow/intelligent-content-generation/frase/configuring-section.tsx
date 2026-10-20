@@ -7,7 +7,7 @@ export default function ConfiguringSection() {
         Frase stands out for the way it lets you configure its content creation process to match the
         real-world needs of a small business. This is not a generic AI tool that spits out random paragraphs.
         Frase’s automation logic is built to follow rules you set, driven by your business’s priorities, and
-        shaped by the workflows Geek @ Your Spot implements for South Florida teams. Every configuration step
+        shaped by the workflows Geek @ Your Spot LLC implements for South Florida teams. Every configuration step
         is about turning your content goals into a repeatable, trackable process, so the system does the
         routine work, and your team only steps in where it matters.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -30,7 +30,7 @@ export default function ConfiguringSection() {
         reviews what, and at which step. For a small team, this might mean the business owner approves
         anything over a certain word count, or that blog posts go to one reviewer and emails to another. The
         rules are set once and enforced automatically, removing the bottleneck of tracking approvals by email
-        or spreadsheet. When Geek @ Your Spot sets up Frase, these workflows are mapped to your actual team
+        or spreadsheet. When Geek @ Your Spot LLC sets up Frase, these workflows are mapped to your actual team
         structure, so nothing gets published without the right eyes on it, but you also do not lose days
         waiting for someone to check their inbox.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -43,15 +43,15 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Frase’s extension mechanism is its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. If your business
         runs on custom scheduling tools or has a pipeline that needs content in a certain format, the
-        Frase&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;lets Geek @ Your Spot wire the platform
+        Frase&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;lets Geek @ Your Spot LLC wire the platform
         directly into your stack. SERP analysis, brief building, drafting, publishing, and even reporting can
         be triggered and managed by your own systems. This is not required for most small business setups, but
         it is there for teams who want to automate even further or pull Frase’s data into their dashboards.
-        For most clients, Geek @ Your Spot handles
+        For most clients, Geek @ Your Spot LLC handles
         the&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;integration during setup, so you do not have
         to manage any code yourself.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The real difference comes in how these rules and automations are tuned to your needs. Geek @ Your Spot
+        The real difference comes in how these rules and automations are tuned to your needs. Geek @ Your Spot LLC
         does not just turn on Frase and hand you a login. They map your current content process, define what
         needs to be automated, and set the rules inside Frase so the platform runs the way your business runs.
         That means the logic behind what gets written, who approves it, and how it gets published is not left
@@ -61,7 +61,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in West Palm Beach, Broward, and Miami-Dade, the end result is a content workflow
         that feels like it was built for your team, not forced on you by a generic tool. Frase’s configuration
-        options, combined with Geek @ Your Spot’s local implementation, turn Intelligent Content Generation
+        options, combined with Geek @ Your Spot LLC’s local implementation, turn Intelligent Content Generation
         from a buzzword into a working system. You get the benefits of automation, speed, consistency, and
         reduced overhead, without giving up the control and brand quality that matter in a crowded local
         market.</p>

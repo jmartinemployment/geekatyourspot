@@ -25,11 +25,11 @@ const jsonLd: Graph = {
             "author": {
                 "@type": "Organization",
                 "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek at Your Spot"
+                "name": "Geek @ Your Spot LLC"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
@@ -123,8 +123,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
         keywords: ["AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/marketing/ai-content-creation-workflow',
@@ -133,7 +133,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "Content Creation Workflow",
             description: "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
             url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
             images: [
@@ -141,7 +141,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -149,7 +149,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Content Creation Workflow",
             description: "Explore how an AI content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -168,7 +168,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

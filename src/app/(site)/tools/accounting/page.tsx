@@ -13,7 +13,7 @@ const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Accounting AI Tools & Platforms";
 const PAGE_DESCRIPTION =
-  "Explore accounting and financial automation tools that Geek at Your Spot helps South Florida small businesses implement — from tax compliance to accounts payable automation.";
+  "Explore accounting and financial automation tools that Geek @ Your Spot LLC helps South Florida small businesses implement — from tax compliance to accounts payable automation.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
     url: `${SITE_URL}/tools/accounting`,
-    siteName: "Geek at Your Spot",
+    siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
     images: [{ url: LOGO_IMAGE }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
     images: [LOGO_IMAGE],
   },

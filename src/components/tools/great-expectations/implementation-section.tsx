@@ -25,7 +25,7 @@ export default function ImplementationSection() {
               <p className="text-md text-white shadow-text pt-3">4. Custom Code and Development: While Great Expectations is largely configuration-based, it does offer an extension
                 mechanism through custom code for more advanced validation scenarios. Businesses can leverage this feature to
                 develop specific validation logic that caters to their unique data challenges, enhancing the tool’s effectiveness.</p>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, our consultancy services help businesses navigate these considerations, ensuring that Great
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, our consultancy services help businesses navigate these considerations, ensuring that Great
                 Expectations is implemented efficiently and effectively. We provide guidance on data model design, workflow
                 configuration, and custom development to fill the gap between technical capabilities and business needs.</p>
             </div>
@@ -52,7 +52,7 @@ export default function ImplementationSection() {
               <p className="text-md text-white shadow-text pt-3">4. Custom Code and Development: While Great Expectations is largely configuration-based, it does offer an extension
                 mechanism through custom code for more advanced validation scenarios. Businesses can leverage this feature to
                 develop specific validation logic that caters to their unique data challenges, enhancing the tool’s effectiveness.</p>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, our consultancy services help businesses navigate these considerations, ensuring that Great
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, our consultancy services help businesses navigate these considerations, ensuring that Great
                 Expectations is implemented efficiently and effectively. We provide guidance on data model design, workflow
                 configuration, and custom development to fill the gap between technical capabilities and business needs.</p>
             </div>

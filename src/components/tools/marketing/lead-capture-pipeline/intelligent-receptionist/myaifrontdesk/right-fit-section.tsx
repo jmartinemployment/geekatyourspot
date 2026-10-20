@@ -39,7 +39,7 @@ export default function RightFitSection() {
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and the AI does not improvise answers. You
         control what it says, what it can book, and what information it shares. If you need full HIPAA
         compliance or custom workflows for sensitive data, review the platform’s documentation and consult with
-        Geek @ Your Spot to confirm fit before deploying.</p>
+        Geek @ Your Spot LLC to confirm fit before deploying.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real test is not whether My AI Front Desk can technically answer your calls, but whether it closes
         the gap between lost leads and booked revenue in your actual workflow. If most of your missed calls are
@@ -51,7 +51,7 @@ export default function RightFitSection() {
         map your current process: when do you miss calls, what kinds of questions eat up your day, and how often
         do you lose a lead to slow response? If you already use
         a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or digital calendar, list your must-have
-        integrations and workflows. Bring these to your first session with Geek @ Your Spot. Their methodology
+        integrations and workflows. Bring these to your first session with Geek @ Your Spot LLC. Their methodology
         starts with a free consultation, a four-phase plan, and a focus on fitting the right AI to your
         business, not the other way around. They will walk you
         through&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, integration, and setup so

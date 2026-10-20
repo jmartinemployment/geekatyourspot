@@ -23,15 +23,14 @@ export default function ImplementingSection() {
         This step-by-step integration minimizes the risk of errors and ensures that your team can adapt to new
         processes without feeling overwhelmed.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Training is a crucial component of the go-live process. Geek @ Your Spot provides comprehensive training
+        Training is a crucial component of the go-live process. Geek @ Your Spot LLC provides comprehensive training
         sessions tailored to your team&#39;s needs, ensuring that everyone is comfortable with the new system.
         This training covers everything from using Quaderno&#39;s dashboard to understanding how automated tax
         compliance works in practice. By the end of the training, your team should be able to manage tax
         compliance independently, reducing reliance on external consultants.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, ongoing support and updates are part of the package. Quaderno continuously updates its software
-        to reflect the latest tax laws and regulations, ensuring that your compliance remains up-to-date. Geek @
-        Your Spot offers ongoing support to address any issues that arise post-implementation, providing peace
+        to reflect the latest tax laws and regulations, ensuring that your compliance remains up-to-date. Geek @ Your Spot LLC offers ongoing support to address any issues that arise post-implementation, providing peace
         of mind that your tax compliance is in good hands.</p>
     </>
   );

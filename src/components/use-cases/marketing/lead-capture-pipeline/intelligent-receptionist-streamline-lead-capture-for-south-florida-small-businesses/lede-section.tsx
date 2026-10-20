@@ -43,12 +43,12 @@ export default function LedeSection() {
         Throughout this page, you will see what actually goes wrong in today’s lead capture pipelines, what it
         costs in time and revenue, and how a properly implemented Intelligent Receptionist, deployed with the
         right data, integrations, and processes, solves the problem at its root. We walk through the four-phase
-        methodology Geek @ Your Spot uses for every AI project: clear business
+        methodology Geek @ Your Spot LLC uses for every AI project: clear business
         objectives,&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment,
         technology selection, and a pilot implementation designed for South Florida’s real operational
         constraints. This is not about buying another app. It is about building a lead capture workflow that
         never sleeps, never misses a call, and frees your team to focus on work that moves the needle.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-receptionist-lede-blog" href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent Receptionist for After Hours</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-receptionist-lede-blog" href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> on our blog.</p>
     </>
   );
 

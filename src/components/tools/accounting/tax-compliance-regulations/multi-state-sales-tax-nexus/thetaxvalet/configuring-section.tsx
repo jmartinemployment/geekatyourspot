@@ -42,11 +42,11 @@ export default function ConfiguringSection() {
         own code. Any changes in business operations, new channels, product lines, or fulfillment methods, are
         reflected by updating your business profile with TaxValet, not by writing scripts.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For a South Florida business working with Geek @ Your Spot, the value is in how this configuration is
+        For a South Florida business working with Geek @ Your Spot LLC, the value is in how this configuration is
         handled. The consultancy works with your data, reviews your sales channels, and ensures every trigger is
         mapped correctly from the start. They coordinate with TaxValet’s onboarding team to make sure the logic
         fits your business model and that your compliance footprint is accurate on day one. If your business
-        model changes, Geek @ Your Spot manages the update process, no DIY data mapping, no manual rule
+        model changes, Geek @ Your Spot LLC manages the update process, no DIY data mapping, no manual rule
         creation, and no risk of missing a new filing obligation because a channel or warehouse was added
         without updating the system.</p>
       <p className="text-md text-white shadow-text pt-3">

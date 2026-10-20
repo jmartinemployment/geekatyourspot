@@ -45,7 +45,7 @@ export default function RightFitSection() {
         a platform that, when set up correctly, can automate the most painful and risky parts of your payroll
         and classification process.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot specializes in configuring Deel for small businesses in South Florida, making sure the
+        Geek @ Your Spot LLC specializes in configuring Deel for small businesses in South Florida, making sure the
         platform fits your actual workflows and connects with your existing accounting tools. They do not build
         Deel, but they do close the gap between the software and your unique business needs—mapping data,
         setting up automated rules, and training your team so you get the full value of the platform from day

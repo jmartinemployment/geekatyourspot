@@ -40,7 +40,7 @@ export default function AIContentRepurposingSection() {
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek @ Your Spot LLC assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-ai-for-diverse-content-formats">Leveraging AI for Diverse Content Formats</h3>
@@ -77,7 +77,7 @@ export default function AIContentRepurposingSection() {
                 directly to different segments. This ensures that repurposed content not only extends reach but also maintains
                 relevance and engagement.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot employs these AI capabilities to help organizations create personalized content strategies. By
+                Geek @ Your Spot LLC employs these AI capabilities to help organizations create personalized content strategies. By
                 analyzing customer interactions and preferences, businesses can deploy targeted content that meets the specific
                 needs and interests of various groups, enhancing both customer satisfaction and conversion rates.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-driven-segmentation-for-tailored-messaging">AI-Driven Segmentation for Tailored Messaging</h4>
@@ -132,7 +132,7 @@ export default function AIContentRepurposingSection() {
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek @ Your Spot LLC assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -162,7 +162,7 @@ export default function AIContentRepurposingSection() {
                 directly to different segments. This ensures that repurposed content not only extends reach but also maintains
                 relevance and engagement.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot employs these AI capabilities to help organizations create personalized content strategies. By
+                Geek @ Your Spot LLC employs these AI capabilities to help organizations create personalized content strategies. By
                 analyzing customer interactions and preferences, businesses can deploy targeted content that meets the specific
                 needs and interests of various groups, enhancing both customer satisfaction and conversion rates.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-driven-segmentation-for-tailored-messaging">AI-Driven Segmentation for Tailored Messaging</h4>

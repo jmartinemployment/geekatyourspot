@@ -40,8 +40,8 @@ export default function RightFitSection() {
         template, enter your details, select your language and tone, and generate. Within minutes, you have
         drafts that only need light editing before publishing.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If you want Rytr to fit seamlessly into your workflow, this is where Geek @ Your Spot comes in. For
-        small businesses in Miami-Dade, Broward, and West Palm Beach, Geek @ Your Spot specializes in setting
+        If you want Rytr to fit seamlessly into your workflow, this is where Geek @ Your Spot LLC comes in. For
+        small businesses in Miami-Dade, Broward, and West Palm Beach, Geek @ Your Spot LLC specializes in setting
         up Rytr to match your brand voice, automate repetitive tasks, and integrate with your existing tools.
         The consultancy’s approach is not to turn Rytr into something it is not, but to make sure you get
         every hour of value possible out of what it does best. That means configuring templates for your

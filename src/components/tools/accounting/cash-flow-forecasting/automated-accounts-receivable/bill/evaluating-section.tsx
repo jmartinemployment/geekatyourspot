@@ -21,7 +21,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Another critical aspect to consider is the level of support and customization available. While Bill is
         designed to be user-friendly, having access to expert support can make a significant difference in how
-        effectively you can implement and utilize the platform. Geek @ Your Spot provides this support, offering
+        effectively you can implement and utilize the platform. Geek @ Your Spot LLC provides this support, offering
         personalized consultations and training to ensure that Bill is configured to meet your specific needs.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, choosing Bill means investing in a solution that not only addresses your current challenges but

@@ -52,7 +52,7 @@ export default function DataMappingSection() {
         scribbled notes or missed callbacks. This upfront work keeps the system running smoothly and prevents
         the chaos that comes from incomplete or badly mapped data.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to walk you through these mapping decisions, making sure nothing gets missed
+        Geek @ Your Spot LLC’s role is to walk you through these mapping decisions, making sure nothing gets missed
         and every workflow is covered. They check your data sources, clean up what’s needed, and test the
         mapping before the system goes live. The result is an Intelligent Receptionist that actually knows your
         business, not just a generic script. When the data is right, Nextiva delivers on its promise: every call

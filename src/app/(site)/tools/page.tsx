@@ -16,7 +16,7 @@ const SITE_URL = "https://geekatyourspot.com";
 const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "AI Tools & Platforms";
 const PAGE_DESCRIPTION =
-  "Explore the AI tools and platforms Geek at Your Spot helps South Florida small businesses implement — from accounts payable automation to marketing systems.";
+  "Explore the AI tools and platforms Geek @ Your Spot LLC helps South Florida small businesses implement — from accounts payable automation to marketing systems.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
     url: `${SITE_URL}/tools`,
-    siteName: "Geek at Your Spot",
+    siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
     images: [{ url: LOGO_IMAGE }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${PAGE_TITLE} | Geek at Your Spot`,
+    title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
     images: [LOGO_IMAGE],
   },

@@ -11,7 +11,7 @@ export default function AIDrivenWorkflowSection() {
         Implementing an AI-driven workflow can significantly streamline these tasks, reducing the time spent on repetitive activities and allowing teams to focus more on strategic initiatives. Tools like Surfer SEO and Keyword Insights are pivotal in this transformation. They automate the analysis of search intent and competitive content landscapes, providing actionable data to refine content strategies and align them with user expectations.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot, as an AI implementation consultancy, assists businesses by configuring these tools to fit unique workflows. This ensures that the AI applications are not just installed but are integrated into daily operations to maximize their utility.
+        Geek @ Your Spot LLC, as an AI implementation consultancy, assists businesses by configuring these tools to fit unique workflows. This ensures that the AI applications are not just installed but are integrated into daily operations to maximize their utility.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Keyword research automated to match search intent and trends.</li>
@@ -24,7 +24,7 @@ export default function AIDrivenWorkflowSection() {
         One of the main hurdles in adopting new technologies is ensuring compatibility with existing systems. Many companies find themselves trapped in a web of disconnected tools, which complicates data sharing and collaboration.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot addresses this issue by integrating AI tools like Frase and HubSpot AI, ensuring they work seamlessly with your existing software. This integration supports continuous data flow, enhancing the accuracy and effectiveness of your SEO campaigns.
+        Geek @ Your Spot LLC addresses this issue by integrating AI tools like Frase and HubSpot AI, ensuring they work seamlessly with your existing software. This integration supports continuous data flow, enhancing the accuracy and effectiveness of your SEO campaigns.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Data synchronization between AI tools and existing <GlossaryLink slug="crm">CRM</GlossaryLink> systems.</li>
@@ -32,7 +32,7 @@ export default function AIDrivenWorkflowSection() {
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="customizing-data-models">Customizing Data Models</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        To make AI solutions truly effective, Geek At Your Spot customizes data models to reflect specific business needs. This customization involves tailoring algorithms to understand industry-specific terms and customer behaviors, which enhances the relevance of content recommendations.
+        To make AI solutions truly effective, Geek @ Your Spot LLC customizes data models to reflect specific business needs. This customization involves tailoring algorithms to understand industry-specific terms and customer behaviors, which enhances the relevance of content recommendations.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         For instance, a hypothetical e-commerce client saw a 20% increase in organic traffic within three months of implementing a customized AI-driven SEO strategy, highlighting the tangible benefits of tailored data models.
@@ -51,7 +51,7 @@ export default function AIDrivenWorkflowSection() {
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="workflow-configuration-for-maximum-output">Workflow Configuration for Maximum Output</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot not only provides AI tools but also configures them to fit your existing workflows. This involves setting up workflows where AI-generated drafts are automatically checked for SEO compliance and then queued for human review.
+        Geek @ Your Spot LLC not only provides AI tools but also configures them to fit your existing workflows. This involves setting up workflows where AI-generated drafts are automatically checked for SEO compliance and then queued for human review.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Such configurations ensure that content output is not only fast but also strategically aligned with business goals, helping teams to produce more without compromising on quality.

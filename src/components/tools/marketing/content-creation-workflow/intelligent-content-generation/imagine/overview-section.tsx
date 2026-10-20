@@ -29,7 +29,7 @@ export default function OverviewSection() {
         result: time saved, costs cut, and local customers see your business the way you want, reliable,
         up-to-date, and ready for their next visit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot helps South Florida small businesses build these AI-powered content creation
+        Geek @ Your Spot LLC helps South Florida small businesses build these AI-powered content creation
         workflows. We work with your existing assets, set up automated generation and repurposing, and leave
         you with a process that runs whether you are behind the counter or out winning new business. This is
         not about replacing your voice or your brand, it is about giving you the tools to show up, everywhere,

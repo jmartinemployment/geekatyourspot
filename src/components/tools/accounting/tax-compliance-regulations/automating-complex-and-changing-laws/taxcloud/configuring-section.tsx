@@ -30,14 +30,14 @@ export default function ConfiguringSection() {
         For businesses looking to extend TaxCloud&#39;s capabilities, the platform
         offers&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;integration. This allows for seamless
         integration with existing systems, such as e-commerce platforms and accounting software, enabling
-        real-time tax calculations and compliance across all sales channels. Geek @ Your Spot, as an
+        real-time tax calculations and compliance across all sales channels. Geek @ Your Spot LLC, as an
         implementation partner, ensures that these integrations are configured correctly, providing a seamless
         experience for users.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, TaxCloud&#39;s configuration options provide businesses with a comprehensive solution to
         automate tax compliance. By leveraging its automation logic, economic nexus tracking, and exemption
         certificate management, businesses can significantly reduce the time and effort spent on tax compliance
-        tasks. Geek @ Your Spot plays a crucial role in setting up these configurations, ensuring that TaxCloud
+        tasks. Geek @ Your Spot LLC plays a crucial role in setting up these configurations, ensuring that TaxCloud
         works seamlessly within your existing business environment.</p>
     </>
   );

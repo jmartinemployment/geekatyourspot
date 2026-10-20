@@ -17,7 +17,7 @@ export default function LedeSection() {
         in real-time but also streamline the entire invoice verification process. Imagine a system that
         automatically flags suspicious invoices, matches purchase orders with receipts, and prevents
         unauthorized transactions before they even happen. This is not a distant dream but a practical
-        solution that Geek @ Your Spot is bringing to local businesses.</p>
+        solution that Geek @ Your Spot LLC is bringing to local businesses.</p>
       <p className="text-md text-white shadow-text pt-3">
         The benefits are concrete: reduced financial losses, fewer manual errors, and a significant cut in
         processing time. Businesses can now focus on growth rather than firefighting administrative issues.

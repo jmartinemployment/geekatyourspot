@@ -27,14 +27,14 @@ export default function EvaluatingSection() {
         traffic and the number of enrichment requests. For high-traffic sites or large batch uploads, costs
         can rise fast. Lusha does not publish US dollar pricing directly, but the model is clear: you pay for
         the number of records enriched, and for higher usage, the monthly fee increases. For a small team,
-        this means you need to know your volume before you commit. Geek @ Your Spot helps you estimate this
+        this means you need to know your volume before you commit. Geek @ Your Spot LLC helps you estimate this
         upfront, so you do not end up paying for more than you use, or running out of credits at a critical
         moment.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration is where Lusha stands out for teams who already use Salesforce, HubSpot, Zoho, Outreach,
         or SalesLoft. The platform’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and native
         integrations mean data flows directly into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and outreach tools, and Geek @ Your Spot
+        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and outreach tools, and Geek @ Your Spot LLC
         ensures the mapping is set up so nothing gets lost. This is not just a technical detail, it is the
         difference between a tool that sits unused and one that actually makes your team more productive. If
         your current stack is built around these platforms, Lusha is a strong fit. If you use less common
@@ -43,14 +43,14 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Compliance is another factor. Lusha’s data is professionally sourced, and opt-outs are honored
         automatically. For small businesses worried about regulatory risk, this is a real advantage. You do
-        not have to build your own compliance workflows, Lusha takes care of the basics, and Geek @ Your Spot
+        not have to build your own compliance workflows, Lusha takes care of the basics, and Geek @ Your Spot LLC
         can help you set up any additional controls you need for your industry or market.</p>
       <p className="text-md text-white shadow-text pt-3">
         When judging Lusha, look at the total cost of ownership, not just the monthly fee. The real cost is in
         your team’s time, hours lost to manual research, dead dials, and bounced emails. If Lusha saves each
         rep two hours a day, that is a return you can measure. But if your sales process is not built around
         direct outreach, or if your deals do not depend on reaching specific decision-makers, you may not see
-        the same value. Geek @ Your Spot works with you to run a pilot, measure the impact, and decide if
+        the same value. Geek @ Your Spot LLC works with you to run a pilot, measure the impact, and decide if
         scaling up makes sense.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short, Lusha fits best for small, outbound-focused teams who need to reach real buyers fast, and

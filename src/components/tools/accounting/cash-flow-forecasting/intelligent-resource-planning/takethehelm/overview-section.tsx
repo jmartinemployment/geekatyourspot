@@ -27,7 +27,7 @@ export default function OverviewSection() {
         local businesses in South Florida, it means knowing if you can hire, invest, or pay yourself, without
         waiting for the next crisis to decide for you.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot builds these solutions for small businesses across West Palm Beach, Broward and
+        Geek @ Your Spot LLC builds these solutions for small businesses across West Palm Beach, Broward and
         Miami-Dade. We start by cleaning up your existing data, mapping what matters, and implementing
         affordable tools that fit your team’s real workflow. The result: a system that cuts wasted hours and
         brings clarity to your cash flow, so you grow with confidence instead of reacting to the next surprise.</p>

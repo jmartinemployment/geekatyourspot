@@ -52,7 +52,7 @@ export default function EvaluatingSection() {
         BotPenguin’s limitations are real: you cannot build a feature outside what the platform supports, and
         you are limited to the integrations listed in the dashboard. But for most small businesses, these
         boundaries are a strength. You get a platform that is easy to deploy, simple to maintain, and
-        affordable to scale. Geek @ Your Spot’s implementation ensures your flows, data mapping, and handoff
+        affordable to scale. Geek @ Your Spot LLC’s implementation ensures your flows, data mapping, and handoff
         logic are set up for your real sales process, not just the defaults.</p>
     </>
   );

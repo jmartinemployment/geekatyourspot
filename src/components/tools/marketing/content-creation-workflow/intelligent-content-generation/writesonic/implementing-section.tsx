@@ -41,11 +41,11 @@ export default function ImplementingSection() {
         channel is a matter of configuration, not a new build. This staged approach means you get value
         quickly and avoid the disruption of a big-bang launch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout deployment, Geek @ Your Spot closes the gap between Writesonic’s technical options and your
+        Throughout deployment, Geek @ Your Spot LLC closes the gap between Writesonic’s technical options and your
         real business process. The consultancy handles the mapping between your existing content, brand
         guidelines, and the platform’s templates. They configure workflows to match your approval steps, train
         your team on the platform, and make sure the integrations actually connect to your live systems. Where
-        a DIY rollout might get stuck on permissions or custom fields, Geek @ Your Spot moves the project
+        a DIY rollout might get stuck on permissions or custom fields, Geek @ Your Spot LLC moves the project
         forward without downtime. This is not a generic onboarding, it is a practical, local implementation
         that gets you publishing with minimal friction.</p>
       <p className="text-md text-white shadow-text pt-3">

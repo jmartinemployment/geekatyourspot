@@ -13,7 +13,7 @@ export default function DataMappingSection() {
         organized as you scale.</p>
       <p className="text-md text-white shadow-text pt-3">
         Mapping your existing content into Frase’s cluster model is not just a technical task, it is a
-        strategic one. Geek @ Your Spot works with you to audit what you have published, what is missing, and
+        strategic one. Geek @ Your Spot LLC works with you to audit what you have published, what is missing, and
         what needs to be refreshed. Old posts and landing pages are mapped to the right clusters, and weak or
         outdated content is flagged for replacement. This step is where many small teams discover hidden
         inefficiencies: duplicated topics, unlinked articles, or entire service areas with no supporting
@@ -23,21 +23,21 @@ export default function DataMappingSection() {
         For each cluster, you define the data points Frase will use to generate and optimize content. This
         includes target keywords, common customer questions, and local search terms specific to your market in
         South Florida. Frase’s question research pulls from real user queries, so your drafts answer what
-        people are actually searching for, not just what you think they want to know. Geek @ Your Spot helps
+        people are actually searching for, not just what you think they want to know. Geek @ Your Spot LLC helps
         you identify the right inputs, set up the initial briefs, and load in approved answers or product
         details that must appear in every draft. This step is critical for businesses that want their content
         to be both locally relevant and technically optimized for search and AI citation.</p>
       <p className="text-md text-white shadow-text pt-3">
         Brand voice mapping is handled at the data level as well. Frase’s voice profile is trained on samples
         you provide, but the structure you use, formal vs. conversational, short vs. in-depth, technical vs.
-        accessible, carries through every draft. Geek @ Your Spot works with your team to tag and organize
+        accessible, carries through every draft. Geek @ Your Spot LLC works with your team to tag and organize
         these samples, so Frase understands which tone applies to which type of content. For example, a
         service page might need a more authoritative voice, while a social post can be lighter. This mapping
         ensures that the same brand standards apply whether you are generating a blog post, a follow-up email,
         or a Facebook update.</p>
       <p className="text-md text-white shadow-text pt-3">
         Approval workflows are mapped at the user and content-type level. Frase lets you set rules for who can
-        review, approve, and publish each type of content. Geek @ Your Spot helps you define these roles and
+        review, approve, and publish each type of content. Geek @ Your Spot LLC helps you define these roles and
         permissions, so the right people see the right drafts at the right time. This is not just about
         control, it is about keeping the process lean so approvals do not become a new bottleneck. For teams
         with external writers or freelancers, Frase’s structure allows you to align their output with your
@@ -45,7 +45,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, integration mapping is a key part of deployment. Frase supports direct publishing to
         WordPress, Webflow, Sanity, Wix, and FraseCMS, but small businesses often have other tools in their
-        stack, email platforms, schedulers, analytics. Geek @ Your Spot works with you to map out where
+        stack, email platforms, schedulers, analytics. Geek @ Your Spot LLC works with you to map out where
         content needs to go after it is created. This might mean setting up exports in Markdown or CSV for a
         bulk scheduler, or connecting Frase’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;to
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or analytics dashboard. The goal is to keep
@@ -53,7 +53,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A well-structured implementation is what lets Frase deliver on its promise: content that is not just
         fast to produce, but easy to manage, refresh, and scale. By making the right mapping decisions at the
-        start, you avoid the chaos that plagues most homegrown content systems. Geek @ Your Spot’s job is to
+        start, you avoid the chaos that plagues most homegrown content systems. Geek @ Your Spot LLC’s job is to
         guide your team through these choices, so the technology serves your business, not the other way
         around.</p>
     </>

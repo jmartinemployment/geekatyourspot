@@ -38,7 +38,7 @@ export default function LedeSection() {
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
               <p className="text-md text-white shadow-text pt-3">
-                At <strong>Geek At Your Spot</strong>, we specialize in helping businesses harness the power of AI to transform
+                At <strong>Geek @ Your Spot LLC</strong>, we specialize in helping businesses harness the power of AI to transform
                 their marketing strategies. Our expertise in AI implementation ensures that you not only adopt these tools but
                 integrate them seamlessly into your existing processes. This article will guide you through the benefits of an AI
                 content creation workflow, showing you how to save time, reduce costs, and enhance your marketing impact.</p>
@@ -67,7 +67,7 @@ export default function LedeSection() {
                 integrating these technologies, businesses can streamline their marketing processes, enhancing efficiency and
                 delivering more targeted, impactful communications.</p>
               <p className="text-md text-white shadow-text pt-3">
-                At <strong>Geek At Your Spot</strong>, we understand the unique challenges faced by businesses in Broward and West
+                At <strong>Geek @ Your Spot LLC</strong>, we understand the unique challenges faced by businesses in Broward and West
                 Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
@@ -107,7 +107,7 @@ export default function LedeSection() {
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
               <p className="text-md text-white shadow-text pt-3">
-                At <strong>Geek At Your Spot</strong>, we specialize in helping businesses harness the power of AI to transform
+                At <strong>Geek @ Your Spot LLC</strong>, we specialize in helping businesses harness the power of AI to transform
                 their marketing strategies. Our expertise in AI implementation ensures that you not only adopt these tools but
                 integrate them seamlessly into your existing processes. This article will guide you through the benefits of an AI
                 content creation workflow, showing you how to save time, reduce costs, and enhance your marketing impact.</p>
@@ -136,7 +136,7 @@ export default function LedeSection() {
                 integrating these technologies, businesses can streamline their marketing processes, enhancing efficiency and
                 delivering more targeted, impactful communications.</p>
               <p className="text-md text-white shadow-text pt-3">
-                At <strong>Geek At Your Spot</strong>, we understand the unique challenges faced by businesses in Broward and West
+                At <strong>Geek @ Your Spot LLC</strong>, we understand the unique challenges faced by businesses in Broward and West
                 Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>

@@ -6,7 +6,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Configuring Dryrun involves setting up approval chains, routing, and automation logic tailored to your
         business needs. These configurations ensure that Dryrun seamlessly integrates into your existing financial
-        processes, providing a robust framework for cash flow management. Geek @ Your Spot plays a pivotal role in
+        processes, providing a robust framework for cash flow management. Geek @ Your Spot LLC plays a pivotal role in
         this setup, ensuring that the tool is not just installed but fully operational in your unique environment.</p>
       <p className="text-md text-white shadow-text pt-3">
         Approval chains in Dryrun allow you to automate the flow of financial documents, ensuring that invoices and
@@ -18,7 +18,7 @@ export default function ConfiguringSection() {
         Routing configurations are another critical component. Dryrun&#39;s routing capabilities ensure that
         financial data is directed to the appropriate departments and individuals. This is particularly important
         for businesses with complex structures or multiple entities, as it prevents data from getting lost or
-        misdirected. With Geek @ Your Spot&#39;s expertise, these routing paths are customized to align with your
+        misdirected. With Geek @ Your Spot LLC&#39;s expertise, these routing paths are customized to align with your
         organizational hierarchy, ensuring efficient data flow and management.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation logic within Dryrun is designed to handle repetitive tasks that would otherwise consume valuable
@@ -29,13 +29,13 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Dryrun&#39;s extension mechanism, while not involving
         an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, allows for significant customization
-        through its configuration options. Geek @ Your Spot utilizes these capabilities to tailor the tool to your
+        through its configuration options. Geek @ Your Spot LLC utilizes these capabilities to tailor the tool to your
         specific needs, ensuring that it fits seamlessly into your existing systems. This includes setting up custom
         alerts, reports, and dashboards that provide insights into cash flow and liquidity, tailored to your
         business&#39;s unique requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, configuring Dryrun is a comprehensive process that involves setting up approval chains, routing
-        paths, and automation logic to suit your business&#39;s specific needs. Geek @ Your Spot ensures that these
+        paths, and automation logic to suit your business&#39;s specific needs. Geek @ Your Spot LLC ensures that these
         configurations are implemented effectively, allowing Dryrun to deliver its full potential in managing cash
         flow and financial operations.</p>
     </>

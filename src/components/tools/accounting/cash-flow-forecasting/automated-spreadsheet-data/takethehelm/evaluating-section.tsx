@@ -26,10 +26,10 @@ export default function EvaluatingSection() {
         business decisions. When evaluating the cost, it&#39;s important to weigh these benefits against the
         platform&#39;s pricing model to determine its overall value.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, the support and implementation services provided by Geek @ Your Spot are invaluable. Their
+        Finally, the support and implementation services provided by Geek @ Your Spot LLC are invaluable. Their
         expertise in deploying Take the Helm ensures that the platform is configured to meet the unique needs of
         each business. This support can be a deciding factor for businesses that lack the internal resources to
-        manage such implementations on their own. By choosing Geek @ Your Spot, businesses can leverage their
+        manage such implementations on their own. By choosing Geek @ Your Spot LLC, businesses can leverage their
         local expertise to ensure a smooth transition to automated cash flow management.</p>
     </>
   );

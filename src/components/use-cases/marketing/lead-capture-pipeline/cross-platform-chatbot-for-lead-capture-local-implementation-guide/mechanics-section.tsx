@@ -16,7 +16,7 @@ export default function MechanicsSection() {
         inbox. The AI chatbot is already active on every channel. It answers within seconds, asks the right
         questions, and doesn’t care whether you’re on-site, busy, or closed for the night.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The workflow runs in four phases, mapped directly to the way Geek @ Your Spot delivers these projects
+        The workflow runs in four phases, mapped directly to the way Geek @ Your Spot LLC delivers these projects
         for small teams in Miami-Dade, Broward, and West Palm Beach.</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Business Objectives Alignment. This starts with a free consultation. We name the bottleneck (like missed WhatsApp leads or slow DM replies), set measurable goals (such as capture every inquiry in under a minute, or qualify every lead before they hit your phone), and set up KPIs that matter, conversion rate, response time, and lead quality, not just volume.</li>
@@ -43,7 +43,7 @@ export default function MechanicsSection() {
         team is busy or off the clock. By the time you or your team pick up the thread, every message, call,
         and chat is organized, qualified, and ready for follow-up.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The point of this approach, as Geek @ Your Spot delivers it, is simple: one AI assistant, every
+        The point of this approach, as Geek @ Your Spot LLC delivers it, is simple: one AI assistant, every
         channel, zero lost leads. The mechanics are what make it work: connect every inbox, capture every
         conversation, and keep your team focused on closing, not chasing.</p>
     </>

@@ -5,8 +5,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Going live with Jirav in a small business environment is not a multi-month slog or a risky all-at-once
-        leap. The process is shaped by how Jirav handles integrations, the order of setup, and what Geek @ Your
-        Spot does to close the gaps between your current stack and the new platform. For a South Florida
+        leap. The process is shaped by how Jirav handles integrations, the order of setup, and what Geek @ Your Spot LLC does to close the gaps between your current stack and the new platform. For a South Florida
         business running QuickBooks, spreadsheets, and payroll software, the difference is felt in weeks, not
         quarters.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -21,13 +20,12 @@ export default function ImplementingSection() {
         The next accelerator is Jirav’s templated setup for core financial models. Instead of building a new
         model from the ground up, Jirav provides industry-ready frameworks
         for&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>, workforce
-        planning, and scenario modeling. These templates are not rigid forms, they are starting points that Geek
-        @ Your Spot tunes to your business. For example, a company with seasonal cash swings can use a
+        planning, and scenario modeling. These templates are not rigid forms, they are starting points that Geek @ Your Spot LLC tunes to your business. For example, a company with seasonal cash swings can use a
         ready-made cash flow model and adjust the drivers for their real peaks and valleys. This avoids the
         spreadsheet sprawl and formula errors that come from copying last year’s files or patching together old
         templates.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Going live is phased, not a big-bang switch. Geek @ Your Spot first connects your core accounting and
+        Going live is phased, not a big-bang switch. Geek @ Your Spot LLC first connects your core accounting and
         payroll systems to Jirav. This gets the basics, historical transactions, open receivables, and payroll
         data, flowing into the platform. Next, operational drivers (like sales pipeline or headcount plans) are
         mapped in, so you see a real, working forecast in the dashboard. Only after the core numbers reconcile
@@ -42,11 +40,11 @@ export default function ImplementingSection() {
         from the end-of-month scramble to update spreadsheets and chase down missing entries. It also means you
         can spot cash shortfalls or hiring needs before they become emergencies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to make this transition fit your real environment. That means mapping your
+        Geek @ Your Spot LLC’s role is to make this transition fit your real environment. That means mapping your
         existing chart of accounts to Jirav’s model, setting up user permissions so department heads see only
         what they need, and training your team on how to use dashboards without falling back on old habits.
         Where your current data is messy, multiple versions of spreadsheets, old payroll exports, or
-        inconsistent naming, Geek @ Your Spot handles the clean-up and mapping. This avoids the trap of
+        inconsistent naming, Geek @ Your Spot LLC handles the clean-up and mapping. This avoids the trap of
         importing bad data or freezing the rollout while waiting for perfect records.</p>
       <p className="text-md text-white shadow-text pt-3">
         A typical go-live runs like this: initial discovery of your current systems and data, connection of

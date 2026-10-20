@@ -36,7 +36,7 @@ export default function DynamicCreativeOptimizationSection() {
             </ul>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Implementing DCO requires a strategic approach, where understanding customer behavior and segmenting audiences is
-              crucial. Geek At Your Spot can assist businesses in setting up these systems, ensuring that the AI tools align with
+              crucial. Geek @ Your Spot LLC can assist businesses in setting up these systems, ensuring that the AI tools align with
               marketing goals and provide measurable results in terms of increased conversion rates and customer engagement.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalization-in-action">Personalization in Action</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -55,7 +55,7 @@ export default function DynamicCreativeOptimizationSection() {
             <p className="pt-3 text-md font-normal text-white shadow-text">
               To effectively implement AI for personalization, businesses must first gather and analyze customer data to identify
               distinct audience segments. This data-driven approach enables the creation of tailored ad experiences that speak
-              directly to individual preferences. Geek At Your Spot helps organizations integrate AI solutions like Jasper and
+              directly to individual preferences. Geek @ Your Spot LLC helps organizations integrate AI solutions like Jasper and
               configure them to analyze behavioral patterns, ensuring that ad content is not only personalized but also aligned
               with broader marketing strategies.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="creative-testing-automation">Creative Testing Automation</h3>
@@ -71,7 +71,7 @@ export default function DynamicCreativeOptimizationSection() {
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="real-time-performance-insights">Real-Time Performance Insights</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Real-time insights are crucial for making informed decisions about ad content. By utilizing tools that offer these
-              capabilities, businesses can adapt quickly to market changes and audience responses. Geek At Your Spot provides
+              capabilities, businesses can adapt quickly to market changes and audience responses. Geek @ Your Spot LLC provides
               expertise in setting up these automated systems, ensuring that marketers have access to actionable data that drives
               strategic decisions and enhances ROI.</p>
           </div>

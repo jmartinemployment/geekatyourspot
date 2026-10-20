@@ -9,7 +9,7 @@ export default function ToolsSection() {
           <div className="col-span-12">
             <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-orange">Top AI Tools for <GlossaryLink slug="cash-flow-forecasting">Cash Flow Forecasting</GlossaryLink></h2>
             <p className="pt-5 text-md font-normal text-white shadow-text-orange">In today&#39;s dynamic financial environment, leveraging AI tools for cash flow forecasting is pivotal for
-              businesses aiming to maintain liquidity and optimize financial operations. Geek At Your Spot, as an AI
+              businesses aiming to maintain liquidity and optimize financial operations. Geek @ Your Spot LLC, as an AI
               implementation consultancy, focuses on deploying these tools to enhance forecasting accuracy and operational
               efficiency. Here, we explore some of the top AI tools that can be integrated into cash flow forecasting processes to
               provide substantial value.</p>
@@ -27,7 +27,7 @@ export default function ToolsSection() {
             <li>Highly customizable dashboards for detailed financial insights.</li>
           </ul>
           <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">How an AI implementer helps with Anaplan</h4>
-          <p className="pt-5 text-md font-normal text-white shadow-text-orange">Geek At Your Spot accelerates Anaplan deployment through pre-configured templates that streamline initial setup,
+          <p className="pt-5 text-md font-normal text-white shadow-text-orange">Geek @ Your Spot LLC accelerates Anaplan deployment through pre-configured templates that streamline initial setup,
             significantly reducing time-to-value for organizations. Our expertise in data model design ensures optimal mapping
             of financial data, such as aligning cash inflows and outflows with business-specific categories. We configure
             Anaplan workflows to automate approval processes and scenario planning, enhancing decision-making speed and
@@ -44,7 +44,7 @@ export default function ToolsSection() {
             <li>Scalable architecture suitable for businesses of all sizes.</li>
           </ul>
           <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">How an AI implementer helps with Adaptive Insights</h4>
-          <p className="pt-5 text-md font-normal text-white shadow-text-orange">With Adaptive Insights, Geek At Your Spot expedites deployment by leveraging its user-friendly setup processes and
+          <p className="pt-5 text-md font-normal text-white shadow-text-orange">With Adaptive Insights, Geek @ Your Spot LLC expedites deployment by leveraging its user-friendly setup processes and
             guided implementation frameworks. Our consultants design tailored data models to accurately reflect client-specific
             budget structures and cash flow categories. We fine-tune the platform&#39;s automated forecasting workflows,
             ensuring they align with organizational processes and approval hierarchies. For custom development needs, we utilize
@@ -63,7 +63,7 @@ export default function ToolsSection() {
             <li>Strong integration capabilities with <GlossaryLink slug="erp">ERP</GlossaryLink> systems.</li>
           </ul>
           <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">How an AI implementer helps with Kyriba</h4>
-          <p className="pt-5 text-md font-normal text-white shadow-text-orange">Geek At Your Spot accelerates Kyriba&#39;s go-live by utilizing its robust integration tools to connect with
+          <p className="pt-5 text-md font-normal text-white shadow-text-orange">Geek @ Your Spot LLC accelerates Kyriba&#39;s go-live by utilizing its robust integration tools to connect with
             existing financial infrastructures quickly. Our team designs strategic data models that optimize Kyriba&#39;s
             real-time visibility features, ensuring accurate cash flow tracking. We configure Kyriba&#39;s workflow settings to
             automate key processes like cash positioning and forecasting, reducing manual intervention. Moreover, we can
@@ -80,7 +80,7 @@ export default function ToolsSection() {
             <li>Seamless integration with various data sources.</li>
           </ul>
           <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-orange">How an AI implementer helps with Board</h4>
-          <p className="pt-5 text-md font-normal text-white shadow-text-orange">At Geek At Your Spot, we streamline Board&#39;s deployment by leveraging its intuitive interface and pre-built
+          <p className="pt-5 text-md font-normal text-white shadow-text-orange">At Geek @ Your Spot LLC, we streamline Board&#39;s deployment by leveraging its intuitive interface and pre-built
             models, ensuring a swift transition to live operations. Our consultants develop precise data models that capture all
             relevant financial metrics, enhancing the platform&#39;s unified analytics capabilities. We configure Board&#39;s
             workflows to automate forecasting processes, allowing for rapid scenario analysis and decision-making. If required,

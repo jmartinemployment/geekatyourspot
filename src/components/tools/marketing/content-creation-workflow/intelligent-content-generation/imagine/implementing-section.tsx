@@ -10,7 +10,7 @@ export default function ImplementingSection() {
         governance features are built for reuse and adaptation, not for one-off, custom integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
         Implementation starts with a clear definition of business objectives, what content needs to be
-        produced, which channels matter most, and who is responsible for approvals. Geek @ Your Spot leads
+        produced, which channels matter most, and who is responsible for approvals. Geek @ Your Spot LLC leads
         this phase by mapping your current content process to Imagine’s workflow system. The first step is
         often to identify a high-repetition asset type: for example, weekly promotional posts, product launch
         visuals, or seasonal offers. This focus keeps the initial rollout tight, avoiding the trap of
@@ -24,7 +24,7 @@ export default function ImplementingSection() {
         app for non-technical users, which means your team can generate on-brand content without touching the
         underlying logic.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Phased rollout is another critical factor. Geek @ Your Spot typically recommends starting with a
+        Phased rollout is another critical factor. Geek @ Your Spot LLC typically recommends starting with a
         single workflow, like turning raw product photos into a coordinated set of Instagram, email, and
         website assets, before expanding to more complex campaigns. Early wins build trust in the system and
         give the team a chance to adjust the workflow based on real feedback. Once the first workflow is
@@ -44,7 +44,7 @@ export default function ImplementingSection() {
         features mean that everyone sees the same file, with live comments and version tracking, which cuts
         review cycles down to minutes instead of days.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A typical implementation with Geek @ Your Spot moves from scoping to live production in a matter of
+        A typical implementation with Geek @ Your Spot LLC moves from scoping to live production in a matter of
         days, not weeks. The biggest time-saver is that Imagine’s workflows are reusable and adaptable: once a
         process is validated, it can be run for every new campaign or product without starting over. For small
         businesses in South Florida, this means less time spent on setup, fewer errors, and a faster path to a

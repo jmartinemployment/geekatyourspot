@@ -25,13 +25,13 @@ export default function ImplementingSection() {
         leaks or flooding are triaged and routed instantly, while routine calls follow standard scheduling. For
         a law office, the system can screen for case type, jurisdiction, and conflict checks out of the box.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The order of deployment is deliberate: first, Geek @ Your Spot maps your existing environment, phone
+        The order of deployment is deliberate: first, Geek @ Your Spot LLC maps your existing environment, phone
         system,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, scheduling tools, and any intake forms already
         in use. This up-front mapping ensures that Smith.ai connects directly to your current numbers, so you do
         not lose business continuity or force clients to learn a new process. The team checks whether call
         forwarding or number porting is needed, avoiding surprises that can delay launch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes configuration of call flows. Geek @ Your Spot works with your staff to define the triggers,
+        Next comes configuration of call flows. Geek @ Your Spot LLC works with your staff to define the triggers,
         escalation paths, and intake logic that matter for your business. This is not just a technical step; it
         is about translating how your team already handles urgent versus routine calls, what information you
         need to qualify a job, and when a caller should be routed to a real person. Smith.ai’s hybrid model
@@ -57,8 +57,7 @@ export default function ImplementingSection() {
         confident the system is tuned to your standards. This phased approach is especially useful for teams
         wary of big-bang changes or for those with complex intake requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
-        What makes this process work is the combination of Smith.ai’s technical foundation and Geek @ Your
-        Spot’s local, consultative approach. The consultancy handles the mapping, configuration, and
+        What makes this process work is the combination of Smith.ai’s technical foundation and Geek @ Your Spot LLC’s local, consultative approach. The consultancy handles the mapping, configuration, and
         integration, so your team does not have to become experts in the tool. The result: a front desk that
         never misses a call, a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;that is always up to date,
         and a business that can scale its lead capture without adding more staff.</p>

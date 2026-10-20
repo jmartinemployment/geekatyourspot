@@ -25,7 +25,7 @@ export default function RightFitSection() {
         tax-related tasks, the frequency of errors, or the cost of outsourcing compliance tasks to third-party
         providers.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Engaging with Geek @ Your Spot, an AI implementation consultancy, can help businesses transition
+        Engaging with Geek @ Your Spot LLC, an AI implementation consultancy, can help businesses transition
         smoothly to Zamp. Their expertise in deploying and configuring Zamp ensures that the platform is
         tailored to meet specific business needs, offering a seamless integration with existing systems.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -51,7 +51,7 @@ export default function EvaluatingSection() {
         The real test is whether Writesonic can scale your marketing without scaling your headcount. If you
         are running lean, need to look big, and want to out-publish local competitors, the fit is strong. If
         your workflow is highly custom or depends on legacy platforms not covered by Writesonic’s
-        integrations, you may need extra setup. Geek @ Your Spot’s role is to close that gap, mapping your
+        integrations, you may need extra setup. Geek @ Your Spot LLC’s role is to close that gap, mapping your
         stack, configuring the pipeline, and training your team so the platform fits your real business, not
         the other way around.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -26,7 +26,7 @@ export default function ImplementingSection() {
         <li>Rules and trigger configuration: Set up automation logic for routine content, such as standard replies, social post templates, or approval routing. This is usually done through a guided wizard, not code.</li>
         <li>Phased rollout: Start with one channel or workflow (for example, email replies), monitor adoption and impact, then expand to other content types such as blog posts, social media, or newsletters.</li>
         <li>Team training: Brief, focused sessions, often under an hour, covering how to use inline suggestions, trigger automations, and adjust the assistant’s tone in real time.</li>
-        <li>Live monitoring and adjustment: Geek @ Your Spot reviews early usage, tunes templates, and helps troubleshoot any integration snags, ensuring the system fits the team’s real-world habits.</li>
+        <li>Live monitoring and adjustment: Geek @ Your Spot LLC reviews early usage, tunes templates, and helps troubleshoot any integration snags, ensuring the system fits the team’s real-world habits.</li>
       </ol>
       <p className="text-md text-white shadow-text pt-3">
         What makes this process fast is that HyperWrite does not force a business to replatform. Its
@@ -48,7 +48,7 @@ export default function ImplementingSection() {
         published faster, and the team spends less time chasing down approvals or clarifying who owns the next
         step.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot accelerates this process by handling the upfront mapping, configuration, and user
+        Geek @ Your Spot LLC accelerates this process by handling the upfront mapping, configuration, and user
         onboarding. They ensure the browser extension is deployed correctly, templates are loaded, and
         automation rules reflect the team’s real approval structure. Instead of a drawn-out, one-size-fits-all
         deployment, the rollout is phased and local, tailored to the workflow of a small business in
@@ -57,7 +57,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, the&nbsp;<GlossaryLink slug="feedback-loop">feedback loop</GlossaryLink>&nbsp;is short.
         Because HyperWrite’s changes are visible right inside the team’s daily tools, it is easy to spot what
-        is working and what needs adjustment. Geek @ Your Spot monitors adoption, gathers user feedback, and
+        is working and what needs adjustment. Geek @ Your Spot LLC monitors adoption, gathers user feedback, and
         tweaks automation rules or templates as needed. The system improves with use, and the team quickly
         moves from manual drafting to a guided, automated workflow that feels familiar but moves much faster.</p>
     </>

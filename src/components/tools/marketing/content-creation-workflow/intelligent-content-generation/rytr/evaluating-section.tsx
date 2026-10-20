@@ -36,7 +36,7 @@ export default function EvaluatingSection() {
         time-strapped, and focused on direct marketing channels, Rytr’s fit is strong. If you need more
         complexity, you will hit the ceiling quickly.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Geek @ Your Spot evaluates Rytr for a client, the checklist is short: Do you need to produce
+        When Geek @ Your Spot LLC evaluates Rytr for a client, the checklist is short: Do you need to produce
         content in more than one language? Do you need to adjust tone for different platforms? Is your monthly
         content volume closer to a dozen assets than a hundred? Are you looking to save time and money
         compared to hiring outside help? If the answer is yes to most of these, Rytr is a strong fit. If not,

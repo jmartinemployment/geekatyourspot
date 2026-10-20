@@ -8,7 +8,7 @@ export default function ImplementingSection() {
         and confusion that come with new software. The main reason: Koala is built with pre-configured
         templates, direct integrations, and a workflow that puts your business’s core information at the
         center from day one. This means you do not spend weeks on setup, and you do not need a technical
-        background to get the basics right. Geek @ Your Spot guides the process, translating your real-world
+        background to get the basics right. Geek @ Your Spot LLC guides the process, translating your real-world
         business details into Koala’s data structure so the system produces content that sounds like you, not
         like a generic template.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -28,7 +28,7 @@ export default function ImplementingSection() {
         project. You set your context once, and it carries across everything.</p>
       <p className="text-md text-white shadow-text pt-3">
         Koala’s integrations with platforms like WordPress, Shopify, Webflow, and Ghost mean publishing is
-        direct and automatic. There is no need for copy-paste or manual uploads. Geek @ Your Spot connects
+        direct and automatic. There is no need for copy-paste or manual uploads. Geek @ Your Spot LLC connects
         Koala to your CMS, mapping fields so that articles, images, and links land in the right place every
         time. This integration step is quick, often an hour or less, because Koala’s connectors are built for
         these platforms out of the box. For any system outside those four, Koala’s webhook
@@ -44,18 +44,18 @@ export default function ImplementingSection() {
         For teams used to juggling multiple writers or outside agencies, Koala’s approach means you spend less
         time coordinating and more time reviewing. The system generates content in batches, applies your
         strategy and tone uniformly, and maintains a record of what’s scheduled, published, or pending
-        approval. Geek @ Your Spot helps you tune the system to your needs, setting up folder structures, user
+        approval. Geek @ Your Spot LLC helps you tune the system to your needs, setting up folder structures, user
         permissions, and notification settings so nothing slips through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
         A phased rollout is possible but often unnecessary. Most small businesses see value within the first
         week, with the first batch of content live and the system ready to handle ongoing updates. Where a
         phased approach makes sense, such as when integrating with a legacy CMS or migrating from another AI
-        platform, Geek @ Your Spot manages the transition, ensures data is mapped correctly, and tests
+        platform, Geek @ Your Spot LLC manages the transition, ensures data is mapped correctly, and tests
         publishing before switching over fully.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, going live with Koala is a matter of days, not weeks. The process is streamlined by
         pre-built connectors, structured templates, and a focus on importing your real business information
-        from the start. Geek @ Your Spot’s role is to translate your unique needs into Koala’s structure,
+        from the start. Geek @ Your Spot LLC’s role is to translate your unique needs into Koala’s structure,
         handle technical setup, and ensure your team is ready to review, approve, and publish with confidence.
         The result is a content system that delivers consistent, branded output without the setup headaches or
         ongoing maintenance that slow other tools down.</p>

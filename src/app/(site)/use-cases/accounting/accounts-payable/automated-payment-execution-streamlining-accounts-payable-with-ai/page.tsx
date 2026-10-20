@@ -25,10 +25,10 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
             },
             "datePublished": "2026-10-08T00:00:00.000Z",
@@ -58,8 +58,8 @@ const jsonLd: Graph = {
                 { "@type": "Question", "name": "Does approving an invoice automatically authorize payment?", "acceptedAnswer": { "@type": "Answer", "text": "No, approving an invoice does not automatically authorize payment. Approval indicates that the invoice is correct and should be paid, but the payment process typically involves additional steps or permissions, especially in automated systems, to ensure accuracy and control over cash flow." } },
                 { "@type": "Question", "name": "Can my bookkeeper prepare payments without being allowed to release the money?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, many systems allow a separation of duties where the bookkeeper can prepare payments but not release them. This setup requires additional authorization from someone with payment release authority, such as the business owner, ensuring proper oversight and security." } },
                 { "@type": "Question", "name": "Which payments should require the owner’s approval?", "acceptedAnswer": { "@type": "Answer", "text": "Payments that are large, irregular, or outside normal vendor relationships should typically require the owner's approval. This ensures that significant financial decisions are overseen by someone with a comprehensive understanding of the business's financial priorities and commitments." } },
-                { "@type": "Question", "name": "Can payments above a certain amount require a second approver?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, payments above a certain amount can require a second approver. This is a common security measure in automated payment execution systems to prevent unauthorized transactions. By setting approval thresholds, small businesses can ensure that larger payments receive an extra layer of scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot can help set up these controls within your payment processes." } },
-                { "@type": "Question", "name": "Why is an approved bill still waiting to be paid?", "acceptedAnswer": { "@type": "Answer", "text": "An approved bill might still be waiting to be paid due to several factors. There could be cash flow management strategies in place that dictate payment timing. Alternatively, there might be a delay in the automated system's payment cycle or a need for manual intervention to resolve discrepancies. Geek @ Your Spot can assist in identifying and resolving these issues to streamline your payment processes." } }
+                { "@type": "Question", "name": "Can payments above a certain amount require a second approver?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, payments above a certain amount can require a second approver. This is a common security measure in automated payment execution systems to prevent unauthorized transactions. By setting approval thresholds, small businesses can ensure that larger payments receive an extra layer of scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot LLC can help set up these controls within your payment processes." } },
+                { "@type": "Question", "name": "Why is an approved bill still waiting to be paid?", "acceptedAnswer": { "@type": "Answer", "text": "An approved bill might still be waiting to be paid due to several factors. There could be cash flow management strategies in place that dictate payment timing. Alternatively, there might be a delay in the automated system's payment cycle or a need for manual intervention to resolve discrepancies. Geek @ Your Spot LLC can assist in identifying and resolving these issues to streamline your payment processes." } }
             ]
         }
     ]
@@ -71,24 +71,24 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: DESCRIPTION,
         keywords: ["automated payment execution", "accounts payable automation", "AI in accounts payable", "payment automation tools", "vendor payments", "finance automation"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: TITLE, description: DESCRIPTION, url: PAGE_URL,
-            siteName: 'Geek at Your Spot', locale: 'en_US', type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            siteName: 'Geek @ Your Spot LLC', locale: 'en_US', type: 'website',
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image', title: TITLE, description: DESCRIPTION,
-            creator: 'Geek at Your Spot', images: ['/images/GeekAtYourSpot.svg'],
+            creator: 'Geek @ Your Spot LLC', images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
             index: true, follow: true, nocache: false,
             googleBot: { index: true, follow: true, noimageindex: false, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

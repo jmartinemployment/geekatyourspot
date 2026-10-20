@@ -12,14 +12,14 @@ export default function DataMappingSection() {
         The first and most critical mapping is your topic taxonomy. Scalenut’s cluster engine builds its
         suggestions around how you group your services, products, or local pages. If your business serves both
         Miami and Fort Lauderdale, for instance, the platform needs to know which service lines belong to
-        which market, and which keywords are tied to each. Geek @ Your Spot works with you to define these
+        which market, and which keywords are tied to each. Geek @ Your Spot LLC works with you to define these
         clusters, using your own business logic and the real questions your customers ask, so the AI does not
         just guess, it plans against your actual market priorities.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next is the mapping of approval roles and workflow steps. Scalenut supports multi-level approvals, but
         only if the right people and steps are defined upfront. For a compliance-driven business, this might
         mean routing all financial content to the CFO before it goes live; for a retail operation, it could be
-        a marketing manager and a store lead. Geek @ Your Spot configures these roles in Scalenut’s workflow
+        a marketing manager and a store lead. Geek @ Your Spot LLC configures these roles in Scalenut’s workflow
         builder, so every draft, revision, and scheduled post follows your internal controls, no skipped
         steps, no accidental publishes.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -31,7 +31,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Bulk scheduling and publishing depend on mapping your channels and endpoints. The system needs to know
         which content goes to which platform, your blog, your newsletter, your Facebook page, and in what
-        format. Geek @ Your Spot sets up these channel mappings during onboarding, so once a piece of content
+        format. Geek @ Your Spot LLC sets up these channel mappings during onboarding, so once a piece of content
         is approved, Scalenut can push it live without manual intervention or copy-paste errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams focused on AI-driven search visibility, prompt mapping is essential. Scalenut tracks which
@@ -42,13 +42,13 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Internal linking automation requires a map of your site’s structure. Scalenut’s link manager needs to
         understand which pages are pillars, which are clusters, and how authority should flow between them.
-        Geek @ Your Spot audits your site and tags the relationships, so the AI can build and maintain a
+        Geek @ Your Spot LLC audits your site and tags the relationships, so the AI can build and maintain a
         logical, SEO-friendly link network that reinforces your topical authority.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally,&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;and consistency
         matter. Scalenut’s automations are only as good as the data they act on. If your service areas are
         inconsistently named, or your content tags are out of date, the system’s recommendations will be off.
-        Geek @ Your Spot’s implementation process includes a&nbsp;<GlossaryLink slug="data-quality">data
+        Geek @ Your Spot LLC’s implementation process includes a&nbsp;<GlossaryLink slug="data-quality">data
         quality</GlossaryLink>&nbsp;assessment, cleaning up inconsistencies and standardizing formats before
         Scalenut starts its work. This is not just a technical step, it is what ensures that the AI’s
         decisions match your business reality, and that every automation actually saves you time instead of

@@ -45,7 +45,7 @@ export const madgicxContent: ToolPageContent = {
     },
     {
       "title": "Implementation Considerations",
-      "description": "Implementing Madgicx requires careful planning to ensure a smooth transition and effective use of its capabilities. Here are some specific considerations for businesses looking to deploy Madgicx for automated ad spend optimization. At Geek At Your Spot, we assist businesses in navigating these considerations to ensure a successful implementation of Madgicx. Our expertise in AI and marketing technology helps close the gap for clients by providing tailored solutions that enhance ad spend optimization.",
+      "description": "Implementing Madgicx requires careful planning to ensure a smooth transition and effective use of its capabilities. Here are some specific considerations for businesses looking to deploy Madgicx for automated ad spend optimization. At Geek @ Your Spot LLC, we assist businesses in navigating these considerations to ensure a successful implementation of Madgicx. Our expertise in AI and marketing technology helps close the gap for clients by providing tailored solutions that enhance ad spend optimization.",
       "bullets": [
         "Accelerated Deployment: Madgicx offers pre-built connectors and templated setups that facilitate quick integration with existing marketing systems. This accelerates the deployment process, allowing businesses to start optimizing their ad spend without significant delays.",
         "Data Model Design: Before implementing Madgicx, it's crucial to map out the data structure that will be used. This involves understanding how audience data, creative content, and performance metrics will be organized and accessed within the platform.",

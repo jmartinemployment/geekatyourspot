@@ -5,7 +5,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing TaxJar in your business environment is a streamlined process that minimizes downtime and
-        maximizes efficiency. Geek @ Your Spot ensures a smooth transition by leveraging pre-built connectors
+        maximizes efficiency. Geek @ Your Spot LLC ensures a smooth transition by leveraging pre-built connectors
         and a phased rollout strategy. This approach reduces the complexity of integration and allows your
         business to quickly benefit from automated&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>.</p>
@@ -15,18 +15,18 @@ export default function ImplementingSection() {
         QuickBooks, which significantly shortens the setup time. These connectors allow for seamless data flow
         between your existing systems and TaxJar, eliminating the need for extensive custom development.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next, Geek @ Your Spot configures TaxJar to match your specific business needs. This includes setting up
+        Next, Geek @ Your Spot LLC configures TaxJar to match your specific business needs. This includes setting up
         tax rules and automations that align with your sales channels and product offerings. The phased rollout
         approach means that the implementation is done in stages, allowing for thorough testing and adjustments
         before full deployment. This minimizes the risk of disruptions and ensures that your team can continue
         to operate efficiently throughout the transition.</p>
       <p className="text-md text-white shadow-text pt-3">
-        During the implementation, Geek @ Your Spot provides comprehensive training for your team, ensuring that
+        During the implementation, Geek @ Your Spot LLC provides comprehensive training for your team, ensuring that
         everyone understands how to use TaxJar effectively. This training covers everything from navigating the
         platform to managing tax filings, equipping your team with the skills needed to handle tax compliance
         independently.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, once TaxJar is live, Geek @ Your Spot offers ongoing support to address any issues that arise
+        Finally, once TaxJar is live, Geek @ Your Spot LLC offers ongoing support to address any issues that arise
         and to make further optimizations as needed. This ensures that your business can adapt to changes in tax
         laws and continue to benefit from TaxJar&#39;s capabilities without interruption.</p>
     </>

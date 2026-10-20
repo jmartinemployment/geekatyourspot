@@ -14,7 +14,7 @@ export default function DataIntegrationSection() {
         clean it is. That is not a technicality, it is the difference between a system that saves you time and
         one that breaks on day one.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s own approach starts with a focused&nbsp;<GlossaryLink slug="data-quality">data
+        Geek @ Your Spot LLC’s own approach starts with a focused&nbsp;<GlossaryLink slug="data-quality">data
         quality</GlossaryLink>&nbsp;assessment. It is not about buying a new platform and hoping it fits. We
         look at every key source: What topics have you published? What has the team tried before? Which posts,
         emails, and campaigns are actually driving leads or sales? Data must be accurate, up to date, and
@@ -43,7 +43,7 @@ export default function DataIntegrationSection() {
         For the owner or marketing lead, the practical step here is to inventory every data source and
         workflow that touches content. What gets published, when, and by whom? Where does the approval live?
         Which platform holds the master list of topics? Once mapped, you can decide what gets integrated and
-        what needs to be cleaned up before rollout. Geek @ Your Spot’s method always puts this phase before
+        what needs to be cleaned up before rollout. Geek @ Your Spot LLC’s method always puts this phase before
         any tool selection, if your data is a mess, no AI workflow will save you. The best implementations
         start with a few core integrations, your CMS, your
         main&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and your scheduling platform, then expand as

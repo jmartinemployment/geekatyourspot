@@ -18,7 +18,7 @@ export default function RightFitSection() {
         processes and identify specific pain points that need addressing. This evaluation will help determine how
         Versapay&#39;s features can best be utilized to improve efficiency and accuracy.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Once a decision is made, engaging with a consultant like Geek @ Your Spot can facilitate a smooth
+        Once a decision is made, engaging with a consultant like Geek @ Your Spot LLC can facilitate a smooth
         implementation. Their expertise in configuring Versapay to fit specific business needs ensures that the
         transition is seamless and effective.</p>
       <p className="text-md text-white shadow-text pt-3">

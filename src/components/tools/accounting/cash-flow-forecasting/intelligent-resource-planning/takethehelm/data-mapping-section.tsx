@@ -20,7 +20,7 @@ export default function DataMappingSection() {
         Next is mapping transactions to the right categories. Take the Helm uses the coding from the accounting
         system, but inconsistencies in the source data can skew the forecast. If payroll is sometimes coded as a
         direct expense and sometimes as overhead, the cash flow graph will not reflect reality. The platform’s
-        setup wizard flags these inconsistencies, but it is up to the team, often with Geek @ Your Spot’s help,
+        setup wizard flags these inconsistencies, but it is up to the team, often with Geek @ Your Spot LLC’s help,
         to standardize the mapping. This is not a one-time fix. As new transactions are added, keeping the
         coding consistent ensures forecasts stay accurate and trends are meaningful.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,7 +49,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Reporting is only as good as the mapping behind it. Take the Helm exports forecasts and transaction
         details to PDF and CSV. Stakeholders, owners, accountants, lenders, rely on these reports for decisions.
-        If the mapping is sloppy, reports mislead rather than inform. This is why Geek @ Your Spot spends time
+        If the mapping is sloppy, reports mislead rather than inform. This is why Geek @ Your Spot LLC spends time
         up front reviewing the client’s chart of accounts, transaction coding, and open items. They help set
         rules for which accounts feed which forecast lines, and which transactions should be excluded from
         planning altogether.</p>
@@ -57,7 +57,7 @@ export default function DataMappingSection() {
         A common pain point for small businesses is old, un-audited spreadsheets that do not match the
         accounting system. Take the Helm does not require every legacy record to be perfect before going live,
         but mapping key historical data, like past payment patterns or recurring expenses, improves the accuracy
-        of the first forecast. Geek @ Your Spot often helps clients import these critical data points, mapping
+        of the first forecast. Geek @ Your Spot LLC often helps clients import these critical data points, mapping
         them to the right accounts and categories so trends and seasonality are visible from the start.</p>
       <p className="text-md text-white shadow-text pt-3">
         The upfront mapping decisions also affect user roles and permissions. Take the Helm supports unlimited
@@ -67,7 +67,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In summary, Take the Helm’s value for Intelligent Resource Planning depends on getting the data
         structure right from the start. Clean, consistently coded data feeds accurate forecasts, actionable
-        dashboards, and reliable scenario planning. Geek @ Your Spot’s implementation support is crucial here,
+        dashboards, and reliable scenario planning. Geek @ Your Spot LLC’s implementation support is crucial here,
         they know where small businesses’ data gets messy, and how to map it to Take the Helm’s requirements
         without dragging out the project. The result is a live system that reflects the real business, not just
         a theoretical model. Every decision made at this stage shapes what the owner and team will see on their

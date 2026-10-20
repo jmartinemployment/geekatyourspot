@@ -16,7 +16,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Lead Enrichment and Predictive Scoring";
+const TITLE = "Lead Enrichment & Predictive Scoring";
 const DESCRIPTION =
     "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida";
@@ -30,10 +30,10 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
             },
             "datePublished": "2026-10-17T11:09:57.5329753Z",
@@ -70,24 +70,24 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: DESCRIPTION,
         keywords: ["Lead Enrichment and Predictive Scoring", "AI lead capture", "South Florida Small Businesses", "lead scoring tools", "Apollo", "Lusha", "Snitcher", "Leadfeeder", "Factors", "AI implementation services"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -97,7 +97,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
             },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

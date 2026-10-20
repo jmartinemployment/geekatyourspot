@@ -15,8 +15,8 @@ const jsonLd: WithContext<TechArticle> = {
     "description": "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/mailchimp" },
     "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
         "@id": "https://geekatyourspot.com/#software-mailchimp",
@@ -33,8 +33,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: "Discover Mailchimp's AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.",
         keywords: ["AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/tools/marketing/mailchimp',
@@ -43,7 +43,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "Mailchimp for AI Marketing Systems",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
             url: 'https://geekatyourspot.com/tools/marketing/mailchimp',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
             images: [
@@ -51,7 +51,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Mailchimp for AI Marketing Systems",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -78,7 +78,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

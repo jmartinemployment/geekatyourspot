@@ -29,7 +29,7 @@ export default function OverviewSection() {
         without hiring extra staff or losing sleep over missed opportunities. For small businesses in West
         Palm Beach, Broward, and Miami-Dade, this is the difference between keeping up and falling behind.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot specializes in building these unified, always-on systems for local businesses. Their
+        Geek @ Your Spot LLC specializes in building these unified, always-on systems for local businesses. Their
         approach means your chatbot runs across channels, scores leads, and even brings in voice assistants,
         so every conversation counts, and your pipeline never stops moving. If you’re ready to stop losing
         leads to disconnected inboxes, this is how you start.</p>

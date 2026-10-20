@@ -14,7 +14,7 @@ export default function PreparingSection() {
         Start with a clear business objective. This step is not about technology. It is about naming the real
         pain you want to solve: closing the books faster, reducing errors, seeing cash flow in real time, or
         freeing up hours every week. Get concrete. The more specific your goal, the easier it is to measure if
-        the system is working. Geek @ Your Spot starts every project with this kind of goal-setting, so the work
+        the system is working. Geek @ Your Spot LLC starts every project with this kind of goal-setting, so the work
         stays focused and the result is something you can point to, not just a new login.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next comes your&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. This

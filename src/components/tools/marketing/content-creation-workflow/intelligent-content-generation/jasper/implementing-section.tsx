@@ -14,7 +14,7 @@ export default function ImplementingSection() {
         production, and optimization to happen without jumping between disconnected systems. This shortens
         go-live by avoiding custom development or manual data transfers.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A typical rollout starts with a phased approach. Geek @ Your Spot leads with a pilot campaign, a
+        A typical rollout starts with a phased approach. Geek @ Your Spot LLC leads with a pilot campaign, a
         single workflow, like a month of social posts or a new landing page and email sequence. This lets the
         team see how Jasper’s Canvas workspace keeps every asset aligned from the first draft to the final
         review. In Canvas, the team brings in campaign goals, content calendar themes, and posting cadence,
@@ -29,7 +29,7 @@ export default function ImplementingSection() {
         goes live without a final check.</p>
       <p className="text-md text-white shadow-text pt-3">
         Brand Voice and Knowledge Base setup happens in parallel. Jasper does not guess at how your business
-        sounds or what it knows. Geek @ Your Spot works with clients to upload real documents, past campaigns,
+        sounds or what it knows. Geek @ Your Spot LLC works with clients to upload real documents, past campaigns,
         product messaging, even customer Q&amp;As, so Jasper learns the right facts and the right tone from
         the start. The system enforces these rules every time it generates or revises content. This means less
         time spent editing for consistency or correcting errors that slipped through generic AI templates.</p>

@@ -13,7 +13,7 @@ export default function DataMappingSection() {
         matching visitor IPs to business profiles, then enriches each visit with firmographic details,
         industry, company size, location, revenue range, and tech stack. If your team works accounts by
         vertical, industry tags are critical. If you segment by size or geography, those fields must be mapped
-        to the right fields in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Geek @ Your Spot works
+        to the right fields in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Geek @ Your Spot LLC works
         with you to define which attributes are required, optional, or should be ignored entirely. This avoids
         cluttering your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;with irrelevant data and keeps
         your lead views focused on what actually drives conversion.</p>
@@ -24,7 +24,7 @@ export default function DataMappingSection() {
         which&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;properties. For example, you might map
         ‘company size’ to a standard&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;field, while ‘last
         visited page’ becomes a custom property. The mapping process is not just technical, it is strategic.
-        Geek @ Your Spot helps you align these decisions with your sales playbook, ensuring that reps see the
+        Geek @ Your Spot LLC helps you align these decisions with your sales playbook, ensuring that reps see the
         most actionable information at a glance.</p>
       <p className="text-md text-white shadow-text pt-3">
         Filtering is just as important as enrichment. Snitcher lets you filter out visits from students,
@@ -40,8 +40,7 @@ export default function DataMappingSection() {
         how long they stayed, and what actions they took. This behavioral history is not just a list of URLs,
         it is a timeline that shows buying intent. Mapping this data into
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;means your sales team can see, for each
-        account, whether they just skimmed the homepage or spent ten minutes on your pricing sheet. Geek @
-        Your Spot configures the mapping so that high-intent actions (like repeat visits to a proposal page)
+        account, whether they just skimmed the homepage or spent ten minutes on your pricing sheet. Geek @ Your Spot LLC configures the mapping so that high-intent actions (like repeat visits to a proposal page)
         flag the account for immediate outreach, while low-intent bounces are filtered out.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams using Slack or Microsoft Teams, Snitcher can route alerts to dedicated channels based on
@@ -53,7 +52,7 @@ export default function DataMappingSection() {
         Contact enrichment is another area where mapping matters. When Snitcher identifies a company, it can
         also surface decision-maker names, job titles, emails, phone numbers, and LinkedIn profiles. Deciding
         which of these are pushed into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and under what
-        conditions, is an upfront call. Geek @ Your Spot guides you through these choices, balancing the need
+        conditions, is an upfront call. Geek @ Your Spot LLC guides you through these choices, balancing the need
         for actionable data with privacy and compliance requirements. For example, business emails and phone
         numbers are mapped only for verified decision-makers, and only when your outreach playbook calls for
         direct contact.</p>
@@ -62,7 +61,7 @@ export default function DataMappingSection() {
         model is configurable: you can weight pricing-page visits more heavily, or prioritize companies that
         match your ICP exactly. The mapping of these scores into
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;affects how leads are routed, how
-        follow-ups are triggered, and how marketing measures campaign performance. Geek @ Your Spot helps you
+        follow-ups are triggered, and how marketing measures campaign performance. Geek @ Your Spot LLC helps you
         tune these rules so that only the highest-potential accounts reach your sales team, and every
         follow-up is backed by real data, not guesswork.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -30,7 +30,7 @@ export default function OverviewSection() {
         The result is a steady stream of fresh, relevant content that keeps your brand top-of-mind with local
         customers and frees up time to focus on what matters most.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s AI Marketing Content Workflow is built for these exact challenges. The method is
+        Geek @ Your Spot LLC’s AI Marketing Content Workflow is built for these exact challenges. The method is
         simple and proven: automate the blank-page moments, make repurposing routine, and let the system run
         the tedious parts of content creation for you. For local businesses who need to build trust and
         visibility without the overhead of a full marketing department, Intelligent Content Generation is not

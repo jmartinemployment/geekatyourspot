@@ -51,7 +51,7 @@ export default function RightFitSection() {
         bottlenecks are, who needs to approve what, and which channels matter most for your business.
         Hootsuite works best when you start with a clear sense of your objectives and data structure. From
         there, you can configure the platform to automate low-value work, surface the trends that matter, and
-        route every post through the right review steps. Geek @ Your Spot specializes in this kind of
+        route every post through the right review steps. Geek @ Your Spot LLC specializes in this kind of
         deployment, helping teams in South Florida build a workflow that fits their real-world needs, not just
         the software’s defaults.</p>
       <p className="text-md text-white shadow-text pt-3">

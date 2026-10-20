@@ -52,7 +52,7 @@ export default function EvaluatingSection() {
         <li>Team size: Plans include user seats and inbox management. If you have multiple staff, check seat limits and permissions.</li>
         <li>Integration: Manychat connects to ActiveCampaign and Google Sheets, so leads can flow into your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing system.</li>
         <li>Cost structure: Pricing is monthly, with clear limits on channels and contacts. Scale up as your engagement grows.</li>
-        <li>DIY vs. expert setup: Manychat is built to be user-friendly, but configuring advanced automations, tagging, and integrations takes expertise. Geek @ Your Spot handles the setup so you get the system working for your unique sales process, not just a generic template.</li>
+        <li>DIY vs. expert setup: Manychat is built to be user-friendly, but configuring advanced automations, tagging, and integrations takes expertise. Geek @ Your Spot LLC handles the setup so you get the system working for your unique sales process, not just a generic template.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses, the real test is whether Manychat removes the pain of manual lead capture and

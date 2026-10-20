@@ -203,7 +203,7 @@ export default function Navbar(): React.JSX.Element {
             <Link href="/" id={gtmLinkIdFromHref("/", "logo")} className="flex items-center">
               <Image
                 src="/images/GeekAtYourSpot.svg"
-                alt="Geek @ Your Spot logo"
+                alt="Geek @ Your Spot LLC logo"
                 width={116}
                 height={48}
                 priority

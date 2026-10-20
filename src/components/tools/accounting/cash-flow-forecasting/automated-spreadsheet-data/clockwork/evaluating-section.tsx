@@ -26,7 +26,7 @@ export default function EvaluatingSection() {
         team to focus on strategic analysis rather than data entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement Clockwork should be based on its ability to simplify your financial
-        processes and enhance decision-making. Geek @ Your Spot plays a crucial role in this evaluation process by
+        processes and enhance decision-making. Geek @ Your Spot LLC plays a crucial role in this evaluation process by
         providing expert guidance on how to configure Clockwork to meet your unique business needs. By understanding
         your specific challenges and goals, they ensure that Clockwork is set up to deliver the maximum benefit to
         your organization.</p>

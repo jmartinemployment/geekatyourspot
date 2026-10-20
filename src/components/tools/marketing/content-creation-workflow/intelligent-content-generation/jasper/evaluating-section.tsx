@@ -36,14 +36,14 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When weighing Jasper against other options, look at your review and approval needs. Jasper’s built-in
         workflows can automate much of the back-and-forth that slows down content production, but only if you
-        configure them to match your real process. Geek @ Your Spot’s implementation ensures these fit your
+        configure them to match your real process. Geek @ Your Spot LLC’s implementation ensures these fit your
         team’s habits and compliance requirements, so you do not trade one bottleneck for another. If you
         prefer to keep approval and editing entirely manual, or your team is not ready to trust AI-driven
         drafts, Jasper’s value may be less clear.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, consider the learning curve and support. Jasper’s interface is designed for marketing teams,
         not engineers, but getting the most from its automation requires upfront configuration and ongoing
-        tuning. Geek @ Your Spot guides your team through setup, training, and adjustment, so you see results
+        tuning. Geek @ Your Spot LLC guides your team through setup, training, and adjustment, so you see results
         from day one. This hands-on approach matters for small businesses that cannot afford a long ramp-up or
         a failed rollout.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -24,7 +24,7 @@ export default function DataMappingSection() {
         payment behaviors and mitigate the risk of cash flow disruptions. This granular control over financial data
         helps businesses maintain an accurate view of their liquidity position.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot&#39;s expertise in data mapping and integration is invaluable during this phase. They guide
+        Geek @ Your Spot LLC&#39;s expertise in data mapping and integration is invaluable during this phase. They guide
         businesses through the intricacies of setting up Dryrun, ensuring that all data is accurately mapped and
         that the system is configured to deliver the most relevant insights. With their support, businesses can
         confidently transition to Dryrun, knowing that their financial data is structured for optimal performance

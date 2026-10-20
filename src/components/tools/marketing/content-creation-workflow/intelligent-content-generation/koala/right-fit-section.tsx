@@ -49,7 +49,7 @@ export default function RightFitSection() {
         answer is hours each week, Koala is likely to pay for itself in time saved and consistency gained.</p>
       <p className="text-md text-white shadow-text pt-3">
         The onboarding process matters. Koala works best when set up with your real business data, not just a
-        list of keywords. Geek @ Your Spot brings experience mapping local businesses’ services, credentials,
+        list of keywords. Geek @ Your Spot LLC brings experience mapping local businesses’ services, credentials,
         and market details into Koala’s Brand DNA, so the platform produces content that is accurate and ready
         to use. If you want to see what that looks like before committing, Koala offers a free trial with
         5,000 words. That is enough to test how well it matches your brand and handles your actual topics.</p>

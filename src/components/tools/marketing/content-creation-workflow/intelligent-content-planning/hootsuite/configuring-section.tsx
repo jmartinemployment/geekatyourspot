@@ -49,7 +49,7 @@ export default function ConfiguringSection() {
         code. For most small businesses, this is as far as you need to go: Hootsuite is a configuration-first
         platform, not a developer toolkit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Geek @ Your Spot implements Hootsuite, the focus is on mapping your real-world workflow to these
+        When Geek @ Your Spot LLC implements Hootsuite, the focus is on mapping your real-world workflow to these
         rules and automations. The team works with you to define who needs to approve what, how content should
         be routed, what triggers a notification, and how to connect your existing communication channels. Data
         mapping is handled upfront, so every piece of content is tagged, categorized, and ready for analytics

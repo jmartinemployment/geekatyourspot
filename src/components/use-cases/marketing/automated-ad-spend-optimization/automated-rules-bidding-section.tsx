@@ -32,7 +32,7 @@ export default function AutomatedRulesBiddingSection() {
               <li>Focus on strategic planning rather than manual bid management.</li>
             </ul>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Geek At Your Spot assists clients in configuring and managing these automated systems, ensuring that the tools are
+              Geek @ Your Spot LLC assists clients in configuring and managing these automated systems, ensuring that the tools are
               set up to align with specific business objectives and deliver measurable improvements in campaign performance and
               cost efficiency.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="setting-automated-rules">Setting Automated Rules</h3>
@@ -51,7 +51,7 @@ export default function AutomatedRulesBiddingSection() {
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="aligning-rules-with-business-goals">Aligning Rules with Business Goals</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Aligning automated rules with business objectives requires a deep understanding of both the market and the specific
-              goals of the organization. Geek At Your Spot works closely with clients to develop rules that reflect their strategic
+              goals of the organization. Geek @ Your Spot LLC works closely with clients to develop rules that reflect their strategic
               priorities, ensuring that automated systems not only enhance efficiency but also contribute to broader business
               success.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="optimizing-bid-strategies">Optimizing Bid Strategies</h3>
@@ -66,7 +66,7 @@ export default function AutomatedRulesBiddingSection() {
               marketers with a competitive edge in the digital landscape.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-advanced-algorithms">Implementing Advanced Algorithms</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Implementing advanced algorithms requires careful planning and execution. Geek At Your Spot offers expertise in
+              Implementing advanced algorithms requires careful planning and execution. Geek @ Your Spot LLC offers expertise in
               integrating these technologies, ensuring they are configured to deliver optimal results. By leveraging our
               experience, businesses can maximize their ad spend efficiency and achieve their marketing objectives without
               unnecessary complexity or cost.</p>

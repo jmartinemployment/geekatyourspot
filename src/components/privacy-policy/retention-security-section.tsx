@@ -17,7 +17,7 @@ export default function RetentionSecuritySection() {
       <p className="text-md text-white shadow-text pt-3">
         The site is served over an encrypted HTTPS connection, and booking information travels to Google and
         Resend over encrypted connections as well. Access to our calendar and email accounts is limited to the
-        people who run Geek at Your Spot.</p>
+        people who run Geek @ Your Spot LLC.</p>
       <p className="text-md text-white shadow-text pt-3">
         No system on the internet is perfectly secure, so we cannot promise that information will never be
         exposed. If a breach affects your personal information, we will tell you without unreasonable delay

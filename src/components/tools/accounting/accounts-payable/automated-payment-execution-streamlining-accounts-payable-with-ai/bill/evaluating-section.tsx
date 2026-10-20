@@ -32,7 +32,7 @@ export default function EvaluatingSection() {
         those of its competitors could reveal additional benefits or constraints.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision should rest on how well Bill aligns with your business goals and operational
-        needs. Consider engaging with a consultancy like Geek @ Your Spot, which can provide tailored advice
+        needs. Consider engaging with a consultancy like Geek @ Your Spot LLC, which can provide tailored advice
         and implementation support to ensure that Bill integrates seamlessly into your existing systems,
         maximizing its potential benefits.</p>
     </>

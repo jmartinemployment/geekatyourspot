@@ -46,8 +46,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Another consideration is support. Gusto’s support is designed for small business owners, not just
         accountants. You get access to customer service and a knowledge base, but if you want hands-on, local
-        expertise—especially for South Florida’s seasonal workforce—working with Geek @
-        Your Spot as your implementer means you get the configuration and data mapping right from the start.
+        expertise—especially for South Florida’s seasonal workforce—working with Geek @ Your Spot LLC as your implementer means you get the configuration and data mapping right from the start.
         They make sure your Gusto setup fits your real payroll cycles and tax requirements, which is not
         something the platform’s generic onboarding covers.</p>
       <p className="text-md text-white shadow-text pt-3">

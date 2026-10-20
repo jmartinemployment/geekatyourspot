@@ -42,7 +42,7 @@ export default function RightFitSection() {
         workflow before committing. It is designed to automate the pieces that slow you down, data aggregation,
         threshold tracking, rate calculation, and filing, so your team can focus on sales, not spreadsheets.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those who decide to move forward, the process is not just about buying software. Geek @ Your Spot
+        For those who decide to move forward, the process is not just about buying software. Geek @ Your Spot LLC
         handles the rollout, mapping your sales data, configuring the right rules, and connecting your sales
         channels. This ensures TaxJar fits your specific environment and that your team is trained to use it.
         The goal is not to add more work or complexity, but to remove it, so you can keep selling, expand into

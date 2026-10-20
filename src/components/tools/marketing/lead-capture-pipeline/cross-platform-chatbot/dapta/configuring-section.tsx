@@ -29,7 +29,7 @@ export default function ConfiguringSection() {
         is by design. The platform is built for non-technical teams who want to own their automation without
         hiring engineers. You get business-level control through settings, not code. Where you need to go
         further, such as integrating a new app or adjusting a workflow, Dapta’s integrations catalog covers
-        the ground, and Geek @ Your Spot handles the mapping and field matching as part of the deployment.</p>
+        the ground, and Geek @ Your Spot LLC handles the mapping and field matching as part of the deployment.</p>
       <p className="text-md text-white shadow-text pt-3">
         For a small business in South Florida, this configuration approach means you never have to write or
         maintain code to keep your intake and booking process running. If your business changes, new services,
@@ -37,7 +37,7 @@ export default function ConfiguringSection() {
         minutes through Dapti’s interface. This is not just easier at launch, it is sustainable as your
         business grows and your customer mix changes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to translate your real-world process into these Dapta flows. That means
+        Geek @ Your Spot LLC’s role is to translate your real-world process into these Dapta flows. That means
         sitting with your team to document how you qualify leads, what questions matter, what counts as
         urgent, and where every outcome should land. They configure Dapta to mirror your intake and booking
         process, map every field to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and set up
@@ -57,7 +57,7 @@ export default function ConfiguringSection() {
         new project or outside developer.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short: Dapta’s rules and automation logic are set up in plain English, mapped to your real
-        processes, and extended through a massive integrations catalog rather than code. Geek @ Your Spot
+        processes, and extended through a massive integrations catalog rather than code. Geek @ Your Spot LLC
         closes the gap between your workflow and the agent, so you get a system that matches your business,
         not a generic script. For small businesses that want to capture every lead, qualify them instantly,
         and book appointments without new staff or technical debt, this is the practical path.</p>

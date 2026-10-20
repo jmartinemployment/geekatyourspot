@@ -21,7 +21,7 @@ export default function RightFitSection() {
         significant time and reduces errors associated with manual data entry. This allows business owners and
         financial managers to focus on strategic decision-making rather than data maintenance.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If you&#39;re considering implementing Clockwork, partnering with Geek @ Your Spot can enhance the
+        If you&#39;re considering implementing Clockwork, partnering with Geek @ Your Spot LLC can enhance the
         transition. Their expertise in AI implementation ensures that Clockwork integrates smoothly with your
         existing systems, providing training and support tailored to your specific needs. This partnership can be
         particularly beneficial for businesses without a dedicated IT department, ensuring a smooth transition to an

@@ -25,7 +25,7 @@ export default function ImplementationSection() {
                 for further customization and integration into bespoke applications. This flexibility can be leveraged to extend
                 the tool&#39;s capabilities and tailor it to specific business requirements.</li>
             </ul>
-            <p className="text-md text-white shadow-text pt-3">By focusing on these areas, Geek At Your Spot helps clients bridge the gap between their current content creation
+            <p className="text-md text-white shadow-text pt-3">By focusing on these areas, Geek @ Your Spot LLC helps clients bridge the gap between their current content creation
               processes and the enhanced capabilities offered by GPT-4. This consultative approach ensures that the transition is
               seamless and that the tool is used to its full potential.</p>
             <h2 className="text-white lg:text-[3.5rem] font-black font-[var(--font-sora)] shadow-text">

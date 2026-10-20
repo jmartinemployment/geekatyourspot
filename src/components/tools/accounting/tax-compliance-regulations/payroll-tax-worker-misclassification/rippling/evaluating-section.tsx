@@ -57,7 +57,7 @@ export default function EvaluatingSection() {
         means you can start with a small team and add more as your business grows, without worrying about
         escalating costs or outgrowing the system.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to make sure Rippling’s setup matches your actual business rules, not just
+        Geek @ Your Spot LLC’s role is to make sure Rippling’s setup matches your actual business rules, not just
         the defaults. That means mapping your approval chains, customizing compliance alerts, and building out
         onboarding flows so they fit your process. The goal is to make Rippling’s automation invisible—so
         payroll, compliance, and worker classification just happen, and you only get involved when something

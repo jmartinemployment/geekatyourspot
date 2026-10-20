@@ -21,11 +21,11 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For those considering Ramp, the next step is to assess the specific needs of your business and how
         Ramp&#39;s features can meet those needs. This involves looking at your current payment processes,
-        identifying inefficiencies, and determining how automation could improve these areas. Geek @ Your Spot
+        identifying inefficiencies, and determining how automation could improve these areas. Geek @ Your Spot LLC
         offers consultation services to help businesses evaluate their needs and implement Ramp effectively,
         ensuring a smooth transition and optimal use of the platform.</p>
       <p className="text-md text-white shadow-text pt-3">
-        By leveraging Geek @ Your Spot&#39;s expertise, businesses can ensure that Ramp is configured to
+        By leveraging Geek @ Your Spot LLC&#39;s expertise, businesses can ensure that Ramp is configured to
         integrate seamlessly with their existing systems, providing training and support to maximize the
         platform&#39;s benefits. This partnership not only aids in the initial setup but also provides ongoing
         support to adapt to changing business needs.</p>

@@ -33,7 +33,7 @@ export default function SEOBlogArticleGenerationSection() {
                 quality. For companies overwhelmed by the constant demand for fresh, optimized content, AI can reduce workload and
                 focus effort where it matters most.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek At Your Spot helps businesses leverage these tools effectively, ensuring that AI-generated content aligns with
+                Geek @ Your Spot LLC helps businesses leverage these tools effectively, ensuring that AI-generated content aligns with
                 both SEO best practices and brand voice. By integrating AI into your content strategy, you can achieve better search
                 engine rankings while freeing up valuable time for other strategic activities.</p>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-tools-for-seo-optimization">AI Tools for SEO Optimization</h3>
@@ -84,7 +84,7 @@ export default function SEOBlogArticleGenerationSection() {
                 analyzing <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">audience engagement metrics</GlossaryLink>, ContentStudio helps refine publishing strategies, ensuring that content not
                 only reaches the right audience but also engages them effectively.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek At Your Spot can assist in configuring ContentStudio to align with your overall SEO strategy, ensuring that
+                Geek @ Your Spot LLC can assist in configuring ContentStudio to align with your overall SEO strategy, ensuring that
                 every piece of content published contributes to your visibility goals. This structured approach to publishing,
                 backed by data-driven insights, leads to more consistent engagement and improved search rankings.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="optimizing-publishing-schedules">Optimizing Publishing Schedules</h4>
@@ -133,7 +133,7 @@ export default function SEOBlogArticleGenerationSection() {
                 quality. For companies overwhelmed by the constant demand for fresh, optimized content, AI can reduce workload and
                 focus effort where it matters most.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek At Your Spot helps businesses leverage these tools effectively, ensuring that AI-generated content aligns with
+                Geek @ Your Spot LLC helps businesses leverage these tools effectively, ensuring that AI-generated content aligns with
                 both SEO best practices and brand voice. By integrating AI into your content strategy, you can achieve better search
                 engine rankings while freeing up valuable time for other strategic activities.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="ai-tools-for-seo-optimization">AI Tools for SEO Optimization</h3>
@@ -180,7 +180,7 @@ export default function SEOBlogArticleGenerationSection() {
                 analyzing <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">audience engagement metrics</GlossaryLink>, ContentStudio helps refine publishing strategies, ensuring that content not
                 only reaches the right audience but also engages them effectively.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek At Your Spot can assist in configuring ContentStudio to align with your overall SEO strategy, ensuring that
+                Geek @ Your Spot LLC can assist in configuring ContentStudio to align with your overall SEO strategy, ensuring that
                 every piece of content published contributes to your visibility goals. This structured approach to publishing,
                 backed by data-driven insights, leads to more consistent engagement and improved search rankings.</p>
               <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="optimizing-publishing-schedules">Optimizing Publishing Schedules</h4>

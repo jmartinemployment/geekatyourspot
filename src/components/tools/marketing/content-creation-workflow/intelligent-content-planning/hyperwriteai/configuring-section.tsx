@@ -65,7 +65,7 @@ export default function ConfiguringSection() {
         barrier to entry and keeps ongoing maintenance light, but it also means highly specialized workflows
         or deep back-end integrations would need to be handled outside the platform.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where Geek @ Your Spot comes in. As an implementation consultancy for small businesses in
+        This is where Geek @ Your Spot LLC comes in. As an implementation consultancy for small businesses in
         Miami-Dade, Broward, and West Palm Beach, we handle the configuration of HyperWrite to fit your actual
         environment. That means mapping your existing templates, approval chains, and content types into the
         platform’s automation logic, training Personas on your team’s writing samples, and setting up the
@@ -79,7 +79,7 @@ export default function ConfiguringSection() {
         The result is a intelligent content planning and production system that feels built for your team, not
         bolted on. HyperWrite’s rules and automation logic handle the grunt work, the Personas feature keeps
         your voice consistent, and the extension mechanism ensures the AI is present wherever your team
-        actually works. Geek @ Your Spot ensures every part of the setup matches your real-world needs, so you
+        actually works. Geek @ Your Spot LLC ensures every part of the setup matches your real-world needs, so you
         see the return in fewer hours lost, fewer errors, and campaigns that finally move on schedule.</p>
     </>
   );

@@ -44,7 +44,7 @@ export default function RightFitSection() {
         do things stall? What bottlenecks cost the most time or money? Which parts of the process could be
         automated without losing quality or compliance? Scalenut is most effective when deployed with a clear
         plan, mapping out which topics to cover, what tone to use, and who will review and approve drafts
-        before publishing. Geek @ Your Spot works with clients to set up these workflows, configure brand
+        before publishing. Geek @ Your Spot LLC works with clients to set up these workflows, configure brand
         kits, and train teams, making sure the technology fits seamlessly into what already works and improves
         what does not.</p>
       <p className="text-md text-white shadow-text pt-3">

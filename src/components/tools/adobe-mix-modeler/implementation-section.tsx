@@ -30,7 +30,7 @@ export default function ImplementationSection() {
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
-                more efficient <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and improved marketing outcomes. Geek At Your Spot can assist in closing the
+                more efficient <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
                 gap by providing expert guidance on these aspects, helping businesses overcome challenges and maximize the tool’s
                 potential.</p>
             </div>
@@ -62,7 +62,7 @@ export default function ImplementationSection() {
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
-                more efficient <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and improved marketing outcomes. Geek At Your Spot can assist in closing the
+                more efficient <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
                 gap by providing expert guidance on these aspects, helping businesses overcome challenges and maximize the tool’s
                 potential.</p>
             </div>

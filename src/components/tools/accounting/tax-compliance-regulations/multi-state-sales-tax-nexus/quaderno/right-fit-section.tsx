@@ -51,7 +51,7 @@ export default function RightFitSection() {
         sure your payment processors and storefronts can connect to Quaderno’s integrations. Plan for a
         straightforward implementation: the platform is designed for quick onboarding and does not require a
         full IT overhaul. For teams with more complex setups, or for those who want to ensure a smooth
-        transition, working with a specialist like Geek @ Your Spot can close the gap, handling configuration,
+        transition, working with a specialist like Geek @ Your Spot LLC can close the gap, handling configuration,
         data mapping, and integration so you get the full benefit of Quaderno’s automation from day one.</p>
       <p className="text-md text-white shadow-text pt-3">
         The decision is not just about software; it is about what your business needs to stay compliant and

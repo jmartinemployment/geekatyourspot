@@ -44,12 +44,12 @@ export default function DataMappingSection() {
         campaigns will be less effective. Clean, well-structured data means you can spin up new campaigns or
         adapt existing material for different channels without rewriting or manual cleanup.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot guides these decisions so your deployment actually fits your business logic, not just
+        Geek @ Your Spot LLC guides these decisions so your deployment actually fits your business logic, not just
         the tool’s defaults. The consultancy works with your team to audit existing content, tag and map it
         into the platform, and set up templates that reflect your real-world marketing needs. They handle the
         detail work, matching keywords to landing pages, mapping persona tags to email segments, and wiring up
         approval chains, so you do not lose time or risk errors at launch. This is where most DIY projects
-        stumble: the technical setup is easy, but getting the mapping right takes experience. Geek @ Your Spot
+        stumble: the technical setup is easy, but getting the mapping right takes experience. Geek @ Your Spot LLC
         brings that local, hands-on expertise so your Writesonic pipeline is clean, structured, and ready to
         scale from day one.</p>
     </>

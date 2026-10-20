@@ -6,7 +6,7 @@ export default function PreparingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Once you commit to automating payroll tax and worker misclassification compliance, the next steps are
-        structured and clear. You start with a focused assessment—not a full-blown overhaul. Geek @ Your Spot’s
+        structured and clear. You start with a focused assessment—not a full-blown overhaul. Geek @ Your Spot LLC’s
         method opens with a free consultation, then moves through four phases: aligning the project with your
         business goals, auditing your data, selecting the right technology, and executing a pilot. You do not
         need to know every tax rule or platform up front; the process is designed to uncover what matters and

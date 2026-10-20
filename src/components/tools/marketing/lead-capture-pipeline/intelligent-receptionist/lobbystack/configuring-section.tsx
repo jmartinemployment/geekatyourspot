@@ -20,11 +20,9 @@ export default function ConfiguringSection() {
         calls, stores data, and applies business rules. For regulated industries or privacy-conscious teams,
         this transparency is a prerequisite, not a bonus.</p>
       <p className="text-md text-white shadow-text pt-3">
-        LobbyStack supports both managed cloud and self-hosted deployments. In the managed cloud, Geek @ Your
-        Spot configures the receptionist to match your business requirements, this includes setting up call
+        LobbyStack supports both managed cloud and self-hosted deployments. In the managed cloud, Geek @ Your Spot LLC configures the receptionist to match your business requirements, this includes setting up call
         flows, defining escalation paths, and integrating with your existing calendar (Google Calendar is
-        supported natively). For self-hosted environments, the configuration runs deeper. Your team, or Geek @
-        Your Spot on your behalf, can modify the open-source codebase itself. You control the deployment, the
+        supported natively). For self-hosted environments, the configuration runs deeper. Your team, or Geek @ Your Spot LLC on your behalf, can modify the open-source codebase itself. You control the deployment, the
         data storage, and the integrations. This is not a
         switch-flip&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>: you define how the receptionist
         interacts with your internal systems, which model it uses for voice recognition, and how it logs and
@@ -45,18 +43,17 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         LobbyStack’s extension mechanism is rooted in its open-source codebase. For most small businesses,
         configuration happens through plain-language settings and the dashboard. For those with developer
-        resources or working with a consultancy like Geek @ Your Spot, the source code can be forked, modified,
+        resources or working with a consultancy like Geek @ Your Spot LLC, the source code can be forked, modified,
         and redeployed. This allows for deep customization: you can add custom integrations, adjust voice and
         behavior, or even rebrand the interface. There is no plugin marketplace or script library built into
         LobbyStack, but the repository supports direct code changes and API-level integrations. This is where a
         technical partner earns their keep, by mapping your business data, policies, and workflows onto the
         platform, and by building or connecting the integrations you need.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The process for configuring LobbyStack is hands-on. Geek @ Your Spot starts by mapping your business’s
+        The process for configuring LobbyStack is hands-on. Geek @ Your Spot LLC starts by mapping your business’s
         intake and escalation rules, then sets up the receptionist to reflect your real processes. For
         self-hosted clients, this may mean standing up Docker containers, connecting your own Twilio and OpenAI
-        accounts, and setting up your own database and dashboard with HTTPS. For managed cloud clients, Geek @
-        Your Spot handles the setup, monitoring, and updates, while you retain control over how the receptionist
+        accounts, and setting up your own database and dashboard with HTTPS. For managed cloud clients, Geek @ Your Spot LLC handles the setup, monitoring, and updates, while you retain control over how the receptionist
         behaves day to day. Either way, every aspect of the call flow is yours to define. This is not a black
         box, you see, test, and change every rule that matters.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -51,7 +51,7 @@ export default function TamingTheBeastSection() {
         transparent accounts payable process that supports better decision-making and strengthens supplier
         relationships.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <strong>Geek At Your Spot</strong> specializes in implementing these AI-driven solutions, helping
+        <strong>Geek @ Your Spot LLC</strong> specializes in implementing these AI-driven solutions, helping
         businesses navigate the complexities of automation. With our expertise, companies can align their
         business objectives with the right technology, ensuring a successful transition to automated
         workflows. Our approach focuses on minimizing disruptions while maximizing the benefits of

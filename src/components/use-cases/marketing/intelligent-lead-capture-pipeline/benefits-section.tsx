@@ -15,20 +15,20 @@ export default function BenefitsSection() {
         <li>Increased conversion rates: In a hypothetical mid-sized tech firm, AI-led improvements in lead quality and speed of response led to a 20% increase in conversion rates.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot, as an AI implementation consultancy, plays a crucial role in ensuring these
+        Geek @ Your Spot LLC, as an AI implementation consultancy, plays a crucial role in ensuring these
         benefits are realized. By designing a robust data model, they enable businesses to map customer
         information accurately, which is essential for personalized lead nurturing. Their expertise in
         workflow configuration helps automate approval chains and routing, making sure that leads are assigned
         to the right sales reps promptly.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Integration is another area where Geek At Your Spot excels. They connect different business systems so
+        Integration is another area where Geek @ Your Spot LLC excels. They connect different business systems so
         that AI tools can access necessary data without hiccups, ensuring a seamless flow from lead capture to
         sales conversion. Furthermore, they assist with change management, guiding teams through the
         transition and promoting widespread adoption of the new technology.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the implementation of AI in lead capture not only streamlines operations but also empowers
         sales teams to perform their roles more effectively. By reducing manual workload, correcting data
-        issues at the source, and ensuring a cohesive integration across platforms, Geek At Your Spot enables
+        issues at the source, and ensuring a cohesive integration across platforms, Geek @ Your Spot LLC enables
         businesses to drive more qualified leads through their pipelines, resulting in increased sales and
         reduced operational costs.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -36,7 +36,7 @@ export default function BenefitsSection() {
       </h3>
       <p className="text-md text-white shadow-text pt-3">
         Correctly mapping data models is foundational to effective AI implementation. Misaligned data can lead
-        to incorrect insights and poor lead handling. Geek At Your Spot focuses on designing data models that
+        to incorrect insights and poor lead handling. Geek @ Your Spot LLC focuses on designing data models that
         reflect the unique customer journey of each client. This ensures that AI tools have access to relevant
         and accurate data, allowing for more personalized interactions.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -49,7 +49,7 @@ export default function BenefitsSection() {
       </h3>
       <p className="text-md text-white shadow-text pt-3">
         Workflow configuration is critical to maximize the benefits of AI in lead capture. Without it, sales
-        teams may continue to face bottlenecks or miscommunication. Geek At Your Spot configures workflows to
+        teams may continue to face bottlenecks or miscommunication. Geek @ Your Spot LLC configures workflows to
         automate lead assignments and approval processes, ensuring that every lead is handled efficiently and
         by the right team member.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">

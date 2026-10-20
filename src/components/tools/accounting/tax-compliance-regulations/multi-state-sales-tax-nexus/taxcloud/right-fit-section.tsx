@@ -39,11 +39,11 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         The implementation process matters. TaxCloud is built for integration with platforms like Shopify,
         BigCommerce, WooCommerce, Magento, QuickBooks Online, Stripe, and Chargebee, but the real value comes
-        when it is set up to match your business’s actual data structure and sales flows. Geek @ Your Spot
+        when it is set up to match your business’s actual data structure and sales flows. Geek @ Your Spot LLC
         specializes in deploying TaxCloud for small businesses in South Florida, handling the data mapping,
         configuration, and training so that the system works from day one. This is not a generic setup, each
         business has different sales channels, product codes, and exemption needs, and the configuration needs
-        to reflect that. Geek @ Your Spot’s method starts with a free consultation, assesses
+        to reflect that. Geek @ Your Spot LLC’s method starts with a free consultation, assesses
         your&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, and builds a phased plan that
         fits your objectives and existing systems.</p>
       <p className="text-md text-white shadow-text pt-3">

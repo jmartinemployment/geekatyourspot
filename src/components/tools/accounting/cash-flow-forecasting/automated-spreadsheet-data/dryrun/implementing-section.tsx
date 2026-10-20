@@ -30,7 +30,7 @@ export default function ImplementingSection() {
         consolidation. This gradual approach ensures that users become comfortable with the system before adding
         complexity.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a crucial role in this process, providing expert guidance and support at every stage.
+        Geek @ Your Spot LLC plays a crucial role in this process, providing expert guidance and support at every stage.
         Their team assists with data mapping, integration, and user training, ensuring that Dryrun is fully
         optimized for the client&#39;s environment. With their help, businesses in Miami-Dade, Broward, and West
         Palm Beach counties can leverage Dryrun&#39;s capabilities to improve financial management and strategic

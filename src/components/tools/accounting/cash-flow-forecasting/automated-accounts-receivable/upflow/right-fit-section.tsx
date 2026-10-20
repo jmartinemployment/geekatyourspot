@@ -21,7 +21,7 @@ export default function RightFitSection() {
         straightforward collections without the advanced forecasting features that Upflow offers.</p>
       <p className="text-md text-white shadow-text pt-3">
         For companies ready to enhance their automated accounts receivable processes with Upflow, the next step
-        involves assessing their current systems and identifying integration points. Geek @ Your Spot, located in
+        involves assessing their current systems and identifying integration points. Geek @ Your Spot LLC, located in
         South Florida, specializes in implementing Upflow, ensuring seamless integration with
         existing&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;or accounting systems. This local expertise
         is invaluable for businesses in Miami-Dade, Broward, and West Palm Beach counties looking to streamline

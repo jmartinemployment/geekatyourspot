@@ -7,7 +7,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Setting up Apollo for a small business is not just a matter of turning it on and hoping for results.
         The real work is in configuring the rules and automation logic that make Apollo fit your sales process
-        and data environment. This is where Geek @ Your Spot closes the gap for local teams: by mapping
+        and data environment. This is where Geek @ Your Spot LLC closes the gap for local teams: by mapping
         Apollo’s own automation options to how you actually sell, route, and follow up.</p>
       <p className="text-md text-white shadow-text pt-3">
         Apollo’s core automation starts with lead enrichment and predictive scoring. The platform lets you
@@ -46,7 +46,7 @@ export default function ConfiguringSection() {
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;clean and up-to-date, with no double entry
         or manual imports. Apollo’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;gives you
         programmatic access to all core functions, if you have a custom workflow or need to connect Apollo to
-        another tool, Geek @ Your Spot can help you design and implement those integrations. But for most
+        another tool, Geek @ Your Spot LLC can help you design and implement those integrations. But for most
         small businesses, the built-in integrations and configuration screens cover the main needs without
         custom code.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -58,7 +58,7 @@ export default function ConfiguringSection() {
         match your ICP. These automations are not just nice-to-haves, they are what keep your team focused on
         the right actions, every day, without manual effort.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s job in all this is to translate your real-world sales process into Apollo’s
+        Geek @ Your Spot LLC’s job in all this is to translate your real-world sales process into Apollo’s
         automation logic. That means working with you to define what a qualified lead actually looks like,
         mapping your data fields to Apollo’s schema, and setting up the scoring, routing, and enrichment rules
         that fit your business, not a generic template. For a South Florida small business, that could mean
@@ -68,14 +68,14 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         The difference between a DIY setup and a tailored deployment is what you get out of Apollo. Out of the
         box, Apollo is a toolkit. With the right configuration, it becomes a lead engine that runs itself.
-        Geek @ Your Spot brings the experience to know which rules matter, how to avoid common pitfalls (like
+        Geek @ Your Spot LLC brings the experience to know which rules matter, how to avoid common pitfalls (like
         over-scoring or under-filtering), and how to make Apollo work with your existing stack, so you do not
         spend months tweaking settings or chasing support tickets.</p>
       <p className="text-md text-white shadow-text pt-3">
         To sum up, configuring Apollo means setting up the filters, scoring models, and automation rules that
         fit your business, connecting your data sources, and extending the platform only where it adds real
         value. The platform is flexible, but the gains come from making it fit your process, not the other way
-        around. Geek @ Your Spot’s role is to get you there faster, with fewer mistakes and a setup that
+        around. Geek @ Your Spot LLC’s role is to get you there faster, with fewer mistakes and a setup that
         actually delivers qualified leads to your team every day.</p>
     </>
   );

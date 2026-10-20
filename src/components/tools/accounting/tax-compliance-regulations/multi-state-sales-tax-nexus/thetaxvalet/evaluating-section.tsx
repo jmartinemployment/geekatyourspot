@@ -63,7 +63,7 @@ export default function EvaluatingSection() {
         West Palm Beach counties, the tradeoff is clear: you exchange control for certainty and speed. You get a
         system where compliance is handled, not just tracked, and where the cost is fixed and transparent.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Geek @ Your Spot implements TaxValet, they handle the upfront mapping, data review, and system
+        When Geek @ Your Spot LLC implements TaxValet, they handle the upfront mapping, data review, and system
         connection, so you start with a clean slate and a clear compliance roadmap. They work with you to keep
         your profile current as you grow, so the platform’s automation always matches your real operations. The
         result is a compliance process that scales with your business, without scaling your workload or your

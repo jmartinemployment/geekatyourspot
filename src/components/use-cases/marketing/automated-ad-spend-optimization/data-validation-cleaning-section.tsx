@@ -16,7 +16,7 @@ export default function DataValidationCleaningSection() {
               spending decisions, resulting in wasted budget and missed opportunities. Ensuring high-quality data is crucial for
               accurate <GlossaryLink slug="analytics">insights</GlossaryLink> and effective ad strategies.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              To address this, Geek At Your Spot assists organizations in implementing robust data quality assessments. By
+              To address this, Geek @ Your Spot LLC assists organizations in implementing robust data quality assessments. By
               leveraging advanced tools and methodologies, businesses can ensure that their data is reliable and actionable. This
               section delves into how data quality can be improved using specific tools and techniques.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -37,7 +37,7 @@ export default function DataValidationCleaningSection() {
                 Great Expectations
               </Link>&nbsp;offer automated solutions to monitor data quality. These tools can identify anomalies and
               inconsistencies in real-time, providing alerts that allow for swift corrective action. By integrating these tools,
-              Geek At Your Spot helps businesses maintain high data quality standards, which are essential for optimizing ad
+              Geek @ Your Spot LLC helps businesses maintain high data quality standards, which are essential for optimizing ad
               spend.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Using these solutions, a hypothetical marketing team could reduce the incidence of data errors by 30%, leading to

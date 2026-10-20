@@ -29,8 +29,8 @@ const jsonLd: Graph = {
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "AvidXchange, automated payment execution, accounts payable automation, supplier payments, virtual card, AvidPay Direct, payment status visibility, QuickBooks integration, NetSuite integration, AI implementation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
                 "@id": "https://geekatyourspot.com/#software-avidxchange",
@@ -61,24 +61,24 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: DESCRIPTION,
         keywords: ["AvidXchange", "automated payment execution", "accounts payable automation", "supplier payments", "virtual card", "AvidPay Direct"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image',
             title: PAGE_TITLE,
             description: DESCRIPTION,
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -88,7 +88,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
             },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

@@ -22,7 +22,7 @@ export default function DataMappingSection() {
         practice can specify provider bios and compliance language.</p>
       <p className="text-md text-white shadow-text pt-3">
         Mapping your business’s real-world structure into Koala means making choices about which services to
-        highlight, how to describe your team’s credentials, and what tone fits your brand. Geek @ Your Spot
+        highlight, how to describe your team’s credentials, and what tone fits your brand. Geek @ Your Spot LLC
         works with you to review and correct these details before they drive content generation. This review
         step is not optional: it prevents the classic AI mistake of inventing services you do not offer or
         misrepresenting your qualifications. Every detail you approve is then used to shape the flow and
@@ -38,7 +38,7 @@ export default function DataMappingSection() {
         for each. This is critical for local SEO and for producing genuinely localized content. Each profile
         can be imported from its own Google Business listing or website page, ensuring that
         neighborhood-specific landing pages and service descriptions reflect real differences, not just a city
-        name swapped in a template. Geek @ Your Spot ensures that these profiles are mapped to the correct
+        name swapped in a template. Geek @ Your Spot LLC ensures that these profiles are mapped to the correct
         content streams, so each location’s content is relevant to its audience.</p>
       <p className="text-md text-white shadow-text pt-3">
         Data mapping also covers integration with your existing systems. Koala’s connectors to WordPress,
@@ -52,7 +52,7 @@ export default function DataMappingSection() {
         Bulk scheduling and approval workflows depend on this data mapping. Koala’s content calendar and batch
         generation features use your mapped business structure to schedule the right topics, assign them to
         the right streams, and route drafts to the right reviewers. Approval rules can be set by service line,
-        location, or content type, reflecting how your team actually works. Geek @ Your Spot configures these
+        location, or content type, reflecting how your team actually works. Geek @ Your Spot LLC configures these
         workflows so that nothing gets published without the right eyes on it, but you do not get bogged down
         in endless review cycles.</p>
       <p className="text-md text-white shadow-text pt-3">

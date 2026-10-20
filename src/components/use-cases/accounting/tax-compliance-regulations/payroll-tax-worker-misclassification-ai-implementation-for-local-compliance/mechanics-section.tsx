@@ -6,7 +6,7 @@ export default function MechanicsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Getting payroll tax and worker classification right in South Florida is not about running payroll
         software and hoping for the best. It takes a step-by-step approach that closes every common
-        loophole—before a state agency or the IRS finds it for you. Here is how Geek @ Your Spot’s method
+        loophole—before a state agency or the IRS finds it for you. Here is how Geek @ Your Spot LLC’s method
         actually works on the ground, from first call to ongoing safety net, using a mix of automation, local
         expertise, and partner platforms proven in real operations.</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">

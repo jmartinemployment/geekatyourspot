@@ -18,13 +18,13 @@ export default function RightFitSection() {
         eligible for TaxValet&#39;s services, as the platform is tailored to handle more complex tax scenarios.</p>
       <p className="text-md text-white shadow-text pt-3">
         For those who do fit the profile, TaxValet offers a seamless transition from manual or semi-automated
-        processes to a fully managed service. This transition is facilitated by Geek @ Your Spot, which handles
+        processes to a fully managed service. This transition is facilitated by Geek @ Your Spot LLC, which handles
         the implementation, ensuring that TaxValet integrates smoothly with existing systems. This partnership
         provides businesses with expert guidance and support throughout the setup process, reducing the learning
         curve and minimizing disruptions.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next step for businesses considering TaxValet is to assess their current tax compliance challenges
-        and determine whether a managed service could alleviate these burdens. Engaging with Geek @ Your Spot
+        and determine whether a managed service could alleviate these burdens. Engaging with Geek @ Your Spot LLC
         can provide valuable insights into how TaxValet can be tailored to meet specific business needs,
         offering a clear path to compliance and peace of mind.</p>
       <p className="text-md text-white shadow-text pt-3">

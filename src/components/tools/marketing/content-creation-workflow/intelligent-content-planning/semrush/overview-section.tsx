@@ -27,7 +27,7 @@ export default function OverviewSection() {
         count. For small businesses across South Florida, this means fewer late nights, more consistent
         results, and marketing that actually moves the needle.</p>
       <p className="text-md text-white shadow-text pt-3">
-        At Geek @ Your Spot, we build repeatable, AI-powered content workflows designed for teams without
+        At Geek @ Your Spot LLC, we build repeatable, AI-powered content workflows designed for teams without
         enterprise budgets or headcount to spare. You get practical, affordable solutions that fit right into
         your existing stack, no guesswork, no wasted hours, just a clear path from idea to impact. Intelligent
         Content Planning is how small businesses finally get seen.</p>

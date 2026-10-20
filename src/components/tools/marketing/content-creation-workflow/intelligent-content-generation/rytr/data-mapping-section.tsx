@@ -6,7 +6,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Rytr is built for speed, but that doesn’t mean you can skip thinking about how your content is
         structured. The first decisions you make about data inputs, templates, and language settings shape how
-        well the platform fits your business. Geek @ Your Spot guides clients through these choices to avoid
+        well the platform fits your business. Geek @ Your Spot LLC guides clients through these choices to avoid
         headaches later, especially when you want to scale from simple captions to more complex assets like
         email campaigns or multi-language content.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -22,14 +22,13 @@ export default function DataMappingSection() {
         English, Spanish, Haitian Creole, or any of 30+ others, and switch as needed for each asset. For South
         Florida businesses, this matters: you can generate a Google Business Profile blurb in English, a
         Facebook post in Spanish, and an SMS in Haitian Creole, all in one pass. Tone is just as flexible. You
-        choose from over 20 preset tones (professional, casual, playful, and more), or define your own. Geek @
-        Your Spot makes sure these defaults match your brand voice from day one, so you don’t end up with
+        choose from over 20 preset tones (professional, casual, playful, and more), or define your own. Geek @ Your Spot LLC makes sure these defaults match your brand voice from day one, so you don’t end up with
         content that feels off-brand or generic.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bulk scheduling and approval workflows depend on how you structure your content calendar. Rytr doesn’t
         force you into a rigid system. You can generate a month of posts, review them in bulk, and schedule
         them for release on your preferred platforms. The data mapping here is about aligning Rytr’s output
-        with your publishing process. If you use a spreadsheet to track posts, Geek @ Your Spot sets up Rytr
+        with your publishing process. If you use a spreadsheet to track posts, Geek @ Your Spot LLC sets up Rytr
         so you can export drafts in the format you need. If you use a third-party scheduler, Rytr’s output is
         ready to drop in, no extra formatting required.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -37,13 +36,13 @@ export default function DataMappingSection() {
         customer groups, the key mapping decision is how you feed Rytr your audience data. The platform
         doesn’t require a full&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integration to get
         started. You can provide basic audience details (segment, language, product interest) as input fields,
-        and Rytr generates tailored content for each. Geek @ Your Spot helps you set up these data flows so
+        and Rytr generates tailored content for each. Geek @ Your Spot LLC helps you set up these data flows so
         you can scale from one-size-fits-all messaging to true personalization, without building a new data
         pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         The last piece is keeping your content organized as you grow. Rytr’s template system means every asset
         has a clear structure and can be regenerated or tweaked as your business changes. If you launch a new
-        service or product, you update the template input and generate new copy in seconds. Geek @ Your Spot’s
+        service or product, you update the template input and generate new copy in seconds. Geek @ Your Spot LLC’s
         role is to make sure your templates and data inputs stay clean and consistent, so you don’t end up
         with a tangle of mismatched content down the line. The goal is always the same: get content out fast,
         keep it on-brand, and make it easy to adapt as your business evolves.</p>

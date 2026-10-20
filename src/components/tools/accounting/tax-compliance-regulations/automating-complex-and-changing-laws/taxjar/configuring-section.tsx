@@ -31,7 +31,7 @@ export default function ConfiguringSection() {
         to fit their specific operational requirements, ensuring that TaxJar works seamlessly with their
         existing systems.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a crucial role in configuring TaxJar for small businesses in Miami-Dade, Broward,
+        Geek @ Your Spot LLC plays a crucial role in configuring TaxJar for small businesses in Miami-Dade, Broward,
         and West Palm Beach counties. They ensure that TaxJar is set up to meet the specific needs of each
         business, from data mapping to integration with existing platforms. This hands-on approach not only
         speeds up the implementation process but also ensures that the system operates efficiently from day one.</p>

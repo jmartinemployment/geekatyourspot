@@ -55,7 +55,7 @@ export default function ConfiguringSection() {
         configured through the interface or via supported integrations, which reduces complexity for small
         teams.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For a business working with Geek @ Your Spot, the heavy lifting is in mapping these rules to your real
+        For a business working with Geek @ Your Spot LLC, the heavy lifting is in mapping these rules to your real
         workflow: which approvals are needed, what tone fits your brand, which trends matter to your audience,
         and how to structure scheduling so you never miss a key date. The consultancy’s job is to configure
         Hootsuite’s automation logic so it fits your existing processes and delivers the outcomes you care

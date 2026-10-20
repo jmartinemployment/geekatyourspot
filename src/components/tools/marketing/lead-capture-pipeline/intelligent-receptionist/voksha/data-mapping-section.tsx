@@ -5,7 +5,7 @@ export default function DataMappingSection() {
         The decisions your team makes about data structure and mapping at the start of a Voksha deployment have
         a direct impact on how well the Intelligent Receptionist fits your business. This is not just about
         which fields to capture or which calendar to connect. It is about making sure every call produces
-        information your team can use, without noise, duplication, or dropped details. Geek @ Your Spot works
+        information your team can use, without noise, duplication, or dropped details. Geek @ Your Spot LLC works
         through these choices with you, so the system does not just answer calls, it delivers the right data
         into your workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -46,7 +46,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A successful deployment is not about capturing every possible data point. It is about focusing on the
         fields and flows that drive your business outcomes, qualified leads, booked appointments, resolved
-        questions. Geek @ Your Spot guides you through these decisions, mapping Voksha’s capabilities to your
+        questions. Geek @ Your Spot LLC guides you through these decisions, mapping Voksha’s capabilities to your
         real-world sales, service, or support process. The result is a system that delivers actionable,
         structured data to your team, without the clutter or confusion of legacy receptionist logs.</p>
     </>

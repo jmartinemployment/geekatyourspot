@@ -32,7 +32,7 @@ export default function EvaluatingSection() {
         that tax calculations are accurate and delivered in real-time, which is vital for maintaining a seamless
         customer experience.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot provides expert guidance in evaluating TaxJar, helping businesses understand how it can
+        Geek @ Your Spot LLC provides expert guidance in evaluating TaxJar, helping businesses understand how it can
         be tailored to their specific needs and ensuring a smooth implementation. Their local expertise is
         invaluable for small businesses in Miami-Dade, Broward, and West Palm Beach counties, ensuring that
         TaxJar is not only a fit for their current needs but also adaptable to future growth.</p>

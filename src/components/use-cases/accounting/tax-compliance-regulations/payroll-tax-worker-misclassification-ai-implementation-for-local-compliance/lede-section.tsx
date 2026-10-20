@@ -22,7 +22,7 @@ export default function LedeSection() {
         deposit, and the audit risk spikes. You’re not just paying workers; you’re betting your business that
         every classification, every tax filing, every deadline is right.</p>
       <p className="text-md text-white shadow-text pt-3">
-        That’s where we come in. At Geek @ Your Spot, we don’t just set up accounting software and wish you
+        That’s where we come in. At Geek @ Your Spot LLC, we don’t just set up accounting software and wish you
         luck. We design and implement AI-driven, automated compliance guardrails that fit your stack and your
         workflow—so even as your workforce flexes, your filings, classifications, and deadlines stay locked
         down. Payroll tax gets filed on autopilot, misclassification flags go up before you hit
@@ -37,7 +37,7 @@ export default function LedeSection() {
         compete, without gambling the business on every pay run. This page shows you, step by step, how to move
         from risk and confusion to clarity, automation, and peace of mind—so you can grow without fear of the
         next audit notice.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-payroll-tax-worker-misclassification-lede-blog" href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Worker Misclassification and Payroll Tax</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-payroll-tax-worker-misclassification-lede-blog" href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers & Payroll Tax</Link> on our blog.</p>
     </>
   );
 

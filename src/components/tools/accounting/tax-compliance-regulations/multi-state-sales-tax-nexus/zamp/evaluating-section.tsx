@@ -49,7 +49,7 @@ export default function EvaluatingSection() {
         Switching to Zamp from another provider or from manual processes is straightforward. Historical filings,
         state accounts, certificates, and integrations are migrated and validated, with filings continuing
         uninterrupted. Most teams are fully live within a week. There is no long transition or risk of missed
-        filings during the switch. Geek @ Your Spot manages the onboarding and migration, so you do not have to
+        filings during the switch. Geek @ Your Spot LLC manages the onboarding and migration, so you do not have to
         learn a new system on your own or risk data loss in the move.</p>
       <p className="text-md text-white shadow-text pt-3">
         Zamp is not for everyone. If your business is entirely local, with no out-of-state sales or plans to

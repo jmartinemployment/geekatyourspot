@@ -42,7 +42,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Jirav’s architecture is designed for repeatability and scale in small business environments. The
         platform’s standardized model templates and integration logic mean that setup does not require weeks of
-        custom development. For most businesses, Geek @ Your Spot can map your data and configure your drivers
+        custom development. For most businesses, Geek @ Your Spot LLC can map your data and configure your drivers
         in hours, not days, because the system expects messy, real-world data and handles the heavy lifting of
         normalization and mapping.</p>
       <p className="text-md text-white shadow-text pt-3">

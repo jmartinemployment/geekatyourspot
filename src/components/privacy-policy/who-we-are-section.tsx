@@ -4,10 +4,10 @@ export default function WhoWeAreSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Geek at Your Spot LLC is an AI consulting firm based in Delray Beach, Florida. This Privacy Policy
+        Geek @ Your Spot LLC is an AI consulting firm based in Delray Beach, Florida. This Privacy Policy
         explains what information we collect when you visit geekatyourspot.com or book a consultation through
         it, how we use that information, and the choices you have. In this policy, “we,” “us,” and “our” mean
-        Geek at Your Spot LLC, and “you” means anyone who visits the site.</p>
+        Geek @ Your Spot LLC, and “you” means anyone who visits the site.</p>
       <p className="text-md text-white shadow-text pt-3">
         This policy takes effect on <strong>October 15, 2026</strong>. Your use of the site is also governed
         by our <Link id="privacy-policy-who-we-are-terms" href="/terms-and-conditions" className="text-[#C83803] hover:underline">Terms

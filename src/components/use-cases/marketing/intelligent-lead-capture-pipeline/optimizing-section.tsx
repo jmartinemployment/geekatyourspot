@@ -9,7 +9,7 @@ export default function OptimizingSection() {
         line. To overcome these hurdles, it&#39;s crucial to optimize your lead capture pipeline with
         intelligent automation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot, an AI implementation consultancy, helps companies enhance their lead capture
+        Geek @ Your Spot LLC, an AI implementation consultancy, helps companies enhance their lead capture
         systems by tailoring AI solutions to fit specific organizational needs. This involves identifying and
         eliminating inefficiencies in the current pipeline, ensuring a smoother flow from initial contact to
         conversion. Let&#39;s explore how optimization can be achieved through strategic interventions.</p>
@@ -27,7 +27,7 @@ export default function OptimizingSection() {
         responses and decreased engagement rates. By deploying automation, businesses can ensure that tasks
         like follow-ups and data updates happen seamlessly, reducing human error and improving consistency.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot provides custom workflow solutions that are aligned with your company&#39;s unique
+        Geek @ Your Spot LLC provides custom workflow solutions that are aligned with your company&#39;s unique
         processes. These workflows are designed to integrate with existing systems, ensuring a cohesive
         operation that requires minimal adjustment from your team. This not only streamlines operations but
         also significantly improves the speed and accuracy of lead processing.</p>
@@ -40,7 +40,7 @@ export default function OptimizingSection() {
         reflect business priorities, companies can enhance their analytical capabilities and improve lead
         qualification processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot works with businesses to create data models that capture the right metrics, making
+        Geek @ Your Spot LLC works with businesses to create data models that capture the right metrics, making
         it easier to analyze trends and predict future outcomes. This approach helps in aligning data
         management with strategic objectives, ensuring that every piece of information collected serves a
         purpose.</p>
@@ -52,7 +52,7 @@ export default function OptimizingSection() {
         in lost competitive advantages. Accelerated deployment of AI tools ensures that businesses can quickly
         adapt to market changes and stay ahead of competitors.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot enables rapid implementation of AI solutions, minimizing downtime and disruption.
+        Geek @ Your Spot LLC enables rapid implementation of AI solutions, minimizing downtime and disruption.
         This swift deployment allows companies to immediately start benefiting from automated processes,
         reducing lead processing time and improving overall efficiency.</p>
     </>

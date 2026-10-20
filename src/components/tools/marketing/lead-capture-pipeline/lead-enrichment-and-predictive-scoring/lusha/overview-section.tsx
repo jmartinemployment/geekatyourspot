@@ -17,7 +17,7 @@ export default function OverviewSection() {
         prospects, people who have shown genuine interest. But without a way to capture or enrich that data,
         98% of those warm leads leave without ever raising a hand, and you never know who they were.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-lead-enrichment-lusha-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment and Predictive Scoring</Link>&nbsp;exist for this exact bottleneck. Instead of pouring 80% of your
+        <Link id="tools-marketing-lead-enrichment-lusha-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;exist for this exact bottleneck. Instead of pouring 80% of your
         energy into dead ends, the right pipeline brings verified contact data, buying signals, and scoring
         models straight into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or outreach workflow.
         Now the team spends its time talking to people who actually have the authority and intent to buy.

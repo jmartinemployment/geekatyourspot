@@ -8,7 +8,7 @@ export default function ConfiguringSection() {
         automation logic put in place at the start. For a small business in Miami-Dade, Broward, or West Palm
         Beach, this is not just a matter of checking boxes in a setup wizard. The difference between a system
         that saves hours and one that adds headaches is in how those rules match the way your team already
-        works. Geek @ Your Spot gets called when the out-of-the-box setup leaves gaps, when approvals still get
+        works. Geek @ Your Spot LLC gets called when the out-of-the-box setup leaves gaps, when approvals still get
         lost, or when the numbers in QuickBooks do not match what the owner sees in their bank account or
         payroll files.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -36,14 +36,14 @@ export default function ConfiguringSection() {
         by default. Most automation is built through its own configuration screens and built-in logic. Where
         integration is needed (for example, connecting to payroll
         or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>), it relies on its ecosystem of add-ons and
-        supported connectors, not custom code. Geek @ Your Spot’s job is to map your business’s real-world
+        supported connectors, not custom code. Geek @ Your Spot LLC’s job is to map your business’s real-world
         processes onto what QuickBooks can automate, and to flag where a third-party connector or manual
         workaround is required.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The difference between a DIY setup and a Geek @ Your Spot deployment is in the details. Most small
+        The difference between a DIY setup and a Geek @ Your Spot LLC deployment is in the details. Most small
         businesses can get the basics running, importing the chart of accounts, adding users, and connecting a
         bank feed. But the pain points show up when approval rules do not match the way decisions are made, or
-        when a manager sees numbers they should not. Geek @ Your Spot configures granular permissions, approval
+        when a manager sees numbers they should not. Geek @ Your Spot LLC configures granular permissions, approval
         routing, and custom dashboards to fit the real structure of your team. They also handle the data mapping
         between legacy spreadsheets and QuickBooks’ own fields, making sure that what appears in a dashboard is
         what actually matters to the business owner.</p>
@@ -63,7 +63,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         The extension mechanism in QuickBooks is practical, not open-ended. You configure what the platform
         offers, roles, workflows, dashboards, and integrations with supported apps. Where a business needs a
-        feature QuickBooks does not natively support, Geek @ Your Spot advises on the best workaround or add-on,
+        feature QuickBooks does not natively support, Geek @ Your Spot LLC advises on the best workaround or add-on,
         but does not build custom code inside QuickBooks itself. This keeps the environment stable, supportable,
         and within the boundaries of what QuickBooks guarantees will work.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -13,7 +13,7 @@ export default function DataIntegrationSection() {
         are. If this step is skipped or rushed, every draft the AI produces will carry the same gaps and
         mistakes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The first phase of the Geek @ Your Spot rollout is a&nbsp;<GlossaryLink slug="data-quality">data
+        The first phase of the Geek @ Your Spot LLC rollout is a&nbsp;<GlossaryLink slug="data-quality">data
         quality</GlossaryLink>&nbsp;assessment. That means a methodical review: what data do you have, where
         does it live, what’s missing, what’s out of date, and what needs to be standardized? Even the most
         advanced tool, whether it’s Jasper, Koala, or Scalenut, cannot create credible, differentiated content

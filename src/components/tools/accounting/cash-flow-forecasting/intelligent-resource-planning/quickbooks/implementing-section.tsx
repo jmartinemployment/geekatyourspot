@@ -35,7 +35,7 @@ export default function ImplementingSection() {
         process must change on day one. Staff can be trained in waves, and the business can keep running on its
         old setup for non-migrated functions until the new system is proven.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The order of operations matters. Geek @ Your Spot, as a local implementer, starts by scoping the
+        The order of operations matters. Geek @ Your Spot LLC, as a local implementer, starts by scoping the
         business’s current data sources and pain points. The first technical step is always data extraction,
         pulling lists and transactions from spreadsheets, desktop files, and any point-of-sale or payroll system
         in use. Next comes data cleansing: duplicates, missing fields, and mismatches get flagged and resolved,

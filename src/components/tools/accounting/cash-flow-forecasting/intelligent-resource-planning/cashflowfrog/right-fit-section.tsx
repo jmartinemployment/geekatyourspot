@@ -42,13 +42,13 @@ export default function RightFitSection() {
         decision. This lets you judge whether the automation and live forecasting are enough to meet your needs,
         without a long-term commitment or a big upfront investment.</p>
       <p className="text-md text-white shadow-text pt-3">
-        As for what happens next, Geek @ Your Spot handles the setup, data mapping, and integration, so you do
+        As for what happens next, Geek @ Your Spot LLC handles the setup, data mapping, and integration, so you do
         not have to. Their approach is built around a four-phase plan that starts with defining business
         objectives, assessing&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, choosing the
         right technologies, and building a strategy that fits your current environment. The goal is to get you
         live with minimal downtime and no disruption to your day-to-day work. If you are not sure whether your
         data is clean enough, or you worry about how the tool will fit with your existing systems, that is part
-        of the implementation process. Geek @ Your Spot will walk through the data, configure the rules, and
+        of the implementation process. Geek @ Your Spot LLC will walk through the data, configure the rules, and
         make sure Cashflowfrog delivers the outcomes you need. That way, you are not left with another tool to
         manage, you get a working solution that fits your business as it is today.</p>
       <p className="text-md text-white shadow-text pt-3">

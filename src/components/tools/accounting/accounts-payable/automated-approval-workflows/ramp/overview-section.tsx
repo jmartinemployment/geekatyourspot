@@ -28,8 +28,7 @@ export default function OverviewSection() {
         bottlenecks. By adopting such a system, small businesses can redirect their focus from tedious
         administrative tasks to strategic initiatives that drive growth and profitability.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In the competitive landscape of West Palm Beach, Broward, and Miami-Dade counties, where Geek @ Your
-        Spot operates, implementing AI-driven solutions like Automated Approval Workflows could be the key to
+        In the competitive landscape of West Palm Beach, Broward, and Miami-Dade counties, where Geek @ Your Spot LLC operates, implementing AI-driven solutions like Automated Approval Workflows could be the key to
         unlocking new levels of efficiency and scalability. These technologies are not just about keeping pace
         with larger competitors; they are about redefining how small businesses operate, allowing them to
         thrive in an increasingly digital world.</p>

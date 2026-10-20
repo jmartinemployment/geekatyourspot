@@ -31,7 +31,7 @@ export default function PAASection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               No need to hire anyone new. The software is fully cloud-hosted, so the vendor takes care of all
-              updates, security, and backups. Geek @ Your Spot serves as your local IT partner, handling setup,
+              updates, security, and backups. Geek @ Your Spot LLC serves as your local IT partner, handling setup,
               data integration, and ongoing support, so your team can stay focused on daily business.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

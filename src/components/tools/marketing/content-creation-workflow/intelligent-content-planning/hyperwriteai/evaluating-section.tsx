@@ -51,7 +51,7 @@ export default function EvaluatingSection() {
         does, and whether the output matches your standards for professionalism and brand consistency. If you
         find that you are still spending hours rewriting drafts or chasing approvals, or if the platform’s
         suggestions do not fit your tone, it may not be the right fit, or it may need a more tailored
-        configuration from a partner like Geek @ Your Spot.</p>
+        configuration from a partner like Geek @ Your Spot LLC.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real test is whether HyperWrite lets your team move from idea to published content without getting
         stuck in the old bottlenecks. For many small teams, it is the difference between a marketing plan that

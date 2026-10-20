@@ -7,7 +7,7 @@ export default function ConfiguringSection() {
         Clockwork offers a configuration process that tailors its capabilities to fit the specific needs of your
         business. This involves setting up approval chains, routing financial data efficiently, and creating
         automation logic that streamlines operations. These configurations are key to maximizing Clockwork&#39;s
-        potential and ensuring it functions seamlessly within your existing systems. Geek @ Your Spot, with its
+        potential and ensuring it functions seamlessly within your existing systems. Geek @ Your Spot LLC, with its
         expertise in&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation, ensures that these
         configurations are optimized for your environment, saving you time and reducing errors.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -25,14 +25,13 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Automation logic in Clockwork is designed to handle repetitive tasks that would otherwise consume valuable
         time. For example, Clockwork can automate the generation of cash flow forecasts and financial reports. This
-        automation is not just about reducing workload; it also increases accuracy by minimizing human error. Geek @
-        Your Spot configures these automation processes to align with your business&#39;s unique needs, ensuring
+        automation is not just about reducing workload; it also increases accuracy by minimizing human error. Geek @ Your Spot LLC configures these automation processes to align with your business&#39;s unique needs, ensuring
         that the right data is processed at the right time.</p>
       <p className="text-md text-white shadow-text pt-3">
         While Clockwork does not have an extension mechanism like APIs or SDKs, its powerful configuration options
         allow for significant customization within its framework. This means that while you cannot extend Clockwork
         with external scripts, its built-in capabilities are robust enough to handle a wide range of financial
-        tasks. Geek @ Your Spot&#39;s role is to ensure that these configurations are set up correctly, allowing
+        tasks. Geek @ Your Spot LLC&#39;s role is to ensure that these configurations are set up correctly, allowing
         your team to focus on strategic decision-making rather than manual data handling.</p>
     </>
   );

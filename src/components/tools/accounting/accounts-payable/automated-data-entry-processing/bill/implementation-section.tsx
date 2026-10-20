@@ -13,13 +13,12 @@ export default function ImplementationSection() {
         the business&#39;s existing processes and workflows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bill does not require extensive custom coding, making it accessible for businesses without a large IT
-        team. However, for those needing more tailored solutions, <strong>Geek At Your Spot</strong> can
+        team. However, for those needing more tailored solutions, <strong>Geek @ Your Spot LLC</strong> can
         assist with data model design, workflow configuration, and integration with existing systems. This
         ensures that Bill is not only implemented correctly but also optimized for the specific needs of the
         business.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Training and change management are also critical components of a successful Bill deployment. Geek At
-        Your Spot can provide guidance and support to help teams adapt to the new system, ensuring widespread
+        Training and change management are also critical components of a successful Bill deployment. Geek @ Your Spot LLC can provide guidance and support to help teams adapt to the new system, ensuring widespread
         adoption and maximizing the benefits of automation. This professional support is particularly valuable
         for businesses new to AI-driven solutions, as it helps bridge the gap between technology and practical
         application.</p>

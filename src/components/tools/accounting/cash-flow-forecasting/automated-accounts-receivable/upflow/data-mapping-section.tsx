@@ -16,7 +16,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         These upfront data structure and mapping decisions are critical to the success of an Upflow deployment. By
         addressing these elements early in the process, businesses can ensure that their automated accounts
-        receivable automation runs smoothly and efficiently. Geek @ Your Spot provides the expertise needed to
+        receivable automation runs smoothly and efficiently. Geek @ Your Spot LLC provides the expertise needed to
         navigate these complexities, ensuring that the system is set up to deliver maximum value from day one.</p>
     </>
   );

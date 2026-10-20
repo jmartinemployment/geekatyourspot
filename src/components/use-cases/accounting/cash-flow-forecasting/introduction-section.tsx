@@ -20,7 +20,7 @@ export default function IntroductionSection() {
                 visibility and is vital for maintaining the financial health of an organization. It enables businesses to anticipate
                 potential cash shortages or surpluses, allowing them to plan accordingly. This proactive approach can prevent
                 liquidity crises that might otherwise lead to costly emergency financing or missed strategic opportunities.</p>
-              <p className="pt-5 text-md font-normal text-white shadow-text"><em>At </em><strong><em>Geek At Your Spot</em></strong>, we help organizations implement robust cash flow
+              <p className="pt-5 text-md font-normal text-white shadow-text"><em>At </em><strong><em>Geek @ Your Spot LLC</em></strong>, we help organizations implement robust cash flow
                 forecasting models that integrate seamlessly with their existing financial systems. Our consultants focus on
                 customizing forecasts to reflect the unique cash cycles and industry-specific challenges our clients face. This
                 tailored approach ensures that our forecasts not only predict cash needs accurately but also align with strategic
@@ -48,14 +48,14 @@ export default function IntroductionSection() {
               <li>Net Cash Flow: The difference between total inflows and outflows, indicating whether the business will have a
                 cash surplus or deficit.</li>
             </ul>
-            <p className="pt-5 text-md font-normal text-white shadow-text"><em>By working with </em><strong><em>Geek At Your Spot</em></strong>, companies can ensure these components are
+            <p className="pt-5 text-md font-normal text-white shadow-text"><em>By working with </em><strong><em>Geek @ Your Spot LLC</em></strong>, companies can ensure these components are
               accurately projected, using historical data and advanced analytics to refine assumptions and improve forecast
               precision.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Challenges in Cash Flow Forecasting</h3>
             <p className="pt-5 text-md font-normal text-white shadow-text">Despite its importance, cash flow forecasting presents several challenges. Forecasts can be affected by variable
               factors such as market conditions, customer payment behaviors, and unexpected expenses. Additionally, businesses
               often struggle with integrating disparate data sources and ensuring data accuracy.</p>
-            <p className="pt-5 text-md font-normal text-white shadow-text"><em>At </em><strong><em>Geek At Your Spot</em></strong>, our consultants address these challenges by leveraging
+            <p className="pt-5 text-md font-normal text-white shadow-text"><em>At </em><strong><em>Geek @ Your Spot LLC</em></strong>, our consultants address these challenges by leveraging
               AI-driven tools that automate data collection and analysis. This not only enhances the reliability of forecasts but
               also speeds up the forecasting process, allowing businesses to respond swiftly to changing conditions. In a
               hypothetical scenario, implementing such AI-driven solutions could lead to a 40% reduction in forecasting time,

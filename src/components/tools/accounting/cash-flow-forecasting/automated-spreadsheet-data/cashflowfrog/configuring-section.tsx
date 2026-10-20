@@ -6,7 +6,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog is designed to integrate smoothly with your existing accounting systems, offering a range of
         configuration options that streamline financial operations. The platform allows for the setup of approval
-        chains, routing, and automation logic, all essential for efficient cash flow management. Geek @ Your Spot,
+        chains, routing, and automation logic, all essential for efficient cash flow management. Geek @ Your Spot LLC,
         as an implementation partner, ensures that Cashflowfrog is tailored to fit the unique needs of your
         business. This involves configuring the software to align with your specific financial processes and
         objectives.</p>
@@ -25,11 +25,11 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog does not currently offer an extension mechanism like
         an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK for custom development. However, its robust
-        configuration options provide significant flexibility. Geek @ Your Spot leverages these features to ensure
+        configuration options provide significant flexibility. Geek @ Your Spot LLC leverages these features to ensure
         that Cashflowfrog integrates seamlessly with other tools your business may use, such as QuickBooks or Zoho
         Books, via existing integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The role of Geek @ Your Spot is crucial in the implementation process. They assess your current financial
+        The role of Geek @ Your Spot LLC is crucial in the implementation process. They assess your current financial
         systems and workflows, identify gaps, and configure Cashflowfrog to bridge these gaps effectively. This
         includes mapping data from your existing systems to Cashflowfrog, ensuring that all financial data is
         accurately reflected in the forecasts. The consultancy provides training to your team, helping them

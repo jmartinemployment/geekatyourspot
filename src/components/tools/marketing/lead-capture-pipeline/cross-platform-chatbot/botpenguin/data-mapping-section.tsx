@@ -59,7 +59,7 @@ export default function DataMappingSection() {
         platform deliver on its promise: one pipeline, every channel, and no missed details. Setting this up
         right at the start saves hours every week, keeps
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;clean, and gives your team the context they
-        need to close more deals without extra admin work. Geek @ Your Spot handles this mapping as part of
+        need to close more deals without extra admin work. Geek @ Your Spot LLC handles this mapping as part of
         every deployment, making sure your lead capture pipeline is both robust and easy to manage from day
         one.</p>
     </>

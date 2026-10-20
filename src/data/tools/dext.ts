@@ -45,7 +45,7 @@ export const dextContent: ToolPageContent = {
     {
       "title": "Implementing Dext in Your Business Environment",
       "description":
-        "Deployment covers data structure and mapping decisions, approval chains, routing and automation logic. Geek At Your Spot configures Dext to fit the existing systems and trains the team on it."
+        "Deployment covers data structure and mapping decisions, approval chains, routing and automation logic. Geek @ Your Spot LLC configures Dext to fit the existing systems and trains the team on it."
     },
     {
       "title": "Evaluating Dext for Your Business Needs",

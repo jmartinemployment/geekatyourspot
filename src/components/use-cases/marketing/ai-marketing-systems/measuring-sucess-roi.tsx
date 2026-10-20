@@ -33,11 +33,11 @@ export default function MeasuringSuccessRoiSection() {
                 businesses can better assess whether their AI initiatives are hitting the mark.</p>
               <h4 id="defining-key-performance-indicators-kpis" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Defining Key Performance Indicators (<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">KPIs</GlossaryLink>)</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">Selecting the right KPIs is crucial. For instance, if the goal is to boost online sales, relevant KPIs might
-                include conversion rates and average order value. Geek At Your Spot can help businesses identify these KPIs and
+                include conversion rates and average order value. Geek @ Your Spot LLC can help businesses identify these KPIs and
                 integrate them into their AI systems for real-time tracking, ensuring that every marketing effort is tied to a
                 concrete outcome.</p>
               <h4 id="aligning-ai-metrics-with-business-goals" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Aligning AI Metrics with Business Goals</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">AI metrics should not exist in a vacuum. Geek At Your Spot assists clients by aligning AI metrics with strategic
+              <p className="pt-3 text-md font-normal text-white shadow-text">AI metrics should not exist in a vacuum. Geek @ Your Spot LLC assists clients by aligning AI metrics with strategic
                 business objectives, ensuring that AI efforts contribute directly to overall growth. For example, if a small
                 business aims to enhance customer satisfaction, AI tools can be configured to track and improve response times in
                 customer communications.</p>
@@ -45,11 +45,11 @@ export default function MeasuringSuccessRoiSection() {
             <div className="col-span-12">
               <h3 id="tools-for-measuring-success" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Tools for Measuring Success</h3>
               <p className="pt-3 text-md font-normal text-white shadow-text">The right tools are essential for measuring the success of AI marketing systems. These tools provide the data
-                needed to analyze performance and make informed decisions. Geek At Your Spot can recommend and integrate tools that
+                needed to analyze performance and make informed decisions. Geek @ Your Spot LLC can recommend and integrate tools that
                 suit individual business needs, from analytics platforms to AI-specific reporting software.</p>
               <h4 id="analytics-platforms" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Analytics Platforms</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">Platforms like Google <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Analytics</GlossaryLink> and HubSpot offer powerful tracking and reporting capabilities. They can be used to
-                monitor website traffic, user behavior, and conversion metrics. Geek At Your Spot helps businesses set up and
+                monitor website traffic, user behavior, and conversion metrics. Geek @ Your Spot LLC helps businesses set up and
                 customize these platforms to extract actionable insights from AI-driven campaigns.</p>
               <h4 id="ai-specific-reporting-tools" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">AI-Specific Reporting Tools</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">AI-specific reporting tools can offer deeper insights into how AI algorithms are performing. Tools like IBM Watson

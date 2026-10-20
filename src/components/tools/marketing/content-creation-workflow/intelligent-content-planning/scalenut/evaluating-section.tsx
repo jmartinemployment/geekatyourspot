@@ -53,13 +53,13 @@ export default function EvaluatingSection() {
         Fit is not just about features or price. It is about whether Scalenut can take your current workflow
         and make it faster, more reliable, and less error-prone. If your approval process is a bottleneck, if
         your content calendar is always behind, or if you are invisible in AI search, Scalenut is designed to
-        fix those problems. Geek @ Your Spot’s role is to configure the platform so it fits your real
+        fix those problems. Geek @ Your Spot LLC’s role is to configure the platform so it fits your real
         business, not just a checklist of features. You get a system that works for your team, in your market,
         with your approval rules.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you are weighing Scalenut against doing it yourself, the real question is how much your team’s time
         is worth. Manual tracking, endless edits, and missed deadlines cost more than most teams realize.
-        Scalenut automates the work that slows you down, and Geek @ Your Spot makes sure it is set up right
+        Scalenut automates the work that slows you down, and Geek @ Your Spot LLC makes sure it is set up right
         from day one. For a small business in Miami, Broward, or Palm Beach, this is about getting the results
         of a full content team without hiring one. The fit is in the workflow, the pricing is in the open, and
         the gains are measured in hours saved and results seen, not just features checked off a list.</p>

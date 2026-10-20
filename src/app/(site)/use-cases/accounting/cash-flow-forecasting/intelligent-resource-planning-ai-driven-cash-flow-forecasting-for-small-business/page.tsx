@@ -30,10 +30,10 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
             },
             "datePublished": "2026-10-14T13:36:09.9025920Z",
@@ -57,7 +57,7 @@ const jsonLd: Graph = {
             "mainEntity": [
                 {"@type": "Question", "name": "What exactly is an ERP system?", "acceptedAnswer": {"@type": "Answer", "text": "An ERP is a single software platform that brings together all your main business tasks. This includes finance, HR, manufacturing, supply chain, services, and procurement. Instead of each department using its own software, everyone works from a shared database."}},
                 {"@type": "Question", "name": "Isn’t ERP software only for giant, multi-million dollar corporations?", "acceptedAnswer": {"@type": "Answer", "text": "No, that’s outdated thinking. Modern ERP and accounting automation is built for small businesses. You choose and pay for only the features you need, such as automated invoicing or inventory tracking, and you can add more as your business grows in South Florida."}},
-                {"@type": "Question", "name": "Who is going to manage and maintain this system? Do I need to hire a full-time IT or database person?", "acceptedAnswer": {"@type": "Answer", "text": "No need to hire anyone new. The software is fully cloud-hosted, so the vendor takes care of all updates, security, and backups. Geek @ Your Spot serves as your local IT partner, handling setup, data integration, and ongoing support, so your team can stay focused on daily business."}},
+                {"@type": "Question", "name": "Who is going to manage and maintain this system? Do I need to hire a full-time IT or database person?", "acceptedAnswer": {"@type": "Answer", "text": "No need to hire anyone new. The software is fully cloud-hosted, so the vendor takes care of all updates, security, and backups. Geek @ Your Spot LLC serves as your local IT partner, handling setup, data integration, and ongoing support, so your team can stay focused on daily business."}},
                 {"@type": "Question", "name": "Will this new automation software play nice with the tools and bank accounts I already use?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it will. The tools we implement connect securely to major business bank accounts, common POS systems, CRM software, and merchant payment gateways. This keeps your data flowing smoothly and avoids disrupting your current workflow."}},
                 {"@type": "Question", "name": "How does this tool help us handle multi-location operations or mobile employees moving between counties?", "acceptedAnswer": {"@type": "Answer", "text": "You get secure, real-time access to your system from anywhere. Whether your team is in Miami-Dade, Broward, or Palm Beach, employees can log expenses, upload receipts, track inventory, and view invoices on their phones or tablets. Your main office stays updated instantly."}}
             ]
@@ -71,24 +71,24 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: DESCRIPTION,
         keywords: ["Intelligent Resource Planning", "Cash Flow Forecasting", "Automated Accounts Receivable", "Automated Spreadsheet Data", "Automated Enterprise Resource Planning", "AI implementation West Palm Beach", "AI for small business Miami", "Fathom", "Jirav", "Cashflowfrog"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -98,7 +98,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
             },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

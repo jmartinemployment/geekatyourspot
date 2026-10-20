@@ -14,7 +14,7 @@ export default function LiabilitySection() {
         Limitation of Liability
       </h3>
       <p className="text-md text-white shadow-text pt-3">
-        To the fullest extent the law allows, Geek at Your Spot LLC and its owners, employees, and contractors
+        To the fullest extent the law allows, Geek @ Your Spot LLC and its owners, employees, and contractors
         will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for
         lost profits, lost revenue, or lost data, that arise from your use of the site or your reliance on its
         content. <strong>Our total liability for any claim arising from the site will not exceed one hundred
@@ -23,7 +23,7 @@ export default function LiabilitySection() {
         Indemnification
       </h3>
       <p className="text-md text-white shadow-text pt-3">
-        If you misuse the site or break these terms, you agree to defend and indemnify Geek at Your Spot LLC
+        If you misuse the site or break these terms, you agree to defend and indemnify Geek @ Your Spot LLC
         and its owners, employees, and contractors against the claims, losses, and costs that result,
         including reasonable attorney’s fees.</p>
     </>

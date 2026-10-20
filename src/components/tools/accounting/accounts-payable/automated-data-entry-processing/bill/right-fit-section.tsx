@@ -16,13 +16,13 @@ export default function RightFitSection() {
         integrations meet your business&#39;s specific demands.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses ready to move forward with Bill, the next step is to explore how
-        <strong> Geek At Your Spot</strong> can assist in the implementation process. As an AI implementation
-        consultancy, Geek At Your Spot can help tailor Bill to fit your unique business environment. This
+        <strong> Geek @ Your Spot LLC</strong> can assist in the implementation process. As an AI implementation
+        consultancy, Geek @ Your Spot LLC can help tailor Bill to fit your unique business environment. This
         includes configuring workflows, integrating with existing systems, and providing training to ensure
         your team can fully leverage the platform&#39;s capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
         To learn more about how Bill can transform your accounts payable processes and to discuss your specific
-        needs, consider booking a consultation with Geek At Your Spot. This step will provide you with a
+        needs, consider booking a consultation with Geek @ Your Spot LLC. This step will provide you with a
         clearer picture of how Bill can be integrated into your business and the tangible benefits it can
         deliver.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -30,7 +30,7 @@ export default function RightFitSection() {
         <Link id="tools-accounting-bill-right-fit-consultation"
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book a consultation
-        </Link>&nbsp;with Geek At Your Spot today and discover how Bill can elevate your financial
+        </Link>&nbsp;with Geek @ Your Spot LLC today and discover how Bill can elevate your financial
         operations.</p>
     </>
   );

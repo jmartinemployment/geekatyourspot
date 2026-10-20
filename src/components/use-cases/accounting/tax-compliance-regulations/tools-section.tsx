@@ -7,7 +7,7 @@ export default function ToolsSection() {
         As organizations strive to navigate the complex landscape of regulatory compliance, integrating AI
         solutions has become an essential strategy. AI technologies offer the ability to automate and enhance
         compliance processes, reducing the risk of human error and ensuring adherence to evolving regulations.
-        Geek At Your Spot specializes in implementing AI-driven compliance solutions that are tailored to meet
+        Geek @ Your Spot LLC specializes in implementing AI-driven compliance solutions that are tailored to meet
         the specific needs of B2B organizations, providing a strategic advantage in managing regulatory
         requirements effectively.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -29,7 +29,7 @@ export default function ToolsSection() {
         How an AI implementer helps with Avalara
       </h4>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot accelerates Avalara deployment by utilizing pre-built integration connectors that
+        Geek @ Your Spot LLC accelerates Avalara deployment by utilizing pre-built integration connectors that
         seamlessly link Avalara with existing enterprise systems, significantly reducing go-live time. Our
         consultants expertly design data models to map Avalara’s tax categories to a client’s specific
         chart-of-accounts, ensuring precise financial reporting. We configure Avalara’s workflow to automate tax
@@ -55,7 +55,7 @@ export default function ToolsSection() {
         How an AI implementer helps with Thomson Reuters ONESOURCE
       </h4>
       <p className="text-md text-white shadow-text pt-3">
-        With ONESOURCE, Geek At Your Spot expedites deployment through a phased rollout plan, ensuring smooth
+        With ONESOURCE, Geek @ Your Spot LLC expedites deployment through a phased rollout plan, ensuring smooth
         integration with existing financial systems. We customize the data model to align with international tax
         codes, reducing discrepancies and ensuring accurate compliance. By configuring ONESOURCE&#39;s workflow,
         we automate the generation and approval of tax reports, facilitating timely submissions. Our experts
@@ -79,7 +79,7 @@ export default function ToolsSection() {
         How an AI implementer helps with Vertex
       </h4>
       <p className="text-md text-white shadow-text pt-3">
-        At Geek At Your Spot, we enhance Vertex deployment using templated setups that cater to diverse industry
+        At Geek @ Your Spot LLC, we enhance Vertex deployment using templated setups that cater to diverse industry
         needs, ensuring a swift launch. We design detailed data models that accurately reflect
         jurisdiction-specific tax rules, mitigating compliance risks. Our team configures Vertex workflows to
         automate tax return processing and reconciliation, reducing manual errors. For advanced customization,
@@ -104,7 +104,7 @@ export default function ToolsSection() {
         How an AI implementer helps with SAP Tax Compliance
       </h4>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot accelerates the integration of SAP Tax Compliance through a structured deployment
+        Geek @ Your Spot LLC accelerates the integration of SAP Tax Compliance through a structured deployment
         strategy that leverages existing SAP infrastructure. We meticulously design data models that ensure
         seamless tax data validation and integration with SAP’s core financial modules. Our team configures
         compliance workflows to automate tax audits and reporting processes, enhancing operational efficiency.

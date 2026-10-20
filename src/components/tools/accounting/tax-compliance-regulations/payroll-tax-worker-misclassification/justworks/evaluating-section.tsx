@@ -31,7 +31,7 @@ export default function EvaluatingSection() {
         <li>Do you want to remove manual payroll calculations, tax filings, and compliance research from your week? The platform automates these tasks and provides audit-ready documentation.</li>
         <li>Are you looking for a single system that integrates with major accounting platforms and centralizes HR administration? Justworks connects directly to QuickBooks, Xero, NetSuite, and Sage Intacct, and brings payroll, benefits, and compliance into one dashboard.</li>
         <li>Do you need proactive compliance alerts and guided workflows, rather than custom scripting or open-ended configuration? Justworks is built for businesses that value certainty and want to avoid the risk of accidental non-compliance.</li>
-        <li>Does your business require specialized pay structures, highly customized reporting, or unique workflows that fall outside standard payroll and HR operations? If so, confirm with Geek @ Your Spot whether Justworks can support these needs before committing.</li>
+        <li>Does your business require specialized pay structures, highly customized reporting, or unique workflows that fall outside standard payroll and HR operations? If so, confirm with Geek @ Your Spot LLC whether Justworks can support these needs before committing.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         The real value of Justworks is not in its feature list, but in what it removes from your risk profile
@@ -45,7 +45,7 @@ export default function EvaluatingSection() {
         local compliance in a single platform is a major advantage. The region’s workforce is fluid, with
         employees and contractors often working across city and state lines, and regulatory requirements that
         change frequently. Justworks’ approach—automation, built-in compliance guardrails, and integrated
-        support—fits this environment. Geek @ Your Spot’s role is to ensure the platform is configured to your
+        support—fits this environment. Geek @ Your Spot LLC’s role is to ensure the platform is configured to your
         specific needs, that your data and processes map cleanly, and that your team is trained to use the
         system confidently from day one.</p>
       <p className="text-md text-white shadow-text pt-3">

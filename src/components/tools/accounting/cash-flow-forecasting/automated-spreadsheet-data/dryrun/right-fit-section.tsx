@@ -17,11 +17,11 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For those considering Dryrun, the next step is to evaluate how its features align with your specific
         business needs. Consider the level of integration required with your existing systems and the extent to
-        which you need to model various financial scenarios. Geek @ Your Spot can assist in this evaluation,
+        which you need to model various financial scenarios. Geek @ Your Spot LLC can assist in this evaluation,
         providing insights into how Dryrun can be configured to meet your unique requirements and ensuring a smooth
         implementation process.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Engaging with Geek @ Your Spot offers the advantage of expert guidance in deploying Dryrun. Their local
+        Engaging with Geek @ Your Spot LLC offers the advantage of expert guidance in deploying Dryrun. Their local
         expertise in Miami-Dade, Broward, and West Palm Beach counties ensures that your implementation is tailored
         to the regional market conditions and business practices. This personalized approach can significantly
         enhance the effectiveness of Dryrun, making it a valuable asset in your financial management toolkit.</p>

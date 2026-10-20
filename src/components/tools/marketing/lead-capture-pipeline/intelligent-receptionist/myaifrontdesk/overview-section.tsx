@@ -37,7 +37,7 @@ export default function OverviewSection() {
       <p className="text-md text-white shadow-text pt-3">
         If you are tired of seeing good opportunities slip away because you are busy with the day-to-day, this
         is the solution that lets you keep every connection, and every dollar, without hiring another person.
-        Geek @ Your Spot helps small businesses in South Florida put intelligent, affordable automation in
+        Geek @ Your Spot LLC helps small businesses in South Florida put intelligent, affordable automation in
         place, so you can finally give every lead the attention it deserves.</p>
     </>
   );

@@ -32,8 +32,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For the businesses Take the Helm does serve, the next step is not to buy software and hope it works.
         Success comes from getting the right data in, mapping it cleanly, and configuring the tool to match your
-        real processes, how your team sends invoices, pays vendors, and tracks cash. This is where Geek @ Your
-        Spot comes in. The consultancy handles the heavy lifting: integrating Take the Helm with your current
+        real processes, how your team sends invoices, pays vendors, and tracks cash. This is where Geek @ Your Spot LLC comes in. The consultancy handles the heavy lifting: integrating Take the Helm with your current
         accounting system, mapping your data for accuracy and consistency, and setting up the rules that
         automate your&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>. They
         do not just drop off the software, they make sure it fits your actual workflow, so you see value from

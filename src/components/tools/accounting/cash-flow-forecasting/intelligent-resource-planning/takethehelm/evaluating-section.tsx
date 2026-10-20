@@ -43,7 +43,7 @@ export default function EvaluatingSection() {
         in cash flow, the platform’s scenario planning and real-time forecasting tools are a direct answer to
         daily pain points.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The decision is not just about software. Geek @ Your Spot closes the gap between what Take the Helm can
+        The decision is not just about software. Geek @ Your Spot LLC closes the gap between what Take the Helm can
         do and what it will do for your team. Their role is to map your data, configure the rules, and train
         your staff so the platform fits your business from day one. This is the difference between buying a tool
         and getting a solution that works in your environment. If you are weighing Take the Helm against other

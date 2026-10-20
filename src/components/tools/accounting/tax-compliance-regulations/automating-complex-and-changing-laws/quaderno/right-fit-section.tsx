@@ -25,16 +25,14 @@ export default function RightFitSection() {
         applicable to their needs.</p>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in South Florida considering Quaderno, the next step is to assess specific tax
-        compliance needs and determine how Quaderno&#39;s features align with these requirements. Geek @ Your
-        Spot can assist in this evaluation, providing insights into how Quaderno can be tailored to meet unique
+        compliance needs and determine how Quaderno&#39;s features align with these requirements. Geek @ Your Spot LLC can assist in this evaluation, providing insights into how Quaderno can be tailored to meet unique
         business needs. This includes configuring the software to integrate with existing systems and ensuring
         data is mapped correctly for accurate compliance tracking.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement Quaderno should be based on a clear understanding of current tax
         challenges and the potential efficiency gains from automation. By leveraging Quaderno&#39;s
         capabilities, businesses can reduce the burden of tax compliance, allowing them to focus more on growth
-        and less on administrative tasks. For those ready to take the next step, consulting with Geek @ Your
-        Spot can provide the guidance needed to implement Quaderno effectively.</p>
+        and less on administrative tasks. For those ready to take the next step, consulting with Geek @ Your Spot LLC can provide the guidance needed to implement Quaderno effectively.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<Link id="tools-accounting-complex-changing-laws-quaderno-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking

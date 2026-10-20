@@ -47,7 +47,7 @@ export default function EvaluatingSection() {
         lead data up to date across systems. If you have a unique workflow or want to power internal tools
         with visitor data,
         Snitcher’s&nbsp;<GlossaryLink slug="webhooks" className="text-[#0B162A] hover:underline">webhooks</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;let
-        Geek @ Your Spot build exactly what you need.</p>
+        Geek @ Your Spot LLC build exactly what you need.</p>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s approach is self-serve and low-friction. You own your data on any plan, with no requirement
         to talk to sales or sit through a demo. The trial period is long enough to see if the platform
@@ -64,7 +64,7 @@ export default function EvaluatingSection() {
         For local teams, Snitcher’s ability to deliver real-time alerts, route leads to the right rep, and
         enrich every account with firmographics and contact details is the difference between chasing ghosts
         and working a live, prioritized pipeline. The pricing model is predictable, the setup is fast, and the
-        platform scales with your needs. Geek @ Your Spot helps you judge fit by mapping your real sales
+        platform scales with your needs. Geek @ Your Spot LLC helps you judge fit by mapping your real sales
         process to Snitcher’s capabilities, running a trial on your own traffic, and making sure the cost per
         qualified lead makes sense for your business.</p>
     </>

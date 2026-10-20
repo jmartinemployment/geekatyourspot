@@ -60,7 +60,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A typical go-live looks like this:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Kickoff with Geek @ Your Spot to review business objectives and current data sources.</li>
+        <li>Kickoff with Geek @ Your Spot LLC to review business objectives and current data sources.</li>
         <li>Connect Take the Helm to the accounting system (QuickBooks Online, Xero, or Sage) using the setup wizard.</li>
         <li>Select accounts and data ranges to include in the forecast.</li>
         <li>Review the initial cash flow forecast and adjust mapping as needed.</li>
@@ -69,7 +69,7 @@ export default function ImplementingSection() {
         <li>Add scenario planning and payment execution features as the team is ready.</li>
       </ol>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to close the gaps that slow down many small business deployments. They step
+        Geek @ Your Spot LLC’s role is to close the gaps that slow down many small business deployments. They step
         in to map old spreadsheet data, troubleshoot sync issues, and train staff on using Take the Helm’s
         features. Their local presence means questions get answered in real time, and the rollout stays focused
         on the business’s actual pain points, not on generic best practices. The result is a platform that works

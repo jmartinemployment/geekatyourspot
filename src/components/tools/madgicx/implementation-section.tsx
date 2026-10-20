@@ -28,7 +28,7 @@ export default function ImplementationSection() {
                   custom development is needed to integrate with other tools or systems. Understanding the platform&#39;s API
                   capabilities can help in extending its functionality to meet specific business needs.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, we assist businesses in navigating these considerations to ensure a successful implementation
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we assist businesses in navigating these considerations to ensure a successful implementation
                 of Madgicx. Our expertise in AI and marketing technology helps close the gap for clients by providing tailored
                 solutions that enhance ad spend optimization.</p>
             </div>
@@ -58,7 +58,7 @@ export default function ImplementationSection() {
                   custom development is needed to integrate with other tools or systems. Understanding the platform&#39;s API
                   capabilities can help in extending its functionality to meet specific business needs.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, we assist businesses in navigating these considerations to ensure a successful implementation
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we assist businesses in navigating these considerations to ensure a successful implementation
                 of Madgicx. Our expertise in AI and marketing technology helps close the gap for clients by providing tailored
                 solutions that enhance ad spend optimization.</p>
             </div>

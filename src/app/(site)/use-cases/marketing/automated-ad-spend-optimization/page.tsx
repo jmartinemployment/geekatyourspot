@@ -25,11 +25,11 @@ const jsonLd: Graph = {
             "author": {
                 "@type": "Organization",
                 "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek at Your Spot"
+                "name": "Geek @ Your Spot LLC"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
@@ -275,8 +275,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/marketing/automated-ad-spend-optimization',
@@ -285,7 +285,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "Automated Ad Spend Optimization",
             description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
             url: 'https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
             images: [
@@ -293,7 +293,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -301,7 +301,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Automated Ad Spend Optimization",
             description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -323,7 +323,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

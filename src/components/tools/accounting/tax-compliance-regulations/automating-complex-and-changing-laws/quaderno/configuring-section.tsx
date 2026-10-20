@@ -33,15 +33,14 @@ export default function ConfiguringSection() {
         so, businesses can customize their tax compliance processes to fit their unique operational needs
         without disrupting existing workflows.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a crucial role in configuring Quaderno to fit the specific needs of small
+        Geek @ Your Spot LLC plays a crucial role in configuring Quaderno to fit the specific needs of small
         businesses in South Florida. By leveraging their expertise, they ensure that the platform is set up to
         handle the unique tax compliance challenges these businesses face. This includes configuring data
         mapping, integrating existing systems, and providing training to ensure that users can fully capitalize
         on Quaderno&#39;s capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, configuring Quaderno is about enabling businesses to automate their tax compliance
-        processes, thereby reducing the time and effort required to manage them manually. With Geek @ Your
-        Spot&#39;s guidance, businesses can ensure that Quaderno is not just a tool but a powerful ally in
+        processes, thereby reducing the time and effort required to manage them manually. With Geek @ Your Spot LLC&#39;s guidance, businesses can ensure that Quaderno is not just a tool but a powerful ally in
         navigating the complex landscape of international tax laws.</p>
     </>
   );

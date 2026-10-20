@@ -16,7 +16,7 @@ export default function ImplementationSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="workflow-configuration">Workflow and Process Configuration</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">Zapier allows for the configuration of complex workflows, including approval chains and routing logic. Businesses should define these processes clearly to ensure that content is repurposed and distributed according to their strategic objectives. This may involve setting up specific triggers and actions that align with business goals.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="custom-development">Custom Code and Development</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">While Zapier is primarily a configuration-based tool, it does offer scripting capabilities through its Code by Zapier feature. This allows for custom code execution within workflows, providing additional flexibility for businesses with unique requirements. Geek At Your Spot can assist with advanced customizations as needed.</p>
+            <p className="pt-3 text-md font-normal text-white shadow-text">While Zapier is primarily a configuration-based tool, it does offer scripting capabilities through its Code by Zapier feature. This allows for custom code execution within workflows, providing additional flexibility for businesses with unique requirements. Geek @ Your Spot LLC can assist with advanced customizations as needed.</p>
           </div>
         </div>
       </div>

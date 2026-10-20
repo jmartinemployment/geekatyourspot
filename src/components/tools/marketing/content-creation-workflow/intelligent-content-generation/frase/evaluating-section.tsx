@@ -44,7 +44,7 @@ export default function EvaluatingSection() {
         customization. If you need every post to look and sound like your business, and you want to avoid the
         cost and chaos of piecing together freelancers or agencies, Frase is a strong candidate.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Geek @ Your Spot helps a client weigh Frase, the team looks at your current bottlenecks, your
+        When Geek @ Your Spot LLC helps a client weigh Frase, the team looks at your current bottlenecks, your
         publishing targets, and the real cost of your existing process. They help you run a side-by-side
         comparison: what does it take to get one article live today, and how does that change with Frase in
         place? They will also help you measure the impact of automation on your approval cycles, editing time,

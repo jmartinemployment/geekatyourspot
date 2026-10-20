@@ -41,7 +41,7 @@ export default function EvaluatingSection() {
         more time actually running your business.</p>
       <p className="text-md text-white shadow-text pt-3">
         Support and onboarding are another area to consider. Quaderno’s self-serve onboarding is fast, but the
-        real value for most small businesses comes from working with a local partner like Geek @ Your Spot. They
+        real value for most small businesses comes from working with a local partner like Geek @ Your Spot LLC. They
         handle the migration of historical sales data, configure the integrations, and train your team. This
         shortens the go-live timeline and reduces the risk of missing a compliance trigger during the
         transition. If you have ever tried to set up tax automation on your own and ended up with duplicate

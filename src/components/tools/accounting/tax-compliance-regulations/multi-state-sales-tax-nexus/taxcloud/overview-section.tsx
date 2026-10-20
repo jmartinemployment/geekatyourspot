@@ -31,7 +31,7 @@ export default function OverviewSection() {
         For businesses in South Florida looking to scale across state borders, the answer is to automate nexus
         tracking, rate calculations, and filings. Intelligent compliance platforms now monitor every channel,
         alert you as thresholds approach, and file on time in every state, turning a complex, high-stakes burden
-        into a routine workflow. This lets you focus on growth, not on navigating tax traps. Geek @ Your Spot
+        into a routine workflow. This lets you focus on growth, not on navigating tax traps. Geek @ Your Spot LLC
         helps small businesses in Broward, Miami-Dade, and Palm Beach counties implement these solutions, so
         Multi-State Sales Tax Nexus stops being a roadblock and starts being just another box checked.</p>
     </>

@@ -24,7 +24,7 @@ export default function OverviewSection() {
         your team focused on closing, and your customers happy with real-time answers instead of canned away
         messages or lost tickets.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot designs and implements these AI-powered lead capture pipelines for small businesses
+        Geek @ Your Spot LLC designs and implements these AI-powered lead capture pipelines for small businesses
         in Miami-Dade, Broward and West Palm Beach. The result: faster replies, fewer errors, and more sales,
         with no extra headcount and zero downtime. You get a full view of every customer, qualified leads
         sorted automatically, and marketing that works around the clock. The tools, channels, and scoring

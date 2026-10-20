@@ -5,7 +5,7 @@ export default function DeployingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Deploying Medius within an existing business environment involves several key steps to ensure a
-        smooth transition and effective operation. Geek @ Your Spot, as an&nbsp;
+        smooth transition and effective operation. Geek @ Your Spot LLC, as an&nbsp;
         <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;implementation
         consultancy, plays a crucial role in this process, particularly for small businesses in Miami-Dade,
         Broward, and West Palm Beach counties. The deployment process begins with a thorough assessment of the
@@ -13,13 +13,13 @@ export default function DeployingSection() {
       <p className="text-md text-white shadow-text pt-3">
         One of the primary tasks is integrating Medius with the client&#39;s existing&nbsp;
         <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
-        This integration is vital for real-time data exchange and seamless operation. Geek @ Your Spot handles
+        This integration is vital for real-time data exchange and seamless operation. Geek @ Your Spot LLC handles
         the technical aspects of this integration, ensuring that Medius is configured to capture and process
         invoices from various sources, whether they are submitted via paper, PDF, or supplier portals. This
         setup is crucial for enabling the platform&#39;s AI-driven features, such as automated statement
         reconciliation and fraud detection.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Data mapping and structure are also critical components of the deployment process. Geek @ Your Spot
+        Data mapping and structure are also critical components of the deployment process. Geek @ Your Spot LLC
         works closely with clients to map out their data structures, ensuring that all relevant information
         is accurately captured and processed by Medius. This includes setting up the necessary approval chains
         and routing rules to automate workflows and streamline the&nbsp;
@@ -29,15 +29,15 @@ export default function DeployingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Medius&#39;s deployment also involves setting up its robust fraud detection capabilities. This
         includes configuring real-time alerts and risk scoring systems that help identify potential fraud
-        before it impacts the business. Geek @ Your Spot provides training to ensure that the client&#39;s
+        before it impacts the business. Geek @ Your Spot LLC provides training to ensure that the client&#39;s
         team understands how to interpret and respond to these alerts effectively. This training is essential
         for maximizing the benefits of Medius&#39;s fraud detection features and ensuring that the team is
         prepared to handle any issues that arise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, Geek @ Your Spot supports businesses through the entire deployment process, offering ongoing
+        Finally, Geek @ Your Spot LLC supports businesses through the entire deployment process, offering ongoing
         assistance and adjustments as needed. This support ensures that Medius continues to operate
         effectively and adapts to any changes in the business environment. By providing comprehensive
-        deployment and support services, Geek @ Your Spot enables small businesses to leverage Medius&#39;s
+        deployment and support services, Geek @ Your Spot LLC enables small businesses to leverage Medius&#39;s
         full potential, enhancing their financial operations and protecting against fraud and duplicate
         payments.</p>
     </>

@@ -24,7 +24,7 @@ export default function RightFitSection() {
         For businesses considering AvidXchange, the next step is to assess their current accounts payable
         processes and identify specific pain points that the platform could address. This evaluation will
         help determine whether AvidXchange&#39;s features align with their operational needs and financial
-        goals. Engaging with a consultancy like Geek @ Your Spot can provide further insight into how
+        goals. Engaging with a consultancy like Geek @ Your Spot LLC can provide further insight into how
         AvidXchange can be effectively integrated into existing workflows, ensuring a smooth transition and
         maximizing the platform&#39;s benefits.</p>
       <p className="text-md text-white shadow-text pt-3">

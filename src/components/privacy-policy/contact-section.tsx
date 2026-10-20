@@ -9,7 +9,7 @@ export default function ContactSection() {
         If you have a question about this policy or want to make a request about your information, call us at <a id="privacy-policy-contact-tel" href="tel:+15615263512" className="text-[#C83803] hover:underline">(561)
         526-3512</a> or write to us at the address below.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <strong>Geek at Your Spot LLC</strong><br />2025 NW 18th Street<br />Delray Beach, FL 33445</p>
+        <strong>Geek @ Your Spot LLC</strong><br />2025 NW 18th Street<br />Delray Beach, FL 33445</p>
     </>
   );
 

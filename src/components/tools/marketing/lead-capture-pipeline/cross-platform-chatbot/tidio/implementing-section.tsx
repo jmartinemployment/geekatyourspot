@@ -46,7 +46,7 @@ export default function ImplementingSection() {
         via&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or into third-party tools with a few clicks.
         This keeps your customer records up to date and avoids the mess of copy-paste.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The last piece is training and support. Tidio’s own documentation and the Geek @ Your Spot team’s
+        The last piece is training and support. Tidio’s own documentation and the Geek @ Your Spot LLC team’s
         onboarding process are both designed for non-technical users. Most teams get their first flows live
         using the templates, then refine them as they see what customers actually ask. Because the system is
         visual and changes are instant, you do not need to schedule downtime or freeze other projects. This is

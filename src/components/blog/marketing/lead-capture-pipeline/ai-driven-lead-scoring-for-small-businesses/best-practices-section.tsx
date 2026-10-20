@@ -5,19 +5,19 @@ export default function BestPracticesSection() {
   const body = (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Without effective <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>, small businesses can waste valuable time and resources on leads that are unlikely to convert. This can lead to missed opportunities and decreased sales. By implementing best practices in lead scoring, businesses can prioritize high-quality leads and improve their sales efficiency. Geek At Your Spot leverages AI-driven systems to help clients establish robust lead scoring models, ensuring that every lead is evaluated accurately and efficiently.
+        Without effective <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>, small businesses can waste valuable time and resources on leads that are unlikely to convert. This can lead to missed opportunities and decreased sales. By implementing best practices in lead scoring, businesses can prioritize high-quality leads and improve their sales efficiency. Geek @ Your Spot LLC leverages AI-driven systems to help clients establish robust lead scoring models, ensuring that every lead is evaluated accurately and efficiently.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        One of the key practices in lead scoring is to start with a clear understanding of your ideal customer profile. Without this, businesses may find themselves chasing leads that do not align with their target market, leading to lower conversion rates. Geek At Your Spot assists businesses in defining their ideal customer profiles by analyzing existing customer data and market trends, which informs the creation of precise lead scoring models.
+        One of the key practices in lead scoring is to start with a clear understanding of your ideal customer profile. Without this, businesses may find themselves chasing leads that do not align with their target market, leading to lower conversion rates. Geek @ Your Spot LLC assists businesses in defining their ideal customer profiles by analyzing existing customer data and market trends, which informs the creation of precise lead scoring models.
       </p>
       <h3 id="data-driven-scoring-criteria" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Data-Driven Scoring Criteria
       </h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek At Your Spot emphasizes the use of data-driven scoring criteria. By leveraging AI and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>&nbsp;algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
+        Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek @ Your Spot LLC emphasizes the use of data-driven scoring criteria. By leveraging AI and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>&nbsp;algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        To implement data-driven scoring, Geek At Your Spot uses tools like&nbsp;
+        To implement data-driven scoring, Geek @ Your Spot LLC uses tools like&nbsp;
         <Link id="tools-marketing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">
           6sense
         </Link>
@@ -30,7 +30,7 @@ export default function BestPracticesSection() {
         Lead scoring is only as good as the data it uses. Integrating diverse data sources, such as <GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink> systems, email marketing platforms, and social media interactions, is crucial for comprehensive lead evaluation. Without this integration, lead scores may be incomplete or misleading.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot excels in integrating tools like&nbsp;
+        Geek @ Your Spot LLC excels in integrating tools like&nbsp;
         <Link id="tools-marketing-pipedrive" href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">
           Pipedrive
         </Link>
@@ -40,7 +40,7 @@ export default function BestPracticesSection() {
         Continuous Model Refinement
       </h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        A static lead scoring model can quickly become outdated. As market conditions and customer behaviors change, so too should the scoring criteria. Geek At Your Spot supports continuous model refinement by monitoring scoring performance and adjusting criteria based on new insights and trends.
+        A static lead scoring model can quickly become outdated. As market conditions and customer behaviors change, so too should the scoring criteria. Geek @ Your Spot LLC supports continuous model refinement by monitoring scoring performance and adjusting criteria based on new insights and trends.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         This iterative process ensures that lead scoring models remain relevant and accurate, helping businesses stay ahead of the competition. By using tools like&nbsp;
@@ -54,7 +54,7 @@ export default function BestPracticesSection() {
         Manual lead scoring is time-consuming and prone to human error. Automating these processes not only saves time but also enhances the accuracy and consistency of lead scores. Automation allows sales teams to focus on engaging with leads rather than scoring them.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot uses platforms like&nbsp;
+        Geek @ Your Spot LLC uses platforms like&nbsp;
         <Link id="tools-marketing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">
           ActiveCampaign
         </Link>
@@ -69,7 +69,7 @@ export default function BestPracticesSection() {
         <li>Integrating automated scoring with CRM systems allows for seamless updates and real-time insights.</li>
       </ul>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        By streamlining these workflows, Geek At Your Spot helps businesses allocate resources more efficiently, enhancing overall productivity and sales effectiveness.
+        By streamlining these workflows, Geek @ Your Spot LLC helps businesses allocate resources more efficiently, enhancing overall productivity and sales effectiveness.
       </p>
     </>
   );

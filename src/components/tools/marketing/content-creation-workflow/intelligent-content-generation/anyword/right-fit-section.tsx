@@ -32,13 +32,12 @@ export default function RightFitSection() {
         and optimization features are powerful, but they work best when you can define who you are trying to
         reach and what you want them to do. If you have not yet mapped your customer personas or set clear
         marketing objectives, you will get less from the platform. This is where working with a specialist
-        like Geek @ Your Spot matters: the right implementation ensures your data, brand voice, and audience
+        like Geek @ Your Spot LLC matters: the right implementation ensures your data, brand voice, and audience
         segments are set up from the start, so Anyword’s automation delivers real value instead of generic
         output.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams ready to move beyond manual content creation, the next step is not to buy a license and hope
-        for the best. The value of Anyword comes from how it is set up and integrated into your workflow. Geek
-        @ Your Spot’s approach, define objectives, assess data, select the right tools, and map out the
+        for the best. The value of Anyword comes from how it is set up and integrated into your workflow. Geek @ Your Spot LLC’s approach, define objectives, assess data, select the right tools, and map out the
         implementation, ensures you do not just add another subscription to your stack. Instead, you get a
         system that slots into your existing processes, automates the busywork, and lets your team focus on
         what drives revenue.</p>

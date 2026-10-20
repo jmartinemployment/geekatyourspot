@@ -50,7 +50,7 @@ export default function DataMappingSection() {
         notices. For a small business scaling into new markets, this is the difference between a compliance
         process that runs smoothly and one that creates new headaches every month.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to make sure this mapping is done right from the start. As your
+        Geek @ Your Spot LLC’s role is to make sure this mapping is done right from the start. As your
         implementation partner, we work with your team to identify every sales channel, clarify your product
         catalog, and track all inventory locations. We guide you through the data preparation process so that
         when TaxValet goes live, you have a single, accurate source of truth for every compliance obligation.

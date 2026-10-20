@@ -26,7 +26,7 @@ export default function RightFitSection() {
         features, such as its OCR and ML capabilities, can address these specific challenges and improve your
         operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Engaging with a consultancy like Geek @ Your Spot can provide additional insights into how Ramp can be
+        Engaging with a consultancy like Geek @ Your Spot LLC can provide additional insights into how Ramp can be
         tailored to fit your business needs. Their expertise in&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation ensures that Ramp is configured to
         integrate seamlessly with your existing systems, maximizing the benefits of automation.</p>

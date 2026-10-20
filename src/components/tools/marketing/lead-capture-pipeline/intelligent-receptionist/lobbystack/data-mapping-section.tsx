@@ -21,8 +21,7 @@ export default function DataMappingSection() {
         Mapping these fields onto your downstream systems is next. LobbyStack can push call and booking details
         directly into Google Calendar for appointment scheduling. For other systems, like
         a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, ticketing platform, or marketing database, the
-        mapping happens through webhooks or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls. Geek @
-        Your Spot handles this alignment, making sure that every data point the AI collects lands in the right
+        mapping happens through webhooks or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls. Geek @ Your Spot LLC handles this alignment, making sure that every data point the AI collects lands in the right
         place in your stack. This is not just about matching field names; it is about ensuring data types,
         formats, and validation rules are consistent so nothing gets lost or misfiled.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -42,7 +41,7 @@ export default function DataMappingSection() {
         For self-hosted deployments, you also choose where and how to store your data. LobbyStack puts you in
         charge of the database, storage, and retention policies. You select the infrastructure, cloud,
         on-premise, or a hybrid setup, and decide how backups and updates are managed. This is a crucial step
-        for teams with compliance or data sovereignty requirements. Geek @ Your Spot can advise on best
+        for teams with compliance or data sovereignty requirements. Geek @ Your Spot LLC can advise on best
         practices, but the final structure is yours to define and control.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, you need to decide how to handle updates and changes. LobbyStack’s open-source nature means you

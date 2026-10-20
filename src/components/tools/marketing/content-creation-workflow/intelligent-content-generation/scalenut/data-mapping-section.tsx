@@ -49,7 +49,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, integration mapping matters for data flow between Scalenut and other systems. Out-of-the-box
         connectors for WordPress and other major platforms simplify this, but custom mapping may be needed for
-        niche tools or unique workflows. Geek @ Your Spot handles these details, ensuring that every piece of
+        niche tools or unique workflows. Geek @ Your Spot LLC handles these details, ensuring that every piece of
         data, whether it’s a blog draft, an approval status, or a publishing date, lands in the right place at
         the right time.</p>
       <p className="text-md text-white shadow-text pt-3">

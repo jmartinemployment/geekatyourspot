@@ -44,7 +44,7 @@ export default function RightFitSection() {
         you do not see value, you walk away with no cost.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that want to get the most from Snitcher, the real work is in configuring the right filters
-        and automation to match your sales process. Geek @ Your Spot handles this for South Florida
+        and automation to match your sales process. Geek @ Your Spot LLC handles this for South Florida
         businesses, mapping your data, connecting your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and
         setting up the alerts and workflows that matter for your team. This is not just about plugging in a
         tool, but about tuning it to your market, your campaigns, and your sales cycle. The goal is to make

@@ -62,7 +62,7 @@ export default function EvaluatingSection() {
         is highly specialized, or you need to build integrations not covered by QuickBooks’ connectors, you will
         need to weigh the tradeoff between simplicity and flexibility.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Where Geek @ Your Spot comes in is making sure you do not pay for what you do not use. They map your
+        Where Geek @ Your Spot LLC comes in is making sure you do not pay for what you do not use. They map your
         real processes to what QuickBooks does best, configure the right roles and rules, and flag where an
         add-on or a workaround is needed. They know where QuickBooks’ boundaries are, and where a
         full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;or

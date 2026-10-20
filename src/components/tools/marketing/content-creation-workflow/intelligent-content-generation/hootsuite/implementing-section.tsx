@@ -27,7 +27,7 @@ export default function ImplementingSection() {
         happens in hours, not days.</p>
       <p className="text-md text-white shadow-text pt-3">
         The phased rollout approach is another way to shorten go-live. Rather than waiting for every detail to
-        be perfect, Geek @ Your Spot typically recommends a staged deployment: start with one or two core
+        be perfect, Geek @ Your Spot LLC typically recommends a staged deployment: start with one or two core
         channels (often Facebook and Instagram), get the basic content flow working, and then bring in
         additional networks, bulk scheduling, and analytics once the team is confident. This means a business
         is not stuck waiting for a “big bang” launch. Instead, they see immediate gains, posts going out on
@@ -61,7 +61,7 @@ export default function ImplementingSection() {
         The last piece is ongoing measurement and optimization. Once Hootsuite is live, its analytics and
         trend-tracking tools let the business see which posts are actually driving engagement and leads.
         This&nbsp;<GlossaryLink slug="feedback-loop">feedback loop</GlossaryLink>&nbsp;is critical: it shows
-        where the workflow is working and where it needs to be tuned. Geek @ Your Spot’s role is to make sure
+        where the workflow is working and where it needs to be tuned. Geek @ Your Spot LLC’s role is to make sure
         this loop is closed, so the team is not just posting more, but posting smarter, with less manual
         effort every week.</p>
     </>

@@ -6,7 +6,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Deploying Imagine in a small business is not just about turning on a tool and hoping for the best. The
         real value comes from how its rules, automation logic, and workflow structure get tailored to your
-        specific environment. Geek @ Your Spot handles this setup so that your team does not have to become AI
+        specific environment. Geek @ Your Spot LLC handles this setup so that your team does not have to become AI
         engineers or process designers. What gets configured is not generic automation, it is the core of how
         your content gets created, reviewed, and published, with the controls and repeatability your business
         needs to look credible every week.</p>
@@ -46,7 +46,7 @@ export default function ConfiguringSection() {
         Imagine is by building and modifying node-based workflows on its canvas. For most small businesses,
         this is an advantage: you do not need to write code or hire a developer to adapt the system. If you
         need to automate a new kind of content, add a step for a new format, or change the approval path, you
-        do it visually. Geek @ Your Spot configures these workflows to match your actual business process,
+        do it visually. Geek @ Your Spot LLC configures these workflows to match your actual business process,
         mapping out who does what, when, and with which assets, so the system fits your team, not the other
         way around.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -54,18 +54,17 @@ export default function ConfiguringSection() {
         server. This allows external systems, like a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
         e-commerce backend, or another AI tool, to trigger workflow runs or pass briefs directly into Imagine.
         For example, a new product added in your Shopify catalog could automatically kick off a full campaign
-        asset generation in Imagine, routed for review and ready for scheduling. Geek @ Your Spot can set up
+        asset generation in Imagine, routed for review and ready for scheduling. Geek @ Your Spot LLC can set up
         these connections, but for most small businesses, the core value is in the workflow canvas and brand
         governance, not in writing custom integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
         The result is a system where your business logic, brand standards, and content needs are encoded once
         and reused as often as needed. Imagine’s configuration is not a one-time checklist, it is a living
-        blueprint of how your team produces content, adapts to new offers, and stays on brand. Geek @ Your
-        Spot makes sure this blueprint matches your reality, so you get the benefit of automation without the
+        blueprint of how your team produces content, adapts to new offers, and stays on brand. Geek @ Your Spot LLC makes sure this blueprint matches your reality, so you get the benefit of automation without the
         risk of chaos or drift.</p>
       <p className="text-md text-white shadow-text pt-3">
         When a small team in West Palm Beach or Miami-Dade hands over their product photos and campaign ideas,
-        Geek @ Your Spot builds these workflows and rules inside Imagine. The owner does not have to explain
+        Geek @ Your Spot LLC builds these workflows and rules inside Imagine. The owner does not have to explain
         the brand every week, chase down off-message drafts, or wonder why the Instagram post looks nothing
         like the email blast. The automation is not generic, it is the owner’s process, made repeatable,
         visible, and enforceable. That is what closes the gap between the marketing you want and the time you

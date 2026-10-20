@@ -42,11 +42,11 @@ export default function ConfiguringSection() {
         that outside of MarketMuse. The platform is not built for plug-and-play automation with external
         tools; it is built to be the central logic layer for content decisions, not the execution layer.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to make sure MarketMuse’s logic is configured to match your business goals
+        Geek @ Your Spot LLC’s role is to make sure MarketMuse’s logic is configured to match your business goals
         and current content reality. That means mapping your site accurately, setting up the right tracked
         topics, and aligning the platform’s recommendations with your actual publishing cadence and staffing.
         For a small business, this is the difference between a tool that sits unused and a system that drives
-        every week’s content plan. Geek @ Your Spot handles the initial data mapping, sets up the topic
+        every week’s content plan. Geek @ Your Spot LLC handles the initial data mapping, sets up the topic
         tracking, and trains your team to interpret the personalized metrics MarketMuse generates. The result
         is a workflow where your team stops guessing and follows a data-backed plan that fits your market,
         your resources, and your competitive landscape.</p>

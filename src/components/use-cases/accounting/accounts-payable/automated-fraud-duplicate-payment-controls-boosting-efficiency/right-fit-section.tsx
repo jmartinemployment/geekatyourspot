@@ -34,7 +34,7 @@ export default function RightFitSection() {
         potential savings and efficiencies justify the investment.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you decide to proceed with automation, the next steps involve choosing the right technology and
-        planning for integration. This is where the expertise of Geek @ Your Spot becomes invaluable. They
+        planning for integration. This is where the expertise of Geek @ Your Spot LLC becomes invaluable. They
         offer a structured approach that begins with a free consultation to align the automation strategy
         with your business objectives. This ensures that the tools selected are not only suitable but also
         scalable to meet future needs.</p>
@@ -46,7 +46,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement these controls should be based on a comprehensive
         understanding of your business&#39;s specific needs and the potential impact of automation. Engage
-        with a partner like Geek @ Your Spot to ensure that the transition is smooth and that the systems put
+        with a partner like Geek @ Your Spot LLC to ensure that the transition is smooth and that the systems put
         in place are tailored to deliver tangible results.</p>
       <p className="text-md text-white shadow-text pt-3">
         <Link id="use-cases-accounting-fraud-controls-fit-consultation"

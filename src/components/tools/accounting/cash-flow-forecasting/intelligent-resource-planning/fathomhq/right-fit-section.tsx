@@ -49,7 +49,7 @@ export default function RightFitSection() {
         depends on more than just sales and expenses, such as real estate, hospitality, or service companies
         with variable demand.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot steps in where most small businesses hit a wall: mapping messy data, configuring KPIs,
+        Geek @ Your Spot LLC steps in where most small businesses hit a wall: mapping messy data, configuring KPIs,
         and setting up dashboards that actually fit your business model. The consultancy’s four-phase approach,
         define objectives, assess&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, choose the
         right technology, and build an implementation plan, means you do not have to figure out the technical
@@ -62,7 +62,7 @@ export default function RightFitSection() {
         you do not have reliable data sources to connect, the value will be limited. But for small businesses
         who want to move quickly, keep their existing tools, and get live, actionable insight from their
         numbers, it is a practical next step. The platform’s free 14-day trial gives you a no-risk way to see if
-        it fits your needs, and Geek @ Your Spot’s consultative approach ensures you do not waste time or money
+        it fits your needs, and Geek @ Your Spot LLC’s consultative approach ensures you do not waste time or money
         on a tool that does not fit.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next step is not to rip out your current systems or commit to a long, expensive project. It is to

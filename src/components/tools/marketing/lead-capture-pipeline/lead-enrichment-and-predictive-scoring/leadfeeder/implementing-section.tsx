@@ -36,8 +36,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         What shortens the go-live process with Leadfeeder is the lack of required custom development. The
         tracking script,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;connectors, and notification
-        rules are all pre-built. You do not need a data scientist or a dedicated IT resource to launch. Geek @
-        Your Spot handles the initial configuration, mapping your website pages to high-intent signals and
+        rules are all pre-built. You do not need a data scientist or a dedicated IT resource to launch. Geek @ Your Spot LLC handles the initial configuration, mapping your website pages to high-intent signals and
         setting up the right filters for your local market. This includes defining which visits should trigger
         an instant alert, say, a Miami law firm hitting your pricing page twice in a week, and which should be
         deprioritized as low-value traffic.</p>
@@ -47,7 +46,7 @@ export default function ImplementingSection() {
         high-fit local account lands on your site, someone sees it in time to act. There is no manual polling
         or daily export required; the process is automatic from the first visit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The final stage is training and handoff. Geek @ Your Spot walks your team through the live system,
+        The final stage is training and handoff. Geek @ Your Spot LLC walks your team through the live system,
         showing how to interpret intent scores, adjust filters, and follow up on hot accounts. Because
         Leadfeeder surfaces company-level data, not individual contacts, your team will need a process for
         researching the right decision-maker once a company is identified. For many small businesses, this is

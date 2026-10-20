@@ -53,7 +53,7 @@ export default function RightFitSection() {
         breaks down: is it data entry, reporting, forecasting, or scenario planning? If your pain points match
         the ones Jirav solves, manual consolidation, slow updates, disconnected forecasts, then you are in the
         right place. If you need help mapping your systems or want to see how Jirav would work with your
-        specific data, that is where an implementation partner like Geek @ Your Spot comes in. They bridge the
+        specific data, that is where an implementation partner like Geek @ Your Spot LLC comes in. They bridge the
         gap between your current setup and a live, automated planning environment, so you get the benefits fast
         and with less risk.</p>
       <p className="text-md text-white shadow-text pt-3">

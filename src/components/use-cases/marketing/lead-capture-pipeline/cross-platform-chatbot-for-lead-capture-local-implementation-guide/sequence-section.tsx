@@ -6,7 +6,7 @@ export default function SequenceSection() {
       <p className="text-md text-white shadow-text pt-3">
         Rolling out a cross-platform chatbot that actually delivers on its promise is a sequence, not a
         one-click install. In a real environment, let’s say a twelve-person HVAC shop in Broward or a retail
-        store with three locations, the steps look the same, but the details are all local. Geek @ Your Spot’s
+        store with three locations, the steps look the same, but the details are all local. Geek @ Your Spot LLC’s
         four-phase method is not just a checklist; it is the order that keeps the project on track and the
         business in control.</p>
       <p className="text-md text-white shadow-text pt-3">

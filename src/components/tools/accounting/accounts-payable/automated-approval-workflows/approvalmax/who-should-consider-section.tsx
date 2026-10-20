@@ -20,7 +20,7 @@ export default function WhoShouldConsiderSection() {
         include evaluating the number of invoices processed monthly, the complexity of approval chains, and
         the frequency of errors due to manual handling.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Once you have a clear understanding of your needs, reaching out to Geek @ Your Spot for a
+        Once you have a clear understanding of your needs, reaching out to Geek @ Your Spot LLC for a
         consultation can provide further insights. As experts in&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation, they can guide you through the setup
         process, ensuring that ApprovalMax integrates seamlessly with your existing systems and meets your
@@ -28,8 +28,7 @@ export default function WhoShouldConsiderSection() {
         maximizes the benefits of automation for your business.</p>
       <p className="text-md text-white shadow-text pt-3">
         In conclusion, ApprovalMax offers a robust solution for businesses looking to enhance their financial
-        approval processes. By carefully evaluating your needs and leveraging the expertise of Geek @ Your
-        Spot, you can make an informed decision that aligns with your operational goals and drives
+        approval processes. By carefully evaluating your needs and leveraging the expertise of Geek @ Your Spot LLC, you can make an informed decision that aligns with your operational goals and drives
         efficiency in your&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;operations.</p>
       <p className="text-md text-white shadow-text pt-3">

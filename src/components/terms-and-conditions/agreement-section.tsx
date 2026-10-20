@@ -4,9 +4,8 @@ export default function AgreementSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        These Terms of Service govern your use of geekatyourspot.com, which Geek at Your Spot LLC operates as
-        an AI consulting firm based in Delray Beach, Florida. In these terms, “we,” “us,” and “our” mean Geek
-        at Your Spot LLC, and “you” means anyone who visits or uses the site.</p>
+        These Terms of Service govern your use of geekatyourspot.com, which Geek @ Your Spot LLC operates as
+        an AI consulting firm based in Delray Beach, Florida. In these terms, “we,” “us,” and “our” mean Geek @ Your Spot LLC, and “you” means anyone who visits or uses the site.</p>
       <p className="text-md text-white shadow-text pt-3">
         By using the site, you agree to these terms. If you do not agree with them, please do not use the
         site. These terms take effect on <strong>October 15, 2026</strong>.</p>

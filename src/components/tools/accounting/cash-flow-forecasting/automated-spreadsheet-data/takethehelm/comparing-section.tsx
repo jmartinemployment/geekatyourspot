@@ -33,7 +33,7 @@ export default function ComparingSection() {
         their specific needs without being constrained by rigid templates. This adaptability ensures that
         businesses can respond swiftly to changes in the market or internal operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For businesses in South Florida, where Geek @ Your Spot provides local expertise, the choice of
+        For businesses in South Florida, where Geek @ Your Spot LLC provides local expertise, the choice of
         Take the Helm is further supported by the consultancy&#39;s ability to tailor the tool&#39;s deployment to
         fit specific business environments. This local support ensures that businesses not only implement the
         tool effectively but also maximize its potential to improve cash flow management and forecasting

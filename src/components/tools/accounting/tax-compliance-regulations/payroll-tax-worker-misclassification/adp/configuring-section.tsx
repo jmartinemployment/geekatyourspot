@@ -8,7 +8,7 @@ export default function ConfiguringSection() {
         payroll&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;and worker
         classification. But the real value comes from how the system is configured up front, what rules are set,
         which logic is automated, and what gets connected to your existing stack. This is not a plug-and-play
-        tool that runs on default settings. Geek @ Your Spot works with you to tune ADP’s own logic to your
+        tool that runs on default settings. Geek @ Your Spot LLC works with you to tune ADP’s own logic to your
         specific needs, so your business gets the protection and efficiency promised, not just another software
         license.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -42,7 +42,7 @@ export default function ConfiguringSection() {
         Integration is a core part of making ADP work in your environment. The platform supports connections to
         popular accounting, HR, and point-of-sale systems, as well as provider-agnostic integrations with most
         payroll and HR platforms. ADP offers APIs for deeper integration, so data flows automatically between
-        time tracking, payroll, and compliance modules. Geek @ Your Spot configures these integrations to match
+        time tracking, payroll, and compliance modules. Geek @ Your Spot LLC configures these integrations to match
         your existing workflows, no duplicate data entry, no manual handoffs, and no blind spots in your
         compliance process.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -55,12 +55,11 @@ export default function ConfiguringSection() {
         Finally, ADP’s extension mechanism is built around its
         robust&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and pre-built connectors. This means your
         payroll and HR data can be synchronized with other business-critical systems, whether you use
-        QuickBooks, a custom&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, or industry-specific tools. Geek
-        @ Your Spot handles the technical mapping and data structure setup, so your information flows cleanly
+        QuickBooks, a custom&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, or industry-specific tools. Geek @ Your Spot LLC handles the technical mapping and data structure setup, so your information flows cleanly
         and securely from one system to the next. This reduces manual work, cuts down on errors, and gives you a
         real-time view of compliance across your workforce.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In practice, configuring ADP is a collaborative process. Geek @ Your Spot starts by defining your
+        In practice, configuring ADP is a collaborative process. Geek @ Your Spot LLC starts by defining your
         business objectives and compliance requirements, then sets up the rules and integrations that match your
         actual workflows. The focus is always on removing manual steps, enforcing the right logic, and making
         sure your business is audit-ready at all times. The result is a payroll and compliance engine that works

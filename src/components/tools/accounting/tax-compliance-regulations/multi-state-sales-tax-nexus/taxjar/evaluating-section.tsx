@@ -21,7 +21,7 @@ export default function EvaluatingSection() {
         and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
         If your business runs on these platforms, setup is straightforward. For custom environments, the
         TaxJar&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;allows
-        deeper integration, but this requires some technical work. Geek @ Your Spot helps map your environment
+        deeper integration, but this requires some technical work. Geek @ Your Spot LLC helps map your environment
         and ensures every sales channel is connected. If you are still manually exporting transactions from
         multiple platforms and reconciling them in spreadsheets, TaxJar’s unified dashboard and automatic data
         aggregation will be a game-changer.</p>
@@ -31,7 +31,7 @@ export default function EvaluatingSection() {
         calculations, reporting, and filing, so you can test it with your own data and workflows. After the
         trial, pricing is published on TaxJar’s site. There are no hidden fees for basic integrations or
         reporting, but advanced features, custom integrations, or high transaction volumes can affect the cost.
-        For most small businesses, the standard plan is enough. Geek @ Your Spot walks you through the pricing
+        For most small businesses, the standard plan is enough. Geek @ Your Spot LLC walks you through the pricing
         tiers, matches them to your sales volume and channel count, and flags any likely overages before you
         sign up.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -44,7 +44,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The platform is not for everyone. If you only sell in Florida, or your out-of-state sales are well below
         any state’s nexus threshold, TaxJar may be more than you need. If your sales channels are all
-        custom-built and you lack in-house technical support, setup will require more work. Geek @ Your Spot
+        custom-built and you lack in-house technical support, setup will require more work. Geek @ Your Spot LLC
         evaluates your current tech stack, sales footprint, and compliance risk before recommending TaxJar. The
         goal is not to sell software, but to solve the specific problem of multi-state sales tax complexity
         without adding cost or confusion.</p>
@@ -69,8 +69,7 @@ export default function EvaluatingSection() {
         multi-state
         sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
         compliance</GlossaryLink>&nbsp;invisible. If your team is already stretched thin, the right fit means
-        fewer errors, less time spent on compliance, and no more scrambling to meet deadlines. Geek @ Your
-        Spot’s role is to make sure the platform is set up to deliver on that promise, and to step in if your
+        fewer errors, less time spent on compliance, and no more scrambling to meet deadlines. Geek @ Your Spot LLC’s role is to make sure the platform is set up to deliver on that promise, and to step in if your
         needs change as you scale.</p>
     </>
   );

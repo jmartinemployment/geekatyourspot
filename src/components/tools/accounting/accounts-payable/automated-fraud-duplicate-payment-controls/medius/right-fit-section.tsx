@@ -20,7 +20,7 @@ export default function RightFitSection() {
         This assessment will help determine how Medius can be best utilized to address these
         vulnerabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Engaging with Geek @ Your Spot can provide additional insights into how Medius can be tailored to fit
+        Engaging with Geek @ Your Spot LLC can provide additional insights into how Medius can be tailored to fit
         your business needs. As an AI implementation consultancy, they offer expertise in configuring Medius
         to integrate seamlessly with your existing systems. This includes mapping data, setting up workflows,
         and training staff to ensure a smooth transition.</p>

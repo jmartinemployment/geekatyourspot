@@ -26,8 +26,7 @@ export default function EvaluatingSection() {
         your financial operations.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement Chaserhq should be based on a thorough evaluation of its fit within
-        your business model and its potential to deliver measurable improvements in cash flow management. Geek @
-        Your Spot can assist in this evaluation, providing expert guidance on how to leverage Chaserhq&#39;s
+        your business model and its potential to deliver measurable improvements in cash flow management. Geek @ Your Spot LLC can assist in this evaluation, providing expert guidance on how to leverage Chaserhq&#39;s
         features to achieve your financial goals effectively.</p>
     </>
   );

@@ -19,14 +19,13 @@ export default function DeployingSection() {
         are processed efficiently and according to established protocols. This customization not only improves
         operational efficiency but also maintains compliance with internal policies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <strong>Geek At Your Spot</strong> plays a pivotal role in this deployment process, offering expertise
-        in accelerated deployment and workflow configuration. By working closely with businesses, Geek At Your
-        Spot ensures that AvidXchange is tailored to fit seamlessly into existing processes, maximizing the
+        <strong>Geek @ Your Spot LLC</strong> plays a pivotal role in this deployment process, offering expertise
+        in accelerated deployment and workflow configuration. By working closely with businesses, Geek @ Your Spot LLC ensures that AvidXchange is tailored to fit seamlessly into existing processes, maximizing the
         benefits of automation. Their consultative approach addresses potential challenges upfront, providing
         solutions that are both practical and effective.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering a DIY approach, it&#39;s important to recognize the value of professional
-        implementation. Geek At Your Spot not only accelerates the deployment timeline but also enhances the
+        implementation. Geek @ Your Spot LLC not only accelerates the deployment timeline but also enhances the
         overall effectiveness of the solution. By leveraging their experience, businesses can avoid common
         pitfalls and ensure that the transition to an automated AP process is as smooth as possible.</p>
     </>

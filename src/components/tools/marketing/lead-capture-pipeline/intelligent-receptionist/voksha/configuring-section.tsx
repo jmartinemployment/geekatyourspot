@@ -40,18 +40,18 @@ export default function ConfiguringSection() {
         is a strength: there is little risk of breaking the system with a bad script or a failed integration.
         Configuration changes are self-serve, fast, and reversible.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where Geek @ Your Spot comes in for businesses in Miami-Dade, Broward, and West Palm Beach
+        This is where Geek @ Your Spot LLC comes in for businesses in Miami-Dade, Broward, and West Palm Beach
         counties. Most teams do not have the time or patience to map out intake flows, test escalation rules,
-        and make sure the right alerts go to the right person. Geek @ Your Spot handles the initial
+        and make sure the right alerts go to the right person. Geek @ Your Spot LLC handles the initial
         configuration, mapping your real-world workflow into Voksha’s scripting interface. They work with your
         team to define what counts as a qualified lead, what questions matter for your industry, and how to
         route calls that need a human touch. They also train your staff on how to adjust flows as your business
         changes, so you are not locked into the day-one setup. When something needs to change, you can do it
-        yourself, or call Geek @ Your Spot to handle it. This is not a set-it-and-forget-it project; it is a
+        yourself, or call Geek @ Your Spot LLC to handle it. This is not a set-it-and-forget-it project; it is a
         living system that adapts as your business grows.</p>
       <p className="text-md text-white shadow-text pt-3">
         In practice, a local HVAC business might start with a standard set of intake questions and, after a
-        month, realize that asking about thermostat brand saves a truck roll on 10% of jobs. Geek @ Your Spot
+        month, realize that asking about thermostat brand saves a truck roll on 10% of jobs. Geek @ Your Spot LLC
         updates the script, tests the new flow, and rolls it out, no code, no downtime. For a dental practice,
         the initial configuration might focus on new patient bookings and insurance questions, with later
         adjustments as the team sees where callers get stuck or drop off. Every change is tracked and
@@ -60,7 +60,7 @@ export default function ConfiguringSection() {
         Voksha’s setup is not about building a custom app or wiring up
         an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. It is about configuring the right questions,
         routing, and escalation rules so your Intelligent Receptionist fits your business, not the other way
-        around. Geek @ Your Spot’s role is to get those rules right from the start, so your team stops missing
+        around. Geek @ Your Spot LLC’s role is to get those rules right from the start, so your team stops missing
         leads and starts seeing the real benefit of always-on, AI-powered call handling.</p>
     </>
   );
@@ -72,7 +72,7 @@ export default function ConfiguringSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h2 id="what-gets-configured-in-voksha-rules-logic-and-how-geek-your-spot-makes-it-work-locally" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Gets Configured in Voksha: Rules, Logic, and How Geek @ Your Spot Makes It Work Locally
+                What Gets Configured in Voksha: Rules, Logic, and How Geek @ Your Spot LLC Makes It Work Locally
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -85,7 +85,7 @@ export default function ConfiguringSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
               <h2 id="what-gets-configured-in-voksha-rules-logic-and-how-geek-your-spot-makes-it-work-locally" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Gets Configured in Voksha: Rules, Logic, and How Geek @ Your Spot Makes It Work Locally
+                What Gets Configured in Voksha: Rules, Logic, and How Geek @ Your Spot LLC Makes It Work Locally
               </h2>
               {body}
             </div>

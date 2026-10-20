@@ -58,7 +58,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In short, the upfront data structure and mapping decisions, transaction detail, product codes, customer
         types, historical data, channel mapping, and accounting sync, are what make Quaderno deliver on its
-        promise. Geek @ Your Spot’s job is to guide you through each mapping, validate your feeds, and make sure
+        promise. Geek @ Your Spot LLC’s job is to guide you through each mapping, validate your feeds, and make sure
         the structure fits both Quaderno’s logic and your real-world sales. Get this right, and the compliance
         engine runs clean. Miss it, and you are back to manual fixes and compliance risk.</p>
     </>

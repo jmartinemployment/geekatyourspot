@@ -17,7 +17,7 @@ export default function RightFitSection() {
         provides the tools necessary to alleviate these pressures.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you&#39;re considering implementing Dext, the next step is to evaluate your current workflows and
-        identify areas where automation can have the most impact. <strong>Geek At Your Spot</strong> can
+        identify areas where automation can have the most impact. <strong>Geek @ Your Spot LLC</strong> can
         assist in this transition by configuring Dext to fit seamlessly into your existing systems, ensuring
         that you leverage the platform&#39;s capabilities to their fullest.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -25,7 +25,7 @@ export default function RightFitSection() {
         <Link id="tools-accounting-dext-right-fit-consultation"
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           book a consultation
-        </Link>&nbsp;with Geek At Your Spot today.</p>
+        </Link>&nbsp;with Geek @ Your Spot LLC today.</p>
     </>
   );
 

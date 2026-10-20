@@ -26,7 +26,7 @@ export const melioContent: ToolPageContent = {
     { "title": "The Cost of Manual Automated Payment Execution", "description": "Routine vendor payments are recreated every month, paid one at a time, and re-keyed into QuickBooks, with no scheduling ahead of due dates." },
     { "title": "How Melio Transforms Automated Payment Execution", "description": "Payments are scheduled in advance against the accounting software, recurring bills run without intervention, and card payments reach vendors who do not accept cards." },
     { "title": "Melio's Architecture and Mechanics", "description": "Two-way sync with QuickBooks, Xero and NetSuite, a centralized payments dashboard, ACH, card and wire options, and the Agent Mel AI assistant for routine AP questions." },
-    { "title": "Deploying Melio in Your Business Environment", "description": "Pre-built connectors establish the two-way sync; data structure, approval limits by vendor, amount and team member, and training are set up with Geek @ Your Spot." },
+    { "title": "Deploying Melio in Your Business Environment", "description": "Pre-built connectors establish the two-way sync; data structure, approval limits by vendor, amount and team member, and training are set up with Geek @ Your Spot LLC." },
     { "title": "Evaluating Melio: Fit and Pricing Considerations", "description": "A straightforward pricing model and QuickBooks and Xero sync suit small to medium-sized businesses; highly complex or heavily customized payment needs may fit elsewhere." },
     { "title": "Is Melio Right for Your Business?", "description": "Built for small businesses managing multiple vendors that want recurring, batch and split payments from one platform." }
   ]

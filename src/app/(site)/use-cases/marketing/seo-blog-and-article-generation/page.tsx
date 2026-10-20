@@ -21,11 +21,11 @@ const jsonLd: Graph = {
             "author": {
                 "@type": "Organization",
                 "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek at Your Spot"
+                "name": "Geek @ Your Spot LLC"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
@@ -122,8 +122,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
         keywords: ["SEO Blog and Article Generation", "AI content tools", "content automation", "SEO optimization", "marketing AI"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/marketing/seo-blog-and-article-generation',
@@ -132,7 +132,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "SEO Blog and Article Generation",
             description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
             url: 'https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
             images: [
@@ -140,7 +140,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -148,7 +148,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "SEO Blog and Article Generation",
             description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -170,7 +170,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

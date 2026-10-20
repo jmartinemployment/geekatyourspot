@@ -10,7 +10,7 @@ export default function ConfiguringSection() {
         guided workflows that map to real regulatory requirements and business rules. What you configure are the
         core compliance guardrails—who is paid, how they are classified, and which tax rules apply in each
         jurisdiction. This section walks through what actually gets set up, what is locked down by the platform,
-        and what Geek @ Your Spot does to tune it for South Florida’s complex, fluid workforce.</p>
+        and what Geek @ Your Spot LLC does to tune it for South Florida’s complex, fluid workforce.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first configuration step in Justworks is defining your worker roster—who is an employee, who is a
         contractor, and where each person works. The platform’s onboarding workflow prompts you to enter or
@@ -49,7 +49,7 @@ export default function ConfiguringSection() {
         offers built-in integrations. These are not open APIs in the sense of custom development, but rather
         direct connectors that sync payroll data, tax filings, and expense reports automatically. This reduces
         manual data entry and ensures that your books match your payroll records—critical for audit defense and
-        monthly closes. Geek @ Your Spot configures these integrations as part of the deployment, mapping your
+        monthly closes. Geek @ Your Spot LLC configures these integrations as part of the deployment, mapping your
         chart of accounts and ensuring each payroll transaction lands in the right place.</p>
       <p className="text-md text-white shadow-text pt-3">
         Justworks does not provide a scripting engine or
@@ -57,7 +57,7 @@ export default function ConfiguringSection() {
         driven by the platform’s own logic and configuration settings. This is by design: the goal is to reduce
         the risk of human error or accidental non-compliance by limiting what can be changed outside of the
         guided workflows. For South Florida businesses, this means you get a system that locks in compliance
-        guardrails, not a toolkit that can be broken by a missed update or a misapplied rule. Geek @ Your Spot’s
+        guardrails, not a toolkit that can be broken by a missed update or a misapplied rule. Geek @ Your Spot LLC’s
         role is to ensure all your data, worker classifications, payroll schedules, and integrations are set up
         correctly from the start, and to train your team on how to manage changes through the platform’s own
         controls.</p>
@@ -65,14 +65,13 @@ export default function ConfiguringSection() {
         The final layer of configuration is compliance monitoring and alerts. Justworks monitors federal, state,
         and local employment law changes, and pushes alerts to your dashboard when action is required. If a new
         tax rule, minimum wage, or overtime regulation comes into effect, the system notifies you and walks you
-        through any required updates. Geek @ Your Spot reviews these alerts with your team during regular
+        through any required updates. Geek @ Your Spot LLC reviews these alerts with your team during regular
         check-ins, making sure nothing is missed and that your payroll and classification logic stays current as
         your business evolves.</p>
       <p className="text-md text-white shadow-text pt-3">
         The result is a compliance-first payroll and HR platform where configuration is about setting up the
         right rules and mapping your people, not building custom automation. For small businesses in South
-        Florida, this means less risk of missed filings, misclassified workers, or tax surprises. Geek @ Your
-        Spot brings the local knowledge and technical experience to make sure Justworks fits your specific
+        Florida, this means less risk of missed filings, misclassified workers, or tax surprises. Geek @ Your Spot LLC brings the local knowledge and technical experience to make sure Justworks fits your specific
         workforce, integrates with your accounting, and scales as your team changes—without requiring you to
         become a payroll or compliance expert yourself.</p>
     </>

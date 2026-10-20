@@ -30,7 +30,7 @@ export default function ImplementationSection() {
                   specific requirements, such as integrating with proprietary systems or developing custom data validation
                   rules.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, we specialize in helping businesses navigate these implementation challenges. Our expertise in
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in
                 AI and data management ensures that Qualytics is deployed efficiently, maximizing its impact on your ad spend
                 optimization efforts.</p>
             </div>
@@ -62,7 +62,7 @@ export default function ImplementationSection() {
                   specific requirements, such as integrating with proprietary systems or developing custom data validation
                   rules.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, we specialize in helping businesses navigate these implementation challenges. Our expertise in
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in
                 AI and data management ensures that Qualytics is deployed efficiently, maximizing its impact on your ad spend
                 optimization efforts.</p>
             </div>

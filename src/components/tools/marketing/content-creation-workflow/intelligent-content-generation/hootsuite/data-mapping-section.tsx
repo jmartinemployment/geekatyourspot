@@ -68,7 +68,7 @@ export default function DataMappingSection() {
         real time. For a small business, this is the difference between a marketing program that runs in the
         background and one that constantly interrupts the workweek.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s approach is to handle this mapping as part of the initial implementation, working
+        Geek @ Your Spot LLC’s approach is to handle this mapping as part of the initial implementation, working
         alongside the business to make decisions about which accounts, assets, roles, and metrics matter most.
         The goal is to launch with a setup that reflects the real way the business operates, not just what is
         possible in the software. This is what keeps the content workflow simple, accurate, and ready to scale

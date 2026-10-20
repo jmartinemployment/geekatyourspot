@@ -24,11 +24,11 @@ const jsonLd: Graph = {
             "author": {
                 "@type": "Organization",
                 "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek at Your Spot"
+                "name": "Geek @ Your Spot LLC"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
@@ -98,9 +98,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
     title: "Cash Flow Forecasting",
     description: "Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.",
     keywords: ["Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation"],
-    authors: [{ name: 'Geek at Your Spot', url: 'https://geekatyourspot.com/' }],
-    creator: 'Geek at Your Spot Llc',
-    publisher: 'Geek at Your Spot Llc',
+    authors: [{ name: 'Geek @ Your Spot LLC', url: 'https://geekatyourspot.com/' }],
+    creator: 'Geek @ Your Spot LLC',
+    publisher: 'Geek @ Your Spot LLC',
     metadataBase: new URL('https://geekatyourspot.com'),
     alternates: {
       canonical: '/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
@@ -109,7 +109,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       title: "Cash Flow Forecasting",
       description: 'Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.',
       url: 'https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
-      siteName: 'Geek at Your Spot',
+      siteName: 'Geek @ Your Spot LLC',
       locale: 'en_US',
       type: 'article',
       images: [
@@ -117,7 +117,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
           url: '/images/GeekAtYourSpot.svg',
           width: 116,
           height: 48,
-          alt: 'Geek at Your Spot',
+          alt: 'Geek @ Your Spot LLC',
         },
       ],
     },
@@ -125,7 +125,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: "Cash Flow Forecasting",
       description: 'Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.',
-      creator: 'Geek at Your Spot',
+      creator: 'Geek @ Your Spot LLC',
       images: ['/images/GeekAtYourSpot.svg'],
     },
     robots: {
@@ -144,7 +144,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     appleWebApp: {
       capable: true,
       statusBarStyle: 'default',
-      title: 'Geek at Your Spot',
+      title: 'Geek @ Your Spot LLC',
     },
   };
 };

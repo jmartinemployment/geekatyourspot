@@ -7,7 +7,7 @@ export default function ImplementingSection() {
         Going live with Cashflowfrog in a small business setting means less waiting, less manual work, and fewer
         surprises than traditional&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;rollouts. The process
         is designed around speed and reliability, not months of custom coding or endless back-and-forth with IT.
-        Here’s how the transition actually unfolds when Geek @ Your Spot handles the implementation for a South
+        Here’s how the transition actually unfolds when Geek @ Your Spot LLC handles the implementation for a South
         Florida small business.</p>
       <p className="text-md text-white shadow-text pt-3">
         First, the time to value is short because Cashflowfrog comes with direct connectors to the most common
@@ -17,14 +17,14 @@ export default function ImplementingSection() {
         Cashflowfrog supports direct bank feeds through Plaid and bulk uploads via Excel, so even legacy data
         can be brought in without manual re-keying.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The initial setup follows a clear, phased path. Geek @ Your Spot starts by connecting the accounting
+        The initial setup follows a clear, phased path. Geek @ Your Spot LLC starts by connecting the accounting
         system or bank accounts. This is usually a guided process, not a technical project. Once connected,
         Cashflowfrog automatically pulls in transaction history, invoices, bills, and balances. The first cash
         flow forecast is generated in minutes, not days, and it reflects the business’s actual numbers, no
         placeholder templates or demo data. This immediate feedback lets the team see real gaps and risks right
         away, not after a month of configuration.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next, Geek @ Your Spot works with the client to review the live forecast and adjust scenario settings.
+        Next, Geek @ Your Spot LLC works with the client to review the live forecast and adjust scenario settings.
         Cashflowfrog’s scenario planning tools allow the team to model real questions, what if a big client pays
         late, or if a major expense hits unexpectedly, without overwriting the base forecast. This is not a
         generic what-if worksheet; each scenario is built on the business’s own transaction data, so the impact
@@ -39,19 +39,19 @@ export default function ImplementingSection() {
         What shortens the go-live even further is Cashflowfrog’s templated setup for common business types.
         Retail, professional services, construction,
         and&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;each have tailored onboarding flows that map
-        typical revenue and expense streams to the right forecast categories. Geek @ Your Spot configures these
+        typical revenue and expense streams to the right forecast categories. Geek @ Your Spot LLC configures these
         templates to reflect the client’s real chart of accounts, so the forecast is meaningful from day one.
         There’s no need to invent new categories or guess at mapping rules, the system recognizes the structure
         already in use.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses with more complex needs, such as multiple entities or locations, Cashflowfrog supports
-        phased rollout. Geek @ Your Spot can bring one entity live, validate the forecast and reporting, then
+        phased rollout. Geek @ Your Spot LLC can bring one entity live, validate the forecast and reporting, then
         add additional entities or currencies as needed. This staged approach means the team is never
         overwhelmed, and each part of the business gets the attention it needs. The consolidated view still
         comes together automatically, so leadership can see the big picture without waiting for every detail to
         be perfect.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout the process, Geek @ Your Spot handles the technical configuration, data mapping, and user
+        Throughout the process, Geek @ Your Spot LLC handles the technical configuration, data mapping, and user
         access setup. Training is focused on how to use the live dashboards, run scenarios, and interpret
         payment insights, not on how to maintain or troubleshoot the system. Because Cashflowfrog is
         cloud-based, updates and new features are rolled out automatically, so there’s no maintenance burden on
@@ -60,7 +60,7 @@ export default function ImplementingSection() {
         In summary, going live with Cashflowfrog is a matter of connecting, reviewing, and refining, not
         building from scratch. The platform’s pre-built integrations, automated data sync, and templated
         onboarding cut weeks off the typical&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;deployment
-        timeline. Geek @ Your Spot’s role is to make sure the data flows cleanly, the mapping reflects the real
+        timeline. Geek @ Your Spot LLC’s role is to make sure the data flows cleanly, the mapping reflects the real
         business, and the team is ready to act on what the forecasts reveal. There’s no long blackout period,
         and no need to hire extra staff just to get started. The result is a live, accurate cash flow view that
         the team can trust from the first week.</p>

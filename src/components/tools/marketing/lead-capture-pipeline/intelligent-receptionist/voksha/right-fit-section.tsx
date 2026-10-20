@@ -47,7 +47,7 @@ export default function RightFitSection() {
         identify that now and look for a tool that matches your requirements exactly, rather than stretching a
         platform beyond what it does well.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot works with businesses across Miami-Dade, Broward, and West Palm Beach to make sure the
+        Geek @ Your Spot LLC works with businesses across Miami-Dade, Broward, and West Palm Beach to make sure the
         Intelligent Receptionist setup matches the real-world needs of each client. If Voksha is a fit, the
         deployment is fast and focused. If it is not, the right answer is to choose a tool that fits your
         business, not to force a mismatch. The cost of getting the decision wrong is not just wasted money, it

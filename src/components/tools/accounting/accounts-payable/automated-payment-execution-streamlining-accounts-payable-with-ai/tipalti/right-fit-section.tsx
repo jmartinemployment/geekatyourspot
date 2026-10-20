@@ -16,7 +16,7 @@ export default function RightFitSection() {
         cost-effective.</p>
       <p className="text-md text-white shadow-text pt-3">
         For those considering Tipalti, the next step is to evaluate how its features can be integrated into
-        your current systems. Geek @ Your Spot, an AI implementation consultancy, can assist in this process by
+        your current systems. Geek @ Your Spot LLC, an AI implementation consultancy, can assist in this process by
         ensuring seamless integration with your existing tools, such as QuickBooks or other ERP systems. This
         partnership can help tailor Tipalti&#39;s capabilities to your specific needs, maximizing its
         effectiveness.</p>

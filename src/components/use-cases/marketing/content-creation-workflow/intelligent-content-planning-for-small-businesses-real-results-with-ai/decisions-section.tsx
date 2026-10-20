@@ -14,7 +14,7 @@ export default function DecisionsSection() {
         The first and most critical decision is how you define your business objectives. This is not a box to
         tick for the sake of a project charter. If you cannot name the outcome in terms your accountant or
         your sales lead would care about, like higher lead quality, lower cost per piece, or faster campaign
-        launches, you are setting yourself up to chase vanity metrics. At Geek @ Your Spot, we make this step
+        launches, you are setting yourself up to chase vanity metrics. At Geek @ Your Spot LLC, we make this step
         concrete: every project starts by defining one or two measurable KPIs that tie directly to revenue or
         operational savings. For a local marketing agency, it might be reducing the time from idea to
         scheduled post by 50%. For a retail team, it could be doubling the number of blog posts that rank in
@@ -55,7 +55,7 @@ export default function DecisionsSection() {
         content, one brand voice, or one channel allows you to test and adapt without risking the whole
         operation. Jumping into a full rollout before the team is ready can overload your staff, break
         your&nbsp;<GlossaryLink slug="data-model">data model</GlossaryLink>, and create resistance that
-        lingers long after launch. At Geek @ Your Spot, we always recommend a focused pilot, even for teams
+        lingers long after launch. At Geek @ Your Spot LLC, we always recommend a focused pilot, even for teams
         eager to move fast. The lessons learned in that first cycle pay off tenfold when you expand to other
         channels or add new tools.</p>
       <p className="text-md text-white shadow-text pt-3">

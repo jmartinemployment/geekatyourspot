@@ -54,7 +54,7 @@ export default function EvaluatingSection() {
         always-current cash view without adding staff or blowing past your budget on a
         months-long&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;rollout.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to make sure Cashflowfrog fits your real-world environment. That means
+        Geek @ Your Spot LLC’s role is to make sure Cashflowfrog fits your real-world environment. That means
         mapping your data, configuring rules and automations, and training your team to use the dashboard and
         reports. The goal is not just to install a tool, but to deliver a system that your team actually trusts
         and maintains, one that gives you time back and confidence in your decisions. If you want to see how

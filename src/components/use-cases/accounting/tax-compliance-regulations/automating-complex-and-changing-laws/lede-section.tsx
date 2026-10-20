@@ -23,7 +23,7 @@ export default function LedeSection() {
         For small businesses in South Florida,&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>&nbsp;is not just a challenge—it&#39;s a constant threat to their operations.
         The lack of dedicated resources means that many rely on manual processes that are prone to errors and
-        oversight. This is where Geek @ Your Spot steps in, offering intelligent tax solutions that transcend
+        oversight. This is where Geek @ Your Spot LLC steps in, offering intelligent tax solutions that transcend
         traditional methods. By leveraging AI-driven automation, we provide businesses with the tools to
         seamlessly navigate these complex and shifting tax landscapes. Our solutions update in real-time,
         ensuring that your business remains compliant, no matter how often the laws change.</p>

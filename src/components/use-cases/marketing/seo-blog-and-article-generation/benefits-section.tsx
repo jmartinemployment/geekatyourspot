@@ -11,7 +11,7 @@ export default function BenefitsSection() {
         Automated SEO content generation provides a solution, enabling businesses to keep up with demand while maintaining quality and relevance. With tools like Surfer SEO and Frase, content is optimized for search engines right from the start, minimizing the need for extensive revisions.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot specializes in configuring these tools to automate content generation processes effectively, ensuring that content is not only produced quickly but also aligns with SEO best practices.
+        Geek @ Your Spot LLC specializes in configuring these tools to automate content generation processes effectively, ensuring that content is not only produced quickly but also aligns with SEO best practices.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Content generated faster with built-in SEO optimization.</li>
@@ -32,7 +32,7 @@ export default function BenefitsSection() {
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="integration-with-change-management-processes">Integration with Change Management Processes</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot integrates AI solutions with existing change management processes to ensure smooth transitions and adoption. This involves training staff on new tools and workflows, reducing resistance to change, and promoting a cultural shift towards <GlossaryLink slug="analytics">data-driven</GlossaryLink> content creation.
+        Geek @ Your Spot LLC integrates AI solutions with existing change management processes to ensure smooth transitions and adoption. This involves training staff on new tools and workflows, reducing resistance to change, and promoting a cultural shift towards <GlossaryLink slug="analytics">data-driven</GlossaryLink> content creation.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         This approach not only facilitates the adoption of new technologies but also ensures that the benefits of automation are fully realized across the organization.
@@ -50,7 +50,7 @@ export default function BenefitsSection() {
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-quality-control-mechanisms">Implementing Quality Control Mechanisms</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek At Your Spot implements quality control mechanisms by configuring AI tools to automatically flag inconsistencies and errors. This proactive approach reduces the likelihood of mistakes slipping through the cracks, ensuring that all content aligns with brand guidelines and quality expectations.
+        Geek @ Your Spot LLC implements quality control mechanisms by configuring AI tools to automatically flag inconsistencies and errors. This proactive approach reduces the likelihood of mistakes slipping through the cracks, ensuring that all content aligns with brand guidelines and quality expectations.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         These mechanisms not only save time but also protect the brand&apos;s reputation by maintaining high standards of content quality.

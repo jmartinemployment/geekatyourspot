@@ -28,10 +28,10 @@ export default function ImplementingSection() {
         adjustments to be made based on real-time feedback from users. This iterative process ensures that the
         final setup is perfectly aligned with the business&#39;s operational needs.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout the implementation, Geek @ Your Spot plays a crucial role in bridging any gaps. As a local
+        Throughout the implementation, Geek @ Your Spot LLC plays a crucial role in bridging any gaps. As a local
         consultancy, they provide hands-on support, ensuring that the transition is as smooth as possible. Their
         expertise in configuring TaxValet to work within the specific parameters of the client&#39;s environment
-        is invaluable. By handling the technical setup, data mapping, and initial training, Geek @ Your Spot
+        is invaluable. By handling the technical setup, data mapping, and initial training, Geek @ Your Spot LLC
         reduces the learning curve and helps businesses start leveraging TaxValet&#39;s full potential from day
         one.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -26,7 +26,7 @@ export default function OverviewSection() {
         spreadsheet automatically. The result: faster responses, organized prospects, and more deals closed
         without the chaos or burnout.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot helps small businesses in West Palm Beach, Broward and Miami-Dade counties set up
+        Geek @ Your Spot LLC helps small businesses in West Palm Beach, Broward and Miami-Dade counties set up
         these intelligent lead capture pipelines. We use proven chatbots for marketing,
         AI-driven&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;and voice
         assistants, so your team isn’t buried under notifications or stuck chasing cold leads. You get a

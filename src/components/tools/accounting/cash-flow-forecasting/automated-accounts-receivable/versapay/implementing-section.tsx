@@ -26,7 +26,7 @@ export default function ImplementingSection() {
         full-scale deployment. It also provides an opportunity to train staff incrementally, reducing the learning
         curve and ensuring smooth adoption.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, the go-live phase is supported by comprehensive training and support from Geek @ Your Spot. As a
+        Finally, the go-live phase is supported by comprehensive training and support from Geek @ Your Spot LLC. As a
         local consultancy specializing in&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation, they
         ensure that your team is well-prepared to use Versapay effectively. They provide hands-on guidance during
         the transition, addressing any challenges that arise and ensuring that your automated accounts receivable

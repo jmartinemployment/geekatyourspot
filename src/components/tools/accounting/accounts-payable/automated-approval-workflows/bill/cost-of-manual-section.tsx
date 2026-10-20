@@ -17,7 +17,7 @@ export default function CostOfManualSection() {
         casual communication rather than a critical financial control. This approach leaves businesses
         vulnerable to errors and inefficiencies. Without a documented approval workflow, managers struggle to
         keep track of what needs attention, leading to missed deadlines and strained vendor relationships.
-        Geek @ Your Spot&#39;s implementation of Bill aims to transform these verbal, inbox-based approvals
+        Geek @ Your Spot LLC&#39;s implementation of Bill aims to transform these verbal, inbox-based approvals
         into documented workflows that are easy to use from email or mobile, maintaining a permanent audit
         trail.</p>
       <p className="text-md text-white shadow-text pt-3">

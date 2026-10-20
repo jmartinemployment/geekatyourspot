@@ -12,7 +12,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 
 const TITLE = "Privacy Policy";
 const DESCRIPTION =
-    "How Geek at Your Spot collects, uses, shares, and protects the information you give us when you visit our site or book a consultation.";
+    "How Geek @ Your Spot LLC collects, uses, shares, and protects the information you give us when you visit our site or book a consultation.";
 const CANONICAL = "/privacy-policy";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -20,18 +20,18 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         robots: { index: true, follow: true },
     };

@@ -39,7 +39,7 @@ export default function EvaluatingSection() {
         volume grows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Fit also means thinking about who should set it up. Koala is self-serve for basic use, but the real
-        value comes when the configuration matches your business’s structure and goals. Geek @ Your Spot’s
+        value comes when the configuration matches your business’s structure and goals. Geek @ Your Spot LLC’s
         role is to close the gap between what Koala can do and what your week actually looks like. They handle
         the mapping, the data import, the integration with your existing tools, and the training that keeps
         your team productive. For a small business, this is the difference between another unused software

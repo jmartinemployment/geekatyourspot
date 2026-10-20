@@ -15,7 +15,7 @@ export default function DataMappingSection() {
         lead to compliance issues and financial penalties.</p>
       <p className="text-md text-white shadow-text pt-3">
         Mapping your sales data to TaxJar&#39;s system is another critical step. This involves linking your
-        transaction data from various sales channels to TaxJar&#39;s platform. Geek @ Your Spot assists in
+        transaction data from various sales channels to TaxJar&#39;s platform. Geek @ Your Spot LLC assists in
         setting up these connections, ensuring that data flows seamlessly from e-commerce platforms like Amazon
         and Squarespace into TaxJar. This integration is essential for generating accurate tax reports and
         filings.</p>
@@ -25,7 +25,7 @@ export default function DataMappingSection() {
         you to take timely action to remain compliant. Proper setup of this feature involves mapping your sales
         data to the dashboard, enabling it to provide real-time insights into your tax obligations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, Geek @ Your Spot ensures that all data privacy and security measures are in place. This
+        Finally, Geek @ Your Spot LLC ensures that all data privacy and security measures are in place. This
         includes setting up access controls and encryption to protect sensitive financial information. By
         addressing these data structure and mapping considerations upfront, your business can leverage
         TaxJar&#39;s full potential, ensuring accurate and efficient tax compliance.</p>

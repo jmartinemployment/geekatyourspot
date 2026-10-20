@@ -28,8 +28,8 @@ export default function ConfiguringSection() {
         manual effort involved in managing these processes. This automation not only saves time but also
         minimizes the risk of errors, ensuring that financial records are always up-to-date.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot plays a pivotal role in configuring these elements for small businesses in South
-        Florida. By understanding the specific needs and existing systems of a business, Geek @ Your Spot can
+        Geek @ Your Spot LLC plays a pivotal role in configuring these elements for small businesses in South
+        Florida. By understanding the specific needs and existing systems of a business, Geek @ Your Spot LLC can
         ensure that Take the Helm is set up to maximize efficiency and accuracy. This includes mapping data from
         existing systems into Take the Helm, integrating it with platforms like QuickBooks or Xero, and setting up
         the automation rules that align with the business&#39;s financial strategies.</p>

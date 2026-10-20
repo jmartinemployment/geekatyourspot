@@ -41,7 +41,7 @@ export default function LedeSection() {
         should be. You know the pain: one late payment or missed bill can set off a domino chain of cash issues,
         yet every fix means more hours lost to spreadsheets and emails.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Intelligent Resource Planning tackles that head-on. At Geek @ Your Spot, we help small businesses in
+        Intelligent Resource Planning tackles that head-on. At Geek @ Your Spot LLC, we help small businesses in
         South Florida align their goals with the right automation, starting with what matters most: real, live
         cash flow insight and control. We do this with a four-phase method: setting clear business outcomes,
         assessing your data for accuracy and readiness, picking tools that work with what you already use, and

@@ -36,8 +36,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For local businesses who do fit the Castmagic profile, the next step is not to buy a license and hope
         for the best. The real advantage comes from a thoughtful implementation, mapping your content sources,
-        configuring prompts and approval flows, and training your team on the workflow. This is where Geek @
-        Your Spot comes in. As a South Florida consultancy focused on small business AI, Geek @ Your Spot
+        configuring prompts and approval flows, and training your team on the workflow. This is where Geek @ Your Spot LLC comes in. As a South Florida consultancy focused on small business AI, Geek @ Your Spot LLC
         specializes in making sure Castmagic fits your environment and delivers on its promise. From the first
         consultation to the final workflow mapping, the approach is about closing the gap between what you
         record and what actually gets published, without adding unnecessary complexity or cost.</p>

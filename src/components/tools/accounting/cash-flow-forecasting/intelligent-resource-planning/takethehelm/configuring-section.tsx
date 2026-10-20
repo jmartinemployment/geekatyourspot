@@ -6,13 +6,13 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Take the Helm is built for hands-on configuration, not just plug-and-play. What makes it work for a
         small business is the way its rules and automation logic get set up to match your real cash flow cycles.
-        Geek @ Your Spot handles this setup end to end, starting with the first data sync and carrying through
+        Geek @ Your Spot LLC handles this setup end to end, starting with the first data sync and carrying through
         to live scenario planning. This is not a generic process. Each step is about making Take the Helm
         reflect how your business actually runs, not how a software vendor thinks it should.</p>
       <p className="text-md text-white shadow-text pt-3">
         The core of Take the Helm’s configuration is its forecasting rules. These are not abstract settings. In
         practice, they decide how your cash flow forecast responds to every invoice, bill, and payment. For
-        example, when Geek @ Your Spot configures Take the Helm, they start by mapping your chart of accounts
+        example, when Geek @ Your Spot LLC configures Take the Helm, they start by mapping your chart of accounts
         and connecting your accounting system, QuickBooks, Xero, or Sage. From there, they set up rules for how
         transactions import, which accounts to include in forecasts, and how to handle exceptions like loans or
         one-off expenses. This is all done through Take the Helm’s own setup wizard and dashboard, not through
@@ -45,13 +45,13 @@ export default function ConfiguringSection() {
         Take the Helm does not expose an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or scripting
         environment for custom extensions. All configuration is done within the platform’s own interface. For
         most small businesses, this is a strength. There is no need to maintain custom integrations or worry
-        about breaking changes. Geek @ Your Spot’s role is to make sure every rule, scenario, and data mapping
+        about breaking changes. Geek @ Your Spot LLC’s role is to make sure every rule, scenario, and data mapping
         in Take the Helm matches your real business logic, so you do not have to translate your process into
         software-speak. This is what closes the gap between a tool that is merely installed and one that
         actually runs your week.</p>
       <p className="text-md text-white shadow-text pt-3">
         For a team coming from scattered spreadsheets, the shift is immediate. Instead of updating formulas and
-        chasing down missing numbers, you set the rules once with Geek @ Your Spot’s help and the system runs
+        chasing down missing numbers, you set the rules once with Geek @ Your Spot LLC’s help and the system runs
         itself. If your business changes, you adjust the rules, no need for a new implementation. Take the
         Helm’s configuration is not a one-time event; it is an ongoing process that adapts as your cash flow
         patterns evolve. This is what makes it a fit for small businesses that need control without complexity.</p>

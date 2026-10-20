@@ -28,7 +28,7 @@ export default function OverviewSection() {
         scenarios, and plan your workforce with the same data everyone else sees, without spending nights
         cleaning up after the fact.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot delivers these results for small businesses across Miami-Dade, Broward, and Palm Beach
+        Geek @ Your Spot LLC delivers these results for small businesses across Miami-Dade, Broward, and Palm Beach
         counties. Their method replaces spreadsheets and manual entry with automated accounts receivable,
         real-time spreadsheet data integration, and enterprise planning tools that fit your existing systems.
         The outcome: less wasted time, fewer errors, and decisions based on what is actually happening in your

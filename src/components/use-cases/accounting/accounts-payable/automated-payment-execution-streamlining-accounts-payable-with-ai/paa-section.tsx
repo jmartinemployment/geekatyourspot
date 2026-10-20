@@ -86,7 +86,7 @@ export default function PAASection() {
               Yes, payments above a certain amount can require a second approver. This is a common security
               measure in automated payment execution systems to prevent unauthorized transactions. By setting
               approval thresholds, small businesses can ensure that larger payments receive an extra layer of
-              scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot can help set up
+              scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot LLC can help set up
               these controls within your payment processes.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -96,7 +96,7 @@ export default function PAASection() {
               An approved bill might still be waiting to be paid due to several factors. There could be cash
               flow management strategies in place that dictate payment timing. Alternatively, there might be a
               delay in the automated system&#39;s payment cycle or a need for manual intervention to resolve
-              discrepancies. Geek @ Your Spot can assist in identifying and resolving these issues to
+              discrepancies. Geek @ Your Spot LLC can assist in identifying and resolving these issues to
               streamline your payment processes.</p>
           </div>
         </div>

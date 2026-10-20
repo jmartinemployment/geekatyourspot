@@ -6,8 +6,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog stands out for how much of the heavy lifting it automates the moment it is connected to
         your accounting data. Most of the setup is about telling it what to watch, what to automate, and how to
-        handle the real quirks of your business, rather than building a forecasting model from scratch. Geek @
-        Your Spot’s job is to make sure every rule and automation logic in Cashflowfrog lines up with the way
+        handle the real quirks of your business, rather than building a forecasting model from scratch. Geek @ Your Spot LLC’s job is to make sure every rule and automation logic in Cashflowfrog lines up with the way
         your business actually runs, not just how the software expects a textbook company to behave.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first thing to configure is which accounts, entities, and cash streams Cashflowfrog should pull into
@@ -37,7 +36,7 @@ export default function ConfiguringSection() {
         into the forecast. This is especially useful when you need to connect sales data or contract wins from
         outside your accounting system.</p>
       <p className="text-md text-white shadow-text pt-3">
-        AI-driven automation is another layer that Geek @ Your Spot configures for clients who want forecasting
+        AI-driven automation is another layer that Geek @ Your Spot LLC configures for clients who want forecasting
         to get smarter as they grow. Cashflowfrog’s AI projection suggestions learn from your transaction
         history, spotting new patterns after each data sync and prompting you to review or adjust projections.
         The platform also connects to AI assistants like Claude and ChatGPT through MCP, allowing you to query
@@ -48,7 +47,7 @@ export default function ConfiguringSection() {
         Cashflowfrog is a configuration-driven platform, not a code-first tool. There is no open scripting
         interface or developer SDK. All extension happens through supported integrations, accounting software,
         bank feeds, Zapier, and AI connectors. This makes deployment simpler for small businesses: there is less
-        risk of a misconfigured custom script breaking the forecast, and Geek @ Your Spot can focus on mapping
+        risk of a misconfigured custom script breaking the forecast, and Geek @ Your Spot LLC can focus on mapping
         your business logic to the platform’s built-in rules and automations.</p>
       <p className="text-md text-white shadow-text pt-3">
         The final step is configuring alerts and exception handling. Cashflowfrog can flag low balance warnings,
@@ -57,7 +56,7 @@ export default function ConfiguringSection() {
         trails or segmented access, role-based permissions and audit-friendly design are available, supporting
         secure collaboration across finance and operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In practice, Geek @ Your Spot spends the most time upfront on mapping your data structure and process
+        In practice, Geek @ Your Spot LLC spends the most time upfront on mapping your data structure and process
         flows to Cashflowfrog’s configuration panels. The goal is to eliminate manual steps, automate as much as
         possible, and make sure every forecast and alert reflects your actual operating reality. Once
         configured, Cashflowfrog becomes a live, always-current cash planning system that adapts as your

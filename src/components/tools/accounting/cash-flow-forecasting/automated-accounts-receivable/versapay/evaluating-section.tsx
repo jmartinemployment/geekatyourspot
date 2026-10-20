@@ -18,13 +18,13 @@ export default function EvaluatingSection() {
         business, accommodating increasing transaction volumes without compromising performance. This makes it a
         viable long-term solution for small businesses planning to expand their operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot assists clients in assessing whether Versapay is the right fit by analyzing their current
+        Geek @ Your Spot LLC assists clients in assessing whether Versapay is the right fit by analyzing their current
         accounts receivable processes and identifying areas for improvement. They provide insights into how Versapay
         can address specific pain points, such as delayed payments or reconciliation errors, and help quantify the
         potential return on investment.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, choosing Versapay involves weighing its comprehensive features against the specific needs of
-        your business and the potential benefits it offers. With Geek @ Your Spot&#39;s guidance, businesses can
+        your business and the potential benefits it offers. With Geek @ Your Spot LLC&#39;s guidance, businesses can
         make an informed decision, ensuring that they select a solution that not only fits their current
         requirements but also supports future growth.</p>
     </>

@@ -19,7 +19,7 @@ export default function EvaluatingSection() {
         As of October 20, 2026, Floatapp&#39;s&nbsp;<a id="tools-accounting-spreadsheet-data-floatapp-evaluating-pricing-source" href="https://floatapp.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Growth plan at $265 per
         month, or $215 per month billed annually, and the Scale plan at $389 per month, or $315 per month billed
         annually, with a 14-day free trial. It is important to consider the value it brings against its cost. For many businesses, the time saved and the reduction in errors
-        justify the investment. Geek @ Your Spot can help you assess whether Floatapp&#39;s capabilities align with
+        justify the investment. Geek @ Your Spot LLC can help you assess whether Floatapp&#39;s capabilities align with
         your budget and operational goals.</p>
       <p className="text-md text-white shadow-text pt-3">
         In terms of scalability, Floatapp is well-suited for small to medium-sized businesses that require robust
@@ -27,8 +27,7 @@ export default function EvaluatingSection() {
         manage complex financial situations effectively. If your business anticipates growth, Floatapp can scale
         with you, offering more advanced features as your needs evolve.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, the decision to implement Floatapp should consider the support and expertise available from Geek @
-        Your Spot. Their guidance ensures that the tool is configured correctly and that your team is trained to use
+        Finally, the decision to implement Floatapp should consider the support and expertise available from Geek @ Your Spot LLC. Their guidance ensures that the tool is configured correctly and that your team is trained to use
         it effectively, maximizing the return on your investment. By leveraging their local expertise, you can
         ensure that Floatapp is not just a tool, but a strategic asset in your financial management toolkit.</p>
     </>

@@ -49,7 +49,7 @@ export default function EvaluatingSection() {
         any team that values control over its own materials.</p>
       <p className="text-md text-white shadow-text pt-3">
         Support and onboarding are also part of fit. Imagine is a platform, not a service, there is no
-        built-in agency to do the work for you. This is where Geek @ Your Spot comes in: configuring your
+        built-in agency to do the work for you. This is where Geek @ Your Spot LLC comes in: configuring your
         workflows, mapping your brand kit, and training your team so you get value from day one. If you want a
         tool that simply works out of the box, be ready to invest in setup or partner with an expert who knows
         the platform.</p>
@@ -59,7 +59,7 @@ export default function EvaluatingSection() {
         a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, check
         whether Imagine can connect directly or whether you will need to bridge the gap manually. For most
         small businesses, the real win is in the workflow automation and brand governance, not in deep
-        technical integrations. But if integration is a must, talk to Geek @ Your Spot about what is possible
+        technical integrations. But if integration is a must, talk to Geek @ Your Spot LLC about what is possible
         with Imagine’s MCP server and available connectors.</p>
       <p className="text-md text-white shadow-text pt-3">
         The bottom line: Imagine is a good fit for small businesses that want to get out of the content grind,

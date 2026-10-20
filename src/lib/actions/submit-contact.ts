@@ -28,7 +28,7 @@ export async function submitContact(
   const resend = new Resend(apiKey);
 
   const result = await resend.emails.send({
-    from: `Geek At Your Spot <${fromEmail}>`,
+    from: `"Geek @ Your Spot LLC" <${fromEmail}>`,
     to: toEmail,
     subject: `New contact request. ${data.firstName} ${data.lastName}`,
     html: `
@@ -48,7 +48,7 @@ export async function submitContact(
             <td style="padding:12px 16px;font-size:14px">${data.phone}</td>
           </tr>
         </table>
-        <p style="font-size:12px;color:#aaa;margin:24px 0 0">Geek At Your Spot · Delray Beach, Florida</p>
+        <p style="font-size:12px;color:#aaa;margin:24px 0 0">Geek @ Your Spot LLC · Delray Beach, Florida</p>
       </div>
     `.trim(),
   });

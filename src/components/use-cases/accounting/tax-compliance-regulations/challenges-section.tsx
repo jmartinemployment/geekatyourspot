@@ -15,7 +15,7 @@ export default function ChallengesSection() {
         solutions. This can result in significant integration work, requiring custom development and data
         migration efforts.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot assists clients by conducting comprehensive system audits to identify integration
+        Geek @ Your Spot LLC assists clients by conducting comprehensive system audits to identify integration
         points and potential bottlenecks. By leveraging expertise in data model design and workflow
         configuration, they ensure that the automated tax solutions seamlessly integrate into existing IT
         infrastructures.</p>
@@ -26,7 +26,7 @@ export default function ChallengesSection() {
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         In a representative scenario, a mid-sized retailer might face a 30% increase in integration costs due to
-        unforeseen data compatibility issues. Geek At Your Spot mitigates such risks by employing robust data
+        unforeseen data compatibility issues. Geek @ Your Spot LLC mitigates such risks by employing robust data
         validation and transformation techniques.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Regulatory Compliance and Change Management
@@ -37,13 +37,13 @@ export default function ChallengesSection() {
         compliance. This requires continuous monitoring and updates to the automation logic, which can be
         resource-intensive.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot provides governance frameworks that include regular audits and compliance checks.
+        Geek @ Your Spot LLC provides governance frameworks that include regular audits and compliance checks.
         Their approach ensures that automated tax solutions remain aligned with the latest regulatory
         requirements, thus minimizing the risk of non-compliance.</p>
       <p className="text-md text-white shadow-text pt-3">
         Furthermore, implementing tax automation necessitates effective change management strategies to ensure
         smooth adoption within the organization. Resistance to change is common, especially when traditional
-        processes are deeply entrenched. Geek At Your Spot employs structured change management practices,
+        processes are deeply entrenched. Geek @ Your Spot LLC employs structured change management practices,
         including stakeholder engagement and training programs, to facilitate a seamless transition.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Cost and Resource Allocation
@@ -53,7 +53,7 @@ export default function ChallengesSection() {
         Initial setup costs, ongoing maintenance, and training expenses must be carefully balanced against the
         anticipated benefits of automation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek At Your Spot offers strategic consulting to help organizations assess ROI and prioritize automation
+        Geek @ Your Spot LLC offers strategic consulting to help organizations assess ROI and prioritize automation
         initiatives that deliver the highest value. By focusing on areas with the greatest potential for
         efficiency gains, they help clients allocate resources effectively.</p>
       <p className="text-md text-white shadow-text pt-3">

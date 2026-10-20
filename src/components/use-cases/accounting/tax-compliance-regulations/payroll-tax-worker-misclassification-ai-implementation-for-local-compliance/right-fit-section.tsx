@@ -36,7 +36,7 @@ export default function RightFitSection() {
         Another scenario where this approach is not the right fit: when your data is not ready for automation.
         If your worker records are inconsistent, you lack digital payroll history, or your accounting is still
         on paper, the first step is not automation, but getting your data in order. Automating chaos only
-        produces automated chaos. The four-phase methodology used by Geek @ Your Spot starts with
+        produces automated chaos. The four-phase methodology used by Geek @ Your Spot LLC starts with
         a&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>&nbsp;assessment for a reason—clean data is the foundation. If you’re not ready to
         audit and standardize your employee and contractor information, automation will only expose the gaps,

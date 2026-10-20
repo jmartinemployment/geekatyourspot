@@ -20,7 +20,7 @@ export default function OverviewSection() {
         ready to talk go unnoticed. The result is a cycle of missed revenue and wasted effort, with no clear
         way to tell which marketing and sales activities are working and which are just noise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-lead-enrichment-factors-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment and Predictive Scoring</Link>&nbsp;changes that equation. Instead of chasing cold lists, these
+        <Link id="tools-marketing-lead-enrichment-factors-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;changes that equation. Instead of chasing cold lists, these
         systems use AI to spot, score and surface the hottest accounts in real time. They pull together
         website activity, firmographics, and live intent signals from every channel, chat, voice, ads, and
         email, to build a complete picture of every visitor. The pipeline is no longer a black box. Now, your
@@ -29,7 +29,7 @@ export default function OverviewSection() {
         on what works, and the business stops leaving money on the table.</p>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in this region, this is more than a technical upgrade. It’s the difference
-        between guessing and knowing, between chasing ghosts and closing real deals. Geek @ Your Spot brings
+        between guessing and knowing, between chasing ghosts and closing real deals. Geek @ Your Spot LLC brings
         these Lead Capture Pipeline solutions, smart chatbots, AI scoring, and always-on voice assistants,
         into your daily workflow, so your best leads never slip through the cracks again.</p>
     </>

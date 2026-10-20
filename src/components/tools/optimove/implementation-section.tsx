@@ -29,7 +29,7 @@ export default function ImplementationSection() {
                 integration with other tools and systems. Businesses may need to develop custom code for specific integrations or to
                 extend Optimove’s functionality to meet unique business needs. However, for most standard implementations, the
                 platform’s built-in features and configurations are sufficient.</p>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, we specialize in closing the gap for businesses by providing expert guidance on these
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in closing the gap for businesses by providing expert guidance on these
                 implementation considerations. Our consultancy services ensure that clients can leverage Optimove’s full potential,
                 resulting in faster deployment, efficient data management, and optimized ad spend strategies.</p>
             </div>
@@ -60,7 +60,7 @@ export default function ImplementationSection() {
                 integration with other tools and systems. Businesses may need to develop custom code for specific integrations or to
                 extend Optimove’s functionality to meet unique business needs. However, for most standard implementations, the
                 platform’s built-in features and configurations are sufficient.</p>
-              <p className="text-md text-white shadow-text pt-3">At Geek At Your Spot, we specialize in closing the gap for businesses by providing expert guidance on these
+              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in closing the gap for businesses by providing expert guidance on these
                 implementation considerations. Our consultancy services ensure that clients can leverage Optimove’s full potential,
                 resulting in faster deployment, efficient data management, and optimized ad spend strategies.</p>
             </div>

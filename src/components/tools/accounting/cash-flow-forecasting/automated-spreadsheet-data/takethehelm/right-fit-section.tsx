@@ -19,14 +19,14 @@ export default function RightFitSection() {
         capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
         For those considering Take the Helm, the next step is to evaluate how well it aligns with your current
-        systems and processes. Geek @ Your Spot can assist in this evaluation by providing a detailed analysis
+        systems and processes. Geek @ Your Spot LLC can assist in this evaluation by providing a detailed analysis
         of your needs and how Take the Helm can be configured to meet them. This consultancy service is invaluable
         for ensuring that the transition to automated&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
         forecasting</GlossaryLink>&nbsp;is as smooth and effective as possible.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, Take the Helm offers a powerful combination of features and ease of use that makes it a strong
         contender for small businesses looking to automate their automated spreadsheet data management. By
-        leveraging the expertise of Geek @ Your Spot, businesses can ensure that they not only implement the
+        leveraging the expertise of Geek @ Your Spot LLC, businesses can ensure that they not only implement the
         tool effectively but also extract maximum value from its capabilities. This partnership can lead to
         significant improvements in efficiency, accuracy, and financial insight.</p>
       <p className="text-md text-white shadow-text pt-3">

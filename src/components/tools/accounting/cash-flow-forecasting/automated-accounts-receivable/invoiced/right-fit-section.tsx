@@ -15,10 +15,10 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering Invoiced, it&#39;s essential to evaluate how the platform integrates with
         existing systems and whether its features align with their financial objectives. Small businesses in the
-        specified counties can benefit from Geek @ Your Spot&#39;s expertise in implementing Invoiced, ensuring a
+        specified counties can benefit from Geek @ Your Spot LLC&#39;s expertise in implementing Invoiced, ensuring a
         smooth transition and effective use of the platform&#39;s capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot offers comprehensive support, from initial setup to ongoing management, helping businesses
+        Geek @ Your Spot LLC offers comprehensive support, from initial setup to ongoing management, helping businesses
         leverage Invoiced to its full potential. This includes configuring the platform to match specific business
         needs, training staff, and providing insights into optimizing accounts receivable processes.</p>
       <p className="text-md text-white shadow-text pt-3">

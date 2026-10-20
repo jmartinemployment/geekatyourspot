@@ -53,7 +53,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         For a small business owner, the real advantage is that Voksha is not another system that demands hours
         of setup and constant attention. It is a tool that fits around the way you already work, with the
-        ability to scale up features and volume as you grow. Geek @ Your Spot closes the gap by handling the
+        ability to scale up features and volume as you grow. Geek @ Your Spot LLC closes the gap by handling the
         integration and configuration, mapping Voksha’s flows to your real-world processes, and making sure the
         system is live and tuned for your lead capture pipeline. The team can start seeing the benefits, fewer
         missed calls, more booked appointments, less time on routine questions, within the first week, not the

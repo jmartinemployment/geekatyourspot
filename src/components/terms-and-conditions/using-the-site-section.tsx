@@ -21,7 +21,7 @@ export default function UsingTheSiteSection() {
         Who Owns the Content
       </h3>
       <p className="text-md text-white shadow-text pt-3">
-        The text, graphics, logos, and design of the site belong to Geek at Your Spot LLC or to those who
+        The text, graphics, logos, and design of the site belong to Geek @ Your Spot LLC or to those who
         license them to us, and copyright and trademark law protect them. These terms do not give you
         ownership of any of that content. You may quote short passages with a link back to the original page,
         but any other reuse needs our written permission.</p>

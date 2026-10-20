@@ -12,7 +12,7 @@ export default function ImplementingSection() {
         chart of accounts or manually re-enter data. Once the connection is established, the platform pulls in
         your existing financials and operational data automatically.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The order of deployment is structured to avoid the usual bottlenecks. First, Geek @ Your Spot works with
+        The order of deployment is structured to avoid the usual bottlenecks. First, Geek @ Your Spot LLC works with
         your team to define the business objectives and the KPIs that matter most. This is not a generic
         checklist. Each metric is mapped to a specific business goal, whether that is reducing reporting time,
         tracking cash flow by location, or benchmarking performance across entities. With Fathom, you can select
@@ -28,7 +28,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         After the data flows in, setup moves to reporting and visual dashboards. Fathom comes with pre-built
         templates for management packs, board-ready reports, and scenario-based forecasts. These templates can
-        be tailored quickly, no need to build from scratch. Geek @ Your Spot configures the visuals and
+        be tailored quickly, no need to build from scratch. Geek @ Your Spot LLC configures the visuals and
         commentary tools to match your reporting cadence, so you get monthly, quarterly, or ad hoc packs
         delivered automatically to the right stakeholders. The system supports scheduled delivery, so you do not
         have to generate reports manually at month-end.</p>
@@ -40,7 +40,7 @@ export default function ImplementingSection() {
         updates and changes do not require downtime or IT intervention, adjustments can be made on the fly as
         your business changes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        All of this is underpinned by Geek @ Your Spot’s method: define objectives,
+        All of this is underpinned by Geek @ Your Spot LLC’s method: define objectives,
         assess&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, choose the right
         integrations, and launch with a clear implementation strategy. The consultancy handles the
         configuration, data mapping, and workflow automation, so your team can focus on running the business,

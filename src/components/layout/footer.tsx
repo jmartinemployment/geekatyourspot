@@ -75,7 +75,7 @@ export default function Footer() {
             <Link href="/" id={gtmLinkIdFromHref("/", "footer-logo")} className="py-5">
               <Image
                 src="/images/GeekAtYourSpotWhite.svg"
-                alt="Geek @ Your Spot"
+                alt="Geek @ Your Spot LLC"
                 width={116}
                 height={48}
                 priority
@@ -169,7 +169,7 @@ export default function Footer() {
         <div className="border-t border-white/5 flex flex-col items-center justify-center py-5 mt-5">
           <div className="flex flex-row w-full justify-between items-center gap-6 text-slate-500 uppercase tracking-widest text-center px-5">
             <p className="inline-block text-center text-xs">
-              © 2026 Geek at Your Spot
+              © 2026 Geek @ Your Spot LLC
             </p>
             <p className="inline-block text-center text-xs">
               All rights reserved

@@ -22,11 +22,11 @@ const jsonLd: Graph = {
             "author": {
                 "@type": "Organization",
                 "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek at Your Spot"
+                "name": "Geek @ Your Spot LLC"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
@@ -117,9 +117,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Tax Compliance & Regulations",
         description: "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.",
         keywords: ["Automated Tax Compliance", "Tax Regulations Automation", "AI in Tax Compliance", "Financial Operations Automation", "Tax Compliance Software", "AI Solutions Integration", "Regulatory Compliance", "Tax Automation Tools", "Financial Process Automation", "AI Implementation Consultancy"],
-        authors: [{ name: 'Geek at Your Spot', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        authors: [{ name: 'Geek @ Your Spot LLC', url: 'https://geekatyourspot.com/' }],
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/accounting/tax-compliance-regulations',
@@ -128,7 +128,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "Tax Compliance & Regulations",
             description: 'Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.',
             url: 'https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'article',
             images: [
@@ -136,7 +136,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -144,7 +144,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Tax Compliance & Regulations",
             description: 'Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.',
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -163,7 +163,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

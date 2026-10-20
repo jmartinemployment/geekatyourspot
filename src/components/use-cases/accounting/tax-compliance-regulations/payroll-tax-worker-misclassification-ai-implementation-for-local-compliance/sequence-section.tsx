@@ -7,7 +7,7 @@ export default function SequenceSection() {
         Rolling out a payroll tax and worker misclassification solution is not a matter of flipping a switch and
         watching compliance fall into place. The real work happens in a sequence that tests every assumption you
         had about your business’s people, data, and processes. Here’s what the rollout looks like for a real
-        small business in Miami-Dade, based on the four-phase methodology Geek @ Your Spot uses for every
+        small business in Miami-Dade, based on the four-phase methodology Geek @ Your Spot LLC uses for every
         project.</p>
       <p className="text-md text-white shadow-text pt-3">
         It starts with a business objectives alignment session. This is not a formality. You define exactly what

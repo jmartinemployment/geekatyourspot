@@ -5,7 +5,7 @@ export default function ConfiguringSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Rippling’s configuration for payroll tax and worker misclassification is about setting up live rules
-        that work with your actual team, not just filling out a checklist. Geek @ Your Spot handles the
+        that work with your actual team, not just filling out a checklist. Geek @ Your Spot LLC handles the
         technical setup so that every compliance rule, worker classification decision, and tax calculation runs
         automatically and correctly for South Florida’s small business reality. This is not a static
         setup—Rippling’s system is built to update as your workforce shifts, your team grows, or the law
@@ -18,8 +18,7 @@ export default function ConfiguringSection() {
         contractor and employee status, Rippling’s built-in 90-second classification quiz is essential. It’s not
         a generic tool: it uses up-to-date legal tests (like the IRS behavioral, financial, and
         type-of-relationship standards) to decide whether someone is a W-2 employee or a 1099 contractor. Every
-        answer feeds directly into how payroll, taxes, and compliance are handled for that individual. Geek @
-        Your Spot makes sure this logic is correctly mapped to your business’s real-world structure—so the
+        answer feeds directly into how payroll, taxes, and compliance are handled for that individual. Geek @ Your Spot LLC makes sure this logic is correctly mapped to your business’s real-world structure—so the
         system doesn’t just run, but runs in a way that actually protects you.</p>
       <p className="text-md text-white shadow-text pt-3">
         Payroll tax automation in Rippling is configured to handle the full range of federal, state, and local
@@ -36,7 +35,7 @@ export default function ConfiguringSection() {
         configured to run continuous checks for compliance risks—flagging potential misclassification, overtime
         violations, or missed tax deadlines as soon as they occur. Instead of waiting for an annual audit or a
         quarterly review, business owners and office managers get real-time notifications and clear guidance on
-        what needs to be fixed. Geek @ Your Spot ensures these alerts are set up to match your actual workflow,
+        what needs to be fixed. Geek @ Your Spot LLC ensures these alerts are set up to match your actual workflow,
         so the right person gets notified, and the fix can be made directly in Rippling without jumping between
         systems or relying on outside consultants.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -52,17 +51,17 @@ export default function ConfiguringSection() {
         NetSuite—Rippling offers over 650 pre-built integrations. These are not just data exports; they allow
         for real-time, two-way syncing so payroll, HR, and accounting data stay up to date everywhere. There is
         no open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or developer SDK for building custom
-        modules, but the Workflow Studio gives Geek @ Your Spot the ability to automate nearly any process
+        modules, but the Workflow Studio gives Geek @ Your Spot LLC the ability to automate nearly any process
         within Rippling’s environment. This includes custom approval chains, automated evidence collection for
         audits, and one-click remediation for compliance issues. The result is a system that adapts to your
         business’s way of working, not the other way around.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The real work Geek @ Your Spot does during implementation is mapping your business’s policies and
+        The real work Geek @ Your Spot LLC does during implementation is mapping your business’s policies and
         exceptions into Rippling’s automation engine. This might mean defining which managers approve contractor
         invoices, setting up rules for when overtime triggers automatic alerts, or customizing onboarding flows
         for different types of workers. Each logic block is tested against real scenarios—like a contractor
         moving from Broward to Palm Beach, or a new hire who splits time between sites—to ensure nothing slips
-        through the cracks. This is not a one-time setup: as your business changes, Geek @ Your Spot can update
+        through the cracks. This is not a one-time setup: as your business changes, Geek @ Your Spot LLC can update
         these rules, so Rippling’s automation always matches your current reality.</p>
       <p className="text-md text-white shadow-text pt-3">
         In practice, this means a Friday afternoon in the Miami construction firm from the opening: a new worker
@@ -70,7 +69,7 @@ export default function ConfiguringSection() {
         contract, and sets the right payroll tax rules. When the project shifts to a new state, tax accounts
         and compliance checks update automatically. If a contractor’s invoice comes in late, the approval and
         payment process is triggered with a click—no one has to chase paperwork or check compliance by hand.
-        Rippling’s automation, when configured by Geek @ Your Spot, is not just a timesaver but a shield against
+        Rippling’s automation, when configured by Geek @ Your Spot LLC, is not just a timesaver but a shield against
         the kind of errors that lead to audits and penalties in South Florida’s complex landscape.</p>
     </>
   );

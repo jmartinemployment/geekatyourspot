@@ -33,8 +33,8 @@ const jsonLd: Graph = {
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "BotPenguin, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek at Your Spot" },
+            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
                 "@id": "https://geekatyourspot.com/#software-botpenguin",
@@ -58,7 +58,7 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "Can this bot handle billing inquiries or payment processing?", "acceptedAnswer": {"@type": "Answer", "text": "BotPenguin does not calculate complex tax metrics on its own, but it works as a smart front-end. It can guide customers through payment links, collect billing details, log support tickets for your accounting team, and update customer profiles through webhook connections to your payment gateways."}},
                 {"@type": "Question", "name": "Which platforms can I actually use this chatbot on?", "acceptedAnswer": {"@type": "Answer", "text": "You can use BotPenguin on your Website, WhatsApp, Instagram, Facebook, and Telegram. All conversations from these channels go into one Unified Inbox, so your team does not need to check multiple apps to capture leads."}},
                 {"@type": "Question", "name": "WhatsApp is huge for our local customer base in South Florida. Is BotPenguin verified?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. BotPenguin is an official Meta Business Partner for WhatsApp AI chatbot and Facebook solutions. Your business gets access to the official WhatsApp Business API, which means high message delivery, compliance, and use of official interactive messaging templates without risking account bans."}},
-                {"@type": "Question", "name": "Do I need a programmer on staff to set up or maintain these AI workflows?", "acceptedAnswer": {"@type": "Answer", "text": "No. BotPenguin uses a no-code flow builder. You can build, train, and launch chat or voice workflows with a visual drag-and-drop tool. Geek @ Your Spot can set up the initial system, and your staff can handle daily updates or view analytics without any coding."}},
+                {"@type": "Question", "name": "Do I need a programmer on staff to set up or maintain these AI workflows?", "acceptedAnswer": {"@type": "Answer", "text": "No. BotPenguin uses a no-code flow builder. You can build, train, and launch chat or voice workflows with a visual drag-and-drop tool. Geek @ Your Spot LLC can set up the initial system, and your staff can handle daily updates or view analytics without any coding."}},
                 {"@type": "Question", "name": "What are the upfront costs to test this out for my business?", "acceptedAnswer": {"@type": "Answer", "text": "There is a Free Forever Plan that does not require a credit card. This lets you build a proof-of-concept, test the chatbot on your website or social channels, and see real lead generation results before you decide to upgrade."}},
                 {"@type": "Question", "name": "What happens if a customer query is too complex for the AI agent?", "acceptedAnswer": {"@type": "Answer", "text": "BotPenguin has built-in Live Chat and fallback options. If the AI faces a complex accounting question, a disputed invoice, or a high-value sales lead, it quickly routes the chat to a human team member through the unified inbox or mobile app. This way, no customer gets left waiting."}}
             ]
@@ -72,24 +72,24 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: DESCRIPTION,
         keywords: ["BotPenguin", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: { canonical: CANONICAL },
         openGraph: {
             title: PAGE_TITLE,
             description: DESCRIPTION,
             url: PAGE_URL,
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek at Your Spot' }],
+            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
         },
         twitter: {
             card: 'summary_large_image',
             title: PAGE_TITLE,
             description: DESCRIPTION,
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -99,7 +99,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1,
             },
         },
-        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek at Your Spot' },
+        appleWebApp: { capable: true, statusBarStyle: 'default', title: 'Geek @ Your Spot LLC' },
     };
 };
 

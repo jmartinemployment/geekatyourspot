@@ -24,11 +24,11 @@ const jsonLd: Graph = {
             "author": {
                 "@type": "Organization",
                 "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek at Your Spot"
+                "name": "Geek @ Your Spot LLC"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Geek At Your Spot",
+                "name": "Geek @ Your Spot LLC",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
@@ -118,8 +118,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         description: "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
         keywords: ["AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com//use-cases/marketing/ai-marketing-systems' }],
-        creator: 'Geek at Your Spot Llc',
-        publisher: 'Geek at Your Spot Llc',
+        creator: 'Geek @ Your Spot LLC',
+        publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
             canonical: '/use-cases/marketing/ai-marketing-systems',
@@ -128,7 +128,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: "AI Marketing Systems",
             description: "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
             url: 'https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems',
-            siteName: 'Geek at Your Spot',
+            siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
             images: [
@@ -136,7 +136,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: '/images/GeekAtYourSpot.svg',
                     width: 116,
                     height: 48,
-                    alt: 'Geek at Your Spot',
+                    alt: 'Geek @ Your Spot LLC',
                 },
             ],
         },
@@ -144,7 +144,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "AI Marketing Systems",
             description: "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
-            creator: 'Geek at Your Spot',
+            creator: 'Geek @ Your Spot LLC',
             images: ['/images/GeekAtYourSpot.svg'],
         },
         robots: {
@@ -163,7 +163,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         appleWebApp: {
             capable: true,
             statusBarStyle: 'default',
-            title: 'Geek at Your Spot',
+            title: 'Geek @ Your Spot LLC',
         },
     };
 };

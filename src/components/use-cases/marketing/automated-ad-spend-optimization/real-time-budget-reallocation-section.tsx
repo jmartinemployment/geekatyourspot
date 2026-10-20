@@ -27,7 +27,7 @@ export default function RealTimeBudgetReallocationSection() {
               without manual intervention. Such automation not only saves time but also significantly enhances the return on ad
               spend (ROAS).</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Geek At Your Spot helps businesses implement these tools effectively. Our team configures the AI models to align with
+              Geek @ Your Spot LLC helps businesses implement these tools effectively. Our team configures the AI models to align with
               your specific business goals, ensuring that the budget is allocated where it can yield the best results. This
               includes setting up the initial parameters and continuously refining them to adapt to market changes.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -45,7 +45,7 @@ export default function RealTimeBudgetReallocationSection() {
               Advantage&nbsp;use <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">predictive analytics</GlossaryLink> to anticipate shifts in consumer behavior and adjust budgets accordingly. This
               foresight allows businesses to capitalize on emerging opportunities swiftly.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Geek At Your Spot customizes these platforms to ensure they integrate seamlessly with your existing marketing
+              Geek @ Your Spot LLC customizes these platforms to ensure they integrate seamlessly with your existing marketing
               strategies. By doing so, we help maintain consistency in brand messaging while optimizing for cost-efficiency.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="integration-with-existing-systems">Integration with Existing Systems</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -55,12 +55,11 @@ export default function RealTimeBudgetReallocationSection() {
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Platforms like&nbsp;
               HubSpot&nbsp;can be synced with AI tools to streamline workflows, automate data collection, and enhance
-              decision-making processes. Geek At Your Spot specializes in this integration, minimizing disruption and maximizing
+              decision-making processes. Geek @ Your Spot LLC specializes in this integration, minimizing disruption and maximizing
               the strategic value of these technologies.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="customizing-ai-models-for-business-needs">Customizing AI Models for Business Needs</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Every business has unique needs, and a one-size-fits-all approach to AI implementation often falls short. Geek At
-              Your Spot tailors AI models to fit the specific requirements of each client, ensuring that the technology delivers
+              Every business has unique needs, and a one-size-fits-all approach to AI implementation often falls short. Geek @ Your Spot LLC tailors AI models to fit the specific requirements of each client, ensuring that the technology delivers
               the maximum possible benefit.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               For instance, a company focused on local markets might prioritize tools that offer geographic targeting capabilities.

@@ -6,7 +6,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Anyword’s configuration process is about setting up the platform to work for your specific business
         goals, not just turning on an out-of-the-box tool. The rules and automation logic you set in Anyword
-        decide how it generates, scores, and delivers content. This is where Geek @ Your Spot’s implementation
+        decide how it generates, scores, and delivers content. This is where Geek @ Your Spot LLC’s implementation
         work matters: the platform is powerful, but it needs to be mapped to your real workflows, brand
         standards, and marketing stack to return value.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -47,7 +47,7 @@ export default function ConfiguringSection() {
         custom workflows, but most small businesses will get full value from the standard integrations and
         automation options.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to translate your business’s content strategy, brand rules, and operational
+        Geek @ Your Spot LLC’s role is to translate your business’s content strategy, brand rules, and operational
         quirks into Anyword’s configuration. This means mapping your existing approval chains, data sources,
         and campaign types to the platform’s logic. The consultancy also handles the initial training of
         Anyword’s AI on your best-performing past content, so the system learns your voice and audience

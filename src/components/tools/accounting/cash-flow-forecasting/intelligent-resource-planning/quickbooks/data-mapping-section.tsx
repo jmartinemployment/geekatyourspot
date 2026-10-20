@@ -30,7 +30,7 @@ export default function DataMappingSection() {
         linked to the right transactions. For accounts receivable automation, clean customer records mean that
         invoice reminders go to the right contact, and payment links are always current.
         For&nbsp;<GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>, vendor mapping ensures
-        bills are routed to the correct workflow and approvals. Geek @ Your Spot spends time upfront scrubbing
+        bills are routed to the correct workflow and approvals. Geek @ Your Spot LLC spends time upfront scrubbing
         these lists, using QuickBooks’ matching tools and manual review, so the business does not inherit years
         of errors into its new system.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -51,7 +51,7 @@ export default function DataMappingSection() {
         The final mapping step is connecting QuickBooks data to other tools in the workflow, Excel for
         reporting, bank feeds for reconciliation, or payroll for workforce management. QuickBooks provides
         spreadsheet sync and direct connections for most common needs, but the data must be mapped so that every
-        field lines up. This is where Geek @ Your Spot’s local expertise comes in: mapping the business’s unique
+        field lines up. This is where Geek @ Your Spot LLC’s local expertise comes in: mapping the business’s unique
         data model to QuickBooks’ structures, testing the flows, and validating that reports match reality.
         Where a business used to spend hours every week fixing broken links or mismatched files, the right
         mapping means those problems disappear.</p>

@@ -51,7 +51,7 @@ export default function ConfiguringSection() {
         information without lifting a finger.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses in Miami-Dade, Broward, and West Palm Beach, the real work is in configuring these
-        rules and automations to match your real-world process. Geek @ Your Spot steps in here, not to code,
+        rules and automations to match your real-world process. Geek @ Your Spot LLC steps in here, not to code,
         but to translate your team’s current workflow into My AI Front Desk’s own configuration model. This
         covers mapping your existing lead stages, escalation paths, and qualification criteria into the
         system, and then testing each flow with real data. The outcome is a live deployment that matches your

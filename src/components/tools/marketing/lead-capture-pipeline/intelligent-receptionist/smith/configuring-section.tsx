@@ -6,7 +6,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Configuring Smith.ai for a small business is not about flipping a few generic switches. The platform
         expects you to define the exact intake rules, call handling flows, and escalation paths that match your
-        business’s real needs. Geek @ Your Spot works with clients across West Palm Beach, Broward, and
+        business’s real needs. Geek @ Your Spot LLC works with clients across West Palm Beach, Broward, and
         Miami-Dade to map out these requirements, then configures Smith.ai so it actually works for your
         environment, not for some hypothetical firm.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -23,19 +23,19 @@ export default function ConfiguringSection() {
         company can define specific keywords that trigger emergency routing, like &quot;flooding&quot; or
         &quot;no heat.&quot; Service qualification rules can be tailored to your intake criteria: budget
         minimums, service area checks, or project types. In legal, you can set up jurisdiction checks, conflict
-        screening, or retainer triggers. These flows are not static; Geek @ Your Spot helps you update them as
+        screening, or retainer triggers. These flows are not static; Geek @ Your Spot LLC helps you update them as
         your business changes, so your intake process keeps pace with reality.</p>
       <p className="text-md text-white shadow-text pt-3">
         Conditional logic is central to Smith.ai’s intake process. The system adapts its questions and routing
         based on caller responses, practice area, or urgency. For instance, if a caller says they have an
         emergency, the call can be escalated immediately. If the lead qualifies under your criteria, Smith.ai
         can schedule a consultation on the spot, collect upfront payments, or send a retainer for e-signature.
-        All of this is mapped in the configuration phase, with Geek @ Your Spot translating your current intake
+        All of this is mapped in the configuration phase, with Geek @ Your Spot LLC translating your current intake
         forms, eligibility thresholds, and escalation paths into Smith.ai’s automation logic.</p>
       <p className="text-md text-white shadow-text pt-3">
         Smith.ai’s integration catalog is extensive, but each integration must be mapped to your actual systems.
         The platform natively connects to over 7,000 apps, including CRMs, field service management, scheduling
-        tools, and project management software. Geek @ Your Spot configures these so that every call, intake
+        tools, and project management software. Geek @ Your Spot LLC configures these so that every call, intake
         form, and scheduled appointment syncs directly with the tools your team already uses, no manual entry
         required. For WordPress sites, Smith.ai can use Ninja Forms for lead intake, feeding qualified leads
         straight into your workflow.</p>
@@ -43,17 +43,17 @@ export default function ConfiguringSection() {
         Smith.ai does not offer a scripting or SDK environment for custom extensions. All customization is
         handled through its configuration interface and integration catalog. This makes it accessible for small
         businesses that do not have a developer on staff, but it also means that if you need a function outside
-        what Smith.ai’s existing integrations and logic support, it is not a fit. Geek @ Your Spot’s role is to
+        what Smith.ai’s existing integrations and logic support, it is not a fit. Geek @ Your Spot LLC’s role is to
         ensure that every rule, escalation, and data sync is set up correctly from day one, and to adjust as
         your needs evolve.</p>
       <p className="text-md text-white shadow-text pt-3">
         Quality control is built into the configuration process. Smith.ai’s call rating system lets you review
-        and give feedback on how calls are handled, so Geek @ Your Spot can tune the flows and logic over time.
+        and give feedback on how calls are handled, so Geek @ Your Spot LLC can tune the flows and logic over time.
         Free spam blocking and sales call screening are standard, so you only pay for real business calls.
         Bilingual call handling is also available, letting you serve both English and Spanish speakers with the
         same workflows and escalation paths.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In practice, configuring Smith.ai is a collaborative process. Geek @ Your Spot walks you through
+        In practice, configuring Smith.ai is a collaborative process. Geek @ Your Spot LLC walks you through
         documenting your current intake, escalation, and data requirements. They translate these into Smith.ai’s
         automation logic, map integrations to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and
         scheduling tools, and run test scenarios to make sure the system handles real-world complexity, not just

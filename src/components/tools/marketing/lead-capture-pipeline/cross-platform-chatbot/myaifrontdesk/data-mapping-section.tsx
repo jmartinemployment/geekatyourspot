@@ -61,7 +61,7 @@ export default function DataMappingSection() {
         ensures that no hot lead waits for a reply, and your staff is only pulled in when their expertise adds
         value.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s implementation process starts by mapping your current data landscape, what you
+        Geek @ Your Spot LLC’s implementation process starts by mapping your current data landscape, what you
         track, how you track it, and where it lives. The team works with you to standardize identifiers, align
         fields, and tune&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;so the system
         fits your sales process out of the gate. They also test handoff and escalation flows, making sure

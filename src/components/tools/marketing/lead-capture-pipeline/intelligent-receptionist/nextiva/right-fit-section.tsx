@@ -43,7 +43,7 @@ export default function RightFitSection() {
         For local teams ready to move forward, the next step is to map your real needs. What is your current
         miss rate for calls and chats? How much revenue do you lose to missed connections? What would it mean to
         your schedule if every lead got a response within minutes, not hours? These are the questions that drive
-        a fit for Nextiva. Geek @ Your Spot guides clients through this assessment, making sure the platform is
+        a fit for Nextiva. Geek @ Your Spot LLC guides clients through this assessment, making sure the platform is
         tailored to your business, not just turned on and left to run. The right deployment means your Friday
         afternoons are spent serving customers, not chasing down missed messages or wondering if a big lead
         slipped away.</p>

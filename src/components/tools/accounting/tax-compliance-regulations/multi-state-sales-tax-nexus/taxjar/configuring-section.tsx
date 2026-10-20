@@ -7,7 +7,7 @@ export default function ConfiguringSection() {
         Configuring TaxJar for multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>&nbsp;is not just about turning on a switch. The platform requires careful
         setup to match the unique footprint of a small business selling across state lines, especially in
-        high-growth environments like South Florida. Geek @ Your Spot’s job is to close the gap between TaxJar’s
+        high-growth environments like South Florida. Geek @ Your Spot LLC’s job is to close the gap between TaxJar’s
         automation and your real-world sales channels. Every rule, threshold, and exception must reflect your
         actual business activity, not just the defaults.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -15,14 +15,14 @@ export default function ConfiguringSection() {
         transaction volume and revenue by state, monitoring for the $100,000 or 200-transaction triggers that
         create new filing obligations. The dashboard issues alerts when you are close to crossing a threshold,
         so you know before you are exposed. This real-time monitoring replaces the manual spreadsheet checks
-        that catch problems months too late. Geek @ Your Spot configures your state-by-state thresholds and
+        that catch problems months too late. Geek @ Your Spot LLC configures your state-by-state thresholds and
         notification preferences, ensuring you see only what matters to your business, not a flood of irrelevant
         alerts.</p>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar’s automation logic extends to how it handles product taxability. States do not agree on what is
         taxable: some treat digital goods or shipping as taxable, others do not. The platform’s product
         classification engine lets you assign tax codes to each SKU or service. This is not a one-time task. As
-        you add new products or change your catalog, these codes need review. Geek @ Your Spot maps your catalog
+        you add new products or change your catalog, these codes need review. Geek @ Your Spot LLC maps your catalog
         to TaxJar’s codes, checks for mismatches, and sets up regular reviews. If you sell on multiple
         platforms, Shopify, Amazon, Squarespace, Square, WooCommerce, each integration must send clean,
         consistent product data. The mapping must be right from the start, or you risk over-collecting,
@@ -31,22 +31,21 @@ export default function ConfiguringSection() {
         For shipping, TaxJar’s calculation engine applies rooftop-accurate rates based on full street addresses,
         not just zip codes. This matters because many states tax shipping differently depending on the city,
         county, or even special district. The platform’s rules engine determines whether to tax shipping,
-        handling, or gift wrap based on the destination’s laws. Geek @ Your Spot configures these rules for each
+        handling, or gift wrap based on the destination’s laws. Geek @ Your Spot LLC configures these rules for each
         channel and trains your team to flag exceptions, like free shipping promos or bundled items that require
         special handling.</p>
       <p className="text-md text-white shadow-text pt-3">
         Marketplace sales add another layer. TaxJar can distinguish between sales where a marketplace
         facilitator (like Amazon or Etsy) already collects and remits tax, and direct-to-consumer sales where
         you are responsible. This prevents double-counting and double-paying. The setup involves mapping each
-        marketplace to its own integration and confirming how each state treats facilitator sales. Geek @ Your
-        Spot audits your existing sales flows, ensures each marketplace is connected, and validates the logic
+        marketplace to its own integration and confirming how each state treats facilitator sales. Geek @ Your Spot LLC audits your existing sales flows, ensures each marketplace is connected, and validates the logic
         that separates marketplace and direct sales. This is critical for businesses that sell both through
         their website and third-party platforms.</p>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar’s core automation is its AutoFile feature. Once configured, AutoFile submits returns to state
         authorities on your behalf, on time and in the correct format for each jurisdiction. The configuration
         process includes entering your state registration numbers, selecting which states to AutoFile, and
-        setting up payment methods. Geek @ Your Spot reviews your registration status, helps you obtain missing
+        setting up payment methods. Geek @ Your Spot LLC reviews your registration status, helps you obtain missing
         permits, and tests the AutoFile process in a sandbox before going live. For states where you still file
         manually, TaxJar generates return-ready reports that match the state’s requirements, including
         breakdowns for city, county, and special district taxes.</p>
@@ -54,7 +53,7 @@ export default function ConfiguringSection() {
         Extension is possible through the TaxJar&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, which allows
         for custom integrations beyond the standard connectors. This is relevant for businesses with unique
         workflows or custom-built carts. The&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;supports
-        real-time tax calculation, product classification, and transaction ingestion. Geek @ Your Spot works
+        real-time tax calculation, product classification, and transaction ingestion. Geek @ Your Spot LLC works
         with your developers to connect custom systems,
         test&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls, and ensure that every transaction
         flows into TaxJar cleanly. For most small businesses, the default integrations with Shopify, Salesforce,
@@ -62,13 +61,11 @@ export default function ConfiguringSection() {
         the&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;is the path.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security and compliance settings are also part of configuration. TaxJar supports GDPR and SOC II
-        frameworks, and its platform includes security monitoring and AWS analytics integration. Geek @ Your
-        Spot reviews your data flows, ensures sensitive information is handled according to your compliance
+        frameworks, and its platform includes security monitoring and AWS analytics integration. Geek @ Your Spot LLC reviews your data flows, ensures sensitive information is handled according to your compliance
         requirements, and documents the setup for audit readiness.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, configuring TaxJar is a hands-on process. Every rule, nexus thresholds, product tax codes,
-        shipping logic, marketplace handling, filing frequency, must be tuned to your business. Geek @ Your
-        Spot’s role is to translate your sales footprint into TaxJar’s automation logic, validate every
+        shipping logic, marketplace handling, filing frequency, must be tuned to your business. Geek @ Your Spot LLC’s role is to translate your sales footprint into TaxJar’s automation logic, validate every
         integration, and document the process so you can scale without adding compliance risk. For small
         businesses in West Palm Beach, Broward, and Miami-Dade, this is the difference between a tool that works
         and one that leaves you exposed.</p>

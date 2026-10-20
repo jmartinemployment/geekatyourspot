@@ -13,7 +13,7 @@ export default function DataMappingSection() {
         The first decision: what counts as a qualified lead for your business? Smith.ai’s intake flows are built
         to be highly customizable, but they only work if you define the criteria that matter. For a contractor,
         that might be job type, location, and urgency. For a law firm, it could be case type, jurisdiction, and
-        whether there is a conflict. Geek @ Your Spot works with your team to map these criteria into Smith.ai’s
+        whether there is a conflict. Geek @ Your Spot LLC works with your team to map these criteria into Smith.ai’s
         intake templates, ensuring the AI and live agents only pass along leads that meet your standards. This
         avoids wasting time on tire-kickers or unqualified prospects.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -23,7 +23,7 @@ export default function DataMappingSection() {
         caller names, phone numbers, job details, and intake notes should land in your system. This is not a
         one-size-fits-all setup. For example, a service business may want every emergency call tagged as
         high-priority in their field service platform, while a design firm might want detailed notes logged to a
-        project record. Geek @ Your Spot configures these mappings so no detail is lost and your team is not
+        project record. Geek @ Your Spot LLC configures these mappings so no detail is lost and your team is not
         stuck re-entering information.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another key decision is how to handle escalation and context transfer. Smith.ai’s hybrid model means a
@@ -36,7 +36,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         For businesses with multiple locations or service lines, mapping decisions get more complex. Smith.ai
         can route calls based on ZIP code, project type, or other criteria, but only if the data structure
-        supports it. Upfront, Geek @ Your Spot helps you define the rules that determine which team or location
+        supports it. Upfront, Geek @ Your Spot LLC helps you define the rules that determine which team or location
         should handle which types of inquiries. This ensures that a plumbing emergency in Miami does not end up
         routed to the West Palm Beach team, or that a legal intake for a specific practice area goes to the
         right attorney.</p>
@@ -45,7 +45,7 @@ export default function DataMappingSection() {
         existing forms from your website (like Ninja Forms on WordPress) to capture lead data. The decision is
         which fields are required, what information is optional, and how that data syncs into
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or scheduling tool. Skipping this step leads
-        to incomplete records, lost follow-ups, and missed opportunities. Geek @ Your Spot ensures that every
+        to incomplete records, lost follow-ups, and missed opportunities. Geek @ Your Spot LLC ensures that every
         field is mapped, every required detail is captured, and nothing falls through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, reporting and analytics depend on how data is structured at the start. Smith.ai provides
@@ -55,8 +55,7 @@ export default function DataMappingSection() {
         the most qualified calls, or which service lines are most profitable, the right data structure is what
         makes those insights possible.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In short, the success of a Smith.ai deployment is won or lost in the upfront mapping work. Geek @ Your
-        Spot’s role is to guide your team through these choices, translate your business needs into technical
+        In short, the success of a Smith.ai deployment is won or lost in the upfront mapping work. Geek @ Your Spot LLC’s role is to guide your team through these choices, translate your business needs into technical
         requirements, and configure Smith.ai so it works the way your business already does. The payoff is a
         system that does not just answer the phone, it moves every caller, every lead, and every appointment
         into the right place, with no manual rework and no lost opportunities.</p>

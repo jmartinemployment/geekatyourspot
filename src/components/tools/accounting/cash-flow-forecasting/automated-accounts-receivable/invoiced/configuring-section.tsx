@@ -24,7 +24,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Invoiced also provides an extension mechanism that supports further customization. While it does not offer
         an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, its configuration options are extensive
-        enough to meet the needs of most small businesses. Geek @ Your Spot,
+        enough to meet the needs of most small businesses. Geek @ Your Spot LLC,
         an&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation consultancy, plays a vital role in
         configuring these features to fit seamlessly into your existing systems. They ensure that Invoiced
         integrates smoothly with your current accounting software, such as QuickBooks or NetSuite, optimizing the
@@ -32,7 +32,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         The consultancy&#39;s expertise in data mapping and system integration means that businesses can leverage
         Invoiced&#39;s full potential without the usual teething problems associated with new software. By handling
-        the technical setup and providing ongoing support, Geek @ Your Spot ensures that your transition to
+        the technical setup and providing ongoing support, Geek @ Your Spot LLC ensures that your transition to
         automated accounts receivable is smooth and effective. This partnership allows businesses to focus on
         growth, knowing that their financial processes are in expert hands.</p>
     </>

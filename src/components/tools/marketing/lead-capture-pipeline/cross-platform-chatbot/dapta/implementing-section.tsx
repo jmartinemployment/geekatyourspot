@@ -45,8 +45,7 @@ export default function ImplementingSection() {
         Throughout setup, Dapta’s design keeps the process in the hands of sales and operations teams, not
         developers. The agent’s rules and workflows are configured through a web interface with plain-language
         prompts, not code. This means a business owner or office manager can adjust how leads are scored,
-        which questions are asked, and when to escalate to a human, all without technical help. Geek @ Your
-        Spot’s role as an implementation partner is to map out these flows, connect the right systems, and
+        which questions are asked, and when to escalate to a human, all without technical help. Geek @ Your Spot LLC’s role as an implementation partner is to map out these flows, connect the right systems, and
         train the team on how to monitor and refine the agent’s performance. The goal is a launch that
         delivers value in days, not weeks, and that fits the real way your business works.</p>
     </>

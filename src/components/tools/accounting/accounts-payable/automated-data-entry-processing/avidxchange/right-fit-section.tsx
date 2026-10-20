@@ -21,7 +21,7 @@ export default function RightFitSection() {
         the integration with existing systems could enhance your operational efficiency and reduce costs.</p>
       <p className="text-md text-white shadow-text pt-3">
         To get a tailored understanding of how AvidXchange can be implemented in your business, consider booking
-        a consultation with <strong>Geek At Your Spot</strong>. They specialize in configuring and deploying
+        a consultation with <strong>Geek @ Your Spot LLC</strong>. They specialize in configuring and deploying
         AvidXchange to fit your unique business requirements, ensuring a smooth transition to automated AP
         processes.&nbsp;
         <Link id="tools-accounting-avidxchange-right-fit-consultation"

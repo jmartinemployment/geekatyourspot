@@ -40,7 +40,7 @@ export default function ImplementingSection() {
         then roll out to others. This keeps risk low and lets staff learn the system in real time, rather than
         all at once.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot closes any gaps by handling the configuration, integration, and testing steps. Many
+        Geek @ Your Spot LLC closes any gaps by handling the configuration, integration, and testing steps. Many
         small businesses worry about connecting their calendars or making sure the AI understands their industry
         language. The consultancy’s role is to map out what the AI needs to know, connect it to the right data
         sources, and test the full workflow before launch. This removes the guesswork and prevents the common

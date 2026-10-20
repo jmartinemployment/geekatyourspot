@@ -29,7 +29,7 @@ export default function OverviewSection() {
         noise. For small teams in West Palm Beach, Broward, and Miami-Dade, this means more leads, fewer
         errors, and hours back every week to focus on what matters.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s approach to Intelligent Content Planning is built for small businesses across South
+        Geek @ Your Spot LLC’s approach to Intelligent Content Planning is built for small businesses across South
         Florida. It covers the full workflow: automated content generation,
         AI&nbsp;<GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>, bulk scheduling,
         approval workflows, and personalized email campaigns. Each step is designed to fit your team’s size,

@@ -22,15 +22,14 @@ export default function RightFitSection() {
         process, and where delays typically occur. This assessment will help you decide whether Bill&#39;s
         capabilities align with your needs and if it can effectively address your challenges.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot, a consultancy specializing in AI implementation for small businesses, can assist in
+        Geek @ Your Spot LLC, a consultancy specializing in AI implementation for small businesses, can assist in
         this evaluation. They offer expertise in configuring Bill to fit your unique business environment,
         ensuring seamless integration with existing systems. Their guidance can be invaluable in maximizing
         the benefits of Bill&#39;s automation features, such as improved cash flow management and reduced
         manual errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ultimately, the decision to implement Bill should be based on a thorough understanding of your
-        business&#39;s requirements and the potential efficiency gains. By leveraging the expertise of Geek @
-        Your Spot, you can ensure a smooth transition to automated approval workflows, allowing your business
+        business&#39;s requirements and the potential efficiency gains. By leveraging the expertise of Geek @ Your Spot LLC, you can ensure a smooth transition to automated approval workflows, allowing your business
         to focus on strategic growth initiatives.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;

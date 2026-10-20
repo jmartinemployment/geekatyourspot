@@ -40,7 +40,7 @@ export default function RightFitSection() {
         maintain a presence across several platforms, keep messaging aligned, and avoid the cost or chaos of
         agency outsourcing, Jasper’s structure is a real advantage.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When Jasper is a match, the next step is not to buy software and hope for the best. Geek @ Your Spot’s
+        When Jasper is a match, the next step is not to buy software and hope for the best. Geek @ Your Spot LLC’s
         method starts with a free consultation, then runs through a four-phase plan: define business
         objectives, assess&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, choose the
         right AI technologies, and build an implementation strategy tailored to your operations. This is not

@@ -55,7 +55,7 @@ export default function DataMappingSection() {
         data is incomplete or mapped incorrectly, you will miss these alerts and risk falling out of compliance
         as your team grows or shifts.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In practice, the upfront mapping phase is where Geek @ Your Spot closes the gap for South Florida
+        In practice, the upfront mapping phase is where Geek @ Your Spot LLC closes the gap for South Florida
         businesses. The consultancy works with you to clean and structure your data before it ever hits the
         Justworks platform, making sure every worker is mapped to the right status, location, and pay structure.
         This is not just about getting payroll right for the next pay period—it is about building a data

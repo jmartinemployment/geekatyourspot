@@ -24,7 +24,7 @@ export default function FutureTrendsSection() {
         instance, AI can automate the process of cross-referencing tax filings with transactional data, reducing
         the risk of errors and fraud.</p>
       <p className="text-md text-white shadow-text pt-3">
-        At Geek At Your Spot, we leverage AI to help clients develop predictive analytics models that can
+        At Geek @ Your Spot LLC, we leverage AI to help clients develop predictive analytics models that can
         anticipate potential compliance risks before they manifest. By integrating these models into existing
         tax compliance workflows, businesses can transition from reactive to proactive compliance strategies.
         This not only minimizes risk but also optimizes resource allocation by focusing efforts on high-risk
@@ -39,7 +39,7 @@ export default function FutureTrendsSection() {
         industries with complex supply chains or those subject to frequent audits.</p>
       <p className="text-md text-white shadow-text pt-3">
         In a hypothetical scenario, a mid-sized manufacturer using blockchain for its tax compliance could see a
-        40% reduction in audit preparation time. Geek At Your Spot is at the forefront of integrating blockchain
+        40% reduction in audit preparation time. Geek @ Your Spot LLC is at the forefront of integrating blockchain
         solutions into tax compliance systems, offering expertise in developing custom smart contracts that
         automate compliance checks and ensure adherence to tax regulations.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -52,7 +52,7 @@ export default function FutureTrendsSection() {
         systems can provide tax authorities with up-to-date insights into corporate tax liabilities, improving
         fiscal planning and reducing the likelihood of compliance errors.</p>
       <p className="text-md text-white shadow-text pt-3">
-        To help businesses adapt to this shift, Geek At Your Spot focuses on designing and implementing
+        To help businesses adapt to this shift, Geek @ Your Spot LLC focuses on designing and implementing
         real-time data integration solutions. Our team assists clients in reconfiguring their data models and
         workflows to accommodate continuous data feeds, ensuring that they meet the demands of real-time
         reporting without disrupting existing operations. Additionally, we provide change management support to

@@ -26,7 +26,7 @@ export default function RightFitSection() {
         To determine if Floatapp is the right fit, consider your business&#39;s specific needs in cash flow
         management. If you need a tool that integrates seamlessly with existing accounting platforms and provides
         accurate, up-to-date forecasts, Floatapp is likely a strong candidate. For those interested in exploring its
-        capabilities further, consulting with a specialist like Geek @ Your Spot can provide additional insights
+        capabilities further, consulting with a specialist like Geek @ Your Spot LLC can provide additional insights
         tailored to your business&#39;s unique requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;

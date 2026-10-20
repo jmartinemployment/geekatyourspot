@@ -46,7 +46,7 @@ export default function DataMappingSection() {
         information. This reduces errors and manual copy-paste work, making the content workflow smoother and
         more reliable.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot handles these mapping decisions as part of their implementation process. They work
+        Geek @ Your Spot LLC handles these mapping decisions as part of their implementation process. They work
         with your team to define which reference materials train the assistant, document approval chains,
         build content templates, and set up the right integrations. The result is a HyperWrite deployment that
         fits your business’s real needs, not a generic install that leaves half the work manual. By investing

@@ -43,8 +43,7 @@ export default function RightFitSection() {
         Copy.ai offers.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that are ready to move beyond manual drafting and want to scale up content without scaling
-        up costs, the next step is to look at how Copy.ai fits into your real environment. This is where Geek
-        @ Your Spot comes in. The implementation process starts with a close review of your current content
+        up costs, the next step is to look at how Copy.ai fits into your real environment. This is where Geek @ Your Spot LLC comes in. The implementation process starts with a close review of your current content
         workflows, your data sources, and your publishing stack. The goal is to configure Copy.ai so it works
         with what you already use, whether that’s your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
         project management tool, or email platform. The consultancy handles the mapping, setup, and training,

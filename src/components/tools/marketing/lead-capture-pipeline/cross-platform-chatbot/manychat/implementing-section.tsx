@@ -20,8 +20,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Once channels are connected, the next focus is automating replies and lead capture. Manychat’s
         template library offers ready-made flows for common scenarios, replying to Instagram comments, sending
-        information on WhatsApp, following up on Facebook Messenger, or collecting emails from TikTok. Geek @
-        Your Spot configures these flows to match your brand’s voice and your sales process. For a local
+        information on WhatsApp, following up on Facebook Messenger, or collecting emails from TikTok. Geek @ Your Spot LLC configures these flows to match your brand’s voice and your sales process. For a local
         business, that means the bot can answer FAQs, send a booking link, or ask qualifying questions, all
         without staff intervention. Every reply is logged, every new lead is tagged, and nothing falls through
         the cracks.</p>
@@ -39,7 +38,7 @@ export default function ImplementingSection() {
         those rules from the start. This keeps data organized and avoids confusion as your pipeline grows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Support is not an afterthought. Manychat provides email support on business days, an online help
-        center, and an AI chat for troubleshooting. Geek @ Your Spot handles the first round of training and
+        center, and an AI chat for troubleshooting. Geek @ Your Spot LLC handles the first round of training and
         documentation, so your staff know how to monitor conversations, adjust flows, and escalate when human
         follow-up is needed.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -54,7 +53,7 @@ export default function ImplementingSection() {
         of scattered messages turns into a single, organized pipeline. The Friday afternoon scramble to find
         that one DM or reply to a forgotten comment disappears. Every inquiry, no matter where it lands, gets
         a response, gets tagged, and moves to the next step, without adding staff or burning out the team.
-        That is what going live with Manychat looks like when Geek @ Your Spot handles the setup: fast,
+        That is what going live with Manychat looks like when Geek @ Your Spot LLC handles the setup: fast,
         focused, and built for the way local businesses actually work.</p>
     </>
   );

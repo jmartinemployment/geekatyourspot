@@ -42,7 +42,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, consider the support and onboarding included at each tier. Higher-level plans include guided
         implementation and access to support teams, which matters if you want a fast, low-risk rollout. For
-        small businesses without in-house IT or marketing ops, Geek @ Your Spot handles the technical setup,
+        small businesses without in-house IT or marketing ops, Geek @ Your Spot LLC handles the technical setup,
         brand voice configuration, and integration work, closing the gap between buying the tool and seeing
         results.</p>
       <p className="text-md text-white shadow-text pt-3">

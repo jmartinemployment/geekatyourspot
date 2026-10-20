@@ -29,7 +29,7 @@ export default function OverviewSection() {
         steady stream of new local leads. No more blank pages. No more sticker shock. Just a repeatable system
         that works for small teams, not against them.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot built its content creation workflow for exactly these South Florida businesses. The
+        Geek @ Your Spot LLC built its content creation workflow for exactly these South Florida businesses. The
         goal is simple: help you save time, cut costs, and finally compete online, without burning out or
         breaking the bank. Intelligent Content Generation is not a shortcut, but a lever. It frees up your day
         and lets you focus on what matters, while your digital presence keeps working for you.</p>

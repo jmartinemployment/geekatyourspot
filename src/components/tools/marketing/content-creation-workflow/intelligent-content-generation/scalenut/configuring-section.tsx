@@ -7,8 +7,7 @@ export default function ConfiguringSection() {
         Scalenut is not a generic writing tool. It is a configurable platform where the rules you set and the
         brand context you provide drive the outcomes. For a small business in South Florida, this means you do
         not get a generic blog post or social update. You get content that matches your business’s own
-        answers, tone, and goals, because those elements are set up as part of the initial configuration. Geek
-        @ Your Spot handles this setup to ensure Scalenut’s automation works for your real process, not just
+        answers, tone, and goals, because those elements are set up as part of the initial configuration. Geek @ Your Spot LLC handles this setup to ensure Scalenut’s automation works for your real process, not just
         for a template.</p>
       <p className="text-md text-white shadow-text pt-3">
         The core of Scalenut’s automation is its workflow engine, which moves each piece of content from idea
@@ -47,7 +46,7 @@ export default function ConfiguringSection() {
         integration causing downtime. For most small businesses, this is a benefit: the platform is designed
         to be set up once and then run with minimal ongoing maintenance.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Configuration in Scalenut also covers data mapping. When Geek @ Your Spot implements Scalenut, they
+        Configuration in Scalenut also covers data mapping. When Geek @ Your Spot LLC implements Scalenut, they
         map your existing data, FAQs, process documents, service lists, into the platform’s prompt and context
         fields. This means that the content engine is always drawing from your real expertise, not from
         generic internet sources. For a Broward HVAC company, that means technician notes and approved answers
@@ -69,7 +68,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         In summary, what gets configured in Scalenut is not just a set of templates. It is the logic that
         governs how your expertise, your brand, and your local focus are turned into publishable, optimized
-        content week after week. Geek @ Your Spot’s role is to ensure that configuration matches your
+        content week after week. Geek @ Your Spot LLC’s role is to ensure that configuration matches your
         real-world needs, so the automation delivers results you can see in your sales and your search
         visibility.</p>
     </>

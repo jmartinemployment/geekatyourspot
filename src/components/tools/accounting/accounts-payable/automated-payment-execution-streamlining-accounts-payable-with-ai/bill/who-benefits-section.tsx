@@ -21,7 +21,7 @@ export default function WhoBenefitsSection() {
         until their operations expand to require more robust automation capabilities.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses ready to implement Bill, the next step is to assess how it fits within their existing
-        financial infrastructure. Geek @ Your Spot can play a crucial role here, offering expertise in
+        financial infrastructure. Geek @ Your Spot LLC can play a crucial role here, offering expertise in
         configuring Bill to align with your current systems and processes. This ensures a smooth transition
         and helps you get the most out of Bill’s features from day one.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -26,10 +26,10 @@ export default function ConfiguringSection() {
         traditional&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, it provides integration
         capabilities with popular accounting software such as QuickBooks, Xero, and Oracle NetSuite. This means
         businesses can seamlessly sync their financial data across platforms, ensuring consistency and accuracy.
-        Geek @ Your Spot specializes in setting up these integrations, ensuring that Bill works smoothly within your
+        Geek @ Your Spot LLC specializes in setting up these integrations, ensuring that Bill works smoothly within your
         existing tech stack.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For businesses unsure about handling these configurations themselves, Geek @ Your Spot offers expert
+        For businesses unsure about handling these configurations themselves, Geek @ Your Spot LLC offers expert
         guidance. They help assess your current processes, identify areas for automation, and configure Bill to
         align with your business goals. This tailored approach not only optimizes Bill&#39;s functionality but also
         ensures that your team is trained to leverage its full potential, making the transition to automated

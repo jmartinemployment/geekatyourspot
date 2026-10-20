@@ -43,7 +43,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The final test is support and implementation. Hootsuite is designed to be self-service for most small
         teams, but getting maximum value means configuring it to your workflow and training your staff on its
-        best practices. That is where Geek @ Your Spot comes in: the consultancy handles the setup, mapping,
+        best practices. That is where Geek @ Your Spot LLC comes in: the consultancy handles the setup, mapping,
         and process design, making sure you do not waste cycles figuring out the system or missing out on
         automation you are already paying for. The right fit is not just about the tool, it is about how
         quickly your team can go from setup to seeing real, measurable results.</p>

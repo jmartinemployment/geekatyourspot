@@ -26,7 +26,7 @@ export default function OverviewSection() {
         headcount or breaking the budget. For a local team with a backlog of untapped content, this is how you
         finally match the output of bigger players and keep your message in front of customers all year.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot specializes in helping South Florida small businesses automate this entire workflow.
+        Geek @ Your Spot LLC specializes in helping South Florida small businesses automate this entire workflow.
         With the right system, you can stop letting your best material gather dust and start building a real,
         consistent digital presence, without the blank page, the agency bills, or the endless wait for new
         leads.</p>

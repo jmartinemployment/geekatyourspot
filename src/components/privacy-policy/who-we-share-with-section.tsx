@@ -11,7 +11,7 @@ export default function WhoWeShareWithSection() {
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         We may also disclose information when a law, a court order, or a government request requires it, or
-        when we need to protect our rights, our clients, or the public. If Geek at Your Spot LLC is ever sold
+        when we need to protect our rights, our clients, or the public. If Geek @ Your Spot LLC is ever sold
         or merged with another company, the information we hold may transfer to the new owner, who will remain
         bound by this policy for the information collected under it.</p>
     </>

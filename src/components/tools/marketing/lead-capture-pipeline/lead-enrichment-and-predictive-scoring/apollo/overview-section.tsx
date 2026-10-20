@@ -13,7 +13,7 @@ export default function OverviewSection() {
         inbox stays quiet. The team’s effort goes toward chasing cold or dead leads, while real buyers slip
         away without ever making contact.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the reality for small businesses without a Lead Capture Pipeline built on&nbsp;<Link id="tools-marketing-lead-enrichment-apollo-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment and Predictive Scoring</Link>. Owners know their best prospects are out there, but manual processes and
+        This is the reality for small businesses without a Lead Capture Pipeline built on&nbsp;<Link id="tools-marketing-lead-enrichment-apollo-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>. Owners know their best prospects are out there, but manual processes and
         incomplete data shut them out. Eight out of ten hours in sales and marketing get wasted on dead ends.
         Warm, high-intent website visitors, nearly every real opportunity, remain anonymous and unqualified,
         never reaching a sales conversation. The result is not just a slow pipeline, but a revenue gap that

@@ -22,7 +22,7 @@ export default function LedeSection() {
               dynamically adjust bids, ensuring your ads reach the right audience at the right time, without the need for constant
               manual intervention. Imagine cutting down on wasted ad spend and focusing on strategies that drive real results.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              At <strong>Geek At Your Spot</strong>, we help businesses like yours implement these advanced solutions. Our
+              At <strong>Geek @ Your Spot LLC</strong>, we help businesses like yours implement these advanced solutions. Our
               expertise in AI ensures accelerated deployment and seamless integration with your existing systems. Let’s explore how
               automated ad spend optimization can transform your marketing efforts, saving you time and boosting your bottom
               line.</p>

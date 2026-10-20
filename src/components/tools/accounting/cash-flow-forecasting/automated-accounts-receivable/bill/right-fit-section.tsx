@@ -22,13 +22,13 @@ export default function RightFitSection() {
         integrations could be more appropriate.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering Bill, the next step is to evaluate how its features align with their specific
-        needs. Geek @ Your Spot can assist with this assessment, ensuring that the implementation process is smooth
-        and tailored to the business&#39;s existing systems. By leveraging Geek @ Your Spot&#39;s expertise,
+        needs. Geek @ Your Spot LLC can assist with this assessment, ensuring that the implementation process is smooth
+        and tailored to the business&#39;s existing systems. By leveraging Geek @ Your Spot LLC&#39;s expertise,
         businesses can maximize the benefits of Bill&#39;s capabilities, ensuring a successful integration and
         improved financial management.</p>
       <p className="text-md text-white shadow-text pt-3">
         In conclusion, Bill offers a compelling solution for businesses seeking to automate their automated accounts
-        receivable processes. By partnering with Geek @ Your Spot, businesses can ensure that they are making the
+        receivable processes. By partnering with Geek @ Your Spot LLC, businesses can ensure that they are making the
         most of this powerful tool, leading to improved cash flow and reduced administrative burdens.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;

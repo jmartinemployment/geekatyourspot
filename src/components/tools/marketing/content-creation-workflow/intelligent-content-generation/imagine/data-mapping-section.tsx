@@ -45,7 +45,7 @@ export default function DataMappingSection() {
         workflows, or reallocating effort to higher-impact content.</p>
       <p className="text-md text-white shadow-text pt-3">
         Getting data structure and mapping right at the beginning is what makes Imagine’s automation reliable.
-        Geek @ Your Spot guides clients through these decisions, ensuring that the system reflects the real
+        Geek @ Your Spot LLC guides clients through these decisions, ensuring that the system reflects the real
         way the business works, not a generic template. The result is a content engine that runs without
         constant oversight, freeing up the owner and team to focus on growth instead of firefighting.</p>
     </>

@@ -25,7 +25,7 @@ export default function EvaluatingSection() {
         is highly responsive and knowledgeable about sales tax compliance. This support is crucial for
         businesses that may need assistance with complex tax issues or integrations with other platforms.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot enhances the value of TaxCloud by offering tailored implementation services. Their
+        Geek @ Your Spot LLC enhances the value of TaxCloud by offering tailored implementation services. Their
         expertise in configuring TaxCloud to fit your specific business environment ensures that you maximize
         the platform&#39;s capabilities. They assist with data mapping, integration with existing systems, and
         provide training to ensure your team is comfortable using the tool.</p>
@@ -33,7 +33,7 @@ export default function EvaluatingSection() {
         In conclusion, evaluating TaxCloud involves assessing its fit for your business&#39;s specific tax
         compliance needs and understanding its pricing model. With its scalable features and supportive customer
         service, TaxCloud offers a compelling solution for businesses looking to simplify their tax compliance
-        processes. Geek @ Your Spot&#39;s implementation services further enhance the platform&#39;s value,
+        processes. Geek @ Your Spot LLC&#39;s implementation services further enhance the platform&#39;s value,
         ensuring a smooth transition and effective use of the tool.</p>
     </>
   );

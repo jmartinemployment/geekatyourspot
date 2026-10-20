@@ -28,8 +28,7 @@ export default function EvaluatingSection() {
         including&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and calendar platforms like HubSpot,
         Salesforce, and Google Calendar. This means you can keep your existing tools, no need to rip and
         replace. Every lead, booking, and conversation can be logged where your team already works. For South
-        Florida businesses that run their pipeline in one of these systems, Dapta plugs in cleanly, and Geek @
-        Your Spot handles the mapping so nothing gets lost in translation.</p>
+        Florida businesses that run their pipeline in one of these systems, Dapta plugs in cleanly, and Geek @ Your Spot LLC handles the mapping so nothing gets lost in translation.</p>
       <p className="text-md text-white shadow-text pt-3">
         Price is where many small businesses hesitate. Dapta’s model is designed to lower the barrier to
         entry. There is a free tier, and most teams can be live in under 30 minutes. For WhatsApp Business,
@@ -54,7 +53,7 @@ export default function EvaluatingSection() {
         for teams that want to own their automation, keep every lead in view, and respond on every channel,
         without growing their headcount or tech stack.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to close the last mile: configuring Dapta to fit your real intake process,
+        Geek @ Your Spot LLC’s role is to close the last mile: configuring Dapta to fit your real intake process,
         mapping every field to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and training your team
         on how to use and adjust the flows. For a Broward law firm or a Miami-Dade home services company, this
         means you are not left with a tool you have to figure out on your own. You get a system that fits your

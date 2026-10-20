@@ -30,7 +30,7 @@ export default function OverviewSection() {
         fancy tech. It is about finally having the clarity and control to grow without adding headcount or
         blowing up the budget.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot specializes in cutting through the noise: we help local teams replace error-prone
+        Geek @ Your Spot LLC specializes in cutting through the noise: we help local teams replace error-prone
         manual cash flow processes with automated, intelligent solutions that show exactly where the business
         stands, today, not last quarter. Small businesses do not need another complex system to manage. They
         need a tool that fits the way they already work, gives answers in plain English, and scales as they

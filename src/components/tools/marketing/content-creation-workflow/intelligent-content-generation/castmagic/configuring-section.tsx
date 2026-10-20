@@ -53,13 +53,12 @@ export default function ConfiguringSection() {
         provided. All automation, integration, and workflow logic is handled through built-in connectors,
         prompt templates, and workspace settings. This means you do not need a developer to get advanced
         automation running, but you also cannot build your own scripts or
-        direct&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls for edge-case scenarios. Geek @
-        Your Spot’s role is to map your workflow to what Castmagic supports, configure the right prompts and
+        direct&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls for edge-case scenarios. Geek @ Your Spot LLC’s role is to map your workflow to what Castmagic supports, configure the right prompts and
         roles, and train your team to use the platform’s full set of collaboration and approval tools. The
         value is in making the platform fit your business, not the other way around.</p>
       <p className="text-md text-white shadow-text pt-3">
         A real-world example: the same Miami-Dade team from the opening uploads their weekly customer calls.
-        Castmagic, configured by Geek @ Your Spot, pulls the files from Google Drive, transcribes in both
+        Castmagic, configured by Geek @ Your Spot LLC, pulls the files from Google Drive, transcribes in both
         English and Spanish, and applies a set of branded prompts: one for a newsletter, another for three
         LinkedIn posts, and a third for a blog summary. The manager gets a notification to review and approve
         the drafts inside Castmagic. If they want to tweak a section, they use Magic Chat to ask for a version
@@ -71,7 +70,7 @@ export default function ConfiguringSection() {
         are set up through the platform’s own interface, with no need for custom code or third-party plugins.
         The platform’s strength is in how well it can be tailored to your real processes, if you invest the
         time to map those processes and configure Castmagic to match, you get a system that turns every
-        recording into a repeatable, scalable content engine. Geek @ Your Spot’s expertise is in closing that
+        recording into a repeatable, scalable content engine. Geek @ Your Spot LLC’s expertise is in closing that
         gap for small teams, so the tool works for your business from day one.</p>
     </>
   );

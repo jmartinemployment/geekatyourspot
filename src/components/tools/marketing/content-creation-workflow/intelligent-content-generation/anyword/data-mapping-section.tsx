@@ -39,8 +39,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         <GlossaryLink slug="data-quality">Data quality</GlossaryLink>&nbsp;also matters. Anyword’s predictive
         scoring and optimization features rely on clean, complete data. If your campaign history is full of
-        duplicates, missing values, or outdated contacts, the AI’s suggestions will be less accurate. Geek @
-        Your Spot helps clients assess and clean their data before importing it. This upfront work pays off in
+        duplicates, missing values, or outdated contacts, the AI’s suggestions will be less accurate. Geek @ Your Spot LLC helps clients assess and clean their data before importing it. This upfront work pays off in
         more precise targeting and higher-performing content from the start.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Connect every relevant marketing channel and data source, not just one or two.</li>

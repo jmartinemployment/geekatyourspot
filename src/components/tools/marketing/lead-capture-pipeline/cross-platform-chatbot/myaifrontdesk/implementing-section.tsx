@@ -54,12 +54,12 @@ export default function ImplementingSection() {
         phone and social channels as your team gets comfortable. This reduces risk and lets you see results
         right away without disrupting your current workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot’s role is to close the last mile. The team handles the mapping of your business
+        Geek @ Your Spot LLC’s role is to close the last mile. The team handles the mapping of your business
         rules, ensures your knowledge base is accurate and up to date, and configures escalation logic so
         high-intent leads never sit idle. They also train your staff on how to use the Unified Inbox and
         interpret the AI’s&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;so your
         team acts on the right opportunities first. For businesses with more complex needs, such as custom
-        routing or integration with industry-specific tools, Geek @ Your Spot manages the configuration so you
+        routing or integration with industry-specific tools, Geek @ Your Spot LLC manages the configuration so you
         do not have to.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real difference comes on the first Monday after launch. Instead of sorting through missed calls,

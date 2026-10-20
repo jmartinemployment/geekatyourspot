@@ -7,7 +7,7 @@ export default function ImplementingSection() {
         templated setups, which significantly reduce the time and complexity typically involved in such deployments.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step involves assessing your current accounts receivable processes to identify areas where
-        Invoiced can add the most value. This is where Geek @ Your Spot steps in, offering their expertise to map
+        Invoiced can add the most value. This is where Geek @ Your Spot LLC steps in, offering their expertise to map
         out a phased rollout plan tailored to your business needs. By prioritizing critical areas, such as invoice
         delivery and payment collection, the transition becomes more manageable and less disruptive to daily
         operations.</p>
@@ -24,8 +24,7 @@ export default function ImplementingSection() {
         strategic tasks rather than getting bogged down in technical details.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, the phased rollout strategy ensures a smooth transition. By implementing Invoiced in stages, your
-        team can gradually adapt to the new system, reducing the learning curve and minimizing disruptions. Geek @
-        Your Spot supports this process by providing training and support, ensuring that your team is confident and
+        team can gradually adapt to the new system, reducing the learning curve and minimizing disruptions. Geek @ Your Spot LLC supports this process by providing training and support, ensuring that your team is confident and
         capable of leveraging Invoiced&#39;s full potential.</p>
     </>
   );
