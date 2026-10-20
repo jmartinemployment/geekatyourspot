@@ -242,7 +242,7 @@ This is verified, and it is the navbar target for Marketing.
 - **Old search results.** Search engines still hold old `www` URLs from the pre-2026 site (HR bots, WordPress, `info@geekatyourspot.com`), and AI summaries describe the business from them. They will drop out as 404s on recrawl, so no redirect is needed.
 - **Fix, all before launch.**
   - Claim Bing Places by importing from the GBP, and Apple Business Connect.
-  - Create Clutch, DesignRush, GoodFirms, UpCity and TechBehemoths profiles with one name and one NAP.
+  - Create Clutch, DesignRush, GoodFirms, UpCity and TechBehemoths profiles with one name and one NAP. Since 2026-10-20 that name is "Geek @ Your Spot LLC" (M5).
   - Refresh the GBP category, photos and description.
   - Claim the brand handles.
   - Add each profile to `sameAs`.
@@ -341,6 +341,8 @@ This is verified.
   - The comment at `src/app/(site)/page.tsx:9-10` claims the schema matches the GBP, which is not true for the name.
   - `sameAs` still lists `https://twitter.com/geekatyourspot`, which leads to an X profile that returns 404.
   - The founding year is 2024 in the schema and 2025 on LinkedIn.
+  - **Name fixed on the site on 2026-10-20 (`cc57675`), partly fixed.** At the owner's direction every rendered page names the business "Geek @ Your Spot LLC": the schema, publisher and author nodes, titles, metadata, alt text and the footer. A crawl of all 426 pages finds 7,536 mentions and no other form. The same change is SA M5 in `plans/seo-audit-2026-10-20.md`.
+    - Still open: the GBP and LinkedIn say "Geek @ Your Spot" and Facebook "Geek At Your Spot", so the comment at `src/app/(site)/page.tsx:9-10` is still untrue for the name until those profiles are renamed by hand. The X profile and the founding year are also still open.
   - Fix:
     - Use one `name`, and keep the other forms as `alternateName` and `legalName`.
     - Fix "Llc".
@@ -387,6 +389,8 @@ This is verified.
   - 25 of 32 run over 60 characters.
   - **Partly fixed on 2026-10-20 (`4c15437`).** The SA H7 titles are under 60 with the site name. 11 of the 25 remaining posts still run over 60; none of them was shortened in `df3130d`.
   - Setting `title: { absolute: post.headline }` in `src/app/(site)/blog/[department]/[...slug]/page.tsx:33` fixes 19 of them.
+  - **Recounted on 2026-10-20 after the name change (GEO M5).** The suffix is now " | Geek @ Your Spot LLC", 23 characters. 19 of the 25 posts run over 60, and 9 of the 17 SA H7 titles now run 61 to 63, so SA H7 is partly undone. Site-wide, 118 of 426 titles run over 60, up from 69.
+  - **SA H7 fixed again on 2026-10-20 (`cc57675`).** Ten SA H7 titles were shortened again, so all 17 are 59 characters or fewer. 11 of the 25 posts still run over 60, and 109 of 426 titles site-wide.
 - **M11. Almost no images.**
   - 422 of 432 pages have no content image.
   - Of 57 article nodes, only 7 have a usable raster image. The rest use the placeholder, the 116 x 48 logo SVG (below Google's minimum), or nothing.
