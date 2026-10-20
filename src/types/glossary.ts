@@ -1,7 +1,6 @@
 export interface GlossaryDefinition {
   partOfSpeech: string; // e.g. "noun", "verb", "adjective"
   text: string;
-  example?: string;
 }
 
 export interface GlossaryTerm {
@@ -9,9 +8,13 @@ export interface GlossaryTerm {
   title: string;
   /** URL slug, e.g. "a-b-testing" */
   slug: string;
-  /** Simple definition string (for quick entries) OR array of definitions with examples */
+  /** Simple definition string (for quick entries) OR array of definitions */
   definition?: string;
   definitions?: GlossaryDefinition[];
+  /** One sentence on the term's direct impact or business value */
+  whyItMatters?: string;
+  /** One sentence on how the term connects to related terms, tools or dependencies */
+  systemsContext?: string;
   /** Optional category for grouping/filtering, e.g. "AI & Automation" */
   category?: string;
   /** Optional short one-line summary for index view */

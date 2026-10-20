@@ -40,11 +40,6 @@ export function TermDetail({ term }: TermDetailProps) {
               <p className="ml-6 text-xl leading-relaxed text-white shadow-text lg:text-2xl">
                 {def.text}
               </p>
-              {def.example && (
-                <p className="ml-6 border-l-3 border-[#C83803] pl-4 text-lg italic text-white/80 shadow-text lg:text-xl">
-                  &ldquo;{def.example}&rdquo;
-                </p>
-              )}
             </div>
           ))}
         </section>
@@ -58,6 +53,28 @@ export function TermDetail({ term }: TermDetailProps) {
           </div>
           <p className="ml-6 text-xl leading-relaxed text-white shadow-text lg:text-2xl">
             {simpleDefinition}
+          </p>
+        </section>
+      )}
+
+      {term.whyItMatters && (
+        <section className="space-y-3">
+          <h2 className="text-white text-[6vw] sm:text-3xl lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+            Why It Matters
+          </h2>
+          <p className="text-xl leading-relaxed text-white shadow-text lg:text-2xl">
+            {term.whyItMatters}
+          </p>
+        </section>
+      )}
+
+      {term.systemsContext && (
+        <section className="space-y-3">
+          <h2 className="text-white text-[6vw] sm:text-3xl lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+            Systems Context
+          </h2>
+          <p className="text-xl leading-relaxed text-white shadow-text lg:text-2xl">
+            {term.systemsContext}
           </p>
         </section>
       )}
