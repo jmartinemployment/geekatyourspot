@@ -38,6 +38,7 @@ const HUB_GROUPS = [
       { label: "Blog", href: "/blog" },
       { label: "Glossary", href: "/glossary" },
       { label: "Methodology", href: "/methodology" },
+      { label: "About", href: "/about" },
     ],
   },
 ] as const;
