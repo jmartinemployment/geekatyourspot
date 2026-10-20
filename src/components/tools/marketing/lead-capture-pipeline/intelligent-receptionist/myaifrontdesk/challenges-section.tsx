@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -28,7 +27,7 @@ export default function ChallengesSection() {
         effort of getting that lead in the first place.</p>
       <p className="text-md text-white shadow-text pt-3">
         Manual logging is another hidden drain. After-hours calls, missed inquiries, and basic intake data often
-        never make it into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or booking system. That
+        never make it into your&nbsp;CRM&nbsp;or booking system. That
         means no follow-up, no attribution, and no way to learn from what is working or not. The Monday morning
         bottleneck, catching up on missed calls, voicemails, and half-completed forms, can take hours, and by
         then, many leads are cold or gone.</p>
@@ -60,7 +59,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What it costs to keep doing this by hand
               </h2>
               {body}

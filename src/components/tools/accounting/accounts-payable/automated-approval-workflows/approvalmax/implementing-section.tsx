@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -7,7 +6,7 @@ export default function ImplementingSection() {
         Deploying Approvalmax in a business environment involves several key steps that ensure a smooth
         transition from manual to automated approval workflows. Geek @ Your Spot LLC, a consultancy specializing
         in&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;implementation
+        AI&nbsp;implementation
         for small businesses, plays a crucial role in this process, guiding clients through the setup and
         configuration of Approvalmax to fit their specific operational needs.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -66,7 +65,7 @@ export default function ImplementingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-approvalmax-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-approvalmax-in-your-business-environment-lg">
                 Implementing Approvalmax in Your Business Environment
               </h2>
               {body}

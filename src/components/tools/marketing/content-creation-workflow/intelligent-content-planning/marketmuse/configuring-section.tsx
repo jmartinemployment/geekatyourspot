@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -18,7 +17,7 @@ export default function ConfiguringSection() {
         authority), Topic Authority (how well your site covers a subject compared to competitors), and
         Competitive Advantage (the gap between general difficulty and your own odds of ranking). These metrics
         are not generic. They are calculated from your actual content footprint and performance history, not
-        from a public keyword database or third-party&nbsp;<GlossaryLink slug="api">API</GlossaryLink>.</p>
+        from a public keyword database or third-party&nbsp;API.</p>
       <p className="text-md text-white shadow-text pt-3">
         The rules that drive planning and automation are set within MarketMuse’s own applications. You do not
         write scripts or build custom automations. Instead, you set priorities by tracking topics that matter
@@ -35,7 +34,7 @@ export default function ConfiguringSection() {
         and content plans, so your team is not stuck in endless research or debate.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you want to extend MarketMuse, you are limited to what the platform itself exposes. There is no
-        public&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK for custom integrations or
+        public&nbsp;API&nbsp;or SDK for custom integrations or
         scripting. All configuration happens inside the web interface. This keeps the workflow simple and
         focused but means that if you need deep integration with other systems, like pushing data into a
         custom dashboard or automating task creation in a third-party project manager, you will need to handle
@@ -54,7 +53,7 @@ export default function ConfiguringSection() {
         The real value in MarketMuse’s configuration is that it breaks the cycle of manual audits and gut-feel
         assignments. Once set up, it tells you, based on your own site and your real competitors, where to
         focus for the fastest, most reliable gains. There is no scripting, no custom coding, and no
-        complex&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;work. The rules are built into the
+        complex&nbsp;API&nbsp;work. The rules are built into the
         platform, and the automation logic is driven by your own content, not by generic industry templates.
         For a small team, that means less time spent on setup and more time spent on executing a plan that
         actually works.</p>
@@ -80,7 +79,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-marketmuse-rules-automation-logic-and-extension-limits" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-marketmuse-rules-automation-logic-and-extension-limits-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in MarketMuse: Rules, Automation Logic, and Extension Limits
               </h2>
               {body}

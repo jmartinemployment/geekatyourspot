@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Zamp is designed to simplify the complexities of&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;through its configurable rules and automation logic. Businesses can
+        Zamp is designed to simplify the complexities of&nbsp;tax
+        compliance&nbsp;through its configurable rules and automation logic. Businesses can
         tailor Zamp to fit their specific needs by setting up various compliance rules that automate the
         handling of sales tax across multiple states. This flexibility allows small businesses to manage complex
         tax obligations without needing a large in-house team. Zamp&#39;s automation logic is built to cover
@@ -21,7 +20,7 @@ export default function ConfiguringSection() {
         Zamp&#39;s extension capabilities further enhance its adaptability. While the platform itself does not
         require extensive coding to implement, it offers integration options through APIs, allowing businesses
         to connect Zamp with existing accounting
-        and&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems. This integration is seamless,
+        and&nbsp;ERP&nbsp;systems. This integration is seamless,
         providing real-time data synchronization and reducing the need for manual data entry. Geek @ Your Spot LLC
         leverages these capabilities to ensure that Zamp not only fits into the current systems but also
         enhances them, providing a comprehensive compliance solution.</p>
@@ -58,7 +57,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-zamp-rules-logic-and-extensions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-zamp-rules-logic-and-extensions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Zamp: Rules, Logic, and Extensions
               </h2>
               {body}

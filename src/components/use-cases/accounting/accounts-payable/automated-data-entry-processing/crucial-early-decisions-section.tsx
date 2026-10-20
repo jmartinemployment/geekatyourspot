@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 export default function CrucialEarlyDecisionsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When it comes to implementing automated data entry and processing in accounts payable, the decisions
         made at the outset are critical. These early choices can determine whether the system becomes a
         seamless part of your operations or a source of frustration. One key decision is selecting the right
         tools that align with your business needs.&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-decisions-dext"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-decisions-dext${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#0B162A] hover:underline">
           Dext
         </Link>&nbsp;is particularly effective for firms looking to streamline bookkeeping and improve
@@ -20,7 +20,7 @@ export default function CrucialEarlyDecisionsSection() {
         Another vital decision involves determining the scope of automation. Not every aspect of accounts
         payable needs to be automated, and over-automation can lead to rigidity that stifles flexibility.
         Tools like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-decisions-bill"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-decisions-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;offer customizable approval workflows, which can be tailored to suit varying business
@@ -49,7 +49,7 @@ export default function CrucialEarlyDecisionsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function CrucialEarlyDecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="crucial-early-decisions-for-successful-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="crucial-early-decisions-for-successful-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Crucial Early Decisions for Successful Implementation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,5 +1,5 @@
 export default function StreamlinesApSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         AvidXchange offers a comprehensive solution for automating accounts payable (AP) processes,
@@ -24,8 +24,8 @@ export default function StreamlinesApSection() {
         current operations.</p>
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;AvidXchange automates your B2B payments and integrates with your existing AP process so you can
-        monetize electronic payments at scale—without changing banks or accounting systems.&quot;&nbsp;
-        <a id="tools-accounting-avidxchange-streamlines-source"
+        monetize electronic payments at scale, without changing banks or accounting systems.&quot;&nbsp;
+        <a id={`tools-accounting-avidxchange-streamlines-source${idSuffix}`}
           href="https://www.avidxchange.com/corporate-payments/"
           target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           AvidXchange
@@ -50,7 +50,7 @@ export default function StreamlinesApSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function StreamlinesApSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-avidxchange-streamlines-ap-processes">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-avidxchange-streamlines-ap-processes-lg">
                 How AvidXchange Streamlines AP Processes
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

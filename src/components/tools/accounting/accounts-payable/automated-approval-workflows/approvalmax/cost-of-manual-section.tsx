@@ -60,7 +60,7 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-approval-workflows-and-how-approvalmax-solves-it">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-approval-workflows-and-how-approvalmax-solves-it-lg">
                 The Cost of Manual Approval Workflows and How ApprovalMax Solves It
               </h2>
               {body}

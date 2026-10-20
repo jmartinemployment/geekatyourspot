@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function WhenRightSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Automated Payment Execution is not a one-size-fits-all solution. For small businesses grappling with
@@ -14,7 +14,7 @@ export default function WhenRightSection() {
         data entry, invoice approvals, and payment processing, automation could be the right move. Businesses
         that process a high volume of invoices or deal with frequent payment errors stand to benefit
         significantly. Automated systems like&nbsp;
-        <Link id="use-cases-accounting-payment-execution-when-bill"
+        <Link id={`use-cases-accounting-payment-execution-when-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;can streamline these processes by integrating with your existing accounting software and
@@ -31,18 +31,18 @@ export default function WhenRightSection() {
       <p className="text-md text-white shadow-text pt-3">
         Once you’ve determined that Automated Payment Execution aligns with your business needs, the next step
         is to choose the right tool. Consider solutions like&nbsp;
-        <Link id="use-cases-accounting-payment-execution-when-tipalti"
+        <Link id={`use-cases-accounting-payment-execution-when-tipalti${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">
           Tipalti
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-payment-execution-when-avidxchange"
+        <Link id={`use-cases-accounting-payment-execution-when-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>, which offer robust features for managing complex payment workflows and ensuring compliance
         with financial regulations.</p>
       <p className="text-md text-white shadow-text pt-3">
         Implementation is the final consideration. With tools like&nbsp;
-        <Link id="use-cases-accounting-payment-execution-when-melio"
+        <Link id={`use-cases-accounting-payment-execution-when-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>, businesses can expect a seamless integration with their existing systems, minimizing downtime
@@ -56,18 +56,18 @@ export default function WhenRightSection() {
         resources more effectively and improve overall financial management.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="use-cases-accounting-payment-execution-when-consultation"
+        <Link id={`use-cases-accounting-payment-execution-when-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
-        <li>Where do bills arrive today—email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
+        <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
         <li>Who enters bills into QuickBooks, Xero, or your accounting system?</li>
         <li>Who decides whether a bill is valid and ready to pay?</li>
         <li>Who can actually release money from the bank account?</li>
         <li>How many vendor bills or payments do you process in a typical month?</li>
-        <li>How are most vendors paid today—check, ACH, bank transfer, card, wire, or a mix?</li>
+        <li>How are most vendors paid today: check, ACH, bank transfer, card, wire, or a mix?</li>
         <li>How often do you run payments: daily, weekly, twice monthly, or only when someone says a bill is urgent?</li>
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
@@ -86,7 +86,7 @@ export default function WhenRightSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +94,10 @@ export default function WhenRightSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="determining-when-automated-payment-execution-is-right-for-your-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="determining-when-automated-payment-execution-is-right-for-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Determining When Automated Payment Execution Is Right for Your Business
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

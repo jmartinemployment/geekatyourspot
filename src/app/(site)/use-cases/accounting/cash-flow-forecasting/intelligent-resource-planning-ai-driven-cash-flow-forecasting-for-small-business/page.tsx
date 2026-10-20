@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Resource Planning";
 const DESCRIPTION =
     "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/cash-flow-forecasting/intelligent-resource-planning`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-14T13:36:09.9025920Z",
             "dateModified": "2026-10-14T13:36:09.9025920Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Resource Planning, Cash Flow Forecasting, Automated Accounts Receivable, Automated Spreadsheet Data, Automated Enterprise Resource Planning, AI implementation West Palm Beach, AI for small business Miami, Fathom, Jirav, Cashflowfrog",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/cashflowfrog#software` },
-                { "@id": `${TOOLS_BASE}/fathomhq#software` },
-                { "@id": `${TOOLS_BASE}/jirav#software` },
-                { "@id": `${TOOLS_BASE}/quickbooks#software` },
-                { "@id": `${TOOLS_BASE}/takethehelm#software` }
+                { "@id": "https://geekatyourspot.com/#software-cashflowfrog" },
+                { "@id": "https://geekatyourspot.com/#software-fathom" },
+                { "@id": "https://geekatyourspot.com/#software-jirav" },
+                { "@id": "https://geekatyourspot.com/#software-quickbooks-online-advanced" },
+                { "@id": "https://geekatyourspot.com/#software-take-the-helm" }
             ]
         },
         {
@@ -61,7 +59,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "Will this new automation software play nice with the tools and bank accounts I already use?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it will. The tools we implement connect securely to major business bank accounts, common POS systems, CRM software, and merchant payment gateways. This keeps your data flowing smoothly and avoids disrupting your current workflow."}},
                 {"@type": "Question", "name": "How does this tool help us handle multi-location operations or mobile employees moving between counties?", "acceptedAnswer": {"@type": "Answer", "text": "You get secure, real-time access to your system from anywhere. Whether your team is in Miami-Dade, Broward, or Palm Beach, employees can log expenses, upload receipts, track inventory, and view invoices on their phones or tablets. Your main office stays updated instantly."}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -82,14 +81,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture the daily grind for a small business in Miami or Broward. Your team juggles Instagram DMs,
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         wasting time, you’re losing money. The bigger your following, the faster this gets out of hand. Even
         with the best intentions, it’s impossible to stay on top of every platform, every hour, every day.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-manychat-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;changes that. Instead of treating each channel as a separate inbox, it keeps
+        A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-manychat-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;changes that. Instead of treating each channel as a separate inbox, it keeps
         every conversation, no matter where it started, connected to the right customer and the next step in
         your pipeline. With tools like Manychat, you can automate replies to comments and DMs, segment and tag
         leads, and sync all those details into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

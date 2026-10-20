@@ -7,12 +7,12 @@ import UseCasesHeroSection from "@/components/use-cases/shared/use-cases-hero";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { CollectionPage, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Use Cases";
 const PAGE_DESCRIPTION =
-  "Practical AI use cases for South Florida small businesses — accounting automation from accounts payable to tax compliance, and marketing automation from lead capture to content creation.";
+  "These AI use cases show South Florida small businesses how to automate accounting, from payables to tax compliance, and marketing, from leads to content.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/use-cases`,
     siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
-    images: [{ url: LOGO_IMAGE }],
+    images: [SHARE_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
-    images: [LOGO_IMAGE],
+    images: [SHARE_IMAGE],
   },
 };
 
@@ -78,7 +78,7 @@ const DEPARTMENTS: Department[] = [
     name: "accounting",
     title: "Accounting",
     description:
-      "Automate the finance back office — accounts payable, cash flow forecasting, and tax compliance.",
+      "Automate the finance back office: accounts payable, cash flow forecasting, and tax compliance.",
     href: "/use-cases/accounting",
     summary:
       "The finance back office is where manual work piles up fastest: invoices keyed by hand, approvals chased by email, forecasts rebuilt in spreadsheets, and tax rules that change by county. Each pillar below takes one of those jobs and the tools that automate it.",
@@ -164,14 +164,14 @@ const DEPARTMENTS: Department[] = [
         title: "Intelligent Payroll Tax",
         slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
         description:
-          "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.",
+          "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.",
         href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
       },
       {
         title: "Intelligent Multi-State Sales Tax",
         slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
         description:
-          "Multi-State Sales Tax Nexus compliance made simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready with local AI expertise.",
+          "AI makes Multi-State Sales Tax Nexus compliance simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready.",
         href: "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
       },
     ],
@@ -180,7 +180,7 @@ const DEPARTMENTS: Department[] = [
     name: "marketing",
     title: "Marketing",
     description:
-      "Put AI to work across marketing — lead capture, content creation, ad spend, and marketing systems.",
+      "Put AI to work across marketing: lead capture, content creation, ad spend, and marketing systems.",
     href: "/use-cases/marketing",
     summary:
       "Marketing automation earns its keep in the repetitive middle of the funnel: capturing and scoring leads, producing and repurposing content, tuning ad spend, and answering the same questions in chat. These pillars cover each of those jobs for a small team.",
@@ -245,7 +245,7 @@ const DEPARTMENTS: Department[] = [
         title: "Lead Enrichment and Predictive Scoring",
         slug: "lead-enrichment-and-predictive-scoring",
         description:
-          "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
+          "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.",
         href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
       },
       {

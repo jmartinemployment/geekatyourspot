@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The real friction in content creation for small businesses isn’t a lack of ideas or ambition. It’s the
@@ -50,7 +50,7 @@ export default function ChallengesSection() {
         to customer questions, unique processes, and hard-won knowledge, never makes it past the inbox or the
         job site. And the team, already stretched thin, spends more time fighting the process than growing the
         business. That’s the state of play for most small businesses in Miami-Dade, Broward, and Palm Beach
-        that haven’t overhauled their&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-challenges-ai-content-creation-workflow" href="/use-cases/marketing/ai-content-creation-workflow" className="text-[#C83803] hover:underline">content creation workflow</Link>.</p>
+        that haven’t overhauled their&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-challenges-ai-content-creation-workflow${idSuffix}`} href="/use-cases/marketing/ai-content-creation-workflow" className="text-[#C83803] hover:underline">content creation workflow</Link>.</p>
     </>
   );
 
@@ -65,7 +65,7 @@ export default function ChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -73,10 +73,10 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="where-content-creation-breaks-down-for-small-teams-today" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="where-content-creation-breaks-down-for-small-teams-today-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Where Content Creation Breaks Down for Small Teams Today
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

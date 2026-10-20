@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In small business offices across West Palm Beach, Broward, and Miami-Dade counties, accounting teams
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         rather than a molehill. This not only delays payments but also strains relationships with suppliers
         and disrupts cash flow, creating a cycle that hinders growth and efficiency.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-approval-workflows-approvalmax-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a lifeline. By shifting from manual to automated systems,
+        Automated&nbsp;<Link id={`tools-accounting-approval-workflows-approvalmax-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a lifeline. By shifting from manual to automated systems,
         businesses can streamline their&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process, ensuring accuracy
         and speed. With solutions like ApprovalMax, approvals are no longer a bottleneck. Instead, they become
@@ -43,7 +43,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing Hootsuite comes down to whether its approach to Intelligent Content Generation matches your
@@ -23,7 +23,7 @@ export default function EvaluatingSection() {
         compliance needs, the system’s approval logic and audit trail make it a fit where consumer-grade tools
         fall short.</p>
       <p className="text-md text-white shadow-text pt-3">
-        On pricing, Hootsuite’s&nbsp;<a id="tools-marketing-content-generation-hootsuite-evaluating-pricing-source" href="https://www.hootsuite.com/plans" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">plans page</a>&nbsp;said on October 20, 2026 that paid plans
+        On pricing, Hootsuite’s&nbsp;<a id={`tools-marketing-content-generation-hootsuite-evaluating-pricing-source${idSuffix}`} href="https://www.hootsuite.com/plans" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">plans page</a>&nbsp;said on October 20, 2026 that paid plans
         start at $99 for Standard and $199 for Professional and range up to $399 for Advanced, with Enterprise
         priced on request. You judge value by matching your usage to what the platform includes. Hootsuite’s
         pricing is structured around the features you need: number of social profiles, users, and advanced
@@ -70,7 +70,7 @@ export default function EvaluatingSection() {
                 How to Judge Hootsuite on Fit and Pricing for Your Small Business
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -79,10 +79,10 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-hootsuite-on-fit-and-pricing-for-your-small-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-hootsuite-on-fit-and-pricing-for-your-small-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Hootsuite on Fit and Pricing for Your Small Business
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

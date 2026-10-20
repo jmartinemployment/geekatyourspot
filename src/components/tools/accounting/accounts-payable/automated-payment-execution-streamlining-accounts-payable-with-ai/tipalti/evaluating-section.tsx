@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the right tool for Automated Payment Execution involves examining how well Tipalti fits your
@@ -18,7 +18,7 @@ export default function EvaluatingSection() {
         transactions, it&#39;s important to weigh these costs against potential savings from reduced manual
         labor and improved efficiency.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When considering Tipalti, also weigh its fit against other platforms. Competitors like&nbsp;<Link id="tools-accounting-payment-execution-tipalti-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;and&nbsp;<Link id="tools-accounting-payment-execution-tipalti-evaluating-bill" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;offer similar services, but Tipalti stands out with its extensive support for over 200 countries
+        When considering Tipalti, also weigh its fit against other platforms. Competitors like&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;offer similar services, but Tipalti stands out with its extensive support for over 200 countries
         and 120 currencies, which is crucial for businesses with a global reach. Its compliance features, such
         as automated tax form collection, further enhance its appeal by reducing the risk of regulatory
         penalties.</p>
@@ -47,7 +47,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-tipalti-fit-and-pricing-considerations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-tipalti-fit-and-pricing-considerations-lg">
                 Evaluating Tipalti: Fit and Pricing Considerations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

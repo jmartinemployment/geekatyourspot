@@ -86,7 +86,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-if-scalenut-is-the-right-fit-buyer-criteria-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-if-scalenut-is-the-right-fit-buyer-criteria-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge If Scalenut Is the Right Fit: Buyer Criteria and Pricing Model
               </h2>
               {body}

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every month, small business owners spend countless hours buried under the stress and inefficiency of
@@ -17,7 +17,7 @@ export default function OverviewSection() {
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes is time not spent
         on growth and innovation. The risk of human error looms large, with duplicate payments and compliance
         gaps being a continual threat. As businesses grow and the volume of transactions increases, these
-        inefficiencies are magnified, making it even harder to keep pace with demands. This is where Automated&nbsp;<Link id="tools-accounting-payment-execution-tipalti-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;comes in, offering a streamlined solution that transforms how financial operations
+        inefficiencies are magnified, making it even harder to keep pace with demands. This is where Automated&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;comes in, offering a streamlined solution that transforms how financial operations
         are managed.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automated Payment Execution revolutionizes the way businesses handle their finances by automating
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

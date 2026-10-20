@@ -44,7 +44,7 @@ export default function ComparingSection() {
         cases where businesses handle 100 simultaneous calls without missing a beat.</p>
       <p className="text-md text-white shadow-text pt-3">
         Where some platforms focus only on call handling,
-        Nextiva’s&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;design
+        Nextiva’s&nbsp;omnichannel&nbsp;design
         means it can also manage web chats and SMS, with each interaction tied back to a unified customer
         record. This is essential for lead capture pipelines, where a conversation may start on chat, continue
         via text, and close with a phone call. The full context follows the customer, so your team never has to
@@ -53,7 +53,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Nextiva’s real-time analytics and workflow tools give you visibility into call patterns, missed
         opportunities, and where leads drop out. Some competitors offer reporting, but Nextiva’s integration
-        with&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and
+        with&nbsp;CRM&nbsp;and
         calendar tools means the data is actionable, missed calls can trigger follow-ups, and lead information
         flows directly into your pipeline without manual entry. This is a critical difference for small
         businesses that cannot afford to let a single opportunity slip by.</p>
@@ -91,7 +91,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-nextiva-compares-to-other-approaches-small-teams-are-considering" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-nextiva-compares-to-other-approaches-small-teams-are-considering-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Nextiva Compares to Other Approaches Small Teams Are Considering
               </h2>
               {body}

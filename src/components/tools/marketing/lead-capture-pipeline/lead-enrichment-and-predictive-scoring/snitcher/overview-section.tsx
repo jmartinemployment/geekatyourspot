@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture this: a local B2B service firm in Miami-Dade watches as dozens of businesses visit their
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. The cost is real: lost deals, wasted ad spend,
         and a pipeline that never quite fills.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;solution changes this picture. Instead of treating every
+        A&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;solution changes this picture. Instead of treating every
         website visitor as a mystery, an AI-powered pipeline identifies which companies are actually on your
         site, enriches each visit with company details, and uses real behaviors (not just clicks) to score who
         is most likely to buy. The sales team gets alerts when a target account hits the right page. Marketing
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

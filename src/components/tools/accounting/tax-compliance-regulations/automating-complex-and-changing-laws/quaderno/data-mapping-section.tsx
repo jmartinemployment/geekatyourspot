@@ -1,17 +1,16 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When deploying Quaderno, the data structure and mapping decisions you make upfront are critical to
-        ensuring a smooth integration and effective&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>. These decisions involve determining how your existing sales and financial
+        ensuring a smooth integration and effective&nbsp;tax
+        compliance. These decisions involve determining how your existing sales and financial
         data will be organized and connected within Quaderno&#39;s system.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step is to map out your existing data sources and how they will interface with Quaderno. This
         includes identifying all platforms and payment processors you currently use, such as WooCommerce, Amazon
-        FBA, or custom integrations. Quaderno&#39;s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and
+        FBA, or custom integrations. Quaderno&#39;s&nbsp;API&nbsp;and
         CSV import capabilities allow you to bring in sales data from these sources, ensuring that all
         transactions are accounted for and tax calculations are accurate.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -53,7 +52,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-decisions-for-quaderno-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-decisions-for-quaderno-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping Decisions for Quaderno Deployment
               </h2>
               {body}

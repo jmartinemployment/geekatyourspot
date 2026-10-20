@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -30,7 +29,7 @@ export default function ChallengesSection() {
         sent back and forth between staff, or are left waiting for a call-back. The process is slow, and the
         window to secure the booking closes fast. In a market where customers expect instant confirmation, the
         back-and-forth costs real sales. Even when a booking is made, syncing it to the right calendar
-        or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is often a manual step. This means double
+        or&nbsp;CRM&nbsp;is often a manual step. This means double
         entry, mistakes, and sometimes missed appointments. Staff end up spending more time updating records
         than talking to customers.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -68,7 +67,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing This by Hand
               </h2>
               {body}

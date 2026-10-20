@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When
-        considering&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;tools, businesses often weigh several options. Floatapp stands out
+        considering&nbsp;cash
+        flow forecasting&nbsp;tools, businesses often weigh several options. Floatapp stands out
         among these solutions by offering specific features tailored to the needs of small businesses. Its
         integration with accounting platforms like Xero and QuickBooks Online ensures that data is always current,
         reducing the manual effort associated with traditional spreadsheet models.</p>
@@ -23,7 +22,7 @@ export default function ComparingSection() {
         dynamic forecasting tool that static spreadsheets cannot match.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering other software solutions, such as
-        integrated&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems,
+        integrated&nbsp;ERP&nbsp;systems,
         it&#39;s important to note that Floatapp is specifically designed for cash flow management. While ERPs offer
         a broad range of functionalities, they often lack the specialized tools for detailed cash flow forecasting
         that Floatapp provides. Furthermore, ERPs can be complex and costly, making them less suitable for small
@@ -61,7 +60,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-floatapp-to-other-cash-flow-solutions">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-floatapp-to-other-cash-flow-solutions-lg">
                 Comparing Floatapp to Other Cash Flow Solutions
               </h2>
               {body}

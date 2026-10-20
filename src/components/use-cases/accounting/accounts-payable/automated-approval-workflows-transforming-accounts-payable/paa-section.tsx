@@ -1,3 +1,55 @@
+/**
+ * Questions buyers ask about routing invoices for approval. The page builds its FAQPage
+ * structured data from this same list, so the markup can never drift from what the page shows.
+ */
+export const APPROVAL_QUESTIONS = [
+  {
+    question: "What is an invoice approval workflow?",
+    answer:
+      "An invoice approval workflow is the set of rules that sends each invoice to the right people for sign-off before it is paid. Automation applies those rules on its own, so an invoice reaches its approver the day it arrives instead of waiting in an inbox.",
+  },
+  {
+    question: "How does automated approval routing work?",
+    answer:
+      "The software reads each invoice's vendor, amount, department, and GL code, then sends it to the approver your rules name. An invoice that matches its purchase order can move straight through, and one over a set amount goes to a second approver.",
+  },
+  {
+    question: "Who should approve vendor invoices?",
+    answer:
+      "The person accountable for the spend should approve it, usually the budget owner for the department that ordered the goods or services. Larger invoices often need a second sign-off from the owner or controller.",
+  },
+  {
+    question: "What are approval thresholds?",
+    answer:
+      "Approval thresholds are dollar limits that decide how many approvers an invoice needs. For example, an invoice under one limit needs only the department head, while an invoice above it also needs the owner.",
+  },
+  {
+    question: "What happens when an approver is out of the office?",
+    answer:
+      "Approval software lets each approver name a delegate, and it escalates an invoice that waits too long. A vacation then does not hold up a payment or cost an early payment discount.",
+  },
+  {
+    question: "Can approvers sign off from a phone?",
+    answer:
+      "Yes. Approval tools such as Bill, Ramp, and ApprovalMax have mobile apps, so an approver can open the invoice, check it, and approve or reject it from a phone.",
+  },
+  {
+    question: "How do approval workflows prevent fraud and duplicate payments?",
+    answer:
+      "Every invoice needs a named approver before it can be paid, and every decision is logged with who made it and when. Most tools also flag an invoice that repeats a vendor's invoice number or amount, so the same bill is not paid twice.",
+  },
+  {
+    question: "Does it work with QuickBooks, Xero, or Sage?",
+    answer:
+      "Most of the approval tools on this page connect to QuickBooks Online and Xero, and some also connect to Sage. Which connections a tool offers varies, so we confirm the connector for your accounting system before setup.",
+  },
+  {
+    question: "What must be configured before going live?",
+    answer:
+      "Before going live, you set the approval rules: who approves which vendors, departments, and amounts, the thresholds that add a second approver, the delegates for time off, and how long an invoice can wait before it escalates.",
+  },
+] as const;
+
 export default function PAASection() {
   return (
     <section className="min-h-screen bg-[#024059] text-white py-5">
@@ -9,101 +61,15 @@ export default function PAASection() {
             </h2>
           </div>
           <div className="col-span-12">
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              What is automated invoice data entry?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Automated invoice data entry uses AI to capture and input invoice details into your accounting
-              system without manual typing. This saves time and reduces errors, letting your team focus on
-              more valuable tasks.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              What is the difference between invoice capture and AP automation?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Invoice capture focuses on extracting data from invoices and entering it into your system. AP
-              automation goes further by streamlining the entire accounts payable process, including
-              approvals and payments.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Can it process emailed PDFs, scanned invoices, and photos?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, automated approval workflows can handle emailed PDFs, scanned invoices, and even photos.
-              This flexibility means you can process various invoice formats without extra work.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Can it extract individual invoice line items?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, the software can extract individual line items from invoices. This feature helps maintain
-              detailed records and simplifies tracking expenses against specific budget lines.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              How accurate is automated invoice extraction?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Automated invoice extraction is highly accurate, often exceeding 90%. However, some complex
-              invoices may require manual review to ensure complete accuracy.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Will it eliminate all manual data entry?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              While it significantly reduces manual data entry, some oversight is still needed. The software
-              handles most entries, but human checks ensure data integrity for complex invoices.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              What happens when the software reads an invoice incorrectly?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              If the software misreads an invoice, it flags the item for review. Your team can then correct
-              the error, ensuring the data entered is accurate and reliable.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Can it automatically assign expense categories or GL codes?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, the system can automatically assign expense categories or GL codes based on predefined
-              rules. This reduces the time spent on manual coding and ensures consistency.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Can it compare invoices with purchase orders?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, automated workflows can match invoices to purchase orders to verify accuracy. This helps
-              prevent overpayments and ensures compliance with purchasing agreements.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Does it integrate with QuickBooks, Xero, or Sage?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, our solution integrates seamlessly with popular accounting software like QuickBooks, Xero,
-              and Sage. This integration ensures a smooth flow of data across your systems.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Will the original invoice remain attached to the accounting record?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, the original invoice stays attached to the accounting record. This makes it easy to
-              reference the original document when needed, ensuring transparency and traceability.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Is line-item extraction included in the price?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Yes, line-item extraction is typically included in the package price. This feature allows for
-              detailed data capture without additional costs, making it budget-friendly for small
-              businesses.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              What must be configured before going live?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              Before going live, settings like invoice templates, approval workflows, and integration with
-              existing software need configuration. Proper setup ensures the system runs smoothly from day
-              one.</p>
+            {APPROVAL_QUESTIONS.map(({ question, answer }) => (
+              <div key={question}>
+                <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+                <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                  {question}
+                </h3>
+                <p className="text-md text-white shadow-text pt-3">{answer}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -42,7 +42,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="going-live-with-upflow-streamlined-implementation">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="going-live-with-upflow-streamlined-implementation-lg">
                 Going Live with Upflow: Streamlined Implementation
               </h2>
               {body}

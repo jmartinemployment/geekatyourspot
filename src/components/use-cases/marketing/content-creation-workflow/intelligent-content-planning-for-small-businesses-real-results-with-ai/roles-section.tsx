@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RolesSection() {
   const body = (
@@ -29,7 +28,7 @@ export default function RolesSection() {
         Instead of manually pulling numbers across platforms, they get real-time visibility into what is
         ranking, what is being cited by AI search engines, and what topics are driving actual leads. With
         Scalenut’s brand mention tracking and Semrush’s visibility dashboards,
-        the&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback loop</GlossaryLink>&nbsp;tightens. The team can
+        the&nbsp;feedback loop&nbsp;tightens. The team can
         see, week by week, which content is actually achieving measurable results, and adjust course
         instantly, rather than waiting for a monthly review.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -64,7 +63,7 @@ export default function RolesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-peoples-jobs-change-when-intelligent-content-planning-goes-live" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-peoples-jobs-change-when-intelligent-content-planning-goes-live-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How People’s Jobs Change When Intelligent Content Planning Goes Live
               </h2>
               {body}

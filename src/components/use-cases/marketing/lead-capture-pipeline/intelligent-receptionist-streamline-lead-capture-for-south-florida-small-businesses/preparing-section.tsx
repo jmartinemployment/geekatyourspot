@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         If you are considering an Intelligent Receptionist, the next move is to map your own bottlenecks and set
@@ -21,17 +21,17 @@ export default function PreparingSection() {
         Nextiva lets you unify calls, texts, and chat in one place, so you see every lead and conversation in a
         single dashboard, no more missed context or slow follow-up.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="data-quality">Data quality</GlossaryLink>&nbsp;is the next hurdle. Every tool
+        Data quality&nbsp;is the next hurdle. Every tool
         depends on clean, current information: your hours, pricing, service areas, and FAQs. If your website is
-        outdated or your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is messy, fix that first.
+        outdated or your&nbsp;CRM&nbsp;is messy, fix that first.
         Integrations are only as good as the data they sync. LobbyStack is for the teams who want to own every
-        detail, self-hosting, direct&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;connections, custom
+        detail, self-hosting, direct&nbsp;API&nbsp;connections, custom
         workflows. Here, expect a longer ramp-up, but total control over how calls are handled and data is
         stored.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once live, monitor the real outcomes. Are more leads booked? Are call summaries accurate and useful?
         Does your team actually spend less time on the phone and more time on work that matters? The answer
-        should show up in your calendar, your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and your team’s
+        should show up in your calendar, your&nbsp;CRM, and your team’s
         workload. With My AI Front Desk, you will see every call logged and every booking tracked, no more
         guessing what happened after a missed call. With Voksha, your bill matches your call volume, with no
         surprise overages and no contract lock-in. With Smith.ai, the calls that used to fall through the cracks
@@ -45,7 +45,7 @@ export default function PreparingSection() {
         delivers when it is set up, integrated, and owned by a team that knows what it wants out of the tool.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-marketing-intelligent-receptionist-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
@@ -54,7 +54,7 @@ export default function PreparingSection() {
         <li>What is the exact sequence of events that needs to happen when a new client calls to book an appointment or request a service?</li>
         <li>Which calendar or scheduling platform do you use, and do you require the AI to write appointments directly to it?</li>
         <li>What percentage of your inbound calls are just repetitive questions regarding your location, operating hours, pricing tier, or basic services?</li>
-        <li>What Customer Relationship Management (<GlossaryLink slug="crm">CRM</GlossaryLink>), billing, or field service management software does your business rely on daily?</li>
+        <li>What Customer Relationship Management (CRM), billing, or field service management software does your business rely on daily?</li>
         <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
         <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
         <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
@@ -77,7 +77,7 @@ export default function PreparingSection() {
                 What to Do Next and What to Expect from a Real Deployment
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -86,10 +86,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-to-do-next-and-what-to-expect-from-a-real-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-to-do-next-and-what-to-expect-from-a-real-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What to Do Next and What to Expect from a Real Deployment
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
@@ -12,9 +13,9 @@ export default function IntroductionSection() {
               <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Introduction to Automated Accounts Payable
               </h2>
-              <p className="text-md font-normal text-white shadow-text">Automated <GlossaryLink slug="accounts-payable">Accounts Payable</GlossaryLink> (AP) is revolutionizing how businesses manage their financial operations, offering
+              <p className="text-md font-normal text-white shadow-text">Automated Accounts Payable (AP) is revolutionizing how businesses manage their financial operations, offering
                 significant improvements in efficiency and accuracy. By leveraging advanced technologies such as artificial
-                intelligence and <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, companies can automate repetitive tasks, reduce human error, and streamline their
+                intelligence and machine learning, companies can automate repetitive tasks, reduce human error, and streamline their
                 AP processes. For organizations considering this transition, understanding the foundational aspects of AP automation
                 is crucial to optimizing their financial workflows.</p>
               <p className="pt-5 text-md font-normal text-white shadow-text">Geek @ Your Spot LLC, a leading AI implementation consultancy, specializes in guiding businesses through the
@@ -30,6 +31,7 @@ export default function IntroductionSection() {
                 right expertise. From selecting the appropriate software tools to customizing workflows and ensuring compliance,
                 Geek @ Your Spot LLC offers comprehensive support at every stage. Our approach not only focuses on technology
                 deployment but also emphasizes change management and user training to maximize adoption and effectiveness.</p>
+              <p className="pt-5 text-md font-normal text-white shadow-text">Accounts payable is one of our <Link id="use-cases-accounting-accounts-payable-introduction-accounting-hub" href="/use-cases/accounting" className="text-[#C83803] hover:underline">Accounting &amp; Finance Use Cases</Link>, and its pillars include <Link id="use-cases-accounting-accounts-payable-introduction-fraud-controls" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#C83803] hover:underline">Intelligent Fraud &amp; Duplicate Payment Controls</Link>, which stops duplicate and fraudulent invoices before they are paid.</p>
             </div>
             <div className="col-span-5">
               <Image

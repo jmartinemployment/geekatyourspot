@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In the world of&nbsp;<GlossaryLink slug="lead-generation">lead generation</GlossaryLink>, manual data
@@ -16,7 +16,8 @@ export default function OverviewSection() {
         captures data accurately and efficiently, reducing the time spent on manual tasks. This means sales
         teams can now allocate more time to strategic activities that directly contribute to revenue growth.
         The result? Faster lead processing, fewer errors, and an overall increase in sales potential.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-lead-capture-overview-blog" href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">Why Your B2B Sales Need an Intelligent Lead Capture Pipeline</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-lead-capture-overview-blog${idSuffix}`} href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">Lead Capture Pipelines for B2B Sales</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">Lead capture is one part of the wider <Link id={`use-cases-marketing-intelligent-lead-capture-overview-ai-marketing-systems${idSuffix}`} href="/use-cases/marketing/ai-marketing-systems" className="text-[#C83803] hover:underline">AI Marketing Systems</Link> a small business can run.</p>
     </>
   );
 
@@ -31,7 +32,7 @@ export default function OverviewSection() {
                 Transforming Lead Generation with Intelligent Automation
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -40,10 +41,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="transforming-lead-generation-with-intelligent-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="transforming-lead-generation-with-intelligent-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Transforming Lead Generation with Intelligent Automation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

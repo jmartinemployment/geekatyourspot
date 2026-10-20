@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In the quiet of a small office in Miami-Dade, the&nbsp;
@@ -13,15 +13,15 @@ export default function OverviewSection() {
         for many small businesses, where every minute spent on administrative tasks is a minute not spent on
         growth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-payment-execution-ramp-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
+        Automated&nbsp;<Link id={`tools-accounting-payment-execution-ramp-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven solutions like&nbsp;
-        <a id="tools-accounting-payment-execution-ramp-overview-bill-pay"
+        <a id={`tools-accounting-payment-execution-ramp-overview-bill-pay${idSuffix}`}
           href="https://ramp.com/blog/announcing-ramp-bill-pay"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Ramp Bill Pay
         </a>, businesses can transform their accounts payable processes into efficient, error-free operations.
         Imagine a system where invoices are automatically coded and matched to purchase orders, where payments
-        are scheduled and executed without manual intervention. This isn&#39;t just a time-saver—it&#39;s a
+        are scheduled and executed without manual intervention. This isn&#39;t just a time-saver. It&#39;s a
         game-changer, freeing up your team to focus on what truly matters: driving your business forward.</p>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in West Palm Beach, Broward, and Miami-Dade, the benefits are clear. Automated
@@ -43,7 +43,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

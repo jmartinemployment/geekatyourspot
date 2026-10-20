@@ -2,22 +2,22 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function InPracticeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The transition to Automated Fraud &amp; Duplicate Payment Controls requires careful planning and
         execution. Start by mapping out the entire&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>
-        &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id="use-cases-accounting-fraud-controls-in-practice-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
+        accounts payable
+        &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id={`use-cases-accounting-fraud-controls-in-practice-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
         sequence helps in pinpointing where automation can bring the most benefit. For example, automating
         the invoice matching process can drastically reduce errors and speed up approvals.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration with existing systems is a critical phase. Tools like&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-practice-bill"
+        <Link id={`use-cases-accounting-fraud-controls-practice-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-practice-ramp"
+        <Link id={`use-cases-accounting-fraud-controls-practice-ramp${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>&nbsp;are designed to work seamlessly with platforms such as QuickBooks and other&nbsp;
@@ -29,7 +29,7 @@ export default function InPracticeSection() {
         Data preparation is another key element. Ensure that all data is cleaned and standardized before
         entering the new system. This involves eliminating duplicates, correcting errors, and filling in
         missing information. Accurate data is fundamental for the&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;algorithms
+        AI&nbsp;algorithms
         to function correctly and detect anomalies effectively. Without clean data, the risk of false
         positives and negatives increases, compromising the system&#39;s reliability.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -58,7 +58,7 @@ export default function InPracticeSection() {
                 Rolling Out Automated Controls in Practice
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -67,10 +67,10 @@ export default function InPracticeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="rolling-out-automated-controls-in-practice" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="rolling-out-automated-controls-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Rolling Out Automated Controls in Practice
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Ramp for Automated Payment Execution, small businesses should focus on three main
@@ -22,7 +22,7 @@ export default function EvaluatingSection() {
         Enterprise tiers might offer additional functionalities that justify the investment. It&#39;s
         important to weigh the cost against the potential savings in time and error reduction.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Comparing Ramp to other solutions like&nbsp;<Link id="tools-accounting-payment-execution-ramp-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;and&nbsp;<Link id="tools-accounting-payment-execution-ramp-evaluating-bill" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">BILL</Link>, Ramp stands out with its comprehensive
+        Comparing Ramp to other solutions like&nbsp;<Link id={`tools-accounting-payment-execution-ramp-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-payment-execution-ramp-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">BILL</Link>, Ramp stands out with its comprehensive
         approach to spend management. It not only automates payments but also integrates expense management
         and procurement tools, offering a unified platform for complete spend control. This integration can be
         a deciding factor for businesses looking to consolidate their financial operations under one roof.</p>
@@ -51,7 +51,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-automated-payment-execution">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-automated-payment-execution-lg">
                 Evaluating Ramp for Automated Payment Execution
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

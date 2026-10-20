@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function KeyFeaturesSection() {
   return (
@@ -9,7 +8,7 @@ export default function KeyFeaturesSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
             <div className="col-span-7">
               <h2 className="text-white pt-3 lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Key Features of AP Automation Systems</h2>
-              <p className="pt-5 text-md font-normal text-white shadow-text">As organizations increasingly seek to streamline their financial processes, automated <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink> (AP) systems
+              <p className="pt-5 text-md font-normal text-white shadow-text">As organizations increasingly seek to streamline their financial processes, automated accounts payable (AP) systems
                 have become indispensable. These systems leverage advanced technologies to enhance efficiency, accuracy, and control
                 over the AP processes. Geek @ Your Spot LLC, as an AI implementation consultancy, focuses on tailoring these systems to
                 meet specific client needs by addressing key features that ensure a seamless integration into existing workflows.
@@ -17,7 +16,7 @@ export default function KeyFeaturesSection() {
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Invoice Data Extraction and Validation</h3>
               <p className="pt-5 text-md font-normal text-white shadow-text">One of the foundational features of AP automation systems is the ability to accurately extract and validate invoice
                 data. Traditional manual entry methods are prone to errors and inefficiencies, often leading to delayed payments and
-                strained vendor relationships. Automated systems utilize optical character recognition (OCR) and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>&nbsp;algorithms to capture invoice details with precision, reducing the need for manual intervention.</p>
+                strained vendor relationships. Automated systems utilize optical character recognition (OCR) and machine learning&nbsp;algorithms to capture invoice details with precision, reducing the need for manual intervention.</p>
               <p className="pt-5 text-md font-normal text-white shadow-text">Geek @ Your Spot LLC specializes in optimizing these data extraction processes, ensuring that the algorithms are
                 trained on client-specific invoice formats and business rules. This customization not only accelerates the
                 deployment but also enhances the accuracy of data captured, which is critical for maintaining financial accuracy and
@@ -47,7 +46,7 @@ export default function KeyFeaturesSection() {
                 scenarios.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
                 Integration and Scalability</h3>
-              <p className="pt-5 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>) systems and scalability to accommodate growth are
+              <p className="pt-5 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (ERP) systems and scalability to accommodate growth are
                 critical features for any AP automation solution. Seamless integration ensures that data flows smoothly between
                 different systems, eliminating the need for duplicate data entry and reducing the risk of inconsistencies.</p>
               <p className="pt-5 text-md font-normal text-white shadow-text">Geek @ Your Spot LLC employs a comprehensive approach to integration, ensuring that AP automation systems are

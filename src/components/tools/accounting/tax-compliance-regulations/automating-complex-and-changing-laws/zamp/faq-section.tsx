@@ -55,7 +55,7 @@ export default function FaqSection() {
               accountable for the outcomes.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Who is responsible when something goes wrong—like a state notice or audit?
+              Who is responsible when something goes wrong, like a state notice or audit?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Zamp&#39;s dedicated tax specialists monitor, review, and resolve notices before they become

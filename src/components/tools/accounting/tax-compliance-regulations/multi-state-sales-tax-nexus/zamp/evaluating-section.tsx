@@ -1,16 +1,15 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Zamp is built for small businesses that need to solve multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;without hiring a dedicated tax team. The right fit is a company selling
+        sales&nbsp;tax
+        compliance&nbsp;without hiring a dedicated tax team. The right fit is a company selling
         across state lines, often through multiple channels, that cannot risk missing a filing or misclassifying
         a product, but also cannot afford the overhead or complexity of a big-enterprise solution. If you are
         running
-        e-commerce,&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        e-commerce,&nbsp;SaaS,
         or wholesale distribution in South Florida and your sales are growing beyond Florida’s borders, Zamp is
         designed to make the compliance side invisible, not just easier.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -18,7 +17,7 @@ export default function EvaluatingSection() {
         the complexity of your product catalog? Zamp’s platform manages economic and physical nexus for every
         state, tracks thresholds in real time, and supports direct integration with Shopify, Amazon,
         BigCommerce, Magento, QuickBooks, and
-        leading&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
+        leading&nbsp;ERP&nbsp;systems.
         If your business sells through a mix of direct, marketplace, and wholesale channels, Zamp’s unified
         workflow ensures nothing falls through the cracks. This is not just about plugging in a tax engine, it
         is about having one system reconcile all your sales data, product mapping, and filings, so you do not
@@ -30,7 +29,7 @@ export default function EvaluatingSection() {
         costs even as your footprint expands, and you do not have to worry about surprise invoices or
         usage-based escalation. For small businesses, this removes the budgeting uncertainty that comes with
         tools that charge by
-        transaction,&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;call,
+        transaction,&nbsp;API&nbsp;call,
         or filing event. Zamp’s pricing structure is designed so you can scale without penalty.</p>
       <p className="text-md text-white shadow-text pt-3">
         Support is another area where Zamp stands out. Instead of ticket queues and rotating agents, Zamp
@@ -88,7 +87,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="judging-zamp-fit-predictable-pricing-and-what-to-weigh-before-you-buy" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="judging-zamp-fit-predictable-pricing-and-what-to-weigh-before-you-buy-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Judging Zamp: Fit, Predictable Pricing, and What to Weigh Before You Buy
               </h2>
               {body}

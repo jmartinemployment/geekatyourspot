@@ -32,7 +32,7 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         In summary, Bill transforms the accounts receivable process by automating key tasks, reducing manual
         workload, and improving cash flow stability. By removing the burden of manual invoicing and payment
-        collection, Bill allows business owners to focus on what truly matters—growing their business and serving
+        collection, Bill allows business owners to focus on what truly matters: growing their business and serving
         their customers.</p>
     </>
   );
@@ -57,7 +57,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-accounts-receivable">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-accounts-receivable-lg">
                 How Bill Transforms Automated Accounts Receivable
               </h2>
               {body}

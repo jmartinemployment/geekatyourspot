@@ -10,6 +10,8 @@ import FAQSection from "@/components/use-cases/marketing/ai-marketing-systems/fa
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -17,7 +19,7 @@ const jsonLd: Graph = {
         {
             "@type": "Article",
             "headline": "AI Marketing Systems",
-            "description": "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
+            "description": "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
             ],
@@ -26,14 +28,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-29T11:33:50.5819023Z",
             "dateModified": "2026-07-29T11:33:50.5819023Z",
             "mainEntityOfPage": {
@@ -43,9 +38,10 @@ const jsonLd: Graph = {
             "keywords": "AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding",
             "wordCount": 4404,
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems#article",
+            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems#service" },
             "mentions": [
                 {
-                    "@id": "#software-hubspot"
+                    "@id": "https://geekatyourspot.com/#software-hubspot"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-mailchimp"
@@ -54,68 +50,51 @@ const jsonLd: Graph = {
                     "@id": "https://geekatyourspot.com/#software-activecampaign"
                 },
                 {
-                    "@id": "#software-hootsuite"
+                    "@id": "https://geekatyourspot.com/#software-hootsuite"
                 },
                 {
-                    "@id": "#software-marketo"
+                    "@id": "https://geekatyourspot.com/#software-marketo"
                 }
             ]
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-hubspot",
             "name": "HubSpot",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "HubSpot offers a comprehensive suite of tools designed for inbound marketing, sales, and customer service. It helps small businesses automate various marketing activities, saving time and improving efficiency.",
-            "@id": "#software-hubspot"
+            "url": "https://www.hubspot.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-mailchimp",
             "name": "Mailchimp",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Mailchimp is an email marketing platform that helps businesses automate their marketing campaigns. It allows users to create, send, and analyze email campaigns with ease, making it a popular choice for businesses aiming to improve customer engagement.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/mailchimp"
-            },
-            "@id": "https://geekatyourspot.com/#software-mailchimp"
+            "url": "https://mailchimp.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-activecampaign",
             "name": "ActiveCampaign",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "ActiveCampaign enhances email marketing efforts by automating customer interactions and improving engagement. It helps businesses manage customer relationships through personalized email campaigns, ensuring messages reach the right people at the right time. ActiveCampaign also uses AI to analyze customer behaviors, allowing businesses to tailor their marketing strategies for better results.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/active-campaign"
-            },
-            "@id": "https://geekatyourspot.com/#software-activecampaign"
+            "url": "https://www.activecampaign.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-hootsuite",
             "name": "Hootsuite",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Hootsuite is a powerful social media management tool that helps businesses streamline their social media marketing efforts. It allows users to schedule posts, monitor conversations, and analyze performance across multiple social networks from a single dashboard. This platform is ideal for small businesses looking to efficiently manage their social media presence and engage with their audience effectively.",
-            "@id": "#software-hootsuite"
+            "url": "https://www.hootsuite.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-marketo",
             "name": "Marketo",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Marketo is a marketing automation platform that helps businesses streamline their marketing efforts, focusing on lead management, email marketing, and customer engagement. It is designed to simplify complex marketing processes, allowing businesses to save time and reduce costs while increasing sales.",
-            "@id": "#software-marketo"
-        }
+            "url": "https://business.adobe.com/products/marketo.html"
+        },
+        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems", name: "AI Marketing Systems", description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI." })
     ]
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: "AI Marketing Systems",
-        description: "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
+        description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
         keywords: ["AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com//use-cases/marketing/ai-marketing-systems' }],
         creator: 'Geek @ Your Spot LLC',
@@ -126,26 +105,19 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         openGraph: {
             title: "AI Marketing Systems",
-            description: "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
+            description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
             url: 'https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "AI Marketing Systems",
-            description: "Explore AI Marketing Systems to enhance small business strategies of Palm Beach and Broward counties. Boost efficiency and sales with practical AI solutions tailored for B2B needs.",
+            description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

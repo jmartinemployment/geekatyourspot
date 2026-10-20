@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -11,7 +10,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The first step is connecting Apollo to your existing sales and marketing stack. For most small
         businesses in Miami-Dade, Broward, or West Palm Beach, this means plugging Apollo into HubSpot,
-        Salesforce, or another&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;you already use. Apollo’s
+        Salesforce, or another&nbsp;CRM&nbsp;you already use. Apollo’s
         integration is built for these platforms, so you do not need to code or map every field from scratch.
         Out of the box, it syncs records, pushes enriched data, and keeps everything up to date without manual
         imports. This alone cuts setup time from weeks to days.</p>
@@ -23,9 +22,9 @@ export default function ImplementingSection() {
         or companies. For a business that has spent years chasing dead contacts, this is where the busywork
         disappears.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The real power comes in the first week, when Apollo’s&nbsp;<GlossaryLink slug="lead-scoring">lead
-        scoring</GlossaryLink>&nbsp;and intent signals light up. Instead of waiting for months of historical
-        data, Apollo uses AI models trained on your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and
+        The real power comes in the first week, when Apollo’s&nbsp;lead
+        scoring&nbsp;and intent signals light up. Instead of waiting for months of historical
+        data, Apollo uses AI models trained on your&nbsp;CRM&nbsp;and
         its own database to prioritize leads right away. You set the rules, what makes a lead high-value for
         your business, which signals matter most, how to define your ideal customer profile. Apollo’s scoring
         engine then ranks every contact, so your team works only the leads most likely to buy. This is not a
@@ -49,7 +48,7 @@ export default function ImplementingSection() {
         your team finds leads on LinkedIn, company websites, or email, they can pull verified contact details
         and push them to Apollo with one click. This is especially useful for small teams that do not have
         dedicated research staff. The extension bridges the gap between online research and
-        structured&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;data, so you never lose a lead
+        structured&nbsp;CRM&nbsp;data, so you never lose a lead
         because it was found outside the main system.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, the feedback loop is built in. As your team uses Apollo, the AI models learn from every
@@ -89,7 +88,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-going-live-with-apollo-involves-steps-shortcuts-and-the-real-timeline" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-going-live-with-apollo-involves-steps-shortcuts-and-the-real-timeline-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Going Live with Apollo Involves: Steps, Shortcuts, and the Real Timeline
               </h2>
               {body}

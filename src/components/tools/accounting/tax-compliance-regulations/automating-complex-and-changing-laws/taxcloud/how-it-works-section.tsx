@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxCloud operates by automating the intricate processes
-        of&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>, making it seamless for businesses to manage sales tax across multiple
+        of&nbsp;tax
+        compliance, making it seamless for businesses to manage sales tax across multiple
         jurisdictions. At its core, TaxCloud automates tax calculations, filings, and remittances, significantly
         reducing the manual workload and minimizing errors. This automation is particularly beneficial for
         businesses operating in states with complex tax laws, such as Florida, where staying compliant can be a
@@ -53,7 +52,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="taxcloud-s-operational-mechanics" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="taxcloud-s-operational-mechanics-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 TaxCloud&#39;s Operational Mechanics
               </h2>
               {body}

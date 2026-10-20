@@ -29,7 +29,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "Accounts Payable",
     slug: "accounts-payable",
     category: "Accounting",
-    shortSummary: "Money a business owes to vendors and suppliers for goods and services received — managed through invoice processing and payment workflows.",
+    shortSummary: "Money a business owes to vendors and suppliers for goods and services received, managed through invoice processing and payment workflows.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -214,7 +214,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "API Integration",
     slug: "api-integration",
     category: "Technology",
-    shortSummary: "Connecting separate software tools so they share data automatically — eliminating manual exports and duplicate entry.",
+    shortSummary: "Connecting separate software tools so they share data automatically, eliminating manual exports and duplicate entry.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -932,7 +932,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "Conversion Funnel",
     slug: "conversion-funnel",
     category: "Marketing",
-    shortSummary: "The path prospects follow from first awareness to taking action — and where they drop off along the way.",
+    shortSummary: "The path prospects follow from first awareness to taking action, and where they drop off along the way.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -1522,7 +1522,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "Engagement Rate",
     slug: "engagement-rate",
     category: "Marketing Metrics",
-    shortSummary: "The share of your audience that interacts with content — clicks, comments, shares, or other actions — indicating how relevant your message is.",
+    shortSummary: "The share of your audience that interacts with content (clicks, comments, shares, or other actions), indicating how relevant your message is.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -1979,7 +1979,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "Keyword Density",
     slug: "keyword-density",
     category: "SEO",
-    shortSummary: "How often a target keyword appears in a piece of content relative to total word count — one signal search engines use to understand page relevance.",
+    shortSummary: "How often a target keyword appears in a piece of content relative to total word count, which is one signal search engines use to understand page relevance.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -2019,7 +2019,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "KPI",
     slug: "kpi",
     category: "Business Metrics",
-    shortSummary: "A measurable number that tracks progress toward a specific business goal — the scoreboard for whether your strategy is working.",
+    shortSummary: "A measurable number that tracks progress toward a specific business goal, the scoreboard for whether your strategy is working.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -2178,7 +2178,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "Marketing Automation",
     slug: "marketing-automation",
     category: "Marketing",
-    shortSummary: "Software that automates repetitive marketing tasks — email, lead nurturing, and campaign workflows — so small teams can personalize at scale.",
+    shortSummary: "Software that automates repetitive marketing tasks (email, lead nurturing, and campaign workflows) so small teams can personalize at scale.",
     definitions: [
       {
         partOfSpeech: "noun",
@@ -2833,7 +2833,7 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     title: "Speed to Lead",
     slug: "speed-to-lead",
     category: "Marketing Metrics",
-    shortSummary: "How quickly a business responds to a new lead after first contact — a key driver of conversion for small businesses.",
+    shortSummary: "How quickly a business responds to a new lead after first contact, a key driver of conversion for small businesses.",
     definitions: [
       {
         partOfSpeech: "noun",

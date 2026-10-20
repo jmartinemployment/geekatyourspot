@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Quaderno simplifies the complex world
-        of&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;by automating critical processes, reducing manual intervention, and
+        of&nbsp;tax
+        compliance&nbsp;by automating critical processes, reducing manual intervention, and
         ensuring accuracy across multiple jurisdictions. The platform is designed to handle the entire tax
         compliance cycle, from tracking sales thresholds to generating compliant invoices and reports. This
         seamless automation is particularly beneficial for small businesses in South Florida, who often struggle
@@ -56,7 +55,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="quaderno-s-core-functionality-streamlining-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="quaderno-s-core-functionality-streamlining-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Quaderno&#39;s Core Functionality: Streamlining Tax Compliance
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -19,8 +18,8 @@ export default function ImplementingSection() {
         Copy.ai’s pre-built connectors and templated agents are what shorten the go-live timeline. Out of the
         box, Copy.ai supports more than 2,000 integrations, so it connects directly to platforms your team
         already uses,
-        think&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,&nbsp;<GlossaryLink slug="marketing-automation">marketing
-        automation</GlossaryLink>, Google Drive, and social channels. There is no need to rip out existing
+        think&nbsp;CRM,&nbsp;marketing
+        automation, Google Drive, and social channels. There is no need to rip out existing
         systems. Geek @ Your Spot LLC configures Copy.ai to pull in your brand guidelines, product data, and past
         campaign materials, anchoring every piece of generated content in your real facts and voice.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -74,7 +73,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-going-live-with-copy-ai-looks-like-in-a-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-going-live-with-copy-ai-looks-like-in-a-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Going Live with Copy.ai Looks Like in a Small Business Environment
               </h2>
               {body}

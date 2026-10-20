@@ -1,5 +1,5 @@
 export default function CookiesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Cookies are small text files that a website stores in your browser. Our site uses the following
@@ -17,9 +17,9 @@ export default function CookiesSection() {
       </h3>
       <p className="text-md text-white shadow-text pt-3">
         You can block or delete cookies in your browser settings, and the site will still work. Google also
-        offers a <a id="privacy-policy-cookies-gaoptout" href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">browser
+        offers a <a id={`privacy-policy-cookies-gaoptout${idSuffix}`} href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">browser
         extension for opting out of Google Analytics</a> that stops Google Analytics on every site that uses
-        it. You can read about <a id="privacy-policy-cookies-googlepartners" href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">how
+        it. You can read about <a id={`privacy-policy-cookies-googlepartners${idSuffix}`} href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">how
         Google uses information from sites that use its services</a> on Google’s own site.</p>
       <p className="text-md text-white shadow-text pt-3">
         Some browsers send a Do Not Track signal. There is no common standard for responding to that signal,
@@ -39,7 +39,7 @@ export default function CookiesSection() {
                 Cookies and Analytics
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -48,10 +48,10 @@ export default function CookiesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="cookies-and-analytics" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="cookies-and-analytics-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Cookies and Analytics
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

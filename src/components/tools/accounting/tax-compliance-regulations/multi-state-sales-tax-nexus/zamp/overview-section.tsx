@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A South Florida retailer sees their product take off across state lines. Overnight, a steady stream of
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         thresholds, register in unfamiliar jurisdictions, and respond to a new wave of regulatory mail, while
         still running day-to-day operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the reality of&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-zamp-overview-multi-state-sales-tax-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;for small businesses. Economic nexus rules can
+        This is the reality of&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;for small businesses. Economic nexus rules can
         trigger tax obligations after crossing as little as 200 transactions or $100,000 in revenue in a state.
         Most small teams hit these triggers long before they have the staff or systems to handle the fallout.
         The result is a constant scramble, manually tracking sales across more than 11,000 jurisdictions, trying
@@ -43,7 +43,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

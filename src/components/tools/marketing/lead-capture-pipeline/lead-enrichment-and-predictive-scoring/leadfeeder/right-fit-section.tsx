@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Leadfeeder is designed for small businesses that need to make every sales and marketing hour count. If
@@ -19,7 +19,7 @@ export default function RightFitSection() {
         personal emails or direct dials for every visitor, Leadfeeder surfaces company and behavioral data,
         not individual contact details unless a visitor self-identifies through a form or email capture.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For teams that already run a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;like HubSpot,
+        For teams that already run a&nbsp;CRM&nbsp;like HubSpot,
         Salesforce, Microsoft Dynamics, or Pipedrive, Leadfeeder’s integrations mean you can route qualified
         accounts straight into your existing pipeline. Marketing and sales work from the same data, with
         instant alerts when a high-fit local business visits the site or revisits a key page. If your workflow
@@ -44,20 +44,20 @@ export default function RightFitSection() {
         If you are considering Leadfeeder, the next step is to look at your own sales and marketing process.
         Are you losing track of warm local leads? Are your reps spending too much time calling cold accounts?
         Are you missing out on data about who is actually engaging with your website? Leadfeeder is not a
-        replacement for a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
+        replacement for a&nbsp;CRM&nbsp;or
         a&nbsp;<GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink>&nbsp;platform,
         but it is the bridge that connects anonymous web traffic to qualified pipeline. It works when you are
         ready to act on real-time signals and want to focus your team on the accounts that are most likely to
         close.</p>
       <p className="text-md text-white shadow-text pt-3">
         For those who want to see how Leadfeeder fits into a broader AI-driven lead capture pipeline, Geek @ Your Spot LLC’s existing resources on smart chatbots for marketing,
-        AI&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>, and voice assistants provide
+        AI&nbsp;lead scoring, and voice assistants provide
         the context and detail on how these systems can work together. Leadfeeder is the piece that makes sure
         no high-intent local company slips through the cracks, tying your website activity directly to your
         sales pipeline. If that is the gap in your current process, Leadfeeder is the tool built to close it.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-lead-enrichment-and-predictive-scoring-leadfeeder-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-lead-enrichment-and-predictive-scoring-leadfeeder-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
@@ -66,7 +66,7 @@ export default function RightFitSection() {
         <li>When you pull or buy a list of local businesses to target in Miami-Dade, Broward, or Palm Beach, what percentage of those emails bounce or phone numbers turn out to be dead ends?</li>
         <li>How do your sales reps currently decide which lead to call first on Monday morning? Is it based on a mathematical score, the newest lead, or just gut feeling?</li>
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
-        <li>What&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
+        <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
     </>
   );
@@ -82,7 +82,7 @@ export default function RightFitSection() {
                 Who Leadfeeder Is For, Who It Is Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -91,10 +91,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-leadfeeder-is-for-who-it-is-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-leadfeeder-is-for-who-it-is-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Leadfeeder Is For, Who It Is Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

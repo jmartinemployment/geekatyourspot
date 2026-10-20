@@ -12,7 +12,7 @@ export const jasperContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "content-creation-workflow/intelligent-content-generation",
   "description":
-    "Intelligent Content Generation from Jasper helps small businesses in Miami-Dade, Broward, and West Palm Beach streamline content creation and boost local impact.",
+    "Intelligent Content Generation from Jasper helps small businesses in Miami-Dade, Broward, and West Palm Beach streamline content creation and boost impact.",
   "heroSummary":
     "Jasper offers AI-driven content generation tailored for South Florida small businesses, helping teams overcome the blank page and deliver unified, on-brand messaging.",
   "keywords":

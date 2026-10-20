@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faScrewdriverWrench,
@@ -30,7 +29,7 @@ export default function FAQSection() {
               and reduce manual work. AI workflows allow businesses to streamline operations, make data-driven decisions, and
               enhance customer experiences.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="how-are-small-businesses-using-ai-for-marketing">How are small businesses using AI for marketing?</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Small businesses use AI for marketing by automating customer service with <GlossaryLink slug="chatbot">chatbots</GlossaryLink>, <GlossaryLink slug="personalized-marketing">personalizing email campaigns</GlossaryLink>,
+            <p className="pt-3 text-md font-normal text-white shadow-text">Small businesses use AI for marketing by automating customer service with chatbots, personalizing email campaigns,
               and optimizing ad placements. AI helps in analyzing customer data to create targeted marketing strategies, leading
               to better engagement and higher conversion rates. This approach helps small businesses compete with larger companies
               by providing efficient and cost-effective marketing solutions.</p>
@@ -49,10 +48,6 @@ export default function FAQSection() {
               tools that fit your needs, such as chatbots for customer service or analytics platforms for data insights. Implement
               these tools in your marketing strategy and monitor their performance to make adjustments as needed. Training your
               team on these tools will also help maximize their effectiveness.</p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="what-is-the-3-3-3-rule-in-marketing">What is the 3 3 3 rule in marketing?</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">The 3 3 3 rule in marketing is not a widely recognized concept and may refer to a specific strategy or guideline
-              unique to certain businesses or contexts. It is important to clarify the context in which this rule is applied to
-              understand its relevance and application.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="which-ai-tool-is-best-for-small-business">Which AI tool is best for small business?</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">The best AI tool for a small business depends on its specific needs and goals. For example, HubSpot offers
               comprehensive marketing automation, while&nbsp;<Link id="use-cases-marketing-ai-marketing-systems-faq-hootsuite" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite" className="text-[#C83803] hover:underline">Hootsuite</Link>&nbsp;is great for social media management. Google Analytics provides
@@ -70,20 +65,6 @@ export default function FAQSection() {
               capabilities. Other reasons include inadequate planning, poor change management, and not aligning AI projects with
               business goals. Successful AI implementation requires clear goals, quality data, and ongoing evaluation to ensure
               the technology meets the desired outcomes.</p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="what-is-the-golden-rule-of-marketing">What is the golden rule of marketing?</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">The golden rule of marketing is to understand and meet the needs of your customers. This involves knowing your
-              audience, delivering value, and building strong relationships. By focusing on customer satisfaction and engagement,
-              businesses can foster loyalty and drive growth. AI can assist in this process by providing insights and&nbsp;<GlossaryLink slug="personalized-marketing">personalizing customer interactions</GlossaryLink>.</p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="what-are-the-top-5-marketing-strategies">What are the top 5 marketing strategies?</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">The top 5 marketing strategies include content marketing, social media marketing, email marketing, search engine
-              optimization (SEO), and pay-per-click (PPC) advertising. These strategies help businesses reach their target
-              audience, engage customers, and drive sales. AI tools can enhance these strategies by providing data insights,
-              automating tasks, and personalizing customer experiences.</p>
-            <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="what-is-the-70-20-10-rule-in-marketing">What is the 70 20 10 rule in marketing?</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text">The 70 20 10 rule in marketing suggests that 70% of a business&#39;s marketing efforts should focus on what is
-              currently working, 20% on new strategies that could improve performance, and 10% on experimenting with innovative
-              ideas. This approach helps in maintaining a balance between tried-and-tested methods and new opportunities for
-              growth.</p>
           </div>
         </div>
       </div>

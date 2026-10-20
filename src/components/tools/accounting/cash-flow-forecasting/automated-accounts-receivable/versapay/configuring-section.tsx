@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -24,8 +23,8 @@ export default function ConfiguringSection() {
         activities.</p>
       <p className="text-md text-white shadow-text pt-3">
         Versapay extends its functionality through seamless integration with
-        existing&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems,
-        using&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;connectors. This integration ensures that all
+        existing&nbsp;ERP&nbsp;systems,
+        using&nbsp;API&nbsp;connectors. This integration ensures that all
         data flows smoothly between systems, maintaining a single source of truth. While Versapay does not offer a
         scripting or SDK extension mechanism, its configurability and integration capabilities are robust enough to
         meet the needs of most small businesses without additional coding.</p>
@@ -58,7 +57,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-versapay-approval-chains-routing-and-automation-logic">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-versapay-approval-chains-routing-and-automation-logic-lg">
                 Configuring Versapay: Approval Chains, Routing, and Automation Logic
               </h2>
               {body}

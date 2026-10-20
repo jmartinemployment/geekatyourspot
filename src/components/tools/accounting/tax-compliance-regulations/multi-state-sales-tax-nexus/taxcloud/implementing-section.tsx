@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The fastest path to a working, compliant TaxCloud setup is built around what the platform already knows
         how to do. TaxCloud has pre-built integrations for the systems that small businesses in Miami-Dade,
         Broward, and West Palm Beach actually use: Shopify, WooCommerce, BigCommerce, Magento, QuickBooks
-        Online, Stripe, Chargebee, and several&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;platforms.
+        Online, Stripe, Chargebee, and several&nbsp;ERP&nbsp;platforms.
         These connectors mean you do not need custom development or weeks of technical back-and-forth. For most
         teams, going live is a matter of connecting the right accounts and mapping data fields, not building
         something from scratch.</p>
@@ -16,7 +15,7 @@ export default function ImplementingSection() {
         A typical deployment starts with a phased approach. The first step is to connect your main sales
         channels, Shopify, WooCommerce, or BigCommerce, using TaxCloud’s plug-and-play connectors. This brings
         in order data and tax details automatically. Next, you connect your accounting
-        or&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;platform, such as QuickBooks Online or Odoo.
+        or&nbsp;ERP&nbsp;platform, such as QuickBooks Online or Odoo.
         The system pulls in invoices, payments, and customer records needed for compliance reporting. If you
         have subscription billing through Stripe or Chargebee, those integrations come next. Each connector is
         designed for minimal manual mapping. For most small businesses, the integration process is measured in
@@ -24,7 +23,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real time-saver is that TaxCloud does not require you to reformat or re-enter historical data. It
         can import transaction history from CSV files or directly from your system, so you get full compliance
-        coverage from day one. For teams switching from a tool like Avalara or&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-taxcloud-implementing-taxjar" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#C83803] hover:underline">TaxJar</Link>, TaxCloud supports guided
+        coverage from day one. For teams switching from a tool like Avalara or&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-implementing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#C83803] hover:underline">TaxJar</Link>, TaxCloud supports guided
         migration, moving your historical sales data into the new platform, aligning it to state-by-state nexus
         rules, and ensuring your filings start clean. This avoids the usual pain of missing records or
         mismatched transactions that can trigger audit flags later.</p>
@@ -86,7 +85,7 @@ export default function ImplementingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +93,10 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="getting-taxcloud-live-what-speeds-deployment-and-what-to-expect-in-your-stack" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="getting-taxcloud-live-what-speeds-deployment-and-what-to-expect-in-your-stack-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Getting TaxCloud Live: What Speeds Deployment and What to Expect in Your Stack
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

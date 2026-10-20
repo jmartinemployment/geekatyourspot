@@ -20,22 +20,22 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s automation logic is designed to remove manual work from your pipeline. Once a visitor
         matches your criteria, Snitcher can automatically push that lead into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, trigger a Slack or Microsoft Teams alert, and
+        your&nbsp;CRM, trigger a Slack or Microsoft Teams alert, and
         even enrich the lead with contact details like decision-maker names, emails, and phone numbers. The
         workflow is not just about surfacing a name. It is about getting the right information to the right
         person, at the right moment, so your team can reach out while the interest is still live.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that want deeper customization, Snitcher offers extension mechanisms through its
-        open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>,&nbsp;<GlossaryLink slug="webhooks">webhooks</GlossaryLink>,
+        open&nbsp;API,&nbsp;<GlossaryLink slug="webhooks">webhooks</GlossaryLink>,
         and integrations with platforms like HubSpot, Salesforce, Pipedrive,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and Zapier. This means you are not locked into
+        Zoho&nbsp;CRM, and Zapier. This means you are not locked into
         a closed system. Geek @ Your Spot LLC can build custom automations, like syncing enriched lead data to a
-        specific deal stage, updating custom fields in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        specific deal stage, updating custom fields in your&nbsp;CRM,
         or triggering a tailored outreach sequence based on a lead’s behavior profile.</p>
       <p className="text-md text-white shadow-text pt-3">
         What actually gets configured in a real deployment? The rules that define your ideal customer profile
         (ICP) and buying signals. The mapping between website behavior
-        and&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>. The automation steps that
+        and&nbsp;lead scoring. The automation steps that
         route leads, trigger alerts, and kick off sequences. And the integration points that ensure Snitcher
         data flows cleanly into your existing sales and marketing stack. Geek @ Your Spot LLC handles the details:
         mapping your ICP, setting up filters to exclude students and competitors, tuning alert thresholds so
@@ -55,7 +55,7 @@ export default function ConfiguringSection() {
         reality, so you are not chasing the wrong leads or missing the ones ready to buy.</p>
       <p className="text-md text-white shadow-text pt-3">
         The extension mechanism is there for teams who want more than out-of-the-box.
-        Snitcher’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="webhooks">webhooks</GlossaryLink>&nbsp;let
+        Snitcher’s&nbsp;API&nbsp;and&nbsp;webhooks&nbsp;let
         you pull data into your own reporting tools, power internal dashboards, or trigger custom workflows in
         real time. For most small businesses, the built-in integrations with major CRMs and sales tools are
         enough. But if you need something special, a custom Slack alert, a unique field mapping, or a workflow
@@ -66,7 +66,7 @@ export default function ConfiguringSection() {
         anonymous visits, but named companies, scored and enriched with the details that matter. High-intent
         leads are routed to reps with context, not just a name. Low-value noise is filtered out before it ever
         reaches your pipeline. And every automation,
-        from&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync to real-time alerts, is tuned to your
+        from&nbsp;CRM&nbsp;sync to real-time alerts, is tuned to your
         actual workflow. That is what configuration means with Snitcher, no more generic lists, no more wasted
         effort, just actionable leads delivered to your team every day.</p>
     </>
@@ -91,7 +91,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-snitcher-rules-automation-and-extension-in-a-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-snitcher-rules-automation-and-extension-in-a-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Snitcher: Rules, Automation, and Extension in a Small Business Environment
               </h2>
               {body}

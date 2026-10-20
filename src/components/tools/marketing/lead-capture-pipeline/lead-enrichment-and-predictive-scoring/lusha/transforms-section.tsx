@@ -18,7 +18,7 @@ export default function TransformsSection() {
         do it all without burning hours on manual data entry or research. The result is simple: more pipeline,
         less busywork.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Every week, your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;gets smarter, not older. Lusha
+        Every week, your&nbsp;CRM&nbsp;gets smarter, not older. Lusha
         automatically updates contact records when someone changes roles or moves companies. Your sales team
         is never left pitching to an empty seat or a departed executive. This real-time enrichment means your
         outreach is always relevant, and your campaigns skip the bounces that kill deliverability. When a key
@@ -38,7 +38,7 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         For teams using chatbots, voice assistants, or multi-channel outreach, Lusha integrates directly with
         the tools you already run. Verified contact data flows into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, your engagement platforms, and your outreach
+        your&nbsp;CRM, your engagement platforms, and your outreach
         tools automatically. No more toggling between systems or copying data by hand. Every touchpoint,
         whether it is a chatbot conversation, a phone call, or an email sequence, starts with the right
         information, so your team can act faster and with more confidence.</p>
@@ -99,7 +99,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-lusha-removes-the-busywork-from-lead-enrichment-and-predictive-scoring" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-lusha-removes-the-busywork-from-lead-enrichment-and-predictive-scoring-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Lusha Removes the Busywork from Lead Enrichment and Predictive Scoring
               </h2>
               {body}

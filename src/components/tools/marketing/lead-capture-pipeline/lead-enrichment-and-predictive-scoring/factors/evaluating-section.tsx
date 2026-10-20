@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing Factors is not about buying a feature checklist. It is about whether the platform fits your
@@ -15,8 +14,8 @@ export default function EvaluatingSection() {
         average of 40%. This means you see which local companies are looking at your services, not just a
         spike in traffic. For a team used to guessing, this alone can justify the switch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next, weigh how Factors handles&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent
-        data</GlossaryLink>&nbsp;and&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>. The
+        Next, weigh how Factors handles&nbsp;intent
+        data&nbsp;and&nbsp;lead scoring. The
         platform’s AI models combine firmographic fit, real-time behavior, and pipeline stage to score each
         account. You do not have to build a scoring model from scratch. Instead, you get a system that learns
         from your own data and adapts as you use it. If you need to prioritize which leads get a call, and
@@ -24,7 +23,7 @@ export default function EvaluatingSection() {
         static, it updates as accounts engage, so your team always has a fresh list to work from.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation is another key fit question. Factors is not just an analytics tool. It triggers real-time
-        alerts to Slack or Teams, updates your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and syncs
+        alerts to Slack or Teams, updates your&nbsp;CRM, and syncs
         audiences to LinkedIn and Google Ads. If you run paid campaigns and want to know which ads drive real
         pipeline, Factors can show you. It connects ad impressions, website visits, and sales outcomes in one
         timeline. This is a step up from platforms that only report clicks or form fills.</p>
@@ -36,7 +35,7 @@ export default function EvaluatingSection() {
         compatibility before you buy. The platform is designed to fit into existing tech stacks, not force a
         rip-and-replace.</p>
       <p className="text-md text-white shadow-text pt-3">
-        As of October 20, 2026, the Factors&nbsp;<a id="tools-marketing-lead-scoring-factors-evaluating-pricing-source" href="https://www.factors.ai/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Lite plan at $199 per
+        As of October 20, 2026, the Factors&nbsp;<a id={`tools-marketing-lead-scoring-factors-evaluating-pricing-source${idSuffix}`} href="https://www.factors.ai/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Lite plan at $199 per
         month after a free trial, Basic at $6,000 a year, Growth at $20,000 a year, and Enterprise from $30,000 a
         year. What matters is
         that Factors is positioned as a cost-effective solution for small and mid-sized teams. It does not
@@ -77,7 +76,7 @@ export default function EvaluatingSection() {
                 How to Judge If Factors Is the Right Fit: What to Weigh, and What Its Pricing Means for Small Teams
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -86,10 +85,10 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-if-factors-is-the-right-fit-what-to-weigh-and-what-its-pricing-means-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-if-factors-is-the-right-fit-what-to-weigh-and-what-its-pricing-means-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge If Factors Is the Right Fit: What to Weigh, and What Its Pricing Means for Small Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

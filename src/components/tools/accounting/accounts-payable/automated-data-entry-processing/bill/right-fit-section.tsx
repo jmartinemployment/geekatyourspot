@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill is particularly well-suited for small to medium-sized businesses that are looking to leverage AI
@@ -27,7 +27,7 @@ export default function RightFitSection() {
         deliver.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ready to take the next step?&nbsp;
-        <Link id="tools-accounting-bill-right-fit-consultation"
+        <Link id={`tools-accounting-bill-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book a consultation
         </Link>&nbsp;with Geek @ Your Spot LLC today and discover how Bill can elevate your financial
@@ -46,7 +46,7 @@ export default function RightFitSection() {
                 Is Bill the Right Fit for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-bill-the-right-fit-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-bill-the-right-fit-for-your-business-lg">
                 Is Bill the Right Fit for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

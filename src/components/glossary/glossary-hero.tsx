@@ -54,10 +54,10 @@ export default function GlossaryHeroSection({
               <p className="pt-3 text-2xl text-white shadow-text">{summary}</p>
               <div className="pt-6">
                 <Link
-                  id={gtmLinkIdFromHref(
+                  id={`${gtmLinkIdFromHref(
                     "#consultationAppointment2xl",
                     "hero-assessment",
-                  )}
+                  )}-lg`}
                   href="#consultationAppointment2xl"
                   className="btn btn-primary"
                 >

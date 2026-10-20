@@ -1,32 +1,32 @@
 import Link from "next/link";
 
 export default function HowItTransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing automated approval workflows in accounts payable (AP) is not just about installing
         software; it&#39;s a transformative process that redefines how invoices are handled from start to
         finish. This approach begins with defining business objectives to align AP processes with the
-        company&#39;s strategic goals. The first step is to identify specific inefficiencies—such as manual
-        data entry or delayed approvals—and set measurable Key Performance Indicators (KPIs) to address
+        company&#39;s strategic goals. The first step is to identify specific inefficiencies, such as manual
+        data entry or delayed approvals, and set measurable Key Performance Indicators (KPIs) to address
         them.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once objectives are clear, a data quality assessment ensures that all necessary information is
         accurate and up-to-date. This involves cleansing data, removing duplicates, and standardizing formats
         to ensure consistency across the board. With clean data, the next phase involves selecting the right
         technology. Tools such as&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-transform-bill"
+        <Link id={`use-cases-accounting-approval-workflows-transform-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-transform-ramp"
+        <Link id={`use-cases-accounting-approval-workflows-transform-ramp${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">
           Ramp
         </Link>, and&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-transform-approvalmax"
+        <Link id={`use-cases-accounting-approval-workflows-transform-approvalmax${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">
           ApprovalMax
-        </Link>&nbsp;are integrated to automate various stages of the workflow, from&nbsp;<Link id="use-cases-accounting-approval-workflows-how-it-transforms-data-entry" href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">invoice capture</Link>&nbsp;to
+        </Link>&nbsp;are integrated to automate various stages of the workflow, from&nbsp;<Link id={`use-cases-accounting-approval-workflows-how-it-transforms-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">invoice capture</Link>&nbsp;to
         approval routing. Each tool is chosen based on its ability to work seamlessly with existing systems,
         ensuring a smooth transition.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -37,11 +37,11 @@ export default function HowItTransformsSection() {
         workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
         As invoices enter the system, tools like&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-transform-stampli"
+        <Link id={`use-cases-accounting-approval-workflows-transform-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-transform-melio"
+        <Link id={`use-cases-accounting-approval-workflows-transform-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>&nbsp;take over, automating data entry and routing invoices to the appropriate approvers based
@@ -69,7 +69,7 @@ export default function HowItTransformsSection() {
                 How Automated Approval Workflows Transform AP Processes
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -78,10 +78,10 @@ export default function HowItTransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-automated-approval-workflows-transform-ap-processes" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-automated-approval-workflows-transform-ap-processes-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Automated Approval Workflows Transform AP Processes
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

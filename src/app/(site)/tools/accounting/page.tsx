@@ -8,12 +8,12 @@ import { getToolsByDepartment } from "@/lib/tools-mapper";
 import type { ToolPageContent } from "@/types/tool";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Accounting AI Tools & Platforms";
 const PAGE_DESCRIPTION =
-  "Explore accounting and financial automation tools that Geek @ Your Spot LLC helps South Florida small businesses implement — from tax compliance to accounts payable automation.";
+  "Explore the accounting automation tools Geek @ Your Spot LLC helps South Florida small businesses implement, from tax compliance to accounts payable.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/tools/accounting`,
     siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
-    images: [{ url: LOGO_IMAGE }],
+    images: [SHARE_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
-    images: [LOGO_IMAGE],
+    images: [SHARE_IMAGE],
   },
 };
 
@@ -90,14 +90,6 @@ export default function AccountingToolsPage() {
           })),
         },
       },
-      ...tools.map((tool) => ({
-        "@type": "SoftwareApplication" as const,
-        name: tool.title,
-        applicationCategory: "BusinessApplication",
-        operatingSystem: "Web",
-        description: tool.description,
-        url: `${SITE_URL}${toolHref(tool)}`,
-      })),
     ],
   };
 
@@ -121,7 +113,7 @@ export default function AccountingToolsPage() {
         </div>
         <p className="pt-5 max-w-3xl text-xl text-white shadow-text lg:text-2xl">
           Automate your accounting and financial operations with the platforms
-          we help South Florida small businesses implement — from tax
+          we help South Florida small businesses implement, from tax
           compliance to accounts payable automation.
         </p>
 

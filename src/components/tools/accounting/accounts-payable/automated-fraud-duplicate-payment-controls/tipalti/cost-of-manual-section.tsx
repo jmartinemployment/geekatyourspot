@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function CostOfManualSection() {
   const body = (
@@ -26,7 +25,7 @@ export default function CostOfManualSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real issue lies in the fragmented nature of manual processes. When different departments handle
         the same invoices without a centralized system, errors multiply. Tipalti’s solution integrates all
-        aspects of <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>, from supplier
+        aspects of accounts payable, from supplier
         onboarding to payment execution. This integration prevents the recurrence of duplicate payments and
         fraudulent activities, ensuring that all transactions are legitimate and verified.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -63,7 +62,7 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-payment-processes-in-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-payment-processes-in-automated-fraud-duplicate-payment-controls-lg">
                 The Cost of Manual Payment Processes in Automated Fraud &amp; Duplicate Payment Controls
               </h2>
               {body}

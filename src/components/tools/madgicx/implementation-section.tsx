@@ -13,7 +13,7 @@ export default function ImplementationSection() {
             </div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Implementing Madgicx requires careful planning to ensure a smooth transition and effective use of its capabilities.
-                Here are some specific considerations for businesses looking to deploy Madgicx for automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.</p>
+                Here are some specific considerations for businesses looking to deploy Madgicx for automated ad spend optimization.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Madgicx offers pre-built connectors and templated setups that facilitate quick
                   integration with existing marketing systems. This accelerates the deployment process, allowing businesses to
@@ -43,7 +43,7 @@ export default function ImplementationSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
               <p className="text-md text-white shadow-text pt-3">Implementing Madgicx requires careful planning to ensure a smooth transition and effective use of its capabilities.
-                Here are some specific considerations for businesses looking to deploy Madgicx for automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>.</p>
+                Here are some specific considerations for businesses looking to deploy Madgicx for automated ad spend optimization.</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Madgicx offers pre-built connectors and templated setups that facilitate quick
                   integration with existing marketing systems. This accelerates the deployment process, allowing businesses to

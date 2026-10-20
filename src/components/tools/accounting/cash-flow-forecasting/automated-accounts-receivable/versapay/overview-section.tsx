@@ -2,14 +2,14 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small business owners in Miami-Dade, Broward, and West Palm Beach counties are all too familiar with the
-        frustration of manual&nbsp;<Link id="tools-accounting-accounts-receivable-versapay-overview-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;processes. Each month, they spend countless hours poring over
+        frustration of manual&nbsp;<Link id={`tools-accounting-accounts-receivable-versapay-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;processes. Each month, they spend countless hours poring over
         invoices, matching payments, and reconciling accounts. This tedious work not only consumes time but also
         increases the risk of errors, impacting cash flow and financial stability. Traditional methods often result
-        in delayed payments and missed opportunities for growth—problems that can be particularly damaging for
+        in delayed payments and missed opportunities for growth. These problems can be particularly damaging for
         businesses operating on tight margins.</p>
       <p className="text-md text-white shadow-text pt-3">
         These challenges are not just about inefficiency; they directly affect the bottom line. When payments are
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,17 +1,16 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        When considering&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;software, businesses often weigh multiple options to find the best fit
+        When considering&nbsp;tax
+        compliance&nbsp;software, businesses often weigh multiple options to find the best fit
         for their needs. TaxCloud stands out in the landscape of tax compliance tools, particularly for small to
         mid-sized businesses dealing with complex and changing tax laws. Its main competitors include platforms
         like&nbsp;Avalara,
         Sovos,
-        and&nbsp;<Link id="tools-accounting-complex-changing-laws-taxcloud-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
+        and&nbsp;<Link id={`tools-accounting-complex-changing-laws-taxcloud-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
         each offering unique features tailored to different business sizes and complexities.</p>
       <p className="text-md text-white shadow-text pt-3">
         Avalara is known for its comprehensive compliance capabilities, making it a go-to for enterprise-level
@@ -53,7 +52,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -61,10 +60,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="comparing-taxcloud-with-other-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="comparing-taxcloud-with-other-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Comparing TaxCloud with Other Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

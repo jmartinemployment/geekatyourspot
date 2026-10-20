@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -38,8 +37,8 @@ export default function ImplementingSection() {
         maximum reach and impact.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that want to connect external AI assistants or content tools,
-        Hootsuite’s&nbsp;<GlossaryLink slug="model-context-protocol">Model Context
-        Protocol</GlossaryLink>&nbsp;(MCP) lets you securely bridge outside systems to your live publishing
+        Hootsuite’s&nbsp;Model Context
+        Protocol&nbsp;(MCP) lets you securely bridge outside systems to your live publishing
         channels. No coding is required for the most common setups, your IT admin can connect Claude or
         ChatGPT with a few clicks, making it possible to draft, review, and schedule posts right from your AI
         workspace while keeping final publishing under human control. This is especially important for small
@@ -73,7 +72,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-shortens-hootsuite-go-live-for-small-teams-in-south-florida" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-shortens-hootsuite-go-live-for-small-teams-in-south-florida-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Shortens Hootsuite Go-Live for Small Teams in South Florida
               </h2>
               {body}

@@ -15,7 +15,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Human capital management (HCM) software brings together all the tools you need to manage your
-              team—from hiring and onboarding to payroll, benefits, and workforce management. With HCM, you get
+              team, from hiring and onboarding to payroll, benefits, and workforce management. With HCM, you get
               everything in one place, making it easier to stay compliant and support your business as it grows.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -23,7 +23,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               ERP (Enterprise Resource Planning) handles your business’s core functions like finance and supply
-              chain. HCM is focused on your people—covering recruiting, HR, payroll, and compliance. Some ERPs
+              chain. HCM is focused on your people, covering recruiting, HR, payroll, and compliance. Some ERPs
               have HCM modules, but a dedicated HCM system like Rippling gives you deeper, more specialized
               tools for managing employees.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -31,8 +31,8 @@ export default function FaqSection() {
               Is HCM software the same as HRIS?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              HCM and HRIS are related, but not the same. HRIS is your core system for employee records—job
-              titles, pay, reporting lines. HCM includes all that, plus extra features for payroll, benefits,
+              HCM and HRIS are related, but not the same. HRIS is your core system for employee records, such as job
+              titles, pay, and reporting lines. HCM includes all that, plus extra features for payroll, benefits,
               compliance, and talent management. In short, HCM covers more ground to help you manage and develop
               your workforce.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -58,21 +58,21 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Rippling IT is a single platform that lets you manage identity and access, devices, inventory, and
-              compliance—all from one dashboard. You get full control of your IT environment without juggling
+              compliance, all from one dashboard. You get full control of your IT environment without juggling
               multiple tools.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What makes Rippling IT different from standalone IT tools?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Most IT tools handle just one thing—like identity, devices, or compliance. Rippling brings all
+              Most IT tools handle just one thing, such as identity, devices, or compliance. Rippling brings all
               three together in one system with shared data, so you avoid messy integrations and manual work.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does Rippling automate user access and provisioning?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              You set up rules once—such as by role or department—and Rippling takes care of the rest. It
+              You set up rules once, such as by role or department, and Rippling takes care of the rest. It
               automatically gives or removes access across all your apps using SSO, SCIM, and lifecycle
               management, saving you time and reducing errors.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -90,14 +90,14 @@ export default function FaqSection() {
             <p className="text-md text-white shadow-text pt-3">
               Rippling AI spots risks, enforces your policies, and handles requests automatically. It provisions
               access and devices, flags security issues like &quot;Shadow AI,&quot; and fixes compliance
-              gaps—moving your IT from reactive to proactive management.</p>
+              gaps, moving your IT from reactive to proactive management.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does Rippling help with audit readiness and compliance?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Rippling keeps an eye on your environment against standards like SOC 2 and NIST. It collects
-              evidence automatically, flags gaps in real time, and lets you fix issues with one click—helping
+              evidence automatically, flags gaps in real time, and lets you fix issues with one click, which helps
               you stay audit-ready and secure.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -112,7 +112,7 @@ export default function FaqSection() {
               Who is Rippling Automated Compliance for?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Rippling Automated Compliance is built for any team size—whether you’re a founder or part of an IT
+              Rippling Automated Compliance is built for any team size, whether you’re a founder or part of an IT
               or security team. It helps you get your first compliance report or show ongoing readiness
               throughout the year.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -122,7 +122,7 @@ export default function FaqSection() {
             <p className="text-md text-white shadow-text pt-3">
               Most compliance tools just point out what’s missing and rely on integrations. Rippling uses its
               own operational data to automate evidence collection right away, and when something breaks, it
-              guides you to fix it directly in the platform—no need to jump between tools.</p>
+              guides you to fix it directly in the platform, so there is no need to jump between tools.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Does Rippling run the audit for us?

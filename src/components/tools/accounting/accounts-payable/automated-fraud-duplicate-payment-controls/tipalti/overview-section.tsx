@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Under the dim fluorescent lights of a small Miami-Dade county office, a local business owner sifts
@@ -17,7 +17,7 @@ export default function OverviewSection() {
         chance of human error, and slows down payment cycles, making it difficult to maintain healthy cash flow
         and supplier relationships.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-fraud-controls-tipalti-overview-fraud-controls" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a solution to these pervasive issues. By
+        Automated&nbsp;<Link id={`tools-accounting-fraud-controls-tipalti-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a solution to these pervasive issues. By
         integrating <GlossaryLink slug="ai">AI</GlossaryLink>-driven systems, businesses can streamline
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> processes, reducing manual
         workload and minimizing errors. These controls flag anomalies and duplicates early, ensuring that only
@@ -44,7 +44,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

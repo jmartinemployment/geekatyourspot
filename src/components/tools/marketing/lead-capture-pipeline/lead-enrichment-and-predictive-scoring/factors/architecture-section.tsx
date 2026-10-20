@@ -11,7 +11,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         At its core, Factors ingests data from multiple sources. Website traffic is captured through a script
         you install, which sends every visit, page view, and event to the platform. From there, Factors
-        connects to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;(like Salesforce or
+        connects to your&nbsp;CRM&nbsp;(like Salesforce or
         HubSpot),&nbsp;<GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">marketing
         automation</GlossaryLink>&nbsp;systems, ad platforms (LinkedIn, Google Ads, Meta), and
         third-party&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent data</GlossaryLink>&nbsp;sources (G2,
@@ -72,7 +72,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-sits-behind-the-scenes-factors-architecture-data-connections-and-integrations" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sits-behind-the-scenes-factors-architecture-data-connections-and-integrations-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sits Behind the Scenes: Factors’ Architecture, Data Connections, and Integrations
               </h2>
               {body}

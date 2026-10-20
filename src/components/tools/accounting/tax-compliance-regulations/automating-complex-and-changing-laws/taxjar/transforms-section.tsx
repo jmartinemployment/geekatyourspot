@@ -4,8 +4,8 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        TaxJar transforms the daunting task of&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;into a streamlined process, removing the burden from small business
+        TaxJar transforms the daunting task of&nbsp;tax
+        compliance&nbsp;into a streamlined process, removing the burden from small business
         owners. By handling the intricacies of tax law changes, TaxJar allows businesses to reclaim valuable
         time and resources. The platform&#39;s ability to provide rooftop-accurate tax calculations means that
         businesses no longer have to worry about billing discrepancies or compliance issues.</p>
@@ -56,7 +56,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxjar-simplifies-complex-and-changing-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxjar-simplifies-complex-and-changing-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxJar Simplifies Complex and Changing Laws
               </h2>
               {body}

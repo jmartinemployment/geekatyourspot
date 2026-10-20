@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -20,7 +19,7 @@ export default function TransformsSection() {
         behind due to a language barrier.</p>
       <p className="text-md text-white shadow-text pt-3">
         Every interaction, call, text, email, or chat, is logged automatically into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Details like intent, timing, and outcome are
+        your&nbsp;CRM. Details like intent, timing, and outcome are
         recorded in structured fields, so your follow-up is organized and nothing slips through the cracks. For
         teams that rely on Google Calendar, Outlook, or Calendly, the AI sees your real-time availability and
         books appointments on the spot. Confirmation texts go out before the caller hangs up, reducing no-shows
@@ -72,7 +71,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-my-ai-front-desk-intelligent-receptionist-actually-removes-from-your-week" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-my-ai-front-desk-intelligent-receptionist-actually-removes-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What My AI Front Desk Intelligent Receptionist actually removes from your week
               </h2>
               {body}

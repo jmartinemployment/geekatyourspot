@@ -1,20 +1,19 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When
-        evaluating&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;tools, businesses often consider several options, each with its own
+        evaluating&nbsp;cash
+        flow forecasting&nbsp;tools, businesses often consider several options, each with its own
         strengths and weaknesses. Cashflowfrog stands out due to its deep integration capabilities and detailed
         forecasting features. Unlike many tools that offer basic cash flow projections, Cashflowfrog provides a
         granular breakdown by vendor, customer, and department, allowing businesses to drill down to the source
         invoices and bills. This capability is crucial for companies that need detailed financial insights rather
         than just high-level overviews.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Many competitors, such as&nbsp;<Link id="tools-accounting-spreadsheet-data-cashflowfrog-comparing-floatapp" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">Float</Link>&nbsp;and QuickBooks Cash Flow Planner, offer simpler views that are adequate for
+        Many competitors, such as&nbsp;<Link id={`tools-accounting-spreadsheet-data-cashflowfrog-comparing-floatapp${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">Float</Link>&nbsp;and QuickBooks Cash Flow Planner, offer simpler views that are adequate for
         basic forecasting needs. However, they often lack the depth of analysis and the ability to handle complex
         scenarios that Cashflowfrog offers. For instance, while QuickBooks Cash Flow Planner provides a clear
         monthly overview, it does not support the detailed breakdowns by class or project that Cashflowfrog excels
@@ -49,7 +48,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +56,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="cashflowfrogs-position-among-competing-solutions">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="cashflowfrogs-position-among-competing-solutions-lg">
                 Cashflowfrog&#39;s Position Among Competing Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

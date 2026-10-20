@@ -30,9 +30,9 @@ export const gustoContent: ToolPageContent = {
     {"title": "What Shortens the Path to a Clean Go-Live with Gusto", "description": "Going live with Gusto in a South Florida small business environment is not just about switching on a new payroll system."},
     {"title": "The Data Mapping Choices That Make or Break a Gusto Payroll Deployment", "description": "Getting Gusto to work right in a South Florida small business is about more than loading in names and pay rates."},
     {"title": "Configuring Gusto’s Payroll Tax and Worker Classification Logic for Local Compliance", "description": "Gusto’s configuration is about setting up precise rules for how payroll, tax, and worker classification are handled in a small business that mixes W-2 employees and 1099 contractors."},
-    {"title": "Judging Gusto: Fit, Flexibility, and How Its Pricing Works for Small Teams", "description": "When you are weighing Gusto for payroll tax and worker misclassification risk, the right fit comes down to how well the platform matches your business’s real complexity—and how its cost model lines up with your cash flow."},
+    {"title": "Judging Gusto: Fit, Flexibility, and How Its Pricing Works for Small Teams", "description": "When you are weighing Gusto for payroll tax and worker misclassification risk, the right fit comes down to how well the platform matches your business’s real complexity and how its cost model lines up with your cash flow."},
     {"title": "How Gusto Compares to Other Payroll Tax and Worker Classification Solutions", "description": "Small businesses in South Florida do not lack options for automating payroll tax and worker classification."},
-    {"title": "Who Should Choose Gusto—and Who Should Not", "description": "Gusto is built for small and mid-sized businesses that need to manage payroll tax and worker classification without a full HR or legal team."},
+    {"title": "Who Should Choose Gusto and Who Should Not", "description": "Gusto is built for small and mid-sized businesses that need to manage payroll tax and worker classification without a full HR or legal team."},
     {"title": "Frequently Asked Questions", "description": "5 questions about Gusto, covering payroll tax filing, W-2 and 1099 handling, and Florida compliance."}
   ]
 };

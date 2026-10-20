@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
@@ -22,7 +21,7 @@ export default function HowItWorksSection() {
         on the user&#39;s response, tag the lead for follow-up, or push data to an external system. For
         instance, if a prospect replies &quot;interested&quot; on a Facebook post, Manychat can collect their
         email, tag them as a high-intent lead, and send their details to a
-        connected&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or Google Sheet. If the conversation
+        connected&nbsp;CRM&nbsp;or Google Sheet. If the conversation
         ends without a booking, the system can segment the contact for a future campaign or alert your team
         for manual follow-up.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -66,7 +65,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-manychat-handles-conversations-across-platforms-step-by-step" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-manychat-handles-conversations-across-platforms-step-by-step-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Manychat Handles Conversations Across Platforms, Step by Step
               </h2>
               {body}

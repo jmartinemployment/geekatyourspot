@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -49,7 +48,7 @@ export default function ComparingSection() {
         Integration is another place LobbyStack stands out. Many closed systems limit you to their own
         integrations or require workarounds to connect with your calendar or lead management tools. LobbyStack
         supports Google Calendar natively for booking, and its
-        open&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;lets
+        open&nbsp;API&nbsp;lets
         technical teams build direct integrations with other systems as needed. Businesses with more complex
         workflows or compliance requirements can configure the platform to fit, not the other way around. Where
         a live service or a closed AI platform would block you at the limits of their system, LobbyStack lets
@@ -94,7 +93,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-lobbystack-compares-to-live-answering-services-phone-trees-and-other-ai-receptionists" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-lobbystack-compares-to-live-answering-services-phone-trees-and-other-ai-receptionists-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How LobbyStack Compares to Live Answering Services, Phone Trees, and Other AI Receptionists
               </h2>
               {body}

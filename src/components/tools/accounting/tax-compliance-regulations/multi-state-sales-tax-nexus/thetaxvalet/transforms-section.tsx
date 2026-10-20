@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        TaxValet is built for one job: to take multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;off your plate, so your team can stop chasing filings and start focusing
+        TaxValet is built for one job: to take multi-state sales&nbsp;tax
+        compliance&nbsp;off your plate, so your team can stop chasing filings and start focusing
         on growth. For a small business in South Florida expanding across state lines, this means the end of
         Friday afternoons spent reconciling sales data, tracking down missing transactions, or scrambling to
         answer state notices.</p>
@@ -97,7 +96,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxvalet-removes-the-weekly-burden-of-multi-state-sales-tax-nexus" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxvalet-removes-the-weekly-burden-of-multi-state-sales-tax-nexus-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxValet Removes the Weekly Burden of Multi-State Sales Tax Nexus
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function KeyFactorsSection() {
   const body = (
@@ -14,20 +13,20 @@ export default function KeyFactorsSection() {
         The first risk is skipping the business objectives alignment. Teams eager to end the pain of missed
         calls often rush to deploy an AI receptionist but never define what counts as a win. Without clear
         goals, like &#39;zero voicemails after hours,&#39; or &#39;every call logged to
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;within
+        the&nbsp;CRM&nbsp;within
         five minutes&#39;, there is nothing to measure against. The rollout becomes a fog of anecdotes: one
         person says it is working, another says they missed a call, but nobody can point to real numbers. A
         strong implementation ties every technical step to a business metric, so you know right away if things
         are improving, or not.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">Data
-        quality</GlossaryLink>&nbsp;is the next choke point. Many businesses have service menus, pricing, team
+        Data
+        quality&nbsp;is the next choke point. Many businesses have service menus, pricing, team
         rosters, and schedules scattered across Google Docs, email threads, and half-filled spreadsheets. When
         the AI tries to answer a question or book an appointment, it hits a dead end or gives the wrong answer.
         This is where Voksha succeeds for small teams: it only asks for the basics, your main services, your
         calendar, and your core FAQs, so you are not paralyzed by configuration. My AI Front Desk and Nextiva,
         meanwhile, need accurate, up-to-date data to route calls, confirm appointments, and sync with
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. If you
+        your&nbsp;CRM. If you
         skip this cleanup, you get frustrated callers and staff who still have to fix details by hand.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another common stall is choosing a tool that does not fit the operational reality. Some teams want full
@@ -45,7 +44,7 @@ export default function KeyFactorsSection() {
         handle calls, chats, and texts all in one, but if you never check the dashboard or update your
         workflows, leads will still slip through. My AI Front Desk logs every call and outcome, but if nobody
         looks at
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        the&nbsp;CRM&nbsp;or
         follows up, opportunities are wasted. The businesses that see lasting results are the ones that assign
         ownership, one person is responsible for reviewing performance and making sure the system stays in sync
         with reality.</p>
@@ -84,7 +83,7 @@ export default function KeyFactorsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-some-intelligent-receptionist-rollouts-succeed-and-others-stall-out" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-some-intelligent-receptionist-rollouts-succeed-and-others-stall-out-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Some Intelligent Receptionist Rollouts Succeed, and Others Stall Out
               </h2>
               {body}

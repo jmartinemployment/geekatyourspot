@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function SequenceSection() {
   const body = (
@@ -11,18 +10,18 @@ export default function SequenceSection() {
       <p className="text-md text-white shadow-text pt-3">
         It starts with a practical alignment on business objectives, not a vendor demo. You map out what counts
         as success: fewer missed calls, more appointments booked, more sales pipeline captured, or simply moving
-        all call logs into a real&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. This is not window dressing;
+        all call logs into a real&nbsp;CRM. This is not window dressing;
         it is the foundation for every technical and operational decision that follows. For a twelve-person HVAC
         shop in West Palm Beach, that might mean aiming to recover $2,000 a month in missed-call revenue by
         moving from voicemail to 24/7 coverage. For a solo practice in Miami, it could be as simple as never
         losing another Saturday inquiry to a competitor.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes the&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. This
+        Next comes the&nbsp;data quality&nbsp;assessment. This
         phase is about more than finding the right phone number to forward. You need to know if your client
         records, intake forms, and knowledge base articles are clean, current, and in a format the new system
         can use. My AI Front Desk and Smith.ai both rely on structured data for booking and lead qualification;
         if your calendar is full of half-completed entries or
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is a mess of duplicate contacts, you will
+        your&nbsp;CRM&nbsp;is a mess of duplicate contacts, you will
         lose value before you even start. LobbyStack gives you the flexibility to define your own data models
         and logic, but that also means the quality of your data is now your direct responsibility, not a
         vendor’s.</p>
@@ -85,7 +84,7 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-a-real-implementation-looks-like-the-sequence-the-surprises-and-the-hand-offs" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-a-real-implementation-looks-like-the-sequence-the-surprises-and-the-hand-offs-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What a Real Implementation Looks Like: The Sequence, the Surprises, and the Hand-Offs
               </h2>
               {body}

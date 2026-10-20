@@ -53,7 +53,7 @@ export default function ConfiguringSection() {
         provided. All automation, integration, and workflow logic is handled through built-in connectors,
         prompt templates, and workspace settings. This means you do not need a developer to get advanced
         automation running, but you also cannot build your own scripts or
-        direct&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls for edge-case scenarios. Geek @ Your Spot LLC’s role is to map your workflow to what Castmagic supports, configure the right prompts and
+        direct&nbsp;API&nbsp;calls for edge-case scenarios. Geek @ Your Spot LLC’s role is to map your workflow to what Castmagic supports, configure the right prompts and
         roles, and train your team to use the platform’s full set of collaboration and approval tools. The
         value is in making the platform fit your business, not the other way around.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -94,7 +94,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-castmagics-rules-prompts-and-automation-logic-get-configured-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-castmagics-rules-prompts-and-automation-logic-get-configured-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Castmagic’s Rules, Prompts, and Automation Logic Get Configured for Small Teams
               </h2>
               {body}

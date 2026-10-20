@@ -6,21 +6,21 @@ export default function DataIntegrationSection() {
       <p className="text-md text-white shadow-text pt-3">
         A lead enrichment and predictive scoring pipeline is only as good as the data it works with and the
         way it plugs into your existing systems. The right pipeline doesn’t just bolt on a new tool. It
-        requires a real connection between your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
-        website,&nbsp;<GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink>, and any
+        requires a real connection between your&nbsp;CRM,
+        website,&nbsp;marketing automation, and any
         other platform where leads are captured or worked. If these aren’t talking cleanly to each other,
         you’ll end up with gaps, lags, or outright missed opportunities, and the whole point of enrichment and
         scoring is lost.</p>
       <p className="text-md text-white shadow-text pt-3">
         Start with the basics: you need reliable, up-to-date contact and account data flowing in both
         directions. Website visitor tracking (using tools like Snitcher or Leadfeeder) should feed identified
-        companies and engagement signals straight into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        companies and engagement signals straight into your&nbsp;CRM,
         not in a daily export, but in near real time. If your business relies on field forms or chatbots,
         those entries have to be enriched automatically (Apollo, for instance, can instantly append verified
         emails and mobile numbers to inbound form fills). This means your forms ask for less and your team
         sees more, with firmographics and contact details filled in behind the scenes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next is the integration layer. Your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;(whether
+        Next is the integration layer. Your&nbsp;CRM&nbsp;(whether
         it’s Salesforce, HubSpot, or a lighter small business platform) must handle enriched data fields, not just name
         and email, but company size, industry, last engagement, and source. This is where bulk enrichment from
         Lusha comes in, processing thousands of records at once and writing verified mobile numbers and emails
@@ -46,7 +46,7 @@ export default function DataIntegrationSection() {
         A real-world rollout in a small business in West Palm or Broward means mapping out every input and
         output: where leads arrive, how data is enriched, how scores are updated, and exactly what happens
         when a warm account appears. It means confirming that
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;fields for phone, email, company, and tags
+        your&nbsp;CRM&nbsp;fields for phone, email, company, and tags
         are ready for bulk and real-time updates, and that your website tracking code is feeding the right
         session data to your pipeline. No two businesses have the exact same flow, but every successful
         project has these integration points squared away before launch. The cost of skipping this step is
@@ -73,7 +73,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-data-and-integration-demands-you-have-to-meet-upfront" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-data-and-integration-demands-you-have-to-meet-upfront-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data and Integration Demands You Have to Meet Upfront
               </h2>
               {body}

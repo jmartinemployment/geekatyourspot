@@ -1,21 +1,20 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Bill for automated approval workflows, small businesses should focus on how well it
         fits their specific needs. The platform offers tailored approval workflows that can be customized to
         fit your business rules. This flexibility is crucial for businesses that require precise control over
         their&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes. Bill&#39;s
+        accounts payable&nbsp;processes. Bill&#39;s
         ability to handle routing, step tracking, and reminders ensures that invoices are approved
         efficiently, reducing manual intervention and potential errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         Pricing is another key factor. Bill offers several plans, starting at $49 per user per month for the
         Essentials plan, as reported in&nbsp;
-        <a id="tools-accounting-approval-workflows-bill-evaluating-software-comparison"
+        <a id={`tools-accounting-approval-workflows-bill-evaluating-software-comparison${idSuffix}`}
           href="https://www.bill.com/listicle"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Software Comparison
@@ -24,9 +23,9 @@ export default function EvaluatingSection() {
         businesses. However, it&#39;s important to note that certain features, like purchase order creation
         and 2-way matching, are only available on higher-tier plans or as add-ons.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In comparison to other platforms like&nbsp;<Link id="tools-accounting-approval-workflows-bill-evaluating-tipalti" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id="tools-accounting-approval-workflows-bill-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>, which are also popular for AP
+        In comparison to other platforms like&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>, which are also popular for AP
         automation, Bill stands out for its&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-driven capabilities. The AI invoice coding reduces manual
+        AI-driven capabilities. The AI invoice coding reduces manual
         time by 20% and captures key invoice fields with 99% accuracy. This level of precision is
         particularly valuable for businesses looking to minimize errors and streamline their processes.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -55,7 +54,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -63,10 +62,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-approval-workflows-lg">
                 Evaluating Bill for Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        When considering&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;solutions, businesses often weigh multiple options to find the right fit
+        When considering&nbsp;tax
+        compliance&nbsp;solutions, businesses often weigh multiple options to find the right fit
         for their needs. Quaderno stands out by offering a comprehensive suite of features tailored for small to
         mid-sized digital businesses. Its ability to automate VAT, GST, and sales tax calculations across over
         12,000 jurisdictions is a key differentiator. This broad coverage ensures that businesses can scale
@@ -62,7 +61,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-quaderno-stands-among-tax-compliance-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quaderno-stands-among-tax-compliance-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Quaderno Stands Among Tax Compliance Solutions
               </h2>
               {body}

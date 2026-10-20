@@ -6,10 +6,10 @@ export default function ArchitectureSection() {
         architecture is designed for small businesses that need to connect payroll with the rest of their
         financial and HR stack, without building custom integrations or hiring a full-time IT team. The system
         is structured to keep employee and contractor data separate, automate compliance, and make sure every
-        piece of information flows to where it’s needed—inside Gusto and out to your other systems.</p>
+        piece of information flows to where it’s needed, inside Gusto and out to your other systems.</p>
       <p className="text-md text-white shadow-text pt-3">
-        At the core, Gusto maintains a secure, centralized database for all worker records. Each profile—whether
-        W-2 employee or 1099 contractor—holds personal details, tax status, payment history, and all required
+        At the core, Gusto maintains a secure, centralized database for all worker records. Each profile, whether
+        W-2 employee or 1099 contractor, holds personal details, tax status, payment history, and all required
         forms. This separation is hardwired: the platform never merges employee and contractor records, so you
         always have a clean audit trail for both. All payroll, tax, and benefits data is stored electronically,
         meeting IRS and labor law retention requirements. Employees and contractors can access their own
@@ -29,16 +29,16 @@ export default function ArchitectureSection() {
         through without manual entry. If your business uses the Ardius platform for R&amp;D tax credits, Gusto’s
         integration lets you automate those studies alongside payroll.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Gusto also supports time tracking, onboarding, performance reviews, and workers’ comp—all connected to
-        payroll and compliance. Timecards feed directly into payroll calculations, and any changes—like a new
-        hire or a pay rate adjustment—are reflected everywhere in the system. Bulk updates and automated
+        Gusto also supports time tracking, onboarding, performance reviews, and workers’ comp, all connected to
+        payroll and compliance. Timecards feed directly into payroll calculations, and any changes, like a new
+        hire or a pay rate adjustment, are reflected everywhere in the system. Bulk updates and automated
         workflows are built in, so HR teams can handle compensation changes or new hires without jumping between
         tools. For South Florida businesses with seasonal or multi-state teams, Gusto’s architecture makes it
         possible to run payroll and file taxes in multiple states at once, with no extra setup or fees.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security is built into every layer. Gusto uses strong passwords, multi-factor authentication, and
         proactive fraud alerts to protect sensitive payroll and tax information. The platform is cloud-based, so
-        updates and bug fixes are applied automatically—no manual patches or downtime. Every user account, from
+        updates and bug fixes are applied automatically, with no manual patches or downtime. Every user account, from
         the owner to the part-time bookkeeper, is managed with role-based access, so only the right people see
         the right data.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -51,7 +51,7 @@ export default function ArchitectureSection() {
         For South Florida business owners, Gusto’s architecture means you don’t have to worry about the
         technical side of compliance. The platform is built to plug into what you already use, keep every record
         in order, and automate the flow of information from onboarding to tax filing. Whether your team grows,
-        shrinks, or shifts across state lines, the system adapts—no custom coding, no manual data transfers, and
+        shrinks, or shifts across state lines, the system adapts with no custom coding, no manual data transfers, and
         no risk of losing track of who’s classified how. Everything is connected, current, and audit-ready by
         design.</p>
     </>
@@ -77,7 +77,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="gusto-s-architecture-integrations-data-flows-and-what-the-platform-holds" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="gusto-s-architecture-integrations-data-flows-and-what-the-platform-holds-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Gusto’s Architecture: Integrations, Data Flows, and What the Platform Holds
               </h2>
               {body}

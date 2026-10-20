@@ -60,7 +60,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="why-small-teams-miss-calls-lose-leads-and-burn-out" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-small-teams-miss-calls-lose-leads-and-burn-out-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Small Teams Miss Calls, Lose Leads, and Burn Out
               </h2>
               {body}

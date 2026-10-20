@@ -15,6 +15,7 @@ import FaqSection from "@/components/tools/accounting/tax-compliance-regulations
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Zamp";
 const PAGE_TITLE = "Zamp for Automating Complex & Changing Laws";
@@ -53,7 +54,7 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "How does pricing scale as we grow?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp's pricing scales predictably with your business. It covers filings, registrations, complex jurisdictions, and support without unexpected fees per return, notice, or integration."}},
                 {"@type": "Question", "name": "Is Zamp built for multi-entity, multi-state, and high-volume operations?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Zamp supports complex entity structures, multi-state, and high-volume operations seamlessly."}},
                 {"@type": "Question", "name": "How is Zamp different from an automation-only platform like Kintsugi?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp combines intelligent automation with an in-house tax team that manages registrations, filings, notices, and audit readiness. Unlike platforms that only provide tools, Zamp is accountable for the outcomes."}},
-                {"@type": "Question", "name": "Who is responsible when something goes wrong—like a state notice or audit?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp's dedicated tax specialists monitor, review, and resolve notices before they become critical issues. You won't be left to handle state communications alone."}},
+                {"@type": "Question", "name": "Who is responsible when something goes wrong, like a state notice or audit?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp's dedicated tax specialists monitor, review, and resolve notices before they become critical issues. You won't be left to handle state communications alone."}},
                 {"@type": "Question", "name": "Will Zamp handle multi-state and complex local filings for us?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Zamp manages state, local, and home-rule filings, registrations, and remittances as part of the service, without extra fees per return or jurisdiction."}},
                 {"@type": "Question", "name": "How does Zamp ensure accuracy at close and during audits?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp uses enterprise-grade calculation technology paired with professional review and reconciliation to produce close-ready, audit-defensible reporting and filings."}},
                 {"@type": "Question", "name": "What kind of support will we have day-to-day?", "acceptedAnswer": {"@type": "Answer", "text": "You'll have direct access to Zamp's support team for any day-to-day needs."}},
@@ -93,14 +94,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -13,8 +12,8 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The first step is a short intake call with your Zamp onboarding specialist. Here, you grant access to
         your sales systems, Shopify, Amazon, BigCommerce, Magento, or
-        your&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>. Zamp’s pre-built connectors
-        and&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;integrations cut the manual work down to
+        your&nbsp;ERP. Zamp’s pre-built connectors
+        and&nbsp;API&nbsp;integrations cut the manual work down to
         minutes. There is no need to export and reformat data or map every field by hand. Zamp pulls the
         transaction history it needs for a full nexus analysis. This is not a one-size-fits-all import. The
         system reviews prior-period orders, refunds, and adjustments to build a complete picture of where your
@@ -69,7 +68,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-zamp-gets-a-small-business-live-without-weeks-of-downtime-or-guesswork" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-zamp-gets-a-small-business-live-without-weeks-of-downtime-or-guesswork-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Zamp Gets a Small Business Live Without Weeks of Downtime or Guesswork
               </h2>
               {body}

@@ -12,7 +12,7 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-5"></div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Monte Carlo offers a suite of features designed to enhance the reliability and accuracy of your data, which is
-                critical for effective <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some of the key capabilities that make Monte Carlo an
+                critical for effective ad spend optimization. Here are some of the key capabilities that make Monte Carlo an
                 invaluable tool for marketers:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data Observability: Monte Carlo provides end-to-end visibility into your data pipelines. This means you can
@@ -46,7 +46,7 @@ export default function KeyCapabilitiesSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Key Capabilities</h2>
               <p className="text-md text-white shadow-text pt-3">Monte Carlo offers a suite of features designed to enhance the reliability and accuracy of your data, which is
-                critical for effective <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some of the key capabilities that make Monte Carlo an
+                critical for effective ad spend optimization. Here are some of the key capabilities that make Monte Carlo an
                 invaluable tool for marketers:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data Observability: Monte Carlo provides end-to-end visibility into your data pipelines. This means you can

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
@@ -34,7 +33,7 @@ export default function DecisionsSection() {
         follow-up steps. Once live, changing them means retraining flows and retracing your integration work.</p>
       <p className="text-md text-white shadow-text pt-3">
         Deciding which data is the source of truth comes next. If
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is the record, every lead must land there
+        your&nbsp;CRM&nbsp;is the record, every lead must land there
         with full context. Manychat and Tidio both make it easy to push contact info and chat history into
         external databases or spreadsheets, but the specific integration must match your process. If you stick
         to a web chat that never syncs, your team is still copy-pasting details. Choose a tool whose data path
@@ -47,7 +46,7 @@ export default function DecisionsSection() {
         yourself rewriting core logic and retraining staff.</p>
       <p className="text-md text-white shadow-text pt-3">
         These are not decisions to make in a vacuum. In practice, the owner, the staff who answer calls, and
-        the person who manages the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;all need to be in the
+        the person who manages the&nbsp;CRM&nbsp;all need to be in the
         room. Once you have set your business goal, named your channels, mapped your data flow, and decided
         how leads are scored and routed, you have drawn the boundaries for your entire rollout. Every tool you
         pick and every process you automate now follows the shape you set here. Change this later, and you are
@@ -74,7 +73,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-decisions-you-make-first-are-the-ones-that-shape-the-whole-project" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-decisions-you-make-first-are-the-ones-that-shape-the-whole-project-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Decisions You Make First Are the Ones That Shape the Whole Project
               </h2>
               {body}

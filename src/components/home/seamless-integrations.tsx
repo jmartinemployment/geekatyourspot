@@ -94,7 +94,7 @@ export default function SeamlessIntegrationsSection() {
               Integrations</span>
           </h2>
           <p className="text-white text-2xl text-center shadow-text py-5">
-            AI solutions plug directly into the tools and platforms you already uses every day.
+            Our AI solutions plug directly into the tools and platforms your team already uses every day.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function SeamlessIntegrationsSection() {
           </h2>
           <p className="text-white text-2xl text-center shadow-text pt-5">
             Our AI solutions plug directly into the tools and platforms your
-            team already uses every day. No disruption.
+            team already uses every day.
           </p>
         </div>
 

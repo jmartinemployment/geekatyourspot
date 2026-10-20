@@ -10,13 +10,14 @@ import PAASection from "@/components/use-cases/accounting/accounts-payable/autom
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Implement Automated Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -26,23 +27,20 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-09T12:45:16.0792588Z",
             "dateModified": "2026-10-09T12:45:16.0792588Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Fraud & Duplicate Payment Controls, accounts payable automation, fraud prevention, duplicate payment controls, AI implementation, small business efficiency, cost savings, time savings, error reduction, local small businesses",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/medius#software` },
-                { "@id": `${TOOLS_BASE}/tipalti#software` },
+                { "@id": "https://geekatyourspot.com/#software-medius" },
+                { "@id": "https://geekatyourspot.com/#software-tipalti" },
                 { "@id": "https://geekatyourspot.com/#software-stampli" },
-                { "@id": `${TOOLS_BASE}/bill#software` },
+                { "@id": "https://geekatyourspot.com/#software-bill" },
                 { "@id": "https://geekatyourspot.com/#software-ramp" }
             ]
         },
@@ -54,7 +52,8 @@ const jsonLd: Graph = {
                 { "@type": "Question", "name": "What specific anomalies trigger automated risk alerts?", "acceptedAnswer": { "@type": "Answer", "text": "Automated risk alerts are triggered by anomalies such as duplicate invoices, mismatched vendor details, or unusual transaction amounts. These alerts can also be set off by transactions occurring outside of normal business hours or from unfamiliar locations. By identifying these red flags, businesses can take prompt action to investigate potential fraud." } },
                 { "@type": "Question", "name": "What happens when a fraud system triggers a high-risk flag?", "acceptedAnswer": { "@type": "Answer", "text": "When a fraud system triggers a high-risk flag, the transaction is usually put on hold for further investigation. The accounts payable team is notified to review the flagged activity. If the transaction is deemed legitimate after review, it is processed as usual. If fraud is suspected, further actions are taken, which may include contacting the vendor or taking legal steps to protect the business." } }
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -71,11 +70,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         openGraph: {
             title: TITLE, description: DESCRIPTION, url: PAGE_URL,
             siteName: 'Geek @ Your Spot LLC', locale: 'en_US', type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image', title: TITLE, description: DESCRIPTION,
-            creator: 'Geek @ Your Spot LLC', images: ['/images/GeekAtYourSpot.svg'],
+            creator: 'Geek @ Your Spot LLC', images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

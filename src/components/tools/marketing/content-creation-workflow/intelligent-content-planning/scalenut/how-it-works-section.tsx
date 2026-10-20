@@ -72,7 +72,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-scalenuts-workflow-delivers-parallel-execution-not-just-analysis" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-scalenuts-workflow-delivers-parallel-execution-not-just-analysis-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Scalenut’s Workflow Delivers Parallel Execution, Not Just Analysis
               </h2>
               {body}

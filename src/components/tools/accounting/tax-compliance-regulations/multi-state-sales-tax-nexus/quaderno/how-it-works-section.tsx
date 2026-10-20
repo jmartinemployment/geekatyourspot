@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Quaderno automates the
-        entire&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;cycle for small businesses selling across state lines. Its core workflow
+        entire&nbsp;tax
+        compliance&nbsp;cycle for small businesses selling across state lines. Its core workflow
         starts with real-time monitoring of your sales volume and transaction counts in every US state and more
         than 150 countries. The system pulls sales data directly from your payment processors and sales
         channels, Stripe, PayPal, Braintree, Shopify, WooCommerce, Amazon FBA, and others, so you get a live
@@ -14,7 +13,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Each time you process a sale, Quaderno checks the latest tax rules for that product or service in the
         buyer’s jurisdiction. This includes digital
-        goods,&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        goods,&nbsp;SaaS,
         and physical products, even when rules change mid-year or differ by state. The platform identifies
         whether the sale is B2B or B2C, validates VAT numbers where needed, and applies the right rate, no more
         guessing or overcharging out-of-state buyers. This is not just a one-time setup: Quaderno updates its
@@ -72,7 +71,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-quaderno-automates-multi-state-tax-compliance-step-by-step" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quaderno-automates-multi-state-tax-compliance-step-by-step-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Quaderno Automates Multi-State Tax Compliance, Step by Step
               </h2>
               {body}

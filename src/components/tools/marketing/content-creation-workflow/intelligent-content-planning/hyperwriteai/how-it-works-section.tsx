@@ -54,7 +54,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real step-by-step flow with HyperWrite looks like this:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Open your browser and start a draft in your tool of choice, Gmail, Docs, LinkedIn, or&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>.</li>
+        <li>Open your browser and start a draft in your tool of choice, Gmail, Docs, LinkedIn, or&nbsp;CRM.</li>
         <li>Type your message or content idea. HyperWrite reads the context and suggests full-sentence completions in real time.</li>
         <li>Accept, edit, or ignore the suggestions as you go. The tool adapts to your choices and learns your style over time.</li>
         <li>For intelligent content planning, enter your business goals and audience details. HyperWrite generates a tailored content calendar.</li>
@@ -87,7 +87,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-hyperwrite-works-the-real-steps-from-idea-to-published-content" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-hyperwrite-works-the-real-steps-from-idea-to-published-content-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How HyperWrite Works: The Real Steps from Idea to Published Content
               </h2>
               {body}

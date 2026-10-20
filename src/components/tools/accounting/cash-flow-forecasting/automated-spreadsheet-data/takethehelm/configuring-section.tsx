@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the Helm offers a powerful suite of configuration options that enable small businesses to tailor
-        their&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>&nbsp;and
+        their&nbsp;cash flow forecasting&nbsp;and
         management processes. At its core, Take the Helm allows users to set up specific forecasting rules and
         automation logic. These rules dictate how financial data is processed and presented, providing a
         customized experience that aligns with the unique needs of each business.</p>
@@ -22,8 +21,8 @@ export default function ConfiguringSection() {
         different scenarios, businesses can visualize how changes in revenue or expenses might affect their cash
         flow, providing insights that inform strategic decisions.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those concerned with&nbsp;<GlossaryLink slug="accounts-payable">accounts
-        payable</GlossaryLink>&nbsp;and receivable, Take the Helm offers tools to manage these transactions
+        For those concerned with&nbsp;accounts
+        payable&nbsp;and receivable, Take the Helm offers tools to manage these transactions
         effectively. Users can automate the tracking of invoice timing, payment dates, and amounts, reducing the
         manual effort involved in managing these processes. This automation not only saves time but also
         minimizes the risk of errors, ensuring that financial records are always up-to-date.</p>
@@ -55,7 +54,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-takethehelm-rules-and-automation">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-takethehelm-rules-and-automation-lg">
                 Configuring Take the Helm: Rules and Automation
               </h2>
               {body}

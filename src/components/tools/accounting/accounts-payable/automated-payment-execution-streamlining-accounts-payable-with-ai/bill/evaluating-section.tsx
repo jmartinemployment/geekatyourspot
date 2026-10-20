@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Bill for Automated Payment Execution, small businesses should focus on several key
@@ -27,7 +27,7 @@ export default function EvaluatingSection() {
         and provide real-time visibility into financial operations makes it a valuable tool for managing
         accounts payable efficiently.</p>
       <p className="text-md text-white shadow-text pt-3">
-        However, it&#39;s also wise to evaluate alternative solutions. Tools like&nbsp;<Link id="tools-accounting-payment-execution-bill-evaluating-tipalti" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id="tools-accounting-payment-execution-bill-evaluating-avidxchange" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;offer similar capabilities, each with unique features that may better suit certain business models.
+        However, it&#39;s also wise to evaluate alternative solutions. Tools like&nbsp;<Link id={`tools-accounting-payment-execution-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-payment-execution-bill-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>&nbsp;offer similar capabilities, each with unique features that may better suit certain business models.
         For example, if international payments and compliance are a priority, comparing Bill’s offerings with
         those of its competitors could reveal additional benefits or constraints.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,7 +49,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-payment-execution">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-payment-execution-lg">
                 Evaluating Bill for Automated Payment Execution
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

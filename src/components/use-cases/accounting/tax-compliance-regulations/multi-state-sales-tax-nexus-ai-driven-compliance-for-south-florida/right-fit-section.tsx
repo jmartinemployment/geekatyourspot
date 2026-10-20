@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Automated multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;is a game changer for small businesses scaling across state lines, but it
+        sales&nbsp;tax
+        compliance&nbsp;is a game changer for small businesses scaling across state lines, but it
         is not a blanket solution for every scenario. The right fit comes down to transaction volume, channel
         complexity, and operational bandwidth. If your business is selling into multiple states, crossing
         $100,000 in annual sales or hitting 200 transactions in a state, and you lack a dedicated tax
@@ -74,7 +73,7 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-automated-multi-state-tax-compliance-is-the-right-fit-and-when-it-is-not" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-automated-multi-state-tax-compliance-is-the-right-fit-and-when-it-is-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Automated Multi-State Tax Compliance Is the Right Fit, and When It Is Not
               </h2>
               {body}

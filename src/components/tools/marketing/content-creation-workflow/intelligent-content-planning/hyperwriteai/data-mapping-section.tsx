@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -41,7 +40,7 @@ export default function DataMappingSection() {
         Integrations are the final piece. HyperWrite is built to work inside browser tabs, but it can pull
         context from adjacent apps, calendars, CRMs, or project management tools, if those connections are
         mapped up front. Deciding which integrations matter most (for example, connecting to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;to personalize outreach or to your content
+        your&nbsp;CRM&nbsp;to personalize outreach or to your content
         calendar for bulk scheduling) ensures that the assistant is drawing on the most relevant, up-to-date
         information. This reduces errors and manual copy-paste work, making the content workflow smoother and
         more reliable.</p>
@@ -80,7 +79,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-decisions-that-shape-a-successful-hyperwrite-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-decisions-that-shape-a-successful-hyperwrite-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping Decisions That Shape a Successful HyperWrite Deployment
               </h2>
               {body}

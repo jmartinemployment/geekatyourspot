@@ -16,7 +16,7 @@ export default function SequenceSection() {
         aspirational wish list. It is a baseline for every decision that follows, and it keeps the project
         honest when priorities start to drift.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes the&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment.
+        Next comes the&nbsp;data quality&nbsp;assessment.
         This is where most teams hit their first reality check. You need to pull together every source of
         content data you have, past blog posts, performance analytics, keyword lists, campaign results, and
         even customer feedback. The team maps where this data lives, how clean or messy it is, and what needs
@@ -37,7 +37,7 @@ export default function SequenceSection() {
         need to see their brand show up in AI-powered search and not just Google, Scalenut’s AI visibility
         tracking delivers an edge. The decision is not just about features, but about which workflows you need
         to automate and how the tool plugs into what you already use, whether that is Google Workspace, Slack,
-        or a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>.</p>
+        or a&nbsp;CRM.</p>
       <p className="text-md text-white shadow-text pt-3">
         Pilot implementation comes next. This is where the rubber meets the road. The team picks a single
         content type or campaign, maybe a weekly blog post or a month-long social push, to run through the
@@ -58,7 +58,7 @@ export default function SequenceSection() {
         A real rollout does not end at launch. The system is monitored for drift, with regular check-ins
         against the original business objectives. Are posts ranking? Is the team still hitting time-saving
         targets? Is brand voice consistent across all channels? If not,
-        the&nbsp;<GlossaryLink slug="data-model">data model</GlossaryLink>&nbsp;or workflow is revisited, and
+        the&nbsp;data model&nbsp;or workflow is revisited, and
         adjustments are made. Tools like Hootsuite and Semrush provide real-time analytics and
         recommendations, making it easy to spot when performance slips and course corrections are needed.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -90,7 +90,7 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-rolling-this-out-actually-involves-in-a-real-environment-the-sequence-it-happens-in" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-rolling-this-out-actually-involves-in-a-real-environment-the-sequence-it-happens-in-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Rolling This Out Actually Involves in a Real Environment: The Sequence It Happens In
               </h2>
               {body}

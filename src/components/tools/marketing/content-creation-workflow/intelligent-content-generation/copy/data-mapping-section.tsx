@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -12,10 +11,10 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The first decision is which data sources to connect. Copy.ai is designed to pull structured and
         semi-structured data from a wide range of platforms: product
-        databases,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;records, shared drives, and even
+        databases,&nbsp;CRM&nbsp;records, shared drives, and even
         spreadsheets. For most small businesses, this means identifying the single source of truth for each
         content type. For example, product descriptions might live in an e-commerce backend, while customer
-        segments for email campaigns could be tagged in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>.
+        segments for email campaigns could be tagged in your&nbsp;CRM.
         Geek @ Your Spot LLC maps these sources directly into Copy.ai, so the AI agents always work from the most
         up-to-date information.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -80,7 +79,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-data-structure-and-mapping-decisions-that-matter-when-deploying-copy-ai" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-data-structure-and-mapping-decisions-that-matter-when-deploying-copy-ai-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data Structure and Mapping Decisions That Matter When Deploying Copy.ai
               </h2>
               {body}

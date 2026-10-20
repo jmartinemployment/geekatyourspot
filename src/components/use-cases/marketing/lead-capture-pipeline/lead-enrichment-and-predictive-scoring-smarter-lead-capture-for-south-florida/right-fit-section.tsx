@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The decision to build a lead enrichment and predictive scoring pipeline is not a fit for every small
@@ -30,12 +29,12 @@ export default function RightFitSection() {
         timing: you know companies are visiting your site, but sales never hears about it until it is too
         late. These tools surface the exact companies on your site, which pages they viewed, and when they
         showed up, so your team can act before interest goes cold. If you are running targeted digital
-        campaigns but cannot see which clicks turn into real pipeline, Factors connects the dots, tying&nbsp;<Link id="use-cases-marketing-lead-enrichment-right-fit-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#0B162A] hover:underline">ad spend</Link>&nbsp;to closed revenue and flagging which accounts are heating up now.</p>
+        campaigns but cannot see which clicks turn into real pipeline, Factors connects the dots, tying&nbsp;<Link id={`use-cases-marketing-lead-enrichment-right-fit-automated-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#0B162A] hover:underline">ad spend</Link>&nbsp;to closed revenue and flagging which accounts are heating up now.</p>
       <p className="text-md text-white shadow-text pt-3">
         On the other hand, if your business is still figuring out product-market fit, or if the only visitors
         to your website are competitors and job seekers, this is not the moment to invest in predictive
         scoring. Wait until you have a steady stream of the right visitors, then automate. If
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;is a mess, or if sales and marketing cannot
+        your&nbsp;CRM&nbsp;is a mess, or if sales and marketing cannot
         agree on what &quot;qualified&quot; means, you will want to fix the foundations first. Predictive
         models are only as good as the data and definitions you feed them. The best pipeline in the world
         cannot rescue a business from unclear goals, broken process, or a lack of real demand.</p>
@@ -61,7 +60,7 @@ export default function RightFitSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -69,10 +68,10 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-lead-enrichment-and-predictive-scoring-are-the-right-move-and-when-they-are-not" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-lead-enrichment-and-predictive-scoring-are-the-right-move-and-when-they-are-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Lead Enrichment and Predictive Scoring Are the Right Move, and When They Are Not
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

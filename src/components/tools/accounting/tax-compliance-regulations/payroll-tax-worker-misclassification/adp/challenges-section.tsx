@@ -71,7 +71,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-payroll-tax-and-worker-classification-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-payroll-tax-and-worker-classification-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing Payroll Tax and Worker Classification by Hand
               </h2>
               {body}

@@ -36,7 +36,7 @@ export default function ConfiguringSection() {
         published documentation. The extension mechanism is configuration: you control what happens on each call
         by describing the flow in the dashboard, not by writing code or integrating custom logic. Where
         integrations exist, such as with Dentrix for dental practices, setup is handled through Voksha support
-        rather than a public&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. For most small businesses, this
+        rather than a public&nbsp;API. For most small businesses, this
         is a strength: there is little risk of breaking the system with a bad script or a failed integration.
         Configuration changes are self-serve, fast, and reversible.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -58,7 +58,7 @@ export default function ConfiguringSection() {
         reversible, so there is no risk in iterating toward the flow that works best for your team.</p>
       <p className="text-md text-white shadow-text pt-3">
         Voksha’s setup is not about building a custom app or wiring up
-        an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. It is about configuring the right questions,
+        an&nbsp;API. It is about configuring the right questions,
         routing, and escalation rules so your Intelligent Receptionist fits your business, not the other way
         around. Geek @ Your Spot LLC’s role is to get those rules right from the start, so your team stops missing
         leads and starts seeing the real benefit of always-on, AI-powered call handling.</p>
@@ -84,7 +84,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-voksha-rules-logic-and-how-geek-your-spot-makes-it-work-locally" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-voksha-rules-logic-and-how-geek-your-spot-makes-it-work-locally-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Voksha: Rules, Logic, and How Geek @ Your Spot LLC Makes It Work Locally
               </h2>
               {body}

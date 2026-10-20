@@ -1,10 +1,9 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HiddenCostsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Managing <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> (AP) manually is not
+        Managing accounts payable (AP) manually is not
         just tedious; it&#39;s costly. Small businesses in Miami-Dade, Broward, and West Palm Beach counties
         often find themselves trapped in a cycle of inefficiencies that drain resources and inflate costs.
         Manual processes are riddled with errors, from simple data entry mistakes to complex issues like
@@ -56,7 +55,7 @@ export default function HiddenCostsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-hidden-costs-of-manual-accounts-payable-processes" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-hidden-costs-of-manual-accounts-payable-processes-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Hidden Costs of Manual Accounts Payable Processes
               </h2>
               {body}

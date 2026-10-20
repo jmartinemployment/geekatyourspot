@@ -93,7 +93,7 @@ export default function FaqSection() {
             <p className="text-md text-white shadow-text pt-3">
               BILL&#39;s Accounts Receivable features streamline the process by reducing manual work and providing more
               flexible ways to get paid. With Payment Links and enhanced
-              AR&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;capabilities, you can automate invoice updates and
+              AR&nbsp;API&nbsp;capabilities, you can automate invoice updates and
               authorize payments, ensuring funds reach your account faster.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

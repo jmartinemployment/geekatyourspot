@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Imagine a small business owner in Miami-Dade, struggling with an administrative nightmare. Each month, they
@@ -10,7 +10,7 @@ export default function OverviewSection() {
         in, leading to delayed payments and strained customer relationships. It&#39;s a familiar scenario for many
         small businesses in West Palm Beach and Broward County, where time and resources are often stretched thin.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-accounts-receivable-upflow-overview-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">Accounts Receivable</Link>&nbsp;offers a lifeline to these businesses. By automating the tedious and
+        Automated&nbsp;<Link id={`tools-accounting-accounts-receivable-upflow-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">Accounts Receivable</Link>&nbsp;offers a lifeline to these businesses. By automating the tedious and
         error-prone tasks of invoice tracking and follow-ups, companies can transform their cash flow management.
         Tools like Upflow integrate seamlessly with existing systems, providing real-time insights and proactive
         reminders that ensure invoices are paid on time. This reduces the Days Sales Outstanding (DSO) and improves
@@ -36,7 +36,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -45,10 +45,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

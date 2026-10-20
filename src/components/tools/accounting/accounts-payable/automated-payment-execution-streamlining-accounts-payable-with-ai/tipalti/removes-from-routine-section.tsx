@@ -1,7 +1,7 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RemovesFromRoutineSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tipalti transforms the way businesses handle Automated Payment Execution by eliminating many of the
@@ -30,7 +30,7 @@ export default function RemovesFromRoutineSection() {
         &quot;Our comprehensive, end-to-end automation streamlines and enhances your business with
         scalability, efficiency, and precision, freeing you from the burden of routine, time-consuming AP
         tasks.&quot;&nbsp;
-        <a id="tools-accounting-payment-execution-tipalti-removes-source"
+        <a id={`tools-accounting-payment-execution-tipalti-removes-source${idSuffix}`}
           href="https://tipalti.com/manual-ap-slowing-you-down/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Tipalti
@@ -54,7 +54,7 @@ export default function RemovesFromRoutineSection() {
                 What Tipalti Removes from Your Automated Payment Execution Routine
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -63,10 +63,10 @@ export default function RemovesFromRoutineSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-tipalti-removes-from-your-automated-payment-execution-routine">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-tipalti-removes-from-your-automated-payment-execution-routine-lg">
                 What Tipalti Removes from Your Automated Payment Execution Routine
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

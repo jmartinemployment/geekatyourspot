@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxCloud is designed for small and mid-market businesses that are selling across state lines and need to
-        automate sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;without
+        automate sales&nbsp;tax compliance&nbsp;without
         building a tax team. If you are a retailer, wholesaler,
-        or&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;company in Miami-Dade, Broward, or West Palm
+        or&nbsp;SaaS&nbsp;company in Miami-Dade, Broward, or West Palm
         Beach, and your online or remote sales are pushing you close to, or over, the $100,000 revenue or
         200-transaction threshold in other states, TaxCloud is built for you. This is not a tool for companies
         with a single-state focus or those who never cross state lines. It earns its keep when you need to
@@ -44,7 +43,7 @@ export default function RightFitSection() {
         configuration, and training so that the system works from day one. This is not a generic setup, each
         business has different sales channels, product codes, and exemption needs, and the configuration needs
         to reflect that. Geek @ Your Spot LLC’s method starts with a free consultation, assesses
-        your&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, and builds a phased plan that
+        your&nbsp;data quality, and builds a phased plan that
         fits your objectives and existing systems.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you are already using another tax platform and thinking about switching, TaxCloud supports guided
@@ -62,7 +61,7 @@ export default function RightFitSection() {
         other way around.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-taxcloud-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
@@ -70,7 +69,7 @@ export default function RightFitSection() {
         <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>
         <li>How do you currently distinguish between sales made through marketplace facilitators (like Amazon, which handle tax for you) versus direct-to-consumer sales on your own site where you hold the tax liability?</li>
         <li>When an out-of-state customer places an order, how does your system determine the exact local, county, and state sales tax rate at that specific rooftop address?</li>
-        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (<GlossaryLink slug="saas">SaaS</GlossaryLink>), or digital goods are taxable in one state but exempt in another?</li>
+        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (SaaS), or digital goods are taxable in one state but exempt in another?</li>
         <li>Once you realize you have nexus in a new state, what is your current process for registering with their Department of Revenue and filing those returns on time?</li>
         <li>How are you collecting, validating, and storing tax exemption certificates for your B2B or wholesale clients out of state?</li>
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
@@ -90,7 +89,7 @@ export default function RightFitSection() {
                 Who Should Use TaxCloud, Who Should Not, and What Comes Next for South Florida Businesses
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +98,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-should-use-taxcloud-who-should-not-and-what-comes-next-for-south-florida-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-should-use-taxcloud-who-should-not-and-what-comes-next-for-south-florida-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Should Use TaxCloud, Who Should Not, and What Comes Next for South Florida Businesses
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

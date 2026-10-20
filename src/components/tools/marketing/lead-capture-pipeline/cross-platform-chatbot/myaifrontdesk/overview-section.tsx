@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Most small businesses in South Florida recognize the pattern: a prospect sends a message on your
@@ -17,7 +17,7 @@ export default function OverviewSection() {
         up. It is not just frustrating; it is expensive. Every missed or delayed response means lost revenue
         that does not come back, and you have no easy way to know where the breakdown happened.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;closes these gaps for good. Instead of scattering conversations across
+        A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-myaifrontdesk-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;closes these gaps for good. Instead of scattering conversations across
         platforms, it brings every chat, text, call, and DM into one unified timeline for each customer. You
         see the whole story instantly, respond from any channel, and never miss a lead, no matter where or
         when they reach out. This is not just an automation gimmick. It is a way to keep your pipeline moving,
@@ -43,7 +43,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

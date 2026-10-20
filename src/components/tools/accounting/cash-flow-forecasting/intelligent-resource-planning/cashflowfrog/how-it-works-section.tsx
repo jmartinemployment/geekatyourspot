@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog is built to automate
-        the&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
-        forecasting</GlossaryLink>&nbsp;process from the ground up. It connects directly to accounting software
+        the&nbsp;cash flow
+        forecasting&nbsp;process from the ground up. It connects directly to accounting software
         or bank feeds, pulls in real-time data, and generates rolling forecasts that update automatically as new
         transactions are recorded. There is no manual data mapping, no spreadsheet juggling, and no need for a
         dedicated finance specialist to get started. The mechanics are designed for speed and accuracy,
@@ -72,8 +71,8 @@ export default function HowItWorksSection() {
         scenarios using plain language, and see the results reflected in your dashboard in real time.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short, Cashflowfrog replaces the manual, error-prone steps of
-        traditional&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;with a set of automated, real-time processes. It is not just a
+        traditional&nbsp;cash
+        flow forecasting&nbsp;with a set of automated, real-time processes. It is not just a
         reporting tool. It is a live system that adapts as your business changes, surfaces risks before they
         become crises, and frees your team to focus on decisions, not data entry. The mechanics are tuned for
         the real-world pressures of small businesses, speed, clarity, and the ability to act on today’s numbers,
@@ -100,7 +99,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-cashflowfrog-produces-live-accurate-forecasts-with-zero-manual-setup" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-cashflowfrog-produces-live-accurate-forecasts-with-zero-manual-setup-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Cashflowfrog Produces Live, Accurate Forecasts With Zero Manual Setup
               </h2>
               {body}

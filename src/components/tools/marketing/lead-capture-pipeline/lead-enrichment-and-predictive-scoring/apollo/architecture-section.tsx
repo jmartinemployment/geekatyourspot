@@ -21,13 +21,13 @@ export default function ArchitectureSection() {
         Apollo does not work in isolation. It connects directly to CRMs like HubSpot and Salesforce, both
         through native integrations and its own&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>. This means
         you can push and pull data on demand, on a schedule, or in real time. When a lead is updated in
-        Apollo, the change syncs to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and vice versa.
+        Apollo, the change syncs to your&nbsp;CRM, and vice versa.
         This two-way sync keeps your sales and marketing teams on the same page and stops data from going
         stale. The Chrome Extension brings Apollo’s data into the tools you already use, LinkedIn, Gmail,
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, so you capture new contacts wherever you work
+        your&nbsp;CRM, so you capture new contacts wherever you work
         online.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Beyond&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, Apollo integrates with platforms like Slack
+        Beyond&nbsp;CRM, Apollo integrates with platforms like Slack
         (for team notifications), ChatGPT and Claude (for AI-powered research and automation), and Prospeo
         (for deeper email and phone verification). Each integration is designed to keep your workflow smooth,
         no jumping between tools, no manual exports or imports. For example, Apollo’s connection with ChatGPT
@@ -48,7 +48,7 @@ export default function ArchitectureSection() {
         accounts.</p>
       <p className="text-md text-white shadow-text pt-3">
         Apollo’s AI layer ties it all together. It does not just store data; it learns from
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, your team’s actions, and the market. The more
+        your&nbsp;CRM, your team’s actions, and the market. The more
         you use Apollo, the smarter it gets at recommending leads, scoring prospects, and drafting outreach.
         This intelligence is not limited to a dashboard. It runs in the background, guiding your team to the
         next best action and surfacing the leads most likely to convert.</p>
@@ -82,7 +82,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="apollos-data-architecture-integrations-and-what-it-holds" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="apollos-data-architecture-integrations-and-what-it-holds-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Apollo’s Data Architecture, Integrations, and What It Holds
               </h2>
               {body}

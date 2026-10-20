@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Going live with Quaderno in your existing business environment is not just about installing software;
-        it&#39;s about integrating a comprehensive&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;solution seamlessly into your workflow. The process is streamlined thanks
+        it&#39;s about integrating a comprehensive&nbsp;tax
+        compliance&nbsp;solution seamlessly into your workflow. The process is streamlined thanks
         to Quaderno&#39;s pre-built connectors and templated setups, which significantly shorten the time to
         deployment. This allows small businesses to quickly move from manual tax processes to automated
         compliance without disrupting their daily operations.</p>
@@ -54,7 +53,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="implementing-quaderno-in-your-existing-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="implementing-quaderno-in-your-existing-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementing Quaderno in Your Existing Environment
               </h2>
               {body}

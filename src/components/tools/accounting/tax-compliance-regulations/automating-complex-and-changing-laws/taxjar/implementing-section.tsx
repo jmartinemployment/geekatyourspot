@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -7,8 +6,8 @@ export default function ImplementingSection() {
         Implementing TaxJar in your business environment is a streamlined process that minimizes downtime and
         maximizes efficiency. Geek @ Your Spot LLC ensures a smooth transition by leveraging pre-built connectors
         and a phased rollout strategy. This approach reduces the complexity of integration and allows your
-        business to quickly benefit from automated&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>.</p>
+        business to quickly benefit from automated&nbsp;tax
+        compliance.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step involves assessing your current systems and identifying the necessary integrations.
         TaxJar offers a suite of pre-built connectors for popular platforms like Shopify, Salesforce, and
@@ -51,7 +50,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="implementing-taxjar-steps-to-go-live" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="implementing-taxjar-steps-to-go-live-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementing TaxJar: Steps to Go Live
               </h2>
               {body}

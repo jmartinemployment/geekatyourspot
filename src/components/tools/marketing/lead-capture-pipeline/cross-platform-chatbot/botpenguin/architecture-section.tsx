@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin is built as a no-code, multichannel automation platform designed to unify and manage
@@ -21,21 +21,21 @@ export default function ArchitectureSection() {
         single, up-to-date record for each lead or customer.</p>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin’s integration layer is extensive. It connects directly to leading CRMs like HubSpot,
-        Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, Nutshell, and others, pushing qualified leads,
+        Zoho&nbsp;CRM, Nutshell, and others, pushing qualified leads,
         mapped fields, and conversation histories into the systems your business already uses. The platform
-        also integrates with cloud telephony (like Voxloud), email marketing tools (<Link id="tools-marketing-cross-platform-chatbot-botpenguin-architecture-mailchimp" href="/tools/marketing/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>), e-commerce
+        also integrates with cloud telephony (like Voxloud), email marketing tools (<Link id={`tools-marketing-cross-platform-chatbot-botpenguin-architecture-mailchimp${idSuffix}`} href="/tools/marketing/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>), e-commerce
         (Shopify), and helpdesk software (Zendesk). Over 100 integrations are supported, so you can automate
         handoffs, trigger workflows, and sync data between your chat channels and every major business tool.</p>
       <p className="text-md text-white shadow-text pt-3">
         For voice and phone, BotPenguin adds AI-powered voice agents that can qualify inbound and outbound
-        calls, log them to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and escalate to a human
+        calls, log them to your&nbsp;CRM, and escalate to a human
         agent when needed. Microsoft Teams integration lets you handle internal lead handoffs and keep
         pipeline updates current. Every integration is managed through a no-code dashboard, so setup does not
         require a developer and can be adjusted as your business grows.</p>
       <p className="text-md text-white shadow-text pt-3">
         The automation engine behind BotPenguin supports building custom conversation flows, qualification
         logic, and routing rules for each channel. You define what questions to ask, how to map responses to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and when to escalate to a human. The platform
+        your&nbsp;CRM, and when to escalate to a human. The platform
         supports AI-powered responses, dynamic flows, and conditional triggers, so the bot can adapt to the
         customer’s intent and needs in real time. Businesses can train the bot on their own data, FAQs, and
         documents, making responses more accurate and personalized.</p>
@@ -53,7 +53,7 @@ export default function ArchitectureSection() {
         For small businesses in Miami-Dade, Broward, and West Palm Beach, the result is a single platform that
         connects every chat, voice, and messaging channel to the systems you already use. No more juggling
         tabs, losing leads between inboxes, or manually copying details into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. BotPenguin’s architecture is built to fit into
+        your&nbsp;CRM. BotPenguin’s architecture is built to fit into
         your environment, automate what can be automated, and keep your team focused on conversations that
         drive revenue.</p>
     </>
@@ -70,7 +70,7 @@ export default function ArchitectureSection() {
                 What Powers BotPenguin: The Platform’s Real Architecture and Integrations
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -79,10 +79,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-powers-botpenguin-the-platforms-real-architecture-and-integrations" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-powers-botpenguin-the-platforms-real-architecture-and-integrations-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Powers BotPenguin: The Platform’s Real Architecture and Integrations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

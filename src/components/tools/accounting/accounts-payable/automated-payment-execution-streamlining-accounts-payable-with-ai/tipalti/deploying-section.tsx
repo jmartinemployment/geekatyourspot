@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DeployingSection() {
   const body = (
@@ -12,7 +11,7 @@ export default function DeployingSection() {
         The deployment process begins with a thorough assessment of your current financial systems and
         workflows. This step is critical to identify any potential integration challenges and to map out the
         data flows between Tipalti and your existing&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;or
+        ERP&nbsp;or
         accounting software. Geek @ Your Spot LLC ensures that all necessary data mappings are established
         upfront, which is crucial for maintaining data integrity and ensuring seamless operations.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -65,7 +64,7 @@ export default function DeployingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-tipalti-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-tipalti-in-your-business-environment-lg">
                 Deploying Tipalti in Your Business Environment
               </h2>
               {body}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture a small marketing team in West Palm Beach. Every week, they spend hours building lists,
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         ready to talk go unnoticed. The result is a cycle of missed revenue and wasted effort, with no clear
         way to tell which marketing and sales activities are working and which are just noise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-lead-enrichment-factors-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;changes that equation. Instead of chasing cold lists, these
+        <Link id={`tools-marketing-lead-enrichment-factors-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;changes that equation. Instead of chasing cold lists, these
         systems use AI to spot, score and surface the hottest accounts in real time. They pull together
         website activity, firmographics, and live intent signals from every channel, chat, voice, ads, and
         email, to build a complete picture of every visitor. The pipeline is no longer a black box. Now, your
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

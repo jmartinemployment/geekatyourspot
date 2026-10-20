@@ -24,7 +24,7 @@ export default function ArchitectureSection() {
         real-time appointment booking. For dental practices, a Dentrix integration is available with support
         from Voksha’s team. In real estate and service businesses, call summaries and lead details can be pushed
         to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        your&nbsp;CRM&nbsp;or
         sent by SMS and email. Every call log is structured for consistency, so you can track leads,
         appointments, and customer questions without manual entry.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -80,7 +80,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="inside-the-voksha-platform-architecture-integrations-and-how-data-flows" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="inside-the-voksha-platform-architecture-integrations-and-how-data-flows-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Inside the Voksha Platform: Architecture, Integrations, and How Data Flows
               </h2>
               {body}

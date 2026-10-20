@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Melio transforms the&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;process
+        accounts payable&nbsp;process
         by automating approval workflows, which removes the manual chasing of approvals and reduces the risk
         of errors. Designed specifically for US businesses, Melio&#39;s platform routes invoices to the right
         approvers based on predefined rules, such as amount thresholds or specific vendors. This automation
@@ -64,7 +63,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="melios-architecture-and-workflow-automation">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="melios-architecture-and-workflow-automation-lg">
                 Melio&#39;s Architecture and Workflow Automation
               </h2>
               {body}

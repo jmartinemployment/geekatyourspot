@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small business owners in Miami-Dade, Broward, and West Palm Beach counties often grapple with the
-        intricacies of&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;due to
+        intricacies of&nbsp;tax compliance&nbsp;due to
         complex and changing laws. The primary issue is a lack of in-house expertise to handle the simultaneous
         demands of multi-state filings, tax calculations, and audit notices. This gap creates a significant risk
         of compliance failures, leading to financial penalties and operational disruptions.</p>
@@ -56,7 +55,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-cost-of-navigating-complex-and-changing-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-cost-of-navigating-complex-and-changing-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Cost of Navigating Complex and Changing Laws
               </h2>
               {body}

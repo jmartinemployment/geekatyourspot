@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The front desk phone rings three times in a row while your team is out on a job, locked in a patient
@@ -23,7 +23,7 @@ export default function OverviewSection() {
         expensive and inconsistent, and hiring a full-time front desk is out of reach for most small businesses.
         The result: inbound lead leakage, after-hours bottlenecks, and a calendar that never quite fills up.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where an&nbsp;<Link id="tools-marketing-intelligent-receptionist-myaifrontdesk-overview-intelligent-receptionist" href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the game. Unlike voicemail or a basic phone tree, an
+        This is where an&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the game. Unlike voicemail or a basic phone tree, an
         AI-powered receptionist answers every call instantly, holds a real conversation in plain language,
         qualifies the lead, books appointments on your calendar, and logs every detail to
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. It keeps your business open 24/7, so you never
@@ -53,7 +53,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -62,10 +62,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

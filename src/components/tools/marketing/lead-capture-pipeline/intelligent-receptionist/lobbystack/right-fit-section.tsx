@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         LobbyStack is built for small businesses that need reliable, flexible call handling without the overhead
@@ -42,9 +42,9 @@ export default function RightFitSection() {
         custom integrations. Agencies and resellers can also deploy LobbyStack for clients, customizing the
         experience and branding as needed.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If your business needs direct&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integration,
+        If your business needs direct&nbsp;CRM&nbsp;integration,
         multi-calendar support, or more advanced analytics, LobbyStack offers an
-        open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and documentation for building those
+        open&nbsp;API&nbsp;and documentation for building those
         connections. Out of the box, it integrates with Google Calendar for bookings. Email and SMS alerts are
         available on paid plans, and call summaries, transcripts, and recordings are always accessible from the
         dashboard. For businesses with more complex needs, technical teams can extend the platform without
@@ -63,7 +63,7 @@ export default function RightFitSection() {
         callbacks, and how much control you want over the system that answers your phone.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-receptionist-lobbystack-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-receptionist-lobbystack-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
@@ -72,7 +72,7 @@ export default function RightFitSection() {
         <li>What is the exact sequence of events that needs to happen when a new client calls to book an appointment or request a service?</li>
         <li>Which calendar or scheduling platform do you use, and do you require the AI to write appointments directly to it?</li>
         <li>What percentage of your inbound calls are just repetitive questions regarding your location, operating hours, pricing tier, or basic services?</li>
-        <li>What Customer Relationship Management (<GlossaryLink slug="crm">CRM</GlossaryLink>), billing, or field service management software does your business rely on daily?</li>
+        <li>What Customer Relationship Management (CRM), billing, or field service management software does your business rely on daily?</li>
         <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
         <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
         <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
@@ -95,7 +95,7 @@ export default function RightFitSection() {
                 Who LobbyStack Is For, Who Should Look Elsewhere, and the Next Step for South Florida Teams
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -104,10 +104,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-lobbystack-is-for-who-should-look-elsewhere-and-the-next-step-for-south-florida-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-lobbystack-is-for-who-should-look-elsewhere-and-the-next-step-for-south-florida-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who LobbyStack Is For, Who Should Look Elsewhere, and the Next Step for South Florida Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

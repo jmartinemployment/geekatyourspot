@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -24,7 +23,7 @@ export default function ChallengesSection() {
         potentially leading to lost sales.</p>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar offers a solution to these challenges. By automating
-        sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>, TaxJar eliminates the need
+        sales&nbsp;tax compliance, TaxJar eliminates the need
         for manual updates and hardcoding of tax rates. Its platform provides rooftop-accurate tax calculations,
         ensuring precise billing for every transaction. Businesses can also benefit from automatic nexus
         tracking, which alerts them when they are approaching thresholds in new states.</p>
@@ -59,7 +58,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-cost-of-navigating-complex-and-changing-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-cost-of-navigating-complex-and-changing-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Cost of Navigating Complex and Changing Laws
               </h2>
               {body}

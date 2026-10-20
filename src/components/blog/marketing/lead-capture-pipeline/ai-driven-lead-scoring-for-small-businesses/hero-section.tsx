@@ -3,7 +3,7 @@ import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HeroSection() {
-  const title = "AI-Driven Lead Scoring for Small Businesses";
+  const title = "AI Lead Scoring for Small Businesses";
   const summary = <>Stop chasing every lead. Use <GlossaryLink slug="lead-scoring">AI-driven lead scoring</GlossaryLink> to unify fragmented data, rank every prospect by real buying intent, and focus your small business team on leads most likely to convert.</>;
 
   return (
@@ -44,7 +44,7 @@ export default function HeroSection() {
               </p>
               <div className="pt-6">
                 <Link
-                  id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
+                  id={`${gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}-lg`}
                   href="#consultationAppointment2xl"
                   className="btn btn-primary"
                 >

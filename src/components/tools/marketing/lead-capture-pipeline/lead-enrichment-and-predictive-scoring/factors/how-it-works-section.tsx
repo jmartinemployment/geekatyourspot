@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function HowItWorksSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Factors does not just identify anonymous website visitors and hand over a list. It runs a full process
@@ -19,7 +19,7 @@ export default function HowItWorksSection() {
         Once Factors has identified the companies visiting your site, it enriches each account using multiple
         data sources. This enrichment process adds layers of detail, company name, industry, employee count,
         revenue band, and more. The platform can also pull in contact-level data, such as names and job
-        titles, from integrations with tools like Salesforce,&nbsp;<Link id="tools-marketing-lead-enrichment-factors-how-it-works-apollo" href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo" className="text-[#0B162A] hover:underline">Apollo</Link>, and ZoomInfo.</p>
+        titles, from integrations with tools like Salesforce,&nbsp;<Link id={`tools-marketing-lead-enrichment-factors-how-it-works-apollo${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo" className="text-[#0B162A] hover:underline">Apollo</Link>, and ZoomInfo.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next, Factors tracks every engagement signal from each account. The system logs which pages were
         viewed, how many times, what content was downloaded, and which ads were seen or clicked. These signals
@@ -61,7 +61,7 @@ export default function HowItWorksSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -69,10 +69,10 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-factors-surfaces-and-scores-buying-intent-the-actual-steps-inside-the-platform" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-factors-surfaces-and-scores-buying-intent-the-actual-steps-inside-the-platform-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Factors Surfaces and Scores Buying Intent: The Actual Steps Inside the Platform
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

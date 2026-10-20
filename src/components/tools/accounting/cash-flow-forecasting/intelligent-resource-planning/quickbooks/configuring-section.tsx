@@ -14,7 +14,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         QuickBooks Online Advanced, the edition most small businesses graduate into, is built for this kind of
         configuration. It does not require a
-        full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;migration, but it does bring enterprise-style
+        full&nbsp;ERP&nbsp;migration, but it does bring enterprise-style
         control to user access, workflow automation, and reporting. The rules you set here are not generic, they
         are the backbone of how your business runs each week.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -31,8 +31,8 @@ export default function ConfiguringSection() {
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         Not everything in QuickBooks is open to scripting or code-level customization. Unlike some
-        full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems, QuickBooks does not offer a
-        developer SDK or open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for deep custom extensions
+        full&nbsp;ERP&nbsp;systems, QuickBooks does not offer a
+        developer SDK or open&nbsp;API&nbsp;for deep custom extensions
         by default. Most automation is built through its own configuration screens and built-in logic. Where
         integration is needed (for example, connecting to payroll
         or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>), it relies on its ecosystem of add-ons and
@@ -93,7 +93,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-quickbooks-rules-automation-and-customization-limits" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-quickbooks-rules-automation-and-customization-limits-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in QuickBooks: Rules, Automation, and Customization Limits
               </h2>
               {body}

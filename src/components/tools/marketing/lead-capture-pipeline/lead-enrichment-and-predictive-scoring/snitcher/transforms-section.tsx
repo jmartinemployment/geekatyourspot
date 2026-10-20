@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher changes the game for small businesses in Miami-Dade, Broward, and West Palm Beach by making
@@ -25,7 +24,7 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Snitcher automates what used to take hours of manual effort. Instead of copying data between tabs and
         cross-referencing lists by hand, your team gets enriched company profiles and decision-maker details
-        delivered straight to the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Slack, or sales tools you
+        delivered straight to the&nbsp;CRM, Slack, or sales tools you
         already use. Every identified company is scored against your ideal customer profile, so the best-fit
         leads always rise to the top. This removes the risk of double-pitching and ensures no high-value
         account slips through the cracks.</p>
@@ -43,11 +42,11 @@ export default function TransformsSection() {
         Instead of burning out on dead leads, your team spends its energy where it counts, turning real buyer
         intent into closed deals.</p>
       <blockquote cite="https://www.snitcher.com/use-cases/account-scoring/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
-        Every visitor looks the same until you score them — Snitcher ranks accounts by fit and intent so your
+        Every visitor looks the same until you score them. Snitcher ranks accounts by fit and intent so your
         team stops guessing and starts closing.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
-        Snitcher integrates with the platforms your team already runs, HubSpot, Salesforce,&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-transforms-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Slack, and more, so there is no need for a
+        Snitcher integrates with the platforms your team already runs, HubSpot, Salesforce,&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-transforms-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>,
+        Zoho&nbsp;CRM, Slack, and more, so there is no need for a
         disruptive overhaul. The setup is as simple as dropping a script into your website header. Within
         minutes, companies start appearing in your dashboard, and all the heavy lifting of enrichment and
         scoring happens in the background. No ongoing maintenance, no warehouse to manage, and no hidden fees
@@ -72,7 +71,7 @@ export default function TransformsSection() {
                 How Snitcher Transforms Lead Enrichment and Predictive Scoring for Small Teams
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -81,10 +80,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-snitcher-transforms-lead-enrichment-and-predictive-scoring-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-snitcher-transforms-lead-enrichment-and-predictive-scoring-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Snitcher Transforms Lead Enrichment and Predictive Scoring for Small Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

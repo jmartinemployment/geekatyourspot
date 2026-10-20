@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function HowBillTransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill provides a comprehensive solution to the challenges of manual accounts payable processes. By
@@ -30,7 +30,7 @@ export default function HowBillTransformsSection() {
         For small and medium-sized businesses looking to implement AI, Bill offers a practical and effective
         solution to transform their financial workflows. To explore how Bill can benefit your business,
         consider&nbsp;
-        <Link id="tools-accounting-bill-transforms-consultation"
+        <Link id={`tools-accounting-bill-transforms-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           scheduling a demo
         </Link>&nbsp;to see the platform in action.</p>
@@ -48,7 +48,7 @@ export default function HowBillTransformsSection() {
                 How Bill Transforms Accounts Payable Management
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function HowBillTransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-accounts-payable-management">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-accounts-payable-management-lg">
                 How Bill Transforms Accounts Payable Management
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -2,14 +2,14 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tidio’s architecture is designed around the reality that small businesses use many tools and channels.
         At its core, Tidio is a cloud-based platform that connects website chat, social messaging apps
         (WhatsApp, Instagram, Messenger), and email into one system. Every channel is wired into the same
-        backend, so a message from any source lands in the&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified
-        inbox</GlossaryLink>. The system matches users across channels using email, phone, or login, building
+        backend, so a message from any source lands in the&nbsp;unified
+        inbox. The system matches users across channels using email, phone, or login, building
         a single customer profile that carries conversation history, order data, tags, and custom properties.</p>
       <p className="text-md text-white shadow-text pt-3">
         This approach means your team never has to switch between apps to see the full customer journey.
@@ -27,15 +27,15 @@ export default function ArchitectureSection() {
         Tidio’s automation builder, Flows, sits on top of this architecture. Flows are built visually and can
         be triggered by events across any channel, a new visitor, a specific page, an abandoned cart, or a
         keyword. Automations can collect contact details, qualify leads,
-        trigger&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;actions, or route chats to the right
+        trigger&nbsp;CRM&nbsp;actions, or route chats to the right
         team member. For every action, Flows can push data into other systems through integrations or APIs, so
         leads and customer details flow downstream without manual re-entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integrations are a core part of Tidio’s platform. The system connects directly with tools like
-        HubSpot, Drip, Front, ActiveCampaign,&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-architecture-pipedrive" href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, AWeber, Google Ads, and more. For e-commerce, it
+        HubSpot, Drip, Front, ActiveCampaign,&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-architecture-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, AWeber, Google Ads, and more. For e-commerce, it
         hooks into Shopify and WooCommerce for real-time product and order management. The Premium plan lets
         you integrate with almost any app on the market, so you can sync leads,
-        update&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;records, trigger email campaigns, or feed
+        update&nbsp;CRM&nbsp;records, trigger email campaigns, or feed
         chat data into analytics tools. Tidio’s integrations are built to keep your marketing, sales, and
         support stack connected, without needing middleware or custom development.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,7 +49,7 @@ export default function ArchitectureSection() {
         For teams that want to go deeper, Tidio’s Flows and Lyro Actions can trigger
         custom&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;calls, update external databases, or
         automate tasks across your stack. This gives you the flexibility to adapt the system to your workflow,
-        whether that’s pushing leads into Salesforce, updating a Google Sheet, or triggering a workflow in&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>.</p>
+        whether that’s pushing leads into Salesforce, updating a Google Sheet, or triggering a workflow in&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>.</p>
       <p className="text-md text-white shadow-text pt-3">
         The architecture is built for scale, but stays simple for small teams. You get multilanguage support,
         desktop and mobile apps for on-the-go alerts, and a seat cap that matches the needs of small and
@@ -71,7 +71,7 @@ export default function ArchitectureSection() {
                 The Architecture Behind Tidio: Channels, Integrations, and the Data It Holds
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -80,10 +80,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-architecture-behind-tidio-channels-integrations-and-the-data-it-holds" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-architecture-behind-tidio-channels-integrations-and-the-data-it-holds-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Architecture Behind Tidio: Channels, Integrations, and the Data It Holds
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

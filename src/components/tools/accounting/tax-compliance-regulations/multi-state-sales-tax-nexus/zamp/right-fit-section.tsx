@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Zamp is built for small businesses that have crossed into multi-state sales tax territory but lack the
         internal resources for compliance. If you are running a team in Miami-Dade, Broward, or Palm Beach and
         you are selling across state lines, whether through e-commerce, wholesale,
-        or&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>, Zamp is designed for you. The businesses that see
+        or&nbsp;SaaS, Zamp is designed for you. The businesses that see
         the most value are those that hit economic or physical nexus in multiple states before they have a full
         accounting or tax department. If your team is already stretched thin responding to state notices,
         tracking sales thresholds, or reconciling data from multiple channels, Zamp replaces that scramble with
@@ -16,7 +15,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         Zamp is not just for online retailers. It fits any small business where sales activity in other states
         has triggered new registration and filing requirements. That
-        includes&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;vendors, distributors, and hybrid
+        includes&nbsp;SaaS&nbsp;vendors, distributors, and hybrid
         operations selling through both direct and marketplace channels. If your business is dealing with
         product taxability questions, frequent state notices, or the risk of misclassified sales, Zamp’s managed
         mapping and compliance team take those off your plate. Annmarie Skin Care, for example, relied on Zamp
@@ -45,7 +44,7 @@ export default function RightFitSection() {
         come from having a team own the risk, not just the software.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-zamp-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
@@ -53,7 +52,7 @@ export default function RightFitSection() {
         <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>
         <li>How do you currently distinguish between sales made through marketplace facilitators (like Amazon, which handle tax for you) versus direct-to-consumer sales on your own site where you hold the tax liability?</li>
         <li>When an out-of-state customer places an order, how does your system determine the exact local, county, and state sales tax rate at that specific rooftop address?</li>
-        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (<GlossaryLink slug="saas">SaaS</GlossaryLink>), or digital goods are taxable in one state but exempt in another?</li>
+        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (SaaS), or digital goods are taxable in one state but exempt in another?</li>
         <li>Once you realize you have nexus in a new state, what is your current process for registering with their Department of Revenue and filing those returns on time?</li>
         <li>How are you collecting, validating, and storing tax exemption certificates for your B2B or wholesale clients out of state?</li>
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
@@ -73,7 +72,7 @@ export default function RightFitSection() {
                 Who Gets the Most from Zamp, and Who Should Look Elsewhere
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -82,10 +81,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-gets-the-most-from-zamp-and-who-should-look-elsewhere" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-gets-the-most-from-zamp-and-who-should-look-elsewhere-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Gets the Most from Zamp, and Who Should Look Elsewhere
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

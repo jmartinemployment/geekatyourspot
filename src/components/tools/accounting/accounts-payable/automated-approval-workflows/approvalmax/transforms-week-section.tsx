@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsWeekSection() {
   const body = (
@@ -7,7 +6,7 @@ export default function TransformsWeekSection() {
         ApprovalMax is designed to take the hassle out of approval processes, freeing up valuable time and
         resources for small business teams. By automating approval workflows, it removes the need for manual
         data entry and reduces the risk of human error. This automation is particularly beneficial for&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;teams who often find
+        accounts payable&nbsp;teams who often find
         themselves buried under a pile of invoices, each requiring meticulous attention. With ApprovalMax,
         these teams can focus on more strategic tasks, as the system handles the routine work.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function TransformsWeekSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-approvalmax-transforms-your-week-by-removing-manual-tasks">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-approvalmax-transforms-your-week-by-removing-manual-tasks-lg">
                 How ApprovalMax Transforms Your Week by Removing Manual Tasks
               </h2>
               {body}

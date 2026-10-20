@@ -4,70 +4,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import GlossaryHeroSection from "@/components/glossary/glossary-hero";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { getAllGlossaryTerms } from "@/lib/glossary";
+import { GLOSSARY_SET_ID, definitionText, getAllGlossaryTerms } from "@/lib/glossary";
 import type { GlossaryTerm } from "@/types/glossary";
 import { cn } from "@/lib/utils";
 import type { DefinedTermSet, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import {
+  ALPHABET,
+  DEFAULT_LETTER,
+  NON_ALPHA_KEY,
+  groupByLetter,
+  letterHref,
+  resolveLetter,
+} from "@/lib/glossary-letters";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Glossary";
 const PAGE_DESCRIPTION =
   "Plain-language definitions of the AI, automation, marketing, and accounting terms that come up when a small business starts putting AI to work.";
 
 /** Matches the term pages, so the index and its entries expire together. */
 export const revalidate = 3600;
-
-/** Terms that do not start with a letter collect here, sorted last. */
-const NON_ALPHA_KEY = "#";
-const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-const DEFAULT_LETTER = "A";
-
-function bucketKey(term: GlossaryTerm): string {
-  const first = term.title.trim().charAt(0).toUpperCase();
-  return first >= "A" && first <= "Z" ? first : NON_ALPHA_KEY;
-}
-
-function groupByLetter(terms: GlossaryTerm[]): Map<string, GlossaryTerm[]> {
-  const groups = new Map<string, GlossaryTerm[]>();
-
-  for (const term of terms) {
-    const key = bucketKey(term);
-    const bucket = groups.get(key);
-    if (bucket) {
-      bucket.push(term);
-    } else {
-      groups.set(key, [term]);
-    }
-  }
-
-  for (const bucket of groups.values()) {
-    bucket.sort((a, b) => a.title.localeCompare(b.title));
-  }
-
-  return groups;
-}
-
-/**
- * The requested letter when it exists, otherwise A. An unknown or empty letter
- * resolves to A rather than an empty page, so /glossary and /glossary?letter=A
- * are the same page — which is why A alone carries the bare canonical.
- */
-function resolveLetter(
-  requested: string | undefined,
-  groups: Map<string, GlossaryTerm[]>,
-): string {
-  if (!requested) return DEFAULT_LETTER;
-  const upper = requested.trim().toUpperCase();
-  return groups.has(upper) ? upper : DEFAULT_LETTER;
-}
-
-function letterHref(letter: string): string {
-  return letter === DEFAULT_LETTER
-    ? "/glossary"
-    : `/glossary?letter=${encodeURIComponent(letter)}`;
-}
 
 const BLURB_MAX = 170;
 
@@ -85,18 +43,6 @@ interface CardTerm extends GlossaryTerm {
   description: string;
   /** Same text, clamped for the card. */
   blurb?: string;
-}
-
-/** The definition body shown on the card and in structured data. */
-function definitionText(term: GlossaryTerm): string {
-  const fromDefinitions = term.definitions
-    ?.map((definition) => definition.text.trim())
-    .filter((text) => text.length > 0)
-    .join(" ");
-
-  return (fromDefinitions || term.definition || "")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function withDefinitions(terms: GlossaryTerm[]): CardTerm[] {
@@ -121,11 +67,12 @@ export async function generateMetadata({
   const terms = await getAllGlossaryTerms();
   const active = resolveLetter(letter, groupByLetter(terms));
 
-  const title = active === DEFAULT_LETTER ? PAGE_TITLE : `${PAGE_TITLE} — ${active}`;
+  const title =
+    active === DEFAULT_LETTER ? PAGE_TITLE : `Glossary Terms Starting With ${active}`;
   const description =
     active === DEFAULT_LETTER
       ? PAGE_DESCRIPTION
-      : `Glossary terms beginning with ${active}. ${PAGE_DESCRIPTION}`;
+      : `The glossary defines the AI, automation, marketing, and accounting terms that start with ${active} in plain language for small businesses putting AI to work.`;
 
   return {
     title,
@@ -151,13 +98,13 @@ export async function generateMetadata({
       url: `${SITE_URL}${letterHref(active)}`,
       siteName: "Geek @ Your Spot LLC",
       locale: "en_US",
-      images: [{ url: LOGO_IMAGE }],
+      images: [SHARE_IMAGE],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | Geek @ Your Spot LLC`,
       description,
-      images: [LOGO_IMAGE],
+      images: [SHARE_IMAGE],
     },
   };
 }
@@ -174,6 +121,7 @@ export default async function GlossaryPage({
   const jsonLd: WithContext<DefinedTermSet> = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
+    "@id": GLOSSARY_SET_ID,
     name: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
     url: `${SITE_URL}${letterHref(active)}`,
@@ -197,7 +145,7 @@ export default async function GlossaryPage({
       />
       <GlossaryHeroSection
         title="Glossary"
-        summary="The AI, automation, marketing, and accounting terms that come up when a small business starts putting AI to work — defined in plain language."
+        summary="The AI, automation, marketing, and accounting terms that come up when a small business starts putting AI to work, defined in plain language."
       />
 
       <section className="container py-16 lg:py-24">

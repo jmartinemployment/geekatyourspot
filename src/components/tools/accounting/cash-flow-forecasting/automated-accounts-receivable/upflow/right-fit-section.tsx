@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Upflow is best suited for mid-sized and scaling companies, particularly those within the $10M–$500M revenue
@@ -23,7 +22,7 @@ export default function RightFitSection() {
         For companies ready to enhance their automated accounts receivable processes with Upflow, the next step
         involves assessing their current systems and identifying integration points. Geek @ Your Spot LLC, located in
         South Florida, specializes in implementing Upflow, ensuring seamless integration with
-        existing&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;or accounting systems. This local expertise
+        existing&nbsp;ERP&nbsp;or accounting systems. This local expertise
         is invaluable for businesses in Miami-Dade, Broward, and West Palm Beach counties looking to streamline
         their financial operations.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -33,7 +32,7 @@ export default function RightFitSection() {
         right fit for their accounts receivable automation needs.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-accounts-receivable-upflow-right-fit-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id={`tools-accounting-accounts-receivable-upflow-right-fit-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function RightFitSection() {
                 Who Benefits Most from Upflow and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -68,10 +67,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-benefits-most-from-upflow-and-what-to-do-next">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-benefits-most-from-upflow-and-what-to-do-next-lg">
                 Who Benefits Most from Upflow and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the Helm is particularly suited for small businesses that require a robust yet flexible solution
-        for&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>. Its
+        for&nbsp;cash flow forecasting. Its
         integration with popular accounting systems like QuickBooks, Xero, and Sage makes it an ideal choice for
         businesses already using these platforms. The tool&#39;s ability to provide real-time insights and
         automate tedious tasks can significantly reduce the workload for small finance teams, allowing them to
@@ -21,8 +20,8 @@ export default function RightFitSection() {
         For those considering Take the Helm, the next step is to evaluate how well it aligns with your current
         systems and processes. Geek @ Your Spot LLC can assist in this evaluation by providing a detailed analysis
         of your needs and how Take the Helm can be configured to meet them. This consultancy service is invaluable
-        for ensuring that the transition to automated&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;is as smooth and effective as possible.</p>
+        for ensuring that the transition to automated&nbsp;cash flow
+        forecasting&nbsp;is as smooth and effective as possible.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, Take the Helm offers a powerful combination of features and ease of use that makes it a strong
         contender for small businesses looking to automate their automated spreadsheet data management. By
@@ -31,7 +30,7 @@ export default function RightFitSection() {
         significant improvements in efficiency, accuracy, and financial insight.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;<Link
-        id="tools-accounting-spreadsheet-data-takethehelm-right-fit-consultation"
+        id={`tools-accounting-spreadsheet-data-takethehelm-right-fit-consultation${idSuffix}`}
         href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking your free
         consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -58,7 +57,7 @@ export default function RightFitSection() {
                 Is Take the Helm Right for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -67,10 +66,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-takethehelm-right-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-takethehelm-right-for-your-business-lg">
                 Is Take the Helm Right for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

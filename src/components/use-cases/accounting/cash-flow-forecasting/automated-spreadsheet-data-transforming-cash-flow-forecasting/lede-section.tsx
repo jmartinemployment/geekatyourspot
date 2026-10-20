@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the example of Maria, a small business owner in Miami who starts every Monday morning by piecing
@@ -15,7 +15,7 @@ export default function LedeSection() {
         insights. Instead of spending hours on manual data entry and reconciliation, businesses can now access
         up-to-the-minute financial forecasts directly from their ledgers. This means Maria can see her cash runway
         clearly before making decisions that impact her business&#39;s future.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-spreadsheet-data-lede-blog-2" href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-spreadsheet-data-lede-blog-2${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> on our blog.</p>
     </>
   );
 
@@ -30,7 +30,7 @@ export default function LedeSection() {
                 Real-Time Clarity for Better Business Decisions
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -39,10 +39,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="real-time-clarity-for-better-business-decisions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="real-time-clarity-for-better-business-decisions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Real-Time Clarity for Better Business Decisions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

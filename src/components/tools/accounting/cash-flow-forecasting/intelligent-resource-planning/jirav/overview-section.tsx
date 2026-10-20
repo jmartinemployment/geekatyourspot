@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every owner of a growing South Florida business has seen what happens when numbers live in too many
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         records into the structure an&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system needs, often
         before you see any benefit from the software itself.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-accounting-intelligent-resource-planning-jirav-overview-intelligent-resource-planning" href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes this. By automating the flow of data from your accounting,
+        <Link id={`tools-accounting-intelligent-resource-planning-jirav-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes this. By automating the flow of data from your accounting,
         payroll, and sales systems into one real-time platform, you get a single, always-current source of
         truth. Instead of patching together backward-looking reports, your team works from live numbers that
         update as the business moves. This means you can run accurate cash flow forecasts, model what-if
@@ -47,7 +47,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every week, small business owners find themselves tangled in a maze of manual payment processes. Take
@@ -12,8 +12,8 @@ export default function OverviewSection() {
         relationships and financial headaches. As her business grows, so does the stack of invoices, turning
         what was once a manageable task into a formidable burden.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This manual approach to&nbsp;<Link id="tools-accounting-payment-execution-avidxchange-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>&nbsp;is not only inefficient but costly. Each hour spent on
-        these tasks is an hour away from focusing on what truly matters—growing the business and delighting
+        This manual approach to&nbsp;<Link id={`tools-accounting-payment-execution-avidxchange-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>&nbsp;is not only inefficient but costly. Each hour spent on
+        these tasks is an hour away from focusing on what truly matters: growing the business and delighting
         customers. For many small businesses, the pressure of maintaining accurate and timely payments can
         feel overwhelming. The administrative load pulls owners and their teams away from strategic
         initiatives, stifling growth and innovation. It&#39;s a common story shared by countless businesses
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

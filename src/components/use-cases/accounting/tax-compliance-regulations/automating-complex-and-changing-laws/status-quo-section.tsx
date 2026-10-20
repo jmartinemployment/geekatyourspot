@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function StatusQuoSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Maintaining the status quo in&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;comes with significant costs, both tangible and intangible. The most
+        Maintaining the status quo in&nbsp;tax
+        compliance&nbsp;comes with significant costs, both tangible and intangible. The most
         immediate impact is on time. Business owners and their teams often find themselves dedicating countless
         hours to manual tax calculations, updates, and filings. This time could be better spent on strategic
         growth initiatives but is instead consumed by tedious compliance tasks.</p>
@@ -52,7 +51,7 @@ export default function StatusQuoSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-cost-of-maintaining-the-status-quo" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-cost-of-maintaining-the-status-quo-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Cost of Maintaining the Status Quo
               </h2>
               {body}

@@ -6,7 +6,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Invoiced is architected as an AI-native platform, designed to handle the entire invoice-to-cash cycle
         seamlessly. This architecture supports a single, unified system that integrates with
-        existing&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        existing&nbsp;ERP,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
         and accounting systems, eliminating the need for multiple disjointed modules. This integration ensures that
         data flows smoothly across platforms, reducing the need for manual data entry and minimizing errors.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -52,7 +52,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="invoiceds-architecture-and-integrations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="invoiceds-architecture-and-integrations-lg">
                 Invoiced&#39;s Architecture and Integrations
               </h2>
               {body}

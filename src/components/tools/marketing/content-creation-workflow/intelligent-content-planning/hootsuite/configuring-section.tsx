@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -32,7 +31,7 @@ export default function ConfiguringSection() {
         and who publishes. This is critical for small teams where one missed approval can mean a public
         mistake. Hootsuite keeps an audit trail of every action, so you always know who signed off and when.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="content-repurposing">Content repurposing</GlossaryLink>&nbsp;is also driven by
+        Content repurposing&nbsp;is also driven by
         configuration. Parliament, Hootsuite’s content curation tool, lets you pull in assets from blogs,
         videos, and past social posts, then refresh them for new campaigns. You can automate the process of
         turning a high-performing post into a series of platform-specific updates, or turn a blog post into a
@@ -42,8 +41,8 @@ export default function ConfiguringSection() {
         For those who need to extend Hootsuite beyond its built-in features, the platform supports
         integrations with tools like Slack and Microsoft Teams. This means your approval notifications,
         campaign alerts, and even employee advocacy workflows can show up where your team already works.
-        Hootsuite’s&nbsp;<GlossaryLink slug="model-context-protocol">Model Context
-        Protocol</GlossaryLink>&nbsp;(MCP) is the extension mechanism for connecting external AI assistants or
+        Hootsuite’s&nbsp;Model Context
+        Protocol&nbsp;(MCP) is the extension mechanism for connecting external AI assistants or
         applications to your workspace. With MCP, you can let compatible AI tools plan campaigns, review
         calendars, generate posts, and manage publishing schedules inside Hootsuite, without needing to write
         code. For most small businesses, this is as far as you need to go: Hootsuite is a configuration-first
@@ -84,7 +83,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-hootsuite-rules-automation-and-extending-the-platform" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-hootsuite-rules-automation-and-extending-the-platform-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Hootsuite: Rules, Automation, and Extending the Platform
               </h2>
               {body}

@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Getting QuickBooks up and running for intelligent resource planning is not the same as deploying a
-        monolithic&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>. The difference starts with the scope. Most
+        monolithic&nbsp;ERP. The difference starts with the scope. Most
         small businesses in Miami-Dade, Broward, and West Palm Beach come in with a patchwork of spreadsheets, a
         desktop accounting file, and scattered payroll or inventory apps. QuickBooks is built to take that
         environment and centralize it without months of custom code or process reengineering. The go-live
@@ -21,7 +20,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Pre-built connectors do the heavy lifting here. For most banks, payroll providers, and even some legacy
         desktop accounting tools, QuickBooks offers direct import tools
-        and&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;connections. The result: transactions flow
+        and&nbsp;API&nbsp;connections. The result: transactions flow
         into the new system without manual re-entry. During the onboarding window, the system can pull in months
         (or years) of historical transactions, so financial history is preserved and reporting starts with a
         full ledger. This is especially relevant for businesses that need to show year-over-year trends or
@@ -29,9 +28,9 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Phased rollout is another key to a painless go-live. QuickBooks allows the business to bring on modules
         and users in stages. For example, the accounting team can start with core bookkeeping
-        and&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>, then layer in
+        and&nbsp;cash flow forecasting, then layer in
         inventory management, approvals, or payroll as each area is ready. This avoids the &#39;all-at-once&#39;
-        disruption of many&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;deployments, where every
+        disruption of many&nbsp;ERP&nbsp;deployments, where every
         process must change on day one. Staff can be trained in waves, and the business can keep running on its
         old setup for non-migrated functions until the new system is proven.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -77,7 +76,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-actually-gets-quickbooks-live-in-a-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-actually-gets-quickbooks-live-in-a-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Actually Gets QuickBooks Live in a Small Business Environment
               </h2>
               {body}

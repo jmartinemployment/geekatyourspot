@@ -6,13 +6,13 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Zamp&#39;s architecture is designed to seamlessly integrate with a wide range of platforms, providing a
         comprehensive solution
-        for&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;across different sales channels. Its robust integration capabilities
+        for&nbsp;tax
+        compliance&nbsp;across different sales channels. Its robust integration capabilities
         ensure that businesses can easily connect their existing systems to Zamp, enabling smooth data flow and
         accurate tax reporting.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the key features of Zamp is its ability to integrate with major e-commerce
-        and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;platforms
+        and&nbsp;ERP&nbsp;platforms
         like Shopify, NetSuite, and QuickBooks. These integrations allow Zamp to automatically ingest
         transaction data, ensuring that all sales are accounted for and that tax obligations are accurately
         calculated. This connectivity streamlines the compliance process, reducing the manual work required by
@@ -63,7 +63,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="zamp-s-architecture-and-integrations-what-it-connects-to" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="zamp-s-architecture-and-integrations-what-it-connects-to-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Zamp&#39;s Architecture and Integrations: What It Connects To
               </h2>
               {body}

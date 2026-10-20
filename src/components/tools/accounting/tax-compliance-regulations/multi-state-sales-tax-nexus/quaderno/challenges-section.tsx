@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida run into Multi-State Sales Tax Nexus before they are ready.
-        A&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;founder in Miami-Dade lands a customer in
+        A&nbsp;SaaS&nbsp;founder in Miami-Dade lands a customer in
         Texas, then another in New York, and the numbers look good, until the Friday afternoon scramble to check
         if the business has crossed a sales tax threshold somewhere new. This is not a hypothetical. Crossing
         $100,000 in revenue or 200 transactions in a state is the point where sales tax collection becomes
@@ -24,7 +23,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         Manual processes break in several ways. First, there is digital product confusion. Many teams do not
         realize that something as simple as
-        a&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;subscription can be taxable in one state and
+        a&nbsp;SaaS&nbsp;subscription can be taxable in one state and
         not in another. This leads to invoices that are wrong from the start. Second, there is the problem of
         over-collecting tax. Out of caution, a business might charge the local South Florida rate to every
         customer, even those who should pay less or nothing in their own state. This not only frustrates
@@ -69,7 +68,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing This by Hand
               </h2>
               {body}

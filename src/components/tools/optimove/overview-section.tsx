@@ -39,7 +39,7 @@ export default function OverviewToolSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview</h2>
-              <p className="text-md text-white shadow-text pt-3">Optimove is a powerful tool designed to enhance automated&nbsp;<Link id="tools-marketing-optimove-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>&nbsp;by leveraging AI-driven insights and&nbsp;<GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms. It is tailored for businesses seeking to maximize their marketing&nbsp;<GlossaryLink slug="kpi">ROI</GlossaryLink> by making&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. Optimove helps in dynamically adjusting ad campaigns to ensure that advertising budgets are
+              <p className="text-md text-white shadow-text pt-3">Optimove is a powerful tool designed to enhance automated&nbsp;<Link id="tools-marketing-optimove-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>&nbsp;by leveraging AI-driven insights and&nbsp;<GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms. It is tailored for businesses seeking to maximize their marketing&nbsp;<GlossaryLink slug="kpi">ROI</GlossaryLink> by making&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions. Optimove helps in dynamically adjusting ad campaigns to ensure that advertising budgets are
                 spent efficiently, targeting the right audience at the right time.</p>
               <p className="text-md text-white shadow-text pt-3">In today&#39;s competitive market, businesses often struggle with inefficient ad spend, leading to wasted resources
                 and missed opportunities. Optimove addresses these challenges by providing a comprehensive solution that minimizes
@@ -52,7 +52,7 @@ export default function OverviewToolSection() {
                 results in higher&nbsp;<GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>, reduced costs, and ultimately, improved customer satisfaction.</p>
               <p className="text-md text-white shadow-text pt-3">Unlike traditional ad management tools, Optimove continuously learns and adapts to changing market conditions,
                 ensuring that businesses can maintain a competitive edge. Its ability to provide actionable insights and automate
-                complex data analysis processes sets it apart from other solutions like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-optimove-overview-madgicx" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>. As a
+                complex data analysis processes sets it apart from other solutions like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-optimove-overview-madgicx-lg" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>. As a
                 result, businesses can focus more on strategic planning and less on the operational intricacies of ad management.</p>
             </div>
           </div>

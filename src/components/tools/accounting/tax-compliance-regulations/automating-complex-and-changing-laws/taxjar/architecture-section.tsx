@@ -1,13 +1,12 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar&#39;s architecture is designed to support seamless integration with various e-commerce
-        and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;platforms.
+        and&nbsp;ERP&nbsp;platforms.
         This is achieved through a
-        robust&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;that
+        robust&nbsp;API&nbsp;that
         connects with systems like Shopify, Salesforce, and QuickBooks. These integrations are tested and
         certified for quality, ensuring reliable performance and accurate data exchange.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -30,8 +29,8 @@ export default function ArchitectureSection() {
         of regulatory changes.</p>
       <p className="text-md text-white shadow-text pt-3">
         Overall, TaxJar&#39;s architecture is built to provide a seamless, reliable, and
-        secure&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;solution for small businesses. By integrating with existing systems and
+        secure&nbsp;tax
+        compliance&nbsp;solution for small businesses. By integrating with existing systems and
         offering comprehensive data management, TaxJar simplifies the complexities of tax compliance, allowing
         businesses to focus on growth.</p>
     </>
@@ -57,7 +56,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="taxjar-s-architecture-integrations-and-data-management" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="taxjar-s-architecture-integrations-and-data-management-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 TaxJar&#39;s Architecture: Integrations and Data Management
               </h2>
               {body}

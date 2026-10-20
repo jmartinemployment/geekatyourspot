@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        In South Florida, navigating the intricacies of&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;can feel like walking a tightrope. Businesses face a multitude of
+        In South Florida, navigating the intricacies of&nbsp;tax
+        compliance&nbsp;can feel like walking a tightrope. Businesses face a multitude of
         challenges, from managing sales tax across different jurisdictions to dealing with complex regulatory
-        notices. One primary issue is the miscalculation of&nbsp;<Link id="use-cases-accounting-complex-changing-laws-challenges-multi-state-sales-tax-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">economic nexus</Link>&nbsp;thresholds. As businesses expand,
+        notices. One primary issue is the miscalculation of&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-challenges-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">economic nexus</Link>&nbsp;thresholds. As businesses expand,
         particularly in e-commerce, it&#39;s easy to overlook when sales activities cross state lines,
         triggering new tax obligations. This oversight can lead to unexpected liabilities and potential audits.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -46,7 +45,7 @@ export default function ChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +53,10 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-real-problems-in-tax-compliance-today" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-real-problems-in-tax-compliance-today-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Real Problems in Tax Compliance Today
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

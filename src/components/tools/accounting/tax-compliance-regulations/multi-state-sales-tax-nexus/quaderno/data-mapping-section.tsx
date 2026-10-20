@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -19,9 +18,9 @@ export default function DataMappingSection() {
         where most DIY setups fail: the data is not granular enough for the compliance engine to do its job.</p>
       <p className="text-md text-white shadow-text pt-3">
         Product mapping is the next critical step. States differ wildly in how they tax digital
-        products,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>, physical goods, or services. Quaderno lets
+        products,&nbsp;SaaS, physical goods, or services. Quaderno lets
         you assign tax codes to each product type, so sales of a
-        Florida-exempt&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;subscription are not taxed
+        Florida-exempt&nbsp;SaaS&nbsp;subscription are not taxed
         incorrectly in Texas, and vice versa. For businesses selling a mix of goods, physical, digital,
         services, this mapping is what prevents both over-collection (charging tax where it is not due) and
         under-collection (missing tax where it is required). The system supports multiple tax codes per product
@@ -36,7 +35,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Historical data import is another upfront decision point. If you are coming to Quaderno mid-year or
         after crossing a nexus threshold, you need to import past sales to get a true compliance picture. The
-        platform can ingest historical transactions via&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or
+        platform can ingest historical transactions via&nbsp;API&nbsp;or
         CSV, but the same mapping rules apply: each record must carry the right fields (date, product, customer
         location, payment method) for Quaderno to back-calculate exposure and generate accurate audit trails.
         This is especially important for businesses that discover they crossed a threshold months ago and need
@@ -53,7 +52,7 @@ export default function DataMappingSection() {
         feeding tax-compliant data directly into your general ledger. Here, the mapping ensures that invoice
         records, payments, and tax liabilities flow into the right accounts, no manual reconciliation or risk of
         duplicating transactions. This is what lets a small finance team handle
-        multi-state&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;without adding
+        multi-state&nbsp;tax compliance&nbsp;without adding
         headcount or running into end-of-month chaos.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short, the upfront data structure and mapping decisions, transaction detail, product codes, customer
@@ -84,7 +83,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-data-structure-and-mapping-choices-that-matter-when-deploying-quaderno" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-data-structure-and-mapping-choices-that-matter-when-deploying-quaderno-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data Structure and Mapping Choices That Matter When Deploying Quaderno
               </h2>
               {body}

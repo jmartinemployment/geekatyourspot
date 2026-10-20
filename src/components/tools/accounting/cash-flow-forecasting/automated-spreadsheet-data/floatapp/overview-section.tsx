@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Consider a small retail store owner like Maria, sitting at her desk in the heart of Miami&#39;s bustling
@@ -16,7 +16,7 @@ export default function OverviewSection() {
         available liquidity.</p>
       <p className="text-md text-white shadow-text pt-3">
         This disconnect can result in strained supplier relationships, missed payroll, and stunted growth
-        opportunities. The reliance on manual&nbsp;<Link id="tools-accounting-spreadsheet-data-floatapp-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;exacerbates the issue, as outdated figures and human
+        opportunities. The reliance on manual&nbsp;<Link id={`tools-accounting-spreadsheet-data-floatapp-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;exacerbates the issue, as outdated figures and human
         errors creep into the forecasting process. Each week, Maria spends hours manually updating her cash flow
         projections, only to find them misaligned with reality. The tedious task of re-keying data, combined with
         the risk of formula errors, leaves her frustrated and financially exposed. It&#39;s a cycle of uncertainty
@@ -34,7 +34,7 @@ export default function OverviewSection() {
         empower business owners to move beyond reactive financial management. Maria can now predict cash flow
         challenges before they arise, plan for growth with confidence, and ensure her financial decisions are
         grounded in reality, not optimism. For small businesses across the region, embracing automation in cash flow
-        forecasting is not just a convenience—it&#39;s a necessity for sustainable success.</p>
+        forecasting is not just a convenience. It&#39;s a necessity for sustainable success.</p>
     </>
   );
 
@@ -49,7 +49,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

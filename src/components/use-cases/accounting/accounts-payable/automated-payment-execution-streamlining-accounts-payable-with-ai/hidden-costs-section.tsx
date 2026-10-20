@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 export default function HiddenCostsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        For many small businesses, the manual handling of&nbsp;<Link id="use-cases-accounting-payment-execution-hidden-costs-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;(AP) remains a significant burden.
+        For many small businesses, the manual handling of&nbsp;<Link id={`use-cases-accounting-payment-execution-hidden-costs-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;(AP) remains a significant burden.
         The process is often riddled with inefficiencies that lead to costly errors and delays. These issues
         are not just minor annoyances; they can significantly impact a business&#39;s bottom line.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -46,7 +46,7 @@ export default function HiddenCostsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function HiddenCostsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-hidden-costs-of-manual-accounts-payable-processes" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-hidden-costs-of-manual-accounts-payable-processes-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Hidden Costs of Manual Accounts Payable Processes
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Zamp is ideally suited for small businesses in Miami-Dade, Broward, and West Palm Beach counties that
-        are grappling with the complexities of multi-state&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>. Its managed service model is perfect for businesses that lack the resources
+        are grappling with the complexities of multi-state&nbsp;tax
+        compliance. Its managed service model is perfect for businesses that lack the resources
         to maintain an in-house tax team or those that find themselves overwhelmed by the ever-changing tax
         laws.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -30,7 +29,7 @@ export default function RightFitSection() {
         tailored to meet specific business needs, offering a seamless integration with existing systems.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-complex-changing-laws-zamp-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-complex-changing-laws-zamp-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
@@ -54,7 +53,7 @@ export default function RightFitSection() {
                 Who Should Choose Zamp and Next Steps
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -63,10 +62,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-should-choose-zamp-and-next-steps" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-should-choose-zamp-and-next-steps-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Should Choose Zamp and Next Steps
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In small businesses across West Palm Beach, Broward, and Miami-Dade counties, business owners often
@@ -15,7 +15,7 @@ export default function OverviewSection() {
         growth and customer engagement. The manual approach to managing payments, while familiar, is fraught
         with inefficiencies that stifle productivity.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-payment-execution-bill-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;offers a way out of this cycle, transforming how small businesses handle
+        Automated&nbsp;<Link id={`tools-accounting-payment-execution-bill-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;offers a way out of this cycle, transforming how small businesses handle
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>. By integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven solutions into their financial processes, businesses
         can streamline payment approvals, reduce manual entry, and enhance accuracy. This shift not only
@@ -49,7 +49,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

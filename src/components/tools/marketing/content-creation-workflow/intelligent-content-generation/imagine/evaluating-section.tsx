@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -56,7 +55,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, judge Imagine by how well it fits into your existing stack. If you already use Shopify,
         Google Analytics, or
-        a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, check
+        a&nbsp;CRM, check
         whether Imagine can connect directly or whether you will need to bridge the gap manually. For most
         small businesses, the real win is in the workflow automation and brand governance, not in deep
         technical integrations. But if integration is a must, talk to Geek @ Your Spot LLC about what is possible
@@ -90,7 +89,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-imagine-on-fit-and-pricing-for-your-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-imagine-on-fit-and-pricing-for-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Imagine on Fit and Pricing for Your Business
               </h2>
               {body}

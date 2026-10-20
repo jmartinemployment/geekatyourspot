@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -10,7 +9,7 @@ export default function ComparingSection() {
         like QuickBooks and NetSuite, ensuring real-time data synchronization and reducing manual data entry. This
         capability is crucial for businesses looking to streamline operations and improve cash flow.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Invoiced&#39;s&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven
+        Invoiced&#39;s&nbsp;AI-driven
         features, such as CashMatch AI and Smart Chasing, provide a significant edge. These tools automate payment
         matching and follow-up processes, reducing the days sales outstanding (DSO) by an average of 14 days. This
         improvement in cash flow management is particularly beneficial for businesses that struggle with delayed
@@ -52,7 +51,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-compares-to-other-automated-accounts-receivable-solutions">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-compares-to-other-automated-accounts-receivable-solutions-lg">
                 How Invoiced Compares to Other Automated Accounts Receivable Solutions
               </h2>
               {body}

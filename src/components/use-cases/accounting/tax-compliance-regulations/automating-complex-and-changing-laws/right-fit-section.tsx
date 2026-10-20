@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Implementing&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;automation in your South Florida business can be a game-changer, but it
+        Implementing&nbsp;tax
+        compliance&nbsp;automation in your South Florida business can be a game-changer, but it
         is not always the right move for everyone. Automation is ideal for businesses with complex tax
         obligations across multiple jurisdictions, like those frequently crossing county lines in Miami-Dade,
         Broward, and Palm Beach. These businesses face a high risk of errors and penalties due to the intricate
@@ -56,7 +55,7 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-to-choose-tax-compliance-automation-and-when-to-avoid-it" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-to-choose-tax-compliance-automation-and-when-to-avoid-it-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Choose Tax Compliance Automation and When to Avoid It
               </h2>
               {body}

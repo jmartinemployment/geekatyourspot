@@ -77,7 +77,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-semrush-rules-automation-and-extensions-that-make-it-work-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-semrush-rules-automation-and-extensions-that-make-it-work-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Semrush: Rules, Automation, and Extensions That Make It Work for Small Teams
               </h2>
               {body}

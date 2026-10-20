@@ -64,7 +64,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="why-content-planning-fails-small-teams-where-the-workflow-breaks-down" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-content-planning-fails-small-teams-where-the-workflow-breaks-down-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Content Planning Fails Small Teams: Where the Workflow Breaks Down
               </h2>
               {body}

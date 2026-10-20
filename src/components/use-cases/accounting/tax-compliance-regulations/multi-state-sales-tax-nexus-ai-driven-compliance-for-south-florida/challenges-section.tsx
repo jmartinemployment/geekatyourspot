@@ -2,14 +2,14 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The reality of multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>&nbsp;is that most small businesses hit the wall sooner than they expect. The
         triggers for economic nexus, crossing $100,000 in sales or 200 transactions in a state, are not hard to
         reach in an online-driven market. But the complexity comes not from the thresholds themselves, but from
-        the way current workflows break down at scale. Running&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-challenges-tax-compliance" href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">tax compliance</Link>&nbsp;by hand, or relying on basic
+        the way current workflows break down at scale. Running&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-challenges-tax-compliance${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">tax compliance</Link>&nbsp;by hand, or relying on basic
         tools, leaves critical gaps that stack up until something breaks.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first major failure is the blind spot around transaction counts. Many owners think only revenue
@@ -70,7 +70,7 @@ export default function ChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -78,10 +78,10 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="why-multi-state-sales-tax-goes-off-the-rails-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-multi-state-sales-tax-goes-off-the-rails-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Multi-State Sales Tax Goes Off the Rails for Small Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

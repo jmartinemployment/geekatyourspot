@@ -8,14 +8,14 @@ export default function DataIntegrationSection() {
         inconsistent, or siloed. The reality for most small teams in West Palm Beach or Miami-Dade is that
         information lives everywhere, Google Sheets, email
         threads,&nbsp;<GlossaryLink slug="marketing-automation">marketing
-        automation</GlossaryLink>,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and random notes. When
+        automation</GlossaryLink>,&nbsp;CRM, and random notes. When
         the time comes to automate planning or content creation, this scattered data is the first roadblock.
         Before you can automate anything, you need a clear map of what data matters, where it lives, and how
         clean it is. That is not a technicality, it is the difference between a system that saves you time and
         one that breaks on day one.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Geek @ Your Spot LLC’s own approach starts with a focused&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;assessment. It is not about buying a new platform and hoping it fits. We
+        Geek @ Your Spot LLC’s own approach starts with a focused&nbsp;data
+        quality&nbsp;assessment. It is not about buying a new platform and hoping it fits. We
         look at every key source: What topics have you published? What has the team tried before? Which posts,
         emails, and campaigns are actually driving leads or sales? Data must be accurate, up to date, and
         structured. For a small business, that often means pulling together years of posts, social updates,
@@ -26,7 +26,7 @@ export default function DataIntegrationSection() {
         Integration is not just a technical checklist for IT, it is the backbone of a working content planning
         system. The tools you use every day need to talk to each other. When HyperWrite is added, its
         browser-based assistant must be able to access the live context of
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, your content calendar, and your past campaigns,
+        your&nbsp;CRM, your content calendar, and your past campaigns,
         not just the text field in Gmail. If you are using MarketMuse, the platform only delivers its full
         value when it can scan your entire site, audit your historical content, and pull in competitor data.
         Without this integration, you are left with a dashboard that tells you nothing new.</p>
@@ -46,7 +46,7 @@ export default function DataIntegrationSection() {
         what needs to be cleaned up before rollout. Geek @ Your Spot LLC’s method always puts this phase before
         any tool selection, if your data is a mess, no AI workflow will save you. The best implementations
         start with a few core integrations, your CMS, your
-        main&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and your scheduling platform, then expand as
+        main&nbsp;CRM, and your scheduling platform, then expand as
         the team’s process matures. Anything else is a recipe for more chaos, not less.</p>
       <p className="text-md text-white shadow-text pt-3">
         In a real environment, this means spending that extra week up front to get your data house in order.
@@ -78,7 +78,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-data-and-integration-must-be-in-place-before-intelligent-content-planning-works" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-and-integration-must-be-in-place-before-intelligent-content-planning-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data and Integration Must Be in Place Before Intelligent Content Planning Works
               </h2>
               {body}

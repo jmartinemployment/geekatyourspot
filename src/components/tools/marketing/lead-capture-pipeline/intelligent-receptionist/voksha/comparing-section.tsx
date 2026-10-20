@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -50,7 +49,7 @@ export default function ComparingSection() {
         fewer distractions, less training, and a faster setup. For businesses that need a straightforward,
         reliable way to catch every call and never lose a lead to voicemail, Voksha is a fit. For those who want
         a highly customized, multi-channel engagement platform or
-        deep&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;integrations
+        deep&nbsp;CRM&nbsp;integrations
         out of the box, another solution may be more suitable.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real-world difference shows up on a Friday afternoon when the owner is finishing up the week’s
@@ -81,7 +80,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-voksha-compares-to-traditional-receptionist-services-and-other-ai-platforms" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-voksha-compares-to-traditional-receptionist-services-and-other-ai-platforms-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Voksha Compares to Traditional Receptionist Services and Other AI Platforms
               </h2>
               {body}

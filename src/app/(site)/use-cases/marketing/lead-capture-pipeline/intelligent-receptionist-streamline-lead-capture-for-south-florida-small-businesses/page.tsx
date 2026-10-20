@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/i
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Receptionist";
 const DESCRIPTION =
     "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/intelligent-receptionist`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-15T19:43:46.5005360Z",
             "dateModified": "2026-10-15T19:43:46.5005360Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Receptionist, Lead Capture Pipeline, AI receptionist, South Florida small business, Miami-Dade AI automation, Broward business automation, West Palm Beach lead capture, Smart chatbots for marketing, Lead scoring AI, Voice assistant automation",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/lobbystack#software` },
-                { "@id": `${TOOLS_BASE}/myaifrontdesk#software` },
-                { "@id": `${TOOLS_BASE}/nextiva#software` },
-                { "@id": `${TOOLS_BASE}/smith#software` },
-                { "@id": `${TOOLS_BASE}/voksha#software` }
+                { "@id": "https://geekatyourspot.com/#software-lobbystack" },
+                { "@id": "https://geekatyourspot.com/#software-my-ai-front-desk" },
+                { "@id": "https://geekatyourspot.com/#software-nextiva" },
+                { "@id": "https://geekatyourspot.com/#software-smith-ai" },
+                { "@id": "https://geekatyourspot.com/#software-voksha" }
             ]
         },
         {
@@ -60,7 +58,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "What happens when a call genuinely needs a human, and how fast does the handoff happen?", "acceptedAnswer": {"@type": "Answer", "text": "The AI system includes a built-in escalation process. You or your consultant can set rules for when a human needs to step in, such as if the caller is upset, asks for a manager, or uses a key emergency word. When this happens, the platform either transfers the call live or sends you an instant SMS with a summary, so you can pick up right where the AI left off."}},
                 {"@type": "Question", "name": "Do I need to buy new hardware, install new phone lines, or switch my business phone number?", "acceptedAnswer": {"@type": "Answer", "text": "No extra equipment or phone lines are needed. The setup uses cloud-based call forwarding. You keep your current business number. When your line is busy, not answered after a few rings, or off-hours, calls are automatically routed to the AI receptionist using a secure background number."}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -81,14 +80,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

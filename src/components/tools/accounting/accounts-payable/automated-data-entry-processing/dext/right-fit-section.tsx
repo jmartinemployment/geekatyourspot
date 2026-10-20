@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Dext is particularly suited for small to medium-sized businesses that are ready to embrace AI-driven
@@ -22,7 +22,7 @@ export default function RightFitSection() {
         that you leverage the platform&#39;s capabilities to their fullest.</p>
       <p className="text-md text-white shadow-text pt-3">
         To explore how Dext can transform your accounting processes,&nbsp;
-        <Link id="tools-accounting-dext-right-fit-consultation"
+        <Link id={`tools-accounting-dext-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           book a consultation
         </Link>&nbsp;with Geek @ Your Spot LLC today.</p>
@@ -40,7 +40,7 @@ export default function RightFitSection() {
                 Is Dext the Right Fit for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -49,10 +49,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-dext-the-right-fit-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-dext-the-right-fit-for-your-business-lg">
                 Is Dext the Right Fit for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

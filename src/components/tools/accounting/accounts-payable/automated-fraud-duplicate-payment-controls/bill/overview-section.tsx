@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every month, small business owners across Miami-Dade, Broward, and West Palm Beach counties watch
@@ -14,10 +14,10 @@ export default function OverviewSection() {
         story: overworked staff, mounting frustration, and financial reports that never quite add up, all of
         which distract from the real business of serving customers and growing revenue.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where Automated&nbsp;<Link id="tools-accounting-fraud-controls-bill-overview-fraud-controls" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
+        This is where Automated&nbsp;<Link id={`tools-accounting-fraud-controls-bill-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
         systems, businesses can automate the tedious task of invoice management, significantly reducing the
         chance of duplicates and fraudulent transactions. Solutions like those offered by&nbsp;
-        <a id="tools-accounting-fraud-controls-bill-overview-bill"
+        <a id={`tools-accounting-fraud-controls-bill-overview-bill${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           BILL
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

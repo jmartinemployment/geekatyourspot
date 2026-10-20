@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">Mailchimp is a leading platform in the realm of email <Link id="tools-marketing-mailchimp-overview-ai-marketing-systems" href="/use-cases/marketing/ai-marketing-systems" className="text-[#C83803] hover:underline">marketing automation</Link>, designed to help businesses of all
+      <p className="text-md text-white shadow-text pt-3">Mailchimp is a leading platform in the realm of email <Link id={`tools-marketing-mailchimp-overview-ai-marketing-systems${idSuffix}`} href="/use-cases/marketing/ai-marketing-systems" className="text-[#C83803] hover:underline">marketing automation</Link>, designed to help businesses of all
         sizes enhance their marketing efforts. It offers a comprehensive suite of tools that enable users to create,
         execute, and analyze email marketing campaigns effectively. With Mailchimp, businesses can streamline their outreach
         processes, making it easier to connect with their audience and increase engagement.</p>
@@ -34,7 +34,7 @@ export default function OverviewToolSection() {
               </h2>
             </div>
             <div className="col-span-12">
-              {body}
+              {body()}
             </div>
           </div>
         </div>
@@ -44,10 +44,10 @@ export default function OverviewToolSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

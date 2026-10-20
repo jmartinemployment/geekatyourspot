@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture a small sales team in Miami-Dade, working the phones from a cramped office, list of prospects
@@ -17,7 +17,7 @@ export default function OverviewSection() {
         prospects, people who have shown genuine interest. But without a way to capture or enrich that data,
         98% of those warm leads leave without ever raising a hand, and you never know who they were.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-lead-enrichment-lusha-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;exist for this exact bottleneck. Instead of pouring 80% of your
+        <Link id={`tools-marketing-lead-enrichment-lusha-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;exist for this exact bottleneck. Instead of pouring 80% of your
         energy into dead ends, the right pipeline brings verified contact data, buying signals, and scoring
         models straight into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or outreach workflow.
         Now the team spends its time talking to people who actually have the authority and intent to buy.
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

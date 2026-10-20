@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -23,7 +22,7 @@ export default function ConfiguringSection() {
         are never overlooked.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bill&#39;s extension mechanism further enhances its configurability. While it does not offer a
-        traditional&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, it provides integration
+        traditional&nbsp;API&nbsp;or SDK, it provides integration
         capabilities with popular accounting software such as QuickBooks, Xero, and Oracle NetSuite. This means
         businesses can seamlessly sync their financial data across platforms, ensuring consistency and accuracy.
         Geek @ Your Spot LLC specializes in setting up these integrations, ensuring that Bill works smoothly within your
@@ -56,7 +55,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-approval-chains-and-automation-in-bill">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-approval-chains-and-automation-in-bill-lg">
                 Configuring Approval Chains and Automation in Bill
               </h2>
               {body}

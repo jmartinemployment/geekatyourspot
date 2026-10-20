@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -8,11 +7,11 @@ export default function EvaluatingSection() {
         Miami-Dade, Broward, and West Palm Beach counties should focus on how the platform aligns with their
         specific needs. Medius offers a comprehensive solution that integrates seamlessly with existing
         systems, making it a strong contender for businesses seeking to enhance their&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes.</p>
+        accounts payable&nbsp;processes.</p>
       <p className="text-md text-white shadow-text pt-3">
         Medius excels in identifying and preventing invoice fraud through advanced&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
-        <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>. These technologies analyze
+        AI&nbsp;and&nbsp;
+        machine learning. These technologies analyze
         large volumes of data in real-time, spotting patterns and anomalies that might indicate fraudulent
         activity. This capability is crucial for businesses looking to protect their financial assets from
         sophisticated cyber threats. The platform continuously learns from new data, improving its detection
@@ -25,7 +24,7 @@ export default function EvaluatingSection() {
         transaction volume.</p>
       <p className="text-md text-white shadow-text pt-3">
         When evaluating Medius, businesses should also consider the platform&#39;s integration capabilities.
-        Medius is designed to work with existing&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems,
+        Medius is designed to work with existing&nbsp;ERP&nbsp;systems,
         reducing the need for extensive overhauls or disruptions to current workflows. This integration
         ensures that businesses can implement Automated Fraud &amp; Duplicate Payment Controls without
         significant downtime or additional infrastructure costs.</p>
@@ -61,7 +60,7 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-medius-for-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-medius-for-automated-fraud-duplicate-payment-controls-lg">
                 Evaluating Medius for Automated Fraud &amp; Duplicate Payment Controls
               </h2>
               {body}

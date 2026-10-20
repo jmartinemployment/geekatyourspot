@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the example of Jane, the owner of a small but growing business in West Palm Beach, who finds
@@ -12,7 +12,8 @@ export default function LedeSection() {
         the risk of errors that could cost her business thousands. Jane knows there must be a better way to
         handle this tedious task.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated approval workflows offer a solution by streamlining the process, ensuring invoices are
+        An invoice approval workflow is the set of rules that sends each invoice to the right people for
+        sign-off before it is paid. Automated approval workflows offer a solution by streamlining the process, ensuring invoices are
         automatically captured, checked, and routed to the appropriate decision-makers without the
         bottlenecks or errors that plague manual methods. This page explores how small businesses like
         Jane&#39;s can leverage this <GlossaryLink slug="ai">AI</GlossaryLink>-powered approach to boost
@@ -21,7 +22,7 @@ export default function LedeSection() {
         operation.</p>
       <p className="text-md text-white shadow-text pt-3">
         In the fast-paced world of small business, every minute counts. Yet, many companies find themselves
-        stuck in outdated&nbsp;<Link id="use-cases-accounting-approval-workflows-lede-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;processes that are slow, error-prone, and costly. Manual data entry
+        stuck in outdated&nbsp;<Link id={`use-cases-accounting-approval-workflows-lede-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;processes that are slow, error-prone, and costly. Manual data entry
         and approval bottlenecks can lead to delayed payments, strained vendor relationships, and even
         financial inaccuracies. This is where automated approval workflows come in, promising to revolutionize
         how businesses handle their accounts payable.</p>
@@ -53,7 +54,7 @@ export default function LedeSection() {
         per-user pricing and potential savings in time and labor, should also factor into the decision-making
         process. By choosing the right solution, businesses can ensure a smooth transition to automated
         workflows that deliver tangible benefits.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-approval-workflows-lede-blog" href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">How Automated Approval Workflows Transform Accounts Payable</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-approval-workflows-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> on our blog.</p>
     </>
   );
 
@@ -68,7 +69,7 @@ export default function LedeSection() {
                 Transforming Accounts Payable with Automated Approval Workflows
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -77,10 +78,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="transforming-accounts-payable-with-automated-approval-workflows" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="transforming-accounts-payable-with-automated-approval-workflows-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Transforming Accounts Payable with Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

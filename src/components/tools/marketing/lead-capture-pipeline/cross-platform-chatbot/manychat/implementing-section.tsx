@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -30,7 +29,7 @@ export default function ImplementingSection() {
         first. Once those flows are running smoothly, add a second or third channel. Because Manychat’s
         automations are modular, you can expand without redoing earlier work. Each new channel brings its own
         set of triggers and templates, but the core logic, capture the lead, tag it, sync it to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or sheet, stays the same. This approach
+        your&nbsp;CRM&nbsp;or sheet, stays the same. This approach
         means you see results early and avoid overwhelming your team with a big-bang launch.</p>
       <p className="text-md text-white shadow-text pt-3">
         Manychat’s permission system lets you bring in multiple team members with role-based access. If your
@@ -77,7 +76,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-going-live-with-manychat-looks-like-for-a-small-business-team" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-going-live-with-manychat-looks-like-for-a-small-business-team-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Going Live With Manychat Looks Like for a Small Business Team
               </h2>
               {body}

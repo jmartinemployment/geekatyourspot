@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataIntegrationSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Before any Intelligent Content Generation system can deliver, the data has to be there, and it has to
@@ -13,8 +12,8 @@ export default function DataIntegrationSection() {
         are. If this step is skipped or rushed, every draft the AI produces will carry the same gaps and
         mistakes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The first phase of the Geek @ Your Spot LLC rollout is a&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;assessment. That means a methodical review: what data do you have, where
+        The first phase of the Geek @ Your Spot LLC rollout is a&nbsp;data
+        quality&nbsp;assessment. That means a methodical review: what data do you have, where
         does it live, what’s missing, what’s out of date, and what needs to be standardized? Even the most
         advanced tool, whether it’s Jasper, Koala, or Scalenut, cannot create credible, differentiated content
         if the data behind it is stale or fragmented. The point is not to create a perfect database, but to
@@ -31,7 +30,7 @@ export default function DataIntegrationSection() {
         otherwise, your promotions will go out of sync.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real challenge with integration is not technical setup. It’s mapping the business’s real workflow.
-        A retail shop in Miami Beach may have a point-of-sale system, a&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-data-integration-mailchimp" href="/tools/marketing/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link>&nbsp;list, and an Instagram
+        A retail shop in Miami Beach may have a point-of-sale system, a&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-data-integration-mailchimp${idSuffix}`} href="/tools/marketing/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link>&nbsp;list, and an Instagram
         account, but the data between them rarely matches. The implementation team’s job is to make sure the
         right fields talk to each other and that updates flow in both directions. When a new service is added
         to your booking platform, a system like Koala or Copy.ai should recognize it and pull it into the next
@@ -49,8 +48,8 @@ export default function DataIntegrationSection() {
         Scalenut can generate content that sounds like you and sells like you. Your blog posts answer the
         questions your sales team hears every week. Your emails reflect your real promotions and seasonal
         offers. Your Instagram captions reference actual events, not generic holidays. None of this happens by
-        accident. It takes a clear plan for&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;and integration, and it takes a team to make sure the system is always
+        accident. It takes a clear plan for&nbsp;data
+        quality&nbsp;and integration, and it takes a team to make sure the system is always
         learning from your business as it grows.</p>
     </>
   );
@@ -66,7 +65,7 @@ export default function DataIntegrationSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -74,10 +73,10 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-data-and-the-integration-a-real-environment-has-to-supply" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-data-and-the-integration-a-real-environment-has-to-supply-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data and the Integration a Real Environment Has to Supply
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

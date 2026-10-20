@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -38,12 +37,12 @@ export default function ImplementingSection() {
         immediate and does not interrupt live service. This flexibility is key for small businesses that need
         to react fast without breaking the system.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Integrations with your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, email marketing, or
+        Integrations with your&nbsp;CRM, email marketing, or
         e-commerce tools are handled through pre-built connectors. Tidio supports direct connections to
         platforms like HubSpot, Drip, Front, ActiveCampaign, and more. For most small businesses, this means
         lead data and conversation history flow into your sales pipeline without manual re-entry. Where a
         connector is not available, Tidio’s Flows can push data
-        via&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or into third-party tools with a few clicks.
+        via&nbsp;API&nbsp;or into third-party tools with a few clicks.
         This keeps your customer records up to date and avoids the mess of copy-paste.</p>
       <p className="text-md text-white shadow-text pt-3">
         The last piece is training and support. Tidio’s own documentation and the Geek @ Your Spot LLC team’s
@@ -56,7 +55,7 @@ export default function ImplementingSection() {
         In summary, going live with Tidio is not a one-size-fits-all project. The platform’s pre-built
         connectors, visual automation builder, and phased rollout model are what make it practical for small
         teams with limited resources. Each step, channel setup, knowledge import, flow activation,
-        and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integration, is designed to be as close to
+        and&nbsp;CRM&nbsp;integration, is designed to be as close to
         plug-and-play as possible. Most importantly, your team stays in control the whole time, able to adjust
         and improve without waiting on outside help.</p>
     </>
@@ -81,7 +80,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="rolling-out-tidio-what-actually-gets-you-live-and-what-speeds-it-up" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="rolling-out-tidio-what-actually-gets-you-live-and-what-speeds-it-up-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Rolling Out Tidio: What Actually Gets You Live and What Speeds It Up
               </h2>
               {body}

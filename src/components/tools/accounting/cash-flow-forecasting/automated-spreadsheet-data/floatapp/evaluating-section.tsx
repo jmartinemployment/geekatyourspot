@@ -1,13 +1,12 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Floatapp for your business, evaluating its fit and pricing model is crucial. Floatapp is
         designed for small businesses that need a
-        reliable&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;tool integrated with platforms like Xero and QuickBooks Online. Its
+        reliable&nbsp;cash
+        flow forecasting&nbsp;tool integrated with platforms like Xero and QuickBooks Online. Its
         suitability depends on your specific financial management needs and the complexity of your operations.</p>
       <p className="text-md text-white shadow-text pt-3">
         The fit of Floatapp largely hinges on your current accounting setup. If your business uses Xero or
@@ -16,7 +15,7 @@ export default function EvaluatingSection() {
         errors. However, if your accounting system is not supported, Floatapp may not be the right choice at this
         time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        As of October 20, 2026, Floatapp&#39;s&nbsp;<a id="tools-accounting-spreadsheet-data-floatapp-evaluating-pricing-source" href="https://floatapp.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Growth plan at $265 per
+        As of October 20, 2026, Floatapp&#39;s&nbsp;<a id={`tools-accounting-spreadsheet-data-floatapp-evaluating-pricing-source${idSuffix}`} href="https://floatapp.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Growth plan at $265 per
         month, or $215 per month billed annually, and the Scale plan at $389 per month, or $315 per month billed
         annually, with a 14-day free trial. It is important to consider the value it brings against its cost. For many businesses, the time saved and the reduction in errors
         justify the investment. Geek @ Your Spot LLC can help you assess whether Floatapp&#39;s capabilities align with
@@ -44,7 +43,7 @@ export default function EvaluatingSection() {
                 Evaluating Floatapp: Fit and Pricing Model
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -53,10 +52,10 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-floatapp-fit-and-pricing-model">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-floatapp-fit-and-pricing-model-lg">
                 Evaluating Floatapp: Fit and Pricing Model
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

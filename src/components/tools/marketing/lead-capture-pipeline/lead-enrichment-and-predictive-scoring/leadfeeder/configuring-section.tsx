@@ -29,7 +29,7 @@ export default function ConfiguringSection() {
         Leadfeeder can send an instant alert to your sales team via email or Slack. This is not just a
         notification. The alert can include enriched data: company name, industry, revenue band, and even
         recent news. For teams that want to go further, Leadfeeder’s automation can push these leads directly
-        into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;(like HubSpot, Salesforce, or
+        into your&nbsp;CRM&nbsp;(like HubSpot, Salesforce, or
         Pipedrive), automatically creating or updating records, tagging accounts, and assigning owners based
         on your rules.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -43,7 +43,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         For more advanced automation, Leadfeeder offers a suite of workflow tools. You can automate multi-step
         actions: for example, when a company surpasses a score threshold, Leadfeeder can tag the account,
-        trigger a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;task, and send a Slack message, all
+        trigger a&nbsp;CRM&nbsp;task, and send a Slack message, all
         without manual input. These automations can be as simple or as complex as your process requires. Teams
         that want to run targeted ad campaigns can use Leadfeeder’s integration to auto-refresh LinkedIn
         Matched Audiences or Google Ads based on live engagement data, ensuring your ad spend follows the
@@ -52,7 +52,7 @@ export default function ConfiguringSection() {
         Leadfeeder’s extension mechanism is robust for
         a&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;product aimed at small teams. Beyond its
         native integrations with major CRMs and Slack, Leadfeeder
-        provides&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;access for custom workflows. This means
+        provides&nbsp;API&nbsp;access for custom workflows. This means
         your developer (or Geek @ Your Spot LLC, as your implementation partner) can pull Leadfeeder data into
         other tools, sync it with your data warehouse, or even trigger proprietary automations. There’s also a
         browser plugin for identifying companies behind any website you visit, and an MCP server access point
@@ -61,10 +61,10 @@ export default function ConfiguringSection() {
         When Geek @ Your Spot LLC sets up Leadfeeder, the work is about mapping these rules and automations to
         your real-world process. That means working with your sales and marketing teams to define what a
         qualified lead looks like, setting up the right filters, and making sure alerts go to the right
-        people. It also means configuring&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;syncs so every
+        people. It also means configuring&nbsp;CRM&nbsp;syncs so every
         high-intent local account gets routed and tagged correctly, with no double entry. For teams with more
         complex needs, Geek @ Your Spot LLC can leverage
-        Leadfeeder’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;to build custom data flows or
+        Leadfeeder’s&nbsp;API&nbsp;to build custom data flows or
         reporting dashboards, but for most small businesses, the out-of-the-box automations are enough to
         eliminate manual lead triage and follow-up.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -96,7 +96,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-leadfeeder-rules-automation-and-extension-points" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-leadfeeder-rules-automation-and-extension-points-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Leadfeeder: Rules, Automation, and Extension Points
               </h2>
               {body}

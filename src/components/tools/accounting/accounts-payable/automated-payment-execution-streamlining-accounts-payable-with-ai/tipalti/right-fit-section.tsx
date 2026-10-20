@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tipalti is particularly well-suited for small businesses looking to streamline their Automated Payment
@@ -33,18 +33,18 @@ export default function RightFitSection() {
         growth.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-payment-execution-tipalti-right-fit-consultation"
+        <Link id={`tools-accounting-payment-execution-tipalti-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
-        <li>Where do bills arrive today—email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
+        <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
         <li>Who enters bills into QuickBooks, Xero, or your accounting system?</li>
         <li>Who decides whether a bill is valid and ready to pay?</li>
         <li>Who can actually release money from the bank account?</li>
         <li>How many vendor bills or payments do you process in a typical month?</li>
-        <li>How are most vendors paid today—check, ACH, bank transfer, card, wire, or a mix?</li>
+        <li>How are most vendors paid today: check, ACH, bank transfer, card, wire, or a mix?</li>
         <li>How often do you run payments: daily, weekly, twice monthly, or only when someone says a bill is urgent?</li>
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
@@ -63,7 +63,7 @@ export default function RightFitSection() {
                 Is Tipalti Right for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-tipalti-right-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-tipalti-right-for-your-business-lg">
                 Is Tipalti Right for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

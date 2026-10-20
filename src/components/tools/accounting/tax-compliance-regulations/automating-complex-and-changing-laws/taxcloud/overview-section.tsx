@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Imagine running a bustling online store in Miami, with sales skyrocketing beyond Florida&#39;s borders.
@@ -16,7 +16,7 @@ export default function OverviewSection() {
         managing&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;across states. Each
         jurisdiction not only has its own set of rules, but these rules are in constant flux. Missing a single
         update can lead to penalties or audits, putting your hard-earned profits at risk. For small businesses
-        in South Florida, the challenge of navigating these&nbsp;<Link id="tools-accounting-complex-changing-laws-taxcloud-overview-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;without automated support
+        in South Florida, the challenge of navigating these&nbsp;<Link id={`tools-accounting-complex-changing-laws-taxcloud-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;without automated support
         becomes a significant barrier to growth.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is where an automated solution like TaxCloud can make a difference. By integrating tax compliance
@@ -38,7 +38,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -47,10 +47,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

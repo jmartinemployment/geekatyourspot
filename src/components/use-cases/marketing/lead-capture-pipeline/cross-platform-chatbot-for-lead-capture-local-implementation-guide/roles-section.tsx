@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RolesSection() {
   const body = (
@@ -14,7 +13,7 @@ export default function RolesSection() {
         watching the Facebook page, checking Instagram after hours, and fielding WhatsApp messages from
         prospects. Every new channel is another place to miss a message. Data entry is tedious and
         error-prone: someone has to copy names and phone numbers from chats into
-        a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or spreadsheet, then remember to follow up.
+        a&nbsp;CRM&nbsp;or spreadsheet, then remember to follow up.
         Repetitive questions, about hours, prices, service areas, eat up prime selling time, and high-value
         leads sometimes get lost in the shuffle when the inbox is crowded. The cost is invisible until a hot
         lead slips away and no one notices until it is too late.</p>
@@ -37,7 +36,7 @@ export default function RolesSection() {
         inquiry, they spend their time on high-value prospects who have already been qualified. Manychat, for
         instance, segments contacts in real time, so anyone who commented on a post or messaged the business
         is already tagged, scored, and sent to the right list. No more sifting through hundreds of DMs for the
-        one that matters. The&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or dashboard is up to
+        one that matters. The&nbsp;CRM&nbsp;or dashboard is up to
         date, and the team can move on deals while the lead is still hot.</p>
       <p className="text-md text-white shadow-text pt-3">
         Customer support and service roles see the biggest shift. With Tidio, repetitive questions about
@@ -93,7 +92,7 @@ export default function RolesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-does-the-work-now-what-changes-when-the-chatbot-takes-over" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-does-the-work-now-what-changes-when-the-chatbot-takes-over-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Does the Work Now? What Changes When the Chatbot Takes Over
               </h2>
               {body}

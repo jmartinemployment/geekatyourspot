@@ -16,7 +16,7 @@ export default function KeyStrategiesAccurateForecastingSection() {
           </div>
           <div className="col-span-7">
             <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Key Strategies for Accurate Forecasting</h2>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate <GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</GlossaryLink> is essential for maintaining the financial health of any organization. Misjudging
+            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate cash flow forecasting is essential for maintaining the financial health of any organization. Misjudging
               cash flow can lead to missed opportunities or, worse, financial distress. Geek @ Your Spot LLC specializes in deploying
               AI-driven solutions to enhance forecasting accuracy, ensuring that businesses can plan effectively and mitigate
               financial risk. By leveraging advanced technologies, organizations can achieve precision in their cash flow

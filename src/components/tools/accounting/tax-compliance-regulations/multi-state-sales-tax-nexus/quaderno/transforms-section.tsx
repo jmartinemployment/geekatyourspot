@@ -21,7 +21,7 @@ export default function TransformsSection() {
         noncompliance and the scramble to fix things after the fact.</p>
       <p className="text-md text-white shadow-text pt-3">
         Quaderno’s automation does not stop at tracking. It calculates the correct tax for every transaction, no
-        matter where your customer is. Digital products,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>,
+        matter where your customer is. Digital products,&nbsp;SaaS,
         physical goods, each is taxed according to the latest rules in each jurisdiction. The software applies
         the right rate automatically, so you never overcharge or undercharge a customer. For businesses that
         sell across multiple channels, this is a game changer. You do not have to worry about charging the wrong
@@ -46,7 +46,7 @@ export default function TransformsSection() {
         any&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, database, gateway, or marketplace platform. This
         means your business is not locked into a single payment processor or e-commerce tool. If your setup
         changes as you grow, Quaderno adapts with you. For developers, the platform offers a clean,
-        transaction-first RESTful&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;with dedicated sandbox
+        transaction-first RESTful&nbsp;API&nbsp;with dedicated sandbox
         access, making it easy to integrate and test without disrupting your live environment. This flexibility
         is crucial for growing brands that need to add or change systems without breaking compliance.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -60,7 +60,7 @@ export default function TransformsSection() {
         generated and delivered automatically. Filing that meant a week of stress at quarter-end becomes a
         matter of downloading a report and submitting it. Mistakes, overcharging tax, missing a registration,
         sending the wrong receipt, are caught before they happen, not after an audit. For
-        the&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;founder or e-commerce manager, this means
+        the&nbsp;SaaS&nbsp;founder or e-commerce manager, this means
         more time spent on growth and less on compliance. The cost of manual tracking, lost hours, missed sales,
         audit risk, disappears.</p>
       <blockquote cite="https://quaderno.io/product/monitor/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
@@ -94,7 +94,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quaderno-removes-the-weekly-burden-of-multi-state-sales-tax-nexus" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quaderno-removes-the-weekly-burden-of-multi-state-sales-tax-nexus-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Quaderno Removes the Weekly Burden of Multi-State Sales Tax Nexus
               </h2>
               {body}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A small business owner in Miami sits in front of a blank screen, her calendar already packed with
@@ -22,7 +22,7 @@ export default function OverviewSection() {
         Manual content creation does not just waste time; it breaks your messaging. Updates written in a rush
         read like they came from different people. Emails, landing pages, and posts contradict each other or
         miss the mark entirely. Without a system to keep everything consistent, your brand looks scattered and
-        forgettable. For many, this is where&nbsp;<Link id="tools-marketing-intelligent-content-generation-jasper-overview-intelligent-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes the game. Instead of
+        forgettable. For many, this is where&nbsp;<Link id={`tools-marketing-intelligent-content-generation-jasper-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes the game. Instead of
         fighting through every draft yourself or paying agency rates, AI-driven workflows let you research,
         generate, repurpose, and schedule content with a fraction of the effort. You get unified messaging
         across every channel, plus built-in approvals and personalizations that keep quality high and your
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

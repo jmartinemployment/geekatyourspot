@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -19,7 +18,7 @@ export default function ArchitectureSection() {
         retraining required from your team.</p>
       <p className="text-md text-white shadow-text pt-3">
         The integrations extend beyond email
-        and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>.
+        and&nbsp;CRM.
         Anyword supports direct connections to platforms like Facebook, Instagram, LinkedIn Ads, Google Ads,
         Meta Ads, and even CMS systems like Drupal. For social media, the tool can publish directly to your
         accounts, adapting each post to the style and requirements of the platform. For paid ads, it can
@@ -29,8 +28,8 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Anyword’s data flow is two-way. It doesn’t just push content out; it also pulls engagement and
         performance data back in.
-        This&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback
-        loop</GlossaryLink>&nbsp;powers its benchmarking and continuous optimization features. When a campaign
+        This&nbsp;feedback
+        loop&nbsp;powers its benchmarking and continuous optimization features. When a campaign
         is live, Anyword tracks which variations perform best for each audience segment, by channel,
         demographic, and even by time of day. The platform then uses this information to refine future content
         suggestions and scoring, so your messaging gets sharper and more effective with every cycle.</p>
@@ -84,7 +83,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-architecture-behind-anyword-integrations-data-flow-and-brand-control" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-architecture-behind-anyword-integrations-data-flow-and-brand-control-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Architecture Behind Anyword: Integrations, Data Flow, and Brand Control
               </h2>
               {body}

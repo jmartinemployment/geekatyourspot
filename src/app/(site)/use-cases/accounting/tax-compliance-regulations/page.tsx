@@ -10,6 +10,8 @@ import PAASection from "@/components/use-cases/accounting/tax-compliance-regulat
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -24,14 +26,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-24T20:37:52.8425805Z",
             "dateModified": "2026-07-24T20:37:52.8425805Z",
             "mainEntityOfPage": {
@@ -41,55 +36,48 @@ const jsonLd: Graph = {
             "keywords": "Automated Tax Compliance, Tax Regulations Automation, AI in Tax Compliance, Financial Operations Automation, Tax Compliance Software, AI Solutions Integration, Regulatory Compliance, Tax Automation Tools, Financial Process Automation, AI Implementation Consultancy",
             "wordCount": 3337,
             "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article",
+            "about": { "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#service" },
             "hasPart": {
                 "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#faq"
             },
             "mentions": [
                 {
-                    "@id": "#software-avalara"
+                    "@id": "https://geekatyourspot.com/#software-avalara"
                 },
                 {
-                    "@id": "#software-thomsonreutersonesource"
+                    "@id": "https://geekatyourspot.com/#software-thomson-reuters-onesource"
                 },
                 {
-                    "@id": "#software-vertex"
+                    "@id": "https://geekatyourspot.com/#software-vertex"
                 },
                 {
-                    "@id": "#software-saptaxcompliance"
+                    "@id": "https://geekatyourspot.com/#software-sap-tax-compliance"
                 }
             ]
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-avalara",
             "name": "Avalara",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Avalara is a leading platform that simplifies tax compliance for businesses by automating various tax-related tasks. It provides comprehensive tools that ensure accurate tax calculations and filing processes, which are crucial for businesses operating across multiple jurisdictions.",
-            "@id": "#software-avalara"
+            "url": "https://www.avalara.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-thomson-reuters-onesource",
             "name": "Thomson Reuters ONESOURCE",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Thomson Reuters ONESOURCE is a comprehensive tax automation platform that assists businesses in managing global tax obligations. It enables companies to streamline tax processes, ensuring compliance with international standards and regulatory changes.",
-            "@id": "#software-thomsonreutersonesource"
+            "url": "https://tax.thomsonreuters.com/en/onesource"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-vertex",
             "name": "Vertex",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Vertex is a powerful platform designed to automate and manage tax processes for large enterprises. It offers solutions that help businesses achieve accurate tax calculations and compliance across different jurisdictions.",
-            "@id": "#software-vertex"
+            "url": "https://www.vertexinc.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-sap-tax-compliance",
             "name": "SAP Tax Compliance",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "SAP Tax Compliance is a robust solution integrated within the SAP ecosystem, designed to streamline tax compliance and reporting. It provides organizations with the tools to manage tax operations efficiently, ensuring compliance with legal and regulatory standards.",
-            "@id": "#software-saptaxcompliance"
+            "url": "https://www.sap.com/"
         },
         {
             "@type": "FAQPage",
@@ -108,7 +96,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "What are the 4 phases of compliance?", "acceptedAnswer": {"@type": "Answer", "text": "The four phases of compliance typically include identification, assessment, implementation, and monitoring. These phases guide organizations in understanding compliance requirements, assessing risks, implementing necessary controls, and continuously monitoring for adherence to regulations."}},
                 {"@type": "Question", "name": "What are common tax compliance mistakes?", "acceptedAnswer": {"@type": "Answer", "text": "Common tax compliance mistakes include incorrect reporting of income, missing deadlines, overlooking deductions, and failing to keep adequate records. These errors can lead to audits, penalties, and increased scrutiny from tax authorities. Organizations can benefit from automated solutions to mitigate these risks."}}
             ]
-        }
+        },
+        pillarService({ url: "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations", name: "Tax Compliance & Regulations", description: "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations." })
     ]
 };
 
@@ -131,21 +120,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'article',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "Tax Compliance & Regulations",
             description: 'Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.',
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -24,15 +23,15 @@ export default function ArchitectureSection() {
         connection means the system can see what keywords are driving traffic, what gaps exist in your
         coverage, and how your competitors are performing. It uses this information to suggest what to publish
         next and where to focus your efforts. The integration is browser-based, no manual
-        exports,&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;keys,
+        exports,&nbsp;API&nbsp;keys,
         or third-party logins to manage.</p>
       <p className="text-md text-white shadow-text pt-3">
         For publishing, Koala integrates natively with WordPress, Shopify, Webflow, and Ghost. This lets you
         push content live with one click, without copying and pasting drafts or fixing formatting errors. For
         businesses with custom needs, Koala supports webhooks and a
-        public&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>, so
+        public&nbsp;API, so
         you can deliver content wherever you need it. The
-        same&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;allows
+        same&nbsp;API&nbsp;allows
         you to automate content creation workflows at scale, connecting Koala’s generation engine to your own
         applications or tools.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -62,10 +61,10 @@ export default function ArchitectureSection() {
         growth, not just what fills a calendar.</p>
       <p className="text-md text-white shadow-text pt-3">
         For advanced users,
-        Koala’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;access
+        Koala’s&nbsp;API&nbsp;access
         exposes the same powerful AI models used in the web interface. You can generate complete articles with
         a
-        single&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;call,
+        single&nbsp;API&nbsp;call,
         maintain quality across programmatically generated content, and connect AI assistants to the same
         tools through Koala’s Multi-Channel Platform (MCP). This flexibility means Koala can fit into both
         simple and complex content operations, scaling as your business grows.</p>
@@ -96,7 +95,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="koalas-platform-architecture-what-it-stores-connects-and-powers" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="koalas-platform-architecture-what-it-stores-connects-and-powers-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Koala’s Platform Architecture: What It Stores, Connects, and Powers
               </h2>
               {body}

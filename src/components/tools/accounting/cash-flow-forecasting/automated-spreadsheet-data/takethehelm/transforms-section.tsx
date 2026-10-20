@@ -6,8 +6,8 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Take the Helm transforms how small businesses handle their financial data by automating tedious processes
         and providing real-time insights. By integrating with platforms like QuickBooks, Xero, and Sage,
-        Take the Helm automates&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>, eliminating the need for manual spreadsheet updates. This automation saves
+        Take the Helm automates&nbsp;cash flow
+        forecasting, eliminating the need for manual spreadsheet updates. This automation saves
         hours each week, allowing finance teams to focus on strategic tasks rather than data entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the key benefits is the removal of errors associated with manual data entry. With Take the Helm,
@@ -57,7 +57,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-spreadsheet-data-what-takethehelm-removes-from-your-week">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-spreadsheet-data-what-takethehelm-removes-from-your-week-lg">
                 Automated Spreadsheet Data: What Take the Helm Removes from Your Week
               </h2>
               {body}

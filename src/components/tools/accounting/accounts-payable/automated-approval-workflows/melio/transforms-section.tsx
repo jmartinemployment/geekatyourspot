@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Melio offers a solution that revolutionizes Automated Approval Workflows for small businesses,
@@ -12,7 +11,7 @@ export default function TransformsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Bills route to the right person automatically, keeping the bill approval process fast and
         simple.&quot;&nbsp;
-        <a id="tools-accounting-approval-workflows-melio-transforms-source"
+        <a id={`tools-accounting-approval-workflows-melio-transforms-source${idSuffix}`}
           href="https://melio.com/industries/software-technology/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Melio
@@ -40,7 +39,7 @@ export default function TransformsSection() {
         issue to an alternate approver. This proactive approach minimizes the risk of late payments and helps
         maintain strong vendor relationships. By incorporating these features, Melio not only streamlines the
         approval process but also enhances the overall efficiency of a business&#39;s&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;operations.</p>
+        accounts payable&nbsp;operations.</p>
     </>
   );
 
@@ -55,7 +54,7 @@ export default function TransformsSection() {
                 How Melio Transforms Automated Approval Workflows
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -64,10 +63,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-automated-approval-workflows-lg">
                 How Melio Transforms Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

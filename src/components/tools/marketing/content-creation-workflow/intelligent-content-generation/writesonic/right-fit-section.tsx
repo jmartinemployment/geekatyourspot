@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Writesonic is built for small businesses and lean teams who need to scale content output without
@@ -53,12 +52,12 @@ export default function RightFitSection() {
         brands, this is the step that makes scale practical, and sustainable.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-content-generation-writesonic-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-content-generation-writesonic-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
         <li>When you create a primary content piece (like a long-form article or case study), what is your process for transforming it into emails, LinkedIn updates, or Meta ads? Is that handled manually or skipped entirely due to time constraints?</li>
-        <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;pipelines, or technical spec sheets?</li>
+        <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;CRM&nbsp;pipelines, or technical spec sheets?</li>
         <li>How are you currently measuring the success of your copy? Are you optimizing primarily for organic search rankings (SEO traffic) or are you actively spending money on paid local ads where every click costs you?</li>
         <li>Have you ever run an ad campaign where the traffic was high but conversions were low? How did you figure out if the weak link was your targeting or the written copy itself?</li>
         <li>When your team writes headlines or call-to-actions, are they relying on creative intuition, or do you have a framework to test what phrases resonate best with your specific demographic?</li>
@@ -85,7 +84,7 @@ export default function RightFitSection() {
                 Who Writesonic Is For, Who It Is Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +93,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-writesonic-is-for-who-it-is-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-writesonic-is-for-who-it-is-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Writesonic Is For, Who It Is Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

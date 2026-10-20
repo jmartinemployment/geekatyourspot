@@ -1,5 +1,5 @@
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Chaserhq revolutionizes the way small businesses handle accounts receivable by automating many of the
@@ -31,7 +31,7 @@ export default function TransformsSection() {
         &quot;Built directly on Chaser’s receivables data and your connected accounting system, forecasts update in
         real time and account for overdue invoices, disputes, expected payment dates, and installment
         plans.&quot;&nbsp;
-        <a id="tools-accounting-accounts-receivable-chaserhq-transforms-source"
+        <a id={`tools-accounting-accounts-receivable-chaserhq-transforms-source${idSuffix}`}
           href="https://www.chaserhq.com/receivables-forecast"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Chaser
@@ -50,7 +50,7 @@ export default function TransformsSection() {
                 How Chaserhq Transforms Automated Accounts Receivable
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chaserhq-transforms-automated-accounts-receivable">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chaserhq-transforms-automated-accounts-receivable-lg">
                 How Chaserhq Transforms Automated Accounts Receivable
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

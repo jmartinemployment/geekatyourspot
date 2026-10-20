@@ -13,17 +13,17 @@ export default function ArchitectureSection() {
         comprehensive timeline that updates automatically with every new message or call.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform’s architecture prioritizes zero manual data entry. Every interaction is transcribed,
-        structured, and saved to the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;without staff
+        structured, and saved to the&nbsp;CRM&nbsp;without staff
         intervention. Calls are recorded, transcribed, and summarized; chats and emails are parsed for intent,
         urgency, and outcome. This data is then mapped to each contact’s timeline, so
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;stays current without anyone needing to type
+        the&nbsp;CRM&nbsp;stays current without anyone needing to type
         in notes or update fields. The system listens to every call and reads every message, extracting
         structured data, contact details, conversation intent, next steps, and making it available for
         reporting and automation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        My AI Front Desk’s&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;is not a bolt-on or a
+        My AI Front Desk’s&nbsp;CRM&nbsp;is not a bolt-on or a
         separate tool. It is built into the platform, auto-populated from real conversations. There is no need
-        to set up a separate&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or integrate a third-party
+        to set up a separate&nbsp;CRM&nbsp;or integrate a third-party
         database just to track leads. For teams using HubSpot, Salesforce, or Pipedrive, My AI Front Desk
         pushes conversation data directly into those systems, keeping them up to date without extra work from
         your reps. This means your sales or service team can keep working in the tools they already know,
@@ -75,7 +75,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-sits-under-the-hood-my-ai-front-desks-core-architecture-integrations-and-data-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sits-under-the-hood-my-ai-front-desks-core-architecture-integrations-and-data-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sits Under the Hood: My AI Front Desk’s Core Architecture, Integrations, and Data Model
               </h2>
               {body}

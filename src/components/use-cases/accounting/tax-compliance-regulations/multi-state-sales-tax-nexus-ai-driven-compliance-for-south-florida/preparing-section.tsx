@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        After you decide to automate multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>, the next steps are clear and structured, there is no guesswork left. You
+        After you decide to automate multi-state sales&nbsp;tax
+        compliance, the next steps are clear and structured, there is no guesswork left. You
         start with a free assessment, which is not a quick chat but a real diagnostic of your current exposure.
         At this stage, you should expect direct questions about your channels, sales data, and where you ship,
         not just a demo of software features. The goal is to map out every state where your sales, transaction
@@ -14,7 +13,7 @@ export default function PreparingSection() {
         foundation of your compliance plan.</p>
       <p className="text-md text-white shadow-text pt-3">
         With business objectives and risk points mapped, you move straight
-        to&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>. Your team will need to supply
+        to&nbsp;data quality. Your team will need to supply
         clean sales data, broken out by channel and state, and be ready to answer questions about how you store
         and reconcile orders. If your current setup is a mix of Shopify exports, Stripe settlements, and
         QuickBooks invoices, the right tool, be it TaxCloud, TaxJar, or Quaderno, plugs directly into those
@@ -25,7 +24,7 @@ export default function PreparingSection() {
         Once the data is clean, the integration phase begins. For most small businesses in South Florida, the
         process can be as quick as a few days if your sales channels are standard (Shopify, Amazon, Stripe,
         QuickBooks). The tool you choose will handle the heavy lifting: TaxCloud, for example, connects
-        via&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;to your e-commerce stack, pulls in every
+        via&nbsp;API&nbsp;to your e-commerce stack, pulls in every
         transaction, and runs threshold analysis by state. If you are on multiple platforms or have unique
         workflows, Quaderno stands out for its ability to centralize data from Stripe, PayPal, and Braintree
         without custom coding. Zamp layers in hands-on oversight, with a team that audits your mappings and
@@ -62,7 +61,7 @@ export default function PreparingSection() {
         the compliance map updates itself in real time.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
@@ -70,7 +69,7 @@ export default function PreparingSection() {
         <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>
         <li>How do you currently distinguish between sales made through marketplace facilitators (like Amazon, which handle tax for you) versus direct-to-consumer sales on your own site where you hold the tax liability?</li>
         <li>When an out-of-state customer places an order, how does your system determine the exact local, county, and state sales tax rate at that specific rooftop address?</li>
-        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (<GlossaryLink slug="saas">SaaS</GlossaryLink>), or digital goods are taxable in one state but exempt in another?</li>
+        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (SaaS), or digital goods are taxable in one state but exempt in another?</li>
         <li>Once you realize you have nexus in a new state, what is your current process for registering with their Department of Revenue and filing those returns on time?</li>
         <li>How are you collecting, validating, and storing tax exemption certificates for your B2B or wholesale clients out of state?</li>
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
@@ -90,7 +89,7 @@ export default function PreparingSection() {
                 What Happens Next: What to Expect From a Real Multi-State Tax Rollout
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +98,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-happens-next-what-to-expect-from-a-real-multi-state-tax-rollout" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-happens-next-what-to-expect-from-a-real-multi-state-tax-rollout-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Happens Next: What to Expect From a Real Multi-State Tax Rollout
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

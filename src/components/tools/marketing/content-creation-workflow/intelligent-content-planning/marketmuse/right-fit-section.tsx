@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         MarketMuse is built for small teams who want to stop guessing and start making content decisions
@@ -51,7 +51,7 @@ export default function RightFitSection() {
         competitors, it is a strategic advantage that pays off week after week.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-content-planning-marketmuse-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-marketmuse-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
@@ -75,7 +75,7 @@ export default function RightFitSection() {
                 Who MarketMuse Is For, Who It Is Not, and What a Small Team Should Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -84,10 +84,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-marketmuse-is-for-who-it-is-not-and-what-a-small-team-should-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-marketmuse-is-for-who-it-is-not-and-what-a-small-team-should-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who MarketMuse Is For, Who It Is Not, and What a Small Team Should Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

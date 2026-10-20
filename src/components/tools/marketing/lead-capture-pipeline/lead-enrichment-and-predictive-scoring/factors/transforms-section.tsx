@@ -21,7 +21,7 @@ export default function TransformsSection() {
         This is not just about saving time. It is about removing the manual, error-prone work that keeps teams
         from growing. With Factors, the process of lead enrichment is fully automated. The platform matches
         anonymous visitors to detailed company data, name, size, industry, location, and pushes enriched
-        profiles straight into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. There’s no more double
+        profiles straight into your&nbsp;CRM. There’s no more double
         entry, spreadsheet wrangling, or waiting for marketing to hand off a lead. The system syncs with tools
         like Salesforce, HubSpot, LinkedIn, and Google Ads, so the data is always current and always where you
         need it.</p>
@@ -85,7 +85,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-factors-removes-from-your-week-lead-enrichment-and-predictive-scoring-that-works" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-factors-removes-from-your-week-lead-enrichment-and-predictive-scoring-that-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Factors Removes from Your Week: Lead Enrichment and Predictive Scoring That Works
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -6,7 +5,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Deploying Tipalti in a small business environment involves several key steps that ensure a seamless
         transition to automated&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>
+        accounts payable
         &nbsp;processes. Geek @ Your Spot LLC, located in West Palm Beach, Broward, and Miami-Dade counties,
         specializes in configuring Tipalti to meet the unique needs of each client, focusing on Automated Fraud
         &amp; Duplicate Payment Controls.</p>
@@ -16,7 +15,7 @@ export default function ImplementingSection() {
         capabilities. This step is crucial for ensuring that the system can effectively automate invoice
         processing and fraud detection. Geek @ Your Spot LLC assists clients in structuring their data to maximize
         the benefits of Tipalti&#39;s&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven tools.</p>
+        AI-driven tools.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next, Geek @ Your Spot LLC configures the approval chains and routing logic within Tipalti. This involves
         setting up automated workflows that match the client&#39;s operational needs. For instance, invoices
@@ -27,7 +26,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration with existing systems is another critical aspect of deploying Tipalti. The platform is
         designed to sync with various&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;and
+        ERP&nbsp;and
         accounting systems, ensuring that financial records are updated in real time. Geek @ Your Spot LLC
         facilitates these integrations, allowing for a seamless flow of information between Tipalti and the
         client&#39;s existing software. This integration is vital for maintaining accurate financial data and
@@ -67,7 +66,7 @@ export default function ImplementingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-tipalti-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-tipalti-in-your-business-environment-lg">
                 Implementing Tipalti in Your Business Environment
               </h2>
               {body}

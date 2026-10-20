@@ -40,7 +40,7 @@ export default function ComparingSection() {
         DMs, story replies, specific keywords, and it is designed to reply instantly, 24/7, even when your
         staff are offline. This is a direct answer to the pain point most small businesses face: comments and
         DMs that go unanswered, leads that never make it into
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and opportunities lost because no one was there
+        the&nbsp;CRM, and opportunities lost because no one was there
         to reply at the moment of interest.</p>
       <p className="text-md text-white shadow-text pt-3">
         Manychat also brings segmentation and tagging to the front. Instead of just capturing a name and
@@ -65,7 +65,7 @@ export default function ComparingSection() {
         For businesses that want to bring their social engagement, lead capture, and follow-up into one
         unified workflow, without hiring a developer or buying an enterprise suite, Manychat is the platform
         that fits. It is not the right answer if your main channel is website chat or if you need a
-        full-featured&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;out of the box. But for teams who
+        full-featured&nbsp;CRM&nbsp;out of the box. But for teams who
         are drowning in DMs, missing leads in Instagram comments, or struggling to keep their pipeline
         organized as they grow, Manychat is built to solve exactly those problems. Its focus on social-first
         automation, simple setup, and clear pricing makes it the standout choice for cross-platform lead
@@ -92,7 +92,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-manychat-compares-to-other-lead-capture-and-chatbot-platforms" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-manychat-compares-to-other-lead-capture-and-chatbot-platforms-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Manychat Compares to Other Lead Capture and Chatbot Platforms
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DeployingSection() {
   const body = (
@@ -6,13 +5,13 @@ export default function DeployingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Deploying Medius within an existing business environment involves several key steps to ensure a
         smooth transition and effective operation. Geek @ Your Spot LLC, as an&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;implementation
+        AI&nbsp;implementation
         consultancy, plays a crucial role in this process, particularly for small businesses in Miami-Dade,
         Broward, and West Palm Beach counties. The deployment process begins with a thorough assessment of the
         client&#39;s current systems and workflows to identify areas where Medius can add the most value.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the primary tasks is integrating Medius with the client&#39;s existing&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
+        ERP&nbsp;systems.
         This integration is vital for real-time data exchange and seamless operation. Geek @ Your Spot LLC handles
         the technical aspects of this integration, ensuring that Medius is configured to capture and process
         invoices from various sources, whether they are submitted via paper, PDF, or supplier portals. This
@@ -23,7 +22,7 @@ export default function DeployingSection() {
         works closely with clients to map out their data structures, ensuring that all relevant information
         is accurately captured and processed by Medius. This includes setting up the necessary approval chains
         and routing rules to automate workflows and streamline the&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>
+        accounts payable
         &nbsp;process. By configuring these elements correctly, Medius can automate tedious tasks, reduce
         manual errors, and enhance overall efficiency.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -63,7 +62,7 @@ export default function DeployingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-medius-in-your-existing-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-medius-in-your-existing-environment-lg">
                 Deploying Medius in Your Existing Environment
               </h2>
               {body}

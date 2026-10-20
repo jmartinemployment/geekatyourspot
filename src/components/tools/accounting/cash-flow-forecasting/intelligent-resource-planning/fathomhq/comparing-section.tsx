@@ -1,33 +1,32 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida often find themselves stuck between two extremes: legacy spreadsheets
         that never match up, and
-        heavyweight&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        heavyweight&nbsp;ERP&nbsp;systems
         that promise control but deliver months of setup and a steep learning curve. In this landscape, Fathom
         sits in the middle, offering the core benefits of intelligent resource planning, live cash flow
         visibility, entity consolidation, and actionable KPIs, without the cost, complexity, or disruption of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;rollout.</p>
+        full&nbsp;ERP&nbsp;rollout.</p>
       <p className="text-md text-white shadow-text pt-3">
         Traditional ERPs like NetSuite, Acumatica, or Microsoft Dynamics 365 Business are built for scale, but
         that scale comes with overhead. They require strict data schemas, long implementation timelines, and
         ongoing IT support. For a twelve-person finance team, the process of cleaning up years of spreadsheet
         history, mapping it into a
-        rigid&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;structure,
+        rigid&nbsp;ERP&nbsp;structure,
         and getting everyone trained can take months and cost well into the five figures before the first live
         report is produced. Even then, the system may not flex to the real-world messiness of a small company’s
         books, multiple entities, mixed currencies, and non-financial data like headcount or unit sales that
         never made it into the ledger.</p>
       <p className="text-md text-white shadow-text pt-3">
         Fathom, by contrast, is designed for teams who want the insight and automation of
-        an&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, but need
+        an&nbsp;ERP, but need
         to move faster and with less friction. It connects directly to the accounting and operational systems
         you already
-        use,&nbsp;<Link id="tools-accounting-intelligent-resource-planning-fathomhq-comparing-quickbooks" href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
+        use,&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-fathomhq-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
         Xero, MYOB, Excel, Google Sheets, pulling in real-time data and making it available for live dashboards,
         scenario planning, and consolidated reporting. There is no need to rebuild your entire chart of accounts
         or migrate every historic transaction. Fathom’s strength is in its ability to map and merge messy,
@@ -42,7 +41,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The real gap Fathom fills is not just in automation, but in making financial data usable for the people
         who run the business.
-        Most&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        Most&nbsp;ERP&nbsp;systems
         and spreadsheet setups bury the story in pages of line items and formulas. Fathom’s approach is to
         surface the drivers that matter: cash inflows and outflows, breakeven points, gross margin trends, and
         custom KPIs that reflect both financial and non-financial metrics. It brings these into visual
@@ -58,11 +57,11 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Compared to other mid-market tools, Fathom’s advantage is the completeness of its platform. It combines
         consolidation, reporting, forecasting,
-        and&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">KPI</GlossaryLink>&nbsp;tracking
+        and&nbsp;KPI&nbsp;tracking
         in one interface. There is no need to buy separate modules for budgeting or scenario planning, nor to
         export data for analysis in another tool. For finance teams who want to move away from spreadsheets but
         do not want to take on a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, this
+        full&nbsp;ERP, this
         is the practical, affordable middle ground.</p>
       <p className="text-md text-white shadow-text pt-3">
         The main trade-off is that Fathom is not a transactional system, you cannot run payroll or process AP/AR
@@ -71,11 +70,11 @@ export default function ComparingSection() {
         operational tools but need better visibility, this is a strength, not a weakness.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, Fathom is not a replacement for a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, nor is
+        full&nbsp;ERP, nor is
         it just another reporting add-on. It is the tool that makes sense for small businesses who need to see
         the real picture, fast, without the pain of a multi-quarter technology project. For teams who are tired
         of spreadsheet chaos but cannot justify the cost and rigidity of a
-        big&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, Fathom
+        big&nbsp;ERP, Fathom
         is the platform that lets them move forward.</p>
     </>
   );
@@ -91,7 +90,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +98,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-fathom-compares-to-traditional-erps-and-spreadsheet-driven-workflows" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-fathom-compares-to-traditional-erps-and-spreadsheet-driven-workflows-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Fathom Compares to Traditional ERPs and Spreadsheet-Driven Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

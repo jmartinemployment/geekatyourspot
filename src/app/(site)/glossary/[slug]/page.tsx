@@ -3,21 +3,32 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faBookOpen } from "@fortawesome/free-solid-svg-icons";
-import { getAllGlossarySlugs, getGlossaryTerm } from "@/lib/glossary";
+import {
+  GLOSSARY_SET_ID,
+  definitionSummary,
+  definitionText,
+  getAllGlossarySlugs,
+  getGlossaryTerm,
+  relatedTerms,
+} from "@/lib/glossary";
 import { TermDetail } from "@/components/glossary/term-detail";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { GlossaryTerm } from "@/types/glossary";
 import type { DefinedTerm, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
 
-function getTermDescription(term: GlossaryTerm): string {
-  if (term.definitions && term.definitions.length > 0) {
-    return term.definitions.map((d) => d.text).join(" ");
-  }
-  return term.definition || "";
+/**
+ * "Term Definition" while it fits the 36 characters the title template leaves under 60; a term
+ * longer than that is titled by its name alone.
+ */
+const TITLE_MAX = 36;
+
+function termTitle(title: string): string {
+  const withSuffix = `${title} Definition`;
+  return withSuffix.length <= TITLE_MAX ? withSuffix : title;
 }
 
 export async function generateStaticParams() {
@@ -37,26 +48,29 @@ export async function generateMetadata({
     return {};
   }
 
-  const description = (
-    term.shortSummary || getTermDescription(term)
-  ).substring(0, 160);
+  const title = termTitle(term.title);
+  const description = definitionSummary(term);
 
   return {
-    title: `${term.title} — Glossary`,
+    title,
     description,
     alternates: {
       canonical: `https://geekatyourspot.com/glossary/${term.slug}`,
     },
     openGraph: {
       type: "website",
-      title: term.title,
+      title: `${title} | Geek @ Your Spot LLC`,
       description,
       url: `https://geekatyourspot.com/glossary/${term.slug}`,
+      siteName: "Geek @ Your Spot LLC",
+      locale: "en_US",
+      images: [SHARE_IMAGE],
     },
     twitter: {
-      card: "summary",
-      title: term.title,
+      card: "summary_large_image",
+      title: `${title} | Geek @ Your Spot LLC`,
       description,
+      images: [SHARE_IMAGE],
     },
   };
 }
@@ -73,12 +87,20 @@ export default async function TermPage({
     notFound();
   }
 
+  const related = relatedTerms(term);
+
   const jsonLd: WithContext<DefinedTerm> = {
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
     name: term.title,
-    description: getTermDescription(term),
+    description: definitionText(term),
     url: `https://geekatyourspot.com/glossary/${term.slug}`,
+    inDefinedTermSet: {
+      "@type": "DefinedTermSet",
+      "@id": GLOSSARY_SET_ID,
+      name: "Glossary",
+      url: "https://geekatyourspot.com/glossary",
+    },
   };
 
   return (
@@ -131,6 +153,26 @@ export default async function TermPage({
             </div>
           </div>
         </header>
+
+        {related.length > 0 && (
+          <section className="container pt-12">
+            <h2 className="text-white text-[6vw] sm:text-3xl lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              Related Terms
+            </h2>
+            <ul className="flex flex-wrap gap-3 pt-6">
+              {related.map((other) => (
+                <li key={other.slug}>
+                  <Link
+                    href={`/glossary/${other.slug}`}
+                    className="inline-flex rounded-lg bg-[#132340] px-4 py-2 text-md font-bold text-white transition-colors hover:bg-[#C83803]"
+                  >
+                    {other.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className="container py-12">
           <Link

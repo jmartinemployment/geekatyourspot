@@ -16,7 +16,7 @@ export default function MeasuringImpactForecastingFinancialHealthSection() {
           </div>
           <div className="col-span-7">
             <h2 className="text-white lg:text-4xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Measuring the Impact of Forecasting on Financial Health</h2>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate <GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</GlossaryLink> is a strategic asset for any business seeking to enhance its financial health. By
+            <p className="pt-5 text-md font-normal text-white shadow-text">Accurate cash flow forecasting is a strategic asset for any business seeking to enhance its financial health. By
               providing a detailed projection of future cash inflows and outflows, businesses can make informed decisions that
               optimize their operational efficiency and strategic planning. Geek @ Your Spot LLC, an AI implementation consultancy,
               assists organizations in leveraging advanced forecasting techniques to not only predict cash flow but also measure
@@ -69,7 +69,7 @@ export default function MeasuringImpactForecastingFinancialHealthSection() {
             <p className="pt-5 text-md font-normal text-white shadow-text">In a hypothetical example, a manufacturing firm could use advanced forecasting to spot a potential supply chain
               disruption, allowing them to diversify their supplier base and reduce dependency on a single source.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Integration of AI for Forecast Accuracy</h3>
-            <p className="pt-5 text-md font-normal text-white shadow-text">AI integration in <GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</GlossaryLink> elevates the precision and reliability of predictions. By processing vast
+            <p className="pt-5 text-md font-normal text-white shadow-text">AI integration in cash flow forecasting elevates the precision and reliability of predictions. By processing vast
               amounts of data, AI tools can uncover trends and correlations that traditional methods might miss. Geek @ Your Spot LLC
               specializes in deploying these tools, customizing them to fit the unique financial landscape of each client.</p>
             <p className="pt-5 text-md font-normal text-white shadow-text">These AI-enhanced forecasts provide a competitive edge by enabling businesses to make data-driven decisions that

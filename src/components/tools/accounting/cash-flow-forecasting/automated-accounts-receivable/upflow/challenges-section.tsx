@@ -1,5 +1,5 @@
 export default function ChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing accounts receivable
@@ -33,7 +33,7 @@ export default function ChallengesSection() {
         distribution of when money genuinely arrives, including the invoices that slip past 30 days, the customers
         who consistently pay late, and the months where collections run slow for reasons nobody
         predicted.&quot;&nbsp;
-        <a id="tools-accounting-accounts-receivable-upflow-challenges-source"
+        <a id={`tools-accounting-accounts-receivable-upflow-challenges-source${idSuffix}`}
           href="https://upflow.io/software/best-cash-flow-forecasting"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Upflow
@@ -57,7 +57,7 @@ export default function ChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -65,10 +65,10 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-automated-accounts-receivable">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-automated-accounts-receivable-lg">
                 The Challenges of Manual Automated Accounts Receivable
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

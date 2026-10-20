@@ -4,16 +4,26 @@ import type { MetadataRoute } from "next";
 import { listEntries } from "@/lib/content-writer-disabled2/content-disabled";
 import { HAND_CODED_POSTS } from "@/data/blog/hand-coded-posts";
 import { getAllGlossaryTerms } from "@/lib/glossary";
+import { DEFAULT_LETTER, groupByLetter, letterHref } from "@/lib/glossary-letters";
 
 const BASE_URL = "https://geekatyourspot.com";
 const APP_DIR = path.join(process.cwd(), "src", "app");
+
+/**
+ * A page that tells search engines not to index it does not belong in the sitemap, or the two
+ * signals contradict each other. Pages opt out with `robots: { index: false, ... }` in their
+ * metadata, so that is what this looks for.
+ */
+function isNoindex(pageFile: string): boolean {
+  return /robots:\s*\{\s*index:\s*false/.test(fs.readFileSync(pageFile, "utf8"));
+}
 
 function staticRoutes(dir: string, segments: string[] = []): string[] {
   const routes: string[] = [];
 
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isFile() && entry.name === "page.tsx") {
-      routes.push("/" + segments.join("/"));
+      if (!isNoindex(path.join(dir, entry.name))) routes.push("/" + segments.join("/"));
       continue;
     }
     if (!entry.isDirectory()) continue;
@@ -64,7 +74,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...pages, ...posts, ...glossaryPages].sort((a, b) =>
+  // Letters past A each have their own page and canonical; A is the bare /glossary, listed above.
+  const letterPages = [...groupByLetter(glossaryTerms).keys()]
+    .filter((letter) => letter !== DEFAULT_LETTER)
+    .map((letter) => ({
+      url: `${BASE_URL}${letterHref(letter)}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    }));
+
+  return [...pages, ...posts, ...glossaryPages, ...letterPages].sort((a, b) =>
     a.url.localeCompare(b.url),
   );
 }

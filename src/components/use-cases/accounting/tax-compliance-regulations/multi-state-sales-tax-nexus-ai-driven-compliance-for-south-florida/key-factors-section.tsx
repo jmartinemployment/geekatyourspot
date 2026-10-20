@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function KeyFactorsSection() {
   const body = (
@@ -45,7 +44,7 @@ export default function KeyFactorsSection() {
         business. TaxCloud and TaxJar both provide continuous updates and integrations, but only if you use them
         as designed: feeding in every channel, mapping every product, and monitoring every change. Quaderno
         stands out for companies scaling digital
-        and&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;sales,
+        and&nbsp;SaaS&nbsp;sales,
         centralizing compliance even as new markets come into play.</p>
       <p className="text-md text-white shadow-text pt-3">
         The other common failure: treating compliance as a one-off project. You cannot “set and forget” a tax
@@ -82,7 +81,7 @@ export default function KeyFactorsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-makes-a-multi-state-tax-implementation-durable-and-where-most-rollouts-fail" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-makes-a-multi-state-tax-implementation-durable-and-where-most-rollouts-fail-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Makes a Multi-State Tax Implementation Durable, And Where Most Rollouts Fail
               </h2>
               {body}

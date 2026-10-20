@@ -12,7 +12,7 @@ export const smithContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "lead-capture-pipeline/intelligent-receptionist",
   "description":
-    "Intelligent Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for seamless client intake",
+    "Intelligent Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for client intake.",
   "heroSummary":
     "Smith.ai offers an Intelligent Receptionist solution tailored for South Florida small businesses, combining automated lead capture with live human backup for every call.",
   "keywords":

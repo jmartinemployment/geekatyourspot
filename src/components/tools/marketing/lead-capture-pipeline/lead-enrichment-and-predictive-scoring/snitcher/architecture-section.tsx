@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s architecture is built for speed, reliability, and seamless integration with the tools small
@@ -26,25 +26,25 @@ export default function ArchitectureSection() {
         session count, page views, time on site, and visit history. If available, it can also surface
         decision-maker contacts, including verified business emails and phone numbers. These details are not
         just for show; they are structured to feed directly into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, outreach tools,
+        your&nbsp;CRM, outreach tools,
         or&nbsp;<GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">marketing automation</GlossaryLink>&nbsp;systems.
         The&nbsp;<GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data model</GlossaryLink>&nbsp;is flexible, supporting custom
         fields and mapping to fit your existing workflows.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration is where Snitcher stands out for small teams. The platform plugs directly into major CRMs,
-        HubSpot, Salesforce, Pipedrive, and Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, without the
+        HubSpot, Salesforce, Pipedrive, and Zoho&nbsp;CRM, without the
         need for middleware or complex configuration. Two-way sync means leads, contacts, and account data
-        flow both ways: Snitcher enriches your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;with web
-        activity and firmographics, while your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;can push
+        flow both ways: Snitcher enriches your&nbsp;CRM&nbsp;with web
+        activity and firmographics, while your&nbsp;CRM&nbsp;can push
         updates back to Snitcher for better scoring and filtering. For teams using Slack or Microsoft Teams,
         Snitcher can send real-time alerts to dedicated channels, ensuring that sales reps see high-intent
-        activity as it happens.&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;support and open APIs allow for further customization, connecting
+        activity as it happens.&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;support and open APIs allow for further customization, connecting
         Snitcher to hundreds of other business tools, automating lead routing, and triggering workflows based
         on specific behaviors.</p>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s automation layer is built to reduce manual effort. You can define rules for what counts as
         a hot lead, by ICP match, page views, or engagement score, and set up triggers for
-        notifications,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;updates, or outbound sequences.
+        notifications,&nbsp;CRM&nbsp;updates, or outbound sequences.
         The platform’s logic filters out irrelevant traffic, such as students or competitors, so your team
         only works leads that fit your target profile. All automation is managed through Snitcher’s interface,
         with no need for coding or IT intervention. For businesses running multiple domains, Snitcher supports
@@ -59,7 +59,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         For a small business, the practical result is a platform that delivers real-time, enriched, and scored
         leads directly into your existing stack. There’s no need to overhaul
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing systems. Snitcher’s
+        your&nbsp;CRM&nbsp;or marketing systems. Snitcher’s
         architecture is lightweight, its integrations are deep, and its data flows are transparent. You get a
         single source of truth for web-driven leads, with the flexibility to adjust rules, mappings, and
         workflows as your business grows. The platform is built to make the most of every site visit, turning
@@ -78,7 +78,7 @@ export default function ArchitectureSection() {
                 What Powers Snitcher: Architecture, Integrations, and Data Flow
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -87,10 +87,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-powers-snitcher-architecture-integrations-and-data-flow" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-powers-snitcher-architecture-integrations-and-data-flow-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Powers Snitcher: Architecture, Integrations, and Data Flow
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

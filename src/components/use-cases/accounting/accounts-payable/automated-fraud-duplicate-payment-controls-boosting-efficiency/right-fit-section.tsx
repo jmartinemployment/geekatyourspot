@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing Automated Fraud &amp; Duplicate Payment Controls can be transformative, but it isn&#39;t
         a one-size-fits-all solution. For businesses in Miami-Dade, Broward, and West Palm Beach counties,
         understanding when this approach is appropriate is crucial. The right call hinges on several factors,
         including the volume of transactions, the complexity of your&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes, and your
+        accounts payable&nbsp;processes, and your
         current risk exposure to fraud and errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses with high transaction volumes and complex vendor networks often benefit the most.
@@ -17,11 +16,11 @@ export default function RightFitSection() {
         errors and streamline operations. If your team spends a considerable amount of time manually
         verifying invoices or if you&#39;ve experienced financial losses due to fraud, automation could be a
         game-changer. Tools like&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-fit-medius"
+        <Link id={`use-cases-accounting-fraud-controls-fit-medius${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">
           Medius
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-fit-tipalti"
+        <Link id={`use-cases-accounting-fraud-controls-fit-tipalti${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">
           Tipalti
         </Link>&nbsp;offer robust solutions that integrate seamlessly with existing workflows, providing
@@ -49,7 +48,7 @@ export default function RightFitSection() {
         with a partner like Geek @ Your Spot LLC to ensure that the transition is smooth and that the systems put
         in place are tailored to deliver tangible results.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="use-cases-accounting-fraud-controls-fit-consultation"
+        <Link id={`use-cases-accounting-fraud-controls-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book your free consultation
         </Link>.</p>
@@ -67,7 +66,7 @@ export default function RightFitSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -75,10 +74,10 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="determining-the-right-fit-for-automated-fraud-duplicate-payment-controls" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="determining-the-right-fit-for-automated-fraud-duplicate-payment-controls-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Determining the Right Fit for Automated Fraud &amp; Duplicate Payment Controls
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

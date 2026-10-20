@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every small business in Miami-Dade, Broward or West Palm Beach that manages leads across Instagram,
@@ -40,10 +39,10 @@ export default function ChallengesSection() {
         conversation moves toward a result instead of fizzling out.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, many businesses try to use a social DM tool as a replacement for their website chat or even
-        their&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. This is where things break down. Without a way
-        to connect captured leads to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or spreadsheet
+        their&nbsp;CRM. This is where things break down. Without a way
+        to connect captured leads to your&nbsp;CRM&nbsp;or spreadsheet
         workflow, you end up with siloed data and no way to see the full customer journey. Manychat integrates
-        with tools like Google Sheets and&nbsp;<Link id="tools-marketing-cross-platform-chatbot-manychat-challenges-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, so every lead captured in a chat is synced to your
+        with tools like Google Sheets and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-manychat-challenges-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, so every lead captured in a chat is synced to your
         main system. You see the complete picture and can act on it without more manual entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real cost of doing this by hand is not just the hours lost or the mistakes made. It is the steady
@@ -65,7 +64,7 @@ export default function ChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -73,10 +72,10 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What it costs to keep doing this by hand
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

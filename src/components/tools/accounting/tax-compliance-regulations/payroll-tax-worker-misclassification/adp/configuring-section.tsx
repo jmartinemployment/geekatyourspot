@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         ADP stands apart because it lets you automate the most tedious, error-prone parts of
-        payroll&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;and worker
+        payroll&nbsp;tax compliance&nbsp;and worker
         classification. But the real value comes from how the system is configured up front, what rules are set,
         which logic is automated, and what gets connected to your existing stack. This is not a plug-and-play
         tool that runs on default settings. Geek @ Your Spot LLC works with you to tune ADP’s own logic to your
@@ -53,9 +52,9 @@ export default function ConfiguringSection() {
         a Friday, your team gets a real person, not a chatbot loop.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, ADP’s extension mechanism is built around its
-        robust&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and pre-built connectors. This means your
+        robust&nbsp;API&nbsp;and pre-built connectors. This means your
         payroll and HR data can be synchronized with other business-critical systems, whether you use
-        QuickBooks, a custom&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, or industry-specific tools. Geek @ Your Spot LLC handles the technical mapping and data structure setup, so your information flows cleanly
+        QuickBooks, a custom&nbsp;ERP, or industry-specific tools. Geek @ Your Spot LLC handles the technical mapping and data structure setup, so your information flows cleanly
         and securely from one system to the next. This reduces manual work, cuts down on errors, and gives you a
         real-time view of compliance across your workforce.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -86,7 +85,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-adp-for-payroll-tax-and-worker-classification-what-actually-gets-set-up-and-why-it-matters" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-adp-for-payroll-tax-and-worker-classification-what-actually-gets-set-up-and-why-it-matters-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring ADP for Payroll Tax and Worker Classification: What Actually Gets Set Up and Why It Matters
               </h2>
               {body}

@@ -24,7 +24,7 @@ export default function ConfiguringSection() {
         flows, defining escalation paths, and integrating with your existing calendar (Google Calendar is
         supported natively). For self-hosted environments, the configuration runs deeper. Your team, or Geek @ Your Spot LLC on your behalf, can modify the open-source codebase itself. You control the deployment, the
         data storage, and the integrations. This is not a
-        switch-flip&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>: you define how the receptionist
+        switch-flip&nbsp;SaaS: you define how the receptionist
         interacts with your internal systems, which model it uses for voice recognition, and how it logs and
         retains call data.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -64,7 +64,7 @@ export default function ConfiguringSection() {
         complex&nbsp;<GlossaryLink slug="call-routing">call routing</GlossaryLink>&nbsp;needs, the open-source
         extension model means nothing is off limits. You own the logic, the data, and the outcome. That is the
         difference between a true Intelligent Receptionist and
-        another&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;answering service.</p>
+        another&nbsp;SaaS&nbsp;answering service.</p>
     </>
   );
 
@@ -87,7 +87,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-lobbystack-business-rules-call-logic-and-extending-the-platform" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-lobbystack-business-rules-call-logic-and-extending-the-platform-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in LobbyStack: Business Rules, Call Logic, and Extending the Platform
               </h2>
               {body}

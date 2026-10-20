@@ -75,7 +75,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-copy-ai-turns-content-creation-into-a-repeatable-workflow" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-copy-ai-turns-content-creation-into-a-repeatable-workflow-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Copy.ai Turns Content Creation into a Repeatable Workflow
               </h2>
               {body}

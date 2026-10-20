@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function InPracticeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Rolling out Automated Payment Execution in a real-world setting involves a detailed sequence of steps.
@@ -12,11 +12,11 @@ export default function InPracticeSection() {
         The next step is data migration. Ensure that all existing data is accurate and ready to be integrated
         into the new system. This process can be time-consuming but is crucial for maintaining data integrity.
         Using tools like&nbsp;
-        <Link id="use-cases-accounting-payment-execution-practice-bill"
+        <Link id={`use-cases-accounting-payment-execution-practice-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-payment-execution-practice-melio"
+        <Link id={`use-cases-accounting-payment-execution-practice-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#0B162A] hover:underline">
           Melio
         </Link>, which offer seamless data transfer capabilities, can significantly ease this transition.</p>
@@ -24,11 +24,11 @@ export default function InPracticeSection() {
         Integration with existing systems is the backbone of Automated Payment Execution. The goal is to
         create a unified workflow that connects seamlessly with your accounting software. This ensures that
         data flows smoothly without the need for manual intervention. Platforms like&nbsp;
-        <Link id="use-cases-accounting-payment-execution-practice-avidxchange"
+        <Link id={`use-cases-accounting-payment-execution-practice-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-payment-execution-practice-tipalti"
+        <Link id={`use-cases-accounting-payment-execution-practice-tipalti${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#0B162A] hover:underline">
           Tipalti
         </Link>&nbsp;support a variety of integrations, making them ideal choices for businesses with complex
@@ -58,7 +58,7 @@ export default function InPracticeSection() {
                 Implementing Automated Payment Execution in Practice
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -67,10 +67,10 @@ export default function InPracticeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="implementing-automated-payment-execution-in-practice" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="implementing-automated-payment-execution-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementing Automated Payment Execution in Practice
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

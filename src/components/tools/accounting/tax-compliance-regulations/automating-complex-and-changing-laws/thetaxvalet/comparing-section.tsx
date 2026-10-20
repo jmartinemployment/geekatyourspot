@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When small businesses face the challenge of managing
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>, they often consider a range of software solutions. Platforms
-        like&nbsp;Avalara&nbsp;and&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offer
+        sales&nbsp;tax
+        compliance, they often consider a range of software solutions. Platforms
+        like&nbsp;Avalara&nbsp;and&nbsp;<Link id={`tools-accounting-complex-changing-laws-thetaxvalet-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offer
         basic automation for filing and calculation, but they leave significant gaps that can lead to compliance
         issues. These tools require manual updates and intervention, putting the onus on business owners to stay
         informed about changing regulations. This DIY approach can be risky and time-consuming, as it demands
@@ -52,7 +51,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -60,10 +59,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="comparing-taxvalet-with-other-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="comparing-taxvalet-with-other-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Comparing TaxValet with Other Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -11,11 +11,15 @@ import {
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { cn } from "@/lib/utils";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { departmentLabel, formatDate } from "./format-date";
 import { getBlogIndexPage, getTotalPages, type BlogIndexItem } from "./pagination";
 
 const PAGE_SUMMARY =
-  "Dispatches from the actual work — what AI does for a South Florida small business across content, campaigns, lead capture, cash flow and compliance, and where it falls short.";
+  "Dispatches from the actual work on what AI does for a South Florida small business in content, campaigns, lead capture, cash flow and compliance, and where it falls short.";
+const PAGE_TITLE = "AI for Small Business Blog";
+const PAGE_DESCRIPTION =
+  "What AI does for a South Florida small business in content, campaigns, lead capture, cash flow and compliance, and where it falls short.";
 
 type BlogPageProps = Readonly<{
   searchParams: Promise<{ page?: string }>;
@@ -41,9 +45,24 @@ export async function generateMetadata({ searchParams }: BlogPageProps): Promise
   const shown = getBlogIndexPage(requestedPage(page)).page;
 
   return {
-    title: "Geek Post",
-    description: PAGE_SUMMARY,
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
     alternates: { canonical: pageHref(shown) },
+    openGraph: {
+      type: "website",
+      title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
+      description: PAGE_DESCRIPTION,
+      url: pageHref(shown),
+      siteName: "Geek @ Your Spot LLC",
+      locale: "en_US",
+      images: [SHARE_IMAGE],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
+      description: PAGE_DESCRIPTION,
+      images: [SHARE_IMAGE],
+    },
   };
 }
 

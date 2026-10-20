@@ -15,7 +15,7 @@ export default function DataIntegrationSection() {
         AI Front Desk and Voksha both show that a fast rollout depends on the ability to forward existing
         numbers and sync with your business calendar. My AI Front Desk lets you forward your current number with
         a simple code and then uses a guided wizard to train the AI on your services and FAQs. It logs calls,
-        summaries, and outcomes directly into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so there is
+        summaries, and outcomes directly into your&nbsp;CRM, so there is
         no manual double entry or lost context.</p>
       <p className="text-md text-white shadow-text pt-3">
         The calendar integration is not optional. For the system to book appointments during live calls or text
@@ -25,12 +25,12 @@ export default function DataIntegrationSection() {
         your system. If your scheduling is still on paper or siloed in a front-desk computer, the receptionist
         cannot do its job, and you will end up with double bookings or missed confirmations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integration is the next line of defense against lost
+        CRM&nbsp;integration is the next line of defense against lost
         leads. Nextiva’s platform is built to unify calls, SMS, and chat into one workspace, making sure every
         caller’s details, notes, and outcomes are logged to the right record. This is not about shiny
         dashboards: it means your staff can see the full conversation history and act on it, rather than
         starting from zero with every follow-up. Smith.ai’s system goes further, supporting thousands
-        of&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and workflow integrations, so even complex
+        of&nbsp;CRM&nbsp;and workflow integrations, so even complex
         intake or multi-step lead qualification can be automated and recorded in your existing tools.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams with strict data control or compliance needs, LobbyStack stands apart. It is open-source and
@@ -45,15 +45,15 @@ export default function DataIntegrationSection() {
         not match what is actually delivered, or holiday hours are missing. The Intelligent Receptionist is only
         as accurate as what you feed it. The best implementations start with a structured data assessment,
         pulling information from your website, Google Business Profile, and current scheduling
-        or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;tools, then validating it for accuracy and
+        or&nbsp;CRM&nbsp;tools, then validating it for accuracy and
         completeness. In practice, this means a Friday afternoon spent reconciling what is in your head and what
         is in the system, before you let the AI answer a single call.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is the point where many small businesses trip up. They treat the receptionist as a plug-and-play
         tool, skipping the data review and assuming integrations will “just work.” The result: missed bookings,
         information mismatches, or, worst of all, calls routed to the wrong person. The remedy is not more
-        features, but a real commitment to&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;and the integrations that keep it flowing. If your environment cannot
+        features, but a real commitment to&nbsp;data
+        quality&nbsp;and the integrations that keep it flowing. If your environment cannot
         support that, no Intelligent Receptionist can cover the gap.</p>
     </>
   );
@@ -77,7 +77,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-data-and-integrations-make-or-break-intelligent-receptionist-rollout" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-and-integrations-make-or-break-intelligent-receptionist-rollout-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data and Integrations Make or Break Intelligent Receptionist Rollout
               </h2>
               {body}

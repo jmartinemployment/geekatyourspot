@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -49,7 +48,7 @@ export default function ComparingSection() {
         Integration is another dividing line. Many tools promise “AI for content,” but leave you with the work
         of moving assets between platforms and tracking revisions. Copy.ai supports over 2,000 integrations,
         letting you embed content creation and approval directly into your existing project
-        management,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        management,&nbsp;CRM,
         and publishing stack. You do not have to change how your team works, Copy.ai fits into your workflows,
         not the other way around. This matters when you are trying to keep up with real business deadlines and
         cannot afford slowdowns while learning a new system.</p>
@@ -90,7 +89,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-copy-ai-stacks-up-against-other-content-automation-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-copy-ai-stacks-up-against-other-content-automation-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Copy.ai Stacks Up Against Other Content Automation Approaches
               </h2>
               {body}

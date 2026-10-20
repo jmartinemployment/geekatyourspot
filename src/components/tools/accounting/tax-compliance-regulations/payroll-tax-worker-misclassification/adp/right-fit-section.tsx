@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         ADP is not a one-size-fits-all solution, and the decision to use it for payroll tax and worker
@@ -56,7 +55,7 @@ export default function RightFitSection() {
         model fits what you actually need, not just what looks good on a feature list.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-adp-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-adp-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How do you currently determine whether a new team member should be onboarded as a W-2 employee or a 1099 independent contractor?</li>
@@ -65,10 +64,10 @@ export default function RightFitSection() {
         <li>Are you currently employing any remote workers, out-of-state contractors, or staff who split time between different states?</li>
         <li>How much time does your team spend calculating, withholding, and filing quarterly federal (941) and Florida Reemployment taxes (RT-6)?</li>
         <li>Have you ever had to pay an IRS or state penalty due to a delayed payroll tax deposit or a clerical filing error?</li>
-        <li>When you onboard a new worker, how does their payroll and tax documentation sync up with your core accounting or&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system?</li>
+        <li>When you onboard a new worker, how does their payroll and tax documentation sync up with your core accounting or&nbsp;ERP&nbsp;system?</li>
         <li>How does your current system track and adjust for changing local, state, and federal labor laws or payroll tax caps?</li>
         <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
-        <li>What is your current monthly or annual budget for payroll processing and&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;legal advice?</li>
+        <li>What is your current monthly or annual budget for payroll processing and&nbsp;tax compliance&nbsp;legal advice?</li>
       </ul>
     </>
   );
@@ -84,7 +83,7 @@ export default function RightFitSection() {
                 Who ADP Is Right For, Who It Is Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -93,10 +92,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-adp-is-right-for-who-it-is-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-adp-is-right-for-who-it-is-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who ADP Is Right For, Who It Is Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

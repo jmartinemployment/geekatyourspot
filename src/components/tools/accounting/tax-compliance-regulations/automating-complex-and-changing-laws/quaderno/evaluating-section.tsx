@@ -1,18 +1,17 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the
-        right&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;software involves careful consideration of fit and pricing. For small
+        right&nbsp;tax
+        compliance&nbsp;software involves careful consideration of fit and pricing. For small
         businesses in South Florida, Quaderno presents a compelling option by offering a blend of comprehensive
         features and flexible pricing models. Evaluating its fit involves understanding both its capabilities
         and how its pricing aligns with business needs.</p>
       <p className="text-md text-white shadow-text pt-3">
         Quaderno is designed with small to mid-sized businesses in mind, making it an ideal choice for those in
-        the&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        the&nbsp;SaaS,
         e-commerce, and digital product sectors. Its ability to automate VAT, GST, and sales tax calculations
         across multiple jurisdictions is particularly beneficial for businesses looking to expand
         internationally without the overhead of a large finance team.</p>
@@ -64,7 +63,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="evaluating-quaderno-fit-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="evaluating-quaderno-fit-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating Quaderno: Fit and Pricing Model
               </h2>
               {body}

@@ -35,7 +35,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A typical rollout follows a set order:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Connect core data sources:&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, website, ad platforms, and communication tools (Slack, Teams).</li>
+        <li>Connect core data sources:&nbsp;CRM, website, ad platforms, and communication tools (Slack, Teams).</li>
         <li>Define ICP and scoring rules using Factors’ templates, then customize as needed.</li>
         <li>Map key data fields and set up enrichment, pulling firmographics from connected sources.</li>
         <li>Test real-time alerts and review initial account scoring to ensure signals are flowing and notifications are actionable.</li>
@@ -52,7 +52,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The other shortcut is the way Factors handles adoption. Rather than asking sales and marketing to
         learn a new platform from scratch, it pushes alerts and reports directly into the tools they already
-        use, Slack, Teams,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;dashboards. This reduces
+        use, Slack, Teams,&nbsp;CRM&nbsp;dashboards. This reduces
         friction and speeds up the time to first value, because reps do not need to check another dashboard or
         remember to log in somewhere new. The system fits into the existing daily rhythm, not the other way
         around.</p>
@@ -84,7 +84,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-shortens-go-live-with-factors-and-how-the-rollout-actually-happens" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-shortens-go-live-with-factors-and-how-the-rollout-actually-happens-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Shortens Go-Live With Factors and How the Rollout Actually Happens
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
@@ -13,7 +12,7 @@ export default function HowItWorksSection() {
         The process starts with a simple connection to your accounting software. Clockwork reads your general
         ledger, mapping the chart of accounts automatically. This means that every transaction, invoice, and bill is
         captured and integrated into the model. The automation doesn&#39;t stop there;
-        Clockwork&#39;s&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>,
+        Clockwork&#39;s&nbsp;AI,
         named Mira, provides variance commentary and flags anomalies, offering insights that would traditionally
         require a financial analyst.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -53,7 +52,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-clockwork-operates-step-by-step">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-clockwork-operates-step-by-step-lg">
                 How Clockwork Operates: Step by Step
               </h2>
               {body}

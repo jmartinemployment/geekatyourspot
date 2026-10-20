@@ -33,7 +33,7 @@ export default function CloneYourselfSection() {
                     <p className="text-2xl font-black text-white text-center">
                       3x
                     </p>
-                    <p className="ml-2 text-[6px] md:text-xs font-bold text-slate-500 uppercase tracking-widest">
+                    <p className="ml-2 text-[10px] md:text-xs font-bold text-slate-500 uppercase tracking-widest">
                       Productivity
                     </p>
                   </div>
@@ -41,7 +41,7 @@ export default function CloneYourselfSection() {
                 <div className="col-span-1">
                   <div className="w-full bg-[#C83803] text-white rounded-sm shadow-box text-center">
                     <p className="text-2xl font-black text-center">24/7</p>
-                    <p className="text-[6px] md:text-xs font-bold text-orange-200 uppercase tracking-widest text-center">
+                    <p className="text-[10px] md:text-xs font-bold text-orange-200 uppercase tracking-widest text-center">
                       Automated
                     </p>
                   </div>

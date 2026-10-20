@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Configuring TaxJar for multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;is not just about turning on a switch. The platform requires careful
+        Configuring TaxJar for multi-state sales&nbsp;tax
+        compliance&nbsp;is not just about turning on a switch. The platform requires careful
         setup to match the unique footprint of a small business selling across state lines, especially in
         high-growth environments like South Florida. Geek @ Your Spot LLC’s job is to close the gap between TaxJar’s
         automation and your real-world sales channels. Every rule, threshold, and exception must reflect your
@@ -50,15 +49,15 @@ export default function ConfiguringSection() {
         manually, TaxJar generates return-ready reports that match the state’s requirements, including
         breakdowns for city, county, and special district taxes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Extension is possible through the TaxJar&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, which allows
+        Extension is possible through the TaxJar&nbsp;API, which allows
         for custom integrations beyond the standard connectors. This is relevant for businesses with unique
-        workflows or custom-built carts. The&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;supports
+        workflows or custom-built carts. The&nbsp;API&nbsp;supports
         real-time tax calculation, product classification, and transaction ingestion. Geek @ Your Spot LLC works
         with your developers to connect custom systems,
-        test&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls, and ensure that every transaction
+        test&nbsp;API&nbsp;calls, and ensure that every transaction
         flows into TaxJar cleanly. For most small businesses, the default integrations with Shopify, Salesforce,
         Amazon, and others are enough. But when you need more,
-        the&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;is the path.</p>
+        the&nbsp;API&nbsp;is the path.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security and compliance settings are also part of configuration. TaxJar supports GDPR and SOC II
         frameworks, and its platform includes security monitoring and AWS analytics integration. Geek @ Your Spot LLC reviews your data flows, ensures sensitive information is handled according to your compliance
@@ -91,7 +90,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-taxjar-rules-automation-and-extension" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-taxjar-rules-automation-and-extension-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in TaxJar: Rules, Automation, and Extension
               </h2>
               {body}

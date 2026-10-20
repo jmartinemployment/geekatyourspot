@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the
-        right&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
-        forecasting</GlossaryLink>&nbsp;tool involves evaluating its fit for your business size and needs, as well
+        right&nbsp;cash flow
+        forecasting&nbsp;tool involves evaluating its fit for your business size and needs, as well
         as understanding its pricing model. Cashflowfrog is designed to cater to small and medium-sized businesses,
         offering features that scale with your operations. It is essential to consider how its capabilities align
         with your current financial challenges and future growth plans.</p>
@@ -55,7 +54,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-cashflowfrog-fit-and-pricing-model">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-cashflowfrog-fit-and-pricing-model-lg">
                 Evaluating Cashflowfrog: Fit and Pricing Model
               </h2>
               {body}

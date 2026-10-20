@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Smith.ai’s architecture is purpose-built for small businesses that need reliability, flexibility, and
@@ -22,20 +21,20 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Smith.ai’s integration catalog is extensive. The system natively connects with thousands of business
         tools, CRMs like Clio, MyCase, and Lawmatics; project management platforms; scheduling apps; billing
-        systems; and more. Through&nbsp;<Link id="tools-marketing-intelligent-receptionist-smith-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;and Make, Smith.ai extends compatibility to over 7,000 additional
+        systems; and more. Through&nbsp;<Link id={`tools-marketing-intelligent-receptionist-smith-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;and Make, Smith.ai extends compatibility to over 7,000 additional
         apps, covering just about every workflow a small business in South Florida might run. This means call
         data, intake forms, and appointment bookings flow directly into your existing software, keeping records
         up to date without manual entry or copy-paste errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform also supports website and mobile app integration. Smith.ai can power live chat, capture
         leads from web forms, and sync those interactions with
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        your&nbsp;CRM&nbsp;or
         marketing automation tools. For businesses running WordPress, Smith.ai even works with Ninja Forms to
         screen and qualify leads right from your site, passing on only those that meet your criteria.</p>
       <p className="text-md text-white shadow-text pt-3">
         Every interaction, whether a phone call, chat, or form submission, generates a structured data record.
         Smith.ai logs the details, transcribes calls, and attaches summaries to the relevant contact or case in
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. For
+        your&nbsp;CRM. For
         new leads, the system creates a prospect record with all the intake information, ready for follow-up or
         automated nurturing. For existing clients, new conversations are appended to their record, keeping the
         full history in one place. This data-first approach means you always have a complete picture of your
@@ -56,7 +55,7 @@ export default function ArchitectureSection() {
         For a small business in Miami-Dade, Broward, or West Palm Beach counties, this means Smith.ai is not
         just another answering service, it is a fully integrated extension of your operations. All the lead
         capture, intake, and routing happens inside the systems you already use, with no need to replace
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        your&nbsp;CRM&nbsp;or
         retrain your staff. And because the architecture is built for adaptability, you can update call flows,
         add new integrations, or tweak intake questions as your business evolves, without waiting weeks for a
         vendor to catch up.</p>
@@ -74,7 +73,7 @@ export default function ArchitectureSection() {
                 Smith.ai’s Technical Backbone: Architecture, Integrations, and Data Flow
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -83,10 +82,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="smith-ai-s-technical-backbone-architecture-integrations-and-data-flow" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="smith-ai-s-technical-backbone-architecture-integrations-and-data-flow-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Smith.ai’s Technical Backbone: Architecture, Integrations, and Data Flow
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

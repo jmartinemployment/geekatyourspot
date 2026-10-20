@@ -51,8 +51,8 @@ export default function LedeSection() {
                 AI content creation tools like&nbsp;<Link id="ai-content-creation-workflow-streamlining-jasper-ai-1"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
-                </Link>,&nbsp;and&nbsp;
-                Copy.ai,&nbsp; offer a way out of this cycle. These tools leverage artificial
+                </Link>&nbsp;and&nbsp;
+                Copy.ai&nbsp;offer a way out of this cycle. These tools leverage artificial
                 intelligence to automate content generation, significantly reducing the time and effort required to produce
                 high-quality materials. Whether you&#39;re drafting a blog post or crafting a social media update, AI can handle
                 repetitive tasks, allowing your team to focus on strategy and creativity.</p>
@@ -71,7 +71,8 @@ export default function LedeSection() {
                 Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
-              <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">How to Streamline Your Content Workflow with AI</Link> on our blog.</p>
+              <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">Streamline Content Workflows with AI</Link> on our blog.</p>
+              <p className="text-md text-white shadow-text pt-3">Content planning comes first in the workflow, and <Link id="use-cases-marketing-ai-content-creation-workflow-lede-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> covers it in depth.</p>
             </div>
           </div>
         </div>
@@ -88,7 +89,7 @@ export default function LedeSection() {
                 loading="lazy" />
             </div>
             <div className="col-span-7">
-              <h2 id="streamlining-your-marketing-with-ai-content-creation-workflow" className="text-white md:text-6xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="streamlining-your-marketing-with-ai-content-creation-workflow-lg" className="text-white md:text-6xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Streamlining Your Marketing with AI Content Creation Workflow
               </h2>
               <p className="text-md text-white shadow-text pt-3">
@@ -99,10 +100,10 @@ export default function LedeSection() {
               <p className="text-md text-white shadow-text pt-3">
                 Imagine if you could cut those hours down significantly while maintaining quality and creativity. This is where
                 AI-assisted <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>&nbsp;steps in. By automating repetitive tasks, AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-jasper-ai"
+                <Link id="ai-content-creation-workflow-streamlining-jasper-ai-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
-                </Link>,&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-lede-copy" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#C83803] hover:underline">Copy.ai</Link>, &nbsp;and&nbsp;
+                </Link>,&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-lede-copy-lg" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#C83803] hover:underline">Copy.ai</Link>, &nbsp;and&nbsp;
                 ChatGPT&nbsp; help marketers generate content efficiently, reducing errors and
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
@@ -117,10 +118,10 @@ export default function LedeSection() {
                 This inefficiency can lead to missed opportunities and increased costs, putting a strain on already limited
                 resources.</p>
               <p className="text-md text-white shadow-text pt-3">
-                AI content creation tools like&nbsp;<Link id="ai-content-creation-workflow-streamlining-jasper-ai-2"
+                AI content creation tools like&nbsp;<Link id="ai-content-creation-workflow-streamlining-jasper-ai-2-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
-                </Link>,&nbsp;and&nbsp;
+                </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;offer a way out of this cycle. These tools leverage artificial
                 intelligence to automate content generation, significantly reducing the time and effort required to produce
                 high-quality materials. Whether you&#39;re drafting a blog post or crafting a social media update, AI can handle
@@ -128,7 +129,7 @@ export default function LedeSection() {
               <p className="text-md text-white shadow-text pt-3">
                 Moreover, AI-driven solutions help in <GlossaryLink slug="content-repurposing">repurposing</GlossaryLink>&nbsp;existing content, maximizing its reach and effectiveness without
                 starting from scratch each time. Tools like&nbsp;
-                <Link id="ai-content-creation-workflow-streamlining-contentstudio-2"
+                <Link id="ai-content-creation-workflow-streamlining-contentstudio-2-lg"
                   href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">
                   ContentStudio
                 </Link>&nbsp; enable bulk
@@ -140,7 +141,8 @@ export default function LedeSection() {
                 Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
-              <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">How to Streamline Your Content Workflow with AI</Link> on our blog.</p>
+              <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog-lg" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">Streamline Content Workflows with AI</Link> on our blog.</p>
+              <p className="text-md text-white shadow-text pt-3">Content planning comes first in the workflow, and <Link id="use-cases-marketing-ai-content-creation-workflow-lede-content-planning-lg-lg" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> covers it in depth.</p>
             </div>
           </div>
         </div>

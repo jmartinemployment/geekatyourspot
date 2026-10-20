@@ -14,8 +14,7 @@ export default function IntroductionSection() {
               <h2 id="introduction-to-ai-marketing-systems" className="text-white lg:text-4xl font-black font-[var(--font-sora)] shadow-text">
                 Introduction to AI Marketing Systems
               </h2>
-              <p className="text-md text-white shadow-text pt-3">Enter AI Marketing Systems. These intelligent solutions streamline marketing efforts by automating repetitive
-                Many small businesses struggle with the high costs and inefficiencies of traditional marketing methods. Manual
+              <p className="text-md text-white shadow-text pt-3">Many small businesses struggle with the high costs and inefficiencies of traditional marketing methods. Manual
                 tasks such as managing customer data, executing campaigns, and analyzing market trends can lead to delays and
                 errors. These challenges often result in missed opportunities and wasted resources. AI marketing systems offer a
                 solution by automating these processes, allowing businesses to focus on strategic growth rather than operational
@@ -79,7 +78,7 @@ export default function IntroductionSection() {
                   deploying these tools to ensure that advertising dollars are spent wisely, achieving better results with less waste.
                 </p>
                 <h4 id="predictive-analytics-for-advertising" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Predictive Analytics for Advertising</h4>
-                <p className="text-md text-white shadow-text pt-3"><GlossaryLink slug="analytics">Predictive analytics</GlossaryLink> use historical data to forecast future ad performance, allowing businesses to make informed
+                <p className="text-md text-white shadow-text pt-3">Predictive analytics use historical data to forecast future ad performance, allowing businesses to make informed
                   decisions about where to allocate their marketing budget. Geek @ Your Spot LLC helps businesses implement predictive
                   analytics tools, enhancing their ability to plan and execute more effective advertising strategies.</p>
               </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function StatusQuoSection() {
   const body = (
@@ -21,7 +20,7 @@ export default function StatusQuoSection() {
         the time someone gets around to it, the buyer’s already moved on or found another supplier. This delay
         is one of the biggest killers of pipeline momentum for small businesses. Apollo and Factors both cut
         this lag to seconds by pushing enriched, scored leads directly into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so your team can reach out while the prospect
+        your&nbsp;CRM, so your team can reach out while the prospect
         is still thinking about you, not hours or days later.</p>
       <p className="text-md text-white shadow-text pt-3">
         Then come the errors. Manual entry means mistakes, misspelled domains, missing phone numbers, or
@@ -79,7 +78,7 @@ export default function StatusQuoSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-real-cost-of-manual-lead-management-wasted-hours-missed-revenue-and-burnout" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-real-cost-of-manual-lead-management-wasted-hours-missed-revenue-and-burnout-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Real Cost of Manual Lead Management: Wasted Hours, Missed Revenue, and Burnout
               </h2>
               {body}

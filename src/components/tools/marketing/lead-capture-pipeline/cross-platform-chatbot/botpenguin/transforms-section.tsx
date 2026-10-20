@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -27,7 +26,7 @@ export default function TransformsSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>WhatsApp, Instagram, Facebook Messenger, SMS, and website chat all managed in one inbox, no more switching tabs or missing messages.</li>
         <li>Automated replies and qualification flows start the second a lead reaches out, so no one waits for a response.</li>
-        <li>Lead details and conversation context are pushed straight into the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so the sales team always works from the latest information.</li>
+        <li>Lead details and conversation context are pushed straight into the&nbsp;CRM, so the sales team always works from the latest information.</li>
         <li>Live agent handoff is built in, when a customer needs a real person, the conversation transfers smoothly, with no lost context.</li>
         <li>After-hours and weekend inquiries are handled automatically; prospects never see a blank screen or get left waiting.</li>
         <li>Customizable workflows mean the chatbot can be tailored to the business’s own sales process, qualifying leads before a person ever gets involved.</li>
@@ -35,7 +34,7 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         The impact is clear in real-world outcomes. Galaxy Toyota generated over 800 qualified leads by
         unifying Instagram, Facebook, WhatsApp, and website chats into one pipeline, with every inquiry
-        auto-transferred into their&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;within seconds.
+        auto-transferred into their&nbsp;CRM&nbsp;within seconds.
         Teams using BotPenguin are not just faster, they are more consistent. Every customer gets the same
         answers, every time, no matter who is on shift. Pricing, product information, and follow-up steps stay
         accurate. There is no confusion or lost sales because of inconsistent replies or missed details.</p>
@@ -77,7 +76,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-botpenguin-cross-platform-chatbot-returns-hours-and-missed-leads" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-botpenguin-cross-platform-chatbot-returns-hours-and-missed-leads-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How BotPenguin Cross-Platform Chatbot Returns Hours and Missed Leads
               </h2>
               {body}

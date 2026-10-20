@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -43,7 +42,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration is another line of separation. Many answering apps operate as isolated silos, dumping call
         logs into email or making you re-enter data into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>.
+        your&nbsp;CRM.
         Smith.ai natively syncs with over 7,000 business systems, CRMs, field service software, scheduling
         tools, and more. That means every qualified lead, intake form, and appointment lands directly in your
         workflow, without double entry or manual cleanup. For businesses that already rely on platforms like
@@ -82,7 +81,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-smith-ai-s-hybrid-model-stacks-up-against-pure-ai-and-manual-reception" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-smith-ai-s-hybrid-model-stacks-up-against-pure-ai-and-manual-reception-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Smith.ai’s Hybrid Model Stacks Up Against Pure AI and Manual Reception
               </h2>
               {body}

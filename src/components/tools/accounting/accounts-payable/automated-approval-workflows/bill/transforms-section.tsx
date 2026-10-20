@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -12,7 +11,7 @@ export default function TransformsSection() {
         focusing on strategic tasks.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform&#39;s&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-powered invoice intake and coding significantly reduce
+        AI-powered invoice intake and coding significantly reduce
         manual data entry. It captures invoice details automatically, assigning coding based on prior
         patterns or established rules. This capability not only speeds up the process but also enhances
         accuracy, allowing teams to focus on higher-value work rather than repetitive tasks. For businesses
@@ -59,7 +58,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-approval-workflows-lg">
                 How Bill Transforms Automated Approval Workflows
               </h2>
               {body}

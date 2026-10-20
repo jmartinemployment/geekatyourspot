@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
@@ -35,12 +34,12 @@ export default function DecisionsSection() {
         cannot “add” a human network as an afterthought; you are in or out from day one.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration is another decision that closes doors fast. If your operation sits on fragmented tools, one
-        app for calls, another for chat, a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;that is never
+        app for calls, another for chat, a&nbsp;CRM&nbsp;that is never
         up to date, you are exposing yourself to blind spots and friction that will never go away without a
         rebuild. Nextiva is designed to pull your calls, SMS, and chat into one dashboard, so nothing slips
         through. LobbyStack gives technical teams the ability to build their own integrations directly, without
         waiting for a vendor’s roadmap. Choosing a solution that cannot reach
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, calendar, or field service platform on day one is
+        your&nbsp;CRM, calendar, or field service platform on day one is
         a choice to keep living with manual entry and missed follow-ups.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, decide now if you want to run your own infrastructure, or if you need to keep things as
@@ -78,7 +77,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-early-choices-that-shape-your-intelligent-receptionist-deployment-forever" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-early-choices-that-shape-your-intelligent-receptionist-deployment-forever-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Early Choices That Shape Your Intelligent Receptionist Deployment Forever
               </h2>
               {body}

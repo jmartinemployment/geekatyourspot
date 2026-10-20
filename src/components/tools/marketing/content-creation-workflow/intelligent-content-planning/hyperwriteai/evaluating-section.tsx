@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -12,7 +11,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Start with fit. HyperWrite is built for small business owners, founders, marketers, and teams who
         spend their day switching between Gmail, Google Docs, LinkedIn,
-        and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;tabs. If your team burns hours on repetitive
+        and&nbsp;CRM&nbsp;tabs. If your team burns hours on repetitive
         writing, email responses, meeting notes, follow-ups, and loses momentum bouncing between tools,
         HyperWrite’s inline, context-aware AI assistant is a direct fix. The platform’s Personas feature is
         especially suited for teams where brand voice is critical but hard to maintain, such as founder-led
@@ -42,7 +41,7 @@ export default function EvaluatingSection() {
         voice consistent, even as your team grows? Does it make it easier to launch campaigns across email,
         social, and web without hiring more people? For most small businesses in Miami-Dade, Broward, and West
         Palm Beach, the answer is yes. The tool’s automation logic, inline writing support,
-        and&nbsp;<GlossaryLink slug="content-repurposing" className="text-[#0B162A] hover:underline">content repurposing</GlossaryLink>&nbsp;capabilities
+        and&nbsp;content repurposing&nbsp;capabilities
         are all tuned for marketing operations that need to do more with less.</p>
       <p className="text-md text-white shadow-text pt-3">
         A practical evaluation means running HyperWrite in a real campaign cycle. Try the free plan, set up
@@ -82,7 +81,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-evaluate-hyperwrite-fit-pricing-and-what-actually-matters-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-evaluate-hyperwrite-fit-pricing-and-what-actually-matters-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Evaluate HyperWrite: Fit, Pricing, and What Actually Matters for Small Teams
               </h2>
               {body}

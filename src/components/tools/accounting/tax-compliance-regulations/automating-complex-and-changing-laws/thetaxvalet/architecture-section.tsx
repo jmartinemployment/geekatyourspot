@@ -29,8 +29,8 @@ export default function ArchitectureSection() {
         In summary, TaxValet&#39;s architecture is designed to integrate effortlessly with your existing
         systems, handle the technical complexities of sales tax management, and provide a secure, scalable
         solution for businesses of all sizes. This ensures that you can focus on growing your business, knowing
-        that your sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;is in capable hands.</p>
+        that your sales&nbsp;tax
+        compliance&nbsp;is in capable hands.</p>
     </>
   );
 
@@ -54,7 +54,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="taxvalet-s-architecture-and-integrations" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="taxvalet-s-architecture-and-integrations-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 TaxValet&#39;s Architecture and Integrations
               </h2>
               {body}

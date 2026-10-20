@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -48,7 +47,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in South Florida, these costs are not theoretical. They show up as overtime, missed
         growth opportunities, and sleepless nights. The fear of moving to a
-        &quot;big&quot;&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;keeps many stuck in this cycle,
+        &quot;big&quot;&nbsp;ERP&nbsp;keeps many stuck in this cycle,
         worried about the cost and disruption of change. But the longer the status quo holds, the more it costs,
         in time, in money, and in peace of mind. Intelligent Resource Planning done by hand is not just
         inefficient; it is a roadblock to growth.</p>
@@ -74,7 +73,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What it costs to keep doing this by hand
               </h2>
               {body}

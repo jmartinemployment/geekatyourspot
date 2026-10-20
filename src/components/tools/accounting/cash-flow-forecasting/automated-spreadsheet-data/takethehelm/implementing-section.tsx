@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -15,8 +14,8 @@ export default function ImplementingSection() {
         processes. This step is crucial for identifying the specific needs and potential challenges that might
         arise during integration. Geek @ Your Spot LLC, the consultancy implementing Take the Helm, conducts this
         assessment to tailor the setup process to the client&#39;s unique requirements. This personalized
-        approach ensures that the transition to automated&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash
-        flow forecasting</GlossaryLink>&nbsp;is seamless and effective.</p>
+        approach ensures that the transition to automated&nbsp;cash
+        flow forecasting&nbsp;is seamless and effective.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once the assessment is complete, the next step is the actual setup of Take the Helm. Thanks to its
         intuitive interface and pre-configured templates, the setup process is quick and straightforward.
@@ -58,7 +57,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="going-live-with-takethehelm-streamlined-setup-and-integration">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="going-live-with-takethehelm-streamlined-setup-and-integration-lg">
                 Going Live with Take the Helm: Streamlined Setup and Integration
               </h2>
               {body}

@@ -15,11 +15,12 @@ import FaqSection from "@/components/tools/marketing/lead-capture-pipeline/intel
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "My AI Front Desk";
 const PAGE_TITLE = "My AI Front Desk as an Intelligent Receptionist";
 const DESCRIPTION =
-    "Intelligent Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments automatically";
+    "Intelligent Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments.";
 const CANONICAL = "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -78,14 +79,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

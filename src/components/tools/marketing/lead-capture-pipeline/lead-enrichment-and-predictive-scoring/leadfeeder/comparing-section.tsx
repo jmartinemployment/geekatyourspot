@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in Miami-Dade, Broward, and Palm Beach are not choosing Leadfeeder in a vacuum. They
@@ -13,7 +12,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Leadfeeder’s main distinction is its focus on company-level identification and real-time intent
         scoring, not just contact enrichment or static lead lists. Where traditional enrichment tools append
-        extra fields to an existing&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;record, Leadfeeder
+        extra fields to an existing&nbsp;CRM&nbsp;record, Leadfeeder
         starts upstream: it unmasks anonymous website visitors by matching their IP address to a proprietary
         global database of 60 million companies. This process is not about collecting more data for its own
         sake, it is about surfacing the 30–50% of your web traffic that is actually B2B, filtering out the
@@ -31,7 +30,7 @@ export default function ComparingSection() {
         plug-and-play enrichment services, the difference is not just in data depth, but in automation.
         Leadfeeder does not require a rep to chase down LinkedIn profiles or guess whether a company is in the
         market. Its scoring model weighs visit frequency, recency, and engagement depth, then pushes a ranked
-        list of accounts straight to the team’s&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        list of accounts straight to the team’s&nbsp;CRM&nbsp;or
         Slack. This is a sharp break from legacy approaches that hand over a static CSV or leave it to sales
         to decide which records to call.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,7 +48,7 @@ export default function ComparingSection() {
         not a generic fit score or a one-size-fits-all rule. It lets a business dial in the model to match
         their actual sales process, so the daily hit-list reflects real buying intent, not just website noise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For those considering tools like&nbsp;<Link id="tools-marketing-lead-enrichment-leadfeeder-comparing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>,&nbsp;<Link id="tools-marketing-lead-enrichment-leadfeeder-comparing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>, or Clearbit, the key difference is that
+        For those considering tools like&nbsp;<Link id={`tools-marketing-lead-enrichment-leadfeeder-comparing-6sense${idSuffix}`} href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>,&nbsp;<Link id={`tools-marketing-lead-enrichment-leadfeeder-comparing-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>, or Clearbit, the key difference is that
         Leadfeeder is purpose-built for the small business use-case: quick setup, minimal IT lift, and a
         pay-for-what-you-use model. Some platforms are better suited for enterprise stacks with dedicated
         RevOps teams and custom data lakes. Leadfeeder’s architecture is designed to deliver value in days,
@@ -86,7 +85,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +93,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-leadfeeder-compares-to-other-lead-enrichment-and-predictive-scoring-tools" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-leadfeeder-compares-to-other-lead-enrichment-and-predictive-scoring-tools-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Leadfeeder Compares to Other Lead Enrichment and Predictive Scoring Tools
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -38,7 +37,7 @@ export default function ChallengesSection() {
         service, or process improvement, valuable team members spend their days shuffling data and fixing
         errors. For a business that wants to scale, this is unsustainable. Hundreds of billable hours can vanish
         just trying to map messy records into the structure
-        an&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system needs, often before the software even
+        an&nbsp;ERP&nbsp;system needs, often before the software even
         goes live. Every hour spent on manual reconciliation is an hour not spent on something that moves the
         business forward.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -69,7 +68,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-resource-planning-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-resource-planning-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing Resource Planning by Hand
               </h2>
               {body}

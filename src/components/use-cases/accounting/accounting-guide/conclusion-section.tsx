@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ConclusionSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Manual accounting keeps a business in a reactive posture. You learn about a cash shortfall after it
@@ -40,7 +40,7 @@ export default function ConclusionSection() {
         Your Next Step: An Architectural Infrastructure Audit
       </h3>
       <p className="text-md text-white shadow-text pt-3">
-        The fastest way to find your own black boxes is an <strong><Link id="use-cases-accounting-conclusion-audit" href="/architectural-infrastructure-audit" className="text-[#0B162A] hover:underline">Architectural
+        The fastest way to find your own black boxes is an <strong><Link id={`use-cases-accounting-conclusion-audit${idSuffix}`} href="/architectural-infrastructure-audit" className="text-[#0B162A] hover:underline">Architectural
         Infrastructure Audit</Link></strong>. We review your ledger, payables, receivables, forecasting, sales
         tax, and payroll setup. We show you where data is typed twice, where approvals leave no trail, where a
         spreadsheet holds up a decision, and where a compliance deadline depends on one person’s memory. You
@@ -48,7 +48,7 @@ export default function ConclusionSection() {
       <p className="text-md text-white shadow-text pt-3">
         The audit begins with a free consultation, and there is no obligation. Book your time with the
         scheduler below, and we will start with your business rather than a software pitch. You can also read
-        how we work on our <Link id="use-cases-accounting-conclusion-methodology" href="/methodology" className="text-[#0B162A] hover:underline">methodology
+        how we work on our <Link id={`use-cases-accounting-conclusion-methodology${idSuffix}`} href="/methodology" className="text-[#0B162A] hover:underline">methodology
         page</Link>.</p>
     </>
   );
@@ -64,7 +64,7 @@ export default function ConclusionSection() {
                 From Reactive Bookkeeping to Predictive Control
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -73,10 +73,10 @@ export default function ConclusionSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="from-reactive-bookkeeping-to-predictive-control" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="from-reactive-bookkeeping-to-predictive-control-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 From Reactive Bookkeeping to Predictive Control
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

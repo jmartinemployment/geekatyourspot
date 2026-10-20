@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
@@ -22,7 +21,7 @@ export default function RightFitSection() {
         or running into disputes about which version of the forecast is the right one, you are ready for
         something built for the job. At this point, tools like Jirav and Take the Helm step in. Jirav is built
         for automating rolling forecasts and linking your accounting, payroll,
-        and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;data
+        and&nbsp;CRM&nbsp;data
         into one dashboard. This lets you see your capital runway and hiring plans in one view, not a maze of
         files. Take the Helm gives you a live, drag-and-drop cash runway, mapping every invoice and bill on a
         timeline so you see the impact of every payment delay or surprise expense before it hits your bank
@@ -31,7 +30,7 @@ export default function RightFitSection() {
         Some businesses, though, should not make the jump yet. If your data is a mess, half in paper, half in
         disconnected files, or months behind, automation will only reveal the problem, not fix it. Cashflowfrog
         and Fathom both rely on having accurate, up-to-date ledgers to generate the real-time dashboards
-        and&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">KPI</GlossaryLink>&nbsp;insights
+        and&nbsp;KPI&nbsp;insights
         that make the investment worth it. The first move in these cases is a cleanup, not a new tool. If your
         team will not keep the books current, no system will forecast tomorrow&#39;s cash accurately.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -55,8 +54,8 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         In short: move to Intelligent Resource Planning when your manual process is holding back growth, not
         before. If you are not sure, a short,
-        structured&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
-        quality</GlossaryLink>&nbsp;and workflow review is the best next step. Sometimes all you need is to
+        structured&nbsp;data
+        quality&nbsp;and workflow review is the best next step. Sometimes all you need is to
         tighten your current system; sometimes you are ready to automate. The right call is the one that fits
         where you are today, not where the software demo says you should be.</p>
     </>
@@ -81,7 +80,7 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-intelligent-resource-planning-is-the-right-move-and-when-it-is-not" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-intelligent-resource-planning-is-the-right-move-and-when-it-is-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Intelligent Resource Planning Is the Right Move, and When It Is Not
               </h2>
               {body}

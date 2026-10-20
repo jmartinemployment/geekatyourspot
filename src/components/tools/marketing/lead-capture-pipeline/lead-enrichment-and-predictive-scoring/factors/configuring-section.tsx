@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -27,7 +26,7 @@ export default function ConfiguringSection() {
         Factors that trigger alerts and tasks the moment a high-intent account crosses a threshold. For
         example, if a local business in Palm Beach returns to your pricing page three times in a week and
         clicks a LinkedIn ad, Factors can immediately alert your sales rep in Slack or Teams. The system can
-        also push enriched contact data directly into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        also push enriched contact data directly into your&nbsp;CRM,
         start a personalized email sequence, or update your ad audiences in LinkedIn and Google so you only
         target the accounts that are actually in-market.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -52,7 +51,7 @@ export default function ConfiguringSection() {
         those connections are configured so all your data flows into Factors’ scoring and automation logic.</p>
       <p className="text-md text-white shadow-text pt-3">
         The extension mechanism in Factors is its integration layer. There is no
-        open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for custom coding, so the work is in
+        open&nbsp;API&nbsp;for custom coding, so the work is in
         mapping your own data sources, tuning the scoring and automation rules, and building the right
         workflows for your sales and marketing teams. Geek @ Your Spot LLC takes care of the details, no CSV
         uploads, no manual list management, and no stale reports. Everything updates in real time based on
@@ -84,7 +83,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-factors-rules-automation-and-how-geek-your-spot-makes-it-work-for-you" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-factors-rules-automation-and-how-geek-your-spot-makes-it-work-for-you-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Factors: Rules, Automation, and How Geek @ Your Spot LLC Makes It Work for You
               </h2>
               {body}

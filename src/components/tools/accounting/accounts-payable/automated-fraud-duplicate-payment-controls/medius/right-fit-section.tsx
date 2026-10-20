@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Medius is particularly well-suited for small to medium-sized businesses in Miami-Dade, Broward, and
         West Palm Beach counties that require robust Automated Fraud &amp; Duplicate Payment Controls.
-        Its&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-driven capabilities make it ideal for businesses
+        Its&nbsp;AI-driven capabilities make it ideal for businesses
         looking to enhance their financial security and streamline&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes.</p>
+        accounts payable&nbsp;processes.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform is less suited for businesses that do not have a significant volume of transactions or
         those that already have a highly customized accounts payable system in place. For these businesses,
@@ -30,7 +29,7 @@ export default function RightFitSection() {
         immediate benefits of fraud prevention and efficiency but also the long-term advantages of a system
         that evolves with their needs.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-accounting-fraud-controls-medius-right-fit-consultation"
+        <Link id={`tools-accounting-fraud-controls-medius-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book your free consultation
         </Link>.</p>
@@ -48,7 +47,7 @@ export default function RightFitSection() {
                 Is Medius Right for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +56,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-medius-right-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-medius-right-for-your-business-lg">
                 Is Medius Right for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

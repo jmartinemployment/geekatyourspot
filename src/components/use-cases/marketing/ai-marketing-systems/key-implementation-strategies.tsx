@@ -58,7 +58,7 @@ export default function KeyImplementationStrategiesSection() {
               width="460"
               height="460"
               src="/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-h2-key-implementation-strategies1.avif"
-              alt="KeyImplementationStrategiesSection"
+              alt="AI at the center of four implementation stages: planning, implementing, integration and monitoring"
               loading="lazy"
               style={{ width: '100%', height: '460' }} />
           </div>

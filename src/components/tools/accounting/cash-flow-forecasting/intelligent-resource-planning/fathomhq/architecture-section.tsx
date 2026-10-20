@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -56,7 +55,7 @@ export default function ArchitectureSection() {
         with a mix of cloud and desktop tools, or those who still rely on spreadsheets for some processes, this
         is a practical path to Intelligent Resource Planning. Fathom brings all the data into one place, makes
         it live and actionable, and scales as the business grows, without the pain of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;overhaul.</p>
+        full&nbsp;ERP&nbsp;overhaul.</p>
     </>
   );
 
@@ -80,7 +79,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="fathom-s-architecture-what-it-integrates-where-data-lives-and-how-it-scales" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="fathom-s-architecture-what-it-integrates-where-data-lives-and-how-it-scales-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Fathom’s Architecture: What It Integrates, Where Data Lives, and How It Scales
               </h2>
               {body}

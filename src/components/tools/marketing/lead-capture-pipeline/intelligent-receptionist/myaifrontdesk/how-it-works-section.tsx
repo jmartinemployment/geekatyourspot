@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk responds to every inbound call, text, or chat as soon as it comes in, no matter the
@@ -30,10 +29,10 @@ export default function HowItWorksSection() {
         text, so you do not lose leads after business hours.</p>
       <p className="text-md text-white shadow-text pt-3">
         Every conversation, call, text, or chat, is logged to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;automatically.
+        your&nbsp;CRM&nbsp;automatically.
         My AI Front Desk creates or updates the contact record, attaches a full transcript and AI-generated
         summary, and tags the outcome (booked, transferred, callback, or no action). This means you get a
-        complete, searchable record of every inquiry, visible in HubSpot, Salesforce,&nbsp;<Link id="tools-marketing-intelligent-receptionist-myaifrontdesk-how-it-works-pipedrive" href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, or Zoho without
+        complete, searchable record of every inquiry, visible in HubSpot, Salesforce,&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-how-it-works-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, or Zoho without
         manual entry. If a call requires human judgment or empathy, the AI escalates it, transferring the caller
         or chat to a real person with all the conversation context included.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -66,7 +65,7 @@ export default function HowItWorksSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -74,10 +73,10 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-my-ai-front-desk-handles-calls-texts-and-booking-in-real-time" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-my-ai-front-desk-handles-calls-texts-and-booking-in-real-time-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How My AI Front Desk Handles Calls, Texts, and Booking in Real Time
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

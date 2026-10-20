@@ -2,13 +2,13 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Quaderno is ideally suited for small to mid-sized digital businesses that operate across multiple
-        jurisdictions. Its automated&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;features are particularly beneficial
-        for&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;companies, e-commerce businesses, and
+        jurisdictions. Its automated&nbsp;tax
+        compliance&nbsp;features are particularly beneficial
+        for&nbsp;SaaS&nbsp;companies, e-commerce businesses, and
         digital product creators who sell internationally. These businesses often face the challenge of managing
         complex tax regulations without the resources of larger enterprises.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -35,7 +35,7 @@ export default function RightFitSection() {
         and less on administrative tasks. For those ready to take the next step, consulting with Geek @ Your Spot LLC can provide the guidance needed to implement Quaderno effectively.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-complex-changing-laws-quaderno-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-complex-changing-laws-quaderno-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
@@ -59,7 +59,7 @@ export default function RightFitSection() {
                 Who Benefits from Quaderno and What&#39;s Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -68,10 +68,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-benefits-from-quaderno-and-what-s-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-benefits-from-quaderno-and-what-s-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Benefits from Quaderno and What&#39;s Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

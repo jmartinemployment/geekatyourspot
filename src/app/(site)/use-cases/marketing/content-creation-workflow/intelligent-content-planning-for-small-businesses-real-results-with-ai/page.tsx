@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/marketing/content-creation-workfl
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Content Planning";
 const DESCRIPTION =
     "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.";
 const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-planning`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-18T13:01:40.3179029Z",
             "dateModified": "2026-10-18T13:01:40.3179029Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Content Planning, AI content workflow, automated content generation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, small business AI, West Palm Beach AI consulting, Miami-Dade content automation",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/hootsuite#software` },
-                { "@id": `${TOOLS_BASE}/hyperwriteai#software` },
-                { "@id": `${TOOLS_BASE}/scalenut#software` },
-                { "@id": `${TOOLS_BASE}/semrush#software` },
-                { "@id": `${TOOLS_BASE}/marketmuse#software` }
+                { "@id": "https://geekatyourspot.com/#software-hootsuite" },
+                { "@id": "https://geekatyourspot.com/#software-hyperwrite" },
+                { "@id": "https://geekatyourspot.com/#software-scalenut" },
+                { "@id": "https://geekatyourspot.com/#software-semrush" },
+                { "@id": "https://geekatyourspot.com/#software-marketmuse" }
             ]
         },
         {
@@ -60,7 +58,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "Can these tools handle multi-channel ideation, or are they strictly limited to writing text-based blog posts?", "acceptedAnswer": {"@type": "Answer", "text": "The data that powers these AI tools is not limited to blogs. A single cluster of high-intent questions can be used for blog posts, video scripts, email campaigns, or even educational social media slides. The same content plan can guide your team across any channel where your customers are active."}},
                 {"@type": "Question", "name": "Our marketing coordinator is great at social media and design, but has no training in data analytics. Will they be able to manage an AI topic clustering platform?", "acceptedAnswer": {"@type": "Answer", "text": "Modern AI planning tools handle the complex data work for you. Your team does not need to learn analytics to use them. The software gives you clear visuals and ready-to-use content briefs. Your coordinator’s job becomes curating and editing topics to match your goals and local audience. Training takes less than two hours."}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -81,14 +80,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

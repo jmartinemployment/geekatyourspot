@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the example of Lisa, a small business owner who finds herself drowning in a sea of invoices every
@@ -18,7 +18,7 @@ export default function LedeSection() {
         reduces errors and speeds up payments but also liberates business owners to focus on growth rather
         than paperwork. This page lays out how this transition can redefine business efficiency, saving you
         time and reducing costs while keeping your payment processes transparent and secure.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-payment-execution-lede-blog" href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">How Automated Payment Execution Transforms Your Bottom Line</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payment-execution-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> on our blog.</p>
     </>
   );
 
@@ -33,7 +33,7 @@ export default function LedeSection() {
                 Breaking Free from Manual Payment Nightmares
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -42,10 +42,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="breaking-free-from-manual-payment-nightmares" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="breaking-free-from-manual-payment-nightmares-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Breaking Free from Manual Payment Nightmares
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

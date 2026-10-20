@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        When choosing a&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;solution, small businesses often weigh multiple options. Zamp stands out
+        When choosing a&nbsp;tax
+        compliance&nbsp;solution, small businesses often weigh multiple options. Zamp stands out
         in the landscape by offering a fully managed service that combines automation with expert oversight.
         This contrasts with platforms
-        like&nbsp;Avalara&nbsp;and&nbsp;<Link id="tools-accounting-complex-changing-laws-zamp-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
+        like&nbsp;Avalara&nbsp;and&nbsp;<Link id={`tools-accounting-complex-changing-laws-zamp-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,
         which primarily focus on self-service models.</p>
       <p className="text-md text-white shadow-text pt-3">
         Avalara, for instance, provides a suite of tools for sales tax compliance but requires businesses to
@@ -52,7 +51,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -60,10 +59,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="comparing-zamp-with-other-tax-compliance-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="comparing-zamp-with-other-tax-compliance-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Comparing Zamp with Other Tax Compliance Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

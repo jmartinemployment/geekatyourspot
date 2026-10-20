@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In the ever-evolving landscape of taxation, businesses often find themselves navigating a complex
@@ -18,7 +18,8 @@ export default function OverviewSection() {
         reducing the risk of costly errors and penalties. By adopting these technologies, organizations can
         focus more on strategic growth and less on the intricacies of tax law, turning a potential quagmire into
         a streamlined, efficient process.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-tax-compliance-overview-blog" href="/blog/accounting/how-ai-is-revolutionizing-tax-compliance-what-you-need-to-know" className="text-[#C83803] hover:underline">AI Tax Compliance, What to Know</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-tax-compliance-overview-blog${idSuffix}`} href="/blog/accounting/how-ai-is-revolutionizing-tax-compliance-what-you-need-to-know" className="text-[#C83803] hover:underline">AI Tax Compliance, What to Know</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">Tax compliance is one of our <Link id={`use-cases-accounting-tax-compliance-overview-accounting-hub${idSuffix}`} href="/use-cases/accounting" className="text-[#C83803] hover:underline">Accounting &amp; Finance Use Cases</Link>, and its pillars include <Link id={`use-cases-accounting-tax-compliance-overview-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Intelligent Multi-State Sales Tax</Link> and <Link id={`use-cases-accounting-tax-compliance-overview-payroll-tax${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance" className="text-[#C83803] hover:underline">Intelligent Payroll Tax</Link>.</p>
     </>
   );
 
@@ -33,7 +34,7 @@ export default function OverviewSection() {
                 Navigating the Labyrinth: Embracing Automated Tax Compliance
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -42,10 +43,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="navigating-the-labyrinth-embracing-automated-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="navigating-the-labyrinth-embracing-automated-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Navigating the Labyrinth: Embracing Automated Tax Compliance
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function IntegratingSection() {
         cohort data to predict cash inflows, allowing finance teams to make informed decisions about future revenue
         streams.</p>
       <p className="text-md text-white shadow-text pt-3">
-        It&#39;s important to address&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;issues
+        It&#39;s important to address&nbsp;data quality&nbsp;issues
         during integration. Inaccurate or incomplete data can lead to unreliable forecasts and ineffective AR
         management. Businesses should implement validation processes to ensure data accuracy and consistency. This
         might involve using data quality tools to clean and standardize information before it enters the AR system.</p>
@@ -42,7 +42,7 @@ export default function IntegratingSection() {
         Overall, integrating automated AR systems with existing data infrastructure is a strategic process that
         requires careful planning and execution. By ensuring seamless data flow and addressing quality issues,
         businesses can enhance their financial operations and achieve more
-        accurate&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>.</p>
+        accurate&nbsp;cash flow forecasting.</p>
     </>
   );
 
@@ -65,7 +65,7 @@ export default function IntegratingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="integrating-automated-accounts-receivable-systems-with-existing-data-infrastructure" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="integrating-automated-accounts-receivable-systems-with-existing-data-infrastructure-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Integrating Automated Accounts Receivable Systems with Existing Data Infrastructure
               </h2>
               {body}

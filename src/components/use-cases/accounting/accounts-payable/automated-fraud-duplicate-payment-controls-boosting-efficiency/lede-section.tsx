@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every month, small business owners in Miami-Dade, Broward, and West Palm Beach counties face the
@@ -23,9 +23,9 @@ export default function LedeSection() {
         processing time. Businesses can now focus on growth rather than firefighting administrative issues.
         With automation, the risk of fraud diminishes, compliance improves, and the tedious task of invoice
         management becomes a seamless operation. This page will walk you through how automated controls can
-        redefine your&nbsp;<Link id="use-cases-accounting-fraud-controls-lede-accounts-payable" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>, offering peace of mind and allowing your team to redirect their
+        redefine your&nbsp;<Link id={`use-cases-accounting-fraud-controls-lede-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>, offering peace of mind and allowing your team to redirect their
         efforts to what truly matters.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-fraud-controls-lede-blog" href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">How AI Streamlines Fraud Detection in Accounts Payable</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-fraud-controls-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">AI Accounts Payable Fraud Detection</Link> on our blog.</p>
     </>
   );
 
@@ -40,7 +40,7 @@ export default function LedeSection() {
                 Transforming Accounts Payable with Automated Controls
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -49,10 +49,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="transforming-accounts-payable-with-automated-controls" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="transforming-accounts-payable-with-automated-controls-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Transforming Accounts Payable with Automated Controls
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

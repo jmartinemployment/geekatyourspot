@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Consider a small business owner like Lisa, who spends countless hours every month poring over invoices,
@@ -14,13 +14,13 @@ export default function OverviewSection() {
         manual process is a necessary evil, a relic of traditional accounting practices that seems
         unavoidable.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Enter automated&nbsp;<Link id="tools-accounting-payment-execution-melio-overview-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>. By streamlining&nbsp;
+        Enter automated&nbsp;<Link id={`tools-accounting-payment-execution-melio-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>. By streamlining&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;with&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven tools, businesses like Lisa&#39;s can eliminate the
         repetitive tasks that bog down their operations. Automated systems handle the bulk of the workload,
         from scheduling and executing payments to syncing with accounting software, reducing human error and
         freeing up valuable time. With solutions like&nbsp;
-        <a id="tools-accounting-payment-execution-melio-overview-melio"
+        <a id={`tools-accounting-payment-execution-melio-overview-melio${idSuffix}`}
           href="https://melio.com/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Melio
@@ -33,7 +33,7 @@ export default function OverviewSection() {
         but also enhance vendor relationships and improve overall financial health. The transition from manual
         to automated processes is a strategic move that can position businesses for sustained success in a
         competitive market. For those in West Palm Beach, Broward, and Miami-Dade counties,&nbsp;
-        <Link id="tools-accounting-payment-execution-melio-overview-home"
+        <Link id={`tools-accounting-payment-execution-melio-overview-home${idSuffix}`}
           href="/" className="text-[#C83803] hover:underline">
           Geek @ Your Spot LLC
         </Link>&nbsp;provides tailored AI implementation services to help local businesses make this shift
@@ -52,7 +52,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -61,10 +61,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

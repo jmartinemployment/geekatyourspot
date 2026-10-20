@@ -7,6 +7,7 @@ import WhenToUseSection from "@/components/tools/contentstudio/when-to-use-secti
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { WithContext, TechArticle } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
@@ -46,21 +47,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "ContentStudio for AI Content Repurposing",
             description: "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

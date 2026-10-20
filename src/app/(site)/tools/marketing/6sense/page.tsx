@@ -7,6 +7,7 @@ import WhenToUseSection from "@/components/tools/marketing/6sense/when-to-use-se
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
@@ -46,21 +47,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "6sense for AI Lead Scoring",
             description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

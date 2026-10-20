@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RealTimeBudgetReallocationSection() {
   return (
@@ -22,7 +21,7 @@ export default function RealTimeBudgetReallocationSection() {
               <Link id="automated-ad-spend-optimization-budget-madgicx"
                 href="/tools/marketing/madgicx" className="text-[#0B162A] font-bold hover:underline">
                 Madgicx
-              </Link>&nbsp;are at the forefront of this capability. They use <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI algorithms</GlossaryLink> to monitor and analyze campaign
+              </Link>&nbsp;are at the forefront of this capability. They use AI algorithms to monitor and analyze campaign
               performance continuously. This allows marketers to shift budgets to high-performing ads or channels instantly,
               without manual intervention. Such automation not only saves time but also significantly enhances the return on ad
               spend (ROAS).</p>
@@ -42,7 +41,7 @@ export default function RealTimeBudgetReallocationSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="maximizing-roi-with-ai">Maximizing ROI with AI</h3>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               The primary goal of real-time budget reallocation is to maximize return on investment. AI-driven platforms like&nbsp;
-              Advantage&nbsp;use <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">predictive analytics</GlossaryLink> to anticipate shifts in consumer behavior and adjust budgets accordingly. This
+              Advantage&nbsp;use predictive analytics to anticipate shifts in consumer behavior and adjust budgets accordingly. This
               foresight allows businesses to capitalize on emerging opportunities swiftly.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Geek @ Your Spot LLC customizes these platforms to ensure they integrate seamlessly with your existing marketing

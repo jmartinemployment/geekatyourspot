@@ -48,8 +48,8 @@ export default function DataMappingSection() {
         Finally,&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;and consistency
         matter. Scalenut’s automations are only as good as the data they act on. If your service areas are
         inconsistently named, or your content tags are out of date, the system’s recommendations will be off.
-        Geek @ Your Spot LLC’s implementation process includes a&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;assessment, cleaning up inconsistencies and standardizing formats before
+        Geek @ Your Spot LLC’s implementation process includes a&nbsp;data
+        quality&nbsp;assessment, cleaning up inconsistencies and standardizing formats before
         Scalenut starts its work. This is not just a technical step, it is what ensures that the AI’s
         decisions match your business reality, and that every automation actually saves you time instead of
         creating new errors to fix.</p>
@@ -91,7 +91,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-what-needs-to-be-right-before-scalenut-runs" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-what-needs-to-be-right-before-scalenut-runs-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping: What Needs to Be Right Before Scalenut Runs
               </h2>
               {body}

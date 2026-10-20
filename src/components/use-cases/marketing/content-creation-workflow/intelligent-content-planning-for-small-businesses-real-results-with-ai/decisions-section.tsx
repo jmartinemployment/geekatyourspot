@@ -20,8 +20,8 @@ export default function DecisionsSection() {
         scheduled post by 50%. For a retail team, it could be doubling the number of blog posts that rank in
         the top three results for a local search. These goals steer every downstream choice.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Another decision that cannot be walked back is your&nbsp;<GlossaryLink slug="data-model">data
-        model</GlossaryLink>. Many teams want to skip this step because it sounds technical or tedious. That
+        Another decision that cannot be walked back is your&nbsp;data
+        model. Many teams want to skip this step because it sounds technical or tedious. That
         is a mistake. If your data is scattered across Google Sheets, email threads, or legacy folders, no AI
         platform, whether HyperWrite, MarketMuse, Scalenut, Hootsuite, or Semrush, can deliver reliable
         recommendations or pull the right asset when you need it. Early on, you need to decide what counts as
@@ -54,7 +54,7 @@ export default function DecisionsSection() {
         Finally, the early decision to start small or go all-in is rarely reversible. A pilot with one type of
         content, one brand voice, or one channel allows you to test and adapt without risking the whole
         operation. Jumping into a full rollout before the team is ready can overload your staff, break
-        your&nbsp;<GlossaryLink slug="data-model">data model</GlossaryLink>, and create resistance that
+        your&nbsp;data model, and create resistance that
         lingers long after launch. At Geek @ Your Spot LLC, we always recommend a focused pilot, even for teams
         eager to move fast. The lessons learned in that first cycle pay off tenfold when you expand to other
         channels or add new tools.</p>
@@ -85,7 +85,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Decisions That Are Made Early and Cannot Be Unmade
               </h2>
               {body}

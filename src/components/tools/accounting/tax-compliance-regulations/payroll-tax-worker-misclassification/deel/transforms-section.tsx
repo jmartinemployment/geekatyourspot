@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -8,8 +7,8 @@ export default function TransformsSection() {
         automatic, so small business owners in South Florida can stop worrying about compliance every payroll
         cycle. Instead of spending hours tracking down W-9s, chasing forms, or reading up on the latest IRS
         changes, Deel automates the collection and storage of all required tax documentation for both employees
-        and contractors. The platform generates, files, and stores every major tax form—W-2s for employees,
-        1099-NECs for contractors, and all supporting records—without manual intervention. This means no more
+        and contractors. The platform generates, files, and stores every major tax form (W-2s for employees,
+        1099-NECs for contractors, and all supporting records) without manual intervention. This means no more
         last-minute scrambles at year-end or missed deadlines that trigger penalties.</p>
       <p className="text-md text-white shadow-text pt-3">
         Worker classification is where many businesses slip up. Deel’s built-in AI-powered classifier reviews
@@ -18,18 +17,18 @@ export default function TransformsSection() {
         classified as an employee or contractor. When the work or relationship changes, Deel prompts a review,
         so businesses stay ahead of regulatory shifts. This reduces the chance of an IRS or Department of Labor
         audit leading to back taxes, penalties, or lawsuits. The business owner no longer has to guess or rely
-        on outdated checklists—Deel’s system keeps the classification process current and defensible.</p>
+        on outdated checklists. Deel’s system keeps the classification process current and defensible.</p>
       <p className="text-md text-white shadow-text pt-3">
         Deel’s Contractor of Record (CoR) service takes this a step further for contractors. When a business
         uses Deel CoR, Deel itself becomes the legal employer on paper for those contractors, handling all
-        compliance, contracts, and payroll. If a misclassification claim ever arises, Deel—not the
-        business—assumes the legal liability. This is not just an indemnification clause; it is a structural
+        compliance, contracts, and payroll. If a misclassification claim ever arises, Deel, not the
+        business, assumes the legal liability. This is not just an indemnification clause; it is a structural
         shift in risk. The business can scale up or down with freelancers and gig workers without the constant
         fear that a single audit could erase their profit. Deel’s CoR also means every contractor engagement is
         backed by a compliant contract, drafted and reviewed for local legal standards, and updated
         automatically as laws change.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="tax-compliance">Tax compliance</GlossaryLink>&nbsp;is not static. Laws change,
+        Tax compliance&nbsp;is not static. Laws change,
         thresholds move, and new reporting requirements appear with little warning. Deel’s Compliance Hub
         continuously monitors regulatory updates across all 50 states and globally. When a new rule affects
         payroll tax, worker classification, or reporting, the platform updates itself and sends alerts to the
@@ -40,7 +39,7 @@ export default function TransformsSection() {
         rounds.</p>
       <p className="text-md text-white shadow-text pt-3">
         Payment processing is another major pain point for businesses with mixed teams. Deel consolidates all
-        payments—whether to W-2 employees or 1099 contractors—into a single, automated workflow. Payroll and
+        payments, whether to W-2 employees or 1099 contractors, into a single, automated workflow. Payroll and
         contractor payments can be made in 120+ currencies, including cryptocurrency, with one click. This
         removes the need for manual bank transfers, reduces processing time from days to hours, and ensures
         every payment is tracked, reconciled, and properly coded for accounting. For businesses that use
@@ -53,11 +52,11 @@ export default function TransformsSection() {
         For the South Florida owner who started this page, Friday afternoons change with Deel in place. Instead
         of sorting through spreadsheets and worrying about compliance, they see a dashboard with every worker
         classified, every tax form ready, and every payment scheduled. When they bring on a new contractor for a
-        seasonal project, Deel handles the contract, classification, and payment—no legal guesswork, no risk of
+        seasonal project, Deel handles the contract, classification, and payment, with no legal guesswork and no risk of
         missing a state-specific tax rule. If a law changes in Miami-Dade or a new federal reporting threshold
         appears, Deel updates the workflow and notifies the business. The owner’s week is returned to running
         and growing the business, not chasing paperwork or fearing audits. The risk of payroll tax and worker
-        misclassification drops from a daily worry to a managed, auditable process—one that scales as fast as
+        misclassification drops from a daily worry to a managed, auditable process, one that scales as fast as
         the business needs.</p>
     </>
   );
@@ -82,7 +81,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-deel-removes-the-weekly-pain-from-payroll-tax-worker-misclassification" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-deel-removes-the-weekly-pain-from-payroll-tax-worker-misclassification-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Deel Removes the Weekly Pain from Payroll Tax &amp; Worker Misclassification
               </h2>
               {body}

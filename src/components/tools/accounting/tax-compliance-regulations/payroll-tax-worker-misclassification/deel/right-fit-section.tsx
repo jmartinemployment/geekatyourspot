@@ -1,19 +1,18 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Deel is built for small businesses that need to manage both W-2 employees and 1099 contractors without a
         full-time HR or legal team. If your company is in Miami-Dade, Broward, or Palm Beach and you face the
         weekly challenge of classifying workers, tracking payroll taxes, and keeping up with changing
         regulations, Deel is designed for your environment. It is especially relevant for firms in construction,
-        hospitality, real estate, and services—sectors where seasonal hiring and project-based work are common,
+        hospitality, real estate, and services. These are sectors where seasonal hiring and project-based work are common,
         and the risk of misclassification is highest.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If your workforce is simple—just a few full-time employees, no contractors, and no plans to scale or
-        hire out of state—you may not need the full depth of what Deel offers. A basic payroll provider can
+        If your workforce is simple (just a few full-time employees, no contractors, and no plans to scale or
+        hire out of state), you may not need the full depth of what Deel offers. A basic payroll provider can
         likely handle your needs, and the additional compliance automation and liability coverage in Deel may be
         more than you require. But if you have ever had to track down a missing W-9, worried about whether a
         worker is truly a contractor, or scrambled to update payroll when a tax rule changes mid-year, the risk
@@ -47,13 +46,13 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC specializes in configuring Deel for small businesses in South Florida, making sure the
         platform fits your actual workflows and connects with your existing accounting tools. They do not build
-        Deel, but they do close the gap between the software and your unique business needs—mapping data,
+        Deel, but they do close the gap between the software and your unique business needs by mapping data,
         setting up automated rules, and training your team so you get the full value of the platform from day
         one. The result is a system that runs in the background, flags issues before they become problems, and
         lets you focus on growing your business instead of fighting fires every Friday afternoon.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-deel-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-deel-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How do you currently determine whether a new team member should be onboarded as a W-2 employee or a 1099 independent contractor?</li>
@@ -62,10 +61,10 @@ export default function RightFitSection() {
         <li>Are you currently employing any remote workers, out-of-state contractors, or staff who split time between different states?</li>
         <li>How much time does your team spend calculating, withholding, and filing quarterly federal (941) and Florida Reemployment taxes (RT-6)?</li>
         <li>Have you ever had to pay an IRS or state penalty due to a delayed payroll tax deposit or a clerical filing error?</li>
-        <li>When you onboard a new worker, how does their payroll and tax documentation sync up with your core accounting or&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system?</li>
+        <li>When you onboard a new worker, how does their payroll and tax documentation sync up with your core accounting or&nbsp;ERP&nbsp;system?</li>
         <li>How does your current system track and adjust for changing local, state, and federal labor laws or payroll tax caps?</li>
         <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
-        <li>What is your current monthly or annual budget for payroll processing and&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;legal advice?</li>
+        <li>What is your current monthly or annual budget for payroll processing and&nbsp;tax compliance&nbsp;legal advice?</li>
       </ul>
     </>
   );
@@ -81,7 +80,7 @@ export default function RightFitSection() {
                 Who Should Use Deel, Who Should Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -90,10 +89,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-should-use-deel-who-should-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-should-use-deel-who-should-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Should Use Deel, Who Should Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

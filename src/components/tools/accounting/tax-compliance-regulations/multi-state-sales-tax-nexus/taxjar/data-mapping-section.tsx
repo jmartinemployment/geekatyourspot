@@ -16,7 +16,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The most critical mapping decisions include:</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Product tax codes: Every item you sell needs to be linked to the correct tax code. TaxJar supports smart product classification, letting you assign codes that reflect whether a product is taxable, exempt, or subject to special rules (like food,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>, or digital goods). This ensures the platform only collects tax where it is required, and at the right rate for each jurisdiction.</li>
+        <li>Product tax codes: Every item you sell needs to be linked to the correct tax code. TaxJar supports smart product classification, letting you assign codes that reflect whether a product is taxable, exempt, or subject to special rules (like food,&nbsp;SaaS, or digital goods). This ensures the platform only collects tax where it is required, and at the right rate for each jurisdiction.</li>
         <li>Address precision: TaxJar calculates sales tax rates based on full customer addresses, not just zip codes. That means your order data must include complete, validated shipping and billing addresses. This is especially important for states with local or district-level taxes, where a single zip code can cover multiple tax zones.</li>
         <li>Marketplace and direct sales separation: For businesses selling across both marketplaces (like Amazon or Etsy) and direct channels, it is essential to flag which transactions are marketplace-facilitated. TaxJar uses this mapping to avoid double-counting sales tax on transactions where the marketplace has already collected and remitted tax on your behalf.</li>
         <li>Customer exemption status: If you sell to tax-exempt customers (like nonprofits or resellers), those records must be tagged and linked to valid exemption certificates. TaxJar supports exemption tracking and certificate storage, but only if the data is structured to identify exempt buyers at the transaction level.</li>
@@ -71,7 +71,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-mapping-and-structure-the-decisions-that-make-or-break-a-taxjar-rollout" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-mapping-and-structure-the-decisions-that-make-or-break-a-taxjar-rollout-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Mapping and Structure: The Decisions That Make or Break a TaxJar Rollout
               </h2>
               {body}

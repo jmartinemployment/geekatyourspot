@@ -46,7 +46,7 @@ export default function ChallengesSection() {
         All of this comes back to the same place: processes built for a smaller, simpler business do not keep up
         with growth or changing rules. Owners end up relying on outdated contract templates, manual data entry,
         and last year’s processes, hoping they will hold. When the state or IRS calls, or a team member files a
-        complaint, the gaps are exposed all at once. The problem is not that small businesses do not care—it’s
+        complaint, the gaps are exposed all at once. The problem is not that small businesses do not care. It’s
         that the system is stacked against anyone trying to do this by hand, at speed, with no margin for error.</p>
     </>
   );
@@ -70,7 +70,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="where-payroll-tax-and-worker-misclassification-break-down-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="where-payroll-tax-and-worker-misclassification-break-down-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Where Payroll Tax and Worker Misclassification Break Down for Small Businesses
               </h2>
               {body}

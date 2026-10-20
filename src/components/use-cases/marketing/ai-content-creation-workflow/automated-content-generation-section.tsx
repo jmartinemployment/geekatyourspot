@@ -78,14 +78,14 @@ export default function AutomatedContentGenerationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="automated-content-generation-efficiency-with-minimal-effort" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="automated-content-generation-efficiency-with-minimal-effort-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Automated Content Generation: Efficiency with Minimal Effort</h2>
               <p className="text-md text-white shadow-text pt-3">
                 Creating content can be time-consuming and often leads to burnout among marketing teams. The constant pressure to
-                produce fresh, engaging material can feel overwhelming, especially when juggling multiple projects. This is where&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-automated-content-generation-automated-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">automated content generation</Link>&nbsp;comes to the rescue, offering a solution that saves both time and resources.</p>
+                produce fresh, engaging material can feel overwhelming, especially when juggling multiple projects. This is where&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-automated-content-generation-automated-content-generation-lg" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">automated content generation</Link>&nbsp;comes to the rescue, offering a solution that saves both time and resources.</p>
               <p className="text-md text-white shadow-text pt-3">
                 Automated content generation tools like&nbsp;
-                <Link id="ai-content-creation-workflow-automating-jasper-ai-2"
+                <Link id="ai-content-creation-workflow-automating-jasper-ai-2-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
@@ -102,7 +102,7 @@ export default function AutomatedContentGenerationSection() {
                 <li>Maintain quality and creativity with AI&#39;s ability to mimic human-like writing styles.</li>
                 <li>Adapt quickly to new marketing trends with versatile content types.</li>
               </ul>
-              <h3 id="leveraging-ai" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
+              <h3 id="leveraging-ai-lg" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">
                 Leveraging AI to Enhance Content Quality</h3>
               <p className="text-md text-white shadow-text pt-3">
                 Many worry that automated content might lack the nuance of human writing. However, tools like&nbsp;
@@ -113,7 +113,7 @@ export default function AutomatedContentGenerationSection() {
                 Moreover, by using <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, these AI tools continuously improve their outputs based on feedback, leading
                 to progressively better content quality over time. This iterative improvement can help your organization maintain a
                 competitive edge in content marketing.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="ensuring-consistent-brand-voice-with-ai">
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="ensuring-consistent-brand-voice-with-ai-lg">
                 Ensuring Consistent Brand Voice with AI</h4>
               <p className="text-md text-white shadow-text pt-3">
                 Maintaining a consistent brand voice across all content is essential for brand identity. AI tools can be trained to
@@ -122,7 +122,7 @@ export default function AutomatedContentGenerationSection() {
               <p className="text-md text-white shadow-text pt-3">
                 By integrating AI tools into your content strategy, you can ensure that every piece of content strengthens your
                 brand&#39;s presence and resonates with your audience.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="reducing-errors-with-ai-powered-checks">
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="reducing-errors-with-ai-powered-checks-lg">
                 Reducing Errors with AI-Powered Checks</h4>
               <p className="text-md text-white shadow-text pt-3">
                 AI tools are equipped with advanced grammar and spell-check algorithms that minimize errors, further saving time in

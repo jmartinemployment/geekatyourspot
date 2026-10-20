@@ -32,12 +32,12 @@ export default function ChallengesSection() {
         script can grab a name and a number, but it rarely gathers the structured intake needed to qualify a
         lead for a big-ticket project or a legal case. That missing information means wasted follow-ups, lost
         time, and sometimes losing the client altogether. Many systems also fail to sync data with the
-        business’s&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or scheduling tools, forcing staff to
+        business’s&nbsp;CRM&nbsp;or scheduling tools, forcing staff to
         re-enter information by hand. This not only eats up hours but also introduces errors that show up later
         as double-booked appointments, missed deadlines, or incomplete records.</p>
       <p className="text-md text-white shadow-text pt-3">
         The biggest cost is invisible: the jobs you never even knew you lost. A missed call does not leave a
-        trace in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. There is no alert or record. The client
+        trace in your&nbsp;CRM. There is no alert or record. The client
         simply moves on, and the annual loss can quietly add up to six figures for even a small firm. For
         businesses where every call is a potential contract or case, the stakes are even higher. The attorney
         who misses a call during court, the HVAC company that cannot answer during a storm, the marketing agency
@@ -72,7 +72,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing This by Hand
               </h2>
               {body}

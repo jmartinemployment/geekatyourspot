@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -30,8 +29,8 @@ export default function ImplementingSection() {
         for strategic decision-making.</p>
       <p className="text-md text-white shadow-text pt-3">
         Overall, the implementation of Cashflowfrog is designed to be as seamless as possible, with each phase
-        building on the last to create a robust&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;system. By the end of the process, your business will have a powerful tool
+        building on the last to create a robust&nbsp;cash flow
+        forecasting&nbsp;system. By the end of the process, your business will have a powerful tool
         that not only simplifies financial forecasting but also enhances your ability to make informed, data-driven
         decisions.</p>
     </>
@@ -56,7 +55,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlining-cashflowfrog-implementation">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlining-cashflowfrog-implementation-lg">
                 Streamlining Cashflowfrog Implementation
               </h2>
               {body}

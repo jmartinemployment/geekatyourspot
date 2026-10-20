@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFunnelDollar, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import type { CollectionPage, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "Marketing Use Cases";
 const PAGE_DESCRIPTION =
-  "Discover practical use cases for marketing automation — from AI-powered lead capture to content creation and marketing systems.";
+  "Discover practical use cases for marketing automation, from AI-powered lead capture to content creation and marketing systems.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/use-cases/marketing`,
     siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
-    images: [{ url: LOGO_IMAGE }],
+    images: [SHARE_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
-    images: [LOGO_IMAGE],
+    images: [SHARE_IMAGE],
   },
 };
 
@@ -107,7 +107,7 @@ export default function MarketingUseCasesPage() {
       title: "Lead Enrichment and Predictive Scoring",
       slug: "lead-enrichment-and-predictive-scoring",
       description:
-        "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
+        "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.",
       href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
     },
   ];

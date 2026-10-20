@@ -22,14 +22,14 @@ export default function ConfiguringSection() {
         message on any channel, a comment on a Facebook or Instagram post, or a specific keyword in a chat.
         Each trigger launches a prebuilt or custom flow, this is where the platform’s automation logic lives.
         Flows can branch based on answers, ask qualification questions, and push data to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. BotPenguin supports mapping answers to
-        specific&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;fields, so when a prospect gives their
+        your&nbsp;CRM. BotPenguin supports mapping answers to
+        specific&nbsp;CRM&nbsp;fields, so when a prospect gives their
         budget or timeline, it lands in the right place for your sales team to act on. Geek @ Your Spot LLC
         configures these flows so every qualifying step, from initial greeting to handoff, matches your
         pipeline and sales process.</p>
       <p className="text-md text-white shadow-text pt-3">
-        One key to BotPenguin’s strength is&nbsp;<GlossaryLink slug="unified-inbox">unified
-        inbox</GlossaryLink>&nbsp;management. Instead of toggling between WhatsApp, Instagram, and web chat
+        One key to BotPenguin’s strength is&nbsp;unified
+        inbox&nbsp;management. Instead of toggling between WhatsApp, Instagram, and web chat
         tabs, every conversation lands in a single dashboard. Rules here control how chats are routed, by
         channel, by lead score, or by escalation need. If a chat needs a human, BotPenguin allows instant
         handoff to a live agent, preserving the full conversation context. Geek @ Your Spot LLC sets up routing
@@ -45,7 +45,7 @@ export default function ConfiguringSection() {
         What you cannot do in BotPenguin is write your own code or add custom extensions beyond what the
         platform supports. There is no&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for building new
         integrations from scratch, and all integrations (like HubSpot,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Shopify, Microsoft Teams, and over 100 others)
+        Zoho&nbsp;CRM, Shopify, Microsoft Teams, and over 100 others)
         are managed through the dashboard’s native interface. This keeps support and updates simple, but it
         means every workflow must be mapped to the platform’s configuration model. Geek @ Your Spot LLC’s role is
         to translate your process into BotPenguin’s options, ensuring your lead capture, qualification, and
@@ -56,14 +56,14 @@ export default function ConfiguringSection() {
         <li>Connect all messaging and chat channels your business uses (WhatsApp, Instagram, Facebook, website, SMS, Telegram, phone).</li>
         <li>Set up welcome messages, qualification questions, and lead capture flows for each channel.</li>
         <li>Build automation rules for triggers (like new messages, keywords, or social comments) to launch relevant flows.</li>
-        <li>Map collected data fields to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or sales tool, using BotPenguin’s built-in integrations.</li>
+        <li>Map collected data fields to your&nbsp;CRM&nbsp;or sales tool, using BotPenguin’s built-in integrations.</li>
         <li>Configure&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>, routing, and escalation logic to move hot prospects to a human agent or the right pipeline stage.</li>
         <li>Test handoff from bot to live agent, making sure context and conversation history are preserved.</li>
         <li>Adjust flows and rules as your business learns what works, with Geek @ Your Spot LLC providing ongoing tuning and support.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         For a small business, the real challenge is not just picking a chatbot, but making sure it runs the
-        way your team works and connects to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, calendar,
+        way your team works and connects to your&nbsp;CRM, calendar,
         and marketing stack. BotPenguin’s configuration tools are flexible enough for most lead capture and
         sales automation needs, but the expertise from Geek @ Your Spot LLC is what ensures no lead slips through
         the cracks and your staff spends less time copying and more time closing.</p>
@@ -89,7 +89,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-botpenguin-automation-rules-channel-logic-and-how-geek-your-spot-makes-it-fit" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-botpenguin-automation-rules-channel-logic-and-how-geek-your-spot-makes-it-fit-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in BotPenguin: Automation Rules, Channel Logic, and How Geek @ Your Spot LLC Makes It Fit
               </h2>
               {body}

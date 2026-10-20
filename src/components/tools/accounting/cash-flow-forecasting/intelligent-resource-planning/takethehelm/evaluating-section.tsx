@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -17,7 +16,7 @@ export default function EvaluatingSection() {
         connects directly to QuickBooks, Xero, or Sage and pulls in your actual data. If your business relies on
         outdated desktop software, legacy spreadsheets, or has never had a central cash flow view, Take the Helm
         offers a clear upgrade without the need for a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;migration.</p>
+        full&nbsp;ERP&nbsp;migration.</p>
       <p className="text-md text-white shadow-text pt-3">
         The features that matter are the ones that remove manual work and reduce surprises. Take the Helm’s
         drag-and-drop forecasting lets you see the impact of moving a payment or receipt date instantly. Its
@@ -73,7 +72,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-evaluate-take-the-helm-fit-features-and-pricing-for-small-business-use" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-evaluate-take-the-helm-fit-features-and-pricing-for-small-business-use-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Evaluate Take the Helm: Fit, Features, and Pricing for Small Business Use
               </h2>
               {body}

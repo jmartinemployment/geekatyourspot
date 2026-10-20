@@ -5,7 +5,7 @@ export default function TransformsSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Zamp is built for small businesses that need to handle multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;but cannot afford a
+        sales&nbsp;tax compliance&nbsp;but cannot afford a
         dedicated tax department. Instead of handing you software and a to-do list, Zamp takes ownership of the
         entire compliance process, so you do not have to. Every part of the workflow that once drained hours
         from your week, tracking thresholds, registering in new states, filing returns, responding to notices,
@@ -23,7 +23,7 @@ export default function TransformsSection() {
         Product mapping is another job you no longer need to manage. Zamp’s onboarding specialists manually
         review your product catalog and map each item to the correct tax code for every state. This prevents
         misclassification errors that can lead to over- or under-collection, which are common audit triggers. If
-        you sell&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>, apparel, supplements, or other products
+        you sell&nbsp;SaaS, apparel, supplements, or other products
         with complex rules, Zamp ensures each one is classified correctly for every jurisdiction. The platform’s
         AI reviews your data for anomalies, and tax professionals validate the results before returns are filed.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -99,7 +99,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-zamp-removes-the-pain-of-multi-state-sales-tax-nexus" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-zamp-removes-the-pain-of-multi-state-sales-tax-nexus-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Zamp Removes the Pain of Multi-State Sales Tax Nexus
               </h2>
               {body}

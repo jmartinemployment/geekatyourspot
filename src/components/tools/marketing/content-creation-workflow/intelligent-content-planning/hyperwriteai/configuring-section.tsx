@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Configuring HyperWrite for Intelligent Content Planning is a practical exercise in tuning automation
@@ -20,7 +20,7 @@ export default function ConfiguringSection() {
         match the team’s actual workflow, so email responses and updates follow your preferred format and
         tone. The system’s TypeAhead feature is a browser extension that delivers predictive, context-aware
         sentence completions directly inside any browser tab, including Gmail, Google Docs, LinkedIn, and
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. This means your team is not switching between
+        your&nbsp;CRM. This means your team is not switching between
         tools or copying and pasting drafts; HyperWrite adapts to your process, not the other way around.</p>
       <p className="text-md text-white shadow-text pt-3">
         A key part of the configuration is training HyperWrite to reflect your brand’s unique voice. The
@@ -72,9 +72,9 @@ export default function ConfiguringSection() {
         browser extension on every user’s device. We also guide your team through the practical use of each
         feature, so you are not left with a tool that works on paper but fails in your daily process. For
         teams that need more than configuration, such as connecting HyperWrite output to
-        a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or&nbsp;<GlossaryLink slug="marketing-automation">marketing
+        a&nbsp;CRM&nbsp;or&nbsp;<GlossaryLink slug="marketing-automation">marketing
         automation</GlossaryLink>&nbsp;platform, we design the workflow so handoffs are smooth, even if it
-        means using&nbsp;<Link id="tools-marketing-intelligent-content-planning-hyperwriteai-configuring-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;or similar connectors to bridge the gap.</p>
+        means using&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hyperwriteai-configuring-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;or similar connectors to bridge the gap.</p>
       <p className="text-md text-white shadow-text pt-3">
         The result is a intelligent content planning and production system that feels built for your team, not
         bolted on. HyperWrite’s rules and automation logic handle the grunt work, the Personas feature keeps
@@ -95,7 +95,7 @@ export default function ConfiguringSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -103,10 +103,10 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-hyperwrite-rules-automation-logic-and-extensibility-for-small-business-content-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-hyperwrite-rules-automation-logic-and-extensibility-for-small-business-content-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring HyperWrite: Rules, Automation Logic, and Extensibility for Small Business Content Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

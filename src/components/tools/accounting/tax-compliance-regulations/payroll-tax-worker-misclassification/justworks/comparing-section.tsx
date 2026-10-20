@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small business owners looking for payroll tax and worker classification help in South Florida have no
         shortage of
-        choices.&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-justworks-comparing-gusto" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>,&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-justworks-comparing-adp" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#0B162A] hover:underline">ADP</Link>,&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-justworks-comparing-deel" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#0B162A] hover:underline">Deel</Link>,
+        choices.&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-justworks-comparing-gusto${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>,&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-justworks-comparing-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#0B162A] hover:underline">ADP</Link>,&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-justworks-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#0B162A] hover:underline">Deel</Link>,
         and other platforms are all in the mix. Most offer some combination of automated payroll, contractor
         payments, and compliance reminders. The difference comes down to how much risk and complexity they
         actually remove, and how much manual work they still leave for the business owner.</p>
@@ -24,7 +24,7 @@ export default function ComparingSection() {
         or Florida Department of Revenue questions a classification, these platforms provide tools and
         reminders, but the audit defense and liability still sit with you. Justworks, by contrast, handles the
         filings, manages state and federal compliance, and takes a greater share of operational risk off your
-        business. For small teams without a dedicated HR or legal function, that is not just convenience — it is
+        business. For small teams without a dedicated HR or legal function, that is not just convenience. It is
         protection against the kind of audit or penalty that can threaten the business itself.</p>
       <p className="text-md text-white shadow-text pt-3">
         Where Justworks stands out is in handling the full compliance stack for both payroll tax and worker
@@ -46,7 +46,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The difference also shows up in how Justworks integrates compliance support with live, accessible human
         guidance. Many payroll tools offer chat or ticket-based support, but Justworks customers report getting
-        timely, knowledgeable responses — especially when facing state tax registration, audits, or questions
+        timely, knowledgeable responses, especially when facing state tax registration, audits, or questions
         about classification. This is not just a help desk: it is a compliance partner that knows the details of
         your setup and can step in when rules change or a notice arrives.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -56,7 +56,7 @@ export default function ComparingSection() {
         burden. Its PEO status and all-in-one compliance model mean that the business can focus on growth, not
         on keeping up with the latest labor law update or tax deadline.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The real test is what happens when something goes wrong — an audit, a penalty notice, or a worker status
+        The real test is what happens when something goes wrong, such as an audit, a penalty notice, or a worker status
         dispute. With most payroll apps, the business is left to navigate the process alone. With Justworks, the
         platform and its support team step in to handle the filings, provide documentation, and guide the
         business through the compliance maze. That is the difference between a tool that automates tasks and a
@@ -80,7 +80,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -88,10 +88,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-justworks-compares-to-other-payroll-tax-and-worker-classification-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-justworks-compares-to-other-payroll-tax-and-worker-classification-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Justworks Compares to Other Payroll Tax and Worker Classification Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

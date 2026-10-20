@@ -18,7 +18,7 @@ export default function ArchitectureSection() {
         portals. Every channel feeds into a unified compliance workspace, so Zamp always has a complete picture
         of your sales footprint.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Unified Data Model: Zamp harmonizes disparate transaction streams, web, marketplace, wholesale, and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, into a single, normalized structure. This allows for real-time nexus tracking and accurate tax calculations across every state and local jurisdiction.</li>
+        <li>Unified Data Model: Zamp harmonizes disparate transaction streams, web, marketplace, wholesale, and&nbsp;ERP, into a single, normalized structure. This allows for real-time nexus tracking and accurate tax calculations across every state and local jurisdiction.</li>
         <li>Jurisdiction Logic: The platform applies location accuracy and tax code mapping at the product and shipping level, so state-specific exemptions and rules are reflected in every return. This is critical for businesses with custom SKUs or products that are taxed differently by state.</li>
         <li>Continuous Monitoring Engine: Zamp’s backend tracks both economic and physical nexus triggers, updating your exposure status as new sales or remote employees create obligations in additional states. Thresholds are monitored in real time, not just at month-end.</li>
         <li>Notice Management System: Zamp digitizes and indexes every notice, letter, or audit request from state and local agencies. The system links each notice to the relevant transaction and filing history, so resolution is fast and defensible.</li>
@@ -27,7 +27,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         What sets Zamp’s architecture apart is the way it centralizes control without demanding technical
         expertise from your team. The
-        platform’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and
+        platform’s&nbsp;API&nbsp;and
         direct integrations mean that when your sales systems change, adding a new channel, switching ERPs, or
         launching a marketplace, the compliance logic adapts. There is no need to rebuild workflows or manually
         bridge data gaps. Zamp’s system is designed to handle complex business models, supporting DTC,
@@ -39,7 +39,7 @@ export default function ArchitectureSection() {
         inconsistencies, flagging them for review by Zamp’s tax professionals. This layer of review catches
         errors that could trigger audits or penalties if left unchecked. Returns and liabilities are reconciled
         to
-        your&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;or
+        your&nbsp;ERP&nbsp;or
         general ledger, so your finance team can close the books with confidence.</p>
       <p className="text-md text-white shadow-text pt-3">
         Zamp’s commitment to predictable, all-in pricing is built into its architecture as well. Every
@@ -54,8 +54,8 @@ export default function ArchitectureSection() {
         exposure instantly. Notices, registrations, and filings are all visible in one place, with the
         underlying data and documentation ready for any state inquiry. This is not just a technical upgrade, it
         is the backbone that lets small businesses grow across state lines without falling behind
-        on&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>.</p>
+        on&nbsp;tax
+        compliance.</p>
     </>
   );
 
@@ -79,7 +79,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="zamp-s-architecture-what-it-connects-how-it-holds-your-data-and-why-that-matters-for-multi-state-nexus" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="zamp-s-architecture-what-it-connects-how-it-holds-your-data-and-why-that-matters-for-multi-state-nexus-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Zamp’s Architecture: What It Connects, How It Holds Your Data, and Why That Matters for Multi-State Nexus
               </h2>
               {body}

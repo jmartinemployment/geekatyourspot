@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -25,7 +24,7 @@ export default function DataMappingSection() {
         customizing these settings, you ensure that Clockwork&#39;s forecasts align closely with your actual cash
         flow patterns.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, consider the role of&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-driven insights in your data
+        Finally, consider the role of&nbsp;AI-driven insights in your data
         mapping strategy. Clockwork&#39;s AI analyst, Mira, provides variance commentary and flags anomalies,
         turning raw data into actionable insights. Ensuring that your data structure supports these AI capabilities
         is key to unlocking the full potential of Clockwork&#39;s forecasting tools.</p>
@@ -52,7 +51,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="key-data-structure-and-mapping-decisions-for-clockwork-deployment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="key-data-structure-and-mapping-decisions-for-clockwork-deployment-lg">
                 Key Data Structure and Mapping Decisions for Clockwork Deployment
               </h2>
               {body}

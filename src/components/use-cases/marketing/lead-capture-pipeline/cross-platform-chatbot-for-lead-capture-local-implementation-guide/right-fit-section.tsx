@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
@@ -30,7 +29,7 @@ export default function RightFitSection() {
         outweighs the time saved.</p>
       <p className="text-md text-white shadow-text pt-3">
         It is also not a fit if your data is scattered and cannot be unified, or if you do not have the
-        ability to integrate your lead sources,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and
+        ability to integrate your lead sources,&nbsp;CRM, and
         scheduling systems. A chatbot cannot bridge a gap the business will not close. If you expect the AI to
         replace all human touch, you will be disappointed. Even the best systems, Tidio’s drag-and-drop
         builder or Dapta’s bilingual voice and chat agents, work because they escalate when a lead needs
@@ -69,7 +68,7 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-a-cross-platform-chatbot-is-the-right-fit-and-when-it-isnt" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-a-cross-platform-chatbot-is-the-right-fit-and-when-it-isnt-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When a Cross-Platform Chatbot Is the Right Fit, and When It Isn’t
               </h2>
               {body}

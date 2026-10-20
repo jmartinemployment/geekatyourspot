@@ -6,9 +6,12 @@ import HowItWorksSection from "@/components/use-cases/accounting/accounts-payabl
 import CrucialEarlyDecisionsSection from "@/components/use-cases/accounting/accounts-payable/automated-data-entry-processing/crucial-early-decisions-section";
 import RealitiesOfImplementationSection from "@/components/use-cases/accounting/accounts-payable/automated-data-entry-processing/realities-of-implementation-section";
 import RightMoveSection from "@/components/use-cases/accounting/accounts-payable/automated-data-entry-processing/right-move-section";
+import PAASection, { DATA_ENTRY_QUESTIONS } from "@/components/use-cases/accounting/accounts-payable/automated-data-entry-processing/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Data Entry & Processing";
 const DESCRIPTION =
@@ -28,14 +31,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-02T00:00:00.000Z",
             "dateModified": "2026-10-02T00:00:00.000Z",
             "mainEntityOfPage": {
@@ -44,39 +40,44 @@ const jsonLd: Graph = {
             },
             "keywords": "automated data entry, accounts payable automation, invoice processing, AP data capture, AI in finance, invoice approval workflow, AP accuracy, finance automation, accounts payable software, small business accounting",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": {
                 "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article"
             },
             "mentions": [
-                { "@id": "#software-dext" },
-                { "@id": "#software-bill" },
-                { "@id": "#software-avidxchange" }
+                { "@id": "https://geekatyourspot.com/#software-dext" },
+                { "@id": "https://geekatyourspot.com/#software-bill" },
+                { "@id": "https://geekatyourspot.com/#software-avidxchange" }
             ]
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-dext",
             "name": "Dext",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.",
-            "@id": "#software-dext"
+            "url": "https://dext.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-bill",
             "name": "Bill",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Bill automates invoice processing, approvals, and expense management, with AI-powered invoice coding and configurable approval workflows.",
-            "@id": "#software-bill"
+            "url": "https://www.bill.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-avidxchange",
             "name": "AvidXchange",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "AvidXchange automates invoice management and B2B payments, extracting, matching, and routing invoice data while integrating with existing accounting systems.",
-            "@id": "#software-avidxchange"
-        }
+            "url": "https://www.avidxchange.com/"
+        },
+        {
+            "@type": "FAQPage",
+            "@id": `${PAGE_URL}#faq`,
+            "mainEntity": DATA_ENTRY_QUESTIONS.map(({ question, answer }) => ({
+                "@type": "Question" as const,
+                "name": question,
+                "acceptedAnswer": { "@type": "Answer" as const, "text": answer },
+            })),
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -110,21 +111,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,
@@ -168,6 +162,7 @@ export default async function Page() {
                 <CrucialEarlyDecisionsSection />
                 <RealitiesOfImplementationSection />
                 <RightMoveSection />
+                <PAASection />
                 <SchedulerShell />
             </article>
         </>

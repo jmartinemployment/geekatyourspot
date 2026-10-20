@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Hootsuite is designed for small and medium-sized businesses that need to get out of the content chaos
@@ -18,8 +17,8 @@ export default function RightFitSection() {
         where compliance and audit trails are non-negotiable. Hootsuite’s approval workflows and access
         controls make it possible to delegate content creation while holding the final say on what goes live.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If your business does a lot of&nbsp;<GlossaryLink slug="content-repurposing">content
-        repurposing</GlossaryLink>, turning blog posts into social snippets, remixing evergreen assets, or
+        If your business does a lot of&nbsp;content
+        repurposing, turning blog posts into social snippets, remixing evergreen assets, or
         running campaigns across several networks, Hootsuite’s built-in tools for remixing and scheduling
         content will save hours each week. The same applies if you need to coordinate multiple contributors,
         whether that is employees, partners, or outside agencies. With Parliament and Perch, you can pull
@@ -63,7 +62,7 @@ export default function RightFitSection() {
         new channels or changing compliance rules.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-content-planning-hootsuite-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hootsuite-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
@@ -87,7 +86,7 @@ export default function RightFitSection() {
                 Who Hootsuite Is Right For, Who It Isn’t, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -96,10 +95,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-hootsuite-is-right-for-who-it-isnt-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-hootsuite-is-right-for-who-it-isnt-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Hootsuite Is Right For, Who It Isn’t, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

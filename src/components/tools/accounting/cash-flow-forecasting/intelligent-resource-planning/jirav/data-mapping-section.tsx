@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -19,7 +18,7 @@ export default function DataMappingSection() {
         Next is deciding how to handle operational drivers. Jirav’s strength is in driver-based modeling, using
         real business activities (like sales calls, units shipped, or headcount) to power forecasts. You need to
         pick which drivers matter most for your business and where that data lives. For some, it is
-        the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;pipeline; for others, inventory or project
+        the&nbsp;CRM&nbsp;pipeline; for others, inventory or project
         management tools. Geek @ Your Spot LLC helps identify these sources and map them into Jirav, so that changes
         in the real world (like a big deal closing or a new project launching) automatically update the
         forecast. This step avoids the common trap of models that lag behind reality because they rely on manual
@@ -74,7 +73,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-data-structure-and-mapping-decisions-matter-most-when-deploying-jirav" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-structure-and-mapping-decisions-matter-most-when-deploying-jirav-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data Structure and Mapping Decisions Matter Most When Deploying Jirav
               </h2>
               {body}

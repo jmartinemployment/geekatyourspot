@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In the realm of
-        automated&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>, many small businesses are bombarded with choices. From managing economic
+        automated&nbsp;tax
+        compliance, many small businesses are bombarded with choices. From managing economic
         nexus to handling multi-state filings, the landscape is filled with solutions that promise to ease the
         burden. TaxJar stands out by offering a comprehensive suite of features specifically designed for small
         businesses dealing with the complexities of tax compliance. Its strength lies in its ability to automate
@@ -15,18 +14,18 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Unlike generic accounting software that often requires manual intervention, TaxJar provides a seamless
         experience by integrating directly with popular e-commerce
-        and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;platforms
+        and&nbsp;ERP&nbsp;platforms
         like Shopify, QuickBooks, and Salesforce. This integration capability is crucial for businesses that
         operate across multiple sales channels, as it allows for consistent and accurate tax calculations
         without the need for constant manual adjustments.</p>
       <p className="text-md text-white shadow-text pt-3">
         The
-        TaxJar&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;is
+        TaxJar&nbsp;API&nbsp;is
         another distinguishing feature. It offers real-time tax rate calculations with sub-25ms response times,
         ensuring that customers receive accurate tax data instantly at checkout. This level of performance is
         particularly important during peak shopping seasons, where delays can lead to lost sales and
         dissatisfied customers. Competitors may offer
-        similar&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;functionalities,
+        similar&nbsp;API&nbsp;functionalities,
         but TaxJar&#39;s reliability and uptime of 99.99% set it apart, providing peace of mind to business
         owners who cannot afford downtime.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -74,7 +73,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="taxjar-in-the-landscape-of-tax-compliance-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="taxjar-in-the-landscape-of-tax-compliance-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 TaxJar in the Landscape of Tax Compliance Solutions
               </h2>
               {body}

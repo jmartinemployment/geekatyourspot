@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -44,11 +43,11 @@ export default function TransformsSection() {
         business runs on live numbers, not on hope.</p>
       <p className="text-md text-white shadow-text pt-3">
         QuickBooks does not require a
-        disruptive&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;migration. You keep the interface your
+        disruptive&nbsp;ERP&nbsp;migration. You keep the interface your
         staff already knows, but unlock deeper automation and reporting. Data from your old systems migrates in,
         and workflows adjust to your real processes, not the other way around. You get the muscle of enterprise
         resource planning without the cost or complexity of a
-        full-scale&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>. For a small business, that means scaling up
+        full-scale&nbsp;ERP. For a small business, that means scaling up
         without scaling your admin team.</p>
       <blockquote cite="https://quickbooks.intuit.com/r/midsize-business/accounting-problems/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
         Bookkeeping and accounting workflows that work at $1M often start breaking down long before a business
@@ -87,7 +86,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quickbooks-removes-hours-of-manual-work-from-intelligent-resource-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quickbooks-removes-hours-of-manual-work-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How QuickBooks removes hours of manual work from Intelligent Resource Planning
               </h2>
               {body}

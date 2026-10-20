@@ -25,7 +25,7 @@ export default function ConfiguringSection() {
         Invoiced also provides an extension mechanism that supports further customization. While it does not offer
         an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, its configuration options are extensive
         enough to meet the needs of most small businesses. Geek @ Your Spot LLC,
-        an&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation consultancy, plays a vital role in
+        an&nbsp;AI&nbsp;implementation consultancy, plays a vital role in
         configuring these features to fit seamlessly into your existing systems. They ensure that Invoiced
         integrates smoothly with your current accounting software, such as QuickBooks or NetSuite, optimizing the
         platform for your specific business environment.</p>
@@ -57,7 +57,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-invoiced-approval-chains-routing-and-automation-logic">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-invoiced-approval-chains-routing-and-automation-logic-lg">
                 Configuring Invoiced: Approval Chains, Routing, and Automation Logic
               </h2>
               {body}

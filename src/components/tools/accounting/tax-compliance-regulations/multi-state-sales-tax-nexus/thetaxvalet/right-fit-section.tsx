@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxValet is designed for small businesses who have outgrown the point where spreadsheets, basic
@@ -45,14 +45,14 @@ export default function RightFitSection() {
         compliance chaos.</p>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in South Florida looking to offload multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>, TaxValet is a
+        sales&nbsp;tax compliance, TaxValet is a
         purpose-built answer. It is not the cheapest tool, nor is it the most hands-on. Instead, it is the only
         solution that takes the entire process off your plate, stands behind its work with an audit guarantee,
         and lets you hand over the risk and the grind, so your Friday afternoons are spent running your
         business, not sorting through state notices.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
@@ -80,7 +80,7 @@ export default function RightFitSection() {
                 Who TaxValet Is Built For, and When It Is Not the Right Fit
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -89,10 +89,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-taxvalet-is-built-for-and-when-it-is-not-the-right-fit" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-taxvalet-is-built-for-and-when-it-is-not-the-right-fit-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who TaxValet Is Built For, and When It Is Not the Right Fit
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

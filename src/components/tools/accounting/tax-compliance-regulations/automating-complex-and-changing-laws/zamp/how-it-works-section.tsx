@@ -4,8 +4,8 @@ export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Zamp automates&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;by integrating intelligent automation with a dedicated team of tax
+        Zamp automates&nbsp;tax
+        compliance&nbsp;by integrating intelligent automation with a dedicated team of tax
         professionals. This combination ensures that businesses can manage complex tax requirements without the
         need for extensive in-house expertise. At its core, Zamp handles everything from nexus determination to
         audit readiness, providing a comprehensive solution for tax compliance.</p>
@@ -58,7 +58,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-mechanics-of-zamp-how-it-works" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-mechanics-of-zamp-how-it-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Mechanics of Zamp: How It Works
               </h2>
               {body}

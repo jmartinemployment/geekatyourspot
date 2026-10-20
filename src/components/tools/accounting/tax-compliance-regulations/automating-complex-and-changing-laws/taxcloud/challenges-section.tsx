@@ -5,7 +5,7 @@ export default function ChallengesSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in South Florida, navigating the maze
-        of&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;is a daily challenge. The
+        of&nbsp;tax compliance&nbsp;is a daily challenge. The
         complexity of managing taxes across multiple states, each with its own set of ever-changing rules, turns
         a straightforward task into a logistical nightmare. This burden is particularly acute for e-commerce
         and&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;companies expanding beyond state lines,
@@ -19,8 +19,8 @@ export default function ChallengesSection() {
         discovered. Missing filing deadlines due to the manual nature of the process incurs immediate penalties,
         further straining a company&#39;s cash flow.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Moreover, the inability to consolidate tax liabilities across various sales channels—such as independent
-        websites and third-party marketplaces—creates silos that complicate compliance efforts. Each channel
+        Moreover, the inability to consolidate tax liabilities across various sales channels, such as independent
+        websites and third-party marketplaces, creates silos that complicate compliance efforts. Each channel
         might have different reporting requirements, and failing to integrate these can lead to discrepancies
         and missed obligations.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -64,7 +64,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-hidden-costs-of-manual-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-hidden-costs-of-manual-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Hidden Costs of Manual Tax Compliance
               </h2>
               {body}

@@ -19,7 +19,7 @@ export default function KeyCapabilitiesSection() {
               <li>Integrations: Mailchimp integrates with a variety of other platforms and tools, such as e-commerce systems and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink> platforms, to provide a seamless marketing experience.</li>
             </ul>
             <p className="text-md text-white shadow-text pt-3">Mailchimp&#39;s capabilities are designed to cater to the needs of businesses looking to enhance their marketing
-              strategies through <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;insights and automated processes. The platform&#39;s ability to integrate with other
+              strategies through data-driven&nbsp;insights and automated processes. The platform&#39;s ability to integrate with other
               systems further enhances its utility, allowing businesses to create a unified marketing strategy across different
               channels.</p>
           </div>

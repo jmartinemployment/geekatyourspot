@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -9,9 +8,9 @@ export default function EvaluatingSection() {
         fit starts with your workflow: if your team juggles website chat, SMS, phone calls, and social DMs,
         and you are losing track of leads because each channel has its own inbox, My AI Front Desk is built to
         solve exactly that. It is not a generic chatbot builder or a tool that requires you to assemble your
-        own workflows from scratch. Instead, it comes with&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified
-        inbox</GlossaryLink>&nbsp;logic, built-in lead qualification, and
-        direct&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;syncing as standard.</p>
+        own workflows from scratch. Instead, it comes with&nbsp;unified
+        inbox&nbsp;logic, built-in lead qualification, and
+        direct&nbsp;CRM&nbsp;syncing as standard.</p>
       <p className="text-md text-white shadow-text pt-3">
         When judging fit, look at how your team works today. If you are spending time copying notes between
         systems, missing follow-up windows because details are scattered, or relying on voicemail and email as
@@ -23,10 +22,10 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The pricing model is straightforward and designed to be accessible for small teams. My AI Front Desk
         publishes a free-to-start tier, which includes all channels and
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. There is no upfront charge just to get going.
+        the&nbsp;CRM. There is no upfront charge just to get going.
         Paid plans start at $249 per month, as listed on the My AI Front Desk Keap alternative page. This is
         not a per-seat or per-interaction model; instead, it covers the full platform, phone, SMS, email,
-        chat, and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;features, under one price. Compared to
+        chat, and&nbsp;CRM&nbsp;features, under one price. Compared to
         live answering services that charge per call or by the minute, or to hiring a full-time staff member,
         this is a fixed, predictable expense.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -40,10 +39,10 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When you compare My AI Front Desk to other tools, focus on what actually gets automated and what still
         falls on your team. Some platforms offer chat-only automation, leaving phone calls and texts as manual
-        work. Others require add-ons for&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
-        scoring</GlossaryLink>&nbsp;or&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;sync. My AI Front
-        Desk includes phone, SMS, email, chat,&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
-        scoring</GlossaryLink>, and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;as part of the core
+        work. Others require add-ons for&nbsp;lead
+        scoring&nbsp;or&nbsp;CRM&nbsp;sync. My AI Front
+        Desk includes phone, SMS, email, chat,&nbsp;lead
+        scoring, and&nbsp;CRM&nbsp;as part of the core
         system. This means you do not have to budget for extra modules or worry about features being locked
         behind higher tiers. The pricing is transparent: start free, then move to a fixed monthly plan as your
         needs grow.</p>
@@ -83,7 +82,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-my-ai-front-desk-fit-for-your-business-and-its-real-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-my-ai-front-desk-fit-for-your-business-and-its-real-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge My AI Front Desk: Fit for Your Business and Its Real Pricing Model
               </h2>
               {body}

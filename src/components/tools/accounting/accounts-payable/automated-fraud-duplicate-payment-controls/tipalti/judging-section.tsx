@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function JudgingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Tipalti for Automated Fraud &amp; Duplicate Payment Controls, it&#39;s crucial to
         assess how well it aligns with your business needs. Tipalti is designed to streamline&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes by automating
+        accounts payable&nbsp;processes by automating
         tasks that are typically manual and error-prone. This includes supplier onboarding, invoice processing,
         and payment reconciliation. For small businesses in Miami-Dade, Broward, and West Palm Beach counties,
         the key is to evaluate whether Tipalti&#39;s capabilities match your operational scale and
@@ -15,11 +14,11 @@ export default function JudgingSection() {
         Tipalti offers a comprehensive solution that integrates various functions into a single platform. This
         integration is particularly beneficial for businesses that handle a high volume of transactions and
         need to ensure compliance with international payment standards. The platform&#39;s&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-driven features, such as the Duplicate Bill Detection Agent,
+        AI-driven features, such as the Duplicate Bill Detection Agent,
         enhance fraud controls by identifying anomalies early. This not only reduces the risk of fraud but also
         minimizes overpayments, safeguarding your financial operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Pricing is a critical factor for small businesses. As of October 20, 2026, Tipalti&#39;s&nbsp;<a id="tools-accounting-fraud-controls-tipalti-judging-pricing-source" href="https://tipalti.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">pricing page</a>&nbsp;lists
+        Pricing is a critical factor for small businesses. As of October 20, 2026, Tipalti&#39;s&nbsp;<a id={`tools-accounting-fraud-controls-tipalti-judging-pricing-source${idSuffix}`} href="https://tipalti.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">pricing page</a>&nbsp;lists
         Accounts Payable starting at $99 per month, plus transaction fees, with custom quotes for larger
         organizations. It&#39;s important to weigh the cost against the potential savings from
         reduced errors and improved efficiency. Businesses should consider the total cost of ownership, which
@@ -58,7 +57,7 @@ export default function JudgingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -66,10 +65,10 @@ export default function JudgingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="judging-tipalti-fit-and-pricing-considerations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="judging-tipalti-fit-and-pricing-considerations-lg">
                 Judging Tipalti: Fit and Pricing Considerations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

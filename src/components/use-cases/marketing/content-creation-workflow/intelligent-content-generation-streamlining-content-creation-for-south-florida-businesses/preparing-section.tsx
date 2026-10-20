@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The next step is not to buy a tool or sign up for a trial. It is to map your actual business
@@ -13,8 +12,8 @@ export default function PreparingSection() {
         from chasing features you will never use and ensures the system fits your real business, not a
         software demo.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Once your objectives are clear, the process moves to&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>. Gather the assets you already have: service descriptions, old blog drafts,
+        Once your objectives are clear, the process moves to&nbsp;data
+        quality. Gather the assets you already have: service descriptions, old blog drafts,
         customer FAQs, recorded webinars, and even social captions that performed well. Each Intelligent
         Content Generation rollout that works starts with a structured review of what is usable, what needs
         updating, and what is missing. Tools like Koala and Scalenut are only as effective as the business
@@ -56,12 +55,12 @@ export default function PreparingSection() {
         times your size, without the overhead.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
         <li>When you create a primary content piece (like a long-form article or case study), what is your process for transforming it into emails, LinkedIn updates, or Meta ads? Is that handled manually or skipped entirely due to time constraints?</li>
-        <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;pipelines, or technical spec sheets?</li>
+        <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;CRM&nbsp;pipelines, or technical spec sheets?</li>
         <li>How are you currently measuring the success of your copy? Are you optimizing primarily for organic search rankings (SEO traffic) or are you actively spending money on paid local ads where every click costs you?</li>
         <li>Have you ever run an ad campaign where the traffic was high but conversions were low? How did you figure out if the weak link was your targeting or the written copy itself?</li>
         <li>When your team writes headlines or call-to-actions, are they relying on creative intuition, or do you have a framework to test what phrases resonate best with your specific demographic?</li>
@@ -88,7 +87,7 @@ export default function PreparingSection() {
                 What to Do Next, and What to Expect If You Get It Right
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -97,10 +96,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-to-do-next-and-what-to-expect-if-you-get-it-right" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-to-do-next-and-what-to-expect-if-you-get-it-right-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What to Do Next, and What to Expect If You Get It Right
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        TaxCloud transforms the daunting task of&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;into a manageable process, removing the heavy lifting from business
+        TaxCloud transforms the daunting task of&nbsp;tax
+        compliance&nbsp;into a manageable process, removing the heavy lifting from business
         owners&#39; shoulders. By automating tax calculations and filings, TaxCloud saves hours each week that
         would otherwise be spent on manual updates and error corrections. This automation is crucial for small
         businesses that lack the resources to maintain a dedicated tax compliance team.</p>
@@ -58,7 +57,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxcloud-simplifies-complex-and-changing-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxcloud-simplifies-complex-and-changing-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxCloud Simplifies Complex and Changing Laws
               </h2>
               {body}

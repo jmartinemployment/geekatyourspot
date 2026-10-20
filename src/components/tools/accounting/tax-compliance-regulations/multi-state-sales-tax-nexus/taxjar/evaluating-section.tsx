@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -18,9 +17,9 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The platform’s integrations are a key test of fit. TaxJar connects directly to Shopify, Salesforce,
         Amazon, Squarespace, Square, WooCommerce, and other major e-commerce
-        and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
+        and&nbsp;ERP&nbsp;systems.
         If your business runs on these platforms, setup is straightforward. For custom environments, the
-        TaxJar&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;allows
+        TaxJar&nbsp;API&nbsp;allows
         deeper integration, but this requires some technical work. Geek @ Your Spot LLC helps map your environment
         and ensures every sales channel is connected. If you are still manually exporting transactions from
         multiple platforms and reconciling them in spreadsheets, TaxJar’s unified dashboard and automatic data
@@ -50,7 +49,7 @@ export default function EvaluatingSection() {
         without adding cost or confusion.</p>
       <p className="text-md text-white shadow-text pt-3">
         Support and reliability matter.
-        TaxJar’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and
+        TaxJar’s&nbsp;API&nbsp;and
         calculation engine are built for speed and uptime, with sub-25ms response times and 99.99% or better
         availability. This means your customers get instant, accurate tax calculations at checkout, and your
         team can rely on the platform during peak sales periods. The dashboard is user-friendly, praised by
@@ -67,8 +66,8 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         For a small business in West Palm Beach, Broward, or Miami-Dade, the real value of TaxJar is in making
         multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;invisible. If your team is already stretched thin, the right fit means
+        sales&nbsp;tax
+        compliance&nbsp;invisible. If your team is already stretched thin, the right fit means
         fewer errors, less time spent on compliance, and no more scrambling to meet deadlines. Geek @ Your Spot LLC’s role is to make sure the platform is set up to deliver on that promise, and to step in if your
         needs change as you scale.</p>
     </>
@@ -94,7 +93,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-if-taxjar-fits-your-business-and-budget" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-if-taxjar-fits-your-business-and-budget-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge If TaxJar Fits Your Business and Budget
               </h2>
               {body}

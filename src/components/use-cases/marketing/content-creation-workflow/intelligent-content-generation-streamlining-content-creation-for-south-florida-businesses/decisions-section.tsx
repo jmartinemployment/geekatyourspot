@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The most important choices in an Intelligent Content Generation rollout are made before the first
@@ -36,7 +35,7 @@ export default function DecisionsSection() {
         Workflow is the last early decision you cannot walk back. Will your team review every draft before it
         goes out, or will the system publish directly to your website and social channels? Who signs off on
         new offers or event promotions? Approval workflows must be configured before rollout, not as an
-        afterthought. Hootsuite’s bulk scheduling and approval features, for instance, allow for drag-and-drop&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-decisions-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">content planning</Link>&nbsp;with built-in checks, so no post goes live unreviewed. Castmagic automates content
+        afterthought. Hootsuite’s bulk scheduling and approval features, for instance, allow for drag-and-drop&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-decisions-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">content planning</Link>&nbsp;with built-in checks, so no post goes live unreviewed. Castmagic automates content
         extraction from recordings but still lets you set checkpoints for team review. If you bolt on approval
         after the fact, you create bottlenecks, and by then, the content machine is already running.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -48,10 +47,10 @@ export default function DecisionsSection() {
         settings; it is a restart, with hard lessons learned and lost time.</p>
       <p className="text-md text-white shadow-text pt-3">
         Early decisions are not about picking the “right” AI tool, Rytr, Scalenut,
-        Frase,&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-decisions-writesonic" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#C83803] hover:underline">Writesonic</Link>,
+        Frase,&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-decisions-writesonic${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#C83803] hover:underline">Writesonic</Link>,
         Koala, Jasper, Copy.ai, Hootsuite, Anyword, Imagine, Castmagic, each has a place when matched to a
         real business need. What cannot be unmade is the foundation: business
-        goals,&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, brand voice, and workflow.
+        goals,&nbsp;data quality, brand voice, and workflow.
         Get these right, and the rest is adjustment. Get them wrong, and every improvement is a patch, not a
         fix.</p>
     </>
@@ -68,7 +67,7 @@ export default function DecisionsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -76,10 +75,10 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Decisions That Are Made Early and Cannot Be Unmade
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

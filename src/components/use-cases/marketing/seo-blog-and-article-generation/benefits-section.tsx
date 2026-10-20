@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function BenefitsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Creating <GlossaryLink slug="search-engine-optimization">SEO</GlossaryLink> content manually can be a time-consuming process filled with repetitive tasks and potential for human error. This often results in delayed content delivery and missed opportunities in fast-moving markets.
+        Creating SEO content manually can be a time-consuming process filled with repetitive tasks and potential for human error. This often results in delayed content delivery and missed opportunities in fast-moving markets.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Automated SEO content generation provides a solution, enabling businesses to keep up with demand while maintaining quality and relevance. With tools like Surfer SEO and Frase, content is optimized for search engines right from the start, minimizing the need for extensive revisions.
@@ -19,7 +18,7 @@ export default function BenefitsSection() {
         <li>Consistent content quality maintained through automated checks and balances.</li>
         <li>Improved alignment with SEO trends through real-time data insights.</li>
       </ul>
-      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="real-time-adaptation-to-seo-trends">Real-Time Adaptation to SEO Trends</h3>
+      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`real-time-adaptation-to-seo-trends${idSuffix}`}>Real-Time Adaptation to SEO Trends</h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         In the ever-changing landscape of SEO, staying updated with trends is crucial. However, manually tracking these trends can be overwhelming and inefficient.
       </p>
@@ -30,25 +29,25 @@ export default function BenefitsSection() {
         <li>Adaptive content strategies that respond to current SEO insights.</li>
         <li>Proactive adjustments to content plans based on emerging trends.</li>
       </ul>
-      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="integration-with-change-management-processes">Integration with Change Management Processes</h4>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`integration-with-change-management-processes${idSuffix}`}>Integration with Change Management Processes</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Geek @ Your Spot LLC integrates AI solutions with existing change management processes to ensure smooth transitions and adoption. This involves training staff on new tools and workflows, reducing resistance to change, and promoting a cultural shift towards <GlossaryLink slug="analytics">data-driven</GlossaryLink> content creation.
+        Geek @ Your Spot LLC integrates AI solutions with existing change management processes to ensure smooth transitions and adoption. This involves training staff on new tools and workflows, reducing resistance to change, and promoting a cultural shift towards data-driven content creation.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         This approach not only facilitates the adoption of new technologies but also ensures that the benefits of automation are fully realized across the organization.
       </p>
-      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="reducing-errors-in-content-production">Reducing Errors in Content Production</h3>
+      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`reducing-errors-in-content-production${idSuffix}`}>Reducing Errors in Content Production</h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Errors in content production can lead to misinformation, brand damage, and lost trust. Manual processes are more prone to these errors due to human oversight and fatigue.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        <Link id="use-cases-marketing-seo-blog-and-article-generation-benefits-automated-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Automated content generation</Link>&nbsp;minimizes these risks by using AI to check facts, grammar, and SEO compliance. Tools like ChatGPT ensure that content meets high standards before publication.
+        <Link id={`use-cases-marketing-seo-blog-and-article-generation-benefits-automated-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Automated content generation</Link>&nbsp;minimizes these risks by using AI to check facts, grammar, and SEO compliance. Tools like ChatGPT ensure that content meets high standards before publication.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Content errors caught and corrected automatically before publication.</li>
         <li>Consistency in tone and style maintained across all content pieces.</li>
       </ul>
-      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-quality-control-mechanisms">Implementing Quality Control Mechanisms</h4>
+      <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`implementing-quality-control-mechanisms${idSuffix}`}>Implementing Quality Control Mechanisms</h4>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Geek @ Your Spot LLC implements quality control mechanisms by configuring AI tools to automatically flag inconsistencies and errors. This proactive approach reduces the likelihood of mistakes slipping through the cracks, ensuring that all content aligns with brand guidelines and quality expectations.
       </p>
@@ -68,7 +67,7 @@ export default function BenefitsSection() {
               <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="benefits-of-automated-seo-content-generation">Benefits of Automated SEO Content Generation</h2>
             </div>
             <div className="col-span-12">
-              {body}
+              {body()}
             </div>
           </div>
         </div>
@@ -79,8 +78,8 @@ export default function BenefitsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="benefits-of-automated-seo-content-generation-desktop">Benefits of Automated SEO Content Generation</h2>
-              {body}
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="benefits-of-automated-seo-content-generation-desktop-lg">Benefits of Automated SEO Content Generation</h2>
+              {body("-lg")}
             </div>
           </div>
         </div>

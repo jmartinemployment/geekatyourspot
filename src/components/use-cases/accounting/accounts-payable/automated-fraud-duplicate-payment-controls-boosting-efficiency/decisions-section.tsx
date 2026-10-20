@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing Automated Fraud &amp; Duplicate Payment Controls is not a plug-and-play solution. The
@@ -16,7 +16,7 @@ export default function DecisionsSection() {
         Next, a thorough&nbsp;
         <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink>
         &nbsp;assessment is crucial. Before deploying any&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven solution,
+        AI-driven solution,
         assess the integrity of your existing data. This involves checking for duplicates, inconsistencies,
         and missing information. Poor data quality can lead to inaccurate analysis and faulty fraud
         detection, undermining the entire system. This step is not just about cleaning data but also about
@@ -24,15 +24,15 @@ export default function DecisionsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Choosing the right technology is another critical decision. Opt for platforms that integrate
         seamlessly with your current infrastructure. Tools like&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-decisions-medius"
+        <Link id={`use-cases-accounting-fraud-controls-decisions-medius${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#0B162A] hover:underline">
           Medius
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-decisions-tipalti"
+        <Link id={`use-cases-accounting-fraud-controls-decisions-tipalti${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#0B162A] hover:underline">
           Tipalti
         </Link>, and&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-decisions-stampli"
+        <Link id={`use-cases-accounting-fraud-controls-decisions-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;offer robust fraud detection and duplicate payment controls that can be customized to
@@ -64,7 +64,7 @@ export default function DecisionsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="making-the-right-decisions-early-on" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="making-the-right-decisions-early-on-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Making the Right Decisions Early On
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

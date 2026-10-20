@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function NextStepsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Once you&#39;ve decided that automated accounts receivable is the right path for your business, the next
@@ -14,10 +13,10 @@ export default function NextStepsSection() {
         predictability. Chaserhq, for example, can help categorize receivables and provide insights into payment
         behaviors, aiding in setting realistic targets.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next, assess your current&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>. Ensure that
+        Next, assess your current&nbsp;data quality. Ensure that
         your financial data is accurate and up-to-date, as this will form the foundation of your automated system.
         Tools like Upflow integrate seamlessly with
-        existing&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems, ensuring that data remains
+        existing&nbsp;ERP&nbsp;systems, ensuring that data remains
         consistent across platforms. This integration is crucial for maintaining the reliability of your forecasts
         and financial reports.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -36,11 +35,11 @@ export default function NextStepsSection() {
         maximizing the benefits of automation.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="use-cases-accounting-accounts-receivable-next-steps-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id={`use-cases-accounting-accounts-receivable-next-steps-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>How does automated AR improve the accuracy of a&nbsp;<Link id="use-cases-accounting-accounts-receivable-next-steps-cash-flow-forecasting" href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#C83803] hover:underline">cash flow forecast</Link>?</li>
+        <li>How does automated AR improve the accuracy of a&nbsp;<Link id={`use-cases-accounting-accounts-receivable-next-steps-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#C83803] hover:underline">cash flow forecast</Link>?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
         <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>
         <li>What data does an automated AR system need to build a cash flow forecast?</li>
@@ -62,7 +61,7 @@ export default function NextStepsSection() {
                 Next Steps for Implementing Automated Accounts Receivable
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -71,10 +70,10 @@ export default function NextStepsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="next-steps-for-implementing-automated-accounts-receivable" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="next-steps-for-implementing-automated-accounts-receivable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Next Steps for Implementing Automated Accounts Receivable
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

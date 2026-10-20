@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/c
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Cross-Platform Chatbot Setup Guide";
 const DESCRIPTION =
     "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-16T16:34:08.2438979Z",
             "dateModified": "2026-10-16T16:34:08.2438979Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Cross-Platform Chatbot, Lead Capture Pipeline, AI Chatbot Implementation, Miami small business automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/botpenguin#software` },
-                { "@id": `${TOOLS_BASE}/dapta#software` },
-                { "@id": `${TOOLS_BASE}/manychat#software` },
-                { "@id": `${TOOLS_BASE}/myaifrontdesk#software` },
-                { "@id": `${TOOLS_BASE}/tidio#software` }
+                { "@id": "https://geekatyourspot.com/#software-botpenguin" },
+                { "@id": "https://geekatyourspot.com/#software-dapta" },
+                { "@id": "https://geekatyourspot.com/#software-manychat" },
+                { "@id": "https://geekatyourspot.com/#software-my-ai-front-desk" },
+                { "@id": "https://geekatyourspot.com/#software-tidio" }
             ]
         },
         {
@@ -62,7 +60,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "How does a chatbot actually separate qualified buyers from tire-kickers?", "acceptedAnswer": {"@type": "Answer", "text": "Chatbots use conditional logic or BANT metrics, Budget, Authority, Need, Timeline, to qualify leads. They do this by asking the right questions in a natural conversation and evaluating the answers in real time."}},
                 {"@type": "Question", "name": "What questions should the bot ask?", "acceptedAnswer": {"@type": "Answer", "text": "What service or product are you interested in? Are you located within our service area? How soon do you need this handled? What is your approximate budget or project scope? Are you the decision-maker, or should we include someone else? What is the best phone number or email for follow-up?"}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: "Cross-Platform Chatbot", description: DESCRIPTION })
     ]
 };
 
@@ -83,14 +82,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

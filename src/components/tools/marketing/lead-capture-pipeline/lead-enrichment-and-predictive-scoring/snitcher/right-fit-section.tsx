@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher is built for small and mid-sized B2B teams that need to turn website traffic into real
@@ -21,7 +20,7 @@ export default function RightFitSection() {
         behavioral tracking and intent scoring make those signals visible and actionable.</p>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses using HubSpot, Salesforce, Pipedrive,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Slack, or Zapier, Snitcher integrates directly,
+        Zoho&nbsp;CRM, Slack, or Zapier, Snitcher integrates directly,
         so your team keeps its existing workflow. Unlimited seats and automations on every plan mean you are
         not paying extra as your team grows or as you add new processes. The setup is simple, one script in
         your site’s header, and there is no ongoing maintenance or warehouse to manage. You get a 14-day trial
@@ -45,14 +44,14 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For teams that want to get the most from Snitcher, the real work is in configuring the right filters
         and automation to match your sales process. Geek @ Your Spot LLC handles this for South Florida
-        businesses, mapping your data, connecting your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and
+        businesses, mapping your data, connecting your&nbsp;CRM, and
         setting up the alerts and workflows that matter for your team. This is not just about plugging in a
         tool, but about tuning it to your market, your campaigns, and your sales cycle. The goal is to make
         sure every high-intent visitor is surfaced, enriched, and routed to the right person before they go
         cold.</p>
       <p className="text-md text-white shadow-text pt-3">
         If your team is still spending more time on detective work than on selling, or if
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is full of anonymous web visits that never
+        your&nbsp;CRM&nbsp;is full of anonymous web visits that never
         turn into deals, Snitcher is worth a close look. It is not a silver bullet, and it does not identify
         every visitor, but it is a practical, affordable way to make your website work harder for your sales
         team. For the Miami-Dade team who watched another week’s worth of traffic slip away, the next step is
@@ -60,7 +59,7 @@ export default function RightFitSection() {
         interested and ready to buy.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-lead-enrichment-and-predictive-scoring-snitcher-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-lead-enrichment-and-predictive-scoring-snitcher-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
@@ -69,7 +68,7 @@ export default function RightFitSection() {
         <li>When you pull or buy a list of local businesses to target in Miami-Dade, Broward, or Palm Beach, what percentage of those emails bounce or phone numbers turn out to be dead ends?</li>
         <li>How do your sales reps currently decide which lead to call first on Monday morning? Is it based on a mathematical score, the newest lead, or just gut feeling?</li>
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
-        <li>What&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
+        <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
     </>
   );
@@ -85,7 +84,7 @@ export default function RightFitSection() {
                 Who Snitcher Is For, Who It Is Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +93,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-snitcher-is-for-who-it-is-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-snitcher-is-for-who-it-is-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Snitcher Is For, Who It Is Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

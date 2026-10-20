@@ -58,7 +58,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-architecture-and-integrations-of-cashflowfrog">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-architecture-and-integrations-of-cashflowfrog-lg">
                 The Architecture and Integrations of Cashflowfrog
               </h2>
               {body}

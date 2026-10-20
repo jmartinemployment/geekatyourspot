@@ -75,7 +75,7 @@ export default function BulkSocialMediaSchedulingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="bulk-social-media-scheduling-consistency-across-platforms">Bulk Social Media Scheduling: Consistency Across
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="bulk-social-media-scheduling-consistency-across-platforms-lg">Bulk Social Media Scheduling: Consistency Across
                 Platforms</h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Managing a consistent presence on multiple social media platforms can be overwhelming for many businesses. The
@@ -85,7 +85,7 @@ export default function BulkSocialMediaSchedulingSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Geek @ Your Spot LLC helps businesses streamline this process by setting up AI-powered tools that automate social
                 media scheduling. These tools, like&nbsp; 
-                <Link id="ai-content-creation-workflow-bulk-contentstudio-3"
+                <Link id="ai-content-creation-workflow-bulk-contentstudio-3-lg"
                   href="/tools/marketing/contentstudio" className="text-[#0B162A] font-bold hover:underline">
                   ContentStudio
                 </Link>, enable teams to plan
@@ -100,23 +100,23 @@ export default function BulkSocialMediaSchedulingSection() {
                 <li>Enables advanced scheduling, allowing for months of content to be planned in advance.</li>
                 <li>Provides analytics for better understanding of audience engagement and content performance.</li>
               </ul>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="automating-content-distribution">Automating Content Distribution</h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text" id="automating-content-distribution-lg">Automating Content Distribution</h3>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 The manual effort involved in posting content individually on each platform is not only time-consuming but also
                 prone to errors. Automation tools like&nbsp;
-                <Link id="ai-content-creation-workflow-bulk-contentstudio-4"
+                <Link id="ai-content-creation-workflow-bulk-contentstudio-4-lg"
                   href="/tools/marketing/contentstudio" className="text-[#0B162A] font-bold hover:underline">
                   ContentStudio
                 </Link>&nbsp; alleviate this
                 burden. By automating content distribution, businesses can ensure that their posts are consistently published at
                 optimal times for <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">audience engagement</GlossaryLink>, reducing the risk of missing key posting windows.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="integrating-content-calendars">Integrating Content Calendars</h4>
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="integrating-content-calendars-lg">Integrating Content Calendars</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 One of the critical elements of successful bulk scheduling is the integration of content calendars. This involves
                 aligning all planned posts with the overall marketing strategy. Tools like ContentStudio allow for seamless
                 integration, providing a comprehensive view of all scheduled content, which helps in maintaining message consistency
                 across all channels.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="maximizing-reach-with-targeted-posting">Maximizing Reach with Targeted Posting</h4>
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text" id="maximizing-reach-with-targeted-posting-lg">Maximizing Reach with Targeted Posting</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 By using AI to analyze audience behavior, businesses can determine the best times to post on different platforms.
                 These insights help in maximizing the reach and impact of each post, ensuring that content is seen by the largest

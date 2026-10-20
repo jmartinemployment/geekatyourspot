@@ -49,7 +49,7 @@ export default function RolloutSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-real-world-rollout-of-automated-accounts-receivable" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-real-world-rollout-of-automated-accounts-receivable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Real-World Rollout of Automated Accounts Receivable
               </h2>
               {body}

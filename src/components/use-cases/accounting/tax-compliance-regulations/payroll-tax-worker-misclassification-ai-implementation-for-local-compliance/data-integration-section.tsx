@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataIntegrationSection() {
   const body = (
@@ -6,15 +5,15 @@ export default function DataIntegrationSection() {
       <p className="text-md text-white shadow-text pt-3">
         A payroll tax and worker misclassification solution is only as strong as the data and integrations
         behind it. In South Florida, with its churn of part-time, seasonal, and remote workers, any gap in your
-        systems quickly turns into a compliance risk. The tools—Gusto, Rippling, Deel, Justworks, ADP—do not
+        systems quickly turns into a compliance risk. The tools (Gusto, Rippling, Deel, Justworks, ADP) do not
         create data out of thin air. They automate what you feed them, and what you let them connect to. If a
         worker’s job site, pay rate, or employee/contractor status is missing, out of date, or stuck in
         someone’s inbox, the software can’t protect you from an audit or a late filing penalty.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The first step is a business-wide&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;assessment. Every worker’s type (W-2 or 1099), location, tax ID, pay
+        The first step is a business-wide&nbsp;data
+        quality&nbsp;assessment. Every worker’s type (W-2 or 1099), location, tax ID, pay
         structure, and department assignment has to be both accurate and current. In practice, that means
-        pulling from your point-of-sale, scheduling, HR, and accounting systems—not just a single payroll
+        pulling from your point-of-sale, scheduling, HR, and accounting systems, not just a single payroll
         spreadsheet. For a landscaping crew running across Miami-Dade, Broward, and Palm Beach, this could mean
         tracking which county each job happens in, who is driving, who is clocked in, and where the work hours
         go. Miss a field, and an overtime rule gets missed with it.</p>
@@ -28,11 +27,11 @@ export default function DataIntegrationSection() {
         and validate W-9s and other tax documents for a distributed freelance pool, but only if you actually
         connect your accounting and onboarding flows to it.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The integration requirements are not a one-time project—they are a living part of your business. As soon
+        The integration requirements are not a one-time project. They are a living part of your business. As soon
         as you bring on a new worker, open a second location, or switch accountants, your data flows change.
         ADP’s approach is to combine its automated payroll tax engine with human review, ensuring that data from
         multiple offices, job sites, and pay codes all reconcile before filings go out. Justworks lets you
-        manage everything—payroll, tax, HR, compliance—from one dashboard, but still needs clean imports from
+        manage everything (payroll, tax, HR, compliance) from one dashboard, but still needs clean imports from
         your time-tracking and scheduling tools.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real risk is in the seams: when a worker’s status changes mid-pay period, when a contractor becomes
@@ -56,7 +55,7 @@ export default function DataIntegrationSection() {
         <li>Test with real pay runs: Before going live, run a pay cycle using actual data to catch missing fields, integration errors, or misclassified workers.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
-        The bottom line: the data and integrations you set up are not background details—they are the foundation
+        The bottom line: the data and integrations you set up are not background details. They are the foundation
         of compliance. Miss a connection, and no amount of software will keep the state or IRS from finding an
         error. Get the integrations right, and the automation tools do what they promise: keep payroll and
         worker classification running smoothly, with fewer errors and no nasty surprises.</p>
@@ -82,7 +81,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-data-and-integration-are-needed-for-payroll-tax-worker-misclassification-automation-to-succeed" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-and-integration-are-needed-for-payroll-tax-worker-misclassification-automation-to-succeed-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data and Integration Are Needed for Payroll Tax &amp; Worker Misclassification Automation to Succeed
               </h2>
               {body}

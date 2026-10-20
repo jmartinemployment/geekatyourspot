@@ -5,7 +5,7 @@ export default function ArchitectureSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Versapay is built on a cloud-based architecture that supports seamless integration with
-        existing&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
+        existing&nbsp;ERP&nbsp;systems.
         This design ensures that businesses can maintain a single source of truth for their financial data,
         eliminating the silos that often lead to discrepancies and inefficiencies. The platform&#39;s architecture
         is designed to be flexible, accommodating a range of ERP systems and allowing for easy integration
@@ -23,7 +23,7 @@ export default function ArchitectureSection() {
         unauthorized access.</p>
       <p className="text-md text-white shadow-text pt-3">
         Beyond security, Versapay&#39;s architecture supports advanced analytics capabilities. By
-        leveraging&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-powered
+        leveraging&nbsp;AI-powered
         insights, businesses can gain a deeper understanding of payment behaviors and cash flow trends. This
         analytical capability allows finance teams to make informed decisions, optimize their collections processes,
         and improve cash flow predictability.</p>
@@ -56,7 +56,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="versapays-architecture-and-integrations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="versapays-architecture-and-integrations-lg">
                 Versapay&#39;s Architecture and Integrations
               </h2>
               {body}

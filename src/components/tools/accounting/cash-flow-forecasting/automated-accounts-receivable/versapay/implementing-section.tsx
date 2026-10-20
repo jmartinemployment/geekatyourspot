@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -9,8 +8,8 @@ export default function ImplementingSection() {
         connectors and templated setups to accelerate the process.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step in going live with Versapay is to integrate it with your existing enterprise resource
-        planning (<GlossaryLink slug="erp">ERP</GlossaryLink>) system. This integration is seamless thanks to
-        Versapay&#39;s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;connectors, which ensure that data
+        planning (ERP) system. This integration is seamless thanks to
+        Versapay&#39;s&nbsp;API&nbsp;connectors, which ensure that data
         flows smoothly between your systems. This step is crucial as it lays the foundation for automating your
         automated accounts receivable processes, eliminating manual data entry and reducing errors.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -27,7 +26,7 @@ export default function ImplementingSection() {
         curve and ensuring smooth adoption.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, the go-live phase is supported by comprehensive training and support from Geek @ Your Spot LLC. As a
-        local consultancy specializing in&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation, they
+        local consultancy specializing in&nbsp;AI&nbsp;implementation, they
         ensure that your team is well-prepared to use Versapay effectively. They provide hands-on guidance during
         the transition, addressing any challenges that arise and ensuring that your automated accounts receivable
         processes are running smoothly from the outset.</p>
@@ -53,7 +52,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-versapay-streamlined-go-live-process">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-versapay-streamlined-go-live-process-lg">
                 Implementing Versapay: Streamlined Go-Live Process
               </h2>
               {body}

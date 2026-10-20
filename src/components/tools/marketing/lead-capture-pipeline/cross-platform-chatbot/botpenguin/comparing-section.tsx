@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Most small businesses in South Florida start their search for a cross-platform chatbot with a short
@@ -21,12 +20,12 @@ export default function ComparingSection() {
         with one more inbox, not one less. BotPenguin, by contrast, brings all those channels into a single
         place and includes AI-powered responses on every plan, even the free tier. For a small business, this
         means you do not need to choose between being responsive on your site and on your social channels. The
-        platform’s&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>&nbsp;and automation
+        platform’s&nbsp;unified inbox&nbsp;and automation
         flows mean that every incoming message, whether it is a WhatsApp ping at midnight or a Facebook
         comment during a campaign, gets the same fast, consistent handling. This is what stops leads from
         slipping through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Compare this to platforms like Chatfuel or&nbsp;<Link id="tools-marketing-cross-platform-chatbot-botpenguin-comparing-manychat" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-[#0B162A] hover:underline">Manychat</Link>, which focus on Meta channels (Facebook and
+        Compare this to platforms like Chatfuel or&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-botpenguin-comparing-manychat${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-[#0B162A] hover:underline">Manychat</Link>, which focus on Meta channels (Facebook and
         Instagram) but do not cover Telegram or SMS natively. BotPenguin does. It also merges contact profiles
         across channels into a single view, so if a customer messages you on Facebook and then follows up on
         WhatsApp, you see the full conversation history and context in one place. This is a crucial difference
@@ -36,7 +35,7 @@ export default function ComparingSection() {
         pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin’s automation is not limited to chat replies. It captures leads with qualification flows,
-        maps the data to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;fields, and pushes it
+        maps the data to your&nbsp;CRM&nbsp;fields, and pushes it
         directly into your sales pipeline, no copy-paste, no manual entry. This stands out from solutions that
         only handle the chat and leave you to move the data by hand. The platform also supports live agent
         handoff at any point, so when a conversation needs a human, the bot passes the full context over
@@ -63,7 +62,7 @@ export default function ComparingSection() {
         qualification engine designed for small businesses that need to keep up with customers across every
         messaging channel. It stands out by treating every platform as a first-class citizen, merging
         conversations and contact profiles, and automating the entire pipeline from first message
-        to&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;entry. For businesses in Miami-Dade, Broward,
+        to&nbsp;CRM&nbsp;entry. For businesses in Miami-Dade, Broward,
         and West Palm Beach, this is the difference between keeping up with the volume and speed of modern
         customer conversations or falling behind while competitors reply faster and capture more leads.</p>
     </>
@@ -80,7 +79,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -88,10 +87,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-botpenguin-compares-to-other-chatbot-approaches-on-the-market" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-botpenguin-compares-to-other-chatbot-approaches-on-the-market-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How BotPenguin Compares to Other Chatbot Approaches on the Market
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

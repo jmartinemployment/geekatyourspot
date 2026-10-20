@@ -1,20 +1,19 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Bill for Automated Fraud &amp; Duplicate Payment Controls, small businesses in
         Miami-Dade, Broward, and West Palm Beach counties should weigh its fit and pricing model against their
         specific needs. Bill offers a robust solution for automating&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes, reducing manual
+        accounts payable&nbsp;processes, reducing manual
         errors, and enhancing security. The platform&#39;s ability to integrate with popular accounting software
         like QuickBooks and Xero makes it a versatile choice for businesses already using these systems.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bill&#39;s pricing structure is straightforward, with plans starting at $49 per user per month for the
         Essentials tier, as detailed on&nbsp;
-        <a id="tools-accounting-fraud-controls-bill-evaluating-pricing"
+        <a id={`tools-accounting-fraud-controls-bill-evaluating-pricing${idSuffix}`}
           href="https://www.bill.com/product/pricing"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill&#39;s pricing and plans page
@@ -29,7 +28,7 @@ export default function EvaluatingSection() {
         beneficial. It&#39;s crucial to evaluate the potential time savings and error reduction each plan
         offers against its cost to determine the best fit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Adjacent solutions like&nbsp;<Link id="tools-accounting-fraud-controls-bill-evaluating-stampli" href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id="tools-accounting-fraud-controls-bill-evaluating-tipalti" href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;also offer Automated Fraud &amp; Duplicate Payment Controls,
+        Adjacent solutions like&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-stampli${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;also offer Automated Fraud &amp; Duplicate Payment Controls,
         and businesses should compare these alternatives to Bill. While Bill excels in its integration
         capabilities and user-friendly interface, competitors might offer different strengths such as specific
         industry customizations or pricing models. Evaluating these options side by side will help businesses
@@ -54,7 +53,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -62,10 +61,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-fraud-duplicate-payment-controls-lg">
                 Evaluating Bill for Automated Fraud &amp; Duplicate Payment Controls
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

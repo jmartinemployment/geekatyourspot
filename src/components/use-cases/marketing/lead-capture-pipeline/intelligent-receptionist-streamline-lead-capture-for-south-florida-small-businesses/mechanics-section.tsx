@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MechanicsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         An Intelligent Receptionist changes how small businesses in Miami-Dade, Broward, and West Palm Beach
@@ -19,15 +18,15 @@ export default function MechanicsSection() {
         team at Geek @ Your Spot LLC works with you to identify these friction points and set measurable KPIs, so
         you know what success looks like before you start.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes the&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
-        quality</GlossaryLink>&nbsp;assessment. It is not enough to install an AI receptionist and hope for the
+        Next comes the&nbsp;data
+        quality&nbsp;assessment. It is not enough to install an AI receptionist and hope for the
         best. Your contact lists, FAQs, service hours, price lists, and booking policies must be accurate, up to
         date, and complete. If this data lives in five different places, or if
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;is
+        the&nbsp;CRM&nbsp;is
         missing key fields, the AI cannot answer questions or book appointments with confidence. This phase
         means pulling your real business data, what you actually offer, not just what is on the website, into a
         clean, validated format. Tools
-        like&nbsp;<Link id="use-cases-marketing-intelligent-receptionist-mechanics-nextiva" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva" className="text-[#0B162A] hover:underline">Nextiva</Link>&nbsp;and&nbsp;<Link id="use-cases-marketing-intelligent-receptionist-mechanics-my-ai-front-desk" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" className="text-[#0B162A] hover:underline">My
+        like&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-nextiva${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva" className="text-[#0B162A] hover:underline">Nextiva</Link>&nbsp;and&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-my-ai-front-desk${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" className="text-[#0B162A] hover:underline">My
         AI Front Desk</Link>&nbsp;require this groundwork; they cannot route or book properly if the data is
         scattered or stale.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -38,18 +37,18 @@ export default function MechanicsSection() {
         calls, texts, and web chats across different numbers or channels: it pulls all those conversations into
         a single dashboard, so nothing falls through the cracks and your staff can finally stop juggling
         disconnected
-        apps.&nbsp;<Link id="use-cases-marketing-intelligent-receptionist-mechanics-voksha" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha" className="text-[#0B162A] hover:underline">Voksha</Link>&nbsp;is
+        apps.&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-voksha${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha" className="text-[#0B162A] hover:underline">Voksha</Link>&nbsp;is
         the go-to when you need predictable, low-cost coverage that does not lock you into long contracts or
         charge by the minute. Its core focus is call answering, appointment setting, and lead logging, making it
         a fit for small teams who do not want enterprise complexity or surprise bills.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="use-cases-marketing-intelligent-receptionist-mechanics-smith-ai" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" className="text-[#0B162A] hover:underline">Smith.ai</Link>&nbsp;is
+        <Link id={`use-cases-marketing-intelligent-receptionist-mechanics-smith-ai${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" className="text-[#0B162A] hover:underline">Smith.ai</Link>&nbsp;is
         built for those scenarios where missing a call means losing a five-figure client or a high-stakes
         opportunity, think law firms or urgent service providers. It pairs a fast, AI-first front end with a
         network of real human receptionists who step in for complex, sensitive, or high-value calls. This hybrid
         model ensures that when the AI cannot resolve the call, a live expert picks up with all the context, so
         the caller never has to start
-        over.&nbsp;<Link id="use-cases-marketing-intelligent-receptionist-mechanics-lobbystack" href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" className="text-[#0B162A] hover:underline">LobbyStack</Link>&nbsp;is
+        over.&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-lobbystack${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" className="text-[#0B162A] hover:underline">LobbyStack</Link>&nbsp;is
         the right choice when you want control over your data, your infrastructure, and your call logic. It is
         open source, so you can self-host, customize every workflow, and avoid vendor lock-in. For regulated
         businesses or those with strict data requirements, this is how you keep full ownership and privacy
@@ -59,7 +58,7 @@ export default function MechanicsSection() {
         for the best. Instead, you launch a pilot, maybe just after-hours calls, or calls to a single
         department. You run smoke tests, validate that calls are being answered, that leads are being booked,
         and that the right data lands in
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>.
+        your&nbsp;CRM.
         Adjustments happen quickly: if callers are asking questions the AI cannot answer, you add those to the
         knowledge base; if staff are missing appointment notifications, you tweak the workflow. Only when the
         system proves itself on real calls do you scale it up to cover all inbound traffic.</p>
@@ -84,7 +83,7 @@ export default function MechanicsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -92,10 +91,10 @@ export default function MechanicsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-the-intelligent-receptionist-approach-works-step-by-step-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-the-intelligent-receptionist-approach-works-step-by-step-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How the Intelligent Receptionist Approach Works: Step by Step, for Small Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

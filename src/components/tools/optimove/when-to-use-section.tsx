@@ -13,9 +13,9 @@ export default function WhenToUseSection() {
             <div className="col-span-5"></div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Optimove is ideal for businesses that are ready to move beyond traditional ad management methods and embrace
-                automated <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>. Companies facing challenges with inefficient ad spend, inconsistent campaign
+                automated ad spend optimization. Companies facing challenges with inefficient ad spend, inconsistent campaign
                 results, and complex data analysis will find Optimove particularly beneficial.</p>
-              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
+              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing&nbsp;ROI is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
                 and provide real-time insights makes it a valuable tool for businesses looking to enhance their marketing strategies
                 without increasing operational workload.</p>
               <p className="text-md text-white shadow-text pt-3">Furthermore, businesses already using tools like Salesforce Einstein or HubSpot can integrate Optimove to further
@@ -33,9 +33,9 @@ export default function WhenToUseSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Use</h2>
               <p className="text-md text-white shadow-text pt-3">Optimove is ideal for businesses that are ready to move beyond traditional ad management methods and embrace
-                automated <GlossaryLink slug="dynamic-creative-optimization" className="text-[#0B162A] hover:underline">ad spend optimization</GlossaryLink>. Companies facing challenges with inefficient ad spend, inconsistent campaign
+                automated ad spend optimization. Companies facing challenges with inefficient ad spend, inconsistent campaign
                 results, and complex data analysis will find Optimove particularly beneficial.</p>
-              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">ROI</GlossaryLink> is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
+              <p className="text-md text-white shadow-text pt-3">If your business operates in a competitive market like Palm Beach or Broward counties, where maximizing marketing&nbsp;ROI is essential, Optimove can provide the edge needed to stay ahead. Its ability to automate campaign adjustments
                 and provide real-time insights makes it a valuable tool for businesses looking to enhance their marketing strategies
                 without increasing operational workload.</p>
               <p className="text-md text-white shadow-text pt-3">Furthermore, businesses already using tools like Salesforce Einstein or HubSpot can integrate Optimove to further

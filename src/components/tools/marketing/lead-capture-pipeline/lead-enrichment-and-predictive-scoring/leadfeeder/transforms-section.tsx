@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Leadfeeder changes the lead capture process from a guessing game to a data-driven workflow. Instead of
@@ -37,7 +37,7 @@ export default function TransformsSection() {
         platform can create a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;record, send a Slack
         alert, or trigger a workflow automatically. No one has to copy details from a dashboard or chase down
         contact information. This means sales reps spend more time talking to real prospects, and less time on
-        admin. The tools you already use, HubSpot, Salesforce,&nbsp;<Link id="tools-marketing-lead-enrichment-leadfeeder-transforms-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>, Microsoft Dynamics, connect
+        admin. The tools you already use, HubSpot, Salesforce,&nbsp;<Link id={`tools-marketing-lead-enrichment-leadfeeder-transforms-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>, Microsoft Dynamics, connect
         directly, so all the data flows where it is needed, with no double entry.</p>
       <p className="text-md text-white shadow-text pt-3">
         For lead enrichment, Leadfeeder pulls in firmographic data, industry, headcount, tech stack, recent
@@ -91,7 +91,7 @@ export default function TransformsSection() {
                 What Leadfeeder Actually Does for Lead Enrichment and Predictive Scoring
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -100,10 +100,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-leadfeeder-actually-does-for-lead-enrichment-and-predictive-scoring" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-leadfeeder-actually-does-for-lead-enrichment-and-predictive-scoring-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Leadfeeder Actually Does for Lead Enrichment and Predictive Scoring
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

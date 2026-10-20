@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/l
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Lead Enrichment & Predictive Scoring";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.";
+    "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.";
 const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-17T11:09:57.5329753Z",
             "dateModified": "2026-10-17T11:09:57.5329753Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Lead Enrichment and Predictive Scoring, AI lead capture, South Florida small businesses, lead scoring tools, Apollo, Lusha, Snitcher, Leadfeeder, Factors, AI implementation services",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/apollo#software` },
-                { "@id": `${TOOLS_BASE}/factors#software` },
-                { "@id": `${TOOLS_BASE}/leadfeeder#software` },
-                { "@id": `${TOOLS_BASE}/lusha#software` },
-                { "@id": `${TOOLS_BASE}/snitcher#software` }
+                { "@id": "https://geekatyourspot.com/#software-apollo" },
+                { "@id": "https://geekatyourspot.com/#software-factors" },
+                { "@id": "https://geekatyourspot.com/#software-leadfeeder" },
+                { "@id": "https://geekatyourspot.com/#software-lusha" },
+                { "@id": "https://geekatyourspot.com/#software-snitcher" }
             ]
         },
         {
@@ -60,7 +58,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "How does form enrichment prevent website visitors from abandoning our signup forms?", "acceptedAnswer": {"@type": "Answer", "text": "Form enrichment lets businesses shrink their signup forms down to just one field, like a work email address. As soon as the user submits, the enrichment software grabs and adds key details such as company size and location behind the scenes. This keeps forms short, which means more people finish signing up, without the business missing out on important information."}},
                 {"@type": "Question", "name": "What happens to a high lead score when a prospect completely stops engaging?", "acceptedAnswer": {"@type": "Answer", "text": "Advanced scoring systems use an automatic process called behavioral score decay. If a lead that once had a high score suddenly stops interacting for three weeks, the system lowers their score over time. This keeps sales teams focused on leads that are still active and interested."}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -81,14 +80,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

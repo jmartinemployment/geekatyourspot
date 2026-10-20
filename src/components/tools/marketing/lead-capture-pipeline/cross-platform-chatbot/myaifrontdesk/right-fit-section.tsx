@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk is built for small businesses that want to run a true cross-platform lead capture
@@ -25,7 +24,7 @@ export default function RightFitSection() {
         My AI Front Desk is also a strong fit for teams that do not want to become IT shops. You do not need
         engineers or developers to get started; the platform is managed and up in about 30 minutes, with no
         code required. Native integrations with HubSpot, Salesforce, and Pipedrive mean
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;updates itself from every call, chat, and
+        your&nbsp;CRM&nbsp;updates itself from every call, chat, and
         form, no manual entry, no extra plugins, no risk of missed data. For small teams, this means more time
         spent closing business and less time cleaning up after the tools.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -40,7 +39,7 @@ export default function RightFitSection() {
         For teams looking for a basic away message or a simple chatbot that gives the same canned reply to
         every inquiry, My AI Front Desk is overkill. Its AI does more than just acknowledge receipt; it
         answers real questions, books appointments, asks follow-ups, and logs every step to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. If you do not need that depth, if you just want
+        your&nbsp;CRM. If you do not need that depth, if you just want
         to tell people you will get back to them, there are lighter, cheaper options.</p>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk also may not be a fit for large enterprises with global, multi-brand operations or
@@ -57,7 +56,7 @@ export default function RightFitSection() {
         this is where to start.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-myaifrontdesk-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
@@ -65,9 +64,9 @@ export default function RightFitSection() {
         <li>How many inquiries do you receive in a typical week, and when do they arrive?</li>
         <li>Out of every 10 people who reach out to your business, how many are actually qualified buyers versus &#39;tire-kickers&#39; who waste your billable time?</li>
         <li>What would make you consider an inquiry “qualified” rather than just curious?</li>
-        <li>Do you currently use a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, spreadsheet, paper intake form, or nothing at all?</li>
-        <li>What systems must the chatbot connect with?&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, website forms, calendar, email/SMS, help desk, or accounting software?</li>
-        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
+        <li>Do you currently use a&nbsp;CRM, spreadsheet, paper intake form, or nothing at all?</li>
+        <li>What systems must the chatbot connect with?&nbsp;CRM, website forms, calendar, email/SMS, help desk, or accounting software?</li>
+        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;CRM&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
         <li>What information may the bot answer from, and who will keep it current?</li>
         <li>What tone fits your brand: bilingual, formal, casual, urgent, or high-touch?</li>
         <li>What made you start looking for a solution now?</li>
@@ -88,7 +87,7 @@ export default function RightFitSection() {
                 Who Should Choose My AI Front Desk, and Who Should Not
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -97,10 +96,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-should-choose-my-ai-front-desk-and-who-should-not" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-should-choose-my-ai-front-desk-and-who-should-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Should Choose My AI Front Desk, and Who Should Not
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
@@ -19,7 +18,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         If the caller’s need is straightforward, Smith.ai’s AI completes the intake, schedules appointments
         directly into your calendar, and pushes all relevant data into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        your&nbsp;CRM&nbsp;or
         project management system. The caller gets an immediate, helpful response, and your team receives a
         detailed summary, no manual entry, no missed details, and no lost leads. Every call is logged,
         transcribed, and summarized for later review.</p>
@@ -72,7 +71,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-smith-ai-handles-every-call-the-hybrid-receptionist-workflow-in-practice" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-smith-ai-handles-every-call-the-hybrid-receptionist-workflow-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Smith.ai Handles Every Call: The Hybrid Receptionist Workflow in Practice
               </h2>
               {body}

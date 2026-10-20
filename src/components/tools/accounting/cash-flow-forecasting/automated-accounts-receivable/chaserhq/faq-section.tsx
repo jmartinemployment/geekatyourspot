@@ -33,7 +33,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Automation ensures consistent and timely reminders across different channels, prioritizes high-risk accounts
-              using&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>, and eliminates the delays and gaps of manual
+              using&nbsp;AI, and eliminates the delays and gaps of manual
               processes. Businesses automating more than half of their receivables workflows have reduced DSO by about a
               third, speeding up cash flow by roughly 19 days.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

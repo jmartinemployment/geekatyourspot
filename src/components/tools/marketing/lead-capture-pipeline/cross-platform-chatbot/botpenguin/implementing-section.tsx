@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -22,21 +21,21 @@ export default function ImplementingSection() {
         <li>Authenticate each channel: Use BotPenguin’s step-by-step integration flow to connect WhatsApp, Instagram, Facebook Messenger, Telegram, SMS, and your website chat.</li>
         <li>Choose a template: Select from BotPenguin’s ready-made chatbot flows, or start with a blank canvas if you need something specific.</li>
         <li>Customize your flows: Edit questions, qualification steps, and brand voice. You do not need to write code, just use the visual builder.</li>
-        <li>Test the experience: Run test conversations across all channels to check handoff, lead capture, and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync.</li>
+        <li>Test the experience: Run test conversations across all channels to check handoff, lead capture, and&nbsp;CRM&nbsp;sync.</li>
         <li>Roll out in phases: Go live on one or two channels first, then expand to others as your team gets comfortable.</li>
-        <li>Monitor and adjust: Watch the&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>&nbsp;and lead pipeline, then tweak flows or add automations as you see what customers actually do.</li>
+        <li>Monitor and adjust: Watch the&nbsp;unified inbox&nbsp;and lead pipeline, then tweak flows or add automations as you see what customers actually do.</li>
       </ol>
       <p className="text-md text-white shadow-text pt-3">
         What shortens go-live is that BotPenguin does not require separate tools for each channel or lengthy
-        manual configuration. The platform’s&nbsp;<GlossaryLink slug="unified-inbox">unified
-        inbox</GlossaryLink>&nbsp;means your team can see every incoming chat from WhatsApp, Instagram,
+        manual configuration. The platform’s&nbsp;unified
+        inbox&nbsp;means your team can see every incoming chat from WhatsApp, Instagram,
         Facebook, Telegram, SMS, and your website in one place. There is no need to juggle five browser tabs
         or copy-paste details from one app to another. Every message lands in the same lead pipeline, and
         every conversation stays linked to the right contact profile.</p>
       <p className="text-md text-white shadow-text pt-3">
         BotPenguin’s templated setup handles most of what a small business needs out of the box. For lead
         capture, it comes with prebuilt flows that ask qualifying questions, collect contact details, and push
-        structured data directly into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or sales
+        structured data directly into your&nbsp;CRM&nbsp;or sales
         sheet. If you want to trigger different flows based on keywords, campaign sources, or time of day, the
         platform supports those conditions without extra development. The AI layer handles routine questions
         and handoffs, so your staff only steps in for complex cases or hot leads.</p>
@@ -49,10 +48,10 @@ export default function ImplementingSection() {
         scaling as your team’s confidence grows.</p>
       <p className="text-md text-white shadow-text pt-3">
         The final step before full launch is always a round of live testing.
-        BotPenguin’s&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>&nbsp;lets you watch
+        BotPenguin’s&nbsp;unified inbox&nbsp;lets you watch
         messages as they come in from each channel, check that qualification steps work, and confirm that
-        leads reach your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;with the right tags and
-        details. If your business uses HubSpot, Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, or
+        leads reach your&nbsp;CRM&nbsp;with the right tags and
+        details. If your business uses HubSpot, Zoho&nbsp;CRM, or
         another supported system, BotPenguin’s integrations let you map fields and automate data sync without
         a custom connector. This is where Geek @ Your Spot LLC’s implementation makes a difference for South
         Florida clients: we handle the mapping, test the flows across every channel, and make sure your team
@@ -85,7 +84,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-shortens-botpenguin-go-live-for-a-small-business-the-real-steps-and-the-order-they-happen-in" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-shortens-botpenguin-go-live-for-a-small-business-the-real-steps-and-the-order-they-happen-in-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Shortens BotPenguin Go-Live for a Small Business: The Real Steps and the Order They Happen In
               </h2>
               {body}

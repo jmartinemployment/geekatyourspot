@@ -6,11 +6,11 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Dryrun transforms the way businesses manage cash flow by integrating real-time data and sophisticated
         scenario modeling. At its core, Dryrun operates through a series of interconnected steps that
-        streamline&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;and decision-making processes.</p>
+        streamline&nbsp;cash
+        flow forecasting&nbsp;and decision-making processes.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step in Dryrun&#39;s operation is data synchronization. Dryrun connects directly to
-        leading&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;and
+        leading&nbsp;ERP&nbsp;and
         accounting systems such as NetSuite, Sage Intacct, Microsoft Dynamics 365 Business Central, and QuickBooks
         Online. This integration ensures that all financial data is up-to-date, eliminating the need for manual data
         entry and reducing errors.
@@ -56,7 +56,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-dryrun-mechanically-operates-a-step-by-step-guide">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-dryrun-mechanically-operates-a-step-by-step-guide-lg">
                 How Dryrun Mechanically Operates: A Step-by-Step Guide
               </h2>
               {body}

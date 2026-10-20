@@ -5,9 +5,9 @@ export default function ArchitectureSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill is designed to streamline and automate&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;processes,
+        accounts payable&nbsp;processes,
         particularly focusing on automated approval workflows. At its core, Bill uses&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven
+        AI-driven
         technology to reduce manual data entry and improve accuracy in invoice processing. This system
         captures invoice details automatically, applying coding based on historical patterns or predefined
         rules. This feature alone can cut down manual processing time by 20%, allowing staff to focus on more
@@ -69,7 +69,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="understanding-bills-architecture-and-functionality">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="understanding-bills-architecture-and-functionality-lg">
                 Understanding Bill&#39;s Architecture and Functionality
               </h2>
               {body}

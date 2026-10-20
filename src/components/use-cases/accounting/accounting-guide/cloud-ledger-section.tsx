@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function CloudLedgerSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every remedy in this guide depends on one clean record of your business. The <strong>ledger</strong> holds
@@ -12,14 +12,14 @@ export default function CloudLedgerSection() {
         QuickBooks Online Advanced
       </h3>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="use-cases-accounting-cloud-ledger-quickbooks" href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#C83803] hover:underline">QuickBooks
+        <Link id={`use-cases-accounting-cloud-ledger-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#C83803] hover:underline">QuickBooks
         Online Advanced</Link> is the top tier of QuickBooks Online and one of the most widely used ledgers
         among growing small businesses. It supports up to <strong>25 users</strong> with <strong>custom
         roles</strong>, so each person sees only what their job requires. Its <strong>workflow
         automation</strong> sends reminders and routes approvals according to rules you set, and its reporting
         goes deeper than the lower tiers. When a business grows into several entities, Intuit offers <strong>Intuit
         Enterprise Suite</strong> as the next step, so the clean data you build today does not have to move to
-        a different vendor later. Our <Link id="use-cases-accounting-cloud-ledger-p-irp" href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent
+        a different vendor later. Our <Link id={`use-cases-accounting-cloud-ledger-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent
         Resource Planning</Link> guide covers how the ledger fits into planning.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Xero
@@ -29,7 +29,7 @@ export default function CloudLedgerSection() {
         connected apps. Every Xero plan includes <strong>unlimited users</strong>, which helps businesses that
         want their bookkeeper, accountant, and managers working in the same system. Its higher plan adds
         support for <strong>multiple currencies</strong>, which matters for South Florida importers and
-        distributors who buy from suppliers in Latin America. Approval tools such as <Link id="use-cases-accounting-cloud-ledger-approvalmax" href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link> connect
+        distributors who buy from suppliers in Latin America. Approval tools such as <Link id={`use-cases-accounting-cloud-ledger-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link> connect
         directly to Xero.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Sage 50
@@ -62,7 +62,7 @@ export default function CloudLedgerSection() {
                 Start With a Clean Cloud Ledger
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -71,10 +71,10 @@ export default function CloudLedgerSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="start-with-a-clean-cloud-ledger" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="start-with-a-clean-cloud-ledger-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Start With a Clean Cloud Ledger
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

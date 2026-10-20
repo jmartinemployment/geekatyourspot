@@ -9,6 +9,7 @@ import RetentionSecuritySection from "@/components/privacy-policy/retention-secu
 import YourRightsSection from "@/components/privacy-policy/your-rights-section";
 import ContactSection from "@/components/privacy-policy/contact-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Privacy Policy";
 const DESCRIPTION =
@@ -31,7 +32,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         robots: { index: true, follow: true },
     };

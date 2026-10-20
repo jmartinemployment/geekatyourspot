@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RealitiesOfImplementationSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Rolling out an automated data entry and processing system in accounts payable is a multifaceted
@@ -10,7 +10,7 @@ export default function RealitiesOfImplementationSection() {
         that complements existing processes rather than disrupts them.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration with existing systems is another critical aspect. Tools like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-realities-avidxchange"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-realities-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;excel in this area by offering seamless integration with numerous accounting systems,
@@ -19,7 +19,7 @@ export default function RealitiesOfImplementationSection() {
         integrity.</p>
       <p className="text-md text-white shadow-text pt-3">
         Data quality is paramount. Before automating, it&#39;s essential to clean and validate current data.&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-realities-stampli"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-realities-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;offers robust data extraction capabilities that can help maintain high data quality by
@@ -49,7 +49,7 @@ export default function RealitiesOfImplementationSection() {
                 The Realities of Implementation: Sequence, Data, and People
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function RealitiesOfImplementationSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-realities-of-implementation-sequence-data-and-people" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-realities-of-implementation-sequence-data-and-people-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Realities of Implementation: Sequence, Data, and People
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

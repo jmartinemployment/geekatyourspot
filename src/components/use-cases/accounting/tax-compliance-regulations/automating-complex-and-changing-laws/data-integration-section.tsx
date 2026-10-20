@@ -4,9 +4,9 @@ export default function DataIntegrationSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        To implement a robust&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;solution in South Florida&#39;s dynamic environment, businesses must
-        prioritize&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;and seamless
+        To implement a robust&nbsp;tax
+        compliance&nbsp;solution in South Florida&#39;s dynamic environment, businesses must
+        prioritize&nbsp;data quality&nbsp;and seamless
         integration. The foundation of effective tax compliance lies in the ability to harness accurate and
         timely data from multiple sources. This requires a structured process that ensures all relevant
         financial and transactional information is captured and processed efficiently.</p>
@@ -61,7 +61,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="data-and-integration-requirements-for-effective-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-and-integration-requirements-for-effective-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data and Integration Requirements for Effective Tax Compliance
               </h2>
               {body}

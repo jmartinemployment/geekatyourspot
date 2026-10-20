@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementationSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing an automated accounts receivable solution can be transformative, but its success hinges on
@@ -13,17 +13,17 @@ export default function ImplementationSection() {
         <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">Data
         quality</GlossaryLink>&nbsp;plays a crucial role in the implementation process. Ensuring that your data is
         accurate, complete, and consistent is vital for the system to function correctly. For instance,&nbsp;
-        <Link id="use-cases-accounting-accounts-receivable-implementation-upflow"
+        <Link id={`use-cases-accounting-accounts-receivable-implementation-upflow${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" className="text-[#0B162A] hover:underline">
           Upflow
-        </Link>&#39;s&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
-        forecasting</GlossaryLink>&nbsp;relies on live receivables data, which means that any errors or
+        </Link>&#39;s&nbsp;cash flow
+        forecasting&nbsp;relies on live receivables data, which means that any errors or
         inconsistencies in data can lead to inaccurate forecasts. Therefore, a thorough data audit and cleansing
         process should precede the deployment of any automated AR solution.</p>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the right technology is another critical step. The chosen platform should integrate seamlessly with
         existing systems such as QuickBooks or Xero to avoid disruptions.&nbsp;
-        <Link id="use-cases-accounting-accounts-receivable-implementation-bill"
+        <Link id={`use-cases-accounting-accounts-receivable-implementation-bill${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>, for example, offers integrations that ensure data flows smoothly between accounting systems and the AR
@@ -54,7 +54,7 @@ export default function ImplementationSection() {
                 Ensuring Successful Implementation of Automated AR Solutions
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -63,10 +63,10 @@ export default function ImplementationSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="ensuring-successful-implementation-of-automated-ar-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="ensuring-successful-implementation-of-automated-ar-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Ensuring Successful Implementation of Automated AR Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

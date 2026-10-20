@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightChoiceSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Stampli is particularly well-suited for small businesses that are burdened by manual&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes. If your team is
+        accounts payable&nbsp;processes. If your team is
         overwhelmed by the volume of invoices or frequently encounters delays due to manual approvals,
         Stampli&#39;s automated approval workflows can offer a substantial improvement. Its ability to
         integrate with existing systems like Sage 300 CRE, as demonstrated in Cork Howard Construction&#39;s
@@ -34,7 +33,7 @@ export default function RightChoiceSection() {
         your business&#39;s growth.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-approval-workflows-stampli-right-choice-consultation"
+        <Link id={`tools-accounting-approval-workflows-stampli-right-choice-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
@@ -44,7 +43,7 @@ export default function RightChoiceSection() {
         <li>Is there one central AP inbox, or do invoices go to different people and departments?</li>
         <li>Who enters invoice details into QuickBooks, Xero, or your accounting system?</li>
         <li>“Invoice capture vs. AP automation: what does your business actually need?”</li>
-        <li>“Can invoice software read every line—or just the total?”</li>
+        <li>“Can invoice software read every line, or just the total?”</li>
         <li>“Who checks an invoice when AI gets it wrong?”</li>
         <li>“Does your invoice tool create a reviewable bill or post directly to accounting?”</li>
         <li>“What does automated invoice processing really cost once line-item credits are included?”</li>
@@ -67,7 +66,7 @@ export default function RightChoiceSection() {
                 Is Stampli the Right Choice for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -76,10 +75,10 @@ export default function RightChoiceSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-stampli-the-right-choice-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-stampli-the-right-choice-for-your-business-lg">
                 Is Stampli the Right Choice for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

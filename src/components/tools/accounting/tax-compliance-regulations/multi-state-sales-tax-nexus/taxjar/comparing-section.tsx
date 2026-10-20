@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida weighing TaxJar for multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;are usually comparing it to three things: manual spreadsheet tracking,
+        sales&nbsp;tax
+        compliance&nbsp;are usually comparing it to three things: manual spreadsheet tracking,
         do-it-all accounting platforms, and other specialized tax automation tools. Each approach has its own
         ceiling and its own blind spots. TaxJar sits in the middle: it is not an all-purpose accounting tool,
         and it is not a full-service tax advisory firm. It is a purpose-built engine for automating the most
@@ -34,12 +33,12 @@ export default function ComparingSection() {
         Other tax automation tools exist, some with broader international reach or deep enterprise features. For
         a small or mid-sized business in Miami-Dade, Broward or Palm Beach, the question is not just feature
         count, but fit. TaxJar is built for speed and reliability,
-        its&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;delivers
+        its&nbsp;API&nbsp;delivers
         sub-25ms response times and 99.99% uptime, which matters for e-commerce checkouts that cannot afford a
         delay. It also integrates directly with platforms like Shopify, Salesforce, Amazon, Squarespace, Square,
         and Woo, so businesses can connect their sales channels without custom development. Where a business has
         unique needs, the
-        TaxJar&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;allows
+        TaxJar&nbsp;API&nbsp;allows
         for custom integrations, but the majority of small teams will not need to build from scratch.</p>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar’s core differentiator is its focus on economic nexus and the automation of compliance as sales
@@ -86,7 +85,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-taxjar-compares-what-you-get-what-you-don-t-and-where-it-sits-among-adjacent-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxjar-compares-what-you-get-what-you-don-t-and-where-it-sits-among-adjacent-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxJar Compares: What You Get, What You Don’t, and Where It Sits Among Adjacent Approaches
               </h2>
               {body}

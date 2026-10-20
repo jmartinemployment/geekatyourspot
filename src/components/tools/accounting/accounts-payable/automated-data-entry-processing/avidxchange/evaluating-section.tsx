@@ -1,5 +1,5 @@
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering AvidXchange for automating accounts payable (AP), businesses should weigh its fit for
@@ -25,8 +25,8 @@ export default function EvaluatingSection() {
         businesses seeking a comprehensive AP solution.</p>
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;AvidXchange automates your B2B payments and integrates with your existing AP process so you can
-        monetize electronic payments at scale—without changing banks or accounting systems.&quot;&nbsp;
-        <a id="tools-accounting-avidxchange-evaluating-source"
+        monetize electronic payments at scale, without changing banks or accounting systems.&quot;&nbsp;
+        <a id={`tools-accounting-avidxchange-evaluating-source${idSuffix}`}
           href="https://www.avidxchange.com/corporate-payments/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           AvidXchange
@@ -45,7 +45,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-avidxchange-fit-and-pricing-considerations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-avidxchange-fit-and-pricing-considerations-lg">
                 Evaluating AvidXchange: Fit and Pricing Considerations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

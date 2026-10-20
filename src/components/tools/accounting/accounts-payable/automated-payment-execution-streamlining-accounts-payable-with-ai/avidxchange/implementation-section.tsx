@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementationSection() {
   const body = (
@@ -30,7 +29,7 @@ export default function ImplementationSection() {
         or delays in payment processing.</p>
       <p className="text-md text-white shadow-text pt-3">
         AvidXchange&#39;s&nbsp;
-        <GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;integration
+        API&nbsp;integration
         capabilities offer additional customization options, allowing businesses to extend the platform&#39;s
         functionality as needed. Whether it&#39;s integrating with other business tools or customizing
         reports, the API provides the flexibility to meet unique business needs. Geek @ Your Spot LLC leverages
@@ -65,7 +64,7 @@ export default function ImplementationSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-avidxchange-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-avidxchange-in-your-business-environment-lg">
                 Implementing AvidXchange in Your Business Environment
               </h2>
               {body}

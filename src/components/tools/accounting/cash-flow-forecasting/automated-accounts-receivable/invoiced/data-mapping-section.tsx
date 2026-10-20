@@ -51,7 +51,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="critical-data-structure-and-mapping-decisions-for-invoiced-deployment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="critical-data-structure-and-mapping-decisions-for-invoiced-deployment-lg">
                 Critical Data Structure and Mapping Decisions for Invoiced Deployment
               </h2>
               {body}

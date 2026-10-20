@@ -23,6 +23,8 @@ type RenderContext = {
   counter: LinkIdCounter;
   /** A question-and-answer section: each question gets the hand-coded FAQ rule above it. */
   questions: boolean;
+  /** "-lg" in the desktop copy, so the two copies never share a link id. */
+  idSuffix: string;
 };
 
 function renderInline(nodes: readonly InlineNode[], context: RenderContext): ReactNode[] {
@@ -42,7 +44,7 @@ function renderInline(nodes: readonly InlineNode[], context: RenderContext): Rea
 
     const children = renderInline(node.children, context);
     context.counter.next += 1;
-    const id = gtmLinkIdFromHref(node.href, `${context.sectionId}-${context.counter.next}`);
+    const id = `${gtmLinkIdFromHref(node.href, `${context.sectionId}-${context.counter.next}`)}${context.idSuffix}`;
 
     if (node.glossarySlug) {
       return (
@@ -137,6 +139,7 @@ type ArticleBodyProps = Readonly<{
   linkClassName: string;
   sectionId: string;
   questions: boolean;
+  idSuffix?: string;
 }>;
 
 export function ArticleBody({
@@ -144,7 +147,14 @@ export function ArticleBody({
   linkClassName,
   sectionId,
   questions,
+  idSuffix = "",
 }: ArticleBodyProps): React.JSX.Element {
-  const context: RenderContext = { linkClassName, sectionId, counter: { next: 0 }, questions };
+  const context: RenderContext = {
+    linkClassName,
+    sectionId,
+    counter: { next: 0 },
+    questions,
+    idSuffix,
+  };
   return <>{blocks.map((block, index) => renderBlock(block, index, context))}</>;
 }

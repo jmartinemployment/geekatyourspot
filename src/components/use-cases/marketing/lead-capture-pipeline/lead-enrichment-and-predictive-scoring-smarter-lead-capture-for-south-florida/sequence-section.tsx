@@ -19,7 +19,7 @@ export default function SequenceSection() {
         this is built to hit that specific number.</p>
       <p className="text-md text-white shadow-text pt-3">
         2. Data Quality Assessment You can’t enrich or score what you can’t trust. This phase is a hands-on
-        audit of what you already have, your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, email lists,
+        audit of what you already have, your&nbsp;CRM, email lists,
         website analytics, and marketing tools. Here, you find the gaps: outdated records, missing phone
         numbers, mismatched industries, or duplicate leads. This is where Lusha and Apollo come in. Lusha
         automates bulk enrichment, updating stale or incomplete records with verified contact data, direct
@@ -47,9 +47,9 @@ export default function SequenceSection() {
       <p className="text-md text-white shadow-text pt-3">
         5. Full Rollout and Local Integration When the pilot proves itself, you scale up. That means
         connecting the tools to every relevant
-        system,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,&nbsp;<GlossaryLink slug="marketing-automation">marketing
+        system,&nbsp;CRM,&nbsp;<GlossaryLink slug="marketing-automation">marketing
         automation</GlossaryLink>, chatbots, call tracking, and Slack or Teams for real-time notifications.
-        Snitcher automates the push to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so sales teams
+        Snitcher automates the push to your&nbsp;CRM, so sales teams
         see new, scored leads as they land. Leadfeeder syncs with your outreach tools, so high-intent
         prospects are never missed. Factors aggregates multi-channel touchpoints and provides attribution, so
         marketing can see exactly which campaign drove the lead to action. Every workflow is tuned to the KPI
@@ -90,7 +90,7 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="rolling-out-a-lead-enrichment-and-predictive-scoring-pipeline-the-real-sequence-inside-a-small-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="rolling-out-a-lead-enrichment-and-predictive-scoring-pipeline-the-real-sequence-inside-a-small-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Rolling Out a Lead Enrichment and Predictive Scoring Pipeline: The Real Sequence Inside a Small Business
               </h2>
               {body}

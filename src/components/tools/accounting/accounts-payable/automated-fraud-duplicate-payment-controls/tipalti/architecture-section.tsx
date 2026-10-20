@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tipalti is designed to streamline&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>
+        accounts payable
         &nbsp;(AP) processes by integrating several key functions into a single platform. This integration
         supports small businesses in Miami-Dade, Broward, and West Palm Beach counties in implementing effective
         Automated Fraud &amp; Duplicate Payment Controls. At its core, Tipalti offers end-to-end automation that
@@ -13,7 +12,7 @@ export default function ArchitectureSection() {
         intervention and the associated risks.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform&#39;s architecture is built around&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven automation.
+        AI-driven automation.
         This includes the Tipalti AI Assistant, which automates tasks like invoice capture, coding, approval,
         and payment. By leveraging AI, Tipalti provides real-time insights that help finance teams make informed
         decisions, thereby enhancing efficiency and reducing errors. This automation is crucial for small
@@ -68,7 +67,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="tipaltis-architecture-and-mechanics">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="tipaltis-architecture-and-mechanics-lg">
                 Tipalti&#39;s Architecture and Mechanics
               </h2>
               {body}

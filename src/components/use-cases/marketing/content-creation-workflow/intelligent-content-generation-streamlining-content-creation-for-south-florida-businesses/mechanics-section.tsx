@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MechanicsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Intelligent Content Generation replaces the slow, manual grind of content creation with a streamlined,
@@ -22,8 +22,8 @@ export default function MechanicsSection() {
         whether it’s in Google Sheets,
         your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, or
         QuickBooks, is pooled and validated for accuracy and completeness. This step matters because AI tools
-        like&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-rytr" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr" className="text-[#0B162A] hover:underline">Rytr</Link>,&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-koala" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala" className="text-[#0B162A] hover:underline">Koala</Link>,
-        and&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-scalenut" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut" className="text-[#0B162A] hover:underline">Scalenut</Link>&nbsp;can
+        like&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-rytr${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr" className="text-[#0B162A] hover:underline">Rytr</Link>,&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-koala${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala" className="text-[#0B162A] hover:underline">Koala</Link>,
+        and&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-scalenut${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut" className="text-[#0B162A] hover:underline">Scalenut</Link>&nbsp;can
         only generate content as good as the source material they’re fed. If the data has gaps or
         inconsistencies, the system flags them for review before a single draft is produced.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -31,24 +31,24 @@ export default function MechanicsSection() {
         what each workflow needs. Rytr is plugged in for rapid-fire caption and microcopy generation,
         Instagram posts, Google Business Profile updates, and follow-up emails in both English and Spanish,
         all tailored for the South Florida
-        market.&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-hootsuite" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite" className="text-[#0B162A] hover:underline">Hootsuite</Link>&nbsp;is
+        market.&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-hootsuite${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite" className="text-[#0B162A] hover:underline">Hootsuite</Link>&nbsp;is
         set up as the operational backbone for scheduling, trend tracking, and multi-platform publishing,
         allowing the team to batch a month of content in a single
-        sitting.&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-anyword" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword" className="text-[#0B162A] hover:underline">Anyword</Link>&nbsp;is
+        sitting.&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-anyword${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword" className="text-[#0B162A] hover:underline">Anyword</Link>&nbsp;is
         introduced to eliminate the guesswork in paid ads and email subject lines by running predictive
         performance checks before anything goes live. Scalenut
-        and&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-frase" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase" className="text-[#0B162A] hover:underline">Frase</Link>&nbsp;are
+        and&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-frase${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase" className="text-[#0B162A] hover:underline">Frase</Link>&nbsp;are
         brought in for long-form content, converting a messy pile of business notes into polished,
         authoritative blog posts that answer real customer questions and drive organic search traffic. Koala
         ensures every piece matches the business’s tone and keeps service details accurate across channels.
         When visual assets are
-        needed,&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-imagine" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine" className="text-[#0B162A] hover:underline">Imagine</Link>&nbsp;generates
+        needed,&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-imagine${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine" className="text-[#0B162A] hover:underline">Imagine</Link>&nbsp;generates
         branded images and short videos, drawing on real product photos or service references. For teams
         sitting on unused webinar recordings or customer
-        calls,&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-castmagic" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic" className="text-[#0B162A] hover:underline">Castmagic</Link>&nbsp;turns
+        calls,&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-castmagic${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic" className="text-[#0B162A] hover:underline">Castmagic</Link>&nbsp;turns
         that raw audio into transcribed, timestamped, and repurposed marketing assets, blog posts, email
         drips, and social snippets, in
-        minutes.&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-copy-ai" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;and&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-mechanics-jasper" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;tie
+        minutes.&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-copy-ai${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;and&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-jasper${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;tie
         it all together, orchestrating multi-channel campaigns, batch-converting content for every platform,
         and locking in brand voice and compliance at every step.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -81,7 +81,7 @@ export default function MechanicsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -89,10 +89,10 @@ export default function MechanicsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-intelligent-content-generation-turns-small-teams-into-full-scale-marketing-engines" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-intelligent-content-generation-turns-small-teams-into-full-scale-marketing-engines-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Intelligent Content Generation Turns Small Teams Into Full-Scale Marketing Engines
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

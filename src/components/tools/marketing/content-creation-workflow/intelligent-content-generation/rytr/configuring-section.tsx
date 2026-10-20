@@ -78,7 +78,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-actually-gets-configured-in-rytr-and-how-rules-shape-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-actually-gets-configured-in-rytr-and-how-rules-shape-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Actually Gets Configured in Rytr and How Rules Shape Automation
               </h2>
               {body}

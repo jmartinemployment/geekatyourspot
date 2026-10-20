@@ -52,7 +52,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-floatapp-approval-chains-routing-and-automation-logic">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-floatapp-approval-chains-routing-and-automation-logic-lg">
                 Configuring Floatapp: Approval Chains, Routing, and Automation Logic
               </h2>
               {body}

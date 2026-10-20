@@ -31,7 +31,7 @@ export default function ConfiguringSection() {
         to capture, intent, budget, timeline, contact details, before a visitor leaves the page or ends a
         call. The system asks follow-up questions in real time, not just canned responses. You decide which
         answers trigger further automation, like booking an appointment, sending a follow-up SMS, or syncing
-        the lead to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. The AI can book appointments live,
+        the lead to your&nbsp;CRM. The AI can book appointments live,
         check calendar availability, and log the outcome automatically. If a conversation needs to be routed
         to a specialist, you set those routing rules in the admin panel, no hand-coding, just clear options.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -43,10 +43,10 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk’s extension mechanism is its native integration with major CRMs, HubSpot, Salesforce,
         and Pipedrive. Data from every call, chat, or message flows directly into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, with no need for manual entry or middleware.
+        your&nbsp;CRM, with no need for manual entry or middleware.
         There is no&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or custom connector layer exposed to
         the user. The platform’s focus is on reliability and speed: data is pushed in real time, and
-        the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;record is auto-enriched with context,
+        the&nbsp;CRM&nbsp;record is auto-enriched with context,
         intent, and outcome from the conversation. This means your sales team always has the latest
         information without lifting a finger.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -85,7 +85,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-my-ai-front-desk-rules-automation-logic-and-extension-options" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-my-ai-front-desk-rules-automation-logic-and-extension-options-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in My AI Front Desk: Rules, Automation Logic, and Extension Options
               </h2>
               {body}

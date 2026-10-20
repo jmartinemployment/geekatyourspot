@@ -7,6 +7,7 @@ import WhenToUseSection from "@/components/tools/adobe-mix-modeler/when-to-use-s
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
@@ -47,21 +48,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

@@ -1,5 +1,5 @@
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Bill for your business, it&#39;s crucial to evaluate how it fits within your existing
@@ -32,7 +32,7 @@ export default function EvaluatingSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;By automating tasks such as invoice processing, approvals, and expense management, businesses can
         significantly reduce manual effort, minimize errors, and improve cash flow.&quot;&nbsp;
-        <a id="tools-accounting-bill-evaluating-source"
+        <a id={`tools-accounting-bill-evaluating-source${idSuffix}`}
           href="https://www.bill.com/dl/guide-to-ap-and-expense-report-automation"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill
@@ -51,7 +51,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-fit-and-pricing-considerations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-fit-and-pricing-considerations-lg">
                 Evaluating Bill: Fit and Pricing Considerations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -24,12 +23,12 @@ export default function DataMappingSection() {
         them updated. This is especially important for businesses with multiple locations, service lines, or
         divisions, where performance drivers vary.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The next step is&nbsp;<GlossaryLink slug="kpi">KPI</GlossaryLink>&nbsp;selection and categorization.
+        The next step is&nbsp;KPI&nbsp;selection and categorization.
         Fathom offers more than 50 default KPIs, but you can define your own using the formula builder. Upfront
-        mapping means linking each&nbsp;<GlossaryLink slug="kpi">KPI</GlossaryLink>&nbsp;to specific accounts,
+        mapping means linking each&nbsp;KPI&nbsp;to specific accounts,
         departments, or business units, so when you drill into a dashboard, you see results that match your
         internal structure. Assigning importance levels to
-        each&nbsp;<GlossaryLink slug="kpi">KPI</GlossaryLink>&nbsp;(critical, high, medium, low) helps
+        each&nbsp;KPI&nbsp;(critical, high, medium, low) helps
         prioritize what gets flagged in reports and what drives decision-making.</p>
       <p className="text-md text-white shadow-text pt-3">
         Scenario modelling and forecasting require careful mapping as well. Fathom’s three-way forecasting tool
@@ -73,7 +72,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-data-structure-and-mapping-decisions-matter-upfront-when-deploying-fathom" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-structure-and-mapping-decisions-matter-upfront-when-deploying-fathom-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data Structure and Mapping Decisions Matter Upfront When Deploying Fathom
               </h2>
               {body}

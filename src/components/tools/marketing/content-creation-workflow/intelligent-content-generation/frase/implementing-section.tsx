@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -42,7 +41,7 @@ export default function ImplementingSection() {
         email platforms, or it can push content directly to your CMS with images, schema, and internal links
         in place. This is where most teams see the biggest leap in efficiency: instead of building every post
         from scratch, you review and approve a batch, then let Frase handle the rest. For teams who want to
-        keep their current tools, Frase’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;allows you to
+        keep their current tools, Frase’s&nbsp;API&nbsp;allows you to
         integrate it with schedulers or pipelines you already use.</p>
       <p className="text-md text-white shadow-text pt-3">
         Throughout deployment, Geek @ Your Spot LLC’s role is to keep the process moving and remove technical
@@ -80,7 +79,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-takes-to-deploy-frase-in-a-small-business-content-stack" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-takes-to-deploy-frase-in-a-small-business-content-stack-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Takes to Deploy Frase in a Small Business Content Stack
               </h2>
               {body}

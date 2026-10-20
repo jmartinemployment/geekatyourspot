@@ -41,7 +41,7 @@ export default function ArchitectureSection() {
         For teams with strict requirements, like agencies, resellers, or regulated businesses, LobbyStack’s
         architecture is built to fit. You can run it in containers on your preferred cloud or private
         environment, use your
-        own&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;keys
+        own&nbsp;API&nbsp;keys
         for OpenAI and Twilio, and even white-label the deployment. Agencies can modify and distribute the stack
         for client work, as long as they respect the trademark rights. Updates for self-hosted deployments are
         manual: you pull changes from the GitHub repository, review the changelog, and redeploy when you’re
@@ -83,7 +83,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-sits-under-the-hood-lobbystack-s-architecture-integrations-and-data-control" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sits-under-the-hood-lobbystack-s-architecture-integrations-and-data-control-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sits Under the Hood: LobbyStack’s Architecture, Integrations, and Data Control
               </h2>
               {body}

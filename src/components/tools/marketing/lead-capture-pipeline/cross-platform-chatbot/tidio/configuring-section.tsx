@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -29,7 +28,7 @@ export default function ConfiguringSection() {
         template is customizable, and Geek @ Your Spot LLC adapts these to your exact sales and support process.
         For example, a flow might start by collecting a name and email, ask a qualifying question, route
         high-value leads straight to a sales rep, and push the contact into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;(like HubSpot or ActiveCampaign) using
+        your&nbsp;CRM&nbsp;(like HubSpot or ActiveCampaign) using
         Tidio’s built-in integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
         Tidio’s shared inbox is where the automation and human touch meet. Every message, whether from website
@@ -45,8 +44,8 @@ export default function ConfiguringSection() {
         mapping integrations in the settings. On Shopify, for example, the agent can see a customer’s cart and
         order history next to the chat and even cancel or refund orders (on the right plan). For marketing,
         Tidio can sync new leads into your email lists, trigger remarketing audiences in Google Ads, or push
-        chat contacts into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. There is no
-        open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for custom scripting; instead, the
+        chat contacts into your&nbsp;CRM. There is no
+        open&nbsp;API&nbsp;for custom scripting; instead, the
         platform’s integrations and visual builder cover the automation needs of most small businesses without
         requiring developer resources.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -62,7 +61,7 @@ export default function ConfiguringSection() {
         as your business grows or changes.</p>
       <p className="text-md text-white shadow-text pt-3">
         The bottom line: Tidio’s configuration is all point-and-click, with no code required. Geek @ Your Spot LLC’s role is to set up the flows, connect your channels, import your business knowledge, and make
-        sure handoff rules, routing, and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;syncs match
+        sure handoff rules, routing, and&nbsp;CRM&nbsp;syncs match
         your real-world processes. For a small business, this means you get enterprise-grade automation and
         cross-platform visibility without the cost, risk, or maintenance of custom software development.</p>
     </>
@@ -87,7 +86,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-inside-tidio-rules-automations-and-how-extensions-work" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-inside-tidio-rules-automations-and-how-extensions-work-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured Inside Tidio: Rules, Automations, and How Extensions Work
               </h2>
               {body}

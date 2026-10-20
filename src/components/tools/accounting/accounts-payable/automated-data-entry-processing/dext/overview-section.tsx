@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture your accounts team buried under stacks of paper receipts, emailed PDFs, and endless
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         visibility into financial data further complicates decision-making, leaving businesses reactive
         rather than proactive.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where Dext comes into play. By automating&nbsp;<Link id="tools-accounting-data-entry-dext-overview-data-entry" href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">data entry and processing</Link>, Dext transforms mundane
+        This is where Dext comes into play. By automating&nbsp;<Link id={`tools-accounting-data-entry-dext-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">data entry and processing</Link>, Dext transforms mundane
         bookkeeping tasks into streamlined operations. It captures and processes documents with over 99%
         accuracy, reducing manual handling and improving consistency. With Dext, discrepancies are flagged
         early, allowing for quick corrections before they escalate into costly problems. This approach not
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         replaces your expertise.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ready to turn your accounting challenges into opportunities for growth?&nbsp;
-        <Link id="tools-accounting-dext-overview-consultation"
+        <Link id={`tools-accounting-dext-overview-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book a consultation
         </Link>&nbsp;with <strong>Geek @ Your Spot LLC</strong> today and discover how Dext can revolutionize
@@ -47,7 +47,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

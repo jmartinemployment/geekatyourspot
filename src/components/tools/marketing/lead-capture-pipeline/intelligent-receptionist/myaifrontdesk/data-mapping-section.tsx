@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -16,19 +15,19 @@ export default function DataMappingSection() {
         details and fill out each field automatically, so you do not need to chase missing data later. The more
         clearly you define these fields upfront, the less cleanup and manual entry you face after launch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next is mapping those fields to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or calendar.
+        Next is mapping those fields to your&nbsp;CRM&nbsp;or calendar.
         My AI Front Desk supports direct integration with HubSpot, Salesforce, Pipedrive, Zoho, and Shopify,
         plus calendar tools like Google Calendar, Outlook, and Calendly. The mapping step is simple but
         critical: you match each field from the AI’s side (like &quot;service requested&quot; or
         &quot;appointment date&quot;) to the right field in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or booking system. This ensures that every
+        your&nbsp;CRM&nbsp;or booking system. This ensures that every
         call, booking, and message lands in the right place, with no double entry or lost context. If you use
         Zapier or another integration tool, you can extend this mapping to other platforms your business relies
         on.</p>
       <p className="text-md text-white shadow-text pt-3">
         Decide how you want to handle conversation history and follow-up. My AI Front Desk logs every
         interaction, calls, texts, chats, along with full transcripts and summaries to the contact record in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. You can choose to display these as timeline
+        your&nbsp;CRM. You can choose to display these as timeline
         activities, attach them as notes, or trigger workflows based on outcomes (like &quot;booked
         appointment&quot; or &quot;needs callback&quot;). This structure gives you a single source of truth for
         every lead and customer, making it easy to track what happened, when, and what needs to happen next. For
@@ -76,7 +75,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-what-you-need-to-decide-before-deploying-my-ai-front-desk" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-what-you-need-to-decide-before-deploying-my-ai-front-desk-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping: What You Need to Decide Before Deploying My AI Front Desk
               </h2>
               {body}

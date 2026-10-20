@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A small business in Miami-Dade has a new product ready for launch. But the marketing team is stuck at
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         misses it. The brand voice wobbles. The cycle starts again the next week with the same blank-page
         dread.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the reality for most small businesses without&nbsp;<Link id="tools-marketing-intelligent-content-planning-hootsuite-overview-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>. Planning is
+        This is the reality for most small businesses without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hootsuite-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>. Planning is
         reactive. The team burns hours debating topics and rewriting captions that do not convert. They gamble
         on hunches because they lack the data or tools that bigger players use. The outcome is predictable:
         most posts never reach the right people, miss local trends, and fail to drive leads or sales. What
@@ -49,7 +49,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

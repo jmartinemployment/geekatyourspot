@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MechanicsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward, and West Palm Beach counties, implementing automated
@@ -28,11 +28,11 @@ export default function MechanicsSection() {
         includes evaluating the integrity, schema, and storage of your current data. The goal is to ensure that your
         data is accurate, complete, and formatted correctly. This phase might involve cleaning up old records,
         validating data against sources, and setting up structures to prevent future errors. Tools like&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-mechanics-dryrun"
+        <Link id={`use-cases-accounting-spreadsheet-data-mechanics-dryrun${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" className="text-[#0B162A] hover:underline">
           Dryrun
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-mechanics-cashflowfrog"
+        <Link id={`use-cases-accounting-spreadsheet-data-mechanics-cashflowfrog${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" className="text-[#0B162A] hover:underline">
           Cashflowfrog
         </Link>&nbsp;can assist in
@@ -46,11 +46,11 @@ export default function MechanicsSection() {
         With objectives clear and data primed, the next step is selecting the right technology. This step is not
         just about choosing any tool but selecting those that integrate seamlessly with your existing systems. For
         instance,&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-mechanics-clockwork"
+        <Link id={`use-cases-accounting-spreadsheet-data-mechanics-clockwork${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" className="text-[#0B162A] hover:underline">
           Clockwork
-        </Link>&nbsp;pulls data directly from QuickBooks and Xero, enabling businesses to automate their&nbsp;<Link id="use-cases-accounting-spreadsheet-data-mechanics-cash-flow-forecasting" href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</Link>&nbsp;without manual intervention. Similarly,&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-mechanics-floatapp"
+        </Link>&nbsp;pulls data directly from QuickBooks and Xero, enabling businesses to automate their&nbsp;<Link id={`use-cases-accounting-spreadsheet-data-mechanics-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</Link>&nbsp;without manual intervention. Similarly,&nbsp;
+        <Link id={`use-cases-accounting-spreadsheet-data-mechanics-floatapp${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">
           Floatapp
         </Link>&nbsp;offers a user-friendly interface that automates the creation of financial forecasts based on live
@@ -64,7 +64,7 @@ export default function MechanicsSection() {
         phase allows businesses to validate their setups, ensuring everything functions as expected before a
         full-scale rollout. During this phase, smoke tests can be conducted to simulate real-world scenarios, and
         adjustments can be made based on the outcomes. For example,&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-mechanics-takethehelm"
+        <Link id={`use-cases-accounting-spreadsheet-data-mechanics-takethehelm${idSuffix}`}
           href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">
           Take the Helm
         </Link>’s platform allows businesses to scale content operations predictably, ensuring that the implemented systems
@@ -84,7 +84,7 @@ export default function MechanicsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -92,10 +92,10 @@ export default function MechanicsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-mechanics-of-automated-spreadsheet-data-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-mechanics-of-automated-spreadsheet-data-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Mechanics of Automated Spreadsheet Data Implementation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

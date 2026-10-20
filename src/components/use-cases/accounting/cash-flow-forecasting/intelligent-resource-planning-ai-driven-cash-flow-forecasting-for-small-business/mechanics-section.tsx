@@ -80,7 +80,7 @@ export default function MechanicsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-intelligent-resource-planning-changes-the-day-to-day-the-mechanics-step-by-step" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-intelligent-resource-planning-changes-the-day-to-day-the-mechanics-step-by-step-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Intelligent Resource Planning Changes the Day-to-Day: The Mechanics, Step by Step
               </h2>
               {body}

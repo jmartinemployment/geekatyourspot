@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Jasper’s platform architecture is designed around three priorities: strict brand control, deep
@@ -28,7 +28,7 @@ export default function ArchitectureSection() {
         Florida small businesses already use. Jasper supports direct integrations with Google Docs, Microsoft
         Word, Webflow, and social scheduling platforms, so content moves smoothly from draft to published
         without breaking formatting or losing context. Jasper’s GEO Agent can pull data from Google Search
-        Console to identify visibility gaps in your content, and integrations with&nbsp;<Link id="tools-marketing-intelligent-content-generation-jasper-architecture-semrush" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush" className="text-[#0B162A] hover:underline">Semrush</Link>, Asana, monday.com,&nbsp;<Link id="tools-marketing-intelligent-content-generation-jasper-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, and Surfer SEO bring campaign planning, analytics, and publishing into a single workflow. This
+        Console to identify visibility gaps in your content, and integrations with&nbsp;<Link id={`tools-marketing-intelligent-content-generation-jasper-architecture-semrush${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush" className="text-[#0B162A] hover:underline">Semrush</Link>, Asana, monday.com,&nbsp;<Link id={`tools-marketing-intelligent-content-generation-jasper-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, and Surfer SEO bring campaign planning, analytics, and publishing into a single workflow. This
         means you do not have to rebuild your tech stack or learn a dozen new systems to benefit from Jasper’s
         automation.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -64,7 +64,7 @@ export default function ArchitectureSection() {
                 Jasper’s Underlying Architecture: Brand Control, Integrations, and Data Fidelity
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -73,10 +73,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="jaspers-underlying-architecture-brand-control-integrations-and-data-fidelity" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="jaspers-underlying-architecture-brand-control-integrations-and-data-fidelity-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Jasper’s Underlying Architecture: Brand Control, Integrations, and Data Fidelity
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -32,7 +31,7 @@ export default function ImplementingSection() {
         Koala to your CMS, mapping fields so that articles, images, and links land in the right place every
         time. This integration step is quick, often an hour or less, because Koala’s connectors are built for
         these platforms out of the box. For any system outside those four, Koala’s webhook
-        and&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;options allow for custom connections, but
+        and&nbsp;API&nbsp;options allow for custom connections, but
         most small teams get full value without extra development work.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bulk scheduling is another area where Koala shortens the go-live timeline. Once your Brand DNA is in
@@ -81,7 +80,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-launching-koala-looks-like-in-a-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-launching-koala-looks-like-in-a-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Launching Koala Looks Like in a Small Business Environment
               </h2>
               {body}

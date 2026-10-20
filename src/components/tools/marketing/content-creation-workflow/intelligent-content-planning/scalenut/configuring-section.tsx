@@ -90,7 +90,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-actually-gets-configured-in-scalenut-rules-automation-and-how-geek-your-spot-makes-it-fit" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-actually-gets-configured-in-scalenut-rules-automation-and-how-geek-your-spot-makes-it-fit-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Actually Gets Configured in Scalenut: Rules, Automation, and How Geek @ Your Spot LLC Makes It Fit
               </h2>
               {body}

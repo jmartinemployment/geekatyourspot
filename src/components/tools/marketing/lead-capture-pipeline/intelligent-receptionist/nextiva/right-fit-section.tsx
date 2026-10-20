@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Nextiva is built for small businesses that need to capture every lead, answer every customer, and keep
@@ -34,7 +33,7 @@ export default function RightFitSection() {
         specialized intake processes that change daily, a fully custom solution may be a better fit.</p>
       <p className="text-md text-white shadow-text pt-3">
         Nextiva also depends on having clean, up-to-date data. If
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is a mess or your scheduling tools are not
+        your&nbsp;CRM&nbsp;is a mess or your scheduling tools are not
         maintained, the automation will reflect those gaps. Businesses that are not ready to invest a few hours
         up front in mapping their data and testing key workflows will not see the best results. The platform’s
         value comes from its ability to connect every channel and automate what can be automated, but it cannot
@@ -49,7 +48,7 @@ export default function RightFitSection() {
         slipped away.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-receptionist-nextiva-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-receptionist-nextiva-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
@@ -58,7 +57,7 @@ export default function RightFitSection() {
         <li>What is the exact sequence of events that needs to happen when a new client calls to book an appointment or request a service?</li>
         <li>Which calendar or scheduling platform do you use, and do you require the AI to write appointments directly to it?</li>
         <li>What percentage of your inbound calls are just repetitive questions regarding your location, operating hours, pricing tier, or basic services?</li>
-        <li>What Customer Relationship Management (<GlossaryLink slug="crm">CRM</GlossaryLink>), billing, or field service management software does your business rely on daily?</li>
+        <li>What Customer Relationship Management (CRM), billing, or field service management software does your business rely on daily?</li>
         <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
         <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
         <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
@@ -81,7 +80,7 @@ export default function RightFitSection() {
                 Who Nextiva Is Built For, Who Should Look Elsewhere, and the Next Step for South Florida Teams
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -90,10 +89,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-nextiva-is-built-for-who-should-look-elsewhere-and-the-next-step-for-south-florida-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-nextiva-is-built-for-who-should-look-elsewhere-and-the-next-step-for-south-florida-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Nextiva Is Built For, Who Should Look Elsewhere, and the Next Step for South Florida Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -60,7 +60,7 @@ export default function HowItWorksSection() {
         This means you pick up where you left off, whether you are producing a batch of blog posts, updating
         service pages, or launching a new email campaign. The entire workflow is browser-based, with no
         software to install and no need to manage separate provider accounts
-        or&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;keys.</p>
+        or&nbsp;API&nbsp;keys.</p>
       <p className="text-md text-white shadow-text pt-3">
         For a small South Florida team, this process replaces the late Friday scramble to draft a post or the
         back-and-forth with an agency over missed details. Instead, you get a system that remembers your
@@ -88,7 +88,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="koalas-step-by-step-workflow-from-brand-dna-to-published-content" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="koalas-step-by-step-workflow-from-brand-dna-to-published-content-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Koala’s Step-by-Step Workflow: From Brand DNA to Published Content
               </h2>
               {body}

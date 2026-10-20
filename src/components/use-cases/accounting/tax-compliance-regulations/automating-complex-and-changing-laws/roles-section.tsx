@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RolesSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing a
-        sophisticated&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;system inevitably transforms the roles of the people involved. As
+        sophisticated&nbsp;tax
+        compliance&nbsp;system inevitably transforms the roles of the people involved. As
         technology takes over repetitive and error-prone tasks, employees can shift their focus from manual data
         entry and compliance checks to more strategic activities that add value to the business.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function RolesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-human-element-adapting-roles-in-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-human-element-adapting-roles-in-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Human Element: Adapting Roles in Tax Compliance
               </h2>
               {body}

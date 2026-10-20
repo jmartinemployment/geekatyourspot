@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering automated approval workflows, Ramp is a powerful contender for small businesses. It
         offers a range of features that streamline the&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process, reducing time
+        accounts payable&nbsp;process, reducing time
         spent on manual tasks and minimizing errors. Understanding how Ramp fits into your operations involves
         examining its capabilities, pricing considerations, and how it compares to other solutions you might
         be evaluating.</p>
@@ -17,7 +16,7 @@ export default function EvaluatingSection() {
         <li>Smart approval workflows that automatically route invoices to the right stakeholders based on predefined criteria.</li>
         <li>Real-time decision confidence levels that provide a rationale and override options.</li>
         <li>
-          <a id="tools-accounting-approval-workflows-ramp-evaluating-erp-integrations"
+          <a id={`tools-accounting-approval-workflows-ramp-evaluating-erp-integrations${idSuffix}`}
             href="https://ramp.com/blog/ai-accounting-software"
             target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
             Seamless integrations with major ERP systems, including QuickBooks Online, Xero, and NetSuite.
@@ -36,10 +35,10 @@ export default function EvaluatingSection() {
         on investment, particularly for businesses processing a high volume of invoices.</p>
       <p className="text-md text-white shadow-text pt-3">
         When comparing Ramp to other tools, consider its deep integration capabilities and the breadth of its
-        automation features. Competitors like&nbsp;<Link id="tools-accounting-approval-workflows-ramp-evaluating-approvalmax" href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id="tools-accounting-approval-workflows-ramp-evaluating-bill" href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer automated workflows, but
+        automation features. Competitors like&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer automated workflows, but
         Ramp&#39;s strength lies in its comprehensive approach to both automation and integration, which can
         be particularly beneficial for businesses using multiple&nbsp;
-        <GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems.</p>
+        ERP&nbsp;systems.</p>
       <p className="text-md text-white shadow-text pt-3">
         In choosing the right tool, consider your current pain points. If manual data entry and approval
         bottlenecks are common challenges, Ramp&#39;s automation can alleviate these issues. However, if your
@@ -64,7 +63,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -72,10 +71,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-your-business-needs">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-your-business-needs-lg">
                 Evaluating Ramp for Your Business Needs
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

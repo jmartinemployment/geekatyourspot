@@ -6,14 +6,14 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Lusha works by stripping the guesswork and dead time out of lead enrichment and predictive scoring. It
         does this by automating the process of finding, verifying, and updating contact and company data, then
-        pushing it directly into your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or sales
+        pushing it directly into your&nbsp;CRM&nbsp;or sales
         engagement platform. Instead of your sales team chasing generic numbers or sifting through stale
         lists, Lusha provides direct mobile numbers, verified personal emails, and real-time buying signals
         for the people who actually make decisions. The result is a pipeline where every contact is actionable
         and every score is grounded in current, live data.</p>
       <p className="text-md text-white shadow-text pt-3">
         Start with the basics: Lusha’s engine ingests your static lists, web form entries, or
-        new&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;leads. For each, it runs a multi-step
+        new&nbsp;CRM&nbsp;leads. For each, it runs a multi-step
         enrichment process. First, it matches the record against its global database to fill in missing
         details, direct dials, verified emails, job titles, company size, industry, and more. This is not just
         a name and number lookup. Lusha checks for role changes, promotions, and company moves, so you are not
@@ -30,11 +30,11 @@ export default function HowItWorksSection() {
         or account record, so your team knows exactly who to call and when.</p>
       <p className="text-md text-white shadow-text pt-3">
         The enrichment process itself is built for speed and scale. Lusha can process hundreds of contacts in
-        seconds using its bulk&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>. It reads your CSV files,
+        seconds using its bulk&nbsp;API. It reads your CSV files,
         splits them into manageable batches, and runs each through its verification and enrichment workflow.
         Low-confidence matches are flagged for manual review, so your team never wastes time on questionable
         data. The output is a clean, deduplicated, and standardized list, ready to import directly into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, dialer,
+        your&nbsp;CRM, dialer,
         or&nbsp;<GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">marketing automation</GlossaryLink>&nbsp;tool. For
         real-time needs, Lusha also supports single-record enrichment for leads captured on web forms or
         entered by hand, ensuring that even one-off contacts are fully verified before anyone picks up the
@@ -43,7 +43,7 @@ export default function HowItWorksSection() {
         Once the data is enriched and scored, Lusha automates the sync back into your core systems.
         Integrations are available for Salesforce, HubSpot, Zoho, Outreach, SalesLoft, and others. This means
         that as soon as a contact is updated or a new buying signal is detected,
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;reflects it, no manual entry, no stale
+        your&nbsp;CRM&nbsp;reflects it, no manual entry, no stale
         data. For example, if a key contact gets promoted or leaves, Lusha updates the record, flags the
         change, and can even trigger a task or notification for the sales rep responsible. This keeps your
         pipeline live and accurate, so you never miss a window to re-engage or cover a gap.</p>
@@ -84,7 +84,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="step-by-step-how-lusha-actually-delivers-verified-leads-and-predictive-scores" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="step-by-step-how-lusha-actually-delivers-verified-leads-and-predictive-scores-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Step-by-Step: How Lusha Actually Delivers Verified Leads and Predictive Scores
               </h2>
               {body}

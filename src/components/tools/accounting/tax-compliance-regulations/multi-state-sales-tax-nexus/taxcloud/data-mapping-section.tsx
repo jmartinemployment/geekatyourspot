@@ -13,7 +13,7 @@ export default function DataMappingSection() {
         Start with your product catalog. TaxCloud requires each product to be mapped to a taxability code (TIC)
         that matches how states classify goods and services. If your catalog is already organized by standard
         categories, such as taxable retail, exempt medical devices,
-        or&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;subscriptions, the mapping can be mostly
+        or&nbsp;SaaS&nbsp;subscriptions, the mapping can be mostly
         automated. If your products are custom or span multiple categories, you will need to review and assign
         codes so TaxCloud knows which tax rules to apply in each state. This is especially important for
         businesses with mixed offerings, such as physical goods and digital services, or those selling both to
@@ -59,8 +59,8 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         For South Florida businesses with lean teams, the upfront investment in data structure and mapping pays
         off in reduced errors, faster filings, and lower risk of audit penalties. TaxCloud’s automation is only
-        as accurate as the data it receives. By focusing on&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;and clear mapping at the start, you set up a system that can handle
+        as accurate as the data it receives. By focusing on&nbsp;data
+        quality&nbsp;and clear mapping at the start, you set up a system that can handle
         multi-state compliance with minimal intervention. As your sales grow and you enter new states or
         channels, the mapped structure makes it easy to scale, new products, customers, or platforms can be
         added without reworking your compliance logic from scratch.</p>
@@ -93,7 +93,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-data-structure-and-mapping-shape-a-successful-taxcloud-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-data-structure-and-mapping-shape-a-successful-taxcloud-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Data Structure and Mapping Shape a Successful TaxCloud Implementation
               </h2>
               {body}

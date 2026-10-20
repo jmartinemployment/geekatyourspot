@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -28,8 +27,8 @@ export default function ArchitectureSection() {
         mirror what is in your accounting software. It cleans, codes, and organizes every transaction, so you
         can trust the numbers you see. The system checks for accuracy by verifying data against source documents
         and flags inconsistencies that could skew forecasts. This attention
-        to&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
-        quality</GlossaryLink>&nbsp;is critical for small businesses that have struggled with errors from manual
+        to&nbsp;data
+        quality&nbsp;is critical for small businesses that have struggled with errors from manual
         entry or mismatched spreadsheet formats.</p>
       <p className="text-md text-white shadow-text pt-3">
         Take the Helm handles both automated and manual data sources. While it pulls most information directly
@@ -91,7 +90,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="take-the-helm-s-architecture-integrations-data-handling-and-control" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="take-the-helm-s-architecture-integrations-data-handling-and-control-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Take the Helm’s Architecture: Integrations, Data Handling, and Control
               </h2>
               {body}

@@ -224,7 +224,7 @@ export default function TheMethodologySection() {
               {/* <div className="grid grid-cols-1 min-h-screen place-items-center"> */}
                 {/* <div className=""> */}
                   <Link
-                    id={gtmLinkIdFromHref("/methodology", "desktop")}
+                    id={`${gtmLinkIdFromHref("/methodology", "desktop")}-lg`}
                     href="/methodology">
                     <h2 className="hover:text-[#C83803] text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                       The&nbsp;

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -42,8 +41,8 @@ export default function ConfiguringSection() {
         service line, or location, keeping team collaboration clean and clear.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that want to extend Koala’s workflow, the platform offers
-        an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and webhook integration. This means you can
-        generate full articles with a single&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;call,
+        an&nbsp;API&nbsp;and webhook integration. This means you can
+        generate full articles with a single&nbsp;API&nbsp;call,
         connect Koala’s output to your own applications, or deliver finished content to other systems. Koala
         supports direct publishing to WordPress, Shopify, Webflow, and Ghost, and can reach any endpoint that
         accepts a signed webhook. If you use a custom CMS or have a unique distribution need, Geek @ Your Spot LLC
@@ -76,7 +75,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-koala-and-how-geek-your-spot-makes-it-work-for-your-team" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-koala-and-how-geek-your-spot-makes-it-work-for-your-team-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Koala and How Geek @ Your Spot LLC Makes It Work for Your Team
               </h2>
               {body}

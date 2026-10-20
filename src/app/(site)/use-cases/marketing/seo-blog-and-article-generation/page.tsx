@@ -10,6 +10,8 @@ import PAASection from '@/components/use-cases/marketing/seo-blog-and-article-ge
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -23,14 +25,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-08-23T15:34:00.2547546Z",
             "dateModified": "2026-08-23T15:34:00.2547546Z",
             "mainEntityOfPage": {
@@ -40,79 +35,65 @@ const jsonLd: Graph = {
             "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
             "wordCount": 2745,
             "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation#article",
+            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation#service" },
             "mentions": [
                 {
-                    "@id": "#software-surfer-seo"
+                    "@id": "https://geekatyourspot.com/#software-surfer-seo"
                 },
                 {
-                    "@id": "#software-chatgpt"
+                    "@id": "https://geekatyourspot.com/#software-chatgpt"
                 },
                 {
-                    "@id": "#software-claude"
+                    "@id": "https://geekatyourspot.com/#software-claude"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-frase"
                 },
                 {
-                    "@id": "#software-hubspotai"
+                    "@id": "https://geekatyourspot.com/#software-hubspot-ai"
                 },
                 {
-                    "@id": "#software-keyword-insights"
+                    "@id": "https://geekatyourspot.com/#software-keyword-insights"
                 }
             ]
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-surfer-seo",
             "name": "Surfer SEO",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize your SEO blog and article generation with Surfer SEO for improved rankings and content quality.",
-            "@id": "#software-surfer-seo"
+            "url": "https://surferseo.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-chatgpt",
             "name": "ChatGPT",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
-            "@id": "#software-chatgpt"
+            "url": "https://chatgpt.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-claude",
             "name": "Claude",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
-            "@id": "#software-claude"
+            "url": "https://claude.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-frase",
             "name": "Frase",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Frase automates SEO blog and article creation, enhancing content quality and search rankings with AI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
-            },
-            "@id": "https://geekatyourspot.com/#software-frase"
+            "url": "https://www.frase.io/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-hubspot-ai",
             "name": "HubSpot AI",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "HubSpot AI boosts SEO blog and article creation, automating content for better search rankings and efficiency.",
-            "@id": "#software-hubspotai"
+            "url": "https://www.hubspot.com/products/artificial-intelligence"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-keyword-insights",
             "name": "Keyword Insights",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate SEO blog and article creation with Keyword Insights for improved content quality and search rankings.",
-            "@id": "#software-keyword-insights"
-        }
+            "url": "https://www.keywordinsights.ai/"
+        },
+        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation", name: "SEO Blog and Article Generation", description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results." })
     ]
 };
 
@@ -135,21 +116,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "SEO Blog and Article Generation",
             description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

@@ -13,7 +13,7 @@ export default function HowItWorksSection() {
         The next step involves payment collection. Invoiced supports a wide range of payment methods, including ACH,
         credit cards, and SEPA, providing flexibility to cater to various client preferences. Payments are processed
         on schedule, and the system automatically matches them to open invoices using
-        CashMatch&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>, which
+        CashMatch&nbsp;AI, which
         reads payment details and applies them accurately.</p>
       <p className="text-md text-white shadow-text pt-3">
         Invoiced&#39;s Smart Chasing feature then takes over, running AI-driven collections sequences to follow up
@@ -52,7 +52,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-works-step-by-step-process">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-works-step-by-step-process-lg">
                 How Invoiced Works: Step-by-Step Process
               </h2>
               {body}

@@ -13,7 +13,7 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-5"></div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Great Expectations offers a robust set of features that make it an indispensable tool for ensuring <GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;in
-                automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some of its key capabilities:</p>
+                automated&nbsp;ad spend optimization. Here are some of its key capabilities:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data Validation Framework: Great Expectations provides a comprehensive framework for validating data. It
                   allows users to define expectations, which are conditions that data must satisfy. This ensures that only
@@ -45,7 +45,7 @@ export default function KeyCapabilitiesSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Key Capabilities</h2>
               <p className="text-md text-white shadow-text pt-3">Great Expectations offers a robust set of features that make it an indispensable tool for ensuring <GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;in
-                automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some of its key capabilities:</p>
+                automated&nbsp;ad spend optimization. Here are some of its key capabilities:</p>
               <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data Validation Framework: Great Expectations provides a comprehensive framework for validating data. It
                   allows users to define expectations, which are conditions that data must satisfy. This ensures that only
@@ -63,7 +63,7 @@ export default function KeyCapabilitiesSection() {
                   critical data points are covered.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">In the realm of automated ad spend optimization, these capabilities translate into more accurate targeting and
-                bidding strategies. For example, tools like Smartly.io and&nbsp;<Link id="tools-marketing-great-expectations-key-capabilities-jasper-ai" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">Jasper</Link>&nbsp;rely on precise data inputs to optimize ad
+                bidding strategies. For example, tools like Smartly.io and&nbsp;<Link id="tools-marketing-great-expectations-key-capabilities-jasper-ai-lg" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">Jasper</Link>&nbsp;rely on precise data inputs to optimize ad
                 campaigns. By using Great Expectations, businesses can ensure that these inputs are validated and reliable, leading
                 to better campaign performance and reduced ad spend wastage.</p>
             </div>

@@ -65,7 +65,7 @@ export default function RolesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-on-your-team-will-feel-the-change-and-how-their-day-actually-shifts" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-on-your-team-will-feel-the-change-and-how-their-day-actually-shifts-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who on Your Team Will Feel the Change, and How Their Day Actually Shifts
               </h2>
               {body}

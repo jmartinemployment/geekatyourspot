@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -16,7 +15,7 @@ export default function DataMappingSection() {
         voice. The setup process asks for details that matter in your market: do you serve commercial or
         residential clients, what certifications do you hold, which neighborhoods do you cover, and what makes
         your approach different? Koala’s templates branch based on business type, local
-        business,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>, professional services, ecommerce, or
+        business,&nbsp;SaaS, professional services, ecommerce, or
         online service, so the fields you fill out are always relevant. For example, a cleaning company in
         Fort Lauderdale can distinguish between commercial and residential services, while a healthcare
         practice can specify provider bios and compliance language.</p>
@@ -45,7 +44,7 @@ export default function DataMappingSection() {
         Shopify, Webflow, and Ghost require field mapping, matching Koala’s output fields to your CMS’s
         structure. This step ensures that articles, images, meta tags, and schema markup land in the right
         place, with no manual cleanup needed. When integrating with less common platforms,
-        Koala’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and webhook options allow for custom
+        Koala’s&nbsp;API&nbsp;and webhook options allow for custom
         mapping, but the principle stays the same: every piece of content carries the right data, in the right
         format, for your stack.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -83,7 +82,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-data-structure-and-mapping-shape-koalas-results-from-day-one" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-data-structure-and-mapping-shape-koalas-results-from-day-one-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Data Structure and Mapping Shape Koala’s Results from Day One
               </h2>
               {body}

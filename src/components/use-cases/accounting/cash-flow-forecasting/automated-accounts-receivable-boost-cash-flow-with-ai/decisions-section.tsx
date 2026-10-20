@@ -53,7 +53,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="key-decisions-in-implementing-automated-accounts-receivable-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="key-decisions-in-implementing-automated-accounts-receivable-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Key Decisions in Implementing Automated Accounts Receivable Solutions
               </h2>
               {body}

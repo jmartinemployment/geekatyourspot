@@ -11,12 +11,12 @@ import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const LOGO_IMAGE = `${SITE_URL}/images/GeekAtYourSpot.svg`;
 const PAGE_TITLE = "AI Tools & Platforms";
 const PAGE_DESCRIPTION =
-  "Explore the AI tools and platforms Geek @ Your Spot LLC helps South Florida small businesses implement — from accounts payable automation to marketing systems.";
+  "Explore the AI tools and platforms Geek @ Your Spot LLC helps South Florida small businesses implement, from accounts payable automation to marketing systems.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/tools`,
     siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
-    images: [{ url: LOGO_IMAGE }],
+    images: [SHARE_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
-    images: [LOGO_IMAGE],
+    images: [SHARE_IMAGE],
   },
 };
 
@@ -113,14 +113,6 @@ export default function ToolsPage() {
           })),
         },
       },
-      ...tools.map((tool) => ({
-        "@type": "SoftwareApplication" as const,
-        name: tool.title,
-        applicationCategory: "BusinessApplication",
-        operatingSystem: "Web",
-        description: tool.description,
-        url: `${SITE_URL}${toolHref(tool)}`,
-      })),
     ],
   };
 
@@ -132,7 +124,7 @@ export default function ToolsPage() {
       />
       <ToolsHeroSection
         title="AI Tools &amp; Platforms"
-        summary="These are the platforms we help South Florida small businesses implement — set up, integrated, and automated so you see value faster and skip the failed pilots."
+        summary="These are the platforms we help South Florida small businesses implement. Each one is set up, integrated, and automated so you see value faster and skip the failed pilots."
       />
       {departments.map((department, index) => {
         const background = SECTION_BACKGROUNDS[index % SECTION_BACKGROUNDS.length];

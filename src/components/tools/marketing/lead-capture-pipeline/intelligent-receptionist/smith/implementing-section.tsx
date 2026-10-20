@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -26,7 +25,7 @@ export default function ImplementingSection() {
         a law office, the system can screen for case type, jurisdiction, and conflict checks out of the box.</p>
       <p className="text-md text-white shadow-text pt-3">
         The order of deployment is deliberate: first, Geek @ Your Spot LLC maps your existing environment, phone
-        system,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, scheduling tools, and any intake forms already
+        system,&nbsp;CRM, scheduling tools, and any intake forms already
         in use. This up-front mapping ensures that Smith.ai connects directly to your current numbers, so you do
         not lose business continuity or force clients to learn a new process. The team checks whether call
         forwarding or number porting is needed, avoiding surprises that can delay launch.</p>
@@ -48,7 +47,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When launch day comes, Smith.ai goes live behind the scenes. There is no need to shut down your phones
         or retrain your whole team. Calls route through Smith.ai, data syncs automatically to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and your staff can focus on work instead of
+        your&nbsp;CRM, and your staff can focus on work instead of
         fielding every ring. If you need to adjust a script or escalation rule, Smith.ai’s system can be updated
         without downtime, so your intake process evolves as your business does.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         What makes this process work is the combination of Smith.ai’s technical foundation and Geek @ Your Spot LLC’s local, consultative approach. The consultancy handles the mapping, configuration, and
         integration, so your team does not have to become experts in the tool. The result: a front desk that
-        never misses a call, a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;that is always up to date,
+        never misses a call, a&nbsp;CRM&nbsp;that is always up to date,
         and a business that can scale its lead capture without adding more staff.</p>
     </>
   );
@@ -83,7 +82,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-takes-to-get-smith-ai-up-and-running-in-your-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-takes-to-get-smith-ai-up-and-running-in-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Takes to Get Smith.ai Up and Running in Your Business
               </h2>
               {body}

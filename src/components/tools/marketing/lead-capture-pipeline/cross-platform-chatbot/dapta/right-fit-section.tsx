@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Dapta is designed for small and medium-sized businesses that want to capture more leads, qualify them
@@ -21,7 +20,7 @@ export default function RightFitSection() {
         a developer or an outside vendor.</p>
       <p className="text-md text-white shadow-text pt-3">
         But Dapta is not for everyone. If your company is a software vendor that wants to embed a raw
-        voice&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;into your own product, with full
+        voice&nbsp;API&nbsp;into your own product, with full
         code-level control over every interaction, Dapta will not give you that. It is not a developer toolkit
         or a platform for building custom logic from scratch. Instead, it is for teams that want to describe
         their business rules in plain language, set up the flows, and let the agent run, no code, no
@@ -47,12 +46,12 @@ export default function RightFitSection() {
         automate, but how much control and coverage you need. Dapta’s model is built around fast setup,
         no-code flows, and integrations with the tools you already rely on. If your team needs to answer every
         call, chat, and message, day and night, in English and Spanish, while keeping
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and calendar in sync, Dapta is built for
+        your&nbsp;CRM&nbsp;and calendar in sync, Dapta is built for
         you. If you need a developer playground, look elsewhere. The value is in the time you get back and the
         leads you no longer lose.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-cross-platform-chatbot-dapta-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-dapta-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
@@ -60,9 +59,9 @@ export default function RightFitSection() {
         <li>How many inquiries do you receive in a typical week, and when do they arrive?</li>
         <li>Out of every 10 people who reach out to your business, how many are actually qualified buyers versus &#39;tire-kickers&#39; who waste your billable time?</li>
         <li>What would make you consider an inquiry “qualified” rather than just curious?</li>
-        <li>Do you currently use a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, spreadsheet, paper intake form, or nothing at all?</li>
-        <li>What systems must the chatbot connect with?&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, website forms, calendar, email/SMS, help desk, or accounting software?</li>
-        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
+        <li>Do you currently use a&nbsp;CRM, spreadsheet, paper intake form, or nothing at all?</li>
+        <li>What systems must the chatbot connect with?&nbsp;CRM, website forms, calendar, email/SMS, help desk, or accounting software?</li>
+        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;CRM&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
         <li>What information may the bot answer from, and who will keep it current?</li>
         <li>What tone fits your brand: bilingual, formal, casual, urgent, or high-touch?</li>
         <li>What made you start looking for a solution now?</li>
@@ -83,7 +82,7 @@ export default function RightFitSection() {
                 Who Dapta Is For, Who It Is Not, and the Next Step for Small Businesses
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -92,10 +91,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-dapta-is-for-who-it-is-not-and-the-next-step-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-dapta-is-for-who-it-is-not-and-the-next-step-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Dapta Is For, Who It Is Not, and the Next Step for Small Businesses
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

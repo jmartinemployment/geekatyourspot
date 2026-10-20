@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -8,7 +7,7 @@ export default function ImplementingSection() {
         South Florida, the process is fast, direct, and designed to minimize disruption. The platform is built
         for teams who cannot afford downtime, new hardware, or a complex migration. Instead, My AI Front Desk
         connects to what you already use, your business phone number, your calendar,
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and starts answering calls within minutes.</p>
+        your&nbsp;CRM, and starts answering calls within minutes.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step is forwarding your existing business line. My AI Front Desk supports standard call
         forwarding (*72 on most carriers) so you do not need to change your phone number or set up new devices.
@@ -25,11 +24,11 @@ export default function ImplementingSection() {
         engineers. If you need to update pricing or hours, you change them in one place and the AI updates
         everywhere, phone, text, chat, and web.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Integration with your calendar and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is handled
+        Integration with your calendar and&nbsp;CRM&nbsp;is handled
         through pre-built connectors. My AI Front Desk supports Google Calendar, Outlook, and Calendly natively.
         Connecting is as simple as authenticating your account and granting access. The AI then reads your
         real-time availability, offers open slots to callers, books appointments live, and logs the booking
-        details instantly. For&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, the platform syncs with
+        details instantly. For&nbsp;CRM, the platform syncs with
         HubSpot, Salesforce, Pipedrive, and Zoho, as well as Shopify for retail. Zapier support extends this
         further, so if your team relies on a different system, you can still connect it without custom
         development.</p>
@@ -73,7 +72,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-launching-my-ai-front-desk-looks-like-in-your-existing-setup" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-launching-my-ai-front-desk-looks-like-in-your-existing-setup-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Launching My AI Front Desk Looks Like in Your Existing Setup
               </h2>
               {body}

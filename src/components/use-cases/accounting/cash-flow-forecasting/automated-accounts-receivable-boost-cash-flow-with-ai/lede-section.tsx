@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture this: your business is functioning as an interest-free bank for your clients, holding onto $50,000
@@ -13,7 +13,7 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         The crux of the issue lies in passive, calendar-based follow-ups. Many businesses only review their accounts
         receivable reports bi-monthly, allowing invoices to sit past due for weeks before any action is taken. This
-        delay not only affects your cash flow but also leaves you unprepared for disputes—often caused by invoices
+        delay not only affects your cash flow but also leaves you unprepared for disputes, which are often caused by invoices
         that lack clarity or essential details. Moreover, the same amount of time is spent chasing small utility
         reimbursements as is spent on significant milestone payments, leading to inefficient labor allocation.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -28,7 +28,7 @@ export default function LedeSection() {
         data-driven expected payment dates, these platforms bring accuracy and reliability to your financial
         planning. Automated, humanized email cadences adjust their tone based on client history, while centralized
         communication logs ensure that any disputes or payment promises are documented and managed effectively.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-accounts-receivable-lede-blog" href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">How Automated Accounts Receivable Can Transform Your Cash Flow</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-accounts-receivable-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> on our blog.</p>
     </>
   );
 
@@ -43,7 +43,7 @@ export default function LedeSection() {
                 Transforming Cash Flow with Automated Accounts Receivable
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="transforming-cash-flow-with-automated-accounts-receivable" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="transforming-cash-flow-with-automated-accounts-receivable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Transforming Cash Flow with Automated Accounts Receivable
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

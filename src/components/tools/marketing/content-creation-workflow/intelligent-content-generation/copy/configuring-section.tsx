@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -26,13 +25,13 @@ export default function ConfiguringSection() {
         Automation logic in Copy.ai is not limited to text generation. You can define triggers and actions
         that go beyond writing. For example, a workflow can be set to monitor a folder for new product
         documents, extract key features, and automatically draft product descriptions for every sales channel.
-        Another can listen for new leads in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and
+        Another can listen for new leads in your&nbsp;CRM&nbsp;and
         send out personalized welcome emails, all built with your rules for timing, content, and approval.</p>
       <p className="text-md text-white shadow-text pt-3">
         Copy.ai’s extension mechanism is built around integrations and
-        open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;access. It connects with over 2,000 other
+        open&nbsp;API&nbsp;access. It connects with over 2,000 other
         tools, from CRMs and email platforms to project management and analytics systems. For more advanced
-        needs, Copy.ai offers&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;endpoints so your
+        needs, Copy.ai offers&nbsp;API&nbsp;endpoints so your
         developers or Geek @ Your Spot LLC’s team can connect custom data sources, trigger workflows from external
         systems, or pull Copy.ai-generated content directly into your website or app. This makes it possible
         to embed Copy.ai into your unique business stack, not just use it as a standalone platform.</p>
@@ -69,7 +68,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-copy-ai-rules-automation-and-extending-the-platform" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-copy-ai-rules-automation-and-extending-the-platform-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Copy.ai: Rules, Automation, and Extending the Platform
               </h2>
               {body}

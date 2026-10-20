@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -6,14 +5,14 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A small business owner in South Florida weighing Take the Helm is not choosing in a vacuum. They are
         looking at the chaos of their current spreadsheets, maybe eyeing a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, or
+        full&nbsp;ERP, or
         considering point tools for accounts receivable or cash flow. Each path has its own cost, risk, and
         learning curve. Take the Helm sits in the middle: it is not a generic spreadsheet template, and it does
         not require the heavy lift of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;rollout.
+        full&nbsp;ERP&nbsp;rollout.
         It is built to automate and
-        clarify&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;for small teams who need answers fast, not a long implementation
+        clarify&nbsp;cash
+        flow forecasting&nbsp;for small teams who need answers fast, not a long implementation
         project.</p>
       <p className="text-md text-white shadow-text pt-3">
         Spreadsheets are the default for most small businesses. They are cheap, flexible, and already there. But
@@ -25,7 +24,7 @@ export default function ComparingSection() {
         accounting software, so every update is another round of manual work.</p>
       <p className="text-md text-white shadow-text pt-3">
         On the other end,
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        full&nbsp;ERP&nbsp;systems
         promise to bring everything under one roof: accounting, inventory, payroll, project management, and
         more. For a small business, these platforms are often overkill. The setup alone can take months and
         require outside consultants. The cost is not just the software, it is the lost time and the risk of a
@@ -44,7 +43,7 @@ export default function ComparingSection() {
         <li>Take the Helm automates the hard part: it pulls live data from QuickBooks Online, Xero, or Sage, so there is no more double entry or copying numbers into a spreadsheet.</li>
         <li>It gives a visual, drag-and-drop timeline where users can shift invoice and bill dates and immediately see the impact on cash flow. This is not a static report, it is a working model that updates as the business changes.</li>
         <li>Scenario planning is built in. A business can test what happens if a client pays late, if a big bill hits early, or if they add a new hire. Every scenario runs side by side, so teams make decisions with eyes open.</li>
-        <li><GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">Accounts payable</GlossaryLink>&nbsp;and receivable are managed together, not in isolation. Take the Helm tracks invoice timing, predicts likely payment dates using historical data, and highlights risks before they hit the bank account.</li>
+        <li>Accounts payable&nbsp;and receivable are managed together, not in isolation. Take the Helm tracks invoice timing, predicts likely payment dates using historical data, and highlights risks before they hit the bank account.</li>
         <li>Reporting is not a separate chore. PDF and CSV exports are ready for sharing, and the dashboard gives a health score that flags trouble spots without needing to dig through numbers.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
@@ -62,7 +61,7 @@ export default function ComparingSection() {
         and nothing. It is between living with the pain of scattered, manual systems or moving to a tool that
         fits their size, plugs into what they already use, and gives them control over cash flow without the
         overhead of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>. Take
+        full&nbsp;ERP. Take
         the Helm is not a silver bullet, but it is a real fix for the specific pain points that spreadsheets,
         ERPs, and point solutions leave behind.</p>
     </>
@@ -87,7 +86,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-take-the-helm-compares-to-spreadsheets-erps-and-point-solutions-for-small-business-cash-flow" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-take-the-helm-compares-to-spreadsheets-erps-and-point-solutions-for-small-business-cash-flow-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Take the Helm Compares to Spreadsheets, ERPs, and Point Solutions for Small Business Cash Flow
               </h2>
               {body}

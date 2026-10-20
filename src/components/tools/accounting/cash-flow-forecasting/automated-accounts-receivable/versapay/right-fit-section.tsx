@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Versapay is ideally suited for small to mid-sized businesses in Miami-Dade, Broward, and West Palm Beach
@@ -11,7 +10,7 @@ export default function RightFitSection() {
         and require efficient reconciliation and cash application.</p>
       <p className="text-md text-white shadow-text pt-3">
         However, Versapay might not be the best fit for businesses that have minimal accounts receivable activity or
-        those that do not rely heavily on&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems. For such
+        those that do not rely heavily on&nbsp;ERP&nbsp;systems. For such
         companies, a simpler solution with fewer integration requirements may be more appropriate.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses considering Versapay, the next step is to evaluate their current accounts receivable
@@ -27,7 +26,7 @@ export default function RightFitSection() {
         more on strategic growth rather than administrative tasks.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-accounts-receivable-versapay-right-fit-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id={`tools-accounting-accounts-receivable-versapay-right-fit-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -53,7 +52,7 @@ export default function RightFitSection() {
                 Who Should Choose Versapay and Next Steps
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -62,10 +61,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-should-choose-versapay-and-next-steps">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-should-choose-versapay-and-next-steps-lg">
                 Who Should Choose Versapay and Next Steps
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

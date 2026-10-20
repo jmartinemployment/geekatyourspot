@@ -50,7 +50,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-fragmented-metrics-in-cash-flow-forecasting">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-fragmented-metrics-in-cash-flow-forecasting-lg">
                 The Cost of Fragmented Metrics in Cash Flow Forecasting
               </h2>
               {body}

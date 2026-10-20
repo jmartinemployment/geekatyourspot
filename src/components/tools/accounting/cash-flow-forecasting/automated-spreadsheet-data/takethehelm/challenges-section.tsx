@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -12,7 +11,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         One of the major issues is the seasonality chokehold. Businesses in the region often face sharp
         slowdowns during summer, having overspent during the profitable winter months. Without
-        accurate&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>, they find
+        accurate&nbsp;cash flow forecasting, they find
         themselves unable to cover overheads by mid-year. This cycle repeats, leaving business owners scrambling
         to manage their finances effectively.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -57,7 +56,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-costs-of-manual-data-entry-in-south-florida-businesses">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-costs-of-manual-data-entry-in-south-florida-businesses-lg">
                 The Costs of Manual Data Entry in South Florida Businesses
               </h2>
               {body}

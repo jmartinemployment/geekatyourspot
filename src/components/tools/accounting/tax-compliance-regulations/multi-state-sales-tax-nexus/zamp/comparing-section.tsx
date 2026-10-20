@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When a small business in South Florida starts looking for a way out of multi-state sales tax chaos, the
@@ -21,7 +20,7 @@ export default function ComparingSection() {
         is a difference in who owns the risk.</p>
       <p className="text-md text-white shadow-text pt-3">
         Other platforms in this space,
-        like&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-zamp-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,&nbsp;Avalara,
+        like&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,&nbsp;Avalara,
         and Numeral, require the customer to handle setup, system connections, and ongoing monitoring. They may
         offer ticket-based support or assisted services, but the customer still manages the core compliance
         tasks. Zamp, by contrast, keeps the entire workflow inside one accountable team. That includes automated
@@ -38,7 +37,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration is another dividing line. Zamp connects directly to platforms like Shopify, Amazon,
         BigCommerce, Magento, and
-        leading&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.
+        leading&nbsp;ERP&nbsp;systems.
         This means all sales channels feed into one compliance workflow, eliminating the gaps that happen when
         different tools handle different channels. Marketplace transactions are classified to prevent double
         filing or missed obligations, and product taxability rules are mapped by state so exemptions and special
@@ -64,7 +63,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -72,10 +71,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-zamp-does-that-other-tax-tools-miss" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-zamp-does-that-other-tax-tools-miss-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Zamp Does That Other Tax Tools Miss
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

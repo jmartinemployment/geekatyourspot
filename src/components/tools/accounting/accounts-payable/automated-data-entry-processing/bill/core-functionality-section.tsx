@@ -1,5 +1,5 @@
 export default function CoreFunctionalitySection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill is designed to streamline accounts payable (AP) and expense management for small and medium-sized
@@ -9,7 +9,7 @@ export default function CoreFunctionalitySection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;By automating tasks such as invoice processing, approvals, and expense management, businesses can
         significantly reduce manual effort, minimize errors, and improve cash flow.&quot;&nbsp;
-        <a id="tools-accounting-bill-core-functionality-source"
+        <a id={`tools-accounting-bill-core-functionality-source${idSuffix}`}
           href="https://www.bill.com/dl/guide-to-ap-and-expense-report-automation"
           target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           Bill
@@ -45,7 +45,7 @@ export default function CoreFunctionalitySection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function CoreFunctionalitySection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="understanding-bills-core-functionality">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="understanding-bills-core-functionality-lg">
                 Understanding Bill&#39;s Core Functionality
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

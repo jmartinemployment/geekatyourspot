@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -33,7 +32,7 @@ export default function EvaluatingSection() {
         the need to re-enter your business details? Does it keep your content consistent across writers and
         channels? Can it publish directly to your CMS, or does it force you to copy and paste? Koala’s
         integrations with WordPress, Shopify, Webflow, and Ghost, plus
-        its&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and
+        its&nbsp;API&nbsp;and
         webhook support, are built for small teams that need automation without IT overhead. The platform’s
         folder organization and approval workflows mean you can keep a lean team in sync, even as your content
         volume grows.</p>
@@ -67,7 +66,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-koala-on-fit-and-pricing-for-small-business-content-generation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-koala-on-fit-and-pricing-for-small-business-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Koala on Fit and Pricing for Small Business Content Generation
               </h2>
               {body}

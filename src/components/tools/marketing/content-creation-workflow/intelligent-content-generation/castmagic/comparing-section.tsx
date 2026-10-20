@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida weighing Castmagic are not just choosing between tools, they are
@@ -10,7 +10,7 @@ export default function ComparingSection() {
         platforms. Each solves one part of the workflow but leaves real gaps for a small team trying to
         publish consistently without hiring more staff.</p>
       <p className="text-md text-white shadow-text pt-3">
-        General AI writing tools like&nbsp;<Link id="tools-marketing-intelligent-content-generation-castmagic-comparing-jasper" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;and&nbsp;<Link id="tools-marketing-intelligent-content-generation-castmagic-comparing-copy" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;focus on drafting from prompts, but they expect the
+        General AI writing tools like&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-comparing-jasper${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;and&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-comparing-copy${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;focus on drafting from prompts, but they expect the
         user to feed in structured outlines or bullet points. This means every blog post or email campaign
         starts with a blank screen and needs someone to decide what to say and how to say it. For a local
         business owner, that means time spent writing instead of serving clients. These tools rarely handle
@@ -82,7 +82,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -90,10 +90,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-castmagic-compares-to-other-content-automation-tools-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-castmagic-compares-to-other-content-automation-tools-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Castmagic Compares to Other Content Automation Tools for Small Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

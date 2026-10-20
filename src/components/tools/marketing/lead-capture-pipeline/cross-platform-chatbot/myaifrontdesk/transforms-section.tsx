@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk does not just add another tool to your stack, it clears away the manual work and
@@ -27,7 +27,7 @@ export default function TransformsSection() {
         Appointment booking moves from a game of phone tag to a live, AI-driven process. When a prospect is
         ready, My AI Front Desk checks availability and books the meeting during the conversation, no
         back-and-forth, no dropped threads. Every booking, every follow-up, and every outcome is written back
-        to the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so nothing is missed and every action is
+        to the&nbsp;CRM, so nothing is missed and every action is
         tracked. Your team can step into a conversation at any time, with the full context available, and the
         AI hands control back when needed.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,9 +49,9 @@ export default function TransformsSection() {
         so you can make decisions daily, not after the fact. There is no need to build separate reports or
         reconcile numbers across systems, My AI Front Desk does it as part of the workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Integration with HubSpot, Salesforce, and&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-transforms-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>&nbsp;means conversation data flows directly to your
-        existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, without extra effort from your team. The
-        system auto-builds your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;from every interaction,
+        Integration with HubSpot, Salesforce, and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-myaifrontdesk-transforms-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>&nbsp;means conversation data flows directly to your
+        existing&nbsp;CRM, without extra effort from your team. The
+        system auto-builds your&nbsp;CRM&nbsp;from every interaction,
         powering dashboards and attribution without manual setup. Most businesses start seeing value within
         minutes of setup, and the platform is managed with no code, no engineers required, no complex
         migrations.</p>
@@ -77,7 +77,7 @@ export default function TransformsSection() {
                 What My AI Front Desk Cross-Platform Chatbot Removes From Your Week
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -86,10 +86,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-my-ai-front-desk-cross-platform-chatbot-removes-from-your-week" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-my-ai-front-desk-cross-platform-chatbot-removes-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What My AI Front Desk Cross-Platform Chatbot Removes From Your Week
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

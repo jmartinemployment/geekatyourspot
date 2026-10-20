@@ -25,7 +25,7 @@ export default function ConfiguringSection() {
         chat, you can define keywords or patterns that trigger specific workflows, like sending a booking link
         or escalating to a live agent. After every call, My AI Front Desk logs structured outcomes, booked,
         transferred, callback requested, or no action, directly into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, so your pipeline is always up to date.</p>
+        your&nbsp;CRM, so your pipeline is always up to date.</p>
       <p className="text-md text-white shadow-text pt-3">
         Appointment booking is not a bolt-on. You configure which calendars My AI Front Desk can access, Google
         Calendar, Outlook, or Calendly, and set the rules for booking: which services are available, default
@@ -39,7 +39,7 @@ export default function ConfiguringSection() {
         automation. Each integration is configured through the My AI Front Desk dashboard: you map which fields
         sync, what data is written back, and how outcomes (like a booked appointment or a missed call) trigger
         downstream automation. For example, a missed call can trigger an instant SMS,
-        a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;update, and a follow-up task. If your business
+        a&nbsp;CRM&nbsp;update, and a follow-up task. If your business
         uses tools outside the standard integrations, Zapier acts as the bridge to hundreds of other platforms.</p>
       <p className="text-md text-white shadow-text pt-3">
         Beyond the basics, you configure post-call workflows. My AI Front Desk lets you define what happens
@@ -87,7 +87,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-you-actually-configure-in-my-ai-front-desk-rules-automations-and-where-geek-your-spot-adds-value" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-you-actually-configure-in-my-ai-front-desk-rules-automations-and-where-geek-your-spot-adds-value-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What You Actually Configure in My AI Front Desk: Rules, Automations, and Where Geek @ Your Spot LLC Adds Value
               </h2>
               {body}

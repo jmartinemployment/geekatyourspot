@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture a Tuesday morning in a small South Florida office. The phone rings with new client requests,
@@ -15,7 +15,7 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         Intelligent Content Generation changes that equation. Instead of wasting hours on a single caption or
         shelling out thousands each month for an agency retainer, small businesses can now generate on-brand,
-        localized&nbsp;<Link id="use-cases-marketing-intelligent-content-generation-lede-seo-blog-and-article-generation" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#C83803] hover:underline">SEO articles</Link>, social posts, and email campaigns in under a minute, without leaving their
+        localized&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-lede-seo-blog-and-article-generation${idSuffix}`} href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#C83803] hover:underline">SEO articles</Link>, social posts, and email campaigns in under a minute, without leaving their
         existing workflows. This isn’t generic, one-size-fits-all automation. It’s a system that drafts,
         adapts, and schedules content tailored to your niche, your service areas, and your real customers, so
         your brand never goes silent online. No more blank-page paralysis. No more missing the window for a
@@ -27,7 +27,7 @@ export default function LedeSection() {
         scenes. For South Florida small businesses, this is how you finally break the cycle of abandoned
         content calendars, overpriced agency contracts, and missed growth opportunities, without hiring
         another employee or sacrificing service to your paying clients.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-content-generation-lede-blog" href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-content-generation-lede-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> on our blog.</p>
     </>
   );
 
@@ -42,7 +42,7 @@ export default function LedeSection() {
                 Why Small Businesses Are Losing Time and Leads to Manual Content Creation
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -51,10 +51,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-small-businesses-are-losing-time-and-leads-to-manual-content-creation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-small-businesses-are-losing-time-and-leads-to-manual-content-creation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Small Businesses Are Losing Time and Leads to Manual Content Creation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

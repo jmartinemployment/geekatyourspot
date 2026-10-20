@@ -5,12 +5,12 @@ export default function HowItWorksSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Medius operates as a comprehensive&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>
+        accounts payable
         &nbsp;automation platform, specifically designed to tackle challenges like invoice fraud and duplicate
         payments. The software leverages advanced&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;algorithms
+        AI&nbsp;algorithms
         and&nbsp;
-        <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>
+        machine learning
         &nbsp;to analyze vast amounts of invoice data in real time. This capability allows Medius to identify
         patterns and anomalies that traditional methods might miss, ensuring that fraudulent activities are
         flagged before they can cause financial harm. The system is continuously learning from new data,
@@ -67,7 +67,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-works-real-mechanics-and-architecture">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-works-real-mechanics-and-architecture-lg">
                 How Medius Works: Real Mechanics and Architecture
               </h2>
               {body}

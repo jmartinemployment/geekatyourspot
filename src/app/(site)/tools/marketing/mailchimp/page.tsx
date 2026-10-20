@@ -6,6 +6,7 @@ import ImplementationSection from "@/components/tools/mailchimp/implementation-s
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
@@ -46,21 +47,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "Mailchimp for AI Marketing Systems",
             description: 'Discover Mailchimp\u0027s AI Marketing Systems for streamlined email campaigns and enhanced audience engagement.',
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

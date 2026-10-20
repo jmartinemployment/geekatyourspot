@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function CriticalDecisionsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Implementing automated approval workflows is not just a technological upgrade; it&#39;s a strategic
@@ -17,7 +17,7 @@ export default function CriticalDecisionsSection() {
         quality can derail the entire effort. Ensure that your data is accurate, complete, and up-to-date.
         This might involve cleaning existing records and setting up processes to maintain high data quality
         going forward. Tools like&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-decisions-bill"
+        <Link id={`use-cases-accounting-approval-workflows-decisions-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;can assist with data validation and ensure that your approval workflows are fed with
@@ -27,7 +27,7 @@ export default function CriticalDecisionsSection() {
         need to choose tools that not only meet your current needs but are also scalable as your business
         grows. Consider how these tools integrate with your existing systems, such as QuickBooks or Xero, to
         avoid creating silos of information.&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-decisions-ramp"
+        <Link id={`use-cases-accounting-approval-workflows-decisions-ramp${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>, for example, offers robust integration capabilities that can seamlessly connect with various
@@ -58,7 +58,7 @@ export default function CriticalDecisionsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -66,10 +66,10 @@ export default function CriticalDecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="critical-decisions-for-a-successful-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="critical-decisions-for-a-successful-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Critical Decisions for a Successful Implementation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

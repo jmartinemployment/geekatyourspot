@@ -5,58 +5,14 @@ import SeamlessIntegrationsSection from "@/components/home/seamless-integrations
 import { UseCasesSection } from "@/components/home/use-cases";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Metadata, Viewport } from "next";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { AREA_SERVED } from "@/lib/seo/organization";
 
-
-
-// Matches the Google Business Profile: name, address, phone and hours must agree
-// with it, or the two read as different businesses.
-const areaServed = [
-  { "@type": "City", "name": "Delray Beach" },
-  { "@type": "AdministrativeArea", "name": "Palm Beach County" },
-  { "@type": "AdministrativeArea", "name": "Broward County" },
-  { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-  { "@type": "Place", "name": "South Florida" }
-];
-
+// The Organization, logo and WebSite nodes come from the site layout (src/lib/seo/organization.ts);
+// this graph points at them by @id.
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": ["Organization", "LocalBusiness"],
-      "@id": "https://geekatyourspot.com/#organization",
-      "name": "Geek @ Your Spot LLC",
-      "alternateName": "Geek @ Your Spot LLC",
-      "url": "https://geekatyourspot.com",
-      "logo": "https://geekatyourspot.com/images/GeekAtYourSpot.svg",
-      "image": "https://geekatyourspot.com/images/action-figure.jpeg",
-      "description": "AI consultancy building practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
-      "telephone": "+1-561-526-3512",
-      "sameAs": [
-        "https://www.facebook.com/geekatyourspot",
-        "https://www.linkedin.com/company/geekatyourspot",
-        "https://twitter.com/geekatyourspot"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "2025 NW 18th Street",
-        "addressLocality": "Delray Beach",
-        "addressRegion": "FL",
-        "postalCode": "33445",
-        "addressCountry": "US"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "09:00",
-          "closes": "17:00"
-        }
-      ],
-      "areaServed": areaServed,
-      "priceRange": "$$",
-      "foundingDate": "2024",
-      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "AI Integration", "Business Automation", "Process Optimization"]
-    },
     {
       "@type": "Service",
       "@id": "https://geekatyourspot.com/#service",
@@ -66,7 +22,7 @@ const jsonLd = {
       "provider": {
         "@id": "https://geekatyourspot.com/#organization"
       },
-      "areaServed": areaServed,
+      "areaServed": AREA_SERVED,
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "AI Services",
@@ -113,7 +69,7 @@ const jsonLd = {
       "@id": "https://geekatyourspot.com/#webpage",
       "url": "https://geekatyourspot.com",
       "name": "AI Consulting for South Florida Small Businesses",
-      "description": "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+      "description": "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
       "isPartOf": {
         "@id": "https://geekatyourspot.com/#website"
       },
@@ -138,13 +94,6 @@ const jsonLd = {
       ]
     },
     {
-      "@type": "WebSite",
-      "@id": "https://geekatyourspot.com/#website",
-      "url": "https://geekatyourspot.com",
-      "name": "Geek @ Your Spot LLC",
-      "description": "AI consulting for South Florida small businesses"
-    },
-    {
       "@type": "ImageObject",
       "@id": "https://geekatyourspot.com/#primaryimage",
       "inLanguage": "en-US",
@@ -157,11 +106,14 @@ const jsonLd = {
   ]
 };
 
+/** The H1's lead words and the place the business serves; with the template it runs 54 characters. */
+const HOME_TITLE = "AI Integration in South Florida";
+
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
     metadataBase: new URL('https://geekatyourspot.com'),
-    title: "Geek @ Your Spot LLC",
-    description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work. Free consultation with 40 years of engineering expertise.',
+    title: HOME_TITLE,
+    description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
     keywords: [
       'AI consulting',
       'AI for small business',
@@ -192,35 +144,20 @@ export const generateMetadata = async (): Promise<Metadata> => {
       canonical: '/',
     },
     openGraph: {
-      title: "Geek @ Your Spot LLC",
-      description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.',
+      title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
+      description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
       url: 'https://geekatyourspot.com',
       siteName: 'Geek @ Your Spot LLC',
-      images: [
-        {
-          url: 'https://geekatyourspot.com/images/action-figure.jpeg',
-          width: 1024,
-          height: 1536,
-          alt: 'Geek @ Your Spot LLC - AI-created action figure representing hands-on AI consulting approach',
-          type: 'image/jpeg',
-        },
-        {
-          url: 'https://geekatyourspot.com/images/GeekAtYourSpot.svg',
-          width: 116,
-          height: 48,
-          alt: 'Geek @ Your Spot LLC logo',
-          type: 'image/svg+xml',
-        },
-      ],
+      images: [SHARE_IMAGE],
       locale: 'en_US',
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Geek @ Your Spot LLC",
+      title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
       description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses.',
       creator: '@geekatyourspot',
-      images: ['https://geekatyourspot.com/images/action-figure.jpeg'],
+      images: [SHARE_IMAGE],
       site: '@geekatyourspot',
     },
     robots: {

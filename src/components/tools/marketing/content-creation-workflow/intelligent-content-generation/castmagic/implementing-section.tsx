@@ -76,7 +76,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-takes-to-go-live-with-castmagic-in-a-real-world-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-takes-to-go-live-with-castmagic-in-a-real-world-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Takes to Go Live with Castmagic in a Real-World Small Business Environment
               </h2>
               {body}

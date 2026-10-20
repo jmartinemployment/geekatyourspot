@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Setting up Apollo for a small business is not just a matter of turning it on and hoping for results.
@@ -43,17 +42,17 @@ export default function ConfiguringSection() {
         Data sync is another critical automation layer. Apollo integrates directly with CRMs like Salesforce
         and HubSpot, pushing and pulling data on a schedule or in real time. You decide which fields to sync,
         how often, and what triggers an update. This keeps
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;clean and up-to-date, with no double entry
-        or manual imports. Apollo’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;gives you
+        your&nbsp;CRM&nbsp;clean and up-to-date, with no double entry
+        or manual imports. Apollo’s&nbsp;API&nbsp;gives you
         programmatic access to all core functions, if you have a custom workflow or need to connect Apollo to
         another tool, Geek @ Your Spot LLC can help you design and implement those integrations. But for most
         small businesses, the built-in integrations and configuration screens cover the main needs without
         custom code.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Extension in Apollo is handled through its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and
+        Extension in Apollo is handled through its&nbsp;API&nbsp;and
         integration marketplace. If your business runs on tools outside the standard stack,
-        Apollo’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;lets you build custom connectors or
-        automate workflows using platforms like&nbsp;<Link id="tools-marketing-lead-enrichment-apollo-configuring-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>, Make, or n8n. For example, you might want to trigger a
+        Apollo’s&nbsp;API&nbsp;lets you build custom connectors or
+        automate workflows using platforms like&nbsp;<Link id={`tools-marketing-lead-enrichment-apollo-configuring-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>, Make, or n8n. For example, you might want to trigger a
         Slack notification for every high-scoring lead, or send a daily report of new website visitors that
         match your ICP. These automations are not just nice-to-haves, they are what keep your team focused on
         the right actions, every day, without manual effort.</p>
@@ -91,7 +90,7 @@ export default function ConfiguringSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +98,10 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-actually-gets-configured-in-apollo-rules-automation-and-extensions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-actually-gets-configured-in-apollo-rules-automation-and-extensions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Actually Gets Configured in Apollo: Rules, Automation, and Extensions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

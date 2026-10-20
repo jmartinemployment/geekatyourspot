@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function WhoShouldConsiderSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         ApprovalMax is ideally suited for small to medium-sized businesses that need to streamline their
@@ -22,7 +21,7 @@ export default function WhoShouldConsiderSection() {
       <p className="text-md text-white shadow-text pt-3">
         Once you have a clear understanding of your needs, reaching out to Geek @ Your Spot LLC for a
         consultation can provide further insights. As experts in&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation, they can guide you through the setup
+        AI&nbsp;implementation, they can guide you through the setup
         process, ensuring that ApprovalMax integrates seamlessly with your existing systems and meets your
         specific requirements. This partnership not only facilitates a smoother transition but also
         maximizes the benefits of automation for your business.</p>
@@ -30,10 +29,10 @@ export default function WhoShouldConsiderSection() {
         In conclusion, ApprovalMax offers a robust solution for businesses looking to enhance their financial
         approval processes. By carefully evaluating your needs and leveraging the expertise of Geek @ Your Spot LLC, you can make an informed decision that aligns with your operational goals and drives
         efficiency in your&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;operations.</p>
+        accounts payable&nbsp;operations.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-approval-workflows-approvalmax-right-fit-consultation"
+        <Link id={`tools-accounting-approval-workflows-approvalmax-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
@@ -43,7 +42,7 @@ export default function WhoShouldConsiderSection() {
         <li>Is there one central AP inbox, or do invoices go to different people and departments?</li>
         <li>Who enters invoice details into QuickBooks, Xero, or your accounting system?</li>
         <li>“Invoice capture vs. AP automation: what does your business actually need?”</li>
-        <li>“Can invoice software read every line—or just the total?”</li>
+        <li>“Can invoice software read every line, or just the total?”</li>
         <li>“Who checks an invoice when AI gets it wrong?”</li>
         <li>“Does your invoice tool create a reviewable bill or post directly to accounting?”</li>
         <li>“What does automated invoice processing really cost once line-item credits are included?”</li>
@@ -66,7 +65,7 @@ export default function WhoShouldConsiderSection() {
                 Who Should Consider ApprovalMax and Next Steps
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -75,10 +74,10 @@ export default function WhoShouldConsiderSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-should-consider-approvalmax-and-next-steps">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-should-consider-approvalmax-and-next-steps-lg">
                 Who Should Consider ApprovalMax and Next Steps
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

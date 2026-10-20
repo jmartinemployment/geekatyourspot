@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Once you&#39;ve determined that&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;automation is the right path for your business, the next steps involve
+        Once you&#39;ve determined that&nbsp;tax
+        compliance&nbsp;automation is the right path for your business, the next steps involve
         careful planning and execution. Start by conducting a thorough review of your current tax processes to
         identify specific areas where automation can provide the most benefit. This assessment should include an
         analysis of your transaction volume, the number of jurisdictions you operate in, and the complexity of
@@ -16,7 +15,7 @@ export default function PreparingSection() {
         Solutions like Quaderno and TaxJar offer robust platforms for automating tax calculations and compliance
         across multiple jurisdictions. Quaderno excels in handling international VAT and GST, making it ideal
         for businesses with a global reach, while TaxJar&#39;s
-        SmartCalcs&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;provides precise sales tax calculations
+        SmartCalcs&nbsp;API&nbsp;provides precise sales tax calculations
         for businesses with complex multi-state operations.</p>
       <p className="text-md text-white shadow-text pt-3">
         As you move forward, it&#39;s crucial to engage with a partner who can assist with the integration of
@@ -38,7 +37,7 @@ export default function PreparingSection() {
         compliance process that supports your business growth while minimizing risk.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-accounting-complex-changing-laws-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
@@ -62,7 +61,7 @@ export default function PreparingSection() {
                 Next Steps for Implementing Tax Compliance Automation
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -71,10 +70,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="next-steps-for-implementing-tax-compliance-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="next-steps-for-implementing-tax-compliance-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Next Steps for Implementing Tax Compliance Automation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -9,7 +8,7 @@ export default function DataMappingSection() {
         organization to match their specific operational needs, ensuring accurate and actionable cash flow insights.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the first considerations is how to structure data inputs. Dryrun supports a variety of data sources,
-        including direct&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;connections and custom spreadsheet
+        including direct&nbsp;ERP&nbsp;connections and custom spreadsheet
         imports. This flexibility allows businesses to integrate both structured and unstructured data, offering a
         comprehensive view of financial health. Deciding which data sources to prioritize and how to map them into
         Dryrun&#39;s system is a key step in the setup process.</p>
@@ -52,7 +51,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="key-data-structure-and-mapping-decisions-for-dryrun">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="key-data-structure-and-mapping-decisions-for-dryrun-lg">
                 Key Data Structure and Mapping Decisions for Dryrun
               </h2>
               {body}

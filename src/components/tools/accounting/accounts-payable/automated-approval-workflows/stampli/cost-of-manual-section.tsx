@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function CostOfManualSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In many small businesses, the&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;(AP) team is burdened with
+        accounts payable&nbsp;(AP) team is burdened with
         manual approval processes that are both time-consuming and prone to errors. Each invoice that comes in
         requires multiple steps before payment can be processed. This often starts with the invoice arriving
         through various channels, such as email or mail, and ends with a verbal approval from a manager.
@@ -43,7 +42,7 @@ export default function CostOfManualSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;By streamlining workflows between procurement and AP teams, Stampli speeds up approval processes
         and improves control across all financial processes.&quot;&nbsp;
-        <a id="tools-accounting-approval-workflows-stampli-cost-of-manual-source"
+        <a id={`tools-accounting-approval-workflows-stampli-cost-of-manual-source${idSuffix}`}
           href="https://www.stampli.com/erp-purchase-orders/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Stampli
@@ -62,7 +61,7 @@ export default function CostOfManualSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -70,10 +69,10 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-approval-workflows-lg">
                 The Cost of Manual Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -41,9 +40,9 @@ export default function EvaluatingSection() {
         instant alerts to your team.</p>
       <p className="text-md text-white shadow-text pt-3">
         There are limits. Voksha does not have a
-        public&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;or
+        public&nbsp;API&nbsp;or
         custom integration layer for building your own features. If your workflow depends on
-        deep&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;integrations
+        deep&nbsp;CRM&nbsp;integrations
         or you need to automate complex, multi-step processes, Voksha may not be the right fit. But for most
         local businesses, the priority is not building custom apps, it is stopping revenue leaks from missed
         calls and wasted staff time. Voksha’s approach is to keep the system lean and easy to run, so you spend
@@ -85,7 +84,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-voksha-fit-for-your-business-and-the-real-cost-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-voksha-fit-for-your-business-and-the-real-cost-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Voksha: Fit for Your Business and the Real Cost Model
               </h2>
               {body}

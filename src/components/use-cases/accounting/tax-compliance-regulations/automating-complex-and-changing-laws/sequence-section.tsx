@@ -1,10 +1,9 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function SequenceSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Implementing a&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;solution in a
+        Implementing a&nbsp;tax compliance&nbsp;solution in a
         real-world environment involves a series of deliberate steps that ensure the process is smooth and
         effective. At Geek @ Your Spot LLC, the implementation begins with a comprehensive analysis of the
         business’s current tax compliance status. This assessment identifies existing gaps and potential areas
@@ -55,7 +54,7 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="rolling-out-tax-compliance-solutions-in-practice" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="rolling-out-tax-compliance-solutions-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Rolling Out Tax Compliance Solutions in Practice
               </h2>
               {body}

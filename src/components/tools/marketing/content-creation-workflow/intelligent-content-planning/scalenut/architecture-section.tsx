@@ -83,7 +83,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="scalenuts-technical-architecture-what-connects-what-runs-and-what-stays-local" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="scalenuts-technical-architecture-what-connects-what-runs-and-what-stays-local-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Scalenut’s Technical Architecture: What Connects, What Runs, and What Stays Local
               </h2>
               {body}

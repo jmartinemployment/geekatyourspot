@@ -29,7 +29,7 @@ export default function AIContentRepurposingSection() {
                 game, allowing marketers to effectively repurpose content, ensuring it resonates with diverse audiences while
                 minimizing creation efforts.</p>
               <p className="text-md text-white shadow-text pt-3">
-                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>&nbsp;involves transforming existing content into new formats and styles, making it accessible and
+                AI content repurposing&nbsp;involves transforming existing content into new formats and styles, making it accessible and
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-jasper-ai-1"
@@ -112,7 +112,7 @@ export default function AIContentRepurposingSection() {
                 loading="lazy" />
             </div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-content-repurposing-maximize-your-contents-reach">AI Content Repurposing: Maximize Your Content&#39;s Reach
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-content-repurposing-maximize-your-contents-reach-lg">AI Content Repurposing: Maximize Your Content&#39;s Reach
               </h2>
               <p className="text-md text-white shadow-text pt-3">
                 Content creators often face the challenge of keeping their content fresh across multiple channels without
@@ -121,10 +121,10 @@ export default function AIContentRepurposingSection() {
                 game, allowing marketers to effectively repurpose content, ensuring it resonates with diverse audiences while
                 minimizing creation efforts.</p>
               <p className="text-md text-white shadow-text pt-3">
-                AI <GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>&nbsp;involves transforming existing content into new formats and styles, making it accessible and
+                AI content repurposing&nbsp;involves transforming existing content into new formats and styles, making it accessible and
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
-                <Link id="ai-content-creation-workflow-repurposing-jasper-ai-2"
+                <Link id="ai-content-creation-workflow-repurposing-jasper-ai-2-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>, businesses can
@@ -132,18 +132,25 @@ export default function AIContentRepurposingSection() {
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek @ Your Spot LLC assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek @ Your Spot LLC assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing-lg" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
+              <h3 className="text-white pt-2 lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-ai-for-diverse-content-formats-lg">Leveraging AI for Diverse Content Formats</h3>
+              <p className="text-md text-white shadow-text pt-3">
+                To effectively reach varied audiences, it&#39;s crucial to present content in formats that they prefer. AI tools
+                such as&nbsp;
+                Copy.ai&nbsp;excel at converting long-form content into concise, impactful
+                pieces that fit different media types. For instance, a comprehensive blog post can be transformed into a series of
+                engaging social media posts or a compelling video script with minimal manual intervention.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
                 <li>Create short, punchy social media updates from detailed blog articles.</li>
                 <li>Develop engaging email newsletters by summarizing key points from webinars or podcasts.</li>
                 <li>Generate video scripts that capture the essence of a written report or study.</li>
               </ul>
-              <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-tools-for-video-content-adaptation">AI Tools for Video Content Adaptation</h4>
+              <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-tools-for-video-content-adaptation-lg">AI Tools for Video Content Adaptation</h4>
               <p className="text-md text-white shadow-text pt-3">
                 Video content is increasingly popular, but creating it from scratch is resource-intensive. AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-repurposing-contentstudio-2"
+                <Link id="ai-content-creation-workflow-repurposing-contentstudio-2-lg"
                   href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">
                   ContentStudio
                 </Link>&nbsp;can assist by transforming existing written content into
@@ -153,7 +160,7 @@ export default function AIContentRepurposingSection() {
                 In a hypothetical scenario, a mid-sized tech firm could use ContentStudio to adapt their white papers into a series
                 of informative videos. This approach not only saves time but also expands their reach to audiences who prefer visual
                 content over text-heavy documents.</p>
-              <h3 className="text-white pt-2 lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-content-reach-with-ai-driven-personalization">
+              <h3 className="text-white pt-2 lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-content-reach-with-ai-driven-personalization-lg">
                 Enhancing Content Reach with AI-Driven Personalization
               </h3>
               <p className="text-md text-white shadow-text pt-3">
@@ -165,12 +172,12 @@ export default function AIContentRepurposingSection() {
                 Geek @ Your Spot LLC employs these AI capabilities to help organizations create personalized content strategies. By
                 analyzing customer interactions and preferences, businesses can deploy targeted content that meets the specific
                 needs and interests of various groups, enhancing both customer satisfaction and conversion rates.</p>
-              <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-driven-segmentation-for-tailored-messaging">AI-Driven Segmentation for Tailored Messaging</h4>
+              <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-driven-segmentation-for-tailored-messaging-lg">AI-Driven Segmentation for Tailored Messaging</h4>
               <p className="text-md text-white shadow-text pt-3">
                 <GlossaryLink slug="behavioral-segmentation">Segmentation</GlossaryLink> allows for the delivery of tailored messaging that aligns with the unique characteristics of each
                 audience segment. AI tools can automate this process, ensuring that each piece of content is optimized for its
                 intended audience without additional manual effort.</p>
-              <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="using-ai-to-optimize-content-timing-and-distribution">Using AI to Optimize Content Timing and Distribution
+              <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="using-ai-to-optimize-content-timing-and-distribution-lg">Using AI to Optimize Content Timing and Distribution
               </h4>
               <p className="text-md text-white shadow-text pt-3">
                 Beyond personalization, AI can determine the optimal times and channels for distributing repurposed content. By

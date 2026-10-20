@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -6,7 +5,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When deploying TaxValet, one of the most critical steps is setting up the correct data structure and
         mapping. This ensures that the software can accurately process and manage
-        sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;across multiple
+        sales&nbsp;tax compliance&nbsp;across multiple
         jurisdictions. The initial setup involves detailed planning to align TaxValet&#39;s capabilities with
         the business&#39;s existing data architecture.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-key-considerations-for-taxvalet-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-key-considerations-for-taxvalet-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping: Key Considerations for TaxValet Deployment
               </h2>
               {body}

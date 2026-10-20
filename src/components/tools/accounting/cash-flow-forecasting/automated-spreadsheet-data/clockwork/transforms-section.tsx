@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Clockwork revolutionizes the way small businesses handle financial forecasting by automating what once
@@ -15,7 +14,7 @@ export default function TransformsSection() {
         Clockwork ensures that all data is current and accurate, pulling directly from your financial systems. This
         means no more manually updating cells or worrying about broken formulas.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Clockwork&#39;s&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-powered financial analyst, Mira, takes this a
+        Clockwork&#39;s&nbsp;AI-powered financial analyst, Mira, takes this a
         step further by providing insights and answers to complex financial questions. Whether you&#39;re wondering
         why cash flow dropped last month or what the financial implications of hiring two new employees are, Mira
         provides data-backed answers in plain English. This shifts the focus from data entry to data analysis,
@@ -29,7 +28,7 @@ export default function TransformsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;It replaces the spreadsheet with an automatically built 5-year driver-based financial model, a 52-week
         cash flow forecast, and an AI analyst, so nobody maintains formulas.&quot;&nbsp;
-        <a id="tools-accounting-spreadsheet-data-clockwork-transforms-source"
+        <a id={`tools-accounting-spreadsheet-data-clockwork-transforms-source${idSuffix}`}
           href="https://www.clockwork.ai/vs/liveflow"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Clockwork
@@ -54,7 +53,7 @@ export default function TransformsSection() {
                 How Clockwork Transforms Automated Spreadsheet Data
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -63,10 +62,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-clockwork-transforms-automated-spreadsheet-data">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-clockwork-transforms-automated-spreadsheet-data-lg">
                 How Clockwork Transforms Automated Spreadsheet Data
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

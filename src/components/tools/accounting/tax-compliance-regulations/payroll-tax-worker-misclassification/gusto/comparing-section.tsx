@@ -2,17 +2,17 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida do not lack options for automating payroll tax and worker
         classification. Gusto sits in a crowded field that
-        includes&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-gusto-comparing-adp" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#0B162A] hover:underline">ADP</Link>,&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-gusto-comparing-deel" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#0B162A] hover:underline">Deel</Link>,
+        includes&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-gusto-comparing-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#0B162A] hover:underline">ADP</Link>,&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-gusto-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#0B162A] hover:underline">Deel</Link>,
         and other payroll platforms, each promising to reduce errors, simplify filings, and help owners avoid
         misclassification penalties. But when you look closely at how these systems actually handle the core
-        risks—federal, state, and
+        risks (federal, state, and
         local&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>, and the separation of W-2 employees from 1099 contractors—Gusto stands out
+        compliance</GlossaryLink>, and the separation of W-2 employees from 1099 contractors), Gusto stands out
         for its direct approach to automation and its focus on small and mid-sized teams.</p>
       <p className="text-md text-white shadow-text pt-3">
         The core difference lies in how Gusto automates the most error-prone steps. Many platforms offer payroll
@@ -48,7 +48,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, pricing and scalability matter. Gusto&#39;s flexible pricing means you only pay for the people
         you pay each month. There is no extra charge for running payroll in multiple states, paying contractors
-        instead of employees, or filing extra tax forms. This is not universal—some platforms bill by number of
+        instead of employees, or filing extra tax forms. This is not universal. Some platforms bill by number of
         pay runs, by state, or by additional features like contractor payments. For a business that flexes its
         workforce up and down with the season, or that needs to run payroll weekly in the busy months and
         monthly in the slow ones, this pricing model avoids surprise costs.</p>
@@ -73,7 +73,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -81,10 +81,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-gusto-compares-to-other-payroll-tax-and-worker-classification-solutions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-gusto-compares-to-other-payroll-tax-and-worker-classification-solutions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Gusto Compares to Other Payroll Tax and Worker Classification Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

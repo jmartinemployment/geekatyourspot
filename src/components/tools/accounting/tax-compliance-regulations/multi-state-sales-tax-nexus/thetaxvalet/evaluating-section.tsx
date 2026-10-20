@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing TaxValet for multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;is not about finding the tool with the most features or the lowest
+        sales&nbsp;tax
+        compliance&nbsp;is not about finding the tool with the most features or the lowest
         sticker price. It is about matching the platform to your real-world risks, workload, and the way your
         team operates. For small businesses in South Florida, the right fit comes down to three things: how well
         the tool covers your actual compliance footprint, what it removes from your weekly work, and whether its
@@ -91,7 +90,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-taxvalet-fit-pricing-and-what-matters-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-taxvalet-fit-pricing-and-what-matters-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge TaxValet: Fit, Pricing, and What Matters for Small Teams
               </h2>
               {body}

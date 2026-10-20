@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture a Broward-based online retailer whose sales just broke six figures, celebration-worthy, until
@@ -26,7 +26,7 @@ export default function LedeSection() {
         compliance, wire a purpose-built tax engine into your billing stack, and eliminate the risk of silent
         violations. No more manual tracking, no more spreadsheet errors, no more legal blind spots. Just a
         clear, managed path to selling anywhere in the US, with zero manual upkeep and zero guesswork.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-multi-state-sales-tax-nexus-lede-blog" href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-multi-state-sales-tax-nexus-lede-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> on our blog.</p>
     </>
   );
 
@@ -41,7 +41,7 @@ export default function LedeSection() {
                 The Real Cost of Crossing Borders Without a Tax Map
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -50,10 +50,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-real-cost-of-crossing-borders-without-a-tax-map" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-real-cost-of-crossing-borders-without-a-tax-map-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Real Cost of Crossing Borders Without a Tax Map
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

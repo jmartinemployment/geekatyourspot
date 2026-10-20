@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -8,7 +7,7 @@ export default function DataMappingSection() {
         your business data, call flows, and rules will map onto the system. These choices matter, not just for
         initial setup, but for how easy it will be to adapt, troubleshoot, or expand your lead capture pipeline
         in the months ahead. LobbyStack’s open-source model gives you more control than a
-        closed&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;product, but it also means the structure
+        closed&nbsp;SaaS&nbsp;product, but it also means the structure
         you choose up front will shape what you can automate and how flexibly you can respond to change.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first decision is how to structure your caller data. LobbyStack collects caller details, messages,
@@ -20,8 +19,8 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Mapping these fields onto your downstream systems is next. LobbyStack can push call and booking details
         directly into Google Calendar for appointment scheduling. For other systems, like
-        a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, ticketing platform, or marketing database, the
-        mapping happens through webhooks or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;calls. Geek @ Your Spot LLC handles this alignment, making sure that every data point the AI collects lands in the right
+        a&nbsp;CRM, ticketing platform, or marketing database, the
+        mapping happens through webhooks or&nbsp;API&nbsp;calls. Geek @ Your Spot LLC handles this alignment, making sure that every data point the AI collects lands in the right
         place in your stack. This is not just about matching field names; it is about ensuring data types,
         formats, and validation rules are consistent so nothing gets lost or misfiled.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -47,7 +46,7 @@ export default function DataMappingSection() {
         Finally, you need to decide how to handle updates and changes. LobbyStack’s open-source nature means you
         can pin your deployment to a tested version, pull updates when you are ready, and roll back if something
         breaks. This avoids the &quot;forced update&quot; problem common with
-        closed&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;tools. Your mapping and data structure
+        closed&nbsp;SaaS&nbsp;tools. Your mapping and data structure
         decisions at the start make it easier to test changes in a staging environment before rolling them out
         to your live system.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -79,7 +78,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-data-structure-and-mapping-decisions-shape-a-lobbystack-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-data-structure-and-mapping-decisions-shape-a-lobbystack-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Data Structure and Mapping Decisions Shape a LobbyStack Deployment
               </h2>
               {body}

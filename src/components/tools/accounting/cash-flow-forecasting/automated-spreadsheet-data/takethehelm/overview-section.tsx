@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For many small businesses in West Palm Beach, Broward, and Miami-Dade counties, the daily grind of
@@ -14,7 +14,7 @@ export default function OverviewSection() {
         even risky. This lag can mean the difference between seizing a business opportunity and missing it
         entirely.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-spreadsheet-data-takethehelm-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">Spreadsheet Data</Link>&nbsp;offers a compelling solution to this bottleneck. By integrating tools like
+        Automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-takethehelm-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">Spreadsheet Data</Link>&nbsp;offers a compelling solution to this bottleneck. By integrating tools like
         Take the Helm, businesses can streamline their data entry processes, ensuring that cash flow forecasts are
         not only accurate but also up-to-date. This automation allows financial teams to focus on strategic
         decision-making rather than getting bogged down in manual data entry, which often leads to errors and
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

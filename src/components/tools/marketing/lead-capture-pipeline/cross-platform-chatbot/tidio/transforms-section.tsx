@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tidio changes the day-to-day reality for small teams by removing the manual work and confusion that
@@ -35,7 +35,7 @@ export default function TransformsSection() {
         automatically, so your marketing list grows without manual entry. When an agent is busy or offline,
         Tidio’s bots keep the conversation going, ensuring no opportunity is missed.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Tidio also integrates with the tools you already use. From HubSpot and&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-transforms-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>&nbsp;to Shopify and
+        Tidio also integrates with the tools you already use. From HubSpot and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-transforms-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>&nbsp;to Shopify and
         Google Ads, it sends captured leads and conversation data directly into
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or marketing platform. This means less time
         spent on manual data entry and more time spent on qualified prospects. For e-commerce, Tidio’s Shopify
@@ -80,7 +80,7 @@ export default function TransformsSection() {
                 What Tidio Removes from Your Week: The Cross-Platform Chatbot Advantage
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -89,10 +89,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-tidio-removes-from-your-week-the-cross-platform-chatbot-advantage" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-tidio-removes-from-your-week-the-cross-platform-chatbot-advantage-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Tidio Removes from Your Week: The Cross-Platform Chatbot Advantage
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

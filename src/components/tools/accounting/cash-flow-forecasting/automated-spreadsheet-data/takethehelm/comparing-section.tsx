@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering tools for automating spreadsheet data, businesses often weigh options like&nbsp;<Link
-        id="tools-accounting-spreadsheet-data-takethehelm-comparing-cashflowfrog"
+        id={`tools-accounting-spreadsheet-data-takethehelm-comparing-cashflowfrog${idSuffix}`}
         href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
         className="text-[#0B162A] hover:underline">Cash Flow Frog</Link>,&nbsp;<Link
-        id="tools-accounting-spreadsheet-data-takethehelm-comparing-floatapp"
+        id={`tools-accounting-spreadsheet-data-takethehelm-comparing-floatapp${idSuffix}`}
         href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
         className="text-[#0B162A] hover:underline">Float</Link>, and Take the Helm. Each has its strengths, but
         Take the Helm stands out with its seamless integration capabilities and user-friendly interface. While
@@ -20,8 +19,8 @@ export default function ComparingSection() {
         always up-to-date, reducing the manual effort required to maintain accuracy. This integration is crucial
         for businesses that operate on tight schedules and need real-time insights to make informed decisions.
         Unlike some competitors, Take the Helm provides a comprehensive dashboard that allows users to
-        manage&nbsp;<GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts
-        payable</GlossaryLink>&nbsp;and receivable, track KPIs, and conduct scenario planning—all in one place.</p>
+        manage&nbsp;accounts
+        payable&nbsp;and receivable, track KPIs, and conduct scenario planning, all in one place.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another advantage of Take the Helm is its intuitive design, which minimizes the learning curve and allows
         teams to quickly adapt. This is particularly beneficial for small businesses with limited resources for
@@ -52,7 +51,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -60,10 +59,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="takethehelm-in-the-landscape-of-automated-spreadsheet-tools">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="takethehelm-in-the-landscape-of-automated-spreadsheet-tools-lg">
                 Take the Helm in the Landscape of Automated Spreadsheet Tools
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

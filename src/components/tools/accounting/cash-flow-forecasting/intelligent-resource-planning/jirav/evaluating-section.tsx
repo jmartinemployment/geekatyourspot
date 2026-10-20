@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -18,7 +17,7 @@ export default function EvaluatingSection() {
         your real-world process. For teams already using QuickBooks, NetSuite, Sage Intacct, ADP, or Salesforce,
         Jirav’s pre-built integrations keep the setup time short and the risk low. If your environment is more
         complex, the mapping and configuration process is still faster than a
-        traditional&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;rollout,
+        traditional&nbsp;ERP&nbsp;rollout,
         and there is no need for custom development.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another factor is how Jirav handles team collaboration and access. In a small business, you want
@@ -42,7 +41,7 @@ export default function EvaluatingSection() {
         configures templates and rules that scale with you, so you can focus on growth instead of
         troubleshooting broken spreadsheets.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>You need to automate&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</GlossaryLink>&nbsp;and intelligent resource planning, but cannot afford a full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;deployment.</li>
+        <li>You need to automate&nbsp;cash flow forecasting&nbsp;and intelligent resource planning, but cannot afford a full&nbsp;ERP&nbsp;deployment.</li>
         <li>Your team is losing hours to manual data entry and spreadsheet reconciliation.</li>
         <li>You want to run what-if scenarios and rolling forecasts without rebuilding your model each time.</li>
         <li>You use QuickBooks, NetSuite, Sage Intacct, ADP, Paychex, Salesforce, or HubSpot and want live data in your forecasts.</li>
@@ -82,7 +81,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-evaluate-jirav-for-fit-and-pricing-in-a-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-evaluate-jirav-for-fit-and-pricing-in-a-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Evaluate Jirav for Fit and Pricing in a Small Business Environment
               </h2>
               {body}

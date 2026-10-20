@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FaqSection() {
   return (
@@ -72,7 +71,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Yes, Cash Flow Frog supports MCP (Model Context Protocol), allowing users to link the app directly
-              to&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;tools like Claude, ChatGPT, Microsoft Copilot, or
+              to&nbsp;AI&nbsp;tools like Claude, ChatGPT, Microsoft Copilot, or
               Gemini. This integration enables you to interact with your forecasts through plain conversation.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

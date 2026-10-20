@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida weighing ADP for payroll tax and worker classification face a crowded
         field. The most common alternatives are entry-level accounting apps, manual spreadsheets, and other
         payroll providers
-        like&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-adp-comparing-gusto" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-adp-comparing-deel" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#0B162A] hover:underline">Deel</Link>.
+        like&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-adp-comparing-gusto${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-adp-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#0B162A] hover:underline">Deel</Link>.
         Each path claims to solve the same problem: keeping you compliant and out of trouble with regulators.
         But the differences show up fast when you have to run payroll for both W-2 employees and 1099
         contractors, track overtime, and manage multi-state filings without a dedicated HR team.</p>
@@ -75,7 +75,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -83,10 +83,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-adp-compares-to-other-payroll-tax-and-worker-classification-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-adp-compares-to-other-payroll-tax-and-worker-classification-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How ADP Compares to Other Payroll Tax and Worker Classification Approaches
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

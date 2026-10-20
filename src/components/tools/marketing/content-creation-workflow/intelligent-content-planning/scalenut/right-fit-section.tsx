@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Scalenut is designed for small to mid-sized teams who need to do the work of a full content department
@@ -24,7 +23,7 @@ export default function RightFitSection() {
         However, Scalenut is not for everyone. If your organization already has a large, specialized content
         or SEO team and prefers to keep all execution in-house, you may find more value in tools that focus on
         granular, manual control. Some enterprise features, like SSO
-        or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;access, are gated to higher-tier plans, so
+        or&nbsp;API&nbsp;access, are gated to higher-tier plans, so
         very large teams with strict IT requirements may need to look at the Enterprise tier or consider other
         platforms. If your main focus is traditional SEO for a global site, and AI-driven discovery is not a
         priority, you might find that Scalenut’s strengths are more than you need.</p>
@@ -41,7 +40,7 @@ export default function RightFitSection() {
         between the platform’s capabilities and your unique environment, handling data mapping, integration
         with your existing systems, and change management for your team. This is not a one-size-fits-all
         setup, each deployment is mapped to your business objectives,
-        your&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, and your approval
+        your&nbsp;data quality, and your approval
         requirements. The result is a system that fits your business, not the other way around.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you are still weighing options, the decision comes down to your priorities. If you want to stop
@@ -52,7 +51,7 @@ export default function RightFitSection() {
         search, Scalenut is the platform, and Geek @ Your Spot LLC is the partner, to make it happen.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-content-planning-scalenut-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-scalenut-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
@@ -76,7 +75,7 @@ export default function RightFitSection() {
                 Who Scalenut Is Right For, Who Should Look Elsewhere, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -85,10 +84,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-scalenut-is-right-for-who-should-look-elsewhere-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-scalenut-is-right-for-who-should-look-elsewhere-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Scalenut Is Right For, Who Should Look Elsewhere, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

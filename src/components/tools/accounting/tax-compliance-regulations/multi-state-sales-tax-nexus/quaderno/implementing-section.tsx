@@ -5,7 +5,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Getting Quaderno live in a small business environment is direct, but only if you know what shortens the
-        path. South Florida&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;and e-commerce teams face a
+        path. South Florida&nbsp;SaaS&nbsp;and e-commerce teams face a
         real gap here: you cannot afford a
         multi-month&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;rollout, nor a parade of consultants.
         You need the compliance engine set up, mapped, and running before the next quarter’s filings. Quaderno’s
@@ -73,7 +73,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-shortens-go-live-with-quaderno-steps-order-and-the-role-of-pre-built-connectors" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-shortens-go-live-with-quaderno-steps-order-and-the-role-of-pre-built-connectors-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Shortens Go-Live With Quaderno: Steps, Order, and the Role of Pre-Built Connectors
               </h2>
               {body}

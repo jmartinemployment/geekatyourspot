@@ -29,7 +29,7 @@ export default function TransformsSection() {
         By automating these processes, Quaderno not only saves time but also reduces the risk of compliance
         errors and financial penalties. Businesses can operate with confidence, knowing that their tax
         obligations are being managed efficiently and accurately. Quaderno&#39;s ability to handle complex tax
-        scenarios allows small businesses to focus on what they do best—growing their business and serving their
+        scenarios allows small businesses to focus on what they do best: growing their business and serving their
         customers.</p>
     </>
   );
@@ -54,7 +54,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quaderno-eases-the-burden-of-complex-and-changing-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quaderno-eases-the-burden-of-complex-and-changing-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Quaderno Eases the Burden of Complex and Changing Laws
               </h2>
               {body}

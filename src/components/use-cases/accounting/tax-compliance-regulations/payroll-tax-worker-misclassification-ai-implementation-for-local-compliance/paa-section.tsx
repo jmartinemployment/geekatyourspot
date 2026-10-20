@@ -45,7 +45,7 @@ export default function PAASection() {
             <p className="text-md text-white shadow-text pt-3">
               Modern affiliate and partner compliance tools are built to speed up, not slow down, contractor
               payments. These platforms automate onboarding, document collection, and payment workflows, so you
-              can pay contractors quickly and accurately—often in just a few minutes. By reducing manual work
+              can pay contractors quickly and accurately, often in just a few minutes. By reducing manual work
               and keeping compliance in check, these tools help you avoid payment delays and keep your local
               contractors happy.</p>
           </div>

@@ -2,12 +2,12 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxValet is particularly well-suited for small to mid-sized businesses that operate across multiple
-        states and struggle with the complexities of sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>. Companies in e-commerce,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>,
+        states and struggle with the complexities of sales&nbsp;tax
+        compliance. Companies in e-commerce,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>,
         and other sectors where sales tax regulations frequently change will find TaxValet’s comprehensive
         approach invaluable. Its managed service model is ideal for businesses that lack the internal resources
         to handle the intricate web of tax laws and filings.</p>
@@ -33,7 +33,7 @@ export default function RightFitSection() {
         their tax obligations are being managed by experts.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-complex-changing-laws-thetaxvalet-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
@@ -57,7 +57,7 @@ export default function RightFitSection() {
                 Who Benefits Most from TaxValet
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -66,10 +66,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-benefits-most-from-taxvalet" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-benefits-most-from-taxvalet-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Benefits Most from TaxValet
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

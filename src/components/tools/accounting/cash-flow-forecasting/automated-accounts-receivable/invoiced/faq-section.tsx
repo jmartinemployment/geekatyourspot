@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FaqSection() {
   return (
@@ -25,7 +24,7 @@ export default function FaqSection() {
               How does &quot;CashMatch AI&quot; impact the reliability of the cash forecast?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              CashMatch&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;enhances the reliability of cash forecasts by
+              CashMatch&nbsp;AI&nbsp;enhances the reliability of cash forecasts by
               automatically matching incoming payments to open invoices and assigning a confidence score. High-confidence
               matches are applied automatically, while those with lower confidence are flagged for human review. This
               process ensures that payments are accurately applied, improving the overall reliability of cash flow
@@ -51,7 +50,7 @@ export default function FaqSection() {
               What infrastructure systems does Invoiced pull data from?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Invoiced pulls data from&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems to automatically
+              Invoiced pulls data from&nbsp;ERP&nbsp;systems to automatically
               generate accurate invoices. It integrates with systems like Microsoft Dynamics, allowing for bi-directional
               data flow where customer records, invoices, credit memos, and payments sync automatically. This integration
               streamlines processes and ensures up-to-date information is available for cash flow management.</p>

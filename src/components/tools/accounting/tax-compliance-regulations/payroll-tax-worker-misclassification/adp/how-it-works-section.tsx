@@ -70,7 +70,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="step-by-step-how-adp-handles-payroll-tax-and-worker-classification" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="step-by-step-how-adp-handles-payroll-tax-and-worker-classification-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Step-by-Step: How ADP Handles Payroll Tax and Worker Classification
               </h2>
               {body}

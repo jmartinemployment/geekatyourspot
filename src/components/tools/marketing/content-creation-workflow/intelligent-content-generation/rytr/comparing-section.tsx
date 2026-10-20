@@ -2,11 +2,11 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small business owners in South Florida are not short on AI writing tools to choose from. The field is
-        crowded:&nbsp;<Link id="tools-marketing-intelligent-content-generation-rytr-comparing-jasper" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>,&nbsp;<Link id="tools-marketing-intelligent-content-generation-rytr-comparing-writesonic" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#0B162A] hover:underline">Writesonic</Link>,&nbsp;<Link id="tools-marketing-intelligent-content-generation-rytr-comparing-copy" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>, and others all promise to help with Intelligent Content
+        crowded:&nbsp;<Link id={`tools-marketing-intelligent-content-generation-rytr-comparing-jasper${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>,&nbsp;<Link id={`tools-marketing-intelligent-content-generation-rytr-comparing-writesonic${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#0B162A] hover:underline">Writesonic</Link>,&nbsp;<Link id={`tools-marketing-intelligent-content-generation-rytr-comparing-copy${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>, and others all promise to help with Intelligent Content
         Generation. But for a lean team with five to ten pieces of content to produce each month, an Instagram
         caption here, a Google Business Profile update there, the difference between these platforms is not
         just feature count or brand recognition. It’s about fit for purpose, cost, and how much work actually
@@ -39,7 +39,7 @@ export default function ComparingSection() {
         For those comparing Rytr to
         full-service&nbsp;<GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">marketing
         automation</GlossaryLink>&nbsp;suites, the distinction is clear. Rytr does not claim to manage your
-        entire&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        entire&nbsp;CRM,
         run analytics, or automate cross-channel ad spend. It is not a replacement for a full-stack marketing
         agency or a tool for content strategists looking to orchestrate multi-stage campaigns with integrated
         reporting. What it does is remove the “blank page” bottleneck and the repetitive writing tasks that
@@ -80,7 +80,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -88,10 +88,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-rytr-stacks-up-against-other-content-tools-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-rytr-stacks-up-against-other-content-tools-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Rytr Stacks Up Against Other Content Tools for Small Businesses
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

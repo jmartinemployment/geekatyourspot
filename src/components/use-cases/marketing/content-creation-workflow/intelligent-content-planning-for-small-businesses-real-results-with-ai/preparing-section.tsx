@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The next move is not to buy a tool or start a trial; it is to step back and clarify exactly what your
@@ -20,8 +19,8 @@ export default function PreparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         From there, you should expect a four-phase approach, not a one-size-fits-all checklist. The first
         phase is business objectives alignment, where the consultant helps you set measurable, realistic KPIs.
-        The second phase is a&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;assessment: this is where you find out if your data is clean enough to
+        The second phase is a&nbsp;data
+        quality&nbsp;assessment: this is where you find out if your data is clean enough to
         drive automation or if there is work to do in organizing, standardizing, or integrating your systems.
         The third phase is the tech selection and architecture, picking the tools that match your needs and
         fit your stack. This is where platforms like HyperWrite, MarketMuse, Scalenut, Hootsuite, and Semrush
@@ -41,7 +40,7 @@ export default function PreparingSection() {
         Phase four is the pilot implementation. Here, you will not be asked to overhaul your whole process at
         once. Instead, the consultant will identify the highest-impact workflow to automate or optimize first.
         That could be automating social scheduling with Hootsuite, rolling
-        out&nbsp;<GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>&nbsp;with
+        out&nbsp;content repurposing&nbsp;with
         Semrush, or using MarketMuse to map out your first content cluster. You should expect a clear test
         plan: what gets measured, who is responsible, and what a successful pilot looks like. This is about
         controlled change, measuring results before scaling up.</p>
@@ -55,7 +54,7 @@ export default function PreparingSection() {
         done right.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-marketing-intelligent-content-planning-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-marketing-intelligent-content-planning-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
@@ -79,7 +78,7 @@ export default function PreparingSection() {
                 What to Do Next: Setting Expectations for Your First Step and What You Get in Return
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -88,10 +87,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-to-do-next-setting-expectations-for-your-first-step-and-what-you-get-in-return" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-to-do-next-setting-expectations-for-your-first-step-and-what-you-get-in-return-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What to Do Next: Setting Expectations for Your First Step and What You Get in Return
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

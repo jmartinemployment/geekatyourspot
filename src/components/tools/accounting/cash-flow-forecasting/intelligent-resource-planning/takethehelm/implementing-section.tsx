@@ -18,8 +18,8 @@ export default function ImplementingSection() {
         initial forecast before anything goes live. For a business that has spent years juggling spreadsheets
         and email attachments, this alone can cut weeks from the timeline.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Once connected, Take the Helm automatically pulls in&nbsp;<GlossaryLink slug="accounts-payable">accounts
-        payable</GlossaryLink>&nbsp;and receivable balances. The team sees every open invoice and bill, mapped
+        Once connected, Take the Helm automatically pulls in&nbsp;accounts
+        payable&nbsp;and receivable balances. The team sees every open invoice and bill, mapped
         onto a visual timeline. Instead of waiting for the end of the month to spot a cash crunch, they get an
         instant view of what is due, what is late, and what needs action. This is not just a dashboard; it is a
         working model that updates as payments come in or go out. The drag-and-drop interface lets users shift
@@ -28,7 +28,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Phased rollout is what keeps the process manageable. Take the Helm does not force a business to clean up
         every legacy record or perfect its chart of accounts before getting value. The first phase is about
-        live&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>&nbsp;and
+        live&nbsp;cash flow forecasting&nbsp;and
         immediate visibility. Later, the business can add more historical data, refine forecasting rules, or
         expand to additional entities. This staged approach means the team gets real results, like flagged
         overdue invoices and predicted cash shortfalls, while still operating on their current systems.</p>
@@ -96,7 +96,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-going-live-with-take-the-helm-looks-like-in-practice-steps-shortcuts-and-the-real-timeline" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-going-live-with-take-the-helm-looks-like-in-practice-steps-shortcuts-and-the-real-timeline-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Going Live with Take the Helm Looks Like in Practice: Steps, Shortcuts, and the Real Timeline
               </h2>
               {body}

@@ -1,10 +1,9 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function IntroductionSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;systems have
+        Automated&nbsp;tax compliance&nbsp;systems have
         emerged as a transformative solution for businesses seeking to navigate the complexities of modern tax
         regulations. As tax codes become increasingly intricate and the risk of non-compliance grows,
         organizations are turning to automation to streamline their tax processes. This shift not only enhances
@@ -69,7 +68,7 @@ export default function IntroductionSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="introduction-to-automated-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="introduction-to-automated-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Introduction to Automated Tax Compliance
               </h2>
               {body}

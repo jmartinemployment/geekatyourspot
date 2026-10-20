@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -11,7 +10,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The first thing that shortens the path to go-live is Jirav’s library of pre-built connectors. Jirav
         integrates with over 200 accounting, payroll,
-        and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;systems out of the box. This means most
+        and&nbsp;CRM&nbsp;systems out of the box. This means most
         businesses do not need to build custom data bridges or wait for a developer to map fields. QuickBooks,
         NetSuite, Sage Intacct, ADP, Paychex, Salesforce, and Hubspot are all covered. For a team that has
         struggled to keep desktop accounting files and cloud sales data in sync, this alone cuts out hours of
@@ -19,7 +18,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The next accelerator is Jirav’s templated setup for core financial models. Instead of building a new
         model from the ground up, Jirav provides industry-ready frameworks
-        for&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>, workforce
+        for&nbsp;cash flow forecasting, workforce
         planning, and scenario modeling. These templates are not rigid forms, they are starting points that Geek @ Your Spot LLC tunes to your business. For example, a company with seasonal cash swings can use a
         ready-made cash flow model and adjust the drivers for their real peaks and valleys. This avoids the
         spreadsheet sprawl and formula errors that come from copying last year’s files or patching together old
@@ -35,7 +34,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Throughout setup, Jirav’s live data sync keeps the numbers current. There is no waiting for a month-end
         close or manual uploads. A sales invoice logged in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;updates cash flow projections in real time.
+        your&nbsp;CRM&nbsp;updates cash flow projections in real time.
         Payroll changes, like a new hire or bonus, show up in workforce planning automatically. This is a break
         from the end-of-month scramble to update spreadsheets and chase down missing entries. It also means you
         can spot cash shortfalls or hiring needs before they become emergencies.</p>
@@ -75,7 +74,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-shortens-jirav-go-live-steps-accelerators-and-what-to-expect-in-your-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-shortens-jirav-go-live-steps-accelerators-and-what-to-expect-in-your-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Shortens Jirav Go-Live: Steps, Accelerators, and What to Expect in Your Environment
               </h2>
               {body}

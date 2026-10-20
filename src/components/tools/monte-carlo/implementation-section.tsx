@@ -32,7 +32,7 @@ export default function ImplementationSection() {
                   as integrating with bespoke systems or creating custom alerts.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth and effective implementation of Monte Carlo,
-                paving the way for improved <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Unlike some tools that require extensive custom development,
+                paving the way for improved ad spend optimization. Unlike some tools that require extensive custom development,
                 Monte Carlo’s configuration-first approach can be more accessible and cost-effective for teams looking to enhance
                 their data observability.</p>
             </div>
@@ -66,7 +66,7 @@ export default function ImplementationSection() {
                   as integrating with bespoke systems or creating custom alerts.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth and effective implementation of Monte Carlo,
-                paving the way for improved <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Unlike some tools that require extensive custom development,
+                paving the way for improved ad spend optimization. Unlike some tools that require extensive custom development,
                 Monte Carlo’s configuration-first approach can be more accessible and cost-effective for teams looking to enhance
                 their data observability.</p>
             </div>

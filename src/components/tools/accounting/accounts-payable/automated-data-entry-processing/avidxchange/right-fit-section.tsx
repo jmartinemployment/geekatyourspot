@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         AvidXchange is particularly well-suited for small to medium-sized businesses that are ready to embrace
@@ -24,7 +24,7 @@ export default function RightFitSection() {
         a consultation with <strong>Geek @ Your Spot LLC</strong>. They specialize in configuring and deploying
         AvidXchange to fit your unique business requirements, ensuring a smooth transition to automated AP
         processes.&nbsp;
-        <Link id="tools-accounting-avidxchange-right-fit-consultation"
+        <Link id={`tools-accounting-avidxchange-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           Book your consultation now
         </Link>&nbsp;to see how AvidXchange can transform your accounts payable operations.</p>
@@ -42,7 +42,7 @@ export default function RightFitSection() {
                 Is AvidXchange Right for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -51,10 +51,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-avidxchange-right-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-avidxchange-right-for-your-business-lg">
                 Is AvidXchange Right for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

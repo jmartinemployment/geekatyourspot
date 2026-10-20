@@ -81,7 +81,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="launching-adp-in-a-live-small-business-environment-what-actually-gets-you-to-day-one-faster" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="launching-adp-in-a-live-small-business-environment-what-actually-gets-you-to-day-one-faster-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Launching ADP in a Live Small Business Environment: What Actually Gets You to Day One Faster
               </h2>
               {body}

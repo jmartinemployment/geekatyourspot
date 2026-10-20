@@ -13,7 +13,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integrations are a core part of TaxCloud’s approach. The platform offers plug-and-play connections with
         Shopify, BigCommerce, WooCommerce, Magento, QuickBooks Online, Stripe, Chargebee, and other
-        major&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;tools.
+        major&nbsp;SaaS&nbsp;tools.
         For platforms like Odoo, Adobe Commerce, Miva, and AcctVantage, TaxCloud supports both real-time and
         batch data flows. If your stack is built on QuickBooks, for example, TaxCloud can pull invoice data,
         apply the correct tax codes, and push back the results, no manual export or import required. For Shopify
@@ -33,10 +33,10 @@ export default function ArchitectureSection() {
         never have to worry about missing a new local tax or applying an out-of-date rate.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses that need more, TaxCloud exposes a
-        developer-friendly&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;with
+        developer-friendly&nbsp;API&nbsp;with
         full documentation and a sandbox for testing. This allows custom integrations or advanced workflows,
         such as syncing with in-house order management systems or building tailored dashboards.
-        The&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;is
+        The&nbsp;API&nbsp;is
         included in the free trial, so you can prototype integrations before committing.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security and audit readiness are built in. All filings, payments, and certificates are stored securely,
@@ -79,7 +79,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="inside-taxcloud-integrations-data-flows-and-how-it-stays-accurate" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="inside-taxcloud-integrations-data-flows-and-how-it-stays-accurate-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Inside TaxCloud: Integrations, Data Flows, and How It Stays Accurate
               </h2>
               {body}

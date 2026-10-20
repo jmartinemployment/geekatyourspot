@@ -11,6 +11,8 @@ import PAASection from '@/components/use-cases/marketing/automated-ad-spend-opti
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -27,14 +29,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-08-20T18:52:37.9006976Z",
             "dateModified": "2026-08-20T18:52:37.9006976Z",
             "mainEntityOfPage": {
@@ -44,36 +39,37 @@ const jsonLd: Graph = {
             "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
             "wordCount": 3309,
             "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article",
+            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#service" },
             "mentions": [
                 {
-                    "@id": "#software-advantage"
+                    "@id": "https://geekatyourspot.com/#software-advantage"
                 },
                 {
-                    "@id": "#software-omneky"
+                    "@id": "https://geekatyourspot.com/#software-omneky"
                 },
                 {
-                    "@id": "#software-smartlyio"
+                    "@id": "https://geekatyourspot.com/#software-smartly-io"
                 },
                 {
-                    "@id": "#software-adcreativeai"
+                    "@id": "https://geekatyourspot.com/#software-adcreative-ai"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-jasper"
                 },
                 {
-                    "@id": "#software-google-ads-smart-bidding"
+                    "@id": "https://geekatyourspot.com/#software-google-ads-smart-bidding"
                 },
                 {
-                    "@id": "#software-hubspot"
+                    "@id": "https://geekatyourspot.com/#software-hubspot"
                 },
                 {
-                    "@id": "#software-salesforce-einstein"
+                    "@id": "https://geekatyourspot.com/#software-salesforce-einstein"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-madgicx"
                 },
                 {
-                    "@id": "#software-basis-technologies"
+                    "@id": "https://geekatyourspot.com/#software-basis-technologies"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler"
@@ -82,7 +78,10 @@ const jsonLd: Graph = {
                     "@id": "https://geekatyourspot.com/#software-optimove"
                 },
                 {
-                    "@id": "#software-tableau-ai-adobe-analytics"
+                    "@id": "https://geekatyourspot.com/#software-tableau-ai"
+                },
+                {
+                    "@id": "https://geekatyourspot.com/#software-adobe-analytics"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-monte-carlo"
@@ -99,173 +98,114 @@ const jsonLd: Graph = {
             ]
         },
         {
-            "@type": "SoftwareApplication",
-            "name": "Advantage",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate ad spend optimization with Advantage's AI, enhancing efficiency and boosting ROI.",
-            "@id": "#software-advantage"
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-advantage",
+            "name": "Meta Advantage+",
+            "url": "https://www.facebook.com/business/ads/meta-advantage-plus"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-omneky",
             "name": "Omneky",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Omneky uses AI to optimize ad spend, boosting ROI and targeting efficiency for businesses.",
-            "@id": "#software-omneky"
+            "url": "https://www.omneky.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-smartly-io",
             "name": "Smartly.io",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate ad spend optimization with Smartly.io to enhance ROI and streamline digital campaigns.",
-            "@id": "#software-smartlyio"
+            "url": "https://www.smartly.io/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-adcreative-ai",
             "name": "AdCreative.ai",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate ad spend optimization with AdCreative.ai for enhanced marketing efficiency and ROI.",
-            "@id": "#software-adcreativeai"
+            "url": "https://www.adcreative.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-jasper",
             "name": "Jasper",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Jasper automates ad spend optimization using AI, reducing waste and boosting ROI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
-            },
-            "@id": "https://geekatyourspot.com/#software-jasper"
+            "url": "https://www.jasper.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-google-ads-smart-bidding",
             "name": "Google Ads Smart Bidding",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with AI-driven Google Ads Smart Bidding for better ROI and audience targeting.",
-            "@id": "#software-google-ads-smart-bidding"
+            "url": "https://support.google.com/google-ads/answer/7065882"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-hubspot",
             "name": "HubSpot",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with HubSpot's CRM and marketing tools for better ROI.",
-            "@id": "#software-hubspot"
+            "url": "https://www.hubspot.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-salesforce-einstein",
             "name": "Salesforce Einstein",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with Salesforce Einstein's AI-driven insights for better ROI and efficiency.",
-            "@id": "#software-salesforce-einstein"
+            "url": "https://www.salesforce.com/artificial-intelligence/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-madgicx",
             "name": "Madgicx",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with Madgicx's AI-driven platform, boosting ROI and efficiency effortlessly.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/madgicx"
-            },
-            "@id": "https://geekatyourspot.com/#software-madgicx"
+            "url": "https://madgicx.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-basis-technologies",
             "name": "Basis Technologies",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with AI-driven strategies from Basis Technologies, enhancing ROI and reducing inefficiencies.",
-            "@id": "#software-basis-technologies"
+            "url": "https://basis.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler",
             "name": "Adobe Mix Modeler",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler"
-            },
-            "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler"
+            "url": "https://business.adobe.com/products/mix-modeler.html"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-optimove",
             "name": "Optimove",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/optimove"
-            },
-            "@id": "https://geekatyourspot.com/#software-optimove"
+            "url": "https://www.optimove.com/"
         },
         {
-            "@type": "SoftwareApplication",
-            "name": "Tableau AI / Adobe Analytics",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
-            "@id": "#software-tableau-ai-adobe-analytics"
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-tableau-ai",
+            "name": "Tableau AI",
+            "url": "https://www.tableau.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-adobe-analytics",
+            "name": "Adobe Analytics",
+            "url": "https://business.adobe.com/products/analytics/adobe-analytics.html"
+        },
+        {
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-monte-carlo",
             "name": "Monte Carlo",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo"
-            },
-            "@id": "https://geekatyourspot.com/#software-monte-carlo"
+            "url": "https://montecarlo.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-anomalo",
             "name": "Anomalo",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/anomalo"
-            },
-            "@id": "https://geekatyourspot.com/#software-anomalo"
+            "url": "https://www.anomalo.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-great-expectations",
             "name": "Great Expectations",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/great-expectations"
-            },
-            "@id": "https://geekatyourspot.com/#software-great-expectations"
+            "url": "https://greatexpectations.io/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-qualytics",
             "name": "Qualytics",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/qualytics"
-            },
-            "@id": "https://geekatyourspot.com/#software-qualytics"
-        }
+            "url": "https://qualytics.ai/"
+        },
+        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization", name: "Automated Ad Spend Optimization", description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools." })
     ]
 };
 
@@ -288,21 +228,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "Automated Ad Spend Optimization",
             description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering AvidXchange for Automated Payment Execution, small businesses need to weigh fit,
@@ -30,7 +30,7 @@ export default function EvaluatingSection() {
         processes.</p>
       <p className="text-md text-white shadow-text pt-3">
         While AvidXchange offers robust payment automation features, businesses should weigh it against other
-        solutions like&nbsp;<Link id="tools-accounting-payment-execution-avidxchange-evaluating-melio" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">Melio</Link>&nbsp;and&nbsp;<Link id="tools-accounting-payment-execution-avidxchange-evaluating-tipalti" href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>. Each platform has unique strengths, such as Melio&#39;s ease of use
+        solutions like&nbsp;<Link id={`tools-accounting-payment-execution-avidxchange-evaluating-melio${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">Melio</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-payment-execution-avidxchange-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>. Each platform has unique strengths, such as Melio&#39;s ease of use
         for smaller teams and Tipalti&#39;s extensive global payment capabilities. AvidXchange stands out for
         its comprehensive integration options and supplier-focused features, making it a strong contender for
         businesses prioritizing supplier relationships and workflow efficiency.</p>
@@ -54,7 +54,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -62,10 +62,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-avidxchange-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-avidxchange-for-your-business-lg">
                 Evaluating AvidXchange for Your Business
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

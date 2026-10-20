@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MechanicsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The only way to keep up with Multi-State Sales Tax Nexus as a small business is to automate it from the
@@ -32,14 +32,14 @@ export default function MechanicsSection() {
           <tr className="border-b border-white/30">
             <th scope="row" className="py-2 pr-4 align-top font-bold">Florida</th>
             <td className="py-2 align-top">
-              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-florida" href="https://floridarevenue.com/taxes/tips/Documents/TIP_21A01-03.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Florida
+              The&nbsp;<a id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-florida${idSuffix}`} href="https://floridarevenue.com/taxes/tips/Documents/TIP_21A01-03.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Florida
               Department of Revenue</a>&nbsp;requires a remote seller to collect Florida sales tax once its
               taxable remote sales into Florida passed $100,000 in the previous calendar year.</td>
           </tr>
           <tr className="border-b border-white/30">
             <th scope="row" className="py-2 pr-4 align-top font-bold">Texas</th>
             <td className="py-2 align-top">
-              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-texas" href="https://comptroller.texas.gov/taxes/sales/remote-sellers.php" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Texas
+              The&nbsp;<a id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-texas${idSuffix}`} href="https://comptroller.texas.gov/taxes/sales/remote-sellers.php" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Texas
               Comptroller</a>&nbsp;requires a remote seller to get a permit and collect Texas use tax once its
               total Texas revenue passes $500,000 in the preceding 12 calendar months. Texas has no transaction
               count.</td>
@@ -47,7 +47,7 @@ export default function MechanicsSection() {
           <tr className="border-b border-white/30">
             <th scope="row" className="py-2 pr-4 align-top font-bold">New York</th>
             <td className="py-2 align-top">
-              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-new-york" href="https://www.tax.ny.gov/pubs_and_bulls/publications/sales/nexus.htm" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">New York
+              The&nbsp;<a id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-new-york${idSuffix}`} href="https://www.tax.ny.gov/pubs_and_bulls/publications/sales/nexus.htm" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">New York
               Department of Taxation and Finance</a>&nbsp;requires a seller to register once it made more than
               $500,000 in sales of tangible goods delivered into New York and more than 100 of those sales in the
               immediately preceding four sales tax quarters. Both conditions must be met.</td>
@@ -55,7 +55,7 @@ export default function MechanicsSection() {
           <tr>
             <th scope="row" className="py-2 pr-4 align-top font-bold">California</th>
             <td className="py-2 align-top">
-              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-california" href="https://cdtfa.ca.gov/industry/wayfair/general-information.htm" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">California
+              The&nbsp;<a id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-california${idSuffix}`} href="https://cdtfa.ca.gov/industry/wayfair/general-information.htm" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">California
               Department of Tax and Fee Administration</a>&nbsp;requires a retailer to register and collect
               California use tax once its sales of tangible goods for delivery into California pass $500,000 in
               the preceding or current calendar year. California has no transaction count.</td>
@@ -67,7 +67,7 @@ export default function MechanicsSection() {
         quality</GlossaryLink>&nbsp;assessment. Compliance is only as accurate as the data you feed in. At this
         stage, every sales channel, Shopify, Amazon, Stripe, PayPal, even offline invoices, gets pulled into one
         clean data stream. This is where tools
-        like&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxcloud" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>&nbsp;and&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-zamp" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>&nbsp;earn
+        like&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxcloud${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>&nbsp;and&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-zamp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>&nbsp;earn
         their keep. TaxCloud, for example, plugs into platforms like Shopify and Amazon, collecting real-time
         data and issuing alerts when you approach economic nexus in any state. Zamp goes further for teams
         without internal tax resources, providing continuous monitoring and human oversight, so nothing gets
@@ -77,19 +77,19 @@ export default function MechanicsSection() {
         The third phase is tech selection and architecture. Here, you decide what actually runs your nexus
         tracking and compliance. The right stack is built for your real-world mix of sales, not for an idealized
         single-channel setup. That means picking tools that handle all the edge cases,
-        like&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-quaderno" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" className="text-[#0B162A] hover:underline">Quaderno</Link>&#39;s
+        like&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-quaderno${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" className="text-[#0B162A] hover:underline">Quaderno</Link>&#39;s
         ability to track digital
-        and&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;sales
+        and&nbsp;SaaS&nbsp;sales
         thresholds across US and international markets,
-        or&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxjar" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&#39;s
+        or&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&#39;s
         high-speed data ingestion for e-commerce brands who can&#39;t afford to wait for a batch job to finish
         before knowing if they owe tax. For businesses dealing with physical
-        inventory,&nbsp;<Link id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxvalet" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet" className="text-[#0B162A] hover:underline">TaxValet</Link>&nbsp;provides
+        inventory,&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxvalet${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet" className="text-[#0B162A] hover:underline">TaxValet</Link>&nbsp;provides
         tracking for where your stock is stored, so you never get caught by a surprise physical nexus in a state
         you forgot you were in.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Business objectives alignment: map out your sales footprint and thresholds.</li>
-        <li><GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">Data quality</GlossaryLink>&nbsp;assessment: centralize and validate sales data from all channels.</li>
+        <li>Data quality&nbsp;assessment: centralize and validate sales data from all channels.</li>
         <li>Tech selection and architecture: choose tools that match your actual sales mix and complexity.</li>
         <li>Pilot implementation strategy: roll out the system in a controlled, measurable way, validating every step.</li>
       </ul>
@@ -128,7 +128,7 @@ export default function MechanicsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -136,10 +136,10 @@ export default function MechanicsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-multi-state-sales-tax-nexus-compliance-is-automated-the-method-step-by-step" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-multi-state-sales-tax-nexus-compliance-is-automated-the-method-step-by-step-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Multi-State Sales Tax Nexus Compliance Is Automated: The Method, Step by Step
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

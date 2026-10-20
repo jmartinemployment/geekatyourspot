@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Transitioning to Zamp&#39;s&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;platform is designed to be swift and seamless, minimizing disruption to
+        Transitioning to Zamp&#39;s&nbsp;tax
+        compliance&nbsp;platform is designed to be swift and seamless, minimizing disruption to
         your business operations. The key to this efficiency lies in Zamp&#39;s pre-built connectors and
         templated setup processes, which significantly shorten the time to go-live. The implementation process
         is phased, ensuring each stage is completed with precision and care.</p>
@@ -55,7 +54,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="going-live-with-zamp-streamlined-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="going-live-with-zamp-streamlined-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Going Live with Zamp: Streamlined Implementation
               </h2>
               {body}

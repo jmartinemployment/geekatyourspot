@@ -21,14 +21,14 @@ export default function HowItWorksSection() {
         needed. You set up triggers (like a first visit, a specific page, or an abandoned cart), then design
         the automation: greet the visitor, collect their contact info, answer common questions, or offer a
         discount. Flows can route leads based on answers, escalate to a person, or pass data straight into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or email tool. For online stores, Flows can
+        your&nbsp;CRM&nbsp;or email tool. For online stores, Flows can
         preview a customer’s cart or order history right inside the chat, and even trigger workflows like
         order edits or refunds on Shopify from the same screen.</p>
       <p className="text-md text-white shadow-text pt-3">
         Here’s the sequence a typical lead follows in Tidio:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>A customer messages you on WhatsApp, Instagram, or your website chat.</li>
-        <li>Tidio’s&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>&nbsp;matches the message to a customer profile, pulling in past conversations, tags, and order data.</li>
+        <li>Tidio’s&nbsp;unified inbox&nbsp;matches the message to a customer profile, pulling in past conversations, tags, and order data.</li>
         <li>Lyro, the AI agent, tries to answer using your help docs or product catalog. If it can answer, the customer gets an instant reply.</li>
         <li>If the question is outside Lyro’s knowledge, the chat is handed to a team member with the full transcript and customer history visible.</li>
         <li>Flows automation may trigger, collecting emails, offering a discount, or routing the conversation based on the customer’s answers.</li>
@@ -79,7 +79,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="every-step-inside-tidio-how-conversations-flow-from-first-ping-to-crm" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="every-step-inside-tidio-how-conversations-flow-from-first-ping-to-crm-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Every Step Inside Tidio: How Conversations Flow From First Ping to CRM
               </h2>
               {body}

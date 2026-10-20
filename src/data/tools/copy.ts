@@ -12,7 +12,7 @@ export const copyContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "content-creation-workflow/intelligent-content-generation",
   "description":
-    "Intelligent Content Generation with Copy.ai empowers Miami-Dade, Broward and West Palm Beach small businesses to automate marketing and stay competitive effortlessly.",
+    "Intelligent Content Generation with Copy.ai helps Miami-Dade, Broward and West Palm Beach small businesses automate marketing and stay competitive.",
   "heroSummary":
     "Copy.ai delivers an AI-powered workflow for Intelligent Content Generation, enabling local small businesses to produce and repurpose marketing content efficiently across all channels.",
   "keywords":

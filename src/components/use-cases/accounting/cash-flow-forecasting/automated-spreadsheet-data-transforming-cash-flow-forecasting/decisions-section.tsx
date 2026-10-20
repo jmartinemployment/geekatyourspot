@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        When automating&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;through automated spreadsheet data, the initial choices you make can have a
+        When automating&nbsp;cash flow
+        forecasting&nbsp;through automated spreadsheet data, the initial choices you make can have a
         lasting impact on the success of the implementation. For small businesses in Miami-Dade, Broward, and West
         Palm Beach counties, these decisions are crucial to ensure that the automated system integrates seamlessly
         with existing processes and delivers tangible benefits.</p>
@@ -21,10 +20,10 @@ export default function DecisionsSection() {
         your goal to improve accuracy and reduce the margin of error? Establishing these objectives upfront guides
         the project and helps measure its success post-implementation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="data-quality">Data quality</GlossaryLink>&nbsp;assessment is another decision that
+        Data quality&nbsp;assessment is another decision that
         cannot be overlooked. Before implementing any automated system, it&#39;s essential to evaluate the quality
         of your existing data. Tools like Dryrun offer
-        real-time&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;data synchronization and dynamic scenario
+        real-time&nbsp;ERP&nbsp;data synchronization and dynamic scenario
         modeling, which can highlight discrepancies in your current data setup. Addressing these issues early on
         ensures that the automation process is built on a solid foundation, free from the inaccuracies that plague
         spreadsheet-based forecasts.</p>
@@ -55,7 +54,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="early-decisions-that-shape-cash-flow-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="early-decisions-that-shape-cash-flow-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Early Decisions That Shape Cash Flow Automation
               </h2>
               {body}

@@ -18,7 +18,7 @@ export default function ConfiguringSection() {
         department, transaction size, or vendor.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation logic in Cashflowfrog is a key feature that reduces manual intervention
-        in&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>. By setting up
+        in&nbsp;cash flow forecasting. By setting up
         automated workflows, businesses can ensure that data is consistently updated and that forecasts are adjusted
         in real-time as new information becomes available. This reduces the burden on financial staff and increases
         the accuracy of forecasts.</p>
@@ -58,7 +58,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="setting-up-cashflowfrog-configuration-and-customization">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="setting-up-cashflowfrog-configuration-and-customization-lg">
                 Setting Up Cashflowfrog: Configuration and Customization
               </h2>
               {body}

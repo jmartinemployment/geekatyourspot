@@ -2,12 +2,12 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, the task of managing
         sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;feels like an
-        insurmountable hurdle. The ever-shifting landscape of&nbsp;<Link id="tools-accounting-complex-changing-laws-thetaxvalet-overview-complex-changing-laws" href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;makes it difficult for
+        insurmountable hurdle. The ever-shifting landscape of&nbsp;<Link id={`tools-accounting-complex-changing-laws-thetaxvalet-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;makes it difficult for
         business owners to keep up. Imagine a local boutique owner who spends countless hours sifting through
         receipts and spreadsheets, trying to ensure every transaction aligns with the latest state tax
         regulations. This is time that could be better spent on growing the business, yet it is consumed by the
@@ -42,7 +42,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -51,10 +51,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

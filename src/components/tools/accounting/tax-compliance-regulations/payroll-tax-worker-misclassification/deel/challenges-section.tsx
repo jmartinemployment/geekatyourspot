@@ -6,7 +6,7 @@ export default function ChallengesSection() {
         weight of risk. Managing a mix of W-2 employees and 1099 contractors without a dedicated HR or legal
         team means every payroll cycle is a gamble. The rules change often, but the penalties for getting them
         wrong never shrink. One misclassified worker, one late payroll tax deposit, and the business is exposed
-        to audits, fines, and lawsuits. The cost isn’t just money—it’s time, stress, and the constant fear of
+        to audits, fines, and lawsuits. The cost isn’t just money. It’s time, stress, and the constant fear of
         missing something critical.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is not a problem unique to one office. Across Miami-Dade, Broward, and Palm Beach, small businesses
@@ -28,8 +28,8 @@ export default function ChallengesSection() {
         The real cost is not just the fines or back taxes. It’s the hours spent trying to keep up with changing
         rules, the stress of never knowing if the books are audit-ready, and the lost opportunities when the
         business can’t scale because compliance feels too risky. Owners spend time gathering W-9s, tracking down
-        missing tax forms, and manually updating records. When regulations change mid-year—like a new 1099
-        threshold or a change to state reporting—manual systems often miss the update, exposing the business to
+        missing tax forms, and manually updating records. When regulations change mid-year, like a new 1099
+        threshold or a change to state reporting, manual systems often miss the update, exposing the business to
         penalties months later. Fragmented payment processes, with dozens of manual transfers to contractors’
         bank accounts, increase the risk of errors, missed payments, and reconciliation headaches at month-end.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -62,7 +62,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-payroll-and-classification-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-payroll-and-classification-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing Payroll and Classification by Hand
               </h2>
               {body}

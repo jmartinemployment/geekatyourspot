@@ -43,7 +43,7 @@ export default function ComparingSection() {
         collaboration as a bolt-on, forcing users into new habits or separate chat apps. With Hootsuite, your
         team can review, approve, and discuss campaigns where they already work.</p>
       <p className="text-md text-white shadow-text pt-3">
-        AI&nbsp;<GlossaryLink slug="content-repurposing" className="text-[#0B162A] hover:underline">content repurposing</GlossaryLink>&nbsp;and automated
+        AI&nbsp;content repurposing&nbsp;and automated
         generation are only as good as the data behind them. Hootsuite’s Blue Silk AI draws from 150 million
         sources across 187 languages, which is a scale most other platforms cannot match. This means your
         insights and recommendations are less likely to be stale or irrelevant. Competing tools often rely on
@@ -87,7 +87,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-hootsuite-compares-to-other-content-planning-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-hootsuite-compares-to-other-content-planning-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Hootsuite Compares to Other Content Planning Approaches
               </h2>
               {body}

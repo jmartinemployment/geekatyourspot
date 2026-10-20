@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -45,7 +44,7 @@ export default function EvaluatingSection() {
         sensitive support, Tidio’s handoff and shared inbox make it possible.</p>
       <p className="text-md text-white shadow-text pt-3">
         On the other hand, if your business needs a chatbot that can be custom-coded for edge-case workflows
-        or integrated with an in-house app via&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>, Tidio is not
+        or integrated with an in-house app via&nbsp;API, Tidio is not
         the best fit. It is designed for visual configuration, not for custom scripting or deep backend
         integrations. The platform’s strength is in making automation easy, accessible, and affordable for
         small teams, not in offering a blank slate for software engineers.</p>
@@ -78,7 +77,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-tidio-fit-pricing-and-the-real-questions-for-small-business-buyers" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-tidio-fit-pricing-and-the-real-questions-for-small-business-buyers-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Tidio: Fit, Pricing, and the Real Questions for Small Business Buyers
               </h2>
               {body}

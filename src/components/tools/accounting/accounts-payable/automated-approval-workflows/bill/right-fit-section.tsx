@@ -1,16 +1,15 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill is particularly well-suited for small businesses that handle a large volume of invoices and need
         to streamline their approval processes. Its&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-powered features, such as automated invoice intake and
+        AI-powered features, such as automated invoice intake and
         coding, significantly reduce the time spent on manual data entry. This is especially beneficial for
         businesses experiencing growth and facing increased complexity in their&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;operations.</p>
+        accounts payable&nbsp;operations.</p>
       <p className="text-md text-white shadow-text pt-3">
         However, Bill may not be the best fit for every small business. If your company processes a low
         volume of invoices or if manual approval processes are not causing significant delays or errors, the
@@ -33,7 +32,7 @@ export default function RightFitSection() {
         to focus on strategic growth initiatives.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-approval-workflows-bill-right-fit-consultation"
+        <Link id={`tools-accounting-approval-workflows-bill-right-fit-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
@@ -43,7 +42,7 @@ export default function RightFitSection() {
         <li>Is there one central AP inbox, or do invoices go to different people and departments?</li>
         <li>Who enters invoice details into QuickBooks, Xero, or your accounting system?</li>
         <li>“Invoice capture vs. AP automation: what does your business actually need?”</li>
-        <li>“Can invoice software read every line—or just the total?”</li>
+        <li>“Can invoice software read every line, or just the total?”</li>
         <li>“Who checks an invoice when AI gets it wrong?”</li>
         <li>“Does your invoice tool create a reviewable bill or post directly to accounting?”</li>
         <li>“What does automated invoice processing really cost once line-item credits are included?”</li>
@@ -66,7 +65,7 @@ export default function RightFitSection() {
                 Determining If Bill is Right for Your Business
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -75,10 +74,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="determining-if-bill-is-right-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="determining-if-bill-is-right-for-your-business-lg">
                 Determining If Bill is Right for Your Business
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

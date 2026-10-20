@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A South Florida office manager stares at a blank screen, trying to draft just one social post before
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         space. Manual content creation becomes a bottleneck, not a growth engine. And when the posts stop, so
         do the new leads.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-intelligent-content-generation-koala-overview-intelligent-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is the way out of this trap. The right AI-driven workflow lets you turn
+        <Link id={`tools-marketing-intelligent-content-generation-koala-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is the way out of this trap. The right AI-driven workflow lets you turn
         your business’s own expertise and voice into publishable content, without the late nights or the
         agency bills. But not every tool solves the real problem. Generic AI writing can churn out polished
         copy, but if it misses your business’s identity, your services, your real credentials, your local
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

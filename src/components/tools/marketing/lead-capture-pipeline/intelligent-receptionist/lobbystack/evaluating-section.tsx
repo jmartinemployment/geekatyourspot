@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -25,7 +24,7 @@ export default function EvaluatingSection() {
         receptionist to your own infrastructure without rebuilding your phone process from scratch. This is
         especially important for businesses with strict data privacy rules, regulatory requirements, or the need
         to integrate with other tools beyond what
-        most&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;platforms
+        most&nbsp;SaaS&nbsp;platforms
         allow. You can audit the code, review how data is handled, and set your own update and retention
         policies. That level of transparency is rare in this space.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -58,7 +57,7 @@ export default function EvaluatingSection() {
         of your data, avoid vendor lock-in, and pay only for the calls that matter, it is built for you. If you
         need a system you can test, modify, and scale without waiting on a vendor’s roadmap, it delivers. Where
         your requirements go beyond what
-        most&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;platforms
+        most&nbsp;SaaS&nbsp;platforms
         will allow, custom call flows, deep integrations, or strict privacy rules, LobbyStack’s open-source
         foundation is a clear advantage. The pricing is transparent, the fit is flexible, and the control is
         yours.</p>
@@ -85,7 +84,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-lobbystack-fit-for-small-business-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-lobbystack-fit-for-small-business-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge LobbyStack: Fit for Small Business and Pricing Model
               </h2>
               {body}

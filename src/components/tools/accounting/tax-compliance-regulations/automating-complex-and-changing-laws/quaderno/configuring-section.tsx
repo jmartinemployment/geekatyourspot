@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Quaderno is more than just a&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;tool; it&#39;s a comprehensive solution that automates and streamlines
+        Quaderno is more than just a&nbsp;tax
+        compliance&nbsp;tool; it&#39;s a comprehensive solution that automates and streamlines
         tax processes across various jurisdictions. At its core, Quaderno configures a range of rules and
         automation logic to ensure compliance with global tax laws. This configuration includes several critical
         elements, each tailored to automate complex tax scenarios efficiently.</p>
@@ -26,9 +25,9 @@ export default function ConfiguringSection() {
         the correct tax identifiers for the buyer&#39;s jurisdiction. This automation not only saves time but
         also enhances accuracy, ensuring that all invoices meet local tax requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Quaderno extends its functionality through its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>,
+        Quaderno extends its functionality through its&nbsp;API,
         allowing businesses to integrate tax compliance into their existing systems effortlessly.
-        This&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;provides a lightweight and flexible solution
+        This&nbsp;API&nbsp;provides a lightweight and flexible solution
         for developers to add real-time tax calculations and compliant invoicing to their platforms. By doing
         so, businesses can customize their tax compliance processes to fit their unique operational needs
         without disrupting existing workflows.</p>
@@ -64,7 +63,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-quaderno-automation-and-logic" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-quaderno-automation-and-logic-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Quaderno: Automation and Logic
               </h2>
               {body}

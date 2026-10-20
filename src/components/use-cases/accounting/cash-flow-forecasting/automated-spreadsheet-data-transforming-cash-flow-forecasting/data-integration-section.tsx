@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataIntegrationSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Integrating automated spreadsheet data systems into a business environment requires careful consideration of
-        both&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;and integration capabilities.
+        both&nbsp;data quality&nbsp;and integration capabilities.
         For a small business in Miami-Dade, Broward, and West Palm Beach counties, this means ensuring that the data
         feeding into the system is accurate, timely, and comprehensive.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -15,7 +14,7 @@ export default function DataIntegrationSection() {
         common pitfalls of outdated or manually entered data, which often lead to errors in cash flow projections.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next, businesses need to consider the integration capabilities of their chosen tools. The ability to
-        seamlessly connect with existing&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems, bank
+        seamlessly connect with existing&nbsp;ERP&nbsp;systems, bank
         accounts, and other financial platforms is crucial. This integration should be as frictionless as possible
         to avoid disruptions in daily operations. Dryrun, for instance, provides robust integration options that
         allow for real-time data synchronization across multiple financial systems, ensuring that updates are
@@ -56,7 +55,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="data-and-integration-requirements-for-automated-spreadsheet-systems" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-and-integration-requirements-for-automated-spreadsheet-systems-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data and Integration Requirements for Automated Spreadsheet Systems
               </h2>
               {body}

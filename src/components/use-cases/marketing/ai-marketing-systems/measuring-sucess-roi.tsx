@@ -48,7 +48,7 @@ export default function MeasuringSuccessRoiSection() {
                 needed to analyze performance and make informed decisions. Geek @ Your Spot LLC can recommend and integrate tools that
                 suit individual business needs, from analytics platforms to AI-specific reporting software.</p>
               <h4 id="analytics-platforms" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Analytics Platforms</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">Platforms like Google <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Analytics</GlossaryLink> and HubSpot offer powerful tracking and reporting capabilities. They can be used to
+              <p className="pt-3 text-md font-normal text-white shadow-text">Platforms like Google Analytics and HubSpot offer powerful tracking and reporting capabilities. They can be used to
                 monitor website traffic, user behavior, and conversion metrics. Geek @ Your Spot LLC helps businesses set up and
                 customize these platforms to extract actionable insights from AI-driven campaigns.</p>
               <h4 id="ai-specific-reporting-tools" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">AI-Specific Reporting Tools</h4>

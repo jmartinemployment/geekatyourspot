@@ -12,7 +12,7 @@ export const anywordContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "content-creation-workflow/intelligent-content-generation",
   "description":
-    "Intelligent Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and more affordably.",
+    "Intelligent Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and for less.",
   "heroSummary":
     "Anyword offers AI-powered Intelligent Content Generation, enabling local small businesses to efficiently create, personalize, and schedule impactful digital content.",
   "keywords":

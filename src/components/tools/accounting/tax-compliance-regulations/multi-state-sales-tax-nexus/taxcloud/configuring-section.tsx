@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -50,12 +49,12 @@ export default function ConfiguringSection() {
         access to real-time integrations and custom APIs, so high-volume or multi-channel businesses can push
         and pull sales data without custom coding. Geek @ Your Spot LLC’s role is to connect these systems, map the
         data fields, and ensure every transaction lands in TaxCloud’s compliance workflow. If your stack is more
-        complex, custom&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;endpoints are available for deeper
+        complex, custom&nbsp;API&nbsp;endpoints are available for deeper
         automation.</p>
       <p className="text-md text-white shadow-text pt-3">
         TaxCloud is not a scripting or workflow automation platform, you configure its compliance logic, not
         arbitrary business rules. There is no scripting language or custom workflow builder. The extensibility
-        comes from its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and the range of prebuilt
+        comes from its&nbsp;API&nbsp;and the range of prebuilt
         integrations. Where your process needs to go beyond those, Geek @ Your Spot LLC handles the mapping and any
         middleware needed to bridge systems, but the core compliance logic always lives in TaxCloud itself.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -91,7 +90,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-taxcloud-rules-automation-and-extensions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-taxcloud-rules-automation-and-extensions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in TaxCloud: Rules, Automation, and Extensions
               </h2>
               {body}

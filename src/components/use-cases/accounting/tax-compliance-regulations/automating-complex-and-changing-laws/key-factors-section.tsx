@@ -2,19 +2,19 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function KeyFactorsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         The difference between a
-        successful&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;implementation and one that falters often lies in the details. A robust
+        successful&nbsp;tax
+        compliance&nbsp;implementation and one that falters often lies in the details. A robust
         implementation starts with a clear understanding of the business&#39;s specific needs and a strategic
         plan that aligns with those needs. This involves not just choosing the right tools, but also
         understanding how they fit into the broader business context.</p>
       <p className="text-md text-white shadow-text pt-3">
         An effective implementation is characterized by proactive planning and flexibility. It&#39;s about
         anticipating potential challenges and having a plan to address them. For
-        instance,&nbsp;<Link id="use-cases-accounting-complex-changing-laws-key-factors-taxjar" href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offers
+        instance,&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-key-factors-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;offers
         a
         SmartCalcs&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;that
         provides real-time, precise sales tax calculations, which can prevent issues related to incorrect tax
@@ -31,7 +31,7 @@ export default function KeyFactorsSection() {
         support ensures that businesses have access to expert guidance whenever needed. This human element can
         be crucial in navigating complex tax scenarios that automated systems alone might not handle well.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Finally, a successful implementation is scalable. As a business grows, its&nbsp;<Link id="use-cases-accounting-complex-changing-laws-key-factors-tax-compliance" href="/use-cases/accounting/tax-compliance-regulations" className="text-[#0B162A] hover:underline">tax compliance</Link>&nbsp;needs will
+        Finally, a successful implementation is scalable. As a business grows, its&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-key-factors-tax-compliance${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#0B162A] hover:underline">tax compliance</Link>&nbsp;needs will
         evolve. Solutions like TaxCloud’s multi-channel consolidation and proactive nexus alerts allow
         businesses to adapt to changes without overhauling their entire system. This scalability ensures that
         the tax compliance system remains robust and effective, even as the business landscape changes.</p>
@@ -49,7 +49,7 @@ export default function KeyFactorsSection() {
                 What Sets a Successful Implementation Apart
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function KeyFactorsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-sets-a-successful-implementation-apart" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sets-a-successful-implementation-apart-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sets a Successful Implementation Apart
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

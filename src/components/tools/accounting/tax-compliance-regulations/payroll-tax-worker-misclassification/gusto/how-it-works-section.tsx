@@ -5,12 +5,12 @@ export default function HowItWorksSection() {
         Gusto automates the most error-prone parts of payroll tax and worker classification for small businesses
         handling both W-2 employees and 1099 contractors. The platform is designed to keep each worker type
         separate from the start, so every payroll run follows the right rules for each person on your team. This
-        is not just a matter of convenience—missteps here are the root cause of the biggest penalties South
+        is not just a matter of convenience. Missteps here are the root cause of the biggest penalties South
         Florida business owners face. Gusto’s workflow is built to close those gaps before they ever open.</p>
       <p className="text-md text-white shadow-text pt-3">
         The process starts when you set up your team. Gusto requires you to enter each worker as either a W-2
         employee or a 1099 contractor, and the system keeps these records distinct at every stage. For
-        employees, Gusto prompts for all the details needed to calculate withholdings—filing status, allowances,
+        employees, Gusto prompts for all the details needed to calculate withholdings: filing status, allowances,
         and direct deposit info. For contractors, it collects the information needed for 1099 filings, including
         W-9 data. This upfront separation means the system never mixes up how taxes are handled for each group.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -24,7 +24,7 @@ export default function HowItWorksSection() {
         Gusto handles all payroll tax filings in the background. Every time you run payroll, the system
         calculates, files, and remits federal, state, and local payroll taxes to the right agencies. This
         includes Social Security, Medicare, FUTA, and SUI, which Florida calls reemployment tax. Florida has no
-        local payroll tax, so Miami-Dade, Broward, and Palm Beach add nothing to that list. You don’t need to remember deposit schedules or filing deadlines—Gusto does it for you, and
+        local payroll tax, so Miami-Dade, Broward, and Palm Beach add nothing to that list. You don’t need to remember deposit schedules or filing deadlines. Gusto does it for you, and
         covers multi-state filings at no extra cost if your team crosses state lines.</p>
       <p className="text-md text-white shadow-text pt-3">
         At year-end, Gusto generates and files W-2s for employees and 1099s for contractors. The platform checks
@@ -41,7 +41,7 @@ export default function HowItWorksSection() {
         claim the FICA tip credit at tax time.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you hire new staff, Gusto automatically files new hire reports with the state and helps you complete
-        all the federal forms—like I-9s, W-4s, and the right mix of W-2 or 1099 paperwork. The system keeps
+        all the federal forms, like I-9s, W-4s, and the right mix of W-2 or 1099 paperwork. The system keeps
         electronic copies of pay stubs and payroll records, so you meet IRS, FLSA, and EEOC retention rules
         without extra work. For every payroll run, you get a summary to review and approve before anything is
         submitted or paid.</p>
@@ -73,7 +73,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-gusto-handles-payroll-tax-and-worker-classification-step-by-step" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-gusto-handles-payroll-tax-and-worker-classification-step-by-step-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Gusto Handles Payroll Tax and Worker Classification Step by Step
               </h2>
               {body}

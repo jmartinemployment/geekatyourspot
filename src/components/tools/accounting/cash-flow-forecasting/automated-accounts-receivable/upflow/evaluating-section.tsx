@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -20,7 +19,7 @@ export default function EvaluatingSection() {
         ongoing use.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another key consideration is Upflow&#39;s integration capabilities. Its ability to connect with
-        popular&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        popular&nbsp;ERP&nbsp;systems
         like NetSuite and QuickBooks makes it a versatile tool for businesses already using these platforms. This
         integration ensures that data flows seamlessly between systems, reducing the need for manual data entry and
         minimizing errors.</p>
@@ -57,7 +56,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-upflow-fit-and-pricing-model">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-upflow-fit-and-pricing-model-lg">
                 Evaluating Upflow: Fit and Pricing Model
               </h2>
               {body}

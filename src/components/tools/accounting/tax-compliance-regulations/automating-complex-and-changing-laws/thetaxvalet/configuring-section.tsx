@@ -5,7 +5,7 @@ export default function ConfiguringSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxValet is designed to remove the burden of manually managing
-        sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;by automating complex
+        sales&nbsp;tax compliance&nbsp;by automating complex
         processes. At its core, TaxValet configures rules and automation logic to streamline tax compliance
         across multiple states. This configuration includes detailed nexus analysis, permit registrations, and
         ongoing monitoring of changing regulations. By setting up these elements, TaxValet ensures that
@@ -57,7 +57,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-taxvalet-rules-and-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-taxvalet-rules-and-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring TaxValet: Rules and Automation
               </h2>
               {body}

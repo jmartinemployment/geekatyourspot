@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -7,8 +6,7 @@ export default function DataMappingSection() {
         Deploying Take the Helm successfully hinges on making informed decisions about data structure and mapping
         right from the start. This involves understanding how financial data flows through the system and
         ensuring that it aligns with the business&#39;s operational needs. The initial step is to map out the
-        existing data structure, identifying key data points such as&nbsp;<GlossaryLink
-        slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;and receivable, cash flow statements, and
+        existing data structure, identifying key data points such as&nbsp;accounts payable&nbsp;and receivable, cash flow statements, and
         financial metrics.</p>
       <p className="text-md text-white shadow-text pt-3">
         The mapping process is crucial for ensuring that Take the Helm can accurately interpret and utilize the
@@ -58,7 +56,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="key-data-structure-and-mapping-decisions-for-takethehelm-deployment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="key-data-structure-and-mapping-decisions-for-takethehelm-deployment-lg">
                 Key Data Structure and Mapping Decisions for Take the Helm Deployment
               </h2>
               {body}

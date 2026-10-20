@@ -6,6 +6,7 @@ import { ArticleSectionBlock } from "@/components/blog/article-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { getEntry, listEntries } from "@/lib/content-writer-disabled2/content-disabled";
 import { toArticleSections } from "@/lib/content-writer-disabled2/article-sections-disabled";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { formatDate } from "../../format-date";
 
 type BlogArticleProps = Readonly<{
@@ -39,12 +40,16 @@ export async function generateMetadata({ params }: BlogArticleProps): Promise<Me
       title: post.headline,
       description: post.description,
       url: post.href,
+      siteName: "Geek @ Your Spot LLC",
+      locale: "en_US",
       publishedTime: post.date ?? undefined,
+      images: [SHARE_IMAGE],
     },
     twitter: {
       card: "summary_large_image",
       title: post.headline,
       description: post.description,
+      images: [SHARE_IMAGE],
     },
   };
 }

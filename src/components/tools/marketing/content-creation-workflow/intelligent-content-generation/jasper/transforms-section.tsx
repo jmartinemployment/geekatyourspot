@@ -59,7 +59,7 @@ export default function TransformsSection() {
         larger operation. The same team that struggled to get a blog post out now manages a full calendar of
         coordinated campaigns, all with less stress and lower cost.</p>
       <blockquote cite="https://www.jasper.ai/canvas" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
-        Speed, scale, and brand consistency—all in one collaborative platform.</blockquote>
+        Speed, scale, and brand consistency, all in one collaborative platform.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
         For the business owner in Miami, that means Friday afternoons look different. Instead of scrambling to
         finish a draft, she reviews a set of polished, ready-to-publish assets, all telling the same story,
@@ -89,7 +89,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-jasper-removes-the-weekly-grind-from-intelligent-content-generation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-jasper-removes-the-weekly-grind-from-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Jasper Removes the Weekly Grind from Intelligent Content Generation
               </h2>
               {body}

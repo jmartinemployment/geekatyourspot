@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
@@ -18,7 +17,7 @@ export default function DecisionsSection() {
         “audit-proof” means for your company: is it zero late filings, full exemption certificate management, or
         a single dashboard for all channels? Your answer drives everything downstream.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="data-quality">Data quality</GlossaryLink>&nbsp;is the next foundation. If you don’t
+        Data quality&nbsp;is the next foundation. If you don’t
         have a clean, validated record of where every sale happened, which products were shipped, and which
         exemptions apply, no software will save you. This is where tools like TaxCloud and Quaderno earn their
         keep. TaxCloud pulls state-specific rules and applies rooftop-level rates, but only if your transaction
@@ -72,7 +71,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-early-choices-that-lock-in-your-compliance-risk-or-remove-it" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-early-choices-that-lock-in-your-compliance-risk-or-remove-it-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Early Choices That Lock In Your Compliance Risk, Or Remove It
               </h2>
               {body}

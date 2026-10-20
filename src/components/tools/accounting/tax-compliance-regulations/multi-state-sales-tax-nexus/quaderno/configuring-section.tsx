@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -20,7 +19,7 @@ export default function ConfiguringSection() {
         Tax calculation is the next piece. Quaderno’s automation logic pulls live tax rules for each
         jurisdiction, so every invoice or receipt applies the right rate for the product and location. This
         covers not just state taxes, but also local city and county levels. For digital products
-        and&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>, the tool handles the complexity of what is
+        and&nbsp;SaaS, the tool handles the complexity of what is
         taxable in one state and exempt in another. Geek @ Your Spot LLC configures product categories and tax
         codes, mapping your catalog to Quaderno’s rule set. This means a sale in Texas that is taxable, but
         exempt in Florida, is handled automatically, no manual override needed.</p>
@@ -34,8 +33,8 @@ export default function ConfiguringSection() {
         For businesses using multiple sales channels or payment processors, Stripe, PayPal, Braintree, Shopify,
         WooCommerce, Amazon FBA, Quaderno’s automation logic brings all sales data into one compliance
         dashboard. Geek @ Your Spot LLC connects each platform using Quaderno’s built-in integrations
-        and&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. This centralizes your compliance view and prevents
-        duplicate or missed invoices. The&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;also allows for
+        and&nbsp;API. This centralizes your compliance view and prevents
+        duplicate or missed invoices. The&nbsp;API&nbsp;also allows for
         custom workflows if your business has unique needs, such as syncing with custom-built checkout systems
         or importing sales data from CSV files.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -44,13 +43,13 @@ export default function ConfiguringSection() {
         Geek @ Your Spot LLC sets up these controls during onboarding, ensuring your financial data is protected at
         every step.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The extension mechanism is mainly through Quaderno’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>,
+        The extension mechanism is mainly through Quaderno’s&nbsp;API,
         which is designed for transaction-first data flows. This means your developers (or Geek @ Your Spot LLC, if
         you outsource it) can push sales data, trigger compliance checks, or pull tax reports programmatically.
-        The&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;is clean and decoupled, if your database
+        The&nbsp;API&nbsp;is clean and decoupled, if your database
         schema changes, Quaderno’s compliance logic stays stable. For most small businesses, the pre-built
         connectors and self-serve onboarding cover the core needs, but
-        the&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;is there if your workflow is more complex.</p>
+        the&nbsp;API&nbsp;is there if your workflow is more complex.</p>
       <p className="text-md text-white shadow-text pt-3">
         What Geek @ Your Spot LLC does that a DIY setup cannot is in the details: mapping your product types to the
         right tax codes, configuring threshold alerts to match your risk tolerance, setting up invoice templates
@@ -80,7 +79,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-quaderno-s-rules-and-automation-logic-get-configured-for-multi-state-sales-tax-nexus" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quaderno-s-rules-and-automation-logic-get-configured-for-multi-state-sales-tax-nexus-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Quaderno’s Rules and Automation Logic Get Configured for Multi-State Sales Tax Nexus
               </h2>
               {body}

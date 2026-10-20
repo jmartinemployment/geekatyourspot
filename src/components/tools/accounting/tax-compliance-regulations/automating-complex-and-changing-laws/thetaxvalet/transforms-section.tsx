@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        TaxValet transforms the overwhelming task of managing sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;into a streamlined process by removing the burden from business
+        TaxValet transforms the overwhelming task of managing sales&nbsp;tax
+        compliance&nbsp;into a streamlined process by removing the burden from business
         owners&#39; shoulders. Instead of spending countless hours on tax filing portals, business owners can
         focus on growing their business while TaxValet handles all compliance aspects.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -54,7 +53,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxvalet-simplifies-complex-and-changing-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxvalet-simplifies-complex-and-changing-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxValet Simplifies Complex and Changing Laws
               </h2>
               {body}

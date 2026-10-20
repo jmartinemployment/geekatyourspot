@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -6,7 +5,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Tipalti is designed to streamline Automated Payment Execution by automating complex financial
         processes. At its core, Tipalti integrates seamlessly with existing&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;and
+        ERP&nbsp;and
         accounting systems, ensuring that payment data flows smoothly without manual intervention. This
         integration is crucial for small businesses aiming to reduce errors and save time. By connecting
         directly to platforms like QuickBooks Online, Tipalti automates the entire accounts payable process,
@@ -21,7 +20,7 @@ export default function ArchitectureSection() {
         Tipalti&#39;s architecture includes a robust set of features designed to enhance financial
         operations. The system automates invoice data capture using optical character recognition (OCR)
         and&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">artificial intelligence</GlossaryLink>,
+        artificial intelligence,
         minimizing the need for manual data entry. This not only speeds up the process but also increases data
         accuracy, reducing the risk of duplicate payments and compliance issues.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -67,7 +66,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="tipaltis-core-mechanics-and-architecture">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="tipaltis-core-mechanics-and-architecture-lg">
                 Tipalti&#39;s Core Mechanics and Architecture
               </h2>
               {body}

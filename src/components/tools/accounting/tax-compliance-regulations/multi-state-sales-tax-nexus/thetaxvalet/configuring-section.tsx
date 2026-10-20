@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -34,7 +33,7 @@ export default function ConfiguringSection() {
         a local filing is a common audit trigger. TaxValet’s workflow ensures every required jurisdiction is
         covered, with no need for manual intervention or bolt-on modules.</p>
       <p className="text-md text-white shadow-text pt-3">
-        TaxValet’s configuration does not extend to a public&nbsp;<GlossaryLink slug="api">API</GlossaryLink>,
+        TaxValet’s configuration does not extend to a public&nbsp;API,
         scripting environment, or custom SDK. It is a managed platform, not a toolkit for developers. The
         boundaries are clear: your business data and sales channels are mapped and connected during onboarding,
         and TaxValet’s own team applies and maintains the compliance logic. This approach means you do not have
@@ -57,7 +56,7 @@ export default function ConfiguringSection() {
         moves them from reactive to proactive compliance.</p>
       <p className="text-md text-white shadow-text pt-3">
         The platform’s limits are worth noting. If you have highly specialized needs that require custom
-        scripting, direct&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;control, or integration with
+        scripting, direct&nbsp;API&nbsp;control, or integration with
         niche internal systems, TaxValet may not be the right fit. Its strength is in standardizing and
         automating the complex, shifting rules of multi-state sales tax, not in providing a playground for
         custom development. For the vast majority of small businesses in Miami-Dade, Broward, and West Palm
@@ -86,7 +85,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-taxvalet-rules-automation-and-the-boundaries-of-customization" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-taxvalet-rules-automation-and-the-boundaries-of-customization-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in TaxValet: Rules, Automation, and the Boundaries of Customization
               </h2>
               {body}

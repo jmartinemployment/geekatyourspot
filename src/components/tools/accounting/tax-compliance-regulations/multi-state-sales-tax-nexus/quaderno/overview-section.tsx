@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A South Florida&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;founder lands a new batch of
@@ -14,14 +14,14 @@ export default function OverviewSection() {
         speed and scale, offers no help for the tangle of local rules. With every sale, the risk of missing a
         critical compliance step grows.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is how&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-quaderno-overview-multi-state-sales-tax-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;hits small businesses. You can cross the $100,000 revenue or
+        This is how&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;hits small businesses. You can cross the $100,000 revenue or
         200-transaction mark in a state before you even notice it. Suddenly you need to register, collect, and
         remit sales tax there, but you lack the headcount and systems that a large enterprise would use. What
         started as a win, expansion into new states, turns into a scramble to keep up with thousands of shifting
         rules across more than 11,000 tax jurisdictions. Manual tracking means missed thresholds, late filings,
         and the risk of audit penalties that can wipe out months of profit.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Most small digital agencies,&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;firms, and online
+        Most small digital agencies,&nbsp;SaaS&nbsp;firms, and online
         sellers in West Palm Beach, Broward, and Miami-Dade have felt this squeeze. They want to grow, but the
         overhead of tracking hyper-localized tax rules eats into every sale. The truth is, even the best team
         cannot keep up by hand. The cost is not just time, it is lost focus, stress, and a backlog of compliance
@@ -49,7 +49,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

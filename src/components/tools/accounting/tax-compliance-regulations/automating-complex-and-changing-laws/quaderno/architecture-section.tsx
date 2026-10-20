@@ -6,8 +6,8 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Quaderno&#39;s architecture is built to integrate seamlessly with a variety of platforms and systems,
         making it a versatile tool for managing
-        global&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>. The platform&#39;s robust infrastructure supports integration with popular
+        global&nbsp;tax
+        compliance. The platform&#39;s robust infrastructure supports integration with popular
         payment processors, e-commerce platforms, and custom setups, ensuring that businesses can maintain
         compliance without disrupting their existing workflows.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -28,7 +28,7 @@ export default function ArchitectureSection() {
         CSV import options, allowing them to import sales data manually or connect the platform to their custom
         systems. This flexibility ensures that Quaderno can adapt to a wide range of business needs, providing a
         tailored solution for managing tax compliance. The platform&#39;s lightweight
-        REST&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;supports
+        REST&nbsp;API&nbsp;supports
         real-time tax rate calculations and compliant invoice generation, further enhancing its adaptability.</p>
       <p className="text-md text-white shadow-text pt-3">
         In addition to its integrations, Quaderno&#39;s architecture includes features designed to support
@@ -59,7 +59,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="quaderno-s-architecture-and-integrations-a-seamless-compliance-ecosystem" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="quaderno-s-architecture-and-integrations-a-seamless-compliance-ecosystem-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Quaderno&#39;s Architecture and Integrations: A Seamless Compliance Ecosystem
               </h2>
               {body}

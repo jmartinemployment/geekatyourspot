@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -11,14 +10,14 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The first decision is which data sources to connect. Factors is strongest when it sits at the center
         of your sales and marketing stack. That means pulling in website
-        activity,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;records, ad platform signals, and
+        activity,&nbsp;CRM&nbsp;records, ad platform signals, and
         communication channels like Slack or Teams. The more complete the picture, the more accurate the
         scoring and attribution. For many teams, this starts with connecting Salesforce or HubSpot, then
         layering in LinkedIn Ads, Google Ads, and website analytics. If you use Segment CDP, connecting it
         extends visitor identity enrichment and intent tracking across all digital touchpoints.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next comes mapping the right fields. Factors does not just ingest raw data; it needs to know which
-        fields in your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or website events correspond to
+        fields in your&nbsp;CRM&nbsp;or website events correspond to
         company name, industry, revenue band, job title, and pipeline stage. The system uses these mappings to
         enrich anonymous visitors, match them to known accounts, and build a unified timeline of every
         touchpoint. If a field is missing or mapped incorrectly, say, if &quot;Company Size&quot; is stored in
@@ -48,7 +47,7 @@ export default function DataMappingSection() {
         There is also the question of how to handle contacts and account hierarchies. Factors can pull in
         known contacts from Salesforce, Apollo, or ZoomInfo, then match them to account activity. The mapping
         here determines whether alerts go to the right rep and whether outreach is personalized to the right
-        decision-maker. If your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;has duplicate or
+        decision-maker. If your&nbsp;CRM&nbsp;has duplicate or
         fragmented account records, cleaning and mapping these in advance will save headaches and keep the
         pipeline clean.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -65,7 +64,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         For a small business, the payoff is focus. Instead of cold-calling a list of names, your team gets a
         daily, prioritized list of local accounts who are actually in the market, because every data point,
-        from website visit to ad click to&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;update, is
+        from website visit to ad click to&nbsp;CRM&nbsp;update, is
         mapped, enriched, and scored in one place. The heavy lifting happens at setup, but the result is a
         workflow where every rep knows who to call, when, and why.</p>
     </>
@@ -91,7 +90,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-data-structure-and-mapping-decisions-matter-most-when-deploying-factors" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-structure-and-mapping-decisions-matter-most-when-deploying-factors-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data Structure and Mapping Decisions Matter Most When Deploying Factors
               </h2>
               {body}

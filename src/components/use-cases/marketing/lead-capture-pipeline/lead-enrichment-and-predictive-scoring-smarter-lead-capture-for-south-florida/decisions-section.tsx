@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
@@ -19,10 +18,10 @@ export default function DecisionsSection() {
         outcomes quarter after quarter.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next is the data you decide to trust. Early on, you commit to the sources that will feed your
-        enrichment and scoring models,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, website analytics,
+        enrichment and scoring models,&nbsp;CRM, website analytics,
         email sequences, third-party enrichment APIs. Once you choose, that decision shapes how accurate,
         current, and actionable your scoring gets. For example, if you only pull from
-        aging&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;data, you lock in the same decay that’s
+        aging&nbsp;CRM&nbsp;data, you lock in the same decay that’s
         already costing you missed deals. But if you plug in Apollo to inject real-time firmographics and
         verified contact details, you move from static to dynamic targeting. With Factors, you can pivot to
         tracking real engagement on your site, not just form fills. Each source has its own strengths and
@@ -76,7 +75,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Decisions That Are Made Early and Cannot Be Unmade
               </h2>
               {body}

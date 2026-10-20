@@ -9,7 +9,7 @@ export default function HowItWorksSection() {
         system. This integration allows it to automatically match payments to invoices, eliminating manual data
         entry and reducing reconciliation delays. By capturing remittance and payment data from various sources,
         Versapay uses
-        advanced&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;and
+        advanced&nbsp;AI&nbsp;and
         optical character recognition (OCR) to ensure that payments are correctly applied to the corresponding
         invoices.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -57,7 +57,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-versapay-works-step-by-step-mechanics">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-versapay-works-step-by-step-mechanics-lg">
                 How Versapay Works: Step-by-Step Mechanics
               </h2>
               {body}

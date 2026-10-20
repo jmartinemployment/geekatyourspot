@@ -51,7 +51,7 @@ export default function MissionSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="you-shouldnt-have-to-be-a-fortune-500-to-build-like-one" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="you-shouldnt-have-to-be-a-fortune-500-to-build-like-one-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 You Shouldn&#39;t Have to Be a Fortune 500 to Build Like One
               </h2>
               {body}

@@ -21,7 +21,7 @@ export default function ImplementingSection() {
         existing data structures to Melio’s platform, ensuring a seamless transition. This step is essential
         for maintaining data integrity and ensuring that all financial information is accurately captured and
         processed. By aligning data structures, businesses can avoid discrepancies and ensure that their&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;processes
+        accounts payable&nbsp;processes
         run smoothly.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration with existing systems is also a vital part of the deployment process. Melio&#39;s
@@ -63,7 +63,7 @@ export default function ImplementingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-melio-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-melio-in-your-business-environment-lg">
                 Implementing Melio in Your Business Environment
               </h2>
               {body}

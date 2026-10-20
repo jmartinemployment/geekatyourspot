@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -15,7 +14,7 @@ export default function ImplementingSection() {
         Instead, you select the prebuilt connector, authorize access, and the system begins syncing your
         transaction data. For most small e-commerce teams, this alone cuts weeks off implementation compared to
         tools that require manual CSV uploads
-        or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;buildouts.</p>
+        or&nbsp;API&nbsp;buildouts.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once connected, TaxJar automatically ingests your historical and live transaction records. The
         platform’s cloud-native engine is designed for high-volume, multi-channel environments, so it can
@@ -40,7 +39,7 @@ export default function ImplementingSection() {
         A typical go-live sequence with TaxJar looks like this:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Identify all sales channels (e-commerce, marketplaces, direct sales).</li>
-        <li>Connect each channel using TaxJar’s certified integrations or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>.</li>
+        <li>Connect each channel using TaxJar’s certified integrations or&nbsp;API.</li>
         <li>Ingest and unify historical and current transaction data.</li>
         <li>Map products and services to correct tax codes (see next section for detail).</li>
         <li>Activate Economic Nexus Insights to monitor thresholds in real time.</li>
@@ -86,7 +85,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-takes-to-launch-taxjar-in-your-existing-stack-steps-shortcuts-and-sequencing" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-takes-to-launch-taxjar-in-your-existing-stack-steps-shortcuts-and-sequencing-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Takes to Launch TaxJar in Your Existing Stack: Steps, Shortcuts, and Sequencing
               </h2>
               {body}

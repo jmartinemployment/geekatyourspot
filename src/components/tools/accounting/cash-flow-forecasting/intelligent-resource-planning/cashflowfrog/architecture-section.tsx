@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog’s architecture is designed for seamless integration, robust security, and flexible data
@@ -18,7 +18,7 @@ export default function ArchitectureSection() {
         or data reformatting project. Instead, it reads the data where it lives, syncing invoices, bills,
         payments, and balances into a unified dashboard.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The integration layer is not limited to accounting systems. Cashflowfrog supports&nbsp;<Link id="tools-accounting-intelligent-resource-planning-cashflowfrog-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, which means it
+        The integration layer is not limited to accounting systems. Cashflowfrog supports&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, which means it
         can receive data from thousands of other apps, including CRMs, e-commerce platforms, payment processors,
         and spreadsheets. For example, a new deal in HubSpot or a payment in Stripe can trigger a projection in
         Cashflowfrog automatically. This keeps forecasts current as your business activity happens, not just
@@ -93,7 +93,7 @@ export default function ArchitectureSection() {
                 Cashflowfrog’s Architecture: Integrations, Data Handling, and Security for Modern Resource Planning
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -102,10 +102,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="cashflowfrog-s-architecture-integrations-data-handling-and-security-for-modern-resource-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="cashflowfrog-s-architecture-integrations-data-handling-and-security-for-modern-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Cashflowfrog’s Architecture: Integrations, Data Handling, and Security for Modern Resource Planning
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

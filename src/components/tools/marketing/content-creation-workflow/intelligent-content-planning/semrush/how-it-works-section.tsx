@@ -73,7 +73,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-semrush-actually-runs-content-planning-the-mechanics-in-detail" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-semrush-actually-runs-content-planning-the-mechanics-in-detail-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Semrush Actually Runs Content Planning: The Mechanics in Detail
               </h2>
               {body}

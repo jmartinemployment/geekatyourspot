@@ -68,7 +68,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-actually-happens-when-taxcloud-runs-your-multi-state-sales-tax" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-actually-happens-when-taxcloud-runs-your-multi-state-sales-tax-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Actually Happens When TaxCloud Runs Your Multi-State Sales Tax
               </h2>
               {body}

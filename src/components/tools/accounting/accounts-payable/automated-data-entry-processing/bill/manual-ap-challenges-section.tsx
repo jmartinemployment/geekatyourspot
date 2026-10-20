@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ManualApChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For small and medium-sized businesses, managing accounts payable manually is a significant challenge.
@@ -14,7 +14,7 @@ export default function ManualApChallengesSection() {
         The manual process of handling accounts payable involves a lot of paperwork and repetitive tasks. Each
         invoice needs to be manually entered into the system, checked for accuracy, and approved before
         payment is processed. This not only consumes valuable time but also increases the risk of human error.
-        Mistakes in&nbsp;<Link id="tools-accounting-data-entry-bill-manual-ap-challenges-data-entry" href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;or lost paperwork can lead to late payments, which may incur penalties or
+        Mistakes in&nbsp;<Link id={`tools-accounting-data-entry-bill-manual-ap-challenges-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;or lost paperwork can lead to late payments, which may incur penalties or
         damage supplier relationships.</p>
       <p className="text-md text-white shadow-text pt-3">
         Moreover, the lack of automation means that tracking and managing expenses is cumbersome. Without a
@@ -29,7 +29,7 @@ export default function ManualApChallengesSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Manual accounts payable and expense report processes are time-consuming, error-prone, and hinder
         your business&#39;s growth.&quot;&nbsp;
-        <a id="tools-accounting-bill-challenges-source"
+        <a id={`tools-accounting-bill-challenges-source${idSuffix}`}
           href="https://www.bill.com/dl/guide-to-ap-and-expense-report-automation"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill
@@ -48,7 +48,7 @@ export default function ManualApChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function ManualApChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-accounts-payable-processes">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-accounts-payable-processes-lg">
                 The Challenges of Manual Accounts Payable Processes
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

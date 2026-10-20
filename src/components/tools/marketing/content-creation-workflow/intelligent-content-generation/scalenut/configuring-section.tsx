@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -40,7 +39,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Scalenut’s extension mechanism is configuration-based. It integrates with tools like WordPress,
         Copyscape, and Word AI, but it does not offer a full scripting or
-        custom&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;layer for user-built automation. Instead,
+        custom&nbsp;API&nbsp;layer for user-built automation. Instead,
         all extensibility comes from the platform’s built-in modules and settings. This keeps complexity low
         and reliability high, there is no risk of a script breaking your workflow or an unsupported
         integration causing downtime. For most small businesses, this is a benefit: the platform is designed
@@ -93,7 +92,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-inside-scalenut-and-how-automation-rules-shape-results" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-inside-scalenut-and-how-automation-rules-shape-results-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured Inside Scalenut and How Automation Rules Shape Results
               </h2>
               {body}

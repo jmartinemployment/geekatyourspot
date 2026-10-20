@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A small marketing team in Miami-Dade meets on Monday, ready to map out the coming week. The whiteboard
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         what they see every month: ninety percent of their work gets buried on page three, never seen by a
         single customer, never driving a lead.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This cycle repeats because they are running on guesswork. Without&nbsp;<Link id="tools-marketing-intelligent-content-planning-marketmuse-overview-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>, their
+        This cycle repeats because they are running on guesswork. Without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-marketmuse-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>, their
         best ideas are drowned out by larger brands with bigger budgets and deeper data. They waste hours
         chasing high-competition keywords, never realizing their site has no chance at those rankings. They
         cannot see which topics they already own or where their rivals left open ground. They do not know
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

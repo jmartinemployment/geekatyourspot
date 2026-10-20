@@ -1,5 +1,5 @@
 export default function HowDextTransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Dext offers a powerful solution to the challenges of manual bookkeeping by automating key processes
@@ -26,7 +26,7 @@ export default function HowDextTransformsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Dext helps turn automation into advisory value by streamlining bookkeeping, improving workflow
         insight, and enabling more proactive client service.&quot;&nbsp;
-        <a id="tools-accounting-dext-transforms-source"
+        <a id={`tools-accounting-dext-transforms-source${idSuffix}`}
           href="https://dext.com/us/blog/single/ai-and-automation-in-accounting-how-to-build-a-smarter-scalable-practice-with-dext"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Dext
@@ -45,7 +45,7 @@ export default function HowDextTransformsSection() {
                 How Dext Transforms Bookkeeping
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function HowDextTransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-dext-transforms-bookkeeping">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-dext-transforms-bookkeeping-lg">
                 How Dext Transforms Bookkeeping
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

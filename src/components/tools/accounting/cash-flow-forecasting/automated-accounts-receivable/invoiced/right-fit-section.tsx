@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Invoiced is particularly well-suited for small to mid-sized businesses in sectors such as technology,
@@ -28,7 +28,7 @@ export default function RightFitSection() {
         company&#39;s overall financial strategy.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-accounts-receivable-invoiced-right-fit-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id={`tools-accounting-accounts-receivable-invoiced-right-fit-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -54,7 +54,7 @@ export default function RightFitSection() {
                 Who Benefits Most from Invoiced, and What to Consider
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -63,10 +63,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-benefits-most-from-invoiced-and-what-to-consider">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="who-benefits-most-from-invoiced-and-what-to-consider-lg">
                 Who Benefits Most from Invoiced, and What to Consider
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When deploying Zamp, careful consideration of data structure and mapping is crucial. This step ensures
-        that your&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;processes are
+        that your&nbsp;tax compliance&nbsp;processes are
         accurate and efficient. The initial focus is on understanding how your current data architecture aligns
         with Zamp&#39;s requirements, facilitating a seamless transition.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -57,7 +56,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-in-zamp-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-in-zamp-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping in Zamp Deployment
               </h2>
               {body}

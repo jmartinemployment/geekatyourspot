@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -12,13 +11,13 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Start with fit. QuickBooks Online Advanced is built for businesses that have outgrown entry-level
         bookkeeping tools but are not ready for the cost and disruption of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>. If
+        full&nbsp;ERP. If
         your current pain is that you spend hours every week combining spreadsheets, chasing approvals, or
         fixing errors from generic logins, QuickBooks addresses these directly. It brings custom roles,
         automated workflows, and live dashboards, without forcing you to rebuild your processes from scratch.
         The interface is familiar to anyone who has used QuickBooks Desktop or Online, so the learning curve is
         gentle. This is where QuickBooks stands out against bigger, more
-        complex&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems:
+        complex&nbsp;ERP&nbsp;systems:
         you get deep automation and control, but your team does not need weeks of training or a dedicated IT
         admin to keep things running.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -26,7 +25,7 @@ export default function EvaluatingSection() {
         inventory and project costing, it does not support every industry-specific workflow. If you are running
         a manufacturing business with complex assemblies, or you need advanced compliance and audit features,
         you may need QuickBooks Desktop Enterprise or even a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>. These
+        full&nbsp;ERP. These
         options add cost, setup time, and maintenance. The key question is whether your current and near-future
         needs fall within what QuickBooks does natively. If you need to connect to highly specialized systems or
         want to build custom automation beyond what QuickBooks supports, you will hit its boundaries quickly.</p>
@@ -35,7 +34,7 @@ export default function EvaluatingSection() {
         as you add departments, locations, or transaction volume, you can bring in more users, set up new
         approval rules, and build more complex dashboards. You do not pay for features you do not need, and you
         can start with a small deployment and expand as your needs change. This is a major difference from
-        traditional&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>,
+        traditional&nbsp;ERP,
         where you often have to buy and configure everything upfront, even if you will not use it all for years.</p>
       <p className="text-md text-white shadow-text pt-3">
         When it comes to pricing, QuickBooks is transparent about its tiers and trial offers, but the real cost
@@ -65,9 +64,9 @@ export default function EvaluatingSection() {
         Where Geek @ Your Spot LLC comes in is making sure you do not pay for what you do not use. They map your
         real processes to what QuickBooks does best, configure the right roles and rules, and flag where an
         add-on or a workaround is needed. They know where QuickBooks’ boundaries are, and where a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;or
+        full&nbsp;ERP&nbsp;or
         a different tool might make more sense. For businesses that want to avoid the pain of a
-        drawn-out&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;migration,
+        drawn-out&nbsp;ERP&nbsp;migration,
         but cannot keep patching together spreadsheets and generic accounting apps, QuickBooks is the practical
         step up. Its pricing model is predictable, its features are deep enough for most growing teams, and its
         limits are clear before you start.</p>
@@ -102,7 +101,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-quickbooks-fit-limits-and-pricing-model-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-quickbooks-fit-limits-and-pricing-model-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge QuickBooks: Fit, Limits, and Pricing Model for Small Businesses
               </h2>
               {body}

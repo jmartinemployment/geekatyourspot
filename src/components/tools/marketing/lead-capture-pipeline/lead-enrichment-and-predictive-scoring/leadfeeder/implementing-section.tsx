@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -17,13 +16,13 @@ export default function ImplementingSection() {
         real company names and intent signals the next morning is a sharp change.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next step is connecting Leadfeeder to your
-        existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Leadfeeder offers direct integrations with
+        existing&nbsp;CRM. Leadfeeder offers direct integrations with
         platforms like HubSpot, Salesforce, Pipedrive, and Microsoft Dynamics. For most small businesses, this
         means you can push company and contact records straight into your pipeline with a few clicks. There’s
         no need to build a custom connector or export CSVs every day. The integration is designed to work both
         ways: Leadfeeder syncs new and updated leads into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and you can see visit history and intent scores
-        right inside the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;interface. This keeps your
+        your&nbsp;CRM, and you can see visit history and intent scores
+        right inside the&nbsp;CRM&nbsp;interface. This keeps your
         sales team working in the tools they already use.</p>
       <p className="text-md text-white shadow-text pt-3">
         A phased rollout is often the best approach for small teams. Start with a pilot group, maybe just the
@@ -35,7 +34,7 @@ export default function ImplementingSection() {
         enough to start catching missed opportunities from day one.</p>
       <p className="text-md text-white shadow-text pt-3">
         What shortens the go-live process with Leadfeeder is the lack of required custom development. The
-        tracking script,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;connectors, and notification
+        tracking script,&nbsp;CRM&nbsp;connectors, and notification
         rules are all pre-built. You do not need a data scientist or a dedicated IT resource to launch. Geek @ Your Spot LLC handles the initial configuration, mapping your website pages to high-intent signals and
         setting up the right filters for your local market. This includes defining which visits should trigger
         an instant alert, say, a Miami law firm hitting your pricing page twice in a week, and which should be
@@ -79,7 +78,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-takes-to-go-live-with-leadfeeder-in-a-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-takes-to-go-live-with-leadfeeder-in-a-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Takes to Go Live with Leadfeeder in a Small Business Environment
               </h2>
               {body}

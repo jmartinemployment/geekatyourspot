@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function InPracticeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Rolling out automated approval workflows involves more than just flipping a switch. It&#39;s a
@@ -12,7 +12,7 @@ export default function InPracticeSection() {
         from invoice receipt to payment authorization. Understanding the current workflow is essential for
         identifying inefficiencies and areas where automation can add value. During this phase, tools
         like&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-practice-approvalmax"
+        <Link id={`use-cases-accounting-approval-workflows-practice-approvalmax${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#0B162A] hover:underline">
           ApprovalMax
         </Link>&nbsp;can be invaluable, as they allow you to visualize and configure complex approval pathways
@@ -21,7 +21,7 @@ export default function InPracticeSection() {
         Once the current processes are mapped, the next stage is integration. This involves connecting the
         selected automation tools with your existing financial systems. It&#39;s crucial that these
         integrations are seamless to avoid disruptions.&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-practice-melio"
+        <Link id={`use-cases-accounting-approval-workflows-practice-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#0B162A] hover:underline">
           Melio
         </Link>&nbsp;is known for its easy integration capabilities, especially with popular accounting
@@ -30,7 +30,7 @@ export default function InPracticeSection() {
         With systems integrated, data configuration comes next. Ensure that data flows correctly between
         systems, maintaining accuracy and integrity. This may include setting up data validation rules and
         automating data entry processes to minimize manual intervention. Tools like&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-practice-stampli"
+        <Link id={`use-cases-accounting-approval-workflows-practice-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;can automate invoice data capture, reducing manual entry errors and speeding up the
@@ -60,7 +60,7 @@ export default function InPracticeSection() {
                 Implementing Automated Approval Workflows in Practice
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -69,10 +69,10 @@ export default function InPracticeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="implementing-automated-approval-workflows-in-practice" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="implementing-automated-approval-workflows-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementing Automated Approval Workflows in Practice
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

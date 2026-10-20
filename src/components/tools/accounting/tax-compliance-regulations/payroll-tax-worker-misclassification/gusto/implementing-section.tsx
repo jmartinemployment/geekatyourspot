@@ -13,7 +13,7 @@ export default function ImplementingSection() {
         Broward, and Palm Beach start with QuickBooks or Xero, and Gusto’s direct integrations with these
         platforms mean you do not have to export, clean, and re-import payroll data by hand. This cuts days off
         the process compared to tools that require manual mapping or CSV uploads. Gusto’s integrations are not
-        just for payroll runs—they sync worker classifications, pay rates, and tax IDs, so you can spot
+        just for payroll runs. They sync worker classifications, pay rates, and tax IDs, so you can spot
         misclassified contractors or missing Social Security numbers before the first pay run.</p>
       <p className="text-md text-white shadow-text pt-3">
         From there, Gusto’s setup flow guides you through a checklist that is tailored to your business size and
@@ -38,13 +38,13 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         What actually shortens go-live is not just the technology, but the way Gusto’s platform removes manual
         steps at each stage. For example, the owner of that HVAC company does not need to figure out which local
-        agency to send payroll taxes to—Gusto files with the right federal, state, and local authorities each
+        agency to send payroll taxes to. Gusto files with the right federal, state, and local authorities each
         pay run, using the data provided in setup. If a worker’s status or pay rate changes, the system prompts
         for an update and handles the downstream tax impact automatically.</p>
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s role is to close the last mile: mapping your existing data, reviewing the
         classification and tax setup, and training your team on what to expect in the first payroll cycle. For
-        teams used to patchwork systems, the biggest gain is the removal of the “unknowns”—no more guessing if a
+        teams used to patchwork systems, the biggest gain is the removal of the “unknowns.” There is no more guessing if a
         new hire has been reported to the state, or if the reemployment tax rate has changed. The platform’s
         compliance guardrails and automation mean you spend less time in the weeds and more time running your
         business.</p>
@@ -53,7 +53,7 @@ export default function ImplementingSection() {
         connect your accounting tools, classify every worker up front, validate tax IDs and locations, and let
         the platform’s built-in rules handle the rest. Each step is designed to catch the errors that lead to
         tax penalties or audits before they happen. With Geek @ Your Spot LLC guiding the setup, the odds of a
-        missed classification or a late tax filing drop to near zero—and that is what separates a quick, quiet
+        missed classification or a late tax filing drop to near zero, and that is what separates a quick, quiet
         launch from the kind of payroll chaos that can stall a business in South Florida’s tight markets.</p>
     </>
   );
@@ -77,7 +77,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-shortens-the-path-to-a-clean-go-live-with-gusto" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-shortens-the-path-to-a-clean-go-live-with-gusto-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Shortens the Path to a Clean Go-Live with Gusto
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -39,10 +38,10 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         Zamp’s extension mechanism is integration-focused. It connects to leading ERPs, billing systems, and
         e-commerce platforms, and it supports custom stacks through
-        its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. Geek @ Your Spot LLC handles the technical lift:
-        connecting Zamp to your QuickBooks,&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, or order
+        its&nbsp;API. Geek @ Your Spot LLC handles the technical lift:
+        connecting Zamp to your QuickBooks,&nbsp;ERP, or order
         management system, mapping fields, and validating data flows. There is no scripting or custom code
-        required from your side, Zamp’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and integration
+        required from your side, Zamp’s&nbsp;API&nbsp;and integration
         layer are handled as part of the onboarding.</p>
       <p className="text-md text-white shadow-text pt-3">
         For historical compliance, Zamp can import prior-period orders, refunds, and adjustments to establish a
@@ -80,7 +79,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-zamp-rules-automation-and-what-geek-your-spot-delivers" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-zamp-rules-automation-and-what-geek-your-spot-delivers-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Zamp: Rules, Automation, and What Geek @ Your Spot LLC Delivers
               </h2>
               {body}

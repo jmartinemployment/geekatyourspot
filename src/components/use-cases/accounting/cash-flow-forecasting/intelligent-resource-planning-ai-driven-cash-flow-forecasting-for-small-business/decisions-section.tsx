@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
@@ -21,7 +20,7 @@ export default function DecisionsSection() {
         becomes a habit. If the team realizes months later that the original setup is missing a key report or
         can&#39;t handle a new location, the only way out is a messy retrofit or a second, even harder rollout.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes the&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. This
+        Next comes the&nbsp;data quality&nbsp;assessment. This
         is the checkpoint most teams rush or skip, thinking they will &quot;clean as they go.&quot; But if the
         books are a mix of old spreadsheets, desktop files, and unsynced bank feeds, any forecast built on them
         will be weak. A system like Jirav, which relies on driver-based models and three-way forecasting, only
@@ -38,11 +37,11 @@ export default function DecisionsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Choosing the right tool is next, but the critical move is to pick for fit, not features. Many small
         businesses in Miami-Dade, Broward, and Palm Beach counties are tempted by
-        all-in-one&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;platforms, thinking more functionality
+        all-in-one&nbsp;ERP&nbsp;platforms, thinking more functionality
         means better outcomes. In practice, the best results come from tools that fit the current workflow and
         can scale as needs grow. For example, QuickBooks keeps the familiar interface but adds code-free
         automation when volume picks up, which avoids a painful switch to a
-        big&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;before the team is ready. Fathom delivers
+        big&nbsp;ERP&nbsp;before the team is ready. Fathom delivers
         advanced visual dashboards and multi-entity consolidation, but only works if the business is ready to
         track KPIs at that level. Picking a tool that is too complex or too basic locks the company into a path
         that is hard to unwind later.</p>
@@ -80,7 +79,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-decisions-that-are-made-early-and-cannot-be-unmade-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Decisions That Are Made Early and Cannot Be Unmade
               </h2>
               {body}

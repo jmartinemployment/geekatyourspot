@@ -1,23 +1,22 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the
-        right&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;tool is critical for small businesses navigating complex tax laws.
+        right&nbsp;tax
+        compliance&nbsp;tool is critical for small businesses navigating complex tax laws.
         Evaluating TaxJar involves assessing its fit for your business size and understanding its pricing model.
         TaxJar is designed to cater to the needs of small businesses by offering a comprehensive solution that
         automates tax compliance tasks, reducing the administrative burden and potential for human error.</p>
       <p className="text-md text-white shadow-text pt-3">
         When considering TaxJar, businesses should first evaluate its integration capabilities. TaxJar
         seamlessly connects with various e-commerce
-        and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;platforms,
+        and&nbsp;ERP&nbsp;platforms,
         such as Shopify, Salesforce, and QuickBooks. This integration ensures that all sales data is accurately
         captured and processed, allowing for precise tax calculations and reporting. The ability to customize
         integrations through the
-        TaxJar&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;further
+        TaxJar&nbsp;API&nbsp;further
         enhances its fit for businesses with specific requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
         Pricing is another important factor. TaxJar offers a 30-day free trial, allowing businesses to test its
@@ -28,7 +27,7 @@ export default function EvaluatingSection() {
         It&#39;s also essential to consider the scalability of TaxJar. As businesses grow, their tax compliance
         needs become more complex. TaxJar is built to scale with your business, providing reliable performance
         even during peak sales periods. Its
-        high-performance&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;ensures
+        high-performance&nbsp;API&nbsp;ensures
         that tax calculations are accurate and delivered in real-time, which is vital for maintaining a seamless
         customer experience.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="evaluating-taxjar-fit-and-pricing-considerations" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="evaluating-taxjar-fit-and-pricing-considerations-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating TaxJar: Fit and Pricing Considerations
               </h2>
               {body}

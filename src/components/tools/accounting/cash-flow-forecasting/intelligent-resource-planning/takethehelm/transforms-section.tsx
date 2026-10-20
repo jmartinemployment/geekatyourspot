@@ -16,8 +16,8 @@ export default function TransformsSection() {
         instead of reacting to surprises.</p>
       <p className="text-md text-white shadow-text pt-3">
         Take the Helm connects directly to accounting systems like QuickBooks Online, Xero, and Sage. It pulls
-        in open accounts receivable and&nbsp;<GlossaryLink slug="accounts-payable">accounts
-        payable</GlossaryLink>&nbsp;balances, eliminating double data entry. There is no need to retype invoices
+        in open accounts receivable and&nbsp;accounts
+        payable&nbsp;balances, eliminating double data entry. There is no need to retype invoices
         or bills. When a transaction changes in the accounting system, it updates in Take the Helm
         automatically. This integration cuts down on errors and saves hours each month that would otherwise be
         spent reconciling records.</p>
@@ -85,7 +85,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-take-the-helm-removes-manual-work-from-intelligent-resource-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-take-the-helm-removes-manual-work-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Take the Helm Removes Manual Work from Intelligent Resource Planning
               </h2>
               {body}

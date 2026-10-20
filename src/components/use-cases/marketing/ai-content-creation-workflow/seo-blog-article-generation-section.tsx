@@ -81,7 +81,7 @@ export default function SEOBlogArticleGenerationSection() {
                   ContentStudio
                 </Link>&nbsp;is another AI tool that supports SEO efforts by managing content distribution strategically. It
                 enables businesses to schedule and publish articles at optimal times, maximizing their reach and impact. By
-                analyzing <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">audience engagement metrics</GlossaryLink>, ContentStudio helps refine publishing strategies, ensuring that content not
+                analyzing audience engagement metrics, ContentStudio helps refine publishing strategies, ensuring that content not
                 only reaches the right audience but also engages them effectively.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Geek @ Your Spot LLC can assist in configuring ContentStudio to align with your overall SEO strategy, ensuring that
@@ -114,12 +114,12 @@ export default function SEOBlogArticleGenerationSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-seo-blog-and-article-generation-enhance-visibility-with-ai.avif"
-                alt="KeyImplementationStrategiesSection"
+                alt="Five steps of AI-driven SEO blog and article generation: keyword research, content generation, optimization tools, publishing and distribution, and visibility and results"
                 loading="lazy"
                 style={{ width: '100%', height: '460' }} />
             </div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="seo-blog-and-article-generation-enhance-visibility-with-ai-2">SEO Blog and Article Generation: Enhance
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="seo-blog-and-article-generation-enhance-visibility-with-ai-2-lg">SEO Blog and Article Generation: Enhance
                 Visibility with AI</h2>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Maintaining a robust online presence is challenging for many businesses due to time constraints and limited
@@ -136,19 +136,19 @@ export default function SEOBlogArticleGenerationSection() {
                 Geek @ Your Spot LLC helps businesses leverage these tools effectively, ensuring that AI-generated content aligns with
                 both SEO best practices and brand voice. By integrating AI into your content strategy, you can achieve better search
                 engine rankings while freeing up valuable time for other strategic activities.</p>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="ai-tools-for-seo-optimization">AI Tools for SEO Optimization</h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="ai-tools-for-seo-optimization-lg">AI Tools for SEO Optimization</h3>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
-                <Link id="ai-content-creation-workflow-seo-jasper-ai-1"
+                <Link id="ai-content-creation-workflow-seo-jasper-ai-1-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
-                </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
+                </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation-lg" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
                 search trends and suggest relevant keywords, which are crucial for boosting visibility. These tools automatically
                 generate article outlines and structure content around high-impact keywords, ensuring that your content is not only
                 informative but also search engine-friendly.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 By using&nbsp;
-                <Link id="ai-content-creation-workflow-seo-jasper-ai-2"
+                <Link id="ai-content-creation-workflow-seo-jasper-ai-2-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
                 </Link>, businesses can enhance their content&#39;s relevance
@@ -157,42 +157,42 @@ export default function SEOBlogArticleGenerationSection() {
                 potential customers.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Similarly,&nbsp;
-                Claude&nbsp assists in fine-tuning content to match search engine
+                Claude&nbsp;assists in fine-tuning content to match search engine
                 algorithms by optimizing meta descriptions and headers, further boosting your SEO efforts. These tools help
                 businesses stay ahead of the competition by maintaining a high standard of content quality and relevance.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="automating-keyword-research">Automating Keyword Research</h4>
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="automating-keyword-research-lg">Automating Keyword Research</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 <GlossaryLink slug="keyword-density" className="text-[#0B162A] hover:underline">Keyword research</GlossaryLink> is a fundamental aspect of SEO that often requires significant time and expertise. AI tools
                 simplify this process by automatically identifying and suggesting keywords that align with your content goals. For
                 example, Jasper AI can scan millions of web pages to identify trending keywords, providing suggestions that ensure
                 your content is in line with current search trends. This automation reduces the manual effort required and increases
                 the likelihood of your content being discovered by the right audience.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="enhancing-content-structure">Enhancing Content Structure</h4>
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="enhancing-content-structure-lg">Enhancing Content Structure</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like Copy.ai help in structuring your articles effectively, ensuring that they are both engaging and
                 optimized for SEO. By generating outlines and suggesting headers, these tools guide you in creating content that is
                 easier for search engines to index and users to read. This approach not only improves readability but also increases
                 the chances of higher rankings in search results.</p>
-              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="contentstudio-for-strategic-publishing">ContentStudio for Strategic Publishing</h3>
+              <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="contentstudio-for-strategic-publishing-lg">ContentStudio for Strategic Publishing</h3>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 ContentStudio is another AI tool that supports SEO efforts by managing content distribution strategically. It
                 enables businesses to schedule and publish articles at optimal times, maximizing their reach and impact. By
-                analyzing <GlossaryLink slug="engagement-rate" className="text-[#0B162A] hover:underline">audience engagement metrics</GlossaryLink>, ContentStudio helps refine publishing strategies, ensuring that content not
+                analyzing audience engagement metrics, ContentStudio helps refine publishing strategies, ensuring that content not
                 only reaches the right audience but also engages them effectively.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Geek @ Your Spot LLC can assist in configuring ContentStudio to align with your overall SEO strategy, ensuring that
                 every piece of content published contributes to your visibility goals. This structured approach to publishing,
                 backed by data-driven insights, leads to more consistent engagement and improved search rankings.</p>
-              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="optimizing-publishing-schedules">Optimizing Publishing Schedules</h4>
+              <h4 className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] leading-[0.95] shadow-text" id="optimizing-publishing-schedules-lg">Optimizing Publishing Schedules</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Strategically timing your content releases can significantly impact your SEO performance. ContentStudio analyzes
                 when your audience is most active, allowing you to schedule posts for maximum visibility. This ensures that your
                 content reaches the largest possible audience at times when they are most likely to engage, thus enhancing your
                 overall SEO strategy.</p>
-              <h4 id="leveraging-engagement-metrics">Leveraging Engagement Metrics</h4>
+              <h4 id="leveraging-engagement-metrics-lg">Leveraging Engagement Metrics</h4>
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 Understanding how your audience interacts with content is crucial for refining your SEO strategy.&nbsp;
-                <Link id="ai-content-creation-workflow-seo-ContentStudio-4"
+                <Link id="ai-content-creation-workflow-seo-ContentStudio-4-lg"
                   href="/tools/marketing/contentstudio" className="text-[#0B162A] font-bold hover:underline">
                   ContentStudio
                 </Link>&nbsp;provides insights into which articles drive the most engagement, enabling businesses to tailor future content to

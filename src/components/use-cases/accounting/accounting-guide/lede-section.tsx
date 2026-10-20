@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         The South Florida Small Business Crunch
@@ -65,9 +65,9 @@ export default function LedeSection() {
         document, every rule is written down, every approval is logged with a name and a time, and every
         exception goes to a person to decide. This guide explains where manual accounting fails, which tools
         close each gap, and how we put those tools in place without breaking the business you already run. It
-        also links to our detailed guides on <Link id="use-cases-accounting-lede-p-ap" href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">Accounts
-        Payable</Link>, <Link id="use-cases-accounting-lede-p-cff" href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#C83803] hover:underline">Cash
-        Flow Forecasting</Link>, and <Link id="use-cases-accounting-lede-p-tax" href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">Tax
+        also links to our detailed guides on <Link id={`use-cases-accounting-lede-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">Accounts
+        Payable</Link>, <Link id={`use-cases-accounting-lede-p-cff${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#C83803] hover:underline">Cash
+        Flow Forecasting</Link>, and <Link id={`use-cases-accounting-lede-p-tax${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">Tax
         Compliance &amp; Regulations</Link>.</p>
     </>
   );
@@ -83,7 +83,7 @@ export default function LedeSection() {
                 Your Books Should Never Be a Black Box
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -92,10 +92,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="your-books-should-never-be-a-black-box" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="your-books-should-never-be-a-black-box-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Your Books Should Never Be a Black Box
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

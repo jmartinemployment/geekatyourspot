@@ -55,7 +55,7 @@ export default function IntegratingAiCashFlowManagementSection() {
               <li>Streamlined report generation with real-time updates</li>
               <li>Integration with existing ERP and financial software</li>
             </ul>
-            <p className="pt-5 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>) systems and financial software is a critical component
+            <p className="pt-5 text-md font-normal text-white shadow-text">Integration with existing enterprise resource planning (ERP) systems and financial software is a critical component
               of successful AI implementation. By ensuring compatibility and seamless data flow between systems, Geek @ Your Spot LLC
               enhances the efficiency of financial operations and supports informed decision-making.</p>
             <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Governance and Change Management</h3>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -17,7 +16,7 @@ export default function DataMappingSection() {
         intake templates, ensuring the AI and live agents only pass along leads that meet your standards. This
         avoids wasting time on tire-kickers or unqualified prospects.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes mapping the call data into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
+        Next comes mapping the call data into your&nbsp;CRM&nbsp;or
         project management system. Smith.ai supports direct integration with thousands of platforms, Salesforce,
         Clio, QuickBooks, and more, but the value comes from field-level mapping. You need to decide where
         caller names, phone numbers, job details, and intake notes should land in your system. This is not a
@@ -44,7 +43,7 @@ export default function DataMappingSection() {
         Intake forms and custom fields are another area where early mapping makes a difference. Smith.ai can use
         existing forms from your website (like Ninja Forms on WordPress) to capture lead data. The decision is
         which fields are required, what information is optional, and how that data syncs into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or scheduling tool. Skipping this step leads
+        your&nbsp;CRM&nbsp;or scheduling tool. Skipping this step leads
         to incomplete records, lost follow-ups, and missed opportunities. Geek @ Your Spot LLC ensures that every
         field is mapped, every required detail is captured, and nothing falls through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -82,7 +81,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-data-structure-and-mapping-decisions-shape-a-successful-smith-ai-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-data-structure-and-mapping-decisions-shape-a-successful-smith-ai-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Data Structure and Mapping Decisions Shape a Successful Smith.ai Implementation
               </h2>
               {body}

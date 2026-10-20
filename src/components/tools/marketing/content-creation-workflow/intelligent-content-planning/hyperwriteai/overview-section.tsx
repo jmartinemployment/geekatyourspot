@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every week, small marketing teams across South Florida spend late nights staring at blank screens,
@@ -17,7 +17,7 @@ export default function OverviewSection() {
         The cost is real. Hours lost to rewriting the same email. Frustration from brainstorming sessions that
         end in arguments and half-finished ideas. Time wasted copying content into different apps just to keep
         things moving. These are not just minor inconveniences, they are the reason why campaigns stall,
-        deadlines slip, and marketing spend delivers zero measurable return. Without an intelligent process,&nbsp;<Link id="tools-marketing-intelligent-content-planning-hyperwriteai-overview-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;becomes a treadmill: the work never stops, but the results do. For small
+        deadlines slip, and marketing spend delivers zero measurable return. Without an intelligent process,&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hyperwriteai-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;becomes a treadmill: the work never stops, but the results do. For small
         businesses in West Palm Beach, Broward, and Miami-Dade, the stakes are higher because every hour and
         dollar counts.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,7 +49,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A local business owner unlocks the shop early, checks yesterday’s receipts, then glances at the blank
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         follow-up email, nothing to repurpose for the next campaign. As a result, lead pipelines dry up,
         customer engagement drops off, and every month feels like starting from scratch.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-intelligent-content-generation-imagine-overview-intelligent-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is changing this for small businesses in Miami-Dade, Broward and West
+        <Link id={`tools-marketing-intelligent-content-generation-imagine-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is changing this for small businesses in Miami-Dade, Broward and West
         Palm Beach. With the right AI workflow, a single product photo turns into a full suite of branded
         visuals, short-form videos, and campaign-ready assets in minutes, not weeks. AI repurposes your best
         content for every channel, schedules it in bulk, and routes drafts for approval before anything goes
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

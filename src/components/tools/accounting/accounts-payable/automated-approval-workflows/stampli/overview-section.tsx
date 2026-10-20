@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In a bustling office in West Palm Beach, the&nbsp;
@@ -15,7 +15,7 @@ export default function OverviewSection() {
         unnecessary delays in payments. These inefficiencies not only waste time but also increase the risk of
         compliance issues and financial discrepancies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-approval-workflows-stampli-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a solution to this chaos by streamlining processes with predefined
+        Automated&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a solution to this chaos by streamlining processes with predefined
         routing that automatically directs documents to the right reviewers based on business rules and
         spending authority. This approach not only reduces errors but also ensures that all necessary
         approvals are documented, creating a single source of truth that is accessible and auditable. By
@@ -43,7 +43,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

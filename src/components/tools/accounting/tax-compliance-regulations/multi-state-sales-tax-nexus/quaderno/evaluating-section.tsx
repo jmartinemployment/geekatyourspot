@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -6,7 +5,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Judging whether Quaderno is right for your business starts with understanding what it is built for, and
         what it is not. Quaderno is designed for small businesses selling digital
-        products,&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        products,&nbsp;SaaS,
         or running e-commerce across state lines. Its sweet spot is companies that have outgrown manual tracking
         but do not have the budget or appetite for a heavy enterprise tax platform.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -20,9 +19,9 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         If your business is entirely physical goods with massive inventory and needs multi-tier customs clearing
         or freight weight management, Quaderno is not the right fit. It is not built for large enterprises with
-        deep&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;integrations
+        deep&nbsp;ERP&nbsp;integrations
         or for companies that need complex customs brokerage. For most small firms in South Florida, digital
-        agencies,&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        agencies,&nbsp;SaaS,
         e-commerce, the platform’s focus on digital sales, recurring billing, and cross-border VAT/GST/Sales Tax
         is exactly what you need.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -82,7 +81,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-evaluate-quaderno-fit-limitations-and-pricing-model-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-evaluate-quaderno-fit-limitations-and-pricing-model-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Evaluate Quaderno: Fit, Limitations, and Pricing Model for Small Businesses
               </h2>
               {body}

@@ -6,6 +6,7 @@ import TimelineSection from "@/components/about/timeline-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "About Jeff Martin";
 const HERO_TITLE = "Enterprise Expertise. Small Business Focus.";
@@ -67,14 +68,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             type: 'profile',
             firstName: 'Jeff',
             lastName: 'Martin',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

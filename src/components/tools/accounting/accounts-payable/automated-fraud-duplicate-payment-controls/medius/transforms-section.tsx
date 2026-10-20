@@ -1,13 +1,12 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Medius revolutionizes the way businesses handle Automated Fraud &amp; Duplicate Payment Controls by
         removing the tedious and error-prone tasks from the&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;team&#39;s workload.
-        Its&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-powered system automates the detection of
+        accounts payable&nbsp;team&#39;s workload.
+        Its&nbsp;AI-powered system automates the detection of
         anomalies and duplicates, effectively reducing the time spent on manual invoice checks.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the key benefits of Medius is its ability to process invoices with minimal human intervention.
@@ -38,7 +37,7 @@ export default function TransformsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Medius Fraud &amp; Risk Detection is here to help you catch fraud earlier and reduce your risk
         exposure.&quot;&nbsp;
-        <a id="tools-accounting-fraud-controls-medius-transforms-source"
+        <a id={`tools-accounting-fraud-controls-medius-transforms-source${idSuffix}`}
           href="https://www.medius.com/solutions/fraud-risk-detection/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Medius
@@ -57,7 +56,7 @@ export default function TransformsSection() {
                 How Medius Transforms Automated Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -66,10 +65,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-transforms-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-transforms-automated-fraud-duplicate-payment-controls-lg">
                 How Medius Transforms Automated Fraud &amp; Duplicate Payment Controls
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

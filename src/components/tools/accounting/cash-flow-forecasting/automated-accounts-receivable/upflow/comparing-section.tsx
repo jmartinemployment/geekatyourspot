@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering solutions for automated accounts receivable, small businesses in South Florida often weigh
@@ -17,13 +17,13 @@ export default function ComparingSection() {
         a company with net-30 payment terms but a 51-day DSO benefits significantly from a tool like Upflow, which
         accounts for such discrepancies.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Many tools in the market, such as&nbsp;<Link id="tools-accounting-accounts-receivable-upflow-comparing-chaserhq" href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">Chaser</Link>&nbsp;and&nbsp;<Link id="tools-accounting-accounts-receivable-upflow-comparing-bill" href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">Bill</Link>, cater to smaller teams with simpler needs, focusing
+        Many tools in the market, such as&nbsp;<Link id={`tools-accounting-accounts-receivable-upflow-comparing-chaserhq${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">Chaser</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-accounts-receivable-upflow-comparing-bill${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">Bill</Link>, cater to smaller teams with simpler needs, focusing
         primarily on invoice follow-ups. These platforms might be adequate for businesses that require basic
         reminders and collections. However, they may fall short when it comes to the comprehensive forecasting and
         integration capabilities that Upflow provides.</p>
       <p className="text-md text-white shadow-text pt-3">
         Upflow&#39;s integration
-        with&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        with&nbsp;ERP&nbsp;systems
         ensures that forecasts are always current, eliminating the need for manual data entry or outdated exports.
         This feature is particularly beneficial for scaling businesses that need to maintain accuracy and efficiency
         as they grow. In contrast, some tools that lack deep ERP integration may lead to discrepancies between cash
@@ -53,7 +53,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -61,10 +61,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-upflow-to-other-automated-accounts-receivable-solutions">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-upflow-to-other-automated-accounts-receivable-solutions-lg">
                 Comparing Upflow to Other Automated Accounts Receivable Solutions
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

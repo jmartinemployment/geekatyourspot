@@ -8,7 +8,7 @@ export default function DeployingSection() {
         pre-built connectors and templated setup. These features significantly shorten the go-live period,
         allowing businesses to start reaping the benefits of Automated Approval Workflows quickly.
         Stampli&#39;s integration with popular&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        ERP&nbsp;systems
         means that your financial data remains consistent and synchronized across platforms.</p>
       <p className="text-md text-white shadow-text pt-3">
         The implementation process begins with a thorough assessment of your current workflows. Geek @ Your Spot LLC, as the implementation partner, works closely with your team to map out existing processes and
@@ -21,7 +21,7 @@ export default function DeployingSection() {
         organization&#39;s specific requirements. Whether it&#39;s setting up multi-level approval demands or
         configuring automated approvals based on predefined rules, Stampli offers the tools needed to
         streamline your&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;process.</p>
+        accounts payable&nbsp;process.</p>
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC also provides comprehensive training and support to ensure a smooth transition. This
         includes helping your team understand how to leverage Stampli&#39;s features to their fullest
@@ -31,7 +31,7 @@ export default function DeployingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Moreover, Stampli&#39;s config-only approach means there are no complex coding requirements or need
         for an SDK. This makes it an ideal solution for small businesses looking to implement&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;without the
+        AI&nbsp;without the
         overhead of extensive technical resources. The platform&#39;s intuitive interface and robust support
         from Geek @ Your Spot LLC ensure that your team can quickly adapt to the new system and start seeing
         results.</p>
@@ -65,7 +65,7 @@ export default function DeployingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-stampli-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-stampli-in-your-business-environment-lg">
                 Deploying Stampli in Your Business Environment
               </h2>
               {body}

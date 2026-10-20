@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -11,8 +10,8 @@ export default function DataMappingSection() {
         up front, with hands-on review and technical controls that prevent problems before they start.</p>
       <p className="text-md text-white shadow-text pt-3">
         First, Zamp imports your transaction history from every connected system, Shopify, Amazon, BigCommerce,
-        Magento,&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, or
-        custom&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. The system does not just take the latest data.
+        Magento,&nbsp;ERP, or
+        custom&nbsp;API. The system does not just take the latest data.
         It pulls prior-period orders, refunds, and adjustments to ensure that the nexus analysis is based on the
         full sales picture, not just a snapshot. This matters because economic and physical nexus are triggered
         by cumulative sales or transaction counts, which means that missing even a month of data can throw off
@@ -21,7 +20,7 @@ export default function DataMappingSection() {
         Product mapping is next. Zamp’s onboarding team manually reviews your product catalog, mapping each SKU
         to the correct tax code for every state. This is not an automated guess. The team checks for products
         with special exemptions, bundled items, or digital goods that carry unique rules in different
-        jurisdictions. For example, a&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;product may be
+        jurisdictions. For example, a&nbsp;SaaS&nbsp;product may be
         exempt in one state but taxable in another. Zamp’s team ensures that every product is classified
         accurately, so state-level exemptions and special rules are reflected in your filings. This is the
         safeguard against misclassifying custom SKUs, a common failure that leaves businesses exposed to
@@ -73,7 +72,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-data-mapping-and-structure-make-or-break-zamp-s-multi-state-setup" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-data-mapping-and-structure-make-or-break-zamp-s-multi-state-setup-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Data Mapping and Structure Make or Break Zamp’s Multi-State Setup
               </h2>
               {body}

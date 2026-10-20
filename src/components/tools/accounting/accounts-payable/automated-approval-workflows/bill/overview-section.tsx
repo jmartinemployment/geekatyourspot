@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Consider a business owner like Lisa Anderson, who runs a boutique marketing agency in Miami and finds
@@ -19,16 +19,16 @@ export default function OverviewSection() {
         methods of handling approvals are slow and inefficient, hindering growth and productivity. As
         businesses scale, the volume of invoices increases, and the complexity of managing them does too. This
         is where&nbsp;
-        <a id="tools-accounting-approval-workflows-bill-overview-approval-process"
+        <a id={`tools-accounting-approval-workflows-bill-overview-approval-process${idSuffix}`}
           href="https://www.bill.com/blog/accounts-payable-approval-process"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           automated approval workflows
         </a>&nbsp;come into play, offering a seamless solution to streamline and modernize these outdated
         processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        With automated&nbsp;<Link id="tools-accounting-approval-workflows-bill-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
+        With automated&nbsp;<Link id={`tools-accounting-approval-workflows-bill-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
         like&nbsp;
-        <a id="tools-accounting-approval-workflows-bill-overview-bill"
+        <a id={`tools-accounting-approval-workflows-bill-overview-bill${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           BILL
@@ -58,7 +58,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -67,10 +67,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

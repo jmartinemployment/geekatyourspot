@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function SequenceSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A real rollout of Intelligent Resource Planning for a small business in South Florida is not a single
@@ -11,12 +10,12 @@ export default function SequenceSection() {
         measure what is working. This is how it actually unfolds when done right.</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Set the measurable business objective. The team meets first to define what success is, down to the number. For example: &quot;Reduce the time to produce a rolling 90-day cash forecast from eight hours to one.&quot; This anchors every other step. Without it, the rest of the process loses focus.</li>
-        <li>Assess&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;and availability. Before any tool is connected, every ledger and spreadsheet is mapped. Which system holds the real numbers for cash, payables, receivables? If the books are spread across QuickBooks, Excel, and a payroll service, this is when those gaps are resolved. The team checks for missing data, inconsistent coding, or old errors that would throw off a forecast. QuickBooks and Take the Helm both pull live data, but the quality of the output depends on this groundwork. Where Cashflowfrog or Fathom will sync with accounting data, the standard is set here for what gets imported and how often.</li>
+        <li>Assess&nbsp;data quality&nbsp;and availability. Before any tool is connected, every ledger and spreadsheet is mapped. Which system holds the real numbers for cash, payables, receivables? If the books are spread across QuickBooks, Excel, and a payroll service, this is when those gaps are resolved. The team checks for missing data, inconsistent coding, or old errors that would throw off a forecast. QuickBooks and Take the Helm both pull live data, but the quality of the output depends on this groundwork. Where Cashflowfrog or Fathom will sync with accounting data, the standard is set here for what gets imported and how often.</li>
         <li>Design the technical architecture. Now the real decisions about tools and integrations are made. The team weighs the fit: Jirav for driver-based forecasting and scenario planning, Take the Helm for real-time invoice and bill tracking, Fathom for multi-entity reporting, Cashflowfrog for quick cash projections, QuickBooks as the operational core. The selection is based on the workflow that needs automating, not just the feature list. Integration plans are drawn up, what syncs with what, how often, and who owns each process.</li>
         <li>Configure, connect, and test. Each tool is connected to the live data, but not yet in production. This is where smoke tests happen: does the forecast in Jirav match what is in QuickBooks? Can Take the Helm pull every open receivable and payable from the ledger? Are KPIs in Fathom showing the right trends? The team validates each report and dashboard against the old process. If numbers do not line up, the root cause is found and fixed before anyone starts using the new system for decisions.</li>
-        <li>Pilot with a real workflow. Only after the tools are tested does the team roll out to a real, narrow use case. This might be &quot;build and review the weekly cash forecast&quot; or &quot;automate&nbsp;<Link id="use-cases-accounting-intelligent-resource-planning-sequence-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">invoice approval</Link>&nbsp;and tracking.&quot; The pilot runs in parallel with the old process for a cycle or two. Every hiccup, confusion, or missing feature is logged and addressed. This is not a &quot;training period&quot;, it is live work, but with a safety net.</li>
+        <li>Pilot with a real workflow. Only after the tools are tested does the team roll out to a real, narrow use case. This might be &quot;build and review the weekly cash forecast&quot; or &quot;automate&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-sequence-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">invoice approval</Link>&nbsp;and tracking.&quot; The pilot runs in parallel with the old process for a cycle or two. Every hiccup, confusion, or missing feature is logged and addressed. This is not a &quot;training period&quot;, it is live work, but with a safety net.</li>
         <li>Full rollout and scaling. Once the pilot proves itself, meaning the objective is met and the team trusts the numbers, the process expands. More workflows go live: inventory tracking, payables automation, sales dashboards. Only now is the old manual process retired. Training is targeted to the features actually in use, not the generic manual.</li>
-        <li>Continuous monitoring and improvement. The work does not end with &quot;go live.&quot; The team reviews whether the original business objective is being met each month. Are forecasts faster? Are errors down? If something slips, the cause is traced back,&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, process, or tool fit, and fixed. This is where tools like Cashflowfrog and Fathom stand out: dashboards reveal issues in real time, and the team can adjust before small problems become big ones.</li>
+        <li>Continuous monitoring and improvement. The work does not end with &quot;go live.&quot; The team reviews whether the original business objective is being met each month. Are forecasts faster? Are errors down? If something slips, the cause is traced back,&nbsp;data quality, process, or tool fit, and fixed. This is where tools like Cashflowfrog and Fathom stand out: dashboards reveal issues in real time, and the team can adjust before small problems become big ones.</li>
       </ol>
       <p className="text-md text-white shadow-text pt-3">
         Returning to the team from the opening, a Friday afternoon, the first month-end after rollout, now the
@@ -45,7 +44,7 @@ export default function SequenceSection() {
                 What Rolling This Out Actually Involves: The Sequence It Happens In
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +53,10 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-rolling-this-out-actually-involves-the-sequence-it-happens-in" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-rolling-this-out-actually-involves-the-sequence-it-happens-in-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Rolling This Out Actually Involves: The Sequence It Happens In
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

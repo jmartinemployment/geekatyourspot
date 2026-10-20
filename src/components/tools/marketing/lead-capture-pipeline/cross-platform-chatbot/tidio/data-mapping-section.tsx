@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -12,7 +11,7 @@ export default function DataMappingSection() {
         The first decision is how you want to structure your customer records. Tidio’s shared inbox works by
         matching messages from any channel, website, WhatsApp, Instagram, Messenger, email, to a single
         customer profile. The system uses identifiers like email address, phone number, or login to connect
-        the dots. If your business already uses a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
+        the dots. If your business already uses a&nbsp;CRM&nbsp;or
         e-commerce platform, you’ll need to decide which fields are the primary keys and how to handle cases
         where a customer uses different contact details on different channels. A mismatch here can lead to
         duplicate records or lost context.</p>
@@ -34,7 +33,7 @@ export default function DataMappingSection() {
         For e-commerce teams, the cart and order data mapping is critical. Tidio’s Shopify integration, for
         example, pulls cart contents and order history into the chat interface. You decide how much of that
         data is visible to agents and AI, and what gets pushed back into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or analytics tools. The same goes for
+        your&nbsp;CRM&nbsp;or analytics tools. The same goes for
         custom properties, such as loyalty status or support tier, which can be attached to customer profiles
         and used to trigger specific flows or handoff rules.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -84,7 +83,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-mapping-and-structure-what-you-must-decide-before-launching-tidio" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-mapping-and-structure-what-you-must-decide-before-launching-tidio-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Mapping and Structure: What You Must Decide Before Launching Tidio
               </h2>
               {body}

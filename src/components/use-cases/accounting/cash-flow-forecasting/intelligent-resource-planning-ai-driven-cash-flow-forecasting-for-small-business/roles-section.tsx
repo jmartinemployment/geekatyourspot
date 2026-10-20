@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RolesSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When a business replaces
-        manual&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;and intelligent resource planning with an integrated, intelligent
+        manual&nbsp;cash
+        flow forecasting&nbsp;and intelligent resource planning with an integrated, intelligent
         system, the biggest shift is not just in the numbers, it is in the people who use them. Every role that
         once spent hours chasing down figures, double-checking spreadsheets, or firefighting last-minute
         surprises sees their work change, sometimes overnight.</p>
@@ -28,7 +27,7 @@ export default function RolesSection() {
         Sales and project managers also feel the change. In the old world, a big order might show up as a win,
         but no one would see the cash impact until weeks later, often after a surprise shortfall. With tools
         that connect sales data to cash forecasts, like Jirav’s unified planning or
-        Fathom’s&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">KPI</GlossaryLink>&nbsp;dashboards,
+        Fathom’s&nbsp;KPI&nbsp;dashboards,
         a manager can see not just how much is booked but when the money will hit the account. If a client is
         likely to pay late based on Cashflowfrog’s payment scoring, the team can adjust terms or follow up
         sooner. This closes the loop between sales and finance, breaking the cycle of overpromising and
@@ -80,7 +79,7 @@ export default function RolesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-feels-the-shift-the-roles-that-change-when-intelligent-planning-goes-live" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-feels-the-shift-the-roles-that-change-when-intelligent-planning-goes-live-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Feels the Shift: The Roles That Change When Intelligent Planning Goes Live
               </h2>
               {body}

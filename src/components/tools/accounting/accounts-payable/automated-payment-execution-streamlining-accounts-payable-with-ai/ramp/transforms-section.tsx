@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -14,7 +13,7 @@ export default function TransformsSection() {
         purchase orders. This ensures that every transaction is accurately recorded without manual
         intervention, reducing errors and enhancing the accuracy of your financial records. The
         platform&#39;s&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-powered tools analyze historical coding patterns and invoice
+        AI-powered tools analyze historical coding patterns and invoice
         details to map expenses to the correct general ledger codes instantly. This capability not only speeds
         up the reconciliation process but also ensures compliance and reduces the risk of fraud.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -60,7 +59,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-automated-payment-execution">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-automated-payment-execution-lg">
                 How Ramp Transforms Automated Payment Execution
               </h2>
               {body}

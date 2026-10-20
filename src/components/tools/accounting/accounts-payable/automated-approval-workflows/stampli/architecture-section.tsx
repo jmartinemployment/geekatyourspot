@@ -1,14 +1,13 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Stampli revolutionizes the traditional&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;process
+        accounts payable&nbsp;process
         with its robust architecture designed for Automated Approval Workflows. At its core, Stampli
         integrates seamlessly with existing&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems,
+        ERP&nbsp;systems,
         eliminating the need for extensive manual data entry. This integration ensures that purchase orders
         and invoices are automatically routed to the correct approvers, reducing the risk of errors and
         delays.</p>
@@ -63,7 +62,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="stamplis-architecture-and-workflow-mechanics">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="stamplis-architecture-and-workflow-mechanics-lg">
                 Stampli&#39;s Architecture and Workflow Mechanics
               </h2>
               {body}

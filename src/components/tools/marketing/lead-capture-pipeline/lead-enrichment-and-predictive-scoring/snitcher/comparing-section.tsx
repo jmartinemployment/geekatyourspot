@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses weighing Snitcher for lead enrichment and predictive scoring are usually comparing it
         against two other routes: legacy enterprise platforms that promise deep data but come with locked-in
         contracts and high minimums, and
-        all-in-one&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;add-ons that claim to do a little of
+        all-in-one&nbsp;CRM&nbsp;add-ons that claim to do a little of
         everything but rarely surface the real buyer signals from anonymous web traffic. Snitcher sits between
         these. It is built to give a small team the same visibility and automation as a much larger sales
         operation, but without the overhead, the annual lock-in, or the need for a dedicated data engineer.</p>
@@ -22,12 +21,12 @@ export default function ComparingSection() {
         your site, and start seeing named companies in your dashboard the same day. The pricing is public,
         starting at $49 a month, and you can leave at any time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        All-in-one&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;add-ons, such as those built into
+        All-in-one&nbsp;CRM&nbsp;add-ons, such as those built into
         HubSpot or Salesforce, offer enrichment and basic scoring, but they stop at the company level and keep
         everything inside their own ecosystem. If your team works entirely in one of those platforms, that
         might be enough, but you lose the ability to trigger real-time alerts in Slack, push leads into
         outreach tools, or export audiences for retargeting. Snitcher is built to integrate with the tools you
-        already use, HubSpot, Salesforce, Pipedrive, Zoho&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        already use, HubSpot, Salesforce, Pipedrive, Zoho&nbsp;CRM,
         Slack, and Zapier, so your team can keep its workflow and still get the full value of real-time
         visitor identification and scoring.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -46,8 +45,8 @@ export default function ComparingSection() {
         too much time spent chasing the wrong leads, not enough time on the right ones.</p>
       <p className="text-md text-white shadow-text pt-3">
         Snitcher’s automation also goes further than most. With real-time
-        alerts,&nbsp;<GlossaryLink slug="webhooks" className="text-[#0B162A] hover:underline">webhooks</GlossaryLink>, and
-        native&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;integrations, you can trigger outreach or
+        alerts,&nbsp;webhooks, and
+        native&nbsp;CRM&nbsp;integrations, you can trigger outreach or
         marketing actions the moment a high-intent account hits your site. This is not just about faster
         follow-up; it means your team can act while the buyer’s interest is still fresh, rather than waiting
         days for someone to check the analytics or export a list. For small teams, that speed can be the
@@ -60,8 +59,8 @@ export default function ComparingSection() {
         Florida, these limits are usually outweighed by the value of seeing who is on your site and acting on
         it in real time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Snitcher also differs from AI-powered&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
-        scoring</GlossaryLink>&nbsp;tools like&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-comparing-6sense" href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>&nbsp;or&nbsp;<Link id="tools-marketing-lead-enrichment-snitcher-comparing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>. Those
+        Snitcher also differs from AI-powered&nbsp;lead
+        scoring&nbsp;tools like&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-comparing-6sense${idSuffix}`} href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>&nbsp;or&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-comparing-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>. Those
         platforms excel at using AI to model complex buying journeys and automate multi-channel
         engagement, but they often require a bigger investment in setup and ongoing management. Snitcher’s
         strength is in surfacing the highest-value leads from your existing web traffic, enriching them with
@@ -87,7 +86,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -95,10 +94,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-snitcher-compares-to-other-lead-enrichment-and-scoring-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-snitcher-compares-to-other-lead-enrichment-and-scoring-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Snitcher Compares to Other Lead Enrichment and Scoring Approaches
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

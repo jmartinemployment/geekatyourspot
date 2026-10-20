@@ -80,7 +80,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="judging-semrush-fit-flexibility-and-real-pricing-for-small-business-content-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="judging-semrush-fit-flexibility-and-real-pricing-for-small-business-content-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Judging Semrush: Fit, Flexibility, and Real Pricing for Small Business Content Teams
               </h2>
               {body}

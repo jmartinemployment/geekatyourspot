@@ -12,16 +12,16 @@ export default function EvaluatingSection() {
         covers your real compliance risks.</p>
       <p className="text-md text-white shadow-text pt-3">
         Start with fit. TaxCloud is designed for
-        ecommerce,&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        ecommerce,&nbsp;SaaS,
         and retail businesses that sell across state lines. It handles both physical and economic nexus,
         tracking sales and transactions in real time across all connected platforms. If you are running Shopify,
         WooCommerce, BigCommerce, Magento, QuickBooks, Stripe, or Chargebee, TaxCloud has direct integrations,
         no custom development needed. For businesses using Odoo or
-        other&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems,
+        other&nbsp;ERP&nbsp;systems,
         the platform supports plug-and-play
-        or&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;connections.
+        or&nbsp;API&nbsp;connections.
         If your sales stack is outside these platforms, you can still import data via CSV or use
-        the&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>, but
+        the&nbsp;API, but
         more setup may be required. The platform is not aimed at global VAT or GST compliance, so if you sell
         primarily outside the US, another solution may be a better fit.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -34,7 +34,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Pricing is straightforward and published. TaxCloud offers a Starter plan (from $19 per month) for
         simpler Shopify-based ecommerce, and a Premium plan (from $79 per month) for
-        multi-channel,&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
+        multi-channel,&nbsp;SaaS,
         or more complex compliance. Filing fees start at $39 per return and drop to $20 per return with volume.
         If you qualify for the Streamlined Sales Tax (SST) program and use the Premium plan, you can file for
         free in 24 participating states, this is a key cost advantage over platforms that charge for every
@@ -88,7 +88,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-taxcloud-fit-and-pricing-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-taxcloud-fit-and-pricing-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge TaxCloud: Fit and Pricing for Small Businesses
               </h2>
               {body}

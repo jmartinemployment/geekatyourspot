@@ -1,5 +1,5 @@
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Melio revolutionizes the way small businesses handle Automated Payment Execution by eliminating many
@@ -33,7 +33,7 @@ export default function TransformsSection() {
         smoothly.</p>
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Manage payment limitations and set payment terms by amount, team member, and vendor.&quot;&nbsp;
-        <a id="tools-accounting-payment-execution-melio-transforms-source"
+        <a id={`tools-accounting-payment-execution-melio-transforms-source${idSuffix}`}
           href="https://melio.com/approval-workflow/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Melio
@@ -52,7 +52,7 @@ export default function TransformsSection() {
                 How Melio Transforms Automated Payment Execution
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -61,10 +61,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-automated-payment-execution">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-automated-payment-execution-lg">
                 How Melio Transforms Automated Payment Execution
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

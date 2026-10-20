@@ -1,15 +1,14 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function CostOfManualSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses, managing automated approval workflows often feels like a never-ending cycle of
-        inefficiency. Vendor invoices arrive through various channels—email, mail, or vendor portals—and pile
+        inefficiency. Vendor invoices arrive through various channels (email, mail, or vendor portals) and pile
         up in an owner&#39;s inbox. The approval process is informal and lacks structure, often leading to
         delays and errors. A bookkeeper might manually enter or forward an invoice, only to receive a verbal
         &quot;okay&quot; from a manager. This lack of a formalized process means that&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;(AP) has no recorded
+        accounts payable&nbsp;(AP) has no recorded
         authorization, which can result in late payments or invoices being paid without appropriate
         review.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -49,9 +48,9 @@ export default function CostOfManualSection() {
         audit-ready approval trail, answering critical questions about who approved what and when.</p>
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;With AI-powered AP automation, BILL erases the busywork from capturing invoices, routing
-        approvals, and processing payments—syncing seamlessly with your accounting software so you can focus
+        approvals, and processing payments, syncing seamlessly with your accounting software so you can focus
         on growth.&quot;&nbsp;
-        <a id="tools-accounting-approval-workflows-bill-cost-of-manual-source"
+        <a id={`tools-accounting-approval-workflows-bill-cost-of-manual-source${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill
@@ -70,7 +69,7 @@ export default function CostOfManualSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -78,10 +77,10 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-approval-workflows-lg">
                 The Cost of Manual Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

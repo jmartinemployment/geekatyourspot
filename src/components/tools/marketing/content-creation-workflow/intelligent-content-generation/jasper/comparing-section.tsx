@@ -79,7 +79,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-sets-jasper-apart-from-other-content-tools-small-businesses-consider" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sets-jasper-apart-from-other-content-tools-small-businesses-consider-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sets Jasper Apart from Other Content Tools Small Businesses Consider
               </h2>
               {body}

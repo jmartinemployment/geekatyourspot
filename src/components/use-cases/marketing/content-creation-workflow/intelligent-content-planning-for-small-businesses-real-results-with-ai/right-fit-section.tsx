@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
@@ -48,8 +47,8 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         Semrush is the answer for small businesses guessing at what to write or burning time repurposing
         content for each channel. When you cannot afford to waste resources on blogs that never rank,
-        Semrush’s search intelligence and&nbsp;<GlossaryLink slug="content-repurposing" className="text-[#0B162A] hover:underline">content
-        repurposing</GlossaryLink>&nbsp;tools help you create and adapt content that matches both what your
+        Semrush’s search intelligence and&nbsp;content
+        repurposing&nbsp;tools help you create and adapt content that matches both what your
         audience wants and what search engines reward. If you are not interested in ranking or expanding your
         digital footprint, and your content is only for current clients, the full stack of Semrush features
         may be more than you need.</p>
@@ -82,7 +81,7 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-intelligent-content-planning-is-the-right-move-and-when-it-is-not" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-intelligent-content-planning-is-the-right-move-and-when-it-is-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Intelligent Content Planning Is the Right Move, and When It Is Not
               </h2>
               {body}

@@ -15,11 +15,12 @@ import FaqSection from "@/components/tools/marketing/content-creation-workflow/i
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Anyword";
 const PAGE_TITLE = "Anyword for Intelligent Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and more affordably.";
+    "Intelligent Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and for less.";
 const CANONICAL = "/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -78,14 +79,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

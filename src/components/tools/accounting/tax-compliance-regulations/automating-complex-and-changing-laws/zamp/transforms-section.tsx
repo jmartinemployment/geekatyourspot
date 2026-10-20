@@ -1,10 +1,9 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Zamp transforms&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;from a
+        Zamp transforms&nbsp;tax compliance&nbsp;from a
         burdensome task into a streamlined process, effectively removing the need for business owners to spend
         countless hours on tax-related issues. By automating and managing sales tax compliance, Zamp allows
         businesses to reclaim valuable time and resources.</p>
@@ -30,7 +29,7 @@ export default function TransformsSection() {
         a clear and accurate view of their tax obligations.</p>
       <blockquote cite="https://zamp.com/compare/zamp-vs-taxjar" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
         Zamp is an intelligent sales tax platform with a built-in managed service for end-to-end
-        compliance—saving teams time, money, and risk.</blockquote>
+        compliance, saving teams time, money, and risk.</blockquote>
     </>
   );
 
@@ -54,7 +53,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="streamlining-compliance-with-zamp-what-it-removes-from-your-week" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="streamlining-compliance-with-zamp-what-it-removes-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Streamlining Compliance with Zamp: What It Removes from Your Week
               </h2>
               {body}

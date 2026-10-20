@@ -87,7 +87,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxcloud-removes-the-pain-of-multi-state-sales-tax-nexus-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxcloud-removes-the-pain-of-multi-state-sales-tax-nexus-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxCloud Removes the Pain of Multi-State Sales Tax Nexus for Small Businesses
               </h2>
               {body}

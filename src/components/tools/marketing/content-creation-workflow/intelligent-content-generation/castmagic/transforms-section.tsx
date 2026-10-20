@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Castmagic is built to end the cycle of wasted recordings and manual content creation. For a small
@@ -40,7 +40,7 @@ export default function TransformsSection() {
         afternoon. Imports run as background jobs, so you do not have to babysit the process.</p>
       <p className="text-md text-white shadow-text pt-3">
         Castmagic integrates with the tools you already use, Google Drive, Zoom, RSS feeds, YouTube, Vimeo,
-        Reels,&nbsp;<Link id="tools-marketing-intelligent-content-generation-castmagic-transforms-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>, and more. This means you do not have to build a new workflow from scratch. Drop a file
+        Reels,&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-transforms-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>, and more. This means you do not have to build a new workflow from scratch. Drop a file
         or a link, and the content is ready for review. You can export transcripts as TXT, SRT, VTT, CSV, or
         formatted Word documents, making it easy to use them for captions, accessibility, or further editing.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -90,7 +90,7 @@ export default function TransformsSection() {
                 What Castmagic Removes from Your Week with Intelligent Content Generation
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +99,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-castmagic-removes-from-your-week-with-intelligent-content-generation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-castmagic-removes-from-your-week-with-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Castmagic Removes from Your Week with Intelligent Content Generation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataIntegrationSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A real Intelligent Resource Planning solution lives and dies on the quality and completeness of its
-        data. You cannot automate&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;or resource planning if your systems only talk once a month, or if half
+        data. You cannot automate&nbsp;cash flow
+        forecasting&nbsp;or resource planning if your systems only talk once a month, or if half
         the numbers live in a spreadsheet no one trusts. The right foundation is not a wish list of features, it
         is a clear map of what must connect, and what data must flow, so the business gets a live, reliable
         picture every day.</p>
@@ -27,7 +26,7 @@ export default function DataIntegrationSection() {
         can react before a cash pinch becomes a crisis.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next layer is scenario planning and rolling forecasts. Jirav stands out by connecting
-        payroll,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and expense data to its driver-based models.
+        payroll,&nbsp;CRM, and expense data to its driver-based models.
         This lets you model what happens if you hire a new salesperson next month, or if a major client pays 30
         days late. Jirav’s integration goes beyond just pulling numbers; it recalibrates forecasts as new
         actuals come in, so you are never stuck with a static plan that is out of date by the time the month
@@ -45,8 +44,8 @@ export default function DataIntegrationSection() {
       <p className="text-md text-white shadow-text pt-3">
         What matters is not just connecting systems, but connecting the right data, at the right frequency, with
         no manual handoffs. Every credible rollout starts with a
-        full&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. This means
-        checking that every system, accounting, payroll,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        full&nbsp;data quality&nbsp;assessment. This means
+        checking that every system, accounting, payroll,&nbsp;CRM,
         banking, can export or sync the data you need, in a format your planning tool can read. It means
         cleaning up old records, standardizing categories, and validating that what is in QuickBooks matches
         what is in your bank. Where possible, integrations should be tested in a sandbox first, so any mapping
@@ -55,14 +54,14 @@ export default function DataIntegrationSection() {
         For a team still living in spreadsheets, the first time all this data comes together can be eye-opening,
         and sometimes uncomfortable. You may find duplicate vendors, old invoices that never got cleared, or
         categories that do not line up. That is normal, and it is why
-        the&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;phase is not just a box to
+        the&nbsp;data quality&nbsp;phase is not just a box to
         tick, but a real operational filter. The tools, Jirav, Take the Helm, Cashflowfrog, Fathom, and
         QuickBooks, do not fix bad data by themselves. They automate what you already track; the work is making
         sure what you track is right.</p>
       <p className="text-md text-white shadow-text pt-3">
         In short: if your environment cannot provide live, accurate accounting data, open receivables and
         payables, payroll schedules, and (where
-        relevant)&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or sales pipeline data, then true
+        relevant)&nbsp;CRM&nbsp;or sales pipeline data, then true
         Intelligent Resource Planning is not just hard, it is impossible. Integration is not about checking a
         feature box. It is about eliminating the lag, double entry, and uncertainty that keep you guessing
         instead of planning. The businesses that get this right see the value in hours saved, errors avoided,
@@ -89,7 +88,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-data-and-integration-are-needed-for-true-real-time-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-and-integration-are-needed-for-true-real-time-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data and Integration Are Needed for True Real-Time Planning
               </h2>
               {body}

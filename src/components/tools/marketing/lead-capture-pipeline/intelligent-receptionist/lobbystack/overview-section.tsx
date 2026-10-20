@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         It is a Tuesday morning in Miami. The phone rings at a small plumbing company, once, twice, three times,
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         fit your business, or keep sensitive data where you want it. Each new customer means more vendor
         lock-in, less flexibility, and higher switching costs if your needs change.</p>
       <p className="text-md text-white shadow-text pt-3">
-        An&nbsp;<Link id="tools-marketing-intelligent-receptionist-lobbystack-overview-intelligent-receptionist" href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the equation. Instead of letting leads slip away or tying your hands
+        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-lobbystack-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the equation. Instead of letting leads slip away or tying your hands
         with a generic script, it gives small businesses full control over how calls are answered, how
         information is gathered, and how every opportunity is handled. You decide what happens when a customer
         needs urgent help, wants to book an appointment, or just has a simple question. You can update answers,
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

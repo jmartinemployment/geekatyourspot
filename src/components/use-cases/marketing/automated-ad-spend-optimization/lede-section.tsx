@@ -52,7 +52,7 @@ export default function LedeSection() {
               AI-powered tools like&nbsp;
               <strong>Advantage</strong>&nbsp;and&nbsp;
               <strong>Omneky</strong>&nbsp;offer a solution to these challenges. By automating key aspects of ad management, these tools enable
-              businesses to make smarter, data-driven decisions. They use <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to analyze vast amounts of
+              businesses to make smarter, data-driven decisions. They use machine learning algorithms to analyze vast amounts of
               data in real-time, allowing for dynamic bid adjustments and more accurate targeting.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="dynamic-bidding-strategies">Dynamic Bidding Strategies</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">

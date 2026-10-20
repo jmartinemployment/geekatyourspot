@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -7,7 +6,7 @@ export default function DataMappingSection() {
         Getting Dapta to deliver clean, actionable leads depends on making the right data structure and
         mapping decisions at the start. The platform’s promise is that every inquiry, whether it comes in by
         phone, chat, or WhatsApp, lands as a structured, qualified record in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or calendar. That only happens if you
+        your&nbsp;CRM&nbsp;or calendar. That only happens if you
         define what fields matter, how they map across channels, and what counts as a qualified lead for your
         business.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -19,11 +18,11 @@ export default function DataMappingSection() {
         urgency. This upfront mapping ensures that every channel, whether a WhatsApp message or a phone call,
         collects the same essential details, so nothing gets lost or duplicated.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next is mapping these fields to your existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
+        Next is mapping these fields to your existing&nbsp;CRM&nbsp;or
         booking system. Dapta’s integrations with tools like HubSpot, Salesforce, and Google Calendar allow
         you to specify exactly where each piece of information should land. For example, a new lead captured
         on web chat can be mapped to a &quot;New Inquiry&quot; pipeline stage in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, with all conversation details attached.
+        your&nbsp;CRM, with all conversation details attached.
         Appointment times are synced directly to your team’s calendars, and reminders can be set to trigger
         automatically. If your business uses multiple systems, Dapta’s support for over 1,000 integrations
         means you can route data to the right place without manual handoff.</p>
@@ -77,7 +76,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-data-structure-and-mapping-decisions-that-make-or-break-a-dapta-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-data-structure-and-mapping-decisions-that-make-or-break-a-dapta-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data Structure and Mapping Decisions That Make or Break a Dapta Deployment
               </h2>
               {body}

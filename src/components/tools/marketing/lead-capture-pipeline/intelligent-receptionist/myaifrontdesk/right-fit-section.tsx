@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk is designed for small businesses that cannot afford to miss a call, lose a lead, or tie
@@ -28,15 +28,15 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         The tool also fits best where your existing systems are digital and cloud-based. If you run your
         calendar on Google, Outlook, or Calendly, and
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is HubSpot, Salesforce, Pipedrive, or Zoho,
+        your&nbsp;CRM&nbsp;is HubSpot, Salesforce, Pipedrive, or Zoho,
         setup is fast. If you rely on paper logs, handwritten appointment books, or have
-        no&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;at all, you will need to modernize those basics
+        no&nbsp;CRM&nbsp;at all, you will need to modernize those basics
         first. My AI Front Desk does not build a digital foundation for you, it plugs into what is already
         there.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams with strict compliance requirements, medical, legal, financial, My AI Front Desk is built with
         privacy and data handling in mind. It supports logging, transcripts, and summaries to
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and the AI does not improvise answers. You
+        your&nbsp;CRM, and the AI does not improvise answers. You
         control what it says, what it can book, and what information it shares. If you need full HIPAA
         compliance or custom workflows for sensitive data, review the platform’s documentation and consult with
         Geek @ Your Spot LLC to confirm fit before deploying.</p>
@@ -50,7 +50,7 @@ export default function RightFitSection() {
         Next steps depend on where you are. If you are still running everything by hand or relying on voicemail,
         map your current process: when do you miss calls, what kinds of questions eat up your day, and how often
         do you lose a lead to slow response? If you already use
-        a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or digital calendar, list your must-have
+        a&nbsp;CRM&nbsp;or digital calendar, list your must-have
         integrations and workflows. Bring these to your first session with Geek @ Your Spot LLC. Their methodology
         starts with a free consultation, a four-phase plan, and a focus on fitting the right AI to your
         business, not the other way around. They will walk you
@@ -64,7 +64,7 @@ export default function RightFitSection() {
         AI Front Desk is worth a close look.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-intelligent-receptionist-myaifrontdesk-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
@@ -73,7 +73,7 @@ export default function RightFitSection() {
         <li>What is the exact sequence of events that needs to happen when a new client calls to book an appointment or request a service?</li>
         <li>Which calendar or scheduling platform do you use, and do you require the AI to write appointments directly to it?</li>
         <li>What percentage of your inbound calls are just repetitive questions regarding your location, operating hours, pricing tier, or basic services?</li>
-        <li>What Customer Relationship Management (<GlossaryLink slug="crm">CRM</GlossaryLink>), billing, or field service management software does your business rely on daily?</li>
+        <li>What Customer Relationship Management (CRM), billing, or field service management software does your business rely on daily?</li>
         <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
         <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
         <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
@@ -96,7 +96,7 @@ export default function RightFitSection() {
                 Who My AI Front Desk Is For, Who It Is Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -105,10 +105,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-my-ai-front-desk-is-for-who-it-is-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-my-ai-front-desk-is-for-who-it-is-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who My AI Front Desk Is For, Who It Is Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

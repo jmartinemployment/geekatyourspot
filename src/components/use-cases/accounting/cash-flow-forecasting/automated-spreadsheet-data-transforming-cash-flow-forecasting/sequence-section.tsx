@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function SequenceSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Rolling out an automated&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;system involves a structured sequence of steps tailored to ensure a smooth
+        Rolling out an automated&nbsp;cash flow
+        forecasting&nbsp;system involves a structured sequence of steps tailored to ensure a smooth
         transition from manual processes to automated efficiency. For businesses in Miami-Dade, Broward, and West
         Palm Beach counties, following a clear roadmap can drastically reduce the time and effort required to
         achieve full implementation.</p>
@@ -57,7 +56,7 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-sequence-of-implementing-automated-cash-flow-forecasting" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-sequence-of-implementing-automated-cash-flow-forecasting-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Sequence of Implementing Automated Cash Flow Forecasting
               </h2>
               {body}

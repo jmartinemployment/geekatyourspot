@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill revolutionizes Automated Payment Execution by removing the manual tasks that traditionally burden
@@ -10,7 +9,7 @@ export default function TransformsSection() {
         This means fewer hours spent on repetitive tasks and more time for strategic initiatives.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of Bill&#39;s standout features is its ability to automate invoice entry with&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;assistance. This capability significantly cuts
+        AI&nbsp;assistance. This capability significantly cuts
         processing time, allowing businesses to handle more invoices without increasing their workload. By
         automating this process, Bill reduces the risk of errors associated with manual data entry, ensuring
         that businesses maintain accurate financial records.</p>
@@ -34,7 +33,7 @@ export default function TransformsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Save time and gain more control by streamlining and customizing your AP approval groups and
         policies.&quot;&nbsp;
-        <a id="tools-accounting-payment-execution-bill-transforms-source"
+        <a id={`tools-accounting-payment-execution-bill-transforms-source${idSuffix}`}
           href="https://www.bill.com/product/payment-approvals"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill
@@ -53,7 +52,7 @@ export default function TransformsSection() {
                 How Bill Transforms Automated Payment Execution
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -62,10 +61,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-payment-execution">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-payment-execution-lg">
                 How Bill Transforms Automated Payment Execution
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

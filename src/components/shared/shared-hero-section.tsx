@@ -61,7 +61,7 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
               </p>
               <div className="pt-6">
                 <Link
-                id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
+                id={`${gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}-lg`}
                 href="#consultationAppointment2xl"
                 className="btn btn-primary"
               >

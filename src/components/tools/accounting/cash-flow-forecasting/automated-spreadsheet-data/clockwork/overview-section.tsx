@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every month, small business owners and fractional CFOs find themselves buried in a &quot;spreadsheet
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         forward, they&#39;re stuck reconciling rows and columns, often leading to errors and outdated information
         that can derail financial planning.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Imagine a world where automated&nbsp;<Link id="tools-accounting-spreadsheet-data-clockwork-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;handles these tasks for you. This is where Clockwork comes
+        Imagine a world where automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-clockwork-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;handles these tasks for you. This is where Clockwork comes
         in. By integrating directly with your financial systems, Clockwork eliminates the need for manual data entry
         and formula maintenance. It automatically generates a 52-week cash flow forecast and a 5-year financial
         model from your existing data. This allows you to focus on what truly matters: analyzing numbers, making
@@ -31,7 +31,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -40,10 +40,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

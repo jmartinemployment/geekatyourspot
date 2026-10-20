@@ -77,7 +77,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-marketmuse-compares-to-other-content-planning-approaches-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-marketmuse-compares-to-other-content-planning-approaches-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How MarketMuse Compares to Other Content Planning Approaches for Small Teams
               </h2>
               {body}

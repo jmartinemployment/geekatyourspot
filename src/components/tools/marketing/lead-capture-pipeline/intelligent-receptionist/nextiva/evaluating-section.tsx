@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -24,7 +23,7 @@ export default function EvaluatingSection() {
         Fit is also about how quickly you can get value from the system. Nextiva’s setup does not require
         technical skills or a dedicated IT person. The platform is configured through a dashboard, and most
         businesses can go live in minutes to hours. If you have more complex needs, like integrating with
-        a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        a&nbsp;CRM&nbsp;or
         running HIPAA-compliant workflows, expect a few weeks for proper mapping and testing, but this is still
         much faster than hiring and training a new receptionist. The key is that Nextiva does not force you to
         change your business to fit its model; it adapts to your hours, your appointment types, your escalation
@@ -76,7 +75,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-nextiva-fit-pricing-and-what-matters-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-nextiva-fit-pricing-and-what-matters-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Nextiva: Fit, Pricing, and What Matters for Small Teams
               </h2>
               {body}

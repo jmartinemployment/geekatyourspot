@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -8,7 +7,7 @@ export default function ConfiguringSection() {
         business. This involves setting up approval chains, routing financial data efficiently, and creating
         automation logic that streamlines operations. These configurations are key to maximizing Clockwork&#39;s
         potential and ensuring it functions seamlessly within your existing systems. Geek @ Your Spot LLC, with its
-        expertise in&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;implementation, ensures that these
+        expertise in&nbsp;AI&nbsp;implementation, ensures that these
         configurations are optimized for your environment, saving you time and reducing errors.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the first steps in configuring Clockwork is setting up approval chains. This means defining who needs
@@ -55,7 +54,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-clockwork-approval-chains-routing-and-automation-logic">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-clockwork-approval-chains-routing-and-automation-logic-lg">
                 Configuring Clockwork: Approval Chains, Routing, and Automation Logic
               </h2>
               {body}

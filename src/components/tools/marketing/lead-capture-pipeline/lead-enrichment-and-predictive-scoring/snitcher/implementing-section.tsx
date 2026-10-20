@@ -19,14 +19,14 @@ export default function ImplementingSection() {
         The process Geek @ Your Spot LLC follows starts with a focused discovery session. Here, the team looks at
         your sales and marketing stack to confirm which CRMs, outreach tools, and chat platforms you already
         use. Snitcher’s pre-built connectors cover HubSpot, Salesforce, Pipedrive,
-        Zoho&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Slack, Zapier, and more. This means no
+        Zoho&nbsp;CRM, Slack, Zapier, and more. This means no
         custom&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;work or expensive middleware. Instead,
         Geek @ Your Spot LLC maps out the right integrations and moves straight to connecting Snitcher to your
         existing tools.</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Discovery: Audit your current systems (<GlossaryLink slug="crm">CRM</GlossaryLink>,&nbsp;<GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink>, chat, analytics).</li>
+        <li>Discovery: Audit your current systems (CRM,&nbsp;marketing automation, chat, analytics).</li>
         <li>Setup: Drop Snitcher’s tracking code into your website’s header.</li>
-        <li>Integration: Connect Snitcher to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and communication tools with pre-built connectors.</li>
+        <li>Integration: Connect Snitcher to your&nbsp;CRM&nbsp;and communication tools with pre-built connectors.</li>
         <li>Configuration: Set up notification rules,&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;criteria, and routing logic (handled in later sections).</li>
         <li>Go live: Monitor the first day’s data and adjust filters to eliminate noise or irrelevant traffic.</li>
       </ol>
@@ -76,7 +76,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-snitcher-goes-live-speed-steps-and-what-makes-it-different" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-snitcher-goes-live-speed-steps-and-what-makes-it-different-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Snitcher Goes Live: Speed, Steps, and What Makes It Different
               </h2>
               {body}

@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar offers a robust suite of features designed to
-        automate&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>, making it a vital tool
+        automate&nbsp;tax compliance, making it a vital tool
         for small businesses dealing with complex and changing tax laws. Configuring TaxJar involves setting up
         its automation logic and rules to ensure accurate and efficient tax calculations and filings.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -13,7 +12,7 @@ export default function ConfiguringSection() {
         assigning the correct product tax codes, which TaxJar supports with its deep product tax code coverage.
         By accurately categorizing products, businesses can avoid compliance issues and ensure that they are
         collecting the correct amount of sales tax.
-        TaxJar&#39;s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;and calculation engine apply
+        TaxJar&#39;s&nbsp;API&nbsp;and calculation engine apply
         rooftop-accurate rates, taking into account the customer&#39;s specific location down to the district
         level. This precision is crucial for businesses operating in multiple jurisdictions with varying tax
         rates.</p>
@@ -25,9 +24,9 @@ export default function ConfiguringSection() {
         potential fines associated with it.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses with unique needs, TaxJar offers customization through
-        its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. This allows for the integration of TaxJar&#39;s
+        its&nbsp;API. This allows for the integration of TaxJar&#39;s
         platform with custom-built shopping carts or direct web sales solutions. By leveraging
-        the&nbsp;<GlossaryLink slug="api">API</GlossaryLink>, businesses can tailor the tax compliance process
+        the&nbsp;API, businesses can tailor the tax compliance process
         to fit their specific operational requirements, ensuring that TaxJar works seamlessly with their
         existing systems.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -57,7 +56,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-taxjar-for-seamless-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-taxjar-for-seamless-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring TaxJar for Seamless Automation
               </h2>
               {body}

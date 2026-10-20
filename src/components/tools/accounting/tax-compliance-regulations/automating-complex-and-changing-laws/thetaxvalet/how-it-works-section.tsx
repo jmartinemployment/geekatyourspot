@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxValet is designed to simplify
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;for small businesses by automating complex processes. It begins with a
+        sales&nbsp;tax
+        compliance&nbsp;for small businesses by automating complex processes. It begins with a
         thorough nexus analysis, identifying where your business has tax obligations. This step ensures that no
         state is overlooked, helping you avoid penalties for non-compliance. Once nexus is determined, TaxValet
         handles permit registrations and filings across all relevant jurisdictions. This comprehensive approach
@@ -49,7 +48,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-taxvalet-operates-a-step-by-step-breakdown" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxvalet-operates-a-step-by-step-breakdown-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxValet Operates: A Step-by-Step Breakdown
               </h2>
               {body}

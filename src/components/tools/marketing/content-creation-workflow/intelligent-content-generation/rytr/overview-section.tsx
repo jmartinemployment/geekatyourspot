@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Picture a local Miami salon owner, already working twelve-hour days, staring at a blank screen after
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         lost leads, missed follow-ups, and the creeping sense that bigger competitors are always one step
         ahead.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-intelligent-content-generation-rytr-overview-intelligent-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wrestling with every caption or
+        <Link id={`tools-marketing-intelligent-content-generation-rytr-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wrestling with every caption or
         email, owners use AI tools to draft, repurpose, and schedule content in minutes. The right workflow
         means never starting from scratch: one strong idea turns into a month’s worth of posts, emails, and
         updates, all tailored for each channel. For the smallest operations, those producing just a handful of
@@ -47,7 +47,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

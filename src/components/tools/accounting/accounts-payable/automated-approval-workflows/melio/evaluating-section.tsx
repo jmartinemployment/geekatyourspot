@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the right tool for Automated Approval Workflows involves understanding Melio&#39;s fit for
         your business. Melio is designed specifically for US businesses, offering end-to-end&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;automation. It simplifies
+        accounts payable&nbsp;automation. It simplifies
         the approval process by routing invoices automatically, reducing the need for manual follow-ups. This
         automation is crucial for businesses looking to minimize errors and streamline operations.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -18,7 +17,7 @@ export default function EvaluatingSection() {
         By automating tasks and reducing manual intervention, Melio can help lower operational costs over
         time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        When considering adjacent approaches, businesses might also evaluate other tools like&nbsp;<Link id="tools-accounting-approval-workflows-melio-evaluating-approvalmax" href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>,&nbsp;<Link id="tools-accounting-approval-workflows-melio-evaluating-ramp" href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">Ramp</Link>, and&nbsp;<Link id="tools-accounting-approval-workflows-melio-evaluating-bill" href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>. Each of these tools offers unique features that could complement or compete with
+        When considering adjacent approaches, businesses might also evaluate other tools like&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>,&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-ramp${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">Ramp</Link>, and&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>. Each of these tools offers unique features that could complement or compete with
         Melio. For instance, ApprovalMax provides multi-level and customizable approval processes, which can
         be a significant advantage for businesses with complex approval hierarchies. Ramp offers real-time
         tracking and compliance checks, enhancing visibility and control over financial operations.</p>
@@ -49,7 +48,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +56,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-melio-for-your-business-needs">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-melio-for-your-business-needs-lg">
                 Evaluating Melio for Your Business Needs
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

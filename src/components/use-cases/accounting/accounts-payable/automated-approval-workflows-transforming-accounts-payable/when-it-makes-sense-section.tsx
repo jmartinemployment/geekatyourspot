@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function WhenItMakesSenseSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Deciding whether to implement automated approval workflows requires a careful assessment of your
@@ -9,11 +9,11 @@ export default function WhenItMakesSenseSection() {
         invoices processed and the manual effort involved. Businesses dealing with high invoice volumes and
         experiencing frequent approval delays are prime candidates for automation. This is where tools
         like&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-sense-bill"
+        <Link id={`use-cases-accounting-approval-workflows-sense-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-sense-ramp"
+        <Link id={`use-cases-accounting-approval-workflows-sense-ramp${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">
           Ramp
         </Link>&nbsp;come into play, offering streamlined workflows that reduce manual intervention and
@@ -44,7 +44,7 @@ export default function WhenItMakesSenseSection() {
         they do not hinder your business operations or cause significant inefficiencies.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="use-cases-accounting-approval-workflows-sense-consultation"
+        <Link id={`use-cases-accounting-approval-workflows-sense-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
@@ -54,7 +54,7 @@ export default function WhenItMakesSenseSection() {
         <li>Is there one central AP inbox, or do invoices go to different people and departments?</li>
         <li>Who enters invoice details into QuickBooks, Xero, or your accounting system?</li>
         <li>&ldquo;Invoice capture vs. AP automation: what does your business actually need?&rdquo;</li>
-        <li>&ldquo;Can invoice software read every line—or just the total?&rdquo;</li>
+        <li>&ldquo;Can invoice software read every line, or just the total?&rdquo;</li>
         <li>&ldquo;Who checks an invoice when AI gets it wrong?&rdquo;</li>
         <li>&ldquo;Does your invoice tool create a reviewable bill or post directly to accounting?&rdquo;</li>
         <li>&ldquo;What does automated invoice processing really cost once line-item credits are included?&rdquo;</li>
@@ -77,7 +77,7 @@ export default function WhenItMakesSenseSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -85,10 +85,10 @@ export default function WhenItMakesSenseSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-automated-approval-workflows-make-sense-for-your-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-automated-approval-workflows-make-sense-for-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Automated Approval Workflows Make Sense for Your Business
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

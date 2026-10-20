@@ -5,7 +5,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Going live with Cashflowfrog in a small business setting means less waiting, less manual work, and fewer
-        surprises than traditional&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;rollouts. The process
+        surprises than traditional&nbsp;ERP&nbsp;rollouts. The process
         is designed around speed and reliability, not months of custom coding or endless back-and-forth with IT.
         Here’s how the transition actually unfolds when Geek @ Your Spot LLC handles the implementation for a South
         Florida small business.</p>
@@ -59,7 +59,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In summary, going live with Cashflowfrog is a matter of connecting, reviewing, and refining, not
         building from scratch. The platform’s pre-built integrations, automated data sync, and templated
-        onboarding cut weeks off the typical&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;deployment
+        onboarding cut weeks off the typical&nbsp;ERP&nbsp;deployment
         timeline. Geek @ Your Spot LLC’s role is to make sure the data flows cleanly, the mapping reflects the real
         business, and the team is ready to act on what the forecasts reveal. There’s no long blackout period,
         and no need to hire extra staff just to get started. The result is a live, accurate cash flow view that
@@ -86,7 +86,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-takes-to-go-live-with-cashflowfrog-in-a-real-world-small-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-takes-to-go-live-with-cashflowfrog-in-a-real-world-small-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Takes to Go Live With Cashflowfrog in a Real-World Small Business Environment
               </h2>
               {body}

@@ -69,7 +69,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="rolling-out-semrush-what-shortens-go-live-and-the-real-steps-involved" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="rolling-out-semrush-what-shortens-go-live-and-the-real-steps-involved-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Rolling Out Semrush: What Shortens Go-Live and the Real Steps Involved
               </h2>
               {body}

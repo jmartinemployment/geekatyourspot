@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -15,7 +14,7 @@ export default function ChallengesSection() {
         often leads to inconsistencies in details, making it difficult to track and reconcile payments
         accurately. Additionally, staff may inadvertently process an invoice with a duplicate number without
         realizing it, further complicating the&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process. These errors not only
+        accounts payable&nbsp;process. These errors not only
         waste money but also consume valuable time that could be better spent on strategic business
         activities.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -58,7 +57,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="challenges-with-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="challenges-with-automated-fraud-duplicate-payment-controls-lg">
                 Challenges with Automated Fraud &amp; Duplicate Payment Controls
               </h2>
               {body}

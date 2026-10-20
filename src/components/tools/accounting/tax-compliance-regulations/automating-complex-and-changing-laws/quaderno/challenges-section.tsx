@@ -29,7 +29,7 @@ export default function ChallengesSection() {
         errors, diverting resources away from growth-oriented activities.</p>
       <p className="text-md text-white shadow-text pt-3">
         Quaderno offers a solution to these challenges by automating the
-        entire&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;cycle. It sits
+        entire&nbsp;tax compliance&nbsp;cycle. It sits
         quietly behind your payment gateway, instantly generating legally compliant international invoices and
         tracking global limits. This allows small software and digital teams to focus on their core activities
         rather than being bogged down by tax code complexities. By integrating seamlessly with popular platforms
@@ -57,7 +57,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-challenges-of-navigating-complex-and-changing-tax-laws" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-challenges-of-navigating-complex-and-changing-tax-laws-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Challenges of Navigating Complex and Changing Tax Laws
               </h2>
               {body}

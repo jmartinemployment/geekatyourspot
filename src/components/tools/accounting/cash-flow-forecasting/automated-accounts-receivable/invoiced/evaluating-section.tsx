@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -23,7 +22,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Another factor to weigh is Invoiced&#39;s ability to automate and streamline the invoice-to-cash process.
         Its automation features, such
-        as&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven
+        as&nbsp;AI-driven
         collections sequences and real-time payment matching, provide significant operational efficiencies. For
         small businesses, this means reduced days sales outstanding (DSO) and improved cash flow, which are critical
         for maintaining liquidity and supporting growth.</p>
@@ -54,7 +53,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-invoiced-fit-and-pricing-model">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-invoiced-fit-and-pricing-model-lg">
                 Evaluating Invoiced: Fit and Pricing Model
               </h2>
               {body}

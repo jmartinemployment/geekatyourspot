@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -25,8 +24,8 @@ export default function DataMappingSection() {
         coding consistent ensures forecasts stay accurate and trends are meaningful.</p>
       <p className="text-md text-white shadow-text pt-3">
         Receivables and payables mapping is where many small businesses stumble. Take the Helm lets users view
-        accounts receivable and&nbsp;<GlossaryLink slug="accounts-payable">accounts
-        payable</GlossaryLink>&nbsp;by age, by contact, or by average days to pay, calculated from historical
+        accounts receivable and&nbsp;accounts
+        payable&nbsp;by age, by contact, or by average days to pay, calculated from historical
         data. This means the system does not just show what is due; it predicts when each client or vendor will
         actually pay based on their past behavior. For this to work, invoice dates and payment terms must be
         accurate in the accounting system. If old invoices are left open or payment terms are set
@@ -95,7 +94,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-data-structure-and-mapping-decisions-shape-take-the-helm-s-value-from-day-one" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-data-structure-and-mapping-decisions-shape-take-the-helm-s-value-from-day-one-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Data Structure and Mapping Decisions Shape Take the Helm’s Value from Day One
               </h2>
               {body}

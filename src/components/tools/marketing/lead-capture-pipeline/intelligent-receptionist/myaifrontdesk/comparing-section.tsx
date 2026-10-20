@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -44,7 +43,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Where other tools stop at message taking, My AI Front Desk qualifies leads, books appointments live on
         your existing calendar (Google, Outlook, Calendly), and syncs every conversation to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. For
+        your&nbsp;CRM. For
         routine questions, hours, directions, pricing, the AI answers from your content, not a generic script.
         If the query is complex or needs a human touch, the AI escalates the call or chat with the full
         conversation history attached, so your team picks up with all the context.</p>
@@ -89,7 +88,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="where-my-ai-front-desk-stands-against-traditional-answering-services-live-receptionists-and-other-ai-tools" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="where-my-ai-front-desk-stands-against-traditional-answering-services-live-receptionists-and-other-ai-tools-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Where My AI Front Desk Stands Against Traditional Answering Services, Live Receptionists, and Other AI Tools
               </h2>
               {body}

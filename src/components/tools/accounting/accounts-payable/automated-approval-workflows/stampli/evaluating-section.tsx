@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering Stampli for automating your approval workflows, the fit for your business is crucial.
         Stampli excels in streamlining&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;(AP) processes,
+        accounts payable&nbsp;(AP) processes,
         particularly for small businesses looking to reduce manual workload. It offers dynamic approval
         workflows that adapt to your existing systems without overwhelming your team with complexity. This
         adaptability is key for businesses that want to maintain flexibility while enhancing efficiency.</p>
@@ -21,7 +20,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         In evaluating Stampli, it&#39;s also essential to compare it with other tools that offer automated
         approval workflows. While Stampli provides robust features like configurable invoice approval routing
-        and AI-powered invoice processing, tools like&nbsp;<Link id="tools-accounting-approval-workflows-stampli-evaluating-approvalmax" href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id="tools-accounting-approval-workflows-stampli-evaluating-bill" href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer competitive solutions.
+        and AI-powered invoice processing, tools like&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer competitive solutions.
         These alternatives might focus more on specific integrations or feature sets, so understanding your
         business&#39;s unique needs is key to making the right choice.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -50,7 +49,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -58,10 +57,10 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-stampli-for-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-stampli-for-automated-approval-workflows-lg">
                 Evaluating Stampli for Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

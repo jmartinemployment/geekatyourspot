@@ -1,5 +1,5 @@
 export default function ManualBookkeepingChallengesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For small and medium-sized businesses, managing bookkeeping manually can be a daunting task. The
@@ -28,7 +28,7 @@ export default function ManualBookkeepingChallengesSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;AI is reshaping accounting fast by changing client expectations and making automation essential
         for firms that want to stay competitive.&quot;&nbsp;
-        <a id="tools-accounting-dext-challenges-source"
+        <a id={`tools-accounting-dext-challenges-source${idSuffix}`}
           href="https://dext.com/us/blog/single/ai-and-automation-in-accounting-how-to-build-a-smarter-scalable-practice-with-dext"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Dext
@@ -47,7 +47,7 @@ export default function ManualBookkeepingChallengesSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function ManualBookkeepingChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-bookkeeping-processes">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-bookkeeping-processes-lg">
                 The Challenges of Manual Bookkeeping Processes
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -6,13 +5,13 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Deploying Bill in a business environment involves several key steps that Geek @ Your Spot LLC expertly
         manages to ensure a smooth transition. One of the first steps is mapping out the existing&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;processes
+        accounts payable&nbsp;processes
         to identify areas where Bill can add the most value. This includes analyzing current workflows,
         identifying bottlenecks, and understanding the specific needs of the business. By doing so, Geek @ Your Spot LLC can configure Bill to align with the organization&#39;s unique requirements.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration is a critical part of implementing Bill, and Geek @ Your Spot LLC leverages Bill&#39;s
         robust&nbsp;
-        <GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;to
+        API&nbsp;to
         connect it with existing financial systems like QuickBooks Online and Xero. This integration ensures
         that all financial data is synchronized, reducing the need for manual data entry and minimizing
         errors. The seamless data flow between systems means that businesses can maintain accurate financial
@@ -64,7 +63,7 @@ export default function ImplementingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-bill-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-bill-in-your-business-environment-lg">
                 Implementing Bill in Your Business Environment
               </h2>
               {body}

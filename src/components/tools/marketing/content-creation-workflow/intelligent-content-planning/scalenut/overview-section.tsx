@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A small marketing team in West Palm Beach sits at their desks, staring at a spreadsheet of keywords
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         recommendations entirely, because your content is not structured, fast or relevant enough for these
         models to find or trust.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-intelligent-content-planning-scalenut-overview-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
+        <Link id={`tools-marketing-intelligent-content-planning-scalenut-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
         predictive automation to map out exactly what your audience and AI engines are looking for, before a
         single word gets written. Content is planned, generated, repurposed and scheduled in bulk, freeing
         your team from the manual bottlenecks that drain time and budget. Structured workflows make sure every
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

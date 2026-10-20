@@ -90,7 +90,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="judging-adp-fit-flexibility-and-what-to-know-about-its-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="judging-adp-fit-flexibility-and-what-to-know-about-its-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Judging ADP: Fit, Flexibility, and What to Know About Its Pricing Model
               </h2>
               {body}

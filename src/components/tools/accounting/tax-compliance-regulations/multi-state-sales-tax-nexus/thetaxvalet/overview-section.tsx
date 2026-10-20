@@ -2,14 +2,14 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A South Florida business owner watches their online orders spike after landing a new wholesale partner
         and launching on two marketplaces at once. The growth feels like a win until the invoices start piling
         up and the first state notice lands in the mail. Suddenly, what seemed like a simple expansion turns
         into a maze of compliance: tracking sales volume and order counts for every state, sorting out which
-        platforms collect tax for them, and which do not. Each new sale risks crossing an invisible line, the&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-overview-multi-state-sales-tax-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold, that instantly creates filing and collection duties in states
+        platforms collect tax for them, and which do not. Each new sale risks crossing an invisible line, the&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold, that instantly creates filing and collection duties in states
         where they have never set foot.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is not a theoretical headache. Most states draw that line at $100,000 in revenue or 200 separate
@@ -50,7 +50,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -26,8 +26,8 @@ export default function HowItWorksSection() {
         sets roles, and continues using the same interface. As more data comes in, the system scales, handling
         approvals, automating repetitive work, and updating forecasts without slowing down.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
-        forecasting</GlossaryLink>, QuickBooks uses up-to-the-minute financial data. The platform pulls from all
+        For&nbsp;cash flow
+        forecasting, QuickBooks uses up-to-the-minute financial data. The platform pulls from all
         posted transactions, sales, bills, payroll, and inventory changes, to project future balances. These
         forecasts update as soon as new data enters the system, so the owner can see if payroll will clear next
         week or if a late-paying customer is about to cause a shortfall. This is not a static report built in
@@ -50,10 +50,10 @@ export default function HowItWorksSection() {
         higher risk of errors or fraud.</p>
       <p className="text-md text-white shadow-text pt-3">
         The end result is a financial workflow that adapts as your business grows. QuickBooks does not force a
-        disruptive&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;migration
+        disruptive&nbsp;ERP&nbsp;migration
         or a new interface. Instead, it layers automation, security, and forecasting onto the familiar tools
         your team already uses. For a small business ready to move past spreadsheets but not ready for a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, this
+        full&nbsp;ERP, this
         is how you get real Intelligent Resource Planning, step by step, with each process working together to
         save time, reduce risk, and keep the business in control.</p>
     </>
@@ -78,7 +78,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="every-step-inside-quickbooks-how-data-moves-approvals-flow-and-forecasts-update" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="every-step-inside-quickbooks-how-data-moves-approvals-flow-and-forecasts-update-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Every Step Inside QuickBooks: How Data Moves, Approvals Flow, and Forecasts Update
               </h2>
               {body}

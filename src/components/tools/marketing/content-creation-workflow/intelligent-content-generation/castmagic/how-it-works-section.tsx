@@ -69,7 +69,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-castmagic-turns-recordings-into-ready-to-use-content-assets" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-castmagic-turns-recordings-into-ready-to-use-content-assets-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Castmagic Turns Recordings into Ready-to-Use Content Assets
               </h2>
               {body}

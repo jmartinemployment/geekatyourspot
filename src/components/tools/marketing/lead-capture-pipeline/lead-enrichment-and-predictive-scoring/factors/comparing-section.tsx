@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -60,8 +59,8 @@ export default function ComparingSection() {
         the difference between another reporting tool and a platform that actually drives pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         If you want to see how these approaches work in practice, the publisher’s own Lead Capture Pipeline
-        page already covers the role of smart chatbots, AI-driven&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead
-        scoring</GlossaryLink>, and voice assistants in building a modern pipeline. Factors is the tool that
+        page already covers the role of smart chatbots, AI-driven&nbsp;lead
+        scoring, and voice assistants in building a modern pipeline. Factors is the tool that
         brings those strategies together, giving you one place to see, score, and act on every lead that
         matters.</p>
     </>
@@ -86,7 +85,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-factors-stacks-up-against-other-lead-enrichment-and-scoring-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-factors-stacks-up-against-other-lead-enrichment-and-scoring-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Factors Stacks Up Against Other Lead Enrichment and Scoring Approaches
               </h2>
               {body}

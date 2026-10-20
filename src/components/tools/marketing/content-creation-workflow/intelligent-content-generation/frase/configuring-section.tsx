@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -41,14 +40,14 @@ export default function ConfiguringSection() {
         of copying and pasting between tools, your team gets ready-to-schedule versions for each platform, all
         from one source.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Frase’s extension mechanism is its&nbsp;<GlossaryLink slug="api">API</GlossaryLink>. If your business
+        Frase’s extension mechanism is its&nbsp;API. If your business
         runs on custom scheduling tools or has a pipeline that needs content in a certain format, the
-        Frase&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;lets Geek @ Your Spot LLC wire the platform
+        Frase&nbsp;API&nbsp;lets Geek @ Your Spot LLC wire the platform
         directly into your stack. SERP analysis, brief building, drafting, publishing, and even reporting can
         be triggered and managed by your own systems. This is not required for most small business setups, but
         it is there for teams who want to automate even further or pull Frase’s data into their dashboards.
         For most clients, Geek @ Your Spot LLC handles
-        the&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;integration during setup, so you do not have
+        the&nbsp;API&nbsp;integration during setup, so you do not have
         to manage any code yourself.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real difference comes in how these rules and automations are tuned to your needs. Geek @ Your Spot LLC
@@ -87,7 +86,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-frases-rules-and-automation-logic-get-configured-for-small-business-content-workflows" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-frases-rules-and-automation-logic-get-configured-for-small-business-content-workflows-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Frase’s Rules and Automation Logic Get Configured for Small Business Content Workflows
               </h2>
               {body}

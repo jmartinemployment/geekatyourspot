@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Clockwork is designed with small to medium-sized businesses in mind, particularly those that utilize
@@ -13,7 +12,7 @@ export default function RightFitSection() {
         However, Clockwork may not be the best fit for every business. Companies that require only basic financial
         reporting or those that are not ready to move away from manual spreadsheet models may find Clockwork&#39;s
         comprehensive features more than they need. It&#39;s designed for businesses that want to
-        leverage&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;for deeper financial insights and are looking
+        leverage&nbsp;AI&nbsp;for deeper financial insights and are looking
         to streamline their forecasting processes.</p>
       <p className="text-md text-white shadow-text pt-3">
         For those businesses that do need the advanced capabilities Clockwork offers, the benefits are substantial.
@@ -32,7 +31,7 @@ export default function RightFitSection() {
         your business&#39;s financial health, Clockwork is a robust solution that can support these objectives.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="tools-accounting-spreadsheet-data-clockwork-right-fit-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id={`tools-accounting-spreadsheet-data-clockwork-right-fit-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -59,7 +58,7 @@ export default function RightFitSection() {
                 Is Clockwork Right for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -68,10 +67,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-clockwork-right-for-your-business">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-clockwork-right-for-your-business-lg">
                 Is Clockwork Right for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Most small businesses in South Florida know the pain of chasing a true cash position. The finance lead
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         constant scramble to cover shortfalls. That manual overhead costs more than time; it erodes trust in the
         numbers and the team.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-accounting-intelligent-resource-planning-cashflowfrog-overview-intelligent-resource-planning" href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;was built to end this cycle. It connects directly to accounting tools and
+        <Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;was built to end this cycle. It connects directly to accounting tools and
         banks, pulls in real transaction data, and runs live forecasts without manual entry. That means
         real-time visibility, always current numbers, and no more guessing about whether the business can afford
         next week&#39;s payroll. Instead of spending hours cleaning up the past, teams can plan the future,
@@ -50,7 +50,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -59,10 +59,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

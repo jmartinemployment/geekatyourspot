@@ -12,13 +12,13 @@ export default function ArchitectureSection() {
         businesses that might see order spikes or add new sales channels overnight.</p>
       <p className="text-md text-white shadow-text pt-3">
         At its core, TaxJar uses a
-        robust&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;layer
+        robust&nbsp;API&nbsp;layer
         to connect with a wide range of e-commerce platforms, ERPs, and marketplaces. Out-of-the-box
         integrations are available for Shopify, Salesforce, Amazon, Squarespace, Square, and Woo, among others.
         These integrations are certified and maintained by TaxJar’s own team, so businesses do not have to worry
         about compatibility issues or broken connections after a platform update. For unique workflows, TaxJar
         offers a
-        flexible&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;that
+        flexible&nbsp;API&nbsp;that
         allows custom connections to in-house systems or less common sales channels.</p>
       <p className="text-md text-white shadow-text pt-3">
         The architecture is not just about pulling data in. TaxJar’s calculation engine is built to handle
@@ -27,7 +27,7 @@ export default function ArchitectureSection() {
         city, county, and special district. Product tax codes and AI-driven categorization ensure that every
         item is taxed (or exempted) according to the latest rules in each state. This is critical for businesses
         selling digital goods
-        or&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>, where
+        or&nbsp;SaaS, where
         taxability can change with new legislation.</p>
       <p className="text-md text-white shadow-text pt-3">
         Security is built in at every level. TaxJar is compliant with GDPR and SOC II frameworks, and it uses
@@ -67,7 +67,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         For businesses with complex needs, TaxJar’s architecture supports custom integrations and advanced
         product mapping.
-        The&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;gives
+        The&nbsp;API&nbsp;gives
         developers access to all major functions, from real-time tax calculation to transaction retrieval and
         report generation. This means a business can extend TaxJar to fit unique workflows or integrate with
         in-house analytics, without losing the benefits of certified, out-of-the-box connectors for mainstream
@@ -102,7 +102,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-makes-taxjar-s-architecture-work-for-multi-state-e-commerce" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-makes-taxjar-s-architecture-work-for-multi-state-e-commerce-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Makes TaxJar’s Architecture Work for Multi-State E-Commerce
               </h2>
               {body}

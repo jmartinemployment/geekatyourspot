@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -7,8 +6,8 @@ export default function EvaluatingSection() {
         When considering Zamp for your business, it&#39;s essential to evaluate both its fit and its pricing
         model. Zamp is particularly well-suited for small businesses in Miami-Dade, Broward, and West Palm Beach
         counties that face
-        complex&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;challenges. Its ability to handle multi-state tax requirements makes it
+        complex&nbsp;tax
+        compliance&nbsp;challenges. Its ability to handle multi-state tax requirements makes it
         an ideal choice for businesses that operate across state lines.</p>
       <p className="text-md text-white shadow-text pt-3">
         Zamp&#39;s pricing model is designed to be predictable and scalable, accommodating the growth of your
@@ -55,7 +54,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="evaluating-zamp-fit-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="evaluating-zamp-fit-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating Zamp: Fit and Pricing Model
               </h2>
               {body}

@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing the
-        right&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;solution requires careful consideration of how well the tool fits your
+        right&nbsp;tax
+        compliance&nbsp;solution requires careful consideration of how well the tool fits your
         business needs and its pricing model. TaxCloud is designed to meet the needs of small to mid-sized
         businesses, particularly those operating in multi-state environments. Its comprehensive feature set
         makes it a strong contender for businesses looking to streamline their tax compliance processes.</p>
@@ -58,7 +57,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="evaluating-taxcloud-s-fit-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="evaluating-taxcloud-s-fit-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating TaxCloud&#39;s Fit and Pricing Model
               </h2>
               {body}

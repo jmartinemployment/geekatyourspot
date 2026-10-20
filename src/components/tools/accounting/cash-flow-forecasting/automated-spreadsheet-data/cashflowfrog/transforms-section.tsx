@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog changes the way businesses handle their financial forecasting by removing the manual burden of
@@ -27,13 +27,13 @@ export default function TransformsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Cash Flow Frog forecasts the same QuickBooks data daily and weekly too, up to three years out, so you
         can run a 13-week cash flow and see which week cash gets tight.&quot;&nbsp;
-        <a id="tools-accounting-spreadsheet-data-cashflowfrog-transforms-source"
+        <a id={`tools-accounting-spreadsheet-data-cashflowfrog-transforms-source${idSuffix}`}
           href="https://cashflowfrog.com/compare/quickbooks-cash-flow/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Cash Flow Frog
         </a></p>
       <p className="text-md text-white shadow-text pt-3">
-        Cashflowfrog&#39;s integration with tools like&nbsp;<Link id="tools-accounting-spreadsheet-data-cashflowfrog-transforms-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;assistants such as ChatGPT further streamlines
+        Cashflowfrog&#39;s integration with tools like&nbsp;<Link id={`tools-accounting-spreadsheet-data-cashflowfrog-transforms-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;assistants such as ChatGPT further streamlines
         operations. These integrations allow for automated projections and updates, reducing the need for constant
         manual oversight. By leveraging these technologies, businesses can maintain an accurate and dynamic view of
         their cash position, leading to better financial management and strategic planning.</p>
@@ -51,7 +51,7 @@ export default function TransformsSection() {
                 How Cashflowfrog Transforms Automated Spreadsheet Data
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -60,10 +60,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-cashflowfrog-transforms-automated-spreadsheet-data">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-cashflowfrog-transforms-automated-spreadsheet-data-lg">
                 How Cashflowfrog Transforms Automated Spreadsheet Data
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

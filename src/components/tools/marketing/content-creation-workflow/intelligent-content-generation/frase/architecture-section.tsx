@@ -15,8 +15,8 @@ export default function ArchitectureSection() {
         text from a prompt. It starts by actively pulling in live search results, real user questions, and
         competitor coverage. This data is parsed and structured into briefs and drafts that are always
         grounded in what the market is asking and what top-ranking pages are already delivering. The
-        system’s&nbsp;<GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data
-        model</GlossaryLink>&nbsp;tracks entities, gaps, and questions at every stage, so the workflow is
+        system’s&nbsp;data
+        model&nbsp;tracks entities, gaps, and questions at every stage, so the workflow is
         never just about word count, it is about coverage and authority.</p>
       <p className="text-md text-white shadow-text pt-3">
         Brand voice is central and persistent. Frase builds a voice profile using your existing published
@@ -57,7 +57,7 @@ export default function ArchitectureSection() {
         The result is a platform where every step is joined up. Research, briefing, drafting, optimization,
         repurposing, publishing, and monitoring all work from the same data and the same brand voice.
         Integrations with leading CMS platforms and
-        open&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;access
+        open&nbsp;API&nbsp;access
         mean Frase fits into your stack without forcing a rip-and-replace. The architecture is built for the
         realities of small businesses: minimal manual oversight, clear approvals, and no wasted cycles on
         rework or lost edits. For teams in West Palm Beach, Broward, and Miami-Dade, this means you can run a
@@ -85,7 +85,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-powers-frase-architecture-integrations-and-data-flow" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-powers-frase-architecture-integrations-and-data-flow-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Powers Frase: Architecture, Integrations, and Data Flow
               </h2>
               {body}

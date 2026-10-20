@@ -12,7 +12,7 @@ export const takethehelmIntelligentResourcePlanningContent: ToolPageContent = {
   "department": "accounting",
   "useCase": "cash-flow-forecasting/intelligent-resource-planning",
   "description":
-    "Intelligent Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and eliminate spreadsheet chaos.",
+    "Intelligent Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and end spreadsheet chaos.",
   "heroSummary":
     "Take the Helm offers small businesses in South Florida an automated way to bring together sales, expenses, and cash flow, replacing scattered spreadsheets with real-time visibility. Make informed decisions and avoid cash flow surprises.",
   "keywords":

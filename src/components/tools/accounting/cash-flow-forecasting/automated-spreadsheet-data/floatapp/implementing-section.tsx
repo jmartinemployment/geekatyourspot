@@ -7,7 +7,7 @@ export default function ImplementingSection() {
         Implementing Floatapp into an existing business environment involves a streamlined process that minimizes
         disruption and accelerates the time to value. The journey to going live with Floatapp is structured around
         several key stages, each designed to ensure a smooth transition from manual spreadsheet data management to
-        automated&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>.</p>
+        automated&nbsp;cash flow forecasting.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step in the implementation process is the integration with existing accounting platforms. Floatapp
         offers pre-built connectors for major platforms like Xero and QuickBooks Online. These connectors facilitate
@@ -60,7 +60,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlining-implementation-going-live-with-floatapp">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlining-implementation-going-live-with-floatapp-lg">
                 Streamlining Implementation: Going Live with Floatapp
               </h2>
               {body}

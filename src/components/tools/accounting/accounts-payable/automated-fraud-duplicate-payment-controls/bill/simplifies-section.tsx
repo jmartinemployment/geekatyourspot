@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function SimplifiesSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         BILL transforms the way small businesses handle Automated Fraud &amp; Duplicate Payment Controls by
@@ -30,13 +29,13 @@ export default function SimplifiesSection() {
         their teams to focus on strategic growth initiatives. The automation of routine tasks not only increases
         efficiency but also enhances the security of financial operations. With BILL, businesses can confidently
         manage their&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes, knowing that their
+        accounts payable&nbsp;processes, knowing that their
         systems are robust and reliable.</p>
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;With AI-powered AP automation, BILL erases the busywork from capturing invoices, routing approvals,
-        and processing payments—syncing seamlessly with your accounting software so you can focus on
+        and processing payments, syncing seamlessly with your accounting software so you can focus on
         growth.&quot;&nbsp;
-        <a id="tools-accounting-fraud-controls-bill-simplifies-source"
+        <a id={`tools-accounting-fraud-controls-bill-simplifies-source${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill
@@ -55,7 +54,7 @@ export default function SimplifiesSection() {
                 How Bill Simplifies Automated Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -64,10 +63,10 @@ export default function SimplifiesSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-simplifies-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-simplifies-automated-fraud-duplicate-payment-controls-lg">
                 How Bill Simplifies Automated Fraud &amp; Duplicate Payment Controls
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

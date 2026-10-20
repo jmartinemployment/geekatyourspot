@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function CostOfManualSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In a small Miami-Dade business office, the&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;team wrestles with a
+        accounts payable&nbsp;team wrestles with a
         mountain of invoices. Each piece of paper carries the potential for error, delay, and fraud. The
         challenge is in identifying suspicious invoices and unauthorized supplier changes before they become
         costly mistakes. Medius offers a solution that breaks this cycle of inefficiency by providing a robust
@@ -15,7 +14,7 @@ export default function CostOfManualSection() {
         tactics. A supplier might resubmit an invoice with slight formatting differences, and without a system
         to catch it, the payment might be processed again. This is not just a hypothetical scenario; it&#39;s a
         common issue that costs businesses millions annually. Medius addresses this by employing&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>-driven anomaly detection that flags these discrepancies
+        AI-driven anomaly detection that flags these discrepancies
         before they result in financial loss.</p>
       <p className="text-md text-white shadow-text pt-3">
         Different branches of a company might process the same supplier invoice independently, leading to
@@ -60,7 +59,7 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-fraud-duplicate-payment-controls-lg">
                 The Cost of Manual Automated Fraud &amp; Duplicate Payment Controls
               </h2>
               {body}

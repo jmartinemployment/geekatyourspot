@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -35,7 +34,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration costs are another factor. Copy.ai’s platform includes access to over 2,000 integrations at
         no extra charge, so you can connect it to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        your&nbsp;CRM,
         email, or project management tools without buying add-ons. For businesses that already use tools like
         Monday.com, ClickUp, or Google Drive, this means you keep your existing systems and workflows, adding
         Copy.ai as the automation layer on top.</p>
@@ -73,7 +72,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-copy-ai-on-fit-and-its-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-copy-ai-on-fit-and-its-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Copy.ai on Fit and Its Pricing Model
               </h2>
               {body}

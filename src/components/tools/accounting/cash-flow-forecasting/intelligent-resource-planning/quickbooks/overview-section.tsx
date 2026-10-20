@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A local HVAC service in West Palm Beach hits its first $2 million year but still closes its books one
@@ -20,12 +20,12 @@ export default function OverviewSection() {
         project with months of disruption and training nobody has time for. But sticking with the status quo
         means more hidden errors, more wasted hours, and less control over cash.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-accounting-intelligent-resource-planning-quickbooks-overview-intelligent-resource-planning" href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
+        <Link id={`tools-accounting-intelligent-resource-planning-quickbooks-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
         and disconnected apps, you get live numbers, automated data entry, and workflows that route approvals
         without email chains. You see cash flow in real time. Collections get faster, and vendor payments stop
         falling through the cracks. With AI-powered tools, your team works from a single source of truth, no
         more guessing which file is right. You do not need a
-        massive&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;migration to get there. For small
+        massive&nbsp;ERP&nbsp;migration to get there. For small
         businesses in Miami-Dade, Broward, and West Palm Beach, this means real savings on admin time, fewer
         errors, and the confidence to make decisions with numbers you actually trust.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -2,13 +2,13 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog is built for small businesses that want live,
-        accurate&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;without the complexity and cost of a
-        traditional&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>. It fits best for teams that need clarity
+        accurate&nbsp;cash flow
+        forecasting&nbsp;without the complexity and cost of a
+        traditional&nbsp;ERP. It fits best for teams that need clarity
         now, not after a long setup or a round of consulting. If your business is in Miami-Dade, Broward, or
         Palm Beach and you are running QuickBooks, Xero, Zoho Books, Odoo, Sage Intacct, or FreshBooks, or even
         just a bank account and Excel, Cashflowfrog can pull your data straight in and start building forecasts
@@ -23,12 +23,12 @@ export default function RightFitSection() {
         to the source invoice or bill, Cashflowfrog does that without extra configuration.</p>
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog is not a fit for every situation. If your business already has a
-        full-featured&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;with custom workflows, deep
+        full-featured&nbsp;ERP&nbsp;with custom workflows, deep
         inventory management, or industry-specific modules that you rely on daily, Cashflowfrog will not replace
-        those systems. It is not designed to be a full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;or
+        those systems. It is not designed to be a full&nbsp;ERP&nbsp;or
         to handle complex manufacturing, supply chain, or payroll processing on its own. Instead, it plugs into
         the accounting and banking stack you already have and focuses
-        on&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>, scenario
+        on&nbsp;cash flow forecasting, scenario
         modeling, and live reporting. If you are looking for a tool to run every part of your business, or you
         need a platform that will write back to your ledger and automate every operational process, you will
         need to look elsewhere or use Cashflowfrog alongside a broader system.</p>
@@ -37,7 +37,7 @@ export default function RightFitSection() {
         Planning. If you are spending hours each week pulling numbers, chasing down late payments, or worrying
         about missing payroll, Cashflowfrog will save you time and reduce stress. If you have outgrown
         spreadsheets but do not want to take on the overhead of a
-        full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, this is the sweet spot. The 14-day free trial,
+        full&nbsp;ERP, this is the sweet spot. The 14-day free trial,
         with no credit card required, means you can see your own numbers in the platform before making a
         decision. This lets you judge whether the automation and live forecasting are enough to meet your needs,
         without a long-term commitment or a big upfront investment.</p>
@@ -56,11 +56,11 @@ export default function RightFitSection() {
         alerts before cash gets tight, and a clear view of every entity and currency in one dashboard. For small
         businesses in South Florida, that is the difference between reacting to problems and planning ahead.
         Cashflowfrog is not the only tool in the market, but for teams that want Intelligent Resource Planning
-        without the burden of a full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, it is one of the few that
+        without the burden of a full&nbsp;ERP, it is one of the few that
         can deliver live value from the first week.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-intelligent-resource-planning-cashflowfrog-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
@@ -90,7 +90,7 @@ export default function RightFitSection() {
                 Who Cashflowfrog Is Right For, Who Should Look Elsewhere, and How to Decide What Happens Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +99,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-cashflowfrog-is-right-for-who-should-look-elsewhere-and-how-to-decide-what-happens-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-cashflowfrog-is-right-for-who-should-look-elsewhere-and-how-to-decide-what-happens-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Cashflowfrog Is Right For, Who Should Look Elsewhere, and How to Decide What Happens Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -24,7 +23,7 @@ export default function ArchitectureSection() {
         payments to be made by card, ensuring timely vendor payments while managing cash flow efficiently.</p>
       <p className="text-md text-white shadow-text pt-3">
         Another standout feature is Melio&#39;s&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;capabilities,
+        AI&nbsp;capabilities,
         which streamline the accounts payable process. The platform&#39;s AI assistant, Agent Mel, aids in
         onboarding and answering routine AP questions, freeing up team members to focus on strategic tasks.
         This AI-driven approach reduces the time spent on manual searches and data entry, significantly
@@ -61,7 +60,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="melios-architecture-and-mechanics">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="melios-architecture-and-mechanics-lg">
                 Melio&#39;s Architecture and Mechanics
               </h2>
               {body}

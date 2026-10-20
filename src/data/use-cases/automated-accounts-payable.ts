@@ -9,7 +9,7 @@ export const automatedAccountsPayableContent: UseCaseContent = {
       id:1,
       title: "Revolutionizing Financial Workflows: The AI-Driven Accounts Payable Transformation",
       image: "/images/accounting/use-cases/intro.avif",
-      description: "In the bustling world of finance, the accounts payable department often finds itself at the crossroads of operational efficiency and administrative burden. Traditionally, a maze of invoices, purchase orders, and approval hierarchies, accounts payable has long been a realm ripe for innovation. Enter the age of AI-driven automation—a game-changer poised to redefine how businesses manage their financial obligations.",
+      description: "In the bustling world of finance, the accounts payable department often finds itself at the crossroads of operational efficiency and administrative burden. Traditionally, a maze of invoices, purchase orders, and approval hierarchies, accounts payable has long been a realm ripe for innovation. Enter the age of AI-driven automation, a game-changer poised to redefine how businesses manage their financial obligations.",
       subsections: [
         {
           heading: "Understanding the Core",

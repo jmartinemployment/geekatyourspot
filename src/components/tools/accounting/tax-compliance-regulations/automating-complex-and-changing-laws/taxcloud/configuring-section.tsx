@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxCloud offers a robust set of configurations to tailor
-        its&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;capabilities to your
+        its&nbsp;tax compliance&nbsp;capabilities to your
         business needs. The platform&#39;s strength lies in its ability to automate complex tax calculations and
         compliance tasks, which can be configured through its intuitive interface. This flexibility allows
         businesses to automate tax calculations across over 13,000 jurisdictions, ensuring accuracy and
@@ -28,7 +27,7 @@ export default function ConfiguringSection() {
         up-to-date and reducing the administrative burden on your team.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses looking to extend TaxCloud&#39;s capabilities, the platform
-        offers&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;integration. This allows for seamless
+        offers&nbsp;API&nbsp;integration. This allows for seamless
         integration with existing systems, such as e-commerce platforms and accounting software, enabling
         real-time tax calculations and compliance across all sales channels. Geek @ Your Spot LLC, as an
         implementation partner, ensures that these integrations are configured correctly, providing a seamless
@@ -61,7 +60,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-taxcloud-s-rules-and-automation-logic" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-taxcloud-s-rules-and-automation-logic-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring TaxCloud&#39;s Rules and Automation Logic
               </h2>
               {body}

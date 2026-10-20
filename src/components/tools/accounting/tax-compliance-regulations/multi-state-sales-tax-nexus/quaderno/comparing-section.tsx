@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small businesses in South Florida
-        weighing&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;tools for Multi-State Sales Tax Nexus find themselves choosing between
+        weighing&nbsp;tax
+        compliance&nbsp;tools for Multi-State Sales Tax Nexus find themselves choosing between
         three main approaches: manual tracking with spreadsheets and basic accounting software, single-gateway
         tax solutions tied to a payment platform, and independent compliance engines like Quaderno. Each method
         claims to solve the compliance burden, but the differences in scope, integration, and automation make
@@ -47,7 +46,7 @@ export default function ComparingSection() {
         digital product exceptions.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses that sell digital products, subscriptions,
-        or&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>, the
+        or&nbsp;SaaS, the
         difference is even sharper. Many states tax digital goods differently, and a manual or single-gateway
         approach cannot keep up with these changes. Quaderno’s tax engine is updated for every jurisdiction, so
         when a state changes its rules, the system applies the new rates and requirements automatically. This is
@@ -92,7 +91,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-quaderno-stands-apart-from-adjacent-tax-compliance-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quaderno-stands-apart-from-adjacent-tax-compliance-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Quaderno Stands Apart from Adjacent Tax Compliance Approaches
               </h2>
               {body}

@@ -26,7 +26,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Even though Florida does not have a state income tax, small businesses still face other payroll
-              compliance needs—like federal payroll taxes, workers’ comp, unemployment insurance, and new hire
+              compliance needs, like federal payroll taxes, workers’ comp, unemployment insurance, and new hire
               reporting. Justworks helps you stay compliant with federal, state, and local employment
               regulations, saving you time and reducing the risk of costly errors or HR violations. Their PEO
               service also handles state setup and tax registration, making it easier to onboard new employees
@@ -37,13 +37,13 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               When you join Justworks PEO, they handle your payroll tax withholding, reporting, and
-              remitting—including state unemployment insurance. Justworks files W-2s, 1099s, and manages state
+              remitting, including state unemployment insurance. Justworks files W-2s, 1099s, and manages state
               unemployment filings as part of their compliance support. This means they take over the
               administrative burden of managing these accounts, helping you stay compliant and reducing manual
               effort on your end.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              If the IRS or the Florida DOR sends us a tax notice or penalty regarding a payroll mistake, who is liable—us or Justworks?
+              If the IRS or the Florida DOR sends us a tax notice or penalty regarding a payroll mistake, who is liable, us or Justworks?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Justworks handles payroll processing, filings, and compliance support, and their certified PEO

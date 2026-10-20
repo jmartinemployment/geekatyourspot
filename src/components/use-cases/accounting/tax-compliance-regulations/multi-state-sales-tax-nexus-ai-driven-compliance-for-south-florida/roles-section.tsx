@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RolesSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">Tax
-        compliance</GlossaryLink>&nbsp;is not just a technical overhaul, it upends how work gets done across
+        Tax
+        compliance&nbsp;is not just a technical overhaul, it upends how work gets done across
         your business. Once the automation goes live, the day-to-day changes land with your accounting team,
         your operations lead, sometimes even your warehouse manager. The biggest shift is this: nobody tracks
         compliance in isolation anymore. The system becomes the source of truth, and roles that used to be about
@@ -28,7 +27,7 @@ export default function RolesSection() {
         tax-compliant invoicing and applies the right rates for each buyer, fewer customers call with billing
         questions or disputes about taxes charged. The support team spends less time fixing errors and more time
         serving customers.
-        For&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;or
+        For&nbsp;SaaS&nbsp;or
         digital product sellers, this is even more pronounced, accurate, localized invoices mean fewer headaches
         with buyers in states with tricky digital tax rules.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -78,7 +77,7 @@ export default function RolesSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-feels-the-change-the-teams-and-roles-inside-a-tax-compliance-overhaul" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-feels-the-change-the-teams-and-roles-inside-a-tax-compliance-overhaul-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Feels the Change: The Teams and Roles Inside a Tax Compliance Overhaul
               </h2>
               {body}

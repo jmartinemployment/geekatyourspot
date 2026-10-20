@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -33,7 +32,7 @@ export default function ChallengesSection() {
         Management often receives performance data too late to make informed decisions, further exacerbating the
         problem. This lack of timely information can prevent businesses from taking proactive measures to improve
         their automated accounts receivable processes. Versapay addresses these issues by integrating AR automation,
-        B2B payments, customer collaboration, and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-assisted cash
+        B2B payments, customer collaboration, and&nbsp;AI-assisted cash
         application, streamlining the entire chain from invoice to reconciliation.</p>
     </>
   );
@@ -57,7 +56,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-costs-of-manual-automated-accounts-receivable">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-costs-of-manual-automated-accounts-receivable-lg">
                 The Costs of Manual Automated Accounts Receivable
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -22,12 +21,12 @@ export default function TransformsSection() {
         transitions that frustrate clients.</p>
       <blockquote cite="https://smith.ai/industries/home-services-answering-service" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
         Smith.ai provides AI receptionists and live virtual receptionists that answer, qualify, and route your
-        calls 24/7 — tailored to the needs of HVAC, plumbing, electrical, and contracting businesses.</blockquote>
+        calls 24/7, tailored to the needs of HVAC, plumbing, electrical, and contracting businesses.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
         Smith.ai’s approach directly removes the invisible costs that drag down small businesses. Every call is
         answered 24/7, nights, weekends, holidays, so you never lose a lead to voicemail or a missed ring. The
         system does more than just take a message: it screens each caller based on your criteria, collects
-        structured intake details that feed directly into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
+        structured intake details that feed directly into your&nbsp;CRM,
         and books appointments live, without follow-up or phone tag. For the plumber from earlier, that means no
         more scrambling to return missed calls at the end of the day. For the office manager, it means fewer
         interruptions and no more double entry of intake forms. For the owner, it means a pipeline that is
@@ -83,7 +82,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-smith-ai-actually-does-for-your-intelligent-receptionist-problem" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-smith-ai-actually-does-for-your-intelligent-receptionist-problem-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Smith.ai Actually Does for Your Intelligent Receptionist Problem
               </h2>
               {body}

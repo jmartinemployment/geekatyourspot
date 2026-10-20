@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A local plumbing service in Miami-Dade answers calls all day, but most web chat requests land in a
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         they asked, and what was promised, because your team cannot see the full picture. When every channel
         runs as a separate inbox, context gets lost, responses are delayed, and the result is missed revenue.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-dapta-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;fixes this by connecting the dots across all your inbound channels. The
+        A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-dapta-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;fixes this by connecting the dots across all your inbound channels. The
         system keeps customer identity, conversation history, and next action together, whether an inquiry
         starts on your website, flips to WhatsApp, or ends on a phone call. No lead falls through the cracks.
         Everyone on your team can pick up the conversation right where it left off, using the same information
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

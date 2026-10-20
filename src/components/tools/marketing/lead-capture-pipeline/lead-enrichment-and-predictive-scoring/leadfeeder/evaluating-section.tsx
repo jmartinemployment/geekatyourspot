@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -25,9 +24,9 @@ export default function EvaluatingSection() {
         firmographic and behavioral criteria. You can filter by company size, location, industry, and
         engagement patterns. The automation logic is not locked down: you can build custom feeds, set up
         real-time alerts, and push data directly into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or Slack. The built-in Intent Score is
+        your&nbsp;CRM&nbsp;or Slack. The built-in Intent Score is
         configurable, with the ability to set your own high-intent pages and scoring weights. For teams that
-        want more, the&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and workflow tools let you build
+        want more, the&nbsp;API&nbsp;and workflow tools let you build
         custom integrations and reporting. This means Leadfeeder can adapt as your sales process evolves,
         rather than forcing you to fit into a rigid template.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -43,14 +42,14 @@ export default function EvaluatingSection() {
         visits a month, the entry tier will cover you. If you want to identify and enrich hundreds or
         thousands of companies, you’ll need a higher plan. The real cost is not just in the subscription, but
         in the time and effort saved. Leadfeeder’s automation replaces hours of manual research, lead triage,
-        and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;data entry, tasks that often fall to the
+        and&nbsp;CRM&nbsp;data entry, tasks that often fall to the
         most expensive people on your team.</p>
       <p className="text-md text-white shadow-text pt-3">
         Fit also means integration. Leadfeeder connects natively to major CRMs like HubSpot, Salesforce, and
         Pipedrive, as well as Slack for real-time team alerts. You can sync enriched company and contact
-        records in bulk, keep your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;data fresh, and make
+        records in bulk, keep your&nbsp;CRM&nbsp;data fresh, and make
         sure every account is tagged and routed without manual effort. For teams with unique needs or a custom
-        stack, Leadfeeder’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;lets you pull data into
+        stack, Leadfeeder’s&nbsp;API&nbsp;lets you pull data into
         other tools or build proprietary workflows. This is where an implementation partner like Geek @ Your Spot LLC adds value: mapping Leadfeeder’s data and triggers to your real sales process, so nothing falls
         through the cracks.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -96,7 +95,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-leadfeeder-fit-flexibility-and-pricing-for-small-businesses" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-leadfeeder-fit-flexibility-and-pricing-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Leadfeeder: Fit, Flexibility, and Pricing for Small Businesses
               </h2>
               {body}

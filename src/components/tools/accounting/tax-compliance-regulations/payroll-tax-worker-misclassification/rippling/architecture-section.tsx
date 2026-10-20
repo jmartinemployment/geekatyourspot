@@ -3,7 +3,7 @@ export default function ArchitectureSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Rippling’s architecture is designed to unify HR, payroll, IT, and finance data in one system, so
-        compliance and classification rules are enforced everywhere—not just in payroll. The platform is built
+        compliance and classification rules are enforced everywhere, not just in payroll. The platform is built
         around a single database that holds every worker’s profile, contract, pay schedule, tax status, and
         compliance documents. This central record means updates flow instantly across modules, and the risk of
         data getting out of sync between HR, payroll, and accounting tools is minimized.</p>
@@ -27,15 +27,15 @@ export default function ArchitectureSection() {
         from Broward to Georgia, the platform updates tax withholdings, files new
         registrations, and stores the documentation in the worker’s record. If a contractor is reclassified as
         an employee, the system updates their profile, generates a new contract, and syncs the change with
-        payroll, benefits, and IT access—all without manual intervention.</p>
+        payroll, benefits, and IT access, all without manual intervention.</p>
       <p className="text-md text-white shadow-text pt-3">
         Rippling’s Compliance 360 module sits on top of this unified data model. It continuously monitors every
-        worker and transaction for risks—like overtime, minimum wage violations, or misclassification based on
+        worker and transaction for risks such as overtime, minimum wage violations, or misclassification based on
         work patterns. When a risk is detected, the system doesn’t just alert the admin; it can execute
         remediation steps directly. For example, it can update a contract, reassign a worker’s status, or adjust
         pay schedules in one workflow.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The platform’s automation engine powers these workflows. Admins can set custom rules—such as requiring
+        The platform’s automation engine powers these workflows. Admins can set custom rules, such as requiring
         legal review for contracts above a certain pay rate, or triggering additional tax filings for
         out-of-state workers. These rules are enforced everywhere in the system, not just in payroll, so
         compliance is consistent whether you’re onboarding a new hire, paying a contractor, or updating a
@@ -78,7 +78,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-powers-rippling-architecture-integrations-and-data-control-behind-the-scenes" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-powers-rippling-architecture-integrations-and-data-control-behind-the-scenes-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Powers Rippling: Architecture, Integrations, and Data Control Behind the Scenes
               </h2>
               {body}

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function LedeSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         It starts small. A customer asks for your pricing in a Facebook DM while you’re serving someone at the
@@ -59,13 +59,13 @@ export default function LedeSection() {
         every inquiry, chat, call, DM, or text, lands in one place, with context and the right next step
         attached. Your team spends less time chasing details and more time closing work that matters.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Throughout this page, we’ll walk through the pain points, the mechanics of a unified&nbsp;<Link id="use-cases-marketing-cross-platform-chatbot-lede-intelligent-lead-capture" href="/use-cases/marketing/intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">lead capture pipeline</Link>, and what separates a successful rollout from a stalled project. We’ll show exactly what
+        Throughout this page, we’ll walk through the pain points, the mechanics of a unified&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">lead capture pipeline</Link>, and what separates a successful rollout from a stalled project. We’ll show exactly what
         changes in your day-to-day operations, which decisions cannot be unmade, and what you need to provide
         to make the system work. If you are still relying on scattered inboxes and manual triage, you are
         absorbing costs and risks that are no longer necessary. A proper Cross-Platform Chatbot is not a tech
         experiment, it is the new minimum for businesses that want to compete and win in South Florida’s
         always-on market.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-cross-platform-chatbot-lede-blog" href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-cross-platform-chatbot-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> on our blog.</p>
     </>
   );
 
@@ -80,7 +80,7 @@ export default function LedeSection() {
                 When Every Conversation Lives in a Different Inbox, Leads Slip Away
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -89,10 +89,10 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="when-every-conversation-lives-in-a-different-inbox-leads-slip-away" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-every-conversation-lives-in-a-different-inbox-leads-slip-away-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Every Conversation Lives in a Different Inbox, Leads Slip Away
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -24,11 +23,11 @@ export default function TransformsSection() {
         appointment, the bot can guide them through the steps. This removes the need for someone to monitor
         every channel at all hours, freeing up your staff for higher-value work.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="lead-scoring">Lead scoring</GlossaryLink>&nbsp;and segmentation become automatic.
+        Lead scoring&nbsp;and segmentation become automatic.
         As Manychat interacts with prospects, it tags and segments them based on their actions and responses.
         High-intent leads are flagged for follow-up, while others are nurtured or added to future campaigns.
         This means your sales team can focus on the hottest prospects, not waste time chasing cold leads. The
-        data is synced into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or spreadsheet, so you
+        data is synced into your&nbsp;CRM&nbsp;or spreadsheet, so you
         always know where every opportunity stands.</p>
       <p className="text-md text-white shadow-text pt-3">
         Voice assistant features mean you can engage customers even when they reach out by phone or leave a
@@ -72,7 +71,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-manychat-cross-platform-chatbot-removes-from-your-week" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-manychat-cross-platform-chatbot-removes-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Manychat Cross-Platform Chatbot Removes From Your Week
               </h2>
               {body}

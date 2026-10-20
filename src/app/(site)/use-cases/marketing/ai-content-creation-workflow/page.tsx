@@ -11,6 +11,8 @@ import PAASection from '@/components/use-cases/marketing/ai-content-creation-wor
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -27,14 +29,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-08-18T11:42:58.9278075Z",
             "dateModified": "2026-08-18T11:42:58.9278075Z",
             "mainEntityOfPage": {
@@ -44,6 +39,7 @@ const jsonLd: Graph = {
             "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
             "wordCount": 4379,
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article",
+            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#service" },
             "mentions": [
                 {
                     "@id": "https://geekatyourspot.com/#software-jasper"
@@ -52,10 +48,10 @@ const jsonLd: Graph = {
                     "@id": "https://geekatyourspot.com/#software-copy-ai"
                 },
                 {
-                    "@id": "#software-chatgpt"
+                    "@id": "https://geekatyourspot.com/#software-chatgpt"
                 },
                 {
-                    "@id": "#software-claude"
+                    "@id": "https://geekatyourspot.com/#software-claude"
                 },
                 {
                     "@id": "https://geekatyourspot.com/#software-contentstudio"
@@ -63,57 +59,36 @@ const jsonLd: Graph = {
             ]
         },
         {
-            "@type": "SoftwareApplication",
-            "name": "Jasper AI",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Enhance your AI content creation workflow with Jasper AI for seamless integration and productivity.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
-            },
-            "@id": "https://geekatyourspot.com/#software-jasper"
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-jasper",
+            "name": "Jasper",
+            "url": "https://www.jasper.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-copy-ai",
             "name": "Copy.ai",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Boost content creation efficiency with Copy.ai's AI workflow. Integrate seamlessly and enhance productivity.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
-            },
-            "@id": "https://geekatyourspot.com/#software-copy-ai"
+            "url": "https://www.copy.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-chatgpt",
             "name": "ChatGPT",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
-            "@id": "#software-chatgpt"
+            "url": "https://chatgpt.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-claude",
             "name": "Claude",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Boost your content creation with Claude's AI workflow automation for efficient and creative text generation.",
-            "@id": "#software-claude"
+            "url": "https://claude.ai/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-contentstudio",
             "name": "ContentStudio",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Optimize your AI content creation workflow with ContentStudios automation and scheduling features for social media.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/contentstudio"
-            },
-            "@id": "https://geekatyourspot.com/#software-contentstudio"
-        }
+            "url": "https://contentstudio.io/"
+        },
+        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow", name: "Content Creation Workflow", description: "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more." })
     ]
 };
 
@@ -136,21 +111,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "Content Creation Workflow",
             description: "Explore how an AI content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

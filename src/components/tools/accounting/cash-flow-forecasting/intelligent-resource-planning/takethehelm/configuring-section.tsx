@@ -77,7 +77,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-take-the-helm-rules-automation-and-what-actually-gets-set-up" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-take-the-helm-rules-automation-and-what-actually-gets-set-up-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Take the Helm: Rules, Automation, and What Actually Gets Set Up
               </h2>
               {body}

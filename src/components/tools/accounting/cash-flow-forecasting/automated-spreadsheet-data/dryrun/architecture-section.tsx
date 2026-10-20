@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -10,7 +9,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         At the heart of Dryrun&#39;s architecture is its universal data integration capability. This feature allows
         Dryrun to connect effortlessly with
-        major&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;and
+        major&nbsp;ERP&nbsp;and
         accounting platforms like NetSuite, Sage Intacct, Microsoft Dynamics 365 Business Central, and QuickBooks
         Online. These integrations ensure that Dryrun can continuously sync live financial data, maintaining an
         accurate and up-to-date view of a business&#39;s financial health.</p>
@@ -54,7 +53,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="dryruns-architecture-and-integrations-building-a-robust-financial-platform">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="dryruns-architecture-and-integrations-building-a-robust-financial-platform-lg">
                 Dryrun&#39;s Architecture and Integrations: Building a Robust Financial Platform
               </h2>
               {body}

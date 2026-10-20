@@ -1,22 +1,21 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Once the decision to automate is made, preparing for implementation is crucial. For small businesses in
         South Florida, this means aligning the process with their specific needs and setting realistic expectations
         for the transition.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The first step is a thorough assessment of current systems and&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>. Understanding the existing data landscape helps in choosing the right tools. For
+        The first step is a thorough assessment of current systems and&nbsp;data
+        quality. Understanding the existing data landscape helps in choosing the right tools. For
         instance, if a business uses QuickBooks or Xero, integrating Clockwork offers a seamless transition with its
         one-click connection and real-time updates, minimizing disruption.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next, businesses should define clear objectives and KPIs. This involves setting specific goals, such as
         reducing the time spent on manual data entry or
-        improving&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>&nbsp;accuracy
+        improving&nbsp;cash flow forecasting&nbsp;accuracy
         by a certain percentage. These goals will guide the selection of tools and the overall implementation
         strategy.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -38,7 +37,7 @@ export default function PreparingSection() {
         reactive to proactive financial management, enabling better decision-making and strategic planning.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id="use-cases-accounting-spreadsheet-data-preparing-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <Link id={`use-cases-accounting-spreadsheet-data-preparing-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           booking your free consultation
         </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -65,7 +64,7 @@ export default function PreparingSection() {
                 Preparing for Implementation and Setting Expectations
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -74,10 +73,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="preparing-for-implementation-and-setting-expectations" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="preparing-for-implementation-and-setting-expectations-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Preparing for Implementation and Setting Expectations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

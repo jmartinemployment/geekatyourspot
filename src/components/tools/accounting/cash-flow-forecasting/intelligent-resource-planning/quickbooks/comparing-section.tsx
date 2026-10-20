@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -7,10 +6,10 @@ export default function ComparingSection() {
         Most small businesses in Miami-Dade, Broward, and West Palm Beach looking at Intelligent Resource
         Planning are stuck between two extremes: sticking with spreadsheets and basic accounting software, or
         making a risky leap to a full
-        enterprise&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>.
+        enterprise&nbsp;ERP.
         QuickBooks sits in the middle, designed for teams who have outgrown manual work but are not ready for
         the cost, risk, and complexity of
-        big&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;platforms.</p>
+        big&nbsp;ERP&nbsp;platforms.</p>
       <p className="text-md text-white shadow-text pt-3">
         Spreadsheets start as a quick fix, but as soon as you need live numbers across accounts, departments,
         and projects, they turn into a bottleneck. Each month, leaders spend hours checking for errors, chasing
@@ -21,14 +20,14 @@ export default function ComparingSection() {
         need weeks of training to adapt.</p>
       <p className="text-md text-white shadow-text pt-3">
         On the other side,
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems
+        full&nbsp;ERP&nbsp;systems
         promise deep integration, inventory, finance, HR, and operations under one roof. But for most small
         businesses, the reality is a year of consulting bills, months of data mapping, and a new layer of daily
-        admin.&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;projects
+        admin.&nbsp;ERP&nbsp;projects
         often stall when teams realize they need to redesign their processes just to fit the software. For a
         business with 10 to 25 employees, the cost and disruption can swamp the benefits. QuickBooks takes a
         different path. It brings in
-        core&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;features,
+        core&nbsp;ERP&nbsp;features,
         batch processing, workflow automation, multi-location inventory, and custom reporting, without forcing a
         ground-up rebuild of your operations. You get the controls, the audit trails, and the forecasting tools,
         but you keep the pace of a small business, not a Fortune 500.</p>
@@ -48,7 +47,7 @@ export default function ComparingSection() {
         The real test comes on Friday afternoon, when the HVAC owner from the opening story tries to close out
         the week. In a spreadsheet world, she is copying numbers from three different files and hoping nothing
         was missed. In a
-        heavy&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, she
+        heavy&nbsp;ERP, she
         might wait for IT to fix a permissions issue or for a consultant to finish a workflow update. With
         QuickBooks, she sees the latest cash flow, outstanding invoices, and open approvals in one dashboard. If
         something looks off, she can drill down, by project, by location, by user, and fix it herself. The
@@ -57,7 +56,7 @@ export default function ComparingSection() {
         QuickBooks is not a fit for every scenario. If you run a multi-entity operation with advanced
         manufacturing, complex international tax, or need to automate every process from procurement to HR, you
         may hit its limits. For those cases, the transition to a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;may
+        full&nbsp;ERP&nbsp;may
         be justified. But for most small businesses in South Florida who need to modernize without losing months
         to migration or blowing the budget, QuickBooks is the practical middle path. It automates what matters,
         keeps the interface your team already knows, and gives you live, accurate numbers to run the business.</p>
@@ -83,7 +82,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-quickbooks-compares-to-erp-and-spreadsheet-alternatives-for-resource-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-quickbooks-compares-to-erp-and-spreadsheet-alternatives-for-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How QuickBooks Compares to ERP and Spreadsheet Alternatives for Resource Planning
               </h2>
               {body}

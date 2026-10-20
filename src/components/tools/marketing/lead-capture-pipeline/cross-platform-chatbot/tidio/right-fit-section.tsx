@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tidio is designed for e-commerce businesses, small and mid-sized support teams, and local service
@@ -16,7 +15,7 @@ export default function RightFitSection() {
         For small businesses in Miami-Dade, Broward, and Palm Beach counties, the fit is even tighter. Tidio’s
         setup is simple enough for a non-technical owner or manager to handle, but deep enough to scale as
         your business grows. You do not need a developer to build automations or connect
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. The platform’s free plan lets you test real
+        your&nbsp;CRM. The platform’s free plan lets you test real
         conversations before committing to a paid tier, so you can see how it handles your actual lead flow.
         For Shopify stores, the native integration means your sales and support teams can see cart details and
         order history right in the chat, without switching tools.</p>
@@ -38,14 +37,14 @@ export default function RightFitSection() {
         Review your current channels and lead flow. List the platforms where customers reach you, website,
         Messenger, WhatsApp, Instagram, and email, and map where conversations are getting lost or delayed. If
         you see repeated questions, missed follow-ups, or leads that never make it into
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>,
-        Tidio’s&nbsp;<GlossaryLink slug="unified-inbox">unified inbox</GlossaryLink>&nbsp;and automation tools
+        your&nbsp;CRM,
+        Tidio’s&nbsp;unified inbox&nbsp;and automation tools
         can close those gaps. The real value comes from connecting every channel, routing qualified leads, and
         letting your team focus on high-value conversations instead of chasing context. For most small teams,
         that is how you recover hours each week and stop losing sales to a broken messaging pipeline.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
@@ -53,9 +52,9 @@ export default function RightFitSection() {
         <li>How many inquiries do you receive in a typical week, and when do they arrive?</li>
         <li>Out of every 10 people who reach out to your business, how many are actually qualified buyers versus &#39;tire-kickers&#39; who waste your billable time?</li>
         <li>What would make you consider an inquiry “qualified” rather than just curious?</li>
-        <li>Do you currently use a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, spreadsheet, paper intake form, or nothing at all?</li>
-        <li>What systems must the chatbot connect with?&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, website forms, calendar, email/SMS, help desk, or accounting software?</li>
-        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
+        <li>Do you currently use a&nbsp;CRM, spreadsheet, paper intake form, or nothing at all?</li>
+        <li>What systems must the chatbot connect with?&nbsp;CRM, website forms, calendar, email/SMS, help desk, or accounting software?</li>
+        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;CRM&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
         <li>What information may the bot answer from, and who will keep it current?</li>
         <li>What tone fits your brand: bilingual, formal, casual, urgent, or high-touch?</li>
         <li>What made you start looking for a solution now?</li>
@@ -76,7 +75,7 @@ export default function RightFitSection() {
                 Is Tidio the Right Fit? Who Should Use It, Who Should Not, and What to Do Next
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -85,10 +84,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="is-tidio-the-right-fit-who-should-use-it-who-should-not-and-what-to-do-next" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="is-tidio-the-right-fit-who-should-use-it-who-should-not-and-what-to-do-next-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Is Tidio the Right Fit? Who Should Use It, Who Should Not, and What to Do Next
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

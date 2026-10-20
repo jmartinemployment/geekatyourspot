@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Accounts Receivable";
 const DESCRIPTION =
     "Automated Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/cash-flow-forecasting/automated-accounts-receivable`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-10T12:16:32.1224226Z",
             "dateModified": "2026-10-10T12:16:32.1224226Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Accounts Receivable, AI implementation, cash flow forecasting, small business AI, Miami-Dade AI solutions",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/bill#software` },
-                { "@id": `${TOOLS_BASE}/chaserhq#software` },
-                { "@id": `${TOOLS_BASE}/invoiced#software` },
-                { "@id": `${TOOLS_BASE}/upflow#software` },
-                { "@id": `${TOOLS_BASE}/versapay#software` }
+                { "@id": "https://geekatyourspot.com/#software-bill" },
+                { "@id": "https://geekatyourspot.com/#software-chaserhq" },
+                { "@id": "https://geekatyourspot.com/#software-invoiced" },
+                { "@id": "https://geekatyourspot.com/#software-upflow" },
+                { "@id": "https://geekatyourspot.com/#software-versapay" }
             ]
         },
         {
@@ -60,7 +58,8 @@ const jsonLd: Graph = {
                 { "@type": "Question", "name": "Why is automated cash application critical to forecast reliability?", "acceptedAnswer": { "@type": "Answer", "text": "Automated cash application is critical to forecast reliability because it ensures that payments are matched promptly and accurately to outstanding invoices. This reduces the lag time in data entry and minimizes errors, providing a clear view of cash flow. By automating this process, businesses can rely on timely and precise financial data, which is essential for creating dependable forecasts." } },
                 { "@type": "Question", "name": "Can automated forecasting tools run \"What-If\" scenario simulations?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, automated forecasting tools can run \"What-If\" scenario simulations. These tools allow businesses to explore different financial outcomes based on variable changes, such as altering payment terms or predicting the impact of market fluctuations. This capability helps businesses plan more effectively by visualizing potential risks and opportunities, leading to more informed decision-making." } }
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -81,14 +80,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every day, small business owners face the tedious task of manually chasing approvals for invoices and
@@ -12,11 +12,11 @@ export default function OverviewSection() {
         but also increases the risk of errors. Missing an email or misplacing a document can delay critical
         payments, disrupt cash flow, and strain vendor relationships.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where automated&nbsp;<Link id="tools-accounting-approval-workflows-melio-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;come into play, offering a solution that can transform how
-        small businesses operate. By automating the routing of approvals based on set rules—like amount
-        thresholds or specific vendors—businesses can streamline their processes without the constant
+        This is where automated&nbsp;<Link id={`tools-accounting-approval-workflows-melio-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;come into play, offering a solution that can transform how
+        small businesses operate. By automating the routing of approvals based on set rules, like amount
+        thresholds or specific vendors, businesses can streamline their processes without the constant
         back-and-forth. Tools like&nbsp;
-        <a id="tools-accounting-approval-workflows-melio-overview-melio"
+        <a id={`tools-accounting-approval-workflows-melio-overview-melio${idSuffix}`}
           href="https://melio.com/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Melio
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

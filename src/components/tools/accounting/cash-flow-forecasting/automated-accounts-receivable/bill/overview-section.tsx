@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the example of Maria Sanchez, who owns a small graphic design firm in Miami and finds herself
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         spend growing her business. As the end of the month approaches, Maria faces the daunting task of reconciling
         payments, sending reminders, and worrying about her bottom line.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For small businesses like Maria&#39;s, managing&nbsp;<Link id="tools-accounting-accounts-receivable-bill-overview-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;can be a significant drain on resources.
+        For small businesses like Maria&#39;s, managing&nbsp;<Link id={`tools-accounting-accounts-receivable-bill-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;can be a significant drain on resources.
         In Miami-Dade, Broward, and West Palm Beach counties, many owners share Maria&#39;s frustration. They
         struggle with manual invoicing, tracking who has paid and who hasn&#39;t, and the time-consuming follow-up
         reminders. These tasks not only eat into potential growth time but also increase the risk of errors and
@@ -43,7 +43,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

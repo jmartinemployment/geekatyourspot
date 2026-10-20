@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every week, a small business in Miami-Dade loses a lead to voicemail. The phone rings while the owner is
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         companies ten times their size. The result: businesses either pay for more than they need, or run thin
         and keep missing opportunities.</p>
       <p className="text-md text-white shadow-text pt-3">
-        An&nbsp;<Link id="tools-marketing-intelligent-receptionist-voksha-overview-intelligent-receptionist" href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes this equation. Instead of letting calls go unanswered or paying
+        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-voksha-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes this equation. Instead of letting calls go unanswered or paying
         premium rates for basic tasks, small businesses in Broward, West Palm Beach, and Miami-Dade counties can
         capture every lead, day or night, with a tool that fits their real-world workflow and their budget.
         AI-powered receptionists answer instantly, filter spam, qualify leads, and book appointments, all for a
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

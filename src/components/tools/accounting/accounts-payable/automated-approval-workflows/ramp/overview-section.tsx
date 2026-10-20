@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         For many small businesses, the&nbsp;
@@ -13,7 +13,7 @@ export default function OverviewSection() {
         job, consuming valuable hours and introducing errors that can cost the business dearly. The time spent
         on these tasks means less time for strategic decision-making and growth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-approval-workflows-ramp-overview-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">Approval Workflows</Link>&nbsp;offer a transformative solution by streamlining these mundane tasks. By
+        Automated&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">Approval Workflows</Link>&nbsp;offer a transformative solution by streamlining these mundane tasks. By
         integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;technologies like Optical Character Recognition (OCR)
         and machine learning, businesses can now automate data extraction, invoice matching, and approval
@@ -46,7 +46,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -55,10 +55,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ export default function TransformsSection() {
         for oversight. This keeps messaging on-brand and compliant, while letting each part of your business
         speak directly to its own audience.</p>
       <blockquote cite="https://www.hootsuite.com/platform/publishing" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
-        Easily create, schedule, and publish content for all your platforms from Perch — Hootsuite’s AI social
+        Easily create, schedule, and publish content for all your platforms from Perch, Hootsuite’s AI social
         media scheduler, content calendar, and approvals hub.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
         Integrations with creative tools like Adobe Creative Cloud and Adobe Stock mean you can find, edit,
@@ -96,7 +96,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-hootsuite-removes-the-weekly-pain-from-intelligent-content-generation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-hootsuite-removes-the-weekly-pain-from-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Hootsuite Removes the Weekly Pain from Intelligent Content Generation
               </h2>
               {body}

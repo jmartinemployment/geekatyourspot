@@ -12,14 +12,14 @@ export default function DataMappingSection() {
         The first decision is which records to enrich and how to match them. Apollo’s data engine is built to
         work with both company and contact records. You can import lists with just names and companies, and
         Apollo will fill in verified emails, phone numbers, job titles, and more. But mapping fields correctly
-        matters. If your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;uses custom field names or
+        matters. If your&nbsp;CRM&nbsp;uses custom field names or
         non-standard formats, you need to align them to Apollo’s schema so the enrichment engine knows what to
         update. This is where prebuilt mappings for HubSpot and Salesforce come in, most standard fields match
         automatically, but custom fields may need a one-time setup. A mismapped field means missed data, so
         this step is worth the extra attention.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next is defining what makes a lead a fit for your business.
-        Apollo’s&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;and routing depend on
+        Apollo’s&nbsp;lead scoring&nbsp;and routing depend on
         a clear Ideal Customer Profile (ICP). This profile is not just a list of industries or company sizes;
         it includes firmographic filters like location, revenue, headcount, and even technology stack. Apollo
         lets you apply more than 65 filters across its 240 million contacts, so you can get as granular as you
@@ -29,7 +29,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Intent and behavioral signals are another mapping point. Apollo tracks website visits, form fills, and
         engagement with outbound campaigns. To use these signals
-        in&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>, you need to decide how they are
+        in&nbsp;lead scoring, you need to decide how they are
         mapped and weighted. For example, a visit to your pricing page may be worth more than a generic blog
         view. Apollo can layer intent signals from third-party sources like Bombora, but you set the rules for
         what counts as high intent. This mapping happens in the scoring logic, not just in the data fields, so
@@ -91,7 +91,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-data-structure-and-mapping-decisions-matter-upfront-with-apollo" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-structure-and-mapping-decisions-matter-upfront-with-apollo-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data Structure and Mapping Decisions Matter Upfront with Apollo
               </h2>
               {body}

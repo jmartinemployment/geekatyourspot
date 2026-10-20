@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/marketing/content-creation-workfl
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Content Generation";
 const DESCRIPTION =
     "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
 const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,30 +32,27 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-19T16:52:26.6326271Z",
             "dateModified": "2026-10-19T16:52:26.6326271Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Content Generation, AI content workflow, automated content creation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, South Florida AI services, small business automation, content marketing automation",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/anyword#software` },
-                { "@id": `${TOOLS_BASE}/castmagic#software` },
-                { "@id": `${TOOLS_BASE}/copy#software` },
-                { "@id": `${TOOLS_BASE}/frase#software` },
-                { "@id": `${TOOLS_BASE}/hootsuite#software` },
-                { "@id": `${TOOLS_BASE}/imagine#software` },
-                { "@id": `${TOOLS_BASE}/jasper#software` },
-                { "@id": `${TOOLS_BASE}/koala#software` },
-                { "@id": `${TOOLS_BASE}/rytr#software` },
-                { "@id": `${TOOLS_BASE}/scalenut#software` },
-                { "@id": `${TOOLS_BASE}/writesonic#software` }
+                { "@id": "https://geekatyourspot.com/#software-anyword" },
+                { "@id": "https://geekatyourspot.com/#software-castmagic" },
+                { "@id": "https://geekatyourspot.com/#software-copy-ai" },
+                { "@id": "https://geekatyourspot.com/#software-frase" },
+                { "@id": "https://geekatyourspot.com/#software-hootsuite" },
+                { "@id": "https://geekatyourspot.com/#software-imagineart" },
+                { "@id": "https://geekatyourspot.com/#software-jasper" },
+                { "@id": "https://geekatyourspot.com/#software-koala" },
+                { "@id": "https://geekatyourspot.com/#software-rytr" },
+                { "@id": "https://geekatyourspot.com/#software-scalenut" },
+                { "@id": "https://geekatyourspot.com/#software-writesonic" }
             ]
         },
         {
@@ -72,7 +70,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "Can AI write promotional emails, newsletters, and special offers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI can draft subject lines, lay out the email, write promotional copy, and suggest calls to action. The business provides the offer details and terms. AI should not set prices, deadlines, or rules for eligibility, those decisions stay with you."}},
                 {"@type": "Question", "name": "Can AI help me create marketing content from scratch, rather than only repurpose existing content?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI can help brainstorm topics, build outlines, and draft new content using your business details. Repurposing old content is a separate feature and not needed to start using AI for fresh marketing materials."}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -93,14 +92,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

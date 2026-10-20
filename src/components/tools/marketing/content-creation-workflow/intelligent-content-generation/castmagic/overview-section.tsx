@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A small business owner in Miami-Dade records a customer call to capture fresh insights for next
@@ -21,7 +21,7 @@ export default function OverviewSection() {
       <p className="text-md text-white shadow-text pt-3">
         The reality for small businesses in West Palm Beach, Broward, and Miami-Dade is that the traditional
         approach to content creation is broken. It burns valuable hours, stretches thin resources, and almost
-        always leaves money on the table by letting high-value information leak away.&nbsp;<Link id="tools-marketing-intelligent-content-generation-castmagic-overview-intelligent-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this by turning every recorded conversation, webinar, or meeting into a stream of
+        always leaves money on the table by letting high-value information leak away.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this by turning every recorded conversation, webinar, or meeting into a stream of
         ready-to-publish assets, blog posts, social updates, email campaigns, and more, without adding extra
         headcount or breaking the budget. For a local team with a backlog of untapped content, this is how you
         finally match the output of bigger players and keep your message in front of customers all year.</p>
@@ -44,7 +44,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -53,10 +53,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

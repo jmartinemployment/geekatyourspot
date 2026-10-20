@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -20,14 +19,14 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Appointment booking stops being a manual process. Dapta checks your live calendar, offers available
         time slots, and books the meeting or service on the spot. It sends reminders, confirms the booking,
-        and updates your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or calendar automatically.
+        and updates your&nbsp;CRM&nbsp;or calendar automatically.
         Staff do not have to go back and forth with customers, and there is no risk of double booking or
         missed appointments. Every booking is logged, and the customer gets instant confirmation.</p>
       <p className="text-md text-white shadow-text pt-3">
         Lead qualification is no longer left to chance. Dapta asks every prospect the same structured
         questions, service area, urgency, budget, and more, so your team only spends time on leads that fit
         your criteria. The agent scores each lead in real time, based on your rules, and syncs the result
-        directly to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. No more wading through unqualified
+        directly to your&nbsp;CRM. No more wading through unqualified
         leads or missing out on high-value prospects because the right questions were not asked. In bilingual
         markets, Dapta handles both English and Spanish conversations natively, so every customer gets the
         same experience and no detail is lost in translation.</p>
@@ -74,7 +73,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-dapta-removes-from-your-week-with-a-cross-platform-chatbot" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-dapta-removes-from-your-week-with-a-cross-platform-chatbot-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Dapta Removes from Your Week with a Cross-Platform Chatbot
               </h2>
               {body}

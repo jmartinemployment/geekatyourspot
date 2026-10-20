@@ -68,7 +68,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-data-mapping-and-structure-are-critical-when-deploying-hootsuite" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-data-mapping-and-structure-are-critical-when-deploying-hootsuite-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Data Mapping and Structure Are Critical When Deploying Hootsuite
               </h2>
               {body}

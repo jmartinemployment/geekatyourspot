@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every week, small business owners and their teams in Miami-Dade, Broward, and West Palm Beach counties
@@ -13,7 +13,7 @@ export default function OverviewSection() {
         go unopened, and website visits barely move. The result is a cycle of wasted effort, rising stress,
         and content that never seems to pay off.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is what happens when&nbsp;<Link id="tools-marketing-intelligent-content-planning-semrush-overview-intelligent-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;runs on guesswork. Without the right data, even
+        This is what happens when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-semrush-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;runs on guesswork. Without the right data, even
         the best ideas miss their mark. Local teams get stuck on a treadmill, publishing for the sake of
         publishing, not because they know it will drive results. The pain is real: traffic drops with no
         warning, social engagement dries up, and the competition pulls ahead. Ninety percent of this content
@@ -45,7 +45,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -54,10 +54,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -10,7 +9,7 @@ export default function ImplementingSection() {
         businesses, ensuring a smooth transition with minimal disruption.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first step is a comprehensive assessment of your
-        current&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;processes. This
+        current&nbsp;tax compliance&nbsp;processes. This
         involves identifying the platforms you currently use, such as Shopify or WooCommerce, and understanding
         how they manage sales tax. Geek @ Your Spot LLC evaluates these systems to determine the best integration
         approach, leveraging TaxCloud&#39;s pre-built connectors for a quick setup. These connectors enable
@@ -61,7 +60,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="implementing-taxcloud-in-your-business-environment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="implementing-taxcloud-in-your-business-environment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementing TaxCloud in Your Business Environment
               </h2>
               {body}

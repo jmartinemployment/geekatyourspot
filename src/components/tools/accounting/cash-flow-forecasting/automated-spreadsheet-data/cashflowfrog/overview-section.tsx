@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Imagine a small business owner in Miami-Dade County, staring at a cluttered spreadsheet late into the night.
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         drill into the specifics of tracking classes, locations, departments, or customer behaviors. These gaps lead
         to missed opportunities, misallocated resources, and financial blind spots.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Now picture a different scenario. The same business owner, but this time, armed with automated&nbsp;<Link id="tools-accounting-spreadsheet-data-cashflowfrog-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>. Instead of sifting through endless rows, they can break down their cash flow forecast by vendor,
+        Now picture a different scenario. The same business owner, but this time, armed with automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-cashflowfrog-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>. Instead of sifting through endless rows, they can break down their cash flow forecast by vendor,
         customer, and department with just a few clicks. They can drill three levels deep into any forecasted
         figure, tracing every dollar to its source invoice or bill. This level of detail not only clarifies where
         their money is going but also highlights where it should be going. With tools like Cash Flow Frog,
@@ -37,7 +37,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -46,10 +46,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

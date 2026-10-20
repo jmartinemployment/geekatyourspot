@@ -1,7 +1,5 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
-
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Choosing Jasper is not about picking the tool with the longest feature list. The right fit comes down
@@ -27,7 +25,7 @@ export default function EvaluatingSection() {
         stacks without the need for custom development. If your team already relies on these platforms, Jasper
         can slot in quickly.</p>
       <p className="text-md text-white shadow-text pt-3">
-        As of October 20, 2026, Jasper’s&nbsp;<a id="tools-marketing-content-generation-jasper-evaluating-pricing-source" href="https://www.jasper.ai/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Pro plan at
+        As of October 20, 2026, Jasper’s&nbsp;<a id={`tools-marketing-content-generation-jasper-evaluating-pricing-source${idSuffix}`} href="https://www.jasper.ai/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Pro plan at
         $69 per seat per month, or $59 billed annually, and a Business plan with custom pricing. What matters for small teams is the total cost of ownership: not just the
         monthly fee, but the time saved, the reduction in errors, and the ability to produce more content
         without adding staff. Jasper’s automation is designed to return hours to your week and cut the need
@@ -66,7 +64,7 @@ export default function EvaluatingSection() {
                 How to Judge Jasper’s Fit and Pricing Model for Your Team
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -75,10 +73,10 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-jaspers-fit-and-pricing-model-for-your-team" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-jaspers-fit-and-pricing-model-for-your-team-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Jasper’s Fit and Pricing Model for Your Team
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

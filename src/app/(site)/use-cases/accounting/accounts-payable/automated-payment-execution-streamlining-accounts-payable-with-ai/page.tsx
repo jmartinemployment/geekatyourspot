@@ -10,13 +10,14 @@ import PAASection from "@/components/use-cases/accounting/accounts-payable/autom
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Payment Execution";
 const DESCRIPTION =
     "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -26,24 +27,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-08T00:00:00.000Z",
             "dateModified": "2026-10-08T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Payment Execution, AI in Accounts Payable, Efficiency in Payment Processing, Cost Reduction, Error Minimization, AI Solutions for Small Business, Payment Automation Tools, AI Implementation, Business Efficiency",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/avidxchange#software` },
-                { "@id": `${TOOLS_BASE}/bill#software` },
-                { "@id": `${TOOLS_BASE}/melio#software` },
-                { "@id": `${TOOLS_BASE}/ramp#software` },
-                { "@id": `${TOOLS_BASE}/tipalti#software` }
+                { "@id": "https://geekatyourspot.com/#software-avidxchange" },
+                { "@id": "https://geekatyourspot.com/#software-bill" },
+                { "@id": "https://geekatyourspot.com/#software-melio" },
+                { "@id": "https://geekatyourspot.com/#software-ramp" },
+                { "@id": "https://geekatyourspot.com/#software-tipalti" }
             ]
         },
         {
@@ -61,7 +59,8 @@ const jsonLd: Graph = {
                 { "@type": "Question", "name": "Can payments above a certain amount require a second approver?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, payments above a certain amount can require a second approver. This is a common security measure in automated payment execution systems to prevent unauthorized transactions. By setting approval thresholds, small businesses can ensure that larger payments receive an extra layer of scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot LLC can help set up these controls within your payment processes." } },
                 { "@type": "Question", "name": "Why is an approved bill still waiting to be paid?", "acceptedAnswer": { "@type": "Answer", "text": "An approved bill might still be waiting to be paid due to several factors. There could be cash flow management strategies in place that dictate payment timing. Alternatively, there might be a delay in the automated system's payment cycle or a need for manual intervention to resolve discrepancies. Geek @ Your Spot LLC can assist in identifying and resolving these issues to streamline your payment processes." } }
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -78,11 +77,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
         openGraph: {
             title: TITLE, description: DESCRIPTION, url: PAGE_URL,
             siteName: 'Geek @ Your Spot LLC', locale: 'en_US', type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image', title: TITLE, description: DESCRIPTION,
-            creator: 'Geek @ Your Spot LLC', images: ['/images/GeekAtYourSpot.svg'],
+            creator: 'Geek @ Your Spot LLC', images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

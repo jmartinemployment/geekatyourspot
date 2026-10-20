@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every week, small business owners in Miami-Dade, Broward and West Palm Beach sit down to review their
@@ -13,7 +13,7 @@ export default function OverviewSection() {
         inbox stays quiet. The team’s effort goes toward chasing cold or dead leads, while real buyers slip
         away without ever making contact.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the reality for small businesses without a Lead Capture Pipeline built on&nbsp;<Link id="tools-marketing-lead-enrichment-apollo-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>. Owners know their best prospects are out there, but manual processes and
+        This is the reality for small businesses without a Lead Capture Pipeline built on&nbsp;<Link id={`tools-marketing-lead-enrichment-apollo-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>. Owners know their best prospects are out there, but manual processes and
         incomplete data shut them out. Eight out of ten hours in sales and marketing get wasted on dead ends.
         Warm, high-intent website visitors, nearly every real opportunity, remain anonymous and unqualified,
         never reaching a sales conversation. The result is not just a slow pipeline, but a revenue gap that
@@ -47,7 +47,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

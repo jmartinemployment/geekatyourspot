@@ -1,9 +1,9 @@
 export default function PitfallsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         In small businesses, managing Automated Approval Workflows can quickly become chaotic. Without a
-        structured system, invoices arrive through various channels—email, mail, or vendor portals—and often
+        structured system, invoices arrive through various channels (email, mail, or vendor portals) and often
         land on the desk of a bookkeeper who manually enters or forwards them. This process is prone to errors
         and lacks a reliable record of authorization. A manager might verbally approve an invoice, leaving no
         trace for future reference. This informal approach turns approval into mere communication rather than
@@ -34,7 +34,7 @@ export default function PitfallsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;But when you match invoices automatically, process payments quickly, and flag fraud before it
         becomes a problem, your business benefits.&quot;&nbsp;
-        <a id="tools-accounting-approval-workflows-ramp-pitfalls-source"
+        <a id={`tools-accounting-approval-workflows-ramp-pitfalls-source${idSuffix}`}
           href="https://ramp.com/blog/ai-in-payments"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Ramp
@@ -59,7 +59,7 @@ export default function PitfallsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -67,10 +67,10 @@ export default function PitfallsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-pitfalls-of-manual-automated-approval-workflows">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-pitfalls-of-manual-automated-approval-workflows-lg">
                 The Pitfalls of Manual Automated Approval Workflows
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

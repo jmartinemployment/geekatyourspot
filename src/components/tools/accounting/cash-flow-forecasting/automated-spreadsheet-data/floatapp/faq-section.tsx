@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FaqSection() {
   return (
@@ -16,7 +15,7 @@ export default function FaqSection() {
               Is the connection secure?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Yes, Float uses the official Xero&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;with a secure,
+              Yes, Float uses the official Xero&nbsp;API&nbsp;with a secure,
               read-only connection. This means Float cannot change, add, or remove anything in your Xero account. You can
               disconnect at any time if needed.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

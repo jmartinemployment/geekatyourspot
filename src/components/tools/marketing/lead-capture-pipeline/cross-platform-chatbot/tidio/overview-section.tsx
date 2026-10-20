@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every small business in South Florida knows the scene: a new lead texts your WhatsApp at 8 a.m.,
@@ -9,7 +9,7 @@ export default function OverviewSection() {
         Instagram. By the end of the day, your team is digging through separate inboxes, copy-pasting names,
         and trying to remember which customer asked what. Even when you answer quickly, context gets lost. The
         same prospect might be fielded by three different people, or worse, dropped entirely because the
-        conversation thread is missing. A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-tidio-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;is supposed to fix this, but for most small
+        conversation thread is missing. A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;is supposed to fix this, but for most small
         businesses, the reality is a mess of overlapping tools, too many windows, and no way to see the whole
         customer story in one place.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

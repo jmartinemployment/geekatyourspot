@@ -32,7 +32,7 @@ export default function TransformsSection() {
         into troubleshooting and second-guessing is now spent building momentum.</p>
       <blockquote cite="https://www.semrush.com/solutions/content-marketers/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
         Find topics that earn visibility, optimize every piece for search and AI, and repurpose content for
-        different platforms — all in one place.</blockquote>
+        different platforms, all in one place.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
         For teams that need to keep multiple people in the loop, Semrush centralizes all workspaces,
         reporting, and collaboration tools in one place. No more chasing down files or trying to reconcile
@@ -78,7 +78,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-semrush-removes-the-weekly-grind-from-intelligent-content-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-semrush-removes-the-weekly-grind-from-intelligent-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Semrush Removes the Weekly Grind from Intelligent Content Planning
               </h2>
               {body}

@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         When considering tools for automating spreadsheet data, Clockwork stands out among its peers due to its
@@ -16,12 +15,12 @@ export default function ComparingSection() {
         other tools require frequent manual updates and checks to maintain accuracy.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the critical differentiators for Clockwork is
-        its&nbsp;<GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-powered
+        its&nbsp;AI-powered
         analyst, Mira. Mira provides insights and answers to complex financial questions in plain English, which can
         be a game-changer for small businesses that may not have a dedicated financial analyst on staff. This
         feature shifts the focus from maintaining spreadsheets to understanding and acting on financial data.</p>
       <p className="text-md text-white shadow-text pt-3">
-        In the competitive landscape, tools like LiveFlow and&nbsp;<Link id="tools-accounting-spreadsheet-data-clockwork-comparing-fathomhq" href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" className="text-[#0B162A] hover:underline">Fathom</Link>&nbsp;offer their own strengths but often require
+        In the competitive landscape, tools like LiveFlow and&nbsp;<Link id={`tools-accounting-spreadsheet-data-clockwork-comparing-fathomhq${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" className="text-[#0B162A] hover:underline">Fathom</Link>&nbsp;offer their own strengths but often require
         more manual input and maintenance. LiveFlow, for example, is excellent for integrating live data into
         spreadsheets but leaves the burden of creating and maintaining the financial models on the user. Fathom
         provides detailed reporting but often relies on spreadsheet logic for forecasts, which can be cumbersome.</p>
@@ -48,7 +47,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +55,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="clockwork-in-the-landscape-of-financial-forecasting-tools">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="clockwork-in-the-landscape-of-financial-forecasting-tools-lg">
                 Clockwork in the Landscape of Financial Forecasting Tools
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

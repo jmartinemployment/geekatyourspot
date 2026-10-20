@@ -76,7 +76,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="voksha-s-step-by-step-call-handling-what-actually-happens-on-every-call" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="voksha-s-step-by-step-call-handling-what-actually-happens-on-every-call-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Voksha’s Step-by-Step Call Handling: What Actually Happens on Every Call
               </h2>
               {body}

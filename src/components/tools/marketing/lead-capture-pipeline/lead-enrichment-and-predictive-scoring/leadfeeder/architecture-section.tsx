@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
   const body = (
@@ -22,21 +21,21 @@ export default function ArchitectureSection() {
         industry, size, tech stack, recent news, and contact details where available. The system also records
         behavioral signals: which high-value pages were visited, how often, and in what order. All this is
         combined into a unified company profile, visible in the Leadfeeder dashboard and ready for export to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing tools.</p>
+        your&nbsp;CRM&nbsp;or marketing tools.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integrations are a core part of Leadfeeder’s value for small teams. The platform supports direct,
         two-way sync with HubSpot, Salesforce, and Pipedrive. This means that when a local business from West
         Palm Beach visits your site and hits your pricing page three times, Leadfeeder can auto-create a lead
-        or opportunity in your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, tag it with the right source,
+        or opportunity in your&nbsp;CRM, tag it with the right source,
         and assign it to the right rep, no manual entry required. Integration with Google Ads lets you see
         which campaigns are driving the best-fit traffic, not just clicks. Sync with LinkedIn Matched
         Audiences allows you to retarget companies who have shown real interest. There’s
-        also&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;access for custom workflows and a browser
+        also&nbsp;API&nbsp;access for custom workflows and a browser
         plugin for researching companies as you browse.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation is built into the architecture. You can set up rules and workflows that trigger on specific
         behaviors: when a company with a certain score visits a high-intent page, Leadfeeder can send an
-        instant Slack alert, push the contact to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, or
+        instant Slack alert, push the contact to your&nbsp;CRM, or
         refresh a campaign audience. AI-powered features fill in missing company and contact fields on your
         saved lists, and the system can auto-tag customers, partners, or lost deals based on visit patterns.
         Daily AI-curated shortlists show which accounts are most worth acting on right now.</p>
@@ -51,14 +50,14 @@ export default function ArchitectureSection() {
         manage lists, filter by firmographics or behavior, and export records as needed. The architecture
         supports unlimited users and tracked domains, so even small businesses with multiple brands or sites
         can manage everything in one place. Full visitor history is available on paid plans, and you can push
-        any account to your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;for free, no credits
+        any account to your&nbsp;CRM&nbsp;for free, no credits
         deducted for single exports.</p>
       <p className="text-md text-white shadow-text pt-3">
         For small businesses in South Florida, this architecture means you can see, score, and act on the
         companies visiting your site without building a custom data pipeline or hiring a data engineer.
         Leadfeeder’s integrations and automation logic handle the heavy lifting, while its privacy model keeps
         you compliant and focused on real B2B opportunities. The end result is a system that connects your
-        website,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, and sales outreach into a single,
+        website,&nbsp;CRM, and sales outreach into a single,
         data-driven workflow, built to make every local lead visible, qualified, and ready for follow-up.</p>
     </>
   );
@@ -83,7 +82,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="leadfeeders-core-architecture-integrations-and-data-handling" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="leadfeeders-core-architecture-integrations-and-data-handling-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Leadfeeder’s Core Architecture, Integrations, and Data Handling
               </h2>
               {body}

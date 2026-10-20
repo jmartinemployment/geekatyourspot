@@ -1,28 +1,27 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Jirav is not just another name in a crowded field of intelligent resource planning software. It is built
         for small businesses that need to move past the limits of spreadsheets, disconnected accounting apps,
         and manual forecasting, but do not have the time or budget for a
-        heavyweight&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;overhaul.
+        heavyweight&nbsp;ERP&nbsp;overhaul.
         Where most platforms force you to pick between flexibility and structure, Jirav is designed to give you
         both: driver-based financial modeling that adapts to your business, with a foundation that keeps all
         your numbers in sync.</p>
       <p className="text-md text-white shadow-text pt-3">
         Most small business owners in South Florida start their search with a shortlist that includes all-in-one
         ERPs like NetSuite, accounting-focused tools
-        like&nbsp;<Link id="tools-accounting-intelligent-resource-planning-jirav-comparing-quickbooks" href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
+        like&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
         and spreadsheet replacement apps. Each has its own strengths, but also real tradeoffs when it comes
-        to&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
-        forecasting</GlossaryLink>&nbsp;and intelligent resource planning.</p>
+        to&nbsp;cash flow
+        forecasting&nbsp;and intelligent resource planning.</p>
       <p className="text-md text-white shadow-text pt-3">
         Traditional ERPs promise a single source of truth, but getting there is a long haul. Mapping your
         records into a
-        strict&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;schema
+        strict&nbsp;ERP&nbsp;schema
         is slow, expensive, and rarely fits the messy, real-world data small businesses actually have. Even
         after launch, changes to your business model or reporting needs mean more consulting hours and more
         cost. For a twelve-person team, that is often overkill, and most of the features go unused.</p>
@@ -35,7 +34,7 @@ export default function ComparingSection() {
         shortfalls.</p>
       <p className="text-md text-white shadow-text pt-3">
         Jirav sits in the middle, but with a real edge: it automates the flow of data from your accounting,
-        payroll,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        payroll,&nbsp;CRM,
         and operational systems into a live, always-current model. Unlike generic spreadsheet replacements,
         Jirav’s driver-based forecasting lets you build models that actually reflect how your business runs,
         tying revenue, costs, and headcount to the real drivers that move your numbers. Every scenario you run,
@@ -69,7 +68,7 @@ export default function ComparingSection() {
         from three different sources. You get one dashboard, one set of numbers, and the confidence to make
         decisions without waiting for the next close. For South Florida businesses that have outgrown
         spreadsheets but do not want the pain or cost of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, Jirav
+        full&nbsp;ERP, Jirav
         is not just another tool, it is the right-sized answer to the real problem: getting everyone on the same
         page, using the same data, in real time.</p>
     </>
@@ -86,7 +85,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +93,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-jirav-stands-apart-from-other-resource-planning-tools" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-jirav-stands-apart-from-other-resource-planning-tools-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Jirav Stands Apart from Other Resource Planning Tools
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

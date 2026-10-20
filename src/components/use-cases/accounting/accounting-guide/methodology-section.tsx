@@ -2,11 +2,11 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function MethodologySection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Good tools installed badly create a new black box. That is why every engagement follows the same four
-        phases, and each phase ends with something you can see and approve. The full method is on our <Link id="use-cases-accounting-methodology-methodology" href="/methodology" className="text-[#C83803] hover:underline">methodology
+        phases, and each phase ends with something you can see and approve. The full method is on our <Link id={`use-cases-accounting-methodology-methodology${idSuffix}`} href="/methodology" className="text-[#C83803] hover:underline">methodology
         page</Link>. Here is how it applies to accounting.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Phase 1: Business Objectives Alignment
@@ -89,7 +89,7 @@ export default function MethodologySection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -97,10 +97,10 @@ export default function MethodologySection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="the-four-phase-methodology-behind-every-rollout" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-four-phase-methodology-behind-every-rollout-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Four Phase Methodology Behind Every Rollout
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

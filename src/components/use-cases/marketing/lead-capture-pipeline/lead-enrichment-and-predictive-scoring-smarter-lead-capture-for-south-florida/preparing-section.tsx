@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         If you are reading this far, you are probably weighing whether to move forward with a lead enrichment
@@ -16,18 +15,18 @@ export default function PreparingSection() {
         Expect the first conversation to be about your goals, not the software stack. You will be asked for
         the shape of your sales funnel, the volume and source of your traffic, and what a qualified lead looks
         like for your business. This is not a quiz, it is how we define the outcome that matters. Once your
-        objectives are set, the next phase is a&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;assessment. This is where the real-world constraints hit: if
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is full of duplicates or outdated records,
+        objectives are set, the next phase is a&nbsp;data
+        quality&nbsp;assessment. This is where the real-world constraints hit: if
+        your&nbsp;CRM&nbsp;is full of duplicates or outdated records,
         or if your web analytics is not tracking the right events, that gets surfaced early. Expect to spend
         some time cleaning up what you already have, because every tool, Apollo, Factors, Lusha, Snitcher,
         Leadfeeder, works best when the upstream data is sound.</p>
       <p className="text-md text-white shadow-text pt-3">
-        With business goals and&nbsp;<GlossaryLink slug="data-quality">data
-        quality</GlossaryLink>&nbsp;squared away, the technical architecture and tool selection come next.
+        With business goals and&nbsp;data
+        quality&nbsp;squared away, the technical architecture and tool selection come next.
         Here, the details get tailored to your environment. If your biggest friction is finding verified
         contacts and direct dials, Apollo or Lusha are plugged in to push clean, up-to-date decision-maker
-        info directly into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. If your pain is anonymous
+        info directly into your&nbsp;CRM. If your pain is anonymous
         web traffic, Snitcher and Leadfeeder are connected to surface the companies and behaviors behind the
         visits in real time. When you need to know which campaigns are actually responsible for revenue,
         Factors is wired in to tie ad clicks and site visits to closed-won deals, so you can stop guessing
@@ -51,7 +50,7 @@ export default function PreparingSection() {
         crowded market.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-marketing-lead-enrichment-and-predictive-scoring-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-marketing-lead-enrichment-and-predictive-scoring-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
@@ -60,7 +59,7 @@ export default function PreparingSection() {
         <li>When you pull or buy a list of local businesses to target in Miami-Dade, Broward, or Palm Beach, what percentage of those emails bounce or phone numbers turn out to be dead ends?</li>
         <li>How do your sales reps currently decide which lead to call first on Monday morning? Is it based on a mathematical score, the newest lead, or just gut feeling?</li>
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
-        <li>What&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho,&nbsp;<Link id="use-cases-marketing-lead-enrichment-preparing-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, Salesforce, or just a massive Google Sheet?)</li>
+        <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho,&nbsp;<Link id={`use-cases-marketing-lead-enrichment-preparing-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
     </>
   );
@@ -76,7 +75,7 @@ export default function PreparingSection() {
                 What Happens Next: The Real Step Forward and What You Can Expect
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -85,10 +84,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-happens-next-the-real-step-forward-and-what-you-can-expect" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-happens-next-the-real-step-forward-and-what-you-can-expect-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Happens Next: The Real Step Forward and What You Can Expect
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

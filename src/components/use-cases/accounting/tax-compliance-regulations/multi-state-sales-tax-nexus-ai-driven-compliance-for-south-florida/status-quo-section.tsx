@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function StatusQuoSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every hour a small business owner spends untangling tax data is an hour not spent growing the company.
-        The true cost of running multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;by hand is not just the late-night spreadsheet work. It is the
+        The true cost of running multi-state sales&nbsp;tax
+        compliance&nbsp;by hand is not just the late-night spreadsheet work. It is the
         compounding effect of hours lost, errors made, deadlines missed, and the anxiety of not knowing what you
         owe until the penalties hit. The price tag is paid in cash, wasted time, and missed opportunities, and
         it is the team, not the tax authority, that absorbs every dollar of it.</p>
@@ -75,7 +74,7 @@ export default function StatusQuoSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-hidden-price-of-manual-multi-state-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-hidden-price-of-manual-multi-state-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Hidden Price of Manual Multi-State Tax Compliance
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function SequenceSection() {
   const body = (
@@ -11,7 +10,7 @@ export default function SequenceSection() {
         a steady flow of localized Facebook posts, or a newsletter that actually goes out on time. The target
         is set in numbers and dates, not vague aspiration.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes the&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. You
+        Next comes the&nbsp;data quality&nbsp;assessment. You
         gather up every source of truth, service menus, pricing sheets, customer testimonials, past marketing
         emails, even the employee who “remembers everything.” This gets consolidated into a single, structured
         format. For example, Koala’s Brand DNA profile or Scalenut’s structured article brief. The point is to
@@ -79,7 +78,7 @@ export default function SequenceSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-rolling-this-out-actually-involves-in-a-real-environment-in-the-order-it-happens" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-rolling-this-out-actually-involves-in-a-real-environment-in-the-order-it-happens-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Rolling This Out Actually Involves in a Real Environment, in the Order It Happens
               </h2>
               {body}

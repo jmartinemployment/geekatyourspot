@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -28,7 +27,7 @@ export default function ConfiguringSection() {
         also enhances the reliability of financial data.</p>
       <p className="text-md text-white shadow-text pt-3">
         Dryrun&#39;s extension mechanism, while not involving
-        an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK, allows for significant customization
+        an&nbsp;API&nbsp;or SDK, allows for significant customization
         through its configuration options. Geek @ Your Spot LLC utilizes these capabilities to tailor the tool to your
         specific needs, ensuring that it fits seamlessly into your existing systems. This includes setting up custom
         alerts, reports, and dashboards that provide insights into cash flow and liquidity, tailored to your
@@ -60,7 +59,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-dryrun-for-effective-cash-flow-management">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="configuring-dryrun-for-effective-cash-flow-management-lg">
                 Configuring Dryrun for Effective Cash Flow Management
               </h2>
               {body}

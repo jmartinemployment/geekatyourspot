@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        If you are ready to move past manual&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>&nbsp;and want to know what a real, successful Intelligent Resource Planning
+        If you are ready to move past manual&nbsp;cash flow
+        forecasting&nbsp;and want to know what a real, successful Intelligent Resource Planning
         rollout looks like, here is what comes next. The path is not just buying software and hoping for the
         best. It is a sequence of steps that set you up for results you can see and measure, starting with the
         first conversation.</p>
@@ -17,7 +16,7 @@ export default function PreparingSection() {
         the system is working. Geek @ Your Spot LLC starts every project with this kind of goal-setting, so the work
         stays focused and the result is something you can point to, not just a new login.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next comes your&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. This
+        Next comes your&nbsp;data quality&nbsp;assessment. This
         is where most projects either build momentum or run aground. Expect a structured review of your current
         data, how complete it is, where it lives, how up-to-date it is, and who touches it. If your books are
         behind or full of one-off fixes, this is the time to clean them up. Partner tools like Jirav, Take the
@@ -27,7 +26,7 @@ export default function PreparingSection() {
         With clean data, the next step is selecting the right architecture and tools. This is not a catalog
         exercise. It is about mapping your workflow and choosing the pieces that fit. If your business runs on
         QuickBooks and you are outgrowing it, the move might be to its Advanced features, not a whole
-        new&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>. If you need consolidated reporting or multi-entity
+        new&nbsp;ERP. If you need consolidated reporting or multi-entity
         KPIs, Fathom becomes essential. If your pain is in cash timing and visual runway planning, Take the
         Helm’s drag-and-drop ledger or Cashflowfrog’s real-time dashboards give you instant clarity without
         rekeying numbers. The right tool is not the one with the longest feature list; it is the one that solves
@@ -60,7 +59,7 @@ export default function PreparingSection() {
         you set at the start: more time, more accuracy, and more control over your cash and your business.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="use-cases-accounting-intelligent-resource-planning-preparing-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
@@ -90,7 +89,7 @@ export default function PreparingSection() {
                 What to Do Next: Setting Expectations for a Successful Rollout
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -99,10 +98,10 @@ export default function PreparingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-to-do-next-setting-expectations-for-a-successful-rollout" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-to-do-next-setting-expectations-for-a-successful-rollout-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What to Do Next: Setting Expectations for a Successful Rollout
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

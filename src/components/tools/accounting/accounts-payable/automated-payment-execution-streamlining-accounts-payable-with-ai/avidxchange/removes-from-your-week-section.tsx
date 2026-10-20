@@ -53,7 +53,7 @@ export default function RemovesFromYourWeekSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-avidxchange-removes-from-your-week">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-avidxchange-removes-from-your-week-lg">
                 What AvidXchange Removes from Your Week
               </h2>
               {body}

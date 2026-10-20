@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -10,7 +9,7 @@ export default function ComparingSection() {
         website or a single messaging platform. Others are sprawling “all-in-one” suites built for larger
         companies, with deep developer requirements and price tags to match. Tidio sits between these
         extremes: a platform built for small and mid-sized teams that need
-        real&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;coverage, but cannot afford
+        real&nbsp;omnichannel&nbsp;coverage, but cannot afford
         or support a complex IT stack.</p>
       <p className="text-md text-white shadow-text pt-3">
         A typical alternative is the single-channel or website-only bot. These tools are easy to set up, but
@@ -39,7 +38,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Integration is another point of real difference. Many chat platforms force you to manage contacts and
         leads outside your core systems, or require expensive middleware to connect to marketing
-        and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;tools. Tidio offers direct integrations with
+        and&nbsp;CRM&nbsp;tools. Tidio offers direct integrations with
         platforms like HubSpot, Drip, Front, and ActiveCampaign. It can sync lead data, push qualified
         prospects into your sales pipeline, and even trigger marketing campaigns based on chat behavior. For
         Shopify stores, Tidio’s native tools let you see a shopper’s cart and order history right inside the
@@ -54,7 +53,7 @@ export default function ComparingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Finally, Tidio is built for the reality of small teams that cannot dedicate a person to chatbot
         management. The platform’s no-code setup, visual builders, and shared inbox mean that a team of three
-        can deliver the kind of&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;support
+        can deliver the kind of&nbsp;omnichannel&nbsp;support
         that usually takes a team of ten. There is no need to train on custom scripts, maintain separate
         dashboards, or worry about missing leads because a message arrived on the “wrong” channel. In the
         South Florida market, where speed, context, and personal touch can make or break a sale, Tidio stands
@@ -81,7 +80,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="tidio-versus-the-alternatives-where-it-stands-and-what-actually-sets-it-apart" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="tidio-versus-the-alternatives-where-it-stands-and-what-actually-sets-it-apart-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Tidio Versus the Alternatives: Where It Stands and What Actually Sets It Apart
               </h2>
               {body}

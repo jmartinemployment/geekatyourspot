@@ -25,14 +25,14 @@ export default function EvaluatingSection() {
         as usage grows. There is no contract, no hardware, and no per-seat charge, unlimited users can access
         the dashboard and reporting. For businesses that rely heavily on SMS, the Business-in-a-Box plan adds
         400 messages per month alongside voice, chat,
-        and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;features.
+        and&nbsp;CRM&nbsp;features.
         If you have higher call volume or multiple locations, an enterprise plan is available with custom
         pricing. All plans come with a 7-day free trial.</p>
       <p className="text-md text-white shadow-text pt-3">
         What you are buying is not just call coverage, but a reduction in missed opportunities. My AI Front Desk
         replaces the cost and unpredictability of per-minute live answering services with a flat monthly fee and
         a self-service model. The cost covers instant call answering, lead qualification, appointment
-        booking,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;integration,
+        booking,&nbsp;CRM&nbsp;integration,
         and multilingual support. For most small businesses, the savings come from eliminating the need for a
         full-time receptionist or expensive after-hours coverage. The platform is designed to make sure every
         call is answered, every lead is logged, and no opportunity is lost to a competitor who picks up first.</p>
@@ -88,7 +88,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-my-ai-front-desk-fit-for-your-business-and-the-real-cost-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-my-ai-front-desk-fit-for-your-business-and-the-real-cost-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge My AI Front Desk: Fit for Your Business and the Real Cost Model
               </h2>
               {body}

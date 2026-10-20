@@ -41,12 +41,13 @@ export function ArticleSectionBlock({
   const onRight = textOnRight(index);
   const questions = section.heading !== null && QUESTION_HEADINGS.has(section.heading);
 
-  const body = (
+  const body = (idSuffix = "") => (
     <ArticleBody
       blocks={section.blocks}
       linkClassName={linkClassName}
       sectionId={section.id}
       questions={questions}
+      idSuffix={idSuffix}
     />
   );
 
@@ -60,7 +61,7 @@ export function ArticleSectionBlock({
                 {section.heading}
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -83,7 +84,7 @@ export function ArticleSectionBlock({
               )}
             </div>
             {!onRight && spacer}
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -93,11 +94,11 @@ export function ArticleSectionBlock({
             {onRight && spacer}
             <div className="col-span-7">
               {section.heading && (
-                <h2 id={section.id} className={H2_DESKTOP}>
+                <h2 id={`${section.id}-lg`} className={H2_DESKTOP}>
                   {section.heading}
                 </h2>
               )}
-              {body}
+              {body("-lg")}
             </div>
             {!onRight && spacer}
           </div>

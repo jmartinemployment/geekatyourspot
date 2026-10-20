@@ -1,21 +1,21 @@
 import Link from "next/link";
 
 export default function RightMoveSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Automating accounts payable (AP) can be transformative for businesses that struggle with
         time-consuming manual processes, frequent data entry errors, and delayed invoice approvals. If your
         business experiences these pain points, implementing automated solutions like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-right-move-dext"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-dext${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-right-move-bill"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, and&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-right-move-avidxchange"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;could be the right decision. These tools offer automated data capture and streamlined
@@ -24,7 +24,7 @@ export default function RightMoveSection() {
         Consider this approach if your team is overwhelmed with high volumes of invoices and struggles with
         maintaining accuracy under pressure. Automation can free your team from repetitive tasks, allowing
         them to focus on strategic initiatives that drive business growth. For example,&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-right-move-stampli"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;excels at integrating with existing accounting systems to automate invoice approval and
@@ -36,7 +36,7 @@ export default function RightMoveSection() {
       <p className="text-md text-white shadow-text pt-3">
         Before making a decision, assess your current process bottlenecks and the potential for improvement.
         Evaluate solutions like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-right-move-melio"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>&nbsp;for their capability to streamline processes without disrupting your existing workflows.
@@ -46,7 +46,7 @@ export default function RightMoveSection() {
         Ultimately, the right choice depends on your specific business needs and goals. Consider consulting
         with an AI implementation expert to tailor a solution that fits your organization. For a detailed
         assessment and to explore how automated solutions can benefit your business,&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-right-move-consultation"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`}
           href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
           book a free consultation
         </Link>&nbsp;to discuss the next steps.</p>
@@ -64,7 +64,7 @@ export default function RightMoveSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function RightMoveSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="when-accounts-payable-automation-is-the-right-move" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="when-accounts-payable-automation-is-the-right-move-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Accounts Payable Automation is the Right Move
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

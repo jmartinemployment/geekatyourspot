@@ -25,7 +25,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         The cost is not just in missed opportunities. It is also in wasted staff hours. Copying names,
         numbers, and notes from one app to another is slow and error-prone. A manager might spend half a day
-        each week just keeping the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;up to date, hunting
+        each week just keeping the&nbsp;CRM&nbsp;up to date, hunting
         through chat histories, or following up on half-finished conversations. This is time that could be
         spent actually moving deals forward or serving customers. When the business gets busy, these manual
         updates fall behind, and the pipeline dries up. The team is always catching up, never ahead.</p>
@@ -70,7 +70,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What it costs to keep doing this by hand
               </h2>
               {body}

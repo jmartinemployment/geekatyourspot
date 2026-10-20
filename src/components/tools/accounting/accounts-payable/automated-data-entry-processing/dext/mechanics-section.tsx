@@ -1,5 +1,5 @@
 export default function MechanicsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Dext is designed to streamline accounting processes by leveraging advanced automation techniques. At
@@ -18,7 +18,7 @@ export default function MechanicsSection() {
       <p className="text-md italic text-white shadow-text pt-3">
         &quot;Automated data capture is the foundation of a scalable practice because it reduces manual
         handling, improves consistency, and gives firms real-time visibility.&quot;&nbsp;
-        <a id="tools-accounting-dext-mechanics-source"
+        <a id={`tools-accounting-dext-mechanics-source${idSuffix}`}
           href="https://dext.com/us/blog/single/ai-and-automation-in-accounting-how-to-build-a-smarter-scalable-practice-with-dext"
           target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           Dext
@@ -49,7 +49,7 @@ export default function MechanicsSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -57,10 +57,10 @@ export default function MechanicsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-mechanics-behind-dexts-automation">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-mechanics-behind-dexts-automation-lg">
                 The Mechanics Behind Dext&#39;s Automation
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -31,9 +30,9 @@ export default function DataMappingSection() {
         <li>Set up escalation rules for edge cases, what triggers a handoff to a live person, and what context the AI should pass along.</li>
       </ol>
       <p className="text-md text-white shadow-text pt-3">
-        If your business uses a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, calendar, or scheduling tool,
+        If your business uses a&nbsp;CRM, calendar, or scheduling tool,
         make sure the data fields match what Nextiva expects. For example, if
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;uses custom fields for appointment types or
+        your&nbsp;CRM&nbsp;uses custom fields for appointment types or
         lead sources, map those to the AI’s inputs so nothing gets lost in translation. Nextiva’s direct
         integrations with calendars and scheduling tools simplify this for most small businesses, but the
         initial mapping is still key. A mismatch here can cause double bookings, missed confirmations, or lost
@@ -80,7 +79,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-data-decisions-make-or-break-a-nextiva-deployment" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-decisions-make-or-break-a-nextiva-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data Decisions Make or Break a Nextiva Deployment
               </h2>
               {body}

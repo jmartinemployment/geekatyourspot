@@ -9,6 +9,8 @@ import FAQSection from "@/components/use-cases/accounting/accounts-payable/faq-s
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -25,14 +27,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#organization",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg"
-                }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-23T13:31:17.5026845Z",
             "dateModified": "2026-07-23T13:31:17.5026845Z",
             "mainEntityOfPage": {
@@ -42,53 +37,47 @@ const jsonLd: Graph = {
             "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
             "wordCount": 3474,
             "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article",
+            "about": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#service" },
             "mentions": [
                 {
-                    "@id": "#software-tipalti"
+                    "@id": "https://geekatyourspot.com/#software-tipalti"
                 },
                 {
-                    "@id": "#software-medius"
+                    "@id": "https://geekatyourspot.com/#software-medius"
                 },
                 {
-                    "@id": "#software-basware"
+                    "@id": "https://geekatyourspot.com/#software-basware"
                 },
                 {
-                    "@id": "#software-rillion"
+                    "@id": "https://geekatyourspot.com/#software-rillion"
                 }
             ]
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-tipalti",
             "name": "Tipalti",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Tipalti is a comprehensive payables automation solution that streamlines the end-to-end AP process. It offers capabilities such as global payments automation, supplier management, and compliance with tax and regulatory requirements.",
-            "@id": "#software-tipalti"
+            "url": "https://tipalti.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-medius",
             "name": "Medius",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Medius offers AI-driven accounts payable automation with a focus on invoice management and processing. It provides an intuitive platform that simplifies invoice capture, processing, and approval workflows.",
-            "@id": "#software-medius"
+            "url": "https://www.medius.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-basware",
             "name": "Basware",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Basware provides a cloud-based platform for automating invoice processing and procurement, renowned for its scalability and advanced data analytics. It supports organizations in improving cash flow visibility and supplier relationships.",
-            "@id": "#software-basware"
+            "url": "https://www.basware.com/"
         },
         {
-            "@type": "SoftwareApplication",
+            "@type": "Thing",
+            "@id": "https://geekatyourspot.com/#software-rillion",
             "name": "Rillion",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web",
-            "description": "Rillion is a user-friendly AP automation platform that emphasizes fast implementation and ease of use. It automates invoice processing, approval workflows, and integrates seamlessly with existing financial systems.",
-            "@id": "#software-rillion"
-        }
+            "url": "https://www.rillion.com/"
+        },
+        pillarService({ url: "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable", name: "Accounts Payable", description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency." })
     ]
 };
 
@@ -112,21 +101,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [
-                {
-                    url: '/images/GeekAtYourSpot.svg',
-                    width: 116,
-                    height: 48,
-                    alt: 'Geek @ Your Spot LLC',
-                },
-            ],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true,

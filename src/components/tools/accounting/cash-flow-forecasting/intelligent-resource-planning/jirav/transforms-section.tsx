@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Jirav takes the manual, error-prone steps out of intelligent resource planning by connecting all your
@@ -23,7 +23,7 @@ export default function TransformsSection() {
         data twice. Invoices, payments, and payroll details flow automatically into your forecasts and
         dashboards. This eliminates double data entry, reduces the risk of human error, and frees up staff to
         focus on analysis and action instead of data wrangling. The platform supports over 200 integrations,
-        including QuickBooks, NetSuite, Sage Intacct,&nbsp;<Link id="tools-accounting-intelligent-resource-planning-jirav-transforms-adp" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#C83803] hover:underline">ADP</Link>, Paychex, Salesforce, and HubSpot, so it fits into the
+        including QuickBooks, NetSuite, Sage Intacct,&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-transforms-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#C83803] hover:underline">ADP</Link>, Paychex, Salesforce, and HubSpot, so it fits into the
         systems most small businesses in South Florida already use.</p>
       <p className="text-md text-white shadow-text pt-3">
         Rolling forecasts are another area where Jirav changes the game. Rather than relying on a fixed annual
@@ -94,7 +94,7 @@ export default function TransformsSection() {
                 How Jirav Removes the Manual Burden from Intelligent Resource Planning
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -103,10 +103,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-jirav-removes-the-manual-burden-from-intelligent-resource-planning" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-jirav-removes-the-manual-burden-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Jirav Removes the Manual Burden from Intelligent Resource Planning
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

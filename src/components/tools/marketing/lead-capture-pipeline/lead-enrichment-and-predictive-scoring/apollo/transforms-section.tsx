@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
   const body = (
@@ -18,20 +17,20 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Data enrichment is instant and automatic. Apollo fills in missing emails, phone numbers, job titles,
         company size, and more, drawing from multiple trusted sources. No more copying and pasting between
-        LinkedIn, Google, and your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Every new lead, whether
+        LinkedIn, Google, and your&nbsp;CRM. Every new lead, whether
         from a form, a chat, or a website visit, arrives with complete, up-to-date information. If someone
         changes jobs or their contact details update, Apollo refreshes the record automatically. The team
         never has to go back and check, what they see is always current.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="lead-scoring">Lead scoring</GlossaryLink>&nbsp;is no longer a manual point system.
+        Lead scoring&nbsp;is no longer a manual point system.
         Apollo uses AI to rank every lead against your ideal customer profile, pulling in real-time
         firmographic data, intent signals, and buying behavior. The result is a mathematically prioritized
         list, your hottest prospects are always at the top, and the cold ones drop off without a second
         thought. This means your team does not waste time on dead ends. They focus only on the accounts most
         likely to buy, and the system gets smarter as it learns from your actual conversions.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Outreach becomes targeted and efficient. Apollo’s&nbsp;<GlossaryLink slug="lead-scoring">lead
-        scoring</GlossaryLink>&nbsp;and enrichment power automated campaigns that hit only the right people,
+        Outreach becomes targeted and efficient. Apollo’s&nbsp;lead
+        scoring&nbsp;and enrichment power automated campaigns that hit only the right people,
         decision-makers with verified contact info, filtered by location, company size, and buying intent. The
         system can trigger automatic follow-ups, assign leads to the right rep in real time, and even draft
         the first email. No more cold blasts to the wrong inboxes, and no more time spent sorting through
@@ -39,7 +38,7 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         Apollo’s integrations remove the double entry that slows teams down. It syncs directly with
         Salesforce, HubSpot, Gmail, and other tools, so every update, every new lead, and every score flows
-        where it needs to go. The&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;stays clean and
+        where it needs to go. The&nbsp;CRM&nbsp;stays clean and
         current without manual uploads or reconciliations. If a lead is qualified, it appears instantly in the
         sales pipeline, ready for action.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -58,8 +57,8 @@ export default function TransformsSection() {
         Salesforce or HubSpot in one click.</blockquote>
       <p className="text-md text-white shadow-text pt-3">
         The difference shows up fast. Teams using Apollo report that work which used to take 15 to 20 hours
-        now happens in the background. Contact updates,&nbsp;<GlossaryLink slug="lead-scoring">lead
-        scoring</GlossaryLink>, and enrichment run automatically. Every Friday, the same team that used to end
+        now happens in the background. Contact updates,&nbsp;lead
+        scoring, and enrichment run automatically. Every Friday, the same team that used to end
         the week with a thin pipeline now sees a list of real, qualified prospects, people who are in the
         market and ready to talk.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -90,7 +89,7 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-apollo-removes-the-busywork-from-lead-enrichment-and-predictive-scoring" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-apollo-removes-the-busywork-from-lead-enrichment-and-predictive-scoring-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Apollo Removes the Busywork from Lead Enrichment and Predictive Scoring
               </h2>
               {body}

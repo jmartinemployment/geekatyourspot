@@ -10,7 +10,7 @@ export default function ConfiguringSection() {
         state, and local tax laws, so you do not have to track every change or remember every deadline yourself.</p>
       <p className="text-md text-white shadow-text pt-3">
         The core of Gusto’s automation is its built-in logic for classifying workers, calculating payroll taxes,
-        and generating required forms. You start by entering each worker’s details—whether they are a W-2
+        and generating required forms. You start by entering each worker’s details: whether they are a W-2
         employee or a 1099 contractor, their location, pay type, and schedule. Gusto walks you through
         collecting the right tax forms: W-4s for employees, W-9s for contractors. It then uses this information
         to set up payroll runs that keep employee and contractor payments strictly separate, which is the first
@@ -23,12 +23,12 @@ export default function ConfiguringSection() {
         <li>Form generation and filing: Gusto issues and files W-2s and 1099s electronically, sending copies to workers and the IRS. It handles the full filing process for both types, including state-level reporting where required.</li>
         <li>Multi-state logic: For businesses with workers who cross state lines, Gusto tracks each work location and applies the correct state tax rates automatically.</li>
         <li>Error checks: Before each payroll run, Gusto checks for missing tax IDs, incomplete forms, and out-of-date worker information. It flags these issues so you can fix them before they turn into penalties.</li>
-        <li>Automated updates: When tax laws change—like new wage bases or IRS thresholds—Gusto updates its calculations without you having to do anything.</li>
+        <li>Automated updates: When tax laws change (like new wage bases or IRS thresholds), Gusto updates its calculations without you having to do anything.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         There is no scripting or open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for custom payroll
         logic. Gusto is a configuration-driven platform: you set your rules by filling out forms and toggling
-        options, not by writing code. This is by design—the goal is to remove the risk of manual setup errors
+        options, not by writing code. This is by design. The goal is to remove the risk of manual setup errors
         and keep the process accessible to non-technical users. If your business has unique needs, such as
         multiple pay rates or schedules, Gusto supports these through its interface, not through custom
         programming.</p>
@@ -41,7 +41,7 @@ export default function ConfiguringSection() {
         integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s role is to get these configurations right for South Florida’s complex environment.
-        This means mapping your real workforce—seasonal, cross-county, hybrid roles—into Gusto’s logic so every
+        This means mapping your real workforce (seasonal, cross-county, and hybrid roles) into Gusto’s logic so every
         worker is classified and paid correctly from day one. They audit your existing records, set up the right
         tax accounts, configure pay schedules, and test the system with real data before you go live. They also
         ensure your QuickBooks or Xero setup is mapped to Gusto’s payroll categories, so your accountant gets
@@ -82,7 +82,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="configuring-gusto-s-payroll-tax-and-worker-classification-logic-for-local-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="configuring-gusto-s-payroll-tax-and-worker-classification-logic-for-local-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Configuring Gusto’s Payroll Tax and Worker Classification Logic for Local Compliance
               </h2>
               {body}

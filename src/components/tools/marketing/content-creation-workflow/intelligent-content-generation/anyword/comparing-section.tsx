@@ -73,7 +73,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="where-anyword-fits-among-content-generation-platforms-and-why-that-matters-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="where-anyword-fits-among-content-generation-platforms-and-why-that-matters-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Where Anyword Fits Among Content Generation Platforms and Why That Matters for Small Teams
               </h2>
               {body}

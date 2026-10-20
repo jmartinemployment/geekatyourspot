@@ -64,28 +64,12 @@ export default function PAASection() {
               sale.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              What are the 5 stages of pipeline?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              The 5 stages of a pipeline generally refer to stages in a process, which can include: 1)
-              Prospecting, 2) Initial Contact, 3) Qualification, 4) Proposal, and 5) Closing. Each stage
-              represents a step in moving a lead from initial interest to a completed transaction.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What is a lead pipeline?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               A lead pipeline is a structured process used by businesses to track and manage potential
               customers as they move through the sales process. It helps in organizing leads, ensuring
               follow-up, and increasing the likelihood of converting them into paying customers.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              What are the three types of pipelines?
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              The three main types of pipelines include: 1) Sales Pipelines, which track potential sales
-              opportunities, 2) Marketing Pipelines, which manage leads generated through marketing efforts,
-              and 3) Project Pipelines, which oversee the flow of tasks and projects within an organization.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How to design a pipeline system?
@@ -103,15 +87,6 @@ export default function PAASection() {
               The formula for a sales pipeline typically involves calculating the value of potential sales at
               each stage of the pipeline. This is often done by multiplying the probability of closing a deal
               at each stage by the deal&#39;s expected value, helping to forecast potential revenue.</p>
-            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
-            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              How to develop a project pipeline
-            </h3>
-            <p className="text-md text-white shadow-text pt-3">
-              To develop a project pipeline, start by outlining the key phases of project development, such as
-              planning, execution, and completion. Use project management tools to track progress and allocate
-              resources. Regularly review the pipeline to ensure projects are on track and adjust plans as
-              needed.</p>
           </div>
         </div>
       </div>

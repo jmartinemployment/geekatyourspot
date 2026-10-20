@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -7,8 +6,8 @@ export default function EvaluatingSection() {
         When considering TaxValet for your business, it&#39;s important to evaluate both its fit for your
         operations and its pricing model. TaxValet is designed to cater to small businesses that operate across
         multiple states and need a comprehensive solution for managing
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>. Its features are tailored to address the unique challenges faced by
+        sales&nbsp;tax
+        compliance. Its features are tailored to address the unique challenges faced by
         businesses dealing with complex and changing tax laws.</p>
       <p className="text-md text-white shadow-text pt-3">
         The pricing model for TaxValet is straightforward and transparent, with plans starting at $560 per
@@ -56,7 +55,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="evaluating-taxvalet-fit-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="evaluating-taxvalet-fit-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating TaxValet: Fit and Pricing Model
               </h2>
               {body}

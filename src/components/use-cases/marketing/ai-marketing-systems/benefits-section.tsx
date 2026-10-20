@@ -29,7 +29,7 @@ export default function BenefitsSection() {
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
               <li>Automated <GlossaryLink slug="behavioral-segmentation" className="text-[#C83803] hover:underline">customer segmentation</GlossaryLink> allows marketers to target specific groups based on behavior and preferences,
                 resulting in more personalized marketing campaigns that resonate with customers.</li>
-              <li><GlossaryLink slug="analytics" className="text-[#C83803] hover:underline">Predictive analytics</GlossaryLink> enable businesses to forecast customer behavior and trends, leading to proactive
+              <li>Predictive analytics enable businesses to forecast customer behavior and trends, leading to proactive
                 decision-making and better allocation of marketing resources.</li>
               <li>Real-time data processing helps in optimizing marketing campaigns on the go, ensuring strategies are responsive
                 to current market dynamics.</li>
@@ -90,7 +90,7 @@ export default function BenefitsSection() {
               solid insights for their marketing decisions. This reduces the risk of errors and improves overall campaign
               effectiveness.</p>            <h4 id="seamless-integration-with-existing-systems" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Seamless Integration with Existing Systems</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">Integrating AI marketing tools with existing business systems can be challenging, but it’s essential for maximizing
-              the benefits. Seamless integration ensures that AI tools work harmoniously with <GlossaryLink slug="crm" className="text-[#C83803] hover:underline">CRM</GlossaryLink>, email marketing, and e-commerce
+              the benefits. Seamless integration ensures that AI tools work harmoniously with CRM, email marketing, and e-commerce
               platforms.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">Geek @ Your Spot LLC assists small businesses in integrating AI solutions into their current infrastructure,
               minimizing disruptions and ensuring smooth operation. This integration facilitates a cohesive marketing strategy

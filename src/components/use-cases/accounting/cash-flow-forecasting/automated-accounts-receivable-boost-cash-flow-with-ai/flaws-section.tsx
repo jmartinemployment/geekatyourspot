@@ -44,7 +44,7 @@ export default function FlawsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="identifying-the-flaws-in-traditional-accounts-receivable-processes" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="identifying-the-flaws-in-traditional-accounts-receivable-processes-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Identifying the Flaws in Traditional Accounts Receivable Processes
               </h2>
               {body}

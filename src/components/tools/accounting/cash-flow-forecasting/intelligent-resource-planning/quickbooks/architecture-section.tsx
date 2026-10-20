@@ -7,7 +7,7 @@ export default function ArchitectureSection() {
         QuickBooks is built as a modular, cloud-based platform that brings together financial, operational, and
         inventory data for small businesses. Its architecture is designed to support both the day-to-day needs
         of a growing company and the complexity that comes with scale, without requiring a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;deployment.
+        full&nbsp;ERP&nbsp;deployment.
         The core of QuickBooks is its unified data layer, which holds all transactions, approvals, and user
         actions in a single, structured environment. This structure is what allows for real-time reporting, deep
         automation, and secure access controls.</p>
@@ -71,7 +71,7 @@ export default function ArchitectureSection() {
         the underlying architecture handles more data, more users, and more complexity. This is what allows a
         small team to get the benefits of enterprise-grade automation, security, and reporting, without the pain
         of a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;rollout.
+        full&nbsp;ERP&nbsp;rollout.
         For Intelligent Resource Planning, this architecture is what makes real-time insight, secure control,
         and effortless scaling possible.</p>
     </>
@@ -97,7 +97,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-sits-under-the-hood-quickbooks-architecture-connections-and-data-structure" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sits-under-the-hood-quickbooks-architecture-connections-and-data-structure-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sits Under the Hood: QuickBooks’ Architecture, Connections, and Data Structure
               </h2>
               {body}

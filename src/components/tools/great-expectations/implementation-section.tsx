@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
 
   return (
@@ -12,15 +11,15 @@ export default function ImplementationSection() {
                 Implementation Considerations</h2>
             </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some specific factors to consider:</p>
+              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated&nbsp;ad spend optimization. Here are some specific factors to consider:</p>
               <p className="text-md text-white shadow-text pt-3">1. Accelerated Deployment: Great Expectations offers pre-built connectors and templates that can significantly
                 shorten the deployment time. These resources allow businesses to quickly integrate data validation into their
-                existing workflows, ensuring a faster go-live process and immediate improvements in <GlossaryLink slug="data-quality">data quality</GlossaryLink>.</p>
+                existing workflows, ensuring a faster go-live process and immediate improvements in data quality.</p>
               <p className="text-md text-white shadow-text pt-3">2. Data Model Design: When designing data models for ad spend optimization, it is crucial to define clear
                 expectations for data attributes. Great Expectations allows businesses to map these attributes and set validation
                 rules upfront, ensuring that the data model supports accurate and reliable data analysis.</p>
               <p className="text-md text-white shadow-text pt-3">3. Workflow and Process Configuration: Configuring workflows in Great Expectations involves setting up approval
-                chains and <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic to manage data validation processes. Businesses must ensure that these configurations
+                chains and automation logic to manage data validation processes. Businesses must ensure that these configurations
                 align with their operational needs to maintain data integrity throughout the ad spend optimization process.</p>
               <p className="text-md text-white shadow-text pt-3">4. Custom Code and Development: While Great Expectations is largely configuration-based, it does offer an extension
                 mechanism through custom code for more advanced validation scenarios. Businesses can leverage this feature to
@@ -39,15 +38,15 @@ export default function ImplementationSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
-              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Here are some specific factors to consider:</p>
+              <p className="text-md text-white shadow-text pt-3">Implementing Great Expectations requires careful planning and consideration to maximize its benefits for automated&nbsp;ad spend optimization. Here are some specific factors to consider:</p>
               <p className="text-md text-white shadow-text pt-3">1. Accelerated Deployment: Great Expectations offers pre-built connectors and templates that can significantly
                 shorten the deployment time. These resources allow businesses to quickly integrate data validation into their
-                existing workflows, ensuring a faster go-live process and immediate improvements in <GlossaryLink slug="data-quality">data quality</GlossaryLink>.</p>
+                existing workflows, ensuring a faster go-live process and immediate improvements in data quality.</p>
               <p className="text-md text-white shadow-text pt-3">2. Data Model Design: When designing data models for ad spend optimization, it is crucial to define clear
                 expectations for data attributes. Great Expectations allows businesses to map these attributes and set validation
                 rules upfront, ensuring that the data model supports accurate and reliable data analysis.</p>
               <p className="text-md text-white shadow-text pt-3">3. Workflow and Process Configuration: Configuring workflows in Great Expectations involves setting up approval
-                chains and <GlossaryLink slug="marketing-automation">automation</GlossaryLink> logic to manage data validation processes. Businesses must ensure that these configurations
+                chains and automation logic to manage data validation processes. Businesses must ensure that these configurations
                 align with their operational needs to maintain data integrity throughout the ad spend optimization process.</p>
               <p className="text-md text-white shadow-text pt-3">4. Custom Code and Development: While Great Expectations is largely configuration-based, it does offer an extension
                 mechanism through custom code for more advanced validation scenarios. Businesses can leverage this feature to

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -35,7 +34,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A phased rollout is possible, but rarely needed for small teams. Most local businesses can move straight
         from setup to production in under a day. For more complex environments, say, a business that
-        needs&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;integration or has multiple locations,
+        needs&nbsp;CRM&nbsp;integration or has multiple locations,
         Nextiva supports incremental deployment. You can bring one location or department live, test it, and
         then roll out to others. This keeps risk low and lets staff learn the system in real time, rather than
         all at once.</p>
@@ -74,7 +73,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-nextiva-goes-live-what-actually-gets-you-up-and-running-fast" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-nextiva-goes-live-what-actually-gets-you-up-and-running-fast-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Nextiva Goes Live: What Actually Gets You Up and Running Fast
               </h2>
               {body}

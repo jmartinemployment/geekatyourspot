@@ -15,13 +15,14 @@ import PAASection from "@/components/use-cases/accounting/tax-compliance-regulat
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Intelligent Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus compliance made simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready with local AI expertise.";
+    "AI makes Multi-State Sales Tax Nexus compliance simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready.";
 const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus`;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -31,24 +32,21 @@ const jsonLd: Graph = {
             "headline": TITLE,
             "description": DESCRIPTION,
             "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Geek @ Your Spot LLC",
-                "logo": { "@type": "ImageObject", "url": "https://geekatyourspot.com/images/GeekAtYourSpot.svg" }
-            },
+            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-13T19:00:57.5894150Z",
             "dateModified": "2026-10-13T19:00:57.5894150Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Multi-State Sales Tax Nexus, sales tax compliance, AI tax automation, Florida small business tax solutions, TaxCloud, Zamp, Quaderno, TaxValet, TaxJar, local tax consulting",
             "@id": `${PAGE_URL}#article`,
+            "about": { "@id": `${PAGE_URL}#service` },
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
             "mentions": [
-                { "@id": `${TOOLS_BASE}/quaderno#software` },
-                { "@id": `${TOOLS_BASE}/taxcloud#software` },
-                { "@id": `${TOOLS_BASE}/taxjar#software` },
-                { "@id": `${TOOLS_BASE}/thetaxvalet#software` },
-                { "@id": `${TOOLS_BASE}/zamp#software` }
+                { "@id": "https://geekatyourspot.com/#software-quaderno" },
+                { "@id": "https://geekatyourspot.com/#software-taxcloud" },
+                { "@id": "https://geekatyourspot.com/#software-taxjar" },
+                { "@id": "https://geekatyourspot.com/#software-taxvalet" },
+                { "@id": "https://geekatyourspot.com/#software-zamp" }
             ]
         },
         {
@@ -60,7 +58,8 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "How does the platform unify multi-channel transaction data?", "acceptedAnswer": {"@type": "Answer", "text": "Businesses using e-commerce sites, ERPs, and billing platforms want to know how the tool brings all that data together for threshold tracking. They also ask how the software filters out sales covered by Marketplace Facilitator laws, so they are not taxed twice, but still counts those sales toward state thresholds if required."}},
                 {"@type": "Question", "name": "Is filing and remittance fully automated, or does it require manual quality assurance?", "acceptedAnswer": {"@type": "Answer", "text": "Many ask if the platform just calculates tax rates or if it is a full-service tool that also fills out, files, and sends payments to state revenue departments. This distinction is important for small teams wanting to reduce manual work."}}
             ]
-        }
+        },
+        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
     ]
 };
 
@@ -81,14 +80,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

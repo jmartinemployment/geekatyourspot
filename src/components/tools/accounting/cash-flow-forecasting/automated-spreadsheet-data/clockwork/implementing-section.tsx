@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -17,7 +16,7 @@ export default function ImplementingSection() {
         The phased rollout approach further shortens the go-live timeline. Initially, Clockwork focuses on
         establishing the core financial models and dashboards. This allows your team to quickly start using the
         platform for essential forecasting and planning tasks. Subsequent phases can then introduce more advanced
-        features, such as scenario planning and&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-driven insights, at a
+        features, such as scenario planning and&nbsp;AI-driven insights, at a
         pace that suits your business needs.</p>
       <p className="text-md text-white shadow-text pt-3">
         Training and support are integral to the go-live process. Geek @ Your Spot LLC provides tailored training
@@ -51,7 +50,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlined-go-live-process-with-clockwork">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="streamlined-go-live-process-with-clockwork-lg">
                 Streamlined Go-Live Process with Clockwork
               </h2>
               {body}

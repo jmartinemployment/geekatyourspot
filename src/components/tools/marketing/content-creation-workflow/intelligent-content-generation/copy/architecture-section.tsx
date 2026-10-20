@@ -37,7 +37,7 @@ export default function ArchitectureSection() {
         automation</GlossaryLink>&nbsp;systems, and project management platforms. This makes it easy to embed
         Copy.ai into existing workflows without overhauling the tech stack. Teams can set up triggers that
         start content workflows based on events in other systems, like a new product launch in
-        the&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or
+        the&nbsp;CRM&nbsp;or
         a campaign deadline in the project
         manager.&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;access
         is available for more advanced integrations, supporting bulk workflow runs and custom automation.</p>
@@ -84,7 +84,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="inside-copy-ai-architecture-integrations-and-data-handling" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="inside-copy-ai-architecture-integrations-and-data-handling-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Inside Copy.ai: Architecture, Integrations, and Data Handling
               </h2>
               {body}

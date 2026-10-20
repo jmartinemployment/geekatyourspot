@@ -1,10 +1,9 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FutureTrendsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        The landscape of&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;is evolving
+        The landscape of&nbsp;tax compliance&nbsp;is evolving
         rapidly with advancements in automation technologies. As governments and businesses strive to streamline
         tax processes, several trends are emerging that promise to redefine how tax compliance is managed. These
         trends not only aim to enhance efficiency but also to ensure greater accuracy and transparency in tax
@@ -79,7 +78,7 @@ export default function FutureTrendsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="future-trends-in-tax-compliance-automation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="future-trends-in-tax-compliance-automation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Future Trends in Tax Compliance Automation
               </h2>
               {body}

@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataIntegrationSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        Every multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
-        compliance</GlossaryLink>&nbsp;rollout fails or succeeds on the quality and reach of its data. The
+        Every multi-state sales&nbsp;tax
+        compliance&nbsp;rollout fails or succeeds on the quality and reach of its data. The
         system can only automate what it can see, and most small businesses underestimate just how scattered
         their sales data is. You need a single, complete picture of every transaction, across every sales
         channel, payment processor, and inventory location, in real time. Miss a source, and you risk
@@ -78,7 +77,7 @@ export default function DataIntegrationSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-data-and-integrations-a-real-tax-compliance-environment-needs-to-supply" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-data-and-integrations-a-real-tax-compliance-environment-needs-to-supply-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Data and Integrations a Real Tax Compliance Environment Needs to Supply
               </h2>
               {body}

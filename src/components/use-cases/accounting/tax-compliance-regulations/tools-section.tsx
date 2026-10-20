@@ -15,8 +15,8 @@ export default function ToolsSection() {
       </h3>
       <p className="text-md text-white shadow-text pt-3">
         Avalara is a leading platform that
-        simplifies&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;for businesses by automating various tax-related tasks. It provides
+        simplifies&nbsp;tax
+        compliance&nbsp;for businesses by automating various tax-related tasks. It provides
         comprehensive tools that ensure accurate tax calculations and filing processes, which are crucial for
         businesses operating across multiple jurisdictions.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function ToolsSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Supports global tax compliance and reporting.</li>
         <li>Automates data collection and tax calculations.</li>
-        <li>Integrates with financial and&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.</li>
+        <li>Integrates with financial and&nbsp;ERP&nbsp;systems.</li>
         <li>Provides detailed audit trails and reporting.</li>
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -72,7 +72,7 @@ export default function ToolsSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Automates transaction tax calculations.</li>
         <li>Provides jurisdiction-specific tax rules.</li>
-        <li>Integrates seamlessly with&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.</li>
+        <li>Integrates seamlessly with&nbsp;ERP&nbsp;systems.</li>
         <li>Supports tax data analysis and reporting.</li>
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -84,7 +84,7 @@ export default function ToolsSection() {
         jurisdiction-specific tax rules, mitigating compliance risks. Our team configures Vertex workflows to
         automate tax return processing and reconciliation, reducing manual errors. For advanced customization,
         we leverage
-        Vertex&#39;s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;to
+        Vertex&#39;s&nbsp;API&nbsp;to
         integrate with other enterprise systems, tailoring solutions to meet unique client requirements. This
         comprehensive approach leads to efficient tax processes and enhanced regulatory compliance.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -134,7 +134,7 @@ export default function ToolsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="integrating-ai-solutions-for-regulatory-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="integrating-ai-solutions-for-regulatory-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Integrating AI Solutions for Regulatory Compliance
               </h2>
               {body}

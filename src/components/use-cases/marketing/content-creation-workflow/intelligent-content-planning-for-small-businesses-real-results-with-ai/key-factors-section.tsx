@@ -17,8 +17,8 @@ export default function KeyFactorsSection() {
         or manager can see and measure. This keeps everyone focused when the novelty wears off and the first
         rough drafts hit the calendar.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Second, implementation fails when&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
-        quality</GlossaryLink>&nbsp;is ignored or left for later. If your system is still running on scattered
+        Second, implementation fails when&nbsp;data
+        quality&nbsp;is ignored or left for later. If your system is still running on scattered
         spreadsheets, half-filled fields, or missing tracking tags, the AI will only amplify the mess. Rushed
         deployments that treat data as “good enough” end up with content plans built on noise, not insight.
         The teams that win take the time to validate and clean their data before launching anything. That
@@ -80,7 +80,7 @@ export default function KeyFactorsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-some-content-planning-implementations-stall-and-how-to-avoid-it" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-some-content-planning-implementations-stall-and-how-to-avoid-it-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why Some Content Planning Implementations Stall, and How to Avoid It
               </h2>
               {body}

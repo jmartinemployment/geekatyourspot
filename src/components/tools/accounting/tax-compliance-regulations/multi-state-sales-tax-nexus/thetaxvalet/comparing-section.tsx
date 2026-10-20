@@ -1,20 +1,19 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         A buyer looking at TaxValet for multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>&nbsp;is almost always weighing it against two other approaches: trying to
+        sales&nbsp;tax
+        compliance&nbsp;is almost always weighing it against two other approaches: trying to
         manage compliance in-house with spreadsheets or off-the-shelf software, or using another service
         provider that promises automation but leaves much of the work and risk on the business. Each path has a
         real cost, and the differences only get sharper as a small business crosses into multiple states and
         channels.</p>
       <p className="text-md text-white shadow-text pt-3">
         DIY and basic software tools
-        like&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-comparing-taxjar" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;or
+        like&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;or
         QuickBooks Online offer entry-level automation for calculating tax on checkout and filing standard
         returns. For a business selling only through one or two channels and operating in a handful of states,
         these tools can work, up to a point. The problem is visibility. Software only tracks the transactions it
@@ -72,7 +71,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -80,10 +79,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-taxvalet-compares-to-diy-software-and-other-service-models" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxvalet-compares-to-diy-software-and-other-service-models-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxValet Compares to DIY, Software, and Other Service Models
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

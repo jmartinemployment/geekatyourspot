@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
@@ -20,9 +19,9 @@ export default function HowItWorksSection() {
         the data you need to qualify a lead. According to Apollo’s own documentation, this enrichment pulls
         from over 65 data points, so every record is as complete as possible.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The next step is real-time&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>.
+        The next step is real-time&nbsp;lead scoring.
         Apollo’s AI looks at both the data it just enriched and your
-        own&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;history. It checks which leads look most
+        own&nbsp;CRM&nbsp;history. It checks which leads look most
         like your best customers, using signals like job title, company size, recent buying intent, and even
         changes like a new funding round or a job switch. Every inbound lead gets scored the moment it
         arrives, so your sales team knows who to call first. This predictive scoring is not static. Apollo’s
@@ -77,7 +76,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-apollo-turns-raw-data-into-qualified-leads" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-apollo-turns-raw-data-into-qualified-leads-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Apollo Turns Raw Data Into Qualified Leads
               </h2>
               {body}

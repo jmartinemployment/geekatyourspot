@@ -71,7 +71,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Deel integrates with accounting software like QuickBooks and NetSuite. When connected, invoices,
-              bills, and payments—including contractor and EOR payments—are automatically synced and mapped to
+              bills, and payments (including contractor and EOR payments) are automatically synced and mapped to
               your general ledger. Vendor matching and customizable sync settings help eliminate manual entry,
               reduce errors, and keep your financial records up to date.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

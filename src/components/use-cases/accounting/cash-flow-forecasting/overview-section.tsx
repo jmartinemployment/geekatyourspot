@@ -27,7 +27,7 @@ export default function OverviewSection() {
               <p className="text-md text-white shadow-text">
                 Imagine navigating a river without a map or compass, where unexpected twists and turns can lead to treacherous
                 waters. This is often how businesses feel when tackling the unpredictable currents of <GlossaryLink slug="cash-flow-forecasting">cash flow</GlossaryLink> without a reliable
-                forecasting strategy in place. <GlossaryLink slug="cash-flow-forecasting">Cash flow forecasting</GlossaryLink>&nbsp;is more than just a financial exercise; it&#39;s a critical
+                forecasting strategy in place. Cash flow forecasting&nbsp;is more than just a financial exercise; it&#39;s a critical
                 navigation tool that guides businesses through the complexities of their financial landscape, ensuring smooth
                 sailing towards sustainable growth and stability.
               </p>
@@ -38,7 +38,8 @@ export default function OverviewSection() {
                 advancements that empower businesses to master cash flow forecasting, transforming it from a daunting challenge into
                 a strategic advantage.
               </p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id="use-cases-accounting-cash-flow-forecasting-overview-blog" href="/blog/accounting/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai" className="text-[#C83803] hover:underline">Unlocking the Secrets to Effective Cash Flow Forecasting with AI</Link> on our blog.</p>
+              <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id="use-cases-accounting-cash-flow-forecasting-overview-blog" href="/blog/accounting/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai" className="text-[#C83803] hover:underline">Cash Flow Forecasting with AI</Link> on our blog.</p>
+              <p className="pt-3 text-md font-normal text-white shadow-text">Cash flow forecasting is one of our <Link id="use-cases-accounting-cash-flow-forecasting-overview-accounting-hub" href="/use-cases/accounting" className="text-[#C83803] hover:underline">Accounting &amp; Finance Use Cases</Link>, and its pillars also include <Link id="use-cases-accounting-cash-flow-forecasting-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">Intelligent Spreadsheet Data</Link> and <Link id="use-cases-accounting-cash-flow-forecasting-overview-resource-planning" href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>.</p>
             </div>
           </div>
         </div>

@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Factors is built for small businesses in Miami-Dade, Broward, and Palm Beach that need to see exactly
@@ -17,7 +16,7 @@ export default function RightFitSection() {
         The businesses that see the most from Factors are those who want to break free from the 80/20 trap,
         80% of effort wasted on cold or unqualified leads, while the 20% of real, in-market buyers slip
         through the cracks. If you are frustrated by anonymous traffic spikes,
-        blank&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;fields, or the constant churn of cold
+        blank&nbsp;CRM&nbsp;fields, or the constant churn of cold
         outreach, this platform closes that gap. Factors does not just surface names; it scores accounts by
         live engagement, shows the full journey from ad click to closed deal, and automates the handoff to
         sales with real-time alerts and direct contact data. That means fewer missed opportunities, less
@@ -47,7 +46,7 @@ export default function RightFitSection() {
       <p className="text-md text-white shadow-text pt-3">
         For small businesses who want to see what Factors can do before making a decision, the next step is to
         look at how it fits into your existing lead capture process. If you are already using smart chatbots,
-        AI&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>, or voice assistants as
+        AI&nbsp;lead scoring, or voice assistants as
         described on the publisher’s Lead Capture Pipeline page, Factors enhances those investments by tying
         every signal back to a real account and a real pipeline outcome. If you are still building that
         foundation, it gives you a starting point that scales as you grow.</p>
@@ -60,7 +59,7 @@ export default function RightFitSection() {
         makes the difference.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-marketing-lead-enrichment-and-predictive-scoring-factors-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-marketing-lead-enrichment-and-predictive-scoring-factors-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
@@ -69,7 +68,7 @@ export default function RightFitSection() {
         <li>When you pull or buy a list of local businesses to target in Miami-Dade, Broward, or Palm Beach, what percentage of those emails bounce or phone numbers turn out to be dead ends?</li>
         <li>How do your sales reps currently decide which lead to call first on Monday morning? Is it based on a mathematical score, the newest lead, or just gut feeling?</li>
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
-        <li>What&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho,&nbsp;<Link id="tools-marketing-lead-enrichment-factors-right-fit-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, Salesforce, or just a massive Google Sheet?)</li>
+        <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho,&nbsp;<Link id={`tools-marketing-lead-enrichment-factors-right-fit-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
     </>
   );
@@ -85,7 +84,7 @@ export default function RightFitSection() {
                 Who Gets Real Value from Factors, and Who Should Look Elsewhere
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -94,10 +93,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-gets-real-value-from-factors-and-who-should-look-elsewhere" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-gets-real-value-from-factors-and-who-should-look-elsewhere-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who Gets Real Value from Factors, and Who Should Look Elsewhere
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ export const myaifrontdeskContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "lead-capture-pipeline/intelligent-receptionist",
   "description":
-    "Intelligent Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments automatically",
+    "Intelligent Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments.",
   "heroSummary":
     "My AI Front Desk is an Intelligent Receptionist designed for South Florida small businesses, ensuring every call is answered, leads are captured, and appointments are booked without missing a beat.",
   "keywords":

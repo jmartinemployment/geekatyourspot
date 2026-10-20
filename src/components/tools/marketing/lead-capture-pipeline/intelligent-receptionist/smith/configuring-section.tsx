@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ConfiguringSection() {
   const body = (
@@ -55,7 +54,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         In practice, configuring Smith.ai is a collaborative process. Geek @ Your Spot LLC walks you through
         documenting your current intake, escalation, and data requirements. They translate these into Smith.ai’s
-        automation logic, map integrations to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and
+        automation logic, map integrations to your&nbsp;CRM&nbsp;and
         scheduling tools, and run test scenarios to make sure the system handles real-world complexity, not just
         demo cases. If your business changes, new services, new locations, new intake criteria, updating
         Smith.ai is a configuration job, not a rebuild.</p>
@@ -88,7 +87,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-gets-configured-in-smith-ai-rules-automation-logic-and-extensions" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-gets-configured-in-smith-ai-rules-automation-logic-and-extensions-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gets Configured in Smith.ai: Rules, Automation Logic, and Extensions
               </h2>
               {body}

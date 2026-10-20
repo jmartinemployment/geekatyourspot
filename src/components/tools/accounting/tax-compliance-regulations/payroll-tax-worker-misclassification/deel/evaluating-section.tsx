@@ -1,11 +1,10 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Deel is not a one-size-fits-all platform. The right way to judge if Deel fits your business is to look
-        at how its features, pricing, and support align with your real payroll and compliance risks—not just the
+        at how its features, pricing, and support align with your real payroll and compliance risks, not just the
         number of workers you have. For small businesses in Miami-Dade, Broward, or Palm Beach, the key question
         is whether Deel can remove the manual work and legal exposure that come with managing both W-2 employees
         and 1099 contractors, especially across state lines or in industries with high audit risk.</p>
@@ -31,24 +30,24 @@ export default function EvaluatingSection() {
         platform offers clear, flat-rate pricing with no usage fees and no long-term contracts, so you know what
         you are paying from the start. Each Contractor of Record contract requires a deposit equal to one month
         of the contractor’s pay, which Deel holds because it assumes the legal responsibility for classification
-        and compliance. This deposit structure is not an extra fee—it is the price of having Deel take on the
+        and compliance. This deposit structure is not an extra fee. It is the price of having Deel take on the
         risk that would otherwise fall on your business. For businesses used to getting hit with surprise costs
         for late filings or audit defense, Deel’s pricing model is a way to budget compliance costs upfront, not
         after the fact.</p>
       <p className="text-md text-white shadow-text pt-3">
         A buyer should also consider how Deel integrates with the rest of their technology stack. If your
         accounting runs on QuickBooks, Xero, or NetSuite, Deel’s native integrations mean payments, deductions,
-        and tax filings sync directly—no manual data entry or risk of errors. This is not just a convenience; it
+        and tax filings sync directly, with no manual data entry or risk of errors. This is not just a convenience; it
         is a major risk reducer. When payroll data flows straight into your general ledger, you avoid the
         classic spreadsheet mistakes that trigger audit red flags or missed payments. If you use time-tracking
         or benefits platforms, Deel’s
-        open&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and
+        open&nbsp;API&nbsp;and
         marketplace integrations let you extend automation further, always with audit trails and compliance
         controls.</p>
       <p className="text-md text-white shadow-text pt-3">
         When weighing Deel, do not just compare feature lists. Look at the platform’s track record in handling
         real compliance risks for businesses like yours. Case studies show that Deel has helped companies save
-        time and costs by automating hiring, onboarding, and compliance—especially for teams working across
+        time and costs by automating hiring, onboarding, and compliance, especially for teams working across
         borders or with complex worker mixes. The platform’s ability to assume misclassification liability
         through its Contractor of Record service is a concrete advantage for small businesses facing audit risk
         in South Florida’s gig-heavy economy.</p>
@@ -63,7 +62,7 @@ export default function EvaluatingSection() {
         In summary, judge Deel by how well it matches your risk profile, how clearly it prices compliance, and
         how smoothly it fits into your existing systems. For South Florida small businesses juggling mixed teams
         and shifting tax rules, Deel’s combination of automation, legal risk assumption, and transparent pricing
-        makes it a strong fit—especially when deployed by a partner who understands your industry and region.</p>
+        makes it a strong fit, especially when deployed by a partner who understands your industry and region.</p>
     </>
   );
 
@@ -87,7 +86,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-deel-fit-flexibility-and-real-world-pricing" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-deel-fit-flexibility-and-real-world-pricing-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Deel: Fit, Flexibility, and Real-World Pricing
               </h2>
               {body}

@@ -2,12 +2,12 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Automated Fraud &amp; Duplicate Payment Controls revolutionize the way businesses handle&nbsp;
-        <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>. At the core of this solution
-        is the integration of <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
+        accounts payable. At the core of this solution
+        is the integration of AI&nbsp;and&nbsp;
         <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;technologies that
         streamline processes and enhance accuracy. The system operates through several key components, each
         designed to tackle specific pain points in AP management.</p>
@@ -30,23 +30,23 @@ export default function HowItWorksSection() {
         This proactive approach prevents errors from escalating into costly financial discrepancies.</p>
       <p className="text-md text-white shadow-text pt-3">
         Tools like&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-how-medius"
+        <Link id={`use-cases-accounting-fraud-controls-how-medius${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">
           Medius
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-how-tipalti"
+        <Link id={`use-cases-accounting-fraud-controls-how-tipalti${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">
           Tipalti
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-how-stampli"
+        <Link id={`use-cases-accounting-fraud-controls-how-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>,&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-how-bill"
+        <Link id={`use-cases-accounting-fraud-controls-how-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, and&nbsp;
-        <Link id="use-cases-accounting-fraud-controls-how-ramp"
+        <Link id={`use-cases-accounting-fraud-controls-how-ramp${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" className="text-[#C83803] hover:underline">
           Ramp
         </Link>&nbsp;are pivotal in implementing these controls. Each offers unique functionalities tailored
@@ -74,7 +74,7 @@ export default function HowItWorksSection() {
                 How Automated Fraud &amp; Duplicate Payment Controls Work
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -83,10 +83,10 @@ export default function HowItWorksSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-automated-fraud-duplicate-payment-controls-work" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-automated-fraud-duplicate-payment-controls-work-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Automated Fraud &amp; Duplicate Payment Controls Work
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

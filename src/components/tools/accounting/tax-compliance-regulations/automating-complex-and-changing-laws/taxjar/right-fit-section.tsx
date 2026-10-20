@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         TaxJar is ideally suited for small to mid-sized businesses that operate across multiple states and need
         to manage complex sales tax obligations. Its automation capabilities are particularly beneficial for
         businesses without a dedicated tax team, allowing them to offload the burdensome task
-        of&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;to a reliable system. The
+        of&nbsp;tax compliance&nbsp;to a reliable system. The
         platform&#39;s ability to integrate seamlessly with popular e-commerce platforms makes it an excellent
         choice for online retailers looking to streamline their operations.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -36,7 +35,7 @@ export default function RightFitSection() {
         significantly enhance operational efficiency and compliance accuracy.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-complex-changing-laws-taxjar-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-complex-changing-laws-taxjar-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
@@ -60,7 +59,7 @@ export default function RightFitSection() {
                 Is TaxJar the Right Fit for Your Business?
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -69,10 +68,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="is-taxjar-the-right-fit-for-your-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="is-taxjar-the-right-fit-for-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Is TaxJar the Right Fit for Your Business?
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

@@ -40,7 +40,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         Alerts and automation are built in. Leadfeeder sends instant notifications, via email or Slack, when a
         target company visits key pages or when an account in your pipeline resurfaces. You can set up
-        workflows that trigger&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;record creation,
+        workflows that trigger&nbsp;CRM&nbsp;record creation,
         auto-tagging, or campaign audience refreshes based on these signals. This means your sales team gets
         notified the moment a local business from Miami-Dade, Broward, or Palm Beach shows buying intent,
         instead of finding out days later.</p>
@@ -79,7 +79,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-leadfeeder-turns-anonymous-website-visits-into-qualified-pipeline" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-leadfeeder-turns-anonymous-website-visits-into-qualified-pipeline-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Leadfeeder Turns Anonymous Website Visits into Qualified Pipeline
               </h2>
               {body}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OverviewSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every week, a small business owner in Miami-Dade spends hours calling companies that never return a
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         full of dead ends. The wasted effort is visible in missed revenue, rising ad spend, and the
         frustration of seeing competitors win accounts that were already on your site.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id="tools-marketing-lead-enrichment-leadfeeder-overview-lead-enrichment" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;directly address this problem. Instead of waiting for a
+        <Link id={`tools-marketing-lead-enrichment-leadfeeder-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;directly address this problem. Instead of waiting for a
         prospect to fill out a form or call, these systems identify which companies are visiting your site,
         what they look at, and how engaged they are, without asking them for anything. They pull in company
         details, score intent based on real behavior, and send instant alerts when a high-fit local business
@@ -47,7 +47,7 @@ export default function OverviewSection() {
                 Overview
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -56,10 +56,10 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

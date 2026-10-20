@@ -5,7 +5,7 @@ export default function HowItOperatesSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Ramp transforms the traditional&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;process
+        accounts payable&nbsp;process
         by employing advanced technologies like Optical Character Recognition (OCR) and machine learning (ML).
         These technologies automate the extraction of data from invoices, match them to purchase orders, and
         route them for approval based on predefined rules. This automation reduces the time spent on each
@@ -61,7 +61,7 @@ export default function HowItOperatesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramps-automated-approval-workflows-operate">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramps-automated-approval-workflows-operate-lg">
                 How Ramp&#39;s Automated Approval Workflows Operate
               </h2>
               {body}

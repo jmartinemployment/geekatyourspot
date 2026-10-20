@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 export default function HowItWorksSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Automating accounts payable transforms an inefficient process into a streamlined workflow that
         enhances accuracy, speed, and control. The journey begins with automated data capture, a technology
         that extracts invoice details using tools like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-dext"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-dext${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>. This tool converts paper invoices into digital formats and extracts essential data points,
@@ -15,17 +15,17 @@ export default function HowItWorksSection() {
         ensuring that information is both accurate and instantly available to the finance team.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once data is captured, it moves to the processing phase. Here, tools like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-stampli"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
-        </Link>&nbsp;take over by automating the&nbsp;<Link id="use-cases-accounting-data-entry-how-it-works-approval-workflows" href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
+        </Link>&nbsp;take over by automating the&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#C83803] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
         approvers based on predefined criteria, minimizing the time spent on manual follow-ups. Approvers
         receive notifications and can review invoices from any device, enabling faster decision-making. This
         automation not only accelerates the approval process but also maintains an audit trail for compliance
         purposes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        After approval, the process moves to&nbsp;<Link id="use-cases-accounting-data-entry-how-it-works-payment-execution" href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>. Solutions like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-avidxchange"
+        After approval, the process moves to&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#C83803] hover:underline">payment execution</Link>. Solutions like&nbsp;
+        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;ensure payments are processed securely and efficiently. AvidXchange offers multiple
@@ -34,7 +34,7 @@ export default function HowItWorksSection() {
         adding a layer of security to the process.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, the integration with accounting software, facilitated by tools like&nbsp;
-        <Link id="use-cases-accounting-automated-data-entry-processing-how-it-works-bill"
+        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, ensures that all transaction data is seamlessly updated in the company&#39;s financial
@@ -56,7 +56,7 @@ export default function HowItWorksSection() {
                 How Automated Accounts Payable Works: A Step-by-Step Guide
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -65,10 +65,10 @@ export default function HowItWorksSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-automated-accounts-payable-works-a-step-by-step-guide" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-automated-accounts-payable-works-a-step-by-step-guide-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Automated Accounts Payable Works: A Step-by-Step Guide
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

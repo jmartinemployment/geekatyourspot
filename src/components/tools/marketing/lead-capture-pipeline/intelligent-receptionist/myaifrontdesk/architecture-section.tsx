@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk is built as a cloud-based platform designed for small businesses that need reliable,
@@ -22,15 +22,15 @@ export default function ArchitectureSection() {
         every call, text, email, and chat is logged as structured data about the contact, who they are, what
         they want, and when they are likely to act. The platform extracts not just contact details, but custom
         fields you define: intent, urgency, preferred service, or budget. These fields are mapped to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and
+        your&nbsp;CRM&nbsp;and
         analytics tools, so every conversation powers your sales and service workflows automatically.</p>
       <p className="text-md text-white shadow-text pt-3">
         Integration is a core strength. My AI Front Desk connects natively to Google Calendar, Outlook, and
         Calendly for real-time appointment
-        booking.&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;sync
+        booking.&nbsp;CRM&nbsp;sync
         is built in for HubSpot, Salesforce, Pipedrive, and Zoho, with every conversation, transcript, and
         summary attached to the contact record. For businesses with more complex needs, the platform connects to
-        other systems through&nbsp;<Link id="tools-marketing-intelligent-receptionist-myaifrontdesk-architecture-zapier" href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, so you can trigger workflows in hundreds of other apps without extra
+        other systems through&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, so you can trigger workflows in hundreds of other apps without extra
         coding. Retailers can connect Shopify to surface order status, customer history, and loyalty data on
         every call, allowing the AI to answer order-status questions and route by store or location.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -41,9 +41,9 @@ export default function ArchitectureSection() {
         pricing and central reporting per location.</p>
       <p className="text-md text-white shadow-text pt-3">
         Every call is recorded, transcribed, and summarized by the AI. These records are written back to
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;and
+        your&nbsp;CRM&nbsp;and
         are searchable across all contacts. The activity timeline in
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;shows
+        your&nbsp;CRM&nbsp;shows
         every interaction, call, SMS, chat, note, or form submission, in reverse chronological order, with
         click-to-expand details. This structure means you can quickly review the full history of a lead or
         customer, spot trends in missed calls or peak hours, and connect call outcomes directly to booked
@@ -80,7 +80,7 @@ export default function ArchitectureSection() {
                 What Powers My AI Front Desk: Architecture, Integrations, and Data Handling
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -89,10 +89,10 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-powers-my-ai-front-desk-architecture-integrations-and-data-handling" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-powers-my-ai-front-desk-architecture-integrations-and-data-handling-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Powers My AI Front Desk: Architecture, Integrations, and Data Handling
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

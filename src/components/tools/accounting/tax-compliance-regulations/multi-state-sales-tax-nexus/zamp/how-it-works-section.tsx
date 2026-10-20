@@ -23,7 +23,7 @@ export default function HowItWorksSection() {
         <li>Automatic Registration: When a threshold is reached, Zamp’s team files the necessary paperwork with the state, sets up tax accounts, and ensures your business is registered before the first dollar is collected. You do not touch a portal or submit forms yourself.</li>
         <li>Filing and Remittance: Zamp prepares, reviews, and submits all state and local tax returns, covering every jurisdiction, including home-rule cities, based on the actual amounts collected through your connected sales channels. Payments are remitted directly by Zamp’s platform, not left for your team to schedule.</li>
         <li>Notice and Audit Handling: Zamp monitors state portals and your mail for notices, digitizes and classifies them, and manages the full resolution process. If a state sends a letter or launches an audit, Zamp’s team responds, provides documentation, and closes out the issue, your team is kept informed, but not responsible for the legwork.</li>
-        <li>Ongoing&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">Data Quality</GlossaryLink>&nbsp;and Reconciliation: Before any return is filed, Zamp’s tax professionals review the data, using AI-driven anomaly detection to catch discrepancies. Returns and liabilities are reconciled to your&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;or general ledger, ensuring accuracy that stands up in an audit.</li>
+        <li>Ongoing&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">Data Quality</GlossaryLink>&nbsp;and Reconciliation: Before any return is filed, Zamp’s tax professionals review the data, using AI-driven anomaly detection to catch discrepancies. Returns and liabilities are reconciled to your&nbsp;ERP&nbsp;or general ledger, ensuring accuracy that stands up in an audit.</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
         This hands-off execution is not a theoretical promise. Zamp’s managed approach means your team’s role is
@@ -66,7 +66,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="every-step-zamp-takes-to-make-multi-state-sales-tax-compliance-hands-off" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="every-step-zamp-takes-to-make-multi-state-sales-tax-compliance-hands-off-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Every Step Zamp Takes to Make Multi-State Sales Tax Compliance Hands-Off
               </h2>
               {body}

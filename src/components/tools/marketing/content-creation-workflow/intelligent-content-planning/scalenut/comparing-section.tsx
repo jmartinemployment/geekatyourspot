@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ComparingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Scalenut is not just another AI content generator or SEO dashboard. Most platforms in the market
@@ -13,7 +13,7 @@ export default function ComparingSection() {
         South Florida, where teams do not have the headcount to manage separate tools for planning, writing,
         optimization, and reporting.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Many buyers compare Scalenut with platforms like Surfer SEO,&nbsp;<Link id="tools-marketing-intelligent-content-planning-scalenut-comparing-writesonic" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#0B162A] hover:underline">Writesonic</Link>, or&nbsp;<Link id="tools-marketing-intelligent-content-planning-scalenut-comparing-frase" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase" className="text-[#0B162A] hover:underline">Frase</Link>. These tools are
+        Many buyers compare Scalenut with platforms like Surfer SEO,&nbsp;<Link id={`tools-marketing-intelligent-content-planning-scalenut-comparing-writesonic${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#0B162A] hover:underline">Writesonic</Link>, or&nbsp;<Link id={`tools-marketing-intelligent-content-planning-scalenut-comparing-frase${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase" className="text-[#0B162A] hover:underline">Frase</Link>. These tools are
         strong at generating content or providing SEO recommendations, but they often require manual
         intervention to stitch together a full workflow. For example, Surfer can help you optimize a blog post
         for certain keywords, but it does not track your brand’s presence across ChatGPT, Gemini, or
@@ -72,7 +72,7 @@ export default function ComparingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -80,10 +80,10 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-scalenut-stands-apart-from-other-content-planning-tools-and-approaches" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-scalenut-stands-apart-from-other-content-planning-tools-and-approaches-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Scalenut Stands Apart from Other Content Planning Tools and Approaches
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

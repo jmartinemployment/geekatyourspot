@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -6,11 +5,11 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The choices you make about data structure and mapping at the start of a My AI Front Desk deployment
         will shape how smoothly your lead capture pipeline runs. This is not just about picking fields in
-        a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, it is about making sure every conversation, no
+        a&nbsp;CRM, it is about making sure every conversation, no
         matter where it starts, lands in the right place with the right context, ready for your team to act.</p>
       <p className="text-md text-white shadow-text pt-3">
         My AI Front Desk’s data model is built
-        for&nbsp;<GlossaryLink slug="omnichannel">omnichannel</GlossaryLink>&nbsp;use. Every interaction,
+        for&nbsp;omnichannel&nbsp;use. Every interaction,
         whether it is a phone call, SMS, web chat, email, or social DM, gets captured, transcribed, and linked
         to a single contact timeline. This timeline is the backbone of the system. It holds every message,
         call, and appointment for each lead in one place, so your team sees the full story behind every
@@ -27,12 +26,12 @@ export default function DataMappingSection() {
         Next, you map your fields. My AI Front Desk captures structured data from every conversation: name,
         contact info, intent, urgency, budget, timeline, and outcome. These fields are auto-populated by the
         AI as it interacts with prospects. For each field, you decide how it lines up with your
-        existing&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or data warehouse. If you use HubSpot,
+        existing&nbsp;CRM&nbsp;or data warehouse. If you use HubSpot,
         Salesforce, or Pipedrive, the system can push updates directly to the right objects and fields, no
         manual entry required. If you have custom fields or industry-specific requirements, you set those
         mappings during implementation, so nothing gets lost in translation.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="lead-scoring">Lead scoring</GlossaryLink>&nbsp;is another critical mapping
+        Lead scoring&nbsp;is another critical mapping
         decision. My AI Front Desk does not just collect data; it analyzes chat intent, call outcomes, form
         submissions, and engagement across all channels to score each lead’s likelihood to convert. You can
         tune how these signals are weighted, so the AI prioritizes the types of leads that matter most to your
@@ -63,7 +62,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s implementation process starts by mapping your current data landscape, what you
         track, how you track it, and where it lives. The team works with you to standardize identifiers, align
-        fields, and tune&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;so the system
+        fields, and tune&nbsp;lead scoring&nbsp;so the system
         fits your sales process out of the gate. They also test handoff and escalation flows, making sure
         nothing falls through the cracks. Once the data structure is right, the rest of the system builds
         itself, and you see results as soon as the first conversation hits the inbox.</p>
@@ -90,7 +89,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-mapping-and-structure-the-decisions-that-shape-my-ai-front-desk-from-day-one" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-mapping-and-structure-the-decisions-that-shape-my-ai-front-desk-from-day-one-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Mapping and Structure: The Decisions That Shape My AI Front Desk From Day One
               </h2>
               {body}

@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -8,10 +7,10 @@ export default function ImplementingSection() {
         transition from manual to automated processes. Geek @ Your Spot LLC plays a crucial role in this process,
         offering expertise in configuring Ramp to fit your specific needs. The first step is to map out your
         current&nbsp;
-        <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts payable</GlossaryLink>&nbsp;workflows,
+        accounts payable&nbsp;workflows,
         identifying areas where automation can provide the most value. This involves understanding your data
         structure, approval chains, and any existing&nbsp;
-        <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;integrations.</p>
+        ERP&nbsp;integrations.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the key benefits of Ramp is its pre-built connectors with major ERPs, which significantly
         shorten the go-live timeline. These connectors allow for seamless data transfer between systems,
@@ -60,7 +59,7 @@ export default function ImplementingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-ramp-in-your-business-environment">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="implementing-ramp-in-your-business-environment-lg">
                 Implementing Ramp in Your Business Environment
               </h2>
               {body}

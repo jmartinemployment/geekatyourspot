@@ -18,7 +18,7 @@ export default function ConfiguringSection() {
         as the real numbers come in.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automation logic in Jirav covers every step that used to be manual. For example, when a sale closes in
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Jirav can pull that data and update revenue
+        your&nbsp;CRM, Jirav can pull that data and update revenue
         forecasts automatically. When payroll runs, those figures roll into expense projections and cash flow
         models without anyone re-entering the data. Jirav’s Auto Forecast engine uses past performance to
         predict future trends, updating projections as new actuals arrive. This is not a one-size-fits-all
@@ -34,7 +34,7 @@ export default function ConfiguringSection() {
         Jirav’s extension mechanism is not a developer toolkit or
         open&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;for custom scripting; it is a config-driven
         system. The platform integrates natively with over 200 accounting,
-        payroll,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, and reporting systems, including QuickBooks,
+        payroll,&nbsp;CRM, and reporting systems, including QuickBooks,
         NetSuite, Sage Intacct, ADP, Paychex, Salesforce, and HubSpot. This means Geek @ Your Spot LLC connects your
         existing tools directly to Jirav, there is no need for custom coding or middleware. Data flows
         automatically, and the platform’s mapping layer handles the translation between systems. If your process
@@ -78,7 +78,7 @@ export default function ConfiguringSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-jirav-s-rules-automation-logic-and-configuration-work-in-practice" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-jirav-s-rules-automation-logic-and-configuration-work-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Jirav’s Rules, Automation Logic, and Configuration Work in Practice
               </h2>
               {body}

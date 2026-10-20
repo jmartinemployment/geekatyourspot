@@ -1,12 +1,11 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Automated spreadsheet data systems can
-        revolutionize&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>, but they are not a one-size-fits-all solution. For businesses like
+        revolutionize&nbsp;cash
+        flow forecasting, but they are not a one-size-fits-all solution. For businesses like
         Maria&#39;s in Miami, the decision to automate hinges on specific factors. The key is understanding when
         automation can deliver clear benefits and when it might not be the best fit.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -60,7 +59,7 @@ export default function RightFitSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="determining-when-automated-spreadsheet-data-is-the-right-solution" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="determining-when-automated-spreadsheet-data-is-the-right-solution-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Determining When Automated Spreadsheet Data is the Right Solution
               </h2>
               {body}

@@ -1,10 +1,9 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DecisionsSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
-        In the realm of&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>, the initial
+        In the realm of&nbsp;tax compliance, the initial
         decisions set the course for the entire implementation process. For small businesses in Miami-Dade,
         Broward, and Palm Beach counties, these choices can either streamline operations or create future
         roadblocks. A key decision is selecting the right AI-powered tools, such as Zamp or TaxCloud, to manage
@@ -57,7 +56,7 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="early-decisions-that-shape-the-path-forward" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="early-decisions-that-shape-the-path-forward-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Early Decisions That Shape the Path Forward
               </h2>
               {body}

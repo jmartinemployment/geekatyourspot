@@ -14,13 +14,13 @@ export default function EvaluatingSection() {
         logic are locked to regulatory requirements and best practices, which means you trade some flexibility
         for a higher level of compliance assurance. If your business needs to handle unusual compensation
         structures, highly customized reporting, or edge-case tax scenarios, Justworks may not be the right fit.
-        But for most small businesses in South Florida—especially those juggling W-2 and 1099 workers, or hiring
-        across multiple states—this structure is a strength, not a limit.</p>
+        But for most small businesses in South Florida, especially those juggling W-2 and 1099 workers or hiring
+        across multiple states, this structure is a strength, not a limit.</p>
       <p className="text-md text-white shadow-text pt-3">
         The pricing model for Justworks is transparent and straightforward. The published rate for the PEO Plus
         plan is $124 per month per employee, as listed on the Justworks pricing page. This fee covers payroll
         processing, multi-state compliance, benefits administration, tax filings, and HR support. There are no
-        additional charges for core compliance features—tax filings, W-2 and 1099 processing, or unemployment
+        additional charges for core compliance features. Tax filings, W-2 and 1099 processing, and unemployment
         insurance administration are included. For businesses used to paying a la carte for each service or
         facing hidden fees from legacy providers, this simplicity is a clear advantage. You know what you will
         pay each month, and you can scale up or down as your team changes without renegotiating your agreement.</p>
@@ -44,8 +44,8 @@ export default function EvaluatingSection() {
         For South Florida businesses, the ability to handle multi-state payroll, worker classification, and
         local compliance in a single platform is a major advantage. The region’s workforce is fluid, with
         employees and contractors often working across city and state lines, and regulatory requirements that
-        change frequently. Justworks’ approach—automation, built-in compliance guardrails, and integrated
-        support—fits this environment. Geek @ Your Spot LLC’s role is to ensure the platform is configured to your
+        change frequently. Justworks’ approach (automation, built-in compliance guardrails, and integrated
+        support) fits this environment. Geek @ Your Spot LLC’s role is to ensure the platform is configured to your
         specific needs, that your data and processes map cleanly, and that your team is trained to use the
         system confidently from day one.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -68,7 +68,7 @@ export default function EvaluatingSection() {
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
               <h2 id="how-to-judge-if-justworks-is-the-right-fit-and-what-its-pricing-model-means-for-small-teams" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How to Judge If Justworks Is the Right Fit—And What Its Pricing Model Means for Small Teams
+                How to Judge If Justworks Is the Right Fit and What Its Pricing Model Means for Small Teams
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -80,8 +80,8 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-if-justworks-is-the-right-fit-and-what-its-pricing-model-means-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How to Judge If Justworks Is the Right Fit—And What Its Pricing Model Means for Small Teams
+              <h2 id="how-to-judge-if-justworks-is-the-right-fit-and-what-its-pricing-model-means-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How to Judge If Justworks Is the Right Fit and What Its Pricing Model Means for Small Teams
               </h2>
               {body}
             </div>

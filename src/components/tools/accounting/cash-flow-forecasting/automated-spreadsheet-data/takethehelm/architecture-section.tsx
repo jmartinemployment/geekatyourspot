@@ -24,9 +24,8 @@ export default function ArchitectureSection() {
         generate reports in both PDF and CSV formats, making it simple to share insights with stakeholders or
         integrate them into other business processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The platform&#39;s integration with Veem allows for direct payments, streamlining the&nbsp;<GlossaryLink
-        slug="accounts-payable" className="text-[#0B162A] hover:underline">accounts
-        payable</GlossaryLink>&nbsp;process. This integration not only simplifies payment workflows but also
+        The platform&#39;s integration with Veem allows for direct payments, streamlining the&nbsp;accounts
+        payable&nbsp;process. This integration not only simplifies payment workflows but also
         enhances security by reducing the need for manual intervention.</p>
     </>
   );
@@ -51,7 +50,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="takethehelm-s-architecture-and-integrations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="takethehelm-s-architecture-and-integrations-lg">
                 Take the Helm&#39;s Architecture and Integrations
               </h2>
               {body}

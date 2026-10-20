@@ -1,7 +1,7 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function TransformsSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Tipalti transforms the landscape of Automated Fraud &amp; Duplicate Payment Controls by removing the
@@ -9,15 +9,15 @@ export default function TransformsSection() {
         ensuring that every step is monitored and controlled. This automation means fewer hours spent on manual
         data entry and more time available for strategic tasks.</p>
       <p className="text-md text-white shadow-text pt-3">
-        One of Tipalti’s standout features is its <GlossaryLink slug="ai">AI</GlossaryLink>-driven detection
+        One of Tipalti’s standout features is its AI-driven detection
         system, which flags duplicate invoices and anomalies early. This proactive approach prevents fraud
         before it occurs, safeguarding the business’s finances. By automating the approval and payment
         processes, Tipalti eliminates the need for manual intervention, reducing errors and increasing
         efficiency.</p>
       <p className="text-md italic text-white shadow-text pt-3">
-        &quot;The result is slower processes, increased burnout, and growing operational risk—especially in
+        &quot;The result is slower processes, increased burnout, and growing operational risk, especially in
         accounts payable (AP).&quot;&nbsp;
-        <a id="tools-accounting-fraud-controls-tipalti-transforms-source"
+        <a id={`tools-accounting-fraud-controls-tipalti-transforms-source${idSuffix}`}
           href="https://tipalti.com/ap-automation/playbook/"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Tipalti
@@ -40,7 +40,7 @@ export default function TransformsSection() {
         adhere to financial regulations. This comprehensive approach reduces the risk of non-compliance and
         potential legal issues, providing peace of mind for business owners.</p>
       <p className="text-md text-white shadow-text pt-3">
-        By automating the entire <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> process,
+        By automating the entire accounts payable process,
         Tipalti removes the bottlenecks that slow down payment cycles. Staff no longer need to chase down
         approvals or manually verify invoices; the system handles these tasks automatically. This efficiency
         not only speeds up payment processing but also improves cash flow management, allowing businesses to
@@ -64,7 +64,7 @@ export default function TransformsSection() {
                 How Tipalti Transforms Automated Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -73,10 +73,10 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-tipalti-transforms-automated-fraud-duplicate-payment-controls">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-tipalti-transforms-automated-fraud-duplicate-payment-controls-lg">
                 How Tipalti Transforms Automated Fraud &amp; Duplicate Payment Controls
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

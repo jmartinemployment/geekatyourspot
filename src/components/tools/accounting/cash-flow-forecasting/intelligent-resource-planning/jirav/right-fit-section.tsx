@@ -1,21 +1,20 @@
 import Link from "next/link";
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Jirav is built for small businesses that have outgrown manual spreadsheets and disconnected apps, but
         are not ready, or do not need, to jump into the deep end with a
-        heavyweight&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>. If your team spends more time formatting
+        heavyweight&nbsp;ERP. If your team spends more time formatting
         and reconciling data than making decisions, or if you find yourself patching together reports for banks,
         investors, or your own peace of mind, Jirav is designed for you.</p>
       <p className="text-md text-white shadow-text pt-3">
-        It fits best for teams that want to automate&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
-        forecasting</GlossaryLink>, keep a live handle on accounts receivable, and replace error-prone
+        It fits best for teams that want to automate&nbsp;cash flow
+        forecasting, keep a live handle on accounts receivable, and replace error-prone
         spreadsheet models with a single, connected platform. If you are running QuickBooks, NetSuite, Sage
         Intacct, or any of the 200-plus systems Jirav integrates with, the transition is direct. You do not need
-        to rip out your core accounting or&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>, Jirav plugs in,
+        to rip out your core accounting or&nbsp;CRM, Jirav plugs in,
         pulls your data, and starts modeling your business as it actually runs.</p>
       <p className="text-md text-white shadow-text pt-3">
         Jirav is especially strong for companies that face seasonality, cash swings, or rapid growth. If you
@@ -31,7 +30,7 @@ export default function RightFitSection() {
         models, Excel is still faster and more flexible. Jirav is about making the routine, repeatable work
         automatic and error-free, it is not a replacement for every custom spreadsheet you might ever build.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If you are looking for a full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;that runs every
+        If you are looking for a full&nbsp;ERP&nbsp;that runs every
         operational process, inventory, order management, compliance, and deep industry-specific workflows,
         Jirav is not that tool. It is focused on financial and intelligent resource planning: forecasting,
         budgeting, workforce planning, and cash flow. You keep your existing systems for operations and let
@@ -46,7 +45,7 @@ export default function RightFitSection() {
         For South Florida small businesses that want to get out of the weeds of manual accounting and
         forecasting, Jirav delivers real, immediate impact. You get back hours every week, reduce errors, and
         gain the confidence to plan ahead. If your team is ready to move past the spreadsheet scramble but does
-        not want to take on the cost and complexity of a full&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>,
+        not want to take on the cost and complexity of a full&nbsp;ERP,
         Jirav is the practical, proven choice.</p>
       <p className="text-md text-white shadow-text pt-3">
         The next step is to map your own environment to Jirav’s strengths. Look at where your current process
@@ -61,11 +60,11 @@ export default function RightFitSection() {
         block your growth and eat your team’s time. For small businesses that need to see where their money is
         going, plan for growth, and keep everyone aligned, Jirav is a fit. For those whose needs are outside
         standardized financial planning and forecasting, or who want a full
-        operational&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>, another tool may be a better match. The
+        operational&nbsp;ERP, another tool may be a better match. The
         fit is clear once you see where your week goes, and where you want it back.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id="tools-accounting-intelligent-resource-planning-jirav-right-fit-booking-your-free-consultation" href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        when&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
@@ -95,7 +94,7 @@ export default function RightFitSection() {
                 Which Small Businesses Benefit from Jirav, and Who Should Look Elsewhere
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -104,10 +103,10 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="which-small-businesses-benefit-from-jirav-and-who-should-look-elsewhere" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="which-small-businesses-benefit-from-jirav-and-who-should-look-elsewhere-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Which Small Businesses Benefit from Jirav, and Who Should Look Elsewhere
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

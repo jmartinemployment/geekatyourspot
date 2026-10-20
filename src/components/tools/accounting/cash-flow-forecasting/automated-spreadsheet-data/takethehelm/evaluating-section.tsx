@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -6,8 +5,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When considering Take the Helm, small businesses should evaluate its fit based on their specific financial
         management needs and the platform&#39;s pricing model. Take the Helm is designed to
-        streamline&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A]
-        hover:underline">cash flow forecasting</GlossaryLink>&nbsp;and management, making it a suitable choice
+        streamline&nbsp;cash flow forecasting&nbsp;and management, making it a suitable choice
         for businesses that require robust financial insights without the complexity of traditional systems.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of the primary considerations is the platform&#39;s integration capabilities. Take the Helm seamlessly
@@ -54,7 +52,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-takethehelm-fit-and-pricing-considerations">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-takethehelm-fit-and-pricing-considerations-lg">
                 Evaluating Take the Helm: Fit and Pricing Considerations
               </h2>
               {body}

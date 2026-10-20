@@ -47,7 +47,7 @@ export default function DataMappingSection() {
         WordPress, Webflow, Sanity, Wix, and FraseCMS, but small businesses often have other tools in their
         stack, email platforms, schedulers, analytics. Geek @ Your Spot LLC works with you to map out where
         content needs to go after it is created. This might mean setting up exports in Markdown or CSV for a
-        bulk scheduler, or connecting Frase’s&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;to
+        bulk scheduler, or connecting Frase’s&nbsp;API&nbsp;to
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or analytics dashboard. The goal is to keep
         your data flowing cleanly from idea to publish, with no manual rework or lost context.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -79,7 +79,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-data-structure-and-mapping-decisions-shape-a-frase-implementation" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-data-structure-and-mapping-decisions-shape-a-frase-implementation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Data Structure and Mapping Decisions Shape a Frase Implementation
               </h2>
               {body}

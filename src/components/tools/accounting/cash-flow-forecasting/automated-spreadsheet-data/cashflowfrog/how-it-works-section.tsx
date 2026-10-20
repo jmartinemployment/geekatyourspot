@@ -57,7 +57,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-mechanics-of-cashflowfrogs-forecasting">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-mechanics-of-cashflowfrogs-forecasting-lg">
                 The Mechanics of Cashflowfrog&#39;s Forecasting
               </h2>
               {body}

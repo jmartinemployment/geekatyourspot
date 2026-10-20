@@ -19,7 +19,7 @@ export default function FaqSection() {
             <p className="text-md text-white shadow-text pt-3">
               Dryrun integrates seamlessly with leading mid-market ERPs and accounting systems, including NetSuite, Sage
               Intacct, Microsoft Dynamics 365 Business Central, and QuickBooks Online.
-              Automated&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;syncs continuously pull live bank balances,
+              Automated&nbsp;API&nbsp;syncs continuously pull live bank balances,
               open invoices, and vendor bills directly into Dryrun, eliminating manual copy-paste errors and static export
               routines.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -45,7 +45,7 @@ export default function FaqSection() {
               What makes Dryrun different from &quot;black-box&quot; AI forecasting tools?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Dryrun combines automated&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;data syncing with complete
+              Dryrun combines automated&nbsp;ERP&nbsp;data syncing with complete
               manual override control, allowing finance teams to manually tweak transactional details, adjust individual
               due dates, or add custom cash injections without altering the underlying ledger records. This
               human-in-the-loop capability eliminates the rigid constraints of &quot;black

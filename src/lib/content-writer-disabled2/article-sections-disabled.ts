@@ -196,5 +196,32 @@ export function toArticleSections(bodyHtml: string): ArticleSection[] {
     });
   }
 
-  return sections;
+  return glossaryFirstMentions(sections);
+}
+
+/**
+ * Keeps a glossary link only where its term is first mentioned in the post. Later mentions keep
+ * their text and lose the link. Both breakpoint copies render the same sections, so the first
+ * mention is the same in each.
+ */
+function glossaryFirstMentions(sections: ArticleSection[]): ArticleSection[] {
+  const seen = new Set<string>();
+
+  const inline = (nodes: readonly InlineNode[]): InlineNode[] =>
+    nodes.flatMap((node): InlineNode[] => {
+      if (node.kind === "text") return [node];
+      if (node.kind === "emphasis") return [{ ...node, children: inline(node.children) }];
+      if (node.glossarySlug === null) return [{ ...node, children: inline(node.children) }];
+      if (seen.has(node.glossarySlug)) return inline(node.children);
+      seen.add(node.glossarySlug);
+      return [{ ...node, children: inline(node.children) }];
+    });
+
+  const block = (node: BlockNode): BlockNode => {
+    if (node.kind === "paragraph") return { ...node, children: inline(node.children) };
+    if (node.kind === "list") return { ...node, items: node.items.map((item) => inline(item)) };
+    return node;
+  };
+
+  return sections.map((section) => ({ ...section, blocks: section.blocks.map(block) }));
 }

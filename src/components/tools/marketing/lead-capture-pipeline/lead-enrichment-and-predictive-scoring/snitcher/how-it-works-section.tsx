@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
@@ -28,7 +27,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         When a target account, one that matches your Ideal Customer Profile (ICP), hits a key page or shows
         strong buying signals, Snitcher sends an instant alert. This can be a Slack notification, a push into
-        your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, or an automated message to your sales team. No
+        your&nbsp;CRM, or an automated message to your sales team. No
         more waiting until someone fills out a form. Your reps get the context they need while the prospect’s
         interest is still fresh. For teams that run outreach through sequencers or want to automate follow-up,
         Snitcher can push leads directly into those workflows, complete with enriched contact details when
@@ -76,7 +75,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="snitchers-step-by-step-process-from-anonymous-visit-to-actionable-lead" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="snitchers-step-by-step-process-from-anonymous-visit-to-actionable-lead-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Snitcher’s Step-by-Step Process: From Anonymous Visit to Actionable Lead
               </h2>
               {body}

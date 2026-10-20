@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function DataMappingSection() {
   const body = (
@@ -22,11 +21,11 @@ export default function DataMappingSection() {
         pipeline focused. The goal is to ensure that your team only gets alerts for companies that fit your
         ideal customer profile, not a flood of noise.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The mapping also extends to your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Leadfeeder’s direct
+        The mapping also extends to your&nbsp;CRM. Leadfeeder’s direct
         integrations allow you to map identified companies and their engagement data to the correct fields in
         HubSpot, Salesforce, or Microsoft Dynamics. This is where upfront decisions matter: you’ll want to
         decide which Leadfeeder data points, such as last visit date, pages viewed, or intent score, are
-        pushed into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and how they are labeled. Clean
+        pushed into your&nbsp;CRM&nbsp;and how they are labeled. Clean
         mapping means your sales team sees the right context at a glance, without hunting through unstructured
         notes or attachments.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -44,7 +43,7 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Privacy and compliance are also part of the mapping process. Leadfeeder works at the company level and
         is built for GDPR compliance, but you need to ensure that contact enrichment
-        and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;sync follow your own privacy policies. Geek @ Your Spot LLC reviews these requirements with you before launch, so you do not end up with data you
+        and&nbsp;CRM&nbsp;sync follow your own privacy policies. Geek @ Your Spot LLC reviews these requirements with you before launch, so you do not end up with data you
         cannot use.</p>
       <p className="text-md text-white shadow-text pt-3">
         Finally, plan for how Leadfeeder’s data will flow into your team’s daily routines. Decide who receives
@@ -53,7 +52,7 @@ export default function DataMappingSection() {
         process, so everyone knows what to do when a high-fit local company shows up in the system.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, the effectiveness of Leadfeeder in your pipeline depends on careful upfront mapping, of
-        website pages,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;fields, scoring rules, and team
+        website pages,&nbsp;CRM&nbsp;fields, scoring rules, and team
         workflows. Small businesses that invest time in these decisions see faster results and less wasted
         motion, turning anonymous local website traffic into a steady source of qualified pipeline.</p>
     </>
@@ -79,7 +78,7 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="data-structure-and-mapping-decisions-when-deploying-leadfeeder" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="data-structure-and-mapping-decisions-when-deploying-leadfeeder-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Data Structure and Mapping Decisions When Deploying Leadfeeder
               </h2>
               {body}

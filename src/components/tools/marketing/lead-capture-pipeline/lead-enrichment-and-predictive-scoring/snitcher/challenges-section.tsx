@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ChallengesSection() {
   const body = (
@@ -6,7 +5,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         The reality for small teams in South Florida is this: most of your marketing spend and sales effort is
         wasted on leads that never had a chance. You watch traffic numbers climb, but you are still left with
-        a blank&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;and a pipeline full of guesses. The real
+        a blank&nbsp;CRM&nbsp;and a pipeline full of guesses. The real
         cost is not just the ad budget burned on invisible visitors. It is the hours your sales team spends
         chasing cold contacts, the deals lost to faster competitors, and the feeling that you are always one
         step behind the real buyers.</p>
@@ -60,7 +59,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing This by Hand
               </h2>
               {body}

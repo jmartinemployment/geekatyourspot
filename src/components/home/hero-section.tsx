@@ -45,7 +45,7 @@ export default function HeroSection() {
               </h2>
               <div className="pt-8">
                 <Link
-                  id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
+                  id={`${gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}-lg`}
                   href="#consultationAppointment2xl"
                   className="btn btn-primary" >
                   Get Your Free AI Assessment
@@ -58,7 +58,6 @@ export default function HeroSection() {
                 priority
                 width={512}
                 height={768}
-                quality={100}
                 loading="eager"
                 alt="Geek @ Your Spot LLC - AI-created action figure of me, representing my hands-on, personalized approach to helping small businesses succeed with technology."
                 className="h-auto w-full"

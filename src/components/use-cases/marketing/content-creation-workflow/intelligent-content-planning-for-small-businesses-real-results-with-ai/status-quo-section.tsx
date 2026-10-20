@@ -62,7 +62,7 @@ export default function StatusQuoSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-real-cost-of-doing-content-planning-by-hand-time-errors-and-who-pays" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="the-real-cost-of-doing-content-planning-by-hand-time-errors-and-who-pays-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Real Cost of Doing Content Planning by Hand: Time, Errors, and Who Pays
               </h2>
               {body}

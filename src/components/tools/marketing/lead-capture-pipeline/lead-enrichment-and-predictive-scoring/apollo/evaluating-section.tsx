@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Deciding if Apollo is the right fit for your small business is not about chasing the biggest feature
@@ -27,7 +26,7 @@ export default function EvaluatingSection() {
         relies on manual Google searches or lists bought online, Apollo’s verified data and regular updates
         are a clear upgrade.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">Lead scoring</GlossaryLink>&nbsp;in Apollo is built for small teams
+        Lead scoring&nbsp;in Apollo is built for small teams
         who need to prioritize. The AI-powered scoring model ranks every new lead based on your own criteria,
         recent activity, ICP fit, engagement, and more. This means your reps spend their day on the prospects
         most likely to convert, not on dead ends. The system gets smarter as your data grows, so the scoring
@@ -37,12 +36,12 @@ export default function EvaluatingSection() {
         Integration is a deciding factor. Apollo connects natively with major CRMs like Salesforce and
         HubSpot, syncing data in real time or on a schedule. If you already run on one of these platforms,
         Apollo fits right in and keeps your records up to date. For teams using other tools,
-        Apollo’s&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and integration marketplace make it
+        Apollo’s&nbsp;API&nbsp;and integration marketplace make it
         possible to connect with most modern stacks, but some custom setup may be needed. If your business
         relies on manual data entry or disconnected systems, Apollo’s integrations can cut out double work and
         reduce errors.</p>
       <p className="text-md text-white shadow-text pt-3">
-        As of October 20, 2026, Apollo offers a free plan, and its&nbsp;<a id="tools-marketing-lead-scoring-apollo-evaluating-pricing-source" href="https://www.apollo.io/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing</a>&nbsp;lists Basic at $49
+        As of October 20, 2026, Apollo offers a free plan, and its&nbsp;<a id={`tools-marketing-lead-scoring-apollo-evaluating-pricing-source${idSuffix}`} href="https://www.apollo.io/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing</a>&nbsp;lists Basic at $49
         per user per month billed annually and Professional at $79 per user per month. What matters for fit is how Apollo’s model matches your usage. Most small businesses
         see value when the cost of the platform is less than what they spend today on lost time, bad data, and
         missed deals. The platform is used by over 600,000 companies, including small teams, which signals
@@ -62,8 +61,8 @@ export default function EvaluatingSection() {
         <li>Does your team spend more time finding leads than selling?</li>
         <li>Are you missing out on website visitors who never fill out a form?</li>
         <li>Is your current data incomplete, out-of-date, or hard to use?</li>
-        <li>Would instant&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>&nbsp;and routing save your team hours every week?</li>
-        <li>Do you need to sync data with Salesforce, HubSpot, or another&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>?</li>
+        <li>Would instant&nbsp;lead scoring&nbsp;and routing save your team hours every week?</li>
+        <li>Do you need to sync data with Salesforce, HubSpot, or another&nbsp;CRM?</li>
         <li>Is your sales process local, and do you need to filter by geography or industry?</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
@@ -92,7 +91,7 @@ export default function EvaluatingSection() {
                 How to Judge If Apollo Fits Your Business and Budget
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -101,10 +100,10 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-if-apollo-fits-your-business-and-budget" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-if-apollo-fits-your-business-and-budget-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge If Apollo Fits Your Business and Budget
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

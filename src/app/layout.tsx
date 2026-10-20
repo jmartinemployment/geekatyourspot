@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Geist, Geist_Mono, Figtree, Sora } from "next/font/google";
+import { Figtree, Sora } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { GoogleTagManager } from '@next/third-parties/google'
@@ -11,16 +11,9 @@ const sora = Sora({
   variable: "--font-sora",
   weight: ["400", "500", "600", "700"],
 });
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const figtree = Figtree({ subsets: ["latin"], variable: "--font-sans" });
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://geekatyourspot.com"),
@@ -29,24 +22,17 @@ export const metadata: Metadata = {
     template: "%s | Geek @ Your Spot LLC",
   },
   description:
-    "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+    "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
   verification: {
     google: "_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI",
   },
   openGraph: {
     title: "AI Consultancy for South Florida Small Businesses | Geek @ Your Spot LLC",
     description:
-      "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
+      "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
     url: "https://geekatyourspot.com",
     siteName: "Geek @ Your Spot LLC",
-    images: [
-      {
-        url: "https://geekatyourspot.com/images/action-figure.jpeg",
-        width: 1024,
-        height: 1536,
-        alt: "Geek @ Your Spot LLC",
-      },
-    ],
+    images: [SHARE_IMAGE],
     locale: "en_US",
     type: "website",
   },
@@ -54,21 +40,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI Consultancy for South Florida Small Businesses | Geek @ Your Spot LLC",
     description:
-      "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale smoothly, reduce errors, and cut manual work.",
-    images: ["https://geekatyourspot.com/images/action-figure.jpeg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
+      "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
+    images: [SHARE_IMAGE],
   },
   category: "technology",
   icons: {
@@ -88,8 +61,6 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn(
         "h-full w-full antialiased font-sans",
-        geistSans.variable,
-        geistMono.variable,
         figtree.variable,
         sora.variable,
       )} >

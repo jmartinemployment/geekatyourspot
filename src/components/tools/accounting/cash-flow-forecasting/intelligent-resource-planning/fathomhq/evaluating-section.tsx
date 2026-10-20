@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -41,7 +40,7 @@ export default function EvaluatingSection() {
         model is not published in detail on its public site, but the free trial is a low-risk way for any small
         business to see if the tool fits before committing. There are no hidden upgrade requirements to access
         core features
-        like&nbsp;<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">KPI</GlossaryLink>&nbsp;tracking,
+        like&nbsp;KPI&nbsp;tracking,
         multi-entity consolidation, or scenario forecasting, these are included out of the box.</p>
       <p className="text-md text-white shadow-text pt-3">
         When weighing Fathom against other options, the question is not just about price per month, but about
@@ -51,11 +50,11 @@ export default function EvaluatingSection() {
         cash shortfall before it hits or scrambling to cover payroll after the fact.</p>
       <p className="text-md text-white shadow-text pt-3">
         Fit also means looking at what the platform does not do. Fathom is not
-        an&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;replacement;
+        an&nbsp;ERP&nbsp;replacement;
         it does not handle inventory, sales orders, or payroll on its own. It is a financial analysis and
         reporting engine that sits on top of your existing systems, pulling data together and making it
         actionable. If your needs are broader,
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>,
+        full&nbsp;ERP,
         inventory management, or deep operational workflows, you may need to pair Fathom with other tools, or
         consider a different primary system.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -88,7 +87,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="judging-fathom-fit-suitability-and-the-pricing-model-for-small-business" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="judging-fathom-fit-suitability-and-the-pricing-model-for-small-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Judging Fathom: Fit, Suitability, and the Pricing Model for Small Business
               </h2>
               {body}

@@ -12,7 +12,7 @@ export default function ArchitectureSection() {
         formats, and update cycles.</p>
       <p className="text-md text-white shadow-text pt-3">
         At the integration layer, Jirav connects out of the box to more than 200 accounting,
-        payroll,&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>,
+        payroll,&nbsp;CRM,
         and operational platforms. QuickBooks, NetSuite, Sage Intacct, ADP, Paychex, Salesforce, and HubSpot are
         all natively supported. This means your system-of-record data, revenue, expenses, headcount, pipeline,
         flows in automatically. Jirav also connects to Google Sheets and Excel, so if you have legacy data or
@@ -81,7 +81,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-sits-under-the-hood-jirav-s-architecture-integrations-and-data-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-sits-under-the-hood-jirav-s-architecture-integrations-and-data-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Sits Under the Hood: Jirav’s Architecture, Integrations, and Data Model
               </h2>
               {body}

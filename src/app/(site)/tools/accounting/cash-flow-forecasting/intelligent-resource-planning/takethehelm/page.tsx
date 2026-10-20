@@ -15,11 +15,12 @@ import FaqSection from "@/components/tools/accounting/cash-flow-forecasting/inte
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
+import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Take the Helm";
 const PAGE_TITLE = "Take the Helm for Intelligent Resource Planning";
 const DESCRIPTION =
-    "Intelligent Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and eliminate spreadsheet chaos.";
+    "Intelligent Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and end spreadsheet chaos.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -74,14 +75,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
-            images: [{ url: '/images/GeekAtYourSpot.svg', width: 116, height: 48, alt: 'Geek @ Your Spot LLC' }],
+            images: [SHARE_IMAGE],
         },
         twitter: {
             card: 'summary_large_image',
             title: PAGE_TITLE,
             description: DESCRIPTION,
             creator: 'Geek @ Your Spot LLC',
-            images: ['/images/GeekAtYourSpot.svg'],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

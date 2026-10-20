@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ImplementingSection() {
   const body = (
@@ -19,7 +18,7 @@ export default function ImplementingSection() {
       <p className="text-md text-white shadow-text pt-3">
         The Unified Inbox is not just a catch-all. It keeps every conversation labeled by channel, stores the
         full chat history, and links each thread to the
-        right&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;contact. Operators can reply, escalate, or
+        right&nbsp;CRM&nbsp;contact. Operators can reply, escalate, or
         close a conversation from the same screen. If a customer switches from Instagram to SMS to phone, the
         system keeps the thread together, so you see the whole story at a glance. That means no more hunting
         for context or losing leads in the shuffle between team members.</p>
@@ -29,14 +28,14 @@ export default function ImplementingSection() {
         The process is straightforward: connect your channels, import or build your knowledge base so the AI
         answers with your hours, pricing, and policies, and set up your escalation rules. The AI is trained to
         answer real questions, ask follow-ups, and even book appointments live during the conversation, then
-        logs the result to the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;automatically. If an
+        logs the result to the&nbsp;CRM&nbsp;automatically. If an
         inquiry needs a human touch, a teammate can step in at any time, and the AI will hand control back
         when asked.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;component is included from the start. Unlike
-        legacy systems where you need to bolt on a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or
+        The&nbsp;CRM&nbsp;component is included from the start. Unlike
+        legacy systems where you need to bolt on a&nbsp;CRM&nbsp;or
         pay for extra seats, My AI Front Desk builds
-        your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;as conversations happen. Every call, text,
+        your&nbsp;CRM&nbsp;as conversations happen. Every call, text,
         email, and chat is transcribed, summarized, and saved to the right contact record. No more manual data
         entry or waiting for someone to update the pipeline at the end of the week. The AI also auto-enriches
         every record with details like intent, fit, urgency, and outcome, so your sales team can prioritize
@@ -57,7 +56,7 @@ export default function ImplementingSection() {
         Geek @ Your Spot LLC’s role is to close the last mile. The team handles the mapping of your business
         rules, ensures your knowledge base is accurate and up to date, and configures escalation logic so
         high-intent leads never sit idle. They also train your staff on how to use the Unified Inbox and
-        interpret the AI’s&nbsp;<GlossaryLink slug="lead-scoring">lead scoring</GlossaryLink>&nbsp;so your
+        interpret the AI’s&nbsp;lead scoring&nbsp;so your
         team acts on the right opportunities first. For businesses with more complex needs, such as custom
         routing or integration with industry-specific tools, Geek @ Your Spot LLC manages the configuration so you
         do not have to.</p>
@@ -90,7 +89,7 @@ export default function ImplementingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-actually-happens-when-you-go-live-with-my-ai-front-desk-setup-shortcuts-and-the-real-timeline" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-actually-happens-when-you-go-live-with-my-ai-front-desk-setup-shortcuts-and-the-real-timeline-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Actually Happens When You Go Live With My AI Front Desk: Setup, Shortcuts, and the Real Timeline
               </h2>
               {body}

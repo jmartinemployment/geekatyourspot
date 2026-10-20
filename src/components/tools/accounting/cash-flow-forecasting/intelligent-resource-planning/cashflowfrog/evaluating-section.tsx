@@ -1,13 +1,12 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Cashflowfrog is designed for small businesses that want live,
-        accurate&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
-        flow forecasting</GlossaryLink>&nbsp;without the overhead of building or maintaining a
-        complex&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>. The
+        accurate&nbsp;cash
+        flow forecasting&nbsp;without the overhead of building or maintaining a
+        complex&nbsp;ERP. The
         right fit is a team that needs to see real-time cash position, test scenarios, and consolidate multiple
         accounts or entities, without hiring a dedicated finance specialist to keep forecasts up to date. If
         your business runs on QuickBooks, Xero, Sage Intacct, Odoo, Zoho Books, or FreshBooks, or if your cash
@@ -33,12 +32,12 @@ export default function EvaluatingSection() {
         committing. The platform’s pricing is transparent and per-entity, with no hidden implementation fees or
         lock-in. For most small businesses, this means you pay only for what you use and can scale up as your
         needs grow. If you are comparing with
-        traditional&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;or
+        traditional&nbsp;ERP&nbsp;or
         custom spreadsheet solutions, the difference is not just in cost but in speed to value, most businesses
         get their first live forecast within minutes of connecting their data.</p>
       <p className="text-md text-white shadow-text pt-3">
         Judging fit also means looking at what Cashflowfrog does not do. It is not a
-        full&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>, and it
+        full&nbsp;ERP, and it
         does not replace your accounting ledger. It reads data from your existing systems, builds forecasts, and
         helps you plan. If your books are not up to date or your transactions are not recorded promptly, the
         forecast will reflect those gaps. Cashflowfrog does not support every accounting platform, if you use
@@ -52,7 +51,7 @@ export default function EvaluatingSection() {
         for clarity: every figure can be traced down to the source transaction, and every scenario can be tested
         before you commit to a decision. For South Florida small businesses, the value is in getting a reliable,
         always-current cash view without adding staff or blowing past your budget on a
-        months-long&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;rollout.</p>
+        months-long&nbsp;ERP&nbsp;rollout.</p>
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s role is to make sure Cashflowfrog fits your real-world environment. That means
         mapping your data, configuring rules and automations, and training your team to use the dashboard and
@@ -82,7 +81,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-cashflowfrog-fit-flexibility-and-pricing-model" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-cashflowfrog-fit-flexibility-and-pricing-model-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Cashflowfrog: Fit, Flexibility, and Pricing Model
               </h2>
               {body}

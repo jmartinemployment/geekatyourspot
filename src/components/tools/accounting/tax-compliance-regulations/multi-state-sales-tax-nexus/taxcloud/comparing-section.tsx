@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ComparingSection() {
   const body = (
@@ -61,13 +60,13 @@ export default function ComparingSection() {
         back taxes and fines. TaxCloud closes these gaps by automating every step, from nexus tracking to filing
         and remittance, and by keeping a full audit trail that is ready if the state comes calling. For South
         Florida businesses selling online, wholesale,
-        or&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>, this
+        or&nbsp;SaaS, this
         means they can grow across state lines without tripping over compliance landmines.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, TaxCloud sits in a different category from manual compliance and basic accounting software.
         It is a purpose-built platform for small and mid-sized businesses that need to automate multi-state
-        sales&nbsp;<GlossaryLink slug="tax-compliance" className="text-[#0B162A] hover:underline">tax
-        compliance</GlossaryLink>, with a focus on affordability, automation, and audit protection. For any
+        sales&nbsp;tax
+        compliance, with a focus on affordability, automation, and audit protection. For any
         business that has outgrown manual processes or is struggling to keep up with more than one or two
         states, TaxCloud is not just an upgrade, it is a way to keep scaling without adding compliance risk or
         administrative overhead.</p>
@@ -93,7 +92,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-taxcloud-compares-to-other-approaches-for-multi-state-sales-tax-compliance" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-taxcloud-compares-to-other-approaches-for-multi-state-sales-tax-compliance-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How TaxCloud Compares to Other Approaches for Multi-State Sales Tax Compliance
               </h2>
               {body}

@@ -84,7 +84,7 @@ export default function ArchitectureSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-taxvalet-s-architecture-means-for-data-integrations-and-control" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-taxvalet-s-architecture-means-for-data-integrations-and-control-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What TaxValet’s Architecture Means for Data, Integrations, and Control
               </h2>
               {body}

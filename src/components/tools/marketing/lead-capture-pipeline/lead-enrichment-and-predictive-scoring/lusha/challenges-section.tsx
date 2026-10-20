@@ -18,7 +18,7 @@ export default function ChallengesSection() {
         business, that means the difference between growth and stagnation.</p>
       <p className="text-md text-white shadow-text pt-3">
         The problem compounds when the data itself is stale. Employees change roles, leave companies, or get
-        promoted, but your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;does not keep up. Reps pitch
+        promoted, but your&nbsp;CRM&nbsp;does not keep up. Reps pitch
         to people who have already moved on, killing momentum and credibility. Outbound campaigns bounce off
         invalid inboxes, damaging your sender reputation and burning through your marketing budget. Without
         verified, up-to-date contact data, every campaign becomes a gamble.</p>
@@ -63,7 +63,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-it-costs-to-keep-doing-this-by-hand" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="what-it-costs-to-keep-doing-this-by-hand-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What It Costs to Keep Doing This by Hand
               </h2>
               {body}

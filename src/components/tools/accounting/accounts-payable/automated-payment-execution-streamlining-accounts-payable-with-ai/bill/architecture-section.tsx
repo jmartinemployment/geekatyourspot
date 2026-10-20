@@ -1,7 +1,6 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function ArchitectureSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-md text-white shadow-text pt-3">
         Bill is designed to transform the way small businesses handle their accounts payable by making payment
@@ -11,7 +10,7 @@ export default function ArchitectureSection() {
         physical office space.</p>
       <p className="text-md text-white shadow-text pt-3">
         One of Bill&#39;s standout features is its&nbsp;
-        <a id="tools-accounting-payment-execution-bill-architecture-xero"
+        <a id={`tools-accounting-payment-execution-bill-architecture-xero${idSuffix}`}
           href="https://www.bill.com/integrations/xero"
           target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           two-way sync capability
@@ -22,7 +21,7 @@ export default function ArchitectureSection() {
         decisions.</p>
       <p className="text-md text-white shadow-text pt-3">
         Bill&#39;s architecture also includes&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-assisted features
+        AI-assisted features
         that streamline invoice processing. The platform uses artificial intelligence to automatically code
         multi-line item bills, cutting down on manual processing time by up to 20%. This feature not only
         saves time but also enhances accuracy, with key invoice fields captured with 99% precision.</p>
@@ -62,7 +61,7 @@ export default function ArchitectureSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -70,10 +69,10 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bills-architecture-powers-automated-payment-execution">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bills-architecture-powers-automated-payment-execution-lg">
                 How Bill&#39;s Architecture Powers Automated Payment Execution
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

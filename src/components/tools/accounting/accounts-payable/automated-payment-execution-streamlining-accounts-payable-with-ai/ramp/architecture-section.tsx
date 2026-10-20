@@ -6,7 +6,7 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Ramp is designed to automate the accounts payable process, transforming it from a manual, error-prone
         task into a streamlined, automated workflow. At its core, Ramp uses&nbsp;
-        <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>-driven solutions
+        AI-driven solutions
         to handle tasks such as invoice coding, fraud detection, and payment approvals. These capabilities
         allow businesses to manage their payment processes with minimal human intervention, reducing the time
         spent on administrative tasks and the risk of errors.</p>
@@ -65,7 +65,7 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ramps-underlying-architecture-and-mechanics">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ramps-underlying-architecture-and-mechanics-lg">
                 Ramp&#39;s Underlying Architecture and Mechanics
               </h2>
               {body}

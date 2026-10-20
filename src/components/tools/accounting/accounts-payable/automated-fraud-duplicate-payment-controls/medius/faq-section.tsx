@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FaqSection() {
   return (
@@ -33,7 +32,7 @@ export default function FaqSection() {
               How does AI-driven statement reconciliation software work?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              <GlossaryLink slug="ai">AI</GlossaryLink>-driven statement reconciliation software automatically
+              AI-driven statement reconciliation software automatically
               reads a supplier statement, regardless of format, and matches each line against your existing
               invoice and payment records. Lines that
               match require no further action, while exceptions like missing invoices, duplicates, or
@@ -67,7 +66,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Medius supports over 180 currencies by default. Additional currencies can be added manually or
-              synced from your&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;if needed.</p>
+              synced from your&nbsp;ERP&nbsp;if needed.</p>
             <p className="text-md text-white shadow-text pt-3">
               Source:&nbsp;
               <a id="tools-accounting-fraud-controls-medius-faq-payments"
@@ -129,7 +128,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Medius integrates with existing systems, allowing businesses to enhance their&nbsp;
-              <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes without
+              accounts payable&nbsp;processes without
               requiring a completely separate integration. This seamless integration helps streamline
               operations and improve efficiency.</p>
           </div>

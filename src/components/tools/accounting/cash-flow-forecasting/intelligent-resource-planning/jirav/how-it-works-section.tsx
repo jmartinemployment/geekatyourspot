@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function HowItWorksSection() {
   const body = (
@@ -44,7 +43,7 @@ export default function HowItWorksSection() {
       <p className="text-md text-white shadow-text pt-3">
         In practice, the steps look like this:</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Connect Jirav to your accounting, payroll, and&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;systems. The platform pulls in actuals and operational data automatically.</li>
+        <li>Connect Jirav to your accounting, payroll, and&nbsp;CRM&nbsp;systems. The platform pulls in actuals and operational data automatically.</li>
         <li>Define the drivers that matter for your business, headcount, revenue streams, expense categories, operational KPIs.</li>
         <li>Build your model using these drivers. Jirav’s templates and industry frameworks speed up setup, but every model is fully customizable.</li>
         <li>Run rolling forecasts and what-if scenarios. Adjust drivers to see the impact of hiring, sales changes, or cost shifts in real time.</li>
@@ -77,7 +76,7 @@ export default function HowItWorksSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-jirav-actually-runs-resource-planning-the-real-steps-behind-the-dashboard" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-jirav-actually-runs-resource-planning-the-real-steps-behind-the-dashboard-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Jirav Actually Runs Resource Planning: The Real Steps Behind the Dashboard
               </h2>
               {body}

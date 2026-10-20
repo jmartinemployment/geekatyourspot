@@ -28,7 +28,7 @@ export default function FaqSection() {
             <p className="text-md text-white shadow-text pt-3">
               Versapay uses&nbsp;<GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;to analyze
               payment patterns and segment customers by risk level.
-              This&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-powered approach helps predict when payments will arrive
+              This&nbsp;AI-powered approach helps predict when payments will arrive
               by forecasting cash flow based on these insights. It allows businesses to collect payments faster and manage
               their cash flow more effectively.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -73,7 +73,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Versapay supports integration with several
-              major&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;systems, including Oracle NetSuite, Microsoft
+              major&nbsp;ERP&nbsp;systems, including Oracle NetSuite, Microsoft
               Dynamics 365 Business Central and Finance and Operations, and Sage Intacct. These built-for ERP connectors
               ensure seamless integration, allowing businesses to leverage Versapay&#39;s forecasting features without
               disrupting existing systems.</p>

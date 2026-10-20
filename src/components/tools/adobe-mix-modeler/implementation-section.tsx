@@ -22,7 +22,7 @@ export default function ImplementationSection() {
                   This involves mapping data sources accurately and ensuring that the necessary data points are available for
                   the tool to function optimally. Proper data model design is foundational to achieving accurate and
                   actionable insights.</li>
-                <li><GlossaryLink slug="marketing-automation">Workflow</GlossaryLink> and Process Configuration: Adobe Mix Modeler allows for the configuration of workflow processes to
+                <li>Workflow and Process Configuration: Adobe Mix Modeler allows for the configuration of workflow processes to
                   automate approval chains and routing. Businesses should assess their current processes and configure the
                   tool to align with their specific operational needs, ensuring that it supports rather than disrupts existing
                   workflows.</li>
@@ -30,7 +30,7 @@ export default function ImplementationSection() {
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
-                more efficient <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
+                more efficient ad spend optimization and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
                 gap by providing expert guidance on these aspects, helping businesses overcome challenges and maximize the tool’s
                 potential.</p>
             </div>
@@ -54,7 +54,7 @@ export default function ImplementationSection() {
                   This involves mapping data sources accurately and ensuring that the necessary data points are available for
                   the tool to function optimally. Proper data model design is foundational to achieving accurate and
                   actionable insights.</li>
-                <li><GlossaryLink slug="marketing-automation">Workflow</GlossaryLink> and Process Configuration: Adobe Mix Modeler allows for the configuration of workflow processes to
+                <li>Workflow and Process Configuration: Adobe Mix Modeler allows for the configuration of workflow processes to
                   automate approval chains and routing. Businesses should assess their current processes and configure the
                   tool to align with their specific operational needs, ensuring that it supports rather than disrupts existing
                   workflows.</li>
@@ -62,7 +62,7 @@ export default function ImplementationSection() {
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
               <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
-                more efficient <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink> and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
+                more efficient ad spend optimization and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
                 gap by providing expert guidance on these aspects, helping businesses overcome challenges and maximize the tool’s
                 potential.</p>
             </div>

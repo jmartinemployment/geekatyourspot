@@ -1,4 +1,3 @@
-import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function EvaluatingSection() {
   const body = (
@@ -8,7 +7,7 @@ export default function EvaluatingSection() {
         across multiple chat and messaging channels without hiring a developer or building custom software.
         The fit question is simple: if your team is losing leads, repeating conversations, or struggling to
         track prospects across WhatsApp, Instagram, Facebook, SMS, and your website,
-        BotPenguin’s&nbsp;<GlossaryLink slug="unified-inbox" className="text-[#0B162A] hover:underline">unified inbox</GlossaryLink>&nbsp;and automation
+        BotPenguin’s&nbsp;unified inbox&nbsp;and automation
         rules can close those gaps. But the right fit depends on what you expect from the platform and how
         your sales process works.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -44,7 +43,7 @@ export default function EvaluatingSection() {
         <li>How many channels do you need to support (WhatsApp, Instagram, Facebook, website, SMS, Telegram, phone)?</li>
         <li>Does your team need a no-code setup, or do you require custom scripting and integrations?</li>
         <li>Can you work within the integrations and flows BotPenguin offers, or do you have a unique process that needs code-level changes?</li>
-        <li>Is your lead pipeline managed in a standard&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or sales tool supported by BotPenguin, or do you need a custom database connection?</li>
+        <li>Is your lead pipeline managed in a standard&nbsp;CRM&nbsp;or sales tool supported by BotPenguin, or do you need a custom database connection?</li>
         <li>How important is predictable, flat pricing versus usage-based or per-agent fees?</li>
         <li>Do you want AI-powered responses and 24/7 automation included from the start, or are you planning to add those features later?</li>
       </ul>
@@ -77,7 +76,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-botpenguin-fit-limitations-and-what-the-pricing-model-means-for-small-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-botpenguin-fit-limitations-and-what-the-pricing-model-means-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge BotPenguin: Fit, Limitations, and What the Pricing Model Means for Small Teams
               </h2>
               {body}

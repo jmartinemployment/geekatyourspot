@@ -25,7 +25,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Payment collection software connects to your billing
-              or&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system to track unpaid invoices. It automatically
+              or&nbsp;ERP&nbsp;system to track unpaid invoices. It automatically
               sends payment reminders and often includes a secure payment portal where customers can pay via ACH, card, or
               direct debit.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
@@ -57,7 +57,7 @@ export default function FaqSection() {
             <p className="text-md text-white shadow-text pt-3">
               Upflow connects directly to your Stripe Billing account to import customers, invoices, and payments. After
               the initial sync, all relevant data updates in real time, keeping your accounts receivable process current
-              and accurate without manual exports or&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;management.</p>
+              and accurate without manual exports or&nbsp;API&nbsp;management.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What happens when customers pay invoices via the Upflow portal?

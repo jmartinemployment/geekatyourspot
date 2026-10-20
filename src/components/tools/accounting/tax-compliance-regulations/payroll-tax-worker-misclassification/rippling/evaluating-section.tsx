@@ -14,21 +14,21 @@ export default function EvaluatingSection() {
         be classified, onboarded, and paid under different rules. If you are running a construction crew, a
         hospitality group, or any operation where workers move between counties or states, Rippling’s real-time
         tax account management and classification tools remove the guesswork. The system’s Compliance 360
-        Management module actively monitors for risks—like a contractor who starts working full-time hours, or
-        an employee who moves to a new tax jurisdiction—and flags issues before they become costly mistakes.
+        Management module actively monitors for risks (like a contractor who starts working full-time hours, or
+        an employee who moves to a new tax jurisdiction) and flags issues before they become costly mistakes.
         This level of automation is not overkill for small teams; it is what keeps you from spending weekends on
         paperwork or losing sleep over audit threats.</p>
       <p className="text-md text-white shadow-text pt-3">
         For very small businesses that operate in only one state, with a stable set of employees and no
-        contractors, Rippling may be more system than you need. The platform’s strengths—dynamic compliance,
-        multi-state tax handling, and automated onboarding—are most valuable when your workforce or tax
+        contractors, Rippling may be more system than you need. The platform’s strengths (dynamic compliance,
+        multi-state tax handling, and automated onboarding) are most valuable when your workforce or tax
         footprint is in flux. If you are only running payroll for a handful of people in one location, a simpler
         tool might be enough. But as soon as you add a contractor, hire out of state, or need to handle
         different tax rates, Rippling’s automation pays for itself in time saved and errors avoided.</p>
       <p className="text-md text-white shadow-text pt-3">
         Rippling’s pricing model is per-employee, per-month (PEPM), which means you pay a fixed amount for each
         person on the system each month. This covers the core automation for payroll, compliance, and
-        onboarding—there are no hidden fees for running payroll more often, generating W-2s or 1099s, or
+        onboarding, and there are no hidden fees for running payroll more often, generating W-2s or 1099s, or
         handling multi-state tax filings. For small businesses, this makes budgeting straightforward: you know
         what each new hire or contractor will cost, and you don’t get surprised by extra charges for features
         you need to stay compliant. The model is designed to scale with your team, so you only pay for what you
@@ -36,8 +36,8 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         When comparing Rippling to other payroll and compliance tools, the key difference is in how much manual
         work is removed. Many platforms alert you to compliance risks but require you to fix them in another
-        system or call in outside help. Rippling lets you resolve most issues—like misclassification or tax
-        account setup—directly inside the platform, often in a single step. This is especially important in
+        system or call in outside help. Rippling lets you resolve most issues, like misclassification or tax
+        account setup, directly inside the platform, often in a single step. This is especially important in
         South Florida, where a worker’s status or location can change quickly and tax rules are not always
         clear. The platform’s integrations with accounting tools like QuickBooks, Xero, and NetSuite mean you do
         not have to replace your existing systems to get the benefit; Rippling fits into your current workflow
@@ -59,7 +59,7 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s role is to make sure Rippling’s setup matches your actual business rules, not just
         the defaults. That means mapping your approval chains, customizing compliance alerts, and building out
-        onboarding flows so they fit your process. The goal is to make Rippling’s automation invisible—so
+        onboarding flows so they fit your process. The goal is to make Rippling’s automation invisible, so
         payroll, compliance, and worker classification just happen, and you only get involved when something
         needs your attention. In practice, that’s what lets the Miami construction owner from the opening focus
         on the next job, not the last payroll cycle.</p>
@@ -86,7 +86,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="evaluating-rippling-fit-for-small-businesses-and-how-the-pricing-model-works" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="evaluating-rippling-fit-for-small-businesses-and-how-the-pricing-model-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating Rippling: Fit for Small Businesses and How the Pricing Model Works
               </h2>
               {body}
