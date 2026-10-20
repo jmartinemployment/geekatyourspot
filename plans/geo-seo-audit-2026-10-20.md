@@ -22,6 +22,7 @@ It sits alongside `plans/seo-audit-2026-10-20.md` (the first audit, referred to 
 - **No edits.** No track changed the repo.
 - **Verification.** I checked the main claims in the source before including them; anything not confirmed is marked "reported".
 - **Since the crawl.** Two of the findings are already fixed in commits `7a1388a` (new hero H1) and `6696a93` (footer hub links, SA C1).
+- **Fixes that needed no decision (`d6989dc`).** H8, H9, H10, M8, M10, L1 and L4 to L9 are fixed, and H1, H11, M5, M7, M14, L2 and L3 are partly fixed. Each finding below says what changed. The same work closes SA H2, H4b, M2, M3, M6 to M9, L1 to L4, L6, L8 and L9 in `plans/seo-audit-2026-10-20.md`, and moves SA M5 forward. Verified on a local build of all 448 sitemap pages.
 
 **Vercel challenged the audit itself.** The parallel tracks sent bursts of requests from one IP. For roughly 10 to 30 minutes, Vercel's automatic DDoS mitigation answered every request from this machine with `403 Vercel Security Checkpoint` (`x-vercel-mitigated: challenge`), robots.txt included. Requests from other networks got 200 throughout. The project has no firewall configuration, so this is Vercel's platform default, not a site setting. At launch, check Vercel's Firewall traffic view to confirm verified search and AI crawlers are not being challenged.
 
@@ -66,7 +67,9 @@ These go on top of SA's launch steps.
 
    Either one avoids a redirect. The GitHub repo's homepage field also points at this host.
 3. **Keep security headers out of the `ALLOW_INDEXING` branch.** `next.config.ts` returns `[]` when the variable is `true`, so any header added to that list disappears at launch. The deployed site sends HSTS and no other security headers (no CSP, `X-Content-Type-Options`, `Referrer-Policy` or `Permissions-Policy`).
+   - **Done on 2026-10-20 (`d6989dc`).** `next.config.ts` sends `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin` and `Permissions-Policy: camera=(), microphone=(), geolocation=()` on every response, whether or not `ALLOW_INDEXING` is set. Only the `X-Robots-Tag` sits inside the branch. There is still no Content-Security-Policy, because GTM, the scheduler and Next's inline scripts would need nonces first.
 4. **Bing.** Verified in Bing Webmaster Tools on 2026-10-20 through `public/BingSiteAuth.xml`, which must stay in place because Bing re-checks it. At launch, submit `/sitemap.xml` in Bing Webmaster Tools and add an IndexNow key file.
+   - **IndexNow key file added on 2026-10-20 (`d6989dc`).** `public/3789309429f71c68df37de9e3de0276e.txt` serves the key as plain text. Submitting the sitemap in Bing Webmaster Tools is still a launch step.
 5. **GTM container, done.** Version 15 was published on 2026-10-20 (finding M6).
 
 ## Critical
@@ -139,6 +142,10 @@ This is verified, and it is the navbar target for Marketing.
 - **Copied text.** Five paragraphs are copied word for word from the lead capture pillar.
 - **Extent.** A site-wide scan found no other merged sentences.
 - **Fix.** Repair the two paragraphs, delete the non-answer and off-intent questions (and their FAQPage entries), and replace the copied paragraphs.
+- **Partly fixed on 2026-10-20 (`d6989dc`).**
+  - The three merged sentences are repaired. `overview-section.tsx` now reads "...small businesses are often caught in a whirlwind of tasks: endless spreadsheets..." and "Enter AI Marketing Systems, a game-changer...", and the fragment in `introduction-section.tsx` is gone.
+  - The "3 3 3 rule", "golden rule", "top 5 marketing strategies" and "70 20 10 rule" questions are deleted, leaving 8. The pillar never had a FAQPage node, so no markup changed.
+  - Still open: the five paragraphs copied from the lead capture pillar, and the unsourced 30% and 85% figures (H3). Both need new copy.
 
 ### H2. Tool pages contradict themselves and leak pipeline wording
 
@@ -256,6 +263,9 @@ Both are verified.
 - **Why nothing caught them.** The blog route inserts these blocks unchecked (`src/lib/content-writer-disabled2/content-disabled.ts:130-133`, `src/app/(site)/blog/[department]/[...slug]/page.tsx:66-69`).
 - **This corrects SA.** SA's "JSON is valid on every page" is true only as JSON, not as JSON-LD.
 - **Fix.** Repair both blocks. The structured data track's drafts 06 and 07 are corrected versions.
+- **Fixed on 2026-10-20 (`d6989dc`).**
+  - The AI Content Repurposing post's JSON-LD is one `BlogPosting` with `@context`, the word count of the visible post (2,315), the publisher pointing at `#organization`, `about` pointing at the Intelligent Content Generation pillar's Service node, and the tools as `mentions`.
+  - The Automated Content Generation post was deleted under SA H6 (`5f8619d`), so its block no longer renders.
 
 ### H9. The structured data describes products and services inconsistently
 
@@ -271,6 +281,10 @@ Both are verified.
   - The Organization node site-wide.
 
   Drafts 01, 02, 04 and 05 show each pattern, and file 10 maps all 101 products.
+- **Fixed on 2026-10-20 (`d6989dc`).** The same change is SA H4b and M5.
+  - **Products.** No SoftwareApplication node is left. Every product reference uses one site-wide id, `https://geekatyourspot.com/#software-<slug>`, typed `Thing`, with the name and the vendor's own URL and no description, so the South Florida pitch no longer describes the software. Bill is one entity on every page. The nodes have no `sameAs`.
+  - **Services.** Each of the 23 pillars carries a `Service` node (`<pillar url>#service`) with the business as provider and the South Florida area served, and the pillar's Article is `about` it.
+  - **Organization.** One Organization and LocalBusiness node is printed on every page from `src/lib/seo/organization.ts`, and every publisher references it.
 
 ### H10. The approval workflows pillar's FAQ is about data entry
 
@@ -280,6 +294,12 @@ This is verified.
 - **Misleading answer.** One says "our solution integrates seamlessly with QuickBooks, Xero, and Sage", although the business sells no product of its own.
 - **Missing definition.** The pillar never defines an approval workflow, while the Data Entry pillar has no FAQ at all.
 - **Fix.** Move the set to the Data Entry pillar, and give the approval pillar approval-routing questions plus an opening definition.
+- **Fixed on 2026-10-20 (`d6989dc`).**
+  - The 13 data entry questions moved to a new `paa-section.tsx` on the Data Entry pillar, which renders them above the scheduler.
+  - Two answers were corrected on the way. The misleading one now reads "Dext and Bill both sync with QuickBooks, Xero, and Sage. Which connections a tool offers varies, so we confirm the connector for your accounting system before setup."
+  - The approval pillar has 9 new questions about approval routing.
+  - Each pillar builds its FAQPage from the same array its section renders, so the markup and the visible questions cannot drift apart.
+  - The approval pillar's opening now defines the term: "An invoice approval workflow is the set of rules that sends each invoice to the right people for sign-off before it is paid."
 
 ### H11. Internal links point away from the business
 
@@ -296,6 +316,10 @@ This is verified.
   - Link each glossary term only on its first mention (SA M9).
   - Add "related terms" and "where this applies" links on term pages.
   - Add the letter pages to the sitemap.
+- **Partly fixed on 2026-10-20 (`d6989dc`).**
+  - **Hub links.** All 15 missing mandatory links from the architecture plan now render in page bodies. The accounts payable, cash flow and tax hubs link their missing pillars and `/use-cases/accounting`; the payroll pillar links the tax hub; AI Marketing Systems and the lead capture hub link each other; AI Marketing Systems, Intelligent Content Planning and SEO Blog and Article Generation link the content creation hub, which links Intelligent Content Planning.
+  - **Glossary.** The 22 letter pages are in the sitemap, each term is linked only at its first mention (SA M9), and each term page ends with up to six related terms: terms its own text names first, then terms whose text names it.
+  - **Still open:** breadcrumbs (M14, SA L5), "where this applies" links on term pages, links between posts, and links from tool pages up to their hubs.
 
 ### H12. There are no comparison pages
 
@@ -349,6 +373,7 @@ This is verified.
     - Add `hasMap` with the GBP map URL.
     - Remove the X entry.
     - Pick one founding year.
+  - **Entity details fixed on the site on 2026-10-20 (`d6989dc`).** The Organization node now has `legalName` "Geek @ Your Spot LLC", `alternateName` "Geek @ Your Spot" (the GBP and LinkedIn form) and `hasMap` with the GBP place URL, which is also in `sameAs`. The home page comment that claimed the schema matched the GBP is gone; the node lives in `src/lib/seo/organization.ts`. Still open, as decisions: the X entry in `sameAs` and the founding year.
 - **M6. The GTM container is misconfigured.** This is in the GTM interface, not the repo. Verified in the published `GTM-K5CXSQRP`:
   - One Google tag uses the Page URL as its tag ID, which loads an extra copy of gtag (about 89 KB) on content pages.
   - Two Google tags use the Click ID as their tag ID.
@@ -374,12 +399,14 @@ This is verified.
     - Load GTM later.
 
     None of this touches Sora.
+  - **Partly fixed on 2026-10-20 (`d6989dc`).** The Geist fonts and their preloads are removed, and the scheduler loads with `next/dynamic` when it nears the viewport (SA M8). `experimental.inlineCss` and loading GTM later are not tried yet, and LCP was not remeasured in PageSpeed.
 - **M8. Pillar FAQs carry scraped questions with the wrong intent.**
   - The AP pillar asks job-seeker questions, such as "What are typical AP interview questions?" (`src/components/use-cases/accounting/accounts-payable/faq-section.tsx:37,45,57`).
   - The lead capture pillar asks about project pipelines.
   - The competing post pairs carry identical question sets.
   - Fix: keep only questions a buyer of the service would ask.
   - **Competing pairs fixed on 2026-10-20 (`5f8619d`).** The posts that repeated a question set were deleted under SA H6. The AP and lead capture pillar questions are still open.
+  - **Pillar questions fixed on 2026-10-20 (`d6989dc`).** The AP pillar no longer asks the interview, "difficult" or skills questions. The lead capture pillar no longer asks "How to develop a project pipeline", "What are the three types of pipelines?" or "What are the 5 stages of pipeline?", in the visible section or its FAQPage, which leaves 9 questions.
 - **M9. Titles use your labels, not searchers' words.** Your call, metadata only.
   - The content generation pillar says "intelligent content generation" 40 times and "AI content generation" 0 times.
   - "Intelligent resource planning" returns no coherent search results at all.
@@ -391,6 +418,7 @@ This is verified.
   - Setting `title: { absolute: post.headline }` in `src/app/(site)/blog/[department]/[...slug]/page.tsx:33` fixes 19 of them.
   - **Recounted on 2026-10-20 after the name change (GEO M5).** The suffix is now " | Geek @ Your Spot LLC", 23 characters. 19 of the 25 posts run over 60, and 9 of the 17 SA H7 titles now run 61 to 63, so SA H7 is partly undone. Site-wide, 118 of 426 titles run over 60, up from 69.
   - **SA H7 fixed again on 2026-10-20 (`cc57675`).** Ten SA H7 titles were shortened again, so all 17 are 59 characters or fewer. 11 of the 25 posts still run over 60, and 109 of 426 titles site-wide.
+  - **Fixed on 2026-10-20 (`d6989dc`).** 11 more blog titles were shortened in the title, H1, Open Graph and Twitter titles and the JSON-LD headline, and the menus and pillar links that name them. No blog title is over 59 characters with the suffix. Site-wide, 82 of 448 titles are still over 59: 81 tool pages and one use case, which is SA H3's territory.
 - **M11. Almost no images.**
   - 422 of 432 pages have no content image.
   - Of 57 article nodes, only 7 have a usable raster image. The rest use the placeholder, the 116 x 48 logo SVG (below Google's minimum), or nothing.
@@ -404,34 +432,52 @@ This is verified.
   - 85 of 90 tool pages point `subjectOf` at the pillar's URL instead of its `#article` node.
   - 35 relative `#software-*` ids make the same product a different entity on each page.
   - There is no BreadcrumbList on 431 pages. Breadcrumbs are one of the few rich results the site can still earn.
+  - **Partly fixed on 2026-10-20.** `subjectOf` points at the pillar's `#article` node on all 90 tool pages (`4f36efd`), and no relative `#software` id is left (`d6989dc`; see H9). BreadcrumbList is still open.
 
 ## Low
 
 - **L1. Footer icon links have no accessible name.** The Facebook and LinkedIn links (`src/components/layout/footer.tsx:89`, `:111`) contain only an `aria-hidden` SVG. This fails Lighthouse's Agentic Browsing check on every page. Add `aria-label="Geek at Your Spot on Facebook"` and the LinkedIn equivalent. The same file has a stray `justify-center]` class at `:93`.
+  - **Fixed on 2026-10-20 (`d6989dc`).** The links are labelled "Geek @ Your Spot LLC on Facebook" and "Geek @ Your Spot LLC on LinkedIn", and the stray class is fixed.
 - **L2. Mobile render defects.**
   - The scheduler heading "Consultation" (`scheduler-shell.tsx:144`) is 408 px wide in a 390 px viewport, so it is clipped on 428 pages.
   - The home page uses 6 px labels (`clone-yourself.tsx:36,44`).
   - `use-cases.tsx:575` and `:1579` render an `<ol>` with non-`<li>` children.
   - `#C83803` link text fails contrast on some grounds.
+  - **Fixed on 2026-10-20 (`d6989dc`), except contrast.** At 390 px the scheduler heading measures 358 px in a 358 px column and nothing overflows the page. The home labels are 10 px, and the two lists are `<div>`s. Link contrast is still open.
 - **L3. Image delivery.**
   - `quality={100}` (`hero-section.tsx:61`, `hero-image-component.tsx:21`) makes the home hero's 2x AVIF 222 KB.
   - No content image has `sizes`.
   - One hero image is reused on three pillars.
+  - **Partly fixed on 2026-10-20 (`d6989dc`).** `quality={100}` is removed from both components, and `next.config.ts` allows only quality 75. `sizes` and the reused hero image are still open.
 - **L4. The two-copy pattern.** Keep the pattern.
   - 2,280 duplicated HTML ids appear on 153 pages, and jump links land on the hidden phone copy. Adding `-lg` to ids in the desktop copy fixes this.
   - Non-rendering AI crawlers read both copies, so keep them identical.
+  - **Fixed on 2026-10-20 (`d6989dc`).**
+    - Every id in a desktop copy ends in `-lg`. Shared section bodies take the suffix as an argument, and so do the footer and the blog route. Links repeated inside one copy, on the home cards and in the lead scoring post, also carry the card or section name. A crawl of all 448 pages finds no duplicated id and no jump link to one.
+    - GTM: desktop `click_id` values now end in `-lg`. The "Link Click - gys-link" trigger matches on the `gys-link-` prefix, so it still fires.
+    - The two copies' text is identical on all 444 two-block pages (SA M7).
 - **L5. Em dashes.**
   - All 274 glossary titles use one (`src/app/(site)/glossary/[slug]/page.tsx:45`, "Term — Glossary").
   - 14 meta descriptions and 587 places in visible copy also use them.
+  - **Fixed on 2026-10-20 (`d6989dc`).** A crawl of all 448 pages and the 404 finds no em dash in any title, description, visible text, alt or aria text, or JSON-LD.
+    - Glossary titles read "<Term> Definition", or the term alone when that would run long.
+    - 557 em dashes in 132 files were rewritten as commas, colons, parentheses or separate sentences: 443 on the five payroll pages and the rest on tool pages, pillars, hubs and 11 blog exports. Quoted vendor text kept its words and changed only punctuation.
+    - FAQ answers changed in the visible section and the FAQPage together, and a check of all 852 FAQ questions finds every one matching its visible text.
+    - Not changed: code comments, and the title of the temporary hold the scheduler puts on Jeff's own calendar ("HOLD — AI Consultation"), which visitors never see.
 - **L6. `www` in JSON-LD.** 24 JSON-LD URLs on 6 exported posts use the `www` host, including `mainEntityOfPage`.
+  - **Fixed on 2026-10-20 (`d6989dc`).** All 88 `www` URLs in 11 blog exports now use the apex host. A JSON-LD crawl finds none.
 - **L7. Glossary definitions are fragments.** Definitions such as "The accounting function responsible for..." have no subject, and on term pages the meta description gives a different definition from the visible one.
   - **Definitions fixed on 2026-10-20 (`25926fb`).** Every definition is now a full sentence with its subject. The meta description still comes from the older `shortSummary`, so it can still differ from the visible definition.
+  - **Meta descriptions fixed on 2026-10-20 (`d6989dc`).** A term page's description is now its visible definition, cut at a sentence end at 160 characters or less, so the two cannot differ. The DefinedTerm's `description` uses the same text.
 - **L8. The lead scoring model adds up to 120.** The positive criteria in the "100-point model" sum to 120 (verified), and there is no qualifying threshold. It is still the most citable post on the site, so fix it first. Its headings "People Also Ask ?" and "Map every lead source." also need cleaning.
+  - **Fixed on 2026-10-20 (`d6989dc`).** The positive criteria now weigh 15, 15, 20, 25, 10 and 15, which adds up to 100. A new paragraph sets the thresholds: 60 points or more gets a sales call the same day, 30 to 59 stays in nurture, and below 30 leaves the active list. The headings read "People Also Ask" and "Map every lead source".
 - **L9. Leftover files.** `next.svg`, `vercel.svg`, `file.svg`, `window.svg`, `globe.svg` and an empty `mock-post.json` are served publicly.
+  - **Fixed on 2026-10-20 (`d6989dc`).** All six files are deleted.
 - **L10. Metadata gaps.**
   - `twitter:site` is missing on 431 pages and `og:site_name` on 305.
   - 113 pages set the meta author "Development Team".
   - 10 hub pages lack the `googlebot` meta tag.
+  - **Rechecked on 2026-10-20.** `og:site_name` is now on all 448 pages (SA M3, `d6989dc`). Still open: `twitter:site` is on the home page only and waits on the X handle decision, 113 pages set the author "Development Team", and 32 of 448 pages have no `googlebot` meta tag.
 - **L11. Hub details.**
   - `6sense`, `contentstudio`, `pipedrive` and `zapier` are missing from the `/tools` grid and ItemList.
   - `/use-cases/accounting` is typed Article while its sibling hubs are CollectionPage.
