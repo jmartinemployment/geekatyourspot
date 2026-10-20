@@ -11,6 +11,60 @@ const navLinks = [
   // { label: "Contact", href: "/contact" },
 ];
 
+/**
+ * Links to every index page. The navbar builds its links in the browser only after the menu
+ * opens, so search engines reach these pages through this column and nowhere else.
+ */
+const HUB_GROUPS = [
+  {
+    label: "Use Cases",
+    links: [
+      { label: "All Use Cases", href: "/use-cases" },
+      { label: "Marketing Use Cases", href: "/use-cases/marketing" },
+      { label: "Accounting Use Cases", href: "/use-cases/accounting" },
+    ],
+  },
+  {
+    label: "Tools",
+    links: [
+      { label: "All Tools", href: "/tools" },
+      { label: "Marketing Tools", href: "/tools/marketing" },
+      { label: "Accounting Tools", href: "/tools/accounting" },
+    ],
+  },
+  {
+    label: "Resources",
+    links: [
+      { label: "Blog", href: "/blog" },
+      { label: "Glossary", href: "/glossary" },
+      { label: "Methodology", href: "/methodology" },
+    ],
+  },
+] as const;
+
+function HubGroup({ group }: Readonly<{ group: (typeof HUB_GROUPS)[number] }>) {
+  return (
+    <div className="pb-4">
+      <h2 className="text-white text-md shadow-text font-bold uppercase">
+        {group.label}
+      </h2>
+      <ul>
+        {group.links.map((link) => (
+          <li key={link.href} className="py-1">
+            <Link
+              id={gtmLinkIdFromHref(link.href, "footer")}
+              href={link.href}
+              className="font-bold text-sm shadow-text text-[#C83803] hover:underline"
+            >
+              {link.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function Footer() {
   return (
     <footer className="bg-[#0B162A] pt-5">
@@ -77,7 +131,20 @@ export default function Footer() {
               </span>
             </div>
           </div>
-          <div className="col-span-6">&nbsp;</div>
+          <div className="col-span-6">
+            <div className="lg:hidden">
+              {HUB_GROUPS.map((group) => (
+                <HubGroup key={group.label} group={group} />
+              ))}
+            </div>
+            <div className="hidden lg:block">
+              <div className="grid grid-cols-3 gap-4">
+                {HUB_GROUPS.map((group) => (
+                  <HubGroup key={group.label} group={group} />
+                ))}
+              </div>
+            </div>
+          </div>
           <div className="col-span-3">
             <h2 className="text-white text-md shadow-text font-bold uppercase">
               Contact
