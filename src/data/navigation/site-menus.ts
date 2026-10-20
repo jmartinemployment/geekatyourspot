@@ -21,7 +21,7 @@ export type MenuDepartment = Readonly<{
 
 export const USE_CASES_MENU: readonly MenuDepartment[] = [
   {
-    href: "/use-cases/marketing",
+    href: "/use-cases/marketing/ai-marketing-systems",
     label: "Marketing",
     categories: [
       {
@@ -52,9 +52,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         ],
       },
     ],
-    items: [
-      { href: "/use-cases/marketing/ai-marketing-systems", label: "AI Marketing Systems" },
-    ],
+    items: [],
   },
   {
     href: "/use-cases/accounting",
@@ -98,7 +96,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
 
 export const BLOG_MENU: readonly MenuDepartment[] = [
   {
-    href: "/blog",
+    href: "/blog/marketing/how-ai-marketing-systems-transform-small-business-growth",
     label: "Marketing",
     categories: [
       {
@@ -139,9 +137,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         ],
       },
     ],
-    items: [
-      { href: "/blog/marketing/how-ai-marketing-systems-transform-small-business-growth", label: "How AI Marketing Systems Transform Small Business Growth" },
-    ],
+    items: [],
   },
   {
     href: "/blog",
