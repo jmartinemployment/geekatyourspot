@@ -20,7 +20,7 @@ export const ripplingContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
   "sections": [
     {"title": "Overview", "description": "Picture a small construction firm in Miami-Dade, juggling a dozen jobs across three counties."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Most small business owners in South Florida do not set out to break the law when handling payroll tax or classifying workers."},

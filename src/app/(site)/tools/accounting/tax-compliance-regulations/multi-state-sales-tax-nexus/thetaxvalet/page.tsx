@@ -40,7 +40,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#software-taxvalet",
                 "name": TITLE,
                 "url": "https://thetaxvalet.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs#article" }
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida#article" }
             }
         },
         {

@@ -62,7 +62,7 @@ export default function LedeSection() {
         bad data means bad results), choosing tools that let you automate the drudge work (from topic research
         to multi-channel repurposing), and running a real pilot so you see the results in your own numbers. If
         you are ready to stop guessing and start growing, this is where you begin.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-content-planning-lede-blog" href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-smbs-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-intelligent-content-planning-lede-blog" href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">How Intelligent Content Planning Helps South Florida Small Businesses Save Hours</Link> on our blog.</p>
     </>
   );
 

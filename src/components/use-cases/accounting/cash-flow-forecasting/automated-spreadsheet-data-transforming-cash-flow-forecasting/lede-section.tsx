@@ -15,7 +15,7 @@ export default function LedeSection() {
         insights. Instead of spending hours on manual data entry and reconciliation, businesses can now access
         up-to-the-minute financial forecasts directly from their ledgers. This means Maria can see her cash runway
         clearly before making decisions that impact her business&#39;s future.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-spreadsheet-data-lede-blog" href="/blog/accounting/cash-flow-forecasting/how-automating-spreadsheet-data-boosts-cash-flow-forecasting" className="text-[#C83803] hover:underline">How Automating Spreadsheet Data Boosts Cash Flow Forecasting</Link> and <Link id="use-cases-accounting-spreadsheet-data-lede-blog-2" href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting-for-local-smbs" className="text-[#C83803] hover:underline">How Automated Spreadsheet Data Transforms Cash Flow Forecasting for Local SMBs</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-spreadsheet-data-lede-blog-2" href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">How Automated Spreadsheet Data Transforms Cash Flow Forecasting for Local Small Businesses</Link> on our blog.</p>
     </>
   );
 

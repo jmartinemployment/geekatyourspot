@@ -20,7 +20,7 @@ export const clockworkContent: ToolPageContent = {
   "datePublished": "2026-10-11T17:23:52.0000000Z",
   "dateModified": "2026-10-11T17:23:52.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
   "sections": [
     { "title": "Overview", "description": "Every month, small business owners and fractional CFOs find themselves buried in a \"spreadsheet sandbox,\" manually coding formulas, building three-statement structures, and cleaning ledger data." },
     { "title": "The Cost of Manual Spreadsheet Management", "description": "In the world of small business finance, manual spreadsheet management is a significant drain on resources." },

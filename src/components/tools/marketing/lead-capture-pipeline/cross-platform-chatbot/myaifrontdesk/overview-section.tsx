@@ -17,7 +17,7 @@ export default function OverviewSection() {
         up. It is not just frustrating; it is expensive. Every missed or delayed response means lost revenue
         that does not come back, and you have no easy way to know where the breakdown happened.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;closes these gaps for good. Instead of scattering conversations across
+        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-myaifrontdesk-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;closes these gaps for good. Instead of scattering conversations across
         platforms, it brings every chat, text, call, and DM into one unified timeline for each customer. You
         see the whole story instantly, respond from any channel, and never miss a lead, no matter where or
         when they reach out. This is not just an automation gimmick. It is a way to keep your pipeline moving,

@@ -54,7 +54,7 @@ export default function AccountsPayableSection() {
         supplier details and applies payment controls across your vendor list. <Link id="use-cases-accounting-accounts-payable-bill-fraud" href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">Bill</Link> checks
         for duplicate invoices as bills come in. Paired with a simple rule that any change to a vendor’s bank
         details requires a phone call to a known number, these tools close the door that email fraud depends
-        on. Read <Link id="use-cases-accounting-accounts-payable-p-fraud" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs" className="text-[#0B162A] hover:underline">Intelligent
+        on. Read <Link id="use-cases-accounting-accounts-payable-p-fraud" href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#0B162A] hover:underline">Intelligent
         Fraud &amp; Duplicate Payment Controls</Link> for the full set of controls.</p>
     </>
   );

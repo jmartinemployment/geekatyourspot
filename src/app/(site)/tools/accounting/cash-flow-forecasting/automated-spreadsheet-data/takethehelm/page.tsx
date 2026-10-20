@@ -39,7 +39,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#software-take-the-helm",
                 "name": TITLE,
                 "url": "https://takethehelm.app/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs#article" }
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting#article" }
             }
         }
     ]

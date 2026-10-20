@@ -5,7 +5,7 @@ export default function OverviewSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         A South Florida e-commerce owner watches daily orders climb, but an unexpected letter from a state tax
-        authority brings everything to a halt. She has crossed the&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-taxjar-overview-multi-state-sales-tax-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold. Now
+        authority brings everything to a halt. She has crossed the&nbsp;<Link id="tools-accounting-multi-state-sales-tax-nexus-taxjar-overview-multi-state-sales-tax-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold. Now
         she must track, collect, and file sales tax in new states, each with its own rules, deadlines and
         reporting formats. She did not plan for this. Her small team is already stretched thin just managing
         local operations. Overnight, she faces a mountain of new compliance work, and any missed detail could

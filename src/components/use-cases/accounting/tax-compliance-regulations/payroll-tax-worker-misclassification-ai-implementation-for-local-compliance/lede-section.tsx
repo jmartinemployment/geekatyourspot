@@ -37,7 +37,7 @@ export default function LedeSection() {
         compete, without gambling the business on every pay run. This page shows you, step by step, how to move
         from risk and confusion to clarity, automation, and peace of mind—so you can grow without fear of the
         next audit notice.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-payroll-tax-worker-misclassification-lede-blog" href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-smbs-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">What Miami SMBs Must Know Before Choosing Compliance Solutions</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-accounting-payroll-tax-worker-misclassification-lede-blog" href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">What Miami Small Businesses Must Know Before Choosing Compliance Solutions</Link> on our blog.</p>
     </>
   );
 

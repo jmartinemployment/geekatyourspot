@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/lede-section";
-import ChallengesSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/challenges-section";
-import StatusQuoSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/status-quo-section";
-import MechanicsSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/key-factors-section";
-import DecisionsSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/decisions-section";
-import SequenceSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/data-integration-section";
-import RolesSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/roles-section";
-import RightFitSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/right-fit-section";
-import PreparingSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/preparing-section";
-import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs/paa-section";
+import LedeSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/lede-section";
+import ChallengesSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/challenges-section";
+import StatusQuoSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/status-quo-section";
+import MechanicsSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/key-factors-section";
+import DecisionsSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/decisions-section";
+import SequenceSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/data-integration-section";
+import RolesSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/roles-section";
+import RightFitSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/right-fit-section";
+import PreparingSection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/preparing-section";
+import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Smarter Lead Capture for South Florida SMBs";
+const TITLE = "Smarter Lead Capture for South Florida Small Businesses";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring for South Florida SMBs: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.";
-const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs";
+    "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.";
+const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring`;
 
@@ -39,7 +39,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-17T11:09:57.5329753Z",
             "dateModified": "2026-10-17T11:09:57.5329753Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Lead Enrichment and Predictive Scoring, AI lead capture, South Florida SMBs, lead scoring tools, Apollo, Lusha, Snitcher, Leadfeeder, Factors, AI implementation services",
+            "keywords": "Lead Enrichment and Predictive Scoring, AI lead capture, South Florida small businesses, lead scoring tools, Apollo, Lusha, Snitcher, Leadfeeder, Factors, AI implementation services",
             "@id": `${PAGE_URL}#article`,
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
@@ -68,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Lead Enrichment and Predictive Scoring", "AI lead capture", "South Florida SMBs", "lead scoring tools", "Apollo", "Lusha", "Snitcher", "Leadfeeder", "Factors", "AI implementation services"],
+        keywords: ["Lead Enrichment and Predictive Scoring", "AI lead capture", "South Florida Small Businesses", "lead scoring tools", "Apollo", "Lusha", "Snitcher", "Leadfeeder", "Factors", "AI implementation services"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',

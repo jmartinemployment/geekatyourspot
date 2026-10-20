@@ -101,14 +101,14 @@ export default function MarketingUseCasesPage() {
       slug: "cross-platform-chatbot",
       description:
         "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-      href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide",
+      href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide",
     },
     {
       title: "Lead Enrichment and Predictive Scoring",
       slug: "lead-enrichment-and-predictive-scoring",
       description:
-        "Lead Enrichment and Predictive Scoring for South Florida SMBs: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
-      href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs",
+        "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
+      href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
     },
   ];
 

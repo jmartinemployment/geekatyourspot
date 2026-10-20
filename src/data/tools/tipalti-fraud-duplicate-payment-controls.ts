@@ -20,7 +20,7 @@ export const tipaltiFraudDuplicatePaymentControlsContent: ToolPageContent = {
   "datePublished": "2026-10-09T12:48:41.4190450Z",
   "dateModified": "2026-10-09T12:48:41.4190450Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency",
   "sections": [
     { "title": "Overview", "description": "A towering pile of invoices in a small Miami-Dade office, each one a potential error, duplicate payment or fraudulent transaction; AI-driven controls flag anomalies and duplicates early so only legitimate transactions proceed." },
     { "title": "The Cost of Manual Payment Processes in Automated Fraud & Duplicate Payment Controls", "description": "Vendor details keyed by hand from email, the same supplier invoice processed independently by each branch, and payment-detail changes that go uninvestigated; Tipalti secures the whole supplier-to-payment chain." },

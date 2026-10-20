@@ -20,7 +20,7 @@ export const floatappContent: ToolPageContent = {
   "datePublished": "2026-10-11T17:23:52.0000000Z",
   "dateModified": "2026-10-11T17:23:52.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
   "sections": [
     { "title": "Overview", "description": "In the heart of Miami's bustling business district, a small retail store owner, Maria, sits at her desk, staring at a spreadsheet filled with daunting numbers." },
     { "title": "The Cost of Manual Spreadsheet Data Management", "description": "Maria's situation is not unique. Many small business owners in West Palm Beach, Broward, and Miami-Dade counties face the same challenges with manual spreadsheet management." },

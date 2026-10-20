@@ -20,7 +20,7 @@ export const gustoContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
   "sections": [
     {"title": "Overview", "description": "On a Monday morning in Miami, the owner of a ten-person HVAC company sits at her desk, buried in a tangle of spreadsheets and half-completed tax forms."},
     {"title": "What it costs to keep doing this by hand", "description": "Every Friday, the owner of that Miami HVAC company is back at her desk, staring down another round of payroll."},

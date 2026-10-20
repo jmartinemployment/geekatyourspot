@@ -40,7 +40,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#software-gusto",
                 "name": TITLE,
                 "url": "https://gusto.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance#article" }
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance#article" }
             }
         },
         {

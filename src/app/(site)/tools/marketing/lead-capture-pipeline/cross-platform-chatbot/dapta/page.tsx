@@ -39,7 +39,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#software-dapta",
                 "name": TITLE,
                 "url": "https://dapta.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide#article" }
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide#article" }
             }
         }
     ]

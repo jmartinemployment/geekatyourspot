@@ -40,7 +40,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#software-factors",
                 "name": TITLE,
                 "url": "https://www.factors.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs#article" }
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida#article" }
             }
         },
         {

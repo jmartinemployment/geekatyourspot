@@ -37,7 +37,7 @@ export default function ToolsSection() {
         Voksha offers an Intelligent Receptionist solution designed for small businesses in South Florida,
         ensuring every call is answered and every lead is captured efficiently.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide" className="text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
       </h3>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-botpenguin" href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" className="text-[#0B162A] hover:underline">BotPenguin</Link>
@@ -71,7 +71,7 @@ export default function ToolsSection() {
         Tidio centralizes customer conversations from website, SMS, Messenger, and Instagram, helping small
         businesses in Miami-Dade, Broward, and West Palm Beach manage leads and support seamlessly.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-lead-enrichment-and-predictive-scoring" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs" className="text-[#0B162A] hover:underline">Lead Enrichment and Predictive Scoring</Link>
+        <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-lead-enrichment-and-predictive-scoring" href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida" className="text-[#0B162A] hover:underline">Lead Enrichment and Predictive Scoring</Link>
       </h3>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         <Link id="use-cases-marketing-intelligent-lead-capture-pipeline-tools-lead-enrichment-and-predictive-scoring-apollo" href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo" className="text-[#0B162A] hover:underline">Apollo</Link>

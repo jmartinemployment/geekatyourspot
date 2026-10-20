@@ -15,7 +15,7 @@ export default function SequenceSection() {
         monthly payroll cycle that never misses a deadline. Every tool—Gusto, Rippling, Deel, ADP, Justworks—can
         automate some part of the process, but unless you set measurable KPIs at the start, you won’t know if
         you’re fixing the real problem or just moving faster in the wrong direction. For a lot of South Florida
-        SMBs, getting this step wrong means automating the wrong workflow, like building overtime rules for a
+        small businesses, getting this step wrong means automating the wrong workflow, like building overtime rules for a
         team that mostly works project-based gigs.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next comes the&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>&nbsp;assessment. This

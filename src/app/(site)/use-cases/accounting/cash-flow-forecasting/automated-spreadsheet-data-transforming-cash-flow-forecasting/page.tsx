@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/lede-section";
-import ChallengesSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/challenges-section";
-import StatusQuoSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/status-quo-section";
-import MechanicsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/key-factors-section";
-import DecisionsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/decisions-section";
-import SequenceSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/data-integration-section";
-import RolesSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/roles-section";
-import RightFitSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/right-fit-section";
-import PreparingSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/preparing-section";
-import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs/paa-section";
+import LedeSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/lede-section";
+import ChallengesSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/challenges-section";
+import StatusQuoSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/status-quo-section";
+import MechanicsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/key-factors-section";
+import DecisionsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/decisions-section";
+import SequenceSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/data-integration-section";
+import RolesSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/roles-section";
+import RightFitSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/right-fit-section";
+import PreparingSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/preparing-section";
+import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 const TITLE = "Intelligent Spreadsheet Data";
 const DESCRIPTION =
     "Discover how Automated Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.";
-const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs";
+const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data`;
 

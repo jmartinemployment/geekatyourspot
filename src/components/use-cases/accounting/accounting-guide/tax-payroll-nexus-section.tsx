@@ -34,7 +34,7 @@ export default function TaxPayrollNexusSection() {
         sales by state and warns you as you approach each threshold. <Link id="use-cases-accounting-tax-taxcloud-nexus" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" className="text-[#C83803] hover:underline">TaxCloud</Link> handles
         registration and filing across states. <Link id="use-cases-accounting-tax-zamp-nexus" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp" className="text-[#C83803] hover:underline">Zamp</Link>, <Link id="use-cases-accounting-tax-taxvalet-nexus" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet" className="text-[#C83803] hover:underline">TaxValet</Link>,
         and <Link id="use-cases-accounting-tax-quaderno-nexus" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" className="text-[#C83803] hover:underline">Quaderno</Link> cover
-        the same ground with different mixes of software and expert service. The <Link id="use-cases-accounting-tax-p-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs" className="text-[#C83803] hover:underline">Intelligent
+        the same ground with different mixes of software and expert service. The <Link id="use-cases-accounting-tax-p-nexus" href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida" className="text-[#C83803] hover:underline">Intelligent
         Multi-State Sales Tax</Link> guide walks through every step.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Payroll and Worker Classification
@@ -51,7 +51,7 @@ export default function TaxPayrollNexusSection() {
         everywhere. <Link id="use-cases-accounting-tax-adp" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#C83803] hover:underline">ADP</Link> offers <strong>RUN
         Powered by ADP</strong>, its payroll platform for small businesses. <Link id="use-cases-accounting-tax-deel" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#C83803] hover:underline">Deel</Link> manages
         contractors and international workers and helps document classification decisions, and <Link id="use-cases-accounting-tax-justworks" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks" className="text-[#C83803] hover:underline">Justworks</Link> acts
-        as a professional employer organization that takes on payroll and compliance work. Our <Link id="use-cases-accounting-tax-p-payroll" href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance" className="text-[#C83803] hover:underline">Intelligent
+        as a professional employer organization that takes on payroll and compliance work. Our <Link id="use-cases-accounting-tax-p-payroll" href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance" className="text-[#C83803] hover:underline">Intelligent
         Payroll Tax</Link> guide covers the details.</p>
     </>
   );

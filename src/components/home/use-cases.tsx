@@ -201,7 +201,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-fraud-duplicate-payment-controls"
-                                            href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
+                                            href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
                                                 Intelligent Fraud &amp; Duplicate Payment Controls:</strong></h5>
@@ -307,7 +307,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-spreadsheet-data"
-                                            href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
+                                            href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
                                                 Intelligent Spreadsheet Data:</strong></h5>
@@ -456,7 +456,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-payroll-tax-worker-misclassification"
-                                            href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
+                                            href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
                                                 Intelligent Payroll Tax:</strong></h5>
@@ -502,7 +502,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-multi-state-sales-tax-nexus"
-                                            href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
+                                            href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
                                                 Intelligent Multi-State Sales Tax:</strong></h5>
@@ -635,8 +635,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide", "Cross-Platform Chatbot")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide", "Cross-Platform Chatbot")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
                                                     Cross-Platform Chatbot:
@@ -684,8 +684,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs", "Lead Enrichment and Predictive Scoring")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
                                                     Lead Enrichment and Predictive Scoring:
@@ -1213,7 +1213,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-fraud-duplicate-payment-controls"
-                                            href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs"
+                                            href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
                                                 Intelligent Fraud &amp; Duplicate Payment Controls:</strong></h5>
@@ -1319,7 +1319,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-spreadsheet-data"
-                                            href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs"
+                                            href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
                                                 Intelligent Spreadsheet Data:</strong></h5>
@@ -1469,7 +1469,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-payroll-tax-worker-misclassification"
-                                            href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance"
+                                            href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
                                                 Intelligent Payroll Tax:</strong></h5>
@@ -1515,7 +1515,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-multi-state-sales-tax-nexus"
-                                            href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs"
+                                            href="/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
                                                 Intelligent Multi-State Sales Tax:</strong></h5>
@@ -1641,8 +1641,8 @@ export function UseCasesSection() {
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide", "Cross-Platform Chatbot")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide", "Cross-Platform Chatbot")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
                                                     Cross-Platform Chatbot:
@@ -1690,8 +1690,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs", "Lead Enrichment and Predictive Scoring")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
                                                     Lead Enrichment and Predictive Scoring:

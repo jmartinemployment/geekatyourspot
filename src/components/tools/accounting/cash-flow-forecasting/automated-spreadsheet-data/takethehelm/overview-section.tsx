@@ -14,7 +14,7 @@ export default function OverviewSection() {
         even risky. This lag can mean the difference between seizing a business opportunity and missing it
         entirely.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id="tools-accounting-spreadsheet-data-takethehelm-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs" className="text-[#C83803] hover:underline">Spreadsheet Data</Link>&nbsp;offers a compelling solution to this bottleneck. By integrating tools like
+        Automated&nbsp;<Link id="tools-accounting-spreadsheet-data-takethehelm-overview-spreadsheet-data" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">Spreadsheet Data</Link>&nbsp;offers a compelling solution to this bottleneck. By integrating tools like
         Take the Helm, businesses can streamline their data entry processes, ensuring that cash flow forecasts are
         not only accurate but also up-to-date. This automation allows financial teams to focus on strategic
         decision-making rather than getting bogged down in manual data entry, which often leads to errors and

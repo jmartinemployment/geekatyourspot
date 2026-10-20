@@ -113,10 +113,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Fraud & Duplicate Payment Controls",
-        slug: "automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
+        slug: "automated-fraud-duplicate-payment-controls-boosting-efficiency",
         description:
           "Implement Intelligent Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.",
-        href: "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs",
+        href: "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency",
       },
       {
         title: "Cash Flow Forecasting",
@@ -134,10 +134,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Spreadsheet Data",
-        slug: "automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+        slug: "automated-spreadsheet-data-transforming-cash-flow-forecasting",
         description:
           "Discover how Intelligent Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
-        href: "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+        href: "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
       },
       {
         title: "Intelligent Resource Planning",
@@ -162,17 +162,17 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Payroll Tax",
-        slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+        slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
         description:
-          "AI solutions for Payroll Tax & Worker Misclassification help SMBs in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.",
-        href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance",
+          "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce costly errors.",
+        href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
       },
       {
         title: "Intelligent Multi-State Sales Tax",
-        slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
+        slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
         description:
-          "Multi-State Sales Tax Nexus compliance made simple for South Florida SMBs. Automate filings, reduce errors, and stay audit-ready with local AI expertise.",
-        href: "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
+          "Multi-State Sales Tax Nexus compliance made simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready with local AI expertise.",
+        href: "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
       },
     ],
   },
@@ -239,14 +239,14 @@ const DEPARTMENTS: Department[] = [
         slug: "cross-platform-chatbot",
         description:
           "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-        href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide",
+        href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide",
       },
       {
         title: "Lead Enrichment and Predictive Scoring",
         slug: "lead-enrichment-and-predictive-scoring",
         description:
-          "Lead Enrichment and Predictive Scoring for South Florida SMBs: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
-        href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs",
+          "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
+        href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
       },
       {
         title: "SEO Blog and Article Generation",

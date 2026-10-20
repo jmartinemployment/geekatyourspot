@@ -19,7 +19,7 @@ export default function OverviewSection() {
         wasting time, you’re losing money. The bigger your following, the faster this gets out of hand. Even
         with the best intentions, it’s impossible to stay on top of every platform, every hour, every day.</p>
       <p className="text-md text-white shadow-text pt-3">
-        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-manychat-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;changes that. Instead of treating each channel as a separate inbox, it keeps
+        A&nbsp;<Link id="tools-marketing-cross-platform-chatbot-manychat-overview-cross-platform-chatbot" href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;changes that. Instead of treating each channel as a separate inbox, it keeps
         every conversation, no matter where it started, connected to the right customer and the next step in
         your pipeline. With tools like Manychat, you can automate replies to comments and DMs, segment and tag
         leads, and sync all those details into your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;or

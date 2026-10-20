@@ -36,7 +36,7 @@ export default function LedeSection() {
         what Lead Enrichment and Predictive Scoring actually delivers, not a theory, but an operational fix
         for a problem you see every week.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If you run a local SMB in South Florida, you already know the pain of wasted time and missed
+        If you run a local small business in South Florida, you already know the pain of wasted time and missed
         opportunities. Most of your sales effort goes into chasing down cold, inaccurate, or outdated
         contacts, and even when someone does show real interest, they often slip through the cracks because
         your team never sees the signal. The old way, manual list building, endless cold calls, and waiting
@@ -58,7 +58,7 @@ export default function LedeSection() {
         business environments. You will see how to go from chasing cold leads to working a live, always-on
         pipeline of high-intent local accounts, without hiring more staff or adding complexity your team
         cannot manage.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-lead-enrichment-lede-blog" href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">How South Florida SMBs Can Turn More Leads Into Sales</Link> on our blog.</p>
+      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-lead-enrichment-lede-blog" href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">How South Florida Small Businesses Can Turn More Leads Into Sales</Link> on our blog.</p>
     </>
   );
 
@@ -69,8 +69,8 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-most-local-smbs-are-losing-hot-leads-and-burning-out-their-sales-teams" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Why Most Local SMBs Are Losing Hot Leads and Burning Out Their Sales Teams
+              <h2 id="why-most-local-small-businesses-are-losing-hot-leads-and-burning-out-their-sales-teams" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Why Most Local Small Businesses Are Losing Hot Leads and Burning Out Their Sales Teams
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -82,8 +82,8 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="why-most-local-smbs-are-losing-hot-leads-and-burning-out-their-sales-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Why Most Local SMBs Are Losing Hot Leads and Burning Out Their Sales Teams
+              <h2 id="why-most-local-small-businesses-are-losing-hot-leads-and-burning-out-their-sales-teams" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Why Most Local Small Businesses Are Losing Hot Leads and Burning Out Their Sales Teams
               </h2>
               {body}
             </div>

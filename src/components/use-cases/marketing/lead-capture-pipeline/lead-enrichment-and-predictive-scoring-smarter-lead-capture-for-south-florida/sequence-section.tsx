@@ -64,7 +64,7 @@ export default function SequenceSection() {
       <p className="text-md text-white shadow-text pt-3">
         This sequence is not theoretical, it&#39;s what separates a pipeline that drives real revenue from one
         that stays stuck in the same grind as before. Each phase builds on the last, and skipping a step is
-        how teams end up with a system that looks good on paper but fails in the field. For local SMBs,
+        how teams end up with a system that looks good on paper but fails in the field. For local small businesses,
         getting this rollout right is the difference between chasing ghosts and working a live, high-fit
         pipeline every day.</p>
     </>

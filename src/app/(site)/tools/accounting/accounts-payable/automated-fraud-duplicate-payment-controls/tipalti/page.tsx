@@ -36,7 +36,7 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/#software-tipalti",
                 "name": TITLE,
                 "url": "https://tipalti.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs#article" }
+                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency#article" }
             }
         },
         {

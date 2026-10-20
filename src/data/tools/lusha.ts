@@ -20,7 +20,7 @@ export const lushaContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
   "sections": [
     {"title": "Overview", "description": "Picture a small sales team in Miami-Dade, working the phones from a cramped office, list of prospects on the desk."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every small business in South Florida knows the feeling: you have a list of prospects, but most of your day is spent leaving voicemails, getting blocked by receptionists, or waiting for a reply that never comes."},

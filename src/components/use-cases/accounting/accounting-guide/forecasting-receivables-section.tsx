@@ -34,7 +34,7 @@ export default function ForecastingReceivablesSection() {
         scenarios</strong> side by side, so you can compare a slow summer, a hurricane closure, and a strong
         season before any of them happens. <Link id="use-cases-accounting-forecasting-clockwork" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" className="text-[#0B162A] hover:underline">Clockwork</Link> generates
         forecasts from your ledger data, and <Link id="use-cases-accounting-forecasting-cff-sheet" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" className="text-[#0B162A] hover:underline">Cashflowfrog</Link> and <Link id="use-cases-accounting-forecasting-helm-sheet" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">Take
-        the Helm</Link> replace manual updates with live connections to your books. The <Link id="use-cases-accounting-forecasting-p-sheet" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs" className="text-[#0B162A] hover:underline">Intelligent
+        the Helm</Link> replace manual updates with live connections to your books. The <Link id="use-cases-accounting-forecasting-p-sheet" href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#0B162A] hover:underline">Intelligent
         Spreadsheet Data</Link> guide explains how to retire the fragile workbook safely.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Receivables That Collect Themselves

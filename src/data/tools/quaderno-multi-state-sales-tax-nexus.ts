@@ -20,7 +20,7 @@ export const quadernoMultiStateSalesTaxNexusContent: ToolPageContent = {
   "datePublished": "2026-10-13T18:05:58.9611010Z",
   "dateModified": "2026-10-13T18:05:58.9611010Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
   "sections": [
     {"title": "Overview", "description": "A South Florida SaaS founder lands a new batch of customers in Texas, New York, and California, another big month for the books."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Small businesses in South Florida run into Multi-State Sales Tax Nexus before they are ready."},

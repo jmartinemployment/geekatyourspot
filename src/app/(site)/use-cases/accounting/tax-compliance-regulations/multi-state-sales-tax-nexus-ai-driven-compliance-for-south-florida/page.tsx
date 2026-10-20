@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/lede-section";
-import ChallengesSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/challenges-section";
-import StatusQuoSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/status-quo-section";
-import MechanicsSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/key-factors-section";
-import DecisionsSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/decisions-section";
-import SequenceSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/data-integration-section";
-import RolesSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/roles-section";
-import RightFitSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/right-fit-section";
-import PreparingSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/preparing-section";
-import PAASection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs/paa-section";
+import LedeSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/lede-section";
+import ChallengesSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/challenges-section";
+import StatusQuoSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/status-quo-section";
+import MechanicsSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/key-factors-section";
+import DecisionsSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/decisions-section";
+import SequenceSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/data-integration-section";
+import RolesSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/roles-section";
+import RightFitSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/right-fit-section";
+import PreparingSection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/preparing-section";
+import PAASection from "@/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
 const TITLE = "Intelligent Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus compliance made simple for South Florida SMBs. Automate filings, reduce errors, and stay audit-ready with local AI expertise.";
-const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs";
+    "Multi-State Sales Tax Nexus compliance made simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready with local AI expertise.";
+const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const TOOLS_BASE = `https://geekatyourspot.com/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus`;
 
@@ -39,7 +39,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-13T19:00:57.5894150Z",
             "dateModified": "2026-10-13T19:00:57.5894150Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Multi-State Sales Tax Nexus, sales tax compliance, AI tax automation, Florida SMB tax solutions, TaxCloud, Zamp, Quaderno, TaxValet, TaxJar, local tax consulting",
+            "keywords": "Multi-State Sales Tax Nexus, sales tax compliance, AI tax automation, Florida small business tax solutions, TaxCloud, Zamp, Quaderno, TaxValet, TaxJar, local tax consulting",
             "@id": `${PAGE_URL}#article`,
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
@@ -68,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Multi-State Sales Tax Nexus", "sales tax compliance", "AI tax automation", "Florida SMB tax solutions", "TaxCloud", "Zamp", "Quaderno", "TaxValet", "TaxJar", "local tax consulting"],
+        keywords: ["Multi-State Sales Tax Nexus", "sales tax compliance", "AI tax automation", "Florida small business tax solutions", "TaxCloud", "Zamp", "Quaderno", "TaxValet", "TaxJar", "local tax consulting"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',

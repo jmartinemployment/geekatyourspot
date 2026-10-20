@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/lede-section";
-import ChallengesSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/challenges-section";
-import StatusQuoSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/status-quo-section";
-import MechanicsSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/key-factors-section";
-import DecisionsSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/decisions-section";
-import SequenceSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/data-integration-section";
-import RolesSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/roles-section";
-import RightFitSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/right-fit-section";
-import PreparingSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/preparing-section";
-import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide/paa-section";
+import LedeSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/lede-section";
+import ChallengesSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/challenges-section";
+import StatusQuoSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/status-quo-section";
+import MechanicsSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/key-factors-section";
+import DecisionsSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/decisions-section";
+import SequenceSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/data-integration-section";
+import RolesSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/roles-section";
+import RightFitSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/right-fit-section";
+import PreparingSection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/preparing-section";
+import PAASection from "@/components/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 
-const TITLE = "Local SMB Implementation Guide";
+const TITLE = "Local Small Business Implementation Guide";
 const DESCRIPTION =
     "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.";
-const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide";
+const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const TOOLS_BASE = `https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/cross-platform-chatbot`;
 
@@ -39,7 +39,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-16T16:34:08.2438979Z",
             "dateModified": "2026-10-16T16:34:08.2438979Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Cross-Platform Chatbot, Lead Capture Pipeline, AI Chatbot Implementation, Miami SMB automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
+            "keywords": "Cross-Platform Chatbot, Lead Capture Pipeline, AI Chatbot Implementation, Miami small business automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
             "@id": `${PAGE_URL}#article`,
             "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
             "hasPart": { "@id": `${PAGE_URL}#faq` },
@@ -70,7 +70,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Cross-Platform Chatbot", "Lead Capture Pipeline", "AI Chatbot Implementation", "Miami SMB automation", "Smart Chatbots for Marketing", "Lead Scoring AI", "Voice Assistant integration", "BotPenguin", "Manychat", "My AI Front Desk"],
+        keywords: ["Cross-Platform Chatbot", "Lead Capture Pipeline", "AI Chatbot Implementation", "Miami small business automation", "Smart Chatbots for Marketing", "Lead Scoring AI", "Voice Assistant integration", "BotPenguin", "Manychat", "My AI Front Desk"],
         authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek at Your Spot Llc',
         publisher: 'Geek at Your Spot Llc',

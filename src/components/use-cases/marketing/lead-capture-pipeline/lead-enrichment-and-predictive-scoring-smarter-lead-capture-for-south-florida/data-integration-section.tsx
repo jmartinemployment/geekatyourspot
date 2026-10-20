@@ -21,7 +21,7 @@ export default function DataIntegrationSection() {
         sees more, with firmographics and contact details filled in behind the scenes.</p>
       <p className="text-md text-white shadow-text pt-3">
         Next is the integration layer. Your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;(whether
-        it’s Salesforce, HubSpot, or a lighter SMB platform) must handle enriched data fields, not just name
+        it’s Salesforce, HubSpot, or a lighter small business platform) must handle enriched data fields, not just name
         and email, but company size, industry, last engagement, and source. This is where bulk enrichment from
         Lusha comes in, processing thousands of records at once and writing verified mobile numbers and emails
         back to your system, so you never lose a lead to a dead number or a bounced email. If you’re running

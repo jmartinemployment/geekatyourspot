@@ -9,7 +9,7 @@ export default function OverviewSection() {
         to keep up with demand. By August, the paperwork piles up. Classifying workers as W-2 or 1099 is
         guesswork. The team logs overtime, but who counts toward which rule changes every week. A routine review
         from the state exposes a payroll tax filing error, one misclassified technician triggers a cascade of
-        back taxes, fines, and penalties.&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-adp-overview-payroll-tax-worker-misclassification" href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;is not an abstract
+        back taxes, fines, and penalties.&nbsp;<Link id="tools-accounting-payroll-tax-worker-misclassification-adp-overview-payroll-tax-worker-misclassification" href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;is not an abstract
         compliance problem here. It is a direct threat to cash flow, reputation, and the owner’s ability to keep
         the business running.</p>
       <p className="text-md text-white shadow-text pt-3">
