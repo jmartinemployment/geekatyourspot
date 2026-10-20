@@ -18,7 +18,7 @@ import {
   type MenuDepartment,
 } from "@/data/navigation/site-menus";
 
-type MenuSection = "use-cases" | "blog" | "tools" | "glossary";
+type MenuSection = "use-cases" | "blog" | "tools";
 
 function MenuHeading({
   href,
@@ -288,14 +288,6 @@ export default function Navbar(): React.JSX.Element {
               >
                 Tools
               </button>
-              <button
-                type="button"
-                id={gtmClickId(["nav", "glossary"])}
-                className={sectionButtonClass("glossary")}
-                onClick={() => showSection("glossary")}
-              >
-                Glossary
-              </button>
             </div>
 
             {activeSection === "use-cases" && (
@@ -337,47 +329,6 @@ export default function Navbar(): React.JSX.Element {
                     onNavigate={closeSidebar}
                   />
                 ))}
-              </div>
-            )}
-
-            {activeSection === "glossary" && (
-              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-2">
-                <div className={COLUMN_CLASS}>
-                  <MenuHeading href="/glossary" label="Browse by letter" onNavigate={closeSidebar} />
-                  {/*
-                    The index pages by `?letter=`, and A is its default, so A
-                    links to the bare /glossary. X and Y have no terms in
-                    src/data/glossary/terms.ts -- the index renders those as
-                    disabled, so they are omitted here rather than linking to a
-                    page that silently falls back to A.
-                  */}
-                  <ul className={`${LIST_CLASS} columns-4 gap-x-4 sm:columns-6`}>
-                    <MenuLink href="/glossary" label="A" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=B" label="B" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=C" label="C" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=D" label="D" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=E" label="E" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=F" label="F" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=G" label="G" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=H" label="H" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=I" label="I" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=J" label="J" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=K" label="K" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=L" label="L" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=M" label="M" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=N" label="N" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=O" label="O" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=P" label="P" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=Q" label="Q" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=R" label="R" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=S" label="S" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=T" label="T" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=U" label="U" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=V" label="V" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=W" label="W" onNavigate={closeSidebar} />
-                    <MenuLink href="/glossary?letter=Z" label="Z" onNavigate={closeSidebar} />
-                  </ul>
-                </div>
               </div>
             )}
           </nav>
