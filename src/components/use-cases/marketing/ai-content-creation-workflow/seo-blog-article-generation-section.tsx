@@ -40,7 +40,7 @@ export default function SEOBlogArticleGenerationSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-1"
-                  href="/tools/marketing/jasper-ai" className="text-[#0B162A] font-bold hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
                 </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
                 search trends and suggest relevant keywords, which are crucial for boosting visibility. These tools automatically
@@ -49,7 +49,7 @@ export default function SEOBlogArticleGenerationSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 By using&nbsp;
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-2"
-                  href="/tools/marketing/jasper-ai" className="text-[#0B162A] font-bold hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
                 </Link>, businesses can enhance their content&#39;s relevance
                 to search engines by incorporating trending topics and frequently searched terms. This results in articles that are
@@ -140,7 +140,7 @@ export default function SEOBlogArticleGenerationSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-1"
-                  href="/tools/marketing/jasper-ai" className="text-[#0B162A] font-bold hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
                 </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
                 search trends and suggest relevant keywords, which are crucial for boosting visibility. These tools automatically
@@ -149,7 +149,7 @@ export default function SEOBlogArticleGenerationSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 By using&nbsp;
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-2"
-                  href="/tools/marketing/jasper-ai" className="text-[#0B162A] font-bold hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
                 </Link>, businesses can enhance their content&#39;s relevance
                 to search engines by incorporating trending topics and frequently searched terms. This results in articles that are

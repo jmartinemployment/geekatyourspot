@@ -1,0 +1,1 @@
+A technical diagram showing a modular system with interconnected blocks representing architecture components, APIs, and data flows, emphasizing integration points and secure data handling. Flat vector, tech-focused.

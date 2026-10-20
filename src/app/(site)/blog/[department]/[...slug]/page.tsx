@@ -11,9 +11,9 @@ import {
   textOnRight,
 } from "@/components/blog/section-palette";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { getEntry, listEntries } from "@/lib/content-writer/content";
-import { toArticleSections } from "@/lib/content-writer/article-sections";
-import { relatedBlogHrefs } from "@/lib/content-writer/related-posts";
+import { getEntry, listEntries } from "@/lib/content-writer-disabled/content-disabled";
+import { toArticleSections } from "@/lib/content-writer-disabled/article-sections-disabled";
+import { relatedBlogHrefs } from "@/lib/content-writer-disabled/related-posts";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { formatDate } from "../../format-date";
 

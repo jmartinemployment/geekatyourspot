@@ -1,0 +1,1 @@
+A settings panel illustration with toggles, sliders, and logic flow diagrams. Visualizes users configuring automation rules, shaping how Rytr operates through customizable options.

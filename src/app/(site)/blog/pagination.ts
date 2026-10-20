@@ -1,4 +1,4 @@
-import { listEntries } from "@/lib/content-writer/content";
+import { listEntries } from "@/lib/content-writer-disabled/content-disabled";
 
 export type BlogIndexItem = {
   slug: string;

@@ -1,0 +1,1 @@
+A flat vector decision tree diagram: branching paths with different user personas leading to recommendations, some paths ending at Anyword, others leading to alternative solutions. Professional, clear, B2B look.

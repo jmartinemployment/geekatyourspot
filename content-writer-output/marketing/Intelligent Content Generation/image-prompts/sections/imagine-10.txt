@@ -1,0 +1,1 @@
+A flat vector decision tree with diverging paths, showing business personas at forks, symbolizing choice and guidance in selecting the right platform.

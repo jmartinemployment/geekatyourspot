@@ -789,103 +789,88 @@ export function UseCasesSection() {
                                                 </Link>.
                                             </p>
                                         </li>
-                                        <li className="pl-.5 ">
+                                        <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/automated-content-generation-transforming-small-business-marketing", "Automated Content Generation")}
-                                                href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses", "Intelligent Content Generation")}
+                                                href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
-                                                    Automated Content Generation:
+                                                    Intelligent Content Generation:
                                                 </strong>
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs">
-                                                Automated content creation uses artificial intelligence and software tools to research, generate, repurpose, and publish text, images, and video with minimal human effort.
+                                                Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Automated Content Generation Tools:
+                                                Top AI Content Generation Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                Scalenut,&nbsp;
-                                                Writesonic,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
-                                                    href="/tools/marketing/contentstudio"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", "Anyword")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ContentStudio
+                                                    Anyword
                                                 </Link>,&nbsp;
-                                                Rytr,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
-                                                    href="/tools/marketing/jasper-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", "Castmagic")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Castmagic
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", "Copy.ai")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Copy.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/frase", "Frase")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Frase
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite", "Hootsuite")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Hootsuite
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine", "ImagineArt")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    ImagineArt
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper", "Jasper")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Jasper
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-sm">AI Content Repurposing: </strong></h5>
-                                            AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Content Repurposing Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                Pictory,&nbsp;
-                                                OpusClip,
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
-                                                    href="/tools/marketing/contentstudio"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ContentStudio
-                                                </Link>,&nbsp;
-                                                Repurpose,&nbsp;
-                                                Vizard.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-sm">
-                                                Bulk Scheduling:
-                                            </strong></h5>
-                                            <p className="text-black text-xs">
-                                                AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Bulk Scheduling Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                Metricool,&nbsp;
-                                                Publer,&nbsp;
-                                                SocialBee,&nbsp;
-                                                CoSchedule,&nbsp;
-                                                Sendible.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Approval Workflows:
-                                            </strong>
-                                            </h5>
-                                            <p className="text-black text-xs">
-                                                Configure automated, rule-based approval workflows that automatically route invoices to the correct manager based on preset dollar thresholds or departments.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top 5 Automated Approval Workflow Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                Pabbly,&nbsp;
-                                                Make,&nbsp;
-                                                N8N,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pipedrive
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
-                                                    href="/tools/marketing/zapier"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/koala", "Koala")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Zapier
+                                                    Koala
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Rytr
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Scalenut
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", "Writesonic")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Writesonic
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1808,99 +1793,88 @@ export function UseCasesSection() {
                                                 </Link>.
                                             </p>
                                         </li>
-                                        <li className="pl-.5 ">
+                                        <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/automated-content-generation-transforming-small-business-marketing", "Automated Content Generation")}
-                                                href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses", "Intelligent Content Generation")}
+                                                href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
-                                                    Automated Content Generation:
-                                                </strong></h5>
+                                                    Intelligent Content Generation:
+                                                </strong>
+                                                </h5>
                                             </Link>
                                             <p className="text-black text-sm">
-                                                AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels. The most effective workflows use AI for brainstorming, drafting, repurposing, and scheduling rather than treating it as a one-off writing tool.
+                                                Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Automated Content Generation Tools:
+                                                Top AI Content Generation Tools:
                                             </h6>
-                                            <p className="text-black text-sm">
-                                                Scalenut,&nbsp;
-                                                Writesonic,&nbsp;
+                                            <p className="text-sm">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
-                                                    href="/tools/marketing/contentstudio"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", "Anyword")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ContentStudio
+                                                    Anyword
                                                 </Link>,&nbsp;
-                                                Rytr,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/jasper", "Jasper")}
-                                                    href="/tools/marketing/jasper-ai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", "Castmagic")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Castmagic
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", "Copy.ai")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Copy.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/frase", "Frase")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Frase
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite", "Hootsuite")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Hootsuite
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine", "ImagineArt")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    ImagineArt
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper", "Jasper")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Jasper
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-base">AI Content Repurposing: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                AI content repurposing strategies are about turning one strong asset into multiple channel-specific pieces, like blog posts into social captions, email sequences, video scripts, or summaries. The most effective strategies start with high-performing evergreen content, then adapt it for different formats while keeping the core message consistent.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Content Repurposing Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                Pictory,&nbsp;
-                                                OpusClip,
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/contentstudio", "ContentStudio")}
-                                                    href="/tools/marketing/contentstudio"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    ContentStudio
-                                                </Link>,&nbsp;
-                                                Repurpose,&nbsp;
-                                                Vizard.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-base">Bulk Scheduling: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                AI tools write a month of platform-specific posts, hashtags, and captions in minutes.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Bulk Scheduling Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                Metricool,&nbsp;
-                                                Publer,&nbsp;
-                                                SocialBee,&nbsp;
-                                                CoSchedule,&nbsp;
-                                                Sendible.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-base">Approval Process: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                AI-powered approval workflows streamline content review and sign-off processes.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Approval Process Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                Pabbly,&nbsp;
-                                                Make,&nbsp;
-                                                N8N,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Pipedrive
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
-                                                    href="/tools/marketing/zapier"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/koala", "Koala")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Zapier
+                                                    Koala
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Rytr
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Scalenut
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", "Writesonic")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Writesonic
                                                 </Link>.
                                             </p>
                                         </li>

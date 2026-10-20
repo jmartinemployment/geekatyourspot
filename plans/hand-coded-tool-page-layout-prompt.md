@@ -235,7 +235,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         "keywords": "AI Content Repurposing, content transformation, [Tool Name], workflow automation",
         "subjectOf": {
             "@type": "TechArticle",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing"
+            "@id": "https://geekatyourspot.com/use-cases/marketing/[category]/[pillar-slug]"
         }
         // ... full JSON-LD from backup HTML head
     };

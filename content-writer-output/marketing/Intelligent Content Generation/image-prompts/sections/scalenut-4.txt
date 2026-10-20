@@ -1,0 +1,1 @@
+Flat vector diagram with layered architecture blocks, showing a central platform connected to various external service icons via lines, with secure data flow arrows and cloud storage symbols.

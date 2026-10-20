@@ -1,0 +1,1 @@
+A flat vector diagram of organized data blocks and mapping lines connecting them, depicting structured data flow and logical relationships that enable successful content generation.

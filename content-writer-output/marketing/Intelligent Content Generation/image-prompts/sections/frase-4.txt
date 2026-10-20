@@ -1,0 +1,1 @@
+Technical diagram showing Frase’s platform at the center, connected via arrows to various integrations and data sources, with layered architecture components and flow lines indicating data movement.

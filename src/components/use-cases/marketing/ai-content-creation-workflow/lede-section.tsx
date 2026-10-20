@@ -31,10 +31,9 @@ export default function LedeSection() {
                 Imagine if you could cut those hours down significantly while maintaining quality and creativity. This is where
                 AI-assisted <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>&nbsp;steps in. By automating repetitive tasks, AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-streamlining-jasper-ai"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
-                </Link>,&nbsp;
-                Copy.ai, &nbsp;and&nbsp;
+                </Link>,&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-lede-copy" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#C83803] hover:underline">Copy.ai</Link>, &nbsp;and&nbsp;
                 ChatGPT&nbsp;help marketers generate content efficiently, reducing errors and
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
@@ -50,7 +49,7 @@ export default function LedeSection() {
                 resources.</p>
               <p className="text-md text-white shadow-text pt-3">
                 AI content creation tools like&nbsp;<Link id="ai-content-creation-workflow-streamlining-jasper-ai-1"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>,&nbsp;and&nbsp;
                 Copy.ai,&nbsp; offer a way out of this cycle. These tools leverage artificial
@@ -101,10 +100,9 @@ export default function LedeSection() {
                 Imagine if you could cut those hours down significantly while maintaining quality and creativity. This is where
                 AI-assisted <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>&nbsp;steps in. By automating repetitive tasks, AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-streamlining-jasper-ai"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
-                </Link>,&nbsp;
-                Copy.ai, &nbsp;and&nbsp;
+                </Link>,&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-lede-copy" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#C83803] hover:underline">Copy.ai</Link>, &nbsp;and&nbsp;
                 ChatGPT&nbsp; help marketers generate content efficiently, reducing errors and
                 freeing up time for more impactful work. Whether it&#39;s generating blog posts, repurposing content, or scheduling
                 social media updates, these tools streamline your workflow, driving better results with less effort.</p>
@@ -120,7 +118,7 @@ export default function LedeSection() {
                 resources.</p>
               <p className="text-md text-white shadow-text pt-3">
                 AI content creation tools like&nbsp;<Link id="ai-content-creation-workflow-streamlining-jasper-ai-2"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>,&nbsp;and&nbsp;
                 Copy.ai&nbsp;offer a way out of this cycle. These tools leverage artificial

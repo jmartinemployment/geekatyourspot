@@ -1,0 +1,1 @@
+Flowchart diagram with automation rules, triggers, and conditional logic connecting steps in a content workflow, showing decision paths and automated actions.

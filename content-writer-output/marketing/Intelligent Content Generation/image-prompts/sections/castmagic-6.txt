@@ -1,0 +1,1 @@
+Abstract diagram showing data fields and mapping lines connecting audio inputs to structured content outputs, visually representing data structuring and mapping logic.

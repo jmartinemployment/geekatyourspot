@@ -1,0 +1,1 @@
+A flat vector diagram comparing two workflows: one with multiple manual steps, tired workers, and stacks of documents, versus an inefficient process flow, visually highlighting bottlenecks and wasted resources.

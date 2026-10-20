@@ -30,7 +30,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-jasper-ai-1"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
@@ -113,7 +113,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-md font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-Jasper-AI-2"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in

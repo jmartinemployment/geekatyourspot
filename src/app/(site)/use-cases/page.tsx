@@ -200,11 +200,11 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
       },
       {
-        title: "AI Content Repurposing",
-        slug: "ai-content-repurposing",
+        title: "Intelligent Content Generation",
+        slug: "intelligent-content-generation",
         description:
-          "Transform your content with AI repurposing tools, saving time and enhancing audience engagement across platforms.",
-        href: "/use-cases/marketing/ai-content-repurposing",
+          "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.",
+        href: "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
       },
       {
         title: "AI-Driven Lead Scoring for Small Businesses",
@@ -226,13 +226,6 @@ const DEPARTMENTS: Department[] = [
         description:
           "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
         href: "/use-cases/marketing/automated-ad-spend-optimization",
-      },
-      {
-        title: "Automated Content Generation",
-        slug: "automated-content-generation-transforming-small-business-marketing",
-        description:
-          "Explore how Automated Content Generation boosts efficiency and engagement for small businesses. Learn practical AI applications and benefits.",
-        href: "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing",
       },
       {
         title: "Intelligent Lead Capture Pipeline",

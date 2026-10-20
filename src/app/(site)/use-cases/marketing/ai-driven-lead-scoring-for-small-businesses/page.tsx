@@ -48,10 +48,10 @@ const jsonLd: Graph = {
                     "@id": "https://geekatyourspot.com/tools/marketing/pipedrive#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/apollo#software"
+                    "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/leadsquared#software"
+                    "@id": "#software-leadsquared"
                 },
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/6sense#software"
@@ -90,9 +90,9 @@ const jsonLd: Graph = {
             "description": "Apollo enriches lead records with company and industry data for more accurate scoring.",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/apollo"
+                "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/apollo#software"
+            "@id": "https://geekatyourspot.com/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo#software"
         },
         {
             "@type": "SoftwareApplication",
@@ -100,11 +100,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "LeadSquared filters spam and combines CRM with analytics for precision lead scoring.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/leadsquared"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/leadsquared#software"
+            "@id": "#software-leadsquared"
         },
         {
             "@type": "SoftwareApplication",

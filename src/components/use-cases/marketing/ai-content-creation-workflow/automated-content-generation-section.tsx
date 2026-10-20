@@ -23,10 +23,10 @@ export default function AutomatedContentGenerationSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">
                 Creating content can be time-consuming and often leads to burnout among marketing teams. The constant pressure to
-                produce fresh, engaging material can feel overwhelming, especially when juggling multiple projects. This is where&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-automated-content-generation-automated-content-generation" href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing" className="text-[#C83803] hover:underline">automated content generation</Link>&nbsp;comes to the rescue, offering a solution that saves both time and resources.</p>
+                produce fresh, engaging material can feel overwhelming, especially when juggling multiple projects. This is where&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-automated-content-generation-automated-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">automated content generation</Link>&nbsp;comes to the rescue, offering a solution that saves both time and resources.</p>
               <p className="text-md text-white shadow-text pt-3">
                 Automated content generation tools like&nbsp;<Link id="ai-content-creation-workflow-automating-jasper-ai-1"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;can drastically reduce the workload on your team. These platforms
@@ -82,11 +82,11 @@ export default function AutomatedContentGenerationSection() {
                 Automated Content Generation: Efficiency with Minimal Effort</h2>
               <p className="text-md text-white shadow-text pt-3">
                 Creating content can be time-consuming and often leads to burnout among marketing teams. The constant pressure to
-                produce fresh, engaging material can feel overwhelming, especially when juggling multiple projects. This is where&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-automated-content-generation-automated-content-generation" href="/use-cases/marketing/automated-content-generation-transforming-small-business-marketing" className="text-[#C83803] hover:underline">automated content generation</Link>&nbsp;comes to the rescue, offering a solution that saves both time and resources.</p>
+                produce fresh, engaging material can feel overwhelming, especially when juggling multiple projects. This is where&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-automated-content-generation-automated-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">automated content generation</Link>&nbsp;comes to the rescue, offering a solution that saves both time and resources.</p>
               <p className="text-md text-white shadow-text pt-3">
                 Automated content generation tools like&nbsp;
                 <Link id="ai-content-creation-workflow-automating-jasper-ai-2"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;can drastically reduce the workload on your team. These platforms

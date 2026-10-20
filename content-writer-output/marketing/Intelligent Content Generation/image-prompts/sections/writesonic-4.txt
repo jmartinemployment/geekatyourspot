@@ -1,0 +1,1 @@
+A flat vector diagram of a technology stack: cloud servers, APIs, and integration nodes, illustrating secure data flow between Writesonic and other business tools.

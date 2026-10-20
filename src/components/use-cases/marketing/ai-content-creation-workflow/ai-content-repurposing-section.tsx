@@ -33,14 +33,14 @@ export default function AIContentRepurposingSection() {
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-jasper-ai-1"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>, businesses can
                 efficiently rewrite blog posts into social media snippets, video scripts, or even email newsletters. Jasper AI&#39;s
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-ai-for-diverse-content-formats">Leveraging AI for Diverse Content Formats</h3>
@@ -125,14 +125,14 @@ export default function AIContentRepurposingSection() {
                 appealing to different audience segments. This not only extends the life of your content but also maximizes its
                 reach and impact. By leveraging tools like&nbsp;
                 <Link id="ai-content-creation-workflow-repurposing-jasper-ai-2"
-                  href="/tools/marketing/jasper-ai" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
                   Jasper AI
                 </Link>, businesses can
                 efficiently rewrite blog posts into social media snippets, video scripts, or even email newsletters. Jasper AI&#39;s
                 capabilities in generating contextually relevant variations enable marketers to maintain the core message while
                 adapting to platform-specific nuances.</p>
               <p className="text-md text-white shadow-text pt-3">
-                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
+                Geek At Your Spot assists organizations in harnessing these tools to streamline their&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-ai-content-repurposing-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">content repurposing</Link>&nbsp;strategies. By doing so, they can focus on delivering consistent messaging across all channels without the burden of
                 starting from scratch. Let&apos;s explore how AI tools can be integrated into your content strategy for optimal
                 repurposing.</p>
               <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">

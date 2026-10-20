@@ -22,7 +22,7 @@ const jsonLd: WithContext<SoftwareApplication> = {
     "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
     "subjectOf": {
         "@type": "Article",
-        "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-repurposing"
+        "@id": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article"
     },
     "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
 };

@@ -1,0 +1,1 @@
+A flat vector control panel interface with toggles, sliders, and branching paths representing automation rules, showing how configuration settings influence outcomes.

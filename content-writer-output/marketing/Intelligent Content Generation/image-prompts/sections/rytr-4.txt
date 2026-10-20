@@ -1,0 +1,1 @@
+A layered diagram depicting Rytr's platform architecture: interconnected modules for AI engine, integrations (APIs, plugins), and secure data handling. Icons represent each component, showing a robust, secure digital infrastructure.

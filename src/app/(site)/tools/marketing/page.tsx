@@ -86,7 +86,7 @@ export default function MarketingToolsPage() {
           itemListElement: tools.map((tool, index) => ({
             "@type": "ListItem",
             position: index + 1,
-            url: `${SITE_URL}/tools/${tool.department}/${tool.slug}`,
+            url: `${SITE_URL}${toolHref(tool)}`,
           })),
         },
       },
@@ -96,7 +96,7 @@ export default function MarketingToolsPage() {
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
         description: tool.description,
-        url: `${SITE_URL}/tools/${tool.department}/${tool.slug}`,
+        url: `${SITE_URL}${toolHref(tool)}`,
       })),
     ],
   };

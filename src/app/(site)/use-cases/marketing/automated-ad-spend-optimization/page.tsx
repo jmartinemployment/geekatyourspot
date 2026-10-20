@@ -46,34 +46,34 @@ const jsonLd: Graph = {
             "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article",
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/advantage#software"
+                    "@id": "#software-advantage"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/omneky#software"
+                    "@id": "#software-omneky"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/smartlyio#software"
+                    "@id": "#software-smartlyio"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/adcreativeai#software"
+                    "@id": "#software-adcreativeai"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
+                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/google-ads-smart-bidding#software"
+                    "@id": "#software-google-ads-smart-bidding"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
+                    "@id": "#software-hubspot"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/salesforce-einstein#software"
+                    "@id": "#software-salesforce-einstein"
                 },
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/madgicx#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/basis-technologies#software"
+                    "@id": "#software-basis-technologies"
                 },
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#software"
@@ -82,7 +82,7 @@ const jsonLd: Graph = {
                     "@id": "https://geekatyourspot.com/tools/marketing/optimove#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics#software"
+                    "@id": "#software-tableau-ai-adobe-analytics"
                 },
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/monte-carlo#software"
@@ -104,11 +104,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Automate ad spend optimization with Advantage's AI, enhancing efficiency and boosting ROI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/advantage"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/advantage#software"
+            "@id": "#software-advantage"
         },
         {
             "@type": "SoftwareApplication",
@@ -116,11 +112,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Omneky uses AI to optimize ad spend, boosting ROI and targeting efficiency for businesses.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/omneky"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/omneky#software"
+            "@id": "#software-omneky"
         },
         {
             "@type": "SoftwareApplication",
@@ -128,11 +120,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Automate ad spend optimization with Smartly.io to enhance ROI and streamline digital campaigns.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/smartlyio"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/smartlyio#software"
+            "@id": "#software-smartlyio"
         },
         {
             "@type": "SoftwareApplication",
@@ -140,11 +128,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Automate ad spend optimization with AdCreative.ai for enhanced marketing efficiency and ROI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/adcreativeai"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/adcreativeai#software"
+            "@id": "#software-adcreativeai"
         },
         {
             "@type": "SoftwareApplication",
@@ -154,9 +138,9 @@ const jsonLd: Graph = {
             "description": "Jasper automates ad spend optimization using AI, reducing waste and boosting ROI.",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai"
+                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
+            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
         },
         {
             "@type": "SoftwareApplication",
@@ -164,11 +148,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Optimize ad spend with AI-driven Google Ads Smart Bidding for better ROI and audience targeting.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/google-ads-smart-bidding"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/google-ads-smart-bidding#software"
+            "@id": "#software-google-ads-smart-bidding"
         },
         {
             "@type": "SoftwareApplication",
@@ -176,11 +156,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Optimize ad spend with HubSpot's CRM and marketing tools for better ROI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/hubspot"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
+            "@id": "#software-hubspot"
         },
         {
             "@type": "SoftwareApplication",
@@ -188,11 +164,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Optimize ad spend with Salesforce Einstein's AI-driven insights for better ROI and efficiency.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/salesforce-einstein"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/salesforce-einstein#software"
+            "@id": "#software-salesforce-einstein"
         },
         {
             "@type": "SoftwareApplication",
@@ -212,11 +184,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Optimize ad spend with AI-driven strategies from Basis Technologies, enhancing ROI and reducing inefficiencies.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/basis-technologies"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/basis-technologies#software"
+            "@id": "#software-basis-technologies"
         },
         {
             "@type": "SoftwareApplication",
@@ -248,11 +216,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Automate ad spend optimization with Tableau AI and Adobe Analytics for better ROI.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/tableau-ai-adobe-analytics#software"
+            "@id": "#software-tableau-ai-adobe-analytics"
         },
         {
             "@type": "SoftwareApplication",

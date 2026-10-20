@@ -76,6 +76,13 @@ export default function MarketingUseCasesPage() {
       href: "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
     },
     {
+      title: "Intelligent Content Generation",
+      slug: "intelligent-content-generation",
+      description:
+        "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.",
+      href: "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    },
+    {
       title: "Intelligent Lead Capture Pipeline",
       slug: "intelligent-lead-capture-pipeline",
       description:
@@ -102,13 +109,6 @@ export default function MarketingUseCasesPage() {
       description:
         "Lead Enrichment and Predictive Scoring for South Florida SMBs: capture better leads, reduce manual work, and close more sales with AI-driven pipelines.",
       href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs",
-    },
-    {
-      title: "AI Content Repurposing",
-      slug: "ai-content-repurposing",
-      description:
-        "Transform your content with AI repurposing tools, saving time and enhancing audience engagement across platforms.",
-      href: "/use-cases/marketing/ai-content-repurposing",
     },
   ];
 

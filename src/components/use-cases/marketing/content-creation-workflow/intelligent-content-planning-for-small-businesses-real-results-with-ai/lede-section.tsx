@@ -44,7 +44,7 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         That is where an AI-powered content planning process delivers a clear edge. Instead of rebuilding the
         wheel each week, you get a workflow that starts with your business objectives, audits your data for
-        quality, and selects the right mix of tools to automate drafting,&nbsp;<Link id="use-cases-marketing-intelligent-content-planning-lede-ai-content-repurposing" href="/use-cases/marketing/ai-content-repurposing" className="text-[#C83803] hover:underline">repurposing</Link>, scheduling, and
+        quality, and selects the right mix of tools to automate drafting,&nbsp;<Link id="use-cases-marketing-intelligent-content-planning-lede-ai-content-repurposing" href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className="text-[#C83803] hover:underline">repurposing</Link>, scheduling, and
         approval. Each step is mapped to what matters for your market, not what a
         generic&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;tries to sell you. The result: your
         team goes from reactive, last-minute publishing to a predictable content engine that hits the right

@@ -1,0 +1,1 @@
+A flat vector architecture diagram displaying interconnected nodes: external platforms and data sources flowing into a central hub labeled as the AI engine, with branching outputs to brand-controlled endpoints. Use abstract icons for integration and flow, professional tech style.

@@ -1,0 +1,1 @@
+Step-by-step vector diagram showing the deployment process: small business devices, cloud setup, API integration, and configuration steps, arranged sequentially to illustrate setup.

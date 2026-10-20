@@ -1,0 +1,1 @@
+Diagram with database icons, branching data trees, and mapping lines connecting source data to structured content modules, visually representing data structuring and mapping.

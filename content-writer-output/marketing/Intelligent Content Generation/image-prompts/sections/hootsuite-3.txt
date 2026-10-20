@@ -1,0 +1,1 @@
+A flat vector flowchart illustrating a multi-step workflow from content ideation to scheduling and publishing, with automation icons at each step showing how tasks are handled automatically.

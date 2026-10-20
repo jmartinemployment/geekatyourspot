@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { MetadataRoute } from "next";
-import { listEntries } from "@/lib/content-writer/content";
+import { listEntries } from "@/lib/content-writer-disabled/content-disabled";
 import { getAllGlossaryTerms } from "@/lib/glossary";
 
 const BASE_URL = "https://geekatyourspot.com";

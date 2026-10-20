@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
-import type { BlockNode, InlineNode } from "@/lib/content-writer/article-sections";
+import type { BlockNode, InlineNode } from "@/lib/content-writer-disabled/article-sections-disabled";
 
 /**
  * Renders the parsed article body. ArticleSectionBlock renders it once per

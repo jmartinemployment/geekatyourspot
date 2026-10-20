@@ -1,0 +1,1 @@
+A flat vector schematic showing data fields and mapping lines connecting different data sources to a central platform, illustrating organized data flow and structure for deployment success.

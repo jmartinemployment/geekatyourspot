@@ -1,0 +1,1 @@
+A layered platform diagram depicting data storage blocks, connected systems, and powered outputs, with lines connecting databases, integrations, and content outputs. Flat vector, tech architecture aesthetic.

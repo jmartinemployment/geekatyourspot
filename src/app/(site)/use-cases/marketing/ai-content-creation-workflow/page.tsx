@@ -46,16 +46,16 @@ const jsonLd: Graph = {
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article",
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
+                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/copyai#software"
+                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy#software"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/chatgpt#software"
+                    "@id": "#software-chatgpt"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/claude#software"
+                    "@id": "#software-claude"
                 },
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#software"
@@ -70,9 +70,9 @@ const jsonLd: Graph = {
             "description": "Enhance your AI content creation workflow with Jasper AI for seamless integration and productivity.",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai"
+                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/jasper-ai#software"
+            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper#software"
         },
         {
             "@type": "SoftwareApplication",
@@ -82,9 +82,9 @@ const jsonLd: Graph = {
             "description": "Boost content creation efficiency with Copy.ai's AI workflow. Integrate seamlessly and enhance productivity.",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/copyai"
+                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/copyai#software"
+            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/copy#software"
         },
         {
             "@type": "SoftwareApplication",
@@ -92,11 +92,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Enhance your content workflow with ChatGPT, ensuring efficient, secure, and on-brand AI-generated content.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/chatgpt"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/chatgpt#software"
+            "@id": "#software-chatgpt"
         },
         {
             "@type": "SoftwareApplication",
@@ -104,11 +100,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Boost your content creation with Claude's AI workflow automation for efficient and creative text generation.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/claude"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/claude#software"
+            "@id": "#software-claude"
         },
         {
             "@type": "SoftwareApplication",
@@ -135,7 +127,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek at Your Spot Llc',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/marketing/AI-content-creation-workflow',
+            canonical: '/use-cases/marketing/ai-content-creation-workflow',
         },
         openGraph: {
             title: "Content Creation Workflow",

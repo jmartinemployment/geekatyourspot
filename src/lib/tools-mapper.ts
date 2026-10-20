@@ -44,7 +44,6 @@ import { hootsuiteContent } from "@/data/tools/hootsuite";
 import { hyperwriteaiContent } from "@/data/tools/hyperwriteai";
 import { invoicedContent } from "@/data/tools/invoiced";
 import { justworksContent } from "@/data/tools/justworks";
-import { jasperAiContent } from "@/data/tools/jasper-ai";
 import { jiravContent } from "@/data/tools/jirav";
 import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
@@ -86,6 +85,17 @@ import { versapayContent } from "@/data/tools/versapay";
 import { vertexContent } from "@/data/tools/vertex";
 import { zampContent } from "@/data/tools/zamp";
 import { zampMultiStateSalesTaxNexusContent } from "@/data/tools/zamp-multi-state-sales-tax-nexus";
+import { anywordContent } from "@/data/tools/anyword";
+import { castmagicContent } from "@/data/tools/castmagic";
+import { copyContent } from "@/data/tools/copy";
+import { fraseContent } from "@/data/tools/frase";
+import { hootsuiteIntelligentContentGenerationContent } from "@/data/tools/hootsuite-intelligent-content-generation";
+import { imagineContent } from "@/data/tools/imagine";
+import { jasperContent } from "@/data/tools/jasper";
+import { koalaContent } from "@/data/tools/koala";
+import { rytrContent } from "@/data/tools/rytr";
+import { scalenutIntelligentContentGenerationContent } from "@/data/tools/scalenut-intelligent-content-generation";
+import { writesonicContent } from "@/data/tools/writesonic";
 
 const toolsMap: Record<string, ToolPageContent> = {
   "active-campaign": activeCampaignContent,
@@ -133,7 +143,6 @@ const toolsMap: Record<string, ToolPageContent> = {
   "hyperwriteai": hyperwriteaiContent,
   "invoiced": invoicedContent,
   "justworks": justworksContent,
-  "jasper-ai": jasperAiContent,
   "jirav": jiravContent,
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
@@ -175,6 +184,17 @@ const toolsMap: Record<string, ToolPageContent> = {
   "voksha": vokshaContent,
   "zamp": zampContent,
   "zamp-multi-state-sales-tax-nexus": zampMultiStateSalesTaxNexusContent,
+  "anyword": anywordContent,
+  "castmagic": castmagicContent,
+  "copy": copyContent,
+  "frase": fraseContent,
+  "hootsuite-intelligent-content-generation": hootsuiteIntelligentContentGenerationContent,
+  "imagine": imagineContent,
+  "jasper": jasperContent,
+  "koala": koalaContent,
+  "rytr": rytrContent,
+  "scalenut-intelligent-content-generation": scalenutIntelligentContentGenerationContent,
+  "writesonic": writesonicContent,
 };
 
 export function getToolContent(slug: string): ToolPageContent | null {

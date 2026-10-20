@@ -1,0 +1,1 @@
+A layered diagram illustrating Jasper’s system architecture: brand guidelines shield, integration nodes connecting to other tools, and secure data pathways, all in a cohesive flat vector style.

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ComparingSection() {
   const body = (
     <>
@@ -11,7 +13,7 @@ export default function ComparingSection() {
         South Florida, where teams do not have the headcount to manage separate tools for planning, writing,
         optimization, and reporting.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Many buyers compare Scalenut with platforms like Surfer SEO, Writesonic, or Frase. These tools are
+        Many buyers compare Scalenut with platforms like Surfer SEO,&nbsp;<Link id="tools-marketing-intelligent-content-planning-scalenut-comparing-writesonic" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#0B162A] hover:underline">Writesonic</Link>, or&nbsp;<Link id="tools-marketing-intelligent-content-planning-scalenut-comparing-frase" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase" className="text-[#0B162A] hover:underline">Frase</Link>. These tools are
         strong at generating content or providing SEO recommendations, but they often require manual
         intervention to stitch together a full workflow. For example, Surfer can help you optimize a blog post
         for certain keywords, but it does not track your brand’s presence across ChatGPT, Gemini, or

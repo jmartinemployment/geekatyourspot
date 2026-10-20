@@ -42,22 +42,22 @@ const jsonLd: Graph = {
             "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation#article",
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/surfer-seo#software"
+                    "@id": "#software-surfer-seo"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/chatgpt#software"
+                    "@id": "#software-chatgpt"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/claude#software"
+                    "@id": "#software-claude"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/frase#software"
+                    "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase#software"
                 },
                 {
                     "@id": "#software-hubspotai"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/keyword-insights#software"
+                    "@id": "#software-keyword-insights"
                 }
             ]
         },
@@ -67,11 +67,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Optimize your SEO blog and article generation with Surfer SEO for improved rankings and content quality.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/surfer-seo"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/surfer-seo#software"
+            "@id": "#software-surfer-seo"
         },
         {
             "@type": "SoftwareApplication",
@@ -79,11 +75,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Automate SEO blog and article generation with ChatGPT, boosting efficiency and search rankings effortlessly.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/chatgpt"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/chatgpt#software"
+            "@id": "#software-chatgpt"
         },
         {
             "@type": "SoftwareApplication",
@@ -91,11 +83,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "AI tool Claude automates SEO blog and article creation, boosting quality and efficiency for small businesses.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/claude"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/claude#software"
+            "@id": "#software-claude"
         },
         {
             "@type": "SoftwareApplication",
@@ -105,9 +93,9 @@ const jsonLd: Graph = {
             "description": "Frase automates SEO blog and article creation, enhancing content quality and search rankings with AI.",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/frase"
+                "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
             },
-            "@id": "https://geekatyourspot.com/tools/marketing/frase#software"
+            "@id": "https://geekatyourspot.com/tools/marketing/content-creation-workflow/intelligent-content-generation/frase#software"
         },
         {
             "@type": "SoftwareApplication",
@@ -123,11 +111,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Automate SEO blog and article creation with Keyword Insights for improved content quality and search rankings.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/keyword-insights"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/keyword-insights#software"
+            "@id": "#software-keyword-insights"
         }
     ]
 };

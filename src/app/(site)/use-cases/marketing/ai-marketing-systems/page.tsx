@@ -45,7 +45,7 @@ const jsonLd: Graph = {
             "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems#article",
             "mentions": [
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
+                    "@id": "#software-hubspot"
                 },
                 {
                     "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
@@ -57,7 +57,7 @@ const jsonLd: Graph = {
                     "@id": "#software-hootsuite"
                 },
                 {
-                    "@id": "https://geekatyourspot.com/tools/marketing/marketo#software"
+                    "@id": "#software-marketo"
                 }
             ]
         },
@@ -67,11 +67,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "HubSpot offers a comprehensive suite of tools designed for inbound marketing, sales, and customer service. It helps small businesses automate various marketing activities, saving time and improving efficiency.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/hubspot"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/hubspot#software"
+            "@id": "#software-hubspot"
         },
         {
             "@type": "SoftwareApplication",
@@ -111,11 +107,7 @@ const jsonLd: Graph = {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "Marketo is a marketing automation platform that helps businesses streamline their marketing efforts, focusing on lead management, email marketing, and customer engagement. It is designed to simplify complex marketing processes, allowing businesses to save time and reduce costs while increasing sales.",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/tools/marketing/marketo"
-            },
-            "@id": "https://geekatyourspot.com/tools/marketing/marketo#software"
+            "@id": "#software-marketo"
         }
     ]
 };

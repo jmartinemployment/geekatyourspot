@@ -103,7 +103,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     publisher: 'Geek at Your Spot Llc',
     metadataBase: new URL('https://geekatyourspot.com'),
     alternates: {
-      canonical: '/cash-flow-forecasting/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
+      canonical: '/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
     },
     openGraph: {
       title: "Cash Flow Forecasting",

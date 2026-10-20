@@ -1,0 +1,1 @@
+A flat vector Venn diagram showing overlapping and non-overlapping user groups, with directional arrows guiding viewers toward next steps.

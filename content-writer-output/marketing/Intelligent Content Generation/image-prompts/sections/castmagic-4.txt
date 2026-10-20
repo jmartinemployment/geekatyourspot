@@ -1,0 +1,1 @@
+Technical flat vector diagram showing a central Castmagic platform icon with branching connections to cloud storage, API integrations, and scalable infrastructure components, visually mapping its architecture.
