@@ -48,7 +48,7 @@ export default function FaqSection() {
               How much does Jasper AI cost?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
-              Jasper lists two plans. The Pro plan is $69 per month or $59 per month if billed annually. It
+              As of October 20, 2026, Jasper lists two plans. The Pro plan is $69 per month or $59 per month if billed annually. It
               includes one seat, core marketing agents, two Brand Voices, five knowledge assets, and three
               audiences. The Business plan has custom pricing and adds advanced workflows, custom agents,
               Jasper Grid, API access, expanded brand context, and governance. The $59 rate is only for annual

@@ -25,12 +25,10 @@ export default function EvaluatingSection() {
         Integration is another key factor. Jasper’s native connections to Google Docs, Microsoft Word,
         Webflow, Surfer SEO, Semrush, Asana, monday.com, and Zapier mean it fits into most small business tech
         stacks without the need for custom development. If your team already relies on these platforms, Jasper
-        can slot in quickly. If you use niche or proprietary systems, or if you need a
-        custom&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>,
-        Jasper’s closed extension model may limit your options.</p>
+        can slot in quickly.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Pricing for Jasper is not published in the partner data, so you will need to review the vendor’s
-        current plans directly. What matters for small teams is the total cost of ownership: not just the
+        As of October 20, 2026, Jasper’s&nbsp;<a id="tools-marketing-content-generation-jasper-evaluating-pricing-source" href="https://www.jasper.ai/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Pro plan at
+        $69 per seat per month, or $59 billed annually, and a Business plan with custom pricing. What matters for small teams is the total cost of ownership: not just the
         monthly fee, but the time saved, the reduction in errors, and the ability to produce more content
         without adding staff. Jasper’s automation is designed to return hours to your week and cut the need
         for outside agencies, those savings often outweigh the subscription, especially for teams producing

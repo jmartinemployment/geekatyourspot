@@ -55,10 +55,7 @@ export default function ConfiguringSection() {
         analyze your current search performance and suggest new content or updates that target visibility
         gaps.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Jasper does not offer a public&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or scripting
-        environment for custom extensions beyond its published integrations and marketplace. All automation
-        and configuration happen within its own platform, using the settings and rules available in its
-        interface. That said, the range of integrations covers most needs for small businesses, and Geek @
+        The range of integrations covers most needs for small businesses, and Geek @
         Your Spot’s experience ensures these are set up to work with your existing stack, not against it.</p>
       <p className="text-md text-white shadow-text pt-3">
         The real advantage is in how these configurations remove manual effort and risk. Once Jasper is set

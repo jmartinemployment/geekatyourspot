@@ -36,7 +36,9 @@ export default function EvaluatingSection() {
         compatibility before you buy. The platform is designed to fit into existing tech stacks, not force a
         rip-and-replace.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Pricing is not published in the research, so you will not find a dollar figure here. What matters is
+        As of October 20, 2026, the Factors&nbsp;<a id="tools-marketing-lead-scoring-factors-evaluating-pricing-source" href="https://www.factors.ai/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Lite plan at $199 per
+        month after a free trial, Basic at $6,000 a year, Growth at $20,000 a year, and Enterprise from $30,000 a
+        year. What matters is
         that Factors is positioned as a cost-effective solution for small and mid-sized teams. It does not
         require a dedicated analytics engineer or a six-figure budget. The onboarding is structured and
         includes a dedicated customer success manager. For small businesses, this means you get support and

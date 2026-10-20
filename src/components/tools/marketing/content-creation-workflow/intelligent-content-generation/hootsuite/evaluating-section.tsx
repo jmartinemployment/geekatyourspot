@@ -23,8 +23,9 @@ export default function EvaluatingSection() {
         compliance needs, the system’s approval logic and audit trail make it a fit where consumer-grade tools
         fall short.</p>
       <p className="text-md text-white shadow-text pt-3">
-        On pricing, Hootsuite does not publish a single flat fee or universal tier in the research provided
-        here. Instead, you judge value by matching your usage to what the platform includes. Hootsuite’s
+        On pricing, Hootsuite’s&nbsp;<a id="tools-marketing-content-generation-hootsuite-evaluating-pricing-source" href="https://www.hootsuite.com/plans" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">plans page</a>&nbsp;said on October 20, 2026 that paid plans
+        start at $99 for Standard and $199 for Professional and range up to $399 for Advanced, with Enterprise
+        priced on request. You judge value by matching your usage to what the platform includes. Hootsuite’s
         pricing is structured around the features you need: number of social profiles, users, and advanced
         capabilities like trend tracking, analytics, and integrations. For a small business, the key is to
         avoid overbuying, choose the level that matches your real publishing volume and collaboration needs.

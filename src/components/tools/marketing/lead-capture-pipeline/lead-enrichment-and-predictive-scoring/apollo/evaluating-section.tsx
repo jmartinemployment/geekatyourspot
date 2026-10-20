@@ -42,8 +42,8 @@ export default function EvaluatingSection() {
         relies on manual data entry or disconnected systems, Apollo’s integrations can cut out double work and
         reduce errors.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Pricing for Apollo is not published in the research here, so you will not see a dollar figure or a
-        tier breakdown. What matters for fit is how Apollo’s model matches your usage. Most small businesses
+        As of October 20, 2026, Apollo offers a free plan, and its&nbsp;<a id="tools-marketing-lead-scoring-apollo-evaluating-pricing-source" href="https://www.apollo.io/pricing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing</a>&nbsp;lists Basic at $49
+        per user per month billed annually and Professional at $79 per user per month. What matters for fit is how Apollo’s model matches your usage. Most small businesses
         see value when the cost of the platform is less than what they spend today on lost time, bad data, and
         missed deals. The platform is used by over 600,000 companies, including small teams, which signals
         that it is accessible to businesses without enterprise budgets. You can sign up for a free trial to

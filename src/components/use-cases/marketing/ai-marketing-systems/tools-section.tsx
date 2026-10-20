@@ -112,9 +112,8 @@ export default function ToolsSection() {
             <h4 id="how-an-ai-implementer-helps-with-mailchimp" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with Mailchimp</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Accelerated deployment is achieved by configuring Mailchimp’s API integrations quickly, reducing time-to-value.
               Data model design ensures proper audience segmentation by mapping customer data to Mailchimp’s fields accurately.
-              Workflow configuration involves setting up automated email sequences and triggers to optimize engagement. While
-              Mailchimp doesn’t support custom code development like some platforms, these configurations help in launching
-              effective, production-ready campaigns swiftly.</p>
+              Workflow configuration involves setting up automated email sequences and triggers to optimize engagement. These
+              configurations help in launching effective, production-ready campaigns swiftly.</p>
           </div>
         </div>
       </div>

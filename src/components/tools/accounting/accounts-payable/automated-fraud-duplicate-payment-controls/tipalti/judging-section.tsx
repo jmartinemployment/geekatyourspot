@@ -19,8 +19,9 @@ export default function JudgingSection() {
         enhance fraud controls by identifying anomalies early. This not only reduces the risk of fraud but also
         minimizes overpayments, safeguarding your financial operations.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Pricing is a critical factor for small businesses. While specific pricing details for Tipalti are not
-        provided in the research, it&#39;s important to weigh the cost against the potential savings from
+        Pricing is a critical factor for small businesses. As of October 20, 2026, Tipalti&#39;s&nbsp;<a id="tools-accounting-fraud-controls-tipalti-judging-pricing-source" href="https://tipalti.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">pricing page</a>&nbsp;lists
+        Accounts Payable starting at $99 per month, plus transaction fees, with custom quotes for larger
+        organizations. It&#39;s important to weigh the cost against the potential savings from
         reduced errors and improved efficiency. Businesses should consider the total cost of ownership, which
         includes setup, integration, and ongoing support. Tipalti&#39;s ability to automate complex processes
         can lead to significant time savings, which is a tangible benefit that can offset initial investment

@@ -16,8 +16,9 @@ export default function EvaluatingSection() {
         errors. However, if your accounting system is not supported, Floatapp may not be the right choice at this
         time.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Floatapp&#39;s pricing model is not detailed in the partner data provided, but it is important to consider
-        the value it brings against its cost. For many businesses, the time saved and the reduction in errors
+        As of October 20, 2026, Floatapp&#39;s&nbsp;<a id="tools-accounting-spreadsheet-data-floatapp-evaluating-pricing-source" href="https://floatapp.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">pricing page</a>&nbsp;lists the Growth plan at $265 per
+        month, or $215 per month billed annually, and the Scale plan at $389 per month, or $315 per month billed
+        annually, with a 14-day free trial. It is important to consider the value it brings against its cost. For many businesses, the time saved and the reduction in errors
         justify the investment. Geek @ Your Spot can help you assess whether Floatapp&#39;s capabilities align with
         your budget and operational goals.</p>
       <p className="text-md text-white shadow-text pt-3">
