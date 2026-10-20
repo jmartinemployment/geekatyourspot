@@ -558,8 +558,8 @@ export function UseCasesSection() {
                             <CardHeader className="bg-[#0B162A] py-2">
                                 <CardTitle>
                                     <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing")}
-                                        href="/use-cases/marketing/ai-marketing-systems">
+                                        id={gtmLinkIdFromHref("/use-cases/marketing", "AI Marketing")}
+                                        href="/use-cases/marketing">
                                         <h3 className="text-white text-3xl hover:text-[#C83803] font-bold shadow-text">
                                             Marketing
                                         </h3>
@@ -1573,8 +1573,8 @@ export function UseCasesSection() {
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
                             <CardContent>
                                 <Link
-                                    id={`${gtmLinkIdFromHref("/use-cases/marketing/ai-marketing-systems", "AI Marketing")}-lg`}
-                                    href="/use-cases/marketing/ai-marketing-systems">
+                                    id={`${gtmLinkIdFromHref("/use-cases/marketing", "AI Marketing")}-lg`}
+                                    href="/use-cases/marketing">
                                     <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
                                         Marketing
                                     </h3>

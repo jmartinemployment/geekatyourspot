@@ -21,7 +21,7 @@ export type MenuDepartment = Readonly<{
 
 export const USE_CASES_MENU: readonly MenuDepartment[] = [
   {
-    href: "/use-cases/marketing/ai-marketing-systems",
+    href: "/use-cases/marketing",
     label: "Marketing",
     categories: [
       {

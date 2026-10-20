@@ -207,13 +207,6 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
       },
       {
-        title: "AI Marketing Systems",
-        slug: "ai-marketing-systems",
-        description:
-          "Elevate your marketing game with AI systems that automate processes and enhance decision-making for better results.",
-        href: "/use-cases/marketing/ai-marketing-systems",
-      },
-      {
         title: "Automated Ad Spend Optimization",
         slug: "automated-ad-spend-optimization",
         description:

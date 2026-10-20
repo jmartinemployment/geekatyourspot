@@ -83,7 +83,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems" href="/use-cases/marketing/ai-marketing-systems" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
+                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems" href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
                 that businesses not only reach their audiences effectively but also maintain a personal touch that fosters long-term
                 relationships.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-driven-segmentation-strategies">Data-Driven Segmentation Strategies</h4>
@@ -166,7 +166,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
               <p className="pt-3 text-md font-normal text-white shadow-text">
-                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems-lg" href="/use-cases/marketing/ai-marketing-systems" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
+                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems-lg" href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
                 that businesses not only reach their audiences effectively but also maintain a personal touch that fosters long-term
                 relationships.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-driven-segmentation-strategies-lg">Data-Driven Segmentation Strategies</h4>

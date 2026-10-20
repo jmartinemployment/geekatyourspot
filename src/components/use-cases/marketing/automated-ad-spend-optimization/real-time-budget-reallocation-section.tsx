@@ -48,7 +48,7 @@ export default function RealTimeBudgetReallocationSection() {
               strategies. By doing so, we help maintain consistency in brand messaging while optimizing for cost-efficiency.</p>
             <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="integration-with-existing-systems">Integration with Existing Systems</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">
-              Integrating real-time budget reallocation tools with existing&nbsp;<Link id="use-cases-marketing-automated-ad-spend-optimization-real-time-budget-reallocation-ai-marketing-systems" href="/use-cases/marketing/ai-marketing-systems" className="text-[#0B162A] hover:underline">marketing systems</Link>&nbsp;is crucial for their effectiveness.
+              Integrating real-time budget reallocation tools with existing&nbsp;<Link id="use-cases-marketing-automated-ad-spend-optimization-real-time-budget-reallocation-ai-marketing-systems" href="/use-cases/marketing" className="text-[#0B162A] hover:underline">marketing systems</Link>&nbsp;is crucial for their effectiveness.
               This integration allows for a unified approach to campaign management, ensuring that all facets of a marketing
               strategy work in harmony.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">

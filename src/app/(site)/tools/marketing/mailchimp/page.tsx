@@ -23,7 +23,7 @@ const jsonLd: WithContext<TechArticle> = {
         "@id": "https://geekatyourspot.com/#software-mailchimp",
         "name": "Mailchimp",
         "url": "https://mailchimp.com/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/ai-marketing-systems#article" }
+        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing#article" }
     }
 };
 
