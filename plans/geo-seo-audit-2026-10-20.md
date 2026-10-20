@@ -372,6 +372,7 @@ This is verified.
   - Fix: keep the Intelligent labels, and put the searcher's term in the `<title>`, description and first paragraph.
 - **M10. Blog titles are long.**
   - 25 of 32 run over 60 characters.
+  - **Partly fixed on 2026-10-20 (`4c15437`).** The SA H7 titles are under 60 with the site name. 11 of the 25 remaining posts still run over 60; none of them was shortened in `df3130d`.
   - Setting `title: { absolute: post.headline }` in `src/app/(site)/blog/[department]/[...slug]/page.tsx:33` fixes 19 of them.
 - **M11. Almost no images.**
   - 422 of 432 pages have no content image.
