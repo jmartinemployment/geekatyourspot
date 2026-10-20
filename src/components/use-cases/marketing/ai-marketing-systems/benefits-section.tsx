@@ -7,7 +7,7 @@ export default function BenefitsSection() {
 
 
   return (
-    <section className="min-h-screen bg-[#8C4E2A] text-white">
+    <section className="min-h-screen bg-[#025E73] text-white">
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-12">
@@ -27,15 +27,15 @@ export default function BenefitsSection() {
               bogged down by routine tasks. Here’s how AI marketing can benefit small businesses in tangible ways.
             </p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
-              <li>Automated <GlossaryLink slug="behavioral-segmentation" className="text-[#0B162A] hover:underline">customer segmentation</GlossaryLink> allows marketers to target specific groups based on behavior and preferences,
+              <li>Automated <GlossaryLink slug="behavioral-segmentation" className="text-[#C83803] hover:underline">customer segmentation</GlossaryLink> allows marketers to target specific groups based on behavior and preferences,
                 resulting in more personalized marketing campaigns that resonate with customers.</li>
-              <li><GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Predictive analytics</GlossaryLink> enable businesses to forecast customer behavior and trends, leading to proactive
+              <li><GlossaryLink slug="analytics" className="text-[#C83803] hover:underline">Predictive analytics</GlossaryLink> enable businesses to forecast customer behavior and trends, leading to proactive
                 decision-making and better allocation of marketing resources.</li>
               <li>Real-time data processing helps in optimizing marketing campaigns on the go, ensuring strategies are responsive
                 to current market dynamics.</li>
-              <li><GlossaryLink slug="chatbot" className="text-[#0B162A] hover:underline">Chatbots</GlossaryLink> and virtual assistants handle customer inquiries around the clock, freeing up staff to focus on complex
+              <li><GlossaryLink slug="chatbot" className="text-[#C83803] hover:underline">Chatbots</GlossaryLink> and virtual assistants handle customer inquiries around the clock, freeing up staff to focus on complex
                 tasks and improving customer satisfaction with instant responses.</li>
-              <li><Link id="use-cases-marketing-ai-marketing-systems-benefits-automated-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#0B162A] hover:underline">Content generation</Link>&nbsp;tools produce tailored content at scale, cutting down the time spent on content creation and
+              <li><Link id="use-cases-marketing-ai-marketing-systems-benefits-automated-content-generation" href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Content generation</Link>&nbsp;tools produce tailored content at scale, cutting down the time spent on content creation and
                 allowing for more consistent brand messaging across channels.</li>
             </ul>
           </div>
@@ -60,7 +60,7 @@ export default function BenefitsSection() {
               example, a hypothetical small retail business might use AI to send personalized promotions to customers based on
               their purchase history, resulting in increased engagement and sales.</p>
             <h4 id="ai-powered-personalization" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">AI-Powered Personalization</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text"><GlossaryLink slug="personalized-marketing" className="text-[#0B162A] hover:underline">Personalization</GlossaryLink> is key to engaging customers, and AI makes it achievable at scale. By analyzing data such as
+            <p className="pt-3 text-md font-normal text-white shadow-text"><GlossaryLink slug="personalized-marketing" className="text-[#C83803] hover:underline">Personalization</GlossaryLink> is key to engaging customers, and AI makes it achievable at scale. By analyzing data such as
               browsing history and purchase patterns, AI systems can suggest products or services that align with individual
               customer interests, enhancing the likelihood of conversion.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">Geek At Your Spot configures AI tools to automate these personalized interactions, ensuring small businesses can
@@ -90,7 +90,7 @@ export default function BenefitsSection() {
               solid insights for their marketing decisions. This reduces the risk of errors and improves overall campaign
               effectiveness.</p>            <h4 id="seamless-integration-with-existing-systems" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">Seamless Integration with Existing Systems</h4>
             <p className="pt-3 text-md font-normal text-white shadow-text">Integrating AI marketing tools with existing business systems can be challenging, but it’s essential for maximizing
-              the benefits. Seamless integration ensures that AI tools work harmoniously with <GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>, email marketing, and e-commerce
+              the benefits. Seamless integration ensures that AI tools work harmoniously with <GlossaryLink slug="crm" className="text-[#C83803] hover:underline">CRM</GlossaryLink>, email marketing, and e-commerce
               platforms.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">Geek At Your Spot assists small businesses in integrating AI solutions into their current infrastructure,
               minimizing disruptions and ensuring smooth operation. This integration facilitates a cohesive marketing strategy

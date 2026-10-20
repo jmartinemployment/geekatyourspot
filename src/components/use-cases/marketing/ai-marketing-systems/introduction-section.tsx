@@ -6,7 +6,7 @@ export default function IntroductionSection() {
 
   return (
     <>
-      <section className="min-h-screen bg-[#025E73] text-white">
+      <section className="min-h-screen bg-[#024059] text-white">
         <div className="container py-4">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-12">

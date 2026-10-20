@@ -5,7 +5,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   return (
     <>
-      <section className="min-h-screen bg-[#024059] text-white py-5">
+      <section className="min-h-screen bg-[#023059] text-white py-5">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center">

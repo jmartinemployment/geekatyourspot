@@ -8,11 +8,11 @@ import {
 
 export default function ToolsSection() {
   return (
-    <section className="min-h-screen bg-[#0B162A] text-white">
+    <section className="min-h-screen bg-[#023059] text-white">
       <div className="container py-5">
         <div className="flex justify-center items-center">
           <div className="col-span-9 ">
-            <h2 id="top-ai-tools-for-marketing-automation" className="text-white pt-3 lg:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text-dark-blue">
+            <h2 id="top-ai-tools-for-marketing-automation" className="text-white pt-3 lg:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Top AI Tools for <GlossaryLink slug="marketing-automation">Marketing Automation</GlossaryLink></h2>
           </div>
           <div className="col-span-3">
@@ -27,8 +27,8 @@ export default function ToolsSection() {
         <div className="grid min-h-screen grid-cols-12 gap-x-4 py-5">
 
           <div className="col-span-6">
-            <h3 id="hubspot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue">HubSpot</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">HubSpot is a comprehensive platform that integrates marketing, sales, and service tools into a single ecosystem. It
+            <h3 id="hubspot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">HubSpot</h3>
+            <p className="pt-3 text-md font-normal text-white shadow-text">HubSpot is a comprehensive platform that integrates marketing, sales, and service tools into a single ecosystem. It
               helps businesses automate and personalize their marketing efforts, saving time and increasing efficiency. This makes
               it especially valuable for small businesses looking to scale their operations without scaling up costs.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -36,16 +36,16 @@ export default function ToolsSection() {
               <li>Utilize advanced analytics to gain insights into customer behavior and refine marketing strategies.</li>
               <li>Integrate seamlessly with <GlossaryLink slug="crm">CRM</GlossaryLink> systems to enhance lead management and customer relationships.</li>
             </ul>
-            <h4 id="how-an-ai-implementer-helps-with-hubspot" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with HubSpot</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">An AI implementer accelerates deployment by setting up HubSpot environments swiftly, ensuring businesses start
+            <h4 id="how-an-ai-implementer-helps-with-hubspot" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">How an AI implementer helps with HubSpot</h4>
+            <p className="pt-3 text-md font-normal text-white shadow-text">An AI implementer accelerates deployment by setting up HubSpot environments swiftly, ensuring businesses start
               seeing benefits sooner. They design the data model to map customer interactions and preferences accurately,
               preventing data silos. Implementers configure workflows by establishing automated approval processes and routing
               rules tailored to specific business needs, enhancing operational efficiency. While HubSpot lacks a built-in custom
               code layer, implementers can leverage its open API to integrate third-party tools, achieving a tailored fit for
               unique business processes. These efforts result in a faster time-to-value, fewer pilot failures, and ready-to-use
               automation that scales with business growth.</p>
-            <h3 id="marketo" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue">Marketo</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Marketo is a powerful platform for automating marketing efforts, helping businesses streamline campaigns and
+            <h3 id="marketo" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Marketo</h3>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Marketo is a powerful platform for automating marketing efforts, helping businesses streamline campaigns and
               improve their reach. It provides tools for managing customer engagement, personalizing content, and tracking
               results. By utilizing Marketo, businesses can efficiently nurture leads and convert them into loyal customers.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -53,8 +53,8 @@ export default function ToolsSection() {
               <li>Advanced analytics to measure campaign performance and ROI.</li>
               <li>Seamless integration with CRM systems for better data management.</li>
             </ul>
-            <h4 id="how-an-ai-implementer-helps-with-marketo" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with Marketo</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Accelerating deployment for Marketo involves setting up predefined templates and workflows that align with industry
+            <h4 id="how-an-ai-implementer-helps-with-marketo" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">How an AI implementer helps with Marketo</h4>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Accelerating deployment for Marketo involves setting up predefined templates and workflows that align with industry
               best practices, reducing the time to go live. Proper data model design is crucial, as it ensures that customer data
               is organized effectively for targeted campaigns and analytics. Configuring workflows and processes in Marketo
               includes setting up&nbsp;<Link id="use-cases-marketing-ai-marketing-systems-tools-ai-driven-lead-scoring" href="/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses" className="text-[#C83803] hover:underline">lead scoring</Link>&nbsp;models, nurturing paths, and triggered actions tailored to specific customer
@@ -62,8 +62,8 @@ export default function ToolsSection() {
               integrations and custom functionality, ensuring the platform meets unique business needs. These focused efforts lead
               to quicker realization of benefits, fewer implementation hiccups, and a smoother path to robust marketing
               automation.</p>
-            <h3 id="salesforce-pardot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue">Salesforce Pardot</h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Salesforce Pardot is a powerful marketing automation platform designed to help businesses efficiently manage their
+            <h3 id="salesforce-pardot" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Salesforce Pardot</h3>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Salesforce Pardot is a powerful marketing automation platform designed to help businesses efficiently manage their
               marketing campaigns. It streamlines <GlossaryLink slug="lead-generation">lead generation</GlossaryLink>, nurturing, and conversion, making it easier for marketing teams
               to focus on strategic initiatives rather than manual tasks.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -71,8 +71,8 @@ export default function ToolsSection() {
               <li>Provides in-depth analytics to measure campaign effectiveness and ROI.</li>
               <li>Integrates seamlessly with Salesforce CRM for unified data management.</li>
             </ul>
-            <h4 id="how-an-ai-implementer-helps-with-salesforce-pardot" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with Salesforce Pardot</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Accelerated deployment of Salesforce Pardot is achieved through tailored implementation plans that align with your
+            <h4 id="how-an-ai-implementer-helps-with-salesforce-pardot" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">How an AI implementer helps with Salesforce Pardot</h4>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Accelerated deployment of Salesforce Pardot is achieved through tailored implementation plans that align with your
               specific business needs, reducing time-to-value. An AI implementer ensures the data model design is optimized for
               lead management and segmentation, allowing for precise targeting and personalized marketing efforts. Workflow and
               process configurations are meticulously set up, including automated approval chains and custom routing rules, to
@@ -82,9 +82,9 @@ export default function ToolsSection() {
 
           </div>
           <div className="col-span-6">
-            <h3 id="activecampaign" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><Link id="use-cases-marketing-ai-marketing-systems-tools-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>
+            <h3 id="activecampaign" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text"><Link id="use-cases-marketing-ai-marketing-systems-tools-active-campaign" href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>
             </h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">ActiveCampaign is a marketing automation tool that helps businesses streamline their customer engagement through
+            <p className="pt-3 text-md font-normal text-white shadow-text">ActiveCampaign is a marketing automation tool that helps businesses streamline their customer engagement through
               personalized email campaigns, targeted messaging, and customer relationship management. It supports small businesses
               by simplifying complex marketing tasks, leading to more effective customer interactions.</p>
             <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
@@ -92,15 +92,15 @@ export default function ToolsSection() {
               <li>Provides <GlossaryLink slug="user-segmentation">customer segmentation</GlossaryLink> tools to tailor messages to specific audience groups.</li>
               <li>Offers CRM integration to manage customer data and interactions seamlessly.</li>
             </ul>
-            <h4 id="how-an-ai-implementer-helps-with-activecampaign" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with ActiveCampaign</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">An AI implementer accelerates deployment by quickly configuring ActiveCampaign&#39;s predefined templates and
+            <h4 id="how-an-ai-implementer-helps-with-activecampaign" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">How an AI implementer helps with ActiveCampaign</h4>
+            <p className="pt-3 text-md font-normal text-white shadow-text">An AI implementer accelerates deployment by quickly configuring ActiveCampaign&#39;s predefined templates and
               workflows, reducing time-to-value. They design data models that efficiently map customer interactions to meaningful
               insights, ensuring fewer failed pilots. Workflow configuration is optimized with precise automation logic and
               routing rules tailored to ActiveCampaign&#39;s capabilities, making production-ready automation a reality. While
               ActiveCampaign does not offer a custom coding layer, skilled implementers leverage its robust API for integrations,
               enhancing overall system functionality.</p>
-            <h3 id="mailchimp" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text-dark-blue"><Link id="use-cases-marketing-ai-marketing-systems-tools-mailchimp" href="/tools/marketing/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link></h3>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Mailchimp is a versatile tool for email marketing automation, especially helpful for small businesses aiming to
+            <h3 id="mailchimp" className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text"><Link id="use-cases-marketing-ai-marketing-systems-tools-mailchimp" href="/tools/marketing/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link></h3>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Mailchimp is a versatile tool for email marketing automation, especially helpful for small businesses aiming to
               streamline their outreach efforts. It allows users to create targeted email campaigns, track customer engagement,
               and analyze performance metrics, all from a single platform. This ease of use saves time and reduces manual effort.
             </p>
@@ -109,8 +109,8 @@ export default function ToolsSection() {
               <li>Advanced segmentation to reach the right audience with the right message.</li>
               <li>Integration with e-commerce platforms for seamless sales promotions.</li>
             </ul>
-            <h4 id="how-an-ai-implementer-helps-with-mailchimp" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text-dark-blue">How an AI implementer helps with Mailchimp</h4>
-            <p className="pt-3 text-md font-normal text-white shadow-text-dark-blue">Accelerated deployment is achieved by configuring Mailchimp’s API integrations quickly, reducing time-to-value.
+            <h4 id="how-an-ai-implementer-helps-with-mailchimp" className="text-white pt-2 lg:text-2xl font-black font-[var(--font-sora)] shadow-text">How an AI implementer helps with Mailchimp</h4>
+            <p className="pt-3 text-md font-normal text-white shadow-text">Accelerated deployment is achieved by configuring Mailchimp’s API integrations quickly, reducing time-to-value.
               Data model design ensures proper audience segmentation by mapping customer data to Mailchimp’s fields accurately.
               Workflow configuration involves setting up automated email sequences and triggers to optimize engagement. These
               configurations help in launching effective, production-ready campaigns swiftly.</p>

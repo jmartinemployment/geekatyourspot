@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function KeyImplementationStrategiesSection() {
   return (
-    <section className="min-h-screen bg-[#8C2703] text-white">
+    <section className="min-h-screen bg-[#8C4E2A] text-white">
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
           <div className="col-span-12">
