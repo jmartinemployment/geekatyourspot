@@ -196,6 +196,7 @@ This is verified, and it is the navbar target for Marketing.
   - Link every figure to its primary source, with an "as of" date.
   - Rewrite the glossary examples as hypothetical ones.
 - **Glossary part fixed on 2026-10-20 (`25926fb`).** The H5 rewrite removed all 35 glossary examples, so none speaks in the first person. The badges, the Gartner line and the missing source links are still open.
+- **Badges decided on 2026-10-20: they stay.** The owner ruled out removing "40% Cost Reduction" and "3x Productivity". Whether each gets a cited source is still open. McKinsey's generative AI report (June 2023) puts the productivity gain in customer care at 30 to 45 percent of current function costs, which can source a 40% figure worded for that function. No McKinsey figure supports "3x".
 
 ### H4. Nobody is behind the business, and no sentence says what it is
 
@@ -223,6 +224,7 @@ This is verified, and it is the navbar target for Marketing.
   - It emits an `AboutPage` node and a `Person` node (`https://geekatyourspot.com/about#jeff-martin`) whose `worksFor` points at `#organization`. The footer's Resources list links it, and the sitemap lists it. The navbar's top row links it too (`09f3a2b`). The navbar builds its links only when the menu opens, so the footer link is the one crawlers see.
   - Still open: the Organization node does not yet name the Person as `founder`, the home page still has no defining sentence, `/contact` still returns 404, there is no email address, and blog authors are still the Editorial Team.
 - **Founder linked on 2026-10-20 (`d6989dc`), still partly open.** The site-wide Organization node now names `founder` as `https://geekatyourspot.com/about#jeff-martin` (SA M5). The home page's defining sentence, `/contact`, an email address and the blog authors are still open.
+- **Blog authors credited on 2026-10-20 (`f961b5e`), still partly open.** At the owner's direction, the 24 exported blog posts and the hand-coded lead scoring post name Jeff Martin as `author`, the `Person` node `https://geekatyourspot.com/about#jeff-martin`. They replace 11 "Editorial Team" `Person` nodes, 13 "Editorial Team" Organization nodes and the Organization on the lead scoring post. The 113 pages that set the meta author "Development Team" now set "Jeff Martin" (L10). The same change is SA M4. The home page's defining sentence, `/contact` and an email address are still open.
 
 ### H5. Made-up people read as real case studies
 
@@ -390,6 +392,11 @@ This is verified.
   - The scheduler sentence on 428 pages says "serving small businesses in Broward and Palm Beach" (`src/components/shared/scheduler/scheduler-shell.tsx:147-148`, verified) and leaves out Miami-Dade.
   - The GBP description says the same, while the schema and about 60 pages include Miami-Dade.
   - Fix: use one service-area sentence everywhere.
+  - **Fixed on the site on 2026-10-20 (`f961b5e`).** At the owner's direction, the service-area wording names Miami-Dade.
+    - The scheduler sentence reads "South Florida technology consultancy serving small businesses in Miami-Dade, Broward, and Palm Beach." on 445 of 447 pages.
+    - 33 more files change in 54 places, counting both breakpoint copies, to the "Miami-Dade, Broward, and (West) Palm Beach" form the other pages already use: the marketing department page's description in its metadata, Open Graph, Twitter and JSON-LD; the ledes of the content creation workflow, ad spend, SEO blog and payroll pillars; 14 tool pages; seven `src/data/tools` entries with the same copy; two blog posts; and two unrendered export copies under `src/components/tools`.
+    - Left as written, because they do not state the service area: examples set in one place (a Broward retailer, a West Palm Beach HVAC team), the contractor moving from Broward to Palm Beach, the payroll persona with two workers who live in Broward, the Writesonic line quoting what agencies in Broward and West Palm Beach charge, and the Terms page's Palm Beach County court venue.
+    - Still open off the site: the GBP description omits Miami-Dade (H7).
 - **M5. The name appears in four forms.**
   - "Geek at Your Spot" in the schema, "Geek @ Your Spot" on the GBP and LinkedIn, "Geek At Your Spot" on Facebook, and "Geek at Your Spot Llc" on 117 tool pages (verified).
   - The comment at `src/app/(site)/page.tsx:9-10` claims the schema matches the GBP, which is not true for the name.
@@ -404,6 +411,8 @@ This is verified.
     - Remove the X entry.
     - Pick one founding year.
   - **Entity details fixed on the site on 2026-10-20 (`d6989dc`).** The Organization node now has `legalName` "Geek @ Your Spot LLC", `alternateName` "Geek @ Your Spot" (the GBP and LinkedIn form) and `hasMap` with the GBP place URL, which is also in `sameAs`. The home page comment that claimed the schema matched the GBP is gone; the node lives in `src/lib/seo/organization.ts`. Still open, as decisions: the X entry in `sameAs` and the founding year.
+  - **Founding year decided on 2026-10-20.** The owner confirmed 2024, which is what `foundingDate` already says. LinkedIn's 2025 is the year the LinkedIn page was created, so neither changes. The X entry is the one decision left. The same decision is SA M5.
+  - **X entry removed on 2026-10-20 (`f961b5e`).** The owner has no X account, so the site no longer claims one. `https://twitter.com/geekatyourspot` is gone from the Organization's `sameAs` (`src/lib/seo/organization.ts`). The home page's `twitter:site` and `twitter:creator` ("@geekatyourspot") are removed, and so is the `twitter:creator` "Geek @ Your Spot LLC" that 116 other page files set. A crawl of all 447 pages finds no `twitter:site`, no `twitter:creator` and no link to an X profile, and `twitter:card` and `twitter:image` still on every page. The same change is SA M5 and L7. What is left of M5 is off the site: the GBP, LinkedIn and Facebook names.
 - **M6. The GTM container is misconfigured.** This is in the GTM interface, not the repo. Verified in the published `GTM-K5CXSQRP`:
   - One Google tag uses the Page URL as its tag ID, which loads an extra copy of gtag (about 89 KB) on content pages.
   - Two Google tags use the Click ID as their tag ID.
@@ -513,6 +522,8 @@ This is verified.
   - 113 pages set the meta author "Development Team".
   - 10 hub pages lack the `googlebot` meta tag.
   - **Rechecked on 2026-10-20.** `og:site_name` is now on all 448 pages (SA M3, `d6989dc`). Still open: `twitter:site` is on the home page only and waits on the X handle decision, 113 pages set the author "Development Team", and 32 of 448 pages have no `googlebot` meta tag.
+  - **Author fixed on 2026-10-20 (`f961b5e`).** The 113 page files that set "Development Team" now set the meta author "Jeff Martin", linked to `/about` (SA M4, H4). Still open: `twitter:site` and the `googlebot` tag.
+  - **`twitter:site` resolved on 2026-10-20 (`f961b5e`).** The owner has no X account, so no page should set `twitter:site`. The home page's `@geekatyourspot` is removed, along with every `twitter:creator` (SA M5, L7). Still open: 32 of 448 pages have no `googlebot` meta tag.
 - **L11. Hub details.**
   - `6sense`, `contentstudio`, `pipedrive` and `zapier` are missing from the `/tools` grid and ItemList.
   - `/use-cases/accounting` is typed Article while its sibling hubs are CollectionPage.
@@ -539,7 +550,7 @@ None of these is mine to make.
 6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`); the rest are unchanged.
 7. **One marketing hub.** Choose between `/use-cases/marketing` and `ai-marketing-systems`. Decided 2026-10-20: AI Marketing Systems moves to `/use-cases/marketing` (M13, `dbd8cd8`).
 8. **The ad spend cluster.** Re-scope it.
-9. **The GBP.** Choose the primary category, the service area and the founding year.
+9. **The GBP.** Choose the primary category, the service area and the founding year. Decided 2026-10-20: the service area is Miami-Dade, Broward and Palm Beach (M4), and the founding year is 2024 (M5). The primary category is still yours to confirm (H7), and the GBP description needs Miami-Dade added by hand.
 10. **Pricing and language.** Whether to publish price ranges, and whether to state bilingual service.
 11. **Bytespider and CCBot.** Whether to block them at launch.
 
