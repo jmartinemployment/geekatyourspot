@@ -17,7 +17,7 @@ export default function DataIntegrationSection() {
         pulling from your point-of-sale, scheduling, HR, and accounting systems—not just a single payroll
         spreadsheet. For a landscaping crew running across Miami-Dade, Broward, and Palm Beach, this could mean
         tracking which county each job happens in, who is driving, who is clocked in, and where the work hours
-        go. Miss a field, and a local surtax or overtime rule gets missed with it.</p>
+        go. Miss a field, and an overtime rule gets missed with it.</p>
       <p className="text-md text-white shadow-text pt-3">
         Most small businesses in South Florida do not have a single source of truth. Timesheets may be scribbled
         on paper, tax IDs are emailed in, job sites are tracked in a manager’s phone, and invoices might be in
@@ -44,9 +44,9 @@ export default function DataIntegrationSection() {
         divisions, but needs every team’s hours and job codes to be in sync.</p>
       <p className="text-md text-white shadow-text pt-3">
         A real-world example: It’s Friday, and the Miami business owner in the opening story finishes payroll,
-        but two crew members worked in two different counties this week—one with a local surtax, one without.
+        but two crew members worked more than 40 hours this week, split across jobs in two counties.
         The hours, job locations, and pay rates are in three separate spreadsheets. If those details aren’t
-        integrated into the payroll system, the wrong taxes get paid, and a letter from the Department of
+        integrated into the payroll system, the overtime is missed, the wrong taxes get paid, and a letter from the Department of
         Revenue is coming. The software can only automate what’s already there.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Centralize worker data: Make sure every team member’s tax ID, employment type, and work location are in one system.</li>

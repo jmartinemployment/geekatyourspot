@@ -13,10 +13,55 @@ export default function MechanicsSection() {
         line.</p>
       <p className="text-md text-white shadow-text pt-3">
         The first phase is business objectives alignment. Here, the team sits down to map out your sales
-        footprint, growth plans, and the hard limits you can&#39;t cross, whether that&#39;s a $100,000 revenue
-        threshold in Texas or 200 transactions in New York. The goal is clear: eliminate gray areas. If your
+        footprint, growth plans, and the hard limits you can&#39;t cross, such as more than $500,000
+        in Texas revenue, or more than $500,000 and more than 100 sales in New York. The goal is clear: eliminate gray areas. If your
         Friday afternoon looks like the one described in the opening, an owner staring at a spreadsheet, unsure
         if they owe New York or not, the process hasn&#39;t been mapped tightly enough.</p>
+      <p className="text-md text-white shadow-text pt-3">
+        The table below gives the economic nexus thresholds for Florida, Texas, New York and California, as
+        each state&#39;s tax agency published them when we checked on October 20, 2026. States change these
+        rules, so confirm the current figure with the agency before you rely on it.</p>
+      <table className="w-full text-left text-md text-white shadow-text mt-3 border-collapse">
+        <thead>
+          <tr className="border-b border-white/60">
+            <th scope="col" className="py-2 pr-4 align-top font-bold">State</th>
+            <th scope="col" className="py-2 align-top font-bold">Threshold</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-white/30">
+            <th scope="row" className="py-2 pr-4 align-top font-bold">Florida</th>
+            <td className="py-2 align-top">
+              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-florida" href="https://floridarevenue.com/taxes/tips/Documents/TIP_21A01-03.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Florida
+              Department of Revenue</a>&nbsp;requires a remote seller to collect Florida sales tax once its
+              taxable remote sales into Florida passed $100,000 in the previous calendar year.</td>
+          </tr>
+          <tr className="border-b border-white/30">
+            <th scope="row" className="py-2 pr-4 align-top font-bold">Texas</th>
+            <td className="py-2 align-top">
+              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-texas" href="https://comptroller.texas.gov/taxes/sales/remote-sellers.php" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Texas
+              Comptroller</a>&nbsp;requires a remote seller to get a permit and collect Texas use tax once its
+              total Texas revenue passes $500,000 in the preceding 12 calendar months. Texas has no transaction
+              count.</td>
+          </tr>
+          <tr className="border-b border-white/30">
+            <th scope="row" className="py-2 pr-4 align-top font-bold">New York</th>
+            <td className="py-2 align-top">
+              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-new-york" href="https://www.tax.ny.gov/pubs_and_bulls/publications/sales/nexus.htm" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">New York
+              Department of Taxation and Finance</a>&nbsp;requires a seller to register once it made more than
+              $500,000 in sales of tangible goods delivered into New York and more than 100 of those sales in the
+              immediately preceding four sales tax quarters. Both conditions must be met.</td>
+          </tr>
+          <tr>
+            <th scope="row" className="py-2 pr-4 align-top font-bold">California</th>
+            <td className="py-2 align-top">
+              The&nbsp;<a id="use-cases-accounting-multi-state-sales-tax-nexus-mechanics-source-california" href="https://cdtfa.ca.gov/industry/wayfair/general-information.htm" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">California
+              Department of Tax and Fee Administration</a>&nbsp;requires a retailer to register and collect
+              California use tax once its sales of tangible goods for delivery into California pass $500,000 in
+              the preceding or current calendar year. California has no transaction count.</td>
+          </tr>
+        </tbody>
+      </table>
       <p className="text-md text-white shadow-text pt-3">
         Next comes&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>&nbsp;assessment. Compliance is only as accurate as the data you feed in. At this

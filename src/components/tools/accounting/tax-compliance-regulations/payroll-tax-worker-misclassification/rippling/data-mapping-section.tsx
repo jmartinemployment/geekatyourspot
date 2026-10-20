@@ -26,8 +26,8 @@ export default function DataMappingSection() {
       <p className="text-md text-white shadow-text pt-3">
         A key part of this mapping is linking worker records to the right tax accounts and compliance rules.
         Rippling handles federal, state, and local payroll taxes automatically—but only if each worker’s data is
-        mapped to the right jurisdiction and reporting entity. For a business with staff in multiple counties or
-        states, Geek @ Your Spot ensures that every worker’s location, tax status, and pay type are set up to
+        mapped to the right jurisdiction and reporting entity. For a business with staff in more than one
+        state, Geek @ Your Spot ensures that every worker’s location, tax status, and pay type are set up to
         trigger the correct withholding, filing, and reporting. This is what lets Rippling automate tax account
         registration, file the right forms (W-2, 1099-NEC, ACA), and keep your business in the clear even as
         workers move or your footprint grows.</p>

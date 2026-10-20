@@ -23,10 +23,10 @@ export default function ConfiguringSection() {
         Once your roster is set, Justworks walks you through configuring payroll schedules, pay rates, and tax
         jurisdictions. You choose pay periods (weekly, bi-weekly, monthly), assign pay rates (hourly, salary,
         commission, or tips), and map each worker to their work location. For South Florida businesses with
-        staff crossing county or state lines, this step is critical: Justworks requires you to specify the
+        staff crossing state lines, this step is critical: Justworks requires you to specify the
         physical work location for each pay period, so the correct local, state, and federal tax rules apply.
-        The system then automatically calculates all required withholdings—federal income tax, Social Security,
-        Medicare, and any local surcharges—based on the latest published rates. There is no need to manually
+        The system then automatically calculates all required withholdings, such as federal income tax, Social
+        Security, and Medicare, based on the latest published rates. There is no need to manually
         update tax tables; Justworks handles this in the background and pushes compliance alerts when laws
         change.</p>
       <p className="text-md text-white shadow-text pt-3">

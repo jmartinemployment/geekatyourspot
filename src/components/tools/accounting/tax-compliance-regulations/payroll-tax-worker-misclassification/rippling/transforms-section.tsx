@@ -28,7 +28,7 @@ export default function TransformsSection() {
         new tax accounts or remember filing deadlines—Rippling tracks every requirement, updates accounts when a
         worker moves, and files the right forms at the right time. Year-end W-2s and 1099s are generated,
         distributed, and stored in your account. This means no more scrambling at tax time or missing a deadline
-        because someone moved across county lines.</p>
+        because someone moved across state lines.</p>
       <p className="text-md text-white shadow-text pt-3">
         Rippling’s Compliance 360 Management module monitors your business in real time—not just at year-end or
         during an audit. The system continuously checks for risks: overtime violations, minimum wage issues, or

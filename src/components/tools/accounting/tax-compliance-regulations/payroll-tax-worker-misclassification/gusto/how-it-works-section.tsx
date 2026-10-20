@@ -15,17 +15,17 @@ export default function HowItWorksSection() {
         W-9 data. This upfront separation means the system never mixes up how taxes are handled for each group.</p>
       <p className="text-md text-white shadow-text pt-3">
         Each pay cycle, Gusto calculates wages, taxes, and deductions for every employee, drawing on the latest
-        federal, state, and local tax rates. The platform updates these rates automatically—so when the Social
-        Security wage base or Florida’s local surtax rules change, you don’t have to lift a finger. For
+        federal, state, and local tax rates. The platform updates these rates automatically, so when the Social
+        Security wage base or Florida’s reemployment tax rate changes, you don’t have to lift a finger. For
         contractors, Gusto issues payments without withholding taxes, as required by law. The system tracks
         contractor payments year-round, flagging when you cross the $600 threshold for 1099-NEC reporting (and,
         starting in 2026, the $2,000 threshold).</p>
       <p className="text-md text-white shadow-text pt-3">
         Gusto handles all payroll tax filings in the background. Every time you run payroll, the system
         calculates, files, and remits federal, state, and local payroll taxes to the right agencies. This
-        includes Social Security, Medicare, FUTA, and SUI, plus any local taxes owed in Miami-Dade, Broward, or
-        Palm Beach. You don’t need to remember deposit schedules or filing deadlines—Gusto does it for you, and
-        covers multi-state filings at no extra cost if your team crosses county or state lines.</p>
+        includes Social Security, Medicare, FUTA, and SUI, which Florida calls reemployment tax. Florida has no
+        local payroll tax, so Miami-Dade, Broward, and Palm Beach add nothing to that list. You don’t need to remember deposit schedules or filing deadlines—Gusto does it for you, and
+        covers multi-state filings at no extra cost if your team crosses state lines.</p>
       <p className="text-md text-white shadow-text pt-3">
         At year-end, Gusto generates and files W-2s for employees and 1099s for contractors. The platform checks
         for missing or incorrect identification numbers before you complete a pay run, so you avoid the IRS’s

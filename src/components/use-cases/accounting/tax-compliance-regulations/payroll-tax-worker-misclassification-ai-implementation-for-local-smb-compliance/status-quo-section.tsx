@@ -12,7 +12,7 @@ export default function StatusQuoSection() {
         Delays are not just about time—they create real financial risk. When payroll tax deposits are missed or
         filed late, the IRS does not negotiate. The penalty schedule is automatic and steep: even a few days
         late, and the fines quickly outstrip the cost of doing it right the first time. Missed state
-        registrations, wrong county codes, or forgotten local surcharges result in fines that are not forgiven
+        registrations or late reemployment tax reports result in fines that are not forgiven
         because a business is small or busy. The risk is absorbed by the owner, who is often personally liable
         for payroll errors, not just the company.</p>
       <p className="text-md text-white shadow-text pt-3">

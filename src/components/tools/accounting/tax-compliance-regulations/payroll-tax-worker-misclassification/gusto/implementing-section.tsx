@@ -19,9 +19,9 @@ export default function ImplementingSection() {
         From there, Gusto’s setup flow guides you through a checklist that is tailored to your business size and
         state. For a 15-person HVAC company, this means you do not have to wade through features built for
         500-employee operations. The system asks for only what is needed: business tax IDs, a list of employees
-        and contractors, their work locations (critical for multi-county payroll taxes), and their payment
-        details. The platform’s templates for Florida payroll laws—minimum wage, overtime, local surtaxes—are
-        already built in, so you are not left searching for the latest state forms or tax rates.</p>
+        and contractors, their work locations (critical when someone works in another state), and their
+        payment details. The platform’s templates for Florida payroll laws, such as minimum wage, overtime, and
+        reemployment tax, are already built in, so you are not left searching for the latest state forms or tax rates.</p>
       <p className="text-md text-white shadow-text pt-3">
         The order of operations matters. Gusto’s onboarding starts with worker classification. Before you run a
         single payroll, you must tag each person as a W-2 employee or a 1099 contractor. The platform blocks you
@@ -45,7 +45,7 @@ export default function ImplementingSection() {
         Geek @ Your Spot’s role is to close the last mile: mapping your existing data, reviewing the
         classification and tax setup, and training your team on what to expect in the first payroll cycle. For
         teams used to patchwork systems, the biggest gain is the removal of the “unknowns”—no more guessing if a
-        new hire has been reported to the state, or if the local surtax rate has changed. The platform’s
+        new hire has been reported to the state, or if the reemployment tax rate has changed. The platform’s
         compliance guardrails and automation mean you spend less time in the weeds and more time running your
         business.</p>
       <p className="text-md text-white shadow-text pt-3">

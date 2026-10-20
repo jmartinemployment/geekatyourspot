@@ -17,8 +17,8 @@ export default function ArchitectureSection() {
       <p className="text-md text-white shadow-text pt-3">
         Gusto’s automation engine runs every payroll calculation, tax filing, and compliance check. The platform
         updates tax tables, wage bases, and local rules automatically, so your business stays current with no
-        manual intervention. If a new tax law takes effect—like an increase in the Social Security wage base or
-        a change to Miami-Dade surtaxes—Gusto applies the update in the background. Every pay run uses the
+        manual intervention. If a new tax law takes effect, like an increase in the Social Security wage base or
+        a new Florida reemployment tax rate, Gusto applies the update in the background. Every pay run uses the
         latest rates and rules, and every filing is matched to the correct agency, whether local, state, or
         federal.</p>
       <p className="text-md text-white shadow-text pt-3">

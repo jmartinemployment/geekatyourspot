@@ -27,7 +27,8 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         Manual registration errors are another sinkhole. Businesses often wait too long to register with a new
         state’s Department of Revenue, or worse, start collecting tax before they have the paperwork in place.
-        This is tax fraud, whether intended or not. The registration process itself is inconsistent state to
+        Either mistake can bring penalties, because a state expects a seller to hold a permit before it collects
+        tax there. The registration process itself is inconsistent state to
         state, and any misstep can delay compliance, leading to uncollected liabilities that snowball fast.</p>
       <p className="text-md text-white shadow-text pt-3">
         Even if registration is handled, deadlines become the next tripwire. Each state sets its own filing

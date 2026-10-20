@@ -25,7 +25,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         Manual processes make it easy to miss deadlines. Payroll tax deposits must hit federal and state
         accounts on time, every time. A single late deposit can mean an immediate penalty. Multi-state reporting
-        adds another layer: if a worker lives in one county but works in another, or travels for jobs, the
+        adds another layer: if a worker lives in one state but works in another, or travels for jobs, the
         business must track and file the right taxes in each place. Few small teams have the bandwidth to keep
         up with these details. The result is missed filings, late forms, and a growing risk of audit.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -39,8 +39,8 @@ export default function ChallengesSection() {
         Outdated contract templates and generic onboarding kits do not hold up in an audit. Many owners rely on
         free forms or copied agreements, assuming that a signed contract is enough. But classification is based
         on what the worker actually does, not what the paperwork says. Without a system that checks and
-        documents each worker’s true status, the business is exposed. And in a region where labor laws and tax
-        rules change by county, a one-size-fits-all approach is a liability.</p>
+        documents each worker’s true status, the business is exposed. And for a business whose workers cross
+        state lines, a one-size-fits-all approach is a liability.</p>
       <p className="text-md text-white shadow-text pt-3">
         The cost is not just in money. Every hour spent chasing down paperwork, re-entering data, or responding
         to a government notice is an hour lost to running the business. The uncertainty—never knowing if the

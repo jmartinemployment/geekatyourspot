@@ -27,7 +27,7 @@ export default function SequenceSection() {
         longer this phase takes, and the more it exposes about why payroll errors happened in the first place.</p>
       <p className="text-md text-white shadow-text pt-3">
         Once the data is clean, the tech selection and architecture phase begins. Here’s where you decide which
-        tool does what. If your business needs to automate state and local payroll tax filings for Miami,
+        tool does what. If your business needs to automate payroll tax filings for teams in Miami-Dade,
         Broward, and Palm Beach, Gusto’s automatic tax calculation and filing feature is a fit. If you need to
         manage a mixed workforce—some full-time, some freelance, some paid by the job—Rippling and Deel can
         automate classification checks, contract generation, and real-time compliance alerts. ADP is often
@@ -39,7 +39,7 @@ export default function SequenceSection() {
         Pilot implementation comes last, not first. You launch in a sandbox, usually with one division or crew,
         running parallel to the old process for at least one pay cycle. This is where you see if the system
         flags a misclassified worker before payroll is run (as Rippling’s Compliance 360 does), or if the tool
-        can handle Miami-Dade surtax rules without manual overrides. If the system fails to stop an error, you
+        can withhold correctly for a worker who moves to another state without manual overrides. If the system fails to stop an error, you
         fix the workflow before rolling out to the rest of the business. Only when the process survives a real
         pay cycle do you turn on full automation. For some owners, this is the first time payroll runs without a
         spreadsheet check at midnight.</p>

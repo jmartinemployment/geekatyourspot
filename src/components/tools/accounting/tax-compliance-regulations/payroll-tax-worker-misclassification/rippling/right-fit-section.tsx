@@ -38,8 +38,8 @@ export default function RightFitSection() {
         who wants to stop worrying about whether a Friday afternoon invoice from a contractor is going to
         trigger a tax problem, or whether a new hire’s paperwork is going to be enough if the state comes
         calling. It is for the office manager who is tired of chasing signatures, tracking down missing forms,
-        or spending nights researching which county tax rule applies to a worker who split their hours between
-        Miami-Dade and Broward.</p>
+        or spending nights researching which state’s tax rules apply to a worker who split their hours between
+        Florida and Georgia.</p>
       <p className="text-md text-white shadow-text pt-3">
         For teams that want to automate not just payroll, but the compliance decisions that surround it,
         Rippling is a strong fit. It is designed to grow with you, handling the shift from a handful of local

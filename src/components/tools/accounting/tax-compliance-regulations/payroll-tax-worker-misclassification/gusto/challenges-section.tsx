@@ -12,7 +12,7 @@ export default function ChallengesSection() {
         Manual payroll means every pay cycle is a fresh opportunity for error. The IRS and Florida’s Department
         of Revenue each have their own filing rules, deposit schedules, and forms. Miss a quarterly deposit or
         file a W-2 late and the penalties start at 2% and climb to 10% or more, plus interest. The owner who
-        skips a local tax registration or misses a new employee state report can face hundreds or thousands in
+        skips a state tax registration or misses a new employee state report can face hundreds or thousands in
         fines—often with no warning before the bill arrives. Even a single late payroll tax deposit can erase
         the profit from several jobs, and once the IRS sends a notice, there’s no negotiating the penalty away.</p>
       <p className="text-md text-white shadow-text pt-3">
@@ -29,8 +29,8 @@ export default function ChallengesSection() {
         keep up with these changes. If the business misses an update—say, the 2026 wage base increase—it could
         mean under-withholding for months, only to discover the error at year-end. The result: amendments,
         interest, and a scramble to fix dozens of paychecks retroactively. For businesses with workers who cross
-        county or state lines, the complexity multiplies. Each jurisdiction has its own rules, and a single
-        error in multi-state or multi-county reporting can lead to compounding mistakes and audit exposure.</p>
+        state lines, the complexity multiplies. Each state has its own rules, and a single
+        error in multi-state reporting can lead to compounding mistakes and audit exposure.</p>
       <p className="text-md text-white shadow-text pt-3">
         Manual processes also mean chasing down paperwork. At tax time, the owner needs to generate W-2s for
         employees and 1099s for contractors. If any identification number is missing or incorrect, the e-filing

@@ -21,7 +21,7 @@ export default function ConfiguringSection() {
         <li>Worker type assignment: You select W-2 or 1099 for each person. Gusto’s workflows ensure you can’t pay a contractor as an employee or vice versa by mistake.</li>
         <li>Automated tax calculations: Gusto pulls the latest federal, state, and local tax tables. It calculates Social Security, Medicare, and unemployment taxes for employees, and flags when a contractor crosses the annual 1099-NEC filing threshold.</li>
         <li>Form generation and filing: Gusto issues and files W-2s and 1099s electronically, sending copies to workers and the IRS. It handles the full filing process for both types, including state-level reporting where required.</li>
-        <li>Multi-state logic: For businesses with workers who cross county or state lines, Gusto tracks each work location and applies the correct tax rates and local surcharges automatically.</li>
+        <li>Multi-state logic: For businesses with workers who cross state lines, Gusto tracks each work location and applies the correct state tax rates automatically.</li>
         <li>Error checks: Before each payroll run, Gusto checks for missing tax IDs, incomplete forms, and out-of-date worker information. It flags these issues so you can fix them before they turn into penalties.</li>
         <li>Automated updates: When tax laws change—like new wage bases or IRS thresholds—Gusto updates its calculations without you having to do anything.</li>
       </ul>
@@ -47,8 +47,9 @@ export default function ConfiguringSection() {
         ensure your QuickBooks or Xero setup is mapped to Gusto’s payroll categories, so your accountant gets
         clean, ready-to-file data with every pay run.</p>
       <p className="text-md text-white shadow-text pt-3">
-        If you try to DIY, the biggest risk is missing a configuration detail—like forgetting to assign a county
-        surtax, or setting a contractor’s pay schedule to match employees—because the platform will automate
+        If you try to DIY, the biggest risk is missing a configuration detail, like entering the wrong Florida
+        reemployment tax rate or setting a contractor’s pay schedule to match employees, because the platform
+        will automate
         whatever you tell it to, right or wrong. Geek @ Your Spot’s implementation closes those gaps by walking
         through every edge case: out-of-state workers, job code mapping, tip credits for restaurants, and
         multi-location reporting. They know where South Florida payrolls get tripped up and set Gusto to catch

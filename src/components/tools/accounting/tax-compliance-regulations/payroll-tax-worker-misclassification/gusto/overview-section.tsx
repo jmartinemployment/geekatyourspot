@@ -13,7 +13,7 @@ export default function OverviewSection() {
       <p className="text-md text-white shadow-text pt-3">
         <Link id="tools-accounting-payroll-tax-worker-misclassification-gusto-overview-payroll-tax-worker-misclassification" href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-smb-compliance" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;is the single greatest administrative threat facing small
         businesses in South Florida’s fast-moving, gig-driven service markets. Without a full HR or legal team,
-        most owners try to keep up with shifting IRS rules, local surtaxes, and the difference between W-2
+        most owners try to keep up with shifting IRS rules, Florida reemployment tax, and the difference between W-2
         employees and 1099 contractors on their own. The reality: the rules are strict, penalties stack up fast,
         and over ten percent of employers in the region misclassify their workers each year. Even a signed
         contract or a past year with no issues does not protect against audits if the classification or filings

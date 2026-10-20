@@ -23,8 +23,8 @@ export default function ArchitectureSection() {
         <li>Audit logs for every compliance alert, admin action, and workflow change</li>
       </ul>
       <p className="text-md text-white shadow-text pt-3">
-        This architecture lets Rippling enforce real-time compliance. For example, if a worker changes their
-        address from Broward to Palm Beach County, the platform updates tax withholdings, files new
+        This architecture lets Rippling enforce real-time compliance. For example, if a worker moves
+        from Broward to Georgia, the platform updates tax withholdings, files new
         registrations, and stores the documentation in the worker’s record. If a contractor is reclassified as
         an employee, the system updates their profile, generates a new contract, and syncs the change with
         payroll, benefits, and IT access—all without manual intervention.</p>

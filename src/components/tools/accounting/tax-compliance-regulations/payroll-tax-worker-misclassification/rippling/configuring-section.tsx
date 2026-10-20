@@ -25,7 +25,8 @@ export default function ConfiguringSection() {
         Payroll tax automation in Rippling is configured to handle the full range of federal, state, and local
         requirements. For a business with workers in Miami-Dade, Broward, and Palm Beach, that means setting up
         the system to automatically register for, calculate, and file the right taxes for each location.
-        Rippling’s automation covers FICA, FUTA, state unemployment, and even local surtaxes, removing the
+        Rippling’s automation covers FICA, FUTA, and state unemployment, which Florida calls reemployment tax,
+        removing the
         guesswork and manual spreadsheet tracking that so often leads to missed filings or penalties. When an
         employee moves or a new contractor is onboarded, Rippling updates tax accounts and withholdings
         automatically—no manual intervention, no risk of the wrong rate being applied. This is a major step up
@@ -66,7 +67,7 @@ export default function ConfiguringSection() {
       <p className="text-md text-white shadow-text pt-3">
         In practice, this means a Friday afternoon in the Miami construction firm from the opening: a new worker
         is onboarded, and within minutes, Rippling’s classification quiz determines status, generates a
-        contract, and sets the right payroll tax rules. When the project shifts to a new county, tax accounts
+        contract, and sets the right payroll tax rules. When the project shifts to a new state, tax accounts
         and compliance checks update automatically. If a contractor’s invoice comes in late, the approval and
         payment process is triggered with a click—no one has to chase paperwork or check compliance by hand.
         Rippling’s automation, when configured by Geek @ Your Spot, is not just a timesaver but a shield against

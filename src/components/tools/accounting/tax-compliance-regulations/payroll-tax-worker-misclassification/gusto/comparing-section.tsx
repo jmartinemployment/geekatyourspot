@@ -18,9 +18,9 @@ export default function ComparingSection() {
         The core difference lies in how Gusto automates the most error-prone steps. Many platforms offer payroll
         calculation, but Gusto goes further by automatically calculating, filing, and paying all local, state,
         and federal payroll taxes every time you run payroll. This includes multi-state filings at no extra
-        cost, a critical point for South Florida businesses with workers crossing county or state lines.
+        cost, a critical point for South Florida businesses with workers crossing state lines.
         Competing platforms may charge extra for each state or local filing, or require manual intervention to
-        handle local surtaxes and special tax rates. Gusto&#39;s automation removes that manual step, reducing
+        handle special tax rates. Gusto&#39;s automation removes that manual step, reducing
         the risk of late filings and the steep IRS penalties that come with them.</p>
       <p className="text-md text-white shadow-text pt-3">
         Worker classification is another area where platforms diverge. While all major payroll tools provide

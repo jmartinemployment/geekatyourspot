@@ -16,10 +16,10 @@ export default function DataMappingSection() {
         Gusto’s setup forces you to review each worker’s role, schedule, and payment type, and blocks you from
         running payroll if the classification does not fit IRS and state rules.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Next is location data. In South Florida, workers often cross county lines or report from different
-        locations week to week. Gusto’s tax engine uses home and work addresses to assign the right local,
-        state, and federal tax rates. If you map a worker to the wrong location, you risk under-withholding or
-        missing a local surtax, which can trigger penalties that far outweigh the cost of the software. The
+        Next is location data. In South Florida, workers often report from different locations week to week,
+        and some work remotely from other states. Gusto’s tax engine uses home and work addresses to assign the
+        right state and federal tax rates. If you map a worker to the wrong state, you risk under-withholding or
+        missing a state registration, which can trigger penalties that far outweigh the cost of the software. The
         platform’s mapping interface prompts for both home and work addresses and validates them against the
         latest tax tables, so you do not have to guess which rate applies.</p>
       <p className="text-md text-white shadow-text pt-3">

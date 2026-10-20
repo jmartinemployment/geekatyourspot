@@ -22,7 +22,7 @@ export default function KeyFactorsSection() {
         Second, proactive alerting is what keeps you from waking up to a crisis. The best systems, like those
         from TaxJar and Quaderno, issue real-time alerts as you approach a state’s threshold, well before you
         cross it. If it takes a Friday night spreadsheet review to realize you’ve tripped New York’s
-        200-transaction line, the system failed you. Real implementations use dashboards and live notifications,
+        line of $500,000 and 100 sales, the system failed you. Real implementations use dashboards and live notifications,
         not static reports, so you always know where you stand. When a new sales channel goes live, or a holiday
         sale spikes your volume, you see the impact immediately.</p>
       <p className="text-md text-white shadow-text pt-3">

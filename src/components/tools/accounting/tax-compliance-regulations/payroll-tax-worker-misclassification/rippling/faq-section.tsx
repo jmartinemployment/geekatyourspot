@@ -150,12 +150,13 @@ export default function FaqSection() {
               mistakes, so you are better prepared in case of an audit.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-              Does Rippling automatically handle Florida-specific local payroll taxes, or do I have to configure them manually?
+              Does Rippling automatically handle Florida payroll taxes, or do I have to configure them manually?
             </h3>
             <p className="text-md text-white shadow-text pt-3">
               Rippling automatically calculates, files, and pays federal, state, and local payroll taxes for
-              every pay run, including all Florida-specific local taxes. You do not need to configure these
-              taxes manually—Rippling registers and maintains your state and local tax accounts and applies the
+              every pay run. For a Florida business that means federal taxes and Florida reemployment tax,
+              because Florida has no state income tax and no local payroll tax. You do not need to configure
+              these taxes manually. Rippling registers and maintains your state tax accounts and applies the
               correct rules for your business location and employees.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

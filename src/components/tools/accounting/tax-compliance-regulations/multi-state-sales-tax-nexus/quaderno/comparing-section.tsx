@@ -15,8 +15,8 @@ export default function ComparingSection() {
         Manual tracking, still the default for many teams, relies on a patchwork of spreadsheets, ad hoc
         calendar reminders, and late-night research into state tax rules. This approach works only until the
         first threshold is crossed in an unfamiliar state. Spreadsheets do not update when Texas changes digital
-        product taxability, nor do they warn you when a surge in sales tips you over the $100,000 or
-        200-transaction line in New York. The cost is hidden at first: missed deadlines, uncollected tax, and
+        product taxability, nor do they warn you when a surge in sales tips you over New York’s line of
+        $500,000 and 100 sales. The cost is hidden at first: missed deadlines, uncollected tax, and
         the risk of a penalty landing months after the fact. Teams spend hours each week checking numbers that
         could be flagged automatically.</p>
       <p className="text-md text-white shadow-text pt-3">

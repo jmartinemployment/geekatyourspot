@@ -16,9 +16,9 @@ export default function TransformsSection() {
         Gusto automates every tax calculation, filing, and payment—federal, state, and local. Every time you run
         payroll, the platform pulls the latest tax tables and wage bases, so you never have to worry about
         missing an update or applying last year’s rates. When the Social Security wage base increases, Gusto
-        uses the new threshold automatically. If your business operates across counties or states, Gusto tracks
-        the right withholding and reporting rules for each worker’s location. There’s no need to look up local
-        surtaxes or juggle multi-state filings; Gusto handles it behind the scenes, every pay cycle.</p>
+        uses the new threshold automatically. If your business operates across states, Gusto tracks
+        the right withholding and reporting rules for each worker’s location. There’s no need to look up state
+        rates or juggle multi-state filings; Gusto handles it behind the scenes, every pay cycle.</p>
       <blockquote cite="https://gusto.com/product/payroll/features" className="mt-3 border-l-4 border-white/60 pl-4 italic text-md text-white shadow-text">
         All local, state, and federal payroll taxes are calculated, filed, and paid automatically.</blockquote>
       <p className="text-md text-white shadow-text pt-3">

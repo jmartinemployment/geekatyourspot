@@ -15,7 +15,7 @@ export default function EvaluatingSection() {
         Gusto’s fit for your business is strongest when:</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>You need to pay both W-2 employees and 1099 contractors, sometimes on different schedules, and want to keep their tax treatment and filings separate and correct.</li>
-        <li>Your workers are spread across multiple counties or states, and you do not want to track every change in local tax law yourself.</li>
+        <li>Your workers are spread across more than one state, and you do not want to track every change in each state’s tax law yourself.</li>
         <li>You want to remove manual steps from payroll—no more calculating deductions or filing forms by hand, no more chasing missing tax IDs or deadlines.</li>
         <li>You use QuickBooks or Xero for accounting and want payroll data to sync automatically, not through spreadsheets or manual entry.</li>
       </ul>
@@ -46,9 +46,9 @@ export default function EvaluatingSection() {
       <p className="text-md text-white shadow-text pt-3">
         Another consideration is support. Gusto’s support is designed for small business owners, not just
         accountants. You get access to customer service and a knowledge base, but if you want hands-on, local
-        expertise—especially for South Florida’s multi-county rules and seasonal workforce—working with Geek @
+        expertise—especially for South Florida’s seasonal workforce—working with Geek @
         Your Spot as your implementer means you get the configuration and data mapping right from the start.
-        They make sure your Gusto setup fits your real payroll cycles and local tax requirements, which is not
+        They make sure your Gusto setup fits your real payroll cycles and tax requirements, which is not
         something the platform’s generic onboarding covers.</p>
       <p className="text-md text-white shadow-text pt-3">
         In summary, you judge Gusto on three main axes: does its logic match your real workforce, does its

@@ -15,8 +15,8 @@ export default function TransformsSection() {
       <p className="text-md text-white shadow-text pt-3">
         The core of Quaderno’s value is real-time threshold monitoring. The platform watches sales and
         transaction volume for each state and country, alerting you as soon as you approach a registration
-        requirement. This means no more guessing if you are close to the $100,000 mark in Texas or 200
-        transactions in California. The system checks every sale against the rules for that market, so you know
+        requirement. This means no more guessing if you are close to the $500,000 mark in Texas or
+        California. The system checks every sale against the rules for that market, so you know
         exactly when you need to register and start collecting tax. This removes the risk of accidental
         noncompliance and the scramble to fix things after the fact.</p>
       <p className="text-md text-white shadow-text pt-3">

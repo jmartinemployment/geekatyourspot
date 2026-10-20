@@ -23,7 +23,7 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         Manual tracking is where the process breaks down first. Sales flow through Shopify, Amazon, or a direct
         website. Each platform has its own way of recording transactions, and none of them tracks every sale
-        across all channels in real time. A business might hit the $100,000 threshold in Texas in March, but not
+        across all channels in real time. A business might pass the $500,000 threshold in Texas in March, but not
         realize it until July, by which point they have already missed the legal deadline to register and
         collect tax. The result is a gap of uncollected liabilities that can trigger back taxes and interest.
         Even if the business catches up, they are now exposed to penalties for late registration and late

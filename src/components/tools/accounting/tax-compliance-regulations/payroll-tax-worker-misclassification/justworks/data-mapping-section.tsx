@@ -19,8 +19,8 @@ export default function DataMappingSection() {
         The next decision is mapping work location versus residence. In South Florida, it is common for a worker
         to live in one county but perform services in another, or even cross state lines for gigs. Justworks
         uses both residence and work location to determine which state and local taxes apply, so you must map
-        each worker to both a home address and a primary worksite. This is not just a technicality—local
-        surtaxes and state unemployment insurance are triggered by where the work is done, not just where the
+        each worker to both a home address and a primary worksite. This is not just a technicality, because
+        state unemployment insurance is triggered by where the work is done, not just where the
         worker lives. If you skip this mapping, you risk under- or over-withholding and triggering a compliance
         review.</p>
       <p className="text-md text-white shadow-text pt-3">

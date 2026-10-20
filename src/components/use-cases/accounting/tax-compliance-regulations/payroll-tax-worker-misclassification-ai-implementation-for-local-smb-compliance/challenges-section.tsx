@@ -8,7 +8,7 @@ export default function ChallengesSection() {
         from the reality that most small businesses in South Florida are running at full tilt, with owners and
         bookkeepers stretched across too many roles. The cracks show up in the details: a contractor brought in
         for a three-week job is suddenly on the schedule five days a week for months, but nobody updates their
-        status. A new hire lives over the county line, but the payroll system still has last year’s tax tables.
+        status. A new hire lives over the state line, but the payroll system still has last year’s tax tables.
         A paper invoice goes missing, so an independent contractor gets paid
         through&nbsp;<GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>, no W-9 on file, and
         nobody is sure if that triggers a 1099. The line between compliance and exposure is crossed by mistake,
@@ -24,10 +24,10 @@ export default function ChallengesSection() {
       <p className="text-md text-white shadow-text pt-3">
         Manual processes make the situation worse. When payroll tax deposits, overtime calculations, and local
         withholdings are tracked in spreadsheets and paper files, errors pile up. Forgetting to register or file
-        payroll taxes with the Florida Department of Revenue is common—especially for businesses crossing county
-        lines or hiring remote workers who move. The rules for Miami-Dade, Broward, and Palm Beach are not
-        always the same, and missing a change in rates or a new local surtax can snowball into a compliance
-        problem before anyone notices.</p>
+        reemployment tax with the Florida Department of Revenue is common, especially for businesses hiring
+        remote workers who move. A worker who relocates to another state brings that state’s rules along, and
+        missing a change in rates or a new state registration can snowball into a compliance problem before
+        anyone notices.</p>
       <p className="text-md text-white shadow-text pt-3">
         Year-end is a recurring trap. Delaying W-2 and 1099 e-filing, or sending forms with missing or incorrect
         taxpayer identification numbers, triggers non-negotiable IRS penalties. Owners and bookkeepers scramble

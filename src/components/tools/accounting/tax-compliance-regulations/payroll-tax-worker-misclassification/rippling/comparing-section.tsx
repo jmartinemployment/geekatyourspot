@@ -48,8 +48,8 @@ export default function ComparingSection() {
         these are often one-way syncs or require manual mapping. Rippling’s architecture is built for real-time,
         bi-directional data flow—so changes in worker status, tax settings, or payroll runs update everywhere at
         once. This reduces reconciliation work and the risk of missing a compliance trigger because one system
-        did not update in time. For South Florida businesses with workers who cross county lines or pick up work
-        in multiple states, this is not a nice-to-have—it is essential to keeping up with local and multi-state
+        did not update in time. For South Florida businesses with workers who pick up work
+        in multiple states, this is not a nice-to-have—it is essential to keeping up with multi-state
         tax rules.</p>
       <p className="text-md text-white shadow-text pt-3">
         Rippling is not the cheapest tool on the market, but its value comes from automating the complex,
