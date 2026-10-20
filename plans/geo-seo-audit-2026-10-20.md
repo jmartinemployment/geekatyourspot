@@ -14,6 +14,18 @@ This report combines eight parallel audit tracks:
 
 It sits alongside `plans/seo-audit-2026-10-20.md` (the first audit, referred to here as "SA"), and does not repeat what that report covers except where these tracks add evidence.
 
+`plans/competitor-pages-audit-2026-10-20.md` (CP) rechecks C2 and H12 against the consultancy-competitors crawl: 9,187 pages from 58 sites, against the deployed commit `8ce8b28`.
+
+`plans/competitor-audit-2026-10-20.md` (CA) audits the site against the 19 sites crawled on 2026-10-20, with every applicable skill, against `8ce8b28`. Its rechecks of this audit, all on 2026-10-20:
+- **C2, still open (CA2).** None of the 19 has an AI page for Delray Beach or Boca Raton. Deeper search results show eight other sites with a Delray Beach AI page, one of them (Pisano Designer) based in Delray Beach with published prices. The C2 recheck bullet below is corrected to match.
+- **C3, still open (CA1).** The IT firms that now sell AI show 46 to 95 Google reviews (C&W 95, Capstone 73, CPT 67, Nerd Teks 46). Only one AI-first rival has any (Gold Coast AI, 9).
+- **H4, still open (CA4, CA6).** No page has a defining sentence, and Jeff Martin appears on 1 of 426 deployed pages.
+- **H7, partly changed (CA3, CA11, CA15).** The GBP's primary category is now "Automation company" and its pin is in Delray Beach. Its other categories, description and name still need fixing, and no directory listing exists. The H7 recheck bullet below has the details.
+- **H12, still open (CA10).** The vendors the site reviews hold the specialty searches with their own guides. No South Florida rival compares those tools.
+- **Launch gate 2, still open (CA14).** `geekatyourspot.vercel.app` returns 200, protected only by the pre-launch noindex header.
+- **Launch gate 3, partly done (CA14).** `d6989dc` adds three security headers outside the `ALLOW_INDEXING` branch, and the deployed site sends them. `X-Frame-Options` and a CSP are still missing.
+- **Decisions 2, 10 and 11 (CA14, CA9).** 11 of the 19 rivals publish llms.txt, 10 of 22 AI implementers publish prices, and 16 of the 19 admit every crawler.
+
 ## Method
 
 - **Crawl.** A local `next build` at commit `921d3b8` served on `localhost:3311`: all 432 sitemap URLs plus the query-string listing pages. Vercel confirmed the deployed site was built from the same commit, so the findings apply to both.
@@ -113,6 +125,12 @@ All of this is verified in the source.
   - At most three area pages (Miami-Dade, Broward, Palm Beach), each with genuinely local content: local industries, on-site versus remote, travel radius, and a visible FAQ.
   - Avoid CodeWCG's pattern of hundreds of templated city pages.
   - Link these pages from the footer.
+- **Rechecked on 2026-10-20 against the consultancy-competitors crawl and `8ce8b28`, still open.** The details are CP2 in `plans/competitor-pages-audit-2026-10-20.md`, and the title recount is also in SA H2.
+  - 25 of 58 crawled competitor sites have a page whose title or H1 names AI and a South Florida place.
+  - Among the 58 crawled sites, the only AI page for Delray Beach is AI-Powered Consulting's, and that firm is based in Palm Beach Gardens. **Corrected by CA2:** deeper search results show eight sites with a Delray Beach AI page, seven of them in neither crawl. One, Pisano Designer, is based in Delray Beach.
+  - Visionary Solutions Group, in Boca Raton, now has AI consulting pages for Miami, Fort Lauderdale and South Florida.
+  - 0 of the 426 deployed titles name a South Florida place.
+  - CP2 recommends the Delray Beach and Palm Beach County page as the first area page.
 
 ### C3. There are no reviews anywhere
 
@@ -253,6 +271,12 @@ This is verified, and it is the navbar target for Marketing.
   - Refresh the GBP category, photos and description.
   - Claim the brand handles.
   - Add each profile to `sameAs`.
+- **Rechecked on 2026-10-20 from the public Maps data, partly changed.** The details are CA11 and CA3 in `plans/competitor-audit-2026-10-20.md`, and the GBP name is also in SA M5.
+  - The primary category is now "Automation company", not "Consultant", and the pin is in Delray Beach, not Collier County.
+  - The additional categories include "Software company" and "Website designer", which the business does not sell.
+  - The description no longer names HR or Operations, but it still omits Miami-Dade and lists a "Sales" department.
+  - The GBP name is "Geek @ Your Spot", without "LLC".
+  - A directory search found the site on none of BBB, Yelp, Clutch, DesignRush or GoodFirms. Photos were not rechecked.
 
 ### H8. Two blog posts have broken structured data
 
@@ -338,6 +362,11 @@ This is verified.
   - A comparison page for each tool group, at the group paths that return 404 today, such as `/tools/accounting/accounts-payable/automated-approval-workflows`.
   - Start with Bill vs Melio, TaxJar vs TaxCloud and Gusto vs Rippling.
   - Do not build agency-versus-agency pages.
+- **Rechecked on 2026-10-20 against the consultancy-competitors crawl and `8ce8b28`, still open.** The details are CP1, CP5 and CP7 in `plans/competitor-pages-audit-2026-10-20.md`.
+  - "Your edge" holds across all 58 crawled competitor sites. None compares any pair above, and none names Bill, Melio, Gusto, Rippling, TaxJar, TaxCloud, Dext or Stampli on any page.
+  - 41 of the 77 grouped tool pages already have a comparison H2, so the group pages can summarize and link to existing content.
+  - The 15 group paths still return 404.
+  - The rating schema the comparison skill suggests is not usable here (CP5).
 
 ## Medium
 
