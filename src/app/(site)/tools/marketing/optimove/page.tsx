@@ -34,7 +34,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Optimove for Automated Ad Spend Optimization",
         description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -54,7 +54,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Optimove for Automated Ad Spend Optimization",
             description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

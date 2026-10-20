@@ -156,9 +156,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
       description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses.',
-      creator: '@geekatyourspot',
       images: [SHARE_IMAGE],
-      site: '@geekatyourspot',
     },
     robots: {
       index: true,

@@ -126,7 +126,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Tax Compliance & Regulations",
             description: 'Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.',
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

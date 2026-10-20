@@ -20,9 +20,10 @@ const jsonLd: Graph = {
             "headline": "AI Lead Scoring for Small Businesses",
             "description": "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
             "author": {
-                "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
-                "name": "Geek @ Your Spot LLC"
+                "@type": "Person",
+                "@id": "https://geekatyourspot.com/about#jeff-martin",
+                "name": "Jeff Martin",
+                "url": "https://geekatyourspot.com/about"
             },
             "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-09-02T15:52:27.1724249Z",
@@ -90,7 +91,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "AI Lead Scoring for Small Businesses",
         description: "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
         keywords: ["Lead Scoring, AI Consulting, Small Business, ActiveCampaign, Pipedrive, Apollo, LeadSquared, 6sense"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -110,7 +111,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "AI Lead Scoring for Small Businesses",
             description: "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

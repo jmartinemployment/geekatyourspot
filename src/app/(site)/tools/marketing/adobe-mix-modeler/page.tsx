@@ -34,7 +34,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
         description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -54,7 +54,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

@@ -8,7 +8,7 @@ export default function OverviewSection() {
         Late nights at the office in Miami-Dade, a small business owner sifts through a stack of unpaid invoices,
         each one a reminder of the cash flow crunch that threatens his operation. The tedious task of manually
         tracking who owes what consumes valuable hours that could be spent growing the business. This scenario is
-        all too familiar for many small businesses in West Palm Beach and Broward counties, where time and resources
+        all too familiar for many small businesses in Miami-Dade, Broward, and West Palm Beach counties, where time and resources
         are stretched thin. The manual process of&nbsp;<Link id={`tools-accounting-accounts-receivable-invoiced-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;is not just time-consuming; it’s fraught with
         the risk of errors that can lead to significant financial setbacks.</p>
       <p className="text-md text-white shadow-text pt-3">

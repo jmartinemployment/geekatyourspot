@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: ["automated approval workflows", "accounts payable automation", "invoice approval", "AP workflow", "approval routing", "finance automation"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -73,7 +73,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image', title: TITLE, description: DESCRIPTION,
-            creator: 'Geek @ Your Spot LLC', images: [SHARE_IMAGE],
+            images: [SHARE_IMAGE],
         },
         robots: {
             index: true, follow: true, nocache: false,

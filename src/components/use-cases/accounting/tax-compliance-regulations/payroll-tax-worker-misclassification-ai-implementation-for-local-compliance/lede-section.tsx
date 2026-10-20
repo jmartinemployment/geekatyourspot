@@ -15,7 +15,7 @@ export default function LedeSection() {
         Too many South Florida businesses get caught here: the gig economy’s promise of flexibility turns into a
         compliance nightmare, with fines that can wipe out months of work.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the reality for small business owners from Broward to West Palm Beach. You want to scale up when
+        This is the reality for small business owners from Miami-Dade to West Palm Beach. You want to scale up when
         the busy season hits, but every hire, whether full-time, part-time, or temp, brings a new tangle of payroll tax
         and worker misclassification risk. The rules change by jurisdiction, job type, and now even by remote
         location. One missed state registration, one contractor paid on the wrong form, one late payroll tax

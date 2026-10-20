@@ -69,7 +69,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: ["Automated Spreadsheet Data", "Cash Flow Forecasting", "AI Implementation", "Small Business Automation", "Spreadsheet Automation", "Data Quality"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -87,7 +87,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: TITLE,
             description: DESCRIPTION,
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

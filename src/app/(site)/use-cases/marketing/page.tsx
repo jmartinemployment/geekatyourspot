@@ -18,7 +18,7 @@ const jsonLd: Graph = {
         {
             "@type": "Article",
             "headline": "AI Marketing Systems",
-            "description": "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
+            "description": "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach counties and boost efficiency and sales with practical AI.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
             ],
@@ -59,16 +59,16 @@ const jsonLd: Graph = {
             "name": "Hootsuite",
             "url": "https://www.hootsuite.com/"
         },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing", name: "AI Marketing Systems", description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI." })
+        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing", name: "AI Marketing Systems", description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach counties and boost efficiency and sales with practical AI." })
     ]
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: "AI Marketing Systems",
-        description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
+        description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach counties and boost efficiency and sales with practical AI.",
         keywords: ["AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com//use-cases/marketing' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -77,7 +77,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         openGraph: {
             title: "AI Marketing Systems",
-            description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
+            description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach counties and boost efficiency and sales with practical AI.",
             url: 'https://geekatyourspot.com/use-cases/marketing',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
@@ -87,8 +87,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         twitter: {
             card: 'summary_large_image',
             title: "AI Marketing Systems",
-            description: "Explore AI Marketing Systems that strengthen small business strategy in Palm Beach and Broward counties and boost efficiency and sales with practical AI.",
-            creator: 'Geek @ Your Spot LLC',
+            description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach counties and boost efficiency and sales with practical AI.",
             images: [SHARE_IMAGE],
         },
         robots: {

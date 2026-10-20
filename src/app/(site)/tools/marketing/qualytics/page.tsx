@@ -34,7 +34,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Qualytics for Automated Ad Spend Optimization",
         description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -54,7 +54,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Qualytics for Automated Ad Spend Optimization",
             description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

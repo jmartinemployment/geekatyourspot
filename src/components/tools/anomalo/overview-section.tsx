@@ -19,7 +19,7 @@ export default function OverviewToolSection() {
                 optimize their ad spend by ensuring that the data driving their AI tools, such as Google Ads Smart Bidding, is
                 accurate and actionable.</p>
               <p className="text-md text-white shadow-text pt-3">Anomalo works by continuously monitoring datasets to identify anomalies that could impact marketing performance.
-                This proactive approach helps businesses in Palm Beach and Broward counties, and beyond, to prevent ineffective ad
+                This proactive approach helps businesses in Miami-Dade, Broward, and Palm Beach counties, and beyond, to prevent ineffective ad
                 campaigns caused by flawed data. Anomalo&#39;s automated system eliminates the need for manual data checks, saving
                 time and reducing the risk of human error. This means that marketing teams can focus on strategic tasks rather than
                 getting bogged down by data discrepancies.</p>
@@ -49,7 +49,7 @@ export default function OverviewToolSection() {
                 optimize their ad spend by ensuring that the data driving their AI tools, such as Google Ads Smart Bidding, is
                 accurate and actionable.</p>
               <p className="text-md text-white shadow-text pt-3">Anomalo works by continuously monitoring datasets to identify anomalies that could impact marketing performance.
-                This proactive approach helps businesses in Palm Beach and Broward counties, and beyond, to prevent ineffective ad
+                This proactive approach helps businesses in Miami-Dade, Broward, and Palm Beach counties, and beyond, to prevent ineffective ad
                 campaigns caused by flawed data. Anomalo&#39;s automated system eliminates the need for manual data checks, saving
                 time and reducing the risk of human error. This means that marketing teams can focus on strategic tasks rather than
                 getting bogged down by data discrepancies.</p>

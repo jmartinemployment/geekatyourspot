@@ -107,7 +107,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: "Cash Flow Forecasting",
       description: 'Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.',
-      creator: 'Geek @ Your Spot LLC',
       images: [SHARE_IMAGE],
     },
     robots: {

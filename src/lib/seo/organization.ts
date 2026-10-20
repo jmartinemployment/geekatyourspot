@@ -55,7 +55,6 @@ export const SITE_GRAPH = {
         GBP_MAP_URL,
         "https://www.facebook.com/geekatyourspot",
         "https://www.linkedin.com/company/geekatyourspot",
-        "https://twitter.com/geekatyourspot",
       ],
       address: {
         "@type": "PostalAddress",

@@ -26,7 +26,7 @@ export default function OverviewToolSection() {
                 which are essentially the rules that data must meet to be considered valid. With Great Expectations, companies can
                 automate the validation process, ensuring that data issues are caught early, thus saving time and reducing the risk
                 of costly errors in ad spend strategies.</p>
-              <p className="text-md text-white shadow-text pt-3">Great Expectations is particularly beneficial for businesses in Palm Beach and Broward counties facing challenges
+              <p className="text-md text-white shadow-text pt-3">Great Expectations is particularly beneficial for businesses in Miami-Dade, Broward, and Palm Beach counties facing challenges
                 with inefficient ad spend. By integrating this tool into their data pipeline, companies can enhance their&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink> marketing strategies, leading to more effective ad campaigns and ultimately, a better <GlossaryLink slug="kpi">ROI</GlossaryLink>. Whether
                 you&#39;re using Omneky or AdCreative.ai, ensuring data quality with Great Expectations can significantly improve
                 the outcomes of automated ad spend optimization.</p>
@@ -56,7 +56,7 @@ export default function OverviewToolSection() {
                 which are essentially the rules that data must meet to be considered valid. With Great Expectations, companies can
                 automate the validation process, ensuring that data issues are caught early, thus saving time and reducing the risk
                 of costly errors in ad spend strategies.</p>
-              <p className="text-md text-white shadow-text pt-3">Great Expectations is particularly beneficial for businesses in Palm Beach and Broward counties facing challenges
+              <p className="text-md text-white shadow-text pt-3">Great Expectations is particularly beneficial for businesses in Miami-Dade, Broward, and Palm Beach counties facing challenges
                 with inefficient ad spend. By integrating this tool into their data pipeline, companies can enhance their&nbsp;<GlossaryLink slug="analytics">data-driven</GlossaryLink> marketing strategies, leading to more effective ad campaigns and ultimately, a better <GlossaryLink slug="kpi">ROI</GlossaryLink>. Whether
                 you&#39;re using Omneky or AdCreative.ai, ensuring data quality with Great Expectations can significantly improve
                 the outcomes of automated ad spend optimization.</p>

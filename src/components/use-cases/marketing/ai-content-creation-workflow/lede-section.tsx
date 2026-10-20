@@ -26,7 +26,7 @@ export default function LedeSection() {
                 In the fast-paced world of marketing, it&#39;s easy to feel bogged down by the constant demand for fresh, engaging
                 content. Crafting unique pieces for blogs, social media, and emails can eat up hours, leaving little time for
                 strategic thinking and planning. Mistakes creep in, deadlines get pushed, and the costs pile up. It&#39;s a
-                challenge that many small businesses in Broward and West Palm Beach counties know all too well.</p>
+                challenge that many small businesses in Miami-Dade, Broward, and West Palm Beach counties know all too well.</p>
               <p className="text-md text-white shadow-text pt-3">
                 Imagine if you could cut those hours down significantly while maintaining quality and creativity. This is where
                 AI-assisted <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>&nbsp;steps in. By automating repetitive tasks, AI tools like&nbsp;
@@ -67,8 +67,7 @@ export default function LedeSection() {
                 integrating these technologies, businesses can streamline their marketing processes, enhancing efficiency and
                 delivering more targeted, impactful communications.</p>
               <p className="text-md text-white shadow-text pt-3">
-                At <strong>Geek @ Your Spot LLC</strong>, we understand the unique challenges faced by businesses in Broward and West
-                Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
+                At <strong>Geek @ Your Spot LLC</strong>, we understand the unique challenges faced by businesses in Miami-Dade, Broward, and West Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
               <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">Streamline Content Workflows with AI</Link> on our blog.</p>
@@ -96,7 +95,7 @@ export default function LedeSection() {
                 In the fast-paced world of marketing, it&#39;s easy to feel bogged down by the constant demand for fresh, engaging
                 content. Crafting unique pieces for blogs, social media, and emails can eat up hours, leaving little time for
                 strategic thinking and planning. Mistakes creep in, deadlines get pushed, and the costs pile up. It&#39;s a
-                challenge that many small businesses in Broward and West Palm Beach counties know all too well.</p>
+                challenge that many small businesses in Miami-Dade, Broward, and West Palm Beach counties know all too well.</p>
               <p className="text-md text-white shadow-text pt-3">
                 Imagine if you could cut those hours down significantly while maintaining quality and creativity. This is where
                 AI-assisted <GlossaryLink slug="marketing-automation">content creation</GlossaryLink>&nbsp;steps in. By automating repetitive tasks, AI tools like&nbsp;
@@ -137,8 +136,7 @@ export default function LedeSection() {
                 integrating these technologies, businesses can streamline their marketing processes, enhancing efficiency and
                 delivering more targeted, impactful communications.</p>
               <p className="text-md text-white shadow-text pt-3">
-                At <strong>Geek @ Your Spot LLC</strong>, we understand the unique challenges faced by businesses in Broward and West
-                Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
+                At <strong>Geek @ Your Spot LLC</strong>, we understand the unique challenges faced by businesses in Miami-Dade, Broward, and West Palm Beach counties. Our AI implementation services are designed to address these pain points, providing tailored
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
               <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog-lg" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">Streamline Content Workflows with AI</Link> on our blog.</p>

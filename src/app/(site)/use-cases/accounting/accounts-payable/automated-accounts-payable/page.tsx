@@ -87,7 +87,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Accounts Payable",
         description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
         keywords: ["automated accounts payable", "AP automation", "AI in finance", "accounts payable software", "financial operations", "invoice processing", "AP efficiency", "AI-driven finance", "AP tools", "business automation"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -107,7 +107,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

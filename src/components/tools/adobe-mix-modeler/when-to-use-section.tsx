@@ -17,7 +17,7 @@ export default function WhenToUseSection() {
                 manage them effectively. By integrating with platforms like HubSpot and Salesforce Einstein, Adobe Mix Modeler
                 provides a comprehensive view of campaign performance, enabling businesses to make informed decisions about their
                 marketing strategies.</p>
-              <p className="text-md text-white shadow-text pt-3">For businesses in competitive markets, such as those in Palm Beach and Broward counties, where every marketing
+              <p className="text-md text-white shadow-text pt-3">For businesses in competitive markets, such as those in Miami-Dade, Broward, and Palm Beach counties, where every marketing
                 dollar counts, Adobe Mix Modeler offers a significant advantage. By automating the ad spend optimization process, it
                 allows companies to focus on strategic initiatives that drive growth and improve customer satisfaction.</p>
               <p className="text-md text-white shadow-text pt-3">Ultimately, Adobe Mix Modeler is a valuable tool for any business looking to reduce wasted ad spend, improve
@@ -40,7 +40,7 @@ export default function WhenToUseSection() {
                 manage them effectively. By integrating with platforms like HubSpot and Salesforce Einstein, Adobe Mix Modeler
                 provides a comprehensive view of campaign performance, enabling businesses to make informed decisions about their
                 marketing strategies.</p>
-              <p className="text-md text-white shadow-text pt-3">For businesses in competitive markets, such as those in Palm Beach and Broward counties, where every marketing
+              <p className="text-md text-white shadow-text pt-3">For businesses in competitive markets, such as those in Miami-Dade, Broward, and Palm Beach counties, where every marketing
                 dollar counts, Adobe Mix Modeler offers a significant advantage. By automating the ad spend optimization process, it
                 allows companies to focus on strategic initiatives that drive growth and improve customer satisfaction.</p>
               <p className="text-md text-white shadow-text pt-3">Ultimately, Adobe Mix Modeler is a valuable tool for any business looking to reduce wasted ad spend, improve

@@ -33,7 +33,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "6sense for AI Lead Scoring",
         description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
         keywords: ["Lead Scoring"],
-        authors: [{ name: 'Development Team', url: 'https://geekatyourspot.com/' }],
+        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
@@ -53,7 +53,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             title: "6sense for AI Lead Scoring",
             description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
-            creator: 'Geek @ Your Spot LLC',
             images: [SHARE_IMAGE],
         },
         robots: {

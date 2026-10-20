@@ -67,7 +67,7 @@ export default function ComparingSection() {
         control. LobbyStack sits in the middle: more adaptable than voicemail or phone trees, more transparent
         and controllable than closed AI, and far less expensive than a live operator for routine work.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For a small team in Broward or West Palm Beach who has seen the pain of missed calls, LobbyStack is the
+        For a small team in Miami-Dade, Broward, or West Palm Beach who has seen the pain of missed calls, LobbyStack is the
         tool that lets you keep your options open, your data in your hands, and your costs under control. That
         is the real difference when you look past the feature lists and focus on what will work for your
         business as it grows.</p>

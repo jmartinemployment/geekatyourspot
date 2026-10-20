@@ -15,7 +15,7 @@ export default function OverviewSection() {
       <p className="text-md text-white shadow-text pt-3">
         Outsourcing isn’t much better. The first invoice from a local agency lands with a number that makes
         you wince, thousands each month for blog posts and social updates, often written by someone who barely
-        knows your business. For many small teams in Broward or West Palm Beach, the cost is impossible to
+        knows your business. For many small teams in Miami-Dade, Broward, or West Palm Beach, the cost is impossible to
         justify, so content creation drops to the bottom of the list. Social profiles go quiet. The website
         gathers dust. New leads slow to a crawl, and the business starts to disappear from local searches and
         conversations. No matter how hard you work, the digital silence grows louder, and bigger competitors

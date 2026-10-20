@@ -5,7 +5,7 @@ export default function LedeSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        Imagine spending countless hours brainstorming topics, researching <GlossaryLink slug="keyword-density">keywords</GlossaryLink>, and drafting articles, only to find your content still isn&apos;t ranking well in search engines. Many small businesses in Palm Beach and Broward counties face this daily grind. The process is not only time-consuming but also fraught with the risk of human error, leading to missed opportunities and wasted resources.
+        Imagine spending countless hours brainstorming topics, researching <GlossaryLink slug="keyword-density">keywords</GlossaryLink>, and drafting articles, only to find your content still isn&apos;t ranking well in search engines. Many small businesses in Miami-Dade, Broward, and Palm Beach counties face this daily grind. The process is not only time-consuming but also fraught with the risk of human error, leading to missed opportunities and wasted resources.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
         Enter AI-driven tools like <strong>ChatGPT</strong> and <strong>Surfer SEO</strong>. These tools are transforming content creation by automating much of the labor-intensive work. They help generate high-quality, <GlossaryLink slug="search-engine-optimization">SEO-optimized</GlossaryLink> blog posts and articles with a fraction of the effort, allowing you to focus on strategy and creativity. With AI, you can produce content faster, reduce errors, and improve search engine rankings.

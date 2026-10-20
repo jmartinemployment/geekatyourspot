@@ -10,8 +10,7 @@ export default function OverviewSection() {
         drops lower than expected. It is not one missed payment, it is a cycle: delayed customer collections,
         bills that pile up without warning, and a sense that the business is always reacting, never planning.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the cost of operating with scattered records and legacy tools. Small businesses in Broward and
-        West Palm Beach lose sleep over unpredictable accounts receivable cycles, bills that appear out of
+        This is the cost of operating with scattered records and legacy tools. Small businesses in Miami-Dade, Broward, and West Palm Beach lose sleep over unpredictable accounts receivable cycles, bills that appear out of
         nowhere, and hours spent fixing errors in old spreadsheets. The real pain is not just about the time
         lost. It is about having no clear picture of what money is coming in, what is going out, and when. A
         single month of missed collections or unexpected expenses can throw off payroll, delay supplier

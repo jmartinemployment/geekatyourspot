@@ -8,7 +8,7 @@ export default function OverviewSection() {
         face a mountain of unpaid invoices, unsure of when the cash will flow in. The manual process of following up
         on these invoices eats into valuable hours that could be better spent on growing the business. Errors creep
         in, leading to delayed payments and strained customer relationships. It&#39;s a familiar scenario for many
-        small businesses in West Palm Beach and Broward County, where time and resources are often stretched thin.</p>
+        small businesses in Miami-Dade, Broward, and West Palm Beach counties, where time and resources are often stretched thin.</p>
       <p className="text-md text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-accounts-receivable-upflow-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">Accounts Receivable</Link>&nbsp;offers a lifeline to these businesses. By automating the tedious and
         error-prone tasks of invoice tracking and follow-ups, companies can transform their cash flow management.

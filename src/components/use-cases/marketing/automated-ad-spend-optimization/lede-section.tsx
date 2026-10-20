@@ -13,7 +13,7 @@ export default function LedeSection() {
           <div className="col-span-12">
             <p className="pt-3 text-md font-normal text-white shadow-text">
               Are you tired of watching your marketing budget slip through the cracks due to inefficient ad spend? Many businesses
-              in Palm Beach and Broward counties face this challenge daily. Traditional ad management often involves guesswork,
+              in Miami-Dade, Broward, and Palm Beach counties face this challenge daily. Traditional ad management often involves guesswork,
               leading to wasted dollars and missed opportunities. Manually tweaking campaigns, struggling with inconsistent
               results, and dealing with complex data analysis can be frustrating and time-consuming.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
@@ -28,7 +28,7 @@ export default function LedeSection() {
               line.</p>
             <p className="pt-3 text-md font-normal text-white shadow-text">
               In today’s digital marketing landscape, the pressure to optimize ad spend is more intense than ever. Small businesses
-              in regions like Palm Beach and Broward counties often find themselves overwhelmed by the complexities of managing ad
+              in regions like Miami-Dade, Broward, and Palm Beach counties often find themselves overwhelmed by the complexities of managing ad
               campaigns manually. The traditional approach is not only time-consuming but also prone to human error, leading to
               inefficient budget allocations and poor campaign performance.</p>
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-ad-management">The Cost of Manual Ad Management</h3>

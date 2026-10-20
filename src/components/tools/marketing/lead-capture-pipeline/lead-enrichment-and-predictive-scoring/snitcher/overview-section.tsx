@@ -12,7 +12,7 @@ export default function OverviewSection() {
         actually interested, who to contact, or when to act. By the time they try to follow up, those warm
         leads are already talking to a competitor down the street.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is the reality for most small businesses in West Palm Beach and Broward. Time and cash are tight.
+        This is the reality for most small businesses in Miami-Dade, Broward, and West Palm Beach. Time and cash are tight.
         Eighty percent of the effort goes into chasing dead or cold leads, while nearly all the best-fit
         website visitors slip away without a trace. The result? Sales teams waste their days working stale
         lists, while high-intent prospects, those who actually read your pricing page or dig into your case

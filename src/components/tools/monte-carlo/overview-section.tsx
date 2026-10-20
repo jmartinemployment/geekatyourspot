@@ -23,7 +23,7 @@ export default function OverviewToolSection() {
                 learning algorithms, Monte Carlo emphasizes the integrity of the data feeding those algorithms. This complementary
                 relationship ensures that your automated bidding strategies are based on the most reliable data possible, ultimately
                 enhancing the efficiency and effectiveness of your ad spend.</p>
-              <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Palm Beach and Broward counties can benefit from Monte Carlo&#39;s ability to
+              <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Miami-Dade, Broward, and Palm Beach counties can benefit from Monte Carlo&#39;s ability to
                 streamline data processes and reduce the manual effort involved in campaign management. By minimizing the guesswork
                 and enhancing <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making, Monte Carlo empowers marketers to focus on strategic initiatives that
                 drive real results.</p>
@@ -50,7 +50,7 @@ export default function OverviewToolSection() {
                 learning algorithms, Monte Carlo emphasizes the integrity of the data feeding those algorithms. This complementary
                 relationship ensures that your automated bidding strategies are based on the most reliable data possible, ultimately
                 enhancing the efficiency and effectiveness of your ad spend.</p>
-              <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Palm Beach and Broward counties can benefit from Monte Carlo&#39;s ability to
+              <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Miami-Dade, Broward, and Palm Beach counties can benefit from Monte Carlo&#39;s ability to
                 streamline data processes and reduce the manual effort involved in campaign management. By minimizing the guesswork
                 and enhancing <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making, Monte Carlo empowers marketers to focus on strategic initiatives that
                 drive real results.</p>

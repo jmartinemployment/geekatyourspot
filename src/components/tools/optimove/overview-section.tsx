@@ -17,7 +17,7 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">In today&#39;s competitive market, businesses often struggle with inefficient ad spend, leading to wasted resources
                 and missed opportunities. Optimove addresses these challenges by providing a comprehensive solution that minimizes
                 manual intervention and guesswork in ad management. This tool is particularly beneficial for companies in regions
-                like Palm Beach and Broward counties, where optimizing marketing budgets is crucial for staying ahead of the
+                like Miami-Dade, Broward, and Palm Beach counties, where optimizing marketing budgets is crucial for staying ahead of the
                 competition.</p>
               <p className="text-md text-white shadow-text pt-3">Optimove is equipped with advanced features that facilitate seamless integration with existing systems, making the
                 transition to automated ad spend optimization smooth and efficient. By using machine learning, Optimove can predict
@@ -44,7 +44,7 @@ export default function OverviewToolSection() {
               <p className="text-md text-white shadow-text pt-3">In today&#39;s competitive market, businesses often struggle with inefficient ad spend, leading to wasted resources
                 and missed opportunities. Optimove addresses these challenges by providing a comprehensive solution that minimizes
                 manual intervention and guesswork in ad management. This tool is particularly beneficial for companies in regions
-                like Palm Beach and Broward counties, where optimizing marketing budgets is crucial for staying ahead of the
+                like Miami-Dade, Broward, and Palm Beach counties, where optimizing marketing budgets is crucial for staying ahead of the
                 competition.</p>
               <p className="text-md text-white shadow-text pt-3">Optimove is equipped with advanced features that facilitate seamless integration with existing systems, making the
                 transition to automated ad spend optimization smooth and efficient. By using machine learning, Optimove can predict

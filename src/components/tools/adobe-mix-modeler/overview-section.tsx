@@ -24,7 +24,7 @@ export default function OverviewToolSection() {
                 a comprehensive solution for <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. By using machine learning algorithms, it dynamically adjusts
                 bids and allocates budget across various channels to ensure that ads reach the intended audience at optimal times.
                 This level of precision helps businesses avoid wasted ad spend and improves overall campaign efficiency.</p>
-              <p className="text-md text-white shadow-text pt-3">For companies in regions like Palm Beach and Broward counties, where marketing budgets are tight and competition is
+              <p className="text-md text-white shadow-text pt-3">For companies in regions like Miami-Dade, Broward, and Palm Beach counties, where marketing budgets are tight and competition is
                 fierce, Adobe Mix Modeler offers a clear advantage. By automating the ad spend optimization process, businesses can
                 achieve better results with less effort, ultimately leading to increased sales and customer satisfaction.</p>
             </div>
@@ -51,7 +51,7 @@ export default function OverviewToolSection() {
                 a comprehensive solution for <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. By using machine learning algorithms, it dynamically adjusts
                 bids and allocates budget across various channels to ensure that ads reach the intended audience at optimal times.
                 This level of precision helps businesses avoid wasted ad spend and improves overall campaign efficiency.</p>
-              <p className="text-md text-white shadow-text pt-3">For companies in regions like Palm Beach and Broward counties, where marketing budgets are tight and competition is
+              <p className="text-md text-white shadow-text pt-3">For companies in regions like Miami-Dade, Broward, and Palm Beach counties, where marketing budgets are tight and competition is
                 fierce, Adobe Mix Modeler offers a clear advantage. By automating the ad spend optimization process, businesses can
                 achieve better results with less effort, ultimately leading to increased sales and customer satisfaction.</p>
             </div>

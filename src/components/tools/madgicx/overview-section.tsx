@@ -13,7 +13,7 @@ export default function OverviewToolSection() {
                 </div>
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Madgicx is a powerful AI-driven platform designed to optimize ad spend automatically. It helps businesses,
-                particularly those in Palm Beach and Broward counties, overcome the challenges of inefficient ad management.
+                particularly those in Miami-Dade, Broward, and Palm Beach counties, overcome the challenges of inefficient ad management.
                 Traditional methods often result in wasted budgets and missed opportunities due to the reliance on manual
                 adjustments and complex data analysis. Madgicx addresses these issues by leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to dynamically
                 adjust ad strategies, ensuring maximum return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>).</p>
@@ -41,7 +41,7 @@ export default function OverviewToolSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview</h2>
               <p className="text-md text-white shadow-text pt-3">Madgicx is a powerful AI-driven platform designed to optimize ad spend automatically. It helps businesses,
-                particularly those in Palm Beach and Broward counties, overcome the challenges of inefficient ad management.
+                particularly those in Miami-Dade, Broward, and Palm Beach counties, overcome the challenges of inefficient ad management.
                 Traditional methods often result in wasted budgets and missed opportunities due to the reliance on manual
                 adjustments and complex data analysis. Madgicx addresses these issues by leveraging <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> to dynamically
                 adjust ad strategies, ensuring maximum return on investment (<GlossaryLink slug="kpi">ROI</GlossaryLink>).</p>

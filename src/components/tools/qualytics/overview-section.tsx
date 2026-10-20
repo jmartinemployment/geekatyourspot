@@ -13,7 +13,7 @@ export default function OverviewToolSection() {
             <div className="col-span-12">
               <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
                 data feeding into your ad platforms is clean, consistent, and actionable. This is especially important for
-                businesses in Palm Beach and Broward counties looking to maximize their marketing budgets without the usual pitfalls
+                businesses in Miami-Dade, Broward, and Palm Beach counties looking to maximize their marketing budgets without the usual pitfalls
                 of manual ad management.</p>
               <p className="text-md text-white shadow-text pt-3">Traditional ad management often suffers from data inconsistencies and inaccuracies, leading to ineffective ad spend.
                 Qualytics addresses these issues by automating data quality checks and validations. This ensures that the data used
@@ -41,7 +41,7 @@ export default function OverviewToolSection() {
                 Overview</h2>
               <p className="text-md text-white shadow-text pt-3">Qualytics is a data quality management platform designed to enhance the reliability and accuracy of your <GlossaryLink slug="analytics">data-driven</GlossaryLink>&nbsp;decisions. In the context of automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, Qualytics plays a crucial role by ensuring that the
                 data feeding into your ad platforms is clean, consistent, and actionable. This is especially important for
-                businesses in Palm Beach and Broward counties looking to maximize their marketing budgets without the usual pitfalls
+                businesses in Miami-Dade, Broward, and Palm Beach counties looking to maximize their marketing budgets without the usual pitfalls
                 of manual ad management.</p>
               <p className="text-md text-white shadow-text pt-3">Traditional ad management often suffers from data inconsistencies and inaccuracies, leading to ineffective ad spend.
                 Qualytics addresses these issues by automating data quality checks and validations. This ensures that the data used
