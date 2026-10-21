@@ -12,7 +12,7 @@ export const snitcherContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "lead-capture-pipeline/lead-enrichment-and-predictive-scoring",
   "description":
-    "Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and actionable sales opportun",
+    "Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and sales opportunities.",
   "heroSummary":
     "Snitcher uses Lead Enrichment and Predictive Scoring to help South Florida small businesses identify and prioritize high-value website visitors, turning anonymous traffic into actionable leads.",
   "keywords":

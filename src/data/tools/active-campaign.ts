@@ -4,7 +4,7 @@ export const activeCampaignContent: ToolPageContent = {
   "title": "ActiveCampaign",
   "slug": "active-campaign",
   "department": "marketing",
-  "description": "",
+  "description": "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
   "heroSummary": "",
   "keywords": "AI Marketing Systems, small business marketing, AI implementation, marketing automation, B2B AI solutions, lead nurturing, customer engagement, workflow automation, sales optimization",
   "datePublished": "2026-07-29T16:48:26.6144734Z",

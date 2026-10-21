@@ -20,7 +20,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const TITLE = "BotPenguin";
 const PAGE_TITLE = "BotPenguin as a Cross-Platform Chatbot";
 const DESCRIPTION =
-    "Cross-Platform Chatbot BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and web for small businesses in Miami-Dade, Broward, and West Palm Beac";
+    "BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and the web for small businesses in Miami-Dade, Broward, and West Palm Beach.";
 const CANONICAL = "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

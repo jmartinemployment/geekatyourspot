@@ -12,7 +12,7 @@ export const botpenguinContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "lead-capture-pipeline/cross-platform-chatbot",
   "description":
-    "Cross-Platform Chatbot BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and web for small businesses in Miami-Dade, Broward, and West Palm Beac",
+    "BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and the web for small businesses in Miami-Dade, Broward, and West Palm Beach.",
   "heroSummary":
     "BotPenguin helps South Florida small businesses capture and manage leads efficiently by unifying every chat channel into a single, organized workflow.",
   "keywords":

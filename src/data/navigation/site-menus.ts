@@ -315,3 +315,18 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
     items: [],
   },
 ];
+
+/**
+ * The navbar's label for each tool page, keyed by href. A tool with more than one page carries
+ * its use in the label, as in "Bill (Data Entry)", so the tool hubs use these labels on their cards.
+ */
+const TOOL_LABELS: ReadonlyMap<string, string> = new Map(
+  TOOLS_MENU.flatMap((department) => [
+    ...department.items,
+    ...department.categories.flatMap((category) => category.items),
+  ]).map((item) => [item.href, item.label]),
+);
+
+export function toolMenuLabel(href: string): string | undefined {
+  return TOOL_LABELS.get(href);
+}

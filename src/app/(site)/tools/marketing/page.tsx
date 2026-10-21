@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFunnelDollar, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { getToolsByDepartment } from "@/lib/tools-mapper";
 import type { ToolPageContent } from "@/types/tool";
+import { toolMenuLabel } from "@/data/navigation/site-menus";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
@@ -69,8 +70,13 @@ function hasPage(tool: ToolPageContent): boolean {
 }
 
 export default function MarketingToolsPage() {
+  // Each card shows the navbar's label, which names the use when a tool has more than one page.
   const tools = getToolsByDepartment("marketing")
     .filter(hasPage)
+    .flatMap((tool) => {
+      const label = toolMenuLabel(toolHref(tool));
+      return label ? [{ ...tool, title: label }] : [];
+    })
     .sort((a, b) => a.title.localeCompare(b.title));
 
   const jsonLd: Graph = {
@@ -121,7 +127,7 @@ export default function MarketingToolsPage() {
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {tools.map((tool) => (
               <Link
-                key={tool.slug}
+                key={toolHref(tool)}
                 href={toolHref(tool)}
                 className="group flex flex-col rounded-xl bg-[#0B162A] p-6 shadow-md transition-colors hover:bg-[#132340]"
               >

@@ -20,7 +20,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const TITLE = "Snitcher";
 const PAGE_TITLE = "Snitcher for Lead Enrichment and Predictive Scoring";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and actionable sales opportun";
+    "Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and sales opportunities.";
 const CANONICAL = "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

@@ -96,6 +96,10 @@ import { koalaContent } from "@/data/tools/koala";
 import { rytrContent } from "@/data/tools/rytr";
 import { scalenutIntelligentContentGenerationContent } from "@/data/tools/scalenut-intelligent-content-generation";
 import { writesonicContent } from "@/data/tools/writesonic";
+import { sixsenseContent } from "@/data/tools/6sense";
+import { contentstudioContent } from "@/data/tools/contentstudio";
+import { pipedriveContent } from "@/data/tools/pipedrive";
+import { zapierContent } from "@/data/tools/zapier";
 
 const toolsMap: Record<string, ToolPageContent> = {
   "active-campaign": activeCampaignContent,
@@ -195,6 +199,10 @@ const toolsMap: Record<string, ToolPageContent> = {
   "rytr": rytrContent,
   "scalenut-intelligent-content-generation": scalenutIntelligentContentGenerationContent,
   "writesonic": writesonicContent,
+  "6sense": sixsenseContent,
+  "contentstudio": contentstudioContent,
+  "pipedrive": pipedriveContent,
+  "zapier": zapierContent,
 };
 
 export function getToolContent(slug: string): ToolPageContent | null {
