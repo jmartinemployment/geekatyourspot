@@ -24,7 +24,7 @@ export default function OverviewSection() {
         trust this local expert over a larger brand. The cost is more than just lost time: it is lost
         visibility, slower sales, and a business that feels stuck.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-scalenut-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this. Instead of getting stuck in the content creation
+        <Link id={`tools-marketing-intelligent-content-generation-scalenut-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Generation</Link>&nbsp;changes this. Instead of getting stuck in the content creation
         bottleneck or draining the budget on outside help, small teams can use AI-driven tools to turn real
         expertise into finished marketing assets, quickly, affordably, and at the scale needed to compete. At
         Geek @ Your Spot LLC, we help South Florida businesses build a reliable workflow for automated content

@@ -22,7 +22,7 @@ export default function RightFitSection() {
         a consultation with <strong>Geek @ Your Spot LLC</strong>. They specialize in configuring and deploying
         AvidXchange to fit your unique business requirements, ensuring a smooth transition to automated AP
         processes.&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Book your consultation now
         </button>&nbsp;to see how AvidXchange can transform your accounts payable operations.</p>
     </>

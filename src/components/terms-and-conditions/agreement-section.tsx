@@ -10,7 +10,7 @@ export default function AgreementSection() {
         By using the site, you agree to these terms. If you do not agree with them, please do not use the
         site. These terms take effect on <strong>October 15, 2026</strong>.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Our <Link id={`terms-and-conditions-agreement-privacy${idSuffix}`} href="/privacy-policy" className="text-[#C83803] hover:underline">Privacy
+        Our <Link id={`terms-and-conditions-agreement-privacy${idSuffix}`} href="/privacy-policy" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Privacy
         Policy</Link> explains what information we collect through the site and how we use it, and it forms
         part of these terms.</p>
     </>

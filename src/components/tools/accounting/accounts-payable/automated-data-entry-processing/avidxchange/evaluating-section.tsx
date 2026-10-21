@@ -28,7 +28,7 @@ export default function EvaluatingSection() {
         monetize electronic payments at scale, without changing banks or accounting systems.&quot;&nbsp;
         <a id={`tools-accounting-avidxchange-evaluating-source${idSuffix}`}
           href="https://www.avidxchange.com/corporate-payments/"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           AvidXchange
         </a></p>
     </>

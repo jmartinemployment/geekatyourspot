@@ -10,7 +10,7 @@ export default function OverviewSection() {
         international&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>. Imagine a digital
         product developer in Miami-Dade, thrilled at the prospect of expanding their market beyond local county
         lines. Yet, as they cross into the global arena, they find themselves ensnared by over 12,000 different
-        tax jurisdictions. Each jurisdiction has its own set of&nbsp;<Link id={`tools-accounting-complex-changing-laws-quaderno-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">complex and changing laws</Link>, and failing to comply
+        tax jurisdictions. Each jurisdiction has its own set of&nbsp;<Link id={`tools-accounting-complex-changing-laws-quaderno-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">complex and changing laws</Link>, and failing to comply
         can lead to costly penalties and lost revenue.</p>
       <p className="text-base text-white shadow-text pt-3">
         The reality is stark: compliance isn&#39;t just about knowing where your business operates; it&#39;s

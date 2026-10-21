@@ -6,7 +6,7 @@ export default function TamingTheBeastSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Take the example of Sarah, a finance manager at a mid-sized retail company.
-        Every month, she watches her&nbsp;<Link id={`use-cases-accounting-data-entry-taming-the-beast-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;team slog through a mountain of invoices, each one a potential error waiting to
+        Every month, she watches her&nbsp;<Link id={`use-cases-accounting-data-entry-taming-the-beast-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">accounts payable</Link>&nbsp;team slog through a mountain of invoices, each one a potential error waiting to
         happen. The process is slow, tedious, and fraught with human error. These manual tasks consume
         valuable hours that could be better spent on strategic activities. The frustration is palpable as
         delays in invoice processing ripple through the organization, affecting cash flow and vendor
@@ -17,12 +17,12 @@ export default function TamingTheBeastSection() {
         down on errors, speed up processing times, and free their teams to focus on higher-value work.
         Automated solutions like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-taming-dext${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Dext
         </Link>,&nbsp;
         Lightyear, and&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-taming-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Bill
         </Link>&nbsp;transform the way companies handle invoices, turning what was once a cumbersome process
         into a streamlined operation. These tools ensure data accuracy, reduce manual entry errors, and
@@ -40,11 +40,11 @@ export default function TamingTheBeastSection() {
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;into accounts payable workflows, companies can achieve
         over 99% accuracy in data capture, as evident with tools like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-taming-avidxchange${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           AvidXchange
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-taming-stampli${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Stampli
         </Link>. These platforms automate the extraction, validation, and processing of invoices,
         drastically reducing the time spent on manual tasks. The result is a more efficient, accurate, and
@@ -57,7 +57,7 @@ export default function TamingTheBeastSection() {
         workflows. Our approach focuses on minimizing disruptions while maximizing the benefits of
         automation, ultimately leading to cost savings, faster processing times, and improved accuracy in
         financial operations.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-data-entry-taming-the-beast-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-data-entry-taming-the-beast-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">AI Data Entry for Accounts Payable</Link> on our blog.</p>
     </>
   );
 

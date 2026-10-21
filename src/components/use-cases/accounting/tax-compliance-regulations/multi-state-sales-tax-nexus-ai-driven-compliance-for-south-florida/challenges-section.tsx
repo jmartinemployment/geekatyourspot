@@ -9,7 +9,7 @@ export default function ChallengesSection() {
         compliance</GlossaryLink>&nbsp;is that most small businesses hit the wall sooner than they expect. The
         triggers for economic nexus, crossing $100,000 in sales or 200 transactions in a state, are not hard to
         reach in an online-driven market. But the complexity comes not from the thresholds themselves, but from
-        the way current workflows break down at scale. Running&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-challenges-tax-compliance${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">tax compliance</Link>&nbsp;by hand, or relying on basic
+        the way current workflows break down at scale. Running&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-challenges-tax-compliance${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">tax compliance</Link>&nbsp;by hand, or relying on basic
         tools, leaves critical gaps that stack up until something breaks.</p>
       <p className="text-base text-white shadow-text pt-3">
         The first major failure is the blind spot around transaction counts. Many owners think only revenue

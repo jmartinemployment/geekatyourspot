@@ -42,7 +42,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-base text-white shadow-text pt-3">
               Gusto helps with Workers&#39; Compensation compliance by keeping your business up to date with
-              changing requirements. In Florida, those requirements come from the&nbsp;<a id="tools-accounting-payroll-tax-worker-misclassification-gusto-faq-source-workers-compensation" href="https://www.myfloridacfo.com/division/wc" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Division
+              changing requirements. In Florida, those requirements come from the&nbsp;<a id="tools-accounting-payroll-tax-worker-misclassification-gusto-faq-source-workers-compensation" href="https://www.myfloridacfo.com/division/wc" target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Division
               of Workers&#39; Compensation</a>, part of the Florida Department of Financial Services. If you use a
               Professional Employer Organization (PEO) through Gusto, the PEO can take on responsibilities such
               as payroll processing, taxes, and Workers&#39; Compensation compliance, letting you focus on daily

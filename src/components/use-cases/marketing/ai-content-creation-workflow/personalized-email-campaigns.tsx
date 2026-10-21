@@ -30,7 +30,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-base font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-jasper-ai-1"
-                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
@@ -72,7 +72,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-base font-normal text-white shadow-text">
                 Implementing predictive send timing with tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-contentstudio-1"
-                  href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/contentstudio" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
                   ContentStudio
                 </Link>&nbsp;can
                 help businesses achieve more with less effort. Geek @ Your Spot LLC can configure these systems to integrate seamlessly
@@ -83,7 +83,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
               <p className="pt-3 text-base font-normal text-white shadow-text">
-                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems" href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
+                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems" href="/use-cases/marketing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">marketing systems</Link>, ensuring
                 that businesses not only reach their audiences effectively but also maintain a personal touch that fosters long-term
                 relationships.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-driven-segmentation-strategies">Data-Driven Segmentation Strategies</h4>
@@ -113,7 +113,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-base font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-Jasper-AI-2-lg"
-                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
                   Jasper AI
                 </Link>&nbsp;and&nbsp;
                 Copy.ai&nbsp;excel in generating personalized content by analyzing customer data and preferences. These platforms assist in
@@ -155,7 +155,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <p className="pt-3 text-base font-normal text-white shadow-text">
                 Implementing predictive send timing with tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-contentstudio-2-lg"
-                  href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">
+                  href="/tools/marketing/contentstudio" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
                   ContentStudio
                 </Link>&nbsp;can
                 help businesses achieve more with less effort. Geek @ Your Spot LLC can configure these systems to integrate seamlessly
@@ -166,7 +166,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
               <p className="pt-3 text-base font-normal text-white shadow-text">
-                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems-lg" href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
+                Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems-lg" href="/use-cases/marketing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">marketing systems</Link>, ensuring
                 that businesses not only reach their audiences effectively but also maintain a personal touch that fosters long-term
                 relationships.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-driven-segmentation-strategies-lg">Data-Driven Segmentation Strategies</h4>

@@ -9,7 +9,7 @@ export default function LedeSection() {
         turns into a scramble. One person scrolls through an ancient Excel sheet, trying to match last Friday’s
         sales with the deposit that just hit the bank. Another is digging through a year’s worth of email
         chains, hunting for the latest invoice status before payroll runs. By the time someone tries to pull
-        together a real&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-lede-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#C83803] hover:underline">cash flow forecast</Link>, numbers are already stale, and hours have disappeared into double
+        together a real&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-lede-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">cash flow forecast</Link>, numbers are already stale, and hours have disappeared into double
         entry and error checks. You never get a clear answer in the moment you need it. Instead, you get last
         month’s picture, after the chance to act has passed.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -61,7 +61,7 @@ export default function LedeSection() {
         and tools that promised more than they delivered, you are in the right place. This guide is built from
         the ground up for South Florida’s small business owners and finance leads who want to see, decide, and
         act, without getting stuck in another month-end crunch.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-intelligent-resource-planning-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-intelligent-resource-planning-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">AI Resource Planning for Cash Flow</Link> on our blog.</p>
     </>
   );
 

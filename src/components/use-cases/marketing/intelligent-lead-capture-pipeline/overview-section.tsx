@@ -16,8 +16,8 @@ export default function OverviewSection() {
         captures data accurately and efficiently, reducing the time spent on manual tasks. This means sales
         teams can now allocate more time to strategic activities that directly contribute to revenue growth.
         The result? Faster lead processing, fewer errors, and an overall increase in sales potential.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-lead-capture-overview-blog${idSuffix}`} href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">Lead Capture Pipelines for B2B Sales</Link> on our blog.</p>
-      <p className="text-base text-white shadow-text pt-3">Lead capture is one part of the wider <Link id={`use-cases-marketing-intelligent-lead-capture-overview-ai-marketing-systems${idSuffix}`} href="/use-cases/marketing" className="text-[#C83803] hover:underline">AI Marketing Systems</Link> a small business can run.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-lead-capture-overview-blog${idSuffix}`} href="/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Lead Capture Pipelines for B2B Sales</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">Lead capture is one part of the wider <Link id={`use-cases-marketing-intelligent-lead-capture-overview-ai-marketing-systems${idSuffix}`} href="/use-cases/marketing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">AI Marketing Systems</Link> a small business can run.</p>
     </>
   );
 

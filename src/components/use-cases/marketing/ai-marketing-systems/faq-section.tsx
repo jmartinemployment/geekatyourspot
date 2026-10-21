@@ -62,7 +62,7 @@ export default function FAQSection() {
             </h3>
             <p className="text-base text-white shadow-text pt-3">
               The best AI tool for a small business depends on its specific needs and goals. For example, HubSpot offers
-              comprehensive marketing automation, while&nbsp;<Link id="use-cases-marketing-ai-marketing-systems-faq-hootsuite" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite" className="text-[#C83803] hover:underline">Hootsuite</Link>&nbsp;is great for social media management. Google Analytics provides
+              comprehensive marketing automation, while&nbsp;<Link id="use-cases-marketing-ai-marketing-systems-faq-hootsuite" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Hootsuite</Link>&nbsp;is great for social media management. Google Analytics provides
               valuable insights into customer behavior. Each tool serves different purposes, so businesses should evaluate their
               objectives and choose tools that align with their marketing strategies.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

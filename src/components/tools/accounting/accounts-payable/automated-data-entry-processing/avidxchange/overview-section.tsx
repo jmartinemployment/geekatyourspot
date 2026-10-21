@@ -13,7 +13,7 @@ export default function OverviewSection() {
         digital age.</p>
       <p className="text-base text-white shadow-text pt-3">
         This is where AvidXchange steps in. By automating invoice management, businesses can eliminate the
-        cumbersome manual&nbsp;<Link id={`tools-accounting-data-entry-avidxchange-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;process. With <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
+        cumbersome manual&nbsp;<Link id={`tools-accounting-data-entry-avidxchange-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">data entry</Link>&nbsp;process. With <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
         <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, AvidXchange captures data with
         precision, reducing errors and freeing up your team to focus on strategic tasks. The result? Faster
         payments, reduced operational costs, and increased control over your accounts payable workflow.
@@ -23,7 +23,7 @@ export default function OverviewSection() {
         efficiency and bolster security. Whether you&#39;re a small business or a large enterprise, integrating
         AI-powered automation into your workflow is no longer a luxury. It&#39;s a necessity to stay
         competitive. Ready to see the change for yourself?&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-avidxchange-overview-demonstration${idSuffix}`} className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-avidxchange-overview-demonstration${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Book a demonstration
         </button>&nbsp;today and watch your AP process transform.</p>
     </>

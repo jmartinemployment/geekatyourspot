@@ -55,7 +55,7 @@ export default function FaqSection() {
               Can I sync it with a CRM?
             </h3>
             <p className="text-base text-white shadow-text pt-3">
-              Yes, Dryrun can sync with CRMs like&nbsp;<Link id="tools-accounting-spreadsheet-data-dryrun-faq-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] hover:underline">Pipedrive</Link>. This allows users to layer unclosed deals over their live
+              Yes, Dryrun can sync with CRMs like&nbsp;<Link id="tools-accounting-spreadsheet-data-dryrun-faq-pipedrive" href="/tools/marketing/pipedrive" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Pipedrive</Link>. This allows users to layer unclosed deals over their live
               ledger data to see cash outcomes before deals close, providing a forward-looking view that goes beyond
               traditional accounting entries.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

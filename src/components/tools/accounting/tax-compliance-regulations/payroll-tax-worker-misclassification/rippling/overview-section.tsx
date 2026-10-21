@@ -13,7 +13,7 @@ export default function OverviewSection() {
         answer, and the fines are bigger than last quarter’s profits.</p>
       <p className="text-base text-white shadow-text pt-3">
         This is not rare in South Florida’s hospitality, seasonal services, and construction sectors. Owners
-        want to grow fast and keep costs low, but the rules around&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-rippling-overview-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;keep shifting. There’s no dedicated HR team, so the owner or office manager guesses at each new hire.
+        want to grow fast and keep costs low, but the rules around&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-rippling-overview-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;keep shifting. There’s no dedicated HR team, so the owner or office manager guesses at each new hire.
         One mistake, such as treating a regular worker as a contractor or missing a multi-state tax filing, can
         trigger penalties that put the whole operation at risk. Tax deadlines get missed, required forms are
         late, and the IRS or state revenue department flags the business for review. The process is slow,

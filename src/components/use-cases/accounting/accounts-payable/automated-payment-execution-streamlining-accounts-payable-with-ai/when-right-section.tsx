@@ -15,7 +15,7 @@ export default function WhenRightSection() {
         that process a high volume of invoices or deal with frequent payment errors stand to benefit
         significantly. Automated systems like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Bill
         </Link>&nbsp;can streamline these processes by integrating with your existing accounting software and
         reducing manual interventions.</p>
@@ -32,18 +32,18 @@ export default function WhenRightSection() {
         Once you’ve determined that Automated Payment Execution aligns with your business needs, the next step
         is to choose the right tool. Consider solutions like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-tipalti${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Tipalti
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-avidxchange${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           AvidXchange
         </Link>, which offer robust features for managing complex payment workflows and ensuring compliance
         with financial regulations.</p>
       <p className="text-base text-white shadow-text pt-3">
         Implementation is the final consideration. With tools like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-melio${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Melio
         </Link>, businesses can expect a seamless integration with their existing systems, minimizing downtime
         and ensuring a quick transition to automated processes. A successful rollout involves thorough
@@ -56,7 +56,7 @@ export default function WhenRightSection() {
         resources more effectively and improve overall financial management.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <button type="button" data-scheduler-link id={`use-cases-accounting-payment-execution-when-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`use-cases-accounting-payment-execution-when-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           booking your free consultation
         </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">

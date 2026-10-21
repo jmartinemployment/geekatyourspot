@@ -30,7 +30,7 @@ export default function WhoShouldConsiderSection() {
         accounts payable&nbsp;operations.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-approval-workflows-approvalmax-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-approval-workflows-approvalmax-right-fit-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           booking your free consultation
         </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">

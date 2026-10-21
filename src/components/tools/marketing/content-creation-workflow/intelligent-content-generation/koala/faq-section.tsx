@@ -176,7 +176,7 @@ export default function FaqSection() {
               Can I automate Koala content creation through APIs, Zapier, or Make?
             </h3>
             <p className="text-base text-white shadow-text pt-3">
-              Yes. Koala offers API access and webhooks. Its pricing page lists webhook connections for&nbsp;<Link id="tools-marketing-intelligent-content-generation-koala-faq-zapier" href="/tools/marketing/zapier" className="text-[#C83803] hover:underline">Zapier</Link>&nbsp;and Make. Paid plans also include MCP access, so compatible AI assistants can use Koala’s
+              Yes. Koala offers API access and webhooks. Its pricing page lists webhook connections for&nbsp;<Link id="tools-marketing-intelligent-content-generation-koala-faq-zapier" href="/tools/marketing/zapier" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Zapier</Link>&nbsp;and Make. Paid plans also include MCP access, so compatible AI assistants can use Koala’s
               research and writing tools. The API is for custom software, webhooks connect workflows, and MCP
               connects AI assistants.</p>
           </div>

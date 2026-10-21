@@ -43,7 +43,7 @@ export default function MapLeadSourceSection() {
       </h3>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         AI plays an integral role in mapping lead sources by providing insights that may not be immediately visible through manual analysis. Tools like&nbsp;
-        <Link id={`tools-marketing-6sense-map-lead-source${idSuffix}`} href="/tools/marketing/6sense" className="text-[#C83803] hover:underline">
+        <Link id={`tools-marketing-6sense-map-lead-source${idSuffix}`} href="/tools/marketing/6sense" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           6sense
         </Link>
         &nbsp;offer predictive intelligence to help businesses understand potential customer intent, allowing for better targeting and more personalized engagement.

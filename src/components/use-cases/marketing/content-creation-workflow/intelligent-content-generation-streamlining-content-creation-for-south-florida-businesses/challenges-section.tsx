@@ -50,7 +50,7 @@ export default function ChallengesSection() {
         to customer questions, unique processes, and hard-won knowledge, never makes it past the inbox or the
         job site. And the team, already stretched thin, spends more time fighting the process than growing the
         business. That’s the state of play for most small businesses in Miami-Dade, Broward, and Palm Beach
-        that haven’t overhauled their&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-challenges-ai-content-creation-workflow${idSuffix}`} href="/use-cases/marketing/ai-content-marketing-platforms" className="text-[#C83803] hover:underline">content creation workflow</Link>.</p>
+        that haven’t overhauled their&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-challenges-ai-content-creation-workflow${idSuffix}`} href="/use-cases/marketing/ai-content-marketing-platforms" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">content creation workflow</Link>.</p>
     </>
   );
 

@@ -33,7 +33,7 @@ export default function FAQSection() {
               software to project cash flow over a chosen period, adjusting assumptions as necessary.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 id="what-tools-can-i-use-for-cash-flow-forecasting" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">What tools can I use for cash flow forecasting?</h3>
-            <p className="pt-3 text-base font-normal text-white shadow-text">Popular tools for cash flow forecasting include Excel, specialized financial software like QuickBooks or&nbsp;<Link id="use-cases-accounting-cash-flow-forecasting-faq-floatapp" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#C83803] hover:underline">Float</Link>, and
+            <p className="pt-3 text-base font-normal text-white shadow-text">Popular tools for cash flow forecasting include Excel, specialized financial software like QuickBooks or&nbsp;<Link id="use-cases-accounting-cash-flow-forecasting-faq-floatapp" href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Float</Link>, and
               AI-driven platforms that offer predictive analytics. These tools help automate data collection, model cash flow
               scenarios, and provide insights for better financial planning.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

@@ -20,7 +20,7 @@ export default function EvaluatingSection() {
       <p className="text-base text-white shadow-text pt-3">
         In evaluating Stampli, it&#39;s also essential to compare it with other tools that offer automated
         approval workflows. While Stampli provides robust features like configurable invoice approval routing
-        and AI-powered invoice processing, tools like&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer competitive solutions.
+        and AI-powered invoice processing, tools like&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Bill</Link>&nbsp;also offer competitive solutions.
         These alternatives might focus more on specific integrations or feature sets, so understanding your
         business&#39;s unique needs is key to making the right choice.</p>
       <p className="text-base text-white shadow-text pt-3">

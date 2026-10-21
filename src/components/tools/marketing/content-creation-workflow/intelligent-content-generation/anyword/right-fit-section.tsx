@@ -53,7 +53,7 @@ export default function RightFitSection() {
         difference between falling behind and pulling ahead, one post at a time.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-content-generation-anyword-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-content-generation-anyword-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">booking
         your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>

@@ -26,7 +26,7 @@ export default function LedeSection() {
         compliance, wire a purpose-built tax engine into your billing stack, and eliminate the risk of silent
         violations. No more manual tracking, no more spreadsheet errors, no more legal blind spots. Just a
         clear, managed path to selling anywhere in the US, with zero manual upkeep and zero guesswork.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-multi-state-sales-tax-nexus-lede-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-multi-state-sales-tax-nexus-lede-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Sales Tax Nexus Before You Expand</Link> on our blog.</p>
     </>
   );
 

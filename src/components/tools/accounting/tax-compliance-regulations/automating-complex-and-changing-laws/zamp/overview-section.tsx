@@ -6,7 +6,7 @@ export default function OverviewSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Small business owners in Miami-Dade, Broward, and West Palm Beach counties often find themselves buried
-        under the weight of&nbsp;<Link id={`tools-accounting-complex-changing-laws-zamp-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">complex and changing laws</Link>. As sales grow, so does the complexity of
+        under the weight of&nbsp;<Link id={`tools-accounting-complex-changing-laws-zamp-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">complex and changing laws</Link>. As sales grow, so does the complexity of
         managing&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;across multiple
         states. Imagine the stress of juggling various tax regulations without the necessary in-house expertise,
         leading to a perpetual fear of missing a filing deadline or mishandling an audit notice. This isn’t just

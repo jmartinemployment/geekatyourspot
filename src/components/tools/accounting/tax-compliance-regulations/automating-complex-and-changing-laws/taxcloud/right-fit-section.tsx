@@ -30,7 +30,7 @@ export default function RightFitSection() {
         provide clarity on the benefits and potential return on investment that TaxCloud can offer.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-complex-changing-laws-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-complex-changing-laws-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">booking
         your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>

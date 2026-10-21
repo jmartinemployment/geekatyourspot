@@ -17,7 +17,7 @@ export default function OverviewSection() {
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes is time not spent
         on growth and innovation. The risk of human error looms large, with duplicate payments and compliance
         gaps being a continual threat. As businesses grow and the volume of transactions increases, these
-        inefficiencies are magnified, making it even harder to keep pace with demands. This is where Automated&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;comes in, offering a streamlined solution that transforms how financial operations
+        inefficiencies are magnified, making it even harder to keep pace with demands. This is where Automated&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Payment Execution</Link>&nbsp;comes in, offering a streamlined solution that transforms how financial operations
         are managed.</p>
       <p className="text-base text-white shadow-text pt-3">
         Automated Payment Execution revolutionizes the way businesses handle their finances by automating

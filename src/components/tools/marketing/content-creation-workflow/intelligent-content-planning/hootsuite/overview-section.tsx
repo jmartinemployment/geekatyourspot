@@ -12,7 +12,7 @@ export default function OverviewSection() {
         misses it. The brand voice wobbles. The cycle starts again the next week with the same blank-page
         dread.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is the reality for most small businesses without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hootsuite-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>. Planning is
+        This is the reality for most small businesses without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hootsuite-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Planning</Link>. Planning is
         reactive. The team burns hours debating topics and rewriting captions that do not convert. They gamble
         on hunches because they lack the data or tools that bigger players use. The outcome is predictable:
         most posts never reach the right people, miss local trends, and fail to drive leads or sales. What

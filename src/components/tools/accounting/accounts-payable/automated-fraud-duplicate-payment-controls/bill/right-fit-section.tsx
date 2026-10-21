@@ -31,7 +31,7 @@ export default function RightFitSection() {
         knowledgeable implementation partner like Geek @ Your Spot LLC can enhance the deployment process, ensuring
         that the business reaps the full benefits of automated fraud and duplicate payment controls.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <button type="button" data-scheduler-link id={`tools-accounting-fraud-controls-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-fraud-controls-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Book your free consultation
         </button>.</p>
     </>

@@ -19,7 +19,7 @@ export default function OverviewSection() {
         companies ten times their size. The result: businesses either pay for more than they need, or run thin
         and keep missing opportunities.</p>
       <p className="text-base text-white shadow-text pt-3">
-        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-voksha-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes this equation. Instead of letting calls go unanswered or paying
+        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-voksha-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Receptionist</Link>&nbsp;changes this equation. Instead of letting calls go unanswered or paying
         premium rates for basic tasks, small businesses in Broward, West Palm Beach, and Miami-Dade counties can
         capture every lead, day or night, with a tool that fits their real-world workflow and their budget.
         AI-powered receptionists answer instantly, filter spam, qualify leads, and book appointments, all for a

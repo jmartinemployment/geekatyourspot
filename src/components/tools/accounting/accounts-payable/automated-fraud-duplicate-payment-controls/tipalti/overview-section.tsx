@@ -17,7 +17,7 @@ export default function OverviewSection() {
         chance of human error, and slows down payment cycles, making it difficult to maintain healthy cash flow
         and supplier relationships.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated&nbsp;<Link id={`tools-accounting-fraud-controls-tipalti-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a solution to these pervasive issues. By
+        Automated&nbsp;<Link id={`tools-accounting-fraud-controls-tipalti-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a solution to these pervasive issues. By
         integrating <GlossaryLink slug="ai">AI</GlossaryLink>-driven systems, businesses can streamline
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> processes, reducing manual
         workload and minimizing errors. These controls flag anomalies and duplicates early, ensuring that only

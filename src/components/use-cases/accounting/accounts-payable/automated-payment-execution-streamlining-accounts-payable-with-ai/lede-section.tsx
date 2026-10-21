@@ -18,7 +18,7 @@ export default function LedeSection() {
         reduces errors and speeds up payments but also liberates business owners to focus on growth rather
         than paperwork. This page lays out how this transition can redefine business efficiency, saving you
         time and reducing costs while keeping your payment processes transparent and secure.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payment-execution-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payment-execution-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Automated Payment Execution Benefits</Link> on our blog.</p>
     </>
   );
 

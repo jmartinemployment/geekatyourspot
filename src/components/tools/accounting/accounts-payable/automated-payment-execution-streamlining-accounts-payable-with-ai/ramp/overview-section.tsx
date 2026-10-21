@@ -13,11 +13,11 @@ export default function OverviewSection() {
         for many small businesses, where every minute spent on administrative tasks is a minute not spent on
         growth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated&nbsp;<Link id={`tools-accounting-payment-execution-ramp-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
+        Automated&nbsp;<Link id={`tools-accounting-payment-execution-ramp-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven solutions like&nbsp;
         <a id={`tools-accounting-payment-execution-ramp-overview-bill-pay${idSuffix}`}
           href="https://ramp.com/blog/announcing-ramp-bill-pay"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Ramp Bill Pay
         </a>, businesses can transform their accounts payable processes into efficient, error-free operations.
         Imagine a system where invoices are automatically coded and matched to purchase orders, where payments

@@ -13,7 +13,7 @@ export default function OverviewSection() {
         go unopened, and website visits barely move. The result is a cycle of wasted effort, rising stress,
         and content that never seems to pay off.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is what happens when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-semrush-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;runs on guesswork. Without the right data, even
+        This is what happens when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-semrush-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">intelligent content planning</Link>&nbsp;runs on guesswork. Without the right data, even
         the best ideas miss their mark. Local teams get stuck on a treadmill, publishing for the sake of
         publishing, not because they know it will drive results. The pain is real: traffic drops with no
         warning, social engagement dries up, and the competition pulls ahead. Ninety percent of this content

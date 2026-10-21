@@ -10,7 +10,7 @@ export default function WhoWeAreSection() {
         Geek @ Your Spot LLC, and “you” means anyone who visits the site.</p>
       <p className="text-base text-white shadow-text pt-3">
         This policy takes effect on <strong>October 15, 2026</strong>. Your use of the site is also governed
-        by our <Link id={`privacy-policy-who-we-are-terms${idSuffix}`} href="/terms-and-conditions" className="text-[#C83803] hover:underline">Terms
+        by our <Link id={`privacy-policy-who-we-are-terms${idSuffix}`} href="/terms-and-conditions" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Terms
         of Service</Link>, which you should read alongside this policy.</p>
       <p className="text-base text-white shadow-text pt-3">
         We wrote this policy in plain language on purpose. We ask clients to trust us with their financial

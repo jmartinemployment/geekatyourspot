@@ -14,7 +14,7 @@ export default function ManualApChallengesSection() {
         The manual process of handling accounts payable involves a lot of paperwork and repetitive tasks. Each
         invoice needs to be manually entered into the system, checked for accuracy, and approved before
         payment is processed. This not only consumes valuable time but also increases the risk of human error.
-        Mistakes in&nbsp;<Link id={`tools-accounting-data-entry-bill-manual-ap-challenges-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;or lost paperwork can lead to late payments, which may incur penalties or
+        Mistakes in&nbsp;<Link id={`tools-accounting-data-entry-bill-manual-ap-challenges-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">data entry</Link>&nbsp;or lost paperwork can lead to late payments, which may incur penalties or
         damage supplier relationships.</p>
       <p className="text-base text-white shadow-text pt-3">
         Moreover, the lack of automation means that tracking and managing expenses is cumbersome. Without a
@@ -31,7 +31,7 @@ export default function ManualApChallengesSection() {
         your business&#39;s growth.&quot;&nbsp;
         <a id={`tools-accounting-bill-challenges-source${idSuffix}`}
           href="https://www.bill.com/dl/guide-to-ap-and-expense-report-automation"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Bill
         </a></p>
     </>

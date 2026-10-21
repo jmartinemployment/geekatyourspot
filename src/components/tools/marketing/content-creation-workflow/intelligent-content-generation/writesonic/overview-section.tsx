@@ -21,7 +21,7 @@ export default function OverviewSection() {
         not earn local clicks or citations. Without deep, structured pillar content, your business struggles
         to rank in search, and AI-driven answer engines barely notice you exist. This is the hidden cost: your
         team works harder but never gets the digital visibility needed to grow. The manual approach is not
-        just slow and draining, it is structurally outmatched by the scale and speed of&nbsp;<Link id={`tools-marketing-intelligent-content-generation-writesonic-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>.</p>
+        just slow and draining, it is structurally outmatched by the scale and speed of&nbsp;<Link id={`tools-marketing-intelligent-content-generation-writesonic-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Generation</Link>.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, this is the trap: you need constant, high-quality content to
         win local clients, but the old way of doing it by hand or hiring out is too slow, too expensive, and

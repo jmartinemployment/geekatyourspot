@@ -35,7 +35,7 @@ export default function ChallengesSection() {
         predicted.&quot;&nbsp;
         <a id={`tools-accounting-accounts-receivable-upflow-challenges-source${idSuffix}`}
           href="https://upflow.io/software/best-cash-flow-forecasting"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Upflow
         </a></p>
       <p className="text-base text-white shadow-text pt-3">

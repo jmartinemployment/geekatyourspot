@@ -23,7 +23,7 @@ export default function FAQSection() {
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 id="what-is-the-ap-process-in-accounts-payable" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">What is the AP process in accounts payable?</h3>
             <p className="pt-3 text-base font-normal text-white shadow-text">The AP process in accounts payable&nbsp;includes several steps: invoice receipt, verification of details, approval
-              routing, and&nbsp;<Link id="use-cases-accounting-accounts-payable-faq-payment-execution" href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] shadow-text-white hover:underline">payment execution</Link>. By automating these processes, organizations can reduce processing time and minimize
+              routing, and&nbsp;<Link id="use-cases-accounting-accounts-payable-faq-payment-execution" href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">payment execution</Link>. By automating these processes, organizations can reduce processing time and minimize
               errors, ensuring that vendors are paid accurately and on time.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 id="what-is-invoicing-in-accounts-payable" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">What is invoicing in accounts payable?</h3>

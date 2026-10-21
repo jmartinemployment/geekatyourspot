@@ -14,12 +14,12 @@ export default function OverviewSection() {
         story: overworked staff, mounting frustration, and financial reports that never quite add up, all of
         which distract from the real business of serving customers and growing revenue.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is where Automated&nbsp;<Link id={`tools-accounting-fraud-controls-bill-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
+        This is where Automated&nbsp;<Link id={`tools-accounting-fraud-controls-bill-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
         systems, businesses can automate the tedious task of invoice management, significantly reducing the
         chance of duplicates and fraudulent transactions. Solutions like those offered by&nbsp;
         <a id={`tools-accounting-fraud-controls-bill-overview-bill${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           BILL
         </a>&nbsp;provide automated invoice matching and purchase order matching, flagging potential duplicates
         before payments go through. This not only saves time but also safeguards cash flow, ensuring that money

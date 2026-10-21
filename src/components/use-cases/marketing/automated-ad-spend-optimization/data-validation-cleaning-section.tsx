@@ -21,11 +21,11 @@ export default function DataValidationCleaningSection() {
         Data validation is critical in ensuring that the information driving ad spend decisions is accurate and consistent.
         Tools like&nbsp;
         <Link id={`automated-ad-spend-optimization-validation-anomalo${idSuffix}`}
-        href="/tools/marketing/anomalo" className="text-[#C83803] hover:underline">
+        href="/tools/marketing/anomalo" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
         Anomalo
       </Link>&nbsp;and&nbsp;
         <Link id={`automated-ad-spend-optimization-validation-great-expectations${idSuffix}`}
-        href="/tools/marketing/great-expectations" className="text-[#C83803] hover:underline">
+        href="/tools/marketing/great-expectations" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
         Great Expectations
       </Link>&nbsp;offer automated solutions to monitor data quality. These tools can identify anomalies and
         inconsistencies in real-time, providing alerts that allow for swift corrective action. By integrating these tools,
@@ -58,7 +58,7 @@ export default function DataValidationCleaningSection() {
         Automated data cleaning is a key component in maintaining data quality, reducing the time spent on manual corrections
         and minimizing human error. Tools such as&nbsp;
         <Link id={`automated-ad-spend-optimization-cleaning-qualytics${idSuffix}`}
-        href="/tools/marketing/qualytics" className="text-[#C83803] hover:underline">
+        href="/tools/marketing/qualytics" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
         Qualytics
       </Link>&nbsp;streamline this process by automating the identification and rectification of data errors.</p>
       <p className="pt-3 text-base font-normal text-white shadow-text">

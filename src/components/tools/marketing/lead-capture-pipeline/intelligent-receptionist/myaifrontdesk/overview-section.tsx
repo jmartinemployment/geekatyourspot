@@ -23,7 +23,7 @@ export default function OverviewSection() {
         expensive and inconsistent, and hiring a full-time front desk is out of reach for most small businesses.
         The result: inbound lead leakage, after-hours bottlenecks, and a calendar that never quite fills up.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is where an&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the game. Unlike voicemail or a basic phone tree, an
+        This is where an&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Receptionist</Link>&nbsp;changes the game. Unlike voicemail or a basic phone tree, an
         AI-powered receptionist answers every call instantly, holds a real conversation in plain language,
         qualifies the lead, books appointments on your calendar, and logs every detail to
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. It keeps your business open 24/7, so you never

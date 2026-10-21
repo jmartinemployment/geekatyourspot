@@ -61,7 +61,7 @@ export default function IntroductionSection() {
         delivering personalized content and follow-ups based on individual customer behaviors and preferences. Geek @ Your Spot LLC helps businesses set up these automated nurturing campaigns, improving conversion rates and customer
         satisfaction.</p>
       <h3 id={`ad-spend-optimization${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Ad Spend Optimization</h3>
-      <p className="pt-3 text-base font-normal text-white shadow-text">Effective&nbsp;<Link id={`use-cases-marketing-ai-marketing-systems-introduction-automated-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend</Link>&nbsp;management is critical to maximizing marketing ROI. AI tools optimize ad placement and budget
+      <p className="pt-3 text-base font-normal text-white shadow-text">Effective&nbsp;<Link id={`use-cases-marketing-ai-marketing-systems-introduction-automated-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ad spend</Link>&nbsp;management is critical to maximizing marketing ROI. AI tools optimize ad placement and budget
         allocation by analyzing performance data and predicting future trends. Geek @ Your Spot LLC provides expertise in
         deploying these tools to ensure that advertising dollars are spent wisely, achieving better results with less waste.
       </p>

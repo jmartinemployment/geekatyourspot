@@ -82,4 +82,6 @@ Reason: it keeps the orange look while meeting the standard. Defining it once av
 
 **Decided on 2026-10-21:** "Orange is my color." Orange stays the link colour on the two blue sections, and navy stays on teal, brown and orange, with the contrast above accepted. White links are not used.
 
+**White shadow on orange links, decided 2026-10-21:** "That is settled, text-shadow-2xs text-shadow-white". Eight shadows were compared side by side on both blue sections, and this one, a thin sharp white edge under each letter, read the most clearly. It is on 416 orange link classes, the `GlossaryLink` default, the blog's orange link class in `section-palette.ts`, the department links on `/use-cases`, the glossary page's back link and the footer link. The home page's orange links sit on white cards, where a white shadow would not show, so they keep their class. The one-page trial of `shadow-text-white` is replaced; the class stays defined in `globals.css` at 50%.
+
 **Status:** Done.

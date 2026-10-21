@@ -34,7 +34,7 @@ export default function EvaluatingSection() {
         significantly reduce manual effort, minimize errors, and improve cash flow.&quot;&nbsp;
         <a id={`tools-accounting-bill-evaluating-source${idSuffix}`}
           href="https://www.bill.com/dl/guide-to-ap-and-expense-report-automation"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Bill
         </a></p>
     </>

@@ -52,7 +52,7 @@ export default function CostOfManualSection() {
         on growth.&quot;&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-cost-of-manual-source${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Bill
         </a></p>
     </>

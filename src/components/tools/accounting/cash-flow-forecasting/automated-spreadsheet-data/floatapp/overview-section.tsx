@@ -16,7 +16,7 @@ export default function OverviewSection() {
         available liquidity.</p>
       <p className="text-base text-white shadow-text pt-3">
         This disconnect can result in strained supplier relationships, missed payroll, and stunted growth
-        opportunities. The reliance on manual&nbsp;<Link id={`tools-accounting-spreadsheet-data-floatapp-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;exacerbates the issue, as outdated figures and human
+        opportunities. The reliance on manual&nbsp;<Link id={`tools-accounting-spreadsheet-data-floatapp-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">spreadsheet data</Link>&nbsp;exacerbates the issue, as outdated figures and human
         errors creep into the forecasting process. Each week, Maria spends hours manually updating her cash flow
         projections, only to find them misaligned with reality. The tedious task of re-keying data, combined with
         the risk of formula errors, leaves her frustrated and financially exposed. It&#39;s a cycle of uncertainty

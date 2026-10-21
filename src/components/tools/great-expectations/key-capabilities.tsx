@@ -31,7 +31,7 @@ export default function KeyCapabilitiesSection() {
                   critical data points are covered.</li>
               </ul>
               <p className="text-base text-white shadow-text pt-3">In the realm of automated ad spend optimization, these capabilities translate into more accurate targeting and
-                bidding strategies. For example, tools like Smartly.io and&nbsp;<Link id="tools-marketing-great-expectations-key-capabilities-jasper-ai" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">Jasper</Link>&nbsp;rely on precise data inputs to optimize ad
+                bidding strategies. For example, tools like Smartly.io and&nbsp;<Link id="tools-marketing-great-expectations-key-capabilities-jasper-ai" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Jasper</Link>&nbsp;rely on precise data inputs to optimize ad
                 campaigns. By using Great Expectations, businesses can ensure that these inputs are validated and reliable, leading
                 to better campaign performance and reduced ad spend wastage.</p>
             </div>
@@ -63,7 +63,7 @@ export default function KeyCapabilitiesSection() {
                   critical data points are covered.</li>
               </ul>
               <p className="text-base text-white shadow-text pt-3">In the realm of automated ad spend optimization, these capabilities translate into more accurate targeting and
-                bidding strategies. For example, tools like Smartly.io and&nbsp;<Link id="tools-marketing-great-expectations-key-capabilities-jasper-ai-lg" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">Jasper</Link>&nbsp;rely on precise data inputs to optimize ad
+                bidding strategies. For example, tools like Smartly.io and&nbsp;<Link id="tools-marketing-great-expectations-key-capabilities-jasper-ai-lg" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Jasper</Link>&nbsp;rely on precise data inputs to optimize ad
                 campaigns. By using Great Expectations, businesses can ensure that these inputs are validated and reliable, leading
                 to better campaign performance and reduced ad spend wastage.</p>
             </div>

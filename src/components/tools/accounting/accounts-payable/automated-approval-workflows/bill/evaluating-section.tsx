@@ -16,14 +16,14 @@ export default function EvaluatingSection() {
         Essentials plan, as reported in&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-evaluating-software-comparison${idSuffix}`}
           href="https://www.bill.com/listicle"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Software Comparison
         </a>. This transparency allows businesses to estimate costs before committing. The Corporate plan
         includes custom approval policies and multi-entity capabilities, which are beneficial for growing
         businesses. However, it&#39;s important to note that certain features, like purchase order creation
         and 2-way matching, are only available on higher-tier plans or as add-ons.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In comparison to other platforms like&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>, which are also popular for AP
+        In comparison to other platforms like&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">AvidXchange</Link>, which are also popular for AP
         automation, Bill stands out for its&nbsp;
         AI-driven capabilities. The AI invoice coding reduces manual
         time by 20% and captures key invoice fields with 99% accuracy. This level of precision is

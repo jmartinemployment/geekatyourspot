@@ -21,7 +21,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         The reality for small businesses in West Palm Beach, Broward, and Miami-Dade is that the traditional
         approach to content creation is broken. It burns valuable hours, stretches thin resources, and almost
-        always leaves money on the table by letting high-value information leak away.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this by turning every recorded conversation, webinar, or meeting into a stream of
+        always leaves money on the table by letting high-value information leak away.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Generation</Link>&nbsp;changes this by turning every recorded conversation, webinar, or meeting into a stream of
         ready-to-publish assets, blog posts, social updates, email campaigns, and more, without adding extra
         headcount or breaking the budget. For a local team with a backlog of untapped content, this is how you
         finally match the output of bigger players and keep your message in front of customers all year.</p>

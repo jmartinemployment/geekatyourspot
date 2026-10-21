@@ -30,7 +30,7 @@ export default function ManualBookkeepingChallengesSection() {
         for firms that want to stay competitive.&quot;&nbsp;
         <a id={`tools-accounting-dext-challenges-source${idSuffix}`}
           href="https://dext.com/us/blog/single/ai-and-automation-in-accounting-how-to-build-a-smarter-scalable-practice-with-dext"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           Dext
         </a></p>
     </>

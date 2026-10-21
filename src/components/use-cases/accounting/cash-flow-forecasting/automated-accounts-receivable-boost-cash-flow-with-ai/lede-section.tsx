@@ -28,7 +28,7 @@ export default function LedeSection() {
         data-driven expected payment dates, these platforms bring accuracy and reliability to your financial
         planning. Automated, humanized email cadences adjust their tone based on client history, while centralized
         communication logs ensure that any disputes or payment promises are documented and managed effectively.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-accounts-receivable-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-accounts-receivable-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Automated Receivables and Cash Flow</Link> on our blog.</p>
     </>
   );
 

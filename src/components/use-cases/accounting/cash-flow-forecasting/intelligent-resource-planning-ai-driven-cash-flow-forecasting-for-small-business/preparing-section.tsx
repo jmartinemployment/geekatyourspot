@@ -57,7 +57,7 @@ export default function PreparingSection() {
         you set at the start: more time, more accuracy, and more control over your cash and your business.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-accounting-intelligent-resource-planning-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-accounting-intelligent-resource-planning-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">booking
         your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>

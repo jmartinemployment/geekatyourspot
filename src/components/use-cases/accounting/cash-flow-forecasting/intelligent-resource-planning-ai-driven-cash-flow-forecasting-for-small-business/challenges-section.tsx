@@ -17,7 +17,7 @@ export default function ChallengesSection() {
         in Broward or holding off on new hires until a contract clears, the forecast lags behind. This is how a
         team ends up over-hiring or moving too slow on staffing, burning payroll through a slow summer, or
         missing the moment to scale up for a busy
-        season.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-jirav${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav" className="text-[#C83803] hover:underline">Jirav</Link>&nbsp;addresses
+        season.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-jirav${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Jirav</Link>&nbsp;addresses
         this by linking accounting, payroll, and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;data for
         driver-based forecasting, so the plan updates as reality changes, not a month later.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -25,24 +25,24 @@ export default function ChallengesSection() {
         what if a key client cuts spend, or a vendor bill comes due early, by copying tabs and editing formulas
         by hand. This is not just slow; it is fragile. A single error or missed update, especially when pulling
         data
-        from&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#C83803] hover:underline">QuickBooks</Link>&nbsp;or
+        from&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">QuickBooks</Link>&nbsp;or
         a payroll system, can throw off an entire budget. When finance teams present fractured spreadsheets to a
         bank, the lack of a unified, professional view undermines their credibility. Jirav’s pre-built
         frameworks and rolling forecast engines replace this patchwork with templates and dashboards that
         eliminate manual errors and bring scenario planning into a single, reliable place.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Meanwhile, cash flow visibility gets trapped in the details of&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;and payable cycles.
+        Meanwhile, cash flow visibility gets trapped in the details of&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">accounts receivable</Link>&nbsp;and payable cycles.
         Revenue on paper does not match money in the bank, especially when customers pay late or bills stack up
-        unexpectedly.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-take-the-helm${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm" className="text-[#C83803] hover:underline">Take
+        unexpectedly.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-take-the-helm${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Take
         the Helm</Link>&nbsp;was built for this exact pain, it gives a live, drag-and-drop timeline where you
-        can see how changing one payment date changes your cash runway. Sudden&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">payroll taxes</Link>, local compliance
+        can see how changing one payment date changes your cash runway. Sudden&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">payroll taxes</Link>, local compliance
         fees, or a late-paying client no longer catch you off guard, because the system predicts clearance dates
         and shows cash positions for the next week, month, or quarter.</p>
       <p className="text-base text-white shadow-text pt-3">
         The next trap is the hidden cost of manual data entry and fragmented data sources. When teams spend
         hours keying invoices into QuickBooks, then exporting and cleaning the data for analysis, errors creep
         in and the view is always outdated. This is
-        where&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-cashflowfrog${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog" className="text-[#C83803] hover:underline">Cashflowfrog</Link>&nbsp;steps
+        where&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-cashflowfrog${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Cashflowfrog</Link>&nbsp;steps
         in, by automatically generating real-time cash charts from synced ledgers, it removes the need for
         technical accounting expertise and lets the owner see their real cash position, not just what should be
         there on paper. It flags low cash points and grades customers by payment speed, so you know which
@@ -50,7 +50,7 @@ export default function ChallengesSection() {
       <p className="text-base text-white shadow-text pt-3">
         Even with the right numbers, many businesses get lost in the reporting. Dense general ledgers and basic
         dashboards hide the levers that drive profit and
-        cash.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-fathom${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" className="text-[#C83803] hover:underline">Fathom</Link>&nbsp;solves
+        cash.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-fathom${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Fathom</Link>&nbsp;solves
         this by consolidating data across locations or divisions, tracking KPIs that matter, like unit economics
         for each storefront, and turning flat reports into step-by-step stories that leaders can actually use.
         It models the exact breakeven and sensitivity points for operations, so decisions are based on what

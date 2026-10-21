@@ -18,7 +18,7 @@ export default function OverviewSection() {
         at once, especially across South Florida’s fast-moving service industries where timing and
         responsiveness decide who wins the work.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The risk grows when you rely on pure automation. Many so-called&nbsp;<Link id={`tools-marketing-intelligent-receptionist-smith-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;systems promise
+        The risk grows when you rely on pure automation. Many so-called&nbsp;<Link id={`tools-marketing-intelligent-receptionist-smith-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Receptionist</Link>&nbsp;systems promise
         round-the-clock coverage but fall short in real-world situations. They drop the ball when a caller needs
         empathy, judgment, or fast escalation, missing the nuance in a distressed customer’s voice or failing to
         gather the right intake details for a high-value lead. Worse, a rigid automated script can pass along

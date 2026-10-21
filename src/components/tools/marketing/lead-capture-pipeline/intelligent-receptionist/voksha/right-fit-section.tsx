@@ -53,7 +53,7 @@ export default function RightFitSection() {
         your customers never know you were busy in the first place.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-receptionist-voksha-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-receptionist-voksha-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">booking
         your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>

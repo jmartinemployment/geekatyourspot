@@ -37,8 +37,8 @@ export default function LedeSection() {
         compete, without gambling the business on every pay run. This page shows you, step by step, how to move
         from risk and confusion to clarity, automation, and peace of mind, so you can grow without fear of the
         next audit notice.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payroll-tax-worker-misclassification-lede-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers & Payroll Tax</Link> on our blog.</p>
-      <p className="text-base text-white shadow-text pt-3">Payroll tax is one part of our <Link id={`use-cases-accounting-payroll-tax-worker-misclassification-lede-tax-hub${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">Tax Compliance &amp; Regulations</Link> use case.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payroll-tax-worker-misclassification-lede-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Misclassified Workers & Payroll Tax</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">Payroll tax is one part of our <Link id={`use-cases-accounting-payroll-tax-worker-misclassification-lede-tax-hub${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Tax Compliance &amp; Regulations</Link> use case.</p>
     </>
   );
 

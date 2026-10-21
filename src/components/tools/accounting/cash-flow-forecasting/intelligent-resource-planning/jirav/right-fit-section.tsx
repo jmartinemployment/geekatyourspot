@@ -62,7 +62,7 @@ export default function RightFitSection() {
         fit is clear once you see where your week goes, and where you want it back.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-intelligent-resource-planning-jirav-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-intelligent-resource-planning-jirav-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">booking
         your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>

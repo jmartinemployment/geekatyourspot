@@ -21,16 +21,16 @@ export default function OverviewSection() {
         is where&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-overview-approval-process${idSuffix}`}
           href="https://www.bill.com/blog/accounts-payable-approval-process"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           automated approval workflows
         </a>&nbsp;come into play, offering a seamless solution to streamline and modernize these outdated
         processes.</p>
       <p className="text-base text-white shadow-text pt-3">
-        With automated&nbsp;<Link id={`tools-accounting-approval-workflows-bill-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
+        With automated&nbsp;<Link id={`tools-accounting-approval-workflows-bill-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
         like&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-overview-bill${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
           BILL
         </a>&nbsp;facilitate the routing of invoices to the right people, ensuring timely approvals without
         the manual back-and-forth. By implementing&nbsp;
