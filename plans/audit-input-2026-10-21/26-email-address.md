@@ -45,4 +45,9 @@ Reason: it covers the places readers look for it, and it keeps the address off e
 - The rendered pages and the JSON-LD show the same address.
 - A test email to it arrives.
 
-**Status:** Open, waiting on your decision.
+**Changed on 2026-10-21.** You chose `contact@geekatyourspot.com` ("okay contact it is") over `jeffm@` and `sales@`.
+- The footer's Contact column shows it as a mailto link under the phone, on every page and in both breakpoint copies.
+- **Yours to do:** make sure `contact@geekatyourspot.com` delivers to you.
+- The Organization node in `src/lib/seo/organization.ts` does not carry an `email` yet. Say so if you want it added.
+
+**Status:** Done, except checking that the address delivers.

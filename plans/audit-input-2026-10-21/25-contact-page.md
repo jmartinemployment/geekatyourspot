@@ -63,4 +63,10 @@ Reason: the action is already in this repo and passes the security policy. Showi
 - A local build shows the page on phone and desktop, the breadcrumb, the footer link, no security-policy errors, and the form failing closed with the two email settings unset.
 - **Yours to do:** set `NEXT_PUBLIC_FROM_EMAIL` (a sender on the domain Resend has verified) and `CONTACT_TO_EMAIL` (where messages go) in Vercel. Until then the form tells visitors to call.
 
-**Status:** Done, except the two email settings in Vercel.
+**Deleted later on 2026-10-21.** You said "Delete contact or hide, maybe I can think of something", then: the address "is not an office it is my home address, with a gated entry", "And now you know why there is no contact".
+- The page and its form are deleted. They are in `bc7a0c7` if you want them back.
+- The footer shows the phone and address again, and `/llms.txt` no longer lists the page.
+- `submit-contact.ts` keeps the fail-closed version, with no fallback addresses. Nothing calls it.
+- If a contact page comes back, it shows no street address, never calls the address an office, and its map shows the service area, not the house.
+
+**Status:** Closed. No contact page, by your decision.
