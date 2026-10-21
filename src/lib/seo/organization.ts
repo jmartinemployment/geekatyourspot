@@ -11,7 +11,7 @@
 export const SITE_URL = "https://geekatyourspot.com";
 
 /** The Google Business Profile, opened by its place id. */
-const GBP_MAP_URL = "https://www.google.com/maps/place/?q=place_id:ChIJ0_NMl_5-Y24RH4XyLq8Pg3s";
+export const GBP_MAP_URL = "https://www.google.com/maps/place/?q=place_id:ChIJ0_NMl_5-Y24RH4XyLq8Pg3s";
 
 export const AREA_SERVED = [
   { "@type": "City", name: "Delray Beach" },

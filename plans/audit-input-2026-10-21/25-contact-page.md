@@ -56,4 +56,11 @@ Reason: the action is already in this repo and passes the security policy. Showi
 - A crawl of the local build shows the page reachable from `/`, with the name, address and phone matching the Organization node.
 - If there's a form, a test submission arrives, and the console shows no security-policy errors.
 
-**Status:** Open, waiting on your decision.
+**Changed on 2026-10-21.** You said "go for it", with a form, and "remove contact info from footer then".
+- `src/app/(site)/contact/page.tsx` is "Contact Jeff Martin": the hero, "Call or Visit" with the address, phone, office hours and Google Maps link, "Send a Message" with the form, and the scheduler. It carries a `ContactPage` node and the breadcrumb.
+- The form (`src/components/contact/contact-form.tsx`) takes first and last name, email, phone and a message, with a hidden field that only bots fill in. It sends through `submitContact`, which escapes what visitors type, sets the reply-to to their email, and has no fallback addresses. With `RESEND_API_KEY`, `NEXT_PUBLIC_FROM_EMAIL` or `CONTACT_TO_EMAIL` unset, it sends nothing and the page asks the visitor to call.
+- The footer no longer shows the address and phone. Contact is a link under Resources, and the empty `navLinks` list is gone. `/llms.txt` and the sitemap list the page.
+- A local build shows the page on phone and desktop, the breadcrumb, the footer link, no security-policy errors, and the form failing closed with the two email settings unset.
+- **Yours to do:** set `NEXT_PUBLIC_FROM_EMAIL` (a sender on the domain Resend has verified) and `CONTACT_TO_EMAIL` (where messages go) in Vercel. Until then the form tells visitors to call.
+
+**Status:** Done, except the two email settings in Vercel.

@@ -218,6 +218,7 @@ This is verified, and it is the navbar target for Marketing.
   - The home body never names the business.
   - 31 pages use the third-person boilerplate "...as an AI implementation consultancy, plays a crucial role... they".
 - **Missing pages.** `/about` and `/contact` return 404. There is no email address on the site, and booking works only with JavaScript.
+- **Contact page added, 2026-10-21, at the owner's direction (SA M4).** `/contact` ("Contact Jeff Martin") has the address, phone, office hours and map link under "Call or Visit", a message form under "Send a Message", and the scheduler, with a `ContactPage` node. The form sends through `src/lib/actions/submit-contact.ts`, which now fails closed: with `RESEND_API_KEY`, `NEXT_PUBLIC_FROM_EMAIL` or `CONTACT_TO_EMAIL` unset, nothing is sent and the visitor is asked to call. The last two are not set in Vercel yet, so the form does not deliver until the owner sets them. At the owner's direction the footer no longer shows the address and phone; it links to Contact under Resources. `/llms.txt` lists the page. The same note is under M4 in `plans/seo-audit-2026-10-20.md`.
 - **What competitors do.** Every local competitor names a founder with Person schema, shows testimonials, or shows case results.
 - **Fix.**
   - One visible sentence on the home page, in both breakpoint copies, saying who the business is, where it is and what it does.

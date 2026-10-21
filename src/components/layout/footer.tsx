@@ -5,12 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { gtmLinkId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 
-const navLinks = [
-  // { label: "Home", href: "/" },
-  // { label: "AI Solutions", href: "/ai-solutions" },
-  // { label: "Contact", href: "/contact" },
-];
-
 /**
  * Links to every index page. The navbar builds its links in the browser only after the menu
  * opens, so search engines reach these pages through this column and nowhere else.
@@ -39,6 +33,7 @@ const HUB_GROUPS = [
       { label: "Glossary", href: "/glossary" },
       { label: "Methodology", href: "/methodology" },
       { label: "About", href: "/about" },
+      { label: "Contact", href: "/contact" },
     ],
   },
 ] as const;
@@ -135,28 +130,6 @@ export default function Footer() {
     </>
   );
 
-  const contact = (idSuffix = "") => (
-    <>
-      <h2 className="text-white text-base shadow-text font-bold uppercase">
-        Contact
-      </h2>
-      <ul>
-        <li className="py-2">
-          <span className="font-bold text-white text-sm shadow-text">
-            2025 NW 18th Street <br /> Delray Beach, FL 33445
-          </span><br />
-          <a
-            id={`${gtmLinkIdFromHref("tel:+15615263512")}${idSuffix}`}
-            href="tel:+15615263512"
-            className="font-bold text-white text-sm hover:text-[#c83803] transition-colors"
-          >
-            (561) 526-3512
-          </a>
-        </li>
-      </ul>
-    </>
-  );
-
   const legal = (idSuffix = "") => (
     <>
       <p className="inline-block text-center text-xs">
@@ -196,7 +169,6 @@ export default function Footer() {
               <HubGroup key={group.label} group={group} />
             ))}
           </div>
-          <div>{contact()}</div>
         </div>
         <div className="border-t border-white/5 flex flex-col items-center justify-center py-5 mt-5">
           <div className="flex flex-col w-full items-center gap-3 text-slate-500 uppercase tracking-widest text-center px-5">
@@ -207,14 +179,13 @@ export default function Footer() {
       <div className="hidden flex-col justify-center container mt-5 pt-5 lg:flex">
         <div className="grid grid-cols-12 gap-4 container py-5 my-5">
           <div className="col-span-3">{brand("-lg")}</div>
-          <div className="col-span-6">
+          <div className="col-span-9">
             <div className="grid grid-cols-3 gap-4">
               {HUB_GROUPS.map((group) => (
                 <HubGroup key={group.label} group={group} idSuffix="-lg" />
               ))}
             </div>
           </div>
-          <div className="col-span-3">{contact("-lg")}</div>
         </div>
         <div className="border-t border-white/5 flex flex-col items-center justify-center py-5 mt-5">
           <div className="flex flex-row w-full justify-between items-center gap-6 text-slate-500 uppercase tracking-widest text-center px-5">

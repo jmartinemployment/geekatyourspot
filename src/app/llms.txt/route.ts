@@ -26,7 +26,7 @@ type Section = Readonly<{ heading: string; hrefs: readonly string[] }>;
 
 function sections(): Section[] {
   return [
-    { heading: "About", hrefs: ["/", "/about", "/methodology"] },
+    { heading: "About", hrefs: ["/", "/about", "/methodology", "/contact"] },
     {
       heading: "Use Cases",
       hrefs: [
