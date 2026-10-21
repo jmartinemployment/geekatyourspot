@@ -21,7 +21,7 @@ export default function OverviewSection() {
         follow-up email, nothing to repurpose for the next campaign. As a result, lead pipelines dry up,
         customer engagement drops off, and every month feels like starting from scratch.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-imagine-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Generation</Link>&nbsp;is changing this for small businesses in Miami-Dade, Broward and West
+        <Link id={`tools-marketing-intelligent-content-generation-imagine-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is changing this for small businesses in Miami-Dade, Broward and West
         Palm Beach. With the right AI workflow, a single product photo turns into a full suite of branded
         visuals, short-form videos, and campaign-ready assets in minutes, not weeks. AI repurposes your best
         content for every channel, schedules it in bulk, and routes drafts for approval before anything goes

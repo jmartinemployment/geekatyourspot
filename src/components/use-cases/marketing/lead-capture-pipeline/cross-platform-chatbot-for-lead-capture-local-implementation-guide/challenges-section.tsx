@@ -13,7 +13,7 @@ export default function ChallengesSection() {
       <p className="text-base text-white shadow-text pt-3">
         The real issue is not just missing a few messages. It’s the way your communication channels operate in
         silos.
-        With&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-challenges-my-ai-front-desk${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">My
+        With&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-challenges-my-ai-front-desk${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk" className="text-[#C83803] hover:underline">My
         AI Front Desk</Link>, the core failure is letting inbound calls, texts, and web inquiries go
         completely unanswered during off-hours or high-traffic periods. Staff cannot be everywhere at once, so
         you end up with a growing pile of missed calls, unread DMs, and forgotten contact forms. Even when
@@ -25,13 +25,13 @@ export default function ChallengesSection() {
         from Instagram into a spreadsheet, then paste a name from WhatsApp into an email, hoping not to
         misspell it. This manual patchwork creates a mess of duplicated or missed details, and no one has a
         full view of the customer
-        journey.&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-challenges-botpenguin${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">BotPenguin</Link>&nbsp;was
+        journey.&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-challenges-botpenguin${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" className="text-[#C83803] hover:underline">BotPenguin</Link>&nbsp;was
         built to stop this, but the breakdown it solves is painfully common, lead details are scattered across
         separate apps, each managed by a different team member, and there’s no unified lead pipeline. The
         result: no one knows which prospect is hot, which has already been qualified, or even if two messages
         are from the same person.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`use-cases-marketing-cross-platform-chatbot-challenges-manychat${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Manychat</Link>&nbsp;addresses
+        <Link id={`use-cases-marketing-cross-platform-chatbot-challenges-manychat${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-[#C83803] hover:underline">Manychat</Link>&nbsp;addresses
         a more subtle but equally costly breakdown: businesses get buying signals in comments or DMs but do
         not respond consistently, and those interactions never make it to the sales pipeline. A customer
         comments on a post or sends a DM, and staff either miss it entirely or handle it ad hoc, there’s no
@@ -39,7 +39,7 @@ export default function ChallengesSection() {
         Facebook presence, each engagement is a roll of the dice. Some get a response, some don’t, and the
         business never knows what it missed.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`use-cases-marketing-cross-platform-chatbot-challenges-dapta${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Dapta</Link>&nbsp;surfaces
+        <Link id={`use-cases-marketing-cross-platform-chatbot-challenges-dapta${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" className="text-[#C83803] hover:underline">Dapta</Link>&nbsp;surfaces
         another blind spot: even when prospects do get through, they are forced to repeat their details across
         chat, phone, and follow-up. The business might answer on WhatsApp, but when the same person calls an
         hour later, the conversation starts from scratch. There is no continuity, and the customer feels like
@@ -49,7 +49,7 @@ export default function ChallengesSection() {
         back-and-forth, and information often never syncs to your calendar
         or&nbsp;CRM.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`use-cases-marketing-cross-platform-chatbot-challenges-tidio${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Tidio</Link>&nbsp;highlights
+        <Link id={`use-cases-marketing-cross-platform-chatbot-challenges-tidio${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" className="text-[#C83803] hover:underline">Tidio</Link>&nbsp;highlights
         a final failure point that blocks smaller teams from scaling: businesses get bogged down answering the
         same simple questions all day, and advanced solutions are too complex to set up. Static, script-based
         chatbots frustrate customers with canned responses that don’t fit the question. When a live chat alert

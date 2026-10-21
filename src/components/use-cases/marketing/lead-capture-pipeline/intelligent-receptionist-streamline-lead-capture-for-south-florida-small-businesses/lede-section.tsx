@@ -13,7 +13,7 @@ export default function LedeSection() {
         marketing spend, and a business owner who spends evenings returning calls instead of growing the
         company.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The real cost goes beyond a single lost opportunity. Each call that slips through cracks in your&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">lead capture pipeline</Link>&nbsp;hurts your reputation and tanks your conversion rates. Clients rarely leave voicemails,
+        The real cost goes beyond a single lost opportunity. Each call that slips through cracks in your&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">lead capture pipeline</Link>&nbsp;hurts your reputation and tanks your conversion rates. Clients rarely leave voicemails,
         and most will not try you twice. Meanwhile, your team loses focus as they scramble to answer routine
         questions or switch tasks, breaking their concentration every time the line rings. This fractured
         attention is a silent tax on your productivity and turns your growth ceiling into a glass floor.</p>
@@ -48,7 +48,7 @@ export default function LedeSection() {
         technology selection, and a pilot implementation designed for South Florida’s real operational
         constraints. This is not about buying another app. It is about building a lead capture workflow that
         never sleeps, never misses a call, and frees your team to focus on work that moves the needle.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-receptionist-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent After-Hours Receptionist</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-receptionist-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> on our blog.</p>
     </>
   );
 

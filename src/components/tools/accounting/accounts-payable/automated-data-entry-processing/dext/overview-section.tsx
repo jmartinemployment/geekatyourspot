@@ -12,7 +12,7 @@ export default function OverviewSection() {
         visibility into financial data further complicates decision-making, leaving businesses reactive
         rather than proactive.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is where Dext comes into play. By automating&nbsp;<Link id={`tools-accounting-data-entry-dext-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">data entry and processing</Link>, Dext transforms mundane
+        This is where Dext comes into play. By automating&nbsp;<Link id={`tools-accounting-data-entry-dext-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">data entry and processing</Link>, Dext transforms mundane
         bookkeeping tasks into streamlined operations. It captures and processes documents with over 99%
         accuracy, reducing manual handling and improving consistency. With Dext, discrepancies are flagged
         early, allowing for quick corrections before they escalate into costly problems. This approach not
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         replaces your expertise.</p>
       <p className="text-base text-white shadow-text pt-3">
         Ready to turn your accounting challenges into opportunities for growth?&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-dext-overview-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-dext-overview-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book a consultation
         </button>&nbsp;with <strong>Geek @ Your Spot LLC</strong> today and discover how Dext can revolutionize
         your bookkeeping processes.</p>

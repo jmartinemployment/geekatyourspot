@@ -9,9 +9,9 @@ export default function HeroSection() {
           <div className="grid min-h-screen grid-cols-1 place-items-center">
             <div className="col-span-1">
               <h1 className="font-[var(--font-sora)] text-[12vw] font-black leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
-                AI Automation{" "}
+                AI Automation for{" "}
                 <br />
-                for <span className="text-[#C83803]">Business</span>
+                <span className="text-[#C83803]">Business</span>
               </h1>
               <h2 className="pt-3 text-xl text-white shadow-text">
                 Scale Your Operations and Boost Efficiency with Artificial Intelligence
@@ -34,9 +34,9 @@ export default function HeroSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center">
             <div className="col-span-7">
               <h1 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                AI Automation{" "}
+                AI Automation for{" "}
                 <br />
-                for <span className="text-[#C83803]">Business</span>
+                <span className="text-[#C83803]">Business</span>
               </h1>
               <h2 className="pt-3 text-2xl text-white shadow-text">
                 Scale Your Operations and Boost Efficiency with Artificial Intelligence

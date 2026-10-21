@@ -29,7 +29,7 @@ export default function CostOfManualApSection() {
         enhance Microsoft.&quot;&nbsp;
         <a id={`tools-accounting-avidxchange-cost-source${idSuffix}`}
           href="https://www.avidxchange.com/solutions/avidsuite-for-microsoft/"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           AvidXchange
         </a></p>
     </>

@@ -128,7 +128,7 @@ All content must be written by hand in the JSX:
 ### Links
 - Use `<Link>` component with unique `id` attributes: `id="tools-marketing-[toolname]"` or `id="tools-marketing-[toolname]-[number]"` (for duplicates on same page)
 - **Link color by background:**
-  - On `#023059` and `#024059`: `className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline"` (orange, with a thin white text shadow that lifts it off the blue; Jeff, 2026-10-21)
+  - On `#023059` and `#024059`: `className="text-[#C83803] hover:underline"` (orange, with no text shadow; links never carry a text shadow, Jeff, 2026-10-21)
   - On `#025E73`, `#8C4E2A` and `#BF5934`: `className="text-[#0B162A] hover:underline"` (dark blue), because orange is not visible on them. Teal joined this group on 2026-10-21 (Jeff).
 - **Every link in the page content is bold** (Jeff, 2026-10-21). A base rule in `src/app/globals.css` sets it for every `a` inside `main`, so no link needs a `font-bold` class. A link inside a heading keeps the heading's weight.
 - **Heading links follow the same rule** (Jeff, 2026-10-18). A `Link` or `GlossaryLink` inside an `h1` to `h6` takes the colour of the body links on that ground and carries `hover:underline`. It is never `text-white`, and it is never a bare `<a>` with no class. A heading names a tool with no page as plain text, with no link.
@@ -220,7 +220,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] All headings and links have `id` attributes matching the raw HTML source
 - [ ] PAA section is single block with `col-span-12` heading and `col-span-12` body
 - [ ] PAA section has `<hr>` separators before first Q&A item and between each Q&A item (but not after the last)
-- [ ] Link colors match background: `text-[#C83803] text-shadow-2xs text-shadow-white` (default), `text-[#0B162A]` (on `#025E73`, `#8C4E2A` or `#BF5934` backgrounds)
+- [ ] Link colors match background: `text-[#C83803]` with no text shadow (default), `text-[#0B162A]` (on `#025E73`, `#8C4E2A` or `#BF5934` backgrounds)
 - [ ] Every link, including one inside a heading, carries `hover:underline` and the ground's link colour
 - [ ] Internal links are in place: pillar to parent, siblings and blog post; every tool named with a page is linked (see "Internal links")
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)

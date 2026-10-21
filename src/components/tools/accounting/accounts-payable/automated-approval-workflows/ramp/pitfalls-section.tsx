@@ -36,7 +36,7 @@ export default function PitfallsSection() {
         becomes a problem, your business benefits.&quot;&nbsp;
         <a id={`tools-accounting-approval-workflows-ramp-pitfalls-source${idSuffix}`}
           href="https://ramp.com/blog/ai-in-payments"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Ramp
         </a></p>
       <p className="text-base text-white shadow-text pt-3">

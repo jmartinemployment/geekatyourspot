@@ -31,7 +31,7 @@ export default function RightChoiceSection() {
         your business&#39;s growth.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-approval-workflows-stampli-right-choice-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-approval-workflows-stampli-right-choice-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">

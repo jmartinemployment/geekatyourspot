@@ -25,7 +25,7 @@ export const FIRST_SECTION_BACKGROUND = SECTION_BACKGROUNDS[0];
  * Orange disappears against the teal and the two warm grounds, so those take
  * the dark navy instead. Same split the hand-coded sections use.
  */
-const LINK_ON_COOL = "text-[#C83803] text-shadow-2xs text-shadow-white hover:underline";
+const LINK_ON_COOL = "text-[#C83803] hover:underline";
 const LINK_ON_WARM = "text-[#0B162A] hover:underline";
 
 const WARM_BACKGROUNDS = new Set<string>(["bg-[#025E73]", "bg-[#8C4E2A]", "bg-[#BF5934]"]);

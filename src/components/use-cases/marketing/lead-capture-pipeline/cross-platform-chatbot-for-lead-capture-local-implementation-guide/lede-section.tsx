@@ -59,13 +59,13 @@ export default function LedeSection() {
         every inquiry, chat, call, DM, or text, lands in one place, with context and the right next step
         attached. Your team spends less time chasing details and more time closing work that matters.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Throughout this page, we’ll walk through the pain points, the mechanics of a unified&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">lead capture pipeline</Link>, and what separates a successful rollout from a stalled project. We’ll show exactly what
+        Throughout this page, we’ll walk through the pain points, the mechanics of a unified&nbsp;<Link id={`use-cases-marketing-cross-platform-chatbot-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">lead capture pipeline</Link>, and what separates a successful rollout from a stalled project. We’ll show exactly what
         changes in your day-to-day operations, which decisions cannot be unmade, and what you need to provide
         to make the system work. If you are still relying on scattered inboxes and manual triage, you are
         absorbing costs and risks that are no longer necessary. A proper Cross-Platform Chatbot is not a tech
         experiment, it is the new minimum for businesses that want to compete and win in South Florida’s
         always-on market.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-cross-platform-chatbot-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Cross-Platform Chatbot Lead Capture</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-cross-platform-chatbot-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> on our blog.</p>
     </>
   );
 

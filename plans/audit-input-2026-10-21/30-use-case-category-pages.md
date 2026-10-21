@@ -39,7 +39,7 @@ Recommendation: move each hub up to its category path. It's the pattern the tax 
 
 For each hub you choose to move:
 1. Move the route folder under `src/app/(site)/use-cases/` to the category path.
-2. Update its canonical, Open Graph URL, JSON-LD `@id`s and the Service node from `pillarService` in `src/lib/seo/organization.ts`.
+2. Update its canonical, Open Graph URL and JSON-LD URLs. It has no Service node, and no `#` in any URL.
 3. Update every link to the old URL: the navbar and menus in `src/data/navigation/site-menus.ts`, the home card in `src/components/home/use-cases.tsx` (both breakpoint copies), the `/use-cases` and department index cards, pillar and tool body links, and the `src/data` files that carry the URL.
 
 For a separate page instead, add a `page.tsx` at the category path listing the category's pillars, with CollectionPage and ItemList JSON-LD as in `src/app/(site)/tools/accounting/page.tsx`.

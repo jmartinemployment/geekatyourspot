@@ -7,7 +7,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         Consider a local boutique owner like Emma, who runs her shop in the heart of Miami-Dade and spends her
         weekends buried in spreadsheets, manually updating tax rates for her online store.
-        Each change in the&nbsp;<Link id={`tools-accounting-complex-changing-laws-taxjar-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">complex and changing laws</Link>&nbsp;governing
+        Each change in the&nbsp;<Link id={`tools-accounting-complex-changing-laws-taxjar-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;governing
         local taxes feels like a new hurdle. Her afternoons, instead of being dedicated to customer engagement
         or inventory management, are consumed by the relentless task of ensuring compliance. The risk of a
         miscalculation looms large, with potential fines threatening her already slim profit margins. The

@@ -19,7 +19,7 @@ export default function OverviewSection() {
         space. Manual content creation becomes a bottleneck, not a growth engine. And when the posts stop, so
         do the new leads.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-koala-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Generation</Link>&nbsp;is the way out of this trap. The right AI-driven workflow lets you turn
+        <Link id={`tools-marketing-intelligent-content-generation-koala-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is the way out of this trap. The right AI-driven workflow lets you turn
         your business’s own expertise and voice into publishable content, without the late nights or the
         agency bills. But not every tool solves the real problem. Generic AI writing can churn out polished
         copy, but if it misses your business’s identity, your services, your real credentials, your local

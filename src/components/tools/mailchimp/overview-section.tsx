@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewToolSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-base text-white shadow-text pt-3">Mailchimp is a leading platform in the realm of email <Link id={`tools-marketing-mailchimp-overview-ai-marketing-systems${idSuffix}`} href="/use-cases/marketing" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">marketing automation</Link>, designed to help businesses of all
+      <p className="text-base text-white shadow-text pt-3">Mailchimp is a leading platform in the realm of email <Link id={`tools-marketing-mailchimp-overview-ai-marketing-systems${idSuffix}`} href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing automation</Link>, designed to help businesses of all
         sizes enhance their marketing efforts. It offers a comprehensive suite of tools that enable users to create,
         execute, and analyze email marketing campaigns effectively. With Mailchimp, businesses can streamline their outreach
         processes, making it easier to connect with their audience and increase engagement.</p>

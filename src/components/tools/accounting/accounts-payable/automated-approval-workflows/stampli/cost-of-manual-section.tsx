@@ -44,7 +44,7 @@ export default function CostOfManualSection() {
         and improves control across all financial processes.&quot;&nbsp;
         <a id={`tools-accounting-approval-workflows-stampli-cost-of-manual-source${idSuffix}`}
           href="https://www.stampli.com/erp-purchase-orders/"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Stampli
         </a></p>
     </>

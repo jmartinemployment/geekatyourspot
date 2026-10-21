@@ -58,7 +58,7 @@ function HubGroup({
             <Link
               id={`${gtmLinkIdFromHref(link.href, "footer")}${idSuffix}`}
               href={link.href}
-              className="font-bold text-white text-sm shadow-text hover:text-[#c83803] transition-colors"
+              className="font-bold text-white text-sm hover:text-[#c83803] transition-colors"
             >
               {link.label}
             </Link>
@@ -148,7 +148,7 @@ export default function Footer() {
           <a
             id={`${gtmLinkIdFromHref("tel:+15615263512")}${idSuffix}`}
             href="tel:+15615263512"
-            className="font-bold text-white text-sm shadow-text hover:text-[#c83803] transition-colors"
+            className="font-bold text-white text-sm hover:text-[#c83803] transition-colors"
           >
             (561) 526-3512
           </a>

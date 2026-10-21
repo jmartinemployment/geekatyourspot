@@ -12,7 +12,7 @@ export default function OverviewSection() {
         thresholds, register in unfamiliar jurisdictions, and respond to a new wave of regulatory mail, while
         still running day-to-day operations.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is the reality of&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;for small businesses. Economic nexus rules can
+        This is the reality of&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;for small businesses. Economic nexus rules can
         trigger tax obligations after crossing as little as 200 transactions or $100,000 in revenue in a state.
         Most small teams hit these triggers long before they have the staff or systems to handle the fallout.
         The result is a constant scramble, manually tracking sales across more than 11,000 jurisdictions, trying

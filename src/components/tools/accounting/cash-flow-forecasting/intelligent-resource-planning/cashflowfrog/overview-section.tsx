@@ -21,7 +21,7 @@ export default function OverviewSection() {
         constant scramble to cover shortfalls. That manual overhead costs more than time; it erodes trust in the
         numbers and the team.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Resource Planning</Link>&nbsp;was built to end this cycle. It connects directly to accounting tools and
+        <Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;was built to end this cycle. It connects directly to accounting tools and
         banks, pulls in real transaction data, and runs live forecasts without manual entry. That means
         real-time visibility, always current numbers, and no more guessing about whether the business can afford
         next week&#39;s payroll. Instead of spending hours cleaning up the past, teams can plan the future,

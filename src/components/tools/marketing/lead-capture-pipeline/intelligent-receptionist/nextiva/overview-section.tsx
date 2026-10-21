@@ -20,7 +20,7 @@ export default function OverviewSection() {
         missing even a handful of calls a week can mean hundreds or thousands of dollars gone each month, money
         that should have been on the schedule.</p>
       <p className="text-base text-white shadow-text pt-3">
-        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-nextiva-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Receptionist</Link>&nbsp;solves this problem by unifying all those channels, phone, SMS, web chat,
+        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-nextiva-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;solves this problem by unifying all those channels, phone, SMS, web chat,
         into one workspace. It never misses a call, responds instantly to every chat, and keeps a complete
         record of the conversation, so your staff don’t have to play detective or lose focus jumping between
         apps. This approach means every customer gets a real answer, every lead is logged, and no message is

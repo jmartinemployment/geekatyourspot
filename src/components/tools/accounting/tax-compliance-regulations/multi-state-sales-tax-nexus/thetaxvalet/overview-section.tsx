@@ -9,7 +9,7 @@ export default function OverviewSection() {
         and launching on two marketplaces at once. The growth feels like a win until the invoices start piling
         up and the first state notice lands in the mail. Suddenly, what seemed like a simple expansion turns
         into a maze of compliance: tracking sales volume and order counts for every state, sorting out which
-        platforms collect tax for them, and which do not. Each new sale risks crossing an invisible line, the&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold, that instantly creates filing and collection duties in states
+        platforms collect tax for them, and which do not. Each new sale risks crossing an invisible line, the&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold, that instantly creates filing and collection duties in states
         where they have never set foot.</p>
       <p className="text-base text-white shadow-text pt-3">
         This is not a theoretical headache. Most states draw that line at $100,000 in revenue or 200 separate

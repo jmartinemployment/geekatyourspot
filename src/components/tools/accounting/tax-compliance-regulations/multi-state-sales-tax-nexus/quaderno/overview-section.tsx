@@ -14,7 +14,7 @@ export default function OverviewSection() {
         speed and scale, offers no help for the tangle of local rules. With every sale, the risk of missing a
         critical compliance step grows.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is how&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;hits small businesses. You can cross the $100,000 revenue or
+        This is how&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;hits small businesses. You can cross the $100,000 revenue or
         200-transaction mark in a state before you even notice it. Suddenly you need to register, collect, and
         remit sales tax there, but you lack the headcount and systems that a large enterprise would use. What
         started as a win, expansion into new states, turns into a scramble to keep up with thousands of shifting

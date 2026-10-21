@@ -19,7 +19,7 @@ export default function KeyStrategiesAccurateForecastingSection() {
         sales data, inventory levels, and supplier payment schedules into a single, AI-powered dashboard. This integration
         allows for real-time analysis and forecasting, improving the retailer&#39;s ability to manage cash flow effectively.
       </p>
-      <h3 id={`utilizing-predictive-analytics${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Utilizing <GlossaryLink slug="analytics" className="text-[#0B162A] hover:underline">Predictive Analytics</GlossaryLink></h3>
+      <h3 id={`utilizing-predictive-analytics${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Utilizing <GlossaryLink slug="analytics" className="text-white hover:text-[#0B162A] hover:underline">Predictive Analytics</GlossaryLink></h3>
       <p className="pt-3 text-base font-normal text-white shadow-text">Predictive analytics is a powerful tool in cash flow forecasting, enabling businesses to anticipate future
         financial conditions based on historical data and market trends. Geek @ Your Spot LLC employs AI algorithms to analyze
         vast datasets, uncovering patterns and trends that human analysts might overlook. By doing so, businesses can

@@ -12,7 +12,7 @@ export default function OverviewToolSection() {
                 Overview</h2>
                 </div>
             <div className="col-span-12">
-              <p className="text-base text-white shadow-text pt-3">Adobe Mix Modeler is a powerful tool designed to streamline and enhance the process of automated&nbsp;<Link id="tools-marketing-adobe-mix-modeler-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ad spend optimization</Link>. It offers businesses the ability to make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions that maximize their return on
+              <p className="text-base text-white shadow-text pt-3">Adobe Mix Modeler is a powerful tool designed to streamline and enhance the process of automated&nbsp;<Link id="tools-marketing-adobe-mix-modeler-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. It offers businesses the ability to make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions that maximize their return on
                 investment by leveraging advanced <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> techniques. This tool is particularly beneficial for companies
                 looking to eliminate inefficiencies in their advertising budgets and achieve more precise targeting.</p>
               <p className="text-base text-white shadow-text pt-3">In the competitive landscape of digital marketing, many businesses struggle with the manual adjustments and complex
@@ -39,7 +39,7 @@ export default function OverviewToolSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview</h2>
-              <p className="text-base text-white shadow-text pt-3">Adobe Mix Modeler is a powerful tool designed to streamline and enhance the process of automated&nbsp;<Link id="tools-marketing-adobe-mix-modeler-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ad spend optimization</Link>. It offers businesses the ability to make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions that maximize their return on
+              <p className="text-base text-white shadow-text pt-3">Adobe Mix Modeler is a powerful tool designed to streamline and enhance the process of automated&nbsp;<Link id="tools-marketing-adobe-mix-modeler-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. It offers businesses the ability to make <GlossaryLink slug="analytics">data-driven</GlossaryLink> decisions that maximize their return on
                 investment by leveraging advanced <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> techniques. This tool is particularly beneficial for companies
                 looking to eliminate inefficiencies in their advertising budgets and achieve more precise targeting.</p>
               <p className="text-base text-white shadow-text pt-3">In the competitive landscape of digital marketing, many businesses struggle with the manual adjustments and complex

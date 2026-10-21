@@ -7,7 +7,7 @@ export default function ChallengesSection() {
         In South Florida, navigating the intricacies of&nbsp;tax
         compliance&nbsp;can feel like walking a tightrope. Businesses face a multitude of
         challenges, from managing sales tax across different jurisdictions to dealing with complex regulatory
-        notices. One primary issue is the miscalculation of&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-challenges-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">economic nexus</Link>&nbsp;thresholds. As businesses expand,
+        notices. One primary issue is the miscalculation of&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-challenges-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">economic nexus</Link>&nbsp;thresholds. As businesses expand,
         particularly in e-commerce, it&#39;s easy to overlook when sales activities cross state lines,
         triggering new tax obligations. This oversight can lead to unexpected liabilities and potential audits.</p>
       <p className="text-base text-white shadow-text pt-3">

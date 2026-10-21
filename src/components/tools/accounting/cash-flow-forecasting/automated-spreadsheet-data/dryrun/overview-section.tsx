@@ -18,7 +18,7 @@ export default function OverviewSection() {
         and macro-level assumptions creates a persistent gap between projected cash flow and actual liquidity,
         making it difficult for finance teams to make informed decisions.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-dryrun-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Spreadsheet Data</Link>&nbsp;offers a solution. By integrating real-time data and transaction-level
+        Automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-dryrun-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">Spreadsheet Data</Link>&nbsp;offers a solution. By integrating real-time data and transaction-level
         adjustments, businesses can gain a precise view of their cash position. Tools like Dryrun allow for dynamic
         scenario modeling and real-time&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;synchronization,
         eliminating the need for manual data entry and reducing the risk of errors. Finance leaders can now layer

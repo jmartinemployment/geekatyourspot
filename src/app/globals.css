@@ -172,6 +172,15 @@ html, body {
   main :is(h1, h2, h3, h4, h5, h6) a {
     font-weight: inherit;
   }
+  /* No link carries a text shadow, including one inherited from the paragraph it sits in
+     (Jeff, 2026-10-21). A heading inside a link keeps its own shadow class, and a link inside a
+     heading takes the heading's shadow, so the heading reads as one piece. */
+  a {
+    text-shadow: none;
+  }
+  :is(h1, h2, h3, h4, h5, h6) a {
+    text-shadow: inherit;
+  }
   * {
     @apply border-border outline-ring/50;
   }

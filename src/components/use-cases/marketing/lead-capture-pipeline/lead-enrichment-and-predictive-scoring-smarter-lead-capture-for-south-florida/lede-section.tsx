@@ -53,12 +53,12 @@ export default function LedeSection() {
       <p className="text-base text-white shadow-text pt-3">
         This page breaks down what’s really going wrong in most local sales teams: the hours lost to bad data,
         the deals lost to slow follow-up, and the simple truth that most of your best-fit buyers never fill
-        out a form. We will show exactly how an automated&nbsp;<Link id={`use-cases-marketing-lead-enrichment-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">lead capture pipeline</Link>&nbsp;works, what it takes to build
+        out a form. We will show exactly how an automated&nbsp;<Link id={`use-cases-marketing-lead-enrichment-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">lead capture pipeline</Link>&nbsp;works, what it takes to build
         one that fits your current systems, and how to avoid the traps that stall these projects in small
         business environments. You will see how to go from chasing cold leads to working a live, always-on
         pipeline of high-intent local accounts, without hiring more staff or adding complexity your team
         cannot manage.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-lead-enrichment-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Lead Enrichment to Close More Sales</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-lead-enrichment-lede-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">Lead Enrichment to Close More Sales</Link> on our blog.</p>
     </>
   );
 

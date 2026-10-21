@@ -10,11 +10,11 @@ export default function WhenItMakesSenseSection() {
         experiencing frequent approval delays are prime candidates for automation. This is where tools
         like&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-sense-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-sense-ramp${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">
           Ramp
         </Link>&nbsp;come into play, offering streamlined workflows that reduce manual intervention and
         errors.</p>
@@ -44,7 +44,7 @@ export default function WhenItMakesSenseSection() {
         they do not hinder your business operations or cause significant inefficiencies.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <button type="button" data-scheduler-link id={`use-cases-accounting-approval-workflows-sense-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`use-cases-accounting-approval-workflows-sense-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">

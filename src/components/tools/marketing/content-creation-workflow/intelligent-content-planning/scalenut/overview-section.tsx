@@ -20,7 +20,7 @@ export default function OverviewSection() {
         recommendations entirely, because your content is not structured, fast or relevant enough for these
         models to find or trust.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-planning-scalenut-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
+        <Link id={`tools-marketing-intelligent-content-planning-scalenut-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
         predictive automation to map out exactly what your audience and AI engines are looking for, before a
         single word gets written. Content is planned, generated, repurposed and scheduled in bulk, freeing
         your team from the manual bottlenecks that drain time and budget. Structured workflows make sure every

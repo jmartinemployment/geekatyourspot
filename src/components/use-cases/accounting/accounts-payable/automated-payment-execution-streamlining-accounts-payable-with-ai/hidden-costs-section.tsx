@@ -4,7 +4,7 @@ export default function HiddenCostsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        For many small businesses, the manual handling of&nbsp;<Link id={`use-cases-accounting-payment-execution-hidden-costs-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">accounts payable</Link>&nbsp;(AP) remains a significant burden.
+        For many small businesses, the manual handling of&nbsp;<Link id={`use-cases-accounting-payment-execution-hidden-costs-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;(AP) remains a significant burden.
         The process is often riddled with inefficiencies that lead to costly errors and delays. These issues
         are not just minor annoyances; they can significantly impact a business&#39;s bottom line.</p>
       <p className="text-base text-white shadow-text pt-3">

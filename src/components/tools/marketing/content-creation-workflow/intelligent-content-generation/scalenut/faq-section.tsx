@@ -109,7 +109,7 @@ export default function FaqSection() {
             </h3>
             <p className="text-base text-white shadow-text pt-3">
               Yes. Scalenut lists integrations with WordPress and Shopify. The Plus plan includes
-              auto-publishing to both. The pricing comparison also mentions&nbsp;<Link id="tools-marketing-intelligent-content-generation-scalenut-faq-semrush" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Semrush</Link>&nbsp;and Copyscape
+              auto-publishing to both. The pricing comparison also mentions&nbsp;<Link id="tools-marketing-intelligent-content-generation-scalenut-faq-semrush" href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush" className="text-[#C83803] hover:underline">Semrush</Link>&nbsp;and Copyscape
               integrations, but it is not clear if these are available on every tier.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

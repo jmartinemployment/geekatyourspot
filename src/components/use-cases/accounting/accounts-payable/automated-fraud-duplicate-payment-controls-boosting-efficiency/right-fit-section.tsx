@@ -17,11 +17,11 @@ export default function RightFitSection() {
         verifying invoices or if you&#39;ve experienced financial losses due to fraud, automation could be a
         game-changer. Tools like&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-fit-medius${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">
           Medius
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-fit-tipalti${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">
           Tipalti
         </Link>&nbsp;offer robust solutions that integrate seamlessly with existing workflows, providing
         real-time anomaly detection and automated approval processes.</p>
@@ -48,7 +48,7 @@ export default function RightFitSection() {
         with a partner like Geek @ Your Spot LLC to ensure that the transition is smooth and that the systems put
         in place are tailored to deliver tangible results.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <button type="button" data-scheduler-link id={`use-cases-accounting-fraud-controls-fit-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`use-cases-accounting-fraud-controls-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
         </button>.</p>
     </>

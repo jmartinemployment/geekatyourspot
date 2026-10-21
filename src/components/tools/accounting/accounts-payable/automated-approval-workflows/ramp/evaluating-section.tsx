@@ -18,7 +18,7 @@ export default function EvaluatingSection() {
         <li>
           <a id={`tools-accounting-approval-workflows-ramp-evaluating-erp-integrations${idSuffix}`}
             href="https://ramp.com/blog/ai-accounting-software"
-            target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+            target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
             Seamless integrations with major ERP systems, including QuickBooks Online, Xero, and NetSuite.
           </a>
         </li>
@@ -35,7 +35,7 @@ export default function EvaluatingSection() {
         on investment, particularly for businesses processing a high volume of invoices.</p>
       <p className="text-base text-white shadow-text pt-3">
         When comparing Ramp to other tools, consider its deep integration capabilities and the breadth of its
-        automation features. Competitors like&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Bill</Link>&nbsp;also offer automated workflows, but
+        automation features. Competitors like&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer automated workflows, but
         Ramp&#39;s strength lies in its comprehensive approach to both automation and integration, which can
         be particularly beneficial for businesses using multiple&nbsp;
         ERP&nbsp;systems.</p>

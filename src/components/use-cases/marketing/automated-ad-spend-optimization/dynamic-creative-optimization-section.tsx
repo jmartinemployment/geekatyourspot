@@ -39,7 +39,7 @@ export default function DynamicCreativeOptimizationSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Tools like&nbsp;
         <Link id={`automated-ad-spend-optimization-dco-jasper-ai${idSuffix}`}
-        href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
         Jasper
       </Link>&nbsp;allow marketers to generate personalized copy that resonates with different audience segments. By
         utilizing AI-driven insights, businesses can create narratives that reflect the unique interests and behaviors of

@@ -20,7 +20,7 @@ export default function OverviewSection() {
         your&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. The cost is real: lost deals, wasted ad spend,
         and a pipeline that never quite fills.</p>
       <p className="text-base text-white shadow-text pt-3">
-        A&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;solution changes this picture. Instead of treating every
+        A&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;solution changes this picture. Instead of treating every
         website visitor as a mystery, an AI-powered pipeline identifies which companies are actually on your
         site, enriches each visit with company details, and uses real behaviors (not just clicks) to score who
         is most likely to buy. The sales team gets alerts when a target account hits the right page. Marketing

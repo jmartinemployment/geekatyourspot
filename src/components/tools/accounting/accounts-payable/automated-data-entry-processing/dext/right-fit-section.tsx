@@ -20,7 +20,7 @@ export default function RightFitSection() {
         that you leverage the platform&#39;s capabilities to their fullest.</p>
       <p className="text-base text-white shadow-text pt-3">
         To explore how Dext can transform your accounting processes,&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-dext-right-fit-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-dext-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a consultation
         </button>&nbsp;with Geek @ Your Spot LLC today.</p>
     </>

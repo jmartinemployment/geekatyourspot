@@ -61,12 +61,12 @@ export default function ImplementationSection() {
                 consultants are adept at performing detailed audits, which serve as the foundation for developing an automation
                 strategy tailored to your specific needs.</p>
               <p className="pt-5 text-base font-normal text-white shadow-text">Key considerations during this phase include evaluating the volume of invoices processed, the complexity of
-                approval hierarchies, and the integration capabilities of existing <GlossaryLink slug="erp" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ERP</GlossaryLink> systems. By understanding these elements,
+                approval hierarchies, and the integration capabilities of existing <GlossaryLink slug="erp" className="text-[#C83803] hover:underline">ERP</GlossaryLink> systems. By understanding these elements,
                 Geek @ Your Spot LLC can recommend targeted solutions that address your unique challenges and maximize the benefits of
                 automation.</p>
               <h3 className="text-white pt-2 lg:text-3xl font-black font-[var(--font-sora)] shadow-text">Choosing the Right Technology</h3>
               <p className="pt-5 text-base font-normal text-white shadow-text">Selecting the appropriate technology is pivotal for successful AP automation implementation. Geek @ Your Spot LLC
-                provides insights into the latest AI-powered tools that offer robust features such as <GlossaryLink slug="machine-learning" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">machine learning</GlossaryLink>-based data
+                provides insights into the latest AI-powered tools that offer robust features such as <GlossaryLink slug="machine-learning" className="text-[#C83803] hover:underline">machine learning</GlossaryLink>-based data
                 extraction, automated workflows, and real-time analytics. The consultancy ensures that chosen solutions align with
                 your business objectives and seamlessly integrate with your existing financial systems.</p>
               <p className="pt-5 text-base font-normal text-white shadow-text">In addition to evaluating software capabilities, Geek @ Your Spot LLC assists in assessing vendor reliability and

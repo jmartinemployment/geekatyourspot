@@ -25,7 +25,7 @@ export default function RightFitSection() {
         deliver.</p>
       <p className="text-base text-white shadow-text pt-3">
         Ready to take the next step?&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book a consultation
         </button>&nbsp;with Geek @ Your Spot LLC today and discover how Bill can elevate your financial
         operations.</p>

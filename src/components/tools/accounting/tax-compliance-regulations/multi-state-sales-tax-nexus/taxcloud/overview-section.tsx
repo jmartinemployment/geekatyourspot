@@ -7,7 +7,7 @@ export default function OverviewSection() {
         A South Florida retailer lands a big new account in New York, pushes a holiday promotion online, and
         watches sales spike. The team celebrates, until the monthly close reveals a problem nobody saw coming.
         Spanning just a few dozen out-of-state orders, their year-to-date total quietly tripped the $100,000
-        threshold in two states. That single milestone means they have a&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Multi-State Sales Tax Nexus</Link>. Suddenly,
+        threshold in two states. That single milestone means they have a&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>. Suddenly,
         they must register, collect, and file sales tax in states where they have no office, no staff, and no
         local accountant. What started as a win now threatens to paralyze the entire back office.</p>
       <p className="text-base text-white shadow-text pt-3">

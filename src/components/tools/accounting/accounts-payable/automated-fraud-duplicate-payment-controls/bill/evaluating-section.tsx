@@ -15,7 +15,7 @@ export default function EvaluatingSection() {
         Essentials tier, as detailed on&nbsp;
         <a id={`tools-accounting-fraud-controls-bill-evaluating-pricing${idSuffix}`}
           href="https://www.bill.com/product/pricing"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
           Bill&#39;s pricing and plans page
         </a>. This tier offers essential features for automating accounts payable, while the Team tier at $65
         per user per month provides more granular controls and integrations. Businesses should consider their
@@ -28,7 +28,7 @@ export default function EvaluatingSection() {
         beneficial. It&#39;s crucial to evaluate the potential time savings and error reduction each plan
         offers against its cost to determine the best fit.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Adjacent solutions like&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-stampli${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Tipalti</Link>&nbsp;also offer Automated Fraud &amp; Duplicate Payment Controls,
+        Adjacent solutions like&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-stampli${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;also offer Automated Fraud &amp; Duplicate Payment Controls,
         and businesses should compare these alternatives to Bill. While Bill excels in its integration
         capabilities and user-friendly interface, competitors might offer different strengths such as specific
         industry customizations or pricing models. Evaluating these options side by side will help businesses

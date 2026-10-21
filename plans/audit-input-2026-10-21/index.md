@@ -23,7 +23,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 ## Pages
 
 21. [A services page](21-services-page.md), GEO C2 and decision 3
-22. [Local area pages](22-local-area-pages.md), GEO C2 and decision 3
 23. [Publishing prices](23-prices.md), GEO decision 10
 24. [A bilingual statement](24-bilingual-statement.md), GEO decision 10 and L16
 25. [A contact page](25-contact-page.md), GEO H4 and SEO M4

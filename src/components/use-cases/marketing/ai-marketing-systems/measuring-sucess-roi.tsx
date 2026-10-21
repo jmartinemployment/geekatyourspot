@@ -19,7 +19,7 @@ export default function MeasuringSuccessRoiSection() {
         objectives should align with broader business goals, such as increasing sales, improving customer engagement, or
         reducing marketing costs. By setting specific, measurable, achievable, relevant, and time-bound (SMART) goals,
         businesses can better assess whether their AI initiatives are hitting the mark.</p>
-      <h4 id={`defining-key-performance-indicators-kpis${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Defining Key Performance Indicators (<GlossaryLink slug="kpi" className="text-[#0B162A] hover:underline">KPIs</GlossaryLink>)</h4>
+      <h4 id={`defining-key-performance-indicators-kpis${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Defining Key Performance Indicators (<GlossaryLink slug="kpi" className="text-white hover:text-[#0B162A] hover:underline">KPIs</GlossaryLink>)</h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">Selecting the right KPIs is crucial. For instance, if the goal is to boost online sales, relevant KPIs might
         include conversion rates and average order value. Geek @ Your Spot LLC can help businesses identify these KPIs and
         integrate them into their AI systems for real-time tracking, ensuring that every marketing effort is tied to a

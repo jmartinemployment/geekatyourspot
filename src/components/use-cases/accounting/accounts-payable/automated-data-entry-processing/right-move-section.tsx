@@ -8,15 +8,15 @@ export default function RightMoveSection() {
         time-consuming manual processes, frequent data entry errors, and delayed invoice approvals. If your
         business experiences these pain points, implementing automated solutions like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-dext${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, and&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-avidxchange${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;could be the right decision. These tools offer automated data capture and streamlined
         workflows that reduce manual intervention and enhance accuracy.</p>
@@ -25,7 +25,7 @@ export default function RightMoveSection() {
         maintaining accuracy under pressure. Automation can free your team from repetitive tasks, allowing
         them to focus on strategic initiatives that drive business growth. For example,&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-stampli${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;excels at integrating with existing accounting systems to automate invoice approval and
         payment workflows, minimizing delays and errors.</p>
@@ -37,7 +37,7 @@ export default function RightMoveSection() {
         Before making a decision, assess your current process bottlenecks and the potential for improvement.
         Evaluate solutions like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-melio${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>&nbsp;for their capability to streamline processes without disrupting your existing workflows.
         Each tool has its own strengths, such as Melio&#39;s ability to handle multi-source invoice capture
@@ -46,7 +46,7 @@ export default function RightMoveSection() {
         Ultimately, the right choice depends on your specific business needs and goals. Consider consulting
         with an AI implementation expert to tailor a solution that fits your organization. For a detailed
         assessment and to explore how automated solutions can benefit your business,&nbsp;
-        <button type="button" data-scheduler-link id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">
+        <button type="button" data-scheduler-link id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a free consultation
         </button>&nbsp;to discuss the next steps.</p>
     </>

@@ -16,7 +16,7 @@ export default function OverviewToolSection() {
                 the context of automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, it plays a crucial role by validating the data used in AI-driven
                 marketing strategies. By ensuring that data is accurate, consistent, and reliable, Great Expectations helps
                 businesses make informed decisions that optimize their marketing budgets.</p>
-              <p className="text-base text-white shadow-text pt-3">Automated&nbsp;<Link id="tools-marketing-great-expectations-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ad spend optimization</Link>&nbsp;relies heavily on accurate data to adjust ad bids in real-time. Tools like Google
+              <p className="text-base text-white shadow-text pt-3">Automated&nbsp;<Link id="tools-marketing-great-expectations-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>&nbsp;relies heavily on accurate data to adjust ad bids in real-time. Tools like Google
                 Ads Smart Bidding and Advantage use <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to maximize return on investment by targeting the
                 right audience at the right time. However, the effectiveness of these tools is contingent upon the quality of the
                 input data. Great Expectations ensures that the data feeding into these systems is clean and trustworthy, thereby
@@ -46,7 +46,7 @@ export default function OverviewToolSection() {
                 the context of automated&nbsp;<GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>, it plays a crucial role by validating the data used in AI-driven
                 marketing strategies. By ensuring that data is accurate, consistent, and reliable, Great Expectations helps
                 businesses make informed decisions that optimize their marketing budgets.</p>
-              <p className="text-base text-white shadow-text pt-3">Automated&nbsp;<Link id="tools-marketing-great-expectations-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">ad spend optimization</Link>&nbsp;relies heavily on accurate data to adjust ad bids in real-time. Tools like Google
+              <p className="text-base text-white shadow-text pt-3">Automated&nbsp;<Link id="tools-marketing-great-expectations-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>&nbsp;relies heavily on accurate data to adjust ad bids in real-time. Tools like Google
                 Ads Smart Bidding and Advantage use <GlossaryLink slug="machine-learning">machine learning</GlossaryLink> algorithms to maximize return on investment by targeting the
                 right audience at the right time. However, the effectiveness of these tools is contingent upon the quality of the
                 input data. Great Expectations ensures that the data feeding into these systems is clean and trustworthy, thereby

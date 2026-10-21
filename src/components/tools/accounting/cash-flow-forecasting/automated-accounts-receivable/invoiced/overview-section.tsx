@@ -9,7 +9,7 @@ export default function OverviewSection() {
         each one a reminder of the cash flow crunch that threatens his operation. The tedious task of manually
         tracking who owes what consumes valuable hours that could be spent growing the business. This scenario is
         all too familiar for many small businesses in Miami-Dade, Broward, and West Palm Beach counties, where time and resources
-        are stretched thin. The manual process of&nbsp;<Link id={`tools-accounting-accounts-receivable-invoiced-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">accounts receivable</Link>&nbsp;is not just time-consuming; it’s fraught with
+        are stretched thin. The manual process of&nbsp;<Link id={`tools-accounting-accounts-receivable-invoiced-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;is not just time-consuming; it’s fraught with
         the risk of errors that can lead to significant financial setbacks.</p>
       <p className="text-base text-white shadow-text pt-3">
         Enter automated accounts receivable systems, a game-changer for those looking to reclaim their evenings and

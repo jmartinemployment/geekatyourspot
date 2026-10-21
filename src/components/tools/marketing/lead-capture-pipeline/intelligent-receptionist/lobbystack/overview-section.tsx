@@ -20,7 +20,7 @@ export default function OverviewSection() {
         fit your business, or keep sensitive data where you want it. Each new customer means more vendor
         lock-in, less flexibility, and higher switching costs if your needs change.</p>
       <p className="text-base text-white shadow-text pt-3">
-        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-lobbystack-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Receptionist</Link>&nbsp;changes the equation. Instead of letting leads slip away or tying your hands
+        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-lobbystack-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the equation. Instead of letting leads slip away or tying your hands
         with a generic script, it gives small businesses full control over how calls are answered, how
         information is gathered, and how every opportunity is handled. You decide what happens when a customer
         needs urgent help, wants to book an appointment, or just has a simple question. You can update answers,

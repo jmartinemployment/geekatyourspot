@@ -21,7 +21,7 @@ export default function OverviewSection() {
         leads slip through the cracks. The promise of digital marketing, steady leads, local trust, real
         visibility, feels out of reach.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is the catch-22 that&nbsp;<Link id={`tools-marketing-intelligent-content-generation-frase-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">Intelligent Content Generation</Link>&nbsp;finally breaks. Instead of burning hours and
+        This is the catch-22 that&nbsp;<Link id={`tools-marketing-intelligent-content-generation-frase-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;finally breaks. Instead of burning hours and
         budget on every step, small teams can now automate the full content creation workflow: from
         brainstorming and drafting to repurposing and scheduling, all while keeping the brand voice consistent
         and approval simple. The right AI-driven system turns one strong asset, a blog post, an FAQ, even an

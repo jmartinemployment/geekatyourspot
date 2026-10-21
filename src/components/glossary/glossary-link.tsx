@@ -10,7 +10,7 @@ interface GlossaryLinkProps {
 export function GlossaryLink({
   slug,
   children,
-  className = "text-[#C83803] text-shadow-2xs text-shadow-white hover:underline",
+  className = "text-[#C83803] hover:underline",
 }: GlossaryLinkProps) {
   return (
     <Link href={`/glossary/${slug}`} className={className}>

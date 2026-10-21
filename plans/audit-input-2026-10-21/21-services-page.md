@@ -48,7 +48,7 @@ Reason: one complete page is easier to keep accurate than five thin ones. It als
 ## The plan once you decide
 
 1. Build `src/app/(site)/services/page.tsx`, or the URL you choose, with its sections under `src/components/services/` in the two-block breakpoint pattern.
-2. Give each service a `Service` node with `pillarService` in `src/lib/seo/organization.ts`, with the business as provider and the service area served.
+2. Give each service a `Service` node, written for it, with the business as provider and the service area served. These are the first Service nodes on the site: `pillarService` and the pillar Service nodes were deleted in `cccde1c`, and none is added before this section exists.
 3. Update the home page's "AI Services" catalogue so the markup matches the visible services, and give the first step its one name everywhere it appears.
 4. Link the page from the footer in `src/components/layout/footer.tsx`. `src/app/sitemap.ts` lists it automatically.
 5. Choose the Business Profile categories from the finished service list, as you directed.

@@ -44,7 +44,7 @@ export default function PreparingSection() {
         delivers when it is set up, integrated, and owned by a team that knows what it wants out of the tool.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-marketing-intelligent-receptionist-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] text-shadow-2xs text-shadow-white hover:underline">booking
+        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-marketing-intelligent-receptionist-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
