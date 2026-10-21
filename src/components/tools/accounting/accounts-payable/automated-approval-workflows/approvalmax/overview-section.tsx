@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In small business offices across West Palm Beach, Broward, and Miami-Dade counties, accounting teams
         often find themselves bogged down by tedious manual approval processes. Picture this: a small team,
         already stretched thin, spends hours each week chasing down managers for signatures on purchase orders
         and vendor bills. Errors slip through unnoticed, invoices pile up, and the backlog becomes a mountain
         rather than a molehill. This not only delays payments but also strains relationships with suppliers
         and disrupts cash flow, creating a cycle that hinders growth and efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-approval-workflows-approvalmax-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a lifeline. By shifting from manual to automated systems,
         businesses can streamline their&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process, ensuring accuracy
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         purchase orders with invoices, and ensure compliance with internal controls, all while reducing the
         likelihood of human error. This shift not only saves time but also reduces operational costs and
         enhances supplier relationships.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small enterprises looking to leverage&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>, adopting automated approval workflows can transform how
         they manage accounts payable. It allows business owners to focus on what truly matters: growing their

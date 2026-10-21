@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every week, small business owners and their teams in Miami-Dade, Broward, and West Palm Beach counties
         stare at blank screens, hoping their next blog or social post will finally get traction. They pull
         late nights guessing what topics might matter to potential customers, patch together long lists of
@@ -12,13 +12,13 @@ export default function OverviewSection() {
         Business Profile. But after all that work, most of it lands nowhere: the posts never rank, the emails
         go unopened, and website visits barely move. The result is a cycle of wasted effort, rising stress,
         and content that never seems to pay off.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is what happens when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-semrush-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;runs on guesswork. Without the right data, even
         the best ideas miss their mark. Local teams get stuck on a treadmill, publishing for the sake of
         publishing, not because they know it will drive results. The pain is real: traffic drops with no
         warning, social engagement dries up, and the competition pulls ahead. Ninety percent of this content
         gets zero traffic and fails to convert. The team burns out, and the business stays invisible online.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Intelligent Content Planning changes the picture. Instead of hunches and manual rework, AI-driven
         tools now map out what your local audience is searching for, which topics have a real shot at ranking,
         and how to turn one strong piece into a dozen tailored assets, blog posts, emails, social updates, all
@@ -26,7 +26,7 @@ export default function OverviewSection() {
         workflows, your team can finally focus on what matters: reaching more customers and making every hour
         count. For small businesses across South Florida, this means fewer late nights, more consistent
         results, and marketing that actually moves the needle.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         At Geek @ Your Spot LLC, we build repeatable, AI-powered content workflows designed for teams without
         enterprise budgets or headcount to spare. You get practical, affordable solutions that fit right into
         your existing stack, no guesswork, no wasted hours, just a clear path from idea to impact. Intelligent

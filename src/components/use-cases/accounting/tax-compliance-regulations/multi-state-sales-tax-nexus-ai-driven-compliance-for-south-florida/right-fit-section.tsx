@@ -2,7 +2,7 @@
 export default function RightFitSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated multi-state
         sales&nbsp;tax
         compliance&nbsp;is a game changer for small businesses scaling across state lines, but it
@@ -11,7 +11,7 @@ export default function RightFitSection() {
         $100,000 in annual sales or hitting 200 transactions in a state, and you lack a dedicated tax
         department, automated compliance is not just helpful, it is the only way to avoid silent liability and
         backbreaking manual work.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Businesses with steady, predictable sales in one or two states and a single sales channel (like a local
         shop or a Florida-only e-commerce store) will see less value from a full-blown multi-state tax engine.
         For them, manual tracking or a simple state-specific solution may be enough. The risk and cost of
@@ -19,14 +19,14 @@ export default function RightFitSection() {
         start shipping out of state, or your Shopify, Amazon, and wholesale numbers no longer match up on a
         spreadsheet, the risk flips. Manual methods break down fast, and the cost of a missed threshold or a
         misfiled return can dwarf the price of any automation platform.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Local businesses in Broward or Miami-Dade who sell online and see their orders start stacking up from
         New York, Texas, or California are in the high-risk zone. Each of those states sets its own economic
         nexus threshold, and the triggers are not uniform, California’s $500,000 is different from the $100,000
         in many others, and the 200-transaction rule still catches small-ticket, high-volume sellers off guard.
         If your team is already spending several hours a month reconciling sales reports from Shopify, Amazon,
         Stripe, and QuickBooks, you are already feeling the friction that automation is meant to solve.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A key sign that automation is the right call: your financial lead or operations manager is fielding
         confusing notices from out-of-state tax agencies, or your accountant is asking for sales breakdowns by
         state and channel, and you cannot produce them without days of work. At this point, using a tool like
@@ -35,7 +35,7 @@ export default function RightFitSection() {
         oversight, with specialists mapping your entire product catalog and resolving state notices before they
         become penalties. TaxJar’s high-speed ingestion and real-time alerts mean you are no longer at risk of
         missing a filing or double-paying sales tax on marketplace transactions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, if your business model depends on highly-customized deals, or you sell complex bundles that do
         not fit standard product codes, automation can still stumble. No system is perfect, manual review and
         expert input are needed for edge cases, like unique digital services or hybrid product offerings that
@@ -43,7 +43,7 @@ export default function RightFitSection() {
         can fill the gaps, but they are not a replacement for professional tax counsel on true gray areas.
         Automation does not remove the need for oversight; it removes the bottleneck of routine tracking,
         threshold monitoring, and multi-state filings.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For the hypothetical retailer from the opening, automation would have flagged the out-of-state sales
         well before they triggered legal nexus in New York or Texas. It would have surfaced clean,
         channel-reconciled data for every filing, and would have pushed registration and payment deadlines to

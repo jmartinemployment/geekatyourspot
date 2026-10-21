@@ -1,7 +1,7 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxJar is designed for small and medium-sized businesses that sell across state lines and want to
         automate sales&nbsp;tax compliance&nbsp;as they grow.
         It is not limited by industry, e-commerce,&nbsp;SaaS,
@@ -9,20 +9,20 @@ export default function RightFitSection() {
         economic nexus thresholds before they have the staff or systems to keep up manually. If your team is
         struggling to track which states you owe tax in, or if you are spending hours each month reconciling
         marketplace sales and filing returns, TaxJar is a direct answer to those pain points.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The businesses that see the most benefit are those with multi-channel sales, selling on their own
         website, through Amazon, Etsy, Shopify, and other platforms at the same time. TaxJar’s integrations mean
         you do not have to manually combine sales data from each channel. The platform pulls transactions from
         all sources, applies the right tax rules for each state, and aggregates everything into one dashboard.
         This is especially critical for teams with limited accounting resources, where every hour spent on
         compliance is an hour not spent on growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxJar is also a fit for businesses that need to avoid double-paying tax on marketplace sales. With
         marketplace facilitator laws changing state by state, it is easy to make mistakes, remitting tax on
         sales where Amazon or Etsy already collected and paid it. TaxJar’s automation separates these
         transactions, so you only pay what you owe, and no more. This is not just a convenience; it directly
         protects margin and avoids costly corrections after the fact.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, TaxJar is not the right fit for every scenario. If your business operates only within Florida
         and does not cross state lines, the complexity TaxJar solves is not present. If you have a dedicated tax
         department or already use a global tax engine with broader international coverage, TaxJar may duplicate
@@ -30,7 +30,7 @@ export default function RightFitSection() {
         or other non-sales-tax obligations. For businesses with highly customized workflows or legacy systems
         that cannot integrate with TaxJar’s&nbsp;API&nbsp;or partner
         platforms, implementation may be more complex and require additional technical resources.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams in West Palm Beach, Broward, or Miami-Dade who are unsure if they need TaxJar, the next step
         is to look at your sales data: Are you approaching $100,000 or 200 transactions in any state outside
         Florida? Are you selling through multiple channels and struggling to keep up with state-by-state rules?
@@ -38,22 +38,22 @@ export default function RightFitSection() {
         yes, TaxJar is worth considering. The platform offers a free trial, so you can see how it fits your
         workflow before committing. It is designed to automate the pieces that slow you down, data aggregation,
         threshold tracking, rate calculation, and filing, so your team can focus on sales, not spreadsheets.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For those who decide to move forward, the process is not just about buying software. Geek @ Your Spot LLC
         handles the rollout, mapping your sales data, configuring the right rules, and connecting your sales
         channels. This ensures TaxJar fits your specific environment and that your team is trained to use it.
         The goal is not to add more work or complexity, but to remove it, so you can keep selling, expand into
         new states, and stay compliant without hiring a tax specialist.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If your business is at the point where manual tracking is breaking down, returns are getting missed, or
         you are worried about triggering an audit, TaxJar is a practical next step. It is not for everyone, but
         for small and mid-sized businesses moving into multi-state sales, it is a focused solution to a very
         specific, and very costly, problem.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-multi-state-sales-tax-nexus-taxjar-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
         <li>Are you monitoring your sales volumes and transaction counts per state in real-time, or do you review them retroactively at the end of the year?</li>
         <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>

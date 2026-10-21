@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A South Florida retailer lands a big new account in New York, pushes a holiday promotion online, and
         watches sales spike. The team celebrates, until the monthly close reveals a problem nobody saw coming.
         Spanning just a few dozen out-of-state orders, their year-to-date total quietly tripped the $100,000
         threshold in two states. That single milestone means they have a&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>. Suddenly,
         they must register, collect, and file sales tax in states where they have no office, no staff, and no
         local accountant. What started as a win now threatens to paralyze the entire back office.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where the real cost of manual compliance shows up. Most small businesses in Miami-Dade, Broward,
         and West Palm Beach run lean. They do not have a tax department or a dedicated compliance officer.
         Tracking economic nexus means monitoring complicated rules in over 11,000 tax jurisdictions, each with
@@ -20,14 +20,14 @@ export default function OverviewSection() {
         Shopify, Amazon, and QuickBooks, sorting through mismatched sales reports, and second-guessing whether
         they even owe tax in each state. Each month brings new risk, wasted hours, and mounting anxiety about
         what might have slipped through the cracks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Multi-State Sales Tax Nexus is not a theoretical problem. For small businesses selling online or across
         state lines, it is the single biggest compliance risk that can stall growth overnight. Crossing a
         state’s revenue or transaction threshold happens fast, often long before a team has the systems or
         processes to handle it. Without affordable, automated tax software, managing this manually means falling
         behind. The result: stunted expansion, unexpected costs, and a constant threat of audit that keeps
         owners up at night.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses in South Florida looking to scale across state borders, the answer is to automate nexus
         tracking, rate calculations, and filings. Intelligent compliance platforms now monitor every channel,
         alert you as thresholds approach, and file on time in every state, turning a complex, high-stakes burden

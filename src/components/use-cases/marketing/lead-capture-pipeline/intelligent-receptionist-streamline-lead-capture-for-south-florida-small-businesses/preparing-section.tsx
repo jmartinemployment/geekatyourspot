@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are considering an Intelligent Receptionist, the next move is to map your own bottlenecks and set
         a clear goal. Are you losing leads after hours, dropping calls while your team is busy, or struggling to
         keep call records and appointment calendars straight? Name the concrete pain point. This becomes your
@@ -11,7 +11,7 @@ export default function PreparingSection() {
         main line, set up basic intake flows, and watch what changes in the first week. Most small South Florida
         businesses can be live in under a day with tools like My AI Front Desk or Voksha, no new hardware, no
         phone number switch, and costs that are locked in before you start.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Expect the first days to be about tuning, not perfection. You will spot gaps in the initial call flow,
         realize which questions callers actually ask, and find the edge cases that need escalation. With
         Smith.ai, you can set the handoff rules so high-value or sensitive calls reach a human instantly, while
@@ -19,7 +19,7 @@ export default function PreparingSection() {
         starting with after-hours or overflow, and keep the human front desk for the calls that matter most.
         Nextiva lets you unify calls, texts, and chat in one place, so you see every lead and conversation in a
         single dashboard, no more missed context or slow follow-up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data quality&nbsp;is the next hurdle. Every tool
         depends on clean, current information: your hours, pricing, service areas, and FAQs. If your website is
         outdated or your&nbsp;CRM&nbsp;is messy, fix that first.
@@ -27,7 +27,7 @@ export default function PreparingSection() {
         detail, self-hosting, direct&nbsp;API&nbsp;connections, custom
         workflows. Here, expect a longer ramp-up, but total control over how calls are handled and data is
         stored.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once live, monitor the real outcomes. Are more leads booked? Are call summaries accurate and useful?
         Does your team actually spend less time on the phone and more time on work that matters? The answer
         should show up in your calendar, your&nbsp;CRM, and your team’s
@@ -35,18 +35,18 @@ export default function PreparingSection() {
         guessing what happened after a missed call. With Voksha, your bill matches your call volume, with no
         surprise overages and no contract lock-in. With Smith.ai, the calls that used to fall through the cracks
         during busy or sensitive moments now get answered by a professional, not a machine that guesses.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real test is not whether the system runs without errors, it is whether your business captures more
         opportunities, loses fewer leads, and spends less on manual labor or missed revenue. You should expect a
         learning curve, some initial handholding, and a few configuration tweaks. But by the end of the first
         month, you should have a clear answer: Is the phone no longer a bottleneck? Is every lead captured,
         qualified, and booked without you chasing callbacks? That is the outcome a real Intelligent Receptionist
         delivers when it is set up, integrated, and owned by a team that knows what it wants out of the tool.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`use-cases-marketing-intelligent-receptionist-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
         <li>When a prospect hangs up without leaving a voicemail, what is your current process for recapturing that lead?</li>
         <li>Do you experience sudden spikes in call volume (e.g., seasonal demands, ad campaigns) that temporarily overwhelm your current staff?</li>

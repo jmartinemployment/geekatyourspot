@@ -2,14 +2,14 @@
 export default function ImplementingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Getting Lusha up and running inside a small business sales workflow is not a long, drawn-out project.
         The platform is designed to plug into what you already use, and the steps to live data are concrete:
         connect, map, test, then roll out. For a South Florida team, the difference between a month of IT
         back-and-forth and a week to first results comes down to three things: Lusha’s pre-built integrations,
         its templated data mapping, and phased deployment that lets you see value before you commit every
         workflow.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first step is connecting Lusha to your&nbsp;CRM&nbsp;and
         outreach tools. Lusha comes with direct integrations for Salesforce, HubSpot, Zoho, Outreach, and
         SalesLoft. These are not just&nbsp;API&nbsp;endpoints; they’re
@@ -18,7 +18,7 @@ export default function ImplementingSection() {
         directly inside your outreach workflow. This means your team does not have to bounce between platforms
         or rekey data. The connection is not just technical, it’s operational, cutting out hours of admin from
         the start.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bulk enrichment is the next lever. Instead of adding leads one by one, Lusha’s
         bulk&nbsp;API&nbsp;processes up to 100 records per batch.
         Upload a CSV, and within seconds, you get back a file with verified emails, direct mobile numbers,
@@ -28,27 +28,27 @@ export default function ImplementingSection() {
         into your&nbsp;CRM&nbsp;or dialer. Lusha’s evidence shows that
         this approach can turn thousands of cold records into usable, high-conversion contacts in a single
         afternoon.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Phased rollout means you do not have to rebuild your entire process on day one. Start with a sample
         workflow, a single campaign, a pilot list, or a specific territory. Run enrichment on this slice,
         validate the results, and only then expand. This lets you catch mapping issues, spot gaps in your
         data, and adjust field mappings before the entire team is affected. Lusha’s guidance is clear: start
         small, automate the&nbsp;CRM&nbsp;sync, and scale only once
         the data is flowing as expected.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation is built in from the start. Scheduled flows can run daily to check for contact changes, job
         moves, or new buying signals. When a contact is promoted or leaves, Lusha updates
         the&nbsp;CRM&nbsp;record, flags it for the owning rep, and, if
         configured, fires a Slack notification. This is not optional cleanup; it is the core of keeping your
         pipeline current and your outreach relevant. The system is built to keep your team focused on real
         prospects, not chasing ghosts or cleaning up after bounces.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Compliance is not an afterthought. Lusha’s data is professionally sourced, and opt-outs are honored
         automatically. This matters for local teams operating under strict solicitation rules, no more
         guessing if a contact is fair game.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The order of go-live is straightforward:</p>
-      <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ol className="list-decimal list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Connect Lusha to your&nbsp;CRM&nbsp;and outreach stack using the built-in integrations.</li>
         <li>Upload a test list or run a pilot enrichment on a real campaign file.</li>
         <li>Review mapped fields, flag any low-confidence records for manual check, and adjust mapping as needed.</li>
@@ -56,7 +56,7 @@ export default function ImplementingSection() {
         <li>Set up scheduled flows for daily sync, job change detection, and real-time scoring updates.</li>
         <li>Expand rollout to the rest of your team once the workflow is validated.</li>
       </ol>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For a small sales team, the entire process can move from first connection to operational in days, not
         weeks, because the architecture is built for speed, accuracy, and minimal manual intervention. Lusha’s
         templated setup, phased approach, and direct integrations are what shorten the path from purchase to

@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In a bustling office in West Palm Beach, the&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;team faces a familiar
         sight: stacks of paper invoices waiting to be processed. Each piece of paper represents a potential
@@ -14,14 +14,14 @@ export default function OverviewSection() {
         systems creates visibility gaps, making it difficult to track spending against budgets and causing
         unnecessary delays in payments. These inefficiencies not only waste time but also increase the risk of
         compliance issues and financial discrepancies.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;offer a solution to this chaos by streamlining processes with predefined
         routing that automatically directs documents to the right reviewers based on business rules and
         spending authority. This approach not only reduces errors but also ensures that all necessary
         approvals are documented, creating a single source of truth that is accessible and auditable. By
         eliminating the need for manual routing and allowing for real-time tracking, businesses can
         significantly improve their operational efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in West Palm Beach, Broward, and Miami-Dade counties, implementing automated
         approval workflows can transform the accounts payable process into a seamless operation. With
         automation, invoices are routed to the correct approvers with all relevant information attached,

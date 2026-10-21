@@ -4,37 +4,37 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering solutions for automated accounts receivable, small businesses in South Florida often weigh
         several options. Upflow stands out by focusing
         on&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
         forecasting</GlossaryLink>&nbsp;based on real payment behaviors, rather than relying on static due dates.
         This approach makes it particularly effective for businesses where incoming cash flows are unpredictable.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Unlike some competitors that require manual input of expected inflows, Upflow calculates the percentage of
         invoices collected in the first, second, and third months. This detailed cohort analysis offers a more
         accurate cash flow projection, crucial for businesses dealing with varying payment timelines. For instance,
         a company with net-30 payment terms but a 51-day DSO benefits significantly from a tool like Upflow, which
         accounts for such discrepancies.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Many tools in the market, such as&nbsp;<Link id={`tools-accounting-accounts-receivable-upflow-comparing-chaserhq${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">Chaser</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-accounts-receivable-upflow-comparing-bill${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">Bill</Link>, cater to smaller teams with simpler needs, focusing
         primarily on invoice follow-ups. These platforms might be adequate for businesses that require basic
         reminders and collections. However, they may fall short when it comes to the comprehensive forecasting and
         integration capabilities that Upflow provides.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Upflow&#39;s integration
         with&nbsp;ERP&nbsp;systems
         ensures that forecasts are always current, eliminating the need for manual data entry or outdated exports.
         This feature is particularly beneficial for scaling businesses that need to maintain accuracy and efficiency
         as they grow. In contrast, some tools that lack deep ERP integration may lead to discrepancies between cash
         flow projections and actual financial data.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering larger, more complex platforms like HighRadius or Quadient, the choice often
         hinges on the need for extensive features and the company&#39;s capacity to handle a more involved
         implementation process. These platforms offer robust capabilities but can be overkill for mid-sized
         businesses that do not require such depth. Upflow offers a balanced solution, providing advanced features
         without the heavy lift associated with enterprise-level systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, the choice of an automated accounts receivable solution should reflect the specific needs and
         scale of the business. For those in Miami-Dade, Broward, and West Palm Beach counties, Upflow provides a
         compelling mix of detailed forecasting, real-time data integration, and user-friendly implementation, making

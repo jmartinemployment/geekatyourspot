@@ -4,12 +4,12 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ImplementationSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Implementing an automated accounts receivable solution can be transformative, but its success hinges on
         several critical factors. First and foremost, aligning the solution with your business objectives is
         essential. The tool should address specific inefficiencies and have measurable Key Performance Indicators
         (KPIs) to track improvements.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">Data
         quality</GlossaryLink>&nbsp;plays a crucial role in the implementation process. Ensuring that your data is
         accurate, complete, and consistent is vital for the system to function correctly. For instance,&nbsp;
@@ -20,7 +20,7 @@ export default function ImplementationSection() {
         forecasting&nbsp;relies on live receivables data, which means that any errors or
         inconsistencies in data can lead to inaccurate forecasts. Therefore, a thorough data audit and cleansing
         process should precede the deployment of any automated AR solution.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Choosing the right technology is another critical step. The chosen platform should integrate seamlessly with
         existing systems such as QuickBooks or Xero to avoid disruptions.&nbsp;
         <Link id={`use-cases-accounting-accounts-receivable-implementation-bill${idSuffix}`}
@@ -28,12 +28,12 @@ export default function ImplementationSection() {
           Bill
         </Link>, for example, offers integrations that ensure data flows smoothly between accounting systems and the AR
         platform, minimizing manual data entry and errors.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pilot implementations are a strategic way to gauge the solution&#39;s effectiveness before a full-scale
         rollout. By starting small, businesses can identify potential issues and make adjustments without
         significant risk. During this phase, it is crucial to measure the return on investment and gather feedback
         from users to fine-tune the system.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, ongoing support and training are vital to ensure the system&#39;s longevity. Employees should be
         adequately trained to use the system, and support should be readily available to address any issues. This
         ensures that the system remains effective and continues to deliver value over time. By focusing on these

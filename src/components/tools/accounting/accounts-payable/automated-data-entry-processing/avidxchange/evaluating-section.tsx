@@ -1,29 +1,29 @@
 export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering AvidXchange for automating accounts payable (AP), businesses should weigh its fit for
         their specific needs, its pricing model, and how it compares to other solutions. AvidXchange is designed
         to streamline invoice management and automate payment processes, which is ideal for small and
         medium-sized businesses looking to reduce manual work and increase efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One key aspect to evaluate is the alignment of AvidXchange with your existing systems. It integrates
         seamlessly with Microsoft platforms, offering API integrations with Business Central and GP, and
         file-based integrations with AX, NAV, F&amp;O, and SL. This ensures that your current accounting systems
         can remain intact while enhancing your AP processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is another crucial factor. While specific pricing details are not outlined in the available
         data, businesses should consider the value of features like going paperless, reducing manual data entry
         errors, and increasing operational efficiencies. These capabilities can lead to significant cost savings
         and better resource allocation, which are important considerations when evaluating the overall
         cost-effectiveness of implementing AvidXchange.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Potential buyers should also consider the adjacent approaches they might weigh against AvidXchange. The
         choice often comes down to the level of automation and integration needed, as well as the specific pain
         points a business faces in its current AP processes. AvidXchange&#39;s ability to automate invoice and
         payment processing, coupled with its integration capabilities, makes it a strong contender for
         businesses seeking a comprehensive AP solution.</p>
-      <p className="text-md italic text-white shadow-text pt-3">
+      <p className="text-base italic text-white shadow-text pt-3">
         &quot;AvidXchange automates your B2B payments and integrates with your existing AP process so you can
         monetize electronic payments at scale, without changing banks or accounting systems.&quot;&nbsp;
         <a id={`tools-accounting-avidxchange-evaluating-source${idSuffix}`}

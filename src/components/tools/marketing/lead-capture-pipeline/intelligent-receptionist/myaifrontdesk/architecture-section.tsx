@@ -4,27 +4,27 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ArchitectureSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         My AI Front Desk is built as a cloud-based platform designed for small businesses that need reliable,
         always-on front desk coverage without adding staff. Its architecture is focused on two things: seamless
         connection to your existing business tools, and accurate, structured data capture from every customer
         interaction. There is no hardware to install and no new phone number to adopt, your current business
         line forwards directly to the AI, which handles the rest.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The core of My AI Front Desk is its conversational AI engine, which uses large language models and
         neural voice synthesis to interact with callers in real time. This engine is trained on your business’s
         own information: services, pricing, FAQs, and tone. You control the greeting, the instructions, and even
         the voice and accent the system uses. The AI pulls knowledge from your website and internal documents,
         updating itself as your information changes. When a caller asks a question, the AI draws from this
         knowledge base to respond accurately, not from generic scripts.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         All communication channels run through a shared memory layer that sits behind the scenes. This means
         every call, text, email, and chat is logged as structured data about the contact, who they are, what
         they want, and when they are likely to act. The platform extracts not just contact details, but custom
         fields you define: intent, urgency, preferred service, or budget. These fields are mapped to
         your&nbsp;CRM&nbsp;and
         analytics tools, so every conversation powers your sales and service workflows automatically.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integration is a core strength. My AI Front Desk connects natively to Google Calendar, Outlook, and
         Calendly for real-time appointment
         booking.&nbsp;CRM&nbsp;sync
@@ -33,13 +33,13 @@ export default function ArchitectureSection() {
         other systems through&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, so you can trigger workflows in hundreds of other apps without extra
         coding. Retailers can connect Shopify to surface order status, customer history, and loyalty data on
         every call, allowing the AI to answer order-status questions and route by store or location.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The system is built to scale with your needs. The free plan covers limited monthly minutes for smaller
         teams, while paid plans add more minutes, advanced integrations, and support for unlimited concurrent
         calls. There is no per-seat charge, and you can add as many team members as you need to access call logs
         and reporting. For high-volume operators or multi-location businesses, an enterprise plan offers custom
         pricing and central reporting per location.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every call is recorded, transcribed, and summarized by the AI. These records are written back to
         your&nbsp;CRM&nbsp;and
         are searchable across all contacts. The activity timeline in
@@ -48,19 +48,19 @@ export default function ArchitectureSection() {
         click-to-expand details. This structure means you can quickly review the full history of a lead or
         customer, spot trends in missed calls or peak hours, and connect call outcomes directly to booked
         revenue.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security and compliance are built in. My AI Front Desk encrypts all data in transit and at rest. For
         healthcare and other regulated industries, the platform supports <GlossaryLink slug="hipaa" className="text-[#0B162A] hover:underline">HIPAA</GlossaryLink> compliance and can sign a BAA.
         Sensitive information, like payment card numbers or clinical details, is never collected by text;
         instead, the AI sends a secure link to a form or portal when needed.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform’s architecture also allows for fast setup. Most small businesses can be live in under five
         minutes, forwarding their number and configuring the AI through a guided wizard. Multi-location rollouts
         and number porting take a bit longer but do not require downtime. You define the message workflows,
         merge fields, and escalation rules. For example, you can configure post-call SMS to send booking
         confirmations, service summaries, or links to intake forms automatically, and set escalation so complex
         queries or technical troubleshooting are handed off to a human with the conversation context preserved.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams in Miami-Dade, Broward, and Palm Beach, this means you get a front desk system that plugs into
         what you already run, captures every detail that matters, and gives you control over how leads,
         bookings, and customer data flow through your business. My AI Front Desk is not a black box; it is a

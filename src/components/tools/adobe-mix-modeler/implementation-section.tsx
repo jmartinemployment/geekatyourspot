@@ -12,9 +12,9 @@ export default function ImplementationSection() {
                 Implementation Considerations</h2>
             </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Implementing Adobe Mix Modeler requires careful planning and consideration to ensure a successful deployment. Here
+              <p className="text-base text-white shadow-text pt-3">Implementing Adobe Mix Modeler requires careful planning and consideration to ensure a successful deployment. Here
                 are some key factors to keep in mind during the implementation process:</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Adobe Mix Modeler offers pre-built connectors and templated setups that facilitate a
                   quicker go-live process. Businesses can leverage these resources to integrate the tool with their existing
                   systems efficiently, minimizing downtime and disruption.</li>
@@ -26,10 +26,10 @@ export default function ImplementationSection() {
                   automate approval chains and routing. Businesses should assess their current processes and configure the
                   tool to align with their specific operational needs, ensuring that it supports rather than disrupts existing
                   workflows.</li>
-                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api">API</GlossaryLink>&nbsp;for those who need to extend its capabilities. Businesses should evaluate whether they require custom
+                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;for those who need to extend its capabilities. Businesses should evaluate whether they require custom
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
+              <p className="text-base text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
                 more efficient ad spend optimization and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
                 gap by providing expert guidance on these aspects, helping businesses overcome challenges and maximize the tool’s
                 potential.</p>
@@ -44,9 +44,9 @@ export default function ImplementationSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
-              <p className="text-md text-white shadow-text pt-3">Implementing Adobe Mix Modeler requires careful planning and consideration to ensure a successful deployment. Here
+              <p className="text-base text-white shadow-text pt-3">Implementing Adobe Mix Modeler requires careful planning and consideration to ensure a successful deployment. Here
                 are some key factors to keep in mind during the implementation process:</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Adobe Mix Modeler offers pre-built connectors and templated setups that facilitate a
                   quicker go-live process. Businesses can leverage these resources to integrate the tool with their existing
                   systems efficiently, minimizing downtime and disruption.</li>
@@ -58,10 +58,10 @@ export default function ImplementationSection() {
                   automate approval chains and routing. Businesses should assess their current processes and configure the
                   tool to align with their specific operational needs, ensuring that it supports rather than disrupts existing
                   workflows.</li>
-                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api">API</GlossaryLink>&nbsp;for those who need to extend its capabilities. Businesses should evaluate whether they require custom
+                <li>Custom Code and Development: While Adobe Mix Modeler is primarily configuration-based, it does offer an <GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;for those who need to extend its capabilities. Businesses should evaluate whether they require custom
                   development to meet specific needs, and plan accordingly if additional coding is necessary.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
+              <p className="text-base text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a smooth implementation of Adobe Mix Modeler, leading to
                 more efficient ad spend optimization and improved marketing outcomes. Geek @ Your Spot LLC can assist in closing the
                 gap by providing expert guidance on these aspects, helping businesses overcome challenges and maximize the tool’s
                 potential.</p>

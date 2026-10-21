@@ -1,12 +1,12 @@
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         MarketMuse does not start with keywords or a blank content calendar. It begins by crawling your entire
         published site, mapping every page, topic, and their connections. This scan is not just a
         surface-level scrape. The platform builds a full content inventory, linking each page to the topics it
         covers and measuring how well it performs in search. This is the foundation for all later decisions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once the inventory is in place, MarketMuse’s AI analyzes both your site and your competitors. It does
         not rely on generic keyword APIs. Instead, it uses its own proprietary data and patented topic
         modeling to calculate which subjects you already have authority on, which are weak, and where your
@@ -14,32 +14,32 @@ export default function HowItWorksSection() {
         your site, not a generic market average. This tells you, with a number from 1 to 100, how hard it is
         for your business to rank for that specific subject, factoring in your site’s history and breadth of
         coverage.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next step is cluster analysis. MarketMuse groups related topics into clusters, showing you where
         you have the best chance to build or expand authority. It does this for both your site and your
         competitors, surfacing quick wins and long-term opportunities. The platform highlights technical
         topics that your South Florida rivals have overlooked, giving you a map of the ground you can take
         without fighting uphill battles for high-competition phrases.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Intelligent content planning moves from theory to execution with MarketMuse’s Content Briefs. These
         are not just outlines. Each Brief spells out the objective, user intent, must-answer questions, title
         options, recommended subheadings, and the specific subtopics to cover. The Briefs are built from the
         platform’s analysis, so every assignment is structured to fill a real gap, not just to publish for the
         sake of activity. Writers and editors work from these blueprints, cutting out the guesswork and the
         endless rounds of revision that come from unclear direction.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real-time text editor is where the writing happens. As your team drafts, MarketMuse scores the
         content against its topic model, showing live feedback on how well the piece covers the ground needed
         to demonstrate expertise. It tracks internal and external linking, keyword coverage, and structure,
         all mapped to what the top-ranking competitors are doing, but goes further by flagging opportunities
         they missed. This means your team does not just copy what is already out there; they leapfrog it.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         After publishing, MarketMuse continues to monitor performance. The platform’s inventory updates
         automatically, tracking changes in authority, visibility, and ranking decay. It flags thin or
         underperforming content that could be harming your site, and it identifies which pieces are now ripe
         for repurposing or expansion. The cycle is continuous: inventory, analysis, planning, execution, and
         review, all run from one central command center.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For a small team, this means no more spreadsheet chaos, no more wasted hours on manual audits, and no
         more hunch-based assignments. Every step is built to show exactly what to write, when to update, and
         where to focus effort for the largest return. The same Miami-Dade team that started the week lost in a

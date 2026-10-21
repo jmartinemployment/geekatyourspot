@@ -3,54 +3,54 @@ import Link from "next/link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated Payment Execution streamlines the entire accounts payable process from start to finish,
         transforming a traditionally manual workflow into an efficient, error-reducing system. This approach
         integrates several key phases that ensure accuracy and speed in payment processing.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The process begins with automated data capture. Tools like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-mechanics-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;use optical character recognition (OCR) technology to extract invoice details, reducing
         the need for manual entry and minimizing errors. This step ensures that all relevant invoice data is
         accurately captured and ready for the next stage.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next, the data is seamlessly integrated into the business&#39;s existing financial systems. This
         integration is crucial for maintaining consistent records and ensuring that all financial data is
         up-to-date. Platforms such as&nbsp;
         <Link id={`use-cases-accounting-payment-execution-mechanics-avidxchange${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;facilitate this integration, allowing for real-time data updates and minimizing
         discrepancies.</p>
-      <p className="text-md text-white shadow-text pt-3">
-        Once the data is in the system, the focus shifts to automated&nbsp;<Link id={`use-cases-accounting-payment-execution-mechanics-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>. These workflows are
+      <p className="text-base text-white shadow-text pt-3">
+        Once the data is in the system, the focus shifts to automated&nbsp;<Link id={`use-cases-accounting-payment-execution-mechanics-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#0B162A] hover:underline">approval workflows</Link>. These workflows are
         configured to route invoices to the appropriate approvers based on predefined rules, such as
         department or payment threshold. This ensures that invoices are reviewed and approved in a timely
         manner, reducing bottlenecks and speeding up the payment process.&nbsp;
         <Link id={`use-cases-accounting-payment-execution-mechanics-tipalti${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#0B162A] hover:underline">
           Tipalti
         </Link>&nbsp;is one such tool that supports configurable approval processes, enhancing control and
         accountability.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, the execution of payments is automated. This includes scheduling payments to ensure they are
         made on time, avoiding late fees and maintaining good vendor relationships. Tools like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-mechanics-melio${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#0B162A] hover:underline">
           Melio
         </Link>&nbsp;allow businesses to automate payment execution across multiple methods, including ACH,
         checks, and virtual cards, providing flexibility and efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Throughout this process,&nbsp;
         <Link id={`use-cases-accounting-payment-execution-mechanics-ramp${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>&nbsp;ensures that all transactions are tracked and recorded, providing a comprehensive audit
         trail. This not only helps in maintaining compliance but also offers valuable insights into spending
         patterns, enabling better financial decision-making.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         By implementing Automated Payment Execution, businesses can achieve significant improvements in
         efficiency, accuracy, and control over their accounts payable processes. This approach not only
         reduces the time and resources needed to manage AP but also mitigates the risks associated with manual

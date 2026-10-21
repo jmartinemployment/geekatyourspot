@@ -2,14 +2,14 @@
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small businesses often face significant challenges when managing Automated Fraud &amp; Duplicate Payment
         Controls. These issues stem from a lack of cohesive processes that integrate invoice intake, approval,
         payment, and accounting records. This disconnection can lead to costly errors, such as paying the same
         invoice twice or making payments without proper authorization. For instance, consider a situation where
         both the business owner and the bookkeeper enter the same vendor bill independently. This duplication
         can result in double payments if not caught in time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another common problem arises when invoices are received via email and entered manually. This method
         often leads to inconsistencies in details, making it difficult to track and reconcile payments
         accurately. Additionally, staff may inadvertently process an invoice with a duplicate number without
@@ -17,18 +17,18 @@ export default function ChallengesSection() {
         accounts payable&nbsp;process. These errors not only
         waste money but also consume valuable time that could be better spent on strategic business
         activities.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Moreover, the intended approval process is sometimes bypassed, either due to oversight or the urgency to
         process payments quickly. This can lead to unauthorized payments slipping through the cracks. On top of
         this, accounting records may not be updated promptly, causing someone to mistakenly issue a payment
         again. Such scenarios highlight the critical need for a more integrated approach to managing accounts
         payable.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         BILL addresses these challenges by centralizing activities and implementing checks for duplicate
         invoices. By consolidating invoice processing, approval routing, and payment records into one
         controlled workflow, BILL ensures that every step is tracked and verified. This system not only
         prevents duplicate payments but also maintains a clear audit trail for each transaction.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The solution offered by BILL is straightforward: &quot;Stop paying from scattered inboxes. We build one
         controlled workflow that checks for duplicate bills, routes approvals, and keeps payment records
         connected to your books.&quot; This approach eliminates the chaos of managing invoices through multiple

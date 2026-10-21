@@ -1,34 +1,34 @@
 export default function HowDextTransformsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Dext offers a powerful solution to the challenges of manual bookkeeping by automating key processes
         and enhancing efficiency. Through its platform, Dext automates data capture, extraction, and
         categorization, significantly reducing the need for manual data entry. This automation not only
         minimizes errors but also improves the consistency and accuracy of financial records.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the standout features of Dext is its ability to process documents with over 99% accuracy,
         ensuring that discrepancies are identified and addressed while they are still minor. This proactive
         approach prevents small errors from escalating into larger issues, saving time and resources in the
         long run. By automating routine tasks, Dext allows teams to focus on higher-value work such as
         financial analysis and strategic decision-making.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Dext&#39;s AI Assist takes automation a step further by learning from user preferences and decisions.
         It surfaces suggestions for automating repetitive tasks, allowing firms to apply their unique
         judgment consistently across transactions. This human-in-the-loop approach ensures that
         professionals remain in control, with every suggestion being transparent and reviewable.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Furthermore, Dext enhances productivity through its Time Spent feature, which provides clear
         visibility into how teams allocate their time across clients. This insight enables firms to optimize
         workflows, manage workloads more effectively, and identify areas where efficiencies can be gained. By
         understanding where time is being concentrated, firms can rebalance workloads and improve overall
         productivity.</p>
-      <p className="text-md italic text-white shadow-text pt-3">
+      <p className="text-base italic text-white shadow-text pt-3">
         &quot;Dext helps turn automation into advisory value by streamlining bookkeeping, improving workflow
         insight, and enabling more proactive client service.&quot;&nbsp;
         <a id={`tools-accounting-dext-transforms-source${idSuffix}`}
           href="https://dext.com/us/blog/single/ai-and-automation-in-accounting-how-to-build-a-smarter-scalable-practice-with-dext"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           Dext
         </a></p>
     </>

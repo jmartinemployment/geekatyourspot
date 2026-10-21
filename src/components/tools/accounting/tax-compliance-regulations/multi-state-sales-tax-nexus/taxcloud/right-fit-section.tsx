@@ -1,7 +1,7 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxCloud is designed for small and mid-market businesses that are selling across state lines and need to
         automate sales&nbsp;tax compliance&nbsp;without
         building a tax team. If you are a retailer, wholesaler,
@@ -11,7 +11,7 @@ export default function RightFitSection() {
         with a single-state focus or those who never cross state lines. It earns its keep when you need to
         manage compliance in several states at once, especially if you sell across multiple channels like
         Shopify, Amazon, and your own website.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxCloud works best for teams that want to remove manual compliance work and avoid the risk of late
         filings, missed registrations, or under-collection of tax. If you are already spending hours each month
         pulling reports from different platforms, reconciling data, or trying to figure out which states you owe
@@ -19,21 +19,21 @@ export default function RightFitSection() {
         strong fit for businesses that want to take advantage of the Streamlined Sales Tax (SST) program, if you
         qualify, you can get registration, calculation, and filing in 24 states at no cost. This is a major
         advantage over other tools or manual methods, where filing fees and consultant costs can add up quickly.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxCloud is not the right fit for every business. If you only sell in Florida and have no plans to
         expand, you do not need a multi-state tax compliance platform. If your operation is fully global, with
         complex VAT or GST needs outside the US and Canada, TaxCloud’s integrations may not cover every
         requirement, some global-first platforms go deeper on international tax. If you have a large in-house
         tax team or need custom workflows for highly specialized industries, you may find more flexibility in
         enterprise-focused products, but at a much higher cost and complexity.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For South Florida businesses considering TaxCloud, the next step is to assess your current exposure.
         Look at your sales by state, count the number of transactions, and see where you are approaching or have
         already crossed a nexus threshold. If you are unsure, TaxCloud’s own dashboard can help you monitor
         economic nexus in real time and send alerts as you approach a state’s limit. This proactive approach is
         critical, waiting until after you have crossed a threshold can mean late registrations, back taxes, and
         penalties.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The implementation process matters. TaxCloud is built for integration with platforms like Shopify,
         BigCommerce, WooCommerce, Magento, QuickBooks Online, Stripe, and Chargebee, but the real value comes
         when it is set up to match your business’s actual data structure and sales flows. Geek @ Your Spot LLC
@@ -43,25 +43,25 @@ export default function RightFitSection() {
         to reflect that. Geek @ Your Spot LLC’s method starts with a free consultation, assesses
         your&nbsp;data quality, and builds a phased plan that
         fits your objectives and existing systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are already using another tax platform and thinking about switching, TaxCloud supports guided
         migration, including moving historical data from providers like Avalara and TaxJar. This is important
         for audit readiness and for making sure your compliance history is complete. For businesses that need to
         automate compliance without adding headcount, TaxCloud’s pricing is predictable and affordable, starting
         at $19 per month for simpler setups and $79 per month for more complex, multi-channel environments.
         Filing fees are clear, and for SST-eligible businesses, many filings are free.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The bottom line: TaxCloud is for South Florida businesses that are ready to automate multi-state sales
         tax compliance, want to avoid the risk of manual errors, and need a solution that fits their scale and
         budget. It is not for companies with single-state operations or those needing deep global tax features.
         The path forward is to get a clear picture of your current exposure, decide if you are ready to
         automate, and, if so, work with a local expert who can configure TaxCloud to fit your business, not the
         other way around.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
         <li>Are you monitoring your sales volumes and transaction counts per state in real-time, or do you review them retroactively at the end of the year?</li>
         <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>

@@ -1,36 +1,36 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill is particularly well-suited for small to medium-sized businesses in South Florida that are looking
         to streamline their&nbsp;
         accounts payable&nbsp;processes with Automated
         Fraud &amp; Duplicate Payment Controls. The platform&#39;s ability to automate tedious tasks like invoice
         matching and purchase order reconciliation makes it an attractive option for businesses seeking to
         reduce manual errors and improve efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Bill may not be the best fit for businesses that require highly customized solutions or those
         with complex, industry-specific needs that go beyond the platform&#39;s current capabilities. Companies
         that operate in highly regulated sectors might need additional compliance features not covered by
         Bill&#39;s standard offerings.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses that find Bill a suitable match, the next step is to engage with Geek @ Your Spot LLC,
         an&nbsp;
         AI&nbsp;implementation consultancy based in South Florida. Their
         expertise in configuring Bill to fit seamlessly into existing systems can be invaluable. They provide
         services such as data mapping, integration with current software, and user training to ensure that the
         transition to automated systems is smooth and effective.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC&#39;s local presence in Miami-Dade, Broward, and West Palm Beach counties means they
         understand the unique challenges faced by businesses in this region. Their consultative approach helps
         in maximizing the benefits of Bill, ensuring that the software not only meets current needs but also
         adapts to future changes in business operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In conclusion, while Bill offers a strong solution for many small businesses, the decision to implement
         it should consider both the current operational needs and future growth plans. Engaging with a
         knowledgeable implementation partner like Geek @ Your Spot LLC can enhance the deployment process, ensuring
         that the business reaps the full benefits of automated fraud and duplicate payment controls.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <button type="button" data-scheduler-link id={`tools-accounting-fraud-controls-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
         </button>.</p>

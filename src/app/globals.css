@@ -164,6 +164,14 @@ html, body {
     h2, h3, h4, h5 {
     display: block;
   }
+  /* Every link in the page content is bold. A link inside a heading keeps the
+     heading's weight, and a weight class on a link still wins. */
+  main a {
+    font-weight: 700;
+  }
+  main :is(h1, h2, h3, h4, h5, h6) a {
+    font-weight: inherit;
+  }
   * {
     @apply border-border outline-ring/50;
   }
@@ -191,7 +199,7 @@ html, body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .375);
   }
   .shadow-text-white {
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   }
     .shadow-text-orange {
     text-shadow: 2px 2px 4px rgba(140, 39, 3, .75);
@@ -242,26 +250,26 @@ html, body {
 
 }
   .text-xs {
-    font-size: .75rem !important;
-    line-height: 1rem !important;
+    font-size: .75rem;
+    line-height: 1rem;
   }
   .text-sm {
-    font-size: .875rem !important;
-    line-height: 1.25rem !important;
+    font-size: .875rem;
+    line-height: 1.25rem;
   }
   .text-base {
-    font-size: 1rem !important;
-    line-height: 1.5rem !important;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
   .text-lg {
-    font-size: 1.125rem !important;
-    line-height: 1.75rem !important;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
   .text-xl {
-    font-size: 1.125rem !important;
-    line-height: 1.75rem !important;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
   .text-2xl {
-    font-size: 1.5rem !important;
-    line-height: 2rem !important;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }

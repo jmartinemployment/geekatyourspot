@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function InPracticeSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Rolling out Automated Payment Execution in a real-world setting involves a detailed sequence of steps.
         Each phase requires careful planning and execution to ensure success. Begin with a thorough assessment
         of your current processes. Identify areas that will benefit most from automation, such as invoice
         receipt and data entry. This assessment lays the groundwork for a targeted implementation plan.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next step is data migration. Ensure that all existing data is accurate and ready to be integrated
         into the new system. This process can be time-consuming but is crucial for maintaining data integrity.
         Using tools like&nbsp;
@@ -20,7 +20,7 @@ export default function InPracticeSection() {
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#0B162A] hover:underline">
           Melio
         </Link>, which offer seamless data transfer capabilities, can significantly ease this transition.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integration with existing systems is the backbone of Automated Payment Execution. The goal is to
         create a unified workflow that connects seamlessly with your accounting software. This ensures that
         data flows smoothly without the need for manual intervention. Platforms like&nbsp;
@@ -33,13 +33,13 @@ export default function InPracticeSection() {
           Tipalti
         </Link>&nbsp;support a variety of integrations, making them ideal choices for businesses with complex
         accounting needs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         As the system goes live, training becomes essential. Equip your team with the knowledge to use the new
         tools effectively. This includes understanding how to manage the Automated Payment Execution process
         and troubleshoot common issues. Training should be comprehensive, covering everything from basic
         operations to advanced features. This step is crucial for maximizing the benefits of automation and
         ensuring that your team is comfortable with the new processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, monitor and adjust. After implementation, continuously track the system&#39;s performance.
         Look for areas where efficiency could be improved and make adjustments as necessary. Regularly review
         your goals and metrics to ensure they align with business objectives. This iterative process helps

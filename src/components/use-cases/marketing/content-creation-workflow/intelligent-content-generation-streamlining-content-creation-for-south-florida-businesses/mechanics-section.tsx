@@ -4,18 +4,18 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Intelligent Content Generation replaces the slow, manual grind of content creation with a streamlined,
         repeatable system that lets even a two-person team look and operate like an in-house agency. The
         process starts with a clear goal: produce on-brand, localized marketing content, SEO articles, social
         posts, and emails, at the pace and quality of Fortune 500 competitors, but on a small business budget.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The approach follows a four-phase sequence, each phase building on the last. First, business
         objectives are set in concrete terms, what needs to be published, how often, for which audiences, and
         what a win looks like (more local leads, higher search rankings, or a steady stream of email opens).
         This isn’t guesswork; it’s a direct response to the real bottlenecks already slowing the team down,
         whether that’s blank-page paralysis, inconsistent messaging, or missing deadlines for local events.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next comes the&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>&nbsp;assessment. Every workflow runs on the information you already have:
         service descriptions, customer FAQs, product details, and event calendars. Clean, structured data,
@@ -26,7 +26,7 @@ export default function MechanicsSection() {
         and&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-scalenut${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut" className="text-[#0B162A] hover:underline">Scalenut</Link>&nbsp;can
         only generate content as good as the source material they’re fed. If the data has gaps or
         inconsistencies, the system flags them for review before a single draft is produced.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The third phase is tech selection and architecture. Here, the right mix of tools is chosen based on
         what each workflow needs. Rytr is plugged in for rapid-fire caption and microcopy generation,
         Instagram posts, Google Business Profile updates, and follow-up emails in both English and Spanish,
@@ -51,7 +51,7 @@ export default function MechanicsSection() {
         minutes.&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-copy-ai${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;and&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-mechanics-jasper${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;tie
         it all together, orchestrating multi-channel campaigns, batch-converting content for every platform,
         and locking in brand voice and compliance at every step.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The last phase is pilot implementation. The rollout is structured: start with a single workflow (for
         example, social media scheduling), run smoke tests using real data, and validate outputs in a
         sandboxed environment. Each tool, Rytr for captions, Hootsuite for scheduling, Scalenut for articles,
@@ -59,7 +59,7 @@ export default function MechanicsSection() {
         errors, and iterates the setup until the content is ready to publish without manual rewriting.
         Throughout, the process is designed to scale: once the workflow proves itself, it expands to cover new
         campaigns, different content types, or additional team members without adding complexity or headcount.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The outcome is a marketing operation that runs on rails. A Friday afternoon that used to end with an
         abandoned draft now finishes with a full content calendar, every post and email mapped out and ready
         to go. The business owner stays focused on revenue work, while the digital presence keeps working

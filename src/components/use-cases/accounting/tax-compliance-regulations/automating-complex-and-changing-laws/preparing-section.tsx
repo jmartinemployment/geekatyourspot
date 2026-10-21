@@ -1,43 +1,43 @@
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once you&#39;ve determined that&nbsp;tax
         compliance&nbsp;automation is the right path for your business, the next steps involve
         careful planning and execution. Start by conducting a thorough review of your current tax processes to
         identify specific areas where automation can provide the most benefit. This assessment should include an
         analysis of your transaction volume, the number of jurisdictions you operate in, and the complexity of
         your tax filings.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With a clear understanding of your needs, you can begin selecting the appropriate tools and partners.
         Solutions like Quaderno and TaxJar offer robust platforms for automating tax calculations and compliance
         across multiple jurisdictions. Quaderno excels in handling international VAT and GST, making it ideal
         for businesses with a global reach, while TaxJar&#39;s
         SmartCalcs&nbsp;API&nbsp;provides precise sales tax calculations
         for businesses with complex multi-state operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         As you move forward, it&#39;s crucial to engage with a partner who can assist with the integration of
         these tools into your existing systems. This step ensures that your automation platform works seamlessly
         with your current accounting software and sales channels. For instance, TaxCloud&#39;s ability to
         consolidate data from various e-commerce platforms can be particularly beneficial in maintaining an
         audit-ready format across different sales channels.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         After integration, the focus should shift to training your team to use these new systems effectively.
         While automation reduces manual workload, understanding how to leverage these tools to their full
         potential is crucial. Training should cover the basics of navigating the software, managing exceptions,
         and interpreting automated reports. This empowers your team to address issues swiftly and ensures that
         your compliance strategy remains robust.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, establish a routine for regular reviews and updates. Tax laws are continuously evolving, so
         your systems and processes must adapt to stay compliant. Regularly scheduled reviews will help you
         identify any necessary adjustments in your automation setup and ensure that your business remains
         aligned with current regulations. With these steps, you can expect a smoother, more efficient tax
         compliance process that supports your business growth while minimizing risk.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`use-cases-accounting-complex-changing-laws-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
         <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>
         <li>How does the system track remote workers across different South Florida zip codes?</li>

@@ -1,7 +1,7 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         BotPenguin is built for small businesses that need to capture, qualify, and follow up with leads
         across WhatsApp, Instagram, Facebook Messenger, Telegram, SMS, and website chat without adding
         headcount or juggling multiple tools. If your team is tired of missing messages, copying data between
@@ -10,7 +10,7 @@ export default function RightFitSection() {
         and&nbsp;CRM&nbsp;integrations mean you spend less time on
         manual tasks and more time actually closing deals. For teams running lean, where every hour and every
         lead counts, this can mean the difference between growth and stagnation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform is especially well-suited to businesses with no in-house IT or development resources.
         BotPenguin’s no-code setup, ready-made templates, and rapid deployment allow non-technical teams to
         get live quickly. The free plan covers all major channels and includes AI, so even a solo operator or
@@ -18,7 +18,7 @@ export default function RightFitSection() {
         add-ons. This makes it a strong fit for local service providers, retail shops, travel agencies, and
         any business where customers reach out on more than one channel and expect a fast, consistent
         response.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If your lead capture process relies on qualifying questions, appointment booking, or routing inquiries
         to the right person, BotPenguin’s automation and data mapping features are a direct match. The
         platform lets you build flows that ask the same questions your sales team would, then push the answers
@@ -27,7 +27,7 @@ export default function RightFitSection() {
         volume or lose context between channels, BotPenguin’s unified contact profiles and conversation
         history solve the root of the problem. Every message, every answer, and every lead is captured and
         tracked in one place, so nothing falls through the cracks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         There are cases where BotPenguin is not the right fit. If your business only needs a simple website
         chat widget, with no plan to use WhatsApp, Instagram, or other messaging apps, a basic live chat tool
         may be cheaper and easier to manage. BotPenguin’s strengths are in multichannel automation and unified
@@ -37,7 +37,7 @@ export default function RightFitSection() {
         deeply integrated workflows that go beyond what BotPenguin’s no-code platform supports, you may need a
         developer-driven solution or a platform with more
         advanced&nbsp;API&nbsp;access.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         BotPenguin is also not a fit for businesses that require enterprise-scale customization, advanced
         analytics, or vertical-specific compliance features beyond what is covered in its standard
         integrations. If your team already has a complex,
@@ -46,7 +46,7 @@ export default function RightFitSection() {
         enterprise-focused platforms with specialized support. For most small businesses in Miami-Dade,
         Broward, and West Palm Beach, though, those requirements are rare, and the overhead of a more complex
         tool outweighs the benefits.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The best way to decide is to map your lead capture workflow against what BotPenguin automates: Does
         your team need to respond to leads from multiple channels, qualify them with a set of questions, and
         push the data into a&nbsp;CRM&nbsp;or sales pipeline? Do you
@@ -55,11 +55,11 @@ export default function RightFitSection() {
         automation or data sync, a simpler tool may suffice. For teams that want to scale up later,
         BotPenguin’s pricing model allows you to start small and add channels, bots, or team members as your
         business grows, without a disruptive migration or a steep learning curve.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-cross-platform-chatbot-botpenguin-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
         <li>Where do most serious prospects first contact you today: website, Google, phone, text, Instagram, Facebook, WhatsApp, email, or walk-in?</li>
         <li>How many inquiries do you receive in a typical week, and when do they arrive?</li>

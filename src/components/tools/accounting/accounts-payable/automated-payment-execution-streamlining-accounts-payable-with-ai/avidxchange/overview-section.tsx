@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every week, small business owners find themselves tangled in a maze of manual payment processes. Take
         the example of Lisa, who owns a local bakery and spends hours each Friday printing checks, stuffing
         envelopes, and mailing payments. This routine is not just time-consuming; it&#39;s fraught with
         potential errors and delays. A single typo can lead to bounced checks, causing strained supplier
         relationships and financial headaches. As her business grows, so does the stack of invoices, turning
         what was once a manageable task into a formidable burden.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This manual approach to&nbsp;<Link id={`tools-accounting-payment-execution-avidxchange-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">payment execution</Link>&nbsp;is not only inefficient but costly. Each hour spent on
         these tasks is an hour away from focusing on what truly matters: growing the business and delighting
         customers. For many small businesses, the pressure of maintaining accurate and timely payments can
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         initiatives, stifling growth and innovation. It&#39;s a common story shared by countless businesses
         in West Palm Beach and beyond, where the need for a more efficient solution has never been more
         pressing.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Enter automated payment execution, a technology-driven solution that transforms how businesses manage
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>. By integrating systems
         like AvidXchange, companies can automate their entire payment workflow, eliminating manual errors and
@@ -27,7 +27,7 @@ export default function OverviewSection() {
         their funds through their preferred methods. This seamless transition not only improves operational
         efficiency but also strengthens supplier relationships, as payments are made promptly and
         accurately.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting automated payment
         execution is a game-changer. It allows business owners like Lisa to shift their focus from tedious
         paperwork to strategic growth opportunities. By leveraging <GlossaryLink slug="ai">AI</GlossaryLink>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A South Florida retailer sees their product take off across state lines. Overnight, a steady stream of
         out-of-state orders pushes their sales past the $100,000 mark in three new states. But what looks like
         growth quickly turns into a race against the clock. Instead of celebrating, the owner faces a pile of
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         measure. Without a dedicated CPA or in-house compliance team, they now have to track shifting sales
         thresholds, register in unfamiliar jurisdictions, and respond to a new wave of regulatory mail, while
         still running day-to-day operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the reality of&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;for small businesses. Economic nexus rules can
         trigger tax obligations after crossing as little as 200 transactions or $100,000 in revenue in a state.
         Most small teams hit these triggers long before they have the staff or systems to handle the fallout.
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         misclassified products open the door to audits and penalties. Software alone is not enough: when a
         plugin fails, or a state updates its rules, there is no one watching. The risk is real and immediate:
         one missed notice or late registration can put the whole business at risk.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC works with small businesses in West Palm Beach, Broward and Miami-Dade counties who are
         stuck in exactly this bind. We see owners losing nights to spreadsheets, answering state letters they do
         not understand, and spending money on tax tools that still leave them exposed. The answer is not more

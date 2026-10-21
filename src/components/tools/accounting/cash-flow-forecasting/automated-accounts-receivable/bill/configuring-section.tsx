@@ -2,32 +2,32 @@
 export default function ConfiguringSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill offers a robust configuration environment that allows businesses to tailor approval chains and routing
         to their specific needs. This is crucial for small businesses in South Florida aiming to streamline their
         automated accounts receivable processes. Approval chains in Bill can be set up to ensure that invoices are
         reviewed by the right people at each stage, minimizing errors and ensuring compliance with internal
         policies. This flexibility allows businesses to define who needs to approve what and when, based on criteria
         such as invoice amount or vendor type.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Routing in Bill is equally customizable. Businesses can automate the flow of invoices through different
         departments, ensuring that each invoice reaches the appropriate decision-maker without unnecessary delays.
         This not only speeds up the approval process but also reduces the manual intervention required, freeing up
         valuable time for staff to focus on more strategic tasks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation logic in Bill extends beyond simple routing. Businesses can set up rules that trigger specific
         actions based on predefined conditions. For example, if a payment is overdue, Bill can automatically send a
         reminder to the client. Similarly, if an invoice exceeds a certain threshold, it can be flagged for
         additional review. These automated workflows reduce the risk of human error and ensure that critical tasks
         are never overlooked.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill&#39;s extension mechanism further enhances its configurability. While it does not offer a
         traditional&nbsp;API&nbsp;or SDK, it provides integration
         capabilities with popular accounting software such as QuickBooks, Xero, and Oracle NetSuite. This means
         businesses can seamlessly sync their financial data across platforms, ensuring consistency and accuracy.
         Geek @ Your Spot LLC specializes in setting up these integrations, ensuring that Bill works smoothly within your
         existing tech stack.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses unsure about handling these configurations themselves, Geek @ Your Spot LLC offers expert
         guidance. They help assess your current processes, identify areas for automation, and configure Bill to
         align with your business goals. This tailored approach not only optimizes Bill&#39;s functionality but also

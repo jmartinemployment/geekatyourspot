@@ -3,33 +3,33 @@ import Link from "next/link";
 export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering Stampli for automating your approval workflows, the fit for your business is crucial.
         Stampli excels in streamlining&nbsp;
         accounts payable&nbsp;(AP) processes,
         particularly for small businesses looking to reduce manual workload. It offers dynamic approval
         workflows that adapt to your existing systems without overwhelming your team with complexity. This
         adaptability is key for businesses that want to maintain flexibility while enhancing efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Stampli&#39;s pricing model is not explicitly detailed in the available data, but it&#39;s important
         to consider the overall cost of ownership. This includes setup time, training, and ongoing usage fees.
         For small businesses, the affordability of Stampli can be weighed against the time savings and error
         reductions it provides. Unlike some competitors that may require extensive IT resources for setup and
         maintenance, Stampli is designed to integrate smoothly with existing systems, minimizing additional
         costs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In evaluating Stampli, it&#39;s also essential to compare it with other tools that offer automated
         approval workflows. While Stampli provides robust features like configurable invoice approval routing
         and AI-powered invoice processing, tools like&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-stampli-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>&nbsp;also offer competitive solutions.
         These alternatives might focus more on specific integrations or feature sets, so understanding your
         business&#39;s unique needs is key to making the right choice.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Stampli&#39;s predefined approval routing stands out by automatically directing documents to the right
         reviewers based on business rules and spending authority. This feature reduces the manual intervention
         required in traditional AP processes, which often leads to errors and delays. The automation ensures
         that approvals are documented and auditable, providing a single source of truth for your financial
         operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering a move from manual to automated workflows, Stampli offers a significant
         reduction in processing time and administrative burden. By automating repetitive tasks, Stampli frees
         up staff to focus on strategic activities, potentially increasing productivity and reducing costs.

@@ -3,7 +3,7 @@ import { TIMELINE, TimelineRow } from "@/components/about/timeline-cards";
 
 export default function TimelineSection() {
   const intro = (
-    <p className="text-md text-white shadow-text pt-3">
+    <p className="text-base text-white shadow-text pt-3">
       I have spent four decades staying ahead of technology curves. From the earliest home computers to
       today&#39;s AI revolution, I&#39;ve been building solutions that help businesses thrive. Now I bring that
       experience to small businesses ready to compete with the big players.</p>

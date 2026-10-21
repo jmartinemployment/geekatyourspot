@@ -1,16 +1,16 @@
 export default function NotAdviceSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Our articles, use case guides, tool guides, glossary, and other pages explain how automation and AI
         can fit into accounting, tax compliance, payroll, marketing, and other business work. They are general
         information written for South Florida small businesses. They are not accounting, tax, legal, or
         financial advice, and they do not take the facts of your business into account.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Tax rules, payroll requirements, and sales tax obligations change often and depend on your situation.
         Before you act on anything you read here, confirm it with a licensed professional, such as a certified
         public accountant, an enrolled agent, or an attorney.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Reading the site or booking a consultation does not create a professional relationship between you and
         us. We are not a CPA firm or a law firm, and nothing on the site should be read as the opinion of one.</p>
     </>

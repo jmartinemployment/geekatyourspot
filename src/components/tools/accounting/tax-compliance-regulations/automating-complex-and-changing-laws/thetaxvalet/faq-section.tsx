@@ -13,7 +13,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does TaxValet protect my business if a software integration fails during a regional tax rate change?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               TaxValet runs transaction audits to compare collected rates with the latest owed rates in all your
               business’s jurisdictions. If issues like misconfigured products are found, TaxValet immediately
               pushes fixes across your sales channels to correct tax calculations system-wide. Unlike DIY
@@ -23,7 +23,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               We don&#39;t have a CPA on staff. How do we keep up with out-of-state &#39;Economic Nexus&#39; laws as they evolve?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               During TaxValet’s onboarding process, your business receives a complete nexus analysis to pinpoint
               past exposure. TaxValet maps out strategic options, such as executing a Voluntary Disclosure
               Agreement (VDA) to waive penalties. The team provides tailored advice based on your financial
@@ -34,7 +34,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Our product mix changes constantly (SaaS, physical goods, digital courses). How do we know we are mapping items to the right tax codes?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               TaxValet offers done-for-you taxability mapping, analyzing your specific offerings, features, and
               delivery methods to determine and configure the exact taxability in every state. This service
               ensures that your products are correctly mapped to the appropriate tax codes, reducing the risk of
@@ -43,7 +43,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What happens if a state sends us an aggressive audit notice regarding changing tax regulations?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               With TaxValet, your team becomes your advocate, handling all communication with state authorities.
               They decipher the notice, take the necessary steps to resolve the issue, and keep you informed
               throughout the process. This support ensures that you do not have to navigate confusing online

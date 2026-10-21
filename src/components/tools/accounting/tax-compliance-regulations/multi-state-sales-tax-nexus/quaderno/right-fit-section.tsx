@@ -1,7 +1,7 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quaderno is built for small businesses that sell across state lines and need reliable, automated
         sales&nbsp;tax compliance&nbsp;without hiring a
         dedicated tax department. If your team is running lean, one or two people in finance, a founder still
@@ -9,56 +9,56 @@ export default function RightFitSection() {
         platform is especially strong for&nbsp;SaaS&nbsp;companies,
         digital agencies, online retailers, and any business that uses more than one sales channel or payment
         processor.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The fit is clearest for businesses facing these situations:</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>You sell digital products, subscriptions, or services to customers in multiple states.</li>
         <li>You use a mix of payment platforms (Stripe, PayPal, Shopify, WooCommerce, Braintree) and need a single compliance engine.</li>
         <li>You have crossed or are approaching the $100,000 or 200-transaction threshold in states outside Florida, and cannot track all the rules by hand.</li>
         <li>You want tax-compliant invoices, automated threshold alerts, and CPA-ready reports without manual effort.</li>
         <li>Your team wants to avoid the cost and risk of late filings, missed registrations, or audit penalties.</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quaderno is not the best fit for every business. If you run a large operation with massive physical
         inventory, complex customs clearance, or freight management needs, Quaderno does not replace the
         specialized systems built for those logistics. Its strength is in digital-first, multi-channel sales
         where compliance risk comes from the complexity of tax rules, not from moving goods through ports and
         warehouses. If your business is entirely local, with all sales in Florida and no out-of-state customers,
         you will not see the full value of Quaderno’s multi-jurisdiction automation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses early in their journey, those still selling only through one payment platform and without
         plans to expand, Quaderno may be more automation than you need right now. In these cases, the built-in
         tax tools in Stripe or Shopify can cover basic needs. But as soon as you add a second channel, or as
         sales start to rise in other states, the gaps appear. That is when the switch to Quaderno becomes
         urgent: the risk of missing a threshold or filing late is no longer theoretical.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next step is to map your sales footprint. Review where your customers are, which platforms you use,
         and whether you have crossed or are close to crossing state thresholds. If your business is already in
         multiple states, or if sales are trending upward, it is time to automate compliance before an audit or
         penalty forces your hand. Quaderno’s ability to pull in data from every channel means you get a clear
         picture from day one, not just a summary from one platform.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, the move to Quaderno is not just about reducing manual work, it
         is about protecting growth. The Friday afternoon scenario from the opening is not just a story; it is
         the weekly reality for any team trying to manage multi-state sales tax by hand. Quaderno removes that
         uncertainty, giving you the confidence to expand into new markets without the fear of hidden compliance
         debt.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If your business matches these criteria, the next move is to assess your current systems and data. Make
         sure your payment processors and storefronts can connect to Quaderno’s integrations. Plan for a
         straightforward implementation: the platform is designed for quick onboarding and does not require a
         full IT overhaul. For teams with more complex setups, or for those who want to ensure a smooth
         transition, working with a specialist like Geek @ Your Spot LLC can close the gap, handling configuration,
         data mapping, and integration so you get the full benefit of Quaderno’s automation from day one.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The decision is not just about software; it is about what your business needs to stay compliant and
         focused as it grows. For digital-first, multi-channel small businesses, Quaderno is the tool that
         removes the manual burden and audit risk, so you can keep your attention on scaling, not scrambling.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
         <li>Are you monitoring your sales volumes and transaction counts per state in real-time, or do you review them retroactively at the end of the year?</li>
         <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>

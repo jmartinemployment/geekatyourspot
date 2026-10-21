@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function LedeSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the example of Lisa, a small business owner who finds herself drowning in a sea of invoices every
         month. Each document
         represents countless hours of manual data entry, potential errors, and the looming threat of late
@@ -12,13 +12,13 @@ export default function LedeSection() {
         become a bottleneck, consuming time she doesn&#39;t have and creating stress she doesn&#39;t need.
         This is a common struggle among small businesses in West Palm Beach, Broward, and Miami-Dade counties,
         where limited staff and resources make efficient payment execution a daunting task.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated Payment Execution changes everything. By shifting from manual to automated processes,
         businesses like Lisa&#39;s can centralize bill intake, approvals, and payment execution. This not only
         reduces errors and speeds up payments but also liberates business owners to focus on growth rather
         than paperwork. This page lays out how this transition can redefine business efficiency, saving you
         time and reducing costs while keeping your payment processes transparent and secure.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payment-execution-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-payment-execution-lede-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> on our blog.</p>
     </>
   );
 

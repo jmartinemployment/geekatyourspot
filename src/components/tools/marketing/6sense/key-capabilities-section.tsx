@@ -1,8 +1,8 @@
 export default function KeyCapabilitiesSection() {
   const body = (
     <>
-      <p className="pt-3 text-md font-normal text-white shadow-text">6sense delivers a focused set of AI-powered capabilities that improve how teams score, prioritize, and engage leads, turning raw behavioral data into sales-ready insights.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <p className="pt-3 text-base font-normal text-white shadow-text">6sense delivers a focused set of AI-powered capabilities that improve how teams score, prioritize, and engage leads, turning raw behavioral data into sales-ready insights.</p>
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Predictive lead scoring with advanced data modeling that evaluates behavior and engagement patterns to predict conversion likelihood and surface high-potential prospects first.</li>
         <li>Behavioral intent analysis and customer journey mapping that reveals what drives buying decisions, so teams understand where each account is in its evaluation.</li>
         <li>AI-driven recommendations for personalized outreach, helping reps tailor messaging and timing to match demonstrated intent rather than generic follow-up.</li>

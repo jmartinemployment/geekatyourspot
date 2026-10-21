@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ComparingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         MarketMuse stands apart from typical content planning tools by focusing on the unique challenges small
         marketing teams face. Most alternatives in this space offer keyword research, basic content scoring,
         or template-driven writing, but they rely on the same generic data sources and force teams to build
@@ -11,7 +11,7 @@ export default function ComparingSection() {
         footprint, identify gaps that competitors missed, and calculate the exact difficulty of ranking for a
         topic based on the site’s current authority. This is not just a technical difference, it changes the
         way a team plans and executes every week.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Many small businesses in Miami-Dade, Broward, and West Palm Beach counties start with
         spreadsheet-driven keyword lists, often pulled from public APIs or SEO tools. The result is a cycle of
         manual research, copying what larger competitors are already doing, and spreading effort across too
@@ -21,7 +21,7 @@ export default function ComparingSection() {
         authority, where quick wins exist, and which topics are mathematically out of reach. Its content
         inventory and personalized difficulty metrics are built on the site’s own data, not on industry
         averages.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Where other platforms offer a one-size-fits-all approach, MarketMuse delivers a custom roadmap. Its
         patented topic modeling technology analyzes not just the keywords, but the full context of a
         business’s content and how it stacks up against local and national competitors. This means a team can
@@ -29,7 +29,7 @@ export default function ComparingSection() {
         spending dozens of hours on manual audits or guessing which blog post might perform, MarketMuse
         automates the research and delivers a prioritized plan. The result is a shift from reactive publishing
         to proactive, data-driven content strategy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams that have tried other AI writing tools or bulk content generators, the difference is clear.
         MarketMuse does not just generate text or fill in templates. It provides detailed, prescriptive
         content briefs that outline exactly what should be included in each piece, headings, subtopics,
@@ -38,7 +38,7 @@ export default function ComparingSection() {
         start, and managers can track progress against a clear set of criteria. The platform’s real-time
         feedback and scoring ensure that content meets the standards for authority and relevance before it
         ever goes live.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When compared to other intelligent content planning solutions, MarketMuse is the only platform in this
         segment that combines automated inventory, personalized ranking difficulty, and deep competitive gap
         analysis in one place. While some tools offer integrations with CMS or bulk publishing, they do not
@@ -46,7 +46,7 @@ export default function ComparingSection() {
         the planning process, guiding every subsequent step, from ideation to optimization, based on what will
         deliver real results for a small team. This is why it is used not just by agencies and publishers, but
         by in-house marketing leads who need to do more with less.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For a small team, the real test comes on Friday afternoon, when the numbers are in and it is time to
         see what moved the needle. MarketMuse gives them a way to track what content is working, what needs to
         be updated, and where new opportunities have opened up. Instead of a static spreadsheet or a dashboard

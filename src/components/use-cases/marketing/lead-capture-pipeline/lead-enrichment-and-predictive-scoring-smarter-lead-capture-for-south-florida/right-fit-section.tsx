@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The decision to build a lead enrichment and predictive scoring pipeline is not a fit for every small
         business, every time. It is a strong move when you are sitting on a real volume of inbound traffic
         from the right geography and vertical, but you are missing too many of those opportunities because you
         cannot see or prioritize them. It is also the right answer when your sales team is burning hours on
         manual research, chasing dead ends, or fighting through switchboards to get to decision makers, and
         you know that every minute not spent selling is costing you pipeline.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         But this approach is not a cure-all. If your website has little traffic, or traffic mostly from
         outside your service area, no enrichment tool or scoring model will manufacture pipeline out of thin
         air. If you have not yet dialed in your ideal customer profile, if you do not know which industries,
@@ -18,7 +18,7 @@ export default function RightFitSection() {
         automate the noise. For a business that closes most of its deals through personal referrals or
         in-person networking, the return from automating digital lead capture is limited. You cannot automate
         what does not exist.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For South Florida businesses seeing regular local demand but watching good-fit visitors bounce, the
         right pipeline changes the game. This is where the local specificity of tools like Apollo, Factors,
         Lusha, Snitcher, and Leadfeeder comes into play. Apollo is a fit if you are struggling to get verified
@@ -30,7 +30,7 @@ export default function RightFitSection() {
         late. These tools surface the exact companies on your site, which pages they viewed, and when they
         showed up, so your team can act before interest goes cold. If you are running targeted digital
         campaigns but cannot see which clicks turn into real pipeline, Factors connects the dots, tying&nbsp;<Link id={`use-cases-marketing-lead-enrichment-right-fit-automated-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#0B162A] hover:underline">ad spend</Link>&nbsp;to closed revenue and flagging which accounts are heating up now.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         On the other hand, if your business is still figuring out product-market fit, or if the only visitors
         to your website are competitors and job seekers, this is not the moment to invest in predictive
         scoring. Wait until you have a steady stream of the right visitors, then automate. If
@@ -38,7 +38,7 @@ export default function RightFitSection() {
         agree on what &quot;qualified&quot; means, you will want to fix the foundations first. Predictive
         models are only as good as the data and definitions you feed them. The best pipeline in the world
         cannot rescue a business from unclear goals, broken process, or a lack of real demand.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For the twelve-person service business in West Palm Beach that knows its best leads are coming through
         the website but cannot reach them fast enough, building this pipeline is the difference between
         hitting quota and burning out the sales team. For the three-person consulting shop still living off

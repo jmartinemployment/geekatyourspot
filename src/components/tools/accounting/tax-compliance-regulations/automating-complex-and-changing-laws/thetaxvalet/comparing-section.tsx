@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When small businesses face the challenge of managing
         sales&nbsp;tax
         compliance, they often consider a range of software solutions. Platforms
@@ -12,28 +12,28 @@ export default function ComparingSection() {
         issues. These tools require manual updates and intervention, putting the onus on business owners to stay
         informed about changing regulations. This DIY approach can be risky and time-consuming, as it demands
         constant vigilance to ensure accuracy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In contrast, TaxValet provides a comprehensive, managed service that goes beyond basic automation. It
         handles everything from nexus analysis to permit registrations, and ongoing monitoring of regulatory
         changes. This proactive approach ensures that businesses remain compliant without the need for constant
         manual adjustments. Unlike other platforms, TaxValet offers a dedicated team that manages the entire
         compliance process, providing peace of mind and freeing up valuable time for business owners.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another critical advantage of TaxValet is its industry-leading audit protection. While competitors like
         Avalara and TaxJar offer limited guarantees, TaxValet covers penalties and interest incurred due to
         errors, ensuring that businesses are not left exposed during audits. This level of protection is crucial
         for businesses operating across multiple states, where tax laws can vary significantly.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses that require seamless integration with their existing systems, TaxValet excels by
         ensuring smooth data flow and connectivity with sales channels. This eliminates the need for manual data
         entry and reduces the risk of errors that can occur with other software solutions. TaxValet&#39;s team
         handles the technical complexities, allowing business owners to focus on growth rather than compliance.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is another area where TaxValet stands out. With transparent, flat monthly fees starting at $560,
         there are no hidden costs or surprise charges, unlike some competitors that may charge extra for
         additional transactions or features. This predictability in pricing allows businesses to budget
         effectively without worrying about unexpected expenses.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, TaxValet offers a more robust solution for small businesses facing complex and changing tax
         laws. Its comprehensive service, dedicated support, and transparent pricing make it a superior choice
         for those looking to ensure compliance without the hassle of managing it themselves.</p>

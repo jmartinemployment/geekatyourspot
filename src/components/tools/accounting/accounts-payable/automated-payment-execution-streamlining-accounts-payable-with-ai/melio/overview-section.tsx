@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Consider a small business owner like Lisa, who spends countless hours every month poring over invoices,
         manually entering payment details, and reconciling accounts. Each keystroke is fraught with the risk of
         error, and every
@@ -13,7 +13,7 @@ export default function OverviewSection() {
         measured in dollars but in opportunities lost and stress gained. For Lisa, like many others, this
         manual process is a necessary evil, a relic of traditional accounting practices that seems
         unavoidable.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Enter automated&nbsp;<Link id={`tools-accounting-payment-execution-melio-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">payment execution</Link>. By streamlining&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;with&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven tools, businesses like Lisa&#39;s can eliminate the
@@ -27,7 +27,7 @@ export default function OverviewSection() {
         </a>, Lisa can set up payment terms, manage cash flow effortlessly, and ensure timely payments without
         the monthly scramble. This transformation allows her to focus on growing her business, rather than
         getting lost in the paperwork.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated payment execution is not a distant future; it is a present-day solution that offers tangible
         benefits. By adopting these technologies, small businesses can not only save time and reduce errors
         but also enhance vendor relationships and improve overall financial health. The transition from manual

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Picture a small construction firm in Miami-Dade, juggling a dozen jobs across three counties. The owner
         needs workers on short notice for a big project, so she brings on a mix of W-2 employees and 1099
         independent contractors. The job gets done, but the paperwork lags behind. Payroll taxes for staff are
@@ -11,21 +11,21 @@ export default function OverviewSection() {
         state. No one double-checks if the right taxes are withheld, or if those workers are even classified
         correctly. When a state auditor comes knocking six months later, the business faces questions it can’t
         answer, and the fines are bigger than last quarter’s profits.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is not rare in South Florida’s hospitality, seasonal services, and construction sectors. Owners
         want to grow fast and keep costs low, but the rules around&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-rippling-overview-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;keep shifting. There’s no dedicated HR team, so the owner or office manager guesses at each new hire.
         One mistake, such as treating a regular worker as a contractor or missing a multi-state tax filing, can
         trigger penalties that put the whole operation at risk. Tax deadlines get missed, required forms are
         late, and the IRS or state revenue department flags the business for review. The process is slow,
         manual, and full of risk.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real pain is not just the paperwork or the hours lost. It’s the uncertainty and the fear that even a
         small error can lead to a penalty or lawsuit. A business can’t afford to lose a week of revenue or have
         its accounts locked while it tries to explain who was an employee and who was a contractor. In South
         Florida, where workers move across counties and states, and where the line between gig and full-time
         shifts with each project, this risk grows fast. Most small businesses simply don’t have the bandwidth or
         in-house expertise to keep up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated solutions now exist that handle payroll tax deposits, track overtime, and help correctly
         classify every worker, reducing manual work, cutting the chance of error, and flagging compliance risks
         before they become fines. For small businesses in South Florida, this means fewer surprises at tax time,

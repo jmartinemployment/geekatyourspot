@@ -2,7 +2,7 @@
 export default function RightFitSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Implementing&nbsp;tax
         compliance&nbsp;automation in your South Florida business can be a game-changer, but it
         is not always the right move for everyone. Automation is ideal for businesses with complex tax
@@ -11,24 +11,24 @@ export default function RightFitSection() {
         web of local and state tax laws. The right automation tools, such as those provided by Zamp and
         TaxCloud, can significantly reduce these risks by offering real-time tax calculations and automated
         filing processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, tax compliance automation may not be necessary for very small businesses or those with
         straightforward tax obligations confined to a single jurisdiction. For instance, a local Miami bakery
         that only sells within the city limits might not benefit much from a complex automation system. The
         initial setup costs and ongoing management of such systems might outweigh the benefits for smaller
         operations with simple tax structures.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Moreover, businesses with highly variable operations or those in the early stages of growth might find
         manual systems more flexible. Automation systems require stable data inputs and defined processes to
         function effectively. If your business is still defining its sales channels or market reach, it might be
         premature to lock into a system that automates processes that are still evolving.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The key is to balance the complexity of your tax obligations with the capabilities of your team and the
         sophistication of your business processes. If your current system is causing bottlenecks, frequent
         errors, or missed deadlines, automation might be the solution. For instance, TaxValet offers audit
         protection and exemption certificate management, which can be invaluable for businesses that struggle
         with these aspects manually.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         On the other hand, if your team is capable of handling your current tax load efficiently and accurately,
         and if your operations are unlikely to reach the complexity that necessitates automation, it may be wise
         to continue with your existing processes. Businesses should evaluate their growth trajectory, existing

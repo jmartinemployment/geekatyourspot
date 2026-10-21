@@ -97,7 +97,7 @@ function renderInline(nodes: readonly InlineNode[], context: RenderContext): Rea
 function renderBlock(block: BlockNode, key: number, context: RenderContext): ReactNode {
   if (block.kind === "paragraph") {
     return (
-      <p key={key} className="pt-3 text-md font-normal text-white shadow-text">
+      <p key={key} className="pt-3 text-base font-normal text-white shadow-text">
         {renderInline(block.children, context)}
       </p>
     );
@@ -133,8 +133,8 @@ function renderBlock(block: BlockNode, key: number, context: RenderContext): Rea
   }
 
   const itemClassName = block.ordered
-    ? "list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3"
-    : "list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3";
+    ? "list-decimal list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3"
+    : "list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3";
 
   const items = block.items.map((item, index) => (
     <li key={index}>{renderInline(item, context)}</li>

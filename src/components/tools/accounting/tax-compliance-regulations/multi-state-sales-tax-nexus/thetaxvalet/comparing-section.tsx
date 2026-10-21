@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A buyer looking at TaxValet for multi-state
         sales&nbsp;tax
         compliance&nbsp;is almost always weighing it against two other approaches: trying to
@@ -11,7 +11,7 @@ export default function ComparingSection() {
         provider that promises automation but leaves much of the work and risk on the business. Each path has a
         real cost, and the differences only get sharper as a small business crosses into multiple states and
         channels.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         DIY and basic software tools
         like&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;or
         QuickBooks Online offer entry-level automation for calculating tax on checkout and filing standard
@@ -22,7 +22,7 @@ export default function ComparingSection() {
         crossed the threshold. This is not a theoretical gap. For a South Florida business with inventory moving
         through Amazon FBA or a 3PL, or with remote team members in other states, the moment you cross $100,000
         or 200 transactions, you have legal duties in that state, whether or not your software caught it.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxValet is not just another software layer. It is a full-service operation that takes over the entire
         compliance lifecycle, starting with a comprehensive nexus analysis that covers both economic and
         physical presence triggers. Where software stops at what it can see, TaxValet’s team reviews all your
@@ -30,7 +30,7 @@ export default function ComparingSection() {
         does not just flag the risk; it actually maps your exposure, handles the registration, and builds a
         compliance roadmap specific to your business’s footprint. This means you do not get stuck with a tool
         that handles the basics but leaves you exposed to audit risk for what it cannot track.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Other service providers may offer managed filings or support for permit registrations, but often with a
         patchwork approach. They automate what is easy and leave the hard parts, like local home-rule filings,
         data reconciliation across channels, or responding to state audit notices, back on your plate.
@@ -39,19 +39,19 @@ export default function ComparingSection() {
         managing voluntary disclosure agreements to clean up past liabilities, and representing you in audits
         with a penalty guarantee. For a business that has already run into a state notice or audit, this is the
         difference between a provider who stands in for you and one who hands you a checklist.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is another critical difference. Many software tools use tiered pricing based on transaction
         volume or number of states, with surprise overage fees as your business grows. TaxValet uses a flat
         monthly rate, starting at $560 per month, with no hidden charges. This is not just a billing preference,
         it is a structural difference. You know what you will pay, even if you expand into new states or your
         sales spike during the holidays. For a small team, this predictability can mean the difference between
         scaling confidently and holding back out of fear of unexpected costs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Audit defense is the final dividing line. Off-the-shelf software and most semi-managed services do not
         cover you if there is an error or a missed filing. TaxValet’s guarantee is industry-leading: if a
         penalty or interest arises from their error, they cover it. In practical terms, this means you are not
         left scrambling for legal help or paying out of pocket for mistakes you did not know you made.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For a South Florida small business, the choice is not just about features or automation level. It is
         about shifting the burden of compliance off your team and onto a partner who can see the whole picture,
         take on the risk, and free up your staff to focus on sales and growth. TaxValet’s approach is not for

@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Castmagic is built for small teams who create value in conversation, client calls, expert interviews,
         webinars, and internal meetings, but do not have the staff or budget to turn every one of those
         recordings into publishable content by hand. It is a strong fit for local businesses in Miami-Dade,
@@ -11,7 +11,7 @@ export default function RightFitSection() {
         than their headcount would suggest. If your team is sitting on hours of recorded material and
         struggling to get beyond a few sporadic posts or emails each month, Castmagic is designed to make that
         backlog work for you.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The ideal user is a business owner, office manager, or marketer who already records client
         consultations, team meetings, or training sessions. If you are already saving Zoom calls, recording
         webinars, or capturing customer interviews, but those files sit idle because nobody has the time or
@@ -19,7 +19,7 @@ export default function RightFitSection() {
         to publish across multiple channels, blog, social, email, without hiring a specialist for each.
         Castmagic’s ability to generate dozens of assets from one recording, in your brand voice and with
         approval steps built in, means you can keep every channel active without burning out your core team.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Where Castmagic is not the answer is just as important. If your business does not record meetings,
         webinars, or calls as a regular part of your workflow, Castmagic’s core strength, turning spoken
         content into publish-ready assets, will not be a fit. If you only need short, one-off pieces of copy
@@ -27,19 +27,19 @@ export default function RightFitSection() {
         or a classic transcription service may be enough. Castmagic is also not designed for businesses that
         require deep custom integrations with legacy systems beyond its supported sources. It connects with
         Zoom, YouTube, Google Drive, and RSS feeds, but it is not a full custom development platform.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Teams that need granular control over every word, or who want to handcraft every blog post, may find
         Castmagic’s automation too structured. While it allows for custom prompts and brand voice settings,
         its strength is in speed and scale. If your process relies on heavy, manual editing or bespoke design
         for each asset, you may not see the full benefit of what Castmagic automates.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For local businesses who do fit the Castmagic profile, the next step is not to buy a license and hope
         for the best. The real advantage comes from a thoughtful implementation, mapping your content sources,
         configuring prompts and approval flows, and training your team on the workflow. This is where Geek @ Your Spot LLC comes in. As a South Florida consultancy focused on small business AI, Geek @ Your Spot LLC
         specializes in making sure Castmagic fits your environment and delivers on its promise. From the first
         consultation to the final workflow mapping, the approach is about closing the gap between what you
         record and what actually gets published, without adding unnecessary complexity or cost.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The Miami-Dade manager from the opening section does not need to become a content strategist
         overnight. With Castmagic, and with an implementation partner who understands local business needs,
         the team can move from a folder full of unused recordings to a steady stream of on-brand content
@@ -48,11 +48,11 @@ export default function RightFitSection() {
         turn their backlog into an asset, Castmagic is the engine that makes it possible. For those who need a
         different approach, knowing what Castmagic does and does not do is the first step to finding the right
         fit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-content-generation-castmagic-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
         <li>When you create a primary content piece (like a long-form article or case study), what is your process for transforming it into emails, LinkedIn updates, or Meta ads? Is that handled manually or skipped entirely due to time constraints?</li>
         <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;pipelines, or technical spec sheets?</li>

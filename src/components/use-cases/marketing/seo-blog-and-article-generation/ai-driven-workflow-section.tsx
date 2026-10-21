@@ -4,56 +4,56 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function AIDrivenWorkflowSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Many businesses struggle with the slow, error-prone process of optimizing content for search engines. Traditional SEO workflows often involve manual keyword research,&nbsp;<Link id={`use-cases-marketing-seo-blog-and-article-generation-ai-driven-workflow-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">content planning</Link>, and tedious content optimization tasks. These processes can lead to delays, misalignment with changing SEO trends, and ultimately, lost opportunities for visibility and traffic.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Implementing an AI-driven workflow can significantly streamline these tasks, reducing the time spent on repetitive activities and allowing teams to focus more on strategic initiatives. Tools like Surfer SEO and Keyword Insights are pivotal in this transformation. They automate the analysis of search intent and competitive content landscapes, providing actionable data to refine content strategies and align them with user expectations.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Geek @ Your Spot LLC, as an AI implementation consultancy, assists businesses by configuring these tools to fit unique workflows. This ensures that the AI applications are not just installed but are integrated into daily operations to maximize their utility.
       </p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Keyword research automated to match search intent and trends.</li>
         <li>Content gaps identified and prioritized for targeted writing efforts.</li>
         <li>SEO performance metrics tracked in real-time without manual intervention.</li>
         <li>Content structure optimized based on competitive analysis insights.</li>
       </ul>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`seamless-integration-with-existing-tools${idSuffix}`}>Seamless Integration with Existing Tools</h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         One of the main hurdles in adopting new technologies is ensuring compatibility with existing systems. Many companies find themselves trapped in a web of disconnected tools, which complicates data sharing and collaboration.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Geek @ Your Spot LLC addresses this issue by integrating AI tools like Frase and HubSpot AI, ensuring they work seamlessly with your existing software. This integration supports continuous data flow, enhancing the accuracy and effectiveness of your SEO campaigns.
       </p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Data synchronization between AI tools and existing <GlossaryLink slug="crm">CRM</GlossaryLink> systems.</li>
         <li>Automated updates and insights pushed to collaborative platforms.</li>
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`customizing-data-models${idSuffix}`}>Customizing Data Models</h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         To make AI solutions truly effective, Geek @ Your Spot LLC customizes data models to reflect specific business needs. This customization involves tailoring algorithms to understand industry-specific terms and customer behaviors, which enhances the relevance of content recommendations.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         For instance, a hypothetical e-commerce client saw a 20% increase in organic traffic within three months of implementing a customized AI-driven SEO strategy, highlighting the tangible benefits of tailored data models.
       </p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`enhancing-content-creation-efficiency${idSuffix}`}>Enhancing Content Creation Efficiency</h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Content teams often face the challenge of maintaining high output without sacrificing quality. Traditional methods of content creation can lead to burnout and inconsistencies, especially when teams are tasked with producing large volumes of SEO-optimized content.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         AI-driven tools like ChatGPT and Claude can help alleviate these pressures by automating parts of the writing process. These tools generate drafts based on predefined parameters, allowing human writers to focus on refining and adding creative insights.
       </p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Drafts generated automatically to speed up initial content creation.</li>
         <li>Content quality maintained with AI-assisted editing and proofreading.</li>
         <li>Writers freed to focus on strategic content initiatives rather than menial tasks.</li>
       </ul>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id={`workflow-configuration-for-maximum-output${idSuffix}`}>Workflow Configuration for Maximum Output</h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Geek @ Your Spot LLC not only provides AI tools but also configures them to fit your existing workflows. This involves setting up workflows where AI-generated drafts are automatically checked for SEO compliance and then queued for human review.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Such configurations ensure that content output is not only fast but also strategically aligned with business goals, helping teams to produce more without compromising on quality.
       </p>
     </>

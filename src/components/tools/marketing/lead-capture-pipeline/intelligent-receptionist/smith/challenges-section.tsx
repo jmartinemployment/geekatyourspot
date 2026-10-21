@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every small business in South Florida knows the pain of missed connections. When a call rolls to
         voicemail or a web inquiry sits unacknowledged, it is not just a lost message, it is lost revenue. The
         plumber from the opening story, now at the end of his Friday, faces a full inbox and a list of calls he
@@ -11,7 +11,7 @@ export default function ChallengesSection() {
         or a referral that dies before it starts. These are not just numbers. They are real dollars that never
         hit the books, projects that vanish without a trace because the front desk was stretched too thin or the
         &quot;Intelligent Receptionist&quot; system in place could not handle the reality of a busy day.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual intake is slow and error-prone, especially when staff are pulled in many directions. Calls come
         in after hours or while someone is on another line. The office manager tries to catch up, but every
         hand-off from phone to paper to&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;is a chance for
@@ -19,7 +19,7 @@ export default function ChallengesSection() {
         customer service all at once. The cost here is not just the time spent on repetitive work. It is the
         opportunity cost of not capturing every lead, not qualifying prospects correctly, and not following up
         fast enough to win the job.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The limitations of pure automation show up fast. Many Intelligent Receptionist solutions sound
         promising, 24/7 coverage, instant responses, no need for extra staff, but they break down when a caller
         needs more than a scripted answer. A distressed customer, a high-value prospect with complex needs, or
@@ -27,7 +27,7 @@ export default function ChallengesSection() {
         wrong or tone-deaf response, it is not just awkward. It can damage your reputation and send a client
         running to a competitor. Worse, some callers hang up the moment they realize they are speaking to an
         automated system, especially if their need is urgent or sensitive.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Even when automation works, it often fails to collect the details that matter for high-value jobs. A
         script can grab a name and a number, but it rarely gathers the structured intake needed to qualify a
         lead for a big-ticket project or a legal case. That missing information means wasted follow-ups, lost
@@ -35,7 +35,7 @@ export default function ChallengesSection() {
         business’s&nbsp;CRM&nbsp;or scheduling tools, forcing staff to
         re-enter information by hand. This not only eats up hours but also introduces errors that show up later
         as double-booked appointments, missed deadlines, or incomplete records.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The biggest cost is invisible: the jobs you never even knew you lost. A missed call does not leave a
         trace in your&nbsp;CRM. There is no alert or record. The client
         simply moves on, and the annual loss can quietly add up to six figures for even a small firm. For
@@ -44,7 +44,7 @@ export default function ChallengesSection() {
         whose prospects drop off after hours, all face the same problem. The front desk, whether human or
         automated, is only as good as its ability to handle real-world complexity, escalate when needed, and
         capture every opportunity.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where the status quo breaks. Manual processes cannot scale, and pure automation cannot handle
         nuance. The result is a cycle of lost leads, frustrated staff, and revenue that quietly leaks away. For
         small businesses competing in the fast-paced markets of Miami-Dade, Broward, and West Palm Beach, this

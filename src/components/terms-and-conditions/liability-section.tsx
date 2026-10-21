@@ -4,7 +4,7 @@ export default function LiabilitySection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         No Warranties
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         We work to keep the site accurate and available, but <strong>we provide the site as is and as
         available.</strong> To the fullest extent the law allows, we make no warranties of any kind, express
         or implied, including warranties of accuracy, completeness, merchantability, fitness for a particular
@@ -13,7 +13,7 @@ export default function LiabilitySection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Limitation of Liability
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         To the fullest extent the law allows, Geek @ Your Spot LLC and its owners, employees, and contractors
         will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for
         lost profits, lost revenue, or lost data, that arise from your use of the site or your reliance on its
@@ -22,7 +22,7 @@ export default function LiabilitySection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Indemnification
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you misuse the site or break these terms, you agree to defend and indemnify Geek @ Your Spot LLC
         and its owners, employees, and contractors against the claims, losses, and costs that result,
         including reasonable attorney’s fees.</p>

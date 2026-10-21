@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A small HVAC company in Miami-Dade starts its busy season with a full slate of projects and a growing
         crew. The owner juggles paychecks, logs extra hours, and brings on two more technicians as contractors
         to keep up with demand. By August, the paperwork piles up. Classifying workers as W-2 or 1099 is
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         back taxes, fines, and penalties.&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-adp-overview-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;is not an abstract
         compliance problem here. It is a direct threat to cash flow, reputation, and the owner’s ability to keep
         the business running.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is daily reality for small business owners across West Palm Beach, Broward, and Miami-Dade. In
         industries fueled by seasonal work and a steady churn of employees and contractors, the risk is
         constant. Even a single mistake, like marking a part-time bookkeeper as a contractor instead of an
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         multi-state reporting makes every decision a potential liability. Without a dedicated HR or legal team,
         these leaders spend hours each week trying to keep up with shifting state laws and federal guidance,
         hoping nothing slips through the cracks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The answer is not just more paperwork or another manual checklist. Automated payroll tax software,
         backed by expert advisory, now gives small businesses a way to handle complex worker classification and
         multi-state compliance with confidence. Instead of scrambling to fix errors after the fact, owners can
@@ -29,7 +29,7 @@ export default function OverviewSection() {
         changing laws. Smart systems flag risks before they become penalties. The result: fewer errors, less
         time spent on admin, and a lower risk of triggering audits. For South Florida’s small businesses, this
         is the difference between growth and sudden setbacks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s approach starts here, identifying the real cost of misclassification and manual
         compliance, then using AI-driven payroll solutions that plug into your existing systems. The goal is
         simple: let business owners focus on people and growth, not paperwork and penalties.</p>

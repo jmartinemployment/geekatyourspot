@@ -15,7 +15,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does automating cash application fix cash flow forecasting errors?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Automating cash application improves&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
               forecasting</GlossaryLink>&nbsp;by providing real-time visibility into financial data. This eliminates the
               guesswork associated with manual accounts receivable processes, allowing finance leaders to quickly identify
@@ -25,7 +25,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does the platform predict when payments will arrive?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Versapay uses&nbsp;<GlossaryLink slug="machine-learning">machine learning</GlossaryLink>&nbsp;to analyze
               payment patterns and segment customers by risk level.
               This&nbsp;AI-powered approach helps predict when payments will arrive
@@ -35,7 +35,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What are &quot;Promise-to-Pay&quot; forecasts?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               &quot;Promise-to-Pay&quot; forecasts involve tracking and managing promised payments for outstanding
               invoices. Versapay allows businesses to capture these promises and send reminders before payments become
               overdue. This feature helps predict short-term cash inflows and focus collections on at-risk gaps, improving
@@ -44,7 +44,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How do customer risk segments influence the cash forecast?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Customer risk segments influence cash forecasts by allowing businesses to categorize customers based on
               their payment behaviors and risk levels. Versapay uses AI-powered collections automation to analyze these
               segments, predict payments, and forecast cash flow. This segmentation helps businesses focus their
@@ -53,7 +53,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Can dispute resolution capabilities protect the forecast pipeline?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, Versapay&#39;s dispute resolution capabilities can protect the forecast pipeline by resolving disputes
               quickly and efficiently. The platform provides visibility into disputes and affected customers, allowing
               businesses to spot trends and protect expected cash flow. This alignment between accounts receivable and
@@ -62,7 +62,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does Autopay integration improve treasury planning?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Autopay integration improves treasury planning by ensuring more invoices are paid on time through automatic
               payments. This reduces the uncertainty of payment timings, allowing for more accurate cash flow forecasts
               and better treasury management. By automating payments, businesses can streamline their cash application
@@ -71,7 +71,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Which ERPs support Versapay&#39;s forecasting features?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Versapay supports integration with several
               major&nbsp;ERP&nbsp;systems, including Oracle NetSuite, Microsoft
               Dynamics 365 Business Central and Finance and Operations, and Sage Intacct. These built-for ERP connectors

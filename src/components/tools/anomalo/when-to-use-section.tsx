@@ -12,9 +12,9 @@ export default function WhenToUseSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing ROI through automated ad spend
+              <p className="text-base text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing ROI through automated ad spend
                 optimization. Here are scenarios where Anomalo proves particularly beneficial:</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data-Driven&nbsp;Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
                   from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like&nbsp;<Link id="tools-marketing-anomalo-when-to-use-optimove" href="/tools/marketing/optimove" className="text-[#0B162A] hover:underline">Optimove</Link>&nbsp;that
                   require precise input to deliver effective results.</li>
@@ -26,7 +26,7 @@ export default function WhenToUseSection() {
                 <li>Preventing Ad Spend Waste: Businesses looking to cut down on wasted ad spend will find Anomalo invaluable.
                   By catching data anomalies early, it helps prevent flawed data from leading to inefficient marketing spend.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">By incorporating Anomalo into their data management strategy, businesses can ensure that their marketing efforts are
+              <p className="text-base text-white shadow-text pt-3">By incorporating Anomalo into their data management strategy, businesses can ensure that their marketing efforts are
                 built on a foundation of reliable data. This not only supports the use of automated ad spend optimization tools but
                 also enhances overall marketing performance, leading to better ROI and more efficient use of marketing budgets.</p>
             </div>
@@ -39,9 +39,9 @@ export default function WhenToUseSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Use</h2>
-              <p className="text-md text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing ROI through automated ad spend
+              <p className="text-base text-white shadow-text pt-3">Anomalo is best utilized when businesses are focused on maximizing their marketing ROI through automated ad spend
                 optimization. Here are scenarios where Anomalo proves particularly beneficial:</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Data-Driven&nbsp;Marketing: Businesses that rely heavily on data to drive their marketing strategies will benefit
                   from Anomalo&#39;s capabilities. By ensuring data accuracy, Anomalo supports tools like&nbsp;<Link id="tools-marketing-anomalo-when-to-use-optimove-lg" href="/tools/marketing/optimove" className="text-[#0B162A] hover:underline">Optimove</Link>&nbsp;that
                   require precise input to deliver effective results.</li>
@@ -53,7 +53,7 @@ export default function WhenToUseSection() {
                 <li>Preventing Ad Spend Waste: Businesses looking to cut down on wasted ad spend will find Anomalo invaluable.
                   By catching data anomalies early, it helps prevent flawed data from leading to inefficient marketing spend.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">By incorporating Anomalo into their data management strategy, businesses can ensure that their marketing efforts are
+              <p className="text-base text-white shadow-text pt-3">By incorporating Anomalo into their data management strategy, businesses can ensure that their marketing efforts are
                 built on a foundation of reliable data. This not only supports the use of automated ad spend optimization tools but
                 also enhances overall marketing performance, leading to better ROI and more efficient use of marketing budgets.</p>
             </div>

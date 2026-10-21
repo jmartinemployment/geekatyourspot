@@ -3,39 +3,39 @@ import Link from "next/link";
 export default function HowItWorksSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automating accounts payable transforms an inefficient process into a streamlined workflow that
         enhances accuracy, speed, and control. The journey begins with automated data capture, a technology
         that extracts invoice details using tools like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-dext${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext" className="text-[#0B162A] hover:underline">
           Dext
         </Link>. This tool converts paper invoices into digital formats and extracts essential data points,
         such as vendor details and amounts, with precision. This step dramatically reduces manual data entry,
         ensuring that information is both accurate and instantly available to the finance team.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once data is captured, it moves to the processing phase. Here, tools like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-stampli${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
-        </Link>&nbsp;take over by automating the&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
+        </Link>&nbsp;take over by automating the&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#0B162A] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
         approvers based on predefined criteria, minimizing the time spent on manual follow-ups. Approvers
         receive notifications and can review invoices from any device, enabling faster decision-making. This
         automation not only accelerates the approval process but also maintains an audit trail for compliance
         purposes.</p>
-      <p className="text-md text-white shadow-text pt-3">
-        After approval, the process moves to&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">payment execution</Link>. Solutions like&nbsp;
+      <p className="text-base text-white shadow-text pt-3">
+        After approval, the process moves to&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#0B162A] hover:underline">payment execution</Link>. Solutions like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-avidxchange${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;ensure payments are processed securely and efficiently. AvidXchange offers multiple
         payment methods, including electronic transfers, which reduce the reliance on paper checks and speed
         up payment cycles. This stage includes automated fraud checks to prevent unauthorized transactions,
         adding a layer of security to the process.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, the integration with accounting software, facilitated by tools like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>, ensures that all transaction data is seamlessly updated in the company&#39;s financial
         systems. This integration provides real-time visibility into financial operations, allowing

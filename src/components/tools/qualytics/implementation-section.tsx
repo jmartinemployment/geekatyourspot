@@ -12,13 +12,13 @@ export default function ImplementationSection() {
                 Implementation Considerations</h2>
             </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Implementing Qualytics requires careful planning to ensure that the platform is integrated effectively into your
+              <p className="text-base text-white shadow-text pt-3">Implementing Qualytics requires careful planning to ensure that the platform is integrated effectively into your
                 existing data infrastructure. Here are some key considerations to keep in mind when deploying Qualytics for
                 automated ad spend optimization.</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Qualytics offers pre-built connectors for popular ad platforms, which can
                   significantly reduce the time required for deployment. This means businesses can start benefiting from
-                  improved <GlossaryLink slug="data-quality">data quality</GlossaryLink> faster, allowing for quicker optimization of ad spend.</li>
+                  improved <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink> faster, allowing for quicker optimization of ad spend.</li>
                 <li>Data Model Design: It&#39;s important to design a data model that aligns with your business objectives and
                   ad optimization goals. Qualytics provides tools to map your data structures effectively, ensuring that data
                   flows seamlessly across different platforms.</li>
@@ -30,7 +30,7 @@ export default function ImplementationSection() {
                   specific requirements, such as integrating with proprietary systems or developing custom data validation
                   rules.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in
+              <p className="text-base text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in
                 AI and data management ensures that Qualytics is deployed efficiently, maximizing its impact on your ad spend
                 optimization efforts.</p>
             </div>
@@ -44,13 +44,13 @@ export default function ImplementationSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Implementation Considerations</h2>
-              <p className="text-md text-white shadow-text pt-3">Implementing Qualytics requires careful planning to ensure that the platform is integrated effectively into your
+              <p className="text-base text-white shadow-text pt-3">Implementing Qualytics requires careful planning to ensure that the platform is integrated effectively into your
                 existing data infrastructure. Here are some key considerations to keep in mind when deploying Qualytics for
                 automated ad spend optimization.</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Accelerated Deployment: Qualytics offers pre-built connectors for popular ad platforms, which can
                   significantly reduce the time required for deployment. This means businesses can start benefiting from
-                  improved <GlossaryLink slug="data-quality">data quality</GlossaryLink> faster, allowing for quicker optimization of ad spend.</li>
+                  improved <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink> faster, allowing for quicker optimization of ad spend.</li>
                 <li>Data Model Design: It&#39;s important to design a data model that aligns with your business objectives and
                   ad optimization goals. Qualytics provides tools to map your data structures effectively, ensuring that data
                   flows seamlessly across different platforms.</li>
@@ -62,7 +62,7 @@ export default function ImplementationSection() {
                   specific requirements, such as integrating with proprietary systems or developing custom data validation
                   rules.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in
+              <p className="text-base text-white shadow-text pt-3">At Geek @ Your Spot LLC, we specialize in helping businesses navigate these implementation challenges. Our expertise in
                 AI and data management ensures that Qualytics is deployed efficiently, maximizing its impact on your ad spend
                 optimization efforts.</p>
             </div>

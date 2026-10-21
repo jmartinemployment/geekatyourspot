@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Consider a local boutique owner like Emma, who runs her shop in the heart of Miami-Dade and spends her
         weekends buried in spreadsheets, manually updating tax rates for her online store.
         Each change in the&nbsp;<Link id={`tools-accounting-complex-changing-laws-taxjar-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;governing
@@ -13,14 +13,14 @@ export default function OverviewSection() {
         miscalculation looms large, with potential fines threatening her already slim profit margins. The
         constant updates to tax codes across different jurisdictions demand her attention, leaving little room
         for business growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Emma&#39;s struggle isn&#39;t unique. Many small business owners in West Palm Beach, Broward, and
         Miami-Dade counties face the daunting task of keeping up with dynamic tax regulations. The engineering
         complexity required to maintain compliance is a persistent challenge, especially when time and resources
         are limited. These businesses grapple with the fear of overlooking a critical update, which could lead
         to costly penalties. The burden of compliance detracts from their primary focus: running and expanding
         their businesses.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, the advent of AI-driven platforms like TaxJar offers a lifeline. By
         automating&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>, these tools free
         small business owners from the intricate maze of local tax laws. TaxJar continuously monitors and

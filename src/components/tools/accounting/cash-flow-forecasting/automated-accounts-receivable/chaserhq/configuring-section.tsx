@@ -3,31 +3,31 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ConfiguringSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Chaserhq offers a robust configuration environment tailored to streamline accounts receivable processes. For
         small businesses in Miami-Dade, Broward, and West Palm Beach counties, this customization is crucial. It
         begins with setting up approval chains, which are essential for ensuring that all financial transactions are
         properly vetted before execution. These chains can be configured to route invoices to the appropriate
         decision-makers based on factors such as invoice amount or client category, ensuring that no payment is
         processed without the necessary oversight.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Routing in Chaserhq is another critical feature. It allows for the automatic direction of tasks and
         notifications to the relevant team members. This feature minimizes delays by ensuring that each step in the
         receivables process is handled by the right person at the right time. For example, overdue invoices can be
         automatically escalated to senior staff, ensuring prompt action is taken to address potential cash flow
         issues.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation logic within Chaserhq further enhances efficiency. Users can set specific conditions under which
         automated actions are triggered. This might include sending reminders for overdue payments or generating
         reports for management review. By automating these repetitive tasks, businesses can significantly reduce the
         time spent on manual follow-ups, allowing staff to focus on more strategic activities.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Chaserhq&#39;s extension mechanism is primarily through its integration capabilities. The platform
         integrates seamlessly with systems like Xero and Stripe, allowing for a unified financial management
         experience. While Chaserhq does not offer a
-        traditional&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or SDK for custom development, its
+        traditional&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;or SDK for custom development, its
         existing integrations and configurable options provide ample flexibility for most small business needs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC plays a vital role in configuring these features to match the unique needs of each client.
         By understanding the specific workflows and challenges of a business, Geek @ Your Spot LLC can tailor
         Chaserhq&#39;s setup to optimize performance and ensure that the system aligns perfectly with existing

@@ -3,12 +3,12 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyFactorsSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A pipeline that keeps producing warm leads a year after launch looks very different from one that
         fizzles before the next budget cycle. The difference is never just the tool. It’s whether the
         implementation fits the real business process, keeps data healthy, and adapts as the market shifts.
         Here is what separates the systems that last from the ones that fail.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Business-first design, not feature-first chasing. The pipelines that keep working start with the actual sales motion and buyer path, not a shopping list of “hot” features. If your team closes deals face to face, the system must surface local, in-market accounts and direct phone lines, no fancy AI scoring will help if your reps can’t reach anyone.</li>
         <li>Real&nbsp;data quality&nbsp;checks, before launch and ongoing. Too many rollouts skip this step and pay for it later. If the pipeline is built on stale, incomplete, or mismatched records, the scoring model is noise and reps spend their days correcting errors. A robust build runs automated validation from day one (using Lusha for bulk enrichment and Apollo for instant contact checks), then schedules regular cleanups so every new lead is verified before a rep even sees it.</li>
         <li>Tight integration with the actual work environment. Pipelines that last are built into the sales team’s daily tools, HubSpot, Salesforce, or whatever&nbsp;CRM&nbsp;runs the show. Leadfeeder and Snitcher pipe in web visitor data and trigger alerts in Slack or Teams, so action happens where the team already works. Systems that require reps to “check another dashboard” or switch between five disconnected apps die from lack of adoption.</li>
@@ -17,7 +17,7 @@ export default function KeyFactorsSection() {
         <li>Local fit and regular re-tuning. A pipeline built for a national&nbsp;<GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>&nbsp;company won’t hold up for a twelve-person accounting firm in Broward. The best implementations tune filters to local employee counts, revenue tiers, and regional buying signals. They check every quarter that the pipeline is still surfacing Miami-Dade accounts and not just random national visitors. Leadfeeder and Snitcher both let you filter and re-weight for your real market, so you’re not chasing the wrong leads.</li>
         <li>Clear, measurable outcomes that drive improvement. Systems that last don’t just count leads, they track response times, conversion rates, and cost per close. Reports are actionable, not vanity metrics. If the pipeline isn’t producing more deals, faster, for less money, it gets fixed or replaced.</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The main reason a pipeline fails isn’t technology. It’s when the process is built as a project, not an
         ongoing system. The sales team goes back to old habits, the data goes stale, and the alerts get
         ignored. The pipelines that work year after year are the ones that embed into daily life, always

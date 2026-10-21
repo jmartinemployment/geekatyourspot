@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Apollo is built for small businesses that need to eliminate wasted effort in their sales process,
         especially in markets like Miami-Dade, Broward, and West Palm Beach where every hour and dollar
         counts. If your team is spending more time searching for contact details than actually talking to
         prospects, Apollo fits. If you are losing track of website visitors who never fill out a form, or if
         your sales pipeline is full of cold, unresponsive leads, Apollo’s automated enrichment and predictive
         scoring can change how your team operates.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         But Apollo is not for everyone. If your business relies on a high-touch, relationship-driven sales
         cycle with only a handful of prospects at any given time, the value of automating lead enrichment and
         predictive scoring may not justify the investment. Likewise, if your team is not ready to integrate
@@ -22,7 +22,7 @@ export default function RightFitSection() {
         a few major accounts. It is also most effective when you are ready to commit to keeping
         your&nbsp;CRM&nbsp;clean and your sales process structured,
         since Apollo’s automation relies on good data to deliver the right leads to the right reps.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams that do fit, the next step is not just to sign up and hope for the best. Getting value from
         Apollo means taking a close look at your current sales process: how leads are captured, what data you
         collect, and how you decide which prospects get a call. You need to define your ideal customer profile
@@ -30,7 +30,7 @@ export default function RightFitSection() {
         surface the right accounts. You also need to decide which integrations matter most: syncing with
         HubSpot or Salesforce, connecting to Slack, or using the Chrome extension to capture leads from
         LinkedIn and company websites.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Implementation is not a one-and-done project. Apollo’s automation gets smarter as your team works, but
         only if you keep the feedback loop open: reviewing which leads convert, updating your ICP, and tuning
         your scoring rules as your business evolves. For small businesses without a dedicated RevOps or sales
@@ -38,7 +38,7 @@ export default function RightFitSection() {
         upkeep. The system updates records automatically, flags job changes, and refreshes contact data in the
         background. Your team’s job is to work the leads Apollo surfaces, track what closes, and adjust the
         rules as you learn.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are not sure Apollo is the right fit, the best next move is a structured evaluation. Start with
         a free trial, connect your&nbsp;CRM, and run a real campaign
         using Apollo’s enrichment and scoring. Track how many hours your team saves, how many more qualified
@@ -46,7 +46,7 @@ export default function RightFitSection() {
         you are getting from manual research, cold lists, or other enrichment tools. For businesses that need
         to see results before they buy, this hands-on approach is more reliable than any feature checklist or
         sales demo.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For South Florida small businesses ready to move from guesswork to a data-driven sales pipeline,
         Apollo delivers automation, accuracy, and focus, provided you have the lead volume and process
         discipline to use it. Teams stuck in spreadsheet chaos or chasing anonymous website visitors will see
@@ -54,11 +54,11 @@ export default function RightFitSection() {
         conversations will find Apollo’s automation a direct answer to wasted effort and lost revenue. The
         next step is to try it in your own environment, measure what changes, and see if the results match the
         promise.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-lead-enrichment-and-predictive-scoring-apollo-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
         <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>
         <li>How much time do your sales reps spend every day manually searching Google, LinkedIn, or local directories just to find the email addresses and direct phone numbers of decision-makers?</li>

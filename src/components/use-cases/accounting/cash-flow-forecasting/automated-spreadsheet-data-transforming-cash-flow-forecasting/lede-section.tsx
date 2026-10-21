@@ -4,18 +4,18 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function LedeSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the example of Maria, a small business owner in Miami who starts every Monday morning by piecing
         together her company&#39;s cash flow. She logs into multiple bank accounts, exports data from
         her&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system, and wrestles with outdated Excel
         spreadsheets. By the time she sorts through the figures, they’re already stale. This manual process leaves
         her with a rearview mirror perspective, unable to confidently plan her next business move.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated Spreadsheet Data offers a solution by shifting the focus from outdated figures to real-time
         insights. Instead of spending hours on manual data entry and reconciliation, businesses can now access
         up-to-the-minute financial forecasts directly from their ledgers. This means Maria can see her cash runway
         clearly before making decisions that impact her business&#39;s future.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-spreadsheet-data-lede-blog-2${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-spreadsheet-data-lede-blog-2${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> on our blog.</p>
     </>
   );
 

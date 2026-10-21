@@ -4,20 +4,20 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small business owners in Miami-Dade, Broward, and West Palm Beach counties are all too familiar with the
         frustration of manual&nbsp;<Link id={`tools-accounting-accounts-receivable-versapay-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;processes. Each month, they spend countless hours poring over
         invoices, matching payments, and reconciling accounts. This tedious work not only consumes time but also
         increases the risk of errors, impacting cash flow and financial stability. Traditional methods often result
         in delayed payments and missed opportunities for growth. These problems can be particularly damaging for
         businesses operating on tight margins.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         These challenges are not just about inefficiency; they directly affect the bottom line. When payments are
         delayed, it disrupts cash flow, making it difficult to plan for future expenses or seize new business
         opportunities. Unmatched payments can sit unresolved for weeks, creating a backlog that complicates
         financial reporting and decision-making. For many small businesses, these issues can mean the difference
         between thriving and merely surviving in a competitive market.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated accounts receivable solutions offer a lifeline. By
         integrating&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and automation, businesses can streamline
         their invoicing, payment matching, and reconciliation processes. Versapay, for example, uses cutting-edge
@@ -25,7 +25,7 @@ export default function OverviewSection() {
         optical character recognition (OCR) and AI-enabled matching, it simplifies the cash application process,
         ensuring payments are matched accurately and promptly. This not only saves time but also enhances financial
         clarity and control.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, adopting an automated accounts receivable system can lead to
         significant improvements in efficiency and customer satisfaction. By reducing manual workloads and errors,
         these systems free up resources, allowing business owners to focus on growth and innovation. They transform

@@ -4,13 +4,13 @@ export default function UsingTheSiteSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         What You May Do
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         You may browse the site, share links to its pages, and print or save pages for your own reference or
         for discussion inside your business.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         What You May Not Do
       </h3>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>You may not use the site for any purpose that breaks the law.</li>
         <li>You may not try to gain access to parts of the site, its servers, or its accounts that are not open to the public.</li>
         <li>You may not interfere with the site, overload it, or introduce viruses or other harmful code.</li>
@@ -20,7 +20,7 @@ export default function UsingTheSiteSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Who Owns the Content
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The text, graphics, logos, and design of the site belong to Geek @ Your Spot LLC or to those who
         license them to us, and copyright and trademark law protect them. These terms do not give you
         ownership of any of that content. You may quote short passages with a link back to the original page,

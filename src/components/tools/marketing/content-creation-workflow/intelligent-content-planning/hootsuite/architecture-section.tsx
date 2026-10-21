@@ -3,13 +3,13 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Hootsuite’s platform is built to centralize every piece of the intelligent content planning and
         publishing process, connecting people, data, and external systems in one place. At its core, Hootsuite
         is an all-in-one social media management and social intelligence platform. It combines content
         creation, scheduling, engagement, analytics, and advanced social listening in a single dashboard, as
         described on the Hootsuite Platform page (https://www.hootsuite.com/platform).</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The main engine behind Hootsuite’s intelligence is its proprietary Blue Silk AI. This system scans
         billions of conversations across social media, news, blogs, and forums in real time, surfacing
         actionable insights, trends, and sentiment shifts. Unlike general-purpose AI tools, Blue Silk AI is
@@ -17,7 +17,7 @@ export default function ArchitectureSection() {
         and even identifies brand mentions in images and videos, not just text. The platform’s data set covers
         150 million websites, 30+ social networks, and 187 languages, making its intelligence both broad and
         deep.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Hootsuite’s Wisdom AI acts as the connective tissue between the data and the user. It is not just a
         chatbot or writing tool, it is an AI layer that sits across the platform, letting teams ask questions
         about performance, draft content, and get recommendations using plain language. Wisdom connects to
@@ -25,7 +25,7 @@ export default function ArchitectureSection() {
         publishing), Nest (for engagement and customer care), and Parliament (for employee advocacy). This
         means every insight, action, or draft is grounded in your own real-time data, not just generic web
         trends.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For content creation and scheduling, Hootsuite’s Perch app is the hub. It supports all major social
         networks and tailors each post for the platform it is going to. The calendar view gives a single
         source of truth for every scheduled, pending, or published post. Teams can collaborate inside Perch,
@@ -34,14 +34,14 @@ export default function ArchitectureSection() {
         allows external AI assistants, like ChatGPT or Claude, to connect securely to your workspace, so you
         can use your preferred AI tools without breaking compliance or risking data leaks. This keeps
         sensitive publishing channels under tight control while still enabling advanced automation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Hootsuite’s social listening and analytics are handled by Lumen and Blue Silk AI. These systems
         monitor brand mentions, sentiment changes, competitor moves, and market trends in real time. Anomaly
         detection flags spikes in volume or emotion, and theme clustering groups thousands of mentions into a
         few actionable topics. Visual recognition scans images and video for your logo or products, catching
         brand use that text-only tools would miss. All this data is fed back into the content and campaign
         planning process, so the team is always working from the latest signals.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security and compliance are built into the architecture. Hootsuite uses role-based permissions, single
         sign-on, and message masking to keep customer data safe. Approval workflows and automatic archiving
         ensure every post meets internal and external standards, with full audit trails for regulated
@@ -49,7 +49,7 @@ export default function ArchitectureSection() {
         into your existing communication stack without forcing teams to learn new habits. Employee advocacy
         features, through Parliament, let you curate and share approved content across the organization,
         tracking participation and compliance at scale.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         At every layer, Hootsuite’s architecture is about eliminating silos. Content, data, and team
         communication all run through one platform. AI and automation handle the grunt work, but human review
         and control stay in the loop. The result is a connected system where insights trigger action, and

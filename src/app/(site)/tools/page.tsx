@@ -173,10 +173,10 @@ export default function ToolsPage() {
                         <h3 className="text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
                           {tool.title}
                         </h3>
-                        <p className="pt-3 text-md font-normal text-white/80">
+                        <p className="pt-3 text-base font-normal text-white/80">
                           {tool.description}
                         </p>
-                        <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
+                        <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-base font-bold text-[#C83803]">
                           Learn more
                           <FontAwesomeIcon
                             icon={faArrowRight}

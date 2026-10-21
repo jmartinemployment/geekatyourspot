@@ -13,25 +13,25 @@ export default function FounderSection() {
 
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         I am <strong>Jeff Martin</strong>, the founder and CEO of Geek @ Your Spot LLC in Delray Beach, Florida.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         I have spent four decades building technology, from the <strong>Timex Sinclair</strong> and
         the <strong>Commodore 64</strong> to the systems that power enterprise businesses. That work has included
         modernizing CRM platforms for <strong>Fortune 500 insurance companies</strong>, designing
         government-compliant service systems, and architecting secure, scalable solutions that process millions
         of transactions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         My expertise spans full-stack development (C#, .NET, Angular, React), cloud infrastructure (AWS, Azure), AI
         integration (Claude API, OpenAI API), database design (SQL Server, PostgreSQL), and digital marketing
         optimization.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Technology should make business easier, not more complicated. I bring enterprise-level capabilities to
         small businesses, with practical, scalable solutions that come without the enterprise price tag.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Areas of Expertise
       </h3>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Full Stack Development</li>
         <li>AI Integration</li>
         <li>Cloud Architecture</li>

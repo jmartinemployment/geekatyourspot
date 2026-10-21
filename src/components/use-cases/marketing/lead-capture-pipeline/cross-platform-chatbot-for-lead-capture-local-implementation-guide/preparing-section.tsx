@@ -1,12 +1,12 @@
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you have read this far and recognize your business in the problems described, the next step is not
         to install a chatbot and hope for the best. The right move is to start with a structured assessment,
         what Geek @ Your Spot LLC calls the free AI consultation. The process is built to make sure the solution
         fits your stack and solves your real pain, not just add another system.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         First, expect to define your business objectives in measurable terms. That means spelling out where
         the leaks are, missed calls per week, delayed DM replies, manual entry hours lost, or revenue slipping
         away after hours. This is not about vague goals; it is about naming the bottleneck and the cost. A
@@ -14,7 +14,7 @@ export default function PreparingSection() {
         store in Miami finds that staff lose entire afternoons updating spreadsheets with customer details
         from different channels. The assessment will dig into your numbers, not just your feelings about the
         workflow.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next comes a&nbsp;data quality&nbsp;check. All the
         tools in the world, My AI Front Desk for phone and SMS, BotPenguin or Manychat for social and
         messaging, Dapta for bilingual coverage, Tidio for affordable live chat and automation, are only as
@@ -23,7 +23,7 @@ export default function PreparingSection() {
         records live, and how leads are routed today. If your contact data is a mix of phone notes, email
         threads, and sticky notes, part of the rollout will be cleaning and mapping this data so the bot can
         work with it.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once you pass the assessment, the real work begins. The team will map your core channels, choose the
         right AI tools based on your needs and budget, and design a pilot implementation. This is not a
         one-size-fits-all install. The solution might combine My AI Front Desk for instant phone and SMS
@@ -32,7 +32,7 @@ export default function PreparingSection() {
         becomes your go-to if you need English and Spanish support, with the agent handling calls, web, and
         WhatsApp without missing a beat. You will see how each tool fits your specific customer journey and
         internal workflow, not just what the vendor demo shows.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The pilot phase is a real-world test, not a sandbox. Your team will run through sample conversations,
         check data is captured and routed correctly, and see how fast they can step in when an AI escalates a
         hot lead. You will see how the system handles real customers, real volume, and real edge cases, the
@@ -40,7 +40,7 @@ export default function PreparingSection() {
         some tweaking and training in this phase, as you adapt the bot’s scripts, escalation rules, and data
         flows to your actual business. The point is not to get it perfect on day one, but to prove it works
         before you scale.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         By the end of a successful deployment, you should expect three things: First, every new conversation,
         no matter where it starts, lands in a single system, with the customer history attached. Second,
         qualified leads are tagged, scored, and routed to the right person or next step, not left in limbo.
@@ -48,11 +48,11 @@ export default function PreparingSection() {
         real problems. The business should see fewer lost leads, faster response times, and a team that feels
         less stretched. The goal is not just more automation, but a pipeline that works for you, not against
         you.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`use-cases-marketing-cross-platform-chatbot-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
         <li>Where do most serious prospects first contact you today: website, Google, phone, text, Instagram, Facebook, WhatsApp, email, or walk-in?</li>
         <li>How many inquiries do you receive in a typical week, and when do they arrive?</li>

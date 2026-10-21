@@ -161,7 +161,7 @@ export default async function GlossaryPage({
                 <span
                   key={page}
                   aria-disabled="true"
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-md font-bold text-white/25"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-base font-bold text-white/25"
                 >
                   {page}
                 </span>
@@ -174,7 +174,7 @@ export default async function GlossaryPage({
                 href={letterHref(page)}
                 aria-current={isActive ? "page" : undefined}
                 className={cn(
-                  "inline-flex h-10 w-10 items-center justify-center rounded-lg text-md font-bold transition-colors",
+                  "inline-flex h-10 w-10 items-center justify-center rounded-lg text-base font-bold transition-colors",
                   isActive
                     ? "bg-[#C83803] text-white"
                     : "bg-[#0B162A] text-white hover:bg-[#132340]",
@@ -190,7 +190,7 @@ export default async function GlossaryPage({
           <h2 className="text-3xl font-black font-(--font-sora) text-white shadow-text lg:text-4xl">
             {active}
           </h2>
-          <p className="text-md font-normal text-white/70">
+          <p className="text-base font-normal text-white/70">
             {visible.length === 1 ? "1 term" : `${String(visible.length)} terms`}
           </p>
         </div>
@@ -211,11 +211,11 @@ export default async function GlossaryPage({
                 </p>
               )}
               {term.blurb && (
-                <p className="pt-3 text-md font-normal text-white/80">
+                <p className="pt-3 text-base font-normal text-white/80">
                   {term.blurb}
                 </p>
               )}
-              <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
+              <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-base font-bold text-[#C83803]">
                 Read the definition
                 <FontAwesomeIcon
                   icon={faArrowRight}

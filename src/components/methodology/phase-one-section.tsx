@@ -6,7 +6,7 @@ export default function PhaseOneSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         What This Phase Does
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This phase is a discovery engagement that captures your requirements before anyone touches your data. We
         map your <strong>operational variables</strong>, <strong>approval hierarchies</strong>, and <strong>system
         constraints</strong>, and we set measurable <strong><GlossaryLink slug="kpi">KPI</GlossaryLink> baselines</strong>.
@@ -14,7 +14,7 @@ export default function PhaseOneSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         The Fear It Answers
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         You have seen this happen. A consultant arrives with the platform already picked, and your workflow gets
         bent to fit their software. Your team spends six months fighting a tool that was <strong>built for a
         company ten times your size</strong>. Somewhere inside that <strong>black box</strong>, a process you used
@@ -22,19 +22,19 @@ export default function PhaseOneSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How We Handle It
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         We do not start with software. We start with <strong>your business</strong>: how cash actually moves, who
         approves what, and where <strong>seasonal swings</strong> hit your margins. For many South Florida
         businesses that means snowbird season, hurricane season, and the quarterly squeeze of <strong>IRS estimated
         taxes</strong>.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         We write every variable down in plain language, and <strong>you sign off on it</strong>. That map becomes
         the <strong>rulebook</strong> that every later phase has to follow. Nothing gets automated unless you can
         point to it on the map, and a tool that cannot follow the rulebook does not get in.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How You Know You’re Safe
       </h3>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>You sign a <strong>workflow map written in plain language</strong>.</li>
         <li>We set <strong>measurable KPI baselines</strong> on the first day.</li>
         <li>We have <strong>no access to your data</strong> during discovery.</li>

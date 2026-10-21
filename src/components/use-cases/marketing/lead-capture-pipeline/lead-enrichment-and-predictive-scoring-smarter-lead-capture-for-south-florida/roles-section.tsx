@@ -2,12 +2,12 @@
 export default function RolesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When you roll out a lead enrichment and predictive scoring pipeline, the biggest shift isn’t just in
         the tools, it’s in the day-to-day reality for the people running your business. No more waking up to a
         spreadsheet of half-dead leads or wasting hours tracking down phone numbers that go nowhere. The real
         change comes in how sales, marketing, and operations interact with their pipeline and each other.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For sales teams, the most immediate difference is focus. Instead of calling down a generic list, reps
         start each morning with a ranked queue of companies who were on their pricing page last night, who
         have decision-makers with verified contact details, and who fit their ideal customer profile. Lusha
@@ -15,7 +15,7 @@ export default function RolesSection() {
         receptionists or waiting for bounced emails to clear, they connect with the right people on the first
         try. Apollo’s enrichment means even if a lead comes in with only a name and an email domain, sales
         gets the rest (role, phone, department) within minutes, so no lead is left half-baked.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For marketing, the impact is just as dramatic. Instead of measuring performance by how many form fills
         came in last week, they track which campaigns actually drove pipeline. Factors lets them see which
         ads, content, and email touches led to closed revenue, not just clicks or vanity metrics. When a
@@ -23,7 +23,7 @@ export default function RolesSection() {
         specific companies behind those clicks, and marketing can segment and retarget based on real
         engagement, not just anonymous traffic. The result is budgets moving to channels that bring real,
         in-market accounts, and wasted spend on dead-end traffic dropping fast.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Operations and RevOps teams feel the change in the quality and automation of their data. Before, they
         spent hours every week cleaning up&nbsp;CRM&nbsp;records,
         merging duplicates, and hunting for the right owner of a hot lead. Now, enrichment tools run in the
@@ -33,13 +33,13 @@ export default function RolesSection() {
         fires off a Slack alert and assigns it to the right rep, no manual triage required. Snitcher and
         Leadfeeder filter out the junk (ISPs, students, residential traffic) so only real B2B accounts make it
         into the pipeline.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Even the way teams work together changes. Sales and marketing run on the same set of signals, both see
         who is visiting, what they are looking at, and which campaigns are achieving measurable results. Data
         stops being a battleground of “my list vs. yours” and becomes a shared source of truth. Everyone knows
         which accounts are warm, which reps are working which accounts, and which touches are making a
         difference.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Picture that team from the opening, but now it’s Friday afternoon. Instead of arguing over why last
         week’s campaign didn’t convert or who owns the new inbound lead, they are moving deals forward with
         confidence. The sales rep is wrapping up a call with a decision-maker they reached on the first dial.

@@ -3,21 +3,21 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill sat at his desk, surrounded by a mountain of invoices waiting to be processed. His&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> team spent countless hours
         manually entering data, double-checking figures, and chasing approvals. It was a routine that ate into
         valuable time and resources, leaving little room for strategic initiatives or growth. Every mistake
         meant a delay, every delay meant a potential loss in revenue, and the cycle seemed never-ending. This
         is a familiar scene for many small and medium-sized businesses relying on outdated methods.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         But what if there was a way to change this? By automating tasks like invoice processing, approvals,
         and expense management, businesses can significantly reduce manual effort and errors, freeing up time
         for more critical tasks. Automation doesn&#39;t just cut down the workload; it transforms operations,
         improves cash flow, and sets the stage for growth. With <GlossaryLink slug="ai">AI</GlossaryLink>-driven
         solutions, tasks that once took hours can now be completed in minutes, with higher accuracy and fewer
         resources.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses like Bill&#39;s, this transformation isn&#39;t just about saving time; it&#39;s about
         paving the way for a more efficient and profitable future. Imagine reallocating those wasted hours
         into strategic planning or customer service improvements. The benefits are clear: reduced costs,

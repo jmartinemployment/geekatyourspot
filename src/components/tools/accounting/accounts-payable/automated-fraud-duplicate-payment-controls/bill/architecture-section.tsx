@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill transforms the traditionally cumbersome process of managing&nbsp;
         accounts payable&nbsp;into
         a streamlined operation through its robust architecture. At the heart of Bill&#39;s platform is its&nbsp;
@@ -13,33 +13,33 @@ export default function ArchitectureSection() {
         verification. Such features ensure that duplicate payments are flagged before they occur, safeguarding
         your business against unnecessary financial losses. By automating these processes, Bill allows your
         team to focus on more strategic tasks rather than getting bogged down with repetitive manual work.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill&#39;s architecture is designed to integrate seamlessly with popular accounting software like
         QuickBooks and Xero. This integration ensures that your general ledger is always up-to-date, reflecting
         real-time financial data without the need for manual input. Such connectivity is crucial for
         maintaining accurate financial records and provides a single source of truth for all payment-related
         activities. With these integrations, businesses can avoid the pitfalls of data discrepancies and ensure
         that their financial operations run smoothly.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another standout feature of Bill is its customizable approval workflows. These workflows allow
         businesses to set specific rules for invoice approvals, ensuring that every transaction is reviewed and
         authorized according to company policies. This not only enhances security but also speeds up the
         approval process, reducing the time invoices spend waiting for approval. The ability to configure these
         workflows to match your business&#39;s unique needs means that you can maintain control over your
         financial processes without compromising on efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill&#39;s AI capabilities extend to its expense management features as well. By auto-categorizing
         transactions and analyzing payment histories, Bill helps reduce the time spent on reconciliation while
         improving accuracy. This automation is particularly beneficial for small businesses that may not have
         the resources to dedicate full-time staff to manage these tasks. By leveraging AI, Bill minimizes the
         risk of human error and ensures that financial records are consistently accurate.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security is a paramount concern for any financial system, and Bill addresses this with robust fraud
         prevention measures. The platform uses predictive AI to monitor transactions in real-time, detecting
         and flagging suspicious activities before they can impact your business. This proactive approach to
         security not only protects your financial data but also provides peace of mind knowing that your
         accounts payable processes are safeguarded against potential threats.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In addition to these features, Bill also offers a comprehensive audit trail for all transactions. Every
         action taken within the platform is logged and time-stamped, creating a detailed record that is
         invaluable for audits and compliance purposes. This transparency ensures that you can track every

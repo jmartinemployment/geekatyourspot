@@ -1,10 +1,10 @@
 export default function WhenToUseSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">Mailchimp is particularly useful for businesses that aim to enhance their email marketing efforts through automation and data-driven strategies. It is an ideal solution for small to medium-sized businesses that need a cost-effective and user-friendly platform to manage their marketing campaigns.</p>
-      <p className="text-md text-white shadow-text pt-3">Businesses looking to save time and reduce manual marketing efforts through automation.</p>
-      <p className="text-md text-white shadow-text pt-3">Companies that want to leverage data insights to improve customer engagement and campaign performance.</p>
-      <p className="text-md text-white shadow-text pt-3">Mailchimp&#39;s versatility and ease of use make it a valuable tool for any business looking to streamline their marketing processes and achieve tangible results. By utilizing Mailchimp, businesses can enjoy increased efficiency, reduced costs, and enhanced customer satisfaction.</p>
+      <p className="text-base text-white shadow-text pt-3">Mailchimp is particularly useful for businesses that aim to enhance their email marketing efforts through automation and data-driven strategies. It is an ideal solution for small to medium-sized businesses that need a cost-effective and user-friendly platform to manage their marketing campaigns.</p>
+      <p className="text-base text-white shadow-text pt-3">Businesses looking to save time and reduce manual marketing efforts through automation.</p>
+      <p className="text-base text-white shadow-text pt-3">Companies that want to leverage data insights to improve customer engagement and campaign performance.</p>
+      <p className="text-base text-white shadow-text pt-3">Mailchimp&#39;s versatility and ease of use make it a valuable tool for any business looking to streamline their marketing processes and achieve tangible results. By utilizing Mailchimp, businesses can enjoy increased efficiency, reduced costs, and enhanced customer satisfaction.</p>
     </>
   );
 

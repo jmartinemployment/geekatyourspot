@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A small business owner in Miami-Dade stares at a blank document, knowing today’s the day to update the
         company blog and send out a fresh email campaign. But the phone rings, a client walks in, and the
         spreadsheet of overdue invoices flashes on another screen. The clock ticks by. By late afternoon, the
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         write something new eats into hours meant for billing, customer calls, or simply closing the office on
         time. Every blank page becomes a bottleneck, and the longer content sits unwritten, the less likely it
         is to bring in new business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Outsourcing isn’t much better. The first invoice from a local agency lands with a number that makes
         you wince, thousands each month for blog posts and social updates, often written by someone who barely
         knows your business. For many small teams in Miami-Dade, Broward, or West Palm Beach, the cost is impossible to
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         gathers dust. New leads slow to a crawl, and the business starts to disappear from local searches and
         conversations. No matter how hard you work, the digital silence grows louder, and bigger competitors
         with deeper pockets take over your share of the local market.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the real cost of trying to handle content manually: wasted hours, missed sales, and a pipeline
         that dries up because there aren’t enough hands to keep it moving.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-copy-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is
         the way out. With a repeatable, AI-powered workflow, a small team can turn ideas, customer questions,
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         channel, from SEO articles to personalized email campaigns. This system doesn’t just save time and
         money; it gives you a consistent digital presence that attracts and converts local leads, all without
         hiring extra staff or burning out the team you have.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, Intelligent Content Generation levels the playing field. It
         strips away the headaches of writing from scratch and the sticker shock of agency retainers. Instead,
         you get a workflow that fits your scale, builds trust in your market, and keeps your sales pipeline

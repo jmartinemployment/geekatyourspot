@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Cashflowfrog is built for small businesses that want live,
         accurate&nbsp;cash flow
         forecasting&nbsp;without the complexity and cost of a
@@ -12,7 +12,7 @@ export default function RightFitSection() {
         Palm Beach and you are running QuickBooks, Xero, Zoho Books, Odoo, Sage Intacct, or FreshBooks, or even
         just a bank account and Excel, Cashflowfrog can pull your data straight in and start building forecasts
         on day one.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This tool is a strong choice for owners, finance leads, and operations managers who do not have time or
         staff to keep spreadsheets updated or to build forecasts by hand. If your biggest risk is missing a cash
         dip or a late customer payment, Cashflowfrog’s automated alerts and scenario planning will flag issues
@@ -20,7 +20,7 @@ export default function RightFitSection() {
         currencies, or the need to run side-by-side scenarios, because it automates consolidation and makes
         switching views simple. If your team wants to see both the details and the big picture, with drill-down
         to the source invoice or bill, Cashflowfrog does that without extra configuration.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Cashflowfrog is not a fit for every situation. If your business already has a
         full-featured&nbsp;ERP&nbsp;with custom workflows, deep
         inventory management, or industry-specific modules that you rely on daily, Cashflowfrog will not replace
@@ -31,7 +31,7 @@ export default function RightFitSection() {
         modeling, and live reporting. If you are looking for a tool to run every part of your business, or you
         need a platform that will write back to your ledger and automate every operational process, you will
         need to look elsewhere or use Cashflowfrog alongside a broader system.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams that are still deciding, the next step is to look at what you need from Intelligent Resource
         Planning. If you are spending hours each week pulling numbers, chasing down late payments, or worrying
         about missing payroll, Cashflowfrog will save you time and reduce stress. If you have outgrown
@@ -40,7 +40,7 @@ export default function RightFitSection() {
         with no credit card required, means you can see your own numbers in the platform before making a
         decision. This lets you judge whether the automation and live forecasting are enough to meet your needs,
         without a long-term commitment or a big upfront investment.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         As for what happens next, Geek @ Your Spot LLC handles the setup, data mapping, and integration, so you do
         not have to. Their approach is built around a four-phase plan that starts with defining business
         objectives, assessing&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>, choosing the
@@ -50,18 +50,18 @@ export default function RightFitSection() {
         of the implementation process. Geek @ Your Spot LLC will walk through the data, configure the rules, and
         make sure Cashflowfrog delivers the outcomes you need. That way, you are not left with another tool to
         manage, you get a working solution that fits your business as it is today.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are on the fence, consider what it would mean to have cash flow forecasts that update themselves,
         alerts before cash gets tight, and a clear view of every entity and currency in one dashboard. For small
         businesses in South Florida, that is the difference between reacting to problems and planning ahead.
         Cashflowfrog is not the only tool in the market, but for teams that want Intelligent Resource Planning
         without the burden of a full&nbsp;ERP, it is one of the few that
         can deliver live value from the first week.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
         <li>When a vendor drops a surprise bill or an invoice discrepancy occurs, how many different emails, text messages, or physical folders do you have to search through to audit what actually happened?</li>
         <li>Are you running your bookkeeping on a cash or accrual basis, and how long does it take you to officially &#39;close the books&#39; at the end of the month?</li>

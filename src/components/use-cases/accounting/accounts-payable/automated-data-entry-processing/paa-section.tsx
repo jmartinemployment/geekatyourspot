@@ -88,7 +88,7 @@ export default function PAASection() {
                 <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                   {question}
                 </h3>
-                <p className="text-md text-white shadow-text pt-3">{answer}</p>
+                <p className="text-base text-white shadow-text pt-3">{answer}</p>
               </div>
             ))}
           </div>

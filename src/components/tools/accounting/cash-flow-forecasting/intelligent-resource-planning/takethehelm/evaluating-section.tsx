@@ -2,12 +2,12 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small businesses in Miami-Dade, Broward, and West Palm Beach want to know if Take the Helm is the right
         fit before investing time and effort. The answer comes down to three things: how well it matches your
         needs, what it actually changes for your team, and how the pricing aligns with your budget and growth
         plans.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Start with fit. Take the Helm is designed for small businesses that struggle with unpredictable cash
         flow, scattered records, and manual spreadsheet work. If your team spends hours each week tracking
         invoices, chasing late payments, or guessing at which bills to pay next, this platform addresses the
@@ -17,7 +17,7 @@ export default function EvaluatingSection() {
         outdated desktop software, legacy spreadsheets, or has never had a central cash flow view, Take the Helm
         offers a clear upgrade without the need for a
         full&nbsp;ERP&nbsp;migration.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The features that matter are the ones that remove manual work and reduce surprises. Take the Helm’s
         drag-and-drop forecasting lets you see the impact of moving a payment or receipt date instantly. Its
         automated invoice and bill tracking eliminates double data entry, and the platform’s scenario planning
@@ -25,7 +25,7 @@ export default function EvaluatingSection() {
         a finance expert to use these features. The interface is built for operational teams, not just
         accountants. This is a key test: if your team can answer cash flow questions in minutes rather than
         hours, the tool is working for you.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is always a concern for small businesses. Take the Helm offers a 14-day free trial, so you can
         see how it fits before committing. The platform’s pricing is published on its site and does not require
         a sales call to access. There are no hidden fees for adding users or running multiple scenarios. This
@@ -33,7 +33,7 @@ export default function EvaluatingSection() {
         come from the time and errors Take the Helm removes from your month. If you are currently paying for
         manual bookkeeping corrections, late payment fees, or losing hours to spreadsheet wrangling, the cost of
         Take the Helm is measured against those losses.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When judging Take the Helm, do not focus on features you will never use. Look at the workflows you run
         every week: collecting payments, paying bills, updating forecasts, and reporting to partners or lenders.
         Take the Helm is strongest for businesses that need clear, short-term cash visibility and want to move
@@ -41,7 +41,7 @@ export default function EvaluatingSection() {
         is not the platform for you. For service businesses, project-based firms, and those with seasonal swings
         in cash flow, the platform’s scenario planning and real-time forecasting tools are a direct answer to
         daily pain points.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The decision is not just about software. Geek @ Your Spot LLC closes the gap between what Take the Helm can
         do and what it will do for your team. Their role is to map your data, configure the rules, and train
         your staff so the platform fits your business from day one. This is the difference between buying a tool

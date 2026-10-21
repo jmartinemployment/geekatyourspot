@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A South Florida&nbsp;<GlossaryLink slug="saas">SaaS</GlossaryLink>&nbsp;founder lands a new batch of
         customers in Texas, New York, and California, another big month for the books. Then the spreadsheet
         check starts. Their single accountant spends hours trying to work out if the business has crossed a new
@@ -13,14 +13,14 @@ export default function OverviewSection() {
         Each state has its own paperwork, deadlines, and audit risk. The team’s core software stack, built for
         speed and scale, offers no help for the tangle of local rules. With every sale, the risk of missing a
         critical compliance step grows.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is how&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;hits small businesses. You can cross the $100,000 revenue or
         200-transaction mark in a state before you even notice it. Suddenly you need to register, collect, and
         remit sales tax there, but you lack the headcount and systems that a large enterprise would use. What
         started as a win, expansion into new states, turns into a scramble to keep up with thousands of shifting
         rules across more than 11,000 tax jurisdictions. Manual tracking means missed thresholds, late filings,
         and the risk of audit penalties that can wipe out months of profit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Most small digital agencies,&nbsp;SaaS&nbsp;firms, and online
         sellers in West Palm Beach, Broward, and Miami-Dade have felt this squeeze. They want to grow, but the
         overhead of tracking hyper-localized tax rules eats into every sale. The truth is, even the best team
@@ -30,7 +30,7 @@ export default function OverviewSection() {
         at the core of any business plan that crosses state lines. It is not about adding another tool to your
         stack. It is about regaining control, cutting manual work, and protecting your growth from the kind of
         tax risk that only gets more expensive the longer it sits.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If your business has ever watched sales roll in from a new state and wondered if you were about to
         trigger a new tax obligation, you are not alone. The stakes are real: operational paralysis, audit
         exposure, and stunted growth. The right approach gives you back the hours and the confidence to scale

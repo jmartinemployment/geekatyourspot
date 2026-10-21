@@ -2,31 +2,31 @@
 export default function ConfiguringSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Clockwork offers a configuration process that tailors its capabilities to fit the specific needs of your
         business. This involves setting up approval chains, routing financial data efficiently, and creating
         automation logic that streamlines operations. These configurations are key to maximizing Clockwork&#39;s
         potential and ensuring it functions seamlessly within your existing systems. Geek @ Your Spot LLC, with its
         expertise in&nbsp;AI&nbsp;implementation, ensures that these
         configurations are optimized for your environment, saving you time and reducing errors.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the first steps in configuring Clockwork is setting up approval chains. This means defining who needs
         to approve certain financial transactions and in what order. For instance, you might have a chain where a
         department head approves expenses before they go to the CFO. Clockwork allows you to automate this process,
         ensuring that approvals happen quickly and without the need for manual intervention. This reduces
         bottlenecks and speeds up decision-making.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Routing is another critical aspect of configuration. Clockwork integrates with platforms like QuickBooks and
         Xero, enabling it to pull live data and keep your financials current. By routing this data through
         Clockwork, you ensure that all financial information is up-to-date and accurate. This integration eliminates
         the need for manual data entry, reducing the risk of errors that can occur when updating spreadsheets by
         hand.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation logic in Clockwork is designed to handle repetitive tasks that would otherwise consume valuable
         time. For example, Clockwork can automate the generation of cash flow forecasts and financial reports. This
         automation is not just about reducing workload; it also increases accuracy by minimizing human error. Geek @ Your Spot LLC configures these automation processes to align with your business&#39;s unique needs, ensuring
         that the right data is processed at the right time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         While Clockwork does not have an extension mechanism like APIs or SDKs, its powerful configuration options
         allow for significant customization within its framework. This means that while you cannot extend Clockwork
         with external scripts, its built-in capabilities are robust enough to handle a wide range of financial

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A local business owner unlocks the shop early, checks yesterday’s receipts, then glances at the blank
         social media calendar. There is a new service to promote, a seasonal offer ready to go, but every
         image and video idea feels like another late-night chore. The camera roll has a few decent product
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         or a branded email campaign will take hours. By the time the register closes, there is still no new
         content. The week slips by. The website sits unchanged, social channels stay quiet, and the
         competition’s feed keeps rolling out professional visuals and sharp campaigns.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the day-to-day reality for many small businesses in South Florida. To win customers locally,
         you need to look credible and stay visible, online, everywhere, all the time. But when content
         creation falls on the owner or a small team, the process stalls. The &quot;Blank Page&quot; bottleneck
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         something out the door, it is often a one-off, no matching video, no coordinated graphics, no
         follow-up email, nothing to repurpose for the next campaign. As a result, lead pipelines dry up,
         customer engagement drops off, and every month feels like starting from scratch.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-marketing-intelligent-content-generation-imagine-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is changing this for small businesses in Miami-Dade, Broward and West
         Palm Beach. With the right AI workflow, a single product photo turns into a full suite of branded
         visuals, short-form videos, and campaign-ready assets in minutes, not weeks. AI repurposes your best
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         live. You get consistent, professional content without the agency markup or the late nights. The
         result: time saved, costs cut, and local customers see your business the way you want, reliable,
         up-to-date, and ready for their next visit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC helps South Florida small businesses build these AI-powered content creation
         workflows. We work with your existing assets, set up automated generation and repurposing, and leave
         you with a process that runs whether you are behind the counter or out winning new business. This is

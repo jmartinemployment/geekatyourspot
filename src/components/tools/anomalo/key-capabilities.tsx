@@ -11,9 +11,9 @@ export default function KeyCapabilitiesSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated ad spend optimization.
+              <p className="text-base text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated ad spend optimization.
                 These features are designed to ensure data accuracy and integrity, which are foundational for any data-driven&nbsp;marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows
                   businesses to detect issues before they impact marketing campaigns, ensuring that data-driven decisions are
                   based on accurate information.</li>
@@ -30,7 +30,7 @@ export default function KeyCapabilitiesSection() {
                   and large enterprises. This scalability ensures that as your marketing efforts grow, Anomalo can continue to
                   provide reliable data monitoring.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">These capabilities make Anomalo a critical component for businesses focused on optimizing their ad spend. By
+              <p className="text-base text-white shadow-text pt-3">These capabilities make Anomalo a critical component for businesses focused on optimizing their ad spend. By
                 ensuring data quality, Anomalo supports the effective use of AI tools like&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-madgicx" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>&nbsp;and Advantage, which rely on
                 accurate data to drive marketing success.</p>
             </div>
@@ -43,9 +43,9 @@ export default function KeyCapabilitiesSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Key Capabilities</h2>
-              <p className="text-md text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated ad spend optimization.
+              <p className="text-base text-white shadow-text pt-3">Anomalo offers a range of key capabilities that are instrumental in supporting automated ad spend optimization.
                 These features are designed to ensure data accuracy and integrity, which are foundational for any data-driven&nbsp;marketing strategy. Here are some of the standout capabilities of Anomalo:</p>
-              <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+              <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows
                   businesses to detect issues before they impact marketing campaigns, ensuring that data-driven decisions are
                   based on accurate information.</li>
@@ -62,7 +62,7 @@ export default function KeyCapabilitiesSection() {
                   and large enterprises. This scalability ensures that as your marketing efforts grow, Anomalo can continue to
                   provide reliable data monitoring.</li>
               </ul>
-              <p className="text-md text-white shadow-text pt-3">These capabilities make Anomalo a critical component for businesses focused on optimizing their ad spend. By
+              <p className="text-base text-white shadow-text pt-3">These capabilities make Anomalo a critical component for businesses focused on optimizing their ad spend. By
                 ensuring data quality, Anomalo supports the effective use of AI tools like&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-madgicx-lg" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>&nbsp;and Advantage, which rely on
                 accurate data to drive marketing success.</p>
             </div>

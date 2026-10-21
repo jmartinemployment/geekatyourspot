@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Most small businesses in Miami-Dade, Broward, and West Palm Beach know exactly what it feels like to
         stare at a blank screen late at night, struggling to write a simple update for their website or social
         media. The pressure to keep up with competitors is real, but the reality is that content creation too
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         running the business. Agency fees only add insult to injury, with the average local firm quoting
         thousands of dollars a month for even basic content support. For most small teams, that is simply not
         an option.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The result is a cycle that is hard to break. Content gets delayed, consistency drops, and online
         channels go stale. When social pages and websites look deserted, new leads dry up and existing
         customers drift away. Even when a business owner finds the time to post, it is often a scramble, one
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         good piece of content for different channels. Tracking what works is even harder, and most small
         businesses never find out which posts actually bring in new clients. This is the pain point: a real
         competitive disadvantage that comes from simply not having enough hands, hours, or creative bandwidth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-marketing-intelligent-content-generation-hootsuite-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wasting nights wrestling with
         writer’s block or pouring money into agencies, a small team can use AI-powered tools to research,
         draft, and schedule weeks of platform-specific content in minutes. AI systems now handle the heavy
@@ -29,7 +29,7 @@ export default function OverviewSection() {
         workflows and bulk scheduling, the owner keeps control and oversight, but the bottlenecks disappear.
         The result is a steady stream of fresh, relevant content that keeps your brand top-of-mind with local
         customers and frees up time to focus on what matters most.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s AI Marketing Content Workflow is built for these exact challenges. The method is
         simple and proven: automate the blank-page moments, make repurposing routine, and let the system run
         the tedious parts of content creation for you. For local businesses who need to build trust and

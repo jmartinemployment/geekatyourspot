@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function DecisionsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When implementing Automated Payment Execution, the decisions made at the start shape the entire
         project. Success hinges on clarity in goals and precision in execution. Without setting clear
         objectives, businesses risk misalignment and inefficiencies. From the outset, defining what success
         looks like is crucial. This means setting measurable goals, like reducing invoice processing time by a
         specific percentage or cutting down on manual entry errors. These benchmarks guide the implementation
         process and help evaluate its effectiveness.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A solid plan begins with understanding the current workflow and identifying pain points. Engage with
         your team to map out existing processes and pinpoint where automation can bring the most value. This
         assessment reveals which tasks consume the most time and where errors frequently occur. For instance,
@@ -24,7 +24,7 @@ export default function DecisionsSection() {
           Tipalti
         </Link>&nbsp;excel in automating these initial stages, streamlining data entry and approval
         workflows.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next, consider the integration with existing systems. Automated Payment Execution must fit seamlessly
         into your current accounting software and processes. Choosing tools that offer robust integration
         options is vital. For example,&nbsp;
@@ -34,7 +34,7 @@ export default function DecisionsSection() {
         </Link>&nbsp;provides integrations with major accounting platforms, ensuring smooth data flow and
         reducing manual intervention. This step is non-negotiable; poor integration can lead to data silos and
         workflow bottlenecks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security and compliance are also critical decisions. Automated systems must adhere to financial
         regulations and protect sensitive data. Selecting platforms with strong security protocols and
         compliance features, like those offered by&nbsp;
@@ -47,7 +47,7 @@ export default function DecisionsSection() {
           Ramp
         </Link>, ensures that your financial operations remain secure. These platforms provide comprehensive
         audit trails, which are essential for regulatory compliance and fraud prevention.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, involve stakeholders early and often. From finance teams to IT, getting buy-in from all
         departments ensures smoother implementation. Address their concerns and highlight how Automated
         Payment Execution benefits their work. Demonstrating how these systems reduce workload and errors can

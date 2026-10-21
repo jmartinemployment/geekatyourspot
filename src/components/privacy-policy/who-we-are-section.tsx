@@ -3,16 +3,16 @@ import Link from "next/link";
 export default function WhoWeAreSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC is an AI consulting firm based in Delray Beach, Florida. This Privacy Policy
         explains what information we collect when you visit geekatyourspot.com or book a consultation through
         it, how we use that information, and the choices you have. In this policy, “we,” “us,” and “our” mean
         Geek @ Your Spot LLC, and “you” means anyone who visits the site.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This policy takes effect on <strong>October 15, 2026</strong>. Your use of the site is also governed
         by our <Link id={`privacy-policy-who-we-are-terms${idSuffix}`} href="/terms-and-conditions" className="text-[#C83803] hover:underline">Terms
         of Service</Link>, which you should read alongside this policy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         We wrote this policy in plain language on purpose. We ask clients to trust us with their financial
         systems, so we think you should be able to see exactly what happens to your own information when you
         visit our site.</p>

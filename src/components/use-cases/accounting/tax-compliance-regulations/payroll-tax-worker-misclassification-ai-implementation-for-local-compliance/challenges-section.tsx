@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Payroll tax and worker misclassification issues do not come from a lack of effort or care. They come
         from the reality that most small businesses in South Florida are running at full tilt, with owners and
         bookkeepers stretched across too many roles. The cracks show up in the details: a contractor brought in
@@ -13,7 +13,7 @@ export default function ChallengesSection() {
         through&nbsp;<GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>, no W-9 on file, and
         nobody is sure if that triggers a 1099. The line between compliance and exposure is crossed by mistake,
         not intent.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first breakdown is in classification. The IRS and state agencies do not care about job titles or
         what a contract says if the daily reality looks like employment. Owners often treat regular, full-time
         workers as 1099 contractors to save on taxes or simplify payroll, but this shortcut ignores the
@@ -21,20 +21,20 @@ export default function ChallengesSection() {
         protect you from an audit if the worker is treated like staff. Misclassification exposes the business to
         back taxes, penalties, and the risk of employment claims, but the trigger is often just trying to fill a
         shift quickly or keep payroll manageable during peak season.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual processes make the situation worse. When payroll tax deposits, overtime calculations, and local
         withholdings are tracked in spreadsheets and paper files, errors pile up. Forgetting to register or file
         reemployment tax with the Florida Department of Revenue is common, especially for businesses hiring
         remote workers who move. A worker who relocates to another state brings that state’s rules along, and
         missing a change in rates or a new state registration can snowball into a compliance problem before
         anyone notices.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Year-end is a recurring trap. Delaying W-2 and 1099 e-filing, or sending forms with missing or incorrect
         taxpayer identification numbers, triggers non-negotiable IRS penalties. Owners and bookkeepers scramble
         to track down paperwork, chase contractors for W-9s, or fix errors after the fact. By then, the
         penalties and the risk of audit are already locked in. Cross-platform checks are either missing or
         happen too late, and data entry errors are caught when tax forms bounce, not before.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         As teams grow and the business expands into new counties or states, complexity multiplies. Manual
         onboarding of distributed workers can miss state-specific compliance steps, leading to missing labor
         forms or incorrect tax allocations. Approving paper contractor invoices without clear separation from
@@ -42,7 +42,7 @@ export default function ChallengesSection() {
         overtime violations long after the work is done. Standalone detection apps that alert you to problems
         but require manual data syncing to fix them only compound the issue: the error is flagged, but
         correcting it means more work and more room for mistakes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         All of this comes back to the same place: processes built for a smaller, simpler business do not keep up
         with growth or changing rules. Owners end up relying on outdated contract templates, manual data entry,
         and last year’s processes, hoping they will hold. When the state or IRS calls, or a team member files a

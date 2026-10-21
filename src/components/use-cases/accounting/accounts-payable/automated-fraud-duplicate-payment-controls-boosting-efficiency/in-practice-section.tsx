@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function InPracticeSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The transition to Automated Fraud &amp; Duplicate Payment Controls requires careful planning and
         execution. Start by mapping out the entire&nbsp;
         accounts payable
         &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id={`use-cases-accounting-fraud-controls-in-practice-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
         sequence helps in pinpointing where automation can bring the most benefit. For example, automating
         the invoice matching process can drastically reduce errors and speed up approvals.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integration with existing systems is a critical phase. Tools like&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-practice-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">
@@ -25,20 +25,20 @@ export default function InPracticeSection() {
         This integration ensures that data flows smoothly between systems, maintaining accuracy and
         consistency. It also allows for real-time updates, giving you a clear picture of your financial
         status at any given moment.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data preparation is another key element. Ensure that all data is cleaned and standardized before
         entering the new system. This involves eliminating duplicates, correcting errors, and filling in
         missing information. Accurate data is fundamental for the&nbsp;
         AI&nbsp;algorithms
         to function correctly and detect anomalies effectively. Without clean data, the risk of false
         positives and negatives increases, compromising the system&#39;s reliability.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The rollout also involves significant changes for the people involved. Employees may need to shift
         from manual data entry to more analytical roles, focusing on interpreting data insights rather than
         inputting data. This shift often increases job satisfaction, as employees engage in more strategic
         tasks. However, it requires thorough training and support to ensure everyone is comfortable with the
         new processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, continuous monitoring and feedback loops are necessary to refine the system. Regularly
         review system performance and gather feedback from users. This helps in identifying any glitches or
         inefficiencies that need addressing. Over time, as the system learns from new data, its accuracy and

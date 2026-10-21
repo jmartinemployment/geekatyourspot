@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Leadfeeder is designed for small businesses that need to make every sales and marketing hour count. If
         your team is chasing cold leads, missing out on website visitors who never fill out a form, or
         spending too much time qualifying prospects by hand, Leadfeeder is built to solve those problems. It
@@ -11,20 +11,20 @@ export default function RightFitSection() {
         logistics providers, and other service organizations in Miami-Dade, Broward, and Palm Beach counties.
         The system thrives in environments where a handful of real buying signals each week can mean the
         difference between a lost deal and a closed contract.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Leadfeeder is not for everyone. If your business depends on high-volume consumer traffic, or if you
         need to track individual users rather than company accounts, Leadfeeder’s company-level focus will not
         deliver what you need. The platform is also not a fit if you expect a tool to hand over verified
         personal emails or direct dials for every visitor, Leadfeeder surfaces company and behavioral data,
         not individual contact details unless a visitor self-identifies through a form or email capture.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams that already run a&nbsp;CRM&nbsp;like HubSpot,
         Salesforce, Microsoft Dynamics, or Pipedrive, Leadfeeder’s integrations mean you can route qualified
         accounts straight into your existing pipeline. Marketing and sales work from the same data, with
         instant alerts when a high-fit local business visits the site or revisits a key page. If your workflow
         depends on manual exports, spreadsheets, or slow list uploads, Leadfeeder removes those bottlenecks by
         automating the flow of data and scoring in real time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The strongest results come when Leadfeeder is set up with clear intent: define what a high-intent page
         looks like for your business, set up alerts for your target industries or geographies, and use the
         scoring model to focus on the accounts that match your ideal customer profile. If your team is not
@@ -32,14 +32,14 @@ export default function RightFitSection() {
         not be fully realized. The platform is at its best when it replaces guesswork with live, actionable
         insight, when sales can call on a lead the same day it shows buying intent, and when marketing can see
         which campaigns are drawing real local companies to the site.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses that need to prove value quickly, Leadfeeder’s free plan and trial period lower
         the barrier to entry. You can see which companies are visiting your site within minutes of setup, and
         start qualifying leads without a long onboarding process or a big upfront investment. The platform is
         built to scale with your needs, if you outgrow the free tier, paid plans are based on the number of
         identified companies, not a per-seat license or a rigid contract. This makes it possible for a small
         team to start with a focused use-case and expand as pipeline quality and sales results improve.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are considering Leadfeeder, the next step is to look at your own sales and marketing process.
         Are you losing track of warm local leads? Are your reps spending too much time calling cold accounts?
         Are you missing out on data about who is actually engaging with your website? Leadfeeder is not a
@@ -48,17 +48,17 @@ export default function RightFitSection() {
         but it is the bridge that connects anonymous web traffic to qualified pipeline. It works when you are
         ready to act on real-time signals and want to focus your team on the accounts that are most likely to
         close.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For those who want to see how Leadfeeder fits into a broader AI-driven lead capture pipeline, Geek @ Your Spot LLC’s existing resources on smart chatbots for marketing,
         AI&nbsp;lead scoring, and voice assistants provide
         the context and detail on how these systems can work together. Leadfeeder is the piece that makes sure
         no high-intent local company slips through the cracks, tying your website activity directly to your
         sales pipeline. If that is the gap in your current process, Leadfeeder is the tool built to close it.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-lead-enrichment-and-predictive-scoring-leadfeeder-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
         <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>
         <li>How much time do your sales reps spend every day manually searching Google, LinkedIn, or local directories just to find the email addresses and direct phone numbers of decision-makers?</li>

@@ -3,31 +3,31 @@ import Link from "next/link";
 export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Choosing the right tool for Automated Approval Workflows involves understanding Melio&#39;s fit for
         your business. Melio is designed specifically for US businesses, offering end-to-end&nbsp;
         accounts payable&nbsp;automation. It simplifies
         the approval process by routing invoices automatically, reducing the need for manual follow-ups. This
         automation is crucial for businesses looking to minimize errors and streamline operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Melio&#39;s pricing model is flexible, accommodating various payment methods like ACH, card, and wire
         transfers. While specific pricing details are not provided, the platform&#39;s flexibility suggests it
         can adapt to different business scales and needs. This flexibility is particularly beneficial for
         small to medium-sized enterprises that require scalable solutions without a hefty upfront investment.
         By automating tasks and reducing manual intervention, Melio can help lower operational costs over
         time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering adjacent approaches, businesses might also evaluate other tools like&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>,&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-ramp${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">Ramp</Link>, and&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>. Each of these tools offers unique features that could complement or compete with
         Melio. For instance, ApprovalMax provides multi-level and customizable approval processes, which can
         be a significant advantage for businesses with complex approval hierarchies. Ramp offers real-time
         tracking and compliance checks, enhancing visibility and control over financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Melio stands out with its quick setup and integration capabilities. It syncs seamlessly with
         QuickBooks Online, eliminating the risk of human errors in data entry. This integration ensures that
         businesses can maintain accurate records without additional manual effort. The ability to automate
         invoice processing and approval workflows means businesses can save hours each week, allowing staff
         to focus on more strategic tasks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, when evaluating Melio for Automated Approval Workflows, consider its adaptability to your
         existing systems, the potential cost savings, and the time it can save your team. The platform&#39;s
         ability to automate and streamline processes makes it a strong contender for businesses looking to

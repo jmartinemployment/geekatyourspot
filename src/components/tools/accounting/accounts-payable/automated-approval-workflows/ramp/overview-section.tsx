@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For many small businesses, the&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process is a relentless
         cycle of repetitive tasks. Picture this: a small team, already stretched thin, is tasked with
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         purchase orders, and routing for approval. This painstaking process often transforms into a full-time
         job, consuming valuable hours and introducing errors that can cost the business dearly. The time spent
         on these tasks means less time for strategic decision-making and growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-approval-workflows-ramp-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">Approval Workflows</Link>&nbsp;offer a transformative solution by streamlining these mundane tasks. By
         integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;technologies like Optical Character Recognition (OCR)
@@ -21,13 +21,13 @@ export default function OverviewSection() {
         minutes but also significantly reduces error rates. The technology learns your business&#39;s unique
         patterns, identifying regular vendors and approval chains, which further enhances efficiency and
         accuracy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Consider the immediate benefits: fewer hours spent on manual data entry, reduced cycle times, and
         lower costs associated with human error. Automated workflows ensure that invoices are routed to the
         right stakeholders based on predefined criteria like amount or vendor type, eliminating delays and
         bottlenecks. By adopting such a system, small businesses can redirect their focus from tedious
         administrative tasks to strategic initiatives that drive growth and profitability.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the competitive landscape of West Palm Beach, Broward, and Miami-Dade counties, where Geek @ Your Spot LLC operates, implementing AI-driven solutions like Automated Approval Workflows could be the key to
         unlocking new levels of efficiency and scalability. These technologies are not just about keeping pace
         with larger competitors; they are about redefining how small businesses operate, allowing them to

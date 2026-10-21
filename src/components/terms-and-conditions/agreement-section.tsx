@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function AgreementSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         These Terms of Service govern your use of geekatyourspot.com, which Geek @ Your Spot LLC operates as
         an AI consulting firm based in Delray Beach, Florida. In these terms, “we,” “us,” and “our” mean Geek @ Your Spot LLC, and “you” means anyone who visits or uses the site.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         By using the site, you agree to these terms. If you do not agree with them, please do not use the
         site. These terms take effect on <strong>October 15, 2026</strong>.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Our <Link id={`terms-and-conditions-agreement-privacy${idSuffix}`} href="/privacy-policy" className="text-[#C83803] hover:underline">Privacy
         Policy</Link> explains what information we collect through the site and how we use it, and it forms
         part of these terms.</p>

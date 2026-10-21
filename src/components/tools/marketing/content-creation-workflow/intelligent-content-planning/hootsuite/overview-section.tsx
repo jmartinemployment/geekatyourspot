@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A small business in Miami-Dade has a new product ready for launch. But the marketing team is stuck at
         their desks, staring at half-finished drafts and a spreadsheet full of disconnected ideas. They have
         Slack threads, browser tabs, and a calendar that never matches what actually gets posted. Someone
         tries to stitch a last-minute campaign together, but it goes out at the wrong time. The audience
         misses it. The brand voice wobbles. The cycle starts again the next week with the same blank-page
         dread.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the reality for most small businesses without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hootsuite-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>. Planning is
         reactive. The team burns hours debating topics and rewriting captions that do not convert. They gamble
         on hunches because they lack the data or tools that bigger players use. The outcome is predictable:
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         should be a growth channel becomes a time sink and a source of stress. Brand risk rises as unapproved
         drafts slip through or go live off-message. The operational overhead is high, and the results are
         nearly invisible.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Intelligent Content Planning changes this. It uses AI and automation to turn raw ideas, customer
         questions, and proven assets into a clear content blueprint. The tedious work, drafting, repurposing,
         scheduling, and routing for approval, moves from manual grind to automated flow. With the right
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         channels. The result is a steady, high-converting presence that grows brand equity and sales, not just
         noise. For small teams in West Palm Beach, Broward, and Miami-Dade, this means more leads, fewer
         errors, and hours back every week to focus on what matters.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s approach to Intelligent Content Planning is built for small businesses across South
         Florida. It covers the full workflow: automated content generation,
         AI&nbsp;<GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>, bulk scheduling,

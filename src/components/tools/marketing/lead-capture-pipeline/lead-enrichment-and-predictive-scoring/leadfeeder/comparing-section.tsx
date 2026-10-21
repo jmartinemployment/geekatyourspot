@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small businesses in Miami-Dade, Broward, and Palm Beach are not choosing Leadfeeder in a vacuum. They
         are weighing it against other lead enrichment and predictive scoring tools, platforms that promise to
         reveal who is visiting your website, what those visitors are interested in, and which accounts deserve
         sales attention now. The question is not just which tool identifies leads, but which one fits the
         pace, budget, and workflow of a local team with limited time and cash.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Leadfeeder’s main distinction is its focus on company-level identification and real-time intent
         scoring, not just contact enrichment or static lead lists. Where traditional enrichment tools append
         extra fields to an existing&nbsp;CRM&nbsp;record, Leadfeeder
@@ -17,7 +17,7 @@ export default function ComparingSection() {
         global database of 60 million companies. This process is not about collecting more data for its own
         sake, it is about surfacing the 30–50% of your web traffic that is actually B2B, filtering out the
         noise, and turning that segment into a live, scored pipeline.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Most platforms in this space still rely on form fills, pop-ups, or chat widgets to capture leads.
         Evidence from Leadfeeder’s own research shows that only about 2% of B2B website visitors will ever
         fill out a form. That leaves 98% invisible to those systems. Leadfeeder, by contrast, tracks the whole
@@ -25,7 +25,7 @@ export default function ComparingSection() {
         high-value content like pricing or case studies. This means a business owner does not have to wait for
         a prospect to raise their hand; the system flags the account the moment they show buying signals,
         often before competitors even know the lead exists.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses that have tried other solutions, manual research, list buying, or even
         plug-and-play enrichment services, the difference is not just in data depth, but in automation.
         Leadfeeder does not require a rep to chase down LinkedIn profiles or guess whether a company is in the
@@ -33,21 +33,21 @@ export default function ComparingSection() {
         list of accounts straight to the team’s&nbsp;CRM&nbsp;or
         Slack. This is a sharp break from legacy approaches that hand over a static CSV or leave it to sales
         to decide which records to call.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integration is another dividing line. Leadfeeder’s native connections to HubSpot, Salesforce,
         Microsoft Dynamics, and Pipedrive mean that account and contact records are created or updated
         automatically, with firmographic and behavioral data attached. Marketing can see which campaigns are
         drawing high-fit accounts; sales can see which companies are revisiting the pricing page. Competing
         products may offer enrichment or tracking, but often require manual exports or extra middleware to
         sync with the systems a small business already runs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The predictive scoring piece is not just a bolt-on. Leadfeeder’s scoring model is built into every
         workflow, using a 0–10 scale that factors in recent activity, number of unique visitors from a
         company, and high-intent page hits. The system allows teams to define what counts as a
         &quot;high-intent&quot; page, pricing, demo, or contact, and weighs those visits more heavily. This is
         not a generic fit score or a one-size-fits-all rule. It lets a business dial in the model to match
         their actual sales process, so the daily hit-list reflects real buying intent, not just website noise.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For those considering tools like&nbsp;<Link id={`tools-marketing-lead-enrichment-leadfeeder-comparing-6sense${idSuffix}`} href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>,&nbsp;<Link id={`tools-marketing-lead-enrichment-leadfeeder-comparing-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>, or Clearbit, the key difference is that
         Leadfeeder is purpose-built for the small business use-case: quick setup, minimal IT lift, and a
         pay-for-what-you-use model. Some platforms are better suited for enterprise stacks with dedicated
@@ -55,7 +55,7 @@ export default function ComparingSection() {
         not months, with a tracking script and guided configuration that can be live in under an hour. The
         pricing model is transparent, with a free plan and paid tiers based on the number of identified
         companies, not a per-seat license or a commitment to a massive data contract.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Case studies from Leadfeeder’s own client base show that the platform does not just deliver more data,
         but changes how teams work. Suddath, a logistics company, saw improved lead quality and sales focus by
         switching from volume cold calls to outreach triggered by real-time website activity. Snuup achieved
@@ -63,7 +63,7 @@ export default function ComparingSection() {
         tracking and scoring. These are not abstract improvements, they are measurable shifts in pipeline
         quality and conversion rates, directly tied to the system’s ability to surface and score real buying
         intent.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, Leadfeeder sits among lead enrichment and predictive scoring tools as the one that closes
         the gap between anonymous website traffic and actionable sales pipeline. It is not the right fit for
         every scenario, enterprise teams with complex data needs or those looking for deep contact-level

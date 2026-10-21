@@ -4,13 +4,13 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Navigating the intricate tax landscape in South Florida demands a meticulous approach. The process
         begins with aligning business objectives with compliance needs. At the core, this involves identifying
         specific inefficiencies, whether it&#39;s mismanaging sales tax filings across county lines or missing
         critical regulatory updates. For instance, if a Miami-based business is expanding into Broward,
         understanding the economic nexus and local tax implications is crucial.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once objectives are set, the next phase is a
         comprehensive&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>&nbsp;assessment. This involves evaluating the current data&#39;s accuracy,
@@ -20,7 +20,7 @@ export default function MechanicsSection() {
         every transaction meets legal standards. Quaderno&#39;s ability to handle real-time tax calculations and
         generate compliant invoices in local languages and currencies is particularly useful for businesses
         operating across multiple jurisdictions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The third step is selecting the right technology stack. Choosing tools that integrate seamlessly with
         existing systems minimizes disruption and maximizes
         efficiency.&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-mechanics-zamp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>,
@@ -28,13 +28,13 @@ export default function MechanicsSection() {
         providing a dedicated team to handle every aspect of tax management, from registration to notice
         resolution. This eliminates the need for businesses to act like tax attorneys, allowing them to focus on
         growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Implementation follows a pilot strategy, ensuring minimal risk and maximum learning. A small-scale
         rollout allows businesses to test the system&#39;s effectiveness and gather
         insights.&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-mechanics-taxcloud${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>’s
         hands-free autofiling feature can be invaluable here, automating the generation and submission of tax
         returns across numerous jurisdictions, reducing the manual burden and potential for error.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, continuous scaling and monitoring ensure that the system remains effective as the business
         grows. This involves regular updates and system checks to adapt to any changes in tax laws or business
         operations. Tools

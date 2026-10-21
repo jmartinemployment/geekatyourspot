@@ -1,40 +1,40 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Tipalti is particularly well-suited for small businesses looking to streamline their Automated Payment
         Execution. If your business deals with multiple currencies and requires robust compliance features,
         Tipalti offers a comprehensive solution. Its ability to automate complex processes like tax compliance
         and supplier onboarding makes it a strong choice for businesses aiming to reduce manual workload and
         focus on growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Tipalti may not be ideal for every business. Companies that have minimal international
         transactions or those that already have a well-integrated ERP system might find its features
         redundant. For such businesses, a simpler solution with a more targeted focus might be more
         cost-effective.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For those considering Tipalti, the next step is to evaluate how its features can be integrated into
         your current systems. Geek @ Your Spot LLC, an AI implementation consultancy, can assist in this process by
         ensuring seamless integration with your existing tools, such as QuickBooks or other ERP systems. This
         partnership can help tailor Tipalti&#39;s capabilities to your specific needs, maximizing its
         effectiveness.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The decision to implement Tipalti should also involve assessing the potential return on investment.
         Consider the time saved on manual processes and the reduction in errors and compliance risks. For many
         small businesses, these benefits can translate into significant cost savings and improved operational
         efficiency.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In conclusion, Tipalti offers a robust solution for businesses looking to enhance their payment
         processes. By automating key tasks and integrating with existing systems, it can help businesses
         manage their financial operations more effectively. If your business faces challenges in managing
         multi-currency payments or compliance, Tipalti could be the right fit to drive efficiency and
         growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <button type="button" data-scheduler-link id={`tools-accounting-payment-execution-tipalti-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
         <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
         <li>Who enters bills into QuickBooks, Xero, or your accounting system?</li>

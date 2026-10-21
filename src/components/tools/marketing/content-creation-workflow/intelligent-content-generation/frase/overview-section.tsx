@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A local business owner opens their laptop, determined to post something, anything, before the day gets
         away from them. The cursor blinks on a blank page, but no words come. Minutes turn to hours. That time
         should have gone to client work or chasing payments, but instead it disappears into a struggle to
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         never stretch. Agencies ask for monthly retainers that eat into cash flow. Freelancers deliver drafts
         that need so much editing, it hardly saves time. So social feeds go silent, blogs stagnate, and email
         lists gather dust. Every missed post is a lost chance to bring in a new lead.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         It is not just a question of time or budget. Even when the owner wrangles a few paragraphs, the result
         often falls short. A post might answer part of a customer’s question, but never the full story. Or a
         blog is published, but turning it into a social caption or a follow-up email means starting over,
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         coordinated marketing effort vanishes. Each channel becomes its own island: nothing connects, and
         leads slip through the cracks. The promise of digital marketing, steady leads, local trust, real
         visibility, feels out of reach.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the catch-22 that&nbsp;<Link id={`tools-marketing-intelligent-content-generation-frase-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;finally breaks. Instead of burning hours and
         budget on every step, small teams can now automate the full content creation workflow: from
         brainstorming and drafting to repurposing and scheduling, all while keeping the brand voice consistent

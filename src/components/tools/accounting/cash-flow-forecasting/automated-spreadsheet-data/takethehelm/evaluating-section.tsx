@@ -2,28 +2,28 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering Take the Helm, small businesses should evaluate its fit based on their specific financial
         management needs and the platform&#39;s pricing model. Take the Helm is designed to
         streamline&nbsp;cash flow forecasting&nbsp;and management, making it a suitable choice
         for businesses that require robust financial insights without the complexity of traditional systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the primary considerations is the platform&#39;s integration capabilities. Take the Helm seamlessly
         connects with popular accounting software like QuickBooks, Xero, and Sage. This integration ensures that
         businesses can easily sync their existing financial data with Take the Helm, minimizing the need for
         manual data entry and reducing the potential for errors.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another factor to consider is the scalability of Take the Helm. As businesses grow, their financial
         management needs become more complex. Take the Helm&#39;s flexible configuration options allow it to scale
         alongside a business, adapting to new requirements and expanding its capabilities as needed. This makes
         it a long-term solution for businesses planning for growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is another crucial aspect. While specific pricing details are not provided in the available
         data, businesses should consider the overall value that Take the Helm offers. This includes the time saved
         through automation, the reduction in errors, and the improved financial insights that can lead to better
         business decisions. When evaluating the cost, it&#39;s important to weigh these benefits against the
         platform&#39;s pricing model to determine its overall value.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, the support and implementation services provided by Geek @ Your Spot LLC are invaluable. Their
         expertise in deploying Take the Helm ensures that the platform is configured to meet the unique needs of
         each business. This support can be a deciding factor for businesses that lack the internal resources to

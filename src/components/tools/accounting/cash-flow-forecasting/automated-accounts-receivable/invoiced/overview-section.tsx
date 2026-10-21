@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Late nights at the office in Miami-Dade, a small business owner sifts through a stack of unpaid invoices,
         each one a reminder of the cash flow crunch that threatens his operation. The tedious task of manually
         tracking who owes what consumes valuable hours that could be spent growing the business. This scenario is
         all too familiar for many small businesses in Miami-Dade, Broward, and West Palm Beach counties, where time and resources
         are stretched thin. The manual process of&nbsp;<Link id={`tools-accounting-accounts-receivable-invoiced-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;is not just time-consuming; it’s fraught with
         the risk of errors that can lead to significant financial setbacks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Enter automated accounts receivable systems, a game-changer for those looking to reclaim their evenings and
         enhance their financial health. By integrating&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-driven
         platforms like Invoiced, businesses can automate the entire invoice-to-cash process. This not only
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         decisions. Instead of drowning in paperwork, business owners can now access up-to-date dashboards that
         forecast cash flow accurately, offering a clear view of when payments will arrive and which accounts need
         attention.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The impact of automation goes beyond mere efficiency. It transforms how small businesses in the region
         manage their finances, reducing the days sales outstanding (DSO) and allowing them to focus on strategic
         growth rather than administrative burdens. Automated accounts receivable solutions like Invoiced empower

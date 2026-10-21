@@ -2,7 +2,7 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Cashflowfrog is designed for small businesses that want live,
         accurate&nbsp;cash
         flow forecasting&nbsp;without the overhead of building or maintaining a
@@ -12,7 +12,7 @@ export default function EvaluatingSection() {
         your business runs on QuickBooks, Xero, Sage Intacct, Odoo, Zoho Books, or FreshBooks, or if your cash
         is spread across multiple banks, Cashflowfrog connects directly and starts working with minimal
         friction.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform’s flexibility is in how it adapts to your business structure and workflow. You can include
         or exclude any account, break down forecasts by entity, location, department, class, or project, and
         switch perspectives from daily to quarterly. For businesses that outgrow a single-entity,
@@ -20,13 +20,13 @@ export default function EvaluatingSection() {
         you need to model what happens when a big customer pays late or a new expense lands, scenario planning
         is built in, not a bolt-on. This is especially valuable for teams dealing with seasonal swings or
         unpredictable client payments.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation is not just a convenience; it is a necessity for small teams with limited accounting
         headcount. Cashflowfrog automates the forecasting process, reduces manual data entry, and flags errors
         before they become problems. AI-driven suggestions and rule-based projections mean the forecast stays
         current as your business evolves. The platform also covers payment matching, automatic reconciliation,
         and branded reporting, removing the need for separate tools or manual workarounds.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When it comes to pricing, Cashflowfrog offers a 14-day free trial with no credit card required and full
         access from day one. This allows you to see how the system fits your workflow and data before
         committing. The platform’s pricing is transparent and per-entity, with no hidden implementation fees or
@@ -35,7 +35,7 @@ export default function EvaluatingSection() {
         traditional&nbsp;ERP&nbsp;or
         custom spreadsheet solutions, the difference is not just in cost but in speed to value, most businesses
         get their first live forecast within minutes of connecting their data.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Judging fit also means looking at what Cashflowfrog does not do. It is not a
         full&nbsp;ERP, and it
         does not replace your accounting ledger. It reads data from your existing systems, builds forecasts, and
@@ -44,7 +44,7 @@ export default function EvaluatingSection() {
         NetSuite, Microsoft Dynamics, or Sage 50, you will need to connect via bank feeds or spreadsheet import
         rather than a direct sync. For teams that want to automate every workflow, Cashflowfrog covers cash
         flow, but you may need other tools for AP automation or tax compliance.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real test is whether Cashflowfrog saves your team time and reduces errors. If you are spending hours
         each week updating spreadsheets, chasing down missing payments, or trying to explain why the cash
         forecast changed, Cashflowfrog’s automation and live dashboards are a direct fix. The platform is built
@@ -52,7 +52,7 @@ export default function EvaluatingSection() {
         before you commit to a decision. For South Florida small businesses, the value is in getting a reliable,
         always-current cash view without adding staff or blowing past your budget on a
         months-long&nbsp;ERP&nbsp;rollout.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s role is to make sure Cashflowfrog fits your real-world environment. That means
         mapping your data, configuring rules and automations, and training your team to use the dashboard and
         reports. The goal is not just to install a tool, but to deliver a system that your team actually trusts

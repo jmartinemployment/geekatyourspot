@@ -49,7 +49,7 @@ function HubGroup({
 }: Readonly<{ group: (typeof HUB_GROUPS)[number]; idSuffix?: string }>) {
   return (
     <div className="pb-4">
-      <h2 className="text-white text-md shadow-text font-bold uppercase">
+      <h2 className="text-white text-base shadow-text font-bold uppercase">
         {group.label}
       </h2>
       <ul>
@@ -80,7 +80,7 @@ export default function Footer() {
           height={48}
         />
       </Link>
-      <p className="text-white text-md shadow-text py-5">
+      <p className="text-white text-base shadow-text py-5">
         Design and build AI implementation and automation architectures
         for brands that refuse to settle for average.
       </p>
@@ -137,7 +137,7 @@ export default function Footer() {
 
   const contact = (idSuffix = "") => (
     <>
-      <h2 className="text-white text-md shadow-text font-bold uppercase">
+      <h2 className="text-white text-base shadow-text font-bold uppercase">
         Contact
       </h2>
       <ul>

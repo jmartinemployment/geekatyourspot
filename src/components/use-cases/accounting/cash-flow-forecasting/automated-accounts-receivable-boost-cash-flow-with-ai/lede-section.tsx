@@ -4,31 +4,31 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function LedeSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Picture this: your business is functioning as an interest-free bank for your clients, holding onto $50,000
         in outstanding invoices. Each day these invoices remain unpaid, your financial stability is compromised,
         making it difficult to confidently plan for payroll, hiring, or inventory investments. This is the reality
         for many small businesses, relying on outdated accounts receivable processes that treat unpaid invoices as
         guaranteed income rather than variables.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The crux of the issue lies in passive, calendar-based follow-ups. Many businesses only review their accounts
         receivable reports bi-monthly, allowing invoices to sit past due for weeks before any action is taken. This
         delay not only affects your cash flow but also leaves you unprepared for disputes, which are often caused by invoices
         that lack clarity or essential details. Moreover, the same amount of time is spent chasing small utility
         reimbursements as is spent on significant milestone payments, leading to inefficient labor allocation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Financial projections often rely on best-case scenarios, assuming every client will pay on time. This lack
         of contingency planning transforms&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow
         forecasting</GlossaryLink>&nbsp;into guesswork, leaving your business vulnerable to unexpected delays or bad
         debt. To break free from this cycle, businesses must embrace modern automated accounts receivable solutions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated AR solutions, like those offered by Chaser or Stripe Invoicing, leverage
         behavioral&nbsp;<GlossaryLink slug="predictive-analytics">predictive analytics</GlossaryLink>&nbsp;to
         provide a realistic view of cash flow. By tracking real payment behaviors and adjusting forecasts based on
         data-driven expected payment dates, these platforms bring accuracy and reliability to your financial
         planning. Automated, humanized email cadences adjust their tone based on client history, while centralized
         communication logs ensure that any disputes or payment promises are documented and managed effectively.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-accounts-receivable-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-accounts-receivable-lede-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> on our blog.</p>
     </>
   );
 

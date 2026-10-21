@@ -2,7 +2,7 @@
 export default function ComparingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small businesses in South Florida are not short on chatbot choices. The market is full of platforms
         promising cross-platform chat, lead capture, and pipeline automation. But when you look past the
         marketing, most tools split into two camps. Some are rigid, rules-based chatbots that only work on a
@@ -11,14 +11,14 @@ export default function ComparingSection() {
         extremes: a platform built for small and mid-sized teams that need
         real&nbsp;omnichannel&nbsp;coverage, but cannot afford
         or support a complex IT stack.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A typical alternative is the single-channel or website-only bot. These tools are easy to set up, but
         they keep conversations siloed. A customer who chats on your website is invisible when they message
         you on Instagram or WhatsApp. The result is a fractured experience and a support team that has to ask
         for the same details over and over. Tidio’s architecture solves this by pulling messages from every
         major channel, website, email, Messenger, Instagram, and WhatsApp, into one shared inbox. That means
         your team sees the full history, regardless of where the customer started the conversation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         On the other end are platforms built for enterprise or developer-driven teams. These come with
         powerful customization, but at the cost of steep learning curves, heavy technical lift, and long
         implementation cycles. Many require code to build even a basic flow, or rely on developer resources to
@@ -27,7 +27,7 @@ export default function ComparingSection() {
         You can use more than 40 templates to get started, then customize for your business as you go. For
         most small businesses, that means you can launch a working, cross-platform chatbot in hours, not
         weeks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Where some competitors focus only on ticket deflection or basic Q&amp;A, Tidio’s Lyro AI agent is
         built to handle a larger share of live conversations. Lyro reads from your support content, help
         center, and even your product catalog. It answers questions in natural language and, when it reaches
@@ -35,7 +35,7 @@ export default function ComparingSection() {
         intact. This avoids the dead ends that frustrate customers and ensures that your team can step in for
         complex or sensitive situations. Tidio’s AI is not just a scripted FAQ bot. It can resolve up to 67%
         of customer questions automatically, according to Tidio’s own published results.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integration is another point of real difference. Many chat platforms force you to manage contacts and
         leads outside your core systems, or require expensive middleware to connect to marketing
         and&nbsp;CRM&nbsp;tools. Tidio offers direct integrations with
@@ -43,14 +43,14 @@ export default function ComparingSection() {
         prospects into your sales pipeline, and even trigger marketing campaigns based on chat behavior. For
         Shopify stores, Tidio’s native tools let you see a shopper’s cart and order history right inside the
         chat, with options to cancel orders or issue refunds if needed.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Then there is the question of cost and scale. Tidio’s free plan is one of the most complete for small
         businesses, supporting up to 50 billable conversations a month and 10 seats. Paid plans scale up
         features and usage, but the entry point is designed to be accessible for small budgets. This is a
         sharp contrast to enterprise tools that start with high monthly minimums or require annual contracts.
         Tidio’s pricing allows a small team to test, deploy, and grow without locking into a system that
         outpaces their needs or resources.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, Tidio is built for the reality of small teams that cannot dedicate a person to chatbot
         management. The platform’s no-code setup, visual builders, and shared inbox mean that a team of three
         can deliver the kind of&nbsp;omnichannel&nbsp;support

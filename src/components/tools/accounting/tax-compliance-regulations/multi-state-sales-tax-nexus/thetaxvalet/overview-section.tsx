@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A South Florida business owner watches their online orders spike after landing a new wholesale partner
         and launching on two marketplaces at once. The growth feels like a win until the invoices start piling
         up and the first state notice lands in the mail. Suddenly, what seemed like a simple expansion turns
         into a maze of compliance: tracking sales volume and order counts for every state, sorting out which
         platforms collect tax for them, and which do not. Each new sale risks crossing an invisible line, the&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>&nbsp;threshold, that instantly creates filing and collection duties in states
         where they have never set foot.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is not a theoretical headache. Most states draw that line at $100,000 in revenue or 200 separate
         transactions per year. A small business can hit those numbers fast, especially with multi-channel sales,
         long before they have the people or systems to handle the fallout. Unlike big companies with in-house
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         risk: sudden audit exposure, back taxes owed out of pocket, and penalties that can cripple growth or
         even threaten survival. Tracking inventory across third-party warehouses, managing drop-shipping
         triggers, and reconciling returns across platforms becomes a second full-time job, one that never ends.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Trying to handle Multi-State Sales Tax Nexus manually, or relying on basic software alone, leaves
         dangerous gaps. Off-the-shelf tools only see the transactions that run through them, missing sales from
         wholesale, phone orders, or secondary platforms. They rarely catch physical presence triggers, like
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         compliance switch overnight. The result is extreme operational friction. Teams lose time to error-prone
         spreadsheets and are left scrambling when a state comes calling. Instead of scaling with confidence,
         owners are forced to slow down just to avoid tripping compliance wires.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         AI-driven&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;changes this
         equation. Automated solutions now track every sale across all channels, monitor changing state
         thresholds, and flag when a new filing or registration duty appears. They centralize data, catch hidden

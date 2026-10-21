@@ -1,34 +1,34 @@
 export default function CostOfManualSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small businesses often face a tangled web of processes when it comes to Automated Payment Execution.
         The pain is real and persistent. Each invoice, whether from the same supplier or different ones, is
         typically handled as a separate transaction. This means paying the same supplier multiple times, which
         not only eats up valuable time but also creates unnecessary work for the accounts payable team. If
         you&#39;re manually deciding which invoices can be combined, it adds another layer of complexity and
         potential for error.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Different payment methods further complicate the process. Each method demands its own operational
         procedure, leading to a lack of standardization and increased room for mistakes. Bills often remain
         open in accounting systems until someone manually enters the payment details, causing discrepancies
         and confusion within the finance team. This inconsistency makes it difficult to know which bills are
         ready for payment and which are still pending, resulting in delayed payments and strained vendor
         relationships.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The financial impact of this disjointed approach is significant. Staff spend countless hours on
         repetitive tasks that could be automated, diverting their attention from more strategic activities.
         The manual nature of these processes not only increases the likelihood of errors but also makes it
         harder to maintain accurate financial records. This inefficiency can lead to missed opportunities for
         early payment discounts and strained cash flow management.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ramp addresses these challenges head-on by consolidating payment workflows. Instead of processing each
         invoice separately, Ramp allows businesses to combine multiple invoices from the same supplier into a
         single payment. This reduces the number of transactions and simplifies the bookkeeping process,
         freeing up time for your team to focus on more value-added tasks. By aligning the payment process with
         your accounting system, Ramp ensures that financial records are up-to-date and accurate, reducing
         discrepancies and enhancing visibility into your cash flow.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With Ramp, you eliminate the manual work of deciding which invoices to combine and which payment method
         to use. The platform automates these decisions, ensuring that payments are executed efficiently and
         consistently. This not only improves operational efficiency but also strengthens vendor relationships

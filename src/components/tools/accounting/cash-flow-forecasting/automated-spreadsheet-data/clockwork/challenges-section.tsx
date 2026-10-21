@@ -3,30 +3,30 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the world of small business finance, manual spreadsheet management is a significant drain on resources.
         Every month, fractional CFOs and business owners find themselves trapped in a cycle of coding formulas,
         building three-statement structures, and cleaning ledger data. This labor-intensive process consumes over 20
         hours that could be better spent on strategic analysis and decision-making. Instead of leveraging insights
         to propel their businesses forward, they are stuck in a loop of reconciling rows and columns, often
         resulting in errors and outdated information that derail financial planning.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the most pressing issues is over-hiring personnel based on current high cash balances, without
         considering upcoming multi-week payroll liabilities. This oversight often leads to financial strain when the
         cash flow doesn&#39;t align with payroll demands. Additionally, the misalignment across the Income
         Statement, Balance Sheet, and Cash Flow statements further complicates financial projections, making them
         detached from reality and unreliable for decision-making.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Business owners also face the risk of drawing owner distributions or partner pay without accurately
         calculating mid-month working capital minimums. This can lead to cash shortages and disrupt operations.
         Furthermore, reacting to a major client slashing spend or churning is often too late; without proactive
         modeling of defensive strategies, businesses find themselves on the back foot.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The reliance on expensive full-time FP&amp;A hires or out-of-budget advisory services to interpret core
         business trends is another costly consequence of manual spreadsheet management. For many small businesses,
         these options are financially unviable, leaving them without the insights needed to navigate complex
         financial landscapes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Clockwork breaks this cycle by automating the entire process, providing a 52-week rolling cash forecast and
         an&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-powered financial analyst in just five minutes. This
         eliminates the need for manual coding and complex spreadsheet management, allowing business owners to focus

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A small marketing team in West Palm Beach sits at their desks, staring at a spreadsheet of keywords
         that never seems to shrink. Someone asks for last month’s blog performance; no one has the real
         numbers. By the time the group agrees on a topic, a competitor’s take is already ranking, and the team
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         recycled idea, and every effort to plan ahead dissolves into another round of manual edits, email
         threads and approval bottlenecks. When someone checks the search results, they see their posts on page
         one, but never in the answers from ChatGPT, Perplexity or Gemini. It feels like shouting into a void.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the real cost of running on a content treadmill. Hours lost to brainstorm debates and
         spreadsheet wrangling. Days wasted producing posts that generate no traffic, never get cited, and fail
         to earn a single lead. The cycle repeats: publish, refresh, hope for a spike, and watch as nearly
@@ -19,14 +19,14 @@ export default function OverviewSection() {
         just about missing out on Google rankings anymore. The new pain is being locked out of AI-driven
         recommendations entirely, because your content is not structured, fast or relevant enough for these
         models to find or trust.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-marketing-intelligent-content-planning-scalenut-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
         predictive automation to map out exactly what your audience and AI engines are looking for, before a
         single word gets written. Content is planned, generated, repurposed and scheduled in bulk, freeing
         your team from the manual bottlenecks that drain time and budget. Structured workflows make sure every
         asset is optimized for both traditional and AI-first search, so your best work is not just published,
         but actually found and cited by the systems your customers now trust for answers.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward and West Palm Beach, this is not a nice-to-have. It is the
         difference between being the local authority AI recommends, or being invisible, no matter how many
         hours you put in. Intelligent Content Planning is how teams with limited headcount can finally scale

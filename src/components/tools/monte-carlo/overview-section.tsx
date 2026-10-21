@@ -12,18 +12,18 @@ export default function OverviewToolSection() {
                 Overview</h2>
                 </div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">In the fast-paced world of digital marketing, optimizing ad spend is crucial for maximizing return on investment
+              <p className="text-base text-white shadow-text pt-3">In the fast-paced world of digital marketing, optimizing ad spend is crucial for maximizing return on investment
                 (<GlossaryLink slug="kpi">ROI</GlossaryLink>). Monte Carlo offers a robust solution to tackle this challenge by providing a comprehensive platform for
                 automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Designed to seamlessly integrate with your existing marketing tools, Monte Carlo
                 helps businesses refine their advertising strategies by ensuring data accuracy and reliability.</p>
-              <p className="text-md text-white shadow-text pt-3">Monte Carlo stands out by focusing on data observability, which is essential for making informed decisions in&nbsp;<Link id="tools-marketing-monte-carlo-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. By monitoring data pipelines and identifying anomalies, it ensures that the data driving your ad
+              <p className="text-base text-white shadow-text pt-3">Monte Carlo stands out by focusing on data observability, which is essential for making informed decisions in&nbsp;<Link id="tools-marketing-monte-carlo-overview-automated-ad-spend-optimization" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. By monitoring data pipelines and identifying anomalies, it ensures that the data driving your ad
                 campaigns is both accurate and actionable. This capability is especially important for companies dealing with large
                 volumes of data, where even a small discrepancy can lead to significant financial implications.</p>
-              <p className="text-md text-white shadow-text pt-3">In comparison to other tools like Google Ads Smart Bidding, which focuses on adjusting bids based on machine
+              <p className="text-base text-white shadow-text pt-3">In comparison to other tools like Google Ads Smart Bidding, which focuses on adjusting bids based on machine
                 learning algorithms, Monte Carlo emphasizes the integrity of the data feeding those algorithms. This complementary
                 relationship ensures that your automated bidding strategies are based on the most reliable data possible, ultimately
                 enhancing the efficiency and effectiveness of your ad spend.</p>
-              <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Miami-Dade, Broward, and Palm Beach counties can benefit from Monte Carlo&#39;s ability to
+              <p className="text-base text-white shadow-text pt-3">Businesses in regions such as Miami-Dade, Broward, and Palm Beach counties can benefit from Monte Carlo&#39;s ability to
                 streamline data processes and reduce the manual effort involved in campaign management. By minimizing the guesswork
                 and enhancing <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making, Monte Carlo empowers marketers to focus on strategic initiatives that
                 drive real results.</p>
@@ -39,18 +39,18 @@ export default function OverviewToolSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview</h2>
-              <p className="text-md text-white shadow-text pt-3">In the fast-paced world of digital marketing, optimizing ad spend is crucial for maximizing return on investment
+              <p className="text-base text-white shadow-text pt-3">In the fast-paced world of digital marketing, optimizing ad spend is crucial for maximizing return on investment
                 (<GlossaryLink slug="kpi">ROI</GlossaryLink>). Monte Carlo offers a robust solution to tackle this challenge by providing a comprehensive platform for
                 automated <GlossaryLink slug="dynamic-creative-optimization">ad spend optimization</GlossaryLink>. Designed to seamlessly integrate with your existing marketing tools, Monte Carlo
                 helps businesses refine their advertising strategies by ensuring data accuracy and reliability.</p>
-              <p className="text-md text-white shadow-text pt-3">Monte Carlo stands out by focusing on data observability, which is essential for making informed decisions in&nbsp;<Link id="tools-marketing-monte-carlo-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. By monitoring data pipelines and identifying anomalies, it ensures that the data driving your ad
+              <p className="text-base text-white shadow-text pt-3">Monte Carlo stands out by focusing on data observability, which is essential for making informed decisions in&nbsp;<Link id="tools-marketing-monte-carlo-overview-automated-ad-spend-optimization-lg" href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend optimization</Link>. By monitoring data pipelines and identifying anomalies, it ensures that the data driving your ad
                 campaigns is both accurate and actionable. This capability is especially important for companies dealing with large
                 volumes of data, where even a small discrepancy can lead to significant financial implications.</p>
-              <p className="text-md text-white shadow-text pt-3">In comparison to other tools like Google Ads Smart Bidding, which focuses on adjusting bids based on machine
+              <p className="text-base text-white shadow-text pt-3">In comparison to other tools like Google Ads Smart Bidding, which focuses on adjusting bids based on machine
                 learning algorithms, Monte Carlo emphasizes the integrity of the data feeding those algorithms. This complementary
                 relationship ensures that your automated bidding strategies are based on the most reliable data possible, ultimately
                 enhancing the efficiency and effectiveness of your ad spend.</p>
-              <p className="text-md text-white shadow-text pt-3">Businesses in regions such as Miami-Dade, Broward, and Palm Beach counties can benefit from Monte Carlo&#39;s ability to
+              <p className="text-base text-white shadow-text pt-3">Businesses in regions such as Miami-Dade, Broward, and Palm Beach counties can benefit from Monte Carlo&#39;s ability to
                 streamline data processes and reduce the manual effort involved in campaign management. By minimizing the guesswork
                 and enhancing <GlossaryLink slug="analytics">data-driven</GlossaryLink> decision-making, Monte Carlo empowers marketers to focus on strategic initiatives that
                 drive real results.</p>

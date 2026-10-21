@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         My AI Front Desk is built as a
         true&nbsp;<GlossaryLink slug="omnichannel" className="text-[#0B162A] hover:underline">omnichannel</GlossaryLink>&nbsp;communication engine,
         designed to unify fragmented messaging and voice into a single, actionable system. At the core is its
@@ -11,7 +11,7 @@ export default function ArchitectureSection() {
         channel, website chat, SMS, Facebook Messenger, Instagram DMs, phone calls, and email, connects to
         this hub. Each conversation is tagged by source and linked to a unique contact record, creating a
         comprehensive timeline that updates automatically with every new message or call.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform’s architecture prioritizes zero manual data entry. Every interaction is transcribed,
         structured, and saved to the&nbsp;CRM&nbsp;without staff
         intervention. Calls are recorded, transcribed, and summarized; chats and emails are parsed for intent,
@@ -20,7 +20,7 @@ export default function ArchitectureSection() {
         in notes or update fields. The system listens to every call and reads every message, extracting
         structured data, contact details, conversation intent, next steps, and making it available for
         reporting and automation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         My AI Front Desk’s&nbsp;CRM&nbsp;is not a bolt-on or a
         separate tool. It is built into the platform, auto-populated from real conversations. There is no need
         to set up a separate&nbsp;CRM&nbsp;or integrate a third-party
@@ -28,7 +28,7 @@ export default function ArchitectureSection() {
         pushes conversation data directly into those systems, keeping them up to date without extra work from
         your reps. This means your sales or service team can keep working in the tools they already know,
         while My AI Front Desk keeps the records clean and current in the background.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The data model is designed for real-world lead capture. Each contact’s profile holds every call, text,
         email, chat, and form submission in one timeline. The AI enriches these records with scores for
         intent, fit, urgency, and engagement, so you always know which leads are most likely to convert. The
@@ -36,7 +36,7 @@ export default function ArchitectureSection() {
         actions or route the lead to the right teammate. This structure supports
         true&nbsp;<GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead scoring</GlossaryLink>&nbsp;and prioritization, not
         just basic tagging or manual sorting.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Reporting and analytics are built on this unified data layer. My AI Front Desk tracks calls answered,
         appointments booked, revenue generated, conversion rates, and source attribution by channel. The
         &quot;Saved Revenue&quot; metric estimates dollars recovered from leads that would have been lost,
@@ -44,7 +44,7 @@ export default function ArchitectureSection() {
         sliced by date range, channel, or booking volume, giving you clear insight into where growth is coming
         from and where bottlenecks remain. This is not just a dashboard for vanity metrics; it is daily
         decision support for revenue, lead source performance, and after-hours coverage.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation logic is built in at every step. The platform can trigger SMS or email sequences after a
         call or chat, assign contacts to nurture queues, create tickets, or send reminders. The AI adjusts
         messaging based on caller or visitor responses, handles objections, and asks follow-up questions as

@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For most small businesses in Miami-Dade, Broward, and Palm Beach, the lead pipeline is a black hole.
         Money goes into ads, time goes into outreach, but the results are guesswork. The root cause is
         invisible: almost every high-intent visitor to your website leaves no trace. Teams spend their week
@@ -12,14 +12,14 @@ export default function ChallengesSection() {
         the&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. This is not a niche problem. It is the default.
         Up to 98% of website visitors never fill out a form. That means the true buyers, the ones who are a
         good fit and have real budget, are the ones you never see.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The result is a cycle of wasted effort. Salespeople spend their days cold-calling lists that go
         nowhere. Marketing teams build campaign after campaign, but can’t prove which one drove a real
         conversation or closed deal. The few leads that do come in are often a poor fit, wrong industry, wrong
         company size, or still months away from making a decision. The real cost is not just in wasted ad
         spend or missed quotas. It’s the opportunity cost of never knowing which accounts are actually
         in-market, ready to buy, and looking at your solution right now.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This blind spot has several points of failure. First, anonymous website traffic is ignored. A local
         company might visit your pricing page five times in a week, but if they don’t fill out a form, you
         never know they were there. That’s a potential deal lost to a competitor who is watching more closely.
@@ -29,7 +29,7 @@ export default function ChallengesSection() {
         companies that have shown zero intent, while the warmest accounts, those already engaging, slip by
         unnoticed. Finally, even when a campaign does generate real interest, there’s no way to match that
         back to revenue. The team can’t see which ads, content, or outreach actually led to a new client.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For a small business, these failures are not just inconvenient, they are expensive. Every hour spent
         chasing the wrong lead is an hour not spent closing the right one. Every dollar put into an ad that
         doesn’t reach a real buyer is a dollar that could have built pipeline elsewhere. Without real lead
@@ -37,7 +37,7 @@ export default function ChallengesSection() {
         guesswork. The pipeline stays unpredictable, and the team never gets ahead. This is the hidden tax of
         doing things the old way: more time spent, more money wasted, and more deals lost to faster, smarter
         competitors.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The pain is sharpest for local businesses with limited resources. They do not have a data science team
         or a six-figure budget for enterprise tools. They need real insight now, not a six-month analytics
         project. Every week that passes without visibility into real buyer intent is another week of missed

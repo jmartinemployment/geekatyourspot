@@ -2,14 +2,14 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Choosing the
         right&nbsp;tax
         compliance&nbsp;tool is critical for small businesses navigating complex tax laws.
         Evaluating TaxJar involves assessing its fit for your business size and understanding its pricing model.
         TaxJar is designed to cater to the needs of small businesses by offering a comprehensive solution that
         automates tax compliance tasks, reducing the administrative burden and potential for human error.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering TaxJar, businesses should first evaluate its integration capabilities. TaxJar
         seamlessly connects with various e-commerce
         and&nbsp;ERP&nbsp;platforms,
@@ -18,19 +18,19 @@ export default function EvaluatingSection() {
         integrations through the
         TaxJar&nbsp;API&nbsp;further
         enhances its fit for businesses with specific requirements.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is another important factor. TaxJar offers a 30-day free trial, allowing businesses to test its
         features and assess its value before committing to a subscription. This trial period is an excellent
         opportunity for businesses to explore how TaxJar can streamline their tax compliance processes and see
         firsthand the time and cost savings it can deliver.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         It&#39;s also essential to consider the scalability of TaxJar. As businesses grow, their tax compliance
         needs become more complex. TaxJar is built to scale with your business, providing reliable performance
         even during peak sales periods. Its
         high-performance&nbsp;API&nbsp;ensures
         that tax calculations are accurate and delivered in real-time, which is vital for maintaining a seamless
         customer experience.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC provides expert guidance in evaluating TaxJar, helping businesses understand how it can
         be tailored to their specific needs and ensuring a smooth implementation. Their local expertise is
         invaluable for small businesses in Miami-Dade, Broward, and West Palm Beach counties, ensuring that

@@ -2,7 +2,7 @@
 export default function ImplementingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Getting Frase live for a small business in South Florida is a matter of connecting the right pieces,
         not rebuilding your entire marketing process from scratch. The platform is built for teams who cannot
         afford weeks of downtime or a parade of consultants. Deployment moves quickly because Frase comes with
@@ -10,7 +10,7 @@ export default function ImplementingSection() {
         Sanity, Wix, and its own FraseCMS. Most businesses in West Palm Beach, Broward, and Miami-Dade are
         already running one of these, so the technical setup is a matter of connecting accounts and setting
         publishing permissions, not custom development.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The process starts by mapping your existing content workflow to Frase’s structure. Geek @ Your Spot LLC
         leads this step with a focus on what you actually need to produce, SEO articles, social posts, email
         campaigns, and how your team prefers to review and approve content. Instead of forcing a new process,
@@ -19,7 +19,7 @@ export default function ImplementingSection() {
         sign-off. This flexibility is what shortens the go-live window. Most small teams can move from first
         login to first published draft in under a week, provided the approvals and brand voice materials are
         ready.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next step is onboarding your brand voice and sample content. Frase’s brand voice setup uses
         writing you have already published, your best articles, your most successful emails, your most-liked
         social posts. The platform analyzes these to build a voice profile, so new drafts sound like your
@@ -28,14 +28,14 @@ export default function ImplementingSection() {
         them, and review the first AI-generated drafts for tone and accuracy. Tuning the voice is an iterative
         process, but Frase’s interface makes it easy to adjust and re-test until the output matches your
         standards.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once the brand voice is set, Geek @ Your Spot LLC configures the approval and publishing workflows. Frase
         supports both automated and manual review cycles. For teams that want to keep a human in the loop,
         every draft can be routed to a manager or owner for final sign-off before it goes live. For businesses
         ready to automate more, Frase can publish directly to your CMS once it meets the scoring criteria you
         set, SEO, GEO, or both. The approval logic is granular: you can require review for some content types
         (like long-form articles) and let others (like routine social posts) publish automatically.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bulk scheduling is handled inside Frase or through your existing scheduler, depending on your
         preference. The platform can export content in formats ready for upload to social media planners or
         email platforms, or it can push content directly to your CMS with images, schema, and internal links
@@ -43,14 +43,14 @@ export default function ImplementingSection() {
         from scratch, you review and approve a batch, then let Frase handle the rest. For teams who want to
         keep their current tools, Frase’s&nbsp;API&nbsp;allows you to
         integrate it with schedulers or pipelines you already use.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Throughout deployment, Geek @ Your Spot LLC’s role is to keep the process moving and remove technical
         blockers. That means mapping your current assets, setting up the integrations, and walking your team
         through the first content runs. Training is focused on your real use-case: how to review, edit, and
         approve content, not a generic product tour. The aim is to get your team from blank page to
         publish-ready content with as little friction as possible. Because the platform is set up for small
         teams, the learning curve is shallow and most users are comfortable after a single session.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A phased rollout is the norm for most small businesses. Start with one channel, usually the company
         blog or service pages, then expand to social and email once the team is comfortable. This staged
         approach limits risk and lets your team build confidence with the new workflow. Geek @ Your Spot LLC

@@ -1,42 +1,42 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Nextiva is built for small businesses that need to capture every lead, answer every customer, and keep
         their team focused on real work, not on babysitting phones or piecing together conversations from
         different apps. If you run a service business in Miami-Dade, Broward, or Palm Beach, and your team is
         losing track of calls, chats, or texts, Nextiva is a strong fit. It is especially effective for teams
         where missing a single call can mean losing a high-value job or where after-hours requests make up a big
         share of new business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform works best for teams that want a unified workspace, not just a smarter phone line. If your
         business relies on scheduling appointments, qualifying leads, and following up by text, Nextiva’s
         integrations and automation will take real work off your plate. It is also well suited for companies
         with limited technical resources, setup can be completed in minutes, with no coding required, and
         ongoing management does not demand a dedicated IT person. For businesses in regulated sectors, Nextiva’s
         healthcare platform is HIPAA-ready, with signed agreements and end-to-end encryption where required.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         On the other hand, Nextiva is not the right choice for everyone. If your operation is so small that you
         only get a handful of calls a week, and you do not use chat or SMS, the investment may not pay off. A
         solo consultant who answers every call personally or a business that only needs voicemail coverage after
         hours may find simpler, cheaper solutions that fit better. Nextiva is also not designed for teams that
         want to keep all communication manual or who prefer to handle every inquiry face to face, without
         automation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Some buyers expect AI to replace all human interaction. Nextiva is not built for that. Its strength is
         in handling routine, high-volume, or after-hours requests, freeing up your team for complex
         conversations and in-person service. For sensitive or high-stakes calls, the platform can route the
         customer to a human with full context, but it does not pretend to match human empathy or judgment in
         every scenario. If your brand depends on deep relationship-building in every call, or you need highly
         specialized intake processes that change daily, a fully custom solution may be a better fit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Nextiva also depends on having clean, up-to-date data. If
         your&nbsp;CRM&nbsp;is a mess or your scheduling tools are not
         maintained, the automation will reflect those gaps. Businesses that are not ready to invest a few hours
         up front in mapping their data and testing key workflows will not see the best results. The platform’s
         value comes from its ability to connect every channel and automate what can be automated, but it cannot
         fix broken business processes on its own.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For local teams ready to move forward, the next step is to map your real needs. What is your current
         miss rate for calls and chats? How much revenue do you lose to missed connections? What would it mean to
         your schedule if every lead got a response within minutes, not hours? These are the questions that drive
@@ -44,11 +44,11 @@ export default function RightFitSection() {
         tailored to your business, not just turned on and left to run. The right deployment means your Friday
         afternoons are spent serving customers, not chasing down missed messages or wondering if a big lead
         slipped away.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-receptionist-nextiva-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
         <li>When a prospect hangs up without leaving a voicemail, what is your current process for recapturing that lead?</li>
         <li>Do you experience sudden spikes in call volume (e.g., seasonal demands, ad campaigns) that temporarily overwhelm your current staff?</li>

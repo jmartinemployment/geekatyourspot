@@ -12,13 +12,13 @@ export default function WhenToUseSection() {
             </div>
             <div className="col-span-5"></div>
             <div className="col-span-12">
-              <p className="text-md text-white shadow-text pt-3">Monte Carlo is particularly valuable for businesses that rely heavily on data-driven marketing strategies and need
+              <p className="text-base text-white shadow-text pt-3">Monte Carlo is particularly valuable for businesses that rely heavily on data-driven marketing strategies and need
                 to ensure the integrity of their data. If your organization is struggling with inconsistent data quality or frequent
                 data pipeline issues, Monte Carlo can provide the observability needed to maintain high data standards.</p>
-              <p className="text-md text-white shadow-text pt-3">For companies in Miami-Dade, Broward, and Palm Beach counties looking to optimize their ad spend, Monte Carlo is a critical tool
+              <p className="text-base text-white shadow-text pt-3">For companies in Miami-Dade, Broward, and Palm Beach counties looking to optimize their ad spend, Monte Carlo is a critical tool
                 for ensuring that every dollar spent is backed by reliable data. This is especially true for businesses using&nbsp;<GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI-driven</GlossaryLink> tools like Omneky or AdCreative.ai, where the quality of input data directly impacts the effectiveness of
                 ad campaigns.</p>
-              <p className="text-md text-white shadow-text pt-3">Monte Carlo is also ideal for organizations that have a complex data ecosystem and require a scalable solution that
+              <p className="text-base text-white shadow-text pt-3">Monte Carlo is also ideal for organizations that have a complex data ecosystem and require a scalable solution that
                 can grow with their data needs. Whether you&#39;re a small business just starting with data observability or a large
                 enterprise with extensive data infrastructure, Monte Carlo offers the flexibility and power to support your ad spend
                 optimization goals.</p>
@@ -32,13 +32,13 @@ export default function WhenToUseSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When to Use</h2>
-              <p className="text-md text-white shadow-text pt-3">Monte Carlo is particularly valuable for businesses that rely heavily on data-driven marketing strategies and need
+              <p className="text-base text-white shadow-text pt-3">Monte Carlo is particularly valuable for businesses that rely heavily on data-driven marketing strategies and need
                 to ensure the integrity of their data. If your organization is struggling with inconsistent data quality or frequent
                 data pipeline issues, Monte Carlo can provide the observability needed to maintain high data standards.</p>
-              <p className="text-md text-white shadow-text pt-3">For companies in Miami-Dade, Broward, and Palm Beach counties looking to optimize their ad spend, Monte Carlo is a critical tool
+              <p className="text-base text-white shadow-text pt-3">For companies in Miami-Dade, Broward, and Palm Beach counties looking to optimize their ad spend, Monte Carlo is a critical tool
                 for ensuring that every dollar spent is backed by reliable data. This is especially true for businesses using&nbsp;<GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">AI-driven</GlossaryLink> tools like Omneky or AdCreative.ai, where the quality of input data directly impacts the effectiveness of
                 ad campaigns.</p>
-              <p className="text-md text-white shadow-text pt-3">Monte Carlo is also ideal for organizations that have a complex data ecosystem and require a scalable solution that
+              <p className="text-base text-white shadow-text pt-3">Monte Carlo is also ideal for organizations that have a complex data ecosystem and require a scalable solution that
                 can grow with their data needs. Whether you&#39;re a small business just starting with data observability or a large
                 enterprise with extensive data infrastructure, Monte Carlo offers the flexibility and power to support your ad spend
                 optimization goals.</p>

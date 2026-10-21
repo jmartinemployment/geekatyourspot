@@ -3,26 +3,26 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quaderno&#39;s architecture is built to integrate seamlessly with a variety of platforms and systems,
         making it a versatile tool for managing
         global&nbsp;tax
         compliance. The platform&#39;s robust infrastructure supports integration with popular
         payment processors, e-commerce platforms, and custom setups, ensuring that businesses can maintain
         compliance without disrupting their existing workflows.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the key components of Quaderno&#39;s architecture is its ability to connect with major e-commerce
         platforms such as Shopify, WooCommerce, and Amazon FBA. These integrations allow businesses to automate
         tax calculations and invoice generation directly from their storefronts, streamlining the compliance
         process. By centralizing tax data from multiple channels, Quaderno helps businesses maintain a clear and
         accurate view of their tax obligations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quaderno also integrates with payment processors like Stripe and PayPal, adding another layer of
         automation to the tax compliance process. These integrations enable the platform to generate compliant
         invoices and tax reports for transactions processed through these payment gateways. This capability is
         particularly beneficial for businesses that operate across multiple payment platforms, as it ensures
         that all transactions are accounted for and compliant with relevant tax laws.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses with unique or complex setups, Quaderno
         offers&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;and
         CSV import options, allowing them to import sales data manually or connect the platform to their custom
@@ -30,7 +30,7 @@ export default function ArchitectureSection() {
         tailored solution for managing tax compliance. The platform&#39;s lightweight
         REST&nbsp;API&nbsp;supports
         real-time tax rate calculations and compliant invoice generation, further enhancing its adaptability.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In addition to its integrations, Quaderno&#39;s architecture includes features designed to support
         global tax compliance. The platform covers over 150 countries for nexus, VAT, and GST rules, providing
         businesses with the tools they need to navigate complex international tax landscapes. By offering

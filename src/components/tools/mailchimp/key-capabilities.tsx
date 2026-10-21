@@ -2,7 +2,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyCapabilitiesSection() {
   const body = (
     <>
-      <ul className="text-md text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
+      <ul className="text-base text-white shadow-text list-disc list-outside pl-3 space-y-2 pt-3">
         <li>Email Campaign Creation: Mailchimp provides a wide range of templates and design tools that allow users to
           create visually appealing and effective email campaigns without needing design expertise.</li>
         <li><GlossaryLink slug="user-segmentation">Audience Segmentation</GlossaryLink>: Users can segment their audience based on various criteria such as demographics, purchase
@@ -13,7 +13,7 @@ export default function KeyCapabilitiesSection() {
           allowing businesses to track key metrics and make informed decisions to enhance future campaigns.</li>
         <li>Integrations: Mailchimp integrates with a variety of other platforms and tools, such as e-commerce systems and&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink> platforms, to provide a seamless marketing experience.</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">Mailchimp&#39;s capabilities are designed to cater to the needs of businesses looking to enhance their marketing
+      <p className="text-base text-white shadow-text pt-3">Mailchimp&#39;s capabilities are designed to cater to the needs of businesses looking to enhance their marketing
         strategies through data-driven&nbsp;insights and automated processes. The platform&#39;s ability to integrate with other
         systems further enhances its utility, allowing businesses to create a unified marketing strategy across different
         channels.</p>

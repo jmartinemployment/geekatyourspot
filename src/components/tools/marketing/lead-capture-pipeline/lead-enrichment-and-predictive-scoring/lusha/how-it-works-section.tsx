@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha works by stripping the guesswork and dead time out of lead enrichment and predictive scoring. It
         does this by automating the process of finding, verifying, and updating contact and company data, then
         pushing it directly into your&nbsp;CRM&nbsp;or sales
@@ -11,7 +11,7 @@ export default function HowItWorksSection() {
         lists, Lusha provides direct mobile numbers, verified personal emails, and real-time buying signals
         for the people who actually make decisions. The result is a pipeline where every contact is actionable
         and every score is grounded in current, live data.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Start with the basics: Lusha’s engine ingests your static lists, web form entries, or
         new&nbsp;CRM&nbsp;leads. For each, it runs a multi-step
         enrichment process. First, it matches the record against its global database to fill in missing
@@ -19,7 +19,7 @@ export default function HowItWorksSection() {
         a name and number lookup. Lusha checks for role changes, promotions, and company moves, so you are not
         pitching someone who left six months ago or got promoted out of your target role. Every contact is
         checked for current employment and contact accuracy before it lands in your system.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next, Lusha attaches buying signals and&nbsp;<GlossaryLink slug="intent-data" className="text-[#0B162A] hover:underline">intent
         data</GlossaryLink>. This is where predictive scoring comes in. The platform tracks over two dozen
         signals: headcount growth, hiring surges, new job posts, IT spend changes, LinkedIn activity, funding
@@ -28,7 +28,7 @@ export default function HowItWorksSection() {
         customers), timing (how recent and relevant the buying signals are), and reachability (whether there
         is a verified decision-maker you can actually contact). These scores are written directly to the lead
         or account record, so your team knows exactly who to call and when.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The enrichment process itself is built for speed and scale. Lusha can process hundreds of contacts in
         seconds using its bulk&nbsp;API. It reads your CSV files,
         splits them into manageable batches, and runs each through its verification and enrichment workflow.
@@ -39,7 +39,7 @@ export default function HowItWorksSection() {
         real-time needs, Lusha also supports single-record enrichment for leads captured on web forms or
         entered by hand, ensuring that even one-off contacts are fully verified before anyone picks up the
         phone.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once the data is enriched and scored, Lusha automates the sync back into your core systems.
         Integrations are available for Salesforce, HubSpot, Zoho, Outreach, SalesLoft, and others. This means
         that as soon as a contact is updated or a new buying signal is detected,
@@ -47,14 +47,14 @@ export default function HowItWorksSection() {
         data. For example, if a key contact gets promoted or leaves, Lusha updates the record, flags the
         change, and can even trigger a task or notification for the sales rep responsible. This keeps your
         pipeline live and accurate, so you never miss a window to re-engage or cover a gap.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha’s predictive scoring is not a black box. The criteria are transparent and configurable: you can
         define your ideal customer profile (industry, size, funding, geography, seniority) and weight the
         buying signals that matter most to your business. The system then applies these rules consistently,
         ranking and tiering leads so your team always works the best-fit opportunities first. For small teams,
         this means no more arbitrary lead assignments or wasted effort on cold accounts. Every rep sees not
         just a list of names, but a prioritized, scored pipeline with the context they need to act fast.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In day-to-day use, this changes the rhythm of a small sales team. The Miami-Dade team from the opening
         story comes back on a Friday afternoon. Instead of arguing with receptionists, they see a dashboard of
         new leads: each scored, each with a direct mobile number, and each showing a recent buying signal,

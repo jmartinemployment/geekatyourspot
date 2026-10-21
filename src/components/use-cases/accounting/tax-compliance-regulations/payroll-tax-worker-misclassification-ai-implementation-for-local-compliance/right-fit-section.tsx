@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A payroll tax and worker misclassification automation project is the right call when the current risk,
         volume, or pace of change in your business means manual methods are no longer sustainable. If you’re a
         small business in South Florida handling multiple workers across Miami-Dade, Broward, or West Palm
@@ -12,7 +12,7 @@ export default function RightFitSection() {
         yourself. The right time to automate is when you are spending more time untangling compliance issues
         than running your business, or the anxiety of an IRS or state audit starts to feel like a constant
         shadow over growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This approach fits when you have non-trivial payroll complexity. That includes businesses that routinely
         onboard and offboard contractors, operate across county lines, or switch worker roles seasonally. If
         you’re running payroll in spreadsheets, chasing down W-9s, watching for tax table changes, or trying to
@@ -23,7 +23,7 @@ export default function RightFitSection() {
         workers, or losing track of local tax changes. That’s where Gusto, for example, can automatically update
         tax tables, flag classification issues, and file W-2s and 1099s, covering the ground that used to eat up
         your Fridays and Saturdays.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         But this is not the answer for everyone. If you have only W-2 employees, with no contractors, in a
         single county, and your payroll is simple and static, the manual approach may still make
         sense, especially if your volume is low and you can afford to double-check everything yourself. The
@@ -31,7 +31,7 @@ export default function RightFitSection() {
         new workflows is not worth it if the complexity just isn’t there. Likewise, if your business has no
         plans to grow or change how it employs people, and you have a dedicated in-house bookkeeper or CPA
         keeping things clean and up to date, automation is a “nice to have,” not a “must have.”</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another scenario where this approach is not the right fit: when your data is not ready for automation.
         If your worker records are inconsistent, you lack digital payroll history, or your accounting is still
         on paper, the first step is not automation, but getting your data in order. Automating chaos only
@@ -40,7 +40,7 @@ export default function RightFitSection() {
         quality&nbsp;assessment for a reason: clean data is the foundation. If you’re not ready to
         audit and standardize your employee and contractor information, automation will only expose the gaps,
         not fix them.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses with highly specialized, one-off payroll needs (say, one-off project-based payments that
         never repeat, or workers who are never subject to&nbsp;<Link id={`use-cases-accounting-payroll-tax-worker-misclassification-right-fit-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#0B162A] hover:underline">changing tax laws</Link>), full-scale automation may be
         overkill. In these cases, a lighter solution, like a simple accounting software with manual checks,

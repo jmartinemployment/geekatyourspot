@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Most small business owners in South Florida know the drill: a dozen spreadsheets for sales, a handful
         for expenses, receipts in an email folder, and a desktop accounting app that only one person really
         knows how to use. At month’s end, someone spends hours stitching the numbers together, only to find the
         totals do not match up. The result is a set of books that feel more like a patchwork than a picture of
         the business, with numbers that are out of date before the report even lands on your desk.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the reality for many local teams in West Palm Beach, Broward and Miami-Dade. Data lives
         everywhere: in invoices, emails, and old software. Accounts staff waste hundreds of hours each year just
         cleaning, mapping, and reformatting data so it fits into a new system. The process is slow, expensive,
@@ -17,13 +17,13 @@ export default function OverviewSection() {
         more than it reveals. Owners and managers get buried in numbers but never see the real story behind
         them. There is no way to spot cash leaks, model a new hire, or plan for a slow season with any
         confidence.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-fathomhq-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes the game. Instead of spending weeks on manual
         cleanup, automated tools pull data directly from your accounting system, invoicing software, and bank
         feeds. They turn your scattered records into live dashboards and cash flow forecasts that update as your
         business moves. Problems like delayed payments, missed expenses, or sudden budget blows stand out in
         time to act. And the numbers finally add up, because the system checks them as it goes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, this is not about buying a bigger tool or hiring more staff. It
         is about making your existing data work for you, not the other way around. Intelligent Resource Planning
         means your books are always current, your forecasts are grounded in real numbers, and your team can

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A small business owner in Miami-Dade sits down late at night, determined to write a blog post that
         might finally move the needle for their company. They know the value of sharing expert answers to real
         customer questions. But after an hour with a blinking cursor, only a headline and half a paragraph
@@ -11,19 +11,19 @@ export default function OverviewSection() {
         professional writer. Every minute spent here is a minute not spent on client calls, billing, or
         actually delivering services. The &quot;blank page&quot; bottleneck is real, and it repeats every
         week, across every channel, for every update that should go live.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the reality for most small businesses across West Palm Beach, Broward and Miami-Dade. To win
         loyal, local clients, they need to show up online with fresh, clear, and trustworthy content. But the
         cost of hiring an agency or a dedicated creator is out of reach: thousands of dollars a month for
         writing that might not even sound like their business. So content falls behind, social feeds go quiet,
         and their website slips out of sight, while larger competitors with bigger budgets keep publishing.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Even when the expertise is there, turning it into complete, consistent articles is a grind. Manuals
         and process documents sit unfinished. Answers to customer questions never make it into the blog. The
         result is a lead pipeline that dries up, with potential customers finding nothing new and no reason to
         trust this local expert over a larger brand. The cost is more than just lost time: it is lost
         visibility, slower sales, and a business that feels stuck.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-marketing-intelligent-content-generation-scalenut-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this. Instead of getting stuck in the content creation
         bottleneck or draining the budget on outside help, small teams can use AI-driven tools to turn real
         expertise into finished marketing assets, quickly, affordably, and at the scale needed to compete. At

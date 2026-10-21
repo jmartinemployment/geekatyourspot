@@ -1,23 +1,23 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         AvidXchange is particularly well-suited for small to medium-sized businesses that are ready to embrace
         AI-driven automation in their accounts payable processes. Its features, such as eliminating manual data
         entry and reducing errors, are designed to save time and allow AP teams to focus on more strategic
         tasks. This makes it an attractive option for companies looking to optimize their financial operations
         without overhauling existing systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, AvidXchange might not be the best fit for businesses that require a high degree of
         customization beyond its existing integrations or those that operate in environments where its
         integrations are not supported. Companies with highly specialized accounting needs or those already
         using alternative AP solutions with similar features may find less incremental value in switching to
         AvidXchange.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses interested in exploring AvidXchange further, the next step would be to evaluate how its
         features align with their specific AP challenges. Consider how the automation of invoice workflows and
         the integration with existing systems could enhance your operational efficiency and reduce costs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         To get a tailored understanding of how AvidXchange can be implemented in your business, consider booking
         a consultation with <strong>Geek @ Your Spot LLC</strong>. They specialize in configuring and deploying
         AvidXchange to fit your unique business requirements, ensuring a smooth transition to automated AP

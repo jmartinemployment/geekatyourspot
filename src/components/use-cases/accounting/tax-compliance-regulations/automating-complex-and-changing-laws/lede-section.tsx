@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function LedeSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In South Florida, the business landscape is a tapestry of complex and changing laws. Imagine running a
         thriving small business in Miami, only to discover that a simple service call across county lines into
         Fort Lauderdale has unwittingly triggered an entirely new set of tax obligations. This isn&#39;t just a
@@ -12,14 +12,14 @@ export default function LedeSection() {
         municipal taxes creates a compliance nightmare that small businesses often find themselves ill-equipped
         to handle. Without a dedicated tax department or corporate compliance officers, these businesses are
         forced to rely on manual tracking or outdated CPA reviews.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         But there&#39;s a better way forward. Are you running a South Florida business, or a multi-county
         compliance gamble? In Miami, Broward, and Palm Beach, crossing a street can change your tax rate. If
         you&#39;re relying on your calendar or a spreadsheet to track shifting tax laws, you aren’t managing a
         business. You’re waiting for an audit. We integrate real-time tax automation that updates in the cloud
         the second a law changes, keeping your business perfectly compliant, completely automated, and entirely
         audit-proof across every zip code you serve.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida,&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>&nbsp;is not just a challenge. It&#39;s a constant threat to their operations.
         The lack of dedicated resources means that many rely on manual processes that are prone to errors and

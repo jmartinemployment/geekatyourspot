@@ -1,21 +1,21 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Rytr’s pricing and fit come down to what you actually need to produce and how much you are willing to
         pay for speed and simplicity. For small businesses in South Florida, the first test is volume: if you
         only need a handful of posts, emails, or product descriptions each month, Rytr’s free and entry-level
         plans are designed for you. The platform is not built for agencies running hundreds of campaigns or
         teams cranking out 100,000 words a month. It is for the owner or office manager who needs content for
         their own business, not a fleet of clients.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is straightforward. Rytr offers a free plan that lets you generate up to 10,000 characters a
         month, enough for several short posts or emails. If you need more, the paid plans open up higher
         limits and additional features, with a monthly option and a discount for annual payment. The price
         points are set low enough that even a solo operator can justify the cost, especially compared to
         hiring outside help or buying into more expensive platforms. The annual plan saves you money over the
         monthly, but the real decision is whether your volume justifies moving past the free tier.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fit is not just about price. The main question is whether Rytr covers your real-world use cases. If
         you need to generate Google Business Profile updates, Instagram captions, product blurbs, and
         follow-up emails in multiple languages, Rytr’s pre-built templates and language support line up well.
@@ -23,25 +23,25 @@ export default function EvaluatingSection() {
         tools, Rytr is not the right fit, those are jobs for heavier platforms with higher costs and steeper
         learning curves. Rytr is at its best when you need to produce short, channel-specific content quickly,
         with minimal setup and no technical overhead.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another factor is how Rytr fits into your existing workflow. If your team already uses Gmail, Slack,
         or LinkedIn, Rytr’s integrations let you draft content where you work. There is no need to switch
         platforms or copy-paste between tools. For most small teams, this reduces friction and training time.
         If your workflow depends on custom automations or API-driven triggers, Rytr will not fill that gap,
         there is no scripting or developer extension, so what you see is what you get.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The case study from Rytr’s own site is telling. A client named Morgan saved over 50 hours and $1,000
         per month by using Rytr for content creation. This is not a hypothetical; it is a concrete outcome for
         a small business using the product as intended. If your operation looks like Morgan’s, lean,
         time-strapped, and focused on direct marketing channels, Rytr’s fit is strong. If you need more
         complexity, you will hit the ceiling quickly.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When Geek @ Your Spot LLC evaluates Rytr for a client, the checklist is short: Do you need to produce
         content in more than one language? Do you need to adjust tone for different platforms? Is your monthly
         content volume closer to a dozen assets than a hundred? Are you looking to save time and money
         compared to hiring outside help? If the answer is yes to most of these, Rytr is a strong fit. If not,
         another tool from the AI content stack may be a better choice.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the end, Rytr’s value is in its focus. It does not try to be everything for everyone. It strips
         down the content workflow to what matters for small teams: quick drafts, easy tone and language
         control, and a price that makes sense for the volume you actually need. For South Florida businesses

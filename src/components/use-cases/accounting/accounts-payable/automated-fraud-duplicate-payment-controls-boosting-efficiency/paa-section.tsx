@@ -13,7 +13,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What is fraud detection, and how does it actually work?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Fraud detection involves identifying suspicious activities that could indicate fraudulent
               behavior. It works by using AI algorithms to analyze data patterns and transactions. When these
               algorithms detect anomalies or irregular patterns, they flag them for further review. This
@@ -23,7 +23,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What specific anomalies trigger automated risk alerts?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Automated risk alerts are triggered by anomalies such as duplicate invoices, mismatched vendor
               details, or unusual transaction amounts. These alerts can also be set off by transactions
               occurring outside of normal business hours or from unfamiliar locations. By identifying these
@@ -32,7 +32,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What happens when a fraud system triggers a high-risk flag?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               When a fraud system triggers a high-risk flag, the transaction is usually put on hold for
               further investigation. The accounts payable team is notified to review the flagged activity. If
               the transaction is deemed legitimate after review, it is processed as usual. If fraud is

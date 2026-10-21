@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ToolsSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         As organizations strive to navigate the complex landscape of regulatory compliance, integrating AI
         solutions has become an essential strategy. AI technologies offer the ability to automate and enhance
         compliance processes, reducing the risk of human error and ensuring adherence to evolving regulations.
@@ -13,13 +13,13 @@ export default function ToolsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Avalara
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Avalara is a leading platform that
         simplifies&nbsp;tax
         compliance&nbsp;for businesses by automating various tax-related tasks. It provides
         comprehensive tools that ensure accurate tax calculations and filing processes, which are crucial for
         businesses operating across multiple jurisdictions.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Automates sales tax calculation and filing.</li>
         <li>Provides real-time tax rate updates.</li>
         <li>Integrates with major&nbsp;<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;and e-commerce systems.</li>
@@ -28,7 +28,7 @@ export default function ToolsSection() {
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How an AI implementer helps with Avalara
       </h4>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC accelerates Avalara deployment by utilizing pre-built integration connectors that
         seamlessly link Avalara with existing enterprise systems, significantly reducing go-live time. Our
         consultants expertly design data models to map Avalara’s tax categories to a client’s specific
@@ -41,11 +41,11 @@ export default function ToolsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Thomson Reuters ONESOURCE
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Thomson Reuters ONESOURCE is a comprehensive tax automation platform that assists businesses in managing
         global tax obligations. It enables companies to streamline tax processes, ensuring compliance with
         international standards and regulatory changes.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Supports global tax compliance and reporting.</li>
         <li>Automates data collection and tax calculations.</li>
         <li>Integrates with financial and&nbsp;ERP&nbsp;systems.</li>
@@ -54,7 +54,7 @@ export default function ToolsSection() {
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How an AI implementer helps with Thomson Reuters ONESOURCE
       </h4>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With ONESOURCE, Geek @ Your Spot LLC expedites deployment through a phased rollout plan, ensuring smooth
         integration with existing financial systems. We customize the data model to align with international tax
         codes, reducing discrepancies and ensuring accurate compliance. By configuring ONESOURCE&#39;s workflow,
@@ -65,11 +65,11 @@ export default function ToolsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Vertex
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Vertex is a powerful platform designed to automate and manage tax processes for large enterprises. It
         offers solutions that help businesses achieve accurate tax calculations and compliance across different
         jurisdictions.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Automates transaction tax calculations.</li>
         <li>Provides jurisdiction-specific tax rules.</li>
         <li>Integrates seamlessly with&nbsp;ERP&nbsp;systems.</li>
@@ -78,7 +78,7 @@ export default function ToolsSection() {
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How an AI implementer helps with Vertex
       </h4>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         At Geek @ Your Spot LLC, we enhance Vertex deployment using templated setups that cater to diverse industry
         needs, ensuring a swift launch. We design detailed data models that accurately reflect
         jurisdiction-specific tax rules, mitigating compliance risks. Our team configures Vertex workflows to
@@ -90,11 +90,11 @@ export default function ToolsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         SAP Tax Compliance
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         SAP Tax Compliance is a robust solution integrated within the SAP ecosystem, designed to streamline tax
         compliance and reporting. It provides organizations with the tools to manage tax operations efficiently,
         ensuring compliance with legal and regulatory standards.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Automates tax compliance processes within SAP.</li>
         <li>Offers real-time tax data validation.</li>
         <li>Ensures integration with SAP financial modules.</li>
@@ -103,7 +103,7 @@ export default function ToolsSection() {
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How an AI implementer helps with SAP Tax Compliance
       </h4>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC accelerates the integration of SAP Tax Compliance through a structured deployment
         strategy that leverages existing SAP infrastructure. We meticulously design data models that ensure
         seamless tax data validation and integration with SAP’s core financial modules. Our team configures

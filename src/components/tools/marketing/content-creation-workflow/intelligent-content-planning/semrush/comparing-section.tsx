@@ -2,14 +2,14 @@
 export default function ComparingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A small business owner in Miami-Dade, Broward, or West Palm Beach who is evaluating content planning
         tools is comparing more than just software. The real question is whether Semrush solves the core
         problems that slow their team down, guesswork, wasted hours, and content that never gets seen, better
         than the alternatives. The most common adjacent approaches are: manual content planning (spreadsheets
         and brainstorming), single-purpose AI writers, and all-in-one platforms that promise automation but
         often deliver generic output. Each has tradeoffs that show up in the results and the weekly workload.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual planning is still the default for many local businesses. Teams spend hours each week trying to
         predict what their audience wants, pulling keyword lists from free tools, and debating what topics
         might work. This approach is cheap on paper but expensive in time and opportunity cost. Most content
@@ -17,7 +17,7 @@ export default function ComparingSection() {
         for surfacing low-competition topics or tracking why traffic drops on a specific day. When a post
         flops, there is no&nbsp;feedback loop, just more
         guessing. This is the treadmill that burns teams out and keeps businesses invisible online.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Single-purpose AI writers are everywhere now. They promise to generate a blog post or social caption
         in seconds, often for a low monthly fee. But these tools do not solve the planning problem, they only
         speed up the writing step. They do not surface what your South Florida audience is searching for, nor
@@ -25,7 +25,7 @@ export default function ComparingSection() {
         it for multiple channels still takes manual work. Brand voice and tone are inconsistent, and the team
         is left stitching together content for each platform by hand. Without integrated data, these tools can
         actually multiply editing time and confusion.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Some platforms claim to offer end-to-end automation. In practice, they often bundle basic AI writing
         with simple scheduling or analytics. They may help publish across channels, but the workflow is still
         fragmented: research happens in one place, writing in another, and performance tracking in a third.
@@ -33,7 +33,7 @@ export default function ComparingSection() {
         your brand appears in AI-generated search answers across ChatGPT, Gemini, and Perplexity. The result
         is a patchwork process that still leaves teams guessing which topics to prioritize and how to adjust
         when traffic drops.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Semrush stands apart because it is built as a unified platform for both planning and execution,
         tailored for small local businesses. It combines a massive search intelligence database, over 26
         billion keywords, with tools that surface high-demand, low-competition topics specific to your market.
@@ -42,7 +42,7 @@ export default function ComparingSection() {
         working in your space, and the Content Toolkit repurposes those drafts into emails, LinkedIn posts,
         and Google Business Profile updates in one step. This is not just automation; it is automation tied
         directly to what your audience is searching for today.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Where competitors stop at writing or scheduling, Semrush brings in live performance tracking and
         real-time recommendations. As you type, the platform flags visibility drops, suggests fixes, and keeps
         every channel updated with the latest brand tone and voice. Its AI Visibility Toolkit shows exactly
@@ -50,7 +50,7 @@ export default function ComparingSection() {
         between planning, creation, and measurement, no more guessing why traffic dropped or which competitor
         just gained ground. For a small team, this means fewer meetings, less manual editing, and a content
         calendar that is always grounded in real data.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The difference becomes clear on a Friday afternoon when the team reviews the week. With Semrush, they
         see which blog post drove new calls, which email got opened, and how their business is being
         recommended by AI search engines. They know which topics to double down on next week and which to

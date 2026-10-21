@@ -3,22 +3,22 @@ import Link from "next/link";
 export default function ScoringModelSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Small businesses often face challenges with identifying the most promising leads due to limited resources and time constraints. Without a clear scoring model, sales teams may waste time on leads that will not convert, leading to reduced efficiency and missed opportunities. A simple 100-point scoring model helps prioritize efforts by evaluating leads based on specific criteria that align with your business goals.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Creating a scoring model begins with defining what makes a lead valuable. This involves assessing various factors such as fit, intent, and engagement. The model assigns points to each factor, leading to a total score out of 100. This approach offers a straightforward way to determine lead quality, enabling sales teams to focus on high-potential prospects.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         An effective lead scoring&nbsp;model consists of both positive and negative criteria. Positive criteria add points, indicating a higher likelihood of conversion, while negative criteria subtract points, signaling potential disqualification. Let&apos;s explore how to structure these criteria.
       </p>
       <h3 id={`define-positive-criteria${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Define Positive Criteria
       </h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Positive criteria in a scoring model highlight attributes that increase the likelihood of a lead converting into a customer. These include factors such as geographic fit, business type alignment, and specific engagement actions.
       </p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Fit - Inside service area: +15 points</li>
         <li>Fit - Matches target service/business type: +15 points</li>
         <li>Intent - Requests pricing, quote, demo, or consultation: +20 points</li>
@@ -29,7 +29,7 @@ export default function ScoringModelSection() {
       <h4 id={`integrating-data-with-tools${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Integrating Data with Tools
       </h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Utilizing AI tools like&nbsp;
         <Link id={`tools-marketing-active-campaign-scoring-model${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">
           ActiveCampaign
@@ -39,20 +39,20 @@ export default function ScoringModelSection() {
       <h3 id={`incorporate-negative-criteria${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Incorporate Negative Criteria
       </h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Negative criteria help identify leads that may not be worth pursuing, allowing teams to focus their efforts elsewhere. These criteria typically involve factors that indicate a lower chance of conversion.
       </p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Disqualification - Outside service area: −30 points</li>
         <li>Disqualification - Invalid contact information/spam indicator: −50 points</li>
       </ul>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         The positive criteria add up to 100 points. Add a lead&apos;s positive and negative points together: a lead at 60 points or more is ready for a sales call the same day, a lead between 30 and 59 stays in nurture, and a lead below 30 leaves the active list.
       </p>
       <h4 id={`automate-identification-with-ai${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Automate Identification with AI
       </h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         AI tools such as&nbsp;
         Apollo
         &nbsp;and&nbsp;
@@ -64,13 +64,13 @@ export default function ScoringModelSection() {
       <h3 id={`evaluate-and-adjust-scoring-model${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Evaluate and Adjust Scoring Model
       </h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Once your scoring model is implemented, it&apos;s crucial to evaluate its effectiveness regularly. This involves monitoring conversion rates and adjusting criteria as needed to reflect changes in business priorities or market conditions.
       </p>
       <h4 id={`using-feedback-for-continuous-improvement${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Using Feedback for Continuous Improvement
       </h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Feedback from sales and marketing teams can provide valuable insights into the model&apos;s performance. Regular analysis of lead conversion data helps refine the scoring criteria, ensuring the model remains aligned with business objectives. Tools like&nbsp;
         <Link id={`tools-marketing-pipedrive-scoring-model${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">
           Pipedrive

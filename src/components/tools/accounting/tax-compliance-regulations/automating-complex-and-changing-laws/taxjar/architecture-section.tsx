@@ -2,32 +2,32 @@
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxJar&#39;s architecture is designed to support seamless integration with various e-commerce
         and&nbsp;ERP&nbsp;platforms.
         This is achieved through a
         robust&nbsp;API&nbsp;that
         connects with systems like Shopify, Salesforce, and QuickBooks. These integrations are tested and
         certified for quality, ensuring reliable performance and accurate data exchange.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform&#39;s cloud-based infrastructure allows it to handle large volumes of transactions without
         compromising on speed or accuracy. With a 99.99% uptime SLA, TaxJar ensures that businesses can rely on
         its services even during peak sales periods, such as Black Friday or Cyber Monday.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data management is a critical component of TaxJar&#39;s architecture. The platform aggregates
         transaction data from multiple sales channels, generating comprehensive, return-ready reports. These
         reports simplify the filing process by providing a clear overview of sales tax collected and due,
         organized by state and jurisdiction.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security is also a top priority for TaxJar. The platform complies with GDPR and SOC II frameworks,
         ensuring that customer data is protected. TaxJar&#39;s security measures include extensive monitoring
         for unusual activity and integration with AWS security analytics for cohesive data protection.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another key feature is TaxJar&#39;s Economic Nexus Insights dashboard. This tool not only tracks
         economic nexus across states but also provides recommendations for compliance actions. It combines sales
         data to automatically alert businesses when they are nearing nexus thresholds, helping them stay ahead
         of regulatory changes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Overall, TaxJar&#39;s architecture is built to provide a seamless, reliable, and
         secure&nbsp;tax
         compliance&nbsp;solution for small businesses. By integrating with existing systems and

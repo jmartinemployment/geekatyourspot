@@ -13,7 +13,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Do all payees need to register their information?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, Tipalti gathers all necessary contact and banking details from payees through our payee
               registration IFRAME or supplier portal. This process ensures payees are eligible and legal to be
               paid. Payees also select their payment method and currency preference, and we collect their tax
@@ -23,7 +23,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Will payees know we’re using Tipalti?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Payees might notice Tipalti if you use our Supplier Portal, which is hosted on our servers and
               offers more communication and reporting features. However, if you embed the IFRAME portal on
               your site, it can blend seamlessly with your existing web pages.</p>
@@ -31,7 +31,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Can payees change their payment methods?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, payees can change their payment methods at any time. These changes will be updated in the
               system promptly.</p>
           </div>

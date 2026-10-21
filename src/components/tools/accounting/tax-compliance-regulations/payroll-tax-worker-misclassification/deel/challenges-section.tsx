@@ -1,14 +1,14 @@
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every Friday afternoon, the same South Florida business owner looks at the spreadsheet and feels the
         weight of risk. Managing a mix of W-2 employees and 1099 contractors without a dedicated HR or legal
         team means every payroll cycle is a gamble. The rules change often, but the penalties for getting them
         wrong never shrink. One misclassified worker, one late payroll tax deposit, and the business is exposed
         to audits, fines, and lawsuits. The cost isn’t just money. It’s time, stress, and the constant fear of
         missing something critical.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is not a problem unique to one office. Across Miami-Dade, Broward, and Palm Beach, small businesses
         in construction, hospitality, and services hire for flexibility but find themselves tangled in
         compliance. Payroll taxes have to be calculated, withheld, and deposited on time for every W-2 employee.
@@ -16,7 +16,7 @@ export default function ChallengesSection() {
         employment. The distinction between employee and contractor is not just paperwork. It determines who
         gets benefits, who triggers unemployment tax, and who brings the risk of a federal or state audit if
         misclassified.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual tracking and spreadsheets make this worse. Human error creeps in when you have to juggle
         timesheets, overtime calculations, and tax deposits for a workforce that changes project by project. The
         IRS and Department of Labor have increased audits in gig-heavy markets, and Florida’s own laws require
@@ -24,7 +24,7 @@ export default function ChallengesSection() {
         penalties start to add up. Miss a classification, and the business can owe back taxes, retroactive
         benefits, and face lawsuits. Even a contractor who signs a waiver or NDA does not shield the business
         from liability if the relationship looks like employment under the law.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real cost is not just the fines or back taxes. It’s the hours spent trying to keep up with changing
         rules, the stress of never knowing if the books are audit-ready, and the lost opportunities when the
         business can’t scale because compliance feels too risky. Owners spend time gathering W-9s, tracking down
@@ -32,7 +32,7 @@ export default function ChallengesSection() {
         threshold or a change to state reporting, manual systems often miss the update, exposing the business to
         penalties months later. Fragmented payment processes, with dozens of manual transfers to contractors’
         bank accounts, increase the risk of errors, missed payments, and reconciliation headaches at month-end.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         During investor or lender due diligence, these gaps come to the surface. If payroll records are
         incomplete or classification is questionable, the business faces delays, higher scrutiny, or even failed
         funding. The cost is not hypothetical. In the worst cases, one audit can wipe out a year’s profit. The

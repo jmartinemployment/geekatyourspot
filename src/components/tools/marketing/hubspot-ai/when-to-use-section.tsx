@@ -8,16 +8,16 @@ export default function WhenToUseSection() {
             <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">
               When to Use
             </h2>
-            <p className="pt-3 text-md font-normal text-white shadow-text">
+            <p className="pt-3 text-base font-normal text-white shadow-text">
               HubSpot AI is particularly beneficial for small businesses looking to enhance their SEO content strategy without the burden of extensive manual effort. It is ideal for businesses that want to streamline their <GlossaryLink slug="marketing-automation">content creation</GlossaryLink> process, reduce errors, and improve their search engine rankings. The tool is a perfect fit for companies that already use HubSpot&apos;s <GlossaryLink slug="crm">CRM</GlossaryLink> and are looking to integrate their marketing efforts more closely with sales objectives.
             </p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">
+            <p className="pt-3 text-base font-normal text-white shadow-text">
               For businesses facing challenges with time-consuming content creation processes, HubSpot AI offers a solution that automates many of the repetitive tasks involved in <GlossaryLink slug="search-engine-optimization">SEO blog</GlossaryLink> and article generation. This allows teams to focus more on strategic planning and creative development, leading to more effective content marketing campaigns.
             </p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">
+            <p className="pt-3 text-base font-normal text-white shadow-text">
               HubSpot AI provides a more integrated solution that not only assists in content creation but also aligns with broader marketing and sales strategies. This makes it an excellent choice for businesses seeking a comprehensive approach to digital marketing that leverages AI to its fullest potential.
             </p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">
+            <p className="pt-3 text-base font-normal text-white shadow-text">
               Whether you&apos;re looking to automate your content creation, improve SEO performance, or integrate your marketing and sales efforts, HubSpot AI offers the capabilities and flexibility to support these goals effectively.
             </p>
           </div>

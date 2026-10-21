@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function DecisionsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The most important choices in an Intelligent Content Generation rollout are made before the first
         article drafts or social posts ever go live. These are the decisions that shape every result, good or
         bad, and cannot be reversed without starting over. The first is defining the real business goals. This
@@ -14,7 +14,7 @@ export default function DecisionsSection() {
         “publish three Miami-specific blog posts per month that answer customer questions” or “schedule a week
         of event-driven Instagram posts in one sitting”, the system gets built to deliver those, not just
         generic output.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next decision is about data: what your system will know, and what it will ignore. Most small teams
         assume AI tools can work from whatever is on hand, but the outcome always matches the input. If your
         service details, customer stories, and offers are scattered across emails, spreadsheets, and memory,
@@ -23,7 +23,7 @@ export default function DecisionsSection() {
         example, is designed to store and recall your business context for every new article, so you are not
         re-entering your credentials or re-explaining your difference every time. Skip this step, and you will
         spend months editing out errors that never had to be there.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Brand voice is another early choice that sticks. If you do not set the tone, word choice, and style
         rules up front, your content will drift. That’s how a business ends up with a website in one voice,
         Facebook posts in another, and emails that sound like a different company. Jasper’s approach, building
@@ -31,21 +31,21 @@ export default function DecisionsSection() {
         Copy.ai and Scalenut also support unified brand voice and structure, making sure each new asset fits
         the same standard. Once content starts going out in the wrong voice, fixing it is not a light
         touch-up. It is a full rework.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Workflow is the last early decision you cannot walk back. Will your team review every draft before it
         goes out, or will the system publish directly to your website and social channels? Who signs off on
         new offers or event promotions? Approval workflows must be configured before rollout, not as an
         afterthought. Hootsuite’s bulk scheduling and approval features, for instance, allow for drag-and-drop&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-decisions-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">content planning</Link>&nbsp;with built-in checks, so no post goes live unreviewed. Castmagic automates content
         extraction from recordings but still lets you set checkpoints for team review. If you bolt on approval
         after the fact, you create bottlenecks, and by then, the content machine is already running.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A real example: a small Miami service business starts with the best intentions and tries to “just get
         started” with whatever AI tool has the lowest barrier. They set up Rytr for quick captions, but skip
         loading their actual business context, and do not define a review process. Three months in, their
         social feeds are full of posts that could belong to any competitor, and the website still has
         one-liner service pages with no differentiation. Fixing this is not a matter of tweaking a few
         settings; it is a restart, with hard lessons learned and lost time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Early decisions are not about picking the “right” AI tool, Rytr, Scalenut,
         Frase,&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-decisions-writesonic${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic" className="text-[#C83803] hover:underline">Writesonic</Link>,
         Koala, Jasper, Copy.ai, Hootsuite, Anyword, Imagine, Castmagic, each has a place when matched to a

@@ -3,21 +3,21 @@ import Link from "next/link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         An Intelligent Receptionist changes how small businesses in Miami-Dade, Broward, and West Palm Beach
         handle every call. Instead of the phone ringing out, voicemail stacking up, or staff toggling between
         urgent work and basic phone duty, this approach puts a 24/7, bilingual virtual front desk at the center
         of your lead capture pipeline. The system is designed around four phases that turn every inbound call
         into a qualified lead, a booked appointment, or a clear next action, all for less than the cost of a
         single day’s staff time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         First, you define the business objective. This is not a vague hope for &#39;better service.&#39; It is a
         concrete metric: maybe it is &#39;no more than two missed calls a week,&#39; &#39;every lead gets a
         response in under five minutes,&#39; or &#39;no more manual calendar work.&#39; The process starts by
         pinpointing where lost calls or missed connections are costing you actual revenue and reputation. The
         team at Geek @ Your Spot LLC works with you to identify these friction points and set measurable KPIs, so
         you know what success looks like before you start.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next comes the&nbsp;data
         quality&nbsp;assessment. It is not enough to install an AI receptionist and hope for the
         best. Your contact lists, FAQs, service hours, price lists, and booking policies must be accurate, up to
@@ -29,7 +29,7 @@ export default function MechanicsSection() {
         like&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-nextiva${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva" className="text-[#0B162A] hover:underline">Nextiva</Link>&nbsp;and&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-my-ai-front-desk${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" className="text-[#0B162A] hover:underline">My
         AI Front Desk</Link>&nbsp;require this groundwork; they cannot route or book properly if the data is
         scattered or stale.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Now you select the right technology and build the architecture. This is where the partner tools do the
         heavy lifting. My AI Front Desk covers the basics for solo operators and small teams who miss calls
         while out in the field or with customers. It answers calls in natural language, books appointments, and
@@ -41,7 +41,7 @@ export default function MechanicsSection() {
         the go-to when you need predictable, low-cost coverage that does not lock you into long contracts or
         charge by the minute. Its core focus is call answering, appointment setting, and lead logging, making it
         a fit for small teams who do not want enterprise complexity or surprise bills.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`use-cases-marketing-intelligent-receptionist-mechanics-smith-ai${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" className="text-[#0B162A] hover:underline">Smith.ai</Link>&nbsp;is
         built for those scenarios where missing a call means losing a five-figure client or a high-stakes
         opportunity, think law firms or urgent service providers. It pairs a fast, AI-first front end with a
@@ -53,7 +53,7 @@ export default function MechanicsSection() {
         open source, so you can self-host, customize every workflow, and avoid vendor lock-in. For regulated
         businesses or those with strict data requirements, this is how you keep full ownership and privacy
         without giving up automation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The last phase is the pilot implementation. Here, you do not roll the system out to every line and hope
         for the best. Instead, you launch a pilot, maybe just after-hours calls, or calls to a single
         department. You run smoke tests, validate that calls are being answered, that leads are being booked,
@@ -62,7 +62,7 @@ export default function MechanicsSection() {
         Adjustments happen quickly: if callers are asking questions the AI cannot answer, you add those to the
         knowledge base; if staff are missing appointment notifications, you tweak the workflow. Only when the
         system proves itself on real calls do you scale it up to cover all inbound traffic.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is not a plug-and-play install. It is a sequence of aligning business goals, cleaning data, picking
         the right technical fit, and running a controlled rollout with rapid iteration. Each partner tool, My AI
         Front Desk, Nextiva, Voksha, Smith.ai, and LobbyStack, fits a specific type of business and a specific

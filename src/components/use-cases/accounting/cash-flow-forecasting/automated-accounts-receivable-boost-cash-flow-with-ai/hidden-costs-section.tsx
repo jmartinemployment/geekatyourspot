@@ -1,26 +1,26 @@
 export default function HiddenCostsSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The inefficiencies in traditional accounts receivable processes come with significant costs that businesses
         can&#39;t afford to overlook. These manual methods waste valuable time and resources, leading to financial
         strain and operational bottlenecks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Passive, calendar-based follow-ups mean that collections are handled retroactively, often allowing invoices
         to accumulate past due status without timely intervention. This delay results in extended payment cycles,
         which can severely impact a company&#39;s cash flow. Staff must then scramble to catch up, spending hours
         drafting and sending manual emails, further diverting attention from more strategic tasks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The absence of a structured dispute resolution process compounds these issues. Invoices sent without
         complete details or clarity invite disputes and delays. Clients may question charges or request further
         information, leading to drawn-out resolution processes that tie up resources and delay payments. This
         inefficiency is not just a financial drain but also damages client trust and satisfaction.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Moreover, treating all clients with the same level of attention regardless of their value to the business is
         a flawed approach. High-value clients should be prioritized to maintain strong cash flow, but without a
         system to differentiate these tasks, businesses end up wasting time on low-value collections. This
         misallocation results in lost revenue opportunities and increased financial risk.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Forecasting based on &quot;best-case&quot; timelines further exacerbates these challenges. By not accounting
         for potential delays or bad debt, businesses create a false sense of security. When actual cash inflows fall
         short of expectations, companies face liquidity crises that could have been mitigated with more realistic

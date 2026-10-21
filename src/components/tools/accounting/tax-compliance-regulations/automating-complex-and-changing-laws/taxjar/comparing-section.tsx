@@ -2,7 +2,7 @@
 export default function ComparingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the realm of
         automated&nbsp;tax
         compliance, many small businesses are bombarded with choices. From managing economic
@@ -11,14 +11,14 @@ export default function ComparingSection() {
         businesses dealing with the complexities of tax compliance. Its strength lies in its ability to automate
         the entire process, from calculation to filing, ensuring accuracy and compliance across various
         jurisdictions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Unlike generic accounting software that often requires manual intervention, TaxJar provides a seamless
         experience by integrating directly with popular e-commerce
         and&nbsp;ERP&nbsp;platforms
         like Shopify, QuickBooks, and Salesforce. This integration capability is crucial for businesses that
         operate across multiple sales channels, as it allows for consistent and accurate tax calculations
         without the need for constant manual adjustments.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The
         TaxJar&nbsp;API&nbsp;is
         another distinguishing feature. It offers real-time tax rate calculations with sub-25ms response times,
@@ -28,24 +28,24 @@ export default function ComparingSection() {
         similar&nbsp;API&nbsp;functionalities,
         but TaxJar&#39;s reliability and uptime of 99.99% set it apart, providing peace of mind to business
         owners who cannot afford downtime.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the unique aspects of TaxJar is its Economic Nexus Insights dashboard. This tool alerts
         businesses when they are approaching nexus thresholds in new states, a feature that is indispensable for
         companies expanding their market reach. While other platforms may offer nexus tracking, TaxJar&#39;s
         dashboard is specifically designed to provide actionable insights, helping businesses stay ahead of
         compliance requirements without the need for a dedicated tax team.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxJar also simplifies the filing process with its AutoFile feature, which automatically submits returns
         to state tax authorities. This automation not only saves time but also reduces the risk of errors that
         could lead to costly penalties. For businesses that are managing sales tax in multiple states, this
         feature is a game-changer, eliminating the need for manual filing and ensuring compliance with varying
         state laws.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In contrast, some other solutions may require businesses to manually input tax data or use third-party
         services for filing. This can lead to discrepancies and errors, particularly in jurisdictions with
         complex tax codes. TaxJar&#39;s ability to automate this process end-to-end provides a significant
         advantage, allowing business owners to focus on growth rather than compliance.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward, and West Palm Beach counties, where staying compliant with
         local tax laws is particularly challenging, TaxJar offers a tailored solution that addresses the unique
         needs of this market. By integrating with existing business systems and providing real-time updates on

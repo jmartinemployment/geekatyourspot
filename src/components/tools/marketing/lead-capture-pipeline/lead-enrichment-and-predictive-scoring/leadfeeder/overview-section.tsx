@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every week, a small business owner in Miami-Dade spends hours calling companies that never return a
         message. The sales team works late, following up on stale lists of names scraped from trade shows or
         downloaded from outdated databases. Meanwhile, the company’s own website sees a steady flow of visits
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         pricing pages, case studies, and contact forms. Nearly all of them leave without a trace, never
         filling out a form or picking up the phone. No one on the team knows who they were or how close they
         might have been to buying.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the real cost of relying on cold outreach and generic lead lists. Most small businesses spend
         nearly all their marketing time chasing contacts who have zero intent to buy, while the handful of
         real prospects, the ones who are actively comparing, evaluating, and ready to talk, are invisible to
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         almost every warm lead disappears before anyone can follow up, and the team is left with a pipeline
         full of dead ends. The wasted effort is visible in missed revenue, rising ad spend, and the
         frustration of seeing competitors win accounts that were already on your site.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-marketing-lead-enrichment-leadfeeder-overview-lead-enrichment${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" className="text-[#C83803] hover:underline">Lead Enrichment & Predictive Scoring</Link>&nbsp;directly address this problem. Instead of waiting for a
         prospect to fill out a form or call, these systems identify which companies are visiting your site,
         what they look at, and how engaged they are, without asking them for anything. They pull in company
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         prioritizing the accounts that are most likely to buy, all with less wasted time and effort. For small
         businesses in South Florida, this means fewer cold calls, more warm conversations, and a pipeline that
         reflects real demand, not just wishful thinking.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If your team is tired of chasing leads that go nowhere or missing the ones already on your doorstep,
         this is what changes the game. The rest of this page shows how South Florida companies use AI-powered
         lead enrichment, predictive scoring, smart chatbots, and voice assistants to turn anonymous traffic

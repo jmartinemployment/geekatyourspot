@@ -1,35 +1,35 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Zamp is ideally suited for small businesses in Miami-Dade, Broward, and West Palm Beach counties that
         are grappling with the complexities of multi-state&nbsp;tax
         compliance. Its managed service model is perfect for businesses that lack the resources
         to maintain an in-house tax team or those that find themselves overwhelmed by the ever-changing tax
         laws.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Businesses that benefit most from Zamp are those experiencing rapid growth, where the complexity of tax
         compliance scales quickly. For example, companies expanding their sales footprint across multiple states
         will find Zamp&#39;s end-to-end service invaluable. It eliminates the need to hire additional staff or
         invest in extensive training, allowing business owners to focus on growth and customer satisfaction.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Zamp might not be the best fit for businesses that prefer a DIY approach to tax compliance or
         those that already have a robust internal tax team. These companies might find more value in platforms
         that offer basic automation tools without the full-service management that Zamp provides.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering Zamp, the next step is to assess their current tax compliance processes and
         identify areas where Zamp can add the most value. This might involve evaluating the time spent on
         tax-related tasks, the frequency of errors, or the cost of outsourcing compliance tasks to third-party
         providers.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Engaging with Geek @ Your Spot LLC, an AI implementation consultancy, can help businesses transition
         smoothly to Zamp. Their expertise in deploying and configuring Zamp ensures that the platform is
         tailored to meet specific business needs, offering a seamless integration with existing systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-complex-changing-laws-zamp-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
         <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>
         <li>How does the system track remote workers across different South Florida zip codes?</li>

@@ -2,13 +2,13 @@
 export default function DecisionsSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first decisions you make in a multi-state sales tax rollout are the ones that shape your compliance
         risk for years. This is not just about which tax tool you buy or whether to run a pilot, the fundamental
         calls around business objectives, data structure, and operational boundaries will decide what your
         system can and cannot do. These are the moments that set your compliance ceiling. Once you put them in
         place, you cannot easily go back without tearing up what you’ve built.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The biggest trap is treating compliance as a bolt-on to your existing systems. Many owners try to “just
         add” a tax engine to Shopify, QuickBooks, or their current checkout, hoping for a quick fix. That
         approach leaves you stuck with piecemeal reporting, missed triggers, and a stack of manual work,
@@ -16,7 +16,7 @@ export default function DecisionsSection() {
         to scope compliance as a core business objective from the start, not an afterthought. Define what
         “audit-proof” means for your company: is it zero late filings, full exemption certificate management, or
         a single dashboard for all channels? Your answer drives everything downstream.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data quality&nbsp;is the next foundation. If you don’t
         have a clean, validated record of where every sale happened, which products were shipped, and which
         exemptions apply, no software will save you. This is where tools like TaxCloud and Quaderno earn their
@@ -25,7 +25,7 @@ export default function DecisionsSection() {
         those sources are feeding in complete, normalized records. If your data is full of gaps, missing ZIP
         codes, unclear product types, or unmatched refunds, the risk of double-taxing or missing nexus triggers
         rises fast.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another early fork in the road: will you automate compliance across all channels with one system, or
         split tracking, calculation, and filing across multiple apps? The evidence is clear, splitting this
         work, even between best-in-class tools, multiplies your risk. TaxCloud’s own guidance says you can
@@ -34,7 +34,7 @@ export default function DecisionsSection() {
         centralize every step, so nothing falls through the cracks when you launch a new product, add a channel,
         or start selling B2B. If you make the wrong call early, you may spend years patching together missing
         data and reconciling errors at audit time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The last big decision is about roles and accountability. Who owns compliance? If the answer is “no one,”
         you’re building a silent liability. TaxValet is built for teams that want to offload not just the
         filings but the audit defense, VDA cleanup, and the tangle of local home-rule filings, making sure a
@@ -42,7 +42,7 @@ export default function DecisionsSection() {
         teams that want real-time alerts and executive dashboards but still want to keep some oversight
         in-house. Once you decide who owns what, you set the path for every process that follows, registration,
         filing, audit defense, and ongoing monitoring.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A South Florida retailer with growing e-commerce may not realize that skipping a full data cleanup at
         the start (or letting their accountant “just handle it” in QuickBooks) locks them into months of manual
         reconciliation every quarter. Or that choosing a tool that can’t handle multi-channel sales means

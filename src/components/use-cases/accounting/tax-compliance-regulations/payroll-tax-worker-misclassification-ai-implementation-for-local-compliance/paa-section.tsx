@@ -13,7 +13,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               If I have a signed contract stating a worker is an independent contractor, am I safe from a misclassification audit?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               No, a signed contract alone does not protect you from a misclassification audit. Agencies like the
               IRS look at the actual work relationship, not just the paperwork. If a worker should be classified
               as an employee, you could owe back wages, taxes, and face penalties even if you have a contract
@@ -23,7 +23,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How do the 2026 tax reporting changes affect my 1099-NEC obligations?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Starting in 2026, the federal filing threshold for Form 1099-NEC will rise from $600 to $2,000.
               This means you only need to send a 1099-NEC to contractors you’ve paid $2,000 or more in a
               calendar year. For those paid between $600 and $1,999, you will not issue a 1099-NEC, but you
@@ -33,7 +33,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Do county surtaxes like Miami-Dade’s apply to payroll for my remote or traveling employees?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               No. Florida’s county discretionary surtaxes are sales taxes, and Florida has no state or local
               income tax, so the county an employee works in does not change payroll withholding. What does
               change it is an employee who lives or works in another state. Automated payroll tools track where
@@ -42,7 +42,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Will implementing an affiliate and partner compliance tool slow down our ability to pay out local contractors?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Modern affiliate and partner compliance tools are built to speed up, not slow down, contractor
               payments. These platforms automate onboarding, document collection, and payment workflows, so you
               can pay contractors quickly and accurately, often in just a few minutes. By reducing manual work

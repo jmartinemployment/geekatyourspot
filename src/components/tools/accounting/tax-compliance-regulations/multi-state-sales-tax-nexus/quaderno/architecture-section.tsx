@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function ArchitectureSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quaderno’s architecture is designed for flexibility, reliability, and direct integration with the
         systems small businesses already use. At its core, Quaderno is a cloud-based platform that connects to a
         wide range of payment processors, e-commerce storefronts, accounting systems, and custom sales channels.
         This lets it aggregate all your transaction data in one place, regardless of how many platforms or
         gateways you use.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform supports direct integrations with Stripe, PayPal, Braintree, GoCardless, Shopify,
         WooCommerce, Squarespace, Paddle, Amazon FBA, and&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>. You can also connect custom setups using
         Quaderno’s&nbsp;API&nbsp;or
@@ -20,7 +20,7 @@ export default function ArchitectureSection() {
         and&nbsp;tax
         compliance&nbsp;for
         complex&nbsp;SaaS&nbsp;workflows.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quaderno is stack-independent. Unlike tax tools that only work inside a single payment provider’s
         ecosystem, Quaderno ingests data from
         any&nbsp;API,
@@ -29,25 +29,25 @@ export default function ArchitectureSection() {
         uses WooCommerce, you can connect multiple stores to one Quaderno account, provided they are under the
         same legal entity. The platform tracks sales by state and country across every connected channel,
         providing a single source of truth for compliance.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         On the accounting side, Quaderno integrates with Xero and QuickBooks Online. This connection feeds
         clean, tax-compliant data directly into your general ledger, eliminating the need for manual data entry
         or reconciliation. Payments from Stripe, PayPal, GoCardless, and Braintree can be mapped to their own
         accounts within Xero, sorted by invoice currency and payment processor. This level of automation reduces
         errors and gives your accountant or bookkeeper accurate, audit-ready records.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security and compliance are built in. Quaderno is fully GDPR compliant, using bank-grade encryption for
         data both at rest and in transit. The platform supports multi-factor authentication and role-based
         permissions, so only authorized team members can access sensitive client or financial data. This is
         especially important for firms managing multiple client accounts or for businesses with distributed
         teams.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For reporting, Quaderno generates instant, location-specific tax reports that break down gross sales,
         taxable sales, and tax collected by state, country, or local authority. Reports are updated daily, and
         you can download them in one click for filing or sharing with your CPA. The platform’s architecture is
         designed to handle high-volume, multi-jurisdiction sales without slowing down or losing accuracy, making
         it suitable for scaling businesses that need to keep up with changing tax rules in real time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you sell digital
         goods,&nbsp;SaaS, or
         physical products across state lines, Quaderno’s architecture ensures that every transaction is tracked,

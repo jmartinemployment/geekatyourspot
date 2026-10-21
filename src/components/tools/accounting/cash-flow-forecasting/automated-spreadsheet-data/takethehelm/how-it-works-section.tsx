@@ -2,28 +2,28 @@
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the Helm streamlines&nbsp;cash flow forecasting&nbsp;by automating the collection and analysis of
         financial data. The process begins with connecting your accounting software, such as QuickBooks, Xero,
         or Sage, to Take the Helm. This integration allows the platform to pull in real-time data, ensuring that
         forecasts are based on the most current information available.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once the accounting system is connected, Take the Helm automatically syncs with your data. This
         synchronization eliminates the need for manual data entry, reducing errors and saving time. The platform
         then generates cash flow forecasts for various time frames, including 1 month, 3 months, 6 months, and 1
         year. These forecasts provide a clear picture of future cash positions, helping businesses make informed
         decisions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the Helm offers a user-friendly interface that allows users to tailor forecasts to their specific
         needs. Users can adjust amounts, dates, and include or exclude transactions from forecasts. This
         flexibility ensures that the forecasts are not only accurate but also relevant to the business&#39;s
         unique situation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Scenario planning is another key feature of Take the Helm. Users can create and compare multiple scenarios
         side-by-side, allowing them to explore various outcomes and make strategic decisions with confidence.
         This feature is particularly useful for businesses facing uncertain market conditions or planning major
         investments.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform&#39;s drag-and-drop interface makes it easy to make changes and see the impact immediately.
         This visual approach helps users quickly understand how different actions affect cash flow, making it
         easier to communicate these insights to stakeholders.</p>

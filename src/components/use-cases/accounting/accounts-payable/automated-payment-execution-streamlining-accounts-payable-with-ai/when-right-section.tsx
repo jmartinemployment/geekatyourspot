@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function WhenRightSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated Payment Execution is not a one-size-fits-all solution. For small businesses grappling with
         the challenges of manual accounts payable processes, automation can be a game-changer. However,
         it&#39;s crucial to assess whether your business is ready for this transition. Understanding when to
         implement automated payment systems can save you from unnecessary costs and ensure a smoother
         integration into your existing processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         First, evaluate your current accounts payable workflow. If your team spends excessive time on manual
         data entry, invoice approvals, and payment processing, automation could be the right move. Businesses
         that process a high volume of invoices or deal with frequent payment errors stand to benefit
@@ -19,16 +19,16 @@ export default function WhenRightSection() {
           Bill
         </Link>&nbsp;can streamline these processes by integrating with your existing accounting software and
         reducing manual interventions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next, consider the scalability of your operations. As your business grows, so too will your accounts
         payable workload. Automated Payment Execution systems offer the flexibility to handle increased
         transaction volumes without requiring additional staffing. This scalability ensures that your payment
         processes remain efficient as your business expands.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, automation may not be necessary for every business. If your company manages a small number of
         invoices with minimal errors, the return on investment for an automated system might not justify the
         cost. In such cases, focusing on optimizing current manual processes could be more beneficial.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once you’ve determined that Automated Payment Execution aligns with your business needs, the next step
         is to choose the right tool. Consider solutions like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-tipalti${idSuffix}`}
@@ -40,7 +40,7 @@ export default function WhenRightSection() {
           AvidXchange
         </Link>, which offer robust features for managing complex payment workflows and ensuring compliance
         with financial regulations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Implementation is the final consideration. With tools like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio" className="text-[#C83803] hover:underline">
@@ -48,18 +48,18 @@ export default function WhenRightSection() {
         </Link>, businesses can expect a seamless integration with their existing systems, minimizing downtime
         and ensuring a quick transition to automated processes. A successful rollout involves thorough
         training for your team to maximize the benefits of the new system.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, Automated Payment Execution is a strategic investment for businesses ready to enhance
         their accounts payable processes. By understanding when it is the right call and preparing adequately
         for implementation, you can streamline operations, reduce errors, and focus on growth. With the right
         tools and approach, automation can redefine your business efficiency, allowing you to allocate
         resources more effectively and improve overall financial management.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <button type="button" data-scheduler-link id={`use-cases-accounting-payment-execution-when-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
         <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
         <li>Who enters bills into QuickBooks, Xero, or your accounting system?</li>

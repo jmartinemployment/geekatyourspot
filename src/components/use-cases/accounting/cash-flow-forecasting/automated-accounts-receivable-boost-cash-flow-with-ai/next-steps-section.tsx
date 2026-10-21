@@ -3,42 +3,42 @@ import Link from "next/link";
 export default function NextStepsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once you&#39;ve decided that automated accounts receivable is the right path for your business, the next
         steps involve careful planning and execution. The process begins with aligning your business objectives with
         the capabilities of the chosen AR tools.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Start by clearly defining what you want to achieve with automation. This involves setting measurable goals,
         such as reducing days sales outstanding (DSO) by a specific percentage or improving cash flow
         predictability. Chaserhq, for example, can help categorize receivables and provide insights into payment
         behaviors, aiding in setting realistic targets.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next, assess your current&nbsp;data quality. Ensure that
         your financial data is accurate and up-to-date, as this will form the foundation of your automated system.
         Tools like Upflow integrate seamlessly with
         existing&nbsp;ERP&nbsp;systems, ensuring that data remains
         consistent across platforms. This integration is crucial for maintaining the reliability of your forecasts
         and financial reports.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Choosing the right technology is another critical step. Evaluate the features of different automated AR
         tools to find the one that best fits your business needs. For instance, Versapay offers collaborative
         features that enhance customer communication and payment processing, which can be particularly beneficial
         for businesses with a large client base.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, develop a pilot implementation strategy. This involves testing the chosen system on a small scale
         to ensure it meets your expectations. Monitor the initial rollout closely, and be prepared to make
         adjustments based on feedback from users. The goal is to ensure the system integrates smoothly with your
         existing processes and delivers the expected benefits.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Throughout this process, maintain open communication with your team. Ensure that all stakeholders understand
         the changes and are trained on the new system. This will help in achieving a smoother transition and
         maximizing the benefits of automation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <button type="button" data-scheduler-link id={`use-cases-accounting-accounts-receivable-next-steps-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does automated AR improve the accuracy of a&nbsp;<Link id={`use-cases-accounting-accounts-receivable-next-steps-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#C83803] hover:underline">cash flow forecast</Link>?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
         <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>

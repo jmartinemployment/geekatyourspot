@@ -1,8 +1,8 @@
 export default function KeyCapabilitiesSection() {
   const body = (
     <>
-      <p className="pt-3 text-md font-normal text-white shadow-text">ActiveCampaign tackles the core challenge of lead scoring (deciding which leads deserve immediate attention) by automating data capture and turning behavior into precise, actionable scores. Its capabilities ensure no lead is overlooked and every follow-up is prioritized by real intent.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <p className="pt-3 text-base font-normal text-white shadow-text">ActiveCampaign tackles the core challenge of lead scoring (deciding which leads deserve immediate attention) by automating data capture and turning behavior into precise, actionable scores. Its capabilities ensure no lead is overlooked and every follow-up is prioritized by real intent.</p>
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Automated Multi-Channel Data Collection: Gathers lead interactions from email opens, website visits, social engagements, and e-commerce activity without manual entry, creating a unified view of each prospect&apos;s journey for more accurate scoring.</li>
         <li>AI-Powered Behavioral Tracking: Monitors actions such as link clicks, page dwell time, and content downloads and updates scores in real time, so sales teams can react immediately when engagement spikes.</li>
         <li>Customizable Scoring Rules: Lets businesses define weighted criteria tailored to their sales priorities, such as assigning higher values to demo requests or technical case-study views to spotlight high-value prospects.</li>

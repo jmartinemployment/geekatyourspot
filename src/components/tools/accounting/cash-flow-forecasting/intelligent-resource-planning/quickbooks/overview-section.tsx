@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A local HVAC service in West Palm Beach hits its first $2 million year but still closes its books one
         spreadsheet at a time. Vendor bills wait in email threads. Payroll numbers sit in an old desktop app
         that only one person knows how to use. The owner spends late nights copying figures between mismatched
         files, never sure which version to trust. Every month, the close drags out because the numbers do not
         line up. Errors slip through. Cash flow feels unpredictable. The team wants to grow, but the back office
         cannot keep up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the wall most small businesses hit with QuickBooks and spreadsheets. As transactions pile up and
         more staff need access, the old tools show their limits. Reporting gets slower. Approvals stall. Audit
         trails go missing. If you have ever tried to wrangle a year’s worth of receipts for your accountant or
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         real: moving to a big&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;sounds like a budget-busting
         project with months of disruption and training nobody has time for. But sticking with the status quo
         means more hidden errors, more wasted hours, and less control over cash.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-accounting-intelligent-resource-planning-quickbooks-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
         and disconnected apps, you get live numbers, automated data entry, and workflows that route approvals
         without email chains. You see cash flow in real time. Collections get faster, and vendor payments stop
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         massive&nbsp;ERP&nbsp;migration to get there. For small
         businesses in Miami-Dade, Broward, and West Palm Beach, this means real savings on admin time, fewer
         errors, and the confidence to make decisions with numbers you actually trust.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC specializes in bringing Intelligent Resource Planning to small businesses that have
         outgrown entry-level systems but cannot afford to stop everything for a year-long overhaul. You get a
         plan built around your current tools, zero downtime, and a step-by-step path from messy books to

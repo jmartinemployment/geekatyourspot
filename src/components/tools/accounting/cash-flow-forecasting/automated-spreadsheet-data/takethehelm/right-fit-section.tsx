@@ -1,36 +1,36 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the Helm is particularly suited for small businesses that require a robust yet flexible solution
         for&nbsp;cash flow forecasting. Its
         integration with popular accounting systems like QuickBooks, Xero, and Sage makes it an ideal choice for
         businesses already using these platforms. The tool&#39;s ability to provide real-time insights and
         automate tedious tasks can significantly reduce the workload for small finance teams, allowing them to
         focus on strategic planning rather than data entry.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Take the Helm might not be the best fit for businesses that have highly specialized or complex
         financial processes that require custom-built solutions. While it offers a high degree of customization,
         there are limits to what can be achieved without custom development work. Businesses with unique needs
         may find that they require additional tools or bespoke solutions to complement Take the Helm&#39;s
         capabilities.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For those considering Take the Helm, the next step is to evaluate how well it aligns with your current
         systems and processes. Geek @ Your Spot LLC can assist in this evaluation by providing a detailed analysis
         of your needs and how Take the Helm can be configured to meet them. This consultancy service is invaluable
         for ensuring that the transition to automated&nbsp;cash flow
         forecasting&nbsp;is as smooth and effective as possible.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, Take the Helm offers a powerful combination of features and ease of use that makes it a strong
         contender for small businesses looking to automate their automated spreadsheet data management. By
         leveraging the expertise of Geek @ Your Spot LLC, businesses can ensure that they not only implement the
         tool effectively but also extract maximum value from its capabilities. This partnership can lead to
         significant improvements in efficiency, accuracy, and financial insight.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;<button type="button" data-scheduler-link
         id={`tools-accounting-spreadsheet-data-takethehelm-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking your free
         consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Offer a free &quot;Cash Flow Fragility Audit&quot; to prospects. Have them send you their current manual Excel forecast. Point out the broken links, the hard-coded numbers that are already out of date, and the formulas that will break if they add a new row. Then, show them a video mockup of how that exact same spreadsheet looks when powered seamlessly by your partner software&#39;s live data feed.</li>
         <li>How much time does your team spend manually collecting, consolidating, and updating cash flow data each week or month?</li>
         <li>What is your current error rate or frequency of broken formulas and version control issues when multiple team members edit your forecasting sheets?</li>

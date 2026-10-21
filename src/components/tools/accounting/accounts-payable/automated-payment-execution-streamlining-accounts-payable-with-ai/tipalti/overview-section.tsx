@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every month, small business owners spend countless hours buried under the stress and inefficiency of
         manual payment processes. They sift through piles of invoices, cross-checking each one against their
         records, and manually inputting data into spreadsheets. It&#39;s a tedious dance of double-checking
@@ -12,14 +12,14 @@ export default function OverviewSection() {
         valuable resources but also opens the door to costly mistakes and compliance risks. 82% of finance
         leaders admit that these manual procedures hinder their growth, a statistic that speaks volumes about
         the inefficiencies that plague small businesses today.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the competitive landscape of small business, time lost to manual&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes is time not spent
         on growth and innovation. The risk of human error looms large, with duplicate payments and compliance
         gaps being a continual threat. As businesses grow and the volume of transactions increases, these
         inefficiencies are magnified, making it even harder to keep pace with demands. This is where Automated&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;comes in, offering a streamlined solution that transforms how financial operations
         are managed.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated Payment Execution revolutionizes the way businesses handle their finances by automating
         repetitive tasks and enhancing accuracy. By leveraging <GlossaryLink slug="ai">AI</GlossaryLink>
         &nbsp;and automation, small businesses can eliminate the bottlenecks of manual data entry and approval
@@ -27,7 +27,7 @@ export default function OverviewSection() {
         systems like those offered by Tipalti allow companies to process payments efficiently, manage
         multi-currency transactions, and maintain real-time visibility into their financial status, ultimately
         driving growth without the need to expand administrative teams.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting AI solutions like those
         provided by Geek @ Your Spot LLC can mean the difference between stagnation and expansion. Automated
         Payment Execution is not just a tool but a pathway to modernizing financial operations, freeing up

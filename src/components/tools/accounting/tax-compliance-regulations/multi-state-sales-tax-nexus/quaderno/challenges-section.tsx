@@ -2,7 +2,7 @@
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Small businesses in South Florida run into Multi-State Sales Tax Nexus before they are ready.
         A&nbsp;SaaS&nbsp;founder in Miami-Dade lands a customer in
         Texas, then another in New York, and the numbers look good, until the Friday afternoon scramble to check
@@ -12,7 +12,7 @@ export default function ChallengesSection() {
         spreadsheets. It is the risk of missing a registration deadline, filing late, or collecting the wrong
         amount of tax. Each error brings the threat of penalties, back taxes, and a scramble to fix things
         retroactively.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The deeper problem is that every state has its own rules. Digital products are taxable in Texas, but not
         in Florida. California changes its requirements with little warning. The team’s core accounting software
         does not keep up with these differences, and manual tracking falls behind as soon as sales pick up. The
@@ -20,7 +20,7 @@ export default function ChallengesSection() {
         more than 11,000 tax jurisdictions. Each new sale brings a new compliance risk. The business wants to
         grow, but every new state adds another layer of complexity, another deadline, another chance for an
         audit to go wrong.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual processes break in several ways. First, there is digital product confusion. Many teams do not
         realize that something as simple as
         a&nbsp;SaaS&nbsp;subscription can be taxable in one state and
@@ -29,7 +29,7 @@ export default function ChallengesSection() {
         customer, even those who should pay less or nothing in their own state. This not only frustrates
         customers but also exposes the business to legal risk if the state audits and finds the wrong rates were
         charged.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fragmented billing systems make things worse. A business might use Stripe for subscriptions, PayPal for
         one-off sales, and have a WooCommerce store on the side. Each system keeps its own records, and none of
         them knows what the others are doing. This creates a patchwork of tax data that is impossible to
@@ -38,7 +38,7 @@ export default function ChallengesSection() {
         is discovered, such as realizing the economic nexus threshold was crossed two years ago, there is no
         easy way to go back and fix it. Calculating historical local rates and producing the correct paperwork
         becomes a full-time job for weeks or months.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The final blow comes when the business tries to prepare for tax filing. Each state wants its own forms,
         its own breakdowns, and its own deadlines. The team has to pull data from multiple systems, check each
         invoice, and hope nothing was missed. The risk of error is high, and so is the cost of fixing those

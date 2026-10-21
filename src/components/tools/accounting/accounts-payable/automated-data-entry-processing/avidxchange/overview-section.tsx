@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Picture your <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink> team, buried under a
         mountain of paper invoices, each one representing a potential error waiting to happen. Every day, they
         manually enter data, double-check figures, and chase down missing information. This tedious process not
         only eats up valuable time but also introduces the risk of costly mistakes. In a world where every
         minute counts and accuracy is paramount, relying on manual processes is like using a typewriter in the
         digital age.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where AvidXchange steps in. By automating invoice management, businesses can eliminate the
         cumbersome manual&nbsp;<Link id={`tools-accounting-data-entry-avidxchange-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;process. With <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
         <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, AvidXchange captures data with

@@ -2,29 +2,29 @@
 export default function ImplementingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Launching Versapay in your business environment is a structured process designed to minimize disruption and
         maximize efficiency. The implementation typically involves a phased approach that leverages pre-built
         connectors and templated setups to accelerate the process.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first step in going live with Versapay is to integrate it with your existing enterprise resource
         planning (ERP) system. This integration is seamless thanks to
         Versapay&#39;s&nbsp;API&nbsp;connectors, which ensure that data
         flows smoothly between your systems. This step is crucial as it lays the foundation for automating your
         automated accounts receivable processes, eliminating manual data entry and reducing errors.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once integration is complete, the next phase involves configuring the system to match your specific business
         needs. This includes setting up automated workflows for invoice processing, payment matching, and
         reconciliation. Versapay&#39;s templated setup options provide a head start by offering pre-configured
         settings that can be tailored to fit your operations. This customization ensures that the system aligns with
         your unique processes, enhancing efficiency from day one.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A significant advantage of Versapay is its phased rollout strategy. By implementing the system in stages,
         businesses can gradually transition to automated processes without overwhelming their teams. This approach
         allows for adjustments based on real-time feedback, ensuring that the system operates optimally before
         full-scale deployment. It also provides an opportunity to train staff incrementally, reducing the learning
         curve and ensuring smooth adoption.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, the go-live phase is supported by comprehensive training and support from Geek @ Your Spot LLC. As a
         local consultancy specializing in&nbsp;AI&nbsp;implementation, they
         ensure that your team is well-prepared to use Versapay effectively. They provide hands-on guidance during

@@ -3,20 +3,20 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function KeyFactorsSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The difference between an Intelligent Content Planning rollout that delivers and one that fizzles is
         not the tool, the budget, or even the initial excitement. It is the groundwork and discipline put into
         the setup, and the real-world fit with how your team actually works. The most common reason these
         projects stall is a disconnect between the promise of automation and the day-to-day reality of small
         business marketing in South Florida.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         First, the plan breaks down when teams skip business objectives alignment. If the only goal is “more
         content” or “try AI,” the approach loses steam fast. In practice, the teams that get lasting results
         always start by naming the pain: Are blog posts not ranking? Is the team stuck rewriting emails? Is
         social media inconsistent? The solution is to tie every workflow change to a business result the owner
         or manager can see and measure. This keeps everyone focused when the novelty wears off and the first
         rough drafts hit the calendar.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Second, implementation fails when&nbsp;data
         quality&nbsp;is ignored or left for later. If your system is still running on scattered
         spreadsheets, half-filled fields, or missing tracking tags, the AI will only amplify the mess. Rushed
@@ -26,7 +26,7 @@ export default function KeyFactorsSection() {
         inconsistent formats. MarketMuse’s workflow is built for this: it audits your content inventory,
         scores every page for authority, and exposes thin spots and cannibalization risks before you write a
         word.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Third, too many rollouts stall at the tool stage. The mistake is picking a new AI platform and
         expecting it to change habits on its own. A tool only works if it lives where your team already works.
         HyperWrite, for example, wins because it sits inside your browser tabs, learning your team’s style and
@@ -36,21 +36,21 @@ export default function KeyFactorsSection() {
         analytics silo. Scalenut’s agent model is the fix for the “analysis paralysis” that kills momentum. It
         automates execution by routing tasks and publishing in parallel, so the bottleneck is never a single
         overwhelmed staffer.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fourth, the rollout fails when teams treat implementation as a one-off event instead of a pilot
         with&nbsp;<GlossaryLink slug="feedback-loop" className="text-[#0B162A] hover:underline">feedback loops</GlossaryLink>. The best implementations
         launch a “mini version” in a sandbox, measure what works, and adjust before rolling out everywhere.
         Semrush is the engine behind this loop: it tracks keyword wins, traffic shifts, and conversion data,
         feeding those insights back into the plan. When something underperforms, the workflow adapts, not by
         blaming the tool, but by tweaking the data, the plan, or the content structure.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, teams stall when they underestimate the change management piece. Even with perfect tools and
         clean data, people resist new workflows that disrupt their habits. The fix is hands-on support: walk
         through the changes, show quick wins, and explain why the new workflow is better for their daily
         reality. The most successful rollouts start with the end users, the marketing coordinator, the owner,
         the person approving social posts, and build the system around their actual workflow, not an idealized
         one.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The bottom line: a successful Intelligent Content Planning rollout in a small South Florida business
         is not about finding the “best” AI tool. It is about matching the process to the people, data, and
         goals you already have, and building a system that adapts as those change. The teams that get there do

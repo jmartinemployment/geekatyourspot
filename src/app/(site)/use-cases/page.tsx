@@ -264,10 +264,10 @@ function UseCaseCard({ useCase }: { useCase: UseCase }) {
       <h3 className="text-2xl font-black font-(--font-sora) text-white shadow-text-dark-blue">
         {useCase.title}
       </h3>
-      <p className="pt-3 text-md font-normal text-white/80">
+      <p className="pt-3 text-base font-normal text-white/80">
         {useCase.description}
       </p>
-      <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-md font-bold text-[#C83803]">
+      <span className="mt-auto inline-flex items-center gap-x-2 pt-5 text-base font-bold text-[#C83803]">
         Learn more
         <FontAwesomeIcon
           icon={faArrowRight}
@@ -332,9 +332,9 @@ export default function UseCasesPage() {
                       {department.title}
                     </h2>
                   </Link>
-                  <p className="pt-3 text-md text-white shadow-text">{department.summary}</p>
-                  <p className="pt-3 text-md text-white shadow-text">
-                    <Link href={department.href} className="inline-flex items-center gap-x-2 font-bold text-[#C83803] hover:underline">
+                  <p className="pt-3 text-base text-white shadow-text">{department.summary}</p>
+                  <p className="pt-3 text-base text-white shadow-text">
+                    <Link href={department.href} className={`inline-flex items-center gap-x-2 font-bold ${background === "bg-[#023059]" || background === "bg-[#024059]" ? "text-[#C83803]" : "text-[#0B162A]"} hover:underline`}>
                       All {department.title.toLowerCase()} use cases
                       <FontAwesomeIcon icon={faArrowRight} width={16} height={16} />
                     </Link>

@@ -13,7 +13,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               The software uses a combination of Florida&#39;s statewide rate and local discretionary surtaxes
               imposed by each county. For example, Miami-Dade County charges a 1% surtax on top of the state
               rate, while Palm Beach County has its own additional local taxes. This means the total sales tax
@@ -23,7 +23,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Does the automation adapt to localized Florida Sales Tax Holidays?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, the automation adapts to Florida&#39;s sales tax holidays by automatically applying the
               holiday rules, including specific price thresholds and eligible product categories. This
               eliminates the need for manual adjustments to your catalog or checkout process, ensuring

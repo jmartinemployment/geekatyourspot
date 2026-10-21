@@ -1,38 +1,38 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxCloud is ideally suited for small to mid-sized businesses, particularly those in the e-commerce
         sector or those with multi-state sales operations. Its features are designed to
         simplify&nbsp;tax compliance&nbsp;for businesses that
         may not have the resources for dedicated tax teams or the budget for high-cost enterprise solutions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Businesses operating in the U.S. and Canada will find TaxCloud&#39;s capabilities particularly
         beneficial, as it supports compliance across thousands of jurisdictions with real-time updates and nexus
         tracking. Companies that frequently change their sales channels or expand into new states will
         appreciate TaxCloud&#39;s automated updates and alerts, which help avoid compliance pitfalls.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, TaxCloud may not be the best fit for businesses with a heavy focus on international sales or
         those requiring complex VAT solutions. For these companies, a platform with broader global capabilities
         or specific VAT management features might be more appropriate.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering TaxCloud, the next step is to assess their current tax compliance needs and
         how these align with TaxCloud&#39;s offerings. Geek @ Your Spot LLC can assist in this evaluation, providing
         insights into how TaxCloud can integrate with existing systems and improve compliance processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Engaging with Geek @ Your Spot LLC offers the advantage of a tailored implementation strategy, ensuring that
         TaxCloud is configured to meet specific business needs. This consultancy can guide businesses through
         data mapping, system integration, and staff training, ensuring a smooth transition to automated tax
         compliance.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, businesses should consider scheduling a consultation with Geek @ Your Spot LLC to explore how
         TaxCloud can address their tax compliance challenges and support their growth objectives. This step will
         provide clarity on the benefits and potential return on investment that TaxCloud can offer.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-complex-changing-laws-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
         <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>
         <li>How does the system track remote workers across different South Florida zip codes?</li>

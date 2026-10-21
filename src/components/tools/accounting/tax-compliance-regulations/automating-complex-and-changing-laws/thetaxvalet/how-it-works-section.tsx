@@ -2,7 +2,7 @@
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxValet is designed to simplify
         sales&nbsp;tax
         compliance&nbsp;for small businesses by automating complex processes. It begins with a
@@ -10,17 +10,17 @@ export default function HowItWorksSection() {
         state is overlooked, helping you avoid penalties for non-compliance. Once nexus is determined, TaxValet
         handles permit registrations and filings across all relevant jurisdictions. This comprehensive approach
         means you no longer need to juggle multiple state requirements on your own.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next, TaxValet takes care of ongoing compliance management. This involves monitoring changes in tax laws
         and ensuring your business stays compliant as regulations evolve. The platform automates the filing of
         sales tax returns and payments, so you never miss a deadline. This reduces the risk of incurring late
         fees and penalties, allowing you to focus on other aspects of your business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         TaxValet also offers robust audit protection. Should an audit occur, their team manages the entire
         process, from responding to inquiries to representing you before tax authorities. This proactive audit
         defense ensures that any potential issues are addressed quickly and efficiently, minimizing disruption
         to your business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A dedicated team is assigned to each client, providing personalized support and ensuring that all
         compliance needs are met. This team handles everything from exemption certificate management to
         monitoring sales tax variances, ensuring that your systems are always accurate and up-to-date. With

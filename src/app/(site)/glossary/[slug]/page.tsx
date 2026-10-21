@@ -162,7 +162,7 @@ export default async function TermPage({
                 <li key={other.slug}>
                   <Link
                     href={`/glossary/${other.slug}`}
-                    className="inline-flex rounded-lg bg-[#132340] px-4 py-2 text-md font-bold text-white transition-colors hover:bg-[#C83803]"
+                    className="inline-flex rounded-lg bg-[#132340] px-4 py-2 text-base font-bold text-white transition-colors hover:bg-[#C83803]"
                   >
                     {other.title}
                   </Link>
@@ -175,7 +175,7 @@ export default async function TermPage({
         <section className="container py-12">
           <Link
             href="/glossary"
-            className="inline-flex items-center gap-x-2 text-md font-bold text-[#C83803] hover:underline"
+            className="inline-flex items-center gap-x-2 text-base font-bold text-[#C83803] hover:underline"
           >
             <FontAwesomeIcon
               icon={faArrowLeft}

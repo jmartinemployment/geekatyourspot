@@ -1,39 +1,39 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill is particularly well-suited for small to midsize businesses that need to streamline their automated
         accounts receivable processes without investing in overly complex systems. Its automated features reduce the
         manual workload, allowing business owners to focus on growth rather than administrative tasks. For companies
         like Maria&#39;s graphic design firm in Miami, this means more time spent on creative work and less on
         chasing payments.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Businesses that already use accounting software like QuickBooks or Xero will find Bill&#39;s integration
         capabilities especially beneficial. The two-way sync ensures that all financial activities are automatically
         updated across platforms, reducing the risk of errors and improving financial accuracy. This is ideal for
         businesses that need to maintain tight control over their cash flow without dedicating additional resources
         to manual data entry.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Bill might not be the best fit for enterprises with highly specific needs that require extensive
         customization. While it offers a robust set of features, companies with complex financial operations may
         require a more tailored solution. In such cases, exploring platforms that offer customizable workflows and
         integrations could be more appropriate.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering Bill, the next step is to evaluate how its features align with their specific
         needs. Geek @ Your Spot LLC can assist with this assessment, ensuring that the implementation process is smooth
         and tailored to the business&#39;s existing systems. By leveraging Geek @ Your Spot LLC&#39;s expertise,
         businesses can maximize the benefits of Bill&#39;s capabilities, ensuring a successful integration and
         improved financial management.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In conclusion, Bill offers a compelling solution for businesses seeking to automate their automated accounts
         receivable processes. By partnering with Geek @ Your Spot LLC, businesses can ensure that they are making the
         most of this powerful tool, leading to improved cash flow and reduced administrative burdens.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <button type="button" data-scheduler-link id={`tools-accounting-accounts-receivable-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
         <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>

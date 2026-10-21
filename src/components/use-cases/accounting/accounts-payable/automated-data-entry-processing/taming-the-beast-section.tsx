@@ -4,14 +4,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function TamingTheBeastSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the example of Sarah, a finance manager at a mid-sized retail company.
         Every month, she watches her&nbsp;<Link id={`use-cases-accounting-data-entry-taming-the-beast-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;team slog through a mountain of invoices, each one a potential error waiting to
         happen. The process is slow, tedious, and fraught with human error. These manual tasks consume
         valuable hours that could be better spent on strategic activities. The frustration is palpable as
         delays in invoice processing ripple through the organization, affecting cash flow and vendor
         relationships.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where <GlossaryLink slug="accounts-payable">Accounts Payable</GlossaryLink>: Automated Data
         Entry &amp; Processing comes in. By automating these repetitive tasks, businesses can drastically cut
         down on errors, speed up processing times, and free their teams to focus on higher-value work.
@@ -28,14 +28,14 @@ export default function TamingTheBeastSection() {
         into a streamlined operation. These tools ensure data accuracy, reduce manual entry errors, and
         provide real-time visibility into financial workflows, enabling businesses to operate more
         efficiently and effectively.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The pain points in traditional accounts payable processes are all too familiar. Delays, errors, and
         inefficiencies not only cost time but also money. Manual data entry often results in
         misclassification and VAT errors, leading to hours of avoidable rework each week. Businesses
         struggle with limited real-time visibility, making it challenging to manage cash flow and vendor
         relationships effectively. These issues are compounded by the high risk of human error, which can
         have significant financial implications.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated data entry and processing solutions address these challenges head-on. By integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;into accounts payable workflows, companies can achieve
         over 99% accuracy in data capture, as evident with tools like&nbsp;
@@ -50,14 +50,14 @@ export default function TamingTheBeastSection() {
         drastically reducing the time spent on manual tasks. The result is a more efficient, accurate, and
         transparent accounts payable process that supports better decision-making and strengthens supplier
         relationships.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <strong>Geek @ Your Spot LLC</strong> specializes in implementing these AI-driven solutions, helping
         businesses navigate the complexities of automation. With our expertise, companies can align their
         business objectives with the right technology, ensuring a successful transition to automated
         workflows. Our approach focuses on minimizing disruptions while maximizing the benefits of
         automation, ultimately leading to cost savings, faster processing times, and improved accuracy in
         financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-data-entry-taming-the-beast-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-accounting-data-entry-taming-the-beast-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> on our blog.</p>
     </>
   );
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are reading this far, you are probably weighing whether to move forward with a lead enrichment
         and predictive scoring pipeline. The next step is not to buy a tool or sign a contract. It is to get
         clear, internally, on what your business actually needs to achieve. The publisher’s method starts
@@ -11,7 +11,7 @@ export default function PreparingSection() {
         pinning down the bottleneck you want to solve: are you missing out on warm traffic, or is your sales
         team wasting hours on the wrong leads? Are you struggling to tie your marketing spend to revenue, or
         is your problem simply not knowing who is on your site?</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Expect the first conversation to be about your goals, not the software stack. You will be asked for
         the shape of your sales funnel, the volume and source of your traffic, and what a qualified lead looks
         like for your business. This is not a quiz, it is how we define the outcome that matters. Once your
@@ -21,7 +21,7 @@ export default function PreparingSection() {
         or if your web analytics is not tracking the right events, that gets surfaced early. Expect to spend
         some time cleaning up what you already have, because every tool, Apollo, Factors, Lusha, Snitcher,
         Leadfeeder, works best when the upstream data is sound.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With business goals and&nbsp;data
         quality&nbsp;squared away, the technical architecture and tool selection come next.
         Here, the details get tailored to your environment. If your biggest friction is finding verified
@@ -31,14 +31,14 @@ export default function PreparingSection() {
         visits in real time. When you need to know which campaigns are actually responsible for revenue,
         Factors is wired in to tie ad clicks and site visits to closed-won deals, so you can stop guessing
         where your pipeline comes from.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The pilot phase is about proving it works in your business, not in a demo environment. A small batch
         of leads is run through the whole pipeline, enrichment, scoring, routing, so you can see exactly what
         changes for your sales and marketing teams. This is the place to spot integration gaps or workflow
         snags before rolling out at full scale. Expect some back and forth: tweaks to scoring rules,
         adjustments to what counts as &quot;hot,&quot; and maybe a round of data cleanup as real issues
         surface.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When it is live, what should you expect? The sales team opens their day with a prioritized list of
         real, local companies showing intent, complete with verified contact info and a timeline of recent
         behavior. Marketing sees which campaigns are actually driving pipeline, not just clicks. Operations
@@ -48,11 +48,11 @@ export default function PreparingSection() {
         spends more time closing deals and less time hunting for someone to talk to. The right pipeline does
         not just automate busywork, it changes what is possible for a small business trying to grow in a
         crowded market.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`use-cases-marketing-lead-enrichment-and-predictive-scoring-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
         <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>
         <li>How much time do your sales reps spend every day manually searching Google, LinkedIn, or local directories just to find the email addresses and direct phone numbers of decision-makers?</li>

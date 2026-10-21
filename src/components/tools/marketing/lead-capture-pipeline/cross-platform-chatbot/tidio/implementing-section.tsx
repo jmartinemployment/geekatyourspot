@@ -2,20 +2,20 @@
 export default function ImplementingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Deploying Tidio in a real small business environment does not mean weeks of custom coding or a parade
         of consultants. The platform is built for teams that cannot spare a developer for every change and
         need to see results in days, not months. What shortens go-live with Tidio is a mix of pre-built
         integrations, a visual builder for automations, and a phased approach that matches how a small team
         actually works.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first thing that cuts time is Tidio’s native support for the main channels your customers already
         use. Website chat, email, WhatsApp, Instagram, and Messenger all connect out of the box. There is no
         need to wire up separate plugins or chase down third-party connectors for each channel. The shared
         inbox is ready as soon as you connect your accounts. For e-commerce, especially Shopify, the
         integration goes deeper: agents see cart and order data right in the chat, which means no manual
         lookup or context switching.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once channels are connected, the next step is setting up the AI assistant and automation flows.
         Tidio’s Lyro AI agent does not require you to write scripts or code. Instead, it learns directly from
         your help articles, website content, and Q&amp;A pairs you provide. You can import knowledge from a
@@ -23,20 +23,20 @@ export default function ImplementingSection() {
         and connect blocks to set up lead capture, qualification, or cart recovery. With over 40 pre-built
         templates, many businesses start by activating a few key flows and customizing them only as needed.
         This approach means the basic system is live in hours, not days.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Phased rollout matters for small teams. You do not have to launch every channel and automation on day
         one. Most clients start with website chat and email, then add WhatsApp or Instagram as they see value.
         The system does not force you to migrate all support at once. You can test the Lyro AI agent on a
         subset of questions or let it handle only the most common topics, handing off to a human when it does
         not know the answer. This incremental approach reduces risk and lets your team build confidence in the
         system before scaling up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         What also shortens the path to value is that Tidio’s automations are no-code. You do not need to wait
         on IT for every change. Marketing or support teams can adjust flows, add new triggers, or update
         responses directly in the dashboard. When a new campaign launches or a policy changes, the update is
         immediate and does not interrupt live service. This flexibility is key for small businesses that need
         to react fast without breaking the system.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integrations with your&nbsp;CRM, email marketing, or
         e-commerce tools are handled through pre-built connectors. Tidio supports direct connections to
         platforms like HubSpot, Drip, Front, ActiveCampaign, and more. For most small businesses, this means
@@ -44,14 +44,14 @@ export default function ImplementingSection() {
         connector is not available, Tidio’s Flows can push data
         via&nbsp;API&nbsp;or into third-party tools with a few clicks.
         This keeps your customer records up to date and avoids the mess of copy-paste.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The last piece is training and support. Tidio’s own documentation and the Geek @ Your Spot LLC team’s
         onboarding process are both designed for non-technical users. Most teams get their first flows live
         using the templates, then refine them as they see what customers actually ask. Because the system is
         visual and changes are instant, you do not need to schedule downtime or freeze other projects. This is
         especially important for South Florida businesses that cannot afford to pause operations for a tech
         rollout.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, going live with Tidio is not a one-size-fits-all project. The platform’s pre-built
         connectors, visual automation builder, and phased rollout model are what make it practical for small
         teams with limited resources. Each step, channel setup, knowledge import, flow activation,

@@ -4,19 +4,19 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function BestPracticesSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Without effective lead scoring, small businesses can waste valuable time and resources on leads that are unlikely to convert. This can lead to missed opportunities and decreased sales. By implementing best practices in lead scoring, businesses can prioritize high-quality leads and improve their sales efficiency. Geek @ Your Spot LLC leverages AI-driven systems to help clients establish robust lead scoring models, ensuring that every lead is evaluated accurately and efficiently.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         One of the key practices in lead scoring is to start with a clear understanding of your ideal customer profile. Without this, businesses may find themselves chasing leads that do not align with their target market, leading to lower conversion rates. Geek @ Your Spot LLC assists businesses in defining their ideal customer profiles by analyzing existing customer data and market trends, which informs the creation of precise lead scoring models.
       </p>
       <h3 id={`data-driven-scoring-criteria${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Data-Driven Scoring Criteria
       </h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Many businesses struggle with subjective lead scoring, which can result in inconsistent and unreliable scores. To counter this, Geek @ Your Spot LLC emphasizes the use of data-driven scoring criteria. By leveraging AI and <GlossaryLink slug="machine-learning" className="text-[#0B162A] hover:underline">machine learning</GlossaryLink>&nbsp;algorithms, businesses can analyze patterns and behaviors that indicate a lead&apos;s likelihood to convert. This data-driven approach removes bias and enhances the accuracy of lead scores.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         To implement data-driven scoring, Geek @ Your Spot LLC uses tools like&nbsp;
         <Link id={`tools-marketing-6sense-best-practices${idSuffix}`} href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">
           6sense
@@ -26,10 +26,10 @@ export default function BestPracticesSection() {
       <h4 id={`integrating-diverse-data-sources${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Integrating Diverse Data Sources
       </h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Lead scoring is only as good as the data it uses. Integrating diverse data sources, such as CRM systems, email marketing platforms, and social media interactions, is crucial for comprehensive lead evaluation. Without this integration, lead scores may be incomplete or misleading.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Geek @ Your Spot LLC excels in integrating tools like&nbsp;
         <Link id={`tools-marketing-pipedrive-best-practices${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">
           Pipedrive
@@ -39,10 +39,10 @@ export default function BestPracticesSection() {
       <h4 id={`continuous-model-refinement${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Continuous Model Refinement
       </h4>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         A static lead scoring model can quickly become outdated. As market conditions and customer behaviors change, so too should the scoring criteria. Geek @ Your Spot LLC supports continuous model refinement by monitoring scoring performance and adjusting criteria based on new insights and trends.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         This iterative process ensures that lead scoring models remain relevant and accurate, helping businesses stay ahead of the competition. By using tools like&nbsp;
         LeadSquared
         , businesses can automate this refinement process, making adjustments as needed without manual intervention.
@@ -50,10 +50,10 @@ export default function BestPracticesSection() {
       <h3 id={`automating-lead-scoring-processes${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Automating Lead Scoring Processes
       </h3>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Manual lead scoring is time-consuming and prone to human error. Automating these processes not only saves time but also enhances the accuracy and consistency of lead scores. Automation allows sales teams to focus on engaging with leads rather than scoring them.
       </p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         Geek @ Your Spot LLC uses platforms like&nbsp;
         <Link id={`tools-marketing-active-campaign-best-practices${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">
           ActiveCampaign
@@ -63,12 +63,12 @@ export default function BestPracticesSection() {
       <h4 id={`streamlining-workflow-with-automation${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Streamlining Workflow with Automation
       </h4>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Automated lead scoring eliminates the need for repetitive manual tasks, freeing up valuable time for sales teams.</li>
         <li>Automation ensures that all leads are scored consistently, reducing the risk of human error and bias.</li>
         <li>Integrating automated scoring with CRM systems allows for seamless updates and real-time insights.</li>
       </ul>
-      <p className="pt-3 text-md font-normal text-white shadow-text">
+      <p className="pt-3 text-base font-normal text-white shadow-text">
         By streamlining these workflows, Geek @ Your Spot LLC helps businesses allocate resources more efficiently, enhancing overall productivity and sales effectiveness.
       </p>
     </>

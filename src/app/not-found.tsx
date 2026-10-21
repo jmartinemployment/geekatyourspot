@@ -34,7 +34,7 @@ function Links() {
         <Link
           key={link.href}
           href={link.href}
-          className="text-md font-bold text-white underline underline-offset-4 hover:text-[#C83803]"
+          className="text-base font-bold text-white underline underline-offset-4 hover:text-[#C83803]"
         >
           {link.label}
         </Link>

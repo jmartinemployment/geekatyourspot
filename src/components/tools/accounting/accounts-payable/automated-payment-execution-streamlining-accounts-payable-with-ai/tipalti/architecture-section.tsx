@@ -2,7 +2,7 @@
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Tipalti is designed to streamline Automated Payment Execution by automating complex financial
         processes. At its core, Tipalti integrates seamlessly with existing&nbsp;
         ERP&nbsp;and
@@ -10,36 +10,36 @@ export default function ArchitectureSection() {
         integration is crucial for small businesses aiming to reduce errors and save time. By connecting
         directly to platforms like QuickBooks Online, Tipalti automates the entire accounts payable process,
         from invoice capture to payment reconciliation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform supports multi-currency transactions, enabling businesses to handle payments in over 120
         currencies across 200 countries. This global reach is facilitated by Tipalti&#39;s built-in foreign
         exchange (FX) capabilities, which offer competitive conversion rates and reduce the complexity of
         managing international payments. By automating currency conversions and compliance checks, Tipalti
         helps businesses avoid costly errors and regulatory penalties.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Tipalti&#39;s architecture includes a robust set of features designed to enhance financial
         operations. The system automates invoice data capture using optical character recognition (OCR)
         and&nbsp;
         artificial intelligence,
         minimizing the need for manual data entry. This not only speeds up the process but also increases data
         accuracy, reducing the risk of duplicate payments and compliance issues.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another key component of Tipalti&#39;s architecture is its self-service supplier portal, which
         facilitates supplier onboarding and management. Suppliers can input their information, choose their
         preferred payment methods, and track payment statuses independently. This reduces the administrative
         burden on finance teams and enhances supplier relationships by providing transparency and control over
         payment processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses with multiple subsidiaries, Tipalti offers multi-entity management capabilities. This
         allows companies to standardize processes across different entities while accommodating local
         compliance and currency requirements. By providing a unified platform for managing diverse financial
         operations, Tipalti supports scalability and growth without adding operational complexity.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security and compliance are integral to Tipalti&#39;s design. The platform includes features like
         fraud detection, compliance screening, and audit trails to ensure that all transactions are secure and
         meet regulatory standards. By automating these processes, Tipalti reduces the risk of fraud and
         enhances the overall integrity of financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, Tipalti&#39;s architecture is built to handle the complexities of Automated Payment
         Execution. By integrating with existing systems, supporting global transactions, and automating
         critical processes, Tipalti offers a comprehensive solution for small businesses looking to optimize

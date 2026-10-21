@@ -2,12 +2,12 @@
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Snitcher turns anonymous website visits into named, scored, and enriched leads in real time. For a
         small business in South Florida, the mechanics matter. You need to know what happens from the moment a
         visitor lands on your site to the second your team gets a usable, prioritized lead. This section
         breaks down Snitcher&#39;s actual workflow, step by step, as it plays out on your own website.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The process starts with a single line of code added to your site header. This tracking script is
         lightweight, no complex setup, no heavy backend. As soon as a visitor arrives, Snitcher’s script
         captures the session and attempts to match the IP address to a verified business profile. That means,
@@ -15,7 +15,7 @@ export default function HowItWorksSection() {
         instant for corporate traffic: if someone is browsing from their office network, Snitcher identifies
         the company, adds firmographic data like industry, size, and location, and displays it in your
         dashboard within minutes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Snitcher doesn’t stop at company identification. The platform tracks each visitor’s journey through
         your site, what pages they view, how long they stay, which case studies or pricing sheets they read,
         and whether they return for follow-up visits. This behavioral data is crucial. Instead of treating
@@ -24,7 +24,7 @@ export default function HowItWorksSection() {
         than someone who bounces off the homepage. This is where predictive scoring comes in: Snitcher
         calculates a real-time intent score for each account based on their actions, so your sales team knows
         who is actively evaluating and who is just browsing.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When a target account, one that matches your Ideal Customer Profile (ICP), hits a key page or shows
         strong buying signals, Snitcher sends an instant alert. This can be a Slack notification, a push into
         your&nbsp;CRM, or an automated message to your sales team. No
@@ -32,7 +32,7 @@ export default function HowItWorksSection() {
         interest is still fresh. For teams that run outreach through sequencers or want to automate follow-up,
         Snitcher can push leads directly into those workflows, complete with enriched contact details when
         available.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Snitcher’s enrichment engine adds another layer of value. For each identified company, the platform
         pulls in additional firmographic data, industry, headcount, revenue, and even technology stack. Where
         possible, it surfaces decision-maker names, titles, business emails, phone numbers, and LinkedIn
@@ -40,14 +40,14 @@ export default function HowItWorksSection() {
         outreach. For US traffic, Snitcher’s person-level identification can sometimes resolve anonymous
         sessions to a specific individual, giving you direct access to the right contact, not just the
         account.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         All of this happens in real time, without manual triage. Snitcher automatically filters out noise,
         like students, competitors, or non-business traffic, so you aren’t wasting time on dead ends. The
         platform’s workflow is built to hand your team a daily, prioritized list of warm leads, each scored by
         intent and enriched with the data needed for a meaningful first touch. For a small business, this
         means less detective work, faster follow-up, and a pipeline that reflects real buying interest, not
         just website hits.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The end result is a closed loop: Snitcher identifies and enriches every company-level visit, scores
         each one based on real engagement, and routes the best-fit leads straight to your team for action.
         Your sales and marketing staff spend less time guessing and more time closing deals. The platform’s

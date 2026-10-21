@@ -2,14 +2,14 @@
 export default function KeyFactorsSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A successful Intelligent Receptionist implementation is not just about buying the right software or
         forwarding your business number to a new service. The difference between a pipeline that quietly powers
         growth and one that fizzles after a few weeks comes down to discipline in execution and a willingness to
         treat the project as a process, not a purchase. Small businesses in South Florida see this most clearly
         when they try to fix missed calls with a quick tech install, only to find the same problems, lost leads,
         staff confusion, and customer complaints, cropping up a month later.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first risk is skipping the business objectives alignment. Teams eager to end the pain of missed
         calls often rush to deploy an AI receptionist but never define what counts as a win. Without clear
         goals, like &#39;zero voicemails after hours,&#39; or &#39;every call logged to
@@ -18,7 +18,7 @@ export default function KeyFactorsSection() {
         person says it is working, another says they missed a call, but nobody can point to real numbers. A
         strong implementation ties every technical step to a business metric, so you know right away if things
         are improving, or not.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data
         quality&nbsp;is the next choke point. Many businesses have service menus, pricing, team
         rosters, and schedules scattered across Google Docs, email threads, and half-filled spreadsheets. When
@@ -28,7 +28,7 @@ export default function KeyFactorsSection() {
         meanwhile, need accurate, up-to-date data to route calls, confirm appointments, and sync with
         your&nbsp;CRM. If you
         skip this cleanup, you get frustrated callers and staff who still have to fix details by hand.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another common stall is choosing a tool that does not fit the operational reality. Some teams want full
         control and low cost, but buy a platform with features they never use and a contract they cannot exit.
         Others pick the cheapest option, only to find it cannot escalate urgent calls or log details where they
@@ -37,7 +37,7 @@ export default function KeyFactorsSection() {
         firms where missing one high-value call is unacceptable, its hybrid model means a real human can step in
         when needed, but that makes sense only if your intake process is complex or your callers are often in
         crisis.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Rollouts also fail when businesses treat setup as a one-time event. An Intelligent Receptionist is not
         &#39;set and forget.&#39; It needs weekly review of call logs, updates to scripts as your business
         changes, and regular checks that leads are being qualified and scheduled. Nextiva, for example, can
@@ -48,13 +48,13 @@ export default function KeyFactorsSection() {
         follows up, opportunities are wasted. The businesses that see lasting results are the ones that assign
         ownership, one person is responsible for reviewing performance and making sure the system stays in sync
         with reality.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, a rollout stalls when the process ignores the people who use it. If your front desk or field
         team is not involved in testing, they will find workarounds or revert to old habits. A strong deployment
         brings staff into the pilot: they review transcripts, flag missing answers, and help refine the flows.
         When the system is tuned on real use, not just a vendor demo or a checklist, the team trusts it, and the
         hand-offs between AI and human go smoothly.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         What separates a rollout that sticks from one that fails is not the sophistication of the AI or the size
         of your budget. It is a clear business goal, honest data, a tool that fits your real needs, ongoing
         attention to tuning, and buy-in from the people whose work will change. When you get these right, the

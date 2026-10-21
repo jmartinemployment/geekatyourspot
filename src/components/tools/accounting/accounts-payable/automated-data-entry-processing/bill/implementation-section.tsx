@@ -1,23 +1,23 @@
 export default function ImplementationSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Deploying Bill in a business environment involves several key steps that can be optimized to ensure a
         smooth transition. For businesses using QuickBooks Desktop, Bill offers integration that automates 2-
         and 3-way PO matching, providing alerts on mismatches to reduce errors and enhance accuracy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The implementation process is streamlined by Bill&#39;s pre-built connectors and templated setups,
         which shorten the go-live timeline. This is crucial for businesses looking to quickly leverage
         Bill&#39;s capabilities without extensive downtime. The configuration of approval chains, routing, and
         automation logic is also an essential part of the deployment, ensuring that the solution aligns with
         the business&#39;s existing processes and workflows.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bill does not require extensive custom coding, making it accessible for businesses without a large IT
         team. However, for those needing more tailored solutions, <strong>Geek @ Your Spot LLC</strong> can
         assist with data model design, workflow configuration, and integration with existing systems. This
         ensures that Bill is not only implemented correctly but also optimized for the specific needs of the
         business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Training and change management are also critical components of a successful Bill deployment. Geek @ Your Spot LLC can provide guidance and support to help teams adapt to the new system, ensuring widespread
         adoption and maximizing the benefits of automation. This professional support is particularly valuable
         for businesses new to AI-driven solutions, as it helps bridge the gap between technology and practical

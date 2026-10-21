@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every month, small business owners across Miami-Dade, Broward, and West Palm Beach counties watch
         valuable hours slip away as their&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;teams sift through piles of
@@ -13,7 +13,7 @@ export default function OverviewSection() {
         processes lack the robust controls needed to detect suspicious activity early. It&#39;s a familiar
         story: overworked staff, mounting frustration, and financial reports that never quite add up, all of
         which distract from the real business of serving customers and growing revenue.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where Automated&nbsp;<Link id={`tools-accounting-fraud-controls-bill-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
         systems, businesses can automate the tedious task of invoice management, significantly reducing the
         chance of duplicates and fraudulent transactions. Solutions like those offered by&nbsp;
@@ -24,7 +24,7 @@ export default function OverviewSection() {
         </a>&nbsp;provide automated invoice matching and purchase order matching, flagging potential duplicates
         before payments go through. This not only saves time but also safeguards cash flow, ensuring that money
         isn&#39;t wasted on double payments or siphoned off through fraud.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, implementing such controls translates to more than just
         operational efficiency; it&#39;s a strategic move to protect and grow their enterprise. By automating
         checks and balances, businesses can focus on their core operations, confident that their accounts

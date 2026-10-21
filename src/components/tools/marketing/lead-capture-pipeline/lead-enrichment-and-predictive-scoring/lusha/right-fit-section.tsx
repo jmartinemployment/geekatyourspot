@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha is a strong fit for small businesses in Miami-Dade, Broward, and West Palm Beach that need to
         turn anonymous website visits and stale prospect lists into real, working conversations. If your team
         is small, three to fifteen people, for example, and every hour counts, Lusha’s direct contact data and
         predictive scoring are built to save time and remove guesswork. The tool shines when your sales
         process depends on reaching decision-makers fast, especially in industries where gatekeepers and
         outdated data are the main roadblocks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The strongest results come when you have a clear idea of your ideal customer profile and a workflow
         that can act on enriched, scored leads right away. Lusha’s integrations with Salesforce, HubSpot,
         Zoho, Outreach, and SalesLoft mean you do not need to overhaul your stack. Instead, you plug Lusha in,
@@ -18,7 +18,7 @@ export default function RightFitSection() {
         verified mobile numbers, personal emails, up-to-date job titles, and real buying signals. For teams
         running multi-touch campaigns, Lusha’s data flows directly into tools like SourceWhale, so outreach
         can begin as soon as a lead is scored.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         There are limits. Lusha is best for B2B companies, especially those in software, marketplaces, real
         estate tech, and infrastructure, typically in the 900 to 6,000 employee range. For very small
         businesses, solo founders or teams without a&nbsp;CRM&nbsp;or
@@ -27,7 +27,7 @@ export default function RightFitSection() {
         person-level identification from website visitor data alone. Its visitor identification accuracy is
         limited, and it only reveals companies, not specific stakeholders, from anonymous web traffic. If you
         need to identify every site visitor by name, Lusha will not close that gap.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha is also not the right answer if your process cannot act on enriched leads within a day or two.
         The value of verified contact data, job changes, and intent signals is in acting while the information
         is fresh. If your sales cycle is slow, or your team cannot follow up quickly, the advantage of
@@ -35,7 +35,7 @@ export default function RightFitSection() {
         that businesses with high web traffic or large lists should plan for costs to rise as their pipeline
         grows. The free plan is limited, 100 companies monthly, with short data retention, so sustained use
         requires a paid tier.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are considering Lusha, the next step is to take a close look at your current workflow. Do you
         have a&nbsp;CRM&nbsp;that can accept enriched data? Is your
         team spending more time hunting for contact details than actually talking to prospects? Are you losing
@@ -47,11 +47,11 @@ export default function RightFitSection() {
         not set up for this kind of workflow, or if your leads do not need direct outreach, another approach
         may fit better. The best outcome is a process that fits your real sales motion, not just a tool with
         strong features.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-lead-enrichment-and-predictive-scoring-lusha-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
         <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>
         <li>How much time do your sales reps spend every day manually searching Google, LinkedIn, or local directories just to find the email addresses and direct phone numbers of decision-makers?</li>

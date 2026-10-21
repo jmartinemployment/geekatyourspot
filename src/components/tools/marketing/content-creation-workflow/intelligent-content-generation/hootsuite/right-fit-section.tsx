@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Hootsuite is designed for small businesses that want to take content generation and distribution
         seriously but cannot justify a full-time marketing hire or ongoing agency spend. The strongest fit is
         for teams that need to publish across multiple channels, Facebook, Instagram, LinkedIn, TikTok, and
@@ -11,7 +11,7 @@ export default function RightFitSection() {
         will resonate locally. If you are in Miami-Dade, Broward, or West Palm Beach and your growth depends
         on staying visible and relevant in your immediate community, Hootsuite is built with your needs in
         mind.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform’s sweet spot is the business that has outgrown the “one post a month” approach but is not
         ready to outsource everything to an agency. These are the teams who feel the pain of the blank page,
         who have seen their social feeds go quiet for weeks at a time, and who know that every missed post is
@@ -19,7 +19,7 @@ export default function RightFitSection() {
         cuts through the operational drag, no more staring at a screen waiting for inspiration, no more
         scrambling for last-minute ideas, and no more letting the competition dominate the conversation
         because your team is too busy to keep up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams with strict compliance or brand voice requirements, Hootsuite’s approval workflows and
         permission layers let you keep control without slowing everything down. Community managers can draft
         and schedule posts, while supervisors review and approve content before it goes live. This is
@@ -27,7 +27,7 @@ export default function RightFitSection() {
         both local relevance and central oversight. Hootsuite’s analytics close
         the&nbsp;feedback loop, so you can see exactly what
         is working and where to double down.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Hootsuite is not for everyone. If your business only uses a single channel and posts
         infrequently, the platform’s power may go underused. Teams that rely on long-form, deeply technical,
         or highly customized content (such as in-depth whitepapers or legal documents) may find that
@@ -36,7 +36,7 @@ export default function RightFitSection() {
         simpler tool may suffice. The same goes for those who want to outsource all marketing, if you are
         looking for someone to handle strategy, creative direction, and execution with no internal
         involvement, a traditional agency still has a place.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For everyone else, the majority of small businesses who need to look professional online without
         spending a fortune, Hootsuite is a practical, proven answer. It turns the content creation treadmill
         into a manageable, automated process. The onboarding is straightforward, and with the right upfront
@@ -44,7 +44,7 @@ export default function RightFitSection() {
         analytics actionable. The platform is flexible enough to grow as your needs change, and the
         integrations with tools like Adobe Creative Cloud, Slack, and Google Analytics mean you can fit
         Hootsuite into your current workflow without a complete overhaul.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are reading this as a business owner or office manager who has lost one too many Fridays to
         content chaos, the next step is not to decide whether to do it all yourself or hand it off to an
         agency. Instead, look at where your current process is breaking down, missed posts, inconsistent
@@ -53,11 +53,11 @@ export default function RightFitSection() {
         time, drive consistency, and keep your business visible in the places your customers spend their time.
         If that is what you need, Hootsuite is the tool that lets you run a professional, always-on content
         engine with the team you already have.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-content-generation-hootsuite-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
         <li>When you create a primary content piece (like a long-form article or case study), what is your process for transforming it into emails, LinkedIn updates, or Meta ads? Is that handled manually or skipped entirely due to time constraints?</li>
         <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>&nbsp;pipelines, or technical spec sheets?</li>

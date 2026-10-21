@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, the task of managing
         sales&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;feels like an
         insurmountable hurdle. The ever-shifting landscape of&nbsp;<Link id={`tools-accounting-complex-changing-laws-thetaxvalet-overview-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">complex and changing laws</Link>&nbsp;makes it difficult for
@@ -14,14 +14,14 @@ export default function OverviewSection() {
         fear of potential audits and penalties. The constant need to manually track changes and ensure
         compliance across different states creates an administrative quagmire that stifles productivity and
         peace of mind.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The reality is stark: software solutions, often touted as a quick fix, fall short of providing the
         comprehensive support needed to navigate these complexities. Many programs lack the capacity to handle
         the nuances of multi-state compliance, leaving gaps that could trigger costly audits. Business owners
         find themselves in a precarious position, lacking the expertise to configure these tools correctly or to
         manage errors that could lead to significant financial liabilities. The burden of compliance becomes a
         full-time job, detracting from strategic initiatives and customer engagement.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Enter TaxValet, a service designed to lift this weight from the shoulders of small business owners. By
         offering a hands-off, fully managed approach to sales tax compliance, TaxValet transforms the taxing
         ordeal into a streamlined process. With experts handling everything from nexus analysis to audit

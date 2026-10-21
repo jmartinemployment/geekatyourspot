@@ -1,33 +1,33 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Versapay is ideally suited for small to mid-sized businesses in Miami-Dade, Broward, and West Palm Beach
         counties that are looking to enhance their automated accounts receivable processes. Its comprehensive
         automation features make it an excellent choice for businesses that deal with a high volume of transactions
         and require efficient reconciliation and cash application.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Versapay might not be the best fit for businesses that have minimal accounts receivable activity or
         those that do not rely heavily on&nbsp;ERP&nbsp;systems. For such
         companies, a simpler solution with fewer integration requirements may be more appropriate.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering Versapay, the next step is to evaluate their current accounts receivable
         processes and identify specific pain points that need addressing. This evaluation will help determine how
         Versapay&#39;s features can best be utilized to improve efficiency and accuracy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once a decision is made, engaging with a consultant like Geek @ Your Spot LLC can facilitate a smooth
         implementation. Their expertise in configuring Versapay to fit specific business needs ensures that the
         transition is seamless and effective.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, choosing Versapay offers the potential for significant improvements in cash flow management and
         customer satisfaction. By automating and streamlining accounts receivable processes, businesses can focus
         more on strategic growth rather than administrative tasks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <button type="button" data-scheduler-link id={`tools-accounting-accounts-receivable-versapay-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
         <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>

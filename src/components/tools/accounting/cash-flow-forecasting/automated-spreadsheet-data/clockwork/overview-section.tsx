@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every month, small business owners and fractional CFOs find themselves buried in a &quot;spreadsheet
         sandbox,&quot; manually coding formulas, building three-statement structures, and cleaning ledger data. This
         routine is more than just a time sink; it&#39;s a barrier to growth, wasting over 20 hours that could be
         spent on strategic analysis and decision-making. Instead of gaining insights to steer their businesses
         forward, they&#39;re stuck reconciling rows and columns, often leading to errors and outdated information
         that can derail financial planning.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Imagine a world where automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-clockwork-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;handles these tasks for you. This is where Clockwork comes
         in. By integrating directly with your financial systems, Clockwork eliminates the need for manual data entry
         and formula maintenance. It automatically generates a 52-week cash flow forecast and a 5-year financial

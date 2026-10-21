@@ -1,7 +1,7 @@
 export default function ImplementationSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Deploying Dext in a business environment involves several key steps to ensure successful integration
         and operation. One of the primary tasks is setting up the data structure and mapping decisions that
         align with the business&#39;s specific needs. This involves configuring the platform to accommodate
@@ -9,24 +9,24 @@ export default function ImplementationSection() {
         <strong> Geek @ Your Spot LLC</strong>, as an AI implementation consultancy, plays a crucial role in
         facilitating this process, ensuring that Dext is tailored to fit seamlessly into the existing
         systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC assists in configuring approval chains, routing, and automation logic, which are
         critical for optimizing workflows. This customization allows businesses to automate routine tasks
         while maintaining control over more complex decision-making processes. The consultancy also provides
         guidance on leveraging Dext&#39;s features such as AI Assist, which aids in applying
         organization-specific decisions consistently across similar transactions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Furthermore, Dext&#39;s integration capabilities are a significant advantage. With its ability to
         connect with multiple accounting solutions, Dext ensures that businesses can maintain their existing
         software ecosystem without interruption. This integration is essential for businesses that rely on
         various applications to manage their financial data efficiently.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The implementation process also involves training users to maximize the benefits of Dext&#39;s
         automation features. Geek @ Your Spot LLC provides training and support to ensure that users are
         comfortable with the platform and can fully utilize its capabilities. This support is crucial for
         achieving a smooth transition and realizing the full potential of Dext&#39;s automation in improving
         productivity and reducing manual workload.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, implementing Dext requires careful planning and configuration to align with business
         needs. Geek @ Your Spot LLC offers the expertise needed to customize and integrate Dext into existing
         environments, ensuring that businesses can leverage the platform&#39;s full capabilities for enhanced

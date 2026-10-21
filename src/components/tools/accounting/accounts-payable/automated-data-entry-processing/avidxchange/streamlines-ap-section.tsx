@@ -1,7 +1,7 @@
 export default function StreamlinesApSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         AvidXchange offers a comprehensive solution for automating accounts payable (AP) processes,
         specifically designed to reduce manual tasks and enhance efficiency. Leveraging AI and machine
         learning, the platform captures data from invoice headers and line-item levels, ensuring precise data
@@ -9,20 +9,20 @@ export default function StreamlinesApSection() {
         teams, allowing them to focus on more strategic tasks. The system is built to integrate seamlessly with
         existing workflows, offering a paperless environment that reduces operational costs and fraud
         risks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         AvidXchange&#39;s automation capabilities extend to the entire invoice processing cycle. The platform
         automates data extraction, matching, and routing, ensuring that invoices are handled accurately and
         efficiently. This automation is supported by a robust framework that provides visibility and control
         over the AP workflow, enabling businesses to maintain oversight while reducing the workload on their
         teams. The platform&#39;s AI-driven approach ensures that every step, from capture to payment, is
         streamlined and error-free.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform also enhances supplier payment processes, ensuring faster, easier, and more secure
         transactions. By integrating with existing AP systems, AvidXchange allows businesses to monetize
         electronic payments at scale without the need to change their banking or accounting systems. This
         adaptability is crucial for businesses looking to modernize their AP processes without disrupting their
         current operations.</p>
-      <p className="text-md italic text-white shadow-text pt-3">
+      <p className="text-base italic text-white shadow-text pt-3">
         &quot;AvidXchange automates your B2B payments and integrates with your existing AP process so you can
         monetize electronic payments at scale, without changing banks or accounting systems.&quot;&nbsp;
         <a id={`tools-accounting-avidxchange-streamlines-source${idSuffix}`}
@@ -30,7 +30,7 @@ export default function StreamlinesApSection() {
           target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           AvidXchange
         </a></p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In addition to automation, AvidXchange provides custom and automated approval workflows, which are
         essential for maintaining control and efficiency. These workflows are designed to match current
         approval processes, reducing inefficiencies and ensuring that all invoices are processed in a timely

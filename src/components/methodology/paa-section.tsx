@@ -13,14 +13,14 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Is the first consultation really free?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, the first consultation is free. We learn how your business runs and tell you plainly whether
               automation fits, and there is no obligation.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Do you need access to our books before we start?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               No, we do not. Phase 1 is discovery only, so we map your workflows, approvals, and goals in plain
               language before we touch any data. Data access starts in Phase 2, after you have signed off on the
               map.</p>
@@ -28,7 +28,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Will we have to replace our current accounting software?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Not necessarily, because Phase 3 favors tools that plug into what you already run. If a new platform
               is the right call, you will see the full cost of ownership and the contract terms before you sign
               anything.</p>
@@ -36,7 +36,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What happens if the new system gets something wrong during the pilot?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Your current process keeps running the whole time. Both systems handle the same transactions, and
               every result is compared. When they disagree, a person investigates before anything else moves, and
               nothing cuts over until the numbers match and you approve it.</p>
@@ -44,7 +44,7 @@ export default function PAASection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Who has the final say at each phase?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               You have the final say at every phase. Each phase ends with something you can see and approve: a
               signed workflow map, a data health scorecard, a scorecard comparing each tool, and your written
               approval before cutover.</p>

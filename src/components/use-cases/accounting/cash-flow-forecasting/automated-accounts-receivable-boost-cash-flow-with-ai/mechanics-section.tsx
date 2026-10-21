@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every day a business delays in collecting unpaid invoices, it essentially acts as an interest-free bank for
         its clients. This comes with a significant cost that many businesses overlook. Imagine having $50,000 in
         outstanding invoices that are 15 days overdue. This situation not only affects your cash flow but also
@@ -12,7 +12,7 @@ export default function MechanicsSection() {
         predictable and reliable. These solutions revolve around three core components:
         behavioral&nbsp;predictive
         analytics, automated humanized cadences, and centralized communication logs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Behavioral predictive analytics is the first pillar. Instead of relying on the invoice&#39;s due date, these
         systems analyze each client&#39;s payment behavior over time. This allows the software to predict an
         &quot;Expected Payment Date&quot; for each invoice, providing a more realistic view of cash flow.&nbsp;
@@ -21,7 +21,7 @@ export default function MechanicsSection() {
           Chaserhq
         </Link>&nbsp;exemplifies this by separating receivables into categories such as promised, disputed, and at-risk,
         which helps businesses distinguish between reliable cash flow and potential problems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated, humanized cadences form the second pillar. These systems send tailored email reminders that
         adjust their tone and frequency based on a client&#39;s payment history. Reliable clients receive gentle
         reminders, while habitual late payers face progressively firmer communications.&nbsp;
@@ -30,7 +30,7 @@ export default function MechanicsSection() {
           Invoiced
         </Link>, for instance, offers features that automate these reminders, ensuring that follow-ups are consistent and
         timely without requiring manual intervention.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The third pillar is centralized communication logs. All interactions concerning invoices, such as disputes
         or payment promises, are logged in one system. This ensures that any invoice dispute is immediately marked
         and removed from the active forecast, preventing over-reliance on disputed cash flow. Systems like&nbsp;
@@ -39,7 +39,7 @@ export default function MechanicsSection() {
           Versapay
         </Link>&nbsp;integrate these logs with payment portals, allowing clients to resolve disputes quickly and keep the
         cash flow predictions accurate.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         By integrating these components, automated AR solutions transform the collections process into a predictable
         and efficient system. This not only shortens payment cycles by 10 to 14 days but also
         turns&nbsp;cash flow

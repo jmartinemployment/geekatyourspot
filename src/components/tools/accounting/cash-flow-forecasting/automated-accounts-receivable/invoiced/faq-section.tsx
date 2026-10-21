@@ -14,7 +14,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does Invoiced calculate its cash collection forecasting?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Invoiced calculates cash collection forecasting by gathering data from invoices, autopay, payment plans,
               promises-to-pay, and customer payment history. This comprehensive data collection allows Invoiced to deliver
               highly accurate forecasts on when payments will be received, providing clear insights into collections
@@ -23,7 +23,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               How does &quot;CashMatch AI&quot; impact the reliability of the cash forecast?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               CashMatch&nbsp;AI&nbsp;enhances the reliability of cash forecasts by
               automatically matching incoming payments to open invoices and assigning a confidence score. High-confidence
               matches are applied automatically, while those with lower confidence are flagged for human review. This
@@ -33,7 +33,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Can the forecasting engine manage multi-entity or subsidiary structures?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, Invoiced&#39;s forecasting engine can manage multi-entity or subsidiary structures. It offers
               multi-entity filtering and aggregation options for generating reports, allowing businesses to understand
               financial performance at both the company-wide and individual business unit levels.</p>
@@ -41,7 +41,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               Can I build custom forecasting reports outside of the standard templates?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Yes, Invoiced allows users to build custom forecasting reports in addition to using pre-built templates.
               This flexibility enables businesses to tailor reports to their specific needs, providing powerful, real-time
               insights across the entire invoice-to-cash lifecycle.</p>
@@ -49,7 +49,7 @@ export default function FaqSection() {
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
               What infrastructure systems does Invoiced pull data from?
             </h3>
-            <p className="text-md text-white shadow-text pt-3">
+            <p className="text-base text-white shadow-text pt-3">
               Invoiced pulls data from&nbsp;ERP&nbsp;systems to automatically
               generate accurate invoices. It integrates with systems like Microsoft Dynamics, allowing for bi-directional
               data flow where customer records, invoices, credit memos, and payments sync automatically. This integration

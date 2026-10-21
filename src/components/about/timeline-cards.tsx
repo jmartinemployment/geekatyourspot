@@ -46,7 +46,7 @@ export function TimelineRow({ cards }: Readonly<{ cards: readonly TimelineCard[]
           key={card.year}
           className="rounded-lg bg-[#0B162A] p-2 text-center shadow-[0_4px_15px_rgba(0,0,0,0.2)] md:p-3"
         >
-          <p className="font-black font-[var(--font-sora)] text-base text-[#C83803] md:text-xl">{card.year}</p>
+          <p className="font-black font-[var(--font-sora)] text-base text-[#C83803] md:text-xl!">{card.year}</p>
           <p className="pt-1 text-[0.7rem] font-bold leading-tight text-white md:text-sm">{card.label}</p>
           <p className="pt-1 text-[0.7rem] leading-snug text-white/80 md:text-sm">{card.description}</p>
         </div>

@@ -6,7 +6,7 @@ export default function PhaseThreeSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         What This Phase Does
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This phase evaluates candidate <strong><GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink></strong>, <strong><GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
         flow forecasting</GlossaryLink></strong>, and <strong>sales tax nexus compliance</strong> platforms against
         weighted requirements. Each candidate is scored on how well it follows the Phase 1 rulebook, how well it
@@ -15,7 +15,7 @@ export default function PhaseThreeSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         The Fear It Answers
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every owner has heard about the <strong>expensive software paperweight</strong>. Perhaps you watched a peer
         sign a <strong>contract lasting three years</strong> after a slick demo. Six months later nobody logged in,
         the data was back in spreadsheets, and the invoices kept coming. Your fear is not the price tag. It is
@@ -23,19 +23,19 @@ export default function PhaseThreeSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How We Handle It
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A demo shows the vendor’s best day, so we judge software on <strong>your worst one</strong>. Every
         candidate is scored against your Phase 1 rulebook rather than a vendor’s feature list. You see the <strong>full
         cost of ownership</strong>, including licenses, setup, <strong>training hours</strong>, and the <strong>usage
         fees</strong> that grow quietly with volume.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         We read the contract before you sign it, including the <strong>renewal clauses</strong>, the <strong>exit
         terms</strong>, and who owns your data when you leave. We favor tools that plug into what you already run,
         because the right tool is the one your team will actually open on Monday.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How You Know You’re Safe
       </h3>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>You get a <strong>scorecard comparing each tool</strong> against your own requirements.</li>
         <li>You see the <strong>full cost of ownership</strong> before you sign anything.</li>
         <li>We confirm your <strong>data export and exit path</strong> up front.</li>

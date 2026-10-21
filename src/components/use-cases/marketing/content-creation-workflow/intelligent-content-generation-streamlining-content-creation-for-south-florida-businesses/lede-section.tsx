@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function LedeSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Picture a Tuesday morning in a small South Florida office. The phone rings with new client requests,
         invoices need attention, and payroll is due by end of day. But the real stress point sits on the
         screen: a blinking cursor on a blank Google Business Profile, an empty LinkedIn page, and an untouched
@@ -12,7 +12,7 @@ export default function LedeSection() {
         competitor with a bigger budget is ranking first in local search, and the inbox is quieter than last
         quarter. It’s not for lack of ideas. It’s the bottleneck of writing and publishing content with no
         creative team, no copywriter, and no time to spare.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Intelligent Content Generation changes that equation. Instead of wasting hours on a single caption or
         shelling out thousands each month for an agency retainer, small businesses can now generate on-brand,
         localized&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-lede-seo-blog-and-article-generation${idSuffix}`} href="/use-cases/marketing/ai-seo-tools" className="text-[#C83803] hover:underline">SEO articles</Link>, social posts, and email campaigns in under a minute, without leaving their
@@ -20,14 +20,14 @@ export default function LedeSection() {
         adapts, and schedules content tailored to your niche, your service areas, and your real customers, so
         your brand never goes silent online. No more blank-page paralysis. No more missing the window for a
         local event or waiting weeks for an outsourced copywriter to deliver.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         What this settles for you: your lean team can look and operate like a full-scale agency, publishing
         consistent, high-quality marketing assets that drive local leads, without breaking the bank or burning
         out. You stay focused on what brings in revenue, while your digital presence keeps working behind the
         scenes. For South Florida small businesses, this is how you finally break the cycle of abandoned
         content calendars, overpriced agency contracts, and missed growth opportunities, without hiring
         another employee or sacrificing service to your paying clients.</p>
-      <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-content-generation-lede-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-content-generation-lede-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> on our blog.</p>
     </>
   );
 

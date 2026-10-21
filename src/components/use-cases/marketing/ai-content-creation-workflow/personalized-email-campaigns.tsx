@@ -21,13 +21,13 @@ export default function PersonalizedEmailCampaignsSection() {
                 loading="lazy" />
             </div>
             <div className="col-span-12">
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 One of the biggest challenges marketing teams face is crafting personalized email campaigns that truly resonate
                 with each recipient. This task is both time-consuming and prone to errors, especially when handled manually. The
                 pressure to deliver relevant content to thousands of subscribers without sacrificing quality often results in
                 generic messages that fail to engage. However, AI tools can transform this process, allowing businesses to create
                 personalized emails at scale, saving time and reducing errors.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-jasper-ai-1"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
@@ -37,39 +37,39 @@ export default function PersonalizedEmailCampaignsSection() {
                 crafting tailored email content that speaks directly to the needs and interests of individual recipients. By
                 automating the personalization process, marketing teams can focus on strategy rather than execution, ensuring that
                 each email feels like a one-on-one conversation without the manual labor.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Geek @ Your Spot LLC helps businesses implement these AI tools effectively, focusing on optimizing workflows and
                 integrating customer data platforms for seamless operations. By doing so, organizations can leverage data-driven
                 insights to enhance personalization, which leads to higher engagement rates and improved customer satisfaction.</p>
-              <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
+              <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text">
                 <li>Increase open rates by delivering content that matches subscriber interests.</li>
                 <li>Boost conversion rates with timely and relevant offers.</li>
                 <li>Reduce churn by maintaining consistent and meaningful customer interactions.</li>
               </ul>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-ai-for-dynamic-content">Leveraging AI for Dynamic Content</h3>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Dynamic content in emails adjusts based on recipient data, providing a personalized experience that static content
                 cannot achieve. AI plays a crucial role in this by analyzing behavior patterns and preferences to deliver the right
                 message at the right time. For instance, a hypothetical online retailer could use AI to send tailored product
                 recommendations based on a customer’s past purchases and browsing history.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Geek @ Your Spot LLC facilitates the integration of AI solutions like&nbsp;
                 ChatGPT&nbsp;for businesses aiming to implement dynamic content strategies. By harnessing these tools, companies can ensure their
                 emails remain relevant and engaging, leading to enhanced customer loyalty and increased sales.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-ab-testing">Automated A/B Testing</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Automated <GlossaryLink slug="a-b-testing">A/B testing</GlossaryLink> allows marketers to test different versions of email content to see which performs better,
                 without the manual hassle. AI tools can run these tests on a large scale, quickly analyzing results to guide future
                 campaigns. This not only saves time but also ensures that marketing efforts are optimized for success.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 With Geek @ Your Spot LLC&#39;s guidance, businesses can set up automated A/B testing frameworks using AI, reducing
                 the trial-and-error phase and accelerating the path to effective communication strategies.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="predictive-send-timing">Predictive Send Timing</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Timing is critical in email marketing. AI can predict the optimal send time for each subscriber by analyzing when
                 they are most likely to engage with emails. This ensures higher open and click-through rates, maximizing the impact
                 of each campaign.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Implementing predictive send timing with tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-contentstudio-1"
                   href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">
@@ -78,19 +78,19 @@ export default function PersonalizedEmailCampaignsSection() {
                 help businesses achieve more with less effort. Geek @ Your Spot LLC can configure these systems to integrate seamlessly
                 with existing email marketing platforms, helping businesses capitalize on these insights for better results.</p>
               <h3 className="text-white pt-2 text-[5vw] sm:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-engagement-through-segmentation">Enhancing Engagement Through Segmentation</h3>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 A crucial aspect of personalized email campaigns is audience segmentation. By dividing the email list into smaller,
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems" href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
                 that businesses not only reach their audiences effectively but also maintain a personal touch that fosters long-term
                 relationships.</p>
               <h4 className="text-white pt-2 text-[4vw] sm:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-driven-segmentation-strategies">Data-Driven Segmentation Strategies</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Data-driven segmentation involves using AI to analyze customer behaviors, demographics, and interactions to create
                 precise segments. This approach allows for more tailored messaging and better alignment with customer needs.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 With the help of AI tools like
                 Claude, businesses can develop sophisticated
                 segmentation strategies that enhance the effectiveness of their email marketing campaigns.</p>
@@ -104,13 +104,13 @@ export default function PersonalizedEmailCampaignsSection() {
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalized-email-campaigns-tailored-communication-at-scale-lg">Personalized Email Campaigns: Tailored
                 Communication at Scale</h2>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 One of the biggest challenges marketing teams face is crafting personalized email campaigns that truly resonate
                 with each recipient. This task is both time-consuming and prone to errors, especially when handled manually. The
                 pressure to deliver relevant content to thousands of subscribers without sacrificing quality often results in
                 generic messages that fail to engage. However, AI tools can transform this process, allowing businesses to create
                 personalized emails at scale, saving time and reducing errors.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 AI tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-Jasper-AI-2-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#C83803] hover:underline">
@@ -120,39 +120,39 @@ export default function PersonalizedEmailCampaignsSection() {
                 crafting tailored email content that speaks directly to the needs and interests of individual recipients. By
                 automating the personalization process, marketing teams can focus on strategy rather than execution, ensuring that
                 each email feels like a one-on-one conversation without the manual labor.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Geek @ Your Spot LLC helps businesses implement these AI tools effectively, focusing on optimizing workflows and
                 integrating customer data platforms for seamless operations. By doing so, organizations can leverage data-driven
                 insights to enhance personalization, which leads to higher engagement rates and improved customer satisfaction.</p>
-              <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text">
+              <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text">
                 <li>Increase open rates by delivering content that matches subscriber interests.</li>
                 <li>Boost conversion rates with timely and relevant offers.</li>
                 <li>Reduce churn by maintaining consistent and meaningful customer interactions.</li>
               </ul>
               <h3 className="text-white pt-2 lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="leveraging-ai-for-dynamic-content-lg">Leveraging AI for Dynamic Content</h3>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Dynamic content in emails adjusts based on recipient data, providing a personalized experience that static content
                 cannot achieve. AI plays a crucial role in this by analyzing behavior patterns and preferences to deliver the right
                 message at the right time. For instance, a hypothetical online retailer could use AI to send tailored product
                 recommendations based on a customer’s past purchases and browsing history.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Geek @ Your Spot LLC facilitates the integration of AI solutions like&nbsp;
                 ChatGPT&nbsp;for businesses aiming to implement dynamic content strategies. By harnessing these tools, companies can ensure their
                 emails remain relevant and engaging, leading to enhanced customer loyalty and increased sales.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-ab-testing-lg">Automated A/B Testing</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Automated <GlossaryLink slug="a-b-testing">A/B testing</GlossaryLink> allows marketers to test different versions of email content to see which performs better,
                 without the manual hassle. AI tools can run these tests on a large scale, quickly analyzing results to guide future
                 campaigns. This not only saves time but also ensures that marketing efforts are optimized for success.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 With Geek @ Your Spot LLC&#39;s guidance, businesses can set up automated A/B testing frameworks using AI, reducing
                 the trial-and-error phase and accelerating the path to effective communication strategies.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="predictive-send-timing-lg">Predictive Send Timing</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Timing is critical in email marketing. AI can predict the optimal send time for each subscriber by analyzing when
                 they are most likely to engage with emails. This ensures higher open and click-through rates, maximizing the impact
                 of each campaign.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Implementing predictive send timing with tools like&nbsp;
                 <Link id="ai-content-creation-workflow-email-contentstudio-2-lg"
                   href="/tools/marketing/contentstudio" className="text-[#C83803] hover:underline">
@@ -161,19 +161,19 @@ export default function PersonalizedEmailCampaignsSection() {
                 help businesses achieve more with less effort. Geek @ Your Spot LLC can configure these systems to integrate seamlessly
                 with existing email marketing platforms, helping businesses capitalize on these insights for better results.</p>
               <h3 className="text-white pt-2 lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="enhancing-engagement-through-segmentation-lg">Enhancing Engagement Through Segmentation</h3>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 A crucial aspect of personalized email campaigns is audience segmentation. By dividing the email list into smaller,
                 more targeted groups, businesses can send more relevant content to each segment, improving engagement. AI tools
                 simplify this process by analyzing customer data to identify key segments and their unique characteristics.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Geek @ Your Spot LLC specializes in integrating segmentation capabilities into existing&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-ai-marketing-systems-lg" href="/use-cases/marketing" className="text-[#C83803] hover:underline">marketing systems</Link>, ensuring
                 that businesses not only reach their audiences effectively but also maintain a personal touch that fosters long-term
                 relationships.</p>
               <h4 className="text-white pt-2 lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="data-driven-segmentation-strategies-lg">Data-Driven Segmentation Strategies</h4>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 Data-driven segmentation involves using AI to analyze customer behaviors, demographics, and interactions to create
                 precise segments. This approach allows for more tailored messaging and better alignment with customer needs.</p>
-              <p className="pt-3 text-md font-normal text-white shadow-text">
+              <p className="pt-3 text-base font-normal text-white shadow-text">
                 With the help of AI tools like&nbsp;
                 Claude, businesses can develop sophisticated
                 segmentation strategies that enhance the effectiveness of their email marketing campaigns.</p>

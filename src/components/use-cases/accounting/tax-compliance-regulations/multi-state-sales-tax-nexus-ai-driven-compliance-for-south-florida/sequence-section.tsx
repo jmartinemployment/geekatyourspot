@@ -3,13 +3,13 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function SequenceSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A real-world rollout for Multi-State Sales Tax Nexus compliance is not a switch you flip, it’s a
         sequence of operational changes, each one with its own friction. The process starts before you ever sign
         a contract with a tax tool. You need a clear map of your sales footprint: where your orders are
         shipping, which channels are in play, and which products (or services) are on the line. Without this,
         you cannot even tell which states you’re exposed in, or whether you need to register at all.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Inventory your sales channels and map them to states and localities. This means pulling reports from Shopify, Amazon, your own site, and any wholesale or B2B pipelines. TaxCloud, for example, cannot track cumulative nexus exposure unless you import all sources, not just one platform.</li>
         <li>Assess your data readiness. This is where you find the gaps, unmatched invoices, missing shipping addresses, inconsistent product codes. Quaderno’s aggregation tools can help, but only if each channel is set up to push clean, detailed records. If you rely on spreadsheets or manual data pulls, expect delays and errors.</li>
         <li>Select the right compliance partner based on your business model and pain points. If you need deep, hands-on support (including VDA negotiation and audit defense), a service like TaxValet is structured to take the entire compliance cycle off your hands. Zamp stands out for its managed onboarding and real-time monitoring when your product catalog is complex or your team is lean. TaxJar slots in for high-volume digital commerce where real-time alerts and marketplace double-counting are a risk.</li>
@@ -19,14 +19,14 @@ export default function SequenceSection() {
         <li>Go live for active filing. The first month is always the hardest, teams discover which returns are monthly vs. quarterly, which states want zero returns, and where filings must be split by county or city. TaxJar’s executive dashboards and TaxValet’s managed filings help here, but only if the data feeding the system is right.</li>
         <li>Monitor, review, and audit. The job is not done after the first filing cycle. You need regular reviews to catch missed registrations, data gaps, or new product lines that trigger different tax rates. Zamp and TaxValet provide dedicated audit support. TaxCloud’s dashboard flags new risks as thresholds or rules change.</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the real world, this sequence is rarely linear. A Friday afternoon can turn into a scramble when a
         state notice arrives or a sales channel integration fails. For the Broward retailer from earlier, the
         first real test may come when a local CPA flags a missing registration in California, or when their
         Shopify sales spike and the tool’s alerts show they’re weeks past a critical threshold. The difference
         between a smooth rollout and a fire drill is not the tool itself, but the depth of process and oversight
         built in at every step.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Done right, this rollout is not a one-time project, but the start of a managed, evolving compliance
         system. The upfront work, mapping data, piloting integrations, assigning roles, sets the stage for
         months and years of low-stress filings and audit readiness. If you shortcut any of these steps, the

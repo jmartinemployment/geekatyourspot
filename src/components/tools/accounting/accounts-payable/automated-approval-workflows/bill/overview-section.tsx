@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Consider a business owner like Lisa Anderson, who runs a boutique marketing agency in Miami and finds
         herself tangled in a web of invoices and approvals every month. Her small team spends hours each week
         manually sorting through
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         members. The process is not only time-consuming but also fraught with errors and delays. This
         cumbersome system often results in missed deadlines and strained vendor relationships, costing the
         business valuable time and money.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lisa&#39;s story is not unique. Many small businesses in West Palm Beach and beyond face similar
         challenges with their&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;processes. The traditional
@@ -25,7 +25,7 @@ export default function OverviewSection() {
           automated approval workflows
         </a>&nbsp;come into play, offering a seamless solution to streamline and modernize these outdated
         processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With automated&nbsp;<Link id={`tools-accounting-approval-workflows-bill-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
         like&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-overview-bill${idSuffix}`}
@@ -38,7 +38,7 @@ export default function OverviewSection() {
         entry time by up to 20% and capture key invoice fields with 99% accuracy. This automation not only
         saves time but also minimizes errors and enhances cash flow management, allowing businesses to focus
         on strategic tasks that drive growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated workflows are more than just a time-saver. They are a critical step toward greater
         efficiency, accuracy, and financial health. For small businesses like Lisa&#39;s, adopting such
         technology can mean the difference between staying afloat and thriving in a competitive market. As

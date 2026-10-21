@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ForecastingReceivablesSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Forecasting fixes the delayed visibility crisis and the broken spreadsheet dependency at the same
         time. Instead of a workbook someone updates once a month, these tools read your ledger directly and
         update the forecast as transactions arrive. Our <Link id={`use-cases-accounting-forecasting-p-cff${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#0B162A] hover:underline">Cash
@@ -13,7 +13,7 @@ export default function ForecastingReceivablesSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Planning Engines That Replace the Workbook
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`use-cases-accounting-forecasting-jirav${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav" className="text-[#0B162A] hover:underline">Jirav</Link> links
         accounting, payroll, and sales data for <strong>driver based forecasting</strong>, so the plan changes
         when the business changes. <Link id={`use-cases-accounting-forecasting-fathom${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq" className="text-[#0B162A] hover:underline">Fathom</Link> combines
@@ -28,7 +28,7 @@ export default function ForecastingReceivablesSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Scenario Planning Without the Spreadsheet
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses whose forecast still lives in a spreadsheet, a second group of tools takes over the
         model itself. <Link id={`use-cases-accounting-forecasting-floatapp${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">Floatapp</Link> and <Link id={`use-cases-accounting-forecasting-dryrun${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" className="text-[#0B162A] hover:underline">Dryrun</Link> build <strong>multiple
         scenarios</strong> side by side, so you can compare a slow summer, a hurricane closure, and a strong
@@ -39,7 +39,7 @@ export default function ForecastingReceivablesSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Receivables That Collect Themselves
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A forecast is only as good as the cash that actually arrives. <Link id={`use-cases-accounting-forecasting-chaserhq${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">Chaserhq</Link> sends
         automated, polite payment reminders on a schedule you control. <Link id={`use-cases-accounting-forecasting-invoiced${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" className="text-[#0B162A] hover:underline">Invoiced</Link> and <Link id={`use-cases-accounting-forecasting-upflow${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" className="text-[#0B162A] hover:underline">Upflow</Link> give
         customers a portal to view and pay their invoices, and they show your team which accounts need

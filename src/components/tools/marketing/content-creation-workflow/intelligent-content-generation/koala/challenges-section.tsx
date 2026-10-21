@@ -1,7 +1,7 @@
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Every small business in Miami-Dade, Broward, and West Palm Beach knows the routine: you need to show
         up online or you disappear. But keeping up with content is a grind that rarely pays back the hours you
         put in. The person writing your blogs or social posts is almost always the same one who runs payroll,
@@ -9,7 +9,7 @@ export default function ChallengesSection() {
         from what brings in revenue. The alternative, hiring an agency or freelancer, comes with a price tag
         that can sink a small team&#39;s monthly budget. Even then, the finished work often sounds generic, as
         if it could have come from any business in your industry.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real cost is not just money. It’s the opportunity lost while you stare at a blank page or chase
         down approvals. When content creation gets pushed aside, your website sits idle, your social feeds go
         quiet, and your lead pipeline dries up. A business that looks inactive online stops attracting new
@@ -18,21 +18,21 @@ export default function ChallengesSection() {
         that might mean retyping the same bio into every AI prompt. For a Fort Lauderdale cleaning company, it
         could mean copy that never makes clear whether you serve homes, offices, or both. The result is
         content that blends in, not stands out.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual content creation also introduces errors and inconsistencies. When you or your team have to
         remember credentials, unique selling points, or even which services you offer, mistakes slip in. One
         blog post says you do commercial work, another leaves it out. A landing page lists certifications you
         don’t actually hold. Over time, this erodes trust, both with customers and with search engines that
         reward accuracy and consistency. And when you try to fix it, you’re back to square one: hunting down
         old drafts, rewriting bios, or explaining your business all over again to a new writer or AI tool.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The workflow breaks down further when visuals are involved. A local retailer might publish an article,
         then scramble to find or create images that fit. This means switching between platforms, tracking down
         old photos, and trying to keep everything on brand. The delay adds hours to every campaign and makes
         it harder to maintain a steady publishing schedule. In the end, content production becomes a
         bottleneck, one that slows down marketing, eats into billable time, and keeps your business from
         looking as sharp online as it does in person.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Even with the best intentions, small teams fall into a cycle: content is sporadic, messaging is
         inconsistent, and the business’s real strengths get lost in translation. The cost is not just the
         money you spend or the time you lose, but the missed chance to build trust, win new leads, and show

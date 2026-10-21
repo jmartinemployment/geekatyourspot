@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For many small businesses in West Palm Beach, Broward, and Miami-Dade counties, the daily grind of
         managing cash flow through manual processes is all too familiar. Picture a typical finance team,
         burdened by the relentless task of logging into various bank accounts, exporting CSVs from
@@ -13,14 +13,14 @@ export default function OverviewSection() {
         been reconciled, it&#39;s often outdated, rendering any business decisions based on it ineffective or
         even risky. This lag can mean the difference between seizing a business opportunity and missing it
         entirely.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-takethehelm-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">Spreadsheet Data</Link>&nbsp;offers a compelling solution to this bottleneck. By integrating tools like
         Take the Helm, businesses can streamline their data entry processes, ensuring that cash flow forecasts are
         not only accurate but also up-to-date. This automation allows financial teams to focus on strategic
         decision-making rather than getting bogged down in manual data entry, which often leads to errors and
         inefficiencies. With up-to-the-minute insights, businesses can quickly adapt to changing conditions,
         making informed decisions that drive growth and stability.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the Helm automates the collection and analysis of financial data, syncing with platforms like
         QuickBooks, Xero, and Sage to generate forecasts in seconds. This not only saves valuable time but also
         reduces the risk of human error. The automated system ensures that the data used for&nbsp;<GlossaryLink
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         businesses to respond swiftly to market changes. By freeing up resources from manual tasks, companies
         can reallocate their efforts to areas that directly impact their bottom line, such as customer service
         or expansion efforts.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses aiming to stay competitive, embracing automated spreadsheet data is not just an
         option but a necessity. It transforms the way financial data is handled, providing a clear, real-time
         view of cash flow status. This shift not only enhances accuracy and speed but also empowers business

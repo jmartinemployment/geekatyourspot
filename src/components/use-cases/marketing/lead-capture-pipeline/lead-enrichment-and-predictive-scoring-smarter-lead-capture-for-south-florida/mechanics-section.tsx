@@ -4,13 +4,13 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A working lead capture pipeline flips the sales process from guesswork to precision. Instead of your
         sales team wasting mornings cold-calling dead numbers, the system surfaces the local companies already
         showing buying intent on your site and serves their decision-maker contacts, ranked by score, straight
         to your reps. Every step replaces hours of manual effort with automation and data that keep the
         pipeline warm, and the team focused on what matters.</p>
-      <ol className="list-decimal list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ol className="list-decimal list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Define business objectives and real bottlenecks. The first phase is never tool selection, it’s clarity. What does the business need to change? For a South Florida HVAC firm, that might be reducing time wasted on cold outreach by 50%. For a professional services shop, it’s about surfacing local, high-fit accounts who are browsing your pricing page today. KPIs are set: response time, conversion rate, cost per lead, pipeline velocity. Every decision flows from this.</li>
         <li>Assess&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink>&nbsp;and readiness. Most small businesses have scattered records: a&nbsp;CRM&nbsp;with missing numbers, spreadsheets with stale emails, a website collecting form fills with no context. The pipeline’s engine only works if it has clean fuel. We run validation checks on your lists and web forms. If half your old contacts are bouncing, that gets fixed before anything is automated.</li>
         <li>Install anonymous visitor identification and enrichment. Here’s where Snitcher and Leadfeeder go to work. Snitcher drops a tracking pixel on your website, resolving anonymous traffic into verified company profiles, even when no form gets filled out. Leadfeeder does the same, but with a focus on real-time notifications and deep behavioral scoring. Both cut through the noise, filtering out ISPs and junk traffic so only real businesses in your service area show up for sales.</li>
@@ -20,7 +20,7 @@ export default function MechanicsSection() {
         <li>Integrate with your sales stack and track outcomes. The whole pipeline connects to your&nbsp;CRM, HubSpot, Salesforce, or&nbsp;<Link id={`use-cases-marketing-lead-enrichment-mechanics-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>, so every enriched, scored lead is routed and tracked in one place. Leadfeeder, Apollo, and Factors all push data directly into your&nbsp;CRM&nbsp;and outreach tools. That means every rep sees the full history: who visited, what they read, what signals they showed, and how they scored. No more manual entry, no more lost leads.</li>
         <li>Monitor, adjust, and scale. This isn’t a set-and-forget motion. Weekly reports show which signals actually predict closed deals, which ad campaigns are surfacing the right local accounts, and which reps convert the best leads. The pipeline is tweaked as needed: scoring rules are adjusted, enrichment providers are swapped, and workflows are tuned to keep getting sharper over time.</li>
       </ol>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The sequence is tight, and every phase is focused on removing friction. No more guessing who to call.
         No more anonymous traffic. Your sales team starts each day with a live, ranked list of South Florida
         businesses ready to talk, with every dead number and generic email filtered out. The tools, Apollo,

@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In small businesses across West Palm Beach, Broward, and Miami-Dade counties, business owners often
         find themselves trapped in a cycle of manual payment processes. Their evenings are spent navigating
         through stacks of paper invoices, manually entering data into spreadsheets, and double-checking for
@@ -14,7 +14,7 @@ export default function OverviewSection() {
         These tasks, repetitive and time-consuming, steal away precious hours that could be better spent on
         growth and customer engagement. The manual approach to managing payments, while familiar, is fraught
         with inefficiencies that stifle productivity.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-payment-execution-bill-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;offers a way out of this cycle, transforming how small businesses handle
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>. By integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven solutions into their financial processes, businesses
@@ -25,7 +25,7 @@ export default function OverviewSection() {
         uninterrupted. The transition to an automated system is more than just a technological upgrade;
         it&#39;s a strategic move that can lead to significant time savings and improved financial
         management.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses considering this shift, the benefits of Automated Payment Execution are clear.
         It eliminates the need for manual data entry, reduces the risk of errors, and provides real-time
         visibility into financial transactions. This transformation allows businesses to operate more

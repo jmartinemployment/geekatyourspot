@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward, and West Palm Beach counties, implementing automated
         spreadsheet data systems can
         transform&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
@@ -14,7 +14,7 @@ export default function MechanicsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Business Objectives Alignment
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This initial phase involves a thorough understanding of what the business aims to achieve with automation.
         Identifying specific bottlenecks, such as slow data entry or delayed financial insights, helps in setting
         measurable goals. These objectives might include reducing manual data entry time by 50% or increasing the
@@ -23,7 +23,7 @@ export default function MechanicsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Data Quality Assessment
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Before diving into any technical setup, it&#39;s crucial to assess the quality of your existing data. This
         includes evaluating the integrity, schema, and storage of your current data. The goal is to ensure that your
         data is accurate, complete, and formatted correctly. This phase might involve cleaning up old records,
@@ -42,7 +42,7 @@ export default function MechanicsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Tech Selection and Architecture
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With objectives clear and data primed, the next step is selecting the right technology. This step is not
         just about choosing any tool but selecting those that integrate seamlessly with your existing systems. For
         instance,&nbsp;
@@ -59,7 +59,7 @@ export default function MechanicsSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Pilot Implementation Strategy
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The final phase involves testing the chosen tools and processes in a controlled environment. This pilot
         phase allows businesses to validate their setups, ensuring everything functions as expected before a
         full-scale rollout. During this phase, smoke tests can be conducted to simulate real-world scenarios, and

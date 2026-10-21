@@ -1,27 +1,27 @@
 export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Dext is a robust platform designed to streamline bookkeeping processes through automation. It offers
         a range of features that can significantly benefit small to medium-sized businesses looking to
         implement AI in their accounting practices. One of the key aspects to consider when evaluating Dext
         is its capacity to integrate with over 36 accounting solutions. This broad compatibility ensures that
         it can fit seamlessly into existing workflows without the need for overhauling your current
         systems.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing for Dext is not explicitly detailed in the available data, but what stands out is its focus
         on providing value through automation rather than merely reducing costs. The platform emphasizes
         efficiency gains by automating data capture and processing, which reduces manual handling and
         improves consistency. This approach not only saves time but also enhances accuracy, offering a
         foundation for scalable practices.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering Dext, it&#39;s important to weigh its benefits against other automation
         tools in the market. Dext excels by offering features like AI Assist, which learns from user
         decisions and preferences to automate repetitive tasks. This capability allows businesses to maintain
         control over their processes while benefiting from automation. Additionally, the platform provides
         real-time visibility into financial data, which is crucial for making informed decisions and
         improving client service.</p>
-      <p className="text-md italic text-white shadow-text pt-3">
+      <p className="text-base italic text-white shadow-text pt-3">
         &quot;Automated data capture is the foundation of a scalable practice because it reduces manual
         handling, improves consistency, and gives firms real-time visibility.&quot;&nbsp;
         <a id={`tools-accounting-dext-evaluating-source${idSuffix}`}

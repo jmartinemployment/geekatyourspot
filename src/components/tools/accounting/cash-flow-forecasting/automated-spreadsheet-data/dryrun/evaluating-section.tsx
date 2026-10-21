@@ -2,32 +2,32 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When evaluating Dryrun for your business, consider both the fit with your current financial processes and
         its pricing model. Dryrun is designed to integrate seamlessly with existing systems, making it a flexible
         choice for businesses looking to enhance
         their&nbsp;cash flow
         forecasting&nbsp;capabilities. However, understanding its pricing structure is crucial to
         ensure it aligns with your budget and delivers value.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Dryrun&#39;s fit is largely determined by its ability to integrate with your
         current&nbsp;ERP&nbsp;and
         accounting systems. With seamless connections to platforms like NetSuite, Sage Intacct, Microsoft Dynamics
         365 Business Central, and QuickBooks Online, Dryrun ensures that your financial data is always up to date.
         This integration minimizes manual data entry and reduces the risk of errors, making it an ideal choice for
         businesses seeking to streamline their financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The pricing model for Dryrun is not explicitly detailed in the available data, but potential buyers should
         consider the cost in relation to the efficiencies and savings it brings. By automating manual processes and
         providing real-time insights into cash flow, Dryrun can reduce the time and resources spent on financial
         management. This efficiency can translate into significant cost savings over time, making the investment
         worthwhile.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When assessing Dryrun, consider the specific needs of your business. For small businesses in Miami-Dade,
         Broward, and West Palm Beach counties, the ability to manage cash flow efficiently can be a game-changer.
         Dryrun&#39;s features, such as transaction-level AR/AP tracking and multi-entity forecasting, provide the
         tools needed to navigate complex financial landscapes and make informed decisions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, the decision to implement Dryrun should be based on a thorough evaluation of its fit with your
         business processes and its potential to deliver a return on investment. Geek @ Your Spot LLC can assist in this
         evaluation, ensuring that Dryrun is configured to meet your specific needs and deliver the maximum benefit.</p>

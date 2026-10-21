@@ -3,13 +3,13 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ConfiguringSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the Helm is built for hands-on configuration, not just plug-and-play. What makes it work for a
         small business is the way its rules and automation logic get set up to match your real cash flow cycles.
         Geek @ Your Spot LLC handles this setup end to end, starting with the first data sync and carrying through
         to live scenario planning. This is not a generic process. Each step is about making Take the Helm
         reflect how your business actually runs, not how a software vendor thinks it should.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The core of Take the Helm’s configuration is its forecasting rules. These are not abstract settings. In
         practice, they decide how your cash flow forecast responds to every invoice, bill, and payment. For
         example, when Geek @ Your Spot LLC configures Take the Helm, they start by mapping your chart of accounts
@@ -17,7 +17,7 @@ export default function ConfiguringSection() {
         transactions import, which accounts to include in forecasts, and how to handle exceptions like loans or
         one-off expenses. This is all done through Take the Helm’s own setup wizard and dashboard, not through
         code or third-party scripts.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Take the Helm’s automation logic is visible in how it handles accounts receivable and payable. Once your
         accounting data is synced, the platform automatically pulls in all open invoices and bills. You can
         group receivables or payables by contact, filter by age, and use the Average Days Receivable (ADR) and
@@ -25,7 +25,7 @@ export default function ConfiguringSection() {
         your own historical data. The system lets you manually adjust dates, amounts, and inclusion in
         forecasts, but the default is to use real payment and receipt timing patterns from your business. This
         means the forecast reflects reality, not just due dates.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The drag-and-drop timeline is what sets Take the Helm apart for daily use. You can shift payment dates
         directly on a visual cash flow graph and see the impact instantly. This is not just a reporting feature,
         it is an interactive control panel. If a client is late or you want to test what happens if you pay a
@@ -34,22 +34,22 @@ export default function ConfiguringSection() {
         and description, and test what happens if you hire a new employee, delay a capital expense, or lose a
         big customer payment. This is all done in the main interface, not hidden in menus or requiring IT
         involvement.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Reporting and sharing are also configurable. Take the Helm lets you export forecasts and transaction
         details as PDF or CSV files. You can choose from three different viewing modes: a visual graph, a
         transaction detail table, or a cash flow summary similar to what you might build in a spreadsheet. Each
         view can be customized for date range and filtered for the data you care about. This is especially
         useful for teams that need to communicate with outside accountants, lenders, or partners who expect data
         in a certain format.</p>
-      <p className="text-md text-white shadow-text pt-3">
-        Take the Helm does not expose an&nbsp;<GlossaryLink slug="api">API</GlossaryLink>&nbsp;or scripting
+      <p className="text-base text-white shadow-text pt-3">
+        Take the Helm does not expose an&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;or scripting
         environment for custom extensions. All configuration is done within the platform’s own interface. For
         most small businesses, this is a strength. There is no need to maintain custom integrations or worry
         about breaking changes. Geek @ Your Spot LLC’s role is to make sure every rule, scenario, and data mapping
         in Take the Helm matches your real business logic, so you do not have to translate your process into
         software-speak. This is what closes the gap between a tool that is merely installed and one that
         actually runs your week.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For a team coming from scattered spreadsheets, the shift is immediate. Instead of updating formulas and
         chasing down missing numbers, you set the rules once with Geek @ Your Spot LLC’s help and the system runs
         itself. If your business changes, you adjust the rules, no need for a new implementation. Take the

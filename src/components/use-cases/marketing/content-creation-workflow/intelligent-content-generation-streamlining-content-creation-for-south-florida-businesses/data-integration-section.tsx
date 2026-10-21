@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function DataIntegrationSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Before any Intelligent Content Generation system can deliver, the data has to be there, and it has to
         be in shape to use. This is not a technicality. For a small business in South Florida, it means
         pulling together customer lists, product catalogs, service menus, team bios, and brand guidelines that
@@ -11,7 +11,7 @@ export default function DataIntegrationSection() {
         accurate, on-brand content if it has to guess what you offer, where you serve, or who your customers
         are. If this step is skipped or rushed, every draft the AI produces will carry the same gaps and
         mistakes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first phase of the Geek @ Your Spot LLC rollout is a&nbsp;data
         quality&nbsp;assessment. That means a methodical review: what data do you have, where
         does it live, what’s missing, what’s out of date, and what needs to be standardized? Even the most
@@ -19,7 +19,7 @@ export default function DataIntegrationSection() {
         if the data behind it is stale or fragmented. The point is not to create a perfect database, but to
         get the essentials right: clean service descriptions, accurate contact details, brand language, and
         up-to-date promotions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Integration comes next. Here, success depends on connecting your new content engine with the tools you
         already use. For most small businesses, that means plugging into Google Business Profile, a website
         CMS, social media accounts, and email platforms. For example, if you want to push a new blog post
@@ -28,21 +28,21 @@ export default function DataIntegrationSection() {
         pull from your content calendar without manual intervention. When you want to update product
         descriptions across Shopify and Google listings, the AI needs reliable access to your live catalog,
         otherwise, your promotions will go out of sync.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The real challenge with integration is not technical setup. It’s mapping the business’s real workflow.
-        A retail shop in Miami Beach may have a point-of-sale system, a&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-data-integration-mailchimp${idSuffix}`} href="/tools/marketing/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link>&nbsp;list, and an Instagram
+        A retail shop in Miami Beach may have a point-of-sale system, a&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-data-integration-mailchimp${idSuffix}`} href="/tools/marketing/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>&nbsp;list, and an Instagram
         account, but the data between them rarely matches. The implementation team’s job is to make sure the
         right fields talk to each other and that updates flow in both directions. When a new service is added
         to your booking platform, a system like Koala or Copy.ai should recognize it and pull it into the next
         round of promotions or email campaigns. When a customer leaves a review, the content engine should be
         able to surface that testimonial in new blog posts or landing pages, not leave it buried in Yelp.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data protection matters just as much. Anyword and Castmagic, for example, work best when they can
         access actual customer conversations, call transcripts, or sales notes. But every integration must
         handle private information carefully, no accidental leaks to public channels, no exposure of sensitive
         data to third-party tools. The implementation plan needs to spell out what is shared, who approves it,
         and how updates are reviewed before going live.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The payoff is a marketing engine that runs on facts, not guesswork. When the system has access to your
         real offers, your team’s bios, and your most common customer questions, tools like Rytr, Jasper, and
         Scalenut can generate content that sounds like you and sells like you. Your blog posts answer the

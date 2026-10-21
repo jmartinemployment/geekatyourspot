@@ -374,7 +374,7 @@ export default function TheMethodologySection() {
                   <h3 className="text-white font-bold text-xl shadow-text">
                     Define of Business Objectives
                   </h3>
-                  <span className="text-white text-md leading-[0.95] shadow-text">
+                  <span className="text-white text-base leading-[0.95]! shadow-text">
                     Identify specific inefficiencies where AI can add value. Set
                     clear, measurable Key Performance Indicators (KPIs).
                     Actionable insights that can guide businesses in making
@@ -393,7 +393,7 @@ export default function TheMethodologySection() {
                   <h3 className="text-white font-bold text-xl shadow-text">
                     Data Quality Assessment
                   </h3>
-                  <span className="text-white text-md leading-[0.95] shadow-text">
+                  <span className="text-white text-base leading-[0.95]! shadow-text">
                     A structured process of evaluating data for Accuracy,
                     Completeness, Consistency, Timeliness, Validity and
                     Uniqueness. Then assess the work involved in cleansing and
@@ -412,7 +412,7 @@ export default function TheMethodologySection() {
                   <h3 className="text-white font-bold text-xl shadow-text">
                     Choose the Right AI Technologies
                   </h3>
-                  <span className="text-white text-md leading-[0.95] shadow-text">
+                  <span className="text-white text-base leading-[0.95]! shadow-text">
                     The problem first approach. Start small, identify a single
                     specific workflow to automate. Prioritize tools that work
                     within your existing systems. Choose ease of use platforms
@@ -433,7 +433,7 @@ export default function TheMethodologySection() {
                   <h3 className="text-white font-bold text-xl shadow-text">
                     Implementation Strategy
                   </h3>
-                  <span className="text-white text-md leading-[0.95] shadow-text">
+                  <span className="text-white text-base leading-[0.95]! shadow-text">
                     Start small by launching a pilot program, where you measure
                     the return on investment. And be sure to consult the U.S.
                     SBA official guides to fully understand the ethical and

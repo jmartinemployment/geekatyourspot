@@ -3,19 +3,19 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function SequenceSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Rolling out Intelligent Content Planning inside a small business is not a one-click install. It is a
         sequence of practical steps, each building on the last, and every one shapes how fast you see results.
         Here is what that looks like for a team in Miami-Dade or Broward, from the first call to the first
         live campaign.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The process starts with a clear alignment on business objectives. The first meeting is not about tools
         or features, it is about what is broken, what it is costing you, and what will count as a win. If your
         team is losing hours to manual research and never seeing those posts rank, the goal might be to cut
         research time in half and get three new posts onto page one within two months. This is not an
         aspirational wish list. It is a baseline for every decision that follows, and it keeps the project
         honest when priorities start to drift.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next comes the&nbsp;data quality&nbsp;assessment.
         This is where most teams hit their first reality check. You need to pull together every source of
         content data you have, past blog posts, performance analytics, keyword lists, campaign results, and
@@ -24,7 +24,7 @@ export default function SequenceSection() {
         topics, or untagged assets, that will block automation or make recommendations unreliable. Cleaning
         this up is tedious but non-negotiable. Without it, the best AI platform in the world will spit out
         flawed or generic plans.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once the data is in order, you move to tech selection and architecture. Here, you weigh the needs
         identified in the objective-setting and data audit phases against what each platform actually does.
         For example, if your biggest drag is repetitive&nbsp;<GlossaryLink slug="content-repurposing">content
@@ -38,7 +38,7 @@ export default function SequenceSection() {
         tracking delivers an edge. The decision is not just about features, but about which workflows you need
         to automate and how the tool plugs into what you already use, whether that is Google Workspace, Slack,
         or a&nbsp;CRM.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pilot implementation comes next. This is where the rubber meets the road. The team picks a single
         content type or campaign, maybe a weekly blog post or a month-long social push, to run through the
         full workflow. Every step is tested live: sourcing topics, generating outlines, drafting posts,
@@ -46,7 +46,7 @@ export default function SequenceSection() {
         works; it is about surfacing friction points, like bottlenecks in approvals or gaps in the data feed.
         The team collects feedback and performance data in real time, measuring against the KPIs set at the
         start. If the goal was to publish in half the usual time, the numbers need to show it.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With the pilot validated, the team expands the rollout. This may mean adding new content formats,
         bringing in more users, or integrating additional platforms. At this stage, the focus is on continuous
         scaling and seamless integration. New workflows are documented, and the team sets up automated alerts
@@ -54,14 +54,14 @@ export default function SequenceSection() {
         ownership, or approval delays, are ironed out before scaling further. This is also the point where
         ongoing support and training become critical. The best tools will not fix a process if the team is not
         confident using them.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         A real rollout does not end at launch. The system is monitored for drift, with regular check-ins
         against the original business objectives. Are posts ranking? Is the team still hitting time-saving
         targets? Is brand voice consistent across all channels? If not,
         the&nbsp;data model&nbsp;or workflow is revisited, and
         adjustments are made. Tools like Hootsuite and Semrush provide real-time analytics and
         recommendations, making it easy to spot when performance slips and course corrections are needed.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In concrete terms, the rollout is a living process. It starts with a clear business goal, builds a
         clean data foundation, matches tools to actual workflow needs, tests in a controlled pilot, and then
         scales with careful measurement and ongoing adjustment. Every step is grounded in your real

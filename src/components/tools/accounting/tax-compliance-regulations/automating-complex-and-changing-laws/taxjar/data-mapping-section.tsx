@@ -2,28 +2,28 @@
 export default function DataMappingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Data structure and mapping are crucial when deploying TaxJar, as they determine how effectively the
         system can automate your&nbsp;tax compliance. The
         initial setup requires careful planning to ensure that all relevant data is accurately captured and
         integrated.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of the first considerations is the classification of your products. TaxJar&#39;s smart product
         classification tools allow you to assign tax codes to each product, ensuring that sales tax is collected
         only when required. This step is vital for businesses selling diverse products, as misclassification can
         lead to compliance issues and financial penalties.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Mapping your sales data to TaxJar&#39;s system is another critical step. This involves linking your
         transaction data from various sales channels to TaxJar&#39;s platform. Geek @ Your Spot LLC assists in
         setting up these connections, ensuring that data flows seamlessly from e-commerce platforms like Amazon
         and Squarespace into TaxJar. This integration is essential for generating accurate tax reports and
         filings.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Additionally, configuring the Economic Nexus Insights dashboard is important for tracking your tax
         liabilities. This tool alerts you when you are nearing nexus thresholds in different states, allowing
         you to take timely action to remain compliant. Proper setup of this feature involves mapping your sales
         data to the dashboard, enabling it to provide real-time insights into your tax obligations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, Geek @ Your Spot LLC ensures that all data privacy and security measures are in place. This
         includes setting up access controls and encryption to protect sensitive financial information. By
         addressing these data structure and mapping considerations upfront, your business can leverage

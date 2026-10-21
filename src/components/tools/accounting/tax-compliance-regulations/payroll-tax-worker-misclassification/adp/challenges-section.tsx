@@ -1,7 +1,7 @@
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Payroll tax and worker misclassification are not just paperwork headaches for small businesses in South
         Florida, they are direct threats to survival. In Miami-Dade, Broward, and West Palm Beach, most owners
         run lean teams. They rely on a mix of full-time staff, part-timers, and independent contractors to keep
@@ -9,7 +9,7 @@ export default function ChallengesSection() {
         shifts from W-2 to 1099, the risk of a costly error rises. The problem is not just complexity. It is the
         relentless pace of regulatory change and the real possibility that a single mistake, like misclassifying
         a worker or missing a payroll tax deadline, could wipe out months of profit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Owners who try to handle this manually face a maze of rules that change by state, by city, and by worker
         type. Each payroll run means checking overtime calculations, verifying hours, and confirming the right
         tax withholdings for every category of worker. The rules for overtime alone can shift depending on local
@@ -18,7 +18,7 @@ export default function ChallengesSection() {
         legal team, the owner is left to interpret guidance, scan for updates, and hope that nothing slips. This
         means hours lost every week to research, double-checking, and manual data entry, time that could be
         spent growing the business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The stakes are high. Misclassifying a contractor as an employee, or vice versa, does not just mean a
         slap on the wrist. It can trigger audits, back taxes, fines, and penalties that stack up fast. In
         industries like construction or hospitality, where turnover is high and roles shift constantly, the risk
@@ -27,7 +27,7 @@ export default function ChallengesSection() {
         entry-level accounting software, they often assume compliance is built in. In reality, most basic tools
         do not track regulatory changes or flag classification risks. The result is a false sense of security
         that can unravel with one audit letter.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual processes also make it easy for small mistakes to snowball. If overtime is miscalculated for even
         one pay period, the error can compound over weeks or months before anyone notices. The same goes for tax
         filings, if a deadline is missed or a form is filled incorrectly, the penalties can escalate quickly.
@@ -35,14 +35,14 @@ export default function ChallengesSection() {
         correcting duplicate entries, or scrambling to explain discrepancies to tax authorities. Every payroll
         cycle becomes a high-stakes balancing act, with the owner caught between trying to scale the business
         and avoiding a compliance disaster.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Support is another pain point. When a payroll or tax crisis hits, like a rejected filing or a flagged
         misclassification, owners often find themselves stuck in support queues or chatbot loops. Getting a real
         answer from a live expert can take hours, if it happens at all. In the meantime, the risk of penalties
         or disrupted payroll grows. For businesses in South Florida, where the economic landscape is gig-heavy
         and seasonal, the pace of change makes it even harder to keep up. Owners want to hire flexibly and scale
         their teams, but every new worker or contract brings a fresh set of compliance risks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The cost is not just in money paid to the IRS or state agencies. It is in lost hours, missed
         opportunities, and the constant anxiety that comes from never being sure if the business is truly
         compliant. Owners spend evenings and weekends trying to untangle guidance, update spreadsheets, or fix

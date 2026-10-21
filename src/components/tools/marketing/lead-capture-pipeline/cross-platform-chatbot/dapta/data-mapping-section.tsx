@@ -2,14 +2,14 @@
 export default function DataMappingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Getting Dapta to deliver clean, actionable leads depends on making the right data structure and
         mapping decisions at the start. The platform’s promise is that every inquiry, whether it comes in by
         phone, chat, or WhatsApp, lands as a structured, qualified record in
         your&nbsp;CRM&nbsp;or calendar. That only happens if you
         define what fields matter, how they map across channels, and what counts as a qualified lead for your
         business.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first decision is which data fields each conversation should capture. Dapta is built to extract
         structured information, such as name, contact details, service needed, urgency, and budget, during the
         initial interaction. You decide which questions the agent asks, and which answers are required before
@@ -17,7 +17,7 @@ export default function DataMappingSection() {
         type, and preferred appointment window. For a legal intake, it could be the nature of the inquiry and
         urgency. This upfront mapping ensures that every channel, whether a WhatsApp message or a phone call,
         collects the same essential details, so nothing gets lost or duplicated.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Next is mapping these fields to your existing&nbsp;CRM&nbsp;or
         booking system. Dapta’s integrations with tools like HubSpot, Salesforce, and Google Calendar allow
         you to specify exactly where each piece of information should land. For example, a new lead captured
@@ -26,14 +26,14 @@ export default function DataMappingSection() {
         Appointment times are synced directly to your team’s calendars, and reminders can be set to trigger
         automatically. If your business uses multiple systems, Dapta’s support for over 1,000 integrations
         means you can route data to the right place without manual handoff.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another key mapping decision is how to handle multi-channel conversations. Dapta keeps the customer’s
         identity and conversation history connected, even if they switch from chat to phone or from WhatsApp
         to email. This requires matching identifiers, such as phone numbers, email addresses, or WhatsApp IDs,
         across systems. Defining these matching rules up front ensures that every conversation links to the
         correct contact record, so your team sees a single timeline of all interactions. This is critical for
         avoiding duplicate records and for giving staff the context they need to respond consistently.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lead qualification rules are also mapped at this stage. Dapta lets you set the criteria that define a
         sales-ready lead: budget thresholds, service area, urgency, or any other field you care about. The
         agent scores each lead in real time, based on your rules, and only passes qualified leads to your
@@ -41,13 +41,13 @@ export default function DataMappingSection() {
         ensures your team spends time only on real opportunities. For example, Skydropx, a logistics platform,
         used Dapta to cut its cost per qualified lead in half by tightening these qualification and mapping
         rules.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, you set escalation paths for cases the agent cannot handle confidently. Dapta is configured
         to escalate complex or sensitive questions to a human, passing along the full conversation context.
         This mapping, deciding which triggers require a handoff and where the handoff goes, prevents the agent
         from going off-script or mishandling high-stakes inquiries. Every escalation is logged, so you can
         review and refine the rules as your team learns what works.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC works with clients to define these data structures and mapping rules during
         deployment. The goal is a system where every lead is captured, qualified, and routed without manual
         rework, and where your team always sees the full picture. The upfront decisions you make here set the

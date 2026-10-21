@@ -1,7 +1,7 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Tipalti is best suited for small to medium-sized businesses that handle a significant number of
         transactions and require robust fraud prevention and payment processing capabilities. Its comprehensive
         features, such as AI-powered fraud detection and automated
@@ -9,31 +9,31 @@ export default function RightFitSection() {
         workload. For companies facing challenges with manual&nbsp;
         accounts payable&nbsp;processes, Tipalti offers a
         transformative solution that can enhance efficiency and accuracy.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, Tipalti may not be the best fit for very small businesses with limited transaction volumes or
         those that do not require extensive automation. The platform&#39;s advanced features might be more
         than what a small operation needs, potentially leading to underutilization of the system. Businesses
         with minimal international dealings might also find some of Tipalti&#39;s global payment features
         unnecessary.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering Tipalti, the next step is to evaluate their specific needs and compare them
         against the platform’s capabilities. This involves assessing current pain points in the accounts
         payable process and determining how Tipalti can address these issues. A thorough analysis of the
         potential time and cost savings, as well as the reduction in fraud risk, will help in making an
         informed decision.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC, as a local consultancy, can assist businesses in the West Palm Beach, Broward, and
         Miami-Dade counties with the implementation of Tipalti. They offer expertise in configuring the
         platform to fit the unique needs of each business, ensuring seamless integration with existing systems.
         Their local presence means they understand the specific challenges faced by businesses in the area and
         can provide tailored support.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In summary, Tipalti is a powerful tool for businesses seeking to automate their accounts payable
         processes and enhance fraud controls. For those unsure about the fit, consulting with Geek @ Your Spot LLC
         can provide clarity and guidance. They can help determine if Tipalti is the right choice and support
         the transition to an automated system, ensuring that the business reaps the full benefits of the
         platform.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <button type="button" data-scheduler-link id={`tools-accounting-fraud-controls-tipalti-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
         </button>.</p>

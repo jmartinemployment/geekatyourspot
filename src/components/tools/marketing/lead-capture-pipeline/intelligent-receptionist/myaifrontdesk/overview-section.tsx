@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The front desk phone rings three times in a row while your team is out on a job, locked in a patient
         consult, or catching up on overdue paperwork. Each call is a possible new client, a returning customer,
         or a referral ready to buy. But with no one available to pick up, those calls drop to voicemail, or
@@ -13,7 +13,7 @@ export default function OverviewSection() {
         is a lost chance to book a job, answer a question, or keep a customer from calling a competitor. For
         solo operators or micro-teams, every hour spent on repetitive admin is another hour not spent doing
         billable work, growing the business, or taking a well-earned break.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         You already know that most callers will not leave a message. Instead, they move on, often to a company
         that answers the phone or replies to a web chat first. The cost is not just in missed revenue, but in
         the constant distraction and context switching. Your focus is fractured by routine questions,
@@ -22,7 +22,7 @@ export default function OverviewSection() {
         details, missing callbacks, or letting leads slip through the cracks. Traditional answering services are
         expensive and inconsistent, and hiring a full-time front desk is out of reach for most small businesses.
         The result: inbound lead leakage, after-hours bottlenecks, and a calendar that never quite fills up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is where an&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes the game. Unlike voicemail or a basic phone tree, an
         AI-powered receptionist answers every call instantly, holds a real conversation in plain language,
         qualifies the lead, books appointments on your calendar, and logs every detail to
@@ -34,7 +34,7 @@ export default function OverviewSection() {
         most likely to buy, and voice assistants handle routine questions so your team can focus on real work.
         The bottom line: more sales, fewer errors, and a business that feels twice as big without doubling your
         costs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are tired of seeing good opportunities slip away because you are busy with the day-to-day, this
         is the solution that lets you keep every connection, and every dollar, without hiring another person.
         Geek @ Your Spot LLC helps small businesses in South Florida put intelligent, affordable automation in

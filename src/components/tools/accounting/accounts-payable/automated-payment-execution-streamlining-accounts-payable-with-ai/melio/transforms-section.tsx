@@ -1,41 +1,41 @@
 export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Melio revolutionizes the way small businesses handle Automated Payment Execution by eliminating many
         of the tedious tasks associated with manual payment processes. One of the key benefits of Melio is
         its ability to schedule payments in advance, directly linked to your accounting software. This
         integration removes the need for duplicate data entry, saving countless hours that would otherwise be
         spent re-entering information.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         With Melio, businesses can set up recurring payments, ensuring that routine bills are paid on time
         without manual intervention. This feature not only prevents late fees but also strengthens vendor
         relationships by maintaining consistent payment schedules. By automating these processes, Melio
         allows business owners to focus on more strategic tasks that drive growth and innovation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another significant advantage of using Melio is its ability to manage cash flow more effectively. By
         providing a centralized platform for monitoring and scheduling payments, Melio helps businesses
         maintain a healthy cash flow. The system&#39;s integration with QuickBooks enables real-time cash
         flow reporting, allowing businesses to make informed financial decisions based on accurate and
         up-to-date information.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Melio also offers flexibility in payment methods, including the option to pay by credit card even to
         vendors who do not accept card payments. This feature provides access to a credit card float,
         allowing businesses to manage their cash flow more effectively by deferring payments to the next
         billing cycle. This flexibility is particularly beneficial for small businesses that need to maintain
         liquidity while ensuring timely payments.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         By automating the repetitive aspects of accounts payable, Melio significantly reduces the risk of
         errors and the time spent on manual follow-ups. The platform&#39;s ability to send automated payment
         reminders and match incoming payments to open invoices ensures that all financial transactions are
         accurately recorded and reconciled. This level of automation not only enhances efficiency but also
         provides peace of mind for business owners, knowing that their accounts payable processes are running
         smoothly.</p>
-      <p className="text-md italic text-white shadow-text pt-3">
+      <p className="text-base italic text-white shadow-text pt-3">
         &quot;Manage payment limitations and set payment terms by amount, team member, and vendor.&quot;&nbsp;
         <a id={`tools-accounting-payment-execution-melio-transforms-source${idSuffix}`}
           href="https://melio.com/approval-workflow/"
-          target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
+          target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">
           Melio
         </a></p>
     </>

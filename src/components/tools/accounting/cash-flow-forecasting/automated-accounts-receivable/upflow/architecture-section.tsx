@@ -2,29 +2,29 @@
 export default function ArchitectureSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Upflow is built on a flexible architecture that supports seamless integration with a variety
         of&nbsp;ERP&nbsp;and
         accounting tools. This capability is vital for ensuring that businesses can maintain a single source of
         truth for their financial data. By connecting directly to systems like NetSuite, QuickBooks, and Sage
         Intacct, Upflow ensures that all automated accounts receivable data is current and synchronized across
         platforms.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         One of Upflow&#39;s standout features is its native integration with Stripe, allowing for real-time import
         of customers, invoices, and payments. This integration is streamlined, requiring minimal setup and no
         complex coding. Once connected, Upflow automatically updates as new transactions occur, keeping your
         automated accounts receivable process accurate and up-to-date without manual intervention.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform also provides a branded customer portal, which supports various payment methods including ACH,
         credit card, and direct debit. This portal not only facilitates easy payments but also logs every
         transaction, offering a comprehensive view of customer interactions. This visibility helps finance teams
         manage relationships and track payment commitments more effectively.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Upflow&#39;s architecture supports advanced features like automated reminder workflows and smart debtor
         segmentation. These tools allow businesses to automate follow-ups and tailor collection strategies based on
         customer behavior, risk levels, and payment histories. By automating these processes, Upflow reduces the
         manual workload on finance teams and enhances the efficiency of the collections process.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Security is a core component of Upflow&#39;s architecture. The platform complies with stringent data
         protection standards, including SOC 2 Type II, ensuring that all data is encrypted both in transit and at
         rest. This commitment to security provides businesses with the confidence that their financial data is

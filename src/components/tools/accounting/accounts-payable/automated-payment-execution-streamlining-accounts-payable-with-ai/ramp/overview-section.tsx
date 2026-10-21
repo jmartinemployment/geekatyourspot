@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the quiet of a small office in Miami-Dade, the&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;team is bogged down by a
         mountain of invoices. Each document requires manual entry, approval, and payment, consuming valuable
@@ -12,7 +12,7 @@ export default function OverviewSection() {
         stress mounts as the team races against the clock to meet payment deadlines. This is a daily reality
         for many small businesses, where every minute spent on administrative tasks is a minute not spent on
         growth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-payment-execution-ramp-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven solutions like&nbsp;
         <a id={`tools-accounting-payment-execution-ramp-overview-bill-pay${idSuffix}`}
@@ -23,7 +23,7 @@ export default function OverviewSection() {
         Imagine a system where invoices are automatically coded and matched to purchase orders, where payments
         are scheduled and executed without manual intervention. This isn&#39;t just a time-saver. It&#39;s a
         game-changer, freeing up your team to focus on what truly matters: driving your business forward.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in West Palm Beach, Broward, and Miami-Dade, the benefits are clear. Automated
         systems reduce the risk of human error, enhance fraud detection, and provide real-time visibility into
         financial operations. With the integration of automated payment workflows, you can ensure compliance,

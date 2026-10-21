@@ -3,13 +3,13 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fathom is built for small and medium businesses, business advisors, franchises, and groups that need
         more from their financial data than a monthly spreadsheet. If your team is running QuickBooks, Xero, or
         MYOB and spends too much time copying numbers into Excel, chasing down errors, or trying to explain cash
         flow to non-finance staff, this is the platform that can clear the backlog and return hours to your
         week.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         It suits teams who want to consolidate results across multiple companies or locations, track both
         financial and non-financial KPIs, and produce board-ready reports without a week of manual formatting.
         If you are dealing with multi-entity operations, whether that’s a franchise network, a holding company,
@@ -17,7 +17,7 @@ export default function RightFitSection() {
         benchmark performance is a fit. The platform is also built for those who need scenario planning and
         three-way forecasting, with the flexibility to model different outcomes and track the impact in real
         time.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fathom is not for companies that need a full
         transactional&nbsp;ERP. If you are looking to automate
         payroll,&nbsp;<GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>, or inventory
@@ -25,7 +25,7 @@ export default function RightFitSection() {
         businesses that have no desire to change their reporting process or who are committed to doing
         everything manually in Excel. If your company does not need consolidated reporting, custom KPIs, or
         scenario planning, the platform’s strengths will be underused.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The best results come when a business is ready to move beyond static spreadsheets and wants to make use
         of the data it already has. If your team is already spending hours each month cleaning, mapping, and
         updating reports, Fathom is the tool that can automate the bulk of that work. The platform’s
@@ -33,21 +33,21 @@ export default function RightFitSection() {
         that turns those numbers into live dashboards and actionable insights. For decision-makers who want a
         clear view of cash flow, profitability, and performance drivers, this is a direct upgrade from the old
         way of working.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are a business advisor or accountant supporting multiple clients or entities, Fathom offers the
         structure to scale advisory work without sacrificing quality. Its repeatable, customizable reporting
         templates and&nbsp;KPI&nbsp;dashboards mean you can deliver
         timely, consistent insights to all your clients, regardless of size or complexity. For franchises and
         groups, the ability to benchmark performance and consolidate results across dozens or even hundreds of
         locations is built in, not an afterthought.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fathom is also a fit for teams that need to bring non-financial data into the picture. If you want to
         track headcount, units sold, occupancy rates, or other operational drivers alongside your financials,
         the platform’s custom&nbsp;KPI&nbsp;builder and Excel/Google
         Sheets integrations make this possible. This is particularly valuable for businesses whose cash flow
         depends on more than just sales and expenses, such as real estate, hospitality, or service companies
         with variable demand.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC steps in where most small businesses hit a wall: mapping messy data, configuring KPIs,
         and setting up dashboards that actually fit your business model. The consultancy’s four-phase approach,
         define objectives, assess&nbsp;data quality, choose the
@@ -56,24 +56,24 @@ export default function RightFitSection() {
         setup, training, and ongoing support handled locally. For teams in West Palm Beach, Broward, and
         Miami-Dade, this means you are not left to troubleshoot after the fact; you have a partner who knows
         both the tool and the local business landscape.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Fathom is not a one-size-fits-all solution. If your business is not ready to automate reporting, or if
         you do not have reliable data sources to connect, the value will be limited. But for small businesses
         who want to move quickly, keep their existing tools, and get live, actionable insight from their
         numbers, it is a practical next step. The platform’s free 14-day trial gives you a no-risk way to see if
         it fits your needs, and Geek @ Your Spot LLC’s consultative approach ensures you do not waste time or money
         on a tool that does not fit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next step is not to rip out your current systems or commit to a long, expensive project. It is to
         clarify what you want to measure, see if your data is ready, and decide if live dashboards and automated
         reporting would change how you make decisions. For teams who recognize the cost of spreadsheet chaos and
         the limits of manual reporting, Fathom offers a way forward that is built for small business realities,
         not just big enterprise budgets.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-intelligent-resource-planning-fathomhq-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
         <li>When a vendor drops a surprise bill or an invoice discrepancy occurs, how many different emails, text messages, or physical folders do you have to search through to audit what actually happened?</li>
         <li>Are you running your bookkeeping on a cash or accrual basis, and how long does it take you to officially &#39;close the books&#39; at the end of the month?</li>

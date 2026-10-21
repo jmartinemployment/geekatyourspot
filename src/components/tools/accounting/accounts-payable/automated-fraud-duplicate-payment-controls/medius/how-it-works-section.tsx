@@ -3,7 +3,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Medius operates as a comprehensive&nbsp;
         accounts payable
         &nbsp;automation platform, specifically designed to tackle challenges like invoice fraud and duplicate
@@ -16,7 +16,7 @@ export default function HowItWorksSection() {
         flagged before they can cause financial harm. The system is continuously learning from new data,
         enhancing its detection capabilities over time, which means it becomes more effective as it processes
         more transactions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The core of Medius&#39;s architecture is its ability to integrate seamlessly with existing enterprise
         resource planning (<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>)
         systems. This integration enables real-time data exchange, allowing Medius to capture and process
@@ -25,20 +25,20 @@ export default function HowItWorksSection() {
         invoices, identifying discrepancies such as missing or duplicate invoices before payments are
         executed. This ensures that all transactions are accurate and that any anomalies are addressed
         promptly.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Medius&#39;s architecture also includes robust fraud detection mechanisms. These mechanisms utilize AI
         to monitor invoice data for unusual patterns and suspicious activities, such as unexpected changes in
         supplier information or duplicate invoice numbers. The platform provides real-time alerts and risk
         scoring, which helps accounts payable teams quickly identify and address potential fraud. This
         proactive approach not only reduces the risk of financial losses but also enhances the overall
         security of financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Additionally, Medius offers a market-leading three-way matching process that automatically matches
         invoices against purchase orders and goods receipts. This feature eliminates the need for manual
         matching, reducing errors and speeding up the approval process. By automating these tasks, Medius
         frees up valuable time for finance teams, allowing them to focus on more strategic activities rather
         than being bogged down by manual processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform&#39;s architecture is designed to be scalable and adaptable, making it suitable for
         businesses of various sizes, including small businesses in West Palm Beach, Broward, and Miami-Dade
         counties. Medius&#39;s ability to handle complex, multi-PO invoices and its support for over 180

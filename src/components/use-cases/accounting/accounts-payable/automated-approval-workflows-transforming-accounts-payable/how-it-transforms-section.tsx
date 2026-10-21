@@ -3,53 +3,53 @@ import Link from "next/link";
 export default function HowItTransformsSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Implementing automated approval workflows in accounts payable (AP) is not just about installing
         software; it&#39;s a transformative process that redefines how invoices are handled from start to
         finish. This approach begins with defining business objectives to align AP processes with the
         company&#39;s strategic goals. The first step is to identify specific inefficiencies, such as manual
         data entry or delayed approvals, and set measurable Key Performance Indicators (KPIs) to address
         them.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once objectives are clear, a data quality assessment ensures that all necessary information is
         accurate and up-to-date. This involves cleansing data, removing duplicates, and standardizing formats
         to ensure consistency across the board. With clean data, the next phase involves selecting the right
         technology. Tools such as&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-transform-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>,&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-transform-ramp${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>, and&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-transform-approvalmax${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#0B162A] hover:underline">
           ApprovalMax
-        </Link>&nbsp;are integrated to automate various stages of the workflow, from&nbsp;<Link id={`use-cases-accounting-approval-workflows-how-it-transforms-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">invoice capture</Link>&nbsp;to
+        </Link>&nbsp;are integrated to automate various stages of the workflow, from&nbsp;<Link id={`use-cases-accounting-approval-workflows-how-it-transforms-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#0B162A] hover:underline">invoice capture</Link>&nbsp;to
         approval routing. Each tool is chosen based on its ability to work seamlessly with existing systems,
         ensuring a smooth transition.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The implementation strategy involves launching a pilot program to test the new system in a controlled
         environment. This allows the business to measure the return on investment and make necessary
         adjustments before full-scale deployment. During this phase, the AP team is trained to use the new
         tools, ensuring they are comfortable with the technology and understand how it enhances their
         workflow.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         As invoices enter the system, tools like&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-transform-stampli${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-approval-workflows-transform-melio${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#0B162A] hover:underline">
           Melio
         </Link>&nbsp;take over, automating data entry and routing invoices to the appropriate approvers based
         on pre-set rules. These systems maintain a comprehensive audit trail, ensuring every action is logged
         and easily accessible for review. The automation not only speeds up the approval process but also
         provides real-time visibility into invoice status, allowing for proactive management and timely
         decision-making.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Finally, ongoing monitoring and optimization ensure the system continues to meet the business&#39;s
         needs. Regular reviews of KPIs and feedback from the AP team help identify areas for improvement,
         ensuring the system remains efficient and effective in the long term. This holistic approach to

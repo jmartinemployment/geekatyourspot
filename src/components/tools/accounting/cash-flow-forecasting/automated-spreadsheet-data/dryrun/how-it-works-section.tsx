@@ -3,12 +3,12 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function HowItWorksSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Dryrun transforms the way businesses manage cash flow by integrating real-time data and sophisticated
         scenario modeling. At its core, Dryrun operates through a series of interconnected steps that
         streamline&nbsp;cash
         flow forecasting&nbsp;and decision-making processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The first step in Dryrun&#39;s operation is data synchronization. Dryrun connects directly to
         leading&nbsp;ERP&nbsp;and
         accounting systems such as NetSuite, Sage Intacct, Microsoft Dynamics 365 Business Central, and QuickBooks
@@ -16,19 +16,19 @@ export default function HowItWorksSection() {
         entry and reducing errors.
         Automated&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;syncs
         continuously pull live bank balances, open invoices, and vendor bills directly into the platform.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Once the data is synchronized, Dryrun employs transaction-level overrides to refine cash flow forecasts.
         This feature allows finance teams to adjust for specific transaction realities such as invoice bumping and
         split payments. By doing so, businesses can gain a more accurate view of their liquidity, tailored to their
         unique operational needs. This precision helps mitigate risks associated with generalized assumptions often
         found in traditional forecasting methods.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Dryrun&#39;s scenario modeling is a critical component of its operation. It allows users to create dynamic
         &quot;what-if&quot; scenarios that overlay real-time data. This feature is particularly useful during
         periods of economic volatility, enabling businesses to foresee potential cash flow challenges and adjust
         their strategies accordingly. Finance leaders can simulate various operational shifts, such as delayed
         receivables or renegotiated vendor terms, without disrupting core accounting records.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The final step involves real-time reporting and visualization. Dryrun converts complex financial data into
         intuitive visuals that update automatically. This functionality provides leadership with clear insights into
         the company&#39;s cash position, facilitating informed decision-making without the need to wade through

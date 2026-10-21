@@ -1,51 +1,51 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Jirav is built for small businesses that have outgrown manual spreadsheets and disconnected apps, but
         are not ready, or do not need, to jump into the deep end with a
         heavyweight&nbsp;ERP. If your team spends more time formatting
         and reconciling data than making decisions, or if you find yourself patching together reports for banks,
         investors, or your own peace of mind, Jirav is designed for you.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         It fits best for teams that want to automate&nbsp;cash flow
         forecasting, keep a live handle on accounts receivable, and replace error-prone
         spreadsheet models with a single, connected platform. If you are running QuickBooks, NetSuite, Sage
         Intacct, or any of the 200-plus systems Jirav integrates with, the transition is direct. You do not need
         to rip out your core accounting or&nbsp;CRM, Jirav plugs in,
         pulls your data, and starts modeling your business as it actually runs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Jirav is especially strong for companies that face seasonality, cash swings, or rapid growth. If you
         have to plan hiring around unpredictable income, or if a slow month can throw your whole plan off, the
         rolling forecast and scenario planning tools let you see trouble coming and adjust before it hits. You
         can model what happens if a client pays late, if you win a big contract, or if you need to add staff
         next quarter. You get the numbers in minutes, not days, and everyone works from the same version of the
         truth.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         But Jirav is not for everyone. If your business is still small enough that one person can run the
         numbers in a single Excel file, and you do not need to share forecasts or reports with anyone else, you
         may not feel the pain Jirav solves. For one-off, ad hoc analysis or highly customized, non-repeatable
         models, Excel is still faster and more flexible. Jirav is about making the routine, repeatable work
         automatic and error-free, it is not a replacement for every custom spreadsheet you might ever build.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If you are looking for a full&nbsp;ERP&nbsp;that runs every
         operational process, inventory, order management, compliance, and deep industry-specific workflows,
         Jirav is not that tool. It is focused on financial and intelligent resource planning: forecasting,
         budgeting, workforce planning, and cash flow. You keep your existing systems for operations and let
         Jirav handle the numbers that drive decisions.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Some businesses with highly specialized needs, or those that require a fully custom data schema, may
         find Jirav’s model limiting. It is designed to standardize and automate, not to be rebuilt from scratch
         for every new situation. The platform is strongest when you want consistency, speed, and accuracy across
         routine planning and reporting. If your requirements are so unique that standardization is not possible,
         a custom-built solution or a more open-ended platform might fit better.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For South Florida small businesses that want to get out of the weeds of manual accounting and
         forecasting, Jirav delivers real, immediate impact. You get back hours every week, reduce errors, and
         gain the confidence to plan ahead. If your team is ready to move past the spreadsheet scramble but does
         not want to take on the cost and complexity of a full&nbsp;ERP,
         Jirav is the practical, proven choice.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next step is to map your own environment to Jirav’s strengths. Look at where your current process
         breaks down: is it data entry, reporting, forecasting, or scenario planning? If your pain points match
         the ones Jirav solves, manual consolidation, slow updates, disconnected forecasts, then you are in the
@@ -53,18 +53,18 @@ export default function RightFitSection() {
         specific data, that is where an implementation partner like Geek @ Your Spot LLC comes in. They bridge the
         gap between your current setup and a live, automated planning environment, so you get the benefits fast
         and with less risk.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Choosing Jirav is not about chasing the latest trend. It is about fixing the real, costly problems that
         block your growth and eat your team’s time. For small businesses that need to see where their money is
         going, plan for growth, and keep everyone aligned, Jirav is a fit. For those whose needs are outside
         standardized financial planning and forecasting, or who want a full
         operational&nbsp;ERP, another tool may be a better match. The
         fit is clear once you see where your week goes, and where you want it back.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-accounting-intelligent-resource-planning-jirav-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
         <li>When a vendor drops a surprise bill or an invoice discrepancy occurs, how many different emails, text messages, or physical folders do you have to search through to audit what actually happened?</li>
         <li>Are you running your bookkeeping on a cash or accrual basis, and how long does it take you to officially &#39;close the books&#39; at the end of the month?</li>

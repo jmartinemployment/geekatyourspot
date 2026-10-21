@@ -2,14 +2,14 @@
 export default function ConfiguringSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Configuring Lusha for a lead enrichment and predictive scoring pipeline is not about flipping a switch
         and hoping the data flows. It is a detailed process that sets up the rules, automations, and
         integrations that turn Lusha’s raw power into a working system for your team. Geek @ Your Spot LLC’s role
         is to close the gap between what Lusha offers out of the box and what a South Florida small business
         actually needs to see in their&nbsp;CRM, dialer, or outreach
         tool every day.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha’s core logic starts with contact and company enrichment. You define what a “good lead” looks
         like by setting your Ideal Customer Profile (ICP) criteria, industry, company size, revenue range,
         geography, seniority, and more. Lusha’s automation then scores every inbound or uploaded lead against
@@ -17,7 +17,7 @@ export default function ConfiguringSection() {
         scoring logic is fully configurable, so if your sales priorities shift, you can adjust the criteria
         and weights, and the scoring updates in real time. Lusha’s own documentation describes over 50
         behavioral and firmographic filters for custom scoring and segmentation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Bulk enrichment is a major time-saver. Instead of one-by-one lookups, Lusha’s
         bulk&nbsp;API&nbsp;lets you process hundreds of contacts in
         seconds. You upload a CSV, Lusha splits the file into batches of 100 (the
@@ -26,7 +26,7 @@ export default function ConfiguringSection() {
         back ready to import into your&nbsp;CRM&nbsp;or dialer. For
         larger lists, Geek @ Your Spot LLC builds workflows that chain these batch calls, so even thousands of
         records can be cleaned and enriched overnight.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automation does not stop at enrichment. Lusha’s workflow logic can be set to
         update&nbsp;CRM&nbsp;records when contacts change jobs, get
         promoted, or leave a company. This is critical for small teams that cannot afford to waste time
@@ -35,25 +35,25 @@ export default function ConfiguringSection() {
         company changes, the&nbsp;CRM&nbsp;record is updated
         automatically, and the rep is alerted within 24 hours. For high-value deals, optional Slack
         notifications can fire to both the rep and manager, so no opportunity slips through the cracks.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha’s extension mechanism is its&nbsp;API. Everything,
         enrichment, scoring, signals, and workflow triggers, runs through documented endpoints. Geek @ Your Spot LLC configures these integrations to connect Lusha with Salesforce, HubSpot, Zoho, Outreach,
         SalesLoft, and SourceWhale. Field mapping is set up so that enriched data lands in the right custom
         properties or fields. For example, in HubSpot, you can map Lusha’s email confidence score, email
         status, and validation results directly to custom fields, powering automated deliverability checks and
         campaign segmentation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Quality control is part of the logic. Lusha flags records with low-confidence data for manual review,
         preventing bad contacts from slipping into campaigns. Titles, industries, and company sizes are
         normalized so your reporting and segmentation are consistent. Geek @ Your Spot LLC sets up these review
         queues and ensures that only high-confidence records are routed for sales action.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Lusha’s signal engine is another configurable layer. You can choose which buying signals, growth,
         intent, events, risk, should trigger&nbsp;lead
         scoring&nbsp;or routing. For example, you might set the system to flag any company with
         a recent hiring surge or a new executive as a high-priority lead. These signals can be weighted and
         combined with ICP fit to create a ranked, actionable list for your team.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams running always-on chatbots or voice assistants,
         Lusha’s&nbsp;API&nbsp;can be piped into those systems as well.
         The chatbot can pull real-time enrichment for website visitors and push the data into
@@ -61,7 +61,7 @@ export default function ConfiguringSection() {
         enriched. Geek @ Your Spot LLC handles the integration work, making sure the data flows smoothly between
         Lusha, your chatbot, and your&nbsp;CRM&nbsp;without manual
         intervention.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The configuration work is not just technical. It is about mapping your sales process to Lusha’s
         automation logic, then tuning the system as your business grows. Geek @ Your Spot LLC guides you through
         choosing the right scoring criteria, setting up batch enrichment workflows, mapping fields, and

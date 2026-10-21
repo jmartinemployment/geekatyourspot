@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Picture a local Miami salon owner, already working twelve-hour days, staring at a blank screen after
         closing time. She needs new Instagram captions, a fresh Google Business Profile blurb, and a few
         product descriptions for her online booking page. But every word comes slow. For each 50-word post,
@@ -11,7 +11,7 @@ export default function OverviewSection() {
         off. Multiply that by the five or ten pieces she needs each month, and the hours add up fast. Hiring a
         marketing agency to handle it? Out of reach: those quotes come in at thousands a month, a number that
         would swallow her margins whole.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This is the real catch-22 for small business owners and lean teams across West Palm, Broward, and
         Miami-Dade. To win local clients, they need to show up everywhere, socials, search, email, but they
         just can’t find the time, or justify the agency spend. So the pipeline dries up: a neglected Facebook
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         content creation becomes a source of stress, not results. The cost isn’t just in wasted hours. It’s
         lost leads, missed follow-ups, and the creeping sense that bigger competitors are always one step
         ahead.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         <Link id={`tools-marketing-intelligent-content-generation-rytr-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wrestling with every caption or
         email, owners use AI tools to draft, repurpose, and schedule content in minutes. The right workflow
         means never starting from scratch: one strong idea turns into a month’s worth of posts, emails, and
@@ -28,7 +28,7 @@ export default function OverviewSection() {
         that keep so many out. The result: consistent, professional content, more time on core business, and a
         steady stream of new local leads. No more blank pages. No more sticker shock. Just a repeatable system
         that works for small teams, not against them.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC built its content creation workflow for exactly these South Florida businesses. The
         goal is simple: help you save time, cut costs, and finally compete online, without burning out or
         breaking the bank. Intelligent Content Generation is not a shortcut, but a lever. It frees up your day

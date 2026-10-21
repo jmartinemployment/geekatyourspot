@@ -120,18 +120,19 @@ All content must be written by hand in the JSX:
 - `<h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">`
 
 ### Body Text & Lists
-- Paragraphs: `<p className="pt-3 text-md font-normal text-white shadow-text">`
-- Bullet lists: Write each `<li>` individually inside `<ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">`
+- Paragraphs: `<p className="pt-3 text-base font-normal text-white shadow-text">`
+- Bullet lists: Write each `<li>` individually inside `<ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">`
   - Do NOT use `.map()` over an array of bullets
   - Each bullet is a separate `<li>` element
 
 ### Links
 - Use `<Link>` component with unique `id` attributes: `id="tools-marketing-[toolname]"` or `id="tools-marketing-[toolname]-[number]"` (for duplicates on same page)
 - **Link color by background:**
-  - Default (lighter backgrounds): `className="text-[#C83803] hover:underline"` (orange)
-  - Dark backgrounds (`#8C4E2A`, `#BF5934`): `className="text-[#0B162A] hover:underline"` (dark blue) — orange is not visible on these darker backgrounds
+  - On `#023059` and `#024059`: `className="text-[#C83803] hover:underline"` (orange)
+  - On `#025E73`, `#8C4E2A` and `#BF5934`: `className="text-[#0B162A] hover:underline"` (dark blue), because orange is not visible on them. Teal joined this group on 2026-10-21 (Jeff).
+- **Every link in the page content is bold** (Jeff, 2026-10-21). A base rule in `src/app/globals.css` sets it for every `a` inside `main`, so no link needs a `font-bold` class. A link inside a heading keeps the heading's weight.
 - **Heading links follow the same rule** (Jeff, 2026-10-18). A `Link` or `GlossaryLink` inside an `h1` to `h6` takes the colour of the body links on that ground and carries `hover:underline`. It is never `text-white`, and it is never a bare `<a>` with no class. A heading names a tool with no page as plain text, with no link.
-- A `GlossaryLink` on a dark background must pass `className="text-[#0B162A] hover:underline"`; its default is the orange.
+- A `GlossaryLink` on `#025E73`, `#8C4E2A` or `#BF5934` must pass `className="text-[#0B162A] hover:underline"`; its default is the orange.
 - Links are relative (`/tools/...`), never `https://geekatyourspot.com/...`.
 
 ### Internal links (Jeff, 2026-10-19)
@@ -219,7 +220,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] All headings and links have `id` attributes matching the raw HTML source
 - [ ] PAA section is single block with `col-span-12` heading and `col-span-12` body
 - [ ] PAA section has `<hr>` separators before first Q&A item and between each Q&A item (but not after the last)
-- [ ] Link colors match background: `text-[#C83803]` (default), `text-[#0B162A]` (on `#8C4E2A` or `#BF5934` backgrounds)
+- [ ] Link colors match background: `text-[#C83803]` (default), `text-[#0B162A]` (on `#025E73`, `#8C4E2A` or `#BF5934` backgrounds)
 - [ ] Every link, including one inside a heading, carries `hover:underline` and the ground's link colour
 - [ ] Internal links are in place: pillar to parent, siblings and blog post; every tool named with a page is linked (see "Internal links")
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)
@@ -281,7 +282,7 @@ Blog posts are not hand-coded. `src/app/(site)/blog/[department]/[...slug]/page.
 **Classes:** class lists go through `clsx`, never `cn()`. `cn()` runs tailwind-merge, which reads `font-[var(--font-sora)]` as a font weight and silently drops `font-black`. That is why every blog heading rendered at 400 until 002dfd5.
 
 **Links:**
-- In-article links are colour-matched by `section-palette.ts`: `#C83803` on the cool grounds and `#0B162A` on `#8C4E2A` and `#BF5934`.
+- In-article links are colour-matched by `section-palette.ts`: `#C83803` on `#023059` and `#024059`, and `#0B162A` on `#025E73`, `#8C4E2A` and `#BF5934`.
 - A link whose target was never built gets an entry in `LINK_OVERRIDES` in `content.ts`.
   - A string value sends the link to the real route.
   - A `null` value drops the anchor and keeps its words as plain text.

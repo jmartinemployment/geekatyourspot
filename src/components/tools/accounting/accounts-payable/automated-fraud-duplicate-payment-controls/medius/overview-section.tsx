@@ -4,7 +4,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In the bustling office of a small Miami-Dade business, the&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;team is knee-deep in
         invoices. Each one is a potential minefield of errors, delays, and fraud risks. A team member
@@ -14,7 +14,7 @@ export default function OverviewSection() {
         are a common headache, often bypassing detection and leading to unnecessary financial drain. The team
         spends countless hours scrutinizing each document, aware that a single oversight could result in
         significant monetary loss and damage to the company’s reputation.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;<Link id={`tools-accounting-fraud-controls-medius-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;offer a transformative solution to these challenges.
         By harnessing the power of&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>, businesses can shift from
         reactive to proactive fraud prevention. Advanced algorithms and&nbsp;
@@ -25,7 +25,7 @@ export default function OverviewSection() {
         identification of potential fraud, reducing financial risks and enabling quicker response times. For
         small businesses in West Palm Beach, Broward, and Miami-Dade counties, implementing such controls
         could mean the difference between financial security and preventable losses.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Medius, a leader in accounts payable automation, exemplifies how AI can bolster financial defenses.
         Its fraud detection software, trained on over a decade of real AP outcomes, offers unparalleled
         accuracy, detecting duplicate invoices, mismatched payment details, and unauthorized supplier changes.

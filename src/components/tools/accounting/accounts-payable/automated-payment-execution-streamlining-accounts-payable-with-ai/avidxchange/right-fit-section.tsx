@@ -1,41 +1,41 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         AvidXchange is particularly well-suited for small businesses that handle a high volume of invoices
         and payments. Its automated payment execution capabilities help businesses reduce manual tasks,
         allowing teams to focus on strategic initiatives rather than administrative duties. However, it may
         not be necessary for businesses with minimal accounts payable volume or those that do not require the
         advanced features AvidXchange offers.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses that experience frequent payment errors or delays due to manual processes, AvidXchange
         can be a transformative solution. By automating payments, businesses can improve accuracy and
         timeliness, which in turn strengthens supplier relationships and enhances cash flow management. The
         platform&#39;s real-time payment status updates and supplier support services further contribute to
         its appeal for businesses looking to streamline their payment processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         However, AvidXchange may not be the best fit for businesses with highly specialized payment needs that
         require custom solutions beyond what the platform offers. In such cases, businesses might consider
         alternatives that provide more tailored services, though potentially at a higher cost or with more
         complex integrations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For businesses considering AvidXchange, the next step is to assess their current accounts payable
         processes and identify specific pain points that the platform could address. This evaluation will
         help determine whether AvidXchange&#39;s features align with their operational needs and financial
         goals. Engaging with a consultancy like Geek @ Your Spot LLC can provide further insight into how
         AvidXchange can be effectively integrated into existing workflows, ensuring a smooth transition and
         maximizing the platform&#39;s benefits.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, the decision to adopt AvidXchange should be guided by a clear understanding of its
         potential impact on your business&#39;s efficiency and supplier relationships. By weighing the
         platform&#39;s capabilities against your specific needs, you can make a decision that supports your
         business&#39;s growth and operational success.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <button type="button" data-scheduler-link id={`tools-accounting-payment-execution-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
         </button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
         <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
         <li>Who enters bills into QuickBooks, Xero, or your accounting system?</li>

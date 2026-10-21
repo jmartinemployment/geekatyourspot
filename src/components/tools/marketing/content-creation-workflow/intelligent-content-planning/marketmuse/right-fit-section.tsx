@@ -1,7 +1,7 @@
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         MarketMuse is built for small teams who want to stop guessing and start making content decisions
         grounded in real data about their own business. It works best for organizations that need to stretch
         limited resources, move quickly, and show measurable results, especially those in competitive local
@@ -9,7 +9,7 @@ export default function RightFitSection() {
         never ranks, or you are overwhelmed by the sheer volume of topics you could cover, MarketMuse provides
         a clear path forward. Its automated inventory, personalized difficulty scoring, and competitive gap
         analysis are designed for teams that need to know exactly where to focus and why.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The platform is not the right fit for businesses looking for a plug-and-play content writer or a
         replacement for a content management system. MarketMuse does not publish content for you, nor does it
         manage your site’s backend. It is a strategic planning tool that tells you what to write, how to
@@ -17,7 +17,7 @@ export default function RightFitSection() {
         creation to software, or those that expect a CMS-like workflow, will not find what they need here.
         Instead, MarketMuse fits into a workflow where people still write, edit, and approve content, but do
         so with clear, data-backed guidance instead of hunches.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams with highly fragmented data, or those that have never run a content audit, the first step is
         to get their current assets mapped into MarketMuse. This means pulling in all published pages,
         tracking which topics are covered, and letting the platform apply its personalized metrics. The
@@ -25,7 +25,7 @@ export default function RightFitSection() {
         shifts. Teams can see which topics are easy wins, which require more investment, and which are simply
         not worth the effort. This clarity is especially valuable for small teams that cannot afford to waste
         resources on projects that will not move the needle.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         MarketMuse is also a strong fit for teams that need to coordinate across roles, writers, editors,
         managers, without losing sight of the strategy. The platform’s content briefs, topic models, and
         scoring systems help everyone stay aligned on the goals for each piece. It is not just about producing
@@ -33,7 +33,7 @@ export default function RightFitSection() {
         turnaround times, fewer rewrites, and a greater confidence that what they publish will actually
         perform. This is especially true for businesses that want to build long-term authority in their niche,
         rather than chasing short-term trends that do not deliver.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         If a small business is evaluating whether to implement MarketMuse, the next step is to assess their
         current workflow. Are they spending hours in spreadsheets, debating which topics to cover, or
         struggling to see results from their content? If so, MarketMuse is likely to deliver immediate value.
@@ -42,16 +42,16 @@ export default function RightFitSection() {
         out structured content briefs, and track performance over time. The key is to use the platform not as
         a replacement for people, but as a system that gives them the data and direction they need to win in
         their market.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For teams that want to go beyond manual planning and start making every piece of content count,
         MarketMuse offers a way to break the cycle of wasted effort and invisible results. It is not for
         everyone, but for those who need to make the most of limited resources and outmaneuver larger
         competitors, it is a strategic advantage that pays off week after week.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-content-planning-marketmuse-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</button>.</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
         <li>Who is actually doing the writing and optimization? Is it an in-house generalist, a dedicated copywriter, or a rotating group of freelance contractors?</li>
         <li>When local customers look for your services online, are you fighting head-to-head against massive corporate players with huge budgets, or are you mostly competing with other local independent businesses?</li>

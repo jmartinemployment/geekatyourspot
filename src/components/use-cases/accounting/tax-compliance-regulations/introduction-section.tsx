@@ -2,7 +2,7 @@
 export default function IntroductionSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Automated&nbsp;tax compliance&nbsp;systems have
         emerged as a transformative solution for businesses seeking to navigate the complexities of modern tax
         regulations. As tax codes become increasingly intricate and the risk of non-compliance grows,
@@ -14,7 +14,7 @@ export default function IntroductionSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         The Role of AI in Tax Compliance Automation
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Artificial intelligence plays a crucial role in the automation of tax compliance by offering advanced
         data processing capabilities. AI systems can analyze vast amounts of data to identify patterns and
         anomalies that may indicate compliance issues. By automating these processes, businesses can not only
@@ -26,12 +26,12 @@ export default function IntroductionSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Key Features of Automated Tax Compliance Systems
       </h3>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Real-time data integration: Automated systems integrate data from various sources in real-time, ensuring that all tax-related information is up-to-date and accurate.</li>
         <li>Error detection and correction: Advanced algorithms identify discrepancies and potential errors, allowing for prompt corrections and minimizing the risk of compliance issues.</li>
         <li>Regulatory updates: Automated systems continuously monitor changes in tax regulations, ensuring that businesses remain compliant with the latest requirements.</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         At Geek @ Your Spot LLC, we emphasize the importance of configuring these features to align with the
         specific regulatory landscapes of our clients. By customizing automation tools to fit the unique tax
         environments of different jurisdictions, we help organizations maintain compliance effortlessly while
@@ -39,7 +39,7 @@ export default function IntroductionSection() {
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Illustrative Scenario: Automation in Action
       </h3>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Consider a hypothetical mid-sized manufacturer that implements an automated tax compliance system. By
         integrating AI-driven tools, the company achieves a 40% reduction in the time spent on tax preparation
         and filing. This efficiency gain allows the finance team to allocate more resources to strategic

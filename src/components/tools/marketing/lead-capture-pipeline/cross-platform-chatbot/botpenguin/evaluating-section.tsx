@@ -2,7 +2,7 @@
 export default function EvaluatingSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         BotPenguin is designed for small businesses that need to manage lead capture and customer engagement
         across multiple chat and messaging channels without hiring a developer or building custom software.
         The fit question is simple: if your team is losing leads, repeating conversations, or struggling to
@@ -10,36 +10,36 @@ export default function EvaluatingSection() {
         BotPenguin’s&nbsp;unified inbox&nbsp;and automation
         rules can close those gaps. But the right fit depends on what you expect from the platform and how
         your sales process works.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Start with the channels you use. BotPenguin’s core value is its true cross-platform coverage,
         WhatsApp, Instagram DMs, Facebook Messenger, Telegram, SMS, website chat, and phone (via AI voice
         agent) all managed in one place. If you only use one channel, or your business relies on a proprietary
         app or a channel not supported by BotPenguin, its automation model will not serve you as well.
         BotPenguin works best for businesses that want every inbound message, comment, and DM to become a
         structured lead in a single pipeline, with no manual copy-paste or tab switching.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The next consideration is how much you need to customize. BotPenguin’s configuration is powerful but
         bounded by the platform: you can build flows, set rules, and map data fields, but you cannot write
         your own code or add integrations beyond the 100+ it supports natively. For most small teams, this
         means less risk, less maintenance, and no need to manage a developer or agency relationship for custom
         code. If your business needs a completely bespoke workflow or deep integration with a niche tool,
         BotPenguin may not be the best fit.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is straightforward and affordable for small teams. BotPenguin’s Baby plan is permanently free,
         covering one chatbot, 1,000 messages per month, unlimited leads, live chat, and AI-powered responses,
         enough for a small business to get started and see if the model fits. For teams that need to cover
         more channels or more volume, the Little plan adds support for five bots, five team members, and full
         access to WhatsApp, Instagram, and Facebook at $29 per month. There are no per-property or per-channel
         charges, and AI is included from the free tier up.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         What matters most in the pricing model is predictability. Unlike some competitors who meter by
         conversation, agent, or channel, BotPenguin’s plans are flat and scale by team size and bot count. For
         a small business, this means you can add new channels or grow your lead volume without worrying about
         surprise bills or needing to upgrade just to get a new integration. The free plan is not a trial, it
         is a real, usable tier with AI included and no forced upgrade for core use.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When judging fit, weigh these criteria:</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many channels do you need to support (WhatsApp, Instagram, Facebook, website, SMS, Telegram, phone)?</li>
         <li>Does your team need a no-code setup, or do you require custom scripting and integrations?</li>
         <li>Can you work within the integrations and flows BotPenguin offers, or do you have a unique process that needs code-level changes?</li>
@@ -47,7 +47,7 @@ export default function EvaluatingSection() {
         <li>How important is predictable, flat pricing versus usage-based or per-agent fees?</li>
         <li>Do you want AI-powered responses and 24/7 automation included from the start, or are you planning to add those features later?</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         BotPenguin’s limitations are real: you cannot build a feature outside what the platform supports, and
         you are limited to the integrations listed in the dashboard. But for most small businesses, these
         boundaries are a strength. You get a platform that is easy to deploy, simple to maintain, and

@@ -3,14 +3,14 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function ConfiguringSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         LobbyStack stands apart because it does not force your business into someone else’s script. The core
         value is control: you set the rules for how calls are answered, how information is gathered, and what
         happens next. This is not just a matter of swapping out a greeting. LobbyStack’s configuration covers
         every step of the call flow, from the first word the caller hears to how emergencies, bookings, and
         after-hours calls are routed. For small businesses in South Florida, that means the system works the way
         you do, not the other way around.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         At the heart of LobbyStack are configurable call handling rules. You decide what the receptionist says,
         which questions it asks, and the logic for moving a call from intake to booking, escalation, or message
         capture. The system is built to let you update business hours, pricing, policies, and instructions as
@@ -19,7 +19,7 @@ export default function ConfiguringSection() {
         nature of LobbyStack means you can audit every line of logic. You see exactly how the system processes
         calls, stores data, and applies business rules. For regulated industries or privacy-conscious teams,
         this transparency is a prerequisite, not a bonus.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         LobbyStack supports both managed cloud and self-hosted deployments. In the managed cloud, Geek @ Your Spot LLC configures the receptionist to match your business requirements, this includes setting up call
         flows, defining escalation paths, and integrating with your existing calendar (Google Calendar is
         supported natively). For self-hosted environments, the configuration runs deeper. Your team, or Geek @ Your Spot LLC on your behalf, can modify the open-source codebase itself. You control the deployment, the
@@ -27,10 +27,10 @@ export default function ConfiguringSection() {
         switch-flip&nbsp;SaaS: you define how the receptionist
         interacts with your internal systems, which model it uses for voice recognition, and how it logs and
         retains call data.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         What gets configured in practice? Here’s a breakdown drawn from LobbyStack’s own documentation and
         feature set:</p>
-      <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Greeting scripts: Craft the exact language your AI receptionist uses to welcome callers, including brand tone and language preference.</li>
         <li>Intake questions: Set up the questions the receptionist asks to qualify leads or collect information for bookings, such as address, service need, or safety details.</li>
         <li>Escalation and transfer logic: Define what counts as an emergency, who is on-call, and which calls should be routed to a live team member.</li>
@@ -40,7 +40,7 @@ export default function ConfiguringSection() {
         <li>Data retention and privacy: For self-hosted deployments, set policies for how long to keep call logs, transcripts, and recordings, and who can access them.</li>
         <li>Update timing: Control when software updates are applied, pin tested versions, and review changelogs before rolling out changes.</li>
       </ul>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         LobbyStack’s extension mechanism is rooted in its open-source codebase. For most small businesses,
         configuration happens through plain-language settings and the dashboard. For those with developer
         resources or working with a consultancy like Geek @ Your Spot LLC, the source code can be forked, modified,
@@ -49,19 +49,19 @@ export default function ConfiguringSection() {
         LobbyStack, but the repository supports direct code changes and API-level integrations. This is where a
         technical partner earns their keep, by mapping your business data, policies, and workflows onto the
         platform, and by building or connecting the integrations you need.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The process for configuring LobbyStack is hands-on. Geek @ Your Spot LLC starts by mapping your business’s
         intake and escalation rules, then sets up the receptionist to reflect your real processes. For
         self-hosted clients, this may mean standing up Docker containers, connecting your own Twilio and OpenAI
         accounts, and setting up your own database and dashboard with HTTPS. For managed cloud clients, Geek @ Your Spot LLC handles the setup, monitoring, and updates, while you retain control over how the receptionist
         behaves day to day. Either way, every aspect of the call flow is yours to define. This is not a black
         box, you see, test, and change every rule that matters.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         This level of control is what makes LobbyStack a fit for small businesses that want real flexibility.
         You are not locked into a vendor’s roadmap or forced to accept a one-size-fits-all script. When your
         business changes, your receptionist changes with it, without waiting for the next product release or
         paying for a custom development cycle. For teams with strict data requirements or
-        complex&nbsp;<GlossaryLink slug="call-routing">call routing</GlossaryLink>&nbsp;needs, the open-source
+        complex&nbsp;<GlossaryLink slug="call-routing" className="text-[#0B162A] hover:underline">call routing</GlossaryLink>&nbsp;needs, the open-source
         extension model means nothing is off limits. You own the logic, the data, and the outcome. That is the
         difference between a true Intelligent Receptionist and
         another&nbsp;SaaS&nbsp;answering service.</p>

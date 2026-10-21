@@ -2,14 +2,14 @@
 export default function ChallengesSection() {
   const body = (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The reality for small teams in South Florida is this: most of your marketing spend and sales effort is
         wasted on leads that never had a chance. You watch traffic numbers climb, but you are still left with
         a blank&nbsp;CRM&nbsp;and a pipeline full of guesses. The real
         cost is not just the ad budget burned on invisible visitors. It is the hours your sales team spends
         chasing cold contacts, the deals lost to faster competitors, and the feeling that you are always one
         step behind the real buyers.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Without a system like Snitcher, the typical week starts with a spreadsheet of anonymous web visits.
         You know companies are coming, but you have no way to know which ones are actually researching your
         services or comparing you to a competitor. Your team is stuck sifting through generic analytics,
@@ -17,20 +17,20 @@ export default function ChallengesSection() {
         never even looked at your pricing or left a traceable signal of intent. The best-fit leads, the ones
         who spent ten minutes on your case studies or checked out your proposal sheets, leave no clue behind.
         By the time you realize who they were, they are already signing with someone else.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         The pain gets sharper when you try to act on web data. Tracking raw visitor IPs by hand is tedious and
         slow. Even if you manage to match an IP to a business, you still do not know if they are a real
         prospect or a student, a competitor, or a random browser. You risk double-pitching accounts already in
         your pipeline or missing out on upsell opportunities because you cannot cross-reference traffic
         against your customer list in real time. Every manual step adds a delay. By the time someone notices a
         high-value account visited your site, the buying window has closed.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Guesswork rules the day. You cannot tell if the person who clicked a blog post is just browsing or if
         a real decision-maker is deep in your pricing tables, ready to buy. Treating all traffic the same
         means your team spends hours on the wrong leads, while the hot prospects slip away unnoticed. You are
         forced to rely on forms and inbound calls, knowing that most visitors will never fill anything out.
         The result is a pipeline that never reflects the real demand for your services.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Manual lead enrichment and predictive scoring is not just slow, it is error-prone. You miss signals,
         waste follow-up on low-fit leads, and let your best opportunities age out. Sales and marketing blame
         each other for missed targets, but the core problem is lack of visibility into who is actually

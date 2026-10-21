@@ -2,7 +2,7 @@
 export default function JudgingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering Tipalti for Automated Fraud &amp; Duplicate Payment Controls, it&#39;s crucial to
         assess how well it aligns with your business needs. Tipalti is designed to streamline&nbsp;
         accounts payable&nbsp;processes by automating
@@ -10,14 +10,14 @@ export default function JudgingSection() {
         and payment reconciliation. For small businesses in Miami-Dade, Broward, and West Palm Beach counties,
         the key is to evaluate whether Tipalti&#39;s capabilities match your operational scale and
         complexity.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Tipalti offers a comprehensive solution that integrates various functions into a single platform. This
         integration is particularly beneficial for businesses that handle a high volume of transactions and
         need to ensure compliance with international payment standards. The platform&#39;s&nbsp;
         AI-driven features, such as the Duplicate Bill Detection Agent,
         enhance fraud controls by identifying anomalies early. This not only reduces the risk of fraud but also
         minimizes overpayments, safeguarding your financial operations.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is a critical factor for small businesses. As of October 20, 2026, Tipalti&#39;s&nbsp;<a id={`tools-accounting-fraud-controls-tipalti-judging-pricing-source${idSuffix}`} href="https://tipalti.com/pricing/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">pricing page</a>&nbsp;lists
         Accounts Payable starting at $99 per month, plus transaction fees, with custom quotes for larger
         organizations. It&#39;s important to weigh the cost against the potential savings from
@@ -25,19 +25,19 @@ export default function JudgingSection() {
         includes setup, integration, and ongoing support. Tipalti&#39;s ability to automate complex processes
         can lead to significant time savings, which is a tangible benefit that can offset initial investment
         costs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Another consideration is the scalability of Tipalti. As your business grows, the platform can scale
         with you, accommodating more complex workflows and larger transaction volumes. This is particularly
         important for businesses planning to expand their operations or enter new markets. Tipalti&#39;s
         unified global infrastructure supports multi-currency transactions and compliance with local
         regulations, making it a viable option for businesses with international dealings.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Businesses evaluating Tipalti should also consider how it compares to other solutions in the market.
         While some platforms may offer lower upfront costs, they might not provide the same level of
         integration and automation. Tipalti&#39;s end-to-end automation and built-in compliance features set
         it apart by reducing the need for multiple third-party plugins, which can complicate processes and
         increase costs.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In conclusion, when judging Tipalti, focus on the alignment of its features with your business needs,
         the scalability of the platform, and the potential return on investment. While the initial cost might
         be a consideration, the long-term benefits of streamlined operations and reduced fraud risk can provide

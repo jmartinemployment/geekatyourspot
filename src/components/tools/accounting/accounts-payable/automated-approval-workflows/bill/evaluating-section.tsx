@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         When considering Bill for automated approval workflows, small businesses should focus on how well it
         fits their specific needs. The platform offers tailored approval workflows that can be customized to
         fit your business rules. This flexibility is crucial for businesses that require precise control over
@@ -11,7 +11,7 @@ export default function EvaluatingSection() {
         accounts payable&nbsp;processes. Bill&#39;s
         ability to handle routing, step tracking, and reminders ensures that invoices are approved
         efficiently, reducing manual intervention and potential errors.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Pricing is another key factor. Bill offers several plans, starting at $49 per user per month for the
         Essentials plan, as reported in&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-evaluating-software-comparison${idSuffix}`}
@@ -22,19 +22,19 @@ export default function EvaluatingSection() {
         includes custom approval policies and multi-entity capabilities, which are beneficial for growing
         businesses. However, it&#39;s important to note that certain features, like purchase order creation
         and 2-way matching, are only available on higher-tier plans or as add-ons.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         In comparison to other platforms like&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-approval-workflows-bill-evaluating-avidxchange${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange" className="text-[#C83803] hover:underline">AvidXchange</Link>, which are also popular for AP
         automation, Bill stands out for its&nbsp;
         AI-driven capabilities. The AI invoice coding reduces manual
         time by 20% and captures key invoice fields with 99% accuracy. This level of precision is
         particularly valuable for businesses looking to minimize errors and streamline their processes.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         For those considering alternatives, it&#39;s worth weighing the benefits of Bill&#39;s automation
         against the specific needs of your business. If your current system involves a high volume of
         invoices and frequent manual errors, Bill&#39;s automation could significantly enhance efficiency.
         However, if your business processes a low volume of invoices, the investment in such a comprehensive
         tool might not be justified.</p>
-      <p className="text-md text-white shadow-text pt-3">
+      <p className="text-base text-white shadow-text pt-3">
         Ultimately, choosing Bill should be based on a clear understanding of your business&#39;s workflow
         needs and the potential return on investment from reduced manual labor and increased accuracy. If
         you&#39;re dealing with complex approval processes and need a solution that integrates well with
