@@ -4,7 +4,7 @@ Audit reference: GEO L15 in `plans/geo-seo-audit-2026-10-20.md`.
 
 ## The problem
 
-The payroll misclassification pillar, at `/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance`, covers worker classification and payroll tax.
+The payroll misclassification pillar, at `/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax`, covers worker classification and payroll tax.
 - That's a legal and money topic, where Google holds pages to a higher standard of expertise and sourcing.
 - Its search results are dominated by law firms and government agencies.
 - AI answers on legal questions favor pages that cite the law itself.

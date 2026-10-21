@@ -68,3 +68,7 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 50. [LinkedIn name](50-linkedin-name.md), GEO M5
 51. [Facebook name](51-facebook-name.md), GEO M5
 52. [Directory listings](52-directory-listings.md), GEO H7
+
+## Decided after these were written
+
+53. [No # URLs](53-no-hash-urls.md), GEO H9 and M14, SEO H4b, L8 and M4

@@ -6,7 +6,7 @@ Audit reference: GEO M9 and decision 5 in `plans/geo-seo-audit-2026-10-20.md`.
 
 A page's title tag is the blue headline in search results, and it's the strongest on-page signal of what the page covers. Most pillar titles use the site's own "Intelligent" labels, which aren't the words people type into search.
 
-- **Content generation.** The pillar's title is "Intelligent Content Generation" (`src/app/(site)/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/page.tsx:21`).
+- **Content generation.** The pillar's title is "Intelligent Content Generation" (`src/app/(site)/use-cases/marketing/content-creation-workflow/ai-content-generation/page.tsx:21`).
   - Its components use "intelligent content generation" 21 times and "AI content generation" 0 times (rechecked 2026-10-21).
   - The audit counted 40 and 0 on the rendered page (audit count, 2026-10-20).
 - **Resource planning.** "Intelligent resource planning" returns no coherent search results (audit, 2026-10-20). The pillar's title is "Intelligent Resource Planning".
@@ -55,6 +55,13 @@ Reason: the labels are your naming, and the title tag is where the search term e
 - The approval workflows pillar is "AI Invoice Approval Workflows", as in the recommendation's example. The others follow "AI X" exactly.
 - Unchanged: the "Intelligent" labels on the home card, navbar and indexes, the descriptions, keywords and body copy.
 - Checked on a production build: all five fields match on all 14 pages, and `/llms.txt` lists the new titles.
-- Every title is 59 characters or fewer with the suffix except "AI Fraud & Duplicate Payment Controls", at 60.
+- Every title is 59 characters or fewer with the suffix except "AI Fraud & Duplicate Payment Controls", at 60. That breaks step 4's limit.
+- **Step 1 was skipped.** The table of titles for your markup wasn't sent before the change. I sent it on 2026-10-21, after you asked, built from the titles on the deployed site.
 
-**Status:** Done and committed in `c63a97f`.
+- **The home card headings, 2026-10-21 (`cccde1c`).** You asked to finish it: "change Intelligent Accounts Receivable: to AI Accounts Receivable:".
+  - The 13 home card headings that read "Intelligent X:" now read "AI X:" in both breakpoint copies, matching each pillar's title. Approval workflows reads "AI Invoice Approval Workflows:".
+  - Each heading links its pillar's URL. 11 of them follow the heading. "AI Data Entry & Processing:" links `automated-data-entry-processing` and "AI Tax Law:" links `automating-complex-and-changing-laws`, because their URLs weren't in the URL table.
+  - Unchanged: the "Top 5 Intelligent … Tools:" line under each heading, the navbar and the index cards.
+- **The fraud controls title stays at 60.** I offered "AI Fraud & Duplicate Payment Checks" at 58, and you said "NIX" on 2026-10-21.
+
+**Status:** Done and committed in `c63a97f`. The fraud controls title stays at 60 characters, by your decision.

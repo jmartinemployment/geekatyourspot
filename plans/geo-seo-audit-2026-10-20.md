@@ -34,6 +34,9 @@ It sits alongside `plans/seo-audit-2026-10-20.md` (the first audit, referred to 
 - **No edits.** No track changed the repo.
 - **Verification.** I checked the main claims in the source before including them; anything not confirmed is marked "reported".
 - **Since the crawl.** Two of the findings are already fixed in commits `7a1388a` (new hero H1) and `6696a93` (footer hub links, SA C1).
+- **Changes on 2026-10-21 (`cccde1c`).** The SA report records the same two changes under "Changes made after the audit ran".
+  - **Shorter use-case URLs (L13, decision 6).** 15 use-case pages have a shorter last segment, at the owner's direction (`plans/audit-input-2026-10-21/03-long-urls.md`). URLs quoted from those pages in this report now return 404, and document 03 maps each one.
+  - **No # URLs (H9, M14).** At the owner's direction, no URL on the site has a `#`: no structured data `@id`, no jump link (`plans/audit-input-2026-10-21/53-no-hash-urls.md`). The `@id`s this report quotes, such as `#software-<slug>` and `#article`, are gone.
 - **Fixes that needed no decision (`d6989dc`).** H8, H9, H10, M8, M10, L1 and L4 to L9 are fixed, and H1, H11, M5, M7, M14, L2 and L3 are partly fixed. Each finding below says what changed. The same work closes SA H2, H4b, M2, M3, M6 to M9, L1 to L4, L6, L8 and L9 in `plans/seo-audit-2026-10-20.md`, and moves SA M5 forward. Verified on a local build of all 448 sitemap pages.
 
 **Vercel challenged the audit itself.** The parallel tracks sent bursts of requests from one IP. For roughly 10 to 30 minutes, Vercel's automatic DDoS mitigation answered every request from this machine with `403 Vercel Security Checkpoint` (`x-vercel-mitigated: challenge`), robots.txt included. Requests from other networks got 200 throughout. The project has no firewall configuration, so this is Vercel's platform default, not a site setting. At launch, check Vercel's Firewall traffic view to confirm verified search and AI crawlers are not being challenged.
@@ -322,6 +325,10 @@ Both are verified.
 ### H10. The approval workflows pillar's FAQ is about data entry
 
 This is verified.
+- **Changed on 2026-10-21, at the owner's direction (`cccde1c`).** The site uses no `#` URLs (`plans/audit-input-2026-10-21/53-no-hash-urls.md`). The same change is SA H4b, L8 and M4.
+  - **Services.** The 23 pillar Service nodes are deleted, along with the Articles' `about` pointers to them. The owner said "NIX" and "I will have a Service Menu Item(s)", so the services section will describe the services.
+  - **Products.** No node has an `@id` now. Each `mentions` entry and each tool page's `about` carries the product's name and vendor URL in place, so a product is the same name and URL on every page instead of one shared id.
+  - **Organization.** It's still printed in full on every page, without an `@id`. Every publisher, author and provider names it by its name and `https://geekatyourspot.com`.
 
 - **Wrong topic.** All 13 questions in `src/components/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/paa-section.tsx` ask about invoice data entry and extraction, and they are also marked up as FAQPage.
 - **Misleading answer.** One says "our solution integrates seamlessly with QuickBooks, Xero, and Sage", although the business sells no product of its own.
@@ -459,7 +466,8 @@ This is verified.
   - The AP and Cash Flow pillar H1s match the glossary term H1s.
   - Fix: keep the Intelligent labels, and put the searcher's term in the `<title>`, description and first paragraph.
   - **Titles and H1s changed on 2026-10-21 (`c63a97f`).** At the owner's direction (`plans/audit-input-2026-10-21/02-search-terms-in-page-titles.md`), the 14 pillars titled "Intelligent X" are now "AI X" in the title tag, the H1 (both breakpoint copies), the Open Graph and Twitter titles and the JSON-LD headline. The approval workflows pillar is "AI Invoice Approval Workflows". The home card, navbar and index labels keep "Intelligent". Description and first-paragraph wording are unchanged. The same change is SA H7.
-    - A check of the local build finds the five fields matching on all 14 pages. Every title is 59 characters or fewer with the suffix except "AI Fraud & Duplicate Payment Controls", at 60.
+    - A check of the local build finds the five fields matching on all 14 pages. Every title is 59 characters or fewer with the suffix except "AI Fraud & Duplicate Payment Controls", at 60. On 2026-10-21 the owner declined a 58-character rename ("NIX"), so it stays at 60 (SA H7).
+    - **Home card headings changed on 2026-10-21 (`cccde1c`).** At the owner's direction, the 13 home card headings that read "Intelligent X:" read "AI X:", matching the titles. The "Top 5 Intelligent … Tools:" lines, the navbar and the index cards keep "Intelligent" (SA H7).
 - **M10. Blog titles are long.**
   - 25 of 32 run over 60 characters.
   - **Partly fixed on 2026-10-20 (`4c15437`).** The SA H7 titles are under 60 with the site name. 11 of the 25 remaining posts still run over 60; none of them was shortened in `df3130d`.
@@ -490,6 +498,7 @@ This is verified.
 ## Low
 
 - **L1. Footer icon links have no accessible name.** The Facebook and LinkedIn links (`src/components/layout/footer.tsx:89`, `:111`) contain only an `aria-hidden` SVG. This fails Lighthouse's Agentic Browsing check on every page. Add `aria-label="Geek at Your Spot on Facebook"` and the LinkedIn equivalent. The same file has a stray `justify-center]` class at `:93`.
+  - **Changed on 2026-10-21 (`cccde1c`).** There are no `#` ids now (H9). `subjectOf` and `isPartOf` name the pillar's Article by the pillar's URL, and a crawl of all 448 pages finds every site URL in the structured data returning 200.
   - **Fixed on 2026-10-20 (`d6989dc`).** The links are labelled "Geek @ Your Spot LLC on Facebook" and "Geek @ Your Spot LLC on LinkedIn", and the stray class is fixed.
 - **L2. Mobile render defects.**
   - The scheduler heading "Consultation" (`scheduler-shell.tsx:144`) is 408 px wide in a 390 px viewport, so it is clipped on 428 pages.
@@ -556,6 +565,9 @@ This is verified.
 - **L15. YMYL payroll pillar.** The payroll misclassification pillar competes with law firms. Frame it as implementation work, cite Florida statute, and add a not-legal-advice note.
 - **L16. Smaller local items.**
   - Hours appear only in JSON-LD.
+  - **Applied on 2026-10-21 (`cccde1c`).** The owner chose to keep the structure and shorten the last segment to the page heading, which is decision 6. 15 use-case pages moved, for example `/use-cases/marketing/content-creation-workflow/ai-content-generation`. The full table is in `plans/audit-input-2026-10-21/03-long-urls.md`.
+  - No redirect is added. A crawl of all 448 pages finds no link to an old URL.
+  - 83 sitemap URLs are still over 100 characters: 64 pages, almost all tool pages, and 19 blog posts. Their URLs weren't part of the decision.
   - There is no bilingual statement, though Miami competitors offer Spanish.
   - Chamber membership would add a local citation. The Greater Delray Beach Chamber is running an AI series.
 
@@ -568,7 +580,7 @@ None of these is mine to make.
 3. **New page types.** A South Florida service page, up to three area pages, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages. About is done (`f914eee`). On 2026-10-20 the owner said a service menu is needed and postponed it (C2).
 4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
 5. **Metadata titles** carrying searcher terms next to the Intelligent labels. Decided 2026-10-21: the 14 "Intelligent X" pillar titles and their H1s become "AI X", and the labels stay (M9, `c63a97f`).
-6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`); the rest are unchanged.
+6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`). Decided 2026-10-21: the use-case pages keep their structure, and the last segment becomes the page heading as a slug. 15 pages moved (L13, `cccde1c`, `plans/audit-input-2026-10-21/03-long-urls.md`).
 7. **One marketing hub.** Choose between `/use-cases/marketing` and `ai-marketing-systems`. Decided 2026-10-20: AI Marketing Systems moves to `/use-cases/marketing` (M13, `dbd8cd8`).
 8. **The ad spend cluster.** Re-scope it.
 9. **The GBP.** Choose the primary category, the service area and the founding year. Decided 2026-10-20: the service area is Miami-Dade, Broward and Palm Beach (M4), and the founding year is 2024 (M5). The primary category is still yours to confirm (H7), and the GBP description needs Miami-Dade added by hand.

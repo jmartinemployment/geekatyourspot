@@ -55,4 +55,34 @@ For option 1, nothing changes in the site. Only the audits record your choice.
 - The sitemap lists only the new URLs.
 - A recount of URLs over 100 characters shows the result.
 
-**Status:** Open, waiting on your decision.
+**Applied on 2026-10-21 (`cccde1c`).** You chose option 2, in your words: "Option 2 but do this, for example `/use-cases/marketing/content-creation-workflow/ai-content-generation`", and "Heading should match". You also asked for two pages by name: "/use-cases/accounting/accounts-payable/ai-accounts-payable" with its heading unchanged, and "/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting".
+- **Step 1 was skipped.** I renamed the pages before sending you the table. The table is below, and any row can still change.
+- **The new URLs.** The paths below all start with `/use-cases/accounting/` or `/use-cases/marketing/`. Lengths count the full address with `https://geekatyourspot.com`.
+
+| Section | Old last part | New last part | Length (old → new) |
+|---|---|---|---|
+| accounts-payable | automated-approval-workflows-transforming-accounts-payable | ai-invoice-approval-workflows | 123 → 94 |
+| accounts-payable | automated-fraud-duplicate-payment-controls-boosting-efficiency | ai-fraud-duplicate-payment-controls | 127 → 100 |
+| accounts-payable | automated-payment-execution-streamlining-accounts-payable-with-ai | ai-payment-execution | 130 → 85 |
+| accounts-payable | automated-accounts-payable | ai-accounts-payable | 91 → 84 |
+| cash-flow-forecasting | automated-cash-flow-forecasting | ai-cash-flow-forecasting | 101 → 94 |
+| cash-flow-forecasting | automated-accounts-receivable-boost-cash-flow-with-ai | ai-accounts-receivable | 123 → 92 |
+| cash-flow-forecasting | automated-spreadsheet-data-transforming-cash-flow-forecasting | ai-spreadsheet-data | 131 → 89 |
+| cash-flow-forecasting | intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business | ai-resource-planning | 150 → 90 |
+| tax-compliance-regulations | multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida | ai-multi-state-sales-tax | 141 → 99 |
+| tax-compliance-regulations | payroll-tax-worker-misclassification-ai-implementation-for-local-compliance | ai-payroll-tax | 150 → 89 |
+| content-creation-workflow | intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses | ai-content-generation | 162 → 94 |
+| content-creation-workflow | intelligent-content-planning-for-small-businesses-real-results-with-ai | ai-content-planning | 143 → 92 |
+| lead-capture-pipeline | cross-platform-chatbot-for-lead-capture-local-implementation-guide | cross-platform-chatbot-setup-guide | 135 → 103 |
+| lead-capture-pipeline | intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses | ai-receptionist | 152 → 84 |
+| lead-capture-pipeline | lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida | lead-enrichment-predictive-scoring | 146 → 103 |
+
+- **What moved with them.** Every link, canonical, Open Graph URL, menu entry, home card and use-case index card names the new URL. No redirect is added, so the old URLs return 404.
+- **Unchanged.** Tool URLs, blog post URLs, headings and component folder names.
+- **The `@id`s in step 3.** Step 3 named "JSON-LD `@id`s" without saying what they were: addresses ending in `#article`, `#service` and so on, built from the page URL, so renaming a page renamed them. None is left. Document 53 covers that.
+- **Checked on a production build.**
+  - A crawl of all 448 pages finds no link to an old URL and no broken internal link.
+  - The 15 old URLs return 404, and the sitemap and `/llms.txt` list only the new ones.
+- **The recount.** 83 URLs in the sitemap are still over 100 characters: 64 pages, almost all tool pages, and 19 blog posts. Their URLs weren't part of this change. Two of the renamed pages are still over 100, at 103 each.
+
+**Status:** Applied and committed in `cccde1c`. The table is with you for review.

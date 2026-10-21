@@ -8,8 +8,8 @@ Four use-case category paths return 404, while each category's hub page lives at
 
 | Category path (404) | Where the category's hub lives today | Files that link the hub |
 |---|---|---|
-| `/use-cases/accounting/accounts-payable` | `/use-cases/accounting/accounts-payable/automated-accounts-payable` | 16 |
-| `/use-cases/accounting/cash-flow-forecasting` | `/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting` | 13 |
+| `/use-cases/accounting/accounts-payable` | `/use-cases/accounting/accounts-payable/ai-accounts-payable` | 16 |
+| `/use-cases/accounting/cash-flow-forecasting` | `/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting` | 13 |
 | `/use-cases/marketing/content-creation-workflow` | `/use-cases/marketing/ai-content-creation-workflow` | 17 |
 | `/use-cases/marketing/lead-capture-pipeline` | `/use-cases/marketing/intelligent-lead-capture-pipeline` | 13 |
 

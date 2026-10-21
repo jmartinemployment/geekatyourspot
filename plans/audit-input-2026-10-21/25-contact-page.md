@@ -47,7 +47,7 @@ Reason: the action is already in this repo and passes the security policy. Showi
 
 ## The plan once you decide
 
-1. Build `src/app/(site)/contact/page.tsx` in the two-block breakpoint pattern, with a `ContactPage` node that points at `#organization`.
+1. Build `src/app/(site)/contact/page.tsx` in the two-block breakpoint pattern, with a `ContactPage` node that names the business by its name and site URL, as every node does since document 53.
 2. If there's a form, add a client form component that calls `submitContact`, and remove the fallback addresses from `submit-contact.ts`.
 3. Restore the Contact link in `src/components/layout/footer.tsx`. `src/app/sitemap.ts` lists the page automatically.
 
