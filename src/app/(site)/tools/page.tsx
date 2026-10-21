@@ -7,7 +7,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { getAllTools } from "@/lib/tools-mapper";
 import { DEPARTMENT_ICONS, DepartmentName } from "@/types/department";
 import type { ToolPageContent } from "@/types/tool";
-import { toolMenuLabel } from "@/data/navigation/site-menus";
+import { toolCardLabel } from "@/data/navigation/site-menus";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -83,11 +83,11 @@ function formatDepartment(department: string): string {
 }
 
 export default function ToolsPage() {
-  // Each card shows the navbar's label, which names the use when a tool has more than one page.
+  // A tool with more than one page is named with its use on its card, as in "Bill for Data Entry".
   const tools = getAllTools()
     .filter(hasPage)
     .flatMap((tool) => {
-      const label = toolMenuLabel(toolHref(tool));
+      const label = toolCardLabel(toolHref(tool));
       return label ? [{ ...tool, title: label }] : [];
     })
     .sort((a, b) => a.title.localeCompare(b.title));

@@ -317,16 +317,16 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
 ];
 
 /**
- * The navbar's label for each tool page, keyed by href. A tool with more than one page carries
- * its use in the label, as in "Bill (Data Entry)", so the tool hubs use these labels on their cards.
+ * The name each tool hub card shows, keyed by the tool page's href. A tool with more than one page
+ * carries its use: the navbar writes "Bill (Data Entry)" and the card writes "Bill for Data Entry".
  */
-const TOOL_LABELS: ReadonlyMap<string, string> = new Map(
+const TOOL_CARD_LABELS: ReadonlyMap<string, string> = new Map(
   TOOLS_MENU.flatMap((department) => [
     ...department.items,
     ...department.categories.flatMap((category) => category.items),
-  ]).map((item) => [item.href, item.label]),
+  ]).map((item) => [item.href, item.label.replace(/^(.+) \((.+)\)$/, "$1 for $2")]),
 );
 
-export function toolMenuLabel(href: string): string | undefined {
-  return TOOL_LABELS.get(href);
+export function toolCardLabel(href: string): string | undefined {
+  return TOOL_CARD_LABELS.get(href);
 }

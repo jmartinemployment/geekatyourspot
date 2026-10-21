@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalculator, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { getToolsByDepartment } from "@/lib/tools-mapper";
 import type { ToolPageContent } from "@/types/tool";
-import { toolMenuLabel } from "@/data/navigation/site-menus";
+import { toolCardLabel } from "@/data/navigation/site-menus";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
@@ -70,11 +70,11 @@ function hasPage(tool: ToolPageContent): boolean {
 }
 
 export default function AccountingToolsPage() {
-  // Each card shows the navbar's label, which names the use when a tool has more than one page.
+  // A tool with more than one page is named with its use on its card, as in "Bill for Data Entry".
   const tools = getToolsByDepartment("accounting")
     .filter(hasPage)
     .flatMap((tool) => {
-      const label = toolMenuLabel(toolHref(tool));
+      const label = toolCardLabel(toolHref(tool));
       return label ? [{ ...tool, title: label }] : [];
     })
     .sort((a, b) => a.title.localeCompare(b.title));
