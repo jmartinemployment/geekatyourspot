@@ -396,6 +396,7 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
   - `d6989dc` adds `X-Content-Type-Options`, `Referrer-Policy` and `Permissions-Policy`, kept outside the `ALLOW_INDEXING` branch, so they survive launch. The deployed site sends all three.
   - Five rivals send all five core headers, two of them on Vercel. Still missing: `X-Frame-Options`, and a Content-Security-Policy. Start the policy as `Content-Security-Policy-Report-Only`, because the page has inline scripts, GTM and the scheduler.
 - **The crawler rule.** At launch, `robots.ts` admits every crawler, as 16 of the 19 do, 12 of them through the bare wildcard. C&W's split, with answer and search bots allowed and training-only bots such as Bytespider blocked, is the rule closest to what the skills recommend (GEO decision 11).
+  - **Bytespider decided 2026-10-21 (`bd38ff5`): blocked at launch.** The launch branch of `robots.ts` disallows it ahead of the wildcard allow. CCBot is still open.
 - **llms.txt.**
   - 11 of the 19 rivals publish one, and only Cybercon also has `llms-full.txt`.
   - Two of the 11 files are plugin boilerplate.
@@ -408,7 +409,7 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
 - Close the `vercel.app` host with a host-scoped noindex header or by removing the domain.
 - Add `X-Frame-Options` and a report-only CSP.
 - Decide the crawler rule.
-- After the flip, fetch `/robots.txt` and confirm it serves `Allow: /` and the sitemap.
+- After the flip, fetch `/robots.txt` and confirm it serves the Bytespider block, `Allow: /` for every other crawler, and the sitemap.
 
 ### CA15. The name collides with a Miramar IT firm, and there are no local links
 

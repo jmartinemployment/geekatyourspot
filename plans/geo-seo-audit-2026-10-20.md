@@ -75,7 +75,7 @@ Each score comes from that skill's own formula. They are heuristics, not Google 
 
 These go on top of SA's launch steps.
 
-1. **robots.txt, done.** `src/app/robots.ts` now serves `Disallow: /` until `ALLOW_INDEXING=true`, and `public/robots.txt` is deleted (SA H1).
+1. **robots.txt, done.** `src/app/robots.ts` now serves `Disallow: /` until `ALLOW_INDEXING=true`, and `public/robots.txt` is deleted (SA H1). At launch it keeps Bytespider blocked (decision 11).
 2. **Keep `geekatyourspot.vercel.app` noindexed after launch.** It serves the whole site with 200. It is noindexed today only because the `ALLOW_INDEXING` header covers every host, and setting the variable removes that header there too. Options:
    - a host-scoped `X-Robots-Tag: noindex` header in `next.config.ts`, outside the `ALLOW_INDEXING` branch;
    - removing the domain in Vercel.
@@ -596,6 +596,7 @@ None of these is mine to make.
 9. **The GBP.** Choose the primary category, the service area and the founding year. Decided 2026-10-20: the service area is Miami-Dade, Broward and Palm Beach (M4), and the founding year is 2024 (M5). The primary category is still yours to confirm (H7), and the GBP description needs Miami-Dade added by hand.
 10. **Pricing and language.** Whether to publish price ranges, and whether to state bilingual service.
 11. **Bytespider and CCBot.** Whether to block them at launch.
+   - **Bytespider decided 2026-10-21 (`bd38ff5`): blocked at launch.** The launch branch of `src/app/robots.ts` disallows Bytespider ahead of the wildcard allow (`plans/audit-input-2026-10-21/11-bytespider.md`). The same note is under H1 in `plans/seo-audit-2026-10-20.md` and CA14 in `plans/competitor-audit-2026-10-20.md`. CCBot is still open (`plans/audit-input-2026-10-21/12-ccbot.md`).
 
 ## Skills run
 

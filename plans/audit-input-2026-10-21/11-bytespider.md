@@ -41,4 +41,10 @@ For option 2, nothing changes in the site. Only the audits record your choice.
 - Run a local build with `ALLOW_INDEXING=true` and read `/robots.txt`. It shows the Bytespider block and the wildcard allow, with the sitemap line unchanged.
 - A build without the variable still serves `Disallow: /` for every crawler.
 
-**Status:** Open, waiting on your decision.
+**Done on 2026-10-21 (`bd38ff5`).** You chose option 1: "Block".
+- `src/app/robots.ts` puts `userAgent: "Bytespider"` with `disallow: "/"` ahead of the wildcard `allow: "/"` in the launch branch. The development branch is unchanged.
+- A local build with `ALLOW_INDEXING=true` serves `User-Agent: Bytespider` with `Disallow: /`, then `User-Agent: *` with `Allow: /`, the host and the sitemap.
+- A build without the variable still serves `User-Agent: *` with `Disallow: /`.
+- CCBot is a separate decision, in document 12.
+
+**Status:** Done. It takes effect at launch, when `ALLOW_INDEXING=true` is set.
