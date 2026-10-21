@@ -4,8 +4,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 
 ## Decisions
 
-1. [llms.txt](01-llms-txt.md), GEO decision 2
-2. [Search terms in page titles](02-search-terms-in-page-titles.md), GEO M9 and decision 5
 3. [Long URLs](03-long-urls.md), GEO L13 and decision 6
 4. [The four data-quality tools in the ad spend group](04-ad-spend-data-quality-tools.md), GEO M12 and decision 8
 5. [The 6sense tool page](05-tool-page-6sense.md), GEO M12, L12 and H11
