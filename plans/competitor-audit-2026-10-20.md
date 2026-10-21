@@ -193,6 +193,8 @@ None of these has been crawled or profiled.
 - Give each department its own H2 section, accounting automation and lead capture, linking to the pillars (SX6). That puts "accounts payable automation" next to the place without a page that competes with the pillars (SA H6). None of the eight Delray Beach pages leads with accounting.
 - Keep to GEO C2's limit of three area pages.
 
+**Rechecked on 2026-10-21 against `1e90759` and DataForSEO, still open (CG8 in `plans/content-gap-audit-2026-10-21.md`).** Google Ads shows no measurable volume for AI consulting terms that name a South Florida place, while "near me" terms carry the local demand. From Delray Beach, the map pack for "ai consultant delray beach" is OneWave AI, Accretive AI Consulting and Aslanian AI. The Delray Beach page stays first, and its value is in what the map pack rewards (CA1, CA3, CA11, CA15). **Correction:** "Only Pisano Designer and this site are actually in Delray Beach" needs rechecking, because the Greater Delray Beach Chamber lists Aslanian AI. Where Aslanian AI is based was not checked.
+
 ## High
 
 ### CA3. No directory profiles, and the AI summaries name firms through them
@@ -217,6 +219,7 @@ None of these has been crawled or profiled.
   - No site page has a full defining sentence. The nearest is the scheduler line, which carries no business name and omits Miami-Dade.
 - **The rivals.** Five rival pages have one. AICS Pro's, VSG's South Florida page, Azul's AI consulting page, C&W's AI page and Spotlight's AI CRM page each name the business, the place and the service in one place. The content track judges these the pages an AI answer would most likely quote for "AI consultant for small business in South Florida".
 - **What answer engines do without one (SX4).** They fill missing facts with guesses. One summary called OneWave AI "headquartered in Delray Beach", which its own page never says. The summaries also discounted pages with no local address.
+  - **Correction, 2026-10-21.** OneWave AI's own pages do say it. In the 2026-10-21 crawl (`de7e65f4-58ed-4645-8497-d60e5916efc2`), `/why-onewave` and `/chatgpt-training` both read "headquartered in Delray Beach, Florida", while `/ai-consulting-florida` places the team in the "Fort Lauderdale-Miami metro area". The summary repeated the site rather than guessing, so this example does not show an answer engine filling a gap. The finding still stands on the site's own missing sentence (CC1). The profile is `development/competitor-profiles/onewave-ai-com.md`, and the report is CG8 in `plans/content-gap-audit-2026-10-21.md`.
 
 **Fix.**
 - Write one sentence naming Geek @ Your Spot LLC, Delray Beach, the three counties and what the business does.
@@ -278,6 +281,8 @@ None of these has been crawled or profiled.
 - doing it yourself or hiring help;
 - your IT provider or an AI implementer, naming no firm (CP7).
 
+**Rechecked on 2026-10-21 with DataForSEO, still open, lower priority (CG9 in `plans/content-gap-audit-2026-10-21.md`).** "ai consultant cost", "ai consulting cost", "how much does ai automation cost", "should i hire an ai consultant" and "diy ai automation" show no measurable Google Ads volume, and "ai implementation cost" has 40 a month. Cost questions do appear in "People also ask" on 9 of 32 local results, so CG3 answers them in the services page's engagement FAQ first.
+
 ## Medium
 
 ### CA9. The first step has three names, and its page has 143 words and no price
@@ -307,6 +312,8 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
 - Decide whether the free assessment and the audit are one offer or two. Give each one name and one price (GEO decision 10, your call).
 - Then make the page say what is reviewed, what is delivered, how long it takes, who does it and what it costs, with an FAQ and `Service` and `Offer` markup.
 - Link it from the area pages and the cost page.
+
+**Rechecked on 2026-10-21 against `1e90759`, changed and still open (CG4 in `plans/content-gap-audit-2026-10-21.md`).** Since `d6989dc` the audit page sets `robots: { index: false, follow: true }` and is out of the sitemap, so no indexable page describes the first step. "ai consultation" has 8,100 searches a month in the US and 480 in Florida, and "ai readiness assessment" 720 and 40.
 
 ### CA10. The neutral tool comparison is open, and vendors hold those searches with their own guides
 
@@ -429,6 +436,8 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
 - Join the Greater Delray Beach Chamber.
 - Look for a speaking or sponsor slot at a local AI event; one Boca Raton series turned up in search.
 
+**Rechecked on 2026-10-21, still open (CG8 in `plans/content-gap-audit-2026-10-21.md`).** From Delray Beach, the Greater Delray Beach Chamber's listing for Aslanian AI ranks fifth for "ai consultant delray beach", so the Chamber listing is itself a search result for the town.
+
 ## Low
 
 ### CA16. Stock AI wording is more frequent than on any AI-specialist rival
@@ -493,7 +502,7 @@ Home (/)
 5. Which decision guides to build (CA8).
 6. The crawler rule at launch, and llms.txt (CA14, GEO decisions 11 and 2).
 7. The X handle and the founding year (CA13, SA M5).
-8. Whether to crawl and profile Pisano Designer, Authority AI, Raptor Tech, OneWave AI, ActBold and Forefront Industries, which hold more of these searches than any of the 19.
+8. Whether to crawl and profile Pisano Designer, Authority AI, Raptor Tech, OneWave AI, ActBold and Forefront Industries, which hold more of these searches than any of the 19. **Partly done on 2026-10-21.** Four were crawled as `consultancy-competitors` and profiled: Pisano Designer (`332ea5fc`), Authority AI (`9ae02d38`), OneWave AI (`de7e65f4`) and ActBold AI (`156eb845`). Raptor Tech's run (`e254811c`) showed status `external` with no pages, and Forefront Industries was not crawled. Two more local rivals in neither crawl hold the Delray Beach map pack: Aslanian AI and Accretive AI Consulting (CG8 in `plans/content-gap-audit-2026-10-21.md`).
 
 ## Corrections to CP
 

@@ -145,6 +145,10 @@ All of this is verified in the source.
   - Visionary Solutions Group, in Boca Raton, now has AI consulting pages for Miami, Fort Lauderdale and South Florida.
   - 0 of the 426 deployed titles name a South Florida place.
   - CP2 recommends the Delray Beach and Palm Beach County page as the first area page.
+- **Rechecked on 2026-10-21 against `1e90759` and DataForSEO, still open.** The details are CG8 in `plans/content-gap-audit-2026-10-21.md`, and the same note is in SA H2.
+  - Google Ads shows no measurable volume for 17 terms that pair an AI consultant, consultancy or agency with a South Florida place. The local demand is in "ai consultant near me" (720 a month in the US, 70 in Florida) and "ai automation near me" (480 and 140).
+  - From Delray Beach, the map pack for "ai consultant delray beach" is OneWave AI, Accretive AI Consulting and Aslanian AI, and the Greater Delray Beach Chamber's listing for Aslanian AI ranks fifth. The business is in none of 32 local results.
+  - The area page's value is in what the map pack rewards, so it works with the Business Profile (H7), reviews (C3) and listings, not on a city keyword. That supports the limit of three area pages.
 
 ### C3. There are no reviews anywhere
 
@@ -610,7 +614,10 @@ None of these is mine to make.
 
 1. **The `vercel.app` host.** Use a host-scoped noindex header, or remove the domain in Vercel. Decided 2026-10-20: the host-scoped header (launch gate 2, `8d602e1`).
 2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt. Decided 2026-10-21: build it (`ea9040f`). `src/app/llms.txt/route.ts` generates it at build time from the Use Cases and Tools menus, 32 pages, each with its own metadata title and description, and the exception is in the Markdown rule in CLAUDE.md (`ea9040f`).
-3. **New page types.** A South Florida service page, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages. About is done (`f914eee`). On 2026-10-20 the owner said a service menu is needed and postponed it (C2). On 2026-10-21 the owner dropped the area pages (C2).
+3. **New page types.** A South Florida service page, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages. About is done (`f914eee`). On 2026-10-20 the owner said a service menu is needed and postponed it (C2). On 2026-10-21 the owner dropped the area pages (C2). Rechecked on 2026-10-21 against `1e90759` in `plans/content-gap-audit-2026-10-21.md`; SA has no counterpart for this decision.
+   - **The engagement page's questions (CG3).** Close rivals answer what working with them costs, how long it takes, whether staff must be technical, what happens to staff roles, support after launch, contract terms, industries served and on-site or remote work. The site answers five engagement questions, all on `/methodology`, and none of these.
+   - **Industry pages (CG1).** Dropped by the owner on 2026-10-21: the use cases are organized by department, and an industry page narrows the audience instead of widening it. Most rival industry pages are IT firms' "IT support for law firms" pages, and the national searches go to vertical software and large publishers.
+   - **A cost page (CG9).** Its search terms show no measurable volume, but cost questions appear in "People also ask" on 9 of 32 local results, so the engagement FAQ answers them first.
 4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
 5. **Metadata titles** carrying searcher terms next to the Intelligent labels. Decided 2026-10-21: the 14 "Intelligent X" pillar titles and their H1s become "AI X", and the labels stay (M9, `c63a97f`).
 6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`). Decided 2026-10-21: the use-case pages keep their structure, and the last segment becomes the page heading as a slug. 15 pages moved (L13, `cccde1c`, document 03 in `48c5a66`).
