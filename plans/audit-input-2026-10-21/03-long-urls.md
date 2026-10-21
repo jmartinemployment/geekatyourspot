@@ -85,7 +85,7 @@ For option 1, nothing changes in the site. Only the audits record your choice.
   - The 15 old URLs return 404, and the sitemap and `/llms.txt` list only the new ones.
 - **The recount.** 83 URLs in the sitemap are still over 100 characters: 64 pages, almost all tool pages, and 19 blog posts. Their URLs weren't part of this change. Two of the renamed pages are still over 100, at 103 each.
 
-**Status:** Applied and committed in `cccde1c`. The table is with you for review.
+**Status:** Applied and committed in `cccde1c`.
 
 ## Second rename, to the search terms (proposed 2026-10-21)
 
@@ -123,4 +123,4 @@ All paths start with `/use-cases/`.
 - **Left as it was.** The prose link "Accounting & Finance Use Cases" on three accounting pillars still reads that way, because it sits in a sentence ("one of our Accounting & Finance Use Cases").
 - **The recount.** 82 sitemap URLs are over 100 characters: 61 tool pages, 19 blog posts and 2 use-case pages, `ai-accounts-receivable-software` and `lead-enrichment-predictive-scoring`, at 101 and 103.
 
-**Status:** Applied and committed in `f818419`.
+**Status:** Done. You closed it on 2026-10-21: "while not under 100 a lot shorter". Use-case URLs reached 162 characters before the renames, and the longest is now 103. Tool and blog URLs were never part of this item.
