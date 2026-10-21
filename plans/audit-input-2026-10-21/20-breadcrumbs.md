@@ -53,4 +53,11 @@ Reason: readers see the full path, the markup only links pages that exist, and e
 - The visible trail matches the markup, and the phone and desktop copies match.
 - Google's Rich Results Test passes on a sample of five page types.
 
-**Status:** Open, waiting on your decision.
+**Changed on 2026-10-21.** You said "execute Hierarchy-Based breadcrumb", which applies the recommendation.
+- Every page except the home page shows a small trail above its H1, in both breakpoint copies: Home, one step per level of the URL, then the page, such as "Home > Tools > Accounting > Accounts Payable > Intelligent Approval Workflows > Bill for Intelligent Approval Workflows".
+- The 9 levels that have a page are links, bold white with an orange hover like the footer links. The 31 levels without one are plain text and become links once their page is built.
+- Each page carries one `BreadcrumbList`, with Home, the linked levels and the page itself.
+- The level names are in `src/data/navigation/breadcrumb-levels.ts` and match the navbar. `src/components/shared/breadcrumb-trail.tsx` checks at build time which levels have a page, and a page whose level has no name shows no trail rather than a guessed one.
+- A crawl of the local build found one `BreadcrumbList` on each of the 424 pages, the trail in both copies matching on every page, every URL in the markup returning 200, and the plain levels returning 404. Google's Rich Results Test runs against the deployed site after the push.
+
+**Status:** Done, except the Rich Results Test after the push.

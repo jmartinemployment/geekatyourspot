@@ -502,6 +502,7 @@ This is verified.
   - There is no BreadcrumbList on 431 pages. Breadcrumbs are one of the few rich results the site can still earn.
   - **Partly fixed on 2026-10-20.** `subjectOf` points at the pillar's `#article` node on all 90 tool pages (`4f36efd`), and no relative `#software` id is left (`d6989dc`; see H9). BreadcrumbList is still open.
   - **Changed on 2026-10-21 (`cccde1c`).** There are no `#` ids now (H9). `subjectOf` and `isPartOf` name the pillar's Article by the pillar's URL, and a crawl of all 448 pages finds every site URL in the structured data returning 200.
+  - **Breadcrumbs added on 2026-10-21, at the owner's direction (SA L5).** Every page except the home page shows a hierarchy-based trail above its H1, in both breakpoint copies: Home, one step per level of the URL, then the page. The 9 levels that have a page are links, and the 31 that do not, such as `/tools/accounting/accounts-payable`, are plain text. Each page carries one `BreadcrumbList` naming Home, the linked levels and the page. The names are in `src/data/navigation/breadcrumb-levels.ts`, and `src/components/shared/breadcrumb-trail.tsx` checks at build time which levels have a page. A crawl of the local build finds one `BreadcrumbList` on each of 424 pages, the two copies matching on every page, and every URL in the markup returning 200.
 
 ## Low
 

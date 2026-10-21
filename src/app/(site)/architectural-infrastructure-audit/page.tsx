@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
+import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 const TITLE = "Architectural Infrastructure Audit";
 const DESCRIPTION =
@@ -39,6 +40,7 @@ export default function Page() {
                 <div className="container">
                     <div className="grid min-h-screen grid-cols-1 place-items-center">
                         <div className="col-span-full w-full">
+                            <BreadcrumbTrail current="Architectural Infrastructure Audit" withJsonLd />
                             <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                                 Architectural Infrastructure Audit
                             </h1>
@@ -54,6 +56,7 @@ export default function Page() {
                 <div className="container">
                     <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
                         <div className="col-span-7">
+                            <BreadcrumbTrail current="Architectural Infrastructure Audit" />
                             <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                                 Architectural Infrastructure Audit
                             </h1>

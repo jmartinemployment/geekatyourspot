@@ -1,5 +1,6 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
+import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 export default function HeroSection() {
   const title = "AI Lead Scoring for Small Businesses";
@@ -11,6 +12,7 @@ export default function HeroSection() {
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1 place-items-center">
             <div className="col-span-full">
+              <BreadcrumbTrail current={title} withJsonLd />
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
               </h1>
@@ -34,6 +36,7 @@ export default function HeroSection() {
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
+              <BreadcrumbTrail current={title} />
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 {title}
               </h1>

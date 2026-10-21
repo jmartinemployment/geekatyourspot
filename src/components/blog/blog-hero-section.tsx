@@ -3,6 +3,7 @@ import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
+import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 type BlogHeroSectionProps = Readonly<{
   title: string;
@@ -37,6 +38,8 @@ export function BlogHeroSection({
       <div className="container min-h-screen">
         <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
           <div className="col-span-12 lg:col-span-7">
+            <BreadcrumbTrail current={title} withJsonLd />
+
             {meta && (
               <p className="pb-3 font-sans text-xs font-bold tracking-widest text-[#C83803] uppercase">
                 {meta}
