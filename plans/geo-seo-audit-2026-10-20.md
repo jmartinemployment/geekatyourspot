@@ -509,7 +509,7 @@ This is verified.
   - `use-cases.tsx:575` and `:1579` render an `<ol>` with non-`<li>` children.
   - `#C83803` link text fails contrast on some grounds.
   - **Fixed on 2026-10-20 (`d6989dc`), except contrast.** At 390 px the scheduler heading measures 358 px in a 358 px column and nothing overflows the page. The home labels are 10 px, and the two lists are `<div>`s. Link contrast is still open.
-  - **Links changed on 2026-10-21, at the owner's direction.** Every link in `main` is bold, through one base rule in `src/app/globals.css`, and links on teal `#025E73` sections are navy `#0B162A`, as they already were on `#8C4E2A` and `#BF5934`. Navy on teal is 2.45 to 1, up from 1.41 for orange, and orange on the two blue sections stays at 2.56 and 2.14, so contrast is still under 4.5 to 1 on every section. The owner accepted it: "Orange is my color." The details are in `plans/audit-input-2026-10-21/17-link-color-contrast.md`, and the same note is in SA's change list.
+  - **Links changed on 2026-10-21, at the owner's direction.** Every link in `main` is bold, through one base rule in `src/app/globals.css`, and links on teal `#025E73` sections are navy `#0B162A`, as they already were on `#8C4E2A` and `#BF5934`. Navy on teal is 2.45 to 1, up from 1.41 for orange, and orange on the two blue sections stays at 2.56 and 2.14, so contrast is still under 4.5 to 1 on every section. The owner accepted it: "Orange is my color." The details are in document 17 in `09d006b`, and the same note is in SA's change list.
 - **L3. Image delivery.**
   - `quality={100}` (`hero-section.tsx:61`, `hero-image-component.tsx:21`) makes the home hero's 2x AVIF 222 KB.
   - No content image has `sizes`.

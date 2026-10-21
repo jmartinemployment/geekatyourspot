@@ -19,7 +19,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 60. [The Optimove tool page](60-tool-page-optimove.md), GEO L12
 61. [The Qualytics tool page](61-tool-page-qualytics.md), GEO L12
 14. [Loading Google Tag Manager later](14-load-tag-manager-later.md), GEO M7
-17. [Link text contrast for `#C83803`](17-link-color-contrast.md), GEO L2
 18. [The blog's "Geek Post" heading](18-blog-heading-geek-post.md), GEO L11
 19. [The tools hub headings](19-tools-hub-headings.md), GEO L11
 20. [Breadcrumbs](20-breadcrumbs.md), SEO L5 and GEO M14
