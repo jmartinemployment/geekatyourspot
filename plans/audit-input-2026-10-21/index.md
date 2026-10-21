@@ -18,7 +18,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 59. [The Monte Carlo tool page](59-tool-page-monte-carlo.md), GEO L12
 60. [The Optimove tool page](60-tool-page-optimove.md), GEO L12
 61. [The Qualytics tool page](61-tool-page-qualytics.md), GEO L12
-14. [Loading Google Tag Manager later](14-load-tag-manager-later.md), GEO M7
 19. [The tools hub headings](19-tools-hub-headings.md), GEO L11
 20. [Breadcrumbs](20-breadcrumbs.md), SEO L5 and GEO M14
 
