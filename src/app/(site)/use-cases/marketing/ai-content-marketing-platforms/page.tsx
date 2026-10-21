@@ -20,9 +20,6 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": "AI Content Marketing Platforms",
             "description": "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
-            "image": [
-                "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
-            ],
             "author": {
                 "@type": "Organization",
                 "url": "https://geekatyourspot.com",
@@ -99,8 +96,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
 export default async function Page() {
     const title = "AI Content Marketing Platforms";
     const heroSummary = "Stop letting manual content creation bottleneck your growth."
-    const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-    const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."
     return (
         <>
             <script
@@ -110,8 +105,8 @@ export default async function Page() {
             <SharedHeroSection
                 title={title}
                 summary={heroSummary}
-                image={heroImage}
-                imgAlt={imgAlt} />
+                image=""
+                imgAlt="" />
             <article>
                 <LedeSection />
                 <AutomatedContentGenerationSection />

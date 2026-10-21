@@ -4,7 +4,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 
 ## Decisions
 
-3. [Long URLs](03-long-urls.md), GEO L13 and decision 6
 4. [The four data-quality tools in the ad spend group](04-ad-spend-data-quality-tools.md), GEO M12 and decision 8
 5. [The 6sense tool page](05-tool-page-6sense.md), GEO M12, L12 and H11
 6. [The Pipedrive tool page](06-tool-page-pipedrive.md), GEO M12, L12 and H11
@@ -19,12 +18,7 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 59. [The Monte Carlo tool page](59-tool-page-monte-carlo.md), GEO L12
 60. [The Optimove tool page](60-tool-page-optimove.md), GEO L12
 61. [The Qualytics tool page](61-tool-page-qualytics.md), GEO L12
-11. [Blocking Bytespider at launch](11-bytespider.md), GEO decision 11
-12. [Blocking CCBot at launch](12-ccbot.md), GEO decision 11
-13. [Inlining the stylesheet for phone speed](13-inline-css.md), GEO M7
 14. [Loading Google Tag Manager later](14-load-tag-manager-later.md), GEO M7
-15. [Image `sizes`](15-image-sizes.md), GEO L3
-16. [One hero image on three pillars](16-reused-hero-image.md), GEO L3
 17. [Link text contrast for `#C83803`](17-link-color-contrast.md), GEO L2
 18. [The blog's "Geek Post" heading](18-blog-heading-geek-post.md), GEO L11
 19. [The tools hub headings](19-tools-hub-headings.md), GEO L11

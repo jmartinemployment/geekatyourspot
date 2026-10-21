@@ -20,9 +20,6 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": "Automated Ad Spend Optimization",
             "description": "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
-            "image": [
-                "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
-            ],
             "author": {
                 "@type": "Organization",
                 "url": "https://geekatyourspot.com",
@@ -115,10 +112,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
 export default async function Page() {
     const title = "Automated Ad Spend Optimization";
     const heroSummary = "Transform your marketing strategy with cutting-edge AI tools for streamlined ad spend optimization."
-    // Placeholder hero -- no automated-ad-spend-optimization art exists yet, and
-    // SharedHeroSection requires an image. Swap once the pillar hero is generated.
-    const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-    const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."
     return (
         <>
             <script
@@ -128,8 +121,8 @@ export default async function Page() {
             <SharedHeroSection
                 title={title}
                 summary={heroSummary}
-                image={heroImage}
-                imgAlt={imgAlt} />
+                image=""
+                imgAlt="" />
             <article>
                 <LedeSection />
                 <DynamicCreativeOptimizationSection />
