@@ -1,0 +1,70 @@
+# Audit items that need your input
+
+Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10-20.md`) or the GEO audit (`plans/geo-seo-audit-2026-10-20.md`). Each one explains the problem, what development mode means for it, what I need from you, my recommendation, the plan once you decide, and how I'll check it. Every item is open until you decide it.
+
+## Decisions
+
+1. [llms.txt](01-llms-txt.md), GEO decision 2
+2. [Search terms in page titles](02-search-terms-in-page-titles.md), GEO M9 and decision 5
+3. [Long URLs](03-long-urls.md), GEO L13 and decision 6
+4. [The four data-quality tools in the ad spend group](04-ad-spend-data-quality-tools.md), GEO M12 and decision 8
+5. [The 6sense tool page](05-tool-page-6sense.md), GEO M12, L12 and H11
+6. [The Pipedrive tool page](06-tool-page-pipedrive.md), GEO M12, L12 and H11
+7. [The Zapier tool page](07-tool-page-zapier.md), GEO M12, L12 and H11
+8. [The ActiveCampaign tool page](08-tool-page-activecampaign.md), GEO L12 and H11
+9. [The ContentStudio tool page](09-tool-page-contentstudio.md), GEO L12 and H11
+10. [The 13 flat tool pages on the older template](10-old-template-tool-pages.md), GEO L12
+11. [Blocking Bytespider at launch](11-bytespider.md), GEO decision 11
+12. [Blocking CCBot at launch](12-ccbot.md), GEO decision 11
+13. [Inlining the stylesheet for phone speed](13-inline-css.md), GEO M7
+14. [Loading Google Tag Manager later](14-load-tag-manager-later.md), GEO M7
+15. [Image `sizes`](15-image-sizes.md), GEO L3
+16. [One hero image on three pillars](16-reused-hero-image.md), GEO L3
+17. [Link text contrast for `#C83803`](17-link-color-contrast.md), GEO L2
+18. [The blog's "Geek Post" heading](18-blog-heading-geek-post.md), GEO L11
+19. [The tools hub headings](19-tools-hub-headings.md), GEO L11
+20. [Breadcrumbs](20-breadcrumbs.md), SEO L5 and GEO M14
+
+## Pages
+
+21. [A services page](21-services-page.md), GEO C2 and decision 3
+22. [Local area pages](22-local-area-pages.md), GEO C2 and decision 3
+23. [Publishing prices](23-prices.md), GEO decision 10
+24. [A bilingual statement](24-bilingual-statement.md), GEO decision 10 and L16
+25. [A contact page](25-contact-page.md), GEO H4 and SEO M4
+26. [An email address](26-email-address.md), GEO H4 and SEO M4
+27. [A sentence saying who the business is](27-home-page-defining-sentence.md), GEO H4
+28. [Pages at the 15 tool group paths](28-tool-group-pages.md), GEO H12
+29. [Pages at the 5 tool category paths](29-tool-category-pages.md), SEO L5
+30. [Pages at the 4 use-case category paths](30-use-case-category-pages.md), SEO L5
+
+## Copy and content
+
+31. [Five copied paragraphs on the marketing page](31-marketing-page-copied-paragraphs.md), GEO H1
+32. [The 30% and 85% figures on the marketing page](32-marketing-page-unsourced-figures.md), GEO H1
+33. [Sources for the home badges](33-home-badge-sources.md), GEO H3
+34. [Outside sources for figures across the site](34-outside-sources-for-figures.md), GEO H3
+35. [Invented percentage scenarios](35-hypothetical-percentage-scenarios.md), GEO H3
+36. [The out-of-date Gartner line](36-out-of-date-gartner-line.md), GEO H3
+37. [Pages that open with a story](37-story-openings.md), GEO H5
+38. [Pages that open with a slogan](38-slogan-openings.md), GEO M1
+39. [Template wording and readability](39-template-wording.md), GEO H6
+40. [Content tables](40-tables.md), GEO M2
+41. [Content images](41-images.md), GEO M11
+42. [The payroll pillar's legal framing](42-payroll-pillar-legal-framing.md), GEO L15
+43. [Accounting terms in the glossary](43-glossary-accounting-terms.md), GEO L14
+
+## Links
+
+44. [A prompt for the second cross-linking pass](44-cross-linking-prompt.md), GEO H11
+
+## Off the site, your actions
+
+45. [Reviews](45-reviews.md), GEO C3
+46. [Business Profile description](46-business-profile-description.md), GEO H7 and M4
+47. [Business Profile name](47-business-profile-name.md), GEO H7 and M5
+48. [Business Profile photos and logo](48-business-profile-photos-and-logo.md), GEO H7
+49. [Business Profile categories](49-business-profile-categories.md), GEO H7 and decision 9
+50. [LinkedIn name](50-linkedin-name.md), GEO M5
+51. [Facebook name](51-facebook-name.md), GEO M5
+52. [Directory listings](52-directory-listings.md), GEO H7

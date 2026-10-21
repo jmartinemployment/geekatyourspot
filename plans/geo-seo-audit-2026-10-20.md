@@ -458,6 +458,8 @@ This is verified.
   - "Intelligent resource planning" returns no coherent search results at all.
   - The AP and Cash Flow pillar H1s match the glossary term H1s.
   - Fix: keep the Intelligent labels, and put the searcher's term in the `<title>`, description and first paragraph.
+  - **Titles and H1s changed on 2026-10-21 (`c63a97f`).** At the owner's direction (`plans/audit-input-2026-10-21/02-search-terms-in-page-titles.md`), the 14 pillars titled "Intelligent X" are now "AI X" in the title tag, the H1 (both breakpoint copies), the Open Graph and Twitter titles and the JSON-LD headline. The approval workflows pillar is "AI Invoice Approval Workflows". The home card, navbar and index labels keep "Intelligent". Description and first-paragraph wording are unchanged. The same change is SA H7.
+    - A check of the local build finds the five fields matching on all 14 pages. Every title is 59 characters or fewer with the suffix except "AI Fraud & Duplicate Payment Controls", at 60.
 - **M10. Blog titles are long.**
   - 25 of 32 run over 60 characters.
   - **Partly fixed on 2026-10-20 (`4c15437`).** The SA H7 titles are under 60 with the site name. 11 of the 25 remaining posts still run over 60; none of them was shortened in `df3130d`.
@@ -562,10 +564,10 @@ This is verified.
 None of these is mine to make.
 
 1. **The `vercel.app` host.** Use a host-scoped noindex header, or remove the domain in Vercel. Decided 2026-10-20: the host-scoped header (launch gate 2, `8d602e1`).
-2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt.
+2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt. Decided 2026-10-21: build it (`plans/audit-input-2026-10-21/01-llms-txt.md`). `src/app/llms.txt/route.ts` generates it at build time from the Use Cases and Tools menus, 32 pages, each with its own metadata title and description, and the exception is in the Markdown rule in CLAUDE.md (`ea9040f`).
 3. **New page types.** A South Florida service page, up to three area pages, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages. About is done (`f914eee`). On 2026-10-20 the owner said a service menu is needed and postponed it (C2).
 4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
-5. **Metadata titles** carrying searcher terms next to the Intelligent labels.
+5. **Metadata titles** carrying searcher terms next to the Intelligent labels. Decided 2026-10-21: the 14 "Intelligent X" pillar titles and their H1s become "AI X", and the labels stay (M9, `c63a97f`).
 6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`); the rest are unchanged.
 7. **One marketing hub.** Choose between `/use-cases/marketing` and `ai-marketing-systems`. Decided 2026-10-20: AI Marketing Systems moves to `/use-cases/marketing` (M13, `dbd8cd8`).
 8. **The ad spend cluster.** Re-scope it.
@@ -594,7 +596,7 @@ None of these is mine to make.
 | geo-platform-optimizer | Ran | Bing Webmaster Tools and GBP data need credentials |
 | geo-content, seo-content | Ran | |
 | geo-crawlers | Ran | 27 user agents tested against the deployed site |
-| geo-llmstxt | Generation | Draft only, see decision 2 |
+| geo-llmstxt | Generation | Built on 2026-10-21 in `src/app/llms.txt/route.ts` (`ea9040f`), see decision 2 |
 | seo-aeo-best-practices | Ran | Checklists, no score |
 | seo-geo | Partial | Brand mentions came from web search, because DataForSEO is unavailable |
 | ai-seo | Partial | No ChatGPT or Perplexity query testing (no accounts, and the site is noindexed). Third-party checkers were skipped |
