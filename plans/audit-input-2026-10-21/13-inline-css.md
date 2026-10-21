@@ -48,4 +48,34 @@ Reason: the two fixes already made may be enough. The setting is experimental, s
 - A production build serves a `<style>` tag in place of the stylesheet link.
 - The headless browser shows no security-policy error and no layout change at 390 and 1440 px.
 
-**Status:** Open, waiting on your decision.
+**Measured and tried on 2026-10-21.** You said: "It seems to be logical to go ahead an implement Option 1, although, is their a downside...test and implement".
+- **How it was measured.** PageSpeed's API had used up its daily quota for requests without a key, so every run used Lighthouse 13.5, the engine PageSpeed runs, with the same phone settings: a mobile screen, simulated slow 4G and four times slower CPU. Each figure is the median of five runs. The Mac running it is faster than PageSpeed's servers, so PageSpeed itself reports somewhat slower times.
+- **Step 1, the deployed site.** Every page type is under the 2.5 second line:
+
+| Page | Score | LCP | FCP | TTFB |
+|---|---|---|---|---|
+| Home | 99 | 1.69 s | 1.24 s | 30 ms |
+| Pillar (`/use-cases/marketing`) | 99 | 1.55 s | 1.24 s | 29 ms |
+| Tool page (Mailchimp) | 100 | 1.32 s | 1.09 s | 28 ms |
+| Blog post | 100 | 1.54 s | 1.24 s | 29 ms |
+| Glossary term (CRM) | 99 | 1.92 s | 1.09 s | 30 ms |
+
+  Lighthouse estimates the render-blocking stylesheet costs about 0.3 seconds on the home page. The stylesheet is 166 KB, 25 KB compressed, not the 26 KB the audit gave.
+- **Steps 2 and 3, tried anyway.** The two production builds, without and with `inlineCss`, were measured the same way, side by side. Inlining made LCP the same or worse on every page type, and it made the compressed HTML about 80 KB heavier on every page. Next.js sends the styles twice on a first load, once in the `<style>` tag and once in the page data.
+
+| Page | LCP without | LCP with | Compressed HTML without | Compressed HTML with |
+|---|---|---|---|---|
+| Home | 3.38 s | 3.46 s | 45 KB | 124 KB |
+| Pillar | 2.79 s | 3.01 s | 40 KB | 119 KB |
+| Tool page | 3.22 s | 3.29 s | 17 KB | 96 KB |
+| Blog post | 2.71 s | 3.44 s | 35 KB | 114 KB |
+| Glossary term | 3.14 s | 3.29 s | 12 KB | 91 KB |
+
+  These two builds were served locally, so their times run slower than the deployed site's. Only the difference between them counts.
+- **Step 4.** LCP didn't improve, so the setting is removed. `next.config.ts` is unchanged.
+- **Above-the-fold CSS, asked about on 2026-10-21.** Inlining only the styles the first screen needs, and loading the rest without blocking, is called critical CSS.
+  - Next.js has a setting for it, `experimental.optimizeCss`, but only its older Pages Router renderer runs it (`node_modules/next/dist/server/render.js`). This site uses the App Router, whose renderer never calls it, so the setting would do nothing here.
+  - Its best case is what the `inlineCss` test already gave: no stylesheet to wait for. That test moved first paint by about 0.1 seconds and didn't move LCP, so the main content is held by something after first paint, not by the stylesheet.
+  - The stylesheet's size is real use. The site's own code uses 1,450 of its 1,535 classes, and the utility classes are 148 KB of its 166 KB. Only 16 come from files outside `src`.
+
+**Status:** Done. Measured, tried and not kept: the deployed site is under 2.5 seconds on phones, and inlining made it slower.

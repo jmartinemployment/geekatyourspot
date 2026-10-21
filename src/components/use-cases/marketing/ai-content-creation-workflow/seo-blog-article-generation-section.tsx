@@ -115,8 +115,7 @@ export default function SEOBlogArticleGenerationSection() {
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-seo-blog-and-article-generation-enhance-visibility-with-ai.avif"
                 alt="A diagram shows the five steps of AI-driven SEO blog and article generation: keyword research, content generation, optimization tools, publishing and distribution, and visibility and results."
-                loading="lazy"
-                style={{ width: '100%', height: '460' }} />
+                loading="lazy" />
             </div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="seo-blog-and-article-generation-enhance-visibility-with-ai-2-lg">SEO Blog and Article Generation: Enhance

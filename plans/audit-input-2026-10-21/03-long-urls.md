@@ -86,3 +86,35 @@ For option 1, nothing changes in the site. Only the audits record your choice.
 - **The recount.** 83 URLs in the sitemap are still over 100 characters: 64 pages, almost all tool pages, and 19 blog posts. Their URLs weren't part of this change. Two of the renamed pages are still over 100, at 103 each.
 
 **Status:** Applied and committed in `cccde1c`. The table is with you for review.
+
+## Second rename, to the search terms (proposed 2026-10-21)
+
+You asked on 2026-10-21 whether the search terms in `plans/partner-keyword-research-2026-10-21.md` work better as URL replacements. They work as page titles, and the URL follows the title under your rule that the heading and the slug match. They don't make URLs shorter. The URLs still over 100 characters are tool pages and blog posts, which this list doesn't cover.
+
+Each title below is built from the largest matching search in the DataForSEO data, with monthly Google US volume. The research's own suggestion was replaced where it didn't fit the page or the business: "AI Debt Collections Agency" (you are not a collections agency), "AI Enterprise Chat Bot" and "AI Enterprise Content Management Software" (enterprise is not your audience, and enterprise content management is document storage software), "AI Goods and Services Tax Gst" (the US has no GST), and the titles over 59 characters with " | Geek @ Your Spot LLC". You said "Small Business" is unnecessary in both titles that had it, and chose "AI Accounts Receivable Software" over "AI AR Automation Software".
+
+All paths start with `/use-cases/`.
+
+| # | Section | Title now | New title | Built from | URL ending now | New URL ending |
+|---|---|---|---|---|---|---|
+| 1 | accounting/accounts-payable | Accounts Payable | AI AP Automation Software | ap automation software (3,600) | ai-accounts-payable | ai-ap-automation-software |
+| 2 | accounting/accounts-payable | AI Invoice Approval Workflows | AI Approval Workflow | approval workflow (320) | ai-invoice-approval-workflows | ai-approval-workflow |
+| 3 | accounting/accounts-payable | AI Payment Execution | AI Automatic Bill Pay | automatic bill pay (880) | ai-payment-execution | ai-automatic-bill-pay |
+| 4 | accounting/accounts-payable | AI Data Entry & Processing | AI Document Processing | ai document processing (1,900) | automated-data-entry-processing | ai-document-processing |
+| 5 | accounting/cash-flow-forecasting | AI Accounts Receivable | AI Accounts Receivable Software | accounts receivable software (1,300) | ai-accounts-receivable | ai-accounts-receivable-software |
+| 6 | accounting/cash-flow-forecasting | Cash Flow Forecasting | AI Cash Flow Forecasting | ai cash flow forecasting (40) | ai-cash-flow-forecasting | no change |
+| 7 | accounting/cash-flow-forecasting | AI Resource Planning | AI Financial Planning Software | financial planning analysis software (590) | ai-resource-planning | ai-financial-planning-software |
+| 8 | accounting/tax-compliance-regulations | AI Payroll Tax | AI Payroll Software | payroll software (33,100) | ai-payroll-tax | ai-payroll-software |
+| 9 | accounting/tax-compliance-regulations | AI Tax Law | no change | no search term in the data | automating-complex-and-changing-laws | ai-tax-law |
+| 10 | marketing | Content Creation Workflow | AI Content Marketing Platforms | content marketing platforms (590) | ai-content-creation-workflow | ai-content-marketing-platforms |
+| 11 | marketing/content-creation-workflow | AI Content Generation | AI SEO Content Generator | seo content generator (140) | ai-content-generation | ai-seo-content-generator |
+| 12 | marketing | AI Lead Capture Pipeline | AI Sales Force Automation Software | sales force automation software (1,000) | intelligent-lead-capture-pipeline | ai-sales-force-automation-software |
+| 13 | marketing/lead-capture-pipeline | Cross-Platform Chatbot Setup Guide | AI Chatbot | chatbot for business (320) | cross-platform-chatbot-setup-guide | ai-chatbot |
+| 14 | marketing | SEO Blog and Article Generation | AI SEO Tools | ai seo tools (2,400) | seo-blog-and-article-generation | ai-seo-tools |
+| 15 | accounting hub | Accounting & Finance Use Cases | AI Accounting | accounting ai (6,600) | /use-cases/accounting | no change |
+| 16 | use cases hub | Use Cases | AI for Business | ai for business (8,100) | /use-cases | no change |
+
+- **Unchanged.** Fraud & Duplicate Payment Controls, Spreadsheet Data, Multi-State Sales Tax, Content Planning, Lead Enrichment & Predictive Scoring, Ad Spend Optimization and AI Receptionist have no better term in the data. The marketing hub stays "AI Marketing Systems" and the tax compliance hub stays "Tax Compliance & Regulations". Hub URLs don't move, because every page and tool URL under them carries that segment.
+- **What changes on each page.** The title tag, both H1 copies, the Open Graph and Twitter titles, the JSON-LD headline, the home card "AI X:" heading, and the URL with every link to it. Navbar labels, index cards and the "Top 5" lines keep their wording unless you name them. Tool and blog URLs don't change. No redirects are added, so old URLs return 404.
+
+**Status:** Open, waiting on your decision. Nothing is changed in the site.

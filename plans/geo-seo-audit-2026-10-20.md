@@ -453,6 +453,7 @@ This is verified.
 
     None of this touches Sora.
   - **Partly fixed on 2026-10-20 (`d6989dc`).** The Geist fonts and their preloads are removed, and the scheduler loads with `next/dynamic` when it nears the viewport (SA M8). `experimental.inlineCss` and loading GTM later are not tried yet, and LCP was not remeasured in PageSpeed.
+  - **Remeasured and `inlineCss` tried on 2026-10-21, at the owner's direction.** Lighthouse 13.5 with PageSpeed's phone settings, five runs each, finds median LCP on the deployed site of 1.32 to 1.92 seconds across a home, pillar, tool, blog and glossary page, all under 2.5. PageSpeed's own API was over its daily quota, and the Mac running Lighthouse is faster than PageSpeed's servers. Side by side on two production builds, `inlineCss` made LCP the same or worse on all five and added about 80 KB of compressed HTML to every page, so it is not kept. Loading GTM later is still untried. The details are in `plans/audit-input-2026-10-21/13-inline-css.md`, and the same note is under M8 in `plans/seo-audit-2026-10-20.md`.
 - **M8. Pillar FAQs carry scraped questions with the wrong intent.**
   - The AP pillar asks job-seeker questions, such as "What are typical AP interview questions?" (`src/components/use-cases/accounting/accounts-payable/faq-section.tsx:37,45,57`).
   - The lead capture pillar asks about project pipelines.
@@ -512,6 +513,7 @@ This is verified.
   - One hero image is reused on three pillars.
   - **Partly fixed on 2026-10-20 (`d6989dc`).** `quality={100}` is removed from both components, and `next.config.ts` allows only quality 75. `sizes` and the reused hero image are still open.
   - **Alt text, 2026-10-21 (`c5c8c24`).** The reused hero image had two different alts across its three pages, and 13 section images described something else or had two alts. Each now has one alt that describes it. The image itself is still reused; the details are under SEO L3 in `plans/seo-audit-2026-10-20.md`.
+  - **Image sizing rechecked on 2026-10-21.** Every image sets a fixed `width` and `height`, 460 by 460 in a section's desktop block and 211 by 211 in its phone block, and Tailwind's base style (`max-width: 100%`, `height: auto`) scales it down to its column. A headless browser shows the section images at 452 px at 1440 and 140 px at 390, square. The one exception, the SEO blog diagram on AI Content Creation Workflow, carried an inline `width: 100%` that stretched it; that style is removed. Whether to add `sizes` is open in `plans/audit-input-2026-10-21/15-image-sizes.md`. SA has no counterpart.
 - **L4. The two-copy pattern.** Keep the pattern.
   - 2,280 duplicated HTML ids appear on 153 pages, and jump links land on the hidden phone copy. Adding `-lg` to ids in the desktop copy fixes this.
   - Non-rendering AI crawlers read both copies, so keep them identical.
@@ -586,7 +588,7 @@ This is verified.
 None of these is mine to make.
 
 1. **The `vercel.app` host.** Use a host-scoped noindex header, or remove the domain in Vercel. Decided 2026-10-20: the host-scoped header (launch gate 2, `8d602e1`).
-2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt. Decided 2026-10-21: build it (`plans/audit-input-2026-10-21/01-llms-txt.md`). `src/app/llms.txt/route.ts` generates it at build time from the Use Cases and Tools menus, 32 pages, each with its own metadata title and description, and the exception is in the Markdown rule in CLAUDE.md (`ea9040f`).
+2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt. Decided 2026-10-21: build it (`ea9040f`). `src/app/llms.txt/route.ts` generates it at build time from the Use Cases and Tools menus, 32 pages, each with its own metadata title and description, and the exception is in the Markdown rule in CLAUDE.md (`ea9040f`).
 3. **New page types.** A South Florida service page, up to three area pages, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages. About is done (`f914eee`). On 2026-10-20 the owner said a service menu is needed and postponed it (C2).
 4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
 5. **Metadata titles** carrying searcher terms next to the Intelligent labels. Decided 2026-10-21: the 14 "Intelligent X" pillar titles and their H1s become "AI X", and the labels stay (M9, `c63a97f`).
