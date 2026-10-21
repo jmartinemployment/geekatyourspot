@@ -78,8 +78,13 @@ These go on top of SA's launch steps.
    - removing the domain in Vercel.
 
    Either one avoids a redirect. The GitHub repo's homepage field also points at this host.
+   - **Done on 2026-10-20 (`8d602e1`), with the header.** `next.config.ts` sends `X-Robots-Tag: noindex, nofollow` to any host ending in `.vercel.app`, outside the `ALLOW_INDEXING` branch, so `geekatyourspot.vercel.app` and every preview URL stay out of search after launch. The domain stays in Vercel. A launch-mode build (`ALLOW_INDEXING=true`) sends the header for `geekatyourspot.vercel.app` and a preview host, and not for `geekatyourspot.com` or `www.geekatyourspot.com`. The same note is in SA's launch gate.
 3. **Keep security headers out of the `ALLOW_INDEXING` branch.** `next.config.ts` returns `[]` when the variable is `true`, so any header added to that list disappears at launch. The deployed site sends HSTS and no other security headers (no CSP, `X-Content-Type-Options`, `Referrer-Policy` or `Permissions-Policy`).
    - **Done on 2026-10-20 (`d6989dc`).** `next.config.ts` sends `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin` and `Permissions-Policy: camera=(), microphone=(), geolocation=()` on every response, whether or not `ALLOW_INDEXING` is set. Only the `X-Robots-Tag` sits inside the branch. There is still no Content-Security-Policy, because GTM, the scheduler and Next's inline scripts would need nonces first.
+   - **CSP and `X-Frame-Options` added on 2026-10-20 (`8d602e1`).** `next.config.ts` sends `X-Frame-Options: DENY` and a `Content-Security-Policy` on every response, before and after launch.
+     - The policy allows inline scripts and styles, because a nonce would make every prerendered page render on request.
+     - It limits scripts to the site, GTM and the Google tags GTM loads (GA4 and Google Ads), and sets `object-src 'none'`, `base-uri 'self'`, `form-action 'self'` and `frame-ancestors 'none'`. Tag Assistant and the Vercel toolbar are allowed.
+     - A headless browser loaded 17 page types at 1440 and 390 px, opened the scheduler and picked a day. It logged no CSP violation and no page error. GA4 and Google Ads requests went through, and the scheduler showed time slots. GA4 sends to `analytics.google.com` itself, which `*.analytics.google.com` does not match, so the policy names it.
 4. **Bing.** Verified in Bing Webmaster Tools on 2026-10-20 through `public/BingSiteAuth.xml`, which must stay in place because Bing re-checks it. At launch, submit `/sitemap.xml` in Bing Webmaster Tools and add an IndexNow key file.
    - **IndexNow key file added on 2026-10-20 (`d6989dc`).** `public/3789309429f71c68df37de9e3de0276e.txt` serves the key as plain text. Submitting the sitemap in Bing Webmaster Tools is still a launch step.
 5. **GTM container, done.** Version 15 was published on 2026-10-20 (finding M6).
@@ -126,6 +131,7 @@ All of this is verified in the source.
   - Avoid CodeWCG's pattern of hundreds of templated city pages.
   - Link these pages from the footer.
 - **Rechecked on 2026-10-20 against the consultancy-competitors crawl and `8ce8b28`, still open.** The details are CP2 in `plans/competitor-pages-audit-2026-10-20.md`, and the title recount is also in SA H2.
+- **Service menu decided on 2026-10-20, postponed.** Comparing the site with competitors, the owner wants a service menu. The work is postponed (decision 3).
   - 25 of 58 crawled competitor sites have a page whose title or H1 names AI and a South Florida place.
   - Among the 58 crawled sites, the only AI page for Delray Beach is AI-Powered Consulting's, and that firm is based in Palm Beach Gardens. **Corrected by CA2:** deeper search results show eight sites with a Delray Beach AI page, seven of them in neither crawl. One, Pisano Designer, is based in Delray Beach.
   - Visionary Solutions Group, in Boca Raton, now has AI consulting pages for Miami, Fort Lauderdale and South Florida.
@@ -347,6 +353,7 @@ This is verified.
   - **Hub links.** All 15 missing mandatory links from the architecture plan now render in page bodies. The accounts payable, cash flow and tax hubs link their missing pillars and `/use-cases/accounting`; the payroll pillar links the tax hub; AI Marketing Systems and the lead capture hub link each other; AI Marketing Systems, Intelligent Content Planning and SEO Blog and Article Generation link the content creation hub, which links Intelligent Content Planning.
   - **Glossary.** The 22 letter pages are in the sitemap, each term is linked only at its first mention (SA M9), and each term page ends with up to six related terms: terms its own text names first, then terms whose text names it.
   - **Still open:** breadcrumbs (M14, SA L5), "where this applies" links on term pages, links between posts, and links from tool pages up to their hubs.
+  - **Tool page links rechecked on 2026-10-20 against the local build.** Every page's footer links `/tools`, `/tools/accounting` and `/tools/marketing` (SA C1), so crawlers reach the tool hubs from every tool page. In the page body, none of the 90 tool pages links to a tools hub, and 85 link to their use-case pillar. The other five are flat pages under `/tools/marketing`: Zapier, Pipedrive, ActiveCampaign, 6sense and ContentStudio. They link to no pillar, and four of them are also missing from the `/tools` grid (L11).
 
 ### H12. There are no comparison pages
 
@@ -513,6 +520,7 @@ This is verified.
 - **L7. Glossary definitions are fragments.** Definitions such as "The accounting function responsible for..." have no subject, and on term pages the meta description gives a different definition from the visible one.
   - **Definitions fixed on 2026-10-20 (`25926fb`).** Every definition is now a full sentence with its subject. The meta description still comes from the older `shortSummary`, so it can still differ from the visible definition.
   - **Meta descriptions fixed on 2026-10-20 (`d6989dc`).** A term page's description is now its visible definition, cut at a sentence end at 160 characters or less, so the two cannot differ. The DefinedTerm's `description` uses the same text.
+  - **Correction, rechecked on 2026-10-20.** The line above is true for 50 of the 274 terms only. `definitionSummary` (`src/lib/glossary.ts:55`) keeps whole sentences when they fit in 160 characters. For the other 224 terms the first sentence alone is longer, so it is cut at a word boundary and ends in an ellipsis. The description still quotes the visible definition. SA L1 has the recheck of the other descriptions.
 - **L8. The lead scoring model adds up to 120.** The positive criteria in the "100-point model" sum to 120 (verified), and there is no qualifying threshold. It is still the most citable post on the site, so fix it first. Its headings "People Also Ask ?" and "Map every lead source." also need cleaning.
   - **Fixed on 2026-10-20 (`d6989dc`).** The positive criteria now weigh 15, 15, 20, 25, 10 and 15, which adds up to 100. A new paragraph sets the thresholds: 60 points or more gets a sales call the same day, 30 to 59 stays in nurture, and below 30 leaves the active list. The headings read "People Also Ask" and "Map every lead source".
 - **L9. Leftover files.** `next.svg`, `vercel.svg`, `file.svg`, `window.svg`, `globe.svg` and an empty `mock-post.json` are served publicly.
@@ -529,6 +537,16 @@ This is verified.
   - `/use-cases/accounting` is typed Article while its sibling hubs are CollectionPage.
   - `/blog` has no JSON-LD and no RSS feed.
   - `/tools/accounting`'s H1 does not match its title.
+  - **Rechecked on 2026-10-20 against the local build.**
+    - The four tools are still missing from both `/tools` and `/tools/marketing`. Pipedrive and Zapier are linked from the home page's AI Use Cases section. 6sense and ContentStudio are linked only from inside other tool pages.
+    - Since `dbd8cd8` the marketing department page is an Article too, so `/use-cases/accounting` matches it and the type needs no change.
+    - `/blog` still has no JSON-LD. Its H1 is still "Geek Post" while its title is "AI for Small Business Blog" (SA L4 changed only the title).
+    - `/tools/accounting`'s H1 is "Accounting & Finance" against the title "Accounting AI Tools & Platforms". `/tools/marketing` has the same gap: "Marketing & Content" against "Marketing AI Tools & Platforms".
+  - **Tools grid fixed on 2026-10-20 (`8d602e1`).**
+    - 6sense, ContentStudio, Pipedrive and Zapier now have registry entries (`src/data/tools/`) built from their own pages: title, meta description, hero summary, keywords, and each section's heading and opening sentence. `/tools` lists all 90 tool pages and `/tools/marketing` all 44, in both the grid and the ItemList.
+    - At the owner's direction, a tool with more than one page is named with its use, as the navbar already does: "Bill (Data Entry)", "Bill (Accounts Receivable)" and so on. The cards on `/tools`, `/tools/accounting` and `/tools/marketing` take the navbar's label (`toolMenuLabel` in `src/data/navigation/site-menus.ts`), so no two cards share a name. Tools on only one page keep their names. The home page's AI Use Cases section is unchanged, because each tool there sits under the use-case heading it belongs to.
+    - ActiveCampaign's card showed no description. It now shows the page's meta description, as the other 89 cards do.
+    - A headless browser finds no card name overflowing at 390 or 1440 px.
 - **L12. Old-template tool pages.** 13 flat tool pages under `/tools/marketing/<tool>` use an older template of about 900 to 1,000 words, with no FAQ or pricing.
 - **L13. Long URLs.** 98 URLs are over 100 characters, the longest 169. Shortening them is free only before launch, because removed URLs 404. Your call.
 - **L14. Glossary topic mismatch.** About 59% of terms are chat and contact-center vocabulary, and 2% are accounting, although accounting is half the tool pages. Accounting terms people search for have no page: accounts receivable, three-way match, economic nexus, DSO and invoice OCR.
@@ -542,9 +560,9 @@ This is verified.
 
 None of these is mine to make.
 
-1. **The `vercel.app` host.** Use a host-scoped noindex header, or remove the domain in Vercel.
+1. **The `vercel.app` host.** Use a host-scoped noindex header, or remove the domain in Vercel. Decided 2026-10-20: the host-scoped header (launch gate 2, `8d602e1`).
 2. **llms.txt.** A draft covering 19 pages is in the AI access track's scratch folder. The llms.txt format is Markdown by specification. It is a published site file, not corpus, but your Markdown rule makes this your call. No major engine has confirmed it reads llms.txt.
-3. **New page types.** A South Florida service page, up to three area pages, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages.
+3. **New page types.** A South Florida service page, up to three area pages, About, Contact, a cost or engagement page, case studies once real ones exist, and comparison pages. About is done (`f914eee`). On 2026-10-20 the owner said a service menu is needed and postponed it (C2).
 4. **Glossary scope.** Re-scope it to the clusters, and decide whether off-topic terms stay. Decided 2026-10-20: all 274 terms stay, rewritten to your definition spec (SA H5, `25926fb`).
 5. **Metadata titles** carrying searcher terms next to the Intelligent labels.
 6. **Slugs.** Shorten long ones before launch, or keep them. The twelve slugs that contained "smb" were shortened on 2026-10-20 (`5f8619d`); the rest are unchanged.
