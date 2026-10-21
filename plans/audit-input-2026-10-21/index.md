@@ -18,7 +18,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 59. [The Monte Carlo tool page](59-tool-page-monte-carlo.md), GEO L12
 60. [The Optimove tool page](60-tool-page-optimove.md), GEO L12
 61. [The Qualytics tool page](61-tool-page-qualytics.md), GEO L12
-20. [Breadcrumbs](20-breadcrumbs.md), SEO L5 and GEO M14
 
 ## Pages
 
@@ -26,7 +25,6 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 23. [Publishing prices](23-prices.md), GEO decision 10
 24. [A bilingual statement](24-bilingual-statement.md), GEO decision 10 and L16
 25. [A contact page](25-contact-page.md), GEO H4 and SEO M4
-26. [An email address](26-email-address.md), GEO H4 and SEO M4
 27. [A sentence saying who the business is](27-home-page-defining-sentence.md), GEO H4
 28. [Pages at the 15 tool group paths](28-tool-group-pages.md), GEO H12
 29. [Pages at the 5 tool category paths](29-tool-category-pages.md), SEO L5

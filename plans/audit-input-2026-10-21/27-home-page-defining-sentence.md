@@ -6,9 +6,9 @@ Audit reference: GEO H4 in `plans/geo-seo-audit-2026-10-20.md`
 
 No sentence on the home page says who the business is, where it is and what it does.
 
-- The visible text names the business only in the footer copyright, "© 2026 Geek @ Your Spot LLC" (`src/components/layout/footer.tsx:163`). The hero image's alt text also names it (`src/components/home/hero-section.tsx:68`), but visitors don't see alt text. Rechecked 2026-10-21.
-- The hero says what is offered but not who offers it. The H1 is "AI Integration & Automation Solutions for Small Businesses", and the line under it is "Scale Your Operations and Boost Efficiency with Artificial Intelligence".
-- The scheduler line on the home page, "South Florida technology consultancy serving small businesses in Miami-Dade, Broward, and Palm Beach." (`src/components/shared/scheduler/scheduler-shell.tsx:35`), describes the business without naming it.
+- The visible text names the business only in the footer copyright, "© 2026 Geek @ Your Spot LLC" (`src/components/layout/footer.tsx:164`). The hero image's alt text also names it (`src/components/home/hero-section.tsx:65`), but visitors don't see alt text. Rechecked 2026-10-21.
+- The hero says what is offered but not who offers it. The H1 is "AI Automation for Business", with "Business" on its own line, and the line under it is "Scale Your Operations and Boost Efficiency with Artificial Intelligence". Rechecked 2026-10-21.
+- The scheduler line on the home page, "South Florida technology consultancy serving small businesses in Miami-Dade, Broward, and Palm Beach." (`src/components/shared/scheduler/scheduler-shell.tsx:38`), describes the business without naming it.
 
 Why it matters: when an AI answer describes a local business, it quotes one plain sentence that names it, places it and says what it does. Search engines use the same sentence to connect the page with the business's Google Business Profile. Today the home page leaves them to piece that together from the footer and the meta description.
 
@@ -32,7 +32,7 @@ Recommendation: use the sentence under the hero's second line. A crawler and a v
 
 ## The plan once you decide
 
-1. Add the approved sentence to both hero blocks in `src/components/home/hero-section.tsx`: the phone block (`lg:hidden`, from line 8) and the desktop block (`hidden lg:block`, from line 33). Use the same text and the same placement in each.
+1. Add the approved sentence to both hero blocks in `src/components/home/hero-section.tsx`: the phone block (`lg:hidden`, from line 7) and the desktop block (`hidden lg:block`, from line 32). Use the same text and the same placement in each.
 2. Style it with the classes the hero's second line already uses in each block, so nothing new is introduced.
 3. Change nothing else in the hero.
 
