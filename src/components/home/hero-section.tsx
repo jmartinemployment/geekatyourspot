@@ -11,7 +11,7 @@ export default function HeroSection() {
               <h1 className="font-[var(--font-sora)] text-[12vw] font-black leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 AI Integration &amp; Automation Solutions{" "}
                 <br />
-                for Small <span className="text-[#C83803]">Businesses</span>
+                for <span className="text-[#C83803]">Business</span>
               </h1>
               <h2 className="pt-3 text-xl text-white shadow-text">
                 Scale Your Operations and Boost Efficiency with Artificial Intelligence
@@ -36,7 +36,7 @@ export default function HeroSection() {
               <h1 className="text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 AI Integration &amp; Automation Solutions{" "}
                 <br />
-                for Small <span className="text-[#C83803]">Businesses</span>
+                for <span className="text-[#C83803]">Business</span>
               </h1>
               <h2 className="pt-3 text-2xl text-white shadow-text">
                 Scale Your Operations and Boost Efficiency with Artificial Intelligence
