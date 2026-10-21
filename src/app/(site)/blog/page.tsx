@@ -17,7 +17,7 @@ import { getBlogIndexPage, getTotalPages, type BlogIndexItem } from "./paginatio
 
 const PAGE_SUMMARY =
   "Dispatches from the actual work on what AI does for a South Florida small business in content, campaigns, lead capture, cash flow and compliance, and where it falls short.";
-const PAGE_TITLE = "AI for Small Business Blog";
+const PAGE_TITLE = "Geek Blog Posts";
 const PAGE_DESCRIPTION =
   "What AI does for a South Florida small business in content, campaigns, lead capture, cash flow and compliance, and where it falls short.";
 
@@ -152,7 +152,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
 
   return (
     <div className={cn("text-white", FIRST_SECTION_BACKGROUND)}>
-      <BlogHeroSection title="Geek Post" summary={PAGE_SUMMARY} icon={faNewspaper} />
+      <BlogHeroSection title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faNewspaper} />
 
       <section className="container py-16 lg:py-24">
         <div className="flex items-baseline gap-x-4">

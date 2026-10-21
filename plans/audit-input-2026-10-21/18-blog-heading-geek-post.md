@@ -46,4 +46,6 @@ Reason: it's the blog's name, the title already carries the search words, and th
 - The rendered `/blog` shows the chosen heading at 390 and 1440 px.
 - The page title is unchanged.
 
-**Status:** Open, waiting on your decision.
+**Changed on 2026-10-21.** You said: "I hate having Small Business in the titles visually... change both to Geek Blog Posts". The H1 and the page title, with its Open Graph and Twitter copies, are both "Geek Blog Posts" (`src/app/(site)/blog/page.tsx:20` and `:155`). The local build shows the new title and heading on `/blog`.
+
+**Status:** Done.
