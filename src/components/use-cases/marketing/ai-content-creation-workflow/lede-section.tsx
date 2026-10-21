@@ -13,7 +13,7 @@ export default function LedeSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/how-to-streamline-your-content-workflow-with-ai-0.avif"
-                alt="Envisions of streamlined workflow marketing"
+                alt="A writer with a laptop, a notebook and a cup of coffee looks up at icons for ideas, automation, scheduling, cloud storage and connected data."
                 loading="lazy" />
             </div>
             <div className="col-span-7">
@@ -84,7 +84,7 @@ export default function LedeSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/how-to-streamline-your-content-workflow-with-ai-0.avif"
-                alt="Transforming Marketing Chaos into Clarity"
+                alt="A writer with a laptop, a notebook and a cup of coffee looks up at icons for ideas, automation, scheduling, cloud storage and connected data."
                 loading="lazy" />
             </div>
             <div className="col-span-7">

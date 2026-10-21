@@ -18,7 +18,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-bulk-social-media-scheduling-consistency-across-platforms.avif"
-                alt="Benefits of AI Marketing for Small Businesses"
+                alt="A robot labelled AI points at a weekly calendar filled with scheduled social media posts, beside like and share icons."
                 loading="lazy" />
             </div>
             <div className="col-span-12">
@@ -127,7 +127,7 @@ export default function BulkSocialMediaSchedulingSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-bulk-social-media-scheduling-consistency-across-platforms.avif"
-                alt="Benefits of AI Marketing for Small Businesses"
+                alt="A robot labelled AI points at a weekly calendar filled with scheduled social media posts, beside like and share icons."
                 loading="lazy" />
             </div>
           </div>

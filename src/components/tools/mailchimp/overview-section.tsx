@@ -26,10 +26,10 @@ export default function OverviewToolSection() {
     <>
       <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
         <div className="container">
-          <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-            <div className="col-span-5 flex items-center justify-center"></div>
+          <div className="grid min-h-screen grid-cols-12 gap-x-4">
+            <div className="col-span-5"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
+              <h2 className="text-white text-right text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview">
                 Overview
               </h2>
             </div>
@@ -42,14 +42,14 @@ export default function OverviewToolSection() {
 
       <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
-          <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-5"></div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
               </h2>
               {body("-lg")}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
           </div>
         </div>
       </section>

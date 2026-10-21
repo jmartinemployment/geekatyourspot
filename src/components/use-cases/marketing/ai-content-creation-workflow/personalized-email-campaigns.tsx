@@ -5,7 +5,7 @@ import { GlossaryLink } from "@/components/glossary/glossary-link";
 export default function PersonalizedEmailCampaignsSection() {
   return (
     <>
-      <section className="min-h-screen bg-[#023859] text-white lg:hidden">
+      <section className="min-h-screen bg-[#023059] text-white lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
             <div className="col-span-7">
@@ -17,7 +17,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-personalized-email-campaigns-tailored-communication-at-scale.avif"
-                alt="Tailored communication"
+                alt="An AI hub in the center sends a separate email to each of four different people around it."
                 loading="lazy" />
             </div>
             <div className="col-span-12">
@@ -98,7 +98,7 @@ export default function PersonalizedEmailCampaignsSection() {
           </div>
         </div>
       </section>
-      <section className="min-h-screen bg-[#023859] text-white hidden lg:block">
+      <section className="min-h-screen bg-[#023059] text-white hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center py-5">
             <div className="col-span-7">
@@ -183,7 +183,7 @@ export default function PersonalizedEmailCampaignsSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-personalized-email-campaigns-tailored-communication-at-scale.avif"
-                alt="Benefits of AI Marketing for Small Businesses"
+                alt="An AI hub in the center sends a separate email to each of four different people around it."
                 loading="lazy" />
             </div>
           </div>

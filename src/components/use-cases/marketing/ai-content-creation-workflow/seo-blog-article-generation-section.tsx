@@ -13,7 +13,7 @@ export default function SEOBlogArticleGenerationSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-seo-blog-and-article-generation-enhance-visibility-with-ai.avif"
-                alt="Article Generation, Content Generation, Optimization Tools, Publish & Distribute and Visibility"
+                alt="A diagram shows the five steps of AI-driven SEO blog and article generation: keyword research, content generation, optimization tools, publishing and distribution, and visibility and results."
                 loading="lazy" />
             </div>
             <div className="col-span-7">
@@ -114,7 +114,7 @@ export default function SEOBlogArticleGenerationSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-seo-blog-and-article-generation-enhance-visibility-with-ai.avif"
-                alt="Five steps of AI-driven SEO blog and article generation: keyword research, content generation, optimization tools, publishing and distribution, and visibility and results"
+                alt="A diagram shows the five steps of AI-driven SEO blog and article generation: keyword research, content generation, optimization tools, publishing and distribution, and visibility and results."
                 loading="lazy"
                 style={{ width: '100%', height: '460' }} />
             </div>

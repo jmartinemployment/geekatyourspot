@@ -118,7 +118,7 @@ export default async function Page() {
     // Placeholder hero -- no automated-ad-spend-optimization art exists yet, and
     // SharedHeroSection requires an image. Swap once the pillar hero is generated.
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-    const imgAlt = "Automated ad spend optimization"
+    const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."
     return (
         <>
             <script

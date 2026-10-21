@@ -95,7 +95,7 @@ export default async function Page() {
     const title = "AI Marketing Systems";
     const heroSummary = "Elevate your marketing game with AI systems that automate processes and enhance decision-making for better results."
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-    const imgAlt = "Streamline the chaos"
+    const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."
     return (
         <>
             <script

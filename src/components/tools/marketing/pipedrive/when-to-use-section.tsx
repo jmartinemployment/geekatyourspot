@@ -1,18 +1,36 @@
 export default function WhenToUseSection() {
+  const body = (
+    <>
+      <p className="pt-3 text-md font-normal text-white shadow-text">Pipedrive is an excellent choice for small to medium-sized teams looking to enhance their sales process with AI-powered lead scoring. It offers a straightforward interface and robust functionality to prioritize high-potential leads without the overhead of enterprise CRM suites.</p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">Sales teams overwhelmed by manual lead sorting, spreadsheet scoring, or subjective handoffs will see immediate relief. If reps spend more time qualifying than closing and valuable prospects slip through due to inconsistent follow-up, Pipedrive brings precision and routing that reduces errors in prioritization.</p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">Compared with heavier platforms or generic automation tools, Pipedrive focuses squarely on pipeline clarity and lead scoring that maps to real selling stages. Businesses that need visual pipelines, flexible fields, and light automation, rather than deep marketing suite complexity, often adopt faster and see quicker sales efficiency gains.</p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">By using Pipedrive, teams can expect less time spent on qualification, fewer missed handoffs, and higher conversion on the opportunities most likely to close. If streamlined lead management and focused selling are the strategic priorities, Pipedrive provides a practical, cost-effective path to more informed, AI-driven sales decisions.</p>
+    </>
+  );
   return (
-    <section className="min-h-screen bg-[#8C4E2A] text-white py-5">
-      <div className="container">
-        <div className="grid min-h-screen grid-cols-12 gap-x-4 lg:place-items-center">
-          <div className="col-span-7">
-            <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">When to Use</h2>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Pipedrive is an excellent choice for small to medium-sized teams looking to enhance their sales process with AI-powered lead scoring. It offers a straightforward interface and robust functionality to prioritize high-potential leads without the overhead of enterprise CRM suites.</p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Sales teams overwhelmed by manual lead sorting, spreadsheet scoring, or subjective handoffs will see immediate relief. If reps spend more time qualifying than closing and valuable prospects slip through due to inconsistent follow-up, Pipedrive brings precision and routing that reduces errors in prioritization.</p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">Compared with heavier platforms or generic automation tools, Pipedrive focuses squarely on pipeline clarity and lead scoring that maps to real selling stages. Businesses that need visual pipelines, flexible fields, and light automation, rather than deep marketing suite complexity, often adopt faster and see quicker sales efficiency gains.</p>
-            <p className="pt-3 text-md font-normal text-white shadow-text">By using Pipedrive, teams can expect less time spent on qualification, fewer missed handoffs, and higher conversion on the opportunities most likely to close. If streamlined lead management and focused selling are the strategic priorities, Pipedrive provides a practical, cost-effective path to more informed, AI-driven sales decisions.</p>
+    <>
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 lg:hidden">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+            <div className="col-span-7">
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use">When to Use</h2>
+            </div>
+            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-12">{body}</div>
           </div>
-          <div className="col-span-5 flex items-center justify-center"></div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
+        <div className="container">
+          <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
+            <div className="col-span-7">
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="when-to-use-lg">When to Use</h2>
+              {body}
+            </div>
+            <div className="col-span-5 flex items-center justify-center"></div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

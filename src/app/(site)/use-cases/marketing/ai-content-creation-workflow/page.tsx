@@ -100,7 +100,7 @@ export default async function Page() {
     const title = "Content Creation Workflow";
     const heroSummary = "Stop letting manual content creation bottleneck your growth."
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
-    const imgAlt = "Streamline the chaos"
+    const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."
     return (
         <>
             <script

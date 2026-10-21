@@ -3,6 +3,7 @@ import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 import OverviewToolSection from "@/components/tools/mailchimp/overview-section";
 import KeyCapabilitiesSection from "@/components/tools/mailchimp/key-capabilities";
 import ImplementationSection from "@/components/tools/mailchimp/implementation-section";
+import WhenToUseSection from "@/components/tools/mailchimp/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -89,6 +90,7 @@ export default async function Page() {
             <OverviewToolSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />
+            <WhenToUseSection />
             <SchedulerShell />
         </>
     );

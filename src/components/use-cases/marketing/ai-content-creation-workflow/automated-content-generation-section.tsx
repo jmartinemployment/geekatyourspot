@@ -17,7 +17,7 @@ export default function AutomatedContentGenerationSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-automated-content-generation-efficiency-with-minimal-effort.avif"
-                alt="Efficiency with Minimal Effort"
+                alt="A robot labelled AI works at a laptop and arranges articles, images and messages in a connected workflow."
                 loading="lazy" />
             </div>
             <div className="col-span-12">
@@ -134,7 +134,7 @@ export default function AutomatedContentGenerationSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-automated-content-generation-efficiency-with-minimal-effort.avif"
-                alt="Efficiency with Minimal Effort"
+                alt="A robot labelled AI works at a laptop and arranges articles, images and messages in a connected workflow."
                 loading="lazy" />
             </div>
           </div>

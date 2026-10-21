@@ -1,9 +1,10 @@
 /**
- * The fixed section sequence shared by tool, use-case and blog pages.
+ * The section sequence shared by tool, use-case and blog pages.
  *
- * Blog posts carry 2 to 7 sections rather than the tools' fixed 4, so the
- * sequence cycles. Five entries means a cycle never places the same colour in
- * adjacent sections, which a four-entry palette would do at the wrap.
+ * A page has one section per H2, so the count varies from page to page, and
+ * section N takes entry N of this list, cycling after the fifth. Five entries
+ * means a cycle never places the same colour in adjacent sections, which a
+ * four-entry palette would do at the wrap.
  *
  * Class strings are written out in full on purpose: Tailwind only generates an
  * arbitrary-value utility it can see in the source, so a computed

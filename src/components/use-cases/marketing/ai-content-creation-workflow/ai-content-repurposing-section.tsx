@@ -14,7 +14,7 @@ export default function AIContentRepurposingSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-ai-content-repurposing-maximize-your-contents-reach.avif"
-                alt="Understanding Intelligent Lead Capture Pipelines"
+                alt="AI turns one article into a video, an infographic and a social media post, and an arrow labelled Increased Reach points to the result."
                 loading="lazy" />
             </div>
             <div className="col-span-7">
@@ -108,7 +108,7 @@ export default function AIContentRepurposingSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-content-creation-workflow/ai-content-creation-workflow-pillar-h2-ai-content-repurposing-maximize-your-contents-reach.avif"
-                alt="Understanding Intelligent Lead Capture Pipelines"
+                alt="AI turns one article into a video, an infographic and a social media post, and an arrow labelled Increased Reach points to the result."
                 loading="lazy" />
             </div>
             <div className="col-span-7">

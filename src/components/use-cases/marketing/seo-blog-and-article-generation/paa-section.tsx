@@ -5,7 +5,7 @@ export default function PAASection() {
     <section className="min-h-screen bg-[#023059] text-white py-5">
       <div className="container">
         <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-start">
-          <div className="col-span-9">
+          <div className="col-span-12">
             <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="people-also-ask">People Also Ask</h2>
           </div>
           <div className="col-span-12">
