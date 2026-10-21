@@ -117,4 +117,10 @@ All paths start with `/use-cases/`.
 - **Unchanged.** Fraud & Duplicate Payment Controls, Spreadsheet Data, Multi-State Sales Tax, Content Planning, Lead Enrichment & Predictive Scoring, Ad Spend Optimization and AI Receptionist have no better term in the data. The marketing hub stays "AI Marketing Systems" and the tax compliance hub stays "Tax Compliance & Regulations". Hub URLs don't move, because every page and tool URL under them carries that segment.
 - **What changes on each page.** The title tag, both H1 copies, the Open Graph and Twitter titles, the JSON-LD headline, the home card "AI X:" heading, and the URL with every link to it. Navbar labels, index cards and the "Top 5" lines keep their wording unless you name them. Tool and blog URLs don't change. No redirects are added, so old URLs return 404.
 
-**Status:** Open, waiting on your decision. Nothing is changed in the site.
+**Applied on 2026-10-21 (`f818419`).** You said "execute the renames".
+- **Checked on a production build.** A crawl of all 448 pages finds no broken internal link and no link to an old URL. The 13 old URLs return 404, and the sitemap and `/llms.txt` list only the new ones. Every renamed page shows its new title in the title tag, both H1 copies, the Open Graph title and the JSON-LD headline.
+- **Also changed.** The home card headings for the renamed pages, in both breakpoint copies, now read as the new titles, and "Cross-Platform Chatbot:" reads "AI Chatbot:". The 14 blog posts that linked to an old URL link to the new one, edited in their 15 source HTML files.
+- **Left as it was.** The prose link "Accounting & Finance Use Cases" on three accounting pillars still reads that way, because it sits in a sentence ("one of our Accounting & Finance Use Cases").
+- **The recount.** 82 sitemap URLs are over 100 characters: 61 tool pages, 19 blog posts and 2 use-case pages, `ai-accounts-receivable-software` and `lead-enrichment-predictive-scoring`, at 101 and 103.
+
+**Status:** Applied and committed in `f818419`.
