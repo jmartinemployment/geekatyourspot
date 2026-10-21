@@ -20,7 +20,7 @@ export const chaserhqContent: ToolPageContent = {
   "datePublished": "2026-10-10T16:26:22.0000000Z",
   "dateModified": "2026-10-10T16:26:22.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
   "sections": [
     { "title": "Overview", "description": "Every month, small business owners in Miami-Dade, Broward, and West Palm Beach counties face the daunting task of managing accounts receivable manually." },
     { "title": "The Cost of Manual Automated Accounts Receivable Processes", "description": "For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing accounts receivable manually is a drain on resources. The reliance on outdated methods such as spreadsheets and manual follow-ups can lead to significant inefficiencies." },

@@ -20,7 +20,7 @@ export const billApprovalWorkflowsContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
   "sections": [
     { "title": "Overview", "description": "A small agency's team loses hours each week sorting payment requests and chasing remote approvers; Bill routes invoices to the right people, cutting manual entry by up to 20% with 99% field accuracy." },
     { "title": "The Cost of Manual Automated Approval Workflows", "description": "Invoices pile up in the owner's inbox with verbal okays and no recorded authorization; Bill's documented workflows, risk-based thresholds, reminders and escalation give every invoice an owner, a stage and a due date." },

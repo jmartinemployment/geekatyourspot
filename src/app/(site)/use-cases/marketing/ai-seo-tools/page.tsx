@@ -17,7 +17,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "SEO Blog and Article Generation",
+            "headline": "AI SEO Tools",
             "description": "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
             "author": {
                 "@type": "Organization",
@@ -29,7 +29,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-08-23T15:34:00.2547546Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation"
+                "@id": "https://geekatyourspot.com/use-cases/marketing/ai-seo-tools"
             },
             "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
             "wordCount": 2745,
@@ -47,7 +47,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "SEO Blog and Article Generation",
+        title: "AI SEO Tools",
         description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
         keywords: ["SEO Blog and Article Generation", "AI content tools", "content automation", "SEO optimization", "marketing AI"],
         authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
@@ -55,12 +55,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/marketing/seo-blog-and-article-generation',
+            canonical: '/use-cases/marketing/ai-seo-tools',
         },
         openGraph: {
-            title: "SEO Blog and Article Generation",
+            title: "AI SEO Tools",
             description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
-            url: 'https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation',
+            url: 'https://geekatyourspot.com/use-cases/marketing/ai-seo-tools',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
@@ -68,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "SEO Blog and Article Generation",
+            title: "AI SEO Tools",
             description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
             images: [SHARE_IMAGE],
         },
@@ -97,7 +97,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "SEO Blog and Article Generation";
+    const title = "AI SEO Tools";
     const heroSummary = "Harness AI technology to streamline your SEO blog and article generation, boosting content quality and search engine performance."
     const heroImage = "";
     const imgAlt = ""

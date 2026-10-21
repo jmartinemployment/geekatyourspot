@@ -20,7 +20,7 @@ export const fraseContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "sections": [
     {"title": "Overview", "description": "A local business owner opens their laptop, determined to post something, anything, before the day gets away from them."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "Manual content creation drains small business teams in ways that go beyond lost hours."},

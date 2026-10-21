@@ -20,7 +20,7 @@ export const writesonicContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade sits down after hours, ready to write a blog post that should have gone live last week."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach, the price of manual content creation is not just measured in lost time."},

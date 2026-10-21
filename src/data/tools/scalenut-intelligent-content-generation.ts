@@ -20,7 +20,7 @@ export const scalenutIntelligentContentGenerationContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade sits down late at night, determined to write a blog post that might finally move the needle for their company."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Manual content creation is a slow bleed for small businesses in South Florida."},

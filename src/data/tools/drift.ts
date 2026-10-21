@@ -9,7 +9,7 @@ export const driftContent: ToolPageContent = {
   "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
   "datePublished": "2026-07-26T14:53:22.2607360Z",
   "dateModified": "2026-07-26T14:53:22.2607360Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Drift",
@@ -20,7 +20,7 @@ export const driftContent: ToolPageContent = {
     "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
     "subjectOf": {
       "@type": "Article",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software"
     }
   },
   "sections": [

@@ -20,7 +20,7 @@ export const takethehelmIntelligentResourcePlanningContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
   "sections": [
     {"title": "Overview", "description": "Every week, a small business in Miami-Dade closes its books with a mix of hope and anxiety."},
     {"title": "What It Costs to Keep Doing Resource Planning by Hand", "description": "A small business in South Florida faces the same scene every Friday."},

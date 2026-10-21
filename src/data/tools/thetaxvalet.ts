@@ -20,7 +20,7 @@ export const thetaxvaletContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-tax-law",
   "sections": [
     {"title": "Overview", "description": "For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, the task of managing sales tax compliance feels like an insurmountable hurdle."},
     {"title": "The Cost of Navigating Complex and Changing Laws", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing sales tax compliance amidst complex and changing laws is a daunting task."},

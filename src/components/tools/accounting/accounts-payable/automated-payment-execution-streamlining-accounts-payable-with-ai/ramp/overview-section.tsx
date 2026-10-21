@@ -13,7 +13,7 @@ export default function OverviewSection() {
         for many small businesses, where every minute spent on administrative tasks is a minute not spent on
         growth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Automated&nbsp;<Link id={`tools-accounting-payment-execution-ramp-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
+        Automated&nbsp;<Link id={`tools-accounting-payment-execution-ramp-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;can change this picture entirely. By leveraging&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>-driven solutions like&nbsp;
         <a id={`tools-accounting-payment-execution-ramp-overview-bill-pay${idSuffix}`}
           href="https://ramp.com/blog/announcing-ramp-bill-pay"

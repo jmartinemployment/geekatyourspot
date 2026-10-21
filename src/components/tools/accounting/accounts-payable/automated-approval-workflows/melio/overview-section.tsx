@@ -12,7 +12,7 @@ export default function OverviewSection() {
         but also increases the risk of errors. Missing an email or misplacing a document can delay critical
         payments, disrupt cash flow, and strain vendor relationships.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where automated&nbsp;<Link id={`tools-accounting-approval-workflows-melio-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;come into play, offering a solution that can transform how
+        This is where automated&nbsp;<Link id={`tools-accounting-approval-workflows-melio-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>&nbsp;come into play, offering a solution that can transform how
         small businesses operate. By automating the routing of approvals based on set rules, like amount
         thresholds or specific vendors, businesses can streamline their processes without the constant
         back-and-forth. Tools like&nbsp;

@@ -42,7 +42,7 @@ export default function SEOBlogArticleGenerationSection() {
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-1"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
-                </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
+                </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation" href="/use-cases/marketing/ai-seo-tools" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
                 search trends and suggest relevant keywords, which are crucial for boosting visibility. These tools automatically
                 generate article outlines and structure content around high-impact keywords, ensuring that your content is not only
                 informative but also search engine-friendly.</p>
@@ -141,7 +141,7 @@ export default function SEOBlogArticleGenerationSection() {
                 <Link id="ai-content-creation-workflow-seo-jasper-ai-1-lg"
                   href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] font-bold hover:underline">
                   Jasper AI
-                </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation-lg" href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
+                </Link>&nbsp;and Claude offer intuitive interfaces that simplify&nbsp;<Link id="use-cases-marketing-ai-content-creation-workflow-seo-blog-article-generation-seo-blog-and-article-generation-lg" href="/use-cases/marketing/ai-seo-tools" className="text-[#0B162A] hover:underline">SEO content</Link>&nbsp;creation. They can analyze
                 search trends and suggest relevant keywords, which are crucial for boosting visibility. These tools automatically
                 generate article outlines and structure content around high-impact keywords, ensuring that your content is not only
                 informative but also search engine-friendly.</p>

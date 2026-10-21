@@ -20,7 +20,7 @@ export const approvalmaxContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
   "sections": [
     { "title": "Overview", "description": "Small teams spend hours chasing signatures on purchase orders and vendor bills; automated approvals handle multi-step routing and PO matching, and Paddle Australia cut errors by 80% with ApprovalMax." },
     { "title": "The Cost of Manual Approval Workflows and How ApprovalMax Solves It", "description": "Verbal, inbox-based approvals leave no record and make the owner the bottleneck; ApprovalMax documents every approval, auto-approves low-risk recurring invoices and assigns each invoice an owner, stage and due date." },

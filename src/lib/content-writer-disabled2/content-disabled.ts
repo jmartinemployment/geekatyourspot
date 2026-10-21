@@ -230,9 +230,9 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   // Intelligent Content Generation replaced the Automated Content Generation pillar on 2026-10-19,
   // and the AI Content Repurposing pillar moved to the blog the same day.
   "/use-cases/marketing/automated-content-generation":
-    "/use-cases/marketing/content-creation-workflow/ai-content-generation",
+    "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing":
-    "/use-cases/marketing/content-creation-workflow/ai-content-generation",
+    "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "/use-cases/marketing/ai-content-repurposing": "/blog/marketing/content-creation-workflow/ai-content-repurposing",
   // These content generation tools have write-ups under the Intelligent Content Generation pillar.
   "/tools/marketing/jasper-ai": "/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper",

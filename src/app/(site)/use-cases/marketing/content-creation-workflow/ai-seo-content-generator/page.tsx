@@ -17,10 +17,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Content Generation";
+const TITLE = "AI SEO Content Generator";
 const DESCRIPTION =
     "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
-const CANONICAL = "/use-cases/marketing/content-creation-workflow/ai-content-generation";
+const CANONICAL = "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-19T16:52:26.6326271Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Content Generation, AI content workflow, automated content creation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, South Florida AI services, small business automation, content marketing automation",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-content-marketing-platforms" },
             "mentions": [
                 { "@type": "Thing", "name": "Anyword", "url": "https://www.anyword.com/" },
                 { "@type": "Thing", "name": "Castmagic", "url": "https://www.castmagic.io/" },

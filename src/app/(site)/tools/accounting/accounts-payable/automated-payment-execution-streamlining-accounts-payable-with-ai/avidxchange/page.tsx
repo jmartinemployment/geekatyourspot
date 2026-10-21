@@ -35,7 +35,7 @@ const jsonLd: Graph = {
                 "@type": "Thing",
                 "name": TITLE,
                 "url": "https://www.avidxchange.com/",
-                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" }
             }
         },
         {

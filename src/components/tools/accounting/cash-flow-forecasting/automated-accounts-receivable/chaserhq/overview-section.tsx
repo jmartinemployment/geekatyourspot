@@ -5,7 +5,7 @@ export default function OverviewSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Every month, small business owners in Miami-Dade, Broward, and West Palm Beach counties face the daunting
-        task of managing&nbsp;<Link id={`tools-accounting-accounts-receivable-chaserhq-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;manually. Hours are spent pouring over spreadsheets, sending follow-up
+        task of managing&nbsp;<Link id={`tools-accounting-accounts-receivable-chaserhq-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;manually. Hours are spent pouring over spreadsheets, sending follow-up
         emails, and making uncomfortable phone calls to clients about overdue invoices. This process not only
         consumes valuable time but also increases the likelihood of errors and strained client relationships. As
         businesses grow, these manual methods become increasingly unsustainable, risking cash flow instability and

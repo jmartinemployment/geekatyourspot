@@ -10,7 +10,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const PAGE_TITLE = "Use Cases";
+const PAGE_TITLE = "AI for Business";
 const PAGE_DESCRIPTION =
   "These AI use cases show South Florida small businesses how to automate accounting, from payables to tax compliance, and marketing, from leads to content.";
 
@@ -85,31 +85,31 @@ const DEPARTMENTS: Department[] = [
     useCases: [
       {
         title: "Accounts Payable",
-        slug: "ai-accounts-payable",
+        slug: "ai-ap-automation-software",
         description:
           "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",
-        href: "/use-cases/accounting/accounts-payable/ai-accounts-payable",
+        href: "/use-cases/accounting/accounts-payable/ai-ap-automation-software",
       },
       {
         title: "Intelligent Data Entry & Processing",
-        slug: "automated-data-entry-processing",
+        slug: "ai-document-processing",
         description:
           "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.",
-        href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing",
+        href: "/use-cases/accounting/accounts-payable/ai-document-processing",
       },
       {
         title: "Intelligent Approval Workflows",
-        slug: "ai-invoice-approval-workflows",
+        slug: "ai-approval-workflow",
         description:
           "Explore Intelligent Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
-        href: "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
+        href: "/use-cases/accounting/accounts-payable/ai-approval-workflow",
       },
       {
         title: "Intelligent Payment Execution",
-        slug: "ai-payment-execution",
+        slug: "ai-automatic-bill-pay",
         description:
           "Intelligent Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
-        href: "/use-cases/accounting/accounts-payable/ai-payment-execution",
+        href: "/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
       },
       {
         title: "Intelligent Fraud & Duplicate Payment Controls",
@@ -127,10 +127,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Accounts Receivable",
-        slug: "ai-accounts-receivable",
+        slug: "ai-accounts-receivable-software",
         description:
           "Intelligent Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
-        href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
       },
       {
         title: "Intelligent Spreadsheet Data",
@@ -141,10 +141,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Resource Planning",
-        slug: "ai-resource-planning",
+        slug: "ai-financial-planning-software",
         description:
           "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.",
-        href: "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
       },
       {
         title: "Tax Compliance & Regulations",
@@ -155,17 +155,17 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Tax Law",
-        slug: "automating-complex-and-changing-laws",
+        slug: "ai-tax-law",
         description:
           "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
-        href: "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+        href: "/use-cases/accounting/tax-compliance-regulations/ai-tax-law",
       },
       {
         title: "Intelligent Payroll Tax",
-        slug: "ai-payroll-tax",
+        slug: "ai-payroll-software",
         description:
           "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.",
-        href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
+        href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
       },
       {
         title: "Intelligent Multi-State Sales Tax",
@@ -187,10 +187,10 @@ const DEPARTMENTS: Department[] = [
     useCases: [
       {
         title: "Content Creation Workflow",
-        slug: "ai-content-creation-workflow",
+        slug: "ai-content-marketing-platforms",
         description:
           "Streamline your content creation with AI-driven workflows that improve design efficiency and reduce time-to-market.",
-        href: "/use-cases/marketing/ai-content-creation-workflow",
+        href: "/use-cases/marketing/ai-content-marketing-platforms",
       },
       {
         title: "Intelligent Content Planning",
@@ -201,10 +201,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Content Generation",
-        slug: "intelligent-content-generation",
+        slug: "ai-seo-content-generator",
         description:
           "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.",
-        href: "/use-cases/marketing/content-creation-workflow/ai-content-generation",
+        href: "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
       },
       {
         title: "Automated Ad Spend Optimization",
@@ -215,10 +215,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Lead Capture Pipeline",
-        slug: "intelligent-lead-capture-pipeline",
+        slug: "ai-sales-force-automation-software",
         description:
           "Build smarter lead capture strategies with AI-powered tools that improve qualification and conversion rates.",
-        href: "/use-cases/marketing/intelligent-lead-capture-pipeline",
+        href: "/use-cases/marketing/ai-sales-force-automation-software",
       },
       {
         title: "Intelligent Receptionist",
@@ -229,10 +229,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Cross-Platform Chatbot",
-        slug: "cross-platform-chatbot",
+        slug: "ai-chatbot",
         description:
           "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-        href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide",
+        href: "/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
       },
       {
         title: "Lead Enrichment and Predictive Scoring",
@@ -243,10 +243,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "SEO Blog and Article Generation",
-        slug: "seo-blog-and-article-generation",
+        slug: "ai-seo-tools",
         description:
           "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
-        href: "/use-cases/marketing/seo-blog-and-article-generation",
+        href: "/use-cases/marketing/ai-seo-tools",
       },
     ],
   },
@@ -308,7 +308,7 @@ export default function UseCasesPage() {
       <UseCasesHeroSection
         department="accounting"
         icon={faLightbulb}
-        title="Use Cases"
+        title="AI for Business"
         summary="A use case is a practical application: a specific way AI can be put to use in your business. These are the ones we build for South Florida small businesses, grouped by the department that owns the problem."
       />
       {DEPARTMENTS.map((department, index) => {

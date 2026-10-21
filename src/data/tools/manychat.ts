@@ -20,7 +20,7 @@ export const manychatContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "Picture the daily grind for a small business in Miami or Broward."},
     {"title": "What it costs to keep doing this by hand", "description": "Every small business in Miami-Dade, Broward or West Palm Beach that manages leads across Instagram, WhatsApp, Facebook Messenger, SMS and website chat by hand runs into the same wall."},

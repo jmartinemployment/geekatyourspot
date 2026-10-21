@@ -20,7 +20,7 @@ export const taxcloudContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-tax-law",
   "sections": [
     {"title": "Overview", "description": "Imagine running a bustling online store in Miami, with sales skyrocketing beyond Florida's borders."},
     {"title": "The Hidden Costs of Manual Tax Compliance", "description": "For small businesses in South Florida, navigating the maze of tax compliance is a daily challenge."},

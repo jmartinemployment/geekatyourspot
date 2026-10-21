@@ -26,7 +26,7 @@ export default function HowItTransformsSection() {
         <Link id={`use-cases-accounting-approval-workflows-transform-approvalmax${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">
           ApprovalMax
-        </Link>&nbsp;are integrated to automate various stages of the workflow, from&nbsp;<Link id={`use-cases-accounting-approval-workflows-how-it-transforms-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">invoice capture</Link>&nbsp;to
+        </Link>&nbsp;are integrated to automate various stages of the workflow, from&nbsp;<Link id={`use-cases-accounting-approval-workflows-how-it-transforms-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">invoice capture</Link>&nbsp;to
         approval routing. Each tool is chosen based on its ability to work seamlessly with existing systems,
         ensuring a smooth transition.</p>
       <p className="text-md text-white shadow-text pt-3">

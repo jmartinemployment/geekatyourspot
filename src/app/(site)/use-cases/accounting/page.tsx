@@ -15,7 +15,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const PAGE_TITLE = "Accounting & Finance Use Cases";
+const PAGE_TITLE = "AI Accounting";
 const PAGE_DESCRIPTION =
   "This guide shows South Florida small businesses where manual accounting fails, which tools close each gap, and how to automate without losing control.";
 const CANONICAL = "/use-cases/accounting";
@@ -131,7 +131,7 @@ export default function AccountingUseCasesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <UseCasesHeroSection
         department="accounting"
-        title="Accounting Use Cases"
+        title="AI Accounting"
         summary="This guide shows South Florida small businesses where manual accounting fails, which tools close each gap, and how we put those tools in place without losing control of the books."
       />
       <article>

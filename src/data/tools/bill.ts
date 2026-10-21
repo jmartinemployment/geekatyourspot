@@ -20,7 +20,7 @@ export const billContent: ToolPageContent = {
   "datePublished": "2026-10-02T00:00:00.0000000Z",
   "dateModified": "2026-10-02T00:00:00.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-document-processing",
   "sections": [
     {
       "title": "Overview",

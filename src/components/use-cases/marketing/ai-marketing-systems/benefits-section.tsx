@@ -26,7 +26,7 @@ export default function BenefitsSection() {
           to current market dynamics.</li>
         <li><GlossaryLink slug="chatbot" className="text-[#C83803] hover:underline">Chatbots</GlossaryLink> and virtual assistants handle customer inquiries around the clock, freeing up staff to focus on complex
           tasks and improving customer satisfaction with instant responses.</li>
-        <li><Link id={`use-cases-marketing-ai-marketing-systems-benefits-automated-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-generation" className="text-[#C83803] hover:underline">Content generation</Link>&nbsp;tools produce tailored content at scale, cutting down the time spent on content creation and
+        <li><Link id={`use-cases-marketing-ai-marketing-systems-benefits-automated-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Content generation</Link>&nbsp;tools produce tailored content at scale, cutting down the time spent on content creation and
           allowing for more consistent brand messaging across channels.</li>
       </ul>
       <h3 id={`enhanced-customer-engagement${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

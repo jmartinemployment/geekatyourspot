@@ -26,7 +26,7 @@ export default function OverviewSection() {
         </a>&nbsp;come into play, offering a seamless solution to streamline and modernize these outdated
         processes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        With automated&nbsp;<Link id={`tools-accounting-approval-workflows-bill-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
+        With automated&nbsp;<Link id={`tools-accounting-approval-workflows-bill-overview-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflows</Link>, businesses can transform their accounts payable operations. Tools
         like&nbsp;
         <a id={`tools-accounting-approval-workflows-bill-overview-bill${idSuffix}`}
           href="https://www.bill.com/product/accounts-payable"

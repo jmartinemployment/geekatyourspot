@@ -20,7 +20,7 @@ export const taxjarContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-tax-law",
   "sections": [
     {"title": "Overview", "description": "In the heart of Miami-Dade, a local boutique owner, Emma, spends her weekends buried in spreadsheets, manually updating tax rates for her online store."},
     {"title": "The Cost of Navigating Complex and Changing Laws", "description": "Small businesses in Miami-Dade, Broward, and West Palm Beach face a relentless challenge: keeping up with the complex and ever-changing landscape of local tax laws."},

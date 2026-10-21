@@ -16,7 +16,7 @@ export default function OverviewSection() {
         campaigns more efficiently and effectively, reducing costs and enhancing customer satisfaction.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id={`use-cases-marketing-ai-marketing-systems-overview-blog${idSuffix}`} href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth" className="text-[#C83803] hover:underline">AI Marketing Systems for Growth</Link> on our blog.</p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">Two parts of an AI marketing system have their own guides: the <Link id={`use-cases-marketing-ai-marketing-systems-overview-lead-capture${idSuffix}`} href="/use-cases/marketing/intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">Intelligent Lead Capture Pipeline</Link> and the <Link id={`use-cases-marketing-ai-marketing-systems-overview-content-creation${idSuffix}`} href="/use-cases/marketing/ai-content-creation-workflow" className="text-[#C83803] hover:underline">Content Creation Workflow</Link>.</p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">Two parts of an AI marketing system have their own guides: the <Link id={`use-cases-marketing-ai-marketing-systems-overview-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">Intelligent Lead Capture Pipeline</Link> and the <Link id={`use-cases-marketing-ai-marketing-systems-overview-content-creation${idSuffix}`} href="/use-cases/marketing/ai-content-marketing-platforms" className="text-[#C83803] hover:underline">Content Creation Workflow</Link>.</p>
     </>
   );
 

@@ -11,7 +11,7 @@ export default function OverviewSection() {
         spend growing her business. As the end of the month approaches, Maria faces the daunting task of reconciling
         payments, sending reminders, and worrying about her bottom line.</p>
       <p className="text-md text-white shadow-text pt-3">
-        For small businesses like Maria&#39;s, managing&nbsp;<Link id={`tools-accounting-accounts-receivable-bill-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;can be a significant drain on resources.
+        For small businesses like Maria&#39;s, managing&nbsp;<Link id={`tools-accounting-accounts-receivable-bill-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;can be a significant drain on resources.
         In Miami-Dade, Broward, and West Palm Beach counties, many owners share Maria&#39;s frustration. They
         struggle with manual invoicing, tracking who has paid and who hasn&#39;t, and the time-consuming follow-up
         reminders. These tasks not only eat into potential growth time but also increase the risk of errors and

@@ -17,7 +17,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Cash Flow Forecasting",
+            "headline": "AI Cash Flow Forecasting",
             "description": "Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.",
             "image": [
                 "https://geekatyourspot.com/images/accounting/use-cases/cash-flow-forecasting/cash-flow-forecasting-pillar-hero.avif"
@@ -48,7 +48,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "Cash Flow Forecasting",
+    title: "AI Cash Flow Forecasting",
     description: "Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.",
     keywords: ["Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation"],
     authors: [{ name: 'Geek @ Your Spot LLC', url: 'https://geekatyourspot.com/' }],
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       canonical: '/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting',
     },
     openGraph: {
-      title: "Cash Flow Forecasting",
+      title: "AI Cash Flow Forecasting",
       description: 'Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.',
       url: 'https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting',
       siteName: 'Geek @ Your Spot LLC',
@@ -69,7 +69,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Cash Flow Forecasting",
+      title: "AI Cash Flow Forecasting",
       description: 'Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.',
       images: [SHARE_IMAGE],
     },
@@ -95,7 +95,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-  const title = "Cash Flow Forecasting";
+  const title = "AI Cash Flow Forecasting";
   const heroSummary = "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management."
   const heroImage = "/images/accounting/use-cases/cash-flow-forecasting/cash-flow-forecasting-pillar-hero.avif";
   const imgAlt = "Automated cash flow forecasting"

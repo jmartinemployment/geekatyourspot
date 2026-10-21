@@ -17,10 +17,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Accounts Receivable";
+const TITLE = "AI Accounts Receivable Software";
 const DESCRIPTION =
     "Automated Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.";
-const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable";
+const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

@@ -21,7 +21,7 @@ export default function OverviewSection() {
         records into the structure an&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system needs, often
         before you see any benefit from the software itself.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id={`tools-accounting-intelligent-resource-planning-jirav-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes this. By automating the flow of data from your accounting,
+        <Link id={`tools-accounting-intelligent-resource-planning-jirav-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes this. By automating the flow of data from your accounting,
         payroll, and sales systems into one real-time platform, you get a single, always-current source of
         truth. Instead of patching together backward-looking reports, your team works from live numbers that
         update as the business moves. This means you can run accurate cash flow forecasts, model what-if

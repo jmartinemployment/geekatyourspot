@@ -20,7 +20,7 @@ export const quickbooksContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
   "sections": [
     {"title": "Overview", "description": "A local HVAC service in West Palm Beach hits its first $2 million year but still closes its books one spreadsheet at a time."},
     {"title": "What it costs to keep doing this by hand", "description": "A small business in Miami-Dade hits its stride, only to find its books tangled in a mess of spreadsheets, emails, and outdated software."},

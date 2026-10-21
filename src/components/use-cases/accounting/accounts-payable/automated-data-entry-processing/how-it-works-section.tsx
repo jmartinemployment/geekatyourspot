@@ -18,13 +18,13 @@ export default function HowItWorksSection() {
         <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
-        </Link>&nbsp;take over by automating the&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
+        </Link>&nbsp;take over by automating the&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
         approvers based on predefined criteria, minimizing the time spent on manual follow-ups. Approvers
         receive notifications and can review invoices from any device, enabling faster decision-making. This
         automation not only accelerates the approval process but also maintains an audit trail for compliance
         purposes.</p>
       <p className="text-md text-white shadow-text pt-3">
-        After approval, the process moves to&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">payment execution</Link>. Solutions like&nbsp;
+        After approval, the process moves to&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">payment execution</Link>. Solutions like&nbsp;
         <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange

@@ -61,7 +61,7 @@ export function UseCasesSection() {
                                     AI accounting systems use machine learning and automation to handle bookkeeping, scan invoices, categorize transactions, and speed up financial reporting. These platforms reduce manual data entry and minimize human error.
                                 </p>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable"
-                                    href="/use-cases/accounting/accounts-payable/ai-accounts-payable"
+                                    href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         Accounts Payable
@@ -73,10 +73,10 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-data-entry-processing"
-                                            href="/use-cases/accounting/accounts-payable/automated-data-entry-processing"
+                                            href="/use-cases/accounting/accounts-payable/ai-document-processing"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                AI Data Entry &amp; Processing:</strong></h5>
+                                                AI Document Processing:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs">
                                             Stop burning billable hours on manual data entry.
@@ -114,10 +114,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-approval-workflows"
-                                            href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows"
+                                            href="/use-cases/accounting/accounts-payable/ai-approval-workflow"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                AI Invoice Approval Workflows:</strong></h5>
+                                                AI Approval Workflow:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
@@ -159,10 +159,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-payment-execution"
-                                            href="/use-cases/accounting/accounts-payable/ai-payment-execution"
+                                            href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                AI Payment Execution:</strong></h5>
+                                                AI Automatic Bill Pay:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs">
                                             Control exactly how and when your cash moves, automatically.                                        </p>
@@ -263,10 +263,10 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-accounts-receivable"
-                                            href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable"
+                                            href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                AI Accounts Receivable:</strong></h5>
+                                                AI Accounts Receivable Software:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
                                             Get paid faster without ever chasing a client again.                                        </p>
@@ -356,10 +356,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-intelligent-resource-planning"
-                                            href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning"
+                                            href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                AI Resource Planning:</strong></h5>
+                                                AI Financial Planning Software:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
                                             Get big-enterprise efficiency without the big-enterprise price tag.
@@ -413,7 +413,7 @@ export function UseCasesSection() {
                                 </p>                                <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-complex-and-changing-laws"
-                                            href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
                                                 AI Tax Law:</strong></h5>
@@ -459,10 +459,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-payroll-tax-worker-misclassification"
-                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-sm hover:text-[#C83803]">
-                                                AI Payroll Tax:</strong></h5>
+                                                AI Payroll Software:</strong></h5>
                                         </Link>
                                         <p className="text-black text-xs ">
                                             Take the liability and absolute dread out of payroll administration.
@@ -580,8 +580,8 @@ export function UseCasesSection() {
                                 </p>
                                 <div>
                                     <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}
-                                        href="/use-cases/marketing/intelligent-lead-capture-pipeline"
+                                        id={gtmLinkIdFromHref("/use-cases/marketing/ai-sales-force-automation-software", "Lead Capture Pipeline")}
+                                        href="/use-cases/marketing/ai-sales-force-automation-software"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
                                         <h4 className="text-black text-base font-bold shadow-text">
                                             Lead Capture Pipeline</h4>
@@ -641,11 +641,11 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide", "Cross-Platform Chatbot")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-chatbot", "Cross-Platform Chatbot")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
-                                                    Cross-Platform Chatbot:
+                                                    AI Chatbot:
                                                 </strong>
                                                 </h5>
                                             </Link>
@@ -739,7 +739,7 @@ export function UseCasesSection() {
                                         </li>
                                     </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-1"
-                                        href="/use-cases/marketing/ai-content-creation-workflow" className="p-0 m-0">
+                                        href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
                                             Content Creation Workflow</h4>
                                     </Link><p className="text-black text-xs">
@@ -797,11 +797,11 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-content-generation", "Intelligent Content Generation")}
-                                                href="/use-cases/marketing/content-creation-workflow/ai-content-generation"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-seo-content-generator", "Intelligent Content Generation")}
+                                                href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
-                                                    AI Content Generation:
+                                                    AI SEO Content Generator:
                                                 </strong>
                                                 </h5>
                                             </Link>
@@ -1069,7 +1069,7 @@ export function UseCasesSection() {
                                     AI accounting systems use machine learning and automation to handle bookkeeping, scan invoices, categorize transactions, and speed up financial reporting. These platforms reduce manual data entry and minimize human error.
                                 </p>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable-lg"
-                                    href="/use-cases/accounting/accounts-payable/ai-accounts-payable"
+                                    href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg text-shadow hover:text-[#C83803] font-bold">
                                         Accounts Payable
@@ -1082,10 +1082,10 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-data-entry-processing-lg"
-                                            href="/use-cases/accounting/accounts-payable/automated-data-entry-processing"
+                                            href="/use-cases/accounting/accounts-payable/ai-document-processing"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                AI Data Entry &amp; Processing:
+                                                AI Document Processing:
                                             </strong>
                                             </h5>
                                         </Link>
@@ -1125,10 +1125,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-approval-workflows-lg"
-                                            href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows"
+                                            href="/use-cases/accounting/accounts-payable/ai-approval-workflow"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                AI Invoice Approval Workflows:
+                                                AI Approval Workflow:
                                             </strong>
                                             </h5>
                                         </Link>
@@ -1172,10 +1172,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-payment-execution-lg"
-                                            href="/use-cases/accounting/accounts-payable/ai-payment-execution"
+                                            href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                AI Payment Execution:
+                                                AI Automatic Bill Pay:
                                             </strong>
                                             </h5>
                                         </Link>
@@ -1278,10 +1278,10 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-automated-accounts-receivable-lg"
-                                            href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable"
+                                            href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                AI Accounts Receivable:</strong></h5>
+                                                AI Accounts Receivable Software:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
                                             Get paid faster without ever chasing a client again.                                        </p>
@@ -1371,10 +1371,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-intelligent-resource-planning-lg"
-                                            href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning"
+                                            href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                AI Resource Planning:</strong></h5>
+                                                AI Financial Planning Software:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
                                             Get big-enterprise efficiency without the big-enterprise price tag.
@@ -1429,7 +1429,7 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-complex-and-changing-laws-lg"
-                                            href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
                                                 AI Tax Law:</strong></h5>
@@ -1475,10 +1475,10 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-payroll-tax-worker-misclassification-lg"
-                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software"
                                             className="hover:underline">
                                             <h5><strong className="text-black text-base hover:text-[#C83803]">
-                                                AI Payroll Tax:</strong></h5>
+                                                AI Payroll Software:</strong></h5>
                                         </Link>
                                         <p className="text-black text-sm ">
                                             Take the liability and absolute dread out of payroll administration.
@@ -1584,8 +1584,8 @@ export function UseCasesSection() {
                                 </p>
                                 <div>
                                     <Link
-                                        id={`${gtmLinkIdFromHref("/use-cases/marketing/intelligent-lead-capture-pipeline", "Lead Capture Pipeline")}-lg`}
-                                        href="/use-cases/marketing/intelligent-lead-capture-pipeline"
+                                        id={`${gtmLinkIdFromHref("/use-cases/marketing/ai-sales-force-automation-software", "Lead Capture Pipeline")}-lg`}
+                                        href="/use-cases/marketing/ai-sales-force-automation-software"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                             Lead Capture Pipeline</h4>
@@ -1647,11 +1647,11 @@ export function UseCasesSection() {
                                         <li className="pl-.5">
                                             <strong className="text-sm"> </strong>
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide", "Cross-Platform Chatbot")}-lg`}
-                                                href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
-                                                    Cross-Platform Chatbot:
+                                                    AI Chatbot:
                                                 </strong>
                                                 </h5>
                                             </Link>
@@ -1745,7 +1745,7 @@ export function UseCasesSection() {
                                         </li>
                                     </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-2-lg"
-                                        href="/use-cases/marketing/ai-content-creation-workflow" className="p-0 m-0">
+                                        href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                             Content Creation Workflow</h4>
                                     </Link><p className="text-black text-sm">
@@ -1803,11 +1803,11 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-content-generation", "Intelligent Content Generation")}-lg`}
-                                                href="/use-cases/marketing/content-creation-workflow/ai-content-generation"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-seo-content-generator", "Intelligent Content Generation")}-lg`}
+                                                href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator"
                                                 className="hover:underline">
                                                 <h5><strong className="text-black text-base hover:text-[#C83803] hover:underline">
-                                                    AI Content Generation:
+                                                    AI SEO Content Generator:
                                                 </strong>
                                                 </h5>
                                             </Link>

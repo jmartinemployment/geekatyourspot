@@ -22,7 +22,7 @@ export const avidxchangePaymentExecutionContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
   "sections": [
     { "title": "Overview", "description": "Printing checks, stuffing envelopes and mailing payments every Friday is slow and error-prone. Automated payment execution pays suppliers through their preferred method and gives the week back." },
     { "title": "The Challenges of Manual Automated Payment Execution", "description": "No unified electronic payment process means manual checks, vendor preferences tracked in spreadsheets, scattered remittance data and constant \"Where is my money?\" calls." },

@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-17T11:09:57.5329753Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Lead Enrichment and Predictive Scoring, AI lead capture, South Florida small businesses, lead scoring tools, Apollo, Lusha, Snitcher, Leadfeeder, Factors, AI implementation services",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "Apollo", "url": "https://www.apollo.io/" },
                 { "@type": "Thing", "name": "Factors", "url": "https://www.factors.ai/" },

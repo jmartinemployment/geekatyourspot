@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-09T12:45:16.0792588Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Fraud & Duplicate Payment Controls, accounts payable automation, fraud prevention, duplicate payment controls, AI implementation, small business efficiency, cost savings, time savings, error reduction, local small businesses",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "Medius", "url": "https://www.medius.com/" },
                 { "@type": "Thing", "name": "Tipalti", "url": "https://tipalti.com/" },

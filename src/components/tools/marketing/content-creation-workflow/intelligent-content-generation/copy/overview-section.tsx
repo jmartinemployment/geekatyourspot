@@ -22,7 +22,7 @@ export default function OverviewSection() {
         with deeper pockets take over your share of the local market.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is the real cost of trying to handle content manually: wasted hours, missed sales, and a pipeline
-        that dries up because there aren’t enough hands to keep it moving.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-copy-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is
+        that dries up because there aren’t enough hands to keep it moving.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-copy-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is
         the way out. With a repeatable, AI-powered workflow, a small team can turn ideas, customer questions,
         and source material into publishable marketing assets in minutes, then repurpose them across every
         channel, from SEO articles to personalized email campaigns. This system doesn’t just save time and

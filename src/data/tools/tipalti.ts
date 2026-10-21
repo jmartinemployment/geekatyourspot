@@ -20,7 +20,7 @@ export const tipaltiContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
   "sections": [
     { "title": "Overview", "description": "82% of finance leaders say manual finance processes hinder growth. Automated Payment Execution removes the data-entry and approval bottlenecks and handles multi-currency payments." },
     { "title": "The High Cost of Manual Automated Payment Execution", "description": "Supplier banking details, separate domestic and international bank portals, hand-assembled payment files and cross-currency reconciliation all fall on a small finance team." },

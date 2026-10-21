@@ -6,7 +6,7 @@ export default function TamingTheBeastSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Take the example of Sarah, a finance manager at a mid-sized retail company.
-        Every month, she watches her&nbsp;<Link id={`use-cases-accounting-data-entry-taming-the-beast-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-accounts-payable" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;team slog through a mountain of invoices, each one a potential error waiting to
+        Every month, she watches her&nbsp;<Link id={`use-cases-accounting-data-entry-taming-the-beast-accounts-payable${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#C83803] hover:underline">accounts payable</Link>&nbsp;team slog through a mountain of invoices, each one a potential error waiting to
         happen. The process is slow, tedious, and fraught with human error. These manual tasks consume
         valuable hours that could be better spent on strategic activities. The frustration is palpable as
         delays in invoice processing ripple through the organization, affecting cash flow and vendor

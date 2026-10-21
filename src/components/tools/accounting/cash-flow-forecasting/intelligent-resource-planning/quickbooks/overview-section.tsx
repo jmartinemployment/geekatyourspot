@@ -20,7 +20,7 @@ export default function OverviewSection() {
         project with months of disruption and training nobody has time for. But sticking with the status quo
         means more hidden errors, more wasted hours, and less control over cash.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id={`tools-accounting-intelligent-resource-planning-quickbooks-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
+        <Link id={`tools-accounting-intelligent-resource-planning-quickbooks-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
         and disconnected apps, you get live numbers, automated data entry, and workflows that route approvals
         without email chains. You see cash flow in real time. Collections get faster, and vendor payments stop
         falling through the cracks. With AI-powered tools, your team works from a single source of truth, no

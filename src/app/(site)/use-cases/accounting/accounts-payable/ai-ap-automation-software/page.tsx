@@ -16,7 +16,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Accounts Payable",
+            "headline": "AI AP Automation Software",
             "description": "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
             "image": [
                 "https://geekatyourspot.com/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-hero.avif"
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-07-23T13:31:17.5026845Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software"
             },
             "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
             "wordCount": 3474,
@@ -48,7 +48,7 @@ const jsonLd: Graph = {
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Accounts Payable",
+        title: "AI AP Automation Software",
         description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
         keywords: ["automated accounts payable", "AP automation", "AI in finance", "accounts payable software", "financial operations", "invoice processing", "AP efficiency", "AI-driven finance", "AP tools", "business automation"],
         authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
@@ -56,12 +56,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/accounting/accounts-payable/ai-accounts-payable',
+            canonical: '/use-cases/accounting/accounts-payable/ai-ap-automation-software',
         },
         openGraph: {
-            title: "Accounts Payable",
+            title: "AI AP Automation Software",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
-            url: 'https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable',
+            url: 'https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
@@ -69,7 +69,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Accounts Payable",
+            title: "AI AP Automation Software",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
             images: [SHARE_IMAGE],
         },
@@ -95,7 +95,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Accounts Payable";
+    const title = "AI AP Automation Software";
     const heroSummary = "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy."
     const heroImage = "/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-hero.avif";
     const imgAlt = "Automated accounts payable";

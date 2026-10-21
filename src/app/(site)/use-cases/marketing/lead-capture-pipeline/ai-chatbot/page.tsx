@@ -17,10 +17,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "Cross-Platform Chatbot Setup Guide";
+const TITLE = "AI Chatbot";
 const DESCRIPTION =
     "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.";
-const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide";
+const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/ai-chatbot";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-16T16:34:08.2438979Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Cross-Platform Chatbot, Lead Capture Pipeline, AI Chatbot Implementation, Miami small business automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "BotPenguin", "url": "https://botpenguin.com/" },
                 { "@type": "Thing", "name": "Dapta", "url": "https://dapta.ai/" },

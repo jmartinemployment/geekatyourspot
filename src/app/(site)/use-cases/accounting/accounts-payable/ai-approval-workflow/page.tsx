@@ -12,10 +12,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Invoice Approval Workflows";
+const TITLE = "AI Approval Workflow";
 const DESCRIPTION =
     "Explore Automated Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows";
+const CANONICAL = "/use-cases/accounting/accounts-payable/ai-approval-workflow";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-07T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "automated approval workflows, accounts payable automation, invoice approval, AP workflow, approval routing, audit trail, AI in finance, invoice processing, finance automation, small business accounting",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "ApprovalMax", "url": "https://approvalmax.com/" },
                 { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },

@@ -31,11 +31,11 @@ export default function ChallengesSection() {
         frameworks and rolling forecast engines replace this patchwork with templates and dashboards that
         eliminate manual errors and bring scenario planning into a single, reliable place.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Meanwhile, cash flow visibility gets trapped in the details of&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;and payable cycles.
+        Meanwhile, cash flow visibility gets trapped in the details of&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;and payable cycles.
         Revenue on paper does not match money in the bank, especially when customers pay late or bills stack up
         unexpectedly.&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-take-the-helm${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm" className="text-[#C83803] hover:underline">Take
         the Helm</Link>&nbsp;was built for this exact pain, it gives a live, drag-and-drop timeline where you
-        can see how changing one payment date changes your cash runway. Sudden&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" className="text-[#C83803] hover:underline">payroll taxes</Link>, local compliance
+        can see how changing one payment date changes your cash runway. Sudden&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-challenges-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">payroll taxes</Link>, local compliance
         fees, or a late-paying client no longer catch you off guard, because the system predicts clearance dates
         and shows cash positions for the next week, month, or quarter.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -28,9 +28,9 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         id: "use-cases-marketing-lead-capture-pipeline",
         label: "Lead Capture Pipeline",
         items: [
-          { href: "/use-cases/marketing/intelligent-lead-capture-pipeline", label: "Intelligent Lead Capture Pipeline" },
+          { href: "/use-cases/marketing/ai-sales-force-automation-software", label: "Intelligent Lead Capture Pipeline" },
           { href: "/use-cases/marketing/lead-capture-pipeline/ai-receptionist", label: "Intelligent Receptionist" },
-          { href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide", label: "Cross-Platform Chatbot" },
+          { href: "/use-cases/marketing/lead-capture-pipeline/ai-chatbot", label: "Cross-Platform Chatbot" },
           { href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring", label: "Lead Enrichment & Predictive Scoring" },
         ],
       },
@@ -38,10 +38,10 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         id: "use-cases-marketing-content-creation-workflow",
         label: "Content Creation Workflow",
         items: [
-          { href: "/use-cases/marketing/ai-content-creation-workflow", label: "Content Creation Workflow" },
+          { href: "/use-cases/marketing/ai-content-marketing-platforms", label: "Content Creation Workflow" },
           { href: "/use-cases/marketing/content-creation-workflow/ai-content-planning", label: "Intelligent Content Planning" },
-          { href: "/use-cases/marketing/content-creation-workflow/ai-content-generation", label: "Intelligent Content Generation" },
-          { href: "/use-cases/marketing/seo-blog-and-article-generation", label: "SEO Blog and Article Generation" },
+          { href: "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator", label: "Intelligent Content Generation" },
+          { href: "/use-cases/marketing/ai-seo-tools", label: "SEO Blog and Article Generation" },
         ],
       },
       {
@@ -62,10 +62,10 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         id: "use-cases-accounting-accounts-payable",
         label: "Accounts Payable",
         items: [
-          { href: "/use-cases/accounting/accounts-payable/ai-accounts-payable", label: "Accounts Payable" },
-          { href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing", label: "Intelligent Data Entry & Processing" },
-          { href: "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows", label: "Intelligent Approval Workflows" },
-          { href: "/use-cases/accounting/accounts-payable/ai-payment-execution", label: "Intelligent Payment Execution" },
+          { href: "/use-cases/accounting/accounts-payable/ai-ap-automation-software", label: "Accounts Payable" },
+          { href: "/use-cases/accounting/accounts-payable/ai-document-processing", label: "Intelligent Data Entry & Processing" },
+          { href: "/use-cases/accounting/accounts-payable/ai-approval-workflow", label: "Intelligent Approval Workflows" },
+          { href: "/use-cases/accounting/accounts-payable/ai-automatic-bill-pay", label: "Intelligent Payment Execution" },
           { href: "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls", label: "Intelligent Fraud & Duplicate Payment Controls" },
         ],
       },
@@ -74,9 +74,9 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         label: "Cash Flow Forecasting",
         items: [
           { href: "/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting", label: "Intelligent Cash Flow Forecasting" },
-          { href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable", label: "Intelligent Accounts Receivable" },
+          { href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software", label: "Intelligent Accounts Receivable" },
           { href: "/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data", label: "Intelligent Spreadsheet Data" },
-          { href: "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning", label: "Intelligent Resource Planning" },
+          { href: "/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software", label: "Intelligent Resource Planning" },
         ],
       },
       {
@@ -84,8 +84,8 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         label: "Tax Compliance & Regulations",
         items: [
           { href: "/use-cases/accounting/tax-compliance-regulations", label: "Tax Compliance & Regulations" },
-          { href: "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws", label: "Automating Complex & Changing Laws" },
-          { href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax", label: "Payroll Tax & Worker Misclassification" },
+          { href: "/use-cases/accounting/tax-compliance-regulations/ai-tax-law", label: "Automating Complex & Changing Laws" },
+          { href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-software", label: "Payroll Tax & Worker Misclassification" },
           { href: "/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax", label: "Multi-State Sales Tax Nexus" },
         ],
       },

@@ -37,7 +37,7 @@ export default function BenefitsSection() {
         Enhanced Compliance and Risk Management: Automation enhances a company&#39;s ability to stay compliant
         with ever-changing tax regulations. With automated systems, businesses can quickly adapt to new rules
         and ensure that all filings are accurate and timely. Geek @ Your Spot LLC assists clients in configuring
-        these systems to automatically update with the latest&nbsp;<Link id={`use-cases-accounting-tax-compliance-benefits-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">regulatory changes</Link>, thereby maintaining compliance
+        these systems to automatically update with the latest&nbsp;<Link id={`use-cases-accounting-tax-compliance-benefits-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">regulatory changes</Link>, thereby maintaining compliance
         and reducing the risk of penalties.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Streamlining Data Management

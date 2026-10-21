@@ -50,7 +50,7 @@ export default function ToolsSection() {
       <h3 id={`medius${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         <Link id={`use-cases-accounting-accounts-payable-tools-medius${idSuffix}`} href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#0B162A] hover:underline">Medius</Link></h3>
       <p className="pt-3 text-md font-normal text-white shadow-text">Medius offers AI-driven accounts payable automation with a focus on invoice management and processing. It provides
-        an intuitive platform that simplifies&nbsp;<Link id={`use-cases-accounting-accounts-payable-tools-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#0B162A] hover:underline">invoice capture</Link>, processing, and approval workflows.</p>
+        an intuitive platform that simplifies&nbsp;<Link id={`use-cases-accounting-accounts-payable-tools-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#0B162A] hover:underline">invoice capture</Link>, processing, and approval workflows.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Automated invoice capture using AI-powered data extraction.</li>
         <li>Streamlined approval workflows with customizable routing rules.</li>

@@ -24,7 +24,7 @@ export default function OverviewSection() {
         results, puts local businesses at a disadvantage. They know they need to build visibility and trust,
         but the manual process is slow, draining, and far too expensive to scale.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-anyword-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this. Instead of burning hours on each post or spending blindly
+        <Link id={`tools-marketing-intelligent-content-generation-anyword-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this. Instead of burning hours on each post or spending blindly
         on agency retainers, small businesses can use AI-powered workflows to research, draft, personalize,
         repurpose, and schedule content in a fraction of the time. The right system turns every idea, FAQ, or
         customer story into a pipeline of tailored, data-driven assets, blogs, SEO articles, emails, and

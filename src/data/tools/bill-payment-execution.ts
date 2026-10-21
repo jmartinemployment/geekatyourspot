@@ -21,7 +21,7 @@ export const billPaymentExecutionContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
   "sections": [
     { "title": "Overview", "description": "Evenings spent on paper invoices and spreadsheets leave room for costly mistakes. Automated Payment Execution schedules and executes payments without constant oversight." },
     { "title": "The Hidden Costs of Manual Automated Payment Execution", "description": "Approved invoices are re-keyed into bank portals, ACH, check-only and international vendors each need separate steps, and the bookkeeper learns about payments late." },

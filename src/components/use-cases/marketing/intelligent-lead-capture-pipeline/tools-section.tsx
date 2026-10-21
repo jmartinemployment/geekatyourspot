@@ -37,7 +37,7 @@ export default function ToolsSection() {
         Voksha offers an Intelligent Receptionist solution designed for small businesses in South Florida,
         ensuring every call is answered and every lead is captured efficiently.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide" className="text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
       </h3>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-botpenguin${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" className="text-[#0B162A] hover:underline">BotPenguin</Link>

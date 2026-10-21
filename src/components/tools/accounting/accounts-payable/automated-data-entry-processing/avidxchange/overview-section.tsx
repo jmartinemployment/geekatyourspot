@@ -13,7 +13,7 @@ export default function OverviewSection() {
         digital age.</p>
       <p className="text-md text-white shadow-text pt-3">
         This is where AvidXchange steps in. By automating invoice management, businesses can eliminate the
-        cumbersome manual&nbsp;<Link id={`tools-accounting-data-entry-avidxchange-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;process. With <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
+        cumbersome manual&nbsp;<Link id={`tools-accounting-data-entry-avidxchange-overview-data-entry${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">data entry</Link>&nbsp;process. With <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and&nbsp;
         <GlossaryLink slug="machine-learning">machine learning</GlossaryLink>, AvidXchange captures data with
         precision, reducing errors and freeing up your team to focus on strategic tasks. The result? Faster
         payments, reduced operational costs, and increased control over your accounts payable workflow.

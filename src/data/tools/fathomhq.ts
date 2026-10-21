@@ -20,7 +20,7 @@ export const fathomhqContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
   "sections": [
     {"title": "Overview", "description": "Most small business owners in South Florida know the drill: a dozen spreadsheets for sales, a handful for expenses, receipts in an email folder, and a desktop accounting app that only one person really knows how to use."},
     {"title": "What It Costs to Keep Doing Resource Planning by Hand", "description": "Most small businesses in South Florida have lived this: the clock runs out on a Friday, and the finance team is still buried in spreadsheets."},

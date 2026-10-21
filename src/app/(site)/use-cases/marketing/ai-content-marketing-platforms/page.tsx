@@ -18,7 +18,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Content Creation Workflow",
+            "headline": "AI Content Marketing Platforms",
             "description": "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
@@ -33,7 +33,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-08-18T11:42:58.9278075Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow"
+                "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-marketing-platforms"
             },
             "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
             "wordCount": 4379,
@@ -50,7 +50,7 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "Content Creation Workflow",
+        title: "AI Content Marketing Platforms",
         description: "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more.",
         keywords: ["AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns"],
         authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
@@ -58,12 +58,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/marketing/ai-content-creation-workflow',
+            canonical: '/use-cases/marketing/ai-content-marketing-platforms',
         },
         openGraph: {
-            title: "Content Creation Workflow",
+            title: "AI Content Marketing Platforms",
             description: "Explore how an automated content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
-            url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow',
+            url: 'https://geekatyourspot.com/use-cases/marketing/ai-content-marketing-platforms',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
@@ -71,7 +71,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Content Creation Workflow",
+            title: "AI Content Marketing Platforms",
             description: "Explore how an AI content creation workflow boosts efficiency in B2B marketing, reducing errors and saving time.",
             images: [SHARE_IMAGE],
         },
@@ -97,7 +97,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Content Creation Workflow";
+    const title = "AI Content Marketing Platforms";
     const heroSummary = "Stop letting manual content creation bottleneck your growth."
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
     const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."

@@ -44,7 +44,7 @@ export default function LedeSection() {
         With AI, businesses can gain insights into the latest SEO trends and optimize their content accordingly. This <GlossaryLink slug="analytics">data-driven</GlossaryLink> approach ensures that content not only reaches the target audience but also achieves higher search engine rankings.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">For a shorter overview, read <Link id={`use-cases-marketing-seo-blog-and-article-generation-lede-blog${idSuffix}`} href="/blog/marketing/unlocking-the-potential-of-ai-in-seo-content-creation" className="text-[#C83803] hover:underline">AI in SEO Content Creation</Link> on our blog.</p>
-      <p className="pt-3 text-md font-normal text-white shadow-text">SEO blog and article generation is one stage of the <Link id={`use-cases-marketing-seo-blog-and-article-generation-lede-content-creation${idSuffix}`} href="/use-cases/marketing/ai-content-creation-workflow" className="text-[#C83803] hover:underline">Content Creation Workflow</Link>.</p>
+      <p className="pt-3 text-md font-normal text-white shadow-text">SEO blog and article generation is one stage of the <Link id={`use-cases-marketing-seo-blog-and-article-generation-lede-content-creation${idSuffix}`} href="/use-cases/marketing/ai-content-marketing-platforms" className="text-[#C83803] hover:underline">Content Creation Workflow</Link>.</p>
     </>
   );
 

@@ -15,7 +15,7 @@ export default function LedeSection() {
       <p className="text-md text-white shadow-text pt-3">
         Intelligent Content Generation changes that equation. Instead of wasting hours on a single caption or
         shelling out thousands each month for an agency retainer, small businesses can now generate on-brand,
-        localized&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-lede-seo-blog-and-article-generation${idSuffix}`} href="/use-cases/marketing/seo-blog-and-article-generation" className="text-[#C83803] hover:underline">SEO articles</Link>, social posts, and email campaigns in under a minute, without leaving their
+        localized&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-lede-seo-blog-and-article-generation${idSuffix}`} href="/use-cases/marketing/ai-seo-tools" className="text-[#C83803] hover:underline">SEO articles</Link>, social posts, and email campaigns in under a minute, without leaving their
         existing workflows. This isn’t generic, one-size-fits-all automation. It’s a system that drafts,
         adapts, and schedules content tailored to your niche, your service areas, and your real customers, so
         your brand never goes silent online. No more blank-page paralysis. No more missing the window for a

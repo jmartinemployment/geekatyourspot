@@ -20,7 +20,7 @@ export const anywordContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade spends her Friday evening staring at a blank document."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "The real cost of manual content creation for a small business in South Florida is not just measured in dollars."},

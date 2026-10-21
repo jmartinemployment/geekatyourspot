@@ -20,7 +20,7 @@ export const botpenguinContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "Picture a typical Monday morning in a small business office in Miami-Dade."},
     {"title": "What it costs to keep doing this by hand", "description": "Every small business in Miami-Dade, Broward, or West Palm Beach that relies on chat to capture leads runs into the same wall: scattered conversations across WhatsApp, Instagram, Facebook Messenger, SMS, and a website chat widget."},

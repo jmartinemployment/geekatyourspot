@@ -17,10 +17,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Payroll Tax";
+const TITLE = "AI Payroll Software";
 const DESCRIPTION =
     "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.";
-const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax";
+const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/ai-payroll-software";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

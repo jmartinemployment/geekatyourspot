@@ -20,7 +20,7 @@ export const quadernoContent: ToolPageContent = {
   "datePublished": "2026-10-12T15:36:35.4776740Z",
   "dateModified": "2026-10-12T15:36:35.4776740Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-tax-law",
   "sections": [
     {"title": "Overview", "description": "For many small businesses in South Florida, the excitement of scaling online sales quickly turns into a nightmare when faced with the labyrinthine maze of international tax compliance."},
     {"title": "The Challenges of Navigating Complex and Changing Tax Laws", "description": "For small digital product and SaaS developers in South Florida, the journey from local to global sales is fraught with tax challenges."},

@@ -19,7 +19,7 @@ export default function CloudLedgerSection() {
         automation</strong> sends reminders and routes approvals according to rules you set, and its reporting
         goes deeper than the lower tiers. When a business grows into several entities, Intuit offers <strong>Intuit
         Enterprise Suite</strong> as the next step, so the clean data you build today does not have to move to
-        a different vendor later. Our <Link id={`use-cases-accounting-cloud-ledger-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">Intelligent
+        a different vendor later. Our <Link id={`use-cases-accounting-cloud-ledger-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">Intelligent
         Resource Planning</Link> guide covers how the ledger fits into planning.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Xero

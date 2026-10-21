@@ -20,7 +20,7 @@ export const justworksContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
   "sections": [
     {"title": "Overview", "description": "Every month, a small business owner in Miami-Dade sits down to run payroll, sifting through a stack of timesheets and contracts."},
     {"title": "What It Costs to Keep Doing Payroll Tax and Worker Classification by Hand", "description": "Running payroll and getting worker classification right is not just a paperwork exercise for small businesses in South Florida. It’s a daily risk."},

@@ -42,7 +42,7 @@ export default function RightFitSection() {
         not fix them.</p>
       <p className="text-md text-white shadow-text pt-3">
         For businesses with highly specialized, one-off payroll needs (say, one-off project-based payments that
-        never repeat, or workers who are never subject to&nbsp;<Link id={`use-cases-accounting-payroll-tax-worker-misclassification-right-fit-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#0B162A] hover:underline">changing tax laws</Link>), full-scale automation may be
+        never repeat, or workers who are never subject to&nbsp;<Link id={`use-cases-accounting-payroll-tax-worker-misclassification-right-fit-complex-changing-laws${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#0B162A] hover:underline">changing tax laws</Link>), full-scale automation may be
         overkill. In these cases, a lighter solution, like a simple accounting software with manual checks,
         could cover you. But as soon as your business touches multiple worker types, multiple jurisdictions, or
         faces regular audits and tax changes, the stakes shift. At that point, the price of staying manual

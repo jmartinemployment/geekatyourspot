@@ -32,7 +32,7 @@ const jsonLd: WithContext<TechArticle> = {
         "@type": "Thing",
         "name": TITLE,
         "url": "https://dext.com/",
-        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-document-processing" }
     }
 };
 

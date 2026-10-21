@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-18T13:01:40.3179029Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Content Planning, AI content workflow, automated content generation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, small business AI, West Palm Beach AI consulting, Miami-Dade content automation",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-content-marketing-platforms" },
             "mentions": [
                 { "@type": "Thing", "name": "Hootsuite", "url": "https://www.hootsuite.com/" },
                 { "@type": "Thing", "name": "HyperWrite", "url": "https://www.hyperwriteai.com/" },

@@ -63,7 +63,7 @@ export default function LedeSection() {
         to multi-channel repurposing), and running a real pilot so you see the results in your own numbers. If
         you are ready to stop guessing and start growing, this is where you begin.</p>
       <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-content-planning-lede-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> on our blog.</p>
-      <p className="text-md text-white shadow-text pt-3">Content planning is the first stage of the <Link id={`use-cases-marketing-intelligent-content-planning-lede-content-creation${idSuffix}`} href="/use-cases/marketing/ai-content-creation-workflow" className="text-[#C83803] hover:underline">Content Creation Workflow</Link>.</p>
+      <p className="text-md text-white shadow-text pt-3">Content planning is the first stage of the <Link id={`use-cases-marketing-intelligent-content-planning-lede-content-creation${idSuffix}`} href="/use-cases/marketing/ai-content-marketing-platforms" className="text-[#C83803] hover:underline">Content Creation Workflow</Link>.</p>
     </>
   );
 

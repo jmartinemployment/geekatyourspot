@@ -23,7 +23,7 @@ export default function KeyFeaturesSection() {
         balances are adhered to without manual intervention. This feature significantly reduces the cycle time for invoice
         approvals and minimizes bottlenecks.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
-        <li>Customizable&nbsp;<Link id={`use-cases-accounting-accounts-payable-key-features-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#0B162A] hover:underline">approval workflows</Link>&nbsp;tailored to specific organizational structures.</li>
+        <li>Customizable&nbsp;<Link id={`use-cases-accounting-accounts-payable-key-features-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#0B162A] hover:underline">approval workflows</Link>&nbsp;tailored to specific organizational structures.</li>
         <li>Real-time tracking of invoice status to enhance visibility and accountability.</li>
         <li>Automated notifications to stakeholders to prevent delays in the approval process.</li>
       </ul>

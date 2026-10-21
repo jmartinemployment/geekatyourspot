@@ -20,7 +20,7 @@ export const deelContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
   "sections": [
     {"title": "Overview", "description": "A South Florida general contractor sits in a modest office, sifting through timesheets and invoices for a dozen workers."},
     {"title": "What It Costs to Keep Doing Payroll and Classification by Hand", "description": "Every Friday afternoon, the same South Florida business owner looks at the spreadsheet and feels the weight of risk."},

@@ -17,7 +17,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "AI Lead Capture Pipeline",
+            "headline": "AI Sales Force Automation Software",
             "description": "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/intelligent-lead-capture-pipeline/intelligent-lead-capture-pipeline-pillar-hero.avif"
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-07-26T14:56:10.1903634Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
+                "@id": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software"
             },
             "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
             "mentions": [
@@ -73,7 +73,7 @@ const jsonLd: Graph = {
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "AI Lead Capture Pipeline",
+        title: "AI Sales Force Automation Software",
         description: "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.",
         keywords: ["Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions"],
         authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
@@ -81,12 +81,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/marketing/intelligent-lead-capture-pipeline',
+            canonical: '/use-cases/marketing/ai-sales-force-automation-software',
         },
         openGraph: {
-            title: "AI Lead Capture Pipeline",
+            title: "AI Sales Force Automation Software",
             description: 'Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.',
-            url: 'https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline',
+            url: 'https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',
@@ -94,7 +94,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "AI Lead Capture Pipeline",
+            title: "AI Sales Force Automation Software",
             description: 'Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.',
             images: [SHARE_IMAGE],
         },
@@ -120,7 +120,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "AI Lead Capture Pipeline";
+    const title = "AI Sales Force Automation Software";
     const heroSummary = "Automate and optimize your lead capture process with the Intelligent Lead Capture Pipeline."
     const heroImage = "/images/marketing/use-cases/intelligent-lead-capture-pipeline/intelligent-lead-capture-pipeline-pillar-hero.avif";
     const imgAlt = "Intelligent lead capture pipeline";

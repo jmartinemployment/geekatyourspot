@@ -20,7 +20,7 @@ export default function TaxPayrollNexusSection() {
         the correct rate for each sale and prepare your returns. <Link id={`use-cases-accounting-tax-zamp-law${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp" className="text-[#C83803] hover:underline">Zamp</Link> and <Link id={`use-cases-accounting-tax-taxvalet-law${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet" className="text-[#C83803] hover:underline">TaxValet</Link> take
         a managed approach, where their team handles registrations and filings for you. <strong>Avalara</strong> is
         one of the best known names in the category, and we evaluate it alongside the others when transaction
-        volumes call for it. Our <Link id={`use-cases-accounting-tax-p-law${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" className="text-[#C83803] hover:underline">Intelligent
+        volumes call for it. Our <Link id={`use-cases-accounting-tax-p-law${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">Intelligent
         Tax Law</Link> guide goes deeper.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Sales Tax Nexus Across State Lines
@@ -51,7 +51,7 @@ export default function TaxPayrollNexusSection() {
         everywhere. <Link id={`use-cases-accounting-tax-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#C83803] hover:underline">ADP</Link> offers <strong>RUN
         Powered by ADP</strong>, its payroll platform for small businesses. <Link id={`use-cases-accounting-tax-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel" className="text-[#C83803] hover:underline">Deel</Link> manages
         contractors and international workers and helps document classification decisions, and <Link id={`use-cases-accounting-tax-justworks${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks" className="text-[#C83803] hover:underline">Justworks</Link> acts
-        as a professional employer organization that takes on payroll and compliance work. Our <Link id={`use-cases-accounting-tax-p-payroll${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" className="text-[#C83803] hover:underline">Intelligent
+        as a professional employer organization that takes on payroll and compliance work. Our <Link id={`use-cases-accounting-tax-p-payroll${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">Intelligent
         Payroll Tax</Link> guide covers the details.</p>
     </>
   );

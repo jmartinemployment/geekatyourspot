@@ -12,10 +12,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Data Entry & Processing";
+const TITLE = "AI Document Processing";
 const DESCRIPTION =
     "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/automated-data-entry-processing";
+const CANONICAL = "/use-cases/accounting/accounts-payable/ai-document-processing";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -38,7 +38,7 @@ const jsonLd: Graph = {
                 "@id": PAGE_URL
             },
             "keywords": "automated data entry, accounts payable automation, invoice processing, AP data capture, AI in finance, invoice approval workflow, AP accuracy, finance automation, accounts payable software, small business accounting",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "Dext", "url": "https://dext.com/" },
                 { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },

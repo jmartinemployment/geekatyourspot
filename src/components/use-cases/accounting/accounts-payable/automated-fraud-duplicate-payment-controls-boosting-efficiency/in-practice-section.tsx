@@ -8,7 +8,7 @@ export default function InPracticeSection() {
         The transition to Automated Fraud &amp; Duplicate Payment Controls requires careful planning and
         execution. Start by mapping out the entire&nbsp;
         accounts payable
-        &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id={`use-cases-accounting-fraud-controls-in-practice-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
+        &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id={`use-cases-accounting-fraud-controls-in-practice-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
         sequence helps in pinpointing where automation can bring the most benefit. For example, automating
         the invoice matching process can drastically reduce errors and speed up approvals.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -12,10 +12,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Payment Execution";
+const TITLE = "AI Automatic Bill Pay";
 const DESCRIPTION =
     "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/ai-payment-execution";
+const CANONICAL = "/use-cases/accounting/accounts-payable/ai-automatic-bill-pay";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-08T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Payment Execution, AI in Accounts Payable, Efficiency in Payment Processing, Cost Reduction, Error Minimization, AI Solutions for Small Business, Payment Automation Tools, AI Implementation, Business Efficiency",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "AvidXchange", "url": "https://www.avidxchange.com/" },
                 { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },

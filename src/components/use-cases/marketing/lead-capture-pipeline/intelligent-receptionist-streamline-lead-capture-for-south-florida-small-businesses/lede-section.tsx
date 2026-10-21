@@ -13,7 +13,7 @@ export default function LedeSection() {
         marketing spend, and a business owner who spends evenings returning calls instead of growing the
         company.</p>
       <p className="text-md text-white shadow-text pt-3">
-        The real cost goes beyond a single lost opportunity. Each call that slips through cracks in your&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/intelligent-lead-capture-pipeline" className="text-[#C83803] hover:underline">lead capture pipeline</Link>&nbsp;hurts your reputation and tanks your conversion rates. Clients rarely leave voicemails,
+        The real cost goes beyond a single lost opportunity. Each call that slips through cracks in your&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-lede-intelligent-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">lead capture pipeline</Link>&nbsp;hurts your reputation and tanks your conversion rates. Clients rarely leave voicemails,
         and most will not try you twice. Meanwhile, your team loses focus as they scramble to answer routine
         questions or switch tasks, breaking their concentration every time the line rings. This fractured
         attention is a silent tax on your productivity and turns your growth ceiling into a glass floor.</p>

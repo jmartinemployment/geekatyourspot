@@ -20,7 +20,7 @@ export const stampliContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
   "sections": [
     { "title": "Overview", "description": "Stacks of paper invoices and approvals handled in separate systems create visibility gaps and delays. Predefined routing sends each document to the right reviewer and leaves an auditable record." },
     { "title": "The Cost of Manual Automated Approval Workflows", "description": "Verbal approvals with no recorded authorization, one approval path for every invoice, the owner as the bottleneck, and issues found only when a payment is already late." },
