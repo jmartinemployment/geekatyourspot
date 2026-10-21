@@ -45,4 +45,10 @@ Reason: the titles describe what the pages hold, they match how `/tools` already
 - The rendered pages at 390 and 1440 px show the chosen heading with nothing overflowing.
 - A check of the title and heading on both pages confirms they match.
 
-**Status:** Open, waiting on your decision.
+**Changed on 2026-10-21.** You said the visual page title should be the title, in a hero, and that the layout was inconsistent.
+- Both pages open with the navy `ToolsHeroSection` used by `/tools`, with the "Get Your Free AI Assessment" button and each page's own icon (calculator, funnel). The H1 is the title: "Accounting AI Tools & Platforms" and "Marketing AI Tools & Platforms".
+- The 46 tool cards on each page are grouped into one section per H2, using the navbar's Tools categories (Accounts Payable, Cash Flow Forecasting, Tax Compliance & Regulations; Lead Capture Pipeline, Content Creation Workflow, Automated Ad Spend Optimization), with section colours in H2 order. The page ends with the scheduler. The shared code is `src/components/tools/shared/tools-department-sections.tsx`.
+- A local build shows the H1, the three sections and 46 cards on each page at 390 and 1440 px.
+- A list of the platforms the tools connect to, such as QuickBooks and HubSpot, is on hold at your direction ("not today").
+
+**Status:** Done.

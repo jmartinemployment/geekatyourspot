@@ -58,7 +58,7 @@ function HubGroup({
             <Link
               id={`${gtmLinkIdFromHref(link.href, "footer")}${idSuffix}`}
               href={link.href}
-              className="font-bold text-sm text-[#C83803] text-shadow-2xs text-shadow-white hover:underline"
+              className="font-bold text-white text-sm shadow-text hover:text-[#c83803] transition-colors"
             >
               {link.label}
             </Link>

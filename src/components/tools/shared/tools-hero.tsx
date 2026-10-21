@@ -1,12 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 interface HeroSectionProps {
   title: string;
-  summary: string
+  summary: string;
+  /** The desktop hero icon; the tools index uses the screwdriver and wrench. */
+  icon?: IconDefinition;
 }
 
-export default async function ToolsHeroSection({title, summary}:HeroSectionProps) {
+export default async function ToolsHeroSection({title, summary, icon = faScrewdriverWrench}:HeroSectionProps) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
@@ -53,7 +56,7 @@ export default async function ToolsHeroSection({title, summary}:HeroSectionProps
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
               <FontAwesomeIcon
-                icon={faScrewdriverWrench}
+                icon={icon}
                 className="text-[#C83803]"
                 style={{ width: "16rem", height: "16rem" }}
               />
