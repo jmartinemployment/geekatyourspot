@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Content Planning";
+const TITLE = "AI Content Planning";
 const DESCRIPTION =
     "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.";
 const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai";

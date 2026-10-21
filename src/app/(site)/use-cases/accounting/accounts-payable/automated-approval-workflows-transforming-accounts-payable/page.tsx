@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Approval Workflows";
+const TITLE = "AI Invoice Approval Workflows";
 const DESCRIPTION =
     "Explore Automated Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable";

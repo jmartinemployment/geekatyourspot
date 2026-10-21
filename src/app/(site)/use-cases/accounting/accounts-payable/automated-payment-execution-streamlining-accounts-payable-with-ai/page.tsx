@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Payment Execution";
+const TITLE = "AI Payment Execution";
 const DESCRIPTION =
     "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai";

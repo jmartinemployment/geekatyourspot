@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Content Generation";
+const TITLE = "AI Content Generation";
 const DESCRIPTION =
     "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
 const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses";

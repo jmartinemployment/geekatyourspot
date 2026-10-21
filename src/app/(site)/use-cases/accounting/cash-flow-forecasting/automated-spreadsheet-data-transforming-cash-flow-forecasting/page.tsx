@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Spreadsheet Data";
+const TITLE = "AI Spreadsheet Data";
 const DESCRIPTION =
     "Discover how Automated Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting";

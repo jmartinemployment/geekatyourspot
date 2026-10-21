@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Fraud & Duplicate Payment Controls";
+const TITLE = "AI Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Implement Automated Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency";

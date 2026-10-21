@@ -18,7 +18,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Intelligent Lead Capture Pipeline",
+            "headline": "AI Lead Capture Pipeline",
             "description": "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/intelligent-lead-capture-pipeline/intelligent-lead-capture-pipeline-pillar-hero.avif"
@@ -72,14 +72,14 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "What is the formula for pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "The formula for a sales pipeline typically involves calculating the value of potential sales at each stage of the pipeline. This is often done by multiplying the probability of closing a deal at each stage by the deal's expected value, helping to forecast potential revenue."}}
             ]
         },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline", name: "Intelligent Lead Capture Pipeline", description: "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently." })
+        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline", name: "AI Lead Capture Pipeline", description: "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently." })
     ]
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Intelligent Lead Capture Pipeline",
+        title: "AI Lead Capture Pipeline",
         description: "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.",
         keywords: ["Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions"],
         authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
@@ -90,7 +90,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/marketing/intelligent-lead-capture-pipeline',
         },
         openGraph: {
-            title: "Intelligent Lead Capture Pipeline",
+            title: "AI Lead Capture Pipeline",
             description: 'Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.',
             url: 'https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline',
             siteName: 'Geek @ Your Spot LLC',
@@ -100,7 +100,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Intelligent Lead Capture Pipeline",
+            title: "AI Lead Capture Pipeline",
             description: 'Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently.',
             images: [SHARE_IMAGE],
         },
@@ -126,7 +126,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Intelligent Lead Capture Pipeline";
+    const title = "AI Lead Capture Pipeline";
     const heroSummary = "Automate and optimize your lead capture process with the Intelligent Lead Capture Pipeline."
     const heroImage = "/images/marketing/use-cases/intelligent-lead-capture-pipeline/intelligent-lead-capture-pipeline-pillar-hero.avif";
     const imgAlt = "Intelligent lead capture pipeline";

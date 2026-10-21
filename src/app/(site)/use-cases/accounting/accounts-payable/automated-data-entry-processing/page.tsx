@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { pillarService } from "@/lib/seo/organization";
 
-const TITLE = "Intelligent Data Entry & Processing";
+const TITLE = "AI Data Entry & Processing";
 const DESCRIPTION =
     "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/automated-data-entry-processing";
