@@ -594,10 +594,9 @@ export function UseCasesSection() {
                                             <Link
                                                 id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-receptionist", "Intelligent Receptionist")}
                                                 href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist"
-                                                className="hover:underline">
-                                                <h5><strong className="text-black text-sm hover:text-[#C83803] hover:underline">
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
                                                     AI Receptionist:
-                                                </strong>
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs">
