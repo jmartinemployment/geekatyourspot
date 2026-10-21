@@ -13,7 +13,14 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 7. [The Zapier tool page](07-tool-page-zapier.md), GEO M12, L12 and H11
 8. [The ActiveCampaign tool page](08-tool-page-activecampaign.md), GEO L12 and H11
 9. [The ContentStudio tool page](09-tool-page-contentstudio.md), GEO L12 and H11
-10. [The 13 flat tool pages on the older template](10-old-template-tool-pages.md), GEO L12
+54. [The Adobe Mix Modeler tool page](54-tool-page-adobe-mix-modeler.md), GEO L12
+55. [The Anomalo tool page](55-tool-page-anomalo.md), GEO L12
+56. [The Great Expectations tool page](56-tool-page-great-expectations.md), GEO L12
+57. [The Madgicx tool page](57-tool-page-madgicx.md), GEO L12
+58. [The Mailchimp tool page](58-tool-page-mailchimp.md), GEO L12
+59. [The Monte Carlo tool page](59-tool-page-monte-carlo.md), GEO L12
+60. [The Optimove tool page](60-tool-page-optimove.md), GEO L12
+61. [The Qualytics tool page](61-tool-page-qualytics.md), GEO L12
 11. [Blocking Bytespider at launch](11-bytespider.md), GEO decision 11
 12. [Blocking CCBot at launch](12-ccbot.md), GEO decision 11
 13. [Inlining the stylesheet for phone speed](13-inline-css.md), GEO M7

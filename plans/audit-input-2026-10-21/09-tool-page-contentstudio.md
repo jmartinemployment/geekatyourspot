@@ -8,7 +8,7 @@ ContentStudio is a content discovery, repurposing and social scheduling platform
 
 Where it stands (rechecked 2026-10-21):
 - **URL.** `/tools/marketing/contentstudio`, directly under `/tools/marketing`, with no use-case segment.
-- **Template.** The older one: a hero plus Overview, Key Capabilities, Implementation and When to Use. The newer tool pages have seven sections after the hero, including cost and fit and pricing.
+- **Content.** Four H2s, so four sections: Overview, Key Capabilities, Implementation Considerations and When to Use. That's about 1,000 words, with no FAQ and no pricing. A page has one section per H2, and the 77 tool pages under a use-case segment have 7 to 12 H2s, most with an FAQ and a pricing section.
 - **Menu.** It's under Content Creation Workflow in the Tools menu (`src/data/navigation/site-menus.ts:208`).
 - **Home page.** Not linked.
 - **Links in.**

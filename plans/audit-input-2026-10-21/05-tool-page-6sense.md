@@ -8,7 +8,7 @@ Audit reference: GEO M12, L12 and H11 in `plans/geo-seo-audit-2026-10-20.md`.
 
 Where it stands (rechecked 2026-10-21):
 - **URL.** `/tools/marketing/6sense`, directly under `/tools/marketing`, with no use-case segment.
-- **Template.** The older one: a hero plus Overview, Key Capabilities, Implementation and When to Use. The newer tool pages have seven sections after the hero, including cost and fit and pricing.
+- **Content.** Four H2s, so four sections: Overview, Key Capabilities, Implementation Considerations and When to Use. That's about 550 words, with no FAQ and no pricing. A page has one section per H2, and the 77 tool pages under a use-case segment have 7 to 12 H2s, most with an FAQ and a pricing section.
 - **Menu.** It's under Lead Capture Pipeline in the Tools menu (`src/data/navigation/site-menus.ts:183`).
 - **Home page.** Not linked.
 - **Links in.** Snitcher's and Leadfeeder's comparing sections, and three sections of the lead scoring blog post.

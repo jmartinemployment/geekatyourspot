@@ -8,7 +8,7 @@ Pipedrive is a sales CRM, and its page on this site is about lead scoring. The s
 
 Where it stands (rechecked 2026-10-21):
 - **URL.** `/tools/marketing/pipedrive`, directly under `/tools/marketing`, with no use-case segment.
-- **Template.** The older one: a hero plus Overview, Key Capabilities, Implementation and When to Use. The newer tool pages have seven sections after the hero, including cost and fit and pricing.
+- **Content.** Four H2s, so four sections: Overview, Key Capabilities, Implementation Considerations and When to Use. That's about 550 words, with no FAQ and no pricing. A page has one section per H2, and the 77 tool pages under a use-case segment have 7 to 12 H2s, most with an FAQ and a pricing section.
 - **Menu.** It's listed twice in the Tools menu: under Content Creation Workflow (`src/data/navigation/site-menus.ts:219`) and under Automated Ad Spend Optimization (`:238`).
 - **Home page.** It's on the Ad Spend card under "Dynamic Creative Optimization: Top AI Dynamic Optimization Tools", next to Madgicx, in both breakpoint copies (`src/components/home/use-cases.tsx:934` and `:1939`). Dynamic creative optimization is about ad creative, not CRM.
 - **Links in.** 14 files, including:

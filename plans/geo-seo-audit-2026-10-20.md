@@ -321,14 +321,14 @@ Both are verified.
   - **Products.** No SoftwareApplication node is left. Every product reference uses one site-wide id, `https://geekatyourspot.com/#software-<slug>`, typed `Thing`, with the name and the vendor's own URL and no description, so the South Florida pitch no longer describes the software. Bill is one entity on every page. The nodes have no `sameAs`.
   - **Services.** Each of the 23 pillars carries a `Service` node (`<pillar url>#service`) with the business as provider and the South Florida area served, and the pillar's Article is `about` it.
   - **Organization.** One Organization and LocalBusiness node is printed on every page from `src/lib/seo/organization.ts`, and every publisher references it.
-
-### H10. The approval workflows pillar's FAQ is about data entry
-
-This is verified.
 - **Changed on 2026-10-21, at the owner's direction (`cccde1c`).** The site uses no `#` URLs (`plans/audit-input-2026-10-21/53-no-hash-urls.md`). The same change is SA H4b, L8 and M4.
   - **Services.** The 23 pillar Service nodes are deleted, along with the Articles' `about` pointers to them. The owner said "NIX" and "I will have a Service Menu Item(s)", so the services section will describe the services.
   - **Products.** No node has an `@id` now. Each `mentions` entry and each tool page's `about` carries the product's name and vendor URL in place, so a product is the same name and URL on every page instead of one shared id.
   - **Organization.** It's still printed in full on every page, without an `@id`. Every publisher, author and provider names it by its name and `https://geekatyourspot.com`.
+
+### H10. The approval workflows pillar's FAQ is about data entry
+
+This is verified.
 
 - **Wrong topic.** All 13 questions in `src/components/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable/paa-section.tsx` ask about invoice data entry and extraction, and they are also marked up as FAQPage.
 - **Misleading answer.** One says "our solution integrates seamlessly with QuickBooks, Xero, and Sage", although the business sells no product of its own.
@@ -494,11 +494,11 @@ This is verified.
   - 35 relative `#software-*` ids make the same product a different entity on each page.
   - There is no BreadcrumbList on 431 pages. Breadcrumbs are one of the few rich results the site can still earn.
   - **Partly fixed on 2026-10-20.** `subjectOf` points at the pillar's `#article` node on all 90 tool pages (`4f36efd`), and no relative `#software` id is left (`d6989dc`; see H9). BreadcrumbList is still open.
+  - **Changed on 2026-10-21 (`cccde1c`).** There are no `#` ids now (H9). `subjectOf` and `isPartOf` name the pillar's Article by the pillar's URL, and a crawl of all 448 pages finds every site URL in the structured data returning 200.
 
 ## Low
 
 - **L1. Footer icon links have no accessible name.** The Facebook and LinkedIn links (`src/components/layout/footer.tsx:89`, `:111`) contain only an `aria-hidden` SVG. This fails Lighthouse's Agentic Browsing check on every page. Add `aria-label="Geek at Your Spot on Facebook"` and the LinkedIn equivalent. The same file has a stray `justify-center]` class at `:93`.
-  - **Changed on 2026-10-21 (`cccde1c`).** There are no `#` ids now (H9). `subjectOf` and `isPartOf` name the pillar's Article by the pillar's URL, and a crawl of all 448 pages finds every site URL in the structured data returning 200.
   - **Fixed on 2026-10-20 (`d6989dc`).** The links are labelled "Geek @ Your Spot LLC on Facebook" and "Geek @ Your Spot LLC on LinkedIn", and the stray class is fixed.
 - **L2. Mobile render defects.**
   - The scheduler heading "Consultation" (`scheduler-shell.tsx:144`) is 408 px wide in a 390 px viewport, so it is clipped on 428 pages.
@@ -511,6 +511,7 @@ This is verified.
   - No content image has `sizes`.
   - One hero image is reused on three pillars.
   - **Partly fixed on 2026-10-20 (`d6989dc`).** `quality={100}` is removed from both components, and `next.config.ts` allows only quality 75. `sizes` and the reused hero image are still open.
+  - **Alt text, 2026-10-21 (`c5c8c24`).** The reused hero image had two different alts across its three pages, and 13 section images described something else or had two alts. Each now has one alt that describes it. The image itself is still reused; the details are under SEO L3 in `plans/seo-audit-2026-10-20.md`.
 - **L4. The two-copy pattern.** Keep the pattern.
   - 2,280 duplicated HTML ids appear on 153 pages, and jump links land on the hidden phone copy. Adding `-lg` to ids in the desktop copy fixes this.
   - Non-rendering AI crawlers read both copies, so keep them identical.
@@ -560,14 +561,23 @@ This is verified.
     - ActiveCampaign's card showed no description. It now shows the page's meta description, as the other 89 cards do.
     - A headless browser finds no card name overflowing at 390 or 1440 px.
 - **L12. Old-template tool pages.** 13 flat tool pages under `/tools/marketing/<tool>` use an older template of about 900 to 1,000 words, with no FAQ or pricing.
+  - **Correction, rechecked on 2026-10-21 on a local build.** It isn't an older template. Every tool page has the same layout, one section per H2 in its content, so the 13 differ in their content.
+    - Each has four H2s (Overview, Key Capabilities, Implementation Considerations and When to Use), about 500 to 1,040 words, no FAQ and no pricing. Mailchimp has four H2s too, not three.
+    - The 77 tool pages under a use-case segment have 7 to 12 H2s and about 1,900 to 9,100 words.
+    - Each page has its own plan document: 05 to 09 and 54 to 61 in `plans/audit-input-2026-10-21/`. SA has no counterpart for this finding.
+  - **Layout fixed on 2026-10-21 (`c5c8c24`).** The correction above held for the section count but not for the layout. Mailchimp, 6sense, Pipedrive and ActiveCampaign had single-block sections, with no separate phone and desktop blocks.
+    - All four now have both blocks for every section, alternate sides by H2, and take the colors in H2 order.
+    - The same pass fixed `/use-cases/marketing` and four pillars: AI Accounts Payable and AI Cash Flow Forecasting (wrong start color, off-palette `#8C2703`, `#0A080D` and `#0C1A26` grounds, single blocks), Automated Ad Spend Optimization (single blocks, `#023859`) and AI Content Creation Workflow (`#023859`). Two FAQ headings sat in `col-span-9` and are now `col-span-12`.
+    - The copy is unchanged. A word-by-word comparison of the 36 rebuilt section files against the committed versions finds no difference.
+    - A headless browser check of all 139 tool, pillar and blog pages at 390 and 1440 px finds every section on the rule: two blocks, the heading in the 7-column side, alternating sides, colors by H2, weight 900 headings, link colors matching the ground, no duplicate id and no sideways scroll. The same change is under "Changes made after the audit ran" in `plans/seo-audit-2026-10-20.md`.
 - **L13. Long URLs.** 98 URLs are over 100 characters, the longest 169. Shortening them is free only before launch, because removed URLs 404. Your call.
+  - **Applied on 2026-10-21 (`cccde1c`).** The owner chose to keep the structure and shorten the last segment to the page heading, which is decision 6. 15 use-case pages moved, for example `/use-cases/marketing/content-creation-workflow/ai-content-generation`. The full table is in `plans/audit-input-2026-10-21/03-long-urls.md`.
+  - No redirect is added. A crawl of all 448 pages finds no link to an old URL.
+  - 83 sitemap URLs are still over 100 characters: 64 pages, almost all tool pages, and 19 blog posts. Their URLs weren't part of the decision.
 - **L14. Glossary topic mismatch.** About 59% of terms are chat and contact-center vocabulary, and 2% are accounting, although accounting is half the tool pages. Accounting terms people search for have no page: accounts receivable, three-way match, economic nexus, DSO and invoice OCR.
 - **L15. YMYL payroll pillar.** The payroll misclassification pillar competes with law firms. Frame it as implementation work, cite Florida statute, and add a not-legal-advice note.
 - **L16. Smaller local items.**
   - Hours appear only in JSON-LD.
-  - **Applied on 2026-10-21 (`cccde1c`).** The owner chose to keep the structure and shorten the last segment to the page heading, which is decision 6. 15 use-case pages moved, for example `/use-cases/marketing/content-creation-workflow/ai-content-generation`. The full table is in `plans/audit-input-2026-10-21/03-long-urls.md`.
-  - No redirect is added. A crawl of all 448 pages finds no link to an old URL.
-  - 83 sitemap URLs are still over 100 characters: 64 pages, almost all tool pages, and 19 blog posts. Their URLs weren't part of the decision.
   - There is no bilingual statement, though Miami competitors offer Spanish.
   - Chamber membership would add a local citation. The Greater Delray Beach Chamber is running an AI series.
 

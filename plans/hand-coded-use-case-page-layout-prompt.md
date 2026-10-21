@@ -88,7 +88,7 @@ Section 5 (PAA):
 
 ## Background Color Rotation
 
-Apply this 5-color rotation to sections (not including hero or FAQ/PAA):
+Apply this 5-color rotation to the sections in H2 order, the FAQ/PAA included. Section N takes color N, so a page's colors are set by its H2s and nothing else (Jeff, 2026-10-21: "all sections of pillars, blog posts, and tools use same background colors and alternating layout which is also determined by h2's"):
 
 1. `#023059` (dark blue)
 2. `#024059` (blue)
@@ -129,7 +129,7 @@ All content must be written by hand in the JSX:
 - Use `<Link>` component with unique `id` attributes: `id="tools-marketing-[toolname]"` or `id="tools-marketing-[toolname]-[number]"` (for duplicates on same page)
 - **Link color by background:**
   - Default (lighter backgrounds): `className="text-[#C83803] hover:underline"` (orange)
-  - Dark backgrounds (`#8C4E2A`, `#BF5934`, and `#8C2703` on the older pillars): `className="text-[#0B162A] hover:underline"` (dark blue) — orange is not visible on these darker backgrounds
+  - Dark backgrounds (`#8C4E2A`, `#BF5934`): `className="text-[#0B162A] hover:underline"` (dark blue) — orange is not visible on these darker backgrounds
 - **Heading links follow the same rule** (Jeff, 2026-10-18). A `Link` or `GlossaryLink` inside an `h1` to `h6` takes the colour of the body links on that ground and carries `hover:underline`. It is never `text-white`, and it is never a bare `<a>` with no class. A heading names a tool with no page as plain text, with no link.
 - A `GlossaryLink` on a dark background must pass `className="text-[#0B162A] hover:underline"`; its default is the orange.
 - Links are relative (`/tools/...`), never `https://geekatyourspot.com/...`.

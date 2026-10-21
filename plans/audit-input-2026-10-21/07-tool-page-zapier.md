@@ -8,7 +8,7 @@ Zapier connects apps so work flows between them without manual steps. Its page o
 
 Where it stands (rechecked 2026-10-21):
 - **URL.** `/tools/marketing/zapier`, directly under `/tools/marketing`, with no use-case segment.
-- **Template.** The older one: a hero plus Overview, Key Capabilities, Implementation and When to Use. The newer tool pages have seven sections after the hero, including cost and fit and pricing.
+- **Content.** Four H2s, so four sections: Overview, Key Capabilities, Implementation Considerations and When to Use. That's about 1,030 words, with no FAQ and no pricing. A page has one section per H2, and the 77 tool pages under a use-case segment have 7 to 12 H2s, most with an FAQ and a pricing section.
 - **Menu.** It's listed twice in the Tools menu: under Content Creation Workflow (`src/data/navigation/site-menus.ts:225`) and under Automated Ad Spend Optimization (`:240`).
 - **Home page.** It's on the Ad Spend card under "Automated Rules & Bidding: Top AI Automated Bidding Tools", in both breakpoint copies (`src/components/home/use-cases.tsx:955` and `:1960`). Zapier doesn't bid on ads.
 - **Links in.** 16 files, mostly tool pages that mention Zapier as an integration, across accounting, content and lead capture.

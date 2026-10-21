@@ -8,7 +8,7 @@ ActiveCampaign is an email marketing automation platform with a built-in CRM. It
 
 Where it stands (rechecked 2026-10-21):
 - **URL.** `/tools/marketing/active-campaign`, directly under `/tools/marketing`, with no use-case segment.
-- **Template.** The older one: a hero plus Overview, Key Capabilities, Implementation and When to Use. The newer tool pages have seven sections after the hero, including cost and fit and pricing.
+- **Content.** Four H2s, so four sections: Overview, Key Capabilities, Implementation Considerations and When to Use. That's about 630 words, with no FAQ and no pricing. A page has one section per H2, and the 77 tool pages under a use-case segment have 7 to 12 H2s, most with an FAQ and a pricing section.
 - **Menu.** It's under Content Creation Workflow in the Tools menu (`src/data/navigation/site-menus.ts:205`).
 - **Home page.** It's on the Content Creation Workflow card under "Personalized Email Campaigns: Top AI Email Campaign Tools", next to Mailchimp, in both breakpoint copies (`src/components/home/use-cases.tsx:902` and `:1908`).
 - **Links in.** 14 files, including:
