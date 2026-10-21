@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -37,8 +35,8 @@ export default function PreparingSection() {
         compliance process that supports your business growth while minimizing risk.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id={`use-cases-accounting-complex-changing-laws-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-accounting-complex-changing-laws-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
         <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>

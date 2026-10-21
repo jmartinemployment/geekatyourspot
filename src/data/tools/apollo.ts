@@ -20,7 +20,7 @@ export const apolloContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Every week, small business owners in Miami-Dade, Broward and West Palm Beach sit down to review their sales pipeline, only to find the same pattern."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Manual lead enrichment and predictive scoring is where most small businesses in Miami-Dade, Broward, and West Palm Beach lose their edge."},

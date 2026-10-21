@@ -20,7 +20,7 @@ export const hootsuiteIntelligentContentGenerationContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "Most small businesses in Miami-Dade, Broward, and West Palm Beach know exactly what it feels like to stare at a blank screen late at night, struggling to write a simple update for their website or social media."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach, manual content creation is a time sink that drains resources and stalls growth."},

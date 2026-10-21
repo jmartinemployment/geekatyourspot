@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Manychat, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-manychat",
                 "name": TITLE,
                 "url": "https://manychat.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Will using Manychat get my business account banned or flagged by Meta?", "acceptedAnswer": {"@type": "Answer", "text": "No. Manychat is an official Meta Business Partner and uses Meta’s official Graph APIs. This means it is fully compliant with the terms of service for Instagram, Facebook Messenger, and WhatsApp. Unlike unauthorized tools, it will not hurt your organic reach or risk your account being suspended."}},
                 {"@type": "Question", "name": "Do I need a personal account or a business account to use this?", "acceptedAnswer": {"@type": "Answer", "text": "Manychat requires an Instagram Business or Creator account, a Facebook Business Page, or a WhatsApp Business account. It cannot be used with personal profiles or private Facebook Groups because Meta only allows messaging automation for commercial entities."}},

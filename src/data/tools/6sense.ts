@@ -12,7 +12,7 @@ export const sixsenseContent: ToolPageContent = {
   "description": "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
   "heroSummary": "Transform your sales process with 6sense's AI-powered lead scoring, focusing on high-conversion leads.",
   "keywords": "Lead Scoring",
-  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article",
+  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses",
   "sections": [
     {
       "title": "Overview",

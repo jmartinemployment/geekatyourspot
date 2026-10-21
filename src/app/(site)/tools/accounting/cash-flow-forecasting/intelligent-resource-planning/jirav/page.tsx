@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Jirav, intelligent resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-jirav",
                 "name": TITLE,
                 "url": "https://www.jirav.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "We use QuickBooks Online/Xero. Do we have to migrate our accounting to a new system or ERP to use Jirav?", "acceptedAnswer": {"@type": "Answer", "text": "No migration is needed. Jirav connects directly to your existing accounting software in minutes using a secure, code-free API. It reads your trial balances and mirrors your Chart of Accounts without changing anything in your original financial records."}},
                 {"@type": "Question", "name": "Will Jirav accidentally overwrite or mess up our live accounting data?", "acceptedAnswer": {"@type": "Answer", "text": "No. Jirav uses a strict one-way, read-only integration. It only pulls data from your accounting system to build models and dashboards. It cannot push data back or change your live books, so your records stay secure."}},

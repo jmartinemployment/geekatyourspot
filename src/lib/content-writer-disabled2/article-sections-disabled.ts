@@ -6,12 +6,12 @@ import { decodeEntities } from "./content-disabled";
  *
  * The body arriving here has already been through `sanitizeBody`, so it is a
  * flat, machine-generated fragment: no attributes except `href`/`target`/`rel`
- * on anchors, no same-tag nesting, and a closed tag vocabulary. That is what
+ * on anchors and `data-scheduler-link` on the scheduler button, no same-tag nesting, and a closed tag vocabulary. That is what
  * makes scanning it with the small reader below safe -- it is not a general
  * HTML parser and must not be pointed at arbitrary markup.
  *
- * Modelled: `p`, `h3`, `h4`, `ul`, `ol`, `li`, `a`, `strong`, `em`, `b`, `i`,
- * `br`. `<h2>` is consumed as the section boundary rather than as content.
+ * Modelled: `p`, `h3`, `h4`, `ul`, `ol`, `li`, `a`, `button`, `strong`, `em`,
+ * `b`, `i`, `br`. `<h2>` is consumed as the section boundary rather than as content.
  *
  * Known gap, stated rather than asserted away: `sanitizeBody`'s allow-list also
  * admits `blockquote`, `figure`, `figcaption`, `img`, `hr` and the `table`
@@ -24,6 +24,8 @@ import { decodeEntities } from "./content-disabled";
 export type InlineNode =
   | { kind: "text"; text: string }
   | { kind: "emphasis"; strong: boolean; children: InlineNode[] }
+  /** The button that scrolls to the scheduler section. */
+  | { kind: "scheduler"; children: InlineNode[] }
   | {
       kind: "link";
       href: string;
@@ -51,7 +53,7 @@ export type ArticleSection = {
 
 const BLOCK_PATTERN = /<(p|h3|h4|ul|ol)>([\s\S]*?)<\/\1>/g;
 const LIST_ITEM_PATTERN = /<li>([\s\S]*?)<\/li>/g;
-const INLINE_PATTERN = /<(a|strong|em|b|i)((?:\s[^>]*)?)>([\s\S]*?)<\/\1>/g;
+const INLINE_PATTERN = /<(a|button|strong|em|b|i)((?:\s[^>]*)?)>([\s\S]*?)<\/\1>/g;
 const SECTION_PATTERN = /<h2>([\s\S]*?)<\/h2>/g;
 
 function textNode(raw: string): InlineNode | null {
@@ -74,7 +76,9 @@ function parseInline(html: string): InlineNode[] {
     const children = parseInline(inner);
 
     if (children.length > 0) {
-      if (tag === "a") {
+      if (tag === "button") {
+        nodes.push({ kind: "scheduler", children });
+      } else if (tag === "a") {
         const href = attrs.match(/\shref="([^"]*)"/)?.[1] ?? "";
         if (href.length > 0) {
           const glossary = href.match(/^\/glossary\/([^/?#]+)$/);
@@ -210,7 +214,9 @@ function glossaryFirstMentions(sections: ArticleSection[]): ArticleSection[] {
   const inline = (nodes: readonly InlineNode[]): InlineNode[] =>
     nodes.flatMap((node): InlineNode[] => {
       if (node.kind === "text") return [node];
-      if (node.kind === "emphasis") return [{ ...node, children: inline(node.children) }];
+      if (node.kind === "emphasis" || node.kind === "scheduler") {
+        return [{ ...node, children: inline(node.children) }];
+      }
       if (node.glossarySlug === null) return [{ ...node, children: inline(node.children) }];
       if (seen.has(node.glossarySlug)) return inline(node.children);
       seen.add(node.glossarySlug);

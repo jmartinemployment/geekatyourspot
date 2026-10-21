@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Anyword, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-anyword",
                 "name": TITLE,
                 "url": "https://www.anyword.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What makes Anyword different from generic AI writing tools?", "acceptedAnswer": {"@type": "Answer", "text": "Anyword stands out because it is built for performance. Unlike standard tools that just generate text, Anyword uses A/B-tested data and predictive analytics. Its Data-driven Editor scores and evaluates copy before it goes live, predicting conversion success with up to 82% accuracy for specific audiences, marketing channels, and campaign goals."}},
                 {"@type": "Question", "name": "What is Anyword Content Intelligence?", "acceptedAnswer": {"@type": "Answer", "text": "Anyword Content Intelligence reviews your live, published content and compares it to Anyword’s marketing performance data. It highlights ways to optimize your copy right away and guides future content rules across your main marketing channels."}},

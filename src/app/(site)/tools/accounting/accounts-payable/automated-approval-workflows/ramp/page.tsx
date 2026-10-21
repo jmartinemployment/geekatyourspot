@@ -22,19 +22,17 @@ const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": `${PAGE_URL}#article`,
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
     "keywords": "Ramp, automated approval workflows, accounts payable automation, invoice approval, OCR invoice capture, PO matching, Ramp Bill Pay, Accounting Agent, ERP integration, AI implementation",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-ramp",
         "name": TITLE,
         "url": "https://ramp.com/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" }
     }
 };
 

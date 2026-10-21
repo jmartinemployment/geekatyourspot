@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Chaserhq, automated accounts receivable, cash flow forecasting, automated payment reminders, days sales outstanding (DSO), accounts receivable KPIs, Recommended Chasing Times, invoice grouping, Customer Billing Portal, credit risk, ERP integration, payment date prediction",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-chaserhq",
                 "name": TITLE,
                 "url": "https://www.chaserhq.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How long does it take to improve your accounts receivable process?", "acceptedAnswer": { "@type": "Answer", "text": "You can see measurable progress in 90 days with a focused plan. The process unfolds in three phases: assess and stabilize in the first 30 days, automate and optimize in the next 30, and scale and succeed in the final 30. Most teams reduce their Days Sales Outstanding (DSO) by 15–20% within this timeframe." } },
                 { "@type": "Question", "name": "What is the first step to reducing late payments?", "acceptedAnswer": { "@type": "Answer", "text": "Begin by auditing your current process and cleaning up debtor data. Map out each stage from invoice to payment, identify who is responsible for each step, and segment customers by their payment history and risk level. Accurate and segmented data is crucial for effective automation later on." } },

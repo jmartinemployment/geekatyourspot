@@ -20,7 +20,7 @@ export const myaifrontdeskContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "The front desk phone rings three times in a row while your team is out on a job, locked in a patient consult, or catching up on overdue paperwork."},
     {"title": "What it costs to keep doing this by hand", "description": "For small businesses across Miami-Dade, Broward, and Palm Beach, the cost of handling inbound calls the old way is not just about missed revenue."},

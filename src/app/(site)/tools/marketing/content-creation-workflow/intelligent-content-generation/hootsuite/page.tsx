@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Hootsuite, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-hootsuite",
                 "name": TITLE,
                 "url": "https://www.hootsuite.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Will Hootsuite help me come up with content ideas?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hootsuite includes tools that help you generate content ideas and fill your social media calendar, saving you time and effort. This is especially useful if you need to keep your posts fresh but find it hard to come up with new ideas every week."}},
                 {"@type": "Question", "name": "Can Hootsuite help me with my real estate social media strategy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hootsuite gives you all the tools you need to plan and run your real estate social media strategy quickly. You can schedule posts, track engagement, and stay organized, so you spend less time managing your channels and more time connecting with clients."}},

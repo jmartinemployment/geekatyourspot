@@ -12,19 +12,17 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": "https://geekatyourspot.com/tools/marketing/contentstudio#article",
     "headline": "ContentStudio for AI Content Repurposing",
     "description": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/contentstudio" },
     "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-contentstudio",
         "name": "ContentStudio",
         "url": "https://contentstudio.io/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing" }
     }
 };
 

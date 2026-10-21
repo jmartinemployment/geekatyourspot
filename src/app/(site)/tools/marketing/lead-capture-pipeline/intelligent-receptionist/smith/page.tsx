@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Smith.ai, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-smith-ai",
                 "name": TITLE,
                 "url": "https://smith.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Is Smith.ai an AI bot or a live receptionist service?", "acceptedAnswer": {"@type": "Answer", "text": "Smith.ai combines both AI and live receptionist support in one system. The AI manages routine tasks like intake and scheduling, while over 500 trained live agents are available around the clock for more complex needs."}},
                 {"@type": "Question", "name": "Will my callers know they're talking to AI?", "acceptedAnswer": {"@type": "Answer", "text": "Smith.ai lets you set how the AI introduces itself, so it can follow your disclosure preferences and any legal rules. The AI never pretends to be human. If you use the Virtual Receptionist, live agents answer from the start."}},

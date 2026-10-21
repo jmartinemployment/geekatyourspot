@@ -20,7 +20,7 @@ export const takethehelmContent: ToolPageContent = {
   "datePublished": "2026-10-12T12:03:30.6626560Z",
   "dateModified": "2026-10-12T12:03:30.6626560Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data",
   "sections": [
     { "title": "Overview", "description": "For many small businesses in West Palm Beach, Broward, and Miami-Dade counties, the daily grind of managing cash flow through manual processes is all too familiar." },
     { "title": "The Costs of Manual Data Entry in South Florida Businesses", "description": "For small businesses in South Florida, managing cash flow through manual data entry is a significant challenge." },

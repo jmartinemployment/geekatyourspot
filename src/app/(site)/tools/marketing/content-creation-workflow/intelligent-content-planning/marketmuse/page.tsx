@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "MarketMuse, intelligent content planning, AI content planning, content calendar, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-marketmuse",
                 "name": TITLE,
                 "url": "https://www.marketmuse.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Why should I choose MarketMuse over another platform?", "acceptedAnswer": {"@type": "Answer", "text": "MarketMuse was created by people who have worked in SEO and content strategy. They designed it to make content evaluation and planning much simpler, so you do not have to rely on generic data or spend days pulling together reports. This means you get insights that fit your business, not just broad averages."}},
                 {"@type": "Question", "name": "Is this actually an AI solution?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, MarketMuse uses AI for every page and topic it reviews. The system scans hundreds or thousands of pieces of content, filters out low quality results, and uses a mix of its own and open-source algorithms to analyze and rank what matters most for your site."}},

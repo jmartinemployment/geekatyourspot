@@ -17,8 +17,7 @@ export const adaptiveInsightsContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Adaptive Insights offers precise cash flow forecasting with advanced financial planning capabilities.",
     "@context": "https://schema.org",
-    "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
-    "@id": "#software-adaptiveinsights"
+    "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation"
   },
   "sections": [
     {

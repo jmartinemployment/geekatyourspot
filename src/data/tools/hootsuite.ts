@@ -20,7 +20,7 @@ export const hootsuiteContent: ToolPageContent = {
   "datePublished": "2026-10-18T13:12:10.3589380Z",
   "dateModified": "2026-10-18T13:12:10.3589380Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "A small business in Miami-Dade has a new product ready for launch."},
     {"title": "What It Costs to Keep Doing Content Planning by Hand", "description": "A small business marketing team in Miami-Dade sits down to build their next campaign."},

@@ -35,7 +35,7 @@ export default function DecisionsSection() {
         Workflow is the last early decision you cannot walk back. Will your team review every draft before it
         goes out, or will the system publish directly to your website and social channels? Who signs off on
         new offers or event promotions? Approval workflows must be configured before rollout, not as an
-        afterthought. Hootsuite’s bulk scheduling and approval features, for instance, allow for drag-and-drop&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-decisions-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">content planning</Link>&nbsp;with built-in checks, so no post goes live unreviewed. Castmagic automates content
+        afterthought. Hootsuite’s bulk scheduling and approval features, for instance, allow for drag-and-drop&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-decisions-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">content planning</Link>&nbsp;with built-in checks, so no post goes live unreviewed. Castmagic automates content
         extraction from recordings but still lets you set checkpoints for team review. If you bolt on approval
         after the fact, you create bottlenecks, and by then, the content machine is already running.</p>
       <p className="text-md text-white shadow-text pt-3">

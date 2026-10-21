@@ -17,8 +17,7 @@ export const sovosContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Sovos delivers intelligent tax compliance solutions, automating processes to keep businesses compliant globally.",
     "@context": "https://schema.org",
-    "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
-    "@id": "#software-sovos"
+    "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation"
   },
   "sections": [
     {

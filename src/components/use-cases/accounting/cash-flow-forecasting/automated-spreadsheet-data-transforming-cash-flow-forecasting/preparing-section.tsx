@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -37,9 +35,9 @@ export default function PreparingSection() {
         reactive to proactive financial management, enabling better decision-making and strategic planning.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id={`use-cases-accounting-spreadsheet-data-preparing-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`use-cases-accounting-spreadsheet-data-preparing-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </Link>.</p>
+        </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Offer a free &quot;Cash Flow Fragility Audit&quot; to prospects. Have them send you their current manual Excel forecast. Point out the broken links, the hard-coded numbers that are already out of date, and the formulas that will break if they add a new row. Then, show them a video mockup of how that exact same spreadsheet looks when powered seamlessly by your partner software&#39;s live data feed.</li>
         <li>How much time does your team spend manually collecting, consolidating, and updating cash flow data each week or month?</li>

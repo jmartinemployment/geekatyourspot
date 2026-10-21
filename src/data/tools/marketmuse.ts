@@ -20,7 +20,7 @@ export const marketmuseContent: ToolPageContent = {
   "datePublished": "2026-10-18T15:09:07.5331810Z",
   "dateModified": "2026-10-18T15:09:07.5331810Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "A small marketing team in Miami-Dade meets on Monday, ready to map out the coming week."},
     {"title": "What it costs to keep doing this by hand", "description": "Every week, small marketing teams in Miami-Dade, Broward, and West Palm Beach repeat the same cycle."},

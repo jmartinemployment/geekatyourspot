@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "TaxValet, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-taxvalet",
                 "name": TITLE,
                 "url": "https://thetaxvalet.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does TaxValet protect my business if a software integration fails during a regional tax rate change?", "acceptedAnswer": {"@type": "Answer", "text": "TaxValet runs transaction audits to compare collected rates with the latest owed rates in all your business’s jurisdictions. If issues like misconfigured products are found, TaxValet immediately pushes fixes across your sales channels to correct tax calculations system-wide. Unlike DIY software, TaxValet provides guarantees and takes responsibility for any issues caused, offering maximum risk protection through continuous monitoring."}},
                 {"@type": "Question", "name": "We don't have a CPA on staff. How do we keep up with out-of-state 'Economic Nexus' laws as they evolve?", "acceptedAnswer": {"@type": "Answer", "text": "During TaxValet’s onboarding process, your business receives a complete nexus analysis to pinpoint past exposure. TaxValet maps out strategic options, such as executing a Voluntary Disclosure Agreement (VDA) to waive penalties. The team provides tailored advice based on your financial goals and executes the chosen plan to clean up liabilities and keep your business protected. This process ensures you stay compliant with evolving economic nexus laws without needing a CPA on staff."}},

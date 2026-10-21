@@ -12,19 +12,17 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": "https://geekatyourspot.com/tools/marketing/madgicx#article",
     "headline": "Madgicx for Automated Ad Spend Optimization",
     "description": "Optimize ad spend with Madgicx's AI-driven platform, boosting ROI and efficiency effortlessly.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/madgicx" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-madgicx",
         "name": "Madgicx",
         "url": "https://madgicx.com/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization" }
     }
 };
 

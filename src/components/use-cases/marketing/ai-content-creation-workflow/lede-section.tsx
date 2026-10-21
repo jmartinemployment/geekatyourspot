@@ -71,7 +71,7 @@ export default function LedeSection() {
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
               <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">Streamline Content Workflows with AI</Link> on our blog.</p>
-              <p className="text-md text-white shadow-text pt-3">Content planning comes first in the workflow, and <Link id="use-cases-marketing-ai-content-creation-workflow-lede-content-planning" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> covers it in depth.</p>
+              <p className="text-md text-white shadow-text pt-3">Content planning comes first in the workflow, and <Link id="use-cases-marketing-ai-content-creation-workflow-lede-content-planning" href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> covers it in depth.</p>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ export default function LedeSection() {
                 solutions that align with your specific needs. This article will explore the transformative power of AI in content
                 creation, guiding you through the steps to optimize your marketing workflow for better results.</p>
               <p className="text-md text-white shadow-text pt-3">For a shorter overview, read <Link id="use-cases-marketing-ai-content-creation-workflow-lede-blog-lg" href="/blog/marketing/how-to-streamline-your-content-workflow-with-ai" className="text-[#C83803] hover:underline">Streamline Content Workflows with AI</Link> on our blog.</p>
-              <p className="text-md text-white shadow-text pt-3">Content planning comes first in the workflow, and <Link id="use-cases-marketing-ai-content-creation-workflow-lede-content-planning-lg-lg" href="/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> covers it in depth.</p>
+              <p className="text-md text-white shadow-text pt-3">Content planning comes first in the workflow, and <Link id="use-cases-marketing-ai-content-creation-workflow-lede-content-planning-lg-lg" href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link> covers it in depth.</p>
             </div>
           </div>
         </div>

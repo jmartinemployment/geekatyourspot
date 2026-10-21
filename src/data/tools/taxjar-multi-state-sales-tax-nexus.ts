@@ -20,7 +20,7 @@ export const taxjarMultiStateSalesTaxNexusContent: ToolPageContent = {
   "datePublished": "2026-10-13T19:00:57.5894150Z",
   "dateModified": "2026-10-13T19:00:57.5894150Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax",
   "sections": [
     {"title": "Overview", "description": "A South Florida e-commerce owner watches daily orders climb, but an unexpected letter from a state tax authority brings everything to a halt."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "A small e-commerce team in South Florida, like the one in the opening story, faces a sudden shift from local growth to national complexity the moment they cross a state’s economic nexus line."},

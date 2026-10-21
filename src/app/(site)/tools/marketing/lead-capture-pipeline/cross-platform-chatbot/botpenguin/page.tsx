@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "BotPenguin, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-botpenguin",
                 "name": TITLE,
                 "url": "https://botpenguin.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How quickly can we launch a financial services chatbot?", "acceptedAnswer": {"@type": "Answer", "text": "Launch time depends on how complex your workflows are, which channels you want to use, what integrations you need, and whether your content is ready. BotPenguin’s no-code setup and ready-made templates help financial teams in Miami-Dade, Broward, and West Palm Beach get up and running fast, without long development cycles."}},
                 {"@type": "Question", "name": "Can BotPenguin integrate with our existing financial tools?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. BotPenguin supports over 100 integrations. This lets your financial team connect chat workflows with your CRM, business tools, and operational systems. You can keep your current processes, data flows, and handoffs in place."}},

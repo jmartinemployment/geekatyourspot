@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Gusto, payroll tax compliance, worker misclassification, W-2 and 1099 classification, payroll automation, contractor compliance, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-gusto",
                 "name": TITLE,
                 "url": "https://gusto.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Does Gusto file 1099 and W-2 forms?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Gusto handles filing both W-2s and 1099s for your business. Your employees and contractors get electronic copies of their forms. If you switch to Gusto partway through the year, Gusto will still file complete W-2s for the whole year. During setup, Gusto collects your wage details to help make sure all W-2s are accurate and cover the full year."}},
                 {"@type": "Question", "name": "Does Gusto automatically calculate, file, and remit federal and Florida payroll taxes?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Gusto automatically calculates, files, and pays your federal payroll taxes and your Florida reemployment tax. Florida has no state income tax and no local payroll tax, so an employee who works in Miami-Dade, Broward, or Palm Beach County is taxed the same way in each."}},

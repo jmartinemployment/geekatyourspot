@@ -20,7 +20,7 @@ export const thetaxvaletMultiStateSalesTaxNexusContent: ToolPageContent = {
   "datePublished": "2026-10-13T18:05:58.9611010Z",
   "dateModified": "2026-10-13T18:05:58.9611010Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax",
   "sections": [
     {"title": "Overview", "description": "A South Florida business owner watches their online orders spike after landing a new wholesale partner and launching on two marketplaces at once."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "A founder in Miami-Dade, Broward or West Palm Beach may start the week with a win, new orders, new sales channels, or a promising wholesale partnership, only to spend Friday buried under a pile of state notices and spreadsheets."},

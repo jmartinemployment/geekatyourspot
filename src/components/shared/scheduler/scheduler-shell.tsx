@@ -1,15 +1,18 @@
 import { SchedulerLoader } from "@/components/shared/scheduler/scheduler-loader";
+import { SCHEDULER_ID } from "@/components/shared/scheduler/scheduler-id";
 
 /**
- * The scheduler section. The section, its #consultationAppointment2xl anchor, the heading and the
- * copy render on the server; SchedulerLoader brings in the interactive calendar when the section
- * nears the viewport.
+ * The scheduler section. The section, the heading and the copy render on the server;
+ * SchedulerLoader brings in the interactive calendar when the section nears the viewport, and
+ * scrolls here when a `data-scheduler-link` button is pressed. The section takes focus then, so
+ * the next Tab moves through the calendar.
  */
 export function SchedulerShell(): React.JSX.Element {
   return (
     <article
-      id="consultationAppointment2xl"
-      className="w-full min-h-screen bg-[#C83803] lg:bg-[#8C2703]"
+      id={SCHEDULER_ID}
+      tabIndex={-1}
+      className="w-full min-h-screen bg-[#C83803] outline-none lg:bg-[#8C2703]"
     >
       {/*
         Full-bleed rather than `container`, so the scheduler widens with the

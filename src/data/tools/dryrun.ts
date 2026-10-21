@@ -20,7 +20,7 @@ export const dryrunContent: ToolPageContent = {
   "datePublished": "2026-10-11T17:23:52.0000000Z",
   "dateModified": "2026-10-11T17:23:52.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data",
   "sections": [
     { "title": "Overview", "description": "Every month, small business owners in Miami-Dade, Broward, and West Palm Beach counties brace themselves for the tedious task of managing cash flow through spreadsheets." },
     { "title": "The Real Costs of Manual Cash Flow Management", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing cash flow with traditional spreadsheets is a costly endeavor. The reliance on outdated general ledger data and static models often leads to significant financial missteps." },

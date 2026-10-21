@@ -25,24 +25,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "AvidXchange, automated payment execution, accounts payable automation, supplier payments, virtual card, AvidPay Direct, payment status visibility, QuickBooks integration, NetSuite integration, AI implementation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-avidxchange",
                 "name": TITLE,
                 "url": "https://www.avidxchange.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "Do I need to change my existing approval workflows in RAAMP?", "acceptedAnswer": { "@type": "Answer", "text": "No, you don't need to change anything. AvidXchange works within RAAMP, so your payments will follow the current approval structure without requiring new workflows." } },
                 { "@type": "Question", "name": "What payment methods does AvidXchange support?", "acceptedAnswer": { "@type": "Answer", "text": "AvidXchange supports several payment methods: virtual card, AvidPay Direct (enhanced direct deposit), and check. Payments are delivered using the supplier's preferred method, with real-time status updates and PDF payment proofs available directly in RAAMP." } },

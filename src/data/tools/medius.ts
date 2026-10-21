@@ -20,7 +20,7 @@ export const mediusContent: ToolPageContent = {
   "datePublished": "2026-10-09T12:48:41.4190450Z",
   "dateModified": "2026-10-09T12:48:41.4190450Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls",
   "sections": [
     { "title": "Overview", "description": "An accounts payable team checking invoice numbers against purchase orders by hand still misses duplicate submissions with minor formatting changes. Medius's fraud detection software, trained on over a decade of real AP outcomes, detects duplicate invoices, mismatched payment details, and unauthorized supplier changes." },
     { "title": "The Cost of Manual Automated Fraud & Duplicate Payment Controls", "description": "Resubmitted invoices with slight formatting differences, branches paying the same supplier invoice independently, and unmonitored vendor payment-detail changes all slip past manual checks; Medius adds risk scoring, anomaly detection, and supplier-change monitoring." },

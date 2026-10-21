@@ -85,10 +85,10 @@ const DEPARTMENTS: Department[] = [
     useCases: [
       {
         title: "Accounts Payable",
-        slug: "automated-accounts-payable",
+        slug: "ai-accounts-payable",
         description:
           "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",
-        href: "/use-cases/accounting/accounts-payable/automated-accounts-payable",
+        href: "/use-cases/accounting/accounts-payable/ai-accounts-payable",
       },
       {
         title: "Intelligent Data Entry & Processing",
@@ -99,52 +99,52 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Approval Workflows",
-        slug: "automated-approval-workflows-transforming-accounts-payable",
+        slug: "ai-invoice-approval-workflows",
         description:
           "Explore Intelligent Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
-        href: "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable",
+        href: "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
       },
       {
         title: "Intelligent Payment Execution",
-        slug: "automated-payment-execution-streamlining-accounts-payable-with-ai",
+        slug: "ai-payment-execution",
         description:
           "Intelligent Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
-        href: "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+        href: "/use-cases/accounting/accounts-payable/ai-payment-execution",
       },
       {
         title: "Intelligent Fraud & Duplicate Payment Controls",
-        slug: "automated-fraud-duplicate-payment-controls-boosting-efficiency",
+        slug: "ai-fraud-duplicate-payment-controls",
         description:
           "Implement Intelligent Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.",
-        href: "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency",
+        href: "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls",
       },
       {
         title: "Cash Flow Forecasting",
-        slug: "automated-cash-flow-forecasting",
+        slug: "ai-cash-flow-forecasting",
         description:
           "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
-        href: "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting",
       },
       {
         title: "Intelligent Accounts Receivable",
-        slug: "automated-accounts-receivable-boost-cash-flow-with-ai",
+        slug: "ai-accounts-receivable",
         description:
           "Intelligent Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
-        href: "/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
       },
       {
         title: "Intelligent Spreadsheet Data",
-        slug: "automated-spreadsheet-data-transforming-cash-flow-forecasting",
+        slug: "ai-spreadsheet-data",
         description:
           "Discover how Intelligent Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
-        href: "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data",
       },
       {
         title: "Intelligent Resource Planning",
-        slug: "intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+        slug: "ai-resource-planning",
         description:
           "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.",
-        href: "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
       },
       {
         title: "Tax Compliance & Regulations",
@@ -162,17 +162,17 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Payroll Tax",
-        slug: "payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
+        slug: "ai-payroll-tax",
         description:
           "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.",
-        href: "/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
+        href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
       },
       {
         title: "Intelligent Multi-State Sales Tax",
-        slug: "multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
+        slug: "ai-multi-state-sales-tax",
         description:
           "AI makes Multi-State Sales Tax Nexus compliance simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready.",
-        href: "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
+        href: "/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax",
       },
     ],
   },
@@ -197,14 +197,14 @@ const DEPARTMENTS: Department[] = [
         slug: "intelligent-content-planning",
         description:
           "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.",
-        href: "/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+        href: "/use-cases/marketing/content-creation-workflow/ai-content-planning",
       },
       {
         title: "Intelligent Content Generation",
         slug: "intelligent-content-generation",
         description:
           "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.",
-        href: "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+        href: "/use-cases/marketing/content-creation-workflow/ai-content-generation",
       },
       {
         title: "Automated Ad Spend Optimization",
@@ -225,21 +225,21 @@ const DEPARTMENTS: Department[] = [
         slug: "intelligent-receptionist",
         description:
           "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
-        href: "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses",
+        href: "/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
       },
       {
         title: "Cross-Platform Chatbot",
         slug: "cross-platform-chatbot",
         description:
           "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-        href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide",
+        href: "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide",
       },
       {
         title: "Lead Enrichment and Predictive Scoring",
         slug: "lead-enrichment-and-predictive-scoring",
         description:
           "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.",
-        href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
+        href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring",
       },
       {
         title: "SEO Blog and Article Generation",

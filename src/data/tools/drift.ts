@@ -21,8 +21,7 @@ export const driftContent: ToolPageContent = {
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
-    },
-    "@id": "#software-drift"
+    }
   },
   "sections": [
     {

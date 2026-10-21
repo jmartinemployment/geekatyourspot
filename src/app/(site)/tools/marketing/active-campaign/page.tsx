@@ -12,19 +12,17 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#article",
     "headline": "ActiveCampaign for AI Lead Scoring",
     "description": "Optimize sales with AI-powered lead scoring by ActiveCampaign, reducing manual tasks and boosting efficiency.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/active-campaign" },
     "keywords": "Lead Scoring",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-activecampaign",
         "name": "ActiveCampaign",
         "url": "https://www.activecampaign.com/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses" }
     }
 };
 

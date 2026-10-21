@@ -14,8 +14,9 @@ export function GtmClickTracker(): null {
       const target = event.target
       if (!(target instanceof Element)) return
 
-      const link = target.closest(`a[id^="${GTM_LINK_PREFIX}"]`)
-      if (link instanceof HTMLAnchorElement) {
+      // A button that scrolls to the scheduler keeps the link id it had as a link to the section.
+      const link = target.closest(`a[id^="${GTM_LINK_PREFIX}"], button[id^="${GTM_LINK_PREFIX}"]`)
+      if (link instanceof HTMLElement) {
         pushGtmEvent('gtm_link_click', {
           link_id: link.id,
           link_href: link.getAttribute('href') ?? undefined,

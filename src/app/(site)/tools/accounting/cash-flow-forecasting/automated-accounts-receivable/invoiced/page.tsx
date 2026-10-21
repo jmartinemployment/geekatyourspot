@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Invoiced, automated accounts receivable, cash flow forecasting, cash collection forecasting, CashMatch AI, multi-entity forecasting, custom forecasting reports, approval chains, routing, automation logic, ERP integration, go-live process",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-invoiced",
                 "name": TITLE,
                 "url": "https://www.invoiced.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How does Invoiced calculate its cash collection forecasting?", "acceptedAnswer": { "@type": "Answer", "text": "Invoiced calculates cash collection forecasting by gathering data from invoices, autopay, payment plans, promises-to-pay, and customer payment history. This comprehensive data collection allows Invoiced to deliver highly accurate forecasts on when payments will be received, providing clear insights into collections performance and helping businesses manage their cash flow effectively." } },
                 { "@type": "Question", "name": "How does \"CashMatch AI\" impact the reliability of the cash forecast?", "acceptedAnswer": { "@type": "Answer", "text": "CashMatch AI enhances the reliability of cash forecasts by automatically matching incoming payments to open invoices and assigning a confidence score. High-confidence matches are applied automatically, while those with lower confidence are flagged for human review. This process ensures that payments are accurately applied, improving the overall reliability of cash flow predictions." } },

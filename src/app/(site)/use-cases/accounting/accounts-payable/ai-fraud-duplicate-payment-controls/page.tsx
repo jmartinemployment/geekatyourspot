@@ -11,12 +11,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Implement Automated Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency";
+const CANONICAL = "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -26,34 +25,29 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-09T12:45:16.0792588Z",
             "dateModified": "2026-10-09T12:45:16.0792588Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Fraud & Duplicate Payment Controls, accounts payable automation, fraud prevention, duplicate payment controls, AI implementation, small business efficiency, cost savings, time savings, error reduction, local small businesses",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-medius" },
-                { "@id": "https://geekatyourspot.com/#software-tipalti" },
-                { "@id": "https://geekatyourspot.com/#software-stampli" },
-                { "@id": "https://geekatyourspot.com/#software-bill" },
-                { "@id": "https://geekatyourspot.com/#software-ramp" }
+                { "@type": "Thing", "name": "Medius", "url": "https://www.medius.com/" },
+                { "@type": "Thing", "name": "Tipalti", "url": "https://tipalti.com/" },
+                { "@type": "Thing", "name": "Stampli", "url": "https://www.stampli.com/" },
+                { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },
+                { "@type": "Thing", "name": "Ramp", "url": "https://ramp.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "What is fraud detection, and how does it actually work?", "acceptedAnswer": { "@type": "Answer", "text": "Fraud detection involves identifying suspicious activities that could indicate fraudulent behavior. It works by using AI algorithms to analyze data patterns and transactions. When these algorithms detect anomalies or irregular patterns, they flag them for further review. This process helps businesses in the Miami-Dade, Broward, and West Palm Beach areas to prevent financial losses by catching fraudulent activities early." } },
                 { "@type": "Question", "name": "What specific anomalies trigger automated risk alerts?", "acceptedAnswer": { "@type": "Answer", "text": "Automated risk alerts are triggered by anomalies such as duplicate invoices, mismatched vendor details, or unusual transaction amounts. These alerts can also be set off by transactions occurring outside of normal business hours or from unfamiliar locations. By identifying these red flags, businesses can take prompt action to investigate potential fraud." } },
                 { "@type": "Question", "name": "What happens when a fraud system triggers a high-risk flag?", "acceptedAnswer": { "@type": "Answer", "text": "When a fraud system triggers a high-risk flag, the transaction is usually put on hold for further investigation. The accounts payable team is notified to review the flagged activity. If the transaction is deemed legitimate after review, it is processed as usual. If fraud is suspected, further actions are taken, which may include contacting the vendor or taking legal steps to protect the business." } }
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

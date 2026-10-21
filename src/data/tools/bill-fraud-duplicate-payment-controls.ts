@@ -20,7 +20,7 @@ export const billFraudDuplicatePaymentControlsContent: ToolPageContent = {
   "datePublished": "2026-10-09T12:48:41.4190450Z",
   "dateModified": "2026-10-09T12:48:41.4190450Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls",
   "sections": [
     { "title": "Overview", "description": "Manual invoice entry costs South Florida AP teams hours each month and invites duplicate payments and fraud. Bill matches invoices and purchase orders and flags duplicates before payments go through." },
     { "title": "Challenges with Automated Fraud & Duplicate Payment Controls", "description": "Disconnected intake, approval, payment and accounting records let the same bill be entered twice, approvals be bypassed and payments be reissued; Bill centralizes the workflow and checks for duplicate invoices." },

@@ -16,12 +16,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Multi-State Sales Tax";
 const DESCRIPTION =
     "AI makes Multi-State Sales Tax Nexus compliance simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready.";
-const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida";
+const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,35 +30,30 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-13T19:00:57.5894150Z",
             "dateModified": "2026-10-13T19:00:57.5894150Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Multi-State Sales Tax Nexus, sales tax compliance, AI tax automation, Florida small business tax solutions, TaxCloud, Zamp, Quaderno, TaxValet, TaxJar, local tax consulting",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-quaderno" },
-                { "@id": "https://geekatyourspot.com/#software-taxcloud" },
-                { "@id": "https://geekatyourspot.com/#software-taxjar" },
-                { "@id": "https://geekatyourspot.com/#software-taxvalet" },
-                { "@id": "https://geekatyourspot.com/#software-zamp" }
+                { "@type": "Thing", "name": "Quaderno", "url": "https://quaderno.io/" },
+                { "@type": "Thing", "name": "TaxCloud", "url": "https://taxcloud.com/" },
+                { "@type": "Thing", "name": "TaxJar", "url": "https://www.taxjar.com/" },
+                { "@type": "Thing", "name": "TaxValet", "url": "https://thetaxvalet.com/" },
+                { "@type": "Thing", "name": "Zamp", "url": "https://zamp.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does the software distinguish between Economic and Physical Nexus triggers?", "acceptedAnswer": {"@type": "Answer", "text": "Teams want to know if the tool tracks both economic and physical presence. Economic nexus often starts at $100,000 in gross sales, but physical nexus can be triggered by just one remote employee or inventory in a third-party warehouse. Physical nexus does not depend on sales thresholds."}},
                 {"@type": "Question", "name": "What happens if the tool discovers we crossed a threshold months before implementation?", "acceptedAnswer": {"@type": "Answer", "text": "This is about prior period liability. Users need to know if the tool can flag when a threshold was crossed in the past and if it helps prepare data for Voluntary Disclosure Agreements to manage penalties for late registration."}},
                 {"@type": "Question", "name": "How does the platform unify multi-channel transaction data?", "acceptedAnswer": {"@type": "Answer", "text": "Businesses using e-commerce sites, ERPs, and billing platforms want to know how the tool brings all that data together for threshold tracking. They also ask how the software filters out sales covered by Marketplace Facilitator laws, so they are not taxed twice, but still counts those sales toward state thresholds if required."}},
                 {"@type": "Question", "name": "Is filing and remittance fully automated, or does it require manual quality assurance?", "acceptedAnswer": {"@type": "Answer", "text": "Many ask if the platform just calculates tax rates or if it is a full-service tool that also fills out, files, and sends payments to state revenue departments. This distinction is important for small teams wanting to reduce manual work."}}
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

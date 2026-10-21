@@ -31,12 +31,6 @@ export async function getGlossaryTerm(
   return BY_SLUG.get(slug) ?? null;
 }
 
-/**
- * The one DefinedTermSet the glossary index describes. Every letter page names this id, and every
- * term page points its DefinedTerm at it through inDefinedTermSet.
- */
-export const GLOSSARY_SET_ID = "https://geekatyourspot.com/glossary#glossary";
-
 /** The definition a term page shows, as one string: the index cards and structured data read it too. */
 export function definitionText(term: GlossaryTerm): string {
   const fromDefinitions = term.definitions

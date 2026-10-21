@@ -40,7 +40,7 @@ export default function IntroductionSection() {
               reliability of the forecast.</p>
             <ul className="list-disc list-outside pl-3 space-y-2">
               <li>Starting Cash Balance: The initial amount of cash available at the beginning of the forecast period.</li>
-              <li>Cash Inflows: Expected receipts from various sources, including sales revenue,&nbsp;<Link id="use-cases-accounting-cash-flow-forecasting-introduction-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;collections,
+              <li>Cash Inflows: Expected receipts from various sources, including sales revenue,&nbsp;<Link id="use-cases-accounting-cash-flow-forecasting-introduction-accounts-receivable" href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;collections,
                 and other income.</li>
               <li>Cash Outflows: Estimated cash payments for operating expenses, payroll, debt servicing, and capital investments.
               </li>

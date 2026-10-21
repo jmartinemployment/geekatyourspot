@@ -11,7 +11,6 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@ const jsonLd: Graph = {
             "description": "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.",
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-24T20:37:52.8425805Z",
             "dateModified": "2026-07-24T20:37:52.8425805Z",
             "mainEntityOfPage": {
@@ -35,53 +34,15 @@ const jsonLd: Graph = {
             },
             "keywords": "Automated Tax Compliance, Tax Regulations Automation, AI in Tax Compliance, Financial Operations Automation, Tax Compliance Software, AI Solutions Integration, Regulatory Compliance, Tax Automation Tools, Financial Process Automation, AI Implementation Consultancy",
             "wordCount": 3337,
-            "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#service" },
-            "hasPart": {
-                "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#faq"
-            },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-avalara"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-thomson-reuters-onesource"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-vertex"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-sap-tax-compliance"
-                }
+                { "@type": "Thing", "name": "Avalara", "url": "https://www.avalara.com/" },
+                { "@type": "Thing", "name": "Thomson Reuters ONESOURCE", "url": "https://tax.thomsonreuters.com/en/onesource" },
+                { "@type": "Thing", "name": "Vertex", "url": "https://www.vertexinc.com/" },
+                { "@type": "Thing", "name": "SAP Tax Compliance", "url": "https://www.sap.com/" }
             ]
         },
         {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-avalara",
-            "name": "Avalara",
-            "url": "https://www.avalara.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-thomson-reuters-onesource",
-            "name": "Thomson Reuters ONESOURCE",
-            "url": "https://tax.thomsonreuters.com/en/onesource"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-vertex",
-            "name": "Vertex",
-            "url": "https://www.vertexinc.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-sap-tax-compliance",
-            "name": "SAP Tax Compliance",
-            "url": "https://www.sap.com/"
-        },
-        {
             "@type": "FAQPage",
-            "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#faq",
             "mainEntity": [
                 {"@type": "Question", "name": "What does automated compliance mean?", "acceptedAnswer": {"@type": "Answer", "text": "Automated compliance refers to the use of technology solutions, such as AI and machine learning, to streamline and enforce regulatory compliance processes. This approach helps organizations efficiently manage compliance tasks, reduce manual errors, and ensure adherence to industry standards and legal requirements."}},
                 {"@type": "Question", "name": "What is the meaning of tax compliance?", "acceptedAnswer": {"@type": "Answer", "text": "Tax compliance means adhering to the tax laws and regulations set by authorities, which includes accurate reporting of income, calculating tax liabilities correctly, and timely payment of taxes. It ensures that individuals and businesses meet their legal obligations, thereby avoiding penalties and legal issues."}},
@@ -96,8 +57,7 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "What are the 4 phases of compliance?", "acceptedAnswer": {"@type": "Answer", "text": "The four phases of compliance typically include identification, assessment, implementation, and monitoring. These phases guide organizations in understanding compliance requirements, assessing risks, implementing necessary controls, and continuously monitoring for adherence to regulations."}},
                 {"@type": "Question", "name": "What are common tax compliance mistakes?", "acceptedAnswer": {"@type": "Answer", "text": "Common tax compliance mistakes include incorrect reporting of income, missing deadlines, overlooking deductions, and failing to keep adequate records. These errors can lead to audits, penalties, and increased scrutiny from tax authorities. Organizations can benefit from automated solutions to mitigate these risks."}}
             ]
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations", name: "Tax Compliance & Regulations", description: "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations." })
+        }
     ]
 };
 

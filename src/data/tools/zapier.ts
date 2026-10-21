@@ -12,7 +12,7 @@ export const zapierContent: ToolPageContent = {
   "description": "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
   "heroSummary": "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
   "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article",
+  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing",
   "sections": [
     {
       "title": "Overview",

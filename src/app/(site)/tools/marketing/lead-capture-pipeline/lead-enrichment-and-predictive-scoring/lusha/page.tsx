@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Lusha, lead enrichment, predictive lead scoring, intent data, lead capture, B2B lead generation, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-lusha",
                 "name": TITLE,
                 "url": "https://www.lusha.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is Lusha Lead Enrichment and how does it help a small business?", "acceptedAnswer": {"@type": "Answer", "text": "Lusha Lead Enrichment fills in missing B2B data like direct phone numbers, verified emails, and company details into your CSV lists, CRM, or spreadsheets. For small B2B firms in South Florida, this means you can turn a simple list of local companies into a complete outbound marketing database without manual research."}},
                 {"@type": "Question", "name": "Can we enrich inbound leads from our website forms automatically?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Lusha lets you keep your website forms short, such as just name and email, to increase conversions. It then instantly enriches leads on the backend with full company profiles, employee counts, and geographic data in about three seconds."}},

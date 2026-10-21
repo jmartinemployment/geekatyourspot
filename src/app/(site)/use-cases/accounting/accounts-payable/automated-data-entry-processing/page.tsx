@@ -11,7 +11,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Data Entry & Processing";
 const DESCRIPTION =
@@ -28,10 +27,10 @@ const jsonLd: Graph = {
             "description": DESCRIPTION,
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-02T00:00:00.000Z",
             "dateModified": "2026-10-02T00:00:00.000Z",
             "mainEntityOfPage": {
@@ -39,45 +38,21 @@ const jsonLd: Graph = {
                 "@id": PAGE_URL
             },
             "keywords": "automated data entry, accounts payable automation, invoice processing, AP data capture, AI in finance, invoice approval workflow, AP accuracy, finance automation, accounts payable software, small business accounting",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": {
-                "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article"
-            },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-dext" },
-                { "@id": "https://geekatyourspot.com/#software-bill" },
-                { "@id": "https://geekatyourspot.com/#software-avidxchange" }
+                { "@type": "Thing", "name": "Dext", "url": "https://dext.com/" },
+                { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },
+                { "@type": "Thing", "name": "AvidXchange", "url": "https://www.avidxchange.com/" }
             ]
         },
         {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-dext",
-            "name": "Dext",
-            "url": "https://dext.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-bill",
-            "name": "Bill",
-            "url": "https://www.bill.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-avidxchange",
-            "name": "AvidXchange",
-            "url": "https://www.avidxchange.com/"
-        },
-        {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": DATA_ENTRY_QUESTIONS.map(({ question, answer }) => ({
                 "@type": "Question" as const,
                 "name": question,
                 "acceptedAnswer": { "@type": "Answer" as const, "text": answer },
             })),
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

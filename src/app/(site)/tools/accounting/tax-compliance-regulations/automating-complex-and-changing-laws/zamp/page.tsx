@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Zamp, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-zamp",
                 "name": TITLE,
                 "url": "https://zamp.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Will switching disrupt our close, filings, or audits?", "acceptedAnswer": {"@type": "Answer", "text": "No, switching to Zamp won't disrupt your operations. Your current setup is reviewed and migrated in parallel, ensuring that filings, registrations, and reporting continue smoothly. Most teams are up and running within a week with no interruptions."}},
                 {"@type": "Question", "name": "Who is accountable if something goes wrong?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp takes full responsibility for compliance outcomes. From nexus and registrations to filings and audits, you have a single team accountable for accuracy and resolution."}},

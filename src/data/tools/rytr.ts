@@ -20,7 +20,7 @@ export const rytrContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "Picture a local Miami salon owner, already working twelve-hour days, staring at a blank screen after closing time."},
     {"title": "What It Costs to Keep Doing Content by Hand", "description": "Every week, small business owners in South Florida lose hours to the grind of content creation."},

@@ -12,7 +12,7 @@ export const contentstudioContent: ToolPageContent = {
   "description": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
   "heroSummary": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
   "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing#article",
+  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing",
   "sections": [
     {
       "title": "Overview",

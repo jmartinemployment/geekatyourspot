@@ -12,19 +12,17 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler#article",
     "headline": "Adobe Mix Modeler for Automated Ad Spend Optimization",
     "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/adobe-mix-modeler" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler",
         "name": "Adobe Mix Modeler",
         "url": "https://business.adobe.com/products/mix-modeler.html",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization" }
     }
 };
 

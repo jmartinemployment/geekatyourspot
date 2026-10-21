@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Zamp, multi-state sales tax nexus, economic nexus, sales tax compliance, sales tax automation, sales tax filing, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-zamp",
                 "name": TITLE,
                 "url": "https://zamp.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What does “fully managed” actually mean in practice?", "acceptedAnswer": {"@type": "Answer", "text": "With Zamp, your entire tax compliance process is handled by a dedicated team and platform. This includes nexus analysis, registrations, filings, remittance, notice handling, and audit support. Your only job is to review and approve, no need to coordinate or execute tasks yourself."}},
                 {"@type": "Question", "name": "Who handles state and local tax notices?", "acceptedAnswer": {"@type": "Answer", "text": "Zamp tracks, classifies, reviews, and resolves tax notices using automation and expert oversight. Your team does not have to manage deadlines or communicate with agencies, Zamp owns the process from start to finish."}},

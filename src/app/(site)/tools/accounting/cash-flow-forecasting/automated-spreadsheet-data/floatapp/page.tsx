@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Floatapp, automated spreadsheet data, cash flow forecasting, Xero integration, bank integrations, data sync, budgets and actuals, Excel budget import, Cash-Only design, forecasting timelines, what-if scenarios, multi-entity consolidation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-floatapp",
                 "name": TITLE,
                 "url": "https://floatapp.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "Is the connection secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Float uses the official Xero API with a secure, read-only connection. This means Float cannot change, add, or remove anything in your Xero account. You can disconnect at any time if needed." } },
                 { "@type": "Question", "name": "What does Float import from Xero?", "acceptedAnswer": { "@type": "Answer", "text": "Float imports bank accounts, credit cards, invoices, bills, repeating invoices and bills, draft invoices (if you choose), transactions, and journals. It does not import the overall budget, purchase orders, quotes, or tracking categories." } },

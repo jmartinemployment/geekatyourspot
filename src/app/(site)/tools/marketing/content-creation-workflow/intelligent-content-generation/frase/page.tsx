@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Frase, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-frase",
                 "name": TITLE,
                 "url": "https://www.frase.io/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Can I write in languages other than English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can set the target language and country for each article. Frase adapts the vocabulary, local phrases, and search engine framing for that region. It is not just a translation, it creates content that fits your audience."}},
                 {"@type": "Question", "name": "Does Frase publish to my CMS?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Frase can publish directly to WordPress, Webflow, Sanity, Wix, or FraseCMS. It also detects internal links from your content, adds FAQ and How-To schema, and can include a hero image with your post. This helps you get content live faster and with fewer manual steps."}},

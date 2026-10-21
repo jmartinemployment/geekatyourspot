@@ -22,19 +22,17 @@ const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": `${PAGE_URL}#article`,
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
     "keywords": "Bill, accounts payable automation, invoice coding, approval workflows, expense management, PO matching, payment processing, fraud detection, QuickBooks integration, AI implementation",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-bill",
         "name": TITLE,
         "url": "https://www.bill.com/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing" }
     }
 };
 

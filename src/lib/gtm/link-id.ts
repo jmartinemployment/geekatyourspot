@@ -34,10 +34,6 @@ export function gtmLinkId(segments: string | readonly string[], suffix?: string)
 
 /** Derive a GTM link id from an href, with optional suffix for duplicate targets. */
 export function gtmLinkIdFromHref(href: string, suffix?: string): string {
-  if (href.startsWith('#')) {
-    return gtmLinkId(['anchor', href.slice(1)], suffix)
-  }
-
   if (href.startsWith('mailto:')) {
     return gtmLinkId(['mailto', href.slice(7)], suffix)
   }

@@ -16,12 +16,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Spreadsheet Data";
 const DESCRIPTION =
     "Discover how Automated Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.";
-const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting";
+const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,27 +30,23 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-11T13:17:30.3879718Z",
             "dateModified": "2026-10-11T13:17:30.3879718Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Spreadsheet Data, Cash Flow Forecasting, AI Implementation, Small Business Automation, Spreadsheet Automation, Data Quality, Tech Selection, Pilot Implementation, Local AI Services",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-cashflowfrog" },
-                { "@id": "https://geekatyourspot.com/#software-clockwork" },
-                { "@id": "https://geekatyourspot.com/#software-dryrun" },
-                { "@id": "https://geekatyourspot.com/#software-floatapp" },
-                { "@id": "https://geekatyourspot.com/#software-take-the-helm" }
+                { "@type": "Thing", "name": "Cashflowfrog", "url": "https://cashflowfrog.com/" },
+                { "@type": "Thing", "name": "Clockwork", "url": "https://www.clockwork.ai/" },
+                { "@type": "Thing", "name": "Dryrun", "url": "https://www.dryrun.com/" },
+                { "@type": "Thing", "name": "Floatapp", "url": "https://floatapp.com/" },
+                { "@type": "Thing", "name": "Take the Helm", "url": "https://takethehelm.app/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How does the software pull live data into the spreadsheet without breaking existing formulas?", "acceptedAnswer": { "@type": "Answer", "text": "Clockwork provides a solution by automatically generating models from your transaction data, avoiding the need for manual formula adjustments. It ensures that your financial data is always up-to-date without the risk of breaking formulas, as it does not rely on traditional spreadsheet formulas. Instead, it uses its own computational models to provide an accurate and seamless forecast." } },
                 { "@type": "Question", "name": "Can it handle multi-currency or multi-entity structures if our spreadsheet rolls them up?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Clockwork and Dryrun both support multi-currency and multi-entity operations. Clockwork offers unlimited consolidation and custom chart of accounts, making it suitable for businesses with multiple entities. Dryrun provides automated multi-currency forecasting with real-time exchange rate feeds, offering a consolidated view of liquidity across international subsidiaries." } },
@@ -59,8 +54,7 @@ const jsonLd: Graph = {
                 { "@type": "Question", "name": "How do we build and compare multiple \"what-if\" scenarios without duplicating files?", "acceptedAnswer": { "@type": "Answer", "text": "Clockwork and Float provide robust scenario planning tools that allow users to create and compare multiple \"what-if\" scenarios. Clockwork enables instant recalculations across all forecasts when a driver is changed, while Float uses scenario layers that stack on top of the base forecast, allowing for easy comparison without altering the original data." } },
                 { "@type": "Question", "name": "How often does the forecast update, and how long does it take to maintain?", "acceptedAnswer": { "@type": "Answer", "text": "Clockwork updates its forecasts automatically from QuickBooks or Xero, requiring minimal manual intervention. Float updates daily from QuickBooks Online and allows for manual syncs whenever needed. The maintenance time is significantly reduced compared to manual spreadsheets, as these systems automate much of the data synchronization and forecasting processes." } }
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

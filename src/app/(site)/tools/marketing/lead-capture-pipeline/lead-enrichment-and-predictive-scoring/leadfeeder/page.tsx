@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Leadfeeder, lead enrichment, predictive lead scoring, intent data, lead capture, B2B lead generation, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-leadfeeder",
                 "name": TITLE,
                 "url": "https://www.leadfeeder.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is pipeline generation in B2B marketing?", "acceptedAnswer": {"@type": "Answer", "text": "Pipeline generation means finding, attracting, and turning the right business accounts into real sales opportunities. Unlike just collecting leads, this approach focuses on quality and buying intent. By seeing which companies interact with your website and marketing, you can focus on prospects who are more likely to buy, leading to more sales and better use of your time and budget."}},
                 {"@type": "Question", "name": "How can I identify anonymous website visitors?", "acceptedAnswer": {"@type": "Answer", "text": "You can spot anonymous website visitors by using technology that matches their IP addresses to company information. This lets you see which businesses are checking out your site, even if they never fill out a form. With this insight, you can focus on high-interest accounts and run targeted follow-up campaigns."}},

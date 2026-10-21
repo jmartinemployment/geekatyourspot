@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Justworks, payroll tax compliance, worker misclassification, W-2 and 1099 classification, payroll automation, contractor compliance, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-justworks",
                 "name": TITLE,
                 "url": "https://www.justworks.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "If we use Justworks to pay both W-2 employees and 1099 contractors, how does the platform prevent misclassification audits?", "acceptedAnswer": {"@type": "Answer", "text": "Justworks highlights the risks and costs of misclassifying workers, especially when a contractor’s job duties do not change after converting to employee status. The platform provides clear support for handling W-2 and 1099 payments, including filing the correct tax forms and managing payroll compliance. However, it is still up to your business to ensure workers are classified correctly under IRS guidelines. Justworks helps with filings and reminders but does not guarantee audit prevention if misclassification occurs."}},
                 {"@type": "Question", "name": "Florida has no state income tax, so why do I need a PEO/Compliance tool like Justworks to manage payroll taxes?", "acceptedAnswer": {"@type": "Answer", "text": "Even though Florida does not have a state income tax, small businesses still face other payroll compliance needs, like federal payroll taxes, workers’ comp, unemployment insurance, and new hire reporting. Justworks helps you stay compliant with federal, state, and local employment regulations, saving you time and reducing the risk of costly errors or HR violations. Their PEO service also handles state setup and tax registration, making it easier to onboard new employees and expand your business."}},

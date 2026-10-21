@@ -20,7 +20,7 @@ export default function OverviewSection() {
         lost leads, missed follow-ups, and the creeping sense that bigger competitors are always one step
         ahead.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-rytr-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wrestling with every caption or
+        <Link id={`tools-marketing-intelligent-content-generation-rytr-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wrestling with every caption or
         email, owners use AI tools to draft, repurpose, and schedule content in minutes. The right workflow
         means never starting from scratch: one strong idea turns into a month’s worth of posts, emails, and
         updates, all tailored for each channel. For the smallest operations, those producing just a handful of

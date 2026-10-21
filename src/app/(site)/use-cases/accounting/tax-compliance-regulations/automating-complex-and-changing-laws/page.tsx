@@ -16,7 +16,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Tax Law";
 const DESCRIPTION =
@@ -31,33 +30,28 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-12T15:36:35.4776740Z",
             "dateModified": "2026-10-12T15:36:35.4776740Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "AI tax compliance, complex and changing tax laws, sales tax automation, economic nexus, Florida sales tax, multi-county compliance, small business automation, South Florida",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-quaderno" },
-                { "@id": "https://geekatyourspot.com/#software-taxcloud" },
-                { "@id": "https://geekatyourspot.com/#software-taxjar" },
-                { "@id": "https://geekatyourspot.com/#software-taxvalet" },
-                { "@id": "https://geekatyourspot.com/#software-zamp" }
+                { "@type": "Thing", "name": "Quaderno", "url": "https://quaderno.io/" },
+                { "@type": "Thing", "name": "TaxCloud", "url": "https://taxcloud.com/" },
+                { "@type": "Thing", "name": "TaxJar", "url": "https://www.taxjar.com/" },
+                { "@type": "Thing", "name": "TaxValet", "url": "https://thetaxvalet.com/" },
+                { "@type": "Thing", "name": "Zamp", "url": "https://zamp.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?", "acceptedAnswer": {"@type": "Answer", "text": "The software uses a combination of Florida's statewide rate and local discretionary surtaxes imposed by each county. For example, Miami-Dade County charges a 1% surtax on top of the state rate, while Palm Beach County has its own additional local taxes. This means the total sales tax rate can vary between counties and even within cities. The software automatically applies these rates based on the customer's location, ensuring accurate tax calculations."}},
                 {"@type": "Question", "name": "Does the automation adapt to localized Florida Sales Tax Holidays?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the automation adapts to Florida's sales tax holidays by automatically applying the holiday rules, including specific price thresholds and eligible product categories. This eliminates the need for manual adjustments to your catalog or checkout process, ensuring compliance with state regulations during these periods."}}
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

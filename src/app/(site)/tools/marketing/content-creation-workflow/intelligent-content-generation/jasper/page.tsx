@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Jasper, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-jasper",
                 "name": TITLE,
                 "url": "https://www.jasper.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is Jasper AI?", "acceptedAnswer": {"@type": "Answer", "text": "Jasper is an AI marketing platform that helps small businesses create on-brand content and manage marketing workflows. It brings together writing and image tools, marketing agents, brand knowledge, and content pipelines so teams can run campaigns across different channels."}},
                 {"@type": "Question", "name": "How does Jasper AI work?", "acceptedAnswer": {"@type": "Answer", "text": "Jasper works by combining several AI models with details you provide about your business. Its Jasper IQ feature holds your brand voice, audience profiles, product information, and style rules. Marketing agents and workflows then use this context to complete specific marketing tasks."}},

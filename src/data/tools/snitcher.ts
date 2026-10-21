@@ -20,7 +20,7 @@ export const snitcherContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Picture this: a local B2B service firm in Miami-Dade watches as dozens of businesses visit their website every day."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "The reality for small teams in South Florida is this: most of your marketing spend and sales effort is wasted on leads that never had a chance."},

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -59,8 +57,8 @@ export default function PreparingSection() {
         you set at the start: more time, more accuracy, and more control over your cash and your business.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id={`use-cases-accounting-intelligent-resource-planning-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-accounting-intelligent-resource-planning-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
         <li>When a vendor drops a surprise bill or an invoice discrepancy occurs, how many different emails, text messages, or physical folders do you have to search through to audit what actually happened?</li>

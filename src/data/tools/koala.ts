@@ -20,7 +20,7 @@ export const koalaContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A South Florida office manager stares at a blank screen, trying to draft just one social post before the day’s real work starts."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "Every small business in Miami-Dade, Broward, and West Palm Beach knows the routine: you need to show up online or you disappear."},

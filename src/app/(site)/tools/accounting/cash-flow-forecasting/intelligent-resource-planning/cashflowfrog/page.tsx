@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Cashflowfrog, intelligent resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-cashflowfrog",
                 "name": TITLE,
                 "url": "https://cashflowfrog.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Why do I need CashFlowFrog if my automated accounting or ERP tool already tracks my financials?", "acceptedAnswer": {"@type": "Answer", "text": "Automated ERPs and bookkeeping tools like QuickBooks Enterprise, Odoo, or Sage Intacct are great for tracking what happened in the past. They do not show you what is coming next. CashFlowFrog pulls live data from your accounting system and builds a rolling 36-month cash flow forecast. This lets you see and plan for the future, not just report on the past, so you can manage cash and payroll without surprises."}},
                 {"@type": "Question", "name": "Which automated ERP and accounting platforms will this seamlessly plug into?", "acceptedAnswer": {"@type": "Answer", "text": "CashFlowFrog connects in real time to eight major platforms:QuickBooks Online and QuickBooks DesktopXeroSage IntacctOdoo ERPZoho Books and FreshBooksPlaid for direct bank feedsNo manual uploads or custom API work needed. It syncs your data automatically."}},

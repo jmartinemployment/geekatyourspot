@@ -11,7 +11,7 @@ export default function OverviewSection() {
         forward, they&#39;re stuck reconciling rows and columns, often leading to errors and outdated information
         that can derail financial planning.</p>
       <p className="text-md text-white shadow-text pt-3">
-        Imagine a world where automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-clockwork-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;handles these tasks for you. This is where Clockwork comes
+        Imagine a world where automated&nbsp;<Link id={`tools-accounting-spreadsheet-data-clockwork-overview-spreadsheet-data${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">spreadsheet data</Link>&nbsp;handles these tasks for you. This is where Clockwork comes
         in. By integrating directly with your financial systems, Clockwork eliminates the need for manual data entry
         and formula maintenance. It automatically generates a 52-week cash flow forecast and a 5-year financial
         model from your existing data. This allows you to focus on what truly matters: analyzing numbers, making

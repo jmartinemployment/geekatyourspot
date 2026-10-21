@@ -21,11 +21,10 @@ const jsonLd: Graph = {
             "description": "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
             "author": {
                 "@type": "Person",
-                "@id": "https://geekatyourspot.com/about#jeff-martin",
                 "name": "Jeff Martin",
                 "url": "https://geekatyourspot.com/about"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-09-02T15:52:27.1724249Z",
             "dateModified": "2026-09-02T15:52:27.1724249Z",
             "mainEntityOfPage": {
@@ -34,54 +33,13 @@ const jsonLd: Graph = {
             },
             "keywords": "Lead Scoring, AI Consulting, Small Business, ActiveCampaign, Pipedrive, Apollo, LeadSquared, 6sense",
             "wordCount": 2703,
-            "@id": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses#article",
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-activecampaign"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-pipedrive"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-apollo"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-leadsquared"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-6sense"
-                }
+                { "@type": "Thing", "name": "ActiveCampaign", "url": "https://www.activecampaign.com/" },
+                { "@type": "Thing", "name": "Pipedrive", "url": "https://www.pipedrive.com/" },
+                { "@type": "Thing", "name": "Apollo", "url": "https://www.apollo.io/" },
+                { "@type": "Thing", "name": "LeadSquared", "url": "https://www.leadsquared.com/" },
+                { "@type": "Thing", "name": "6sense", "url": "https://6sense.com/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-activecampaign",
-            "name": "ActiveCampaign",
-            "url": "https://www.activecampaign.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-pipedrive",
-            "name": "Pipedrive",
-            "url": "https://www.pipedrive.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-apollo",
-            "name": "Apollo",
-            "url": "https://www.apollo.io/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-leadsquared",
-            "name": "LeadSquared",
-            "url": "https://www.leadsquared.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-6sense",
-            "name": "6sense",
-            "url": "https://6sense.com/"
         }
     ]
 };

@@ -22,19 +22,17 @@ const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "@id": `${PAGE_URL}#article`,
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
     "keywords": "Dext, automated data entry, accounts payable automation, receipt capture, invoice processing, bookkeeping automation, AI Assist, data extraction, accounting integrations, AI implementation",
-    "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-    "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+    "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+    "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
         "@type": "Thing",
-        "@id": "https://geekatyourspot.com/#software-dext",
         "name": TITLE,
         "url": "https://dext.com/",
-        "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing#article" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing" }
     }
 };
 

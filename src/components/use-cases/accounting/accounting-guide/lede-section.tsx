@@ -65,8 +65,8 @@ export default function LedeSection() {
         document, every rule is written down, every approval is logged with a name and a time, and every
         exception goes to a person to decide. This guide explains where manual accounting fails, which tools
         close each gap, and how we put those tools in place without breaking the business you already run. It
-        also links to our detailed guides on <Link id={`use-cases-accounting-lede-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#C83803] hover:underline">Accounts
-        Payable</Link>, <Link id={`use-cases-accounting-lede-p-cff${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#C83803] hover:underline">Cash
+        also links to our detailed guides on <Link id={`use-cases-accounting-lede-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-accounts-payable" className="text-[#C83803] hover:underline">Accounts
+        Payable</Link>, <Link id={`use-cases-accounting-lede-p-cff${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#C83803] hover:underline">Cash
         Flow Forecasting</Link>, and <Link id={`use-cases-accounting-lede-p-tax${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">Tax
         Compliance &amp; Regulations</Link>.</p>
     </>

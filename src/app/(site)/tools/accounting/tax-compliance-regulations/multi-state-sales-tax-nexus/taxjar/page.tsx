@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "TaxJar, multi-state sales tax nexus, economic nexus, sales tax compliance, sales tax automation, sales tax filing, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-taxjar",
                 "name": TITLE,
                 "url": "https://www.taxjar.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does TaxJar track my economic and physical nexus across multiple states?", "acceptedAnswer": {"@type": "Answer", "text": "TaxJar automatically tracks your sales and transaction volume in each state. It sends alerts when you are close to or have passed a state's economic nexus threshold, like $100,000 in sales or 200 transactions."}},
                 {"@type": "Question", "name": "Can TaxJar handle multi-channel sales if I sell on multiple platforms?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. TaxJar connects with major e-commerce platforms such as Amazon, Shopify, and WooCommerce. It combines your transaction data from all channels into one dashboard, so you can see your total multi-state nexus exposure."}},

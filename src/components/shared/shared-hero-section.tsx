@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
 import HeroImage from "@/components/shared/hero-image-component";
-import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { DEPARTMENT_ICONS, DepartmentName}  from "@/types/department"
 import {
@@ -11,6 +9,7 @@ import {
   faUsersBetweenLines,
   faCalculator,
 } from "@fortawesome/free-solid-svg-icons";
+import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 
 // interface DepartmentProps {
 //   name: DepartmentName;
@@ -36,13 +35,12 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
                 {summary}
               </p>
               <div className="pt-6">
-                <Link
-                id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
-                href="#consultationAppointment2xl"
+                <button type="button" data-scheduler-link
+                id={SCHEDULER_HERO_LINK_ID}
                 className="btn btn-primary"
               >
                 Get Your Free AI Assessment
-              </Link>
+              </button>
               </div>
             </div>
           </div>
@@ -60,13 +58,12 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
                 { summary}
               </p>
               <div className="pt-6">
-                <Link
-                id={`${gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}-lg`}
-                href="#consultationAppointment2xl"
+                <button type="button" data-scheduler-link
+                id={`${SCHEDULER_HERO_LINK_ID}-lg`}
                 className="btn btn-primary"
               >
                 Get Your Free AI Assessment
-              </Link>
+              </button>
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">

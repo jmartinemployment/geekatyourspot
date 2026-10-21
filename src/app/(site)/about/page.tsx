@@ -14,38 +14,34 @@ const DESCRIPTION =
     "Meet Jeff Martin, the founder of Geek @ Your Spot LLC, who brings 40 years of engineering expertise to small businesses in South Florida.";
 const CANONICAL = "/about";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
-const PERSON_ID = `${PAGE_URL}#jeff-martin`;
-const ORGANIZATION_ID = "https://geekatyourspot.com/#organization";
+const ORGANIZATION = { "@type": "Organization", "name": "Geek @ Your Spot LLC", "url": "https://geekatyourspot.com" } as const;
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "AboutPage",
-            "@id": `${PAGE_URL}#page`,
             "name": TITLE,
             "description": "The story behind Geek @ Your Spot LLC, from a Timex Sinclair in 1982 to AI consulting for South Florida small businesses today.",
             "url": PAGE_URL,
-            "about": { "@id": ORGANIZATION_ID },
-            "mainEntity": { "@id": PERSON_ID },
-            "author": { "@id": PERSON_ID }
-        },
-        {
-            "@type": "Person",
-            "@id": PERSON_ID,
-            "name": "Jeff Martin",
-            "jobTitle": "Founder and CEO",
-            "description": "Jeff Martin is a full-stack developer and AI consultant with 40 years of engineering expertise, and the founder of Geek @ Your Spot LLC in Delray Beach, Florida.",
-            "worksFor": { "@id": ORGANIZATION_ID },
-            "knowsAbout": [
-                "Artificial Intelligence",
-                "Process Automation",
-                "AI Chatbots",
-                "Cloud Architecture",
-                "Full Stack Development",
-                "AI Strategy Consulting"
-            ],
-            "url": PAGE_URL
+            "about": ORGANIZATION,
+            "mainEntity": {
+                "@type": "Person",
+                "name": "Jeff Martin",
+                "jobTitle": "Founder and CEO",
+                "description": "Jeff Martin is a full-stack developer and AI consultant with 40 years of engineering expertise, and the founder of Geek @ Your Spot LLC in Delray Beach, Florida.",
+                "worksFor": ORGANIZATION,
+                "knowsAbout": [
+                    "Artificial Intelligence",
+                    "Process Automation",
+                    "AI Chatbots",
+                    "Cloud Architecture",
+                    "Full Stack Development",
+                    "AI Strategy Consulting"
+                ],
+                "url": PAGE_URL
+            },
+            "author": { "@type": "Person", "name": "Jeff Martin", "url": PAGE_URL }
         }
     ]
 };

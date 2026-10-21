@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Copy.ai, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-copy-ai",
                 "name": TITLE,
                 "url": "https://www.copy.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is Copy.ai?", "acceptedAnswer": {"@type": "Answer", "text": "Copy.ai started as an AI writing tool for generating copy. It has now become an AI-native Go-to-Market platform that connects sales, marketing, and operations teams. The platform helps automate complex business processes like personalized sales prospecting, content engines, data enrichment, and system integrations."}},
                 {"@type": "Question", "name": "What is a \"Workflow\" in Copy.ai?", "acceptedAnswer": {"@type": "Answer", "text": "A Workflow in Copy.ai is an AI-powered sequence of actions that codifies a business process. Instead of running one-off text prompts, users can set up a workflow to scrape URLs, scan websites, pull data from internal sources, and generate multi-step outputs instantly."}},

@@ -11,12 +11,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Invoice Approval Workflows";
 const DESCRIPTION =
     "Explore Automated Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable";
+const CANONICAL = "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -26,33 +25,29 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-07T00:00:00.000Z",
             "dateModified": "2026-10-07T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "automated approval workflows, accounts payable automation, invoice approval, AP workflow, approval routing, audit trail, AI in finance, invoice processing, finance automation, small business accounting",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-approvalmax" },
-                { "@id": "https://geekatyourspot.com/#software-bill" },
-                { "@id": "https://geekatyourspot.com/#software-melio" },
-                { "@id": "https://geekatyourspot.com/#software-ramp" },
-                { "@id": "https://geekatyourspot.com/#software-stampli" }
+                { "@type": "Thing", "name": "ApprovalMax", "url": "https://approvalmax.com/" },
+                { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },
+                { "@type": "Thing", "name": "Melio", "url": "https://melio.com/" },
+                { "@type": "Thing", "name": "Ramp", "url": "https://ramp.com/" },
+                { "@type": "Thing", "name": "Stampli", "url": "https://www.stampli.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": APPROVAL_QUESTIONS.map(({ question, answer }) => ({
                 "@type": "Question" as const,
                 "name": question,
                 "acceptedAnswer": { "@type": "Answer" as const, "text": answer },
             })),
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

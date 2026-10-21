@@ -59,8 +59,8 @@ export default function RightFitSection() {
         makes the difference.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id={`tools-marketing-lead-enrichment-and-predictive-scoring-factors-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-lead-enrichment-and-predictive-scoring-factors-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
         <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>

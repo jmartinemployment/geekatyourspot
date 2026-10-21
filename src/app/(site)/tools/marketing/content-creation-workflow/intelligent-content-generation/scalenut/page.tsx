@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Scalenut, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-scalenut",
                 "name": TITLE,
                 "url": "https://www.scalenut.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is Scalenut, and what does it do?", "acceptedAnswer": {"@type": "Answer", "text": "Scalenut is an AI-powered platform for SEO and generative engine optimization. It combines keyword planning, content creation, content optimization, website audits, and AI-search visibility tracking. Small businesses can use it as self-service software or choose expert-managed services."}},
                 {"@type": "Question", "name": "What is the difference between Scalenut’s SEO and GEO features?", "acceptedAnswer": {"@type": "Answer", "text": "Scalenut’s SEO features help businesses get found in traditional search with keyword planning, content optimization, internal linking, and audits. Its GEO features focus on how brands show up in AI-generated answers, including brand mentions, citations, prompt coverage, and recommendations to improve that presence."}},

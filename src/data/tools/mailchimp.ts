@@ -25,8 +25,7 @@ export const mailchimpContent: ToolPageContent = {
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/mailchimp#software"
+    }
   },
   "sections": [
     {

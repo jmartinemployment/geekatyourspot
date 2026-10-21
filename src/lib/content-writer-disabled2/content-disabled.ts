@@ -194,6 +194,7 @@ const ALLOWED_TAGS = new Set([
   "ol",
   "li",
   "a",
+  "button",
   "strong",
   "em",
   "b",
@@ -222,16 +223,16 @@ const ALLOWED_TAGS = new Set([
 const LINK_OVERRIDES: Record<string, string | null> = {
   // Route is nested one level deeper than the export assumes.
   "/use-cases/accounting/cash-flow-forecasting":
-    "/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting",
+    "/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting",
   // Export uses the "intelligent-" prefix; the route does not.
   "/use-cases/accounting/intelligent-tax-compliance-regulations":
     "/use-cases/accounting/tax-compliance-regulations",
   // Intelligent Content Generation replaced the Automated Content Generation pillar on 2026-10-19,
   // and the AI Content Repurposing pillar moved to the blog the same day.
   "/use-cases/marketing/automated-content-generation":
-    "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing":
-    "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "/use-cases/marketing/ai-content-repurposing": "/blog/marketing/content-creation-workflow/ai-content-repurposing",
   // These content generation tools have write-ups under the Intelligent Content Generation pillar.
   "/tools/marketing/jasper-ai": "/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper",
@@ -278,7 +279,7 @@ function internalizeHref(href: string): string | null {
     return href;
   }
 
-  const [pathname, suffix = ""] = path.split(/(?=[?#])/, 2);
+  const [pathname, suffix = ""] = path.split(/(?=\?)/, 2);
   const normalized = pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
 
   const target = normalized in LINK_OVERRIDES ? LINK_OVERRIDES[normalized] : normalized;
@@ -298,11 +299,19 @@ function sanitizeBody(rawBody: string, headline: string): string {
     .replace(/<h1[\s\S]*?<\/h1>/i, "")
     .trim();
 
-  // A link whose target has no page keeps its words and loses the anchor.
+  // A link whose target has no page keeps its words and loses the anchor, and so does a link with
+  // a # in it: the site uses no # URLs.
   body = body.replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi, (anchor, attrs: string, inner: string) => {
     const href = attrs.match(/\shref="([^"]*)"/i)?.[1] ?? "";
-    return /^(https?:|\/)/i.test(href) && internalizeHref(href) === null ? inner : anchor;
+    if (!/^(https?:|\/|mailto:)/i.test(href) || href.includes("#")) return inner;
+    return internalizeHref(href) === null ? inner : anchor;
   });
+
+  // The only button an export carries is the one that scrolls to the scheduler. Any other keeps its
+  // words and loses the tag.
+  body = body.replace(/<button\b([^>]*)>([\s\S]*?)<\/button>/gi, (button, attrs: string, inner: string) =>
+    /\sdata-scheduler-link\b/i.test(attrs) ? button : inner,
+  );
 
   // Some exports repeat the headline as the first <h2>; the page already prints it.
   const leadingH2 = body.match(/^<h2[^>]*>([\s\S]*?)<\/h2>/i);
@@ -320,11 +329,14 @@ function sanitizeBody(rawBody: string, headline: string): string {
 
     if (tagName === "a") {
       const href = attrs.match(/\shref="([^"]*)"/i)?.[1] ?? "";
-      // The pass above already unwrapped every anchor whose target resolves to null.
-      const safeHref = (/^(https?:|\/|#|mailto:)/i.test(href) && internalizeHref(href)) || "#";
+      // The passes above already unwrapped every anchor that has no page or holds a #.
+      const safeHref = internalizeHref(href);
+      if (safeHref === null) return "";
       const external = /^https?:/i.test(safeHref);
       return `<a href="${safeHref}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>`;
     }
+
+    if (tagName === "button") return "<button data-scheduler-link>";
 
     if (tagName === "img") {
       const src = attrs.match(/\ssrc="([^"]*)"/i)?.[1] ?? "";

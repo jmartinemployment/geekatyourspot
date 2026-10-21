@@ -1,9 +1,8 @@
-import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
-import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
+import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 
 type BlogHeroSectionProps = Readonly<{
   title: string;
@@ -53,13 +52,12 @@ export function BlogHeroSection({
             </p>
 
             <div className="pt-6">
-              <Link
-                id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
-                href="#consultationAppointment2xl"
+              <button type="button" data-scheduler-link
+                id={SCHEDULER_HERO_LINK_ID}
                 className="btn btn-primary"
               >
                 Get Your Free AI Assessment
-              </Link>
+              </button>
             </div>
           </div>
 

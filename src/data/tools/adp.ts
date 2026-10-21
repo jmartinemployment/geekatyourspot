@@ -20,7 +20,7 @@ export const adpContent: ToolPageContent = {
   "datePublished": "2026-10-13T16:53:19.6667410Z",
   "dateModified": "2026-10-13T16:53:19.6667410Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
   "sections": [
     {"title": "Overview", "description": "A small HVAC company in Miami-Dade starts its busy season with a full slate of projects and a growing crew."},
     {"title": "What It Costs to Keep Doing Payroll Tax and Worker Classification by Hand", "description": "Payroll tax and worker misclassification are not just paperwork headaches for small businesses in South Florida, they are direct threats to survival."},

@@ -10,7 +10,6 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 
 const jsonLd: Graph = {
@@ -25,10 +24,10 @@ const jsonLd: Graph = {
             ],
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-26T14:56:10.1903634Z",
             "dateModified": "2026-07-26T14:56:10.1903634Z",
             "mainEntityOfPage": {
@@ -36,30 +35,26 @@ const jsonLd: Graph = {
                 "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline"
             },
             "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#service" },
-            "hasPart": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#faq" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-lobbystack" },
-                { "@id": "https://geekatyourspot.com/#software-my-ai-front-desk" },
-                { "@id": "https://geekatyourspot.com/#software-nextiva" },
-                { "@id": "https://geekatyourspot.com/#software-smith-ai" },
-                { "@id": "https://geekatyourspot.com/#software-voksha" },
-                { "@id": "https://geekatyourspot.com/#software-botpenguin" },
-                { "@id": "https://geekatyourspot.com/#software-dapta" },
-                { "@id": "https://geekatyourspot.com/#software-manychat" },
-                { "@id": "https://geekatyourspot.com/#software-my-ai-front-desk" },
-                { "@id": "https://geekatyourspot.com/#software-tidio" },
-                { "@id": "https://geekatyourspot.com/#software-apollo" },
-                { "@id": "https://geekatyourspot.com/#software-factors" },
-                { "@id": "https://geekatyourspot.com/#software-leadfeeder" },
-                { "@id": "https://geekatyourspot.com/#software-lusha" },
-                { "@id": "https://geekatyourspot.com/#software-snitcher" }
+                { "@type": "Thing", "name": "LobbyStack", "url": "https://lobbystack.com/" },
+                { "@type": "Thing", "name": "My AI Front Desk", "url": "https://www.myaifrontdesk.com/" },
+                { "@type": "Thing", "name": "Nextiva", "url": "https://www.nextiva.com/" },
+                { "@type": "Thing", "name": "Smith.ai", "url": "https://smith.ai/" },
+                { "@type": "Thing", "name": "Voksha", "url": "https://voksha.com/" },
+                { "@type": "Thing", "name": "BotPenguin", "url": "https://botpenguin.com/" },
+                { "@type": "Thing", "name": "Dapta", "url": "https://dapta.ai/" },
+                { "@type": "Thing", "name": "Manychat", "url": "https://manychat.com/" },
+                { "@type": "Thing", "name": "My AI Front Desk", "url": "https://www.myaifrontdesk.com/" },
+                { "@type": "Thing", "name": "Tidio", "url": "https://www.tidio.com/" },
+                { "@type": "Thing", "name": "Apollo", "url": "https://www.apollo.io/" },
+                { "@type": "Thing", "name": "Factors", "url": "https://www.factors.ai/" },
+                { "@type": "Thing", "name": "Leadfeeder", "url": "https://www.leadfeeder.com/" },
+                { "@type": "Thing", "name": "Lusha", "url": "https://www.lusha.com/" },
+                { "@type": "Thing", "name": "Snitcher", "url": "https://www.snitcher.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#faq",
             "mainEntity": [
                 {"@type": "Question", "name": "How to build a lead pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "Building a lead pipeline involves identifying potential customers and nurturing them until they are ready to buy. First, define your target audience. Then, use marketing strategies like content marketing, social media, and email campaigns to attract interest. Capture contact information using lead forms and engage leads with personalized follow-ups."}},
                 {"@type": "Question", "name": "How to create a lead capture form?", "acceptedAnswer": {"@type": "Answer", "text": "To create a lead capture form, start by deciding what information you need from potential leads, such as name and email. Use a simple design to avoid overwhelming users. Ensure the form is easy to find on your website and consider offering an incentive for filling it out, like a free eBook or discount."}},
@@ -71,8 +66,7 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "How to design a pipeline system?", "acceptedAnswer": {"@type": "Answer", "text": "Designing a pipeline system requires identifying the key stages and processes your organization needs to track. Map out each stage and define the criteria for moving leads through the stages. Use software tools to automate and monitor the pipeline, ensuring data is consistently updated and accessible."}},
                 {"@type": "Question", "name": "What is the formula for pipeline?", "acceptedAnswer": {"@type": "Answer", "text": "The formula for a sales pipeline typically involves calculating the value of potential sales at each stage of the pipeline. This is often done by multiplying the probability of closing a deal at each stage by the deal's expected value, helping to forecast potential revenue."}}
             ]
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline", name: "AI Lead Capture Pipeline", description: "Explore the Intelligent Lead Capture Pipeline to enhance lead generation, streamline processes, and boost B2B sales efficiently." })
+        }
     ]
 };
 

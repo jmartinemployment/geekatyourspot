@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Snitcher, lead enrichment, predictive lead scoring, intent data, lead capture, B2B lead generation, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-snitcher",
                 "name": TITLE,
                 "url": "https://www.snitcher.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Is Snitcher GDPR compliant?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Snitcher is GDPR compliant. The tool identifies companies at the business level using legitimate interest. Only business contact details like job titles and work emails are shown. Snitcher is also working toward ISO 27001 certification for added data security."}},
                 {"@type": "Question", "name": "Which companies will I actually see?", "acceptedAnswer": {"@type": "Answer", "text": "You will see companies that visit your site from a corporate network. This covers most B2B traffic during business hours. If someone visits from home or a mobile connection, their company usually will not show up. Snitcher is upfront about this so you know what to expect. You can start a trial and see what your own website traffic looks like within a day."}},

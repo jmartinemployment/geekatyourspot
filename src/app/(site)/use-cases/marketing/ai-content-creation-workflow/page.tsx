@@ -12,7 +12,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -26,10 +25,10 @@ const jsonLd: Graph = {
             ],
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-08-18T11:42:58.9278075Z",
             "dateModified": "2026-08-18T11:42:58.9278075Z",
             "mainEntityOfPage": {
@@ -38,57 +37,14 @@ const jsonLd: Graph = {
             },
             "keywords": "AI Content Creation Workflow, Automated Content Generation, AI Content Repurposing, Bulk Social Media Scheduling, SEO Blog Generation, Personalized Email Campaigns",
             "wordCount": 4379,
-            "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#service" },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-jasper"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-copy-ai"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-chatgpt"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-claude"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-contentstudio"
-                }
+                { "@type": "Thing", "name": "Jasper", "url": "https://www.jasper.ai/" },
+                { "@type": "Thing", "name": "Copy.ai", "url": "https://www.copy.ai/" },
+                { "@type": "Thing", "name": "ChatGPT", "url": "https://chatgpt.com/" },
+                { "@type": "Thing", "name": "Claude", "url": "https://claude.ai/" },
+                { "@type": "Thing", "name": "ContentStudio", "url": "https://contentstudio.io/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-jasper",
-            "name": "Jasper",
-            "url": "https://www.jasper.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-copy-ai",
-            "name": "Copy.ai",
-            "url": "https://www.copy.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-chatgpt",
-            "name": "ChatGPT",
-            "url": "https://chatgpt.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-claude",
-            "name": "Claude",
-            "url": "https://claude.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-contentstudio",
-            "name": "ContentStudio",
-            "url": "https://contentstudio.io/"
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow", name: "Content Creation Workflow", description: "Explore how AI Content Creation Workflow boosts efficiency by automating content generation, repurposing, social media scheduling, and more." })
+        }
     ]
 };
 

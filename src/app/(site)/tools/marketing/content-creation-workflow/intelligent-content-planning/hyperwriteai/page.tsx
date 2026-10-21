@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "HyperWrite, intelligent content planning, AI content planning, content calendar, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-hyperwrite",
                 "name": TITLE,
                 "url": "https://www.hyperwriteai.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Can HyperWrite help manage and clear a cluttered email inbox?", "acceptedAnswer": {"@type": "Answer", "text": "HyperWrite features an Email Responder tool built for daily email management. Users can enter a few words or bullet points, and the tool turns them into full, polished email replies."}},
                 {"@type": "Question", "name": "How does the software assist users in real-time as they type out documents?", "acceptedAnswer": {"@type": "Answer", "text": "HyperWrite offers TypeAhead, a predictive writing feature delivered through a Chrome extension. It suggests and completes sentences in real time inside apps like Gmail and Google Docs."}},

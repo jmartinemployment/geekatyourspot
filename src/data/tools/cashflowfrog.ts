@@ -20,7 +20,7 @@ export const cashflowfrogContent: ToolPageContent = {
   "datePublished": "2026-10-11T17:23:52.0000000Z",
   "dateModified": "2026-10-11T17:23:52.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data",
   "sections": [
     { "title": "Overview", "description": "Imagine a small business owner in Miami-Dade County, staring at a cluttered spreadsheet late into the night. Each row holds a piece of their financial puzzle, but the full picture remains elusive." },
     { "title": "The Cost of Fragmented Metrics in Cash Flow Forecasting", "description": "Imagine a business owner in West Palm Beach trying to make sense of their cash flow. They have spreadsheets filled with numbers, but the real picture is hard to see. This is common for many small businesses dealing with fragmented business metrics." },

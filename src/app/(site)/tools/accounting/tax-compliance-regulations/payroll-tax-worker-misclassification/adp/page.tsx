@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "ADP, payroll tax compliance, worker misclassification, W-2 and 1099 classification, payroll automation, contractor compliance, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-adp",
                 "name": TITLE,
                 "url": "https://www.adp.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Does payroll software support multi-state payroll?", "acceptedAnswer": {"@type": "Answer", "text": "ADP’s payroll software keeps up with the latest tax laws and HR rules at both the federal level and in every state. If your business pays people in more than one state, you may need to register your business in each state where your employees work."}},
                 {"@type": "Question", "name": "Does payroll software handle all payroll tax filings and payments (federal, state, local)?", "acceptedAnswer": {"@type": "Answer", "text": "Most automatic payroll systems, including ADP, handle federal and state tax filings. Local taxes are more complex, since rules can change quickly and vary by city or county. Not every provider covers local tax filings, so it is important to ask about this if your business needs it."}},

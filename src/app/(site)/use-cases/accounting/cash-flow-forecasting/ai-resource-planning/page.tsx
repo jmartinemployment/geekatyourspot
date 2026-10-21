@@ -16,12 +16,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Resource Planning";
 const DESCRIPTION =
     "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.";
-const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business";
+const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,27 +30,23 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-14T13:36:09.9025920Z",
             "dateModified": "2026-10-14T13:36:09.9025920Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Resource Planning, Cash Flow Forecasting, Automated Accounts Receivable, Automated Spreadsheet Data, Automated Enterprise Resource Planning, AI implementation West Palm Beach, AI for small business Miami, Fathom, Jirav, Cashflowfrog",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-cashflowfrog" },
-                { "@id": "https://geekatyourspot.com/#software-fathom" },
-                { "@id": "https://geekatyourspot.com/#software-jirav" },
-                { "@id": "https://geekatyourspot.com/#software-quickbooks-online-advanced" },
-                { "@id": "https://geekatyourspot.com/#software-take-the-helm" }
+                { "@type": "Thing", "name": "Cashflowfrog", "url": "https://cashflowfrog.com/" },
+                { "@type": "Thing", "name": "Fathom", "url": "https://www.fathomhq.com/" },
+                { "@type": "Thing", "name": "Jirav", "url": "https://www.jirav.com/" },
+                { "@type": "Thing", "name": "QuickBooks Online Advanced", "url": "https://quickbooks.intuit.com/online/advanced/" },
+                { "@type": "Thing", "name": "Take the Helm", "url": "https://takethehelm.app/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What exactly is an ERP system?", "acceptedAnswer": {"@type": "Answer", "text": "An ERP is a single software platform that brings together all your main business tasks. This includes finance, HR, manufacturing, supply chain, services, and procurement. Instead of each department using its own software, everyone works from a shared database."}},
                 {"@type": "Question", "name": "Isn’t ERP software only for giant, multi-million dollar corporations?", "acceptedAnswer": {"@type": "Answer", "text": "No, that’s outdated thinking. Modern ERP and accounting automation is built for small businesses. You choose and pay for only the features you need, such as automated invoicing or inventory tracking, and you can add more as your business grows in South Florida."}},
@@ -59,8 +54,7 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "Will this new automation software play nice with the tools and bank accounts I already use?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it will. The tools we implement connect securely to major business bank accounts, common POS systems, CRM software, and merchant payment gateways. This keeps your data flowing smoothly and avoids disrupting your current workflow."}},
                 {"@type": "Question", "name": "How does this tool help us handle multi-location operations or mobile employees moving between counties?", "acceptedAnswer": {"@type": "Answer", "text": "You get secure, real-time access to your system from anywhere. Whether your team is in Miami-Dade, Broward, or Palm Beach, employees can log expenses, upload receipts, track inventory, and view invoices on their phones or tablets. Your main office stays updated instantly."}}
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

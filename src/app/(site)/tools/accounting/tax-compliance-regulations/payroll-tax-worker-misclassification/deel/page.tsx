@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Deel, payroll tax compliance, worker misclassification, W-2 and 1099 classification, payroll automation, contractor compliance, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-deel",
                 "name": TITLE,
                 "url": "https://www.deel.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does Deel protect my South Florida business from IRS misclassification penalties?", "acceptedAnswer": {"@type": "Answer", "text": "Deel helps shield your business from misclassification risks by offering Contractor of Record services. This means Deel takes on the responsibility for classifying workers correctly, using AI-powered tools and localized contracts. With Deel, your business gets continuous compliance monitoring and a defensible process to reduce the risk of IRS penalties, back taxes, and legal action tied to worker misclassification."}},
                 {"@type": "Question", "name": "What criteria does the tool use to differentiate between an employee and a contractor?", "acceptedAnswer": {"@type": "Answer", "text": "Deel uses criteria based on control and economic dependence to determine worker status. If your business controls working hours, provides tools, manages training, or is the worker’s only employer, the individual is more likely to be classified as an employee. Deel’s platform supports you with AI-powered classification and compliance checks to help you avoid costly misclassification errors."}},

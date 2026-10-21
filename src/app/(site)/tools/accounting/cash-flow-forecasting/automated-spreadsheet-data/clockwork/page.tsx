@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Clockwork, automated spreadsheet data, cash flow forecasting, accounting integrations, ledger write-back, what-if scenarios, Mira AI, data privacy, approval chains, routing, automation logic, financial forecasting tools",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-clockwork",
                 "name": TITLE,
                 "url": "https://www.clockwork.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "What software does Clockwork integrate with?", "acceptedAnswer": { "@type": "Answer", "text": "Clockwork features one-click live integrations with QuickBooks Online, QuickBooks Desktop, and Xero. It can also ingest data from Excel, CSV, and Google Sheets." } },
                 { "@type": "Question", "name": "How long does it take to set up?", "acceptedAnswer": { "@type": "Answer", "text": "Setting up Clockwork takes about five minutes. The platform automatically logs in, pulls up to three years of transactional history, maps your chart of accounts, and builds the baseline forecast without requiring any manual mapping or onboarding." } },

@@ -20,7 +20,7 @@ export const tidioContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide",
   "sections": [
     {"title": "Overview", "description": "Every small business in South Florida knows the scene: a new lead texts your WhatsApp at 8 a.m., another drops a question into your website chat, and before lunch someone else sends a message on Instagram."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Small businesses in South Florida face a daily grind when it comes to customer messaging."},

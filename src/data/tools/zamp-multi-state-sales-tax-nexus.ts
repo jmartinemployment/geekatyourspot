@@ -20,7 +20,7 @@ export const zampMultiStateSalesTaxNexusContent: ToolPageContent = {
   "datePublished": "2026-10-13T18:05:58.9611010Z",
   "dateModified": "2026-10-13T18:05:58.9611010Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax",
   "sections": [
     {"title": "Overview", "description": "A South Florida retailer sees their product take off across state lines."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "For a small business in South Florida, crossing the line into multi-state sales tax compliance is not just another administrative task, it is a wall."},

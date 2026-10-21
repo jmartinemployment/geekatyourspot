@@ -36,7 +36,7 @@ export interface ToolPageContent {
   datePublished?: string;
   /** ISO timestamp the source page was last modified. */
   dateModified?: string;
-  /** @id of the related use-case Article (JSON-LD subjectOf). */
+  /** URL of the related use-case article. */
   relatedArticleId?: string;
   /**
    * The full JSON-LD object exactly as produced by Content Writer v2,

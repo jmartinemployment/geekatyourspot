@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
@@ -55,8 +54,8 @@ export default function PreparingSection() {
         your business with confidence.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id={`use-cases-accounting-payroll-tax-worker-misclassification-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<button type="button" data-scheduler-link id={`use-cases-accounting-payroll-tax-worker-misclassification-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How do you currently determine whether a new team member should be onboarded as a W-2 employee or a 1099 independent contractor?</li>
         <li>Do you have 1099 contractors who use your company equipment, have set schedules, or perform the exact same core services as your W-2 staff?</li>

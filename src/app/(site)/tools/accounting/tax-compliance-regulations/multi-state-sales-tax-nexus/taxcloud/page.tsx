@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "TaxCloud, multi-state sales tax nexus, economic nexus, sales tax compliance, sales tax automation, sales tax filing, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-taxcloud",
                 "name": TITLE,
                 "url": "https://taxcloud.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How do I know if I have nexus in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "You have nexus in Florida if your business has a physical presence in the state, such as an office, warehouse, employees, or inventory stored in an Amazon FBA center. You also have nexus if your taxable remote sales into Florida were over $100,000 in the previous calendar year. Florida only counts taxable sales for this threshold, exempt items like SaaS do not count. Marketplace sales where the facilitator collects tax are also excluded. TaxCloud’s nexus tracking helps you monitor your exposure across all states in real time."}},
                 {"@type": "Question", "name": "Does Florida charge sales tax on shipping?", "acceptedAnswer": {"@type": "Answer", "text": "Florida does not charge sales tax on separately stated shipping charges for delivering tangible goods. If shipping is bundled into the product price or combined with handling charges that include taxable items, then the entire charge is taxable."}},

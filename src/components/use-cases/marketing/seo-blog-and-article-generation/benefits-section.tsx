@@ -41,7 +41,7 @@ export default function BenefitsSection() {
         Errors in content production can lead to misinformation, brand damage, and lost trust. Manual processes are more prone to these errors due to human oversight and fatigue.
       </p>
       <p className="pt-3 text-md font-normal text-white shadow-text">
-        <Link id={`use-cases-marketing-seo-blog-and-article-generation-benefits-automated-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Automated content generation</Link>&nbsp;minimizes these risks by using AI to check facts, grammar, and SEO compliance. Tools like ChatGPT ensure that content meets high standards before publication.
+        <Link id={`use-cases-marketing-seo-blog-and-article-generation-benefits-automated-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-generation" className="text-[#C83803] hover:underline">Automated content generation</Link>&nbsp;minimizes these risks by using AI to check facts, grammar, and SEO compliance. Tools like ChatGPT ensure that content meets high standards before publication.
       </p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Content errors caught and corrected automatically before publication.</li>

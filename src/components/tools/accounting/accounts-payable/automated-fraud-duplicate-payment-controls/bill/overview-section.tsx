@@ -14,7 +14,7 @@ export default function OverviewSection() {
         story: overworked staff, mounting frustration, and financial reports that never quite add up, all of
         which distract from the real business of serving customers and growing revenue.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where Automated&nbsp;<Link id={`tools-accounting-fraud-controls-bill-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
+        This is where Automated&nbsp;<Link id={`tools-accounting-fraud-controls-bill-overview-fraud-controls${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">Fraud &amp; Duplicate Payment Controls</Link>&nbsp;become crucial. By leveraging intelligent
         systems, businesses can automate the tedious task of invoice management, significantly reducing the
         chance of duplicates and fraudulent transactions. Solutions like those offered by&nbsp;
         <a id={`tools-accounting-fraud-controls-bill-overview-bill${idSuffix}`}

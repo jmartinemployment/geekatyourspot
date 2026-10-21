@@ -20,7 +20,7 @@ export const imagineContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A local business owner unlocks the shop early, checks yesterday’s receipts, then glances at the blank social media calendar."},
     {"title": "What It Costs to Keep Doing Content the Old Way", "description": "Every small business in South Florida faces the same uphill battle: to stay visible, they need to keep their digital presence fresh and credible."},

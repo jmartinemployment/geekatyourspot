@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
+import { SCHEDULER_ID } from "@/components/shared/scheduler/scheduler-id";
 
 const SchedulerWidget = dynamic(() => import("@/components/shared/scheduler/scheduler-widget"), {
   ssr: false,
@@ -17,11 +18,26 @@ function SchedulerPlaceholder(): React.JSX.Element {
 
 /**
  * Starts loading the booking widget when the scheduler section comes within 600px of the
- * viewport, or straight away when the page opens on #consultationAppointment2xl.
+ * viewport. A press on any `data-scheduler-link` button on the page scrolls the section into
+ * view and focuses it, which also brings it near.
  */
 export function SchedulerLoader(): React.JSX.Element {
   const marker = useRef<HTMLDivElement>(null);
   const [near, setNear] = useState(false);
+
+  useEffect(() => {
+    function handleClick(event: MouseEvent): void {
+      const target = event.target;
+      if (!(target instanceof Element) || !target.closest("[data-scheduler-link]")) return;
+      const section = document.getElementById(SCHEDULER_ID);
+      if (!section) return;
+      section.scrollIntoView({ block: "start" });
+      section.focus({ preventScroll: true });
+    }
+
+    document.addEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick);
+  }, []);
 
   useEffect(() => {
     const element = marker.current;

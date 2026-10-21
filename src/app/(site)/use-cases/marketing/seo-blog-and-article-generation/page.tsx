@@ -11,7 +11,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -22,10 +21,10 @@ const jsonLd: Graph = {
             "description": "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-08-23T15:34:00.2547546Z",
             "dateModified": "2026-08-23T15:34:00.2547546Z",
             "mainEntityOfPage": {
@@ -34,66 +33,15 @@ const jsonLd: Graph = {
             },
             "keywords": "SEO Blog and Article Generation, AI content tools, content automation, SEO optimization, marketing AI",
             "wordCount": 2745,
-            "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation#service" },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-surfer-seo"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-chatgpt"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-claude"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-frase"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-hubspot-ai"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-keyword-insights"
-                }
+                { "@type": "Thing", "name": "Surfer SEO", "url": "https://surferseo.com/" },
+                { "@type": "Thing", "name": "ChatGPT", "url": "https://chatgpt.com/" },
+                { "@type": "Thing", "name": "Claude", "url": "https://claude.ai/" },
+                { "@type": "Thing", "name": "Frase", "url": "https://www.frase.io/" },
+                { "@type": "Thing", "name": "HubSpot AI", "url": "https://www.hubspot.com/products/artificial-intelligence" },
+                { "@type": "Thing", "name": "Keyword Insights", "url": "https://www.keywordinsights.ai/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-surfer-seo",
-            "name": "Surfer SEO",
-            "url": "https://surferseo.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-chatgpt",
-            "name": "ChatGPT",
-            "url": "https://chatgpt.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-claude",
-            "name": "Claude",
-            "url": "https://claude.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-frase",
-            "name": "Frase",
-            "url": "https://www.frase.io/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-hubspot-ai",
-            "name": "HubSpot AI",
-            "url": "https://www.hubspot.com/products/artificial-intelligence"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-keyword-insights",
-            "name": "Keyword Insights",
-            "url": "https://www.keywordinsights.ai/"
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/seo-blog-and-article-generation", name: "SEO Blog and Article Generation", description: "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results." })
+        }
     ]
 };
 

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -34,10 +32,9 @@ export default function RightFitSection() {
         business&#39;s growth and operational success.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id={`tools-accounting-payment-execution-avidxchange-right-fit-consultation${idSuffix}`}
-          href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-payment-execution-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </Link>.</p>
+        </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
         <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>

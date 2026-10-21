@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Versapay, automated accounts receivable, cash flow forecasting, automated cash application, Promise-to-Pay forecasts, customer risk segments, dispute resolution, Autopay, ERP integration, approval chains, routing, automation logic",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-versapay",
                 "name": TITLE,
                 "url": "https://www.versapay.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How does automating cash application fix cash flow forecasting errors?", "acceptedAnswer": { "@type": "Answer", "text": "Automating cash application improves cash flow forecasting by providing real-time visibility into financial data. This eliminates the guesswork associated with manual accounts receivable processes, allowing finance leaders to quickly identify where cash is tied up and which accounts are overdue. With automated dashboards, teams can spot risks early and make more informed financial decisions, reducing missed opportunities and reactive decision-making." } },
                 { "@type": "Question", "name": "How does the platform predict when payments will arrive?", "acceptedAnswer": { "@type": "Answer", "text": "Versapay uses machine learning to analyze payment patterns and segment customers by risk level. This AI-powered approach helps predict when payments will arrive by forecasting cash flow based on these insights. It allows businesses to collect payments faster and manage their cash flow more effectively." } },

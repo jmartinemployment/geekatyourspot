@@ -17,8 +17,7 @@ export const kyribaContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Kyriba: Advanced cash flow forecasting and liquidity management for informed financial decisions.",
     "@context": "https://schema.org",
-    "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
-    "@id": "#software-kyriba"
+    "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation"
   },
   "sections": [
     {

@@ -7,7 +7,7 @@ export default function ForecastingReceivablesSection() {
       <p className="text-md text-white shadow-text pt-3">
         Forecasting fixes the delayed visibility crisis and the broken spreadsheet dependency at the same
         time. Instead of a workbook someone updates once a month, these tools read your ledger directly and
-        update the forecast as transactions arrive. Our <Link id={`use-cases-accounting-forecasting-p-cff${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting" className="text-[#0B162A] hover:underline">Cash
+        update the forecast as transactions arrive. Our <Link id={`use-cases-accounting-forecasting-p-cff${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#0B162A] hover:underline">Cash
         Flow Forecasting</Link> guide covers <GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
         flow forecasting</GlossaryLink> in depth.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -23,7 +23,7 @@ export default function ForecastingReceivablesSection() {
         customers by how quickly they pay. <Link id={`use-cases-accounting-forecasting-helm-irp${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm" className="text-[#0B162A] hover:underline">Take
         the Helm</Link> lays out a timeline where you can see how moving one payment date changes your <strong>cash
         runway</strong>. <strong>Pulse</strong> is a simpler option for owners who want a daily cash
-        projection without a full planning suite. The <Link id={`use-cases-accounting-forecasting-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#0B162A] hover:underline">Intelligent
+        projection without a full planning suite. The <Link id={`use-cases-accounting-forecasting-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#0B162A] hover:underline">Intelligent
         Resource Planning</Link> guide shows how these tools work together.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Scenario Planning Without the Spreadsheet
@@ -34,7 +34,7 @@ export default function ForecastingReceivablesSection() {
         scenarios</strong> side by side, so you can compare a slow summer, a hurricane closure, and a strong
         season before any of them happens. <Link id={`use-cases-accounting-forecasting-clockwork${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" className="text-[#0B162A] hover:underline">Clockwork</Link> generates
         forecasts from your ledger data, and <Link id={`use-cases-accounting-forecasting-cff-sheet${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" className="text-[#0B162A] hover:underline">Cashflowfrog</Link> and <Link id={`use-cases-accounting-forecasting-helm-sheet${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">Take
-        the Helm</Link> replace manual updates with live connections to your books. The <Link id={`use-cases-accounting-forecasting-p-sheet${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting" className="text-[#0B162A] hover:underline">Intelligent
+        the Helm</Link> replace manual updates with live connections to your books. The <Link id={`use-cases-accounting-forecasting-p-sheet${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#0B162A] hover:underline">Intelligent
         Spreadsheet Data</Link> guide explains how to retire the fragile workbook safely.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Receivables That Collect Themselves
@@ -45,7 +45,7 @@ export default function ForecastingReceivablesSection() {
         customers a portal to view and pay their invoices, and they show your team which accounts need
         attention. <Link id={`use-cases-accounting-forecasting-versapay${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay" className="text-[#0B162A] hover:underline">Versapay</Link> matches
         incoming payments to open invoices, which removes one of the slowest manual tasks in accounting. <Link id={`use-cases-accounting-forecasting-bill-ar${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">Bill</Link> sends
-        invoices and collects payments in the same system many businesses already use for payables. Our <Link id={`use-cases-accounting-forecasting-p-ar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#0B162A] hover:underline">Intelligent
+        invoices and collects payments in the same system many businesses already use for payables. Our <Link id={`use-cases-accounting-forecasting-p-ar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#0B162A] hover:underline">Intelligent
         Accounts Receivable</Link> guide covers the full process.</p>
     </>
   );

@@ -16,12 +16,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Receptionist";
 const DESCRIPTION =
     "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.";
-const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses";
+const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/ai-receptionist";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,35 +30,30 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-15T19:43:46.5005360Z",
             "dateModified": "2026-10-15T19:43:46.5005360Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Receptionist, Lead Capture Pipeline, AI receptionist, South Florida small business, Miami-Dade AI automation, Broward business automation, West Palm Beach lead capture, Smart chatbots for marketing, Lead scoring AI, Voice assistant automation",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-lobbystack" },
-                { "@id": "https://geekatyourspot.com/#software-my-ai-front-desk" },
-                { "@id": "https://geekatyourspot.com/#software-nextiva" },
-                { "@id": "https://geekatyourspot.com/#software-smith-ai" },
-                { "@id": "https://geekatyourspot.com/#software-voksha" }
+                { "@type": "Thing", "name": "LobbyStack", "url": "https://lobbystack.com/" },
+                { "@type": "Thing", "name": "My AI Front Desk", "url": "https://www.myaifrontdesk.com/" },
+                { "@type": "Thing", "name": "Nextiva", "url": "https://www.nextiva.com/" },
+                { "@type": "Thing", "name": "Smith.ai", "url": "https://smith.ai/" },
+                { "@type": "Thing", "name": "Voksha", "url": "https://voksha.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is the actual difference between an AI Receptionist and a traditional Auto-Attendant (IVR)?", "acceptedAnswer": {"@type": "Answer", "text": "Traditional auto-attendants are fixed phone menus that make callers press numbers to get routed. They cannot answer questions or handle anything outside their script. An Intelligent AI Receptionist uses natural language, so callers just speak normally. The AI understands the request, checks a custom knowledge base, answers questions right away, and can update calendars or CRMs during the call."}},
                 {"@type": "Question", "name": "Can an AI receptionist actually write data and book appointments on my existing calendar?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Leading AI receptionists connect directly with Google Calendar, Outlook, Calendly, and many industry CRMs. The AI checks your real-time availability, offers callers open times, collects their details, and books the appointment on your calendar automatically, no human steps needed."}},
                 {"@type": "Question", "name": "What happens when a call genuinely needs a human, and how fast does the handoff happen?", "acceptedAnswer": {"@type": "Answer", "text": "The AI system includes a built-in escalation process. You or your consultant can set rules for when a human needs to step in, such as if the caller is upset, asks for a manager, or uses a key emergency word. When this happens, the platform either transfers the call live or sends you an instant SMS with a summary, so you can pick up right where the AI left off."}},
                 {"@type": "Question", "name": "Do I need to buy new hardware, install new phone lines, or switch my business phone number?", "acceptedAnswer": {"@type": "Answer", "text": "No extra equipment or phone lines are needed. The setup uses cloud-based call forwarding. You keep your current business number. When your line is busy, not answered after a few rings, or off-hours, calls are automatically routed to the AI receptionist using a secure background number."}}
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

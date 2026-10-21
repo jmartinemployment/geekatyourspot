@@ -20,7 +20,7 @@ export const leadfeederContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Every week, a small business owner in Miami-Dade spends hours calling companies that never return a message."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "The hidden cost of manual lead enrichment and predictive scoring is not just the time spent on cold outreach."},

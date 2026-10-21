@@ -12,7 +12,7 @@ export default function OverviewSection() {
         can lead to a costly mistake: a worker misclassified, a missed state filing, or a payroll tax deposit
         that doesn’t match what the IRS expects.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is a daily reality for small businesses across South Florida’s gig-heavy and seasonal industries.&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-justworks-overview-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;isn’t just a paperwork headache. It’s a risk that can bring
+        This is a daily reality for small businesses across South Florida’s gig-heavy and seasonal industries.&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-justworks-overview-payroll-tax-worker-misclassification${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" className="text-[#C83803] hover:underline">Payroll Tax &amp; Worker Misclassification</Link>&nbsp;isn’t just a paperwork headache. It’s a risk that can bring
         audits, penalties, and months of distraction. With teams that shift between W-2 employment and 1099
         contracting as business needs change, each pay period becomes a minefield. One wrong step (classifying a
         worker as a contractor when their job fits the employee test, or missing a local payroll filing for

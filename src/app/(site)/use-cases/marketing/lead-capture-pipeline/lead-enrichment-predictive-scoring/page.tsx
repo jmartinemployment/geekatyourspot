@@ -16,12 +16,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "Lead Enrichment & Predictive Scoring";
 const DESCRIPTION =
     "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.";
-const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida";
+const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,35 +30,30 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-17T11:09:57.5329753Z",
             "dateModified": "2026-10-17T11:09:57.5329753Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Lead Enrichment and Predictive Scoring, AI lead capture, South Florida small businesses, lead scoring tools, Apollo, Lusha, Snitcher, Leadfeeder, Factors, AI implementation services",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/intelligent-lead-capture-pipeline" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-apollo" },
-                { "@id": "https://geekatyourspot.com/#software-factors" },
-                { "@id": "https://geekatyourspot.com/#software-leadfeeder" },
-                { "@id": "https://geekatyourspot.com/#software-lusha" },
-                { "@id": "https://geekatyourspot.com/#software-snitcher" }
+                { "@type": "Thing", "name": "Apollo", "url": "https://www.apollo.io/" },
+                { "@type": "Thing", "name": "Factors", "url": "https://www.factors.ai/" },
+                { "@type": "Thing", "name": "Leadfeeder", "url": "https://www.leadfeeder.com/" },
+                { "@type": "Thing", "name": "Lusha", "url": "https://www.lusha.com/" },
+                { "@type": "Thing", "name": "Snitcher", "url": "https://www.snitcher.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is the actual difference between Lead Enrichment and Predictive Scoring? Aren't they the same thing", "acceptedAnswer": {"@type": "Answer", "text": "Lead Enrichment and Predictive Scoring are two separate but connected steps in the sales pipeline. Lead Enrichment is about gathering and filling in missing background details for each lead, like company size or contact numbers, starting from something basic like an email address. Predictive Scoring uses all that enriched data, along with buyer behavior, to calculate a score that shows how likely it is that the lead will become a customer."}},
                 {"@type": "Question", "name": "How much historical data does a business need to use Predictive Scoring?", "acceptedAnswer": {"@type": "Answer", "text": "To create a reliable predictive scoring model, a business usually needs at least a few thousand past lead records, with at least 200 to 500 clearly marked as \"Closed-Won.\" If a small business has not reached that level, it is best to start with a mix of data enrichment and fixed rules until enough data builds up."}},
                 {"@type": "Question", "name": "How does form enrichment prevent website visitors from abandoning our signup forms?", "acceptedAnswer": {"@type": "Answer", "text": "Form enrichment lets businesses shrink their signup forms down to just one field, like a work email address. As soon as the user submits, the enrichment software grabs and adds key details such as company size and location behind the scenes. This keeps forms short, which means more people finish signing up, without the business missing out on important information."}},
                 {"@type": "Question", "name": "What happens to a high lead score when a prospect completely stops engaging?", "acceptedAnswer": {"@type": "Answer", "text": "Advanced scoring systems use an automatic process called behavioral score decay. If a lead that once had a high score suddenly stops interacting for three weeks, the system lowers their score over time. This keeps sales teams focused on leads that are still active and interested."}}
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

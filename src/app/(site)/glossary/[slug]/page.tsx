@@ -4,7 +4,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import {
-  GLOSSARY_SET_ID,
   definitionSummary,
   definitionText,
   getAllGlossarySlugs,
@@ -97,7 +96,6 @@ export default async function TermPage({
     url: `https://geekatyourspot.com/glossary/${term.slug}`,
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
-      "@id": GLOSSARY_SET_ID,
       name: "Glossary",
       url: "https://geekatyourspot.com/glossary",
     },

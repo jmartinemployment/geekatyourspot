@@ -18,7 +18,7 @@ export default function OverviewSection() {
         them. There is no way to spot cash leaks, model a new hire, or plan for a slow season with any
         confidence.</p>
       <p className="text-md text-white shadow-text pt-3">
-        This is where&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-fathomhq-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes the game. Instead of spending weeks on manual
+        This is where&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-fathomhq-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;changes the game. Instead of spending weeks on manual
         cleanup, automated tools pull data directly from your accounting system, invoicing software, and bank
         feeds. They turn your scattered records into live dashboards and cash flow forecasts that update as your
         business moves. Problems like delayed payments, missed expenses, or sudden budget blows stand out in

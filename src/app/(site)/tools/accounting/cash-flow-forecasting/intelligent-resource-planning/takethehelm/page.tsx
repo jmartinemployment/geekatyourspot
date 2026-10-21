@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Take the Helm, intelligent resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-take-the-helm",
                 "name": TITLE,
                 "url": "https://takethehelm.app/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Why do I need an automation tool like Helm if I already use QuickBooks Online or Xero?", "acceptedAnswer": {"@type": "Answer", "text": "Helm connects directly with QuickBooks Online, Xero, or Sage to pull your data in real time. It creates automated cash flow forecasts and accounts payable and receivable plans, so you do not have to enter numbers into spreadsheets by hand. QuickBooks and Xero show you what has happened. Helm shows you what is coming, turning your invoices and bills into clear cash flow projections so you can avoid running out of money."}},
                 {"@type": "Question", "name": "How long does it take to set up? I don't have weeks to train my staff on a complex system.", "acceptedAnswer": {"@type": "Answer", "text": "Helm is built for small businesses that cannot afford long training sessions or complex setup. The interface is simple and fast. You can connect your accounts and start seeing automated forecasts within minutes, not weeks."}},

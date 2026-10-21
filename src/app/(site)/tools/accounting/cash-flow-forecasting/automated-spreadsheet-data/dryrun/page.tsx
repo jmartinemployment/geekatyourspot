@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Dryrun, automated spreadsheet data, cash flow forecasting, accounting integrations, complex corporate structures, multi-currency, what-if scenarios, CRM sync, forecasting horizons, overdue invoices, multi-user collaboration, presentation-ready reports",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-dryrun",
                 "name": TITLE,
                 "url": "https://www.dryrun.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "What accounting systems does Dryrun integrate with?", "acceptedAnswer": { "@type": "Answer", "text": "Dryrun integrates seamlessly with leading mid-market ERPs and accounting systems, including NetSuite, Sage Intacct, Microsoft Dynamics 365 Business Central, and QuickBooks Online. Automated API syncs continuously pull live bank balances, open invoices, and vendor bills directly into Dryrun, eliminating manual copy-paste errors and static export routines." } },
                 { "@type": "Question", "name": "How does it handle complex corporate structures?", "acceptedAnswer": { "@type": "Answer", "text": "Dryrun is specifically engineered to manage complex, multi-entity corporate structures, multi-unit operations, and project-based cash flows. It allows finance teams to maintain detailed, segment-level tracking for individual projects, locations, or subsidiaries, while automatically aggregating data into a consolidated, real-time corporate roll-up." } },

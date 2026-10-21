@@ -20,7 +20,7 @@ export const rampContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
     { "title": "Overview", "description": "Manual entry, approval and payment of every invoice consumes hours and invites error. Ramp Bill Pay codes invoices, matches them to purchase orders and executes payments without manual intervention." },
     { "title": "The Cost of Manual Automated Payment Execution", "description": "Each invoice is a separate transaction, every payment method has its own procedure, and bills stay open in the accounting system until someone keys in the payment." },

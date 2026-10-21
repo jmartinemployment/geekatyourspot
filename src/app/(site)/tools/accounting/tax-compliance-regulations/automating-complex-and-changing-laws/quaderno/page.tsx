@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Quaderno, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-quaderno",
                 "name": TITLE,
                 "url": "https://quaderno.io/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What's the best tax compliance software for a small SaaS company selling internationally?", "acceptedAnswer": {"@type": "Answer", "text": "For small SaaS companies selling internationally, it's crucial to have tax compliance software that simplifies VAT, GST, and sales tax processes. Quaderno automates tax calculations, invoicing, threshold monitoring, and filing workflows, all in one platform. Designed for digital businesses and SaaS teams, Quaderno helps you stay compliant across various countries without adding manual accounting tasks. With integrations for Stripe and other billing platforms, it supports your growth by automating tax compliance."}},
                 {"@type": "Question", "name": "I run a SaaS on Stripe with customers in the US, UK, and EU. Can Quaderno handle sales tax, VAT, invoicing, and filing for me?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Quaderno integrates seamlessly with Stripe Billing to automate tax calculations, subscription invoicing, and compliance workflows. It manages VAT, GST, and US sales tax obligations across multiple jurisdictions, helping you monitor tax thresholds and generate reports ready for filing."}},

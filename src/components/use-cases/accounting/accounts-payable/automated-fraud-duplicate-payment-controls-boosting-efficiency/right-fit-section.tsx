@@ -48,10 +48,9 @@ export default function RightFitSection() {
         with a partner like Geek @ Your Spot LLC to ensure that the transition is smooth and that the systems put
         in place are tailored to deliver tangible results.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id={`use-cases-accounting-fraud-controls-fit-consultation${idSuffix}`}
-          href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`use-cases-accounting-fraud-controls-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
-        </Link>.</p>
+        </button>.</p>
     </>
   );
 

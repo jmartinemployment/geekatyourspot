@@ -17,8 +17,7 @@ export const boardContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Board enhances cash flow forecasting with AI, unifying data for insightful financial planning.",
     "@context": "https://schema.org",
-    "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
-    "@id": "#software-board"
+    "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation"
   },
   "sections": [
     {

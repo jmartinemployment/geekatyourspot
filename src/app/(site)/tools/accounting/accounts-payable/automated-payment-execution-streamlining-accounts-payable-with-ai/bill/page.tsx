@@ -25,24 +25,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Bill, automated payment execution, accounts payable automation, payment approvals, ACH payments, virtual card, international wire, two-way sync, Xero integration, QuickBooks integration, AI implementation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-bill",
                 "name": TITLE,
                 "url": "https://www.bill.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How can vendors or payees check invoice status or fix vendor account issues in BILL?", "acceptedAnswer": { "@type": "Answer", "text": "Vendors and payees can check payment status, confirm how funds are received, or resolve vendor account problems by visiting the BILL Help Center." } },
                 { "@type": "Question", "name": "How do accountants or bookkeeping firms get priority partner support from BILL?", "acceptedAnswer": { "@type": "Answer", "text": "Accounting firms and BILL partners receive dedicated assistance through Accountant Care." } },

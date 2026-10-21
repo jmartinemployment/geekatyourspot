@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Nextiva, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-nextiva",
                 "name": TITLE,
                 "url": "https://www.nextiva.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Will customers know they are speaking to an AI?", "acceptedAnswer": {"@type": "Answer", "text": "XBert uses realistic, conversational voice engines. Many callers do not notice they are speaking to AI. Nextiva also lets admins set the tool to introduce itself as a virtual assistant if preferred."}},
                 {"@type": "Question", "name": "How does it handle complex questions?", "acceptedAnswer": {"@type": "Answer", "text": "XBert answers standard questions using your business's linked knowledge base and website. If a question is too complex or outside its scope, it collects the caller's details and passes the call to a human team member, along with a full text transcript and conversation context. This way, callers do not have to repeat themselves."}},

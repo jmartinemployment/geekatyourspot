@@ -1,8 +1,7 @@
-import Link from "next/link";
-import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
+import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 
 interface UseCasesHeroSectionProps {
   title: string;
@@ -32,13 +31,12 @@ export default async function UseCasesHeroSection({ title, summary, department, 
                 {summary}
               </p>
               <div className="pt-6">
-                <Link
-                  id={gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}
-                  href="#consultationAppointment2xl"
+                <button type="button" data-scheduler-link
+                  id={SCHEDULER_HERO_LINK_ID}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -56,13 +54,12 @@ export default async function UseCasesHeroSection({ title, summary, department, 
                 {summary}
               </p>
               <div className="pt-6">
-                <Link
-                  id={`${gtmLinkIdFromHref("#consultationAppointment2xl", "hero-assessment")}-lg`}
-                  href="#consultationAppointment2xl"
+                <button type="button" data-scheduler-link
+                  id={`${SCHEDULER_HERO_LINK_ID}-lg`}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </Link>
+                </button>
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">

@@ -8,7 +8,7 @@ export default function AccountsPayableSection() {
         <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">Accounts
         payable</GlossaryLink> is where most manual work hides, and four of the five failure points live
         there. Modern payables automation splits the work into four stages, and each stage has tools built for
-        it. Our <Link id={`use-cases-accounting-accounts-payable-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-accounts-payable" className="text-[#0B162A] hover:underline">Accounts
+        it. Our <Link id={`use-cases-accounting-accounts-payable-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-accounts-payable" className="text-[#0B162A] hover:underline">Accounts
         Payable</Link> guide covers the whole function in depth.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Capture: Ending the Manual Friction Trap
@@ -30,7 +30,7 @@ export default function AccountsPayableSection() {
         part of the record. <Link id={`use-cases-accounting-accounts-payable-bill-ap${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/bill" className="text-[#0B162A] hover:underline">Bill</Link>, <Link id={`use-cases-accounting-accounts-payable-melio-ap${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/melio" className="text-[#0B162A] hover:underline">Melio</Link>,
         and <Link id={`use-cases-accounting-accounts-payable-ramp-ap${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp" className="text-[#0B162A] hover:underline">Ramp</Link> let
         approvers act from a phone, so an owner on a job site in Doral or at a client meeting in Boca Raton no
-        longer holds up the queue. Our <Link id={`use-cases-accounting-accounts-payable-p-appr${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable" className="text-[#0B162A] hover:underline">Intelligent
+        longer holds up the queue. Our <Link id={`use-cases-accounting-accounts-payable-p-appr${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#0B162A] hover:underline">Intelligent
         Approval Workflows</Link> guide explains how to set the rules.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Pay: Scheduling Payments Without the Scramble
@@ -43,7 +43,7 @@ export default function AccountsPayableSection() {
         businesses with higher invoice volumes, and <Link id={`use-cases-accounting-accounts-payable-tipalti-pay${idSuffix}`} href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti" className="text-[#0B162A] hover:underline">Tipalti</Link> adds
         supplier onboarding and tax form collection, including <strong>W-9</strong> forms, for businesses that
         pay many vendors or contractors. Scheduled payments protect <strong>early payment discounts</strong> and
-        avoid late fees. The <Link id={`use-cases-accounting-accounts-payable-p-pay${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai" className="text-[#0B162A] hover:underline">Intelligent
+        avoid late fees. The <Link id={`use-cases-accounting-accounts-payable-p-pay${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#0B162A] hover:underline">Intelligent
         Payment Execution</Link> guide covers the details.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Protect: Catching the Leak and the Fraud
@@ -54,7 +54,7 @@ export default function AccountsPayableSection() {
         supplier details and applies payment controls across your vendor list. <Link id={`use-cases-accounting-accounts-payable-bill-fraud${idSuffix}`} href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">Bill</Link> checks
         for duplicate invoices as bills come in. Paired with a simple rule that any change to a vendor’s bank
         details requires a phone call to a known number, these tools close the door that email fraud depends
-        on. Read <Link id={`use-cases-accounting-accounts-payable-p-fraud${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency" className="text-[#0B162A] hover:underline">Intelligent
+        on. Read <Link id={`use-cases-accounting-accounts-payable-p-fraud${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#0B162A] hover:underline">Intelligent
         Fraud &amp; Duplicate Payment Controls</Link> for the full set of controls.</p>
     </>
   );

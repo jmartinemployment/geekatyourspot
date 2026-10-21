@@ -8,19 +8,19 @@ import type { Metadata, Viewport } from "next";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { AREA_SERVED } from "@/lib/seo/organization";
 
-// The Organization, logo and WebSite nodes come from the site layout (src/lib/seo/organization.ts);
-// this graph points at them by @id.
+// The Organization and WebSite nodes come from the site layout (src/lib/seo/organization.ts).
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://geekatyourspot.com/#service",
       "name": "AI Consulting and Implementation",
       "serviceType": "AI Consulting",
       "description": "Design, build, and deploy AI systems that fit your existing stack. Our four-phase methodology helps small businesses scale without adding headcount.",
       "provider": {
-        "@id": "https://geekatyourspot.com/#organization"
+        "@type": "Organization",
+        "name": "Geek @ Your Spot LLC",
+        "url": "https://geekatyourspot.com"
       },
       "areaServed": AREA_SERVED,
       "hasOfferCatalog": {
@@ -66,42 +66,34 @@ const jsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/#webpage",
       "url": "https://geekatyourspot.com",
       "name": "AI Consulting for South Florida Small Businesses",
       "description": "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
       "isPartOf": {
-        "@id": "https://geekatyourspot.com/#website"
+        "@type": "WebSite",
+        "url": "https://geekatyourspot.com"
       },
       "primaryImageOfPage": {
-        "@id": "https://geekatyourspot.com/#primaryimage"
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "url": "https://geekatyourspot.com/images/home-hero.webp",
+        "contentUrl": "https://geekatyourspot.com/images/home-hero.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."
       },
       "datePublished": "2024-01-01",
       "breadcrumb": {
-        "@id": "https://geekatyourspot.com/#breadcrumb"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://geekatyourspot.com"
+          }
+        ]
       }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://geekatyourspot.com/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://geekatyourspot.com"
-        }
-      ]
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://geekatyourspot.com/#primaryimage",
-      "inLanguage": "en-US",
-      "url": "https://geekatyourspot.com/images/home-hero.webp",
-      "contentUrl": "https://geekatyourspot.com/images/home-hero.webp",
-      "width": 1024,
-      "height": 1024,
-      "caption": "A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."
     }
   ]
 };

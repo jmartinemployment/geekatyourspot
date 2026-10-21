@@ -9,7 +9,7 @@ export default function OverviewSection() {
         Instagram. By the end of the day, your team is digging through separate inboxes, copy-pasting names,
         and trying to remember which customer asked what. Even when you answer quickly, context gets lost. The
         same prospect might be fielded by three different people, or worse, dropped entirely because the
-        conversation thread is missing. A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;is supposed to fix this, but for most small
+        conversation thread is missing. A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;is supposed to fix this, but for most small
         businesses, the reality is a mess of overlapping tools, too many windows, and no way to see the whole
         customer story in one place.</p>
       <p className="text-md text-white shadow-text pt-3">

@@ -20,7 +20,7 @@ export const upflowContent: ToolPageContent = {
   "datePublished": "2026-10-10T16:26:22.0000000Z",
   "dateModified": "2026-10-10T16:26:22.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
   "sections": [
     { "title": "Overview", "description": "Imagine a small business owner in Miami-Dade, struggling with an administrative nightmare. Each month, they face a mountain of unpaid invoices, unsure of when the cash will flow in." },
     { "title": "The Challenges of Manual Automated Accounts Receivable", "description": "For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing accounts receivable remains a daunting task." },

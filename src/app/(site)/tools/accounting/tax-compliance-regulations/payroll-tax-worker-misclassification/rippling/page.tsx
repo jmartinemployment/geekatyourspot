@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Rippling, payroll tax compliance, worker misclassification, W-2 and 1099 classification, payroll automation, contractor compliance, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-rippling",
                 "name": TITLE,
                 "url": "https://www.rippling.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is human capital management software?", "acceptedAnswer": {"@type": "Answer", "text": "Human capital management (HCM) software brings together all the tools you need to manage your team, from hiring and onboarding to payroll, benefits, and workforce management. With HCM, you get everything in one place, making it easier to stay compliant and support your business as it grows."}},
                 {"@type": "Question", "name": "What’s the difference between ERP and HCM?", "acceptedAnswer": {"@type": "Answer", "text": "ERP (Enterprise Resource Planning) handles your business’s core functions like finance and supply chain. HCM is focused on your people, covering recruiting, HR, payroll, and compliance. Some ERPs have HCM modules, but a dedicated HCM system like Rippling gives you deeper, more specialized tools for managing employees."}},

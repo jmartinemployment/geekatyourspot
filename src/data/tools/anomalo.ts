@@ -25,8 +25,7 @@ export const anomaloContent: ToolPageContent = {
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/anomalo#software"
+    }
   },
   "sections": [
     {

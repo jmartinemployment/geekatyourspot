@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -52,8 +51,8 @@ export default function RightFitSection() {
         never misses another opportunity.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link id={`tools-marketing-intelligent-receptionist-smith-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-receptionist-smith-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
         <li>When a prospect hangs up without leaving a voicemail, what is your current process for recapturing that lead?</li>

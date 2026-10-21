@@ -25,24 +25,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Tipalti, automated fraud and duplicate payment controls, accounts payable automation, duplicate bill detection, fraud detection, supplier portal, global payments, ERP integration, compliance, AI implementation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-tipalti",
                 "name": TITLE,
                 "url": "https://tipalti.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How many attempts are made to execute a payment?", "acceptedAnswer": { "@type": "Answer", "text": "Tipalti does not try again if a payment is rejected. The payee will remain un-payable until they update their payment details through the supplier portal." } },
                 { "@type": "Question", "name": "Will Tipalti still pay out if we do not have funds in our account?", "acceptedAnswer": { "@type": "Answer", "text": "No, all payments must be funded in advance." } },

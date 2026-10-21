@@ -25,8 +25,7 @@ export const activeCampaignContent: ToolPageContent = {
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing"
-    },
-    "@id": "https://geekatyourspot.com/tools/marketing/active-campaign#software"
+    }
   },
   "sections": [
     {

@@ -20,7 +20,7 @@ export const copyContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade stares at a blank document, knowing today’s the day to update the company blog and send out a fresh email campaign."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "For a small business in South Florida, trying to run content creation the manual way is like running with weights on."},

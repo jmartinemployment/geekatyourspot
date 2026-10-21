@@ -6,7 +6,7 @@ export default function OverviewSection() {
     <>
       <p className="text-md text-white shadow-text pt-3">
         Small business owners in Miami-Dade, Broward, and West Palm Beach counties are all too familiar with the
-        frustration of manual&nbsp;<Link id={`tools-accounting-accounts-receivable-versapay-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;processes. Each month, they spend countless hours poring over
+        frustration of manual&nbsp;<Link id={`tools-accounting-accounts-receivable-versapay-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;processes. Each month, they spend countless hours poring over
         invoices, matching payments, and reconciling accounts. This tedious work not only consumes time but also
         increases the risk of errors, impacting cash flow and financial stability. Traditional methods often result
         in delayed payments and missed opportunities for growth. These problems can be particularly damaging for

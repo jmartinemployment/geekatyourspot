@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
+import { schedulerLinkId } from "@/components/shared/scheduler/scheduler-id";
 import type { BlockNode, InlineNode } from "@/lib/content-writer-disabled2/article-sections-disabled";
 
 /**
@@ -44,7 +45,23 @@ function renderInline(nodes: readonly InlineNode[], context: RenderContext): Rea
 
     const children = renderInline(node.children, context);
     context.counter.next += 1;
-    const id = `${gtmLinkIdFromHref(node.href, `${context.sectionId}-${context.counter.next}`)}${context.idSuffix}`;
+    const position = `${context.sectionId}-${context.counter.next}`;
+
+    if (node.kind === "scheduler") {
+      return (
+        <button
+          key={index}
+          type="button"
+          data-scheduler-link
+          id={`${schedulerLinkId(position)}${context.idSuffix}`}
+          className={context.linkClassName}
+        >
+          {children}
+        </button>
+      );
+    }
+
+    const id = `${gtmLinkIdFromHref(node.href, position)}${context.idSuffix}`;
 
     if (node.glossarySlug) {
       return (

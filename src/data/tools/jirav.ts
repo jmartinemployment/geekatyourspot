@@ -20,7 +20,7 @@ export const jiravContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
   "sections": [
     {"title": "Overview", "description": "Every owner of a growing South Florida business has seen what happens when numbers live in too many places at once."},
     {"title": "What It Costs to Keep Doing Resource Planning by Hand", "description": "A small business in South Florida that runs its numbers from disconnected spreadsheets, desktop accounting, and emails faces a daily grind of manual work."},

@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Factors, lead enrichment, predictive lead scoring, intent data, lead capture, B2B lead generation, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-factors",
                 "name": TITLE,
                 "url": "https://www.factors.ai/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What exactly does Factors.ai do, and how does it differ from a standard tracker like Google Analytics?", "acceptedAnswer": {"@type": "Answer", "text": "Factors.ai goes beyond basic web tracking. It focuses on Account Intelligence and contact-level identification, showing you which specific local companies are visiting your site. You get details on first touch, last touch, and multi-channel attribution, not just anonymous visitor counts."}},
                 {"@type": "Question", "name": "How does the platform track \"intent data\" to help our small sales or outreach teams?", "acceptedAnswer": {"@type": "Answer", "text": "Factors.ai collects data from website actions, ad clicks, and third-party sources to map active buying behavior. It builds a prioritized list of target accounts and gives your team actionable insights, like which local firms are engaging with your services and who the decision-makers are."}},

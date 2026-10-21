@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Apollo, lead enrichment, predictive lead scoring, intent data, lead capture, B2B lead generation, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-apollo",
                 "name": TITLE,
                 "url": "https://www.apollo.io/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does Apollo’s Inbound Lead Enrichment work, and does it require complex coding for a small business?", "acceptedAnswer": {"@type": "Answer", "text": "Apollo is platform-agnostic and does not require any coding skills. A small business owner just maps their web form fields using HTML identifiers in Apollo, then copies a short JavaScript snippet into their website header. Apollo automatically starts an enrichment workflow when a lead submits the form, adding over 65 data points like job title, company size, local data, revenue, and technology stack by matching against its database."}},
                 {"@type": "Question", "name": "What is the operational difference between CRM Enrichment and Saved Record Enrichment?", "acceptedAnswer": {"@type": "Answer", "text": "CRM Enrichment pushes and updates demographic, firmographic, and technographic data directly into a connected CRM, such as HubSpot or Salesforce, so sales reps always see up-to-date information. Saved Record Enrichment updates contact details for prospects saved inside Apollo’s database before launching an email or call sequence."}},

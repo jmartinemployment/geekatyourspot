@@ -20,7 +20,7 @@ export const hyperwriteaiContent: ToolPageContent = {
   "datePublished": "2026-10-18T13:12:10.3589380Z",
   "dateModified": "2026-10-18T13:12:10.3589380Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "Every week, small marketing teams across South Florida spend late nights staring at blank screens, trying to force out another blog post or email campaign."},
     {"title": "The Real Cost of Manual Content Planning for Small Teams", "description": "Manual content planning drains small teams in ways that go far beyond the visible workload."},

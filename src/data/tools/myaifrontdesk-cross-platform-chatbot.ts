@@ -20,7 +20,7 @@ export const myaifrontdeskCrossPlatformChatbotContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-implementation-guide",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-setup-guide",
   "sections": [
     {"title": "Overview", "description": "Most small businesses in South Florida recognize the pattern: a prospect sends a message on your website chat while you are on a call."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every missed message or delayed reply is a lost sale."},

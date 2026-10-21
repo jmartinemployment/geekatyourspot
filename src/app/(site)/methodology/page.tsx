@@ -25,19 +25,15 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-15T00:00:00Z",
             "dateModified": "2026-10-15T00:00:00Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "AI implementation methodology, Business Objectives Alignment, Data Quality Assessment, Partner Tech Selection, AI pilot program, AI consulting South Florida, AI for small business Miami, Broward, Palm Beach",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": "https://geekatyourspot.com/#service" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` }
+            "keywords": "AI implementation methodology, Business Objectives Alignment, Data Quality Assessment, Partner Tech Selection, AI pilot program, AI consulting South Florida, AI for small business Miami, Broward, Palm Beach"
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Is the first consultation really free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the first consultation is free. We learn how your business runs and tell you plainly whether automation fits, and there is no obligation."}},
                 {"@type": "Question", "name": "Do you need access to our books before we start?", "acceptedAnswer": {"@type": "Answer", "text": "No, we do not. Phase 1 is discovery only, so we map your workflows, approvals, and goals in plain language before we touch any data. Data access starts in Phase 2, after you have signed off on the map."}},

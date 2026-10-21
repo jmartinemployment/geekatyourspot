@@ -25,24 +25,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Medius, automated fraud and duplicate payment controls, accounts payable automation, fraud detection, duplicate invoice detection, anomaly detection, risk scoring, statement reconciliation, three-way matching, supplier change monitoring, ERP integration, AI implementation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-medius",
                 "name": TITLE,
                 "url": "https://www.medius.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "What's the difference between statement reconciliation and invoice matching?", "acceptedAnswer": { "@type": "Answer", "text": "Invoice matching checks a single invoice against a purchase order and sometimes a receipt. Statement reconciliation examines the entire supplier statement, including every invoice, credit, and payment the supplier claims is outstanding, against your AP records. This process identifies missing invoices or duplicate payments, which invoice matching alone might miss, as it compares the whole picture rather than one invoice at a time." } },
                 { "@type": "Question", "name": "How does AI-driven statement reconciliation software work?", "acceptedAnswer": { "@type": "Answer", "text": "AI-driven statement reconciliation software automatically reads a supplier statement, regardless of format, and matches each line against your existing invoice and payment records. Lines that match require no further action, while exceptions like missing invoices, duplicates, or mismatched amounts are flagged for review, eliminating the need for manual line-by-line checks." } },

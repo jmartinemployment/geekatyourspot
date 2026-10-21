@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "TaxJar, tax compliance automation, complex and changing laws, sales tax, economic nexus, Florida sales tax, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-taxjar",
                 "name": TITLE,
                 "url": "https://www.taxjar.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does TaxJar keep our tri-county retail or e-commerce store up to date when local county rates or rules change?", "acceptedAnswer": {"@type": "Answer", "text": "TaxJar simplifies managing sales tax compliance by offering a platform that handles everything from calculations to reporting and filing. This ensures your business stays current with changing tax laws, even as you scale across states. TaxJar's automation platform is designed to keep you informed and compliant with the latest tax regulations."}},
                 {"@type": "Question", "name": "We sell across Shopify, Amazon, and WooCommerce. How do we keep track of changing out-of-state 'Economic Nexus' thresholds?", "acceptedAnswer": {"@type": "Answer", "text": "TaxJar provides an Economic Nexus Dashboard that helps you track where your business meets economic nexus thresholds in different states. This tool notifies you as you approach or reach these thresholds, making it easier to manage your obligations across various platforms like Shopify, Amazon, and WooCommerce."}},

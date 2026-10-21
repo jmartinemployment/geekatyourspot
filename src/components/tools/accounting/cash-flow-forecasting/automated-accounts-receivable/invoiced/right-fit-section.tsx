@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -28,9 +26,9 @@ export default function RightFitSection() {
         company&#39;s overall financial strategy.</p>
       <p className="text-md text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link id={`tools-accounting-accounts-receivable-invoiced-right-fit-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-accounts-receivable-invoiced-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </Link>.</p>
+        </button>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-md font-normal text-white shadow-text pt-3">
         <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>

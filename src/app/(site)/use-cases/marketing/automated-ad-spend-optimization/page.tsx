@@ -12,7 +12,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -26,10 +25,10 @@ const jsonLd: Graph = {
             ],
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-08-20T18:52:37.9006976Z",
             "dateModified": "2026-08-20T18:52:37.9006976Z",
             "mainEntityOfPage": {
@@ -38,174 +37,27 @@ const jsonLd: Graph = {
             },
             "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
             "wordCount": 3309,
-            "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization#service" },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-advantage"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-omneky"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-smartly-io"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-adcreative-ai"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-jasper"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-google-ads-smart-bidding"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-hubspot"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-salesforce-einstein"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-madgicx"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-basis-technologies"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-optimove"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-tableau-ai"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-adobe-analytics"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-monte-carlo"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-anomalo"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-great-expectations"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-qualytics"
-                }
+                { "@type": "Thing", "name": "Meta Advantage+", "url": "https://www.facebook.com/business/ads/meta-advantage-plus" },
+                { "@type": "Thing", "name": "Omneky", "url": "https://www.omneky.com/" },
+                { "@type": "Thing", "name": "Smartly.io", "url": "https://www.smartly.io/" },
+                { "@type": "Thing", "name": "AdCreative.ai", "url": "https://www.adcreative.ai/" },
+                { "@type": "Thing", "name": "Jasper", "url": "https://www.jasper.ai/" },
+                { "@type": "Thing", "name": "Google Ads Smart Bidding", "url": "https://support.google.com/google-ads/answer/7065882" },
+                { "@type": "Thing", "name": "HubSpot", "url": "https://www.hubspot.com/" },
+                { "@type": "Thing", "name": "Salesforce Einstein", "url": "https://www.salesforce.com/artificial-intelligence/" },
+                { "@type": "Thing", "name": "Madgicx", "url": "https://madgicx.com/" },
+                { "@type": "Thing", "name": "Basis Technologies", "url": "https://basis.com/" },
+                { "@type": "Thing", "name": "Adobe Mix Modeler", "url": "https://business.adobe.com/products/mix-modeler.html" },
+                { "@type": "Thing", "name": "Optimove", "url": "https://www.optimove.com/" },
+                { "@type": "Thing", "name": "Tableau AI", "url": "https://www.tableau.com/" },
+                { "@type": "Thing", "name": "Adobe Analytics", "url": "https://business.adobe.com/products/analytics/adobe-analytics.html" },
+                { "@type": "Thing", "name": "Monte Carlo", "url": "https://montecarlo.ai/" },
+                { "@type": "Thing", "name": "Anomalo", "url": "https://www.anomalo.com/" },
+                { "@type": "Thing", "name": "Great Expectations", "url": "https://greatexpectations.io/" },
+                { "@type": "Thing", "name": "Qualytics", "url": "https://qualytics.ai/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-advantage",
-            "name": "Meta Advantage+",
-            "url": "https://www.facebook.com/business/ads/meta-advantage-plus"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-omneky",
-            "name": "Omneky",
-            "url": "https://www.omneky.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-smartly-io",
-            "name": "Smartly.io",
-            "url": "https://www.smartly.io/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-adcreative-ai",
-            "name": "AdCreative.ai",
-            "url": "https://www.adcreative.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-jasper",
-            "name": "Jasper",
-            "url": "https://www.jasper.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-google-ads-smart-bidding",
-            "name": "Google Ads Smart Bidding",
-            "url": "https://support.google.com/google-ads/answer/7065882"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-hubspot",
-            "name": "HubSpot",
-            "url": "https://www.hubspot.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-salesforce-einstein",
-            "name": "Salesforce Einstein",
-            "url": "https://www.salesforce.com/artificial-intelligence/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-madgicx",
-            "name": "Madgicx",
-            "url": "https://madgicx.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-basis-technologies",
-            "name": "Basis Technologies",
-            "url": "https://basis.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-adobe-mix-modeler",
-            "name": "Adobe Mix Modeler",
-            "url": "https://business.adobe.com/products/mix-modeler.html"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-optimove",
-            "name": "Optimove",
-            "url": "https://www.optimove.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-tableau-ai",
-            "name": "Tableau AI",
-            "url": "https://www.tableau.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-adobe-analytics",
-            "name": "Adobe Analytics",
-            "url": "https://business.adobe.com/products/analytics/adobe-analytics.html"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-monte-carlo",
-            "name": "Monte Carlo",
-            "url": "https://montecarlo.ai/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-anomalo",
-            "name": "Anomalo",
-            "url": "https://www.anomalo.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-great-expectations",
-            "name": "Great Expectations",
-            "url": "https://greatexpectations.io/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-qualytics",
-            "name": "Qualytics",
-            "url": "https://qualytics.ai/"
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization", name: "Automated Ad Spend Optimization", description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools." })
+        }
     ]
 };
 

@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "My AI Front Desk, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-my-ai-front-desk",
                 "name": TITLE,
                 "url": "https://www.myaifrontdesk.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What happened to My AI Front Desk? Is it now Frontdesk?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The company rebranded to Frontdesk and changed its main product from a standalone voice receptionist to a unified AI workforce subscription. This now covers phone, web chat, SMS, email, CRM, and basic automations."}},
                 {"@type": "Question", "name": "Is My AI Front Desk legit?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The company has been operating since 2023, was founded by former Meta engineers, and has published case studies with local businesses and real estate groups such as Samson Properties and Garman Homes."}},

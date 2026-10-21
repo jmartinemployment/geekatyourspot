@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Bill, automated accounts receivable, cash flow forecasting, recurring invoices, ACH payments, Pay By Card, direct debit, invoice status tracking, Cash Flow Auto Forecasting, AR automation, billing synchronization, approval chains",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-bill",
                 "name": TITLE,
                 "url": "https://www.bill.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "Is ACH secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, ACH is secure. The ACH network is federally regulated and overseen by the National Automated Clearing House Association (NACHA). NACHA enforces strict controls and procedures for all parties using ACH payments." } },
                 { "@type": "Question", "name": "How does using ACH help me manage my cash flow?", "acceptedAnswer": { "@type": "Answer", "text": "ACH transfers provide immediate reflection of debits in your account, unlike credit cards or checks that can take days to process. This means no more guessing games with your cash flow. You can schedule ACH transfers for specific dates or set them as recurring payments for better cash flow visibility." } },

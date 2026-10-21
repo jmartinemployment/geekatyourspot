@@ -20,7 +20,7 @@ export const semrushContent: ToolPageContent = {
   "datePublished": "2026-10-18T13:12:10.3589380Z",
   "dateModified": "2026-10-18T13:12:10.3589380Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "Every week, small business owners and their teams in Miami-Dade, Broward, and West Palm Beach counties stare at blank screens, hoping their next blog or social post will finally get traction."},
     {"title": "What It Costs to Keep Doing Content Planning by Hand", "description": "A small business in Miami-Dade, Broward, or West Palm Beach runs into the same wall every week."},

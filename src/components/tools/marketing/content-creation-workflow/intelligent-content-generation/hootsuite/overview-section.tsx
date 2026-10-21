@@ -21,7 +21,7 @@ export default function OverviewSection() {
         businesses never find out which posts actually bring in new clients. This is the pain point: a real
         competitive disadvantage that comes from simply not having enough hands, hours, or creative bandwidth.</p>
       <p className="text-md text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-hootsuite-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wasting nights wrestling with
+        <Link id={`tools-marketing-intelligent-content-generation-hootsuite-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wasting nights wrestling with
         writer’s block or pouring money into agencies, a small team can use AI-powered tools to research,
         draft, and schedule weeks of platform-specific content in minutes. AI systems now handle the heavy
         lifting: they generate new posts, repurpose top-performing content for each channel, and personalize

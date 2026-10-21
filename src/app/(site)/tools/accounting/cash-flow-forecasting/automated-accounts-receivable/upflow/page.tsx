@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Upflow, automated accounts receivable, cash flow forecasting, payment collection software, Stripe Billing integration, Billing Cohort Cash Forecast, Promises-to-Pay, dispute management, payment portal, native integrations, automated customer emails, live forecasting data",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-upflow",
                 "name": TITLE,
                 "url": "https://upflow.io/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "What is payment collection software?", "acceptedAnswer": { "@type": "Answer", "text": "Payment collection software helps businesses collect customer payments efficiently. It uses automated reminders, online payment portals, and structured follow-up workflows. This makes it easier for customers to pay and gives finance teams a clear view of outstanding balances." } },
                 { "@type": "Question", "name": "How does payment collection software work?", "acceptedAnswer": { "@type": "Answer", "text": "Payment collection software connects to your billing or ERP system to track unpaid invoices. It automatically sends payment reminders and often includes a secure payment portal where customers can pay via ACH, card, or direct debit." } },

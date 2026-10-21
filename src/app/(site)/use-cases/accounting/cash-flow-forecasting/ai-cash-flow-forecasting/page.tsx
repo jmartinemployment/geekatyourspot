@@ -11,7 +11,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -25,60 +24,25 @@ const jsonLd: Graph = {
             ],
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-23T20:48:51.4443132Z",
             "dateModified": "2026-07-23T20:48:51.4443132Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting"
             },
             "keywords": "Cash Flow Forecasting, Financial Management, AI Tools for Finance, ERP Integration, Forecasting Strategies, Invoice Processing, Accounts Payable Automation, Financial Operations Transformation, Change Management, AI Implementation",
             "wordCount": 3540,
-            "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting#service" },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-anaplan"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-adaptive-insights"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-kyriba"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-board"
-                }
+                { "@type": "Thing", "name": "Anaplan", "url": "https://www.anaplan.com/" },
+                { "@type": "Thing", "name": "Adaptive Insights", "url": "https://www.workday.com/en-us/products/adaptive-planning/overview.html" },
+                { "@type": "Thing", "name": "Kyriba", "url": "https://www.kyriba.com/" },
+                { "@type": "Thing", "name": "Board", "url": "https://www.board.com/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-anaplan",
-            "name": "Anaplan",
-            "url": "https://www.anaplan.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-adaptive-insights",
-            "name": "Adaptive Insights",
-            "url": "https://www.workday.com/en-us/products/adaptive-planning/overview.html"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-kyriba",
-            "name": "Kyriba",
-            "url": "https://www.kyriba.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-board",
-            "name": "Board",
-            "url": "https://www.board.com/"
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting", name: "Cash Flow Forecasting", description: "Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management." })
+        }
     ]
 };
 
@@ -92,12 +56,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
     publisher: 'Geek @ Your Spot LLC',
     metadataBase: new URL('https://geekatyourspot.com'),
     alternates: {
-      canonical: '/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
+      canonical: '/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting',
     },
     openGraph: {
       title: "Cash Flow Forecasting",
       description: 'Explore comprehensive strategies and AI tools to enhance cash flow forecasting for optimal financial management.',
-      url: 'https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting',
+      url: 'https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting',
       siteName: 'Geek @ Your Spot LLC',
       locale: 'en_US',
       type: 'article',

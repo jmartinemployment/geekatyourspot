@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Hootsuite, intelligent content planning, AI content planning, content calendar, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-hootsuite",
                 "name": TITLE,
                 "url": "https://www.hootsuite.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Can Hootsuite help me generate leads?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Hootsuite can help you generate leads. It lets you schedule content, manage conversations, run social ads, and track results across all your social channels. With features like social listening, keyword monitoring, and customizable streams, you can spot potential leads early. Built-in analytics show which posts and campaigns drive the most conversions, so you know what works."}},
                 {"@type": "Question", "name": "Can Hootsuite help me with content ideas for my professional services brand?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hootsuite offers tools to help you brainstorm and create content, even when you are stuck for ideas. The Wisdom feature can suggest industry-specific posts, draft content, generate images, and refine your messaging to match your brand. It also tracks trends and conversations, so your posts stay relevant. Social listening tools help you find trending topics and understand what your audience cares about, making it easier to create content that connects."}},

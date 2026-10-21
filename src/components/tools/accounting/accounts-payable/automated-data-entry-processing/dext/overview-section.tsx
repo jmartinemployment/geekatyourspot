@@ -28,10 +28,9 @@ export default function OverviewSection() {
         replaces your expertise.</p>
       <p className="text-md text-white shadow-text pt-3">
         Ready to turn your accounting challenges into opportunities for growth?&nbsp;
-        <Link id={`tools-accounting-dext-overview-consultation${idSuffix}`}
-          href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">
+        <button type="button" data-scheduler-link id={`tools-accounting-dext-overview-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book a consultation
-        </Link>&nbsp;with <strong>Geek @ Your Spot LLC</strong> today and discover how Dext can revolutionize
+        </button>&nbsp;with <strong>Geek @ Your Spot LLC</strong> today and discover how Dext can revolutionize
         your bookkeeping processes.</p>
     </>
   );

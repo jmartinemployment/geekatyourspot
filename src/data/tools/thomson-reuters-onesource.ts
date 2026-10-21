@@ -17,8 +17,7 @@ export const thomsonReutersOnesourceContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Thomson Reuters ONESOURCE streamlines global tax management for multinationals with comprehensive compliance solutions.",
     "@context": "https://schema.org",
-    "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
-    "@id": "#software-thomsonreutersonesource"
+    "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation"
   },
   "sections": [
     {

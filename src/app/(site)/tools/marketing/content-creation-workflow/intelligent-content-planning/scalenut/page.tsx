@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Scalenut, intelligent content planning, AI content planning, content calendar, content creation workflow, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-scalenut",
                 "name": TITLE,
                 "url": "https://www.scalenut.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/intelligent-content-planning-for-small-businesses-real-results-with-ai#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "How does Scalenut help a business discover and plan new content topics?", "acceptedAnswer": {"@type": "Answer", "text": "Scalenut uses automated Topic Discovery to map out entire niches at once. It builds Topic Clusters by grouping related keywords, so small businesses can quickly see and plan which areas to cover to build topical authority."}},
                 {"@type": "Question", "name": "Does Scalenut’s topic planning look at competitor and search engine data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Scalenut’s Long-Form Assistant creates content outlines by pulling real-time competitor data from search engine results. This helps ensure your planning is based on what is already working in your market."}},

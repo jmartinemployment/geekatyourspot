@@ -25,24 +25,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Bill, automated fraud and duplicate payment controls, accounts payable automation, duplicate invoice detection, invoice matching, purchase order matching, approval workflows, QuickBooks integration, Xero integration, predictive AI fraud prevention, audit trail, AI implementation",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-bill",
                 "name": TITLE,
                 "url": "https://www.bill.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "What does BILL AI do?", "acceptedAnswer": { "@type": "Answer", "text": "BILL AI alerts you if a duplicate invoice is detected, helping you avoid paying the same bill twice." } },
                 { "@type": "Question", "name": "How does BILL AI help with missing bills?", "acceptedAnswer": { "@type": "Answer", "text": "BILL AI reviews your payment history to identify potential missing bills, helping you avoid late fees." } },

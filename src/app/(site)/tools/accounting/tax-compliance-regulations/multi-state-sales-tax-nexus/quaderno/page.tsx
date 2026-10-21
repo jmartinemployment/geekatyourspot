@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Quaderno, multi-state sales tax nexus, economic nexus, sales tax compliance, sales tax automation, sales tax filing, South Florida small business",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-quaderno",
                 "name": TITLE,
                 "url": "https://quaderno.io/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "Who should collect sales tax?", "acceptedAnswer": {"@type": "Answer", "text": "You need to collect sales tax if your business has a nexus in a state. Nexus can mean a physical location, employees, inventory, or even using local marketing affiliates or online ads. Economic nexus also counts, which is when your sales volume in a state passes a certain threshold. Each state has its own rules, so always check local policies. Once you have nexus, you should register and start collecting sales tax from customers in that state."}},
                 {"@type": "Question", "name": "Do you have to charge sales tax for online sales?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on your sales volume and where your customers are. Many states require online sellers to charge sales tax if you pass their economic nexus threshold. If you meet that threshold, you must register and start charging sales tax. Some buyers may be exempt if they have a valid certificate, and some online marketplaces handle tax for you under marketplace facilitator laws."}},

@@ -29,24 +29,21 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "TechArticle",
-            "@id": `${PAGE_URL}#article`,
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Cashflowfrog, automated spreadsheet data, cash flow forecasting, cloud accounting integration, data synchronization, read-only integration, company tags, forecast timelines, shareable reports, AI interface, multi-currency, free trial",
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
                 "@type": "Thing",
-                "@id": "https://geekatyourspot.com/#software-cashflowfrog",
                 "name": TITLE,
                 "url": "https://cashflowfrog.com/",
-                "subjectOf": { "@type": "Article", "@id": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting#article" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" }
             }
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "Which accounting platforms does Cash Flow Frog support?", "acceptedAnswer": { "@type": "Answer", "text": "Cash Flow Frog connects to eight platforms: QuickBooks Online, QuickBooks Desktop, Xero, Sage Intacct, Zoho Books, FreshBooks, Odoo, and direct bank feeds via Plaid. This broad compatibility ensures that whatever your business runs on, it is covered." } },
                 { "@type": "Question", "name": "What if I don't use cloud accounting software?", "acceptedAnswer": { "@type": "Answer", "text": "You can manually import your bank transactions or historical ledgers via Excel or CSV files to generate an automated model without software. This flexibility allows you to build a forecast from your real bank history, regardless of your current accounting setup." } },

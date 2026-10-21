@@ -16,12 +16,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Content Generation";
 const DESCRIPTION =
     "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
-const CANONICAL = "/use-cases/marketing/content-creation-workflow/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses";
+const CANONICAL = "/use-cases/marketing/content-creation-workflow/ai-content-generation";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -31,33 +30,29 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-19T16:52:26.6326271Z",
             "dateModified": "2026-10-19T16:52:26.6326271Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Intelligent Content Generation, AI content workflow, automated content creation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, South Florida AI services, small business automation, content marketing automation",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-content-creation-workflow" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-anyword" },
-                { "@id": "https://geekatyourspot.com/#software-castmagic" },
-                { "@id": "https://geekatyourspot.com/#software-copy-ai" },
-                { "@id": "https://geekatyourspot.com/#software-frase" },
-                { "@id": "https://geekatyourspot.com/#software-hootsuite" },
-                { "@id": "https://geekatyourspot.com/#software-imagineart" },
-                { "@id": "https://geekatyourspot.com/#software-jasper" },
-                { "@id": "https://geekatyourspot.com/#software-koala" },
-                { "@id": "https://geekatyourspot.com/#software-rytr" },
-                { "@id": "https://geekatyourspot.com/#software-scalenut" },
-                { "@id": "https://geekatyourspot.com/#software-writesonic" }
+                { "@type": "Thing", "name": "Anyword", "url": "https://www.anyword.com/" },
+                { "@type": "Thing", "name": "Castmagic", "url": "https://www.castmagic.io/" },
+                { "@type": "Thing", "name": "Copy.ai", "url": "https://www.copy.ai/" },
+                { "@type": "Thing", "name": "Frase", "url": "https://www.frase.io/" },
+                { "@type": "Thing", "name": "Hootsuite", "url": "https://www.hootsuite.com/" },
+                { "@type": "Thing", "name": "ImagineArt", "url": "https://www.imagine.art/" },
+                { "@type": "Thing", "name": "Jasper", "url": "https://www.jasper.ai/" },
+                { "@type": "Thing", "name": "Koala", "url": "https://koala.sh/" },
+                { "@type": "Thing", "name": "Rytr", "url": "https://rytr.me/" },
+                { "@type": "Thing", "name": "Scalenut", "url": "https://www.scalenut.com/" },
+                { "@type": "Thing", "name": "Writesonic", "url": "https://writesonic.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 {"@type": "Question", "name": "What is an AI content-generation tool, and how can it help my small business?", "acceptedAnswer": {"@type": "Answer", "text": "An AI content-generation tool is software that uses artificial intelligence to draft material from your instructions and reference information. For a small business, it can help turn service details, expertise, and customer questions into website copy, social posts, emails, and articles. This reduces blank-page work but does not remove the need for human review."}},
                 {"@type": "Question", "name": "Can AI create content if I do not already have blog posts, videos, or marketing materials?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can start with basic information about your services, customers, differentiators, and common questions. AI can help develop ideas, outlines, and first drafts from that input. Existing content is helpful but not required."}},
@@ -70,8 +65,7 @@ const jsonLd: Graph = {
                 {"@type": "Question", "name": "Can AI write promotional emails, newsletters, and special offers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI can draft subject lines, lay out the email, write promotional copy, and suggest calls to action. The business provides the offer details and terms. AI should not set prices, deadlines, or rules for eligibility, those decisions stay with you."}},
                 {"@type": "Question", "name": "Can AI help me create marketing content from scratch, rather than only repurpose existing content?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. AI can help brainstorm topics, build outlines, and draft new content using your business details. Repurposing old content is a separate feature and not needed to start using AI for fresh marketing materials."}}
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

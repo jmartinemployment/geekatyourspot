@@ -23,8 +23,7 @@ export const coupaContent: ToolPageContent = {
     "subjectOf": {
       "@type": "TechnicalArticle",
       "@id": "https://seo.geekatyourspot.com/use-cases/accounting/automated-accounts-payable-streamlining-financial-operations-with-ai"
-    },
-    "@id": "#software-coupa"
+    }
   },
   sections: [
     {

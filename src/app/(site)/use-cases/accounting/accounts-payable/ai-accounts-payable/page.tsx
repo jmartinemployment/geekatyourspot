@@ -10,7 +10,6 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -24,60 +23,25 @@ const jsonLd: Graph = {
             ],
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-23T13:31:17.5026845Z",
             "dateModified": "2026-07-23T13:31:17.5026845Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable"
+                "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable"
             },
             "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
             "wordCount": 3474,
-            "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#service" },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-tipalti"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-medius"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-basware"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-rillion"
-                }
+                { "@type": "Thing", "name": "Tipalti", "url": "https://tipalti.com/" },
+                { "@type": "Thing", "name": "Medius", "url": "https://www.medius.com/" },
+                { "@type": "Thing", "name": "Basware", "url": "https://www.basware.com/" },
+                { "@type": "Thing", "name": "Rillion", "url": "https://www.rillion.com/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-tipalti",
-            "name": "Tipalti",
-            "url": "https://tipalti.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-medius",
-            "name": "Medius",
-            "url": "https://www.medius.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-basware",
-            "name": "Basware",
-            "url": "https://www.basware.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-rillion",
-            "name": "Rillion",
-            "url": "https://www.rillion.com/"
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable", name: "Accounts Payable", description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency." })
+        }
     ]
 };
 
@@ -92,12 +56,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/accounting/accounts-payable/automated-accounts-payable',
+            canonical: '/use-cases/accounting/accounts-payable/ai-accounts-payable',
         },
         openGraph: {
             title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
-            url: 'https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable',
+            url: 'https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',

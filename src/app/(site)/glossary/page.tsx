@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import GlossaryHeroSection from "@/components/glossary/glossary-hero";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { GLOSSARY_SET_ID, definitionText, getAllGlossaryTerms } from "@/lib/glossary";
+import { definitionText, getAllGlossaryTerms } from "@/lib/glossary";
 import type { GlossaryTerm } from "@/types/glossary";
 import { cn } from "@/lib/utils";
 import type { DefinedTermSet, WithContext } from "schema-dts";
@@ -121,7 +121,6 @@ export default async function GlossaryPage({
   const jsonLd: WithContext<DefinedTermSet> = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
-    "@id": GLOSSARY_SET_ID,
     name: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
     url: `${SITE_URL}${letterHref(active)}`,

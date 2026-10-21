@@ -11,12 +11,11 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const TITLE = "AI Payment Execution";
 const DESCRIPTION =
     "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai";
+const CANONICAL = "/use-cases/accounting/accounts-payable/ai-payment-execution";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -26,27 +25,23 @@ const jsonLd: Graph = {
             "@type": "Article",
             "headline": TITLE,
             "description": DESCRIPTION,
-            "author": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-08T00:00:00.000Z",
             "dateModified": "2026-10-08T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Payment Execution, AI in Accounts Payable, Efficiency in Payment Processing, Cost Reduction, Error Minimization, AI Solutions for Small Business, Payment Automation Tools, AI Implementation, Business Efficiency",
-            "@id": `${PAGE_URL}#article`,
-            "about": { "@id": `${PAGE_URL}#service` },
-            "isPartOf": { "@id": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-accounts-payable#article" },
-            "hasPart": { "@id": `${PAGE_URL}#faq` },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-accounts-payable" },
             "mentions": [
-                { "@id": "https://geekatyourspot.com/#software-avidxchange" },
-                { "@id": "https://geekatyourspot.com/#software-bill" },
-                { "@id": "https://geekatyourspot.com/#software-melio" },
-                { "@id": "https://geekatyourspot.com/#software-ramp" },
-                { "@id": "https://geekatyourspot.com/#software-tipalti" }
+                { "@type": "Thing", "name": "AvidXchange", "url": "https://www.avidxchange.com/" },
+                { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },
+                { "@type": "Thing", "name": "Melio", "url": "https://melio.com/" },
+                { "@type": "Thing", "name": "Ramp", "url": "https://ramp.com/" },
+                { "@type": "Thing", "name": "Tipalti", "url": "https://tipalti.com/" }
             ]
         },
         {
             "@type": "FAQPage",
-            "@id": `${PAGE_URL}#faq`,
             "mainEntity": [
                 { "@type": "Question", "name": "How do I automatically pay vendor bills on their due dates?", "acceptedAnswer": { "@type": "Answer", "text": "To automatically pay vendor bills on their due dates, you can use an automated payment execution system. These systems allow you to schedule payments in advance so that they are processed automatically when due. By integrating with your accounting software, these tools can track due dates and ensure that payments are made on time, helping you avoid late fees and maintain good vendor relationships." } },
                 { "@type": "Question", "name": "Should I pay approved invoices immediately or wait until they are due?", "acceptedAnswer": { "@type": "Answer", "text": "Paying invoices immediately can help you take advantage of early payment discounts, but it might affect your cash flow. Waiting until they are due can optimize cash flow management, ensuring you have funds available for other expenses. The best approach depends on your cash flow situation and vendor terms." } },
@@ -59,8 +54,7 @@ const jsonLd: Graph = {
                 { "@type": "Question", "name": "Can payments above a certain amount require a second approver?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, payments above a certain amount can require a second approver. This is a common security measure in automated payment execution systems to prevent unauthorized transactions. By setting approval thresholds, small businesses can ensure that larger payments receive an extra layer of scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot LLC can help set up these controls within your payment processes." } },
                 { "@type": "Question", "name": "Why is an approved bill still waiting to be paid?", "acceptedAnswer": { "@type": "Answer", "text": "An approved bill might still be waiting to be paid due to several factors. There could be cash flow management strategies in place that dictate payment timing. Alternatively, there might be a delay in the automated system's payment cycle or a need for manual intervention to resolve discrepancies. Geek @ Your Spot LLC can assist in identifying and resolving these issues to streamline your payment processes." } }
             ]
-        },
-        pillarService({ url: PAGE_URL, name: TITLE, description: DESCRIPTION })
+        }
     ]
 };
 

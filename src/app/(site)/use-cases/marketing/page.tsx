@@ -10,7 +10,6 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { pillarService } from "@/lib/seo/organization";
 
 const jsonLd: Graph = {
     "@context": "https://schema.org",
@@ -24,10 +23,10 @@ const jsonLd: Graph = {
             ],
             "author": {
                 "@type": "Organization",
-                "@id": "https://geekatyourspot.com/#organization",
+                "url": "https://geekatyourspot.com",
                 "name": "Geek @ Your Spot LLC"
             },
-            "publisher": { "@type": "Organization", "@id": "https://geekatyourspot.com/#organization", "name": "Geek @ Your Spot LLC" },
+            "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-07-29T11:33:50.5819023Z",
             "dateModified": "2026-07-29T11:33:50.5819023Z",
             "mainEntityOfPage": {
@@ -36,30 +35,11 @@ const jsonLd: Graph = {
             },
             "keywords": "AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding",
             "wordCount": 3561,
-            "@id": "https://geekatyourspot.com/use-cases/marketing#article",
-            "about": { "@id": "https://geekatyourspot.com/use-cases/marketing#service" },
             "mentions": [
-                {
-                    "@id": "https://geekatyourspot.com/#software-hubspot"
-                },
-                {
-                    "@id": "https://geekatyourspot.com/#software-hootsuite"
-                }
+                { "@type": "Thing", "name": "HubSpot", "url": "https://www.hubspot.com/" },
+                { "@type": "Thing", "name": "Hootsuite", "url": "https://www.hootsuite.com/" }
             ]
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-hubspot",
-            "name": "HubSpot",
-            "url": "https://www.hubspot.com/"
-        },
-        {
-            "@type": "Thing",
-            "@id": "https://geekatyourspot.com/#software-hootsuite",
-            "name": "Hootsuite",
-            "url": "https://www.hootsuite.com/"
-        },
-        pillarService({ url: "https://geekatyourspot.com/use-cases/marketing", name: "AI Marketing Systems", description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI." })
+        }
     ]
 };
 
