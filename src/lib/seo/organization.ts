@@ -54,6 +54,7 @@ export const SITE_GRAPH = {
         url: `${SITE_URL}/about`,
       },
       telephone: "+1-561-526-3512",
+      email: "contact@geekatyourspot.com",
       hasMap: GBP_MAP_URL,
       // The Business Profile's pin, so the node says where the business is and not only its address.
       geo: {
