@@ -21,6 +21,21 @@ Why it matters:
 
 The GEO audit records your decision of 2026-10-20 that all 274 existing terms stay (decision 4). This item is only about adding terms.
 
+## Done, 2026-10-22 (`c966130`)
+
+The owner's standing instruction settles both questions: terms are to be added when they are missing, and written at the fuller length he asked for most recently. So the five terms are in, written to the H5 definition spec, each with a definition of two sentences, one Why It Matters sentence, one Systems Context sentence and a short summary, filed under Accounting, in alphabetical order with the rest.
+
+Each is linked at its first mention where a page already uses the words, in both breakpoint copies where the section has two:
+- accounts receivable, in the accounts receivable pillar's lede;
+- Days Sales Outstanding (DSO), in the same pillar's decisions section;
+- economic nexus, in the sales tax nexus pillar's challenges section;
+- optical character recognition (OCR), in the accounts payable pillar's key features section, to Invoice OCR;
+- three-way matching, in the accounts payable pillar's FAQ, to Three-Way Match.
+
+The data entry pillar does not use the words "three-way match" or "OCR", so those two links sit on the accounts payable pillar, where the words are. The Accounts Payable term's own text names three-way matching, and the term pages now show each other as related: Accounts Receivable with Accounts Payable, Cash Flow Forecasting and Days Sales Outstanding; Days Sales Outstanding with Accounts Receivable, Cash Flow Forecasting and KPI; Economic Nexus with Tax Compliance; Invoice OCR with Accounts Payable, Data Quality, Machine Learning and Three-Way Match; Three-Way Match with Accounts Payable, ERP and Invoice OCR.
+
+Verified on a local build: the five term pages return 200, the sitemap holds 452 URLs including all five, each letter page lists its term, and the pillar links render.
+
 ## What development mode means for it
 
 New terms can be added now. Their pages enter the sitemap automatically and reach search at launch.
@@ -54,4 +69,4 @@ Recommendation: add the five terms, written to your H5 spec. They match the acco
 - Each new term shows its related terms.
 - The pillar links point at the new terms in both copies.
 
-**Status:** Open, waiting on your decision.
+**Status:** Closed 2026-10-22 (`c966130`). The five terms are added and linked; the glossary holds 279 terms.
