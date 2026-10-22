@@ -230,7 +230,7 @@ This is verified, and it is the navbar target for Marketing.
 - **Missing pages.** `/about` and `/contact` return 404. There is no email address on the site, and booking works only with JavaScript.
 - **Contact page added, 2026-10-21, at the owner's direction (SA M4).** `/contact` ("Contact Jeff Martin") has the address, phone, office hours and map link under "Call or Visit", a message form under "Send a Message", and the scheduler, with a `ContactPage` node. The form sends through `src/lib/actions/submit-contact.ts`, which now fails closed: with `RESEND_API_KEY`, `NEXT_PUBLIC_FROM_EMAIL` or `CONTACT_TO_EMAIL` unset, nothing is sent and the visitor is asked to call. The last two are not set in Vercel yet, so the form does not deliver until the owner sets them. At the owner's direction the footer no longer shows the address and phone; it links to Contact under Resources. `/llms.txt` lists the page. The same note is under M4 in `plans/seo-audit-2026-10-20.md`.
 - **Contact page deleted, later on 2026-10-21, at the owner's direction.** The business address is the owner's home, behind a gated entry, so there is no contact page and none is planned: the footer phone and the scheduler are how visitors reach the business. `/contact` returns 404, the footer shows the address and phone again, and `/llms.txt` no longer lists the page. The page is in `bc7a0c7`.
-- **Email address added, 2026-10-21, at the owner's direction.** The footer's Contact column shows `contact@geekatyourspot.com` as a mailto link under the phone, on every page and in both breakpoint copies. The structured data does not carry it yet (document 26 in `4821ac1`).
+- **Email address added, 2026-10-21, at the owner's direction.** The footer's Contact column shows `contact@geekatyourspot.com` as a mailto link under the phone, on every page and in both breakpoint copies. The structured data does not carry it yet (document 26 in `4821ac1`). **Carried since 2026-10-22 (`0b74560`):** the business node's `email` is the same address.
 - **What competitors do.** Every local competitor names a founder with Person schema, shows testimonials, or shows case results.
 - **Fix.**
   - One visible sentence on the home page, in both breakpoint copies, saying who the business is, where it is and what it does.
@@ -348,7 +348,7 @@ Both are verified.
   - **Business node.** `geo` is the Business Profile pin, 26.48314, -80.09532, as `GeoCoordinates` (CA13).
   - **Dead files.** The five `.html` files under `src/components/tools/marketing/ai-content-creation-workflow/` that carried their own `ld+json` and that nothing imported are deleted.
   - **A check.** `scripts/check-faq-schema.ts` reads every prerendered page after `next build`, parses each `ld+json` block, and fails when a FAQPage question is not in the page's visible text or a block is not JSON, the mismatch H10 found by hand. `npm run build` runs it: 428 pages, 82 with FAQPage, 852 questions, 0 findings.
-  - Still open: no email address anywhere in the markup, which needs the owner's address and his decision to publish it.
+  - **Email in the markup, 2026-10-22 (`0b74560`).** The business node carries `email`, `contact@geekatyourspot.com`, the address the owner decided on 2026-10-21 and the footer already showed. The earlier line here calling it open was wrong: the decision was made, only the node was missing.
 
 ### H10. The approval workflows pillar's FAQ is about data entry
 
