@@ -3,12 +3,13 @@
  *
  * A figure is a percentage, a dollar amount, a number with million, billion or trillion, a
  * multiplier such as 3x, a ratio such as 1 in 9, or a count of businesses, users, apps and the
- * like. "Next to it" means a URL on the same line or within two lines either side, which is where
- * the writer's inline citation or the laid-out link sits. JSX and HTML attributes are stripped
- * before matching, so class names never count as figures.
+ * like. The writer attributes a figure in words and writes no URL (GeekBackend GccGenerateService,
+ * rule 2), so "beside it" means a URL or an attribution cue such as "according to" or "reports" on
+ * the same line or within two lines either side. A figure with neither is marked CHECK and read by
+ * hand. JSX and HTML attributes are stripped before matching, so class names never count as figures.
  *
  * Usage: npm run figures -- <file or folder> [more...]
- * Exit code 1 when any figure has no source URL beside it, so the rule fails closed.
+ * Exit code 1 while any figure is marked CHECK, so the rule fails closed until each is read.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -22,6 +23,8 @@ const PATTERNS: Array<[string, RegExp]> = [
   ["count", /\b\d[\d,]{2,}\+?\s(?:apps|applications|businesses|companies|customers|users|integrations|employees|invoices|transactions|hours|tasks|shipments|locations|reviews|clients)\b/gi],
 ];
 const URL_PATTERN = /https?:\/\//;
+const ATTRIBUTION_CUE =
+  /\b(according to|reports?|reported|says|said|states?|found|lists?|cites?|estimates?|per |study|survey|research|pricing page|help center|help centre|documentation|case study|announced|published)\b/i;
 const WINDOW = 2;
 const EXTENSIONS = new Set([".tsx", ".ts", ".html"]);
 
@@ -65,16 +68,16 @@ for (const target of targets) {
           const context = lines
             .slice(Math.max(0, index - WINDOW), index + WINDOW + 1)
             .join("\n");
-          const sourced = URL_PATTERN.test(context);
+          const sourced = URL_PATTERN.test(context) || ATTRIBUTION_CUE.test(context);
           if (!sourced) unsourced += 1;
           const text = line.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
           console.log(
-            `${sourced ? "sourced  " : "NO SOURCE"} ${file}:${index + 1} [${type}] ${match[0].trim()} | ${text.slice(0, 140)}`
+            `${sourced ? "sourced" : "CHECK  "} ${file}:${index + 1} [${type}] ${match[0].trim()} | ${text.slice(0, 140)}`
           );
         }
       }
     });
   }
 }
-console.log(`\n${total} figures, ${unsourced} with no source URL beside them.`);
+console.log(`\n${total} figures, ${unsourced} marked CHECK for a reading.`);
 process.exit(unsourced > 0 ? 1 : 0);
