@@ -182,6 +182,17 @@ A tool page whose supplied content **does not fit the 4-section shape** — more
 
 ---
 
+### Figures: nothing unsourced ships (Jeff, 2026-10-22)
+
+The content writer deletes any figure, price or percentage that is not in its research or the Brief, names the deleted sentence on its Run log (GccInventedFigures), and refuses the page when the figure cannot be removed. Mistakes will still get through, so layout applies the same rule. A page is never paid for and then thrown away; a sentence is.
+
+- **A figure** is a percentage, a dollar amount, a number with million, billion or trillion, a multiplier such as 3x, a ratio such as 1 in 9, or a count of businesses, users, apps and the like. A price on a tool page is a figure; its source is the vendor's pricing page.
+- **The only evidence at layout is the citation beside the figure.** The research and the Brief do not ship with the export, so the writer's inline citation, `[Source, Year/Link]` with a URL, is what a figure has to carry. A figure with a URL beside it is laid out with the link inline, `target="_blank" rel="noopener noreferrer"`, in the ground's link colour; the bracketed citation text itself is not rendered.
+- **A figure with no URL beside it is deleted with its whole sentence,** in both breakpoint copies and in the `src/data/tools/*.ts` entry when the registry repeats it. A name with no URL counts as no source. Nothing is reworded to keep the point without the number: that is the writer's job, not layout's.
+- **Each deletion is named** in `plans/layout-removed-figures-log.md` (date, page, sentence, reason) and in the commit message, the way the writer's Run log names them.
+- **If the deletion would break the page,** because the figure sits in a heading, a table, the hero summary, or a list that would then fall below its required count, the page is refused: nothing is laid out, the log names the page and the figure, and the page goes back to the writer.
+- **The check is a script, not a reading:** `npm run figures -- <component folder or export file>` lists every figure with `sourced` or `NO SOURCE` and exits 1 while any figure has no URL beside it. Run it on the export before laying out, and on the component folder before committing.
+
 ## Shared Body Pattern (Optional)
 
 For sections with multiple paragraphs, you can optionally define a `const body` JSX fragment at the component level, then use it in the return statement:
@@ -309,6 +320,7 @@ src/app/(site)/tools/marketing/[tool-name]/
 - [ ] WhenToUseSection: single section, `#8C4E2A` background, exactly 4 paragraphs, heading with `lg:text-[3.5rem]`, alternating **text on left** (Section 4 even: `col-span-7` content + `col-span-5` empty)
 - [ ] All content is hand-written JSX (no `.map()`, no arrays for repeated items)
 - [ ] All headings have proper `id` attributes (consistent between mobile/desktop sections)
+- [ ] `npm run figures -- <component folder>` reports no figure without a source URL beside it, and every deletion is in `plans/layout-removed-figures-log.md` (see "Figures: nothing unsourced ships")
 - [ ] Build passes with `npm run build`
 
 ---

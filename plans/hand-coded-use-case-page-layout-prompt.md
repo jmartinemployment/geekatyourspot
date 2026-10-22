@@ -168,6 +168,17 @@ Tailwind's `hover:` variant sits inside `@media (hover: hover)`, so a phone neve
 
 ---
 
+### Figures: nothing unsourced ships (Jeff, 2026-10-22)
+
+The content writer deletes any figure, price or percentage that is not in its research or the Brief, names the deleted sentence on its Run log (GccInventedFigures), and refuses the page when the figure cannot be removed. Mistakes will still get through, so layout applies the same rule. A page is never paid for and then thrown away; a sentence is.
+
+- **A figure** is a percentage, a dollar amount, a number with million, billion or trillion, a multiplier such as 3x, a ratio such as 1 in 9, or a count of businesses, users, apps and the like. A price on a tool page is a figure; its source is the vendor's pricing page.
+- **The only evidence at layout is the citation beside the figure.** The research and the Brief do not ship with the export, so the writer's inline citation, `[Source, Year/Link]` with a URL, is what a figure has to carry. A figure with a URL beside it is laid out with the link inline, `target="_blank" rel="noopener noreferrer"`, in the ground's link colour; the bracketed citation text itself is not rendered.
+- **A figure with no URL beside it is deleted with its whole sentence,** in both breakpoint copies and in the `src/data/tools/*.ts` entry when the registry repeats it. A name with no URL counts as no source. Nothing is reworded to keep the point without the number: that is the writer's job, not layout's.
+- **Each deletion is named** in `plans/layout-removed-figures-log.md` (date, page, sentence, reason) and in the commit message, the way the writer's Run log names them.
+- **If the deletion would break the page,** because the figure sits in a heading, a table, the hero summary, or a list that would then fall below its required count, the page is refused: nothing is laid out, the log names the page and the figure, and the page goes back to the writer.
+- **The check is a script, not a reading:** `npm run figures -- <component folder or export file>` lists every figure with `sourced` or `NO SOURCE` and exits 1 while any figure has no URL beside it. Run it on the export before laying out, and on the component folder before committing.
+
 ## Shared Body Pattern (Recommended)
 
 For sections with multiple paragraphs and subsections, define a reusable `const body = ( <> ... </> )` before the return statement, then use it in both mobile and desktop sections. This avoids code duplication.
@@ -223,6 +234,7 @@ For sections with multiple paragraphs and subsections, define a reusable `const 
 - [ ] Link colors match background: `text-[#C83803]` with no text shadow (default), `text-[#0B162A]` (on `#025E73`, `#8C4E2A` or `#BF5934` backgrounds)
 - [ ] Every link, including one inside a heading, carries `hover:underline` and the ground's link colour
 - [ ] Internal links are in place: pillar to parent, siblings and blog post; every tool named with a page is linked (see "Internal links")
+- [ ] `npm run figures -- <component folder>` reports no figure without a source URL beside it, and every deletion is in `plans/layout-removed-figures-log.md` (see "Figures: nothing unsourced ships")
 - [ ] Build passes with `npm run build` (no missing imports, no syntax errors)
 - [ ] Page loads and sections display correctly on mobile and desktop
 
@@ -255,7 +267,7 @@ Both follow the same mobile/desktop alternating layout pattern.
 
 ## Blog Posts (Rendered From the Export, Same Layout)
 
-Blog posts are not hand-coded. `src/app/(site)/blog/[department]/[...slug]/page.tsx` renders each one from its Content Writer export, using the same section pattern as the pages above. When this pattern changes, change the blog template to match. Jeff reads a blog post next to its pillar, and any drift between them shows as an inconsistency (2026-10-18).
+A blog post gets the same figure check as a page before it is refiled: `npm run figures -- <export file>` must report no figure without a source URL beside it, and a figure that fails is deleted with its sentence and logged, or the post is refused (see "Figures: nothing unsourced ships" above). Blog posts are not hand-coded. `src/app/(site)/blog/[department]/[...slug]/page.tsx` renders each one from its Content Writer export, using the same section pattern as the pages above. When this pattern changes, change the blog template to match. Jeff reads a blog post next to its pillar, and any drift between them shows as an inconsistency (2026-10-18).
 
 **Where each piece lives:**
 
