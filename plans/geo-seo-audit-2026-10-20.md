@@ -413,6 +413,7 @@ This is verified.
   - state nexus thresholds;
   - the lead scoring model;
   - receptionist pricing models.
+  - **Receptionist pricing table struck on 2026-10-22, at the owner's direction.** The intelligent receptionist pillar carries one price, Voksha's flat $1 for each extra call, and one paragraph on billing models, so there is nothing to tabulate. Document 40 keeps the pillar price table and the lead scoring table only.
 - **M3. No visible dates.**
   - None of the 90 tool pages shows a date, yet 42 quote prices. Bill's "$49 per user per month" has no date and no link.
   - Pillars have dates in JSON-LD only.
