@@ -18,30 +18,30 @@ Why it matters: a headline number with no source is the first thing an AI answer
 
 The change is copy only. It can be made freely before launch, and nothing is indexed until `ALLOW_INDEXING` is set.
 
-## What I need from you
+## Decided on 2026-10-22: each badge gets a source note as a tooltip
 
-Choose one for the 40% badge:
-- **Cite an outside source and word the badge to match it.** McKinsey's June 2023 report on generative AI puts the productivity gain in customer care at 30 to 45 percent of current function costs. A badge worded for that function could cite it. The badge becomes narrower than "Cost Reduction".
-- **Use measured results from your own clients.** This is the strongest backing, if you have numbers you can publish.
-- **Leave it unsourced.** Nothing changes, and the badge stays unchecked.
+The owner wrote the three notes and asked for them as tooltips. They are applied as written, with each named source linked:
 
-For the 3x badge: no McKinsey figure supports "3x". The choices are a client result, a different source you name, or leaving it unsourced.
+- **40% Cost Reduction.** "Enterprises achieve a 40% cost reduction via automated operations, a benchmark proven by IBM HR Automation and Tata Play's WhatsApp integration." IBM's AskHR case study (`ibm.com/case-studies/ibm-askhr`) says "The AI agent helped contribute to a 40% reduction in the HR team's operational costs over the past four years." Nextiva's Tata Play story (`nextiva.com/customer-story/tata-play-broadcasting`) says "Adding the WhatsApp integration and AI bots reduced support costs by 40%." Both are the vendor's own figures, with no period on the Tata Play one.
+- **3x Productivity.** "Customer support teams resolve tickets 3x faster and manage 3x the ticket volume without adding headcount by using AI, according to data from Solnix Media." Solnix Media's post (`blogs.solnixmedia.com/blog/Enterprise/customersupport_and_csm/`, dated 2026-10-20) says "resolve tickets 3x faster" and "handle 3x ticket volume with the same team size". It is a vendor's post with no method behind the figures.
+- **24/7 Automated.** "Workflows run 24/7 automated operations around the clock. Next-generation tools from viaSocket handle routine data syncing, scheduling, and emailing with zero downtime." viaSocket (`viasocket.com`) sells the syncing, scheduling and emailing; nothing on its site says "zero downtime", so those three words have no source.
 
-Separately: keep, reword or delete the pillar sentence that calls the figures "the operator's own published figures".
+Two later notes from the owner on 2026-10-22 were checked and not applied:
+- **Valoir** on tripling output in repeatable micro-tasks: no Valoir research on this could be found, so it can't be cited.
+- **C.H. Robinson and Loadsure** for 24/7: C.H. Robinson's newsroom (2025-06-12) confirms agents that read emailed tenders and parse carrier emails to match trucks, 3 million tasks automated and a 30% productivity rise since 2023, and its CFO's blog post is titled "Engineering Performance Through Lean AI and Relentless Improvement". Loadsure's site confirms AI-priced instant quotes and certificates in under 60 seconds. Neither site says 24/7, shift-free or around the clock, and neither mentions the other. A 24/7 note citing them would need wording that stays inside what they say.
 
-## My recommendation
+Still open from this document: the pillar sentence that calls the figures "the operator's own published figures" (`preparing-section.tsx:45`). The owner has not decided it, so it is unchanged.
 
-Recommendation: use client results if you have them. Otherwise, word the 40% badge for customer care and cite McKinsey. Delete the pillar's "operator's own published figures" sentence in either case, because it points to figures the site doesn't publish.
+## What was built
 
-## The plan once you decide
+`src/components/home/stat-badge.tsx` is a client component that makes a badge the trigger of a popover from the site's `@base-ui/react` dependency. It opens on hover, with a short delay, and on tap, so the source is reachable on a phone, and it stays open while the pointer moves onto its link. The popup is the site's navy, `#0B162A`, with white text and the brand orange for the links, which open in a new tab with `rel="noopener noreferrer"`. The same note, without links, is in the page as a visually hidden description of the badge button, so crawlers and screen readers get the source without opening anything. The three notes are constants in `src/components/home/clone-yourself.tsx`, so the phone and desktop blocks render identical text by construction. The badge markup keeps every class it had; the two `p` elements inside each badge became `span` elements, because a button can't contain a paragraph.
 
-1. Edit the badge text in both breakpoint blocks of `src/components/home/clone-yourself.tsx` and add the source link or note under the badges, identically in each block.
-2. Edit or delete the sentence in the pillar's `preparing-section.tsx:45`.
-3. Change no other 40% figure. Those are a different claim.
+## How it was checked
 
-## How I'll check it, and its status
+Headless Playwright against a local dev server, 2026-10-22:
+- The server HTML carries all three notes and all six badge buttons.
+- At 390 px with touch, a tap on each badge opens its popup inside the viewport, and a tap elsewhere closes it. At 1440 px, hovering each badge opens its popup inside the viewport, the popup stays open while the pointer is over its link, and it closes on leaving.
+- No horizontal overflow at either width, before or after opening.
+- `eslint` and `tsc` pass on both files.
 
-- On a local build, both home blocks show the same badge text and source.
-- A text search finds no page stating the badge figures without that source.
-
-**Status:** Open, waiting on your decision.
+**Status:** Applied. The pillar sentence is still waiting on your decision.

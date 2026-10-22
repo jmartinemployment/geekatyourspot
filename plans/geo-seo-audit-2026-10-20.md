@@ -216,6 +216,7 @@ This is verified, and it is the navbar target for Marketing.
   - Rewrite the glossary examples as hypothetical ones.
 - **Glossary part fixed on 2026-10-20 (`25926fb`).** The H5 rewrite removed all 35 glossary examples, so none speaks in the first person. The badges, the Gartner line and the missing source links are still open.
 - **Badges decided on 2026-10-20: they stay.** The owner ruled out removing "40% Cost Reduction" and "3x Productivity". Whether each gets a cited source is still open. McKinsey's generative AI report (June 2023) puts the productivity gain in customer care at 30 to 45 percent of current function costs, which can source a 40% figure worded for that function. No McKinsey figure supports "3x".
+- **Badges sourced on 2026-10-22 (`bb97f4f`), at the owner's direction.** Each of the three badges, in both breakpoint copies, opens a source note on hover or tap, in the owner's wording with each named source linked: IBM's AskHR case study and Nextiva's Tata Play story for 40%, Solnix Media for 3x, and viaSocket for 24/7. The same note is in the page as the badge's hidden description, so crawlers read it. All three sources are vendor-reported, and "zero downtime" in the 24/7 note has no source on viaSocket's site. Document 33 in `plans/audit-input-2026-10-21/` has the quotes and the checks. The pillar's "operator's own published figures" sentence, the Gartner line and the missing source links are still open.
 
 ### H4. Nobody is behind the business, and no sentence says what it is
 
