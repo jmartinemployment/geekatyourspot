@@ -608,6 +608,7 @@ This is verified.
     - Each page has its own plan document: 05 to 09 and 54 to 61 in `plans/audit-input-2026-10-21/`. SA has no counterpart for this finding.
     - **Adobe Mix Modeler, decided 2026-10-22.** The owner's decision on document 54: "Old Content not applicable." No re-export and no layout pass; the page is unchanged and the document is deleted.
     - **Anomalo, decided 2026-10-22.** The same decision on document 55, "old content": no re-export, the page unchanged, the document deleted.
+    - **Great Expectations, Madgicx, Mailchimp, Monte Carlo, Optimove and Qualytics, decided 2026-10-22.** The same decision on documents 56 to 61, old content: no re-export, the six pages unchanged, the six documents deleted. Of the 13 pages in this finding, 05 to 09 remain open as documents.
   - **Layout fixed on 2026-10-21 (`c5c8c24`).** The correction above held for the section count but not for the layout. Mailchimp, 6sense, Pipedrive and ActiveCampaign had single-block sections, with no separate phone and desktop blocks.
     - All four now have both blocks for every section, alternate sides by H2, and take the colors in H2 order.
     - The same pass fixed `/use-cases/marketing` and four pillars: AI Accounts Payable and AI Cash Flow Forecasting (wrong start color, off-palette `#8C2703`, `#0A080D` and `#0C1A26` grounds, single blocks), Automated Ad Spend Optimization (single blocks, `#023859`) and AI Content Creation Workflow (`#023859`). Two FAQ headings sat in `col-span-9` and are now `col-span-12`.

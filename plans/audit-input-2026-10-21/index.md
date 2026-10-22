@@ -12,12 +12,12 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 9. [The ContentStudio tool page](09-tool-page-contentstudio.md), GEO L12 and H11
 54. The Adobe Mix Modeler tool page, GEO L12. Deleted by the owner on 2026-10-22: old content, not applicable
 55. The Anomalo tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
-56. [The Great Expectations tool page](56-tool-page-great-expectations.md), GEO L12
-57. [The Madgicx tool page](57-tool-page-madgicx.md), GEO L12
-58. [The Mailchimp tool page](58-tool-page-mailchimp.md), GEO L12
-59. [The Monte Carlo tool page](59-tool-page-monte-carlo.md), GEO L12
-60. [The Optimove tool page](60-tool-page-optimove.md), GEO L12
-61. [The Qualytics tool page](61-tool-page-qualytics.md), GEO L12
+56. The Great Expectations tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
+57. The Madgicx tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
+58. The Mailchimp tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
+59. The Monte Carlo tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
+60. The Optimove tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
+61. The Qualytics tool page, GEO L12. Deleted by the owner on 2026-10-22: old content
 
 ## Pages
 
