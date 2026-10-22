@@ -26,6 +26,14 @@ The profile is live now and doesn't depend on the site being indexed. The fix he
 
    > Geek @ Your Spot LLC is an AI implementation consultancy in Delray Beach, Florida. We help small businesses in Miami-Dade, Broward, and Palm Beach automate their accounting work, such as accounts payable, cash flow forecasting and tax compliance, and their marketing work, such as lead capture and content creation.
 
+   **The field caps at 300 characters (owner, 2026-10-22), and the draft above is 315.** The same wording fitted to the cap, at 298:
+
+   > Geek @ Your Spot LLC is an AI implementation consultancy in Delray Beach, serving small businesses in Miami-Dade, Broward, and Palm Beach. We automate accounting work, such as accounts payable, cash flow forecasting and tax compliance, and marketing work, such as lead capture and content creation.
+
+## Services on the profile, 2026-10-22
+
+The profile's services take a description each, also capped at 300 characters. The services are not a new list: they match the site's use cases, under the two departments. Which services the profile already lists is not recorded here, so the descriptions are written once the owner names them.
+
 ## My recommendation
 
 Recommendation: use wording that matches the site's service-area sentence word for word, so the two sources agree exactly. Name only the two departments the site has.
