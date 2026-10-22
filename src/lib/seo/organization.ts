@@ -35,7 +35,8 @@ export const SITE_GRAPH = {
       "@type": ["Organization", "LocalBusiness"],
       name: "Geek @ Your Spot LLC",
       legalName: "Geek @ Your Spot LLC",
-      alternateName: "Geek @ Your Spot",
+      // "Geek at Your Spot LLC" is the form Facebook allows; it refuses the @ in a page name (owner, 2026-10-22).
+      alternateName: ["Geek @ Your Spot", "Geek at Your Spot LLC"],
       url: SITE_URL,
       logo: {
         "@type": "ImageObject",
