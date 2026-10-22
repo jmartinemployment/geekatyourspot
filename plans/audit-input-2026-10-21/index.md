@@ -10,7 +10,7 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 7. [The Zapier tool page](07-tool-page-zapier.md), GEO M12, L12 and H11
 8. [The ActiveCampaign tool page](08-tool-page-activecampaign.md), GEO L12 and H11
 9. [The ContentStudio tool page](09-tool-page-contentstudio.md), GEO L12 and H11
-54. [The Adobe Mix Modeler tool page](54-tool-page-adobe-mix-modeler.md), GEO L12. Closed 2026-10-22: old content, not applicable (owner)
+54. The Adobe Mix Modeler tool page, GEO L12. Deleted by the owner on 2026-10-22: old content, not applicable
 55. [The Anomalo tool page](55-tool-page-anomalo.md), GEO L12
 56. [The Great Expectations tool page](56-tool-page-great-expectations.md), GEO L12
 57. [The Madgicx tool page](57-tool-page-madgicx.md), GEO L12
