@@ -505,6 +505,7 @@ This is verified.
   - Of 57 article nodes, only 7 have a usable raster image. The rest use the placeholder, the 116 x 48 logo SVG (below Google's minimum), or nothing.
   - Fix: one real 1200 px or wider image per post and pillar, such as a configuration screenshot or a diagram, used in both `image` and `og:image`.
   - **Share card carries the logo, 2026-10-22 (`19e3d4f`), at the owner's direction.** The 1200 x 630 card every page names as its `og:image` shows the footer's white wordmark on the navy ground above the tagline and the domain. It is still one card for every page. Per-page pictures are document 41, where the owner has set the hero as the priority: the shared hero's 460 x 460 slot, which five pillars fill today. The same note is under SA M3.
+    - **Profile text on the card, 2026-10-22 (`ea47eff`), at the owner's direction.** The tagline under the wordmark is now the Business Profile's two lines, verbatim: "Geek @ Your Spot LLC - Future-Proof Your Business" and "Increase efficiency and reduce costs. Let's automate your processes." The `og:image:alt` and `twitter:image:alt` say the same. Verified on a local build; the route stays static. The same note is under SA M3.
 - **M12. The ad spend cluster holds the wrong tools.**
   - Anomalo, Great Expectations, Monte Carlo and Qualytics are enterprise data-observability tools.
   - Pipedrive and Zapier are filed in two categories each, and 6sense is filed under small business lead capture.

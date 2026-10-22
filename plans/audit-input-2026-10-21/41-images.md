@@ -8,7 +8,7 @@ Almost no page has an image of its own.
 - **Audit count, 2026-10-20.**
   - 422 of 432 pages had no content image.
   - Of the 57 article nodes in the structured data, 7 had a usable raster image. The rest used a placeholder, the 116 x 48 logo SVG (below Google's minimum size for article images), or nothing.
-- **Since then.** SEO M3 (`d6989dc`) gave all 448 pages one shared 1200 x 630 share image, `SHARE_IMAGE` in `src/lib/seo/share-image.ts`. Every page now has a valid `og:image`, but it's the same picture everywhere, so it says nothing about any single page. On 2026-10-22 (`19e3d4f`), at the owner's direction, that card took the logo: the footer's white wordmark on the navy ground, above the tagline and the domain, in place of the name set in type. It is still the one card for every page.
+- **Since then.** SEO M3 (`d6989dc`) gave all 448 pages one shared 1200 x 630 share image, `SHARE_IMAGE` in `src/lib/seo/share-image.ts`. Every page now has a valid `og:image`, but it's the same picture everywhere, so it says nothing about any single page. On 2026-10-22 (`19e3d4f`), at the owner's direction, that card took the logo: the footer's white wordmark on the navy ground, above the tagline and the domain, in place of the name set in type. It is still the one card for every page. On 2026-10-22 (`ea47eff`), at the owner's direction, the tagline under the wordmark became the Business Profile's two lines, verbatim: "Geek @ Your Spot LLC - Future-Proof Your Business" and "Increase efficiency and reduce costs. Let's automate your processes." The alt text says the same.
 
 Why it matters:
 - Google shows a large image beside a result, and in Discover, only for pages that have one of their own.
