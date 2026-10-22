@@ -1,4 +1,4 @@
-import { listEntries } from "@/lib/content-writer-disabled2/content-disabled";
+import { listEntries } from "@/lib/content-writer/content";
 import { HAND_CODED_POSTS } from "@/data/blog/hand-coded-posts";
 
 export type BlogIndexItem = {

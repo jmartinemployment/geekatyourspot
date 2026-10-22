@@ -1,4 +1,4 @@
-import { decodeEntities } from "./content-disabled";
+import { decodeEntities } from "./content";
 
 /**
  * Splits a Content Writer article body into the sections the site renders as

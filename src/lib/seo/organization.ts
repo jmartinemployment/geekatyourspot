@@ -55,6 +55,12 @@ export const SITE_GRAPH = {
       },
       telephone: "+1-561-526-3512",
       hasMap: GBP_MAP_URL,
+      // The Business Profile's pin, so the node says where the business is and not only its address.
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 26.48314,
+        longitude: -80.09532,
+      },
       sameAs: [
         GBP_MAP_URL,
         "https://www.facebook.com/geekatyourspot",

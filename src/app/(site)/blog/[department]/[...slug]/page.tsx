@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { BlogHeroSection } from "@/components/blog/blog-hero-section";
 import { ArticleSectionBlock } from "@/components/blog/article-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import { getEntry, listEntries } from "@/lib/content-writer-disabled2/content-disabled";
-import { toArticleSections } from "@/lib/content-writer-disabled2/article-sections-disabled";
+import { getEntry, listEntries } from "@/lib/content-writer/content";
+import { toArticleSections } from "@/lib/content-writer/article-sections";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { formatDate } from "../../format-date";
 
@@ -71,7 +72,7 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
       {post.jsonLd && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: post.jsonLd }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(post.jsonLd) }}
         />
       )}
 

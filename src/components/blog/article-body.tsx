@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { schedulerLinkId } from "@/components/shared/scheduler/scheduler-id";
-import type { BlockNode, InlineNode } from "@/lib/content-writer-disabled2/article-sections-disabled";
+import type { BlockNode, InlineNode } from "@/lib/content-writer/article-sections";
 
 /**
  * Renders the parsed article body. ArticleSectionBlock renders it once per

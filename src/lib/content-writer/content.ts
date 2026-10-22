@@ -34,7 +34,8 @@ export type ContentEntry = {
   excerpt: string;
   date: string | null;
   tags: string[];
-  jsonLd: string | null;
+  /** The export's structured data, parsed, so the page serialises it the way every hand-written node is. */
+  jsonLd: Record<string, unknown> | null;
   sourcePath: string;
 };
 
@@ -128,7 +129,7 @@ function parseFile(filePath: string): ParsedFile | null {
   const jsonLdMatch = html.match(
     /<script type="application\/ld\+json">([\s\S]*?)<\/script>/,
   );
-  const jsonLd = jsonLdMatch ? jsonLdMatch[1].trim() : null;
+  const jsonLd = jsonLdMatch ? parseJsonLd(jsonLdMatch[1]) : null;
 
   const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/);
   const rawBody = bodyMatch ? bodyMatch[1] : "";
@@ -177,10 +178,41 @@ function parseFile(filePath: string): ParsedFile | null {
   return { entry, heroSummary, bodyHtml: sanitizeBody(articleBody, headline) };
 }
 
-function datePublishedFromJsonLd(jsonLd: string | null): string | null {
-  if (!jsonLd) return null;
-  const match = jsonLd.match(/"datePublished"\s*:\s*"([^"]+)"/);
-  return match ? match[1] : null;
+/**
+ * Parses the export's structured data. Anything that is not a JSON object yields null, and the
+ * page then prints no structured data rather than a string nothing has checked.
+ */
+function parseJsonLd(raw: string): Record<string, unknown> | null {
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    return parsed !== null && typeof parsed === "object" && !Array.isArray(parsed)
+      ? (parsed as Record<string, unknown>)
+      : null;
+  } catch {
+    return null;
+  }
+}
+
+/** The first datePublished anywhere in the structured data, at the top level or inside a graph. */
+function datePublishedFromJsonLd(jsonLd: Record<string, unknown> | null): string | null {
+  const visit = (value: unknown): string | null => {
+    if (Array.isArray(value)) {
+      for (const item of value) {
+        const found = visit(item);
+        if (found) return found;
+      }
+      return null;
+    }
+    if (value === null || typeof value !== "object") return null;
+    const record = value as Record<string, unknown>;
+    if (typeof record.datePublished === "string") return record.datePublished;
+    for (const nested of Object.values(record)) {
+      const found = visit(nested);
+      if (found) return found;
+    }
+    return null;
+  };
+  return jsonLd ? visit(jsonLd) : null;
 }
 
 const ALLOWED_TAGS = new Set([

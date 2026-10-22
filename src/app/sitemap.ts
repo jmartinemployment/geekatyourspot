@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { MetadataRoute } from "next";
-import { listEntries } from "@/lib/content-writer-disabled2/content-disabled";
+import { listEntries } from "@/lib/content-writer/content";
 import { HAND_CODED_POSTS } from "@/data/blog/hand-coded-posts";
 import { getAllGlossaryTerms } from "@/lib/glossary";
 import { DEFAULT_LETTER, groupByLetter, letterHref } from "@/lib/glossary-letters";

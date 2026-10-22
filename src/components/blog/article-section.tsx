@@ -1,6 +1,6 @@
 import { clsx } from "clsx";
 
-import type { ArticleSection } from "@/lib/content-writer-disabled2/article-sections-disabled";
+import type { ArticleSection } from "@/lib/content-writer/article-sections";
 
 import { ArticleBody } from "./article-body";
 import { backgroundForSection, linkClassForBackground, textOnRight } from "./section-palette";

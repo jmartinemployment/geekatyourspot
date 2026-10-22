@@ -7,6 +7,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Metadata, Viewport } from "next";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 import { AREA_SERVED } from "@/lib/seo/organization";
+import { safeJsonLd } from "@/lib/seo/json-ld";
 
 // The Organization and WebSite nodes come from the site layout (src/lib/seo/organization.ts).
 const jsonLd = {
@@ -209,7 +210,7 @@ export default async function Home() {
     <>
       <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <HeroSection />
       <CloneYourselfSection />
