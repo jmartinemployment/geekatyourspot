@@ -218,7 +218,7 @@ The content writer now runs under a mandatory citation rule: every figure carrie
 | F079 | $1 | With Voksha, every extra call is a flat $1, no matter how long it lasts, so you can forecast spend as you scale from a handful of calls to hundreds a month. | no |  |
 | F080 | $2,000 | For a twelve-person HVAC shop in West Palm Beach, that might mean aiming to recover $2,000 a month in missed-call revenue by moving from voicemail to 24/7 coverage. | no |  |
 
-#### `/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring`
+#### `/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring`
 
 | ID | Figure | Sentence | Source link in that paragraph | Note |
 |---|---|---|---|---|
@@ -1127,7 +1127,7 @@ The content writer now runs under a mandatory citation rule: every figure carrie
 | F583 | 15% | This resulted in a 25% increase in open rates and a 15% rise in service bookings within just three months. | no |  |
 | F584 | 40% | This personalized approach led to a 40% increase in sales, as customers felt understood and valued. | no |  |
 
-#### `/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses`
+#### `/blog/marketing/lead-capture-pipeline/ai-lead-scoring`
 
 | ID | Figure | Sentence | Source link in that paragraph | Note |
 |---|---|---|---|---|

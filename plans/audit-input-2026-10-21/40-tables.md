@@ -12,7 +12,7 @@ What exists today (rechecked 2026-10-21):
 
 The three tables the audit asked for, one of them struck, and where that content sits now (rechecked 2026-10-21):
 - **Tool pricing on each pillar.** No pillar lists its tools' prices side by side. Prices sit in each tool page's pricing section, in prose.
-- **The lead scoring model.** `src/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/scoring-model-section.tsx` gives the six positive criteria (15, 15, 20, 25, 10 and 15 points, which total 100) and the negative criteria as two bullet lists, and the thresholds in a paragraph.
+- **The lead scoring model.** `src/components/blog/marketing/lead-capture-pipeline/ai-lead-scoring/scoring-model-section.tsx` gives the six positive criteria (15, 15, 20, 25, 10 and 15 points, which total 100) and the negative criteria as two bullet lists, and the thresholds in a paragraph.
 - **Receptionist pricing models: struck on 2026-10-22.** The owner read the intelligent receptionist pillar and found one price on it, Voksha's flat $1 for each extra call, and one paragraph contrasting per-call, per-minute and fixed monthly billing (`decisions-section.tsx:20-24`). That is a sentence, not a table; a table there would be empty. The audit asked for it in error. If the five receptionist tools' prices are ever gathered side by side, that is the first item above, not this one.
 
 ## What development mode means for it
