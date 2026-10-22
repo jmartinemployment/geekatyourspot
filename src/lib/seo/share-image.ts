@@ -8,6 +8,6 @@ export const SHARE_IMAGE = {
   url: "/opengraph-image",
   width: 1200,
   height: 630,
-  alt: "Geek @ Your Spot LLC, AI integration and automation for South Florida small businesses",
+  alt: "Geek @ Your Spot LLC - Future-Proof Your Business. Increase efficiency and reduce costs. Let's automate your processes.",
   type: "image/png",
 } as const;

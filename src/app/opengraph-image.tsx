@@ -8,8 +8,8 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
  * do not render the SVG logo the pages used to name. Pages point at it through SHARE_IMAGE.
  *
  * The card carries the logo itself (owner, 2026-10-22): the white wordmark the footer uses, drawn
- * on the navy ground, with the tagline and the domain under it. The wordmark replaces the name
- * set in type, since the name is what the wordmark says.
+ * on the navy ground. Under it are the two lines the Google Business Profile shows (owner,
+ * 2026-10-22), the profile's headline and its one-sentence pitch, verbatim, then the domain.
  */
 export const alt = SHARE_IMAGE.alt;
 export const size = { width: SHARE_IMAGE.width, height: SHARE_IMAGE.height };
@@ -38,10 +38,13 @@ export default async function OpengraphImage() {
         }}
       >
         <img src={logoSrc} width={LOGO_WIDTH} height={LOGO_HEIGHT} alt="" />
-        <div style={{ display: "flex", fontSize: 44, lineHeight: 1.25, marginTop: 40, color: "#FFFFFF" }}>
-          AI integration and automation for South Florida small businesses.
+        <div style={{ display: "flex", fontSize: 40, lineHeight: 1.25, marginTop: 40, color: "#FFFFFF" }}>
+          Geek @ Your Spot LLC - Future-Proof Your Business
         </div>
-        <div style={{ display: "flex", fontSize: 30, marginTop: 40, color: "#C83803" }}>
+        <div style={{ display: "flex", fontSize: 30, lineHeight: 1.3, marginTop: 20, color: "#FFFFFF" }}>
+          Increase efficiency and reduce costs. Let&apos;s automate your processes.
+        </div>
+        <div style={{ display: "flex", fontSize: 30, marginTop: 36, color: "#C83803" }}>
           geekatyourspot.com
         </div>
       </div>
