@@ -342,6 +342,14 @@ Both are verified.
   - **Products.** No node has an `@id` now. Each `mentions` entry and each tool page's `about` carries the product's name and vendor URL in place, so a product is the same name and URL on every page instead of one shared id.
   - **Organization.** It's still printed in full on every page, without an `@id`. Every publisher, author and provider names it by its name and `https://geekatyourspot.com`.
 
+- **Structured data hardened on 2026-10-22 (`0aab340`), at the owner's direction.** The same note is SA M5.
+  - **Blog exports.** The loader in `src/lib/content-writer/content.ts` (the owner restored the folder's name; the files are `content.ts` and `article-sections.ts`) now parses each export's `ld+json` block into an object, and the blog route prints it through `safeJsonLd` like every hand-written node. A block that is not JSON prints nothing. Before, the string was cut out with a regular expression and printed as it was.
+  - **Home page.** It serialises through `safeJsonLd` too; it was the last page using `JSON.stringify`.
+  - **Business node.** `geo` is the Business Profile pin, 26.48314, -80.09532, as `GeoCoordinates` (CA13).
+  - **Dead files.** The five `.html` files under `src/components/tools/marketing/ai-content-creation-workflow/` that carried their own `ld+json` and that nothing imported are deleted.
+  - **A check.** `scripts/check-faq-schema.ts` reads every prerendered page after `next build`, parses each `ld+json` block, and fails when a FAQPage question is not in the page's visible text or a block is not JSON, the mismatch H10 found by hand. `npm run build` runs it: 428 pages, 82 with FAQPage, 852 questions, 0 findings.
+  - Still open: no email address anywhere in the markup, which needs the owner's address and his decision to publish it.
+
 ### H10. The approval workflows pillar's FAQ is about data entry
 
 This is verified.

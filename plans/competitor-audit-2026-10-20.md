@@ -370,9 +370,9 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
   - The Organization and LocalBusiness node is on every page; the audited deploy, `8ce8b28`, had it on the home page only.
   - It now names Jeff Martin as `founder` and carries `hasMap` and the profile in `sameAs`.
 - **Still missing or questionable.**
-  - `geo`: GBP pin 26.48314, -80.09532.
-  - `sameAs` still lists `https://twitter.com/geekatyourspot`, a handle GEO H7 could not find as the business's. `sameAs` should list only profiles the business controls; this waits on the X handle decision (SA M5, L7).
-  - `foundingDate` says 2024, which waits on GEO decision 9.
+  - `geo`: GBP pin 26.48314, -80.09532. **Added on 2026-10-22 (`0aab340`)** as `GeoCoordinates` on the business node.
+  - `sameAs` still lists `https://twitter.com/geekatyourspot`, a handle GEO H7 could not find as the business's. `sameAs` should list only profiles the business controls; this waits on the X handle decision (SA M5, L7). **Stale when written:** the handle was removed on 2026-10-20 (`f961b5e`, SA M5); `sameAs` holds the Maps place, Facebook and LinkedIn.
+  - `foundingDate` says 2024, which waits on GEO decision 9. **Stale when written:** the owner decided 2024 on 2026-10-20 (GEO M5, decision 9; SA M5). Nothing waits.
 - **FAQ markup.** Several reports say Google retired FAQ rich results for all sites on 2026-05-07; no Google post confirming it was found.
   - The site's FAQPage markup on 81 pages earns nothing in Google, but it does no harm while the questions are visible.
   - 13 of the 19 rivals use FAQPage too.
