@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -27,9 +29,9 @@ export default function RightFitSection() {
         immediate benefits of fraud prevention and efficiency but also the long-term advantages of a system
         that evolves with their needs.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <button type="button" data-scheduler-link id={`tools-accounting-fraud-controls-medius-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <Link href="#consultationAppointment2xl" id={`tools-accounting-fraud-controls-medius-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
-        </button>.</p>
+        </Link>.</p>
     </>
   );
 

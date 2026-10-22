@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
@@ -29,12 +30,12 @@ export default function GlossaryHeroSection({
               </h1>
               <p className="pt-3 text-xl text-white shadow-text">{summary}</p>
               <div className="pt-6">
-                <button type="button" data-scheduler-link
+                <Link href="#consultationAppointment2xl"
                   id={SCHEDULER_HERO_LINK_ID}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -51,12 +52,12 @@ export default function GlossaryHeroSection({
               </h1>
               <p className="pt-3 text-2xl text-white shadow-text">{summary}</p>
               <div className="pt-6">
-                <button type="button" data-scheduler-link
+                <Link href="#consultationAppointment2xl"
                   id={`${SCHEDULER_HERO_LINK_ID}-lg`}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-span-5 flex min-h-screen flex-col items-center justify-center">

@@ -35,9 +35,9 @@ export default function NextStepsSection() {
         maximizing the benefits of automation.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <button type="button" data-scheduler-link id={`use-cases-accounting-accounts-receivable-next-steps-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <Link href="#consultationAppointment2xl" id={`use-cases-accounting-accounts-receivable-next-steps-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </button>.</p>
+        </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does automated AR improve the accuracy of a&nbsp;<Link id={`use-cases-accounting-accounts-receivable-next-steps-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#C83803] hover:underline">cash flow forecast</Link>?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>

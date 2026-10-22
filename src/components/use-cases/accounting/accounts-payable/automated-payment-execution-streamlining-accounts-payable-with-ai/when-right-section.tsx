@@ -56,9 +56,9 @@ export default function WhenRightSection() {
         resources more effectively and improve overall financial management.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <button type="button" data-scheduler-link id={`use-cases-accounting-payment-execution-when-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <Link href="#consultationAppointment2xl" id={`use-cases-accounting-payment-execution-when-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </button>.</p>
+        </Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
         <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>

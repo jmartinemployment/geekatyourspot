@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -27,9 +29,9 @@ export default function RightFitSection() {
         tool effectively but also extract maximum value from its capabilities. This partnership can lead to
         significant improvements in efficiency, accuracy, and financial insight.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when&nbsp;<button type="button" data-scheduler-link
+        Answer these questions when&nbsp;<Link href="#consultationAppointment2xl"
         id={`tools-accounting-spreadsheet-data-takethehelm-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking your free
-        consultation</button>.</p>
+        consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Offer a free &quot;Cash Flow Fragility Audit&quot; to prospects. Have them send you their current manual Excel forecast. Point out the broken links, the hard-coded numbers that are already out of date, and the formulas that will break if they add a new row. Then, show them a video mockup of how that exact same spreadsheet looks when powered seamlessly by your partner software&#39;s live data feed.</li>
         <li>How much time does your team spend manually collecting, consolidating, and updating cash flow data each week or month?</li>

@@ -3,9 +3,10 @@ import { SCHEDULER_ID } from "@/components/shared/scheduler/scheduler-id";
 
 /**
  * The scheduler section. The section, the heading and the copy render on the server;
- * SchedulerLoader brings in the interactive calendar when the section nears the viewport, and
- * scrolls here when a `data-scheduler-link` button is pressed. The section takes focus then, so
- * the next Tab moves through the calendar.
+ * SchedulerLoader brings in the interactive calendar when the section nears the viewport. The
+ * section is the target of every `#consultationAppointment2xl` link, on the site and from outside
+ * it, and it can take focus (tabIndex -1), so the next Tab after arriving moves through the
+ * calendar.
  */
 export function SchedulerShell(): React.JSX.Element {
   return (

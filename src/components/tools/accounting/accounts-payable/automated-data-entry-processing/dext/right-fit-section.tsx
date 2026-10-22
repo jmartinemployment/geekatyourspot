@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -20,9 +22,9 @@ export default function RightFitSection() {
         that you leverage the platform&#39;s capabilities to their fullest.</p>
       <p className="text-base text-white shadow-text pt-3">
         To explore how Dext can transform your accounting processes,&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-dext-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <Link href="#consultationAppointment2xl" id={`tools-accounting-dext-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a consultation
-        </button>&nbsp;with Geek @ Your Spot LLC today.</p>
+        </Link>&nbsp;with Geek @ Your Spot LLC today.</p>
     </>
   );
 

@@ -49,15 +49,14 @@ function renderInline(nodes: readonly InlineNode[], context: RenderContext): Rea
 
     if (node.kind === "scheduler") {
       return (
-        <button
+        <Link
           key={index}
-          type="button"
-          data-scheduler-link
+          href="#consultationAppointment2xl"
           id={`${schedulerLinkId(position)}${context.idSuffix}`}
           className={context.linkClassName}
         >
           {children}
-        </button>
+        </Link>
       );
     }
 

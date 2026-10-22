@@ -23,9 +23,9 @@ export default function OverviewSection() {
         efficiency and bolster security. Whether you&#39;re a small business or a large enterprise, integrating
         AI-powered automation into your workflow is no longer a luxury. It&#39;s a necessity to stay
         competitive. Ready to see the change for yourself?&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-avidxchange-overview-demonstration${idSuffix}`} className="text-[#C83803] hover:underline">
+        <Link href="#consultationAppointment2xl" id={`tools-accounting-avidxchange-overview-demonstration${idSuffix}`} className="text-[#C83803] hover:underline">
           Book a demonstration
-        </button>&nbsp;today and watch your AP process transform.</p>
+        </Link>&nbsp;today and watch your AP process transform.</p>
     </>
   );
 

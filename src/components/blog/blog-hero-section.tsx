@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
@@ -55,12 +56,12 @@ export function BlogHeroSection({
             </p>
 
             <div className="pt-6">
-              <button type="button" data-scheduler-link
+              <Link href="#consultationAppointment2xl"
                 id={SCHEDULER_HERO_LINK_ID}
                 className="btn btn-primary"
               >
                 Get Your Free AI Assessment
-              </button>
+              </Link>
             </div>
           </div>
 

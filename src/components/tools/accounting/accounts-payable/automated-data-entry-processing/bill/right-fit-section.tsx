@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -25,9 +27,9 @@ export default function RightFitSection() {
         deliver.</p>
       <p className="text-base text-white shadow-text pt-3">
         Ready to take the next step?&nbsp;
-        <button type="button" data-scheduler-link id={`tools-accounting-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <Link href="#consultationAppointment2xl" id={`tools-accounting-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book a consultation
-        </button>&nbsp;with Geek @ Your Spot LLC today and discover how Bill can elevate your financial
+        </Link>&nbsp;with Geek @ Your Spot LLC today and discover how Bill can elevate your financial
         operations.</p>
     </>
   );

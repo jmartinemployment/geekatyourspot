@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
@@ -20,12 +21,12 @@ export default function HeroSection() {
                 {summary}
               </p>
               <div className="pt-6">
-                <button type="button" data-scheduler-link
+                <Link href="#consultationAppointment2xl"
                   id={SCHEDULER_HERO_LINK_ID}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -44,12 +45,12 @@ export default function HeroSection() {
                 {summary}
               </p>
               <div className="pt-6">
-                <button type="button" data-scheduler-link
+                <Link href="#consultationAppointment2xl"
                   id={`${SCHEDULER_HERO_LINK_ID}-lg`}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">

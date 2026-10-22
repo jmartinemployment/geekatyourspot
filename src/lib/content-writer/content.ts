@@ -215,6 +215,9 @@ function datePublishedFromJsonLd(jsonLd: Record<string, unknown> | null): string
   return jsonLd ? visit(jsonLd) : null;
 }
 
+/** The scheduler link, the one # URL the site uses: the scheduler section is on every page. */
+const SCHEDULER_HREF = "#consultationAppointment2xl";
+
 const ALLOWED_TAGS = new Set([
   "p",
   "h2",
@@ -224,7 +227,6 @@ const ALLOWED_TAGS = new Set([
   "ol",
   "li",
   "a",
-  "button",
   "strong",
   "em",
   "b",
@@ -330,18 +332,17 @@ function sanitizeBody(rawBody: string, headline: string): string {
     .trim();
 
   // A link whose target has no page keeps its words and loses the anchor, and so does a link with
-  // a # in it: the site uses no # URLs.
+  // a # in it, except the scheduler link: #consultationAppointment2xl is the one # URL the site
+  // uses, the scheduler section on every page.
   body = body.replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi, (anchor, attrs: string, inner: string) => {
     const href = attrs.match(/\shref="([^"]*)"/i)?.[1] ?? "";
+    if (href === SCHEDULER_HREF) return anchor;
     if (!/^(https?:|\/|mailto:)/i.test(href) || href.includes("#")) return inner;
     return internalizeHref(href) === null ? inner : anchor;
   });
 
-  // The only button an export carries is the one that scrolls to the scheduler. Any other keeps its
-  // words and loses the tag.
-  body = body.replace(/<button\b([^>]*)>([\s\S]*?)<\/button>/gi, (button, attrs: string, inner: string) =>
-    /\sdata-scheduler-link\b/i.test(attrs) ? button : inner,
-  );
+  // An export carries no buttons. One that does keeps its words and loses the tag.
+  body = body.replace(/<button\b[^>]*>([\s\S]*?)<\/button>/gi, "$1");
 
   // Some exports repeat the headline as the first <h2>; the page already prints it.
   const leadingH2 = body.match(/^<h2[^>]*>([\s\S]*?)<\/h2>/i);
@@ -359,14 +360,13 @@ function sanitizeBody(rawBody: string, headline: string): string {
 
     if (tagName === "a") {
       const href = attrs.match(/\shref="([^"]*)"/i)?.[1] ?? "";
-      // The passes above already unwrapped every anchor that has no page or holds a #.
+      if (href === SCHEDULER_HREF) return `<a href="${SCHEDULER_HREF}">`;
+      // The passes above already unwrapped every other anchor that has no page or holds a #.
       const safeHref = internalizeHref(href);
       if (safeHref === null) return "";
       const external = /^https?:/i.test(safeHref);
       return `<a href="${safeHref}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>`;
     }
-
-    if (tagName === "button") return "<button data-scheduler-link>";
 
     if (tagName === "img") {
       const src = attrs.match(/\ssrc="([^"]*)"/i)?.[1] ?? "";

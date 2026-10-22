@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -57,8 +59,8 @@ export default function RightFitSection() {
         are and where you want your marketing to be.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<button type="button" data-scheduler-link id={`tools-marketing-intelligent-content-generation-frase-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
-        your free consultation</button>.</p>
+        when&nbsp;<Link href="#consultationAppointment2xl" id={`tools-marketing-intelligent-content-generation-frase-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</Link>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
         <li>When you create a primary content piece (like a long-form article or case study), what is your process for transforming it into emails, LinkedIn updates, or Meta ads? Is that handled manually or skipped entirely due to time constraints?</li>

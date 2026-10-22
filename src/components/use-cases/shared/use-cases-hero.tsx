@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
@@ -33,12 +34,12 @@ export default async function UseCasesHeroSection({ title, summary, department, 
                 {summary}
               </p>
               <div className="pt-6">
-                <button type="button" data-scheduler-link
+                <Link href="#consultationAppointment2xl"
                   id={SCHEDULER_HERO_LINK_ID}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -57,12 +58,12 @@ export default async function UseCasesHeroSection({ title, summary, department, 
                 {summary}
               </p>
               <div className="pt-6">
-                <button type="button" data-scheduler-link
+                <Link href="#consultationAppointment2xl"
                   id={`${SCHEDULER_HERO_LINK_ID}-lg`}
                   className="btn btn-primary"
                 >
                   Get Your Free AI Assessment
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
