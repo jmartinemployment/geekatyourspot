@@ -20,26 +20,36 @@ Why it matters: a prediction for a past year tells AI answers and readers that a
 
 Nothing here is indexed until `ALLOW_INDEXING` is set. The two export files aren't published, so they matter only if those posts are laid out later.
 
+## Found on 2026-10-22: the sentence is live
+
+The figure crawl for document 34 found the sentence on a reachable page. It reads "Looking at the data, a report by Gartner predicts that by 2025, 50% of businesses will have adopted AI-driven financial forecasting tools." It is on `/blog/accounting/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai`, and it is row F565 in document 34.
+
+The earlier recheck missed it because it searched `src` and `content-writer-output` only. The blog route (`src/app/(site)/blog/[department]/[...slug]/page.tsx`) loads post bodies through `src/lib/content-writer-disabled2/content-disabled.ts`, which reads the current exports from `content-writer-output/` and archived exports from `backup/`. This post's body is `backup/accounting/cash-flow-forecasting/blog/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai.html`, a tracked file. So `backup/` is a live source for blog pages, and any search for site text has to include it. It is the only file under `backup/` that mentions Gartner.
+
 ## What I need from you
 
-1. How the audits record the original finding. The sentence can't be found today, so the choice is to mark it as no longer present in both audits, or to keep it open until the page it was on is identified.
-2. What to do with the two export lines:
-   - **Fix them now,** by removing the 2025 prediction and sourcing or removing the Gartner claim. The files are clean if those posts are ever published.
-   - **Fix them only if those posts are laid out.** No edits now. `content-writer-output` is the committed raw-content store, so changes there are edits to your writer's output.
+1. For the live sentence, choose one:
+   - **Source it.** Find the Gartner report, link it with its date, and reword the prediction as a past-tense claim, since 2025 has passed. It only works if the report says what the sentence says.
+   - **Reword it without the figure.** The point about adoption stays; the prediction and the 50% go.
+   - **Delete it.**
+2. What to do with the two unpublished export lines in `content-writer-output/blog/`:
+   - **Fix them now,** by removing the 2025 prediction and sourcing or removing the Gartner claim.
+   - **Fix them only if those posts are laid out.** `content-writer-output` is the committed raw-content store, so changes there are edits to your writer's output.
    - **Leave them.**
 
 ## My recommendation
 
-Recommendation: record the original sentence as no longer present in both audits, with today's recheck, and fix the two export lines only if those posts are laid out. Neither line is on a reachable page, and editing the raw export store changes your writer's output for posts that aren't live.
+Recommendation: delete the live sentence, because a prediction for a past year is stale however it is sourced, and fix the two export lines only if those posts are laid out.
 
 ## The plan once you decide
 
-1. Add a dated recheck note under GEO H3 in `plans/geo-seo-audit-2026-10-20.md`, and the matching note in `plans/seo-audit-2026-10-20.md` if it references H3, with the commit hash.
-2. If you choose to fix the export lines now, edit the two sentences in the two `content-writer-output/blog/*.html` files: remove the 2025 prediction, and link the Gartner study with its date or remove the claim.
+1. Edit the sentence in the backup export file named above. The blog route renders the file, so the page changes with it.
+2. Record the change under GEO H3 in `plans/geo-seo-audit-2026-10-20.md` with the commit hash, and tick row F565 in document 34.
+3. If you choose to fix the export lines now, edit the two sentences in the two `content-writer-output/blog/*.html` files.
 
 ## How I'll check it, and its status
 
-- A text search of `src` and `content-writer-output` for "by 2025" and "Gartner" returns only lines that carry a dated source.
-- Both audits carry the same note.
+- A text search of `src`, `content-writer-output` and `backup` for "by 2025" and "Gartner" returns only lines that carry a dated source.
+- The page no longer carries the sentence on a local build.
 
 **Status:** Open, waiting on your decision.
