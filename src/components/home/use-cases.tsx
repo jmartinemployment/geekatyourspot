@@ -698,11 +698,11 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring", "Lead Enrichment and Predictive Scoring")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
-                                                    Lead Enrichment and Predictive Scoring:
+                                                    AI Lead Enrichment &amp; Predictive Scoring:
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs">
@@ -1703,11 +1703,11 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring", "Lead Enrichment and Predictive Scoring")}-lg`}
-                                                href="/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}-lg`}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
-                                                    Lead Enrichment and Predictive Scoring:
+                                                    AI Lead Enrichment &amp; Predictive Scoring:
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-sm">

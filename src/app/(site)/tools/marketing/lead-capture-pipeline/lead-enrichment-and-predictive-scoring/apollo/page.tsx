@@ -39,7 +39,7 @@ const jsonLd: Graph = {
                 "@type": "Thing",
                 "name": TITLE,
                 "url": "https://www.apollo.io/",
-                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring" }
             }
         },
         {

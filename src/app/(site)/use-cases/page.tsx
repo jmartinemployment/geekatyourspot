@@ -239,7 +239,7 @@ const DEPARTMENTS: Department[] = [
         slug: "lead-enrichment-and-predictive-scoring",
         description:
           "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.",
-        href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring",
+        href: "/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
       },
       {
         title: "SEO Blog and Article Generation",

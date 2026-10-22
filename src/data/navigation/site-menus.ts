@@ -31,7 +31,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
           { href: "/use-cases/marketing/ai-sales-force-automation-software", label: "Intelligent Lead Capture Pipeline" },
           { href: "/use-cases/marketing/lead-capture-pipeline/ai-receptionist", label: "Intelligent Receptionist" },
           { href: "/use-cases/marketing/lead-capture-pipeline/ai-chatbot", label: "Cross-Platform Chatbot" },
-          { href: "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring", label: "Lead Enrichment & Predictive Scoring" },
+          { href: "/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", label: "Lead Enrichment & Predictive Scoring" },
         ],
       },
       {
@@ -107,7 +107,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
           { href: "/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "Intelligent After-Hours Receptionist" },
           { href: "/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "Cross-Platform Chatbot Lead Capture" },
           { href: "/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales", label: "Lead Enrichment to Close More Sales" },
-          { href: "/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses", label: "AI Lead Scoring for Small Businesses" },
+          { href: "/blog/marketing/lead-capture-pipeline/ai-lead-scoring", label: "AI Lead Scoring" },
           { href: "/blog/marketing/smart-chatbots-for-marketing-transforming-customer-engagement", label: "Smart Chatbots That Engage Customers" },
         ],
       },

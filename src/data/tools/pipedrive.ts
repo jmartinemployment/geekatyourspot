@@ -12,7 +12,7 @@ export const pipedriveContent: ToolPageContent = {
   "description": "Optimize sales with Pipedrive's AI lead scoring, prioritizing high-potential leads for better conversion rates.",
   "heroSummary": "Transform your sales process with Pipedrive's AI-powered lead scoring, ensuring focus on the most promising leads.",
   "keywords": "Lead Scoring",
-  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses",
+  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-lead-scoring",
   "sections": [
     {
       "title": "Overview",

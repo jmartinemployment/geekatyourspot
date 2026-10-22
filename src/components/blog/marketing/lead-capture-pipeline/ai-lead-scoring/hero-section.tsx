@@ -3,7 +3,7 @@ import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 export default function HeroSection() {
-  const title = "AI Lead Scoring for Small Businesses";
+  const title = "AI Lead Scoring";
   const summary = <>Stop chasing every lead. Use <GlossaryLink slug="lead-scoring">AI-driven lead scoring</GlossaryLink> to unify fragmented data, rank every prospect by real buying intent, and focus your small business team on leads most likely to convert.</>;
 
   return (

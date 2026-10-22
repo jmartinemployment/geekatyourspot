@@ -20,7 +20,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const TITLE = "Lead Enrichment & Predictive Scoring";
 const DESCRIPTION =
     "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.";
-const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring";
+const CANONICAL = "/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

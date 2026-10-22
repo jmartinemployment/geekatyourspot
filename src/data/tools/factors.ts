@@ -20,7 +20,7 @@ export const factorsContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/lead-enrichment-predictive-scoring",
+    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
   "sections": [
     {"title": "Overview", "description": "Picture a small marketing team in West Palm Beach."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "For most small businesses in Miami-Dade, Broward, and Palm Beach, the lead pipeline is a black hole."},
