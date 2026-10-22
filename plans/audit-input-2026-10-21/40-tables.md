@@ -10,10 +10,10 @@ What exists today (rechecked 2026-10-21):
 - The only content table on the site is the nexus threshold table in `src/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/mechanics-section.tsx:24`, added with the C1 fix on 2026-10-20.
 - The other `<table>` matches in `src` are the UI component (`src/components/ui/table.tsx`) and two email templates, which visitors never see as page content.
 
-The three tables the audit asks for, and where that content sits now (rechecked 2026-10-21):
+The three tables the audit asked for, one of them struck, and where that content sits now (rechecked 2026-10-21):
 - **Tool pricing on each pillar.** No pillar lists its tools' prices side by side. Prices sit in each tool page's pricing section, in prose.
 - **The lead scoring model.** `src/components/blog/marketing/lead-capture-pipeline/ai-driven-lead-scoring-for-small-businesses/scoring-model-section.tsx` gives the six positive criteria (15, 15, 20, 25, 10 and 15 points, which total 100) and the negative criteria as two bullet lists, and the thresholds in a paragraph.
-- **Receptionist pricing models.** The intelligent receptionist pillar describes per-call billing in a paragraph, for example Voksha's flat $1 for each extra call (`src/components/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/decisions-section.tsx:20-26`).
+- **Receptionist pricing models: struck on 2026-10-22.** The owner read the intelligent receptionist pillar and found one price on it, Voksha's flat $1 for each extra call, and one paragraph contrasting per-call, per-minute and fixed monthly billing (`decisions-section.tsx:20-24`). That is a sentence, not a table; a table there would be empty. The audit asked for it in error. If the five receptionist tools' prices are ever gathered side by side, that is the first item above, not this one.
 
 ## What development mode means for it
 
@@ -22,7 +22,7 @@ Tables can be added at any time, and none of them reaches search results until l
 ## What I need from you
 
 1. **Which tables to build.**
-   - All three: the most facts in a form engines can lift, but the two price tables need rechecking whenever a vendor changes its prices.
+   - Both remaining tables: the most facts in a form engines can lift, but the price table needs rechecking whenever a vendor changes its prices.
    - The lead scoring table only: no prices in it, so nothing goes stale.
    - None: the content stays as it is.
 2. **Who checks the prices.**
