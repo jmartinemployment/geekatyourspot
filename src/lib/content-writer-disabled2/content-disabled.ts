@@ -6,7 +6,6 @@ import path from "path";
  * entries the app can render. Two source trees feed this:
  *
  *   content-writer-output/<collection>/<slug>.html   -- current export
- *   backup/**\/<slug>.html                           -- archived exports
  *
  * Every published article carries a <link rel="canonical"> that already encodes
  * its collection and department (e.g. /blog/marketing/<slug>), so that is what
@@ -51,7 +50,6 @@ export type ContentPage = ContentEntry & {
 
 const ROOT = process.cwd();
 const EXPORT_DIR = path.join(ROOT, "content-writer-output");
-const BACKUP_DIR = path.join(ROOT, "backup");
 
 const COLLECTION_BY_SEGMENT = new Map<string, Collection>(
   COLLECTIONS.map((collection) => [collection, collection]),
@@ -354,8 +352,9 @@ function sanitizeBody(rawBody: string, headline: string): string {
 function loadAll(): Map<string, ParsedFile> {
   const byHref = new Map<string, ParsedFile>();
 
-  // Backup first, so a current export of the same article overwrites it.
-  const files = [...walkHtmlFiles(BACKUP_DIR), ...walkHtmlFiles(EXPORT_DIR)];
+  // Only the committed raw-content store is served. backup/ is an archive, never a page source
+  // (Jeff, 2026-10-22); the 11 posts it was serving moved into content-writer-output/ that day.
+  const files = walkHtmlFiles(EXPORT_DIR);
 
   for (const file of files) {
     const parsed = parseFile(file);

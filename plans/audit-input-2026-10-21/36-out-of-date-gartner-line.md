@@ -24,7 +24,7 @@ Nothing here is indexed until `ALLOW_INDEXING` is set. The two export files aren
 
 The figure crawl for document 34 found the sentence on a reachable page. It reads "Looking at the data, a report by Gartner predicts that by 2025, 50% of businesses will have adopted AI-driven financial forecasting tools." It is on `/blog/accounting/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai`, and it is row F565 in document 34.
 
-The earlier recheck missed it because it searched `src` and `content-writer-output` only. The blog route (`src/app/(site)/blog/[department]/[...slug]/page.tsx`) loads post bodies through `src/lib/content-writer-disabled2/content-disabled.ts`, which reads the current exports from `content-writer-output/` and archived exports from `backup/`. This post's body is `backup/accounting/cash-flow-forecasting/blog/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai.html`, a tracked file. So `backup/` is a live source for blog pages, and any search for site text has to include it. It is the only file under `backup/` that mentions Gartner.
+The earlier recheck missed it because it searched `src` and `content-writer-output` only. The blog route (`src/app/(site)/blog/[department]/[...slug]/page.tsx`) loads post bodies through `src/lib/content-writer-disabled2/content-disabled.ts`, which reads the current exports from `content-writer-output/` and archived exports from `backup/`. This post's body was `backup/accounting/cash-flow-forecasting/blog/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai.html`. On 2026-10-22 the owner ruled that `backup/` is an archive and not a page source, so that file and the ten other posts the loader was serving from `backup/` moved into `content-writer-output/`, and the loader now reads only that store. The body is now `content-writer-output/accounting/cash-flow-forecasting/blog/unlocking-the-secrets-to-effective-cash-flow-forecasting-with-ai.html`, and the page is unchanged.
 
 ## What I need from you
 
@@ -43,13 +43,13 @@ Recommendation: delete the live sentence, because a prediction for a past year i
 
 ## The plan once you decide
 
-1. Edit the sentence in the backup export file named above. The blog route renders the file, so the page changes with it.
+1. Edit the sentence in the export file named above. The blog route renders the file, so the page changes with it.
 2. Record the change under GEO H3 in `plans/geo-seo-audit-2026-10-20.md` with the commit hash, and tick row F565 in document 34.
 3. If you choose to fix the export lines now, edit the two sentences in the two `content-writer-output/blog/*.html` files.
 
 ## How I'll check it, and its status
 
-- A text search of `src`, `content-writer-output` and `backup` for "by 2025" and "Gartner" returns only lines that carry a dated source.
+- A text search of `src` and `content-writer-output` for "by 2025" and "Gartner" returns only lines that carry a dated source.
 - The page no longer carries the sentence on a local build.
 
 **Status:** Open, waiting on your decision.
