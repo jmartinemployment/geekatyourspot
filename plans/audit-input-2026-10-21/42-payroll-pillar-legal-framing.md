@@ -4,7 +4,7 @@ Audit reference: GEO L15 in `plans/geo-seo-audit-2026-10-20.md`.
 
 ## The problem
 
-The payroll misclassification pillar, at `/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax`, covers worker classification and payroll tax.
+The payroll misclassification pillar, at `/use-cases/accounting/tax-compliance-regulations/ai-payroll-software`, covers worker classification and payroll tax.
 - That's a legal and money topic, where Google holds pages to a higher standard of expertise and sourcing.
 - Its search results are dominated by law firms and government agencies.
 - AI answers on legal questions favor pages that cite the law itself.
@@ -22,6 +22,21 @@ The audit suggests three things:
 - add a not-legal-advice note.
 
 The third conflicts with your rule on disclaimers. On 2026-10-20 you said "I don't like the disclaimer bs", and since then nothing illustrative or cautionary has carried a separate label.
+
+## The decision, 2026-10-22
+
+The rule was settled in the GeekBackend session, and the owner agreed with the line as written there:
+
+> A point of law is stated only as a passage in the evidence states it; where the piece turns on one and the evidence is silent, the writer names the agency that decides it, the IRS or the state's department of revenue, and says the reader's accountant or employment attorney makes the call, in the sentence, never as a note. That matches the auditor's in-sentence framing and your rule against disclaimers. No code can check the first half, as none checks it now.
+
+The owner's addition: such a passage is set in a `<blockquote>` whose `cite` is the source URL.
+
+Against the three questions below:
+1. Citations: yes, and stronger than a link. A point of law appears only as the source's own words, quoted in a blockquote with the source URL as its `cite`.
+2. The not-legal-advice point: inside the sentence, never as a note. Where the piece turns on a point of law the evidence does not state, the sentence names the agency that decides it and says the reader's accountant or employment attorney makes the call.
+3. Implementation framing: that sentence is the framing.
+
+The rule belongs to the writer, in GeekBackend, and governs what it produces for pillars, blog posts and tool pages. This page is unchanged by the decision. Nothing in code checks the first half of the rule, as nothing checks it now.
 
 ## What development mode means for it
 
@@ -57,4 +72,4 @@ Citations are what separate this page from the generic articles it competes with
 - The phone and desktop copies match.
 - The FAQ text matches its FAQPage markup.
 
-**Status:** Open, waiting on your decision.
+**Status:** Closed 2026-10-22, by your decision: the rule above, kept here as the note. The page is unchanged and the plan above was not executed.

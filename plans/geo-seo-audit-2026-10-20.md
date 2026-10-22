@@ -611,6 +611,7 @@ This is verified.
   - **Closed on 2026-10-21, at the owner's direction.** Use-case URLs reached 162 characters before the renames, and the longest is now 103. The 80 tool and blog URLs still over 100 characters were not part of the decision. The same note is in SA's change list.
 - **L14. Glossary topic mismatch.** About 59% of terms are chat and contact-center vocabulary, and 2% are accounting, although accounting is half the tool pages. Accounting terms people search for have no page: accounts receivable, three-way match, economic nexus, DSO and invoice OCR.
 - **L15. YMYL payroll pillar.** The payroll misclassification pillar competes with law firms. Frame it as implementation work, cite Florida statute, and add a not-legal-advice note.
+  - **Closed on 2026-10-22, by the owner's decision.** The rule, settled in GeekBackend and recorded in document 42: a point of law is stated only as a passage the evidence states, set in a blockquote whose `cite` is the source URL; where the piece turns on one and the evidence is silent, the sentence names the agency that decides it and says the reader's accountant or employment attorney makes the call, never as a note. The rule governs what the writer produces; the page is unchanged. SA has no counterpart finding.
 - **L16. Smaller local items.**
   - Hours appear only in JSON-LD.
   - There is no bilingual statement, though Miami competitors offer Spanish.
