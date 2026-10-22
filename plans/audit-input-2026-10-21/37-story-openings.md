@@ -16,6 +16,12 @@ Why it matters: AI answers and search snippets take the first direct statement u
 
 The change is copy only. It can be done gradually before launch, and nothing is indexed until `ALLOW_INDEXING` is set.
 
+## Decided for new pages on 2026-10-22: the writer opens with a question
+
+The owner is instructing GeekBackend to use the Question Lede instead of the story lede, because the story lede is the problem this document describes. New exports arrive with the answer up front, so this item no longer grows. The owner also pointed GeekBackend at the SEO and GEO skills to settle any ambiguity in its prompts, and a pasted citation constraint that would have conflicted with the writer's no-URL rule was disregarded by the writer and is withdrawn.
+
+Still open: the pages already on the site. The 26 component folders that open with "Picture" or "Imagine" do not change until they are rewritten by hand or laid out again from a new export, so the questions below stand for those pages only.
+
 ## What I need from you
 
 "Copy rewrite" here means putting the answer first. Each section's opening sentence states the point plainly, and the story, if it stays, moves after it. No layout changes.
