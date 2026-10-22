@@ -1,6 +1,6 @@
-# Layout log: figures removed or pages refused
+# Figures removed from pages
 
-The layout-side mirror of the content writer's Run log (GccInventedFigures). A figure, price or percentage whose sentence or paragraph names no source never ships: the sentence is deleted and named here, and a page whose figure cannot be removed is refused and named here. The rule is in both layout prompts under "Figures: nothing unsourced ships" (Jeff, 2026-10-22). The check is `npm run figures -- <folder or file>`.
+One line per sentence deleted because no source could be found for its figure, at the owner's instruction of 2026-10-22: find a source, otherwise delete it.
 
-| Date | Page | Figure | Sentence removed, or "page refused" | Reason |
+| Date | Page | Figure | Sentence removed | Searched |
 |---|---|---|---|---|
