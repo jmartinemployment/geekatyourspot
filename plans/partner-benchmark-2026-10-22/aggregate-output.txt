@@ -1,0 +1,312 @@
+partner homes measured: 98; partner content pages: 177; partner sites: 105
+blocked/unfetched partner homes: ['6sense.com', 'adp.com', 'lightyear.cloud', 'manychat.com', 'midjourney.com', 'netsuite.com', 'perplexity.ai', 'plooto.com', 'quickbooks.intuit.com']
+
+### HOME PAGES: geekatyourspot home vs partner homes
+| Metric | home | Partners: median (p25, p75) |
+|---|---|---|
+| Content words in main region | 2603 | 951 (p25 597.25, p75 1532.5; n=98) |
+| Content words, each block counted once | 1419 | 597 (p25 266, p75 1164.5; n=98) |
+| Duplicate blocks (share) | 0.5 | 0.01 (p25 0, p75 0.1125; n=98) |
+| Distinct H2 texts | 12 | 8.5 (p25 5, p75 12; n=98) |
+| Paragraphs | 102 | 27 (p25 11.75, p75 47; n=98) |
+| Average paragraph words | 12.2 | 16.65 (p25 13.4, p75 20.425; n=90) |
+| Average sentence words | 11.6 | 16.45 (p25 13.4, p75 19.025; n=90) |
+| Flesch reading ease | 32.2 | 43.2 (p25 37.275, p75 53.6; n=80) |
+| H2 count | 19 | 9 (p25 5.75, p75 12.25; n=98) |
+| H3 count | 12 | 12 (p25 5, p75 20; n=98) |
+| H1 count | 2 | 1 (p25 1, p75 1; n=98) |
+| Heading level skips | 0 | 0 (p25 0, p75 1; n=98) |
+| Question headings | 0 | 0 (p25 0, p75 1; n=98) |
+| Lists | 16 | 1 (p25 0, p75 3; n=98) |
+| Tables | 0 | 0 (p25 0, p75 0; n=98) |
+| Blockquotes | 0 | 0 (p25 0, p75 0; n=98) |
+| Numbers per 500 words | 5.4 | 11 (p25 5.55, p75 14.85; n=98) |
+| Percentages | 2 | 1 (p25 0, p75 5; n=98) |
+| Dollar amounts | 0 | 1 (p25 0, p75 2; n=98) |
+| "According to" | 2 | 0 (p25 0, p75 0; n=98) |
+| Outbound links in main region | 0 | 1 (p25 0, p75 4; n=98) |
+| Outbound hosts in main region | 0 | 1 (p25 0, p75 2.25; n=98) |
+| Internal links in main region | 230 | 24.5 (p25 11.75, p75 40.25; n=98) |
+| Internal links on page | 257 | 121.5 (p25 70.75, p75 186.75; n=98) |
+| Title length | 54 | 51 (p25 47, p75 58; n=98) |
+| Meta description length | 152 | 151.5 (p25 131, p75 161.5; n=98) |
+| Open Graph tags (of 6) | 6 | 5 (p25 4, p75 6; n=98) |
+| JSON-LD blocks | 2 | 1 (p25 1, p75 2; n=98) |
+| JSON-LD properties | 92 | 30 (p25 6.25, p75 59; n=98) |
+| JSON-LD sameAs links | 3 | 3.5 (p25 0, p75 8; n=98) |
+| Hreflang alternates | 0 | 0 (p25 0, p75 4.25; n=98) |
+| Images | 4 | 60.5 (p25 31.5, p75 102.25; n=98) |
+| Images with alt, % | 100 | 66 (p25 30, p75 91; n=95) |
+| Images with width and height, % | 100 | 47 (p25 3, p75 88; n=95) |
+| HTML bytes | 365056 | 309893 (p25 171845, p75 485754; n=98) |
+| Text to HTML ratio | 0.058 | 0.047 (p25 0.022, p75 0.07625; n=98) |
+| Script tags | 91 | 30 (p25 15.75, p75 46; n=98) |
+| Inline script bytes | 176211 | 33794.5 (p25 12657.8, p75 97481.5; n=98) |
+| Time to first byte, ms | 171 | 406 (p25 271.5, p75 540.25; n=98) |
+
+Shares among partners ( HOME PAGES ):
+  one H1: partners 79/98   site [home:n]
+  no H1: partners 10/98   site [home:n]
+  uses <main>: partners 67/98   site [home:Y]
+  uses <article>: partners 27/98   site [home:Y]
+  self canonical: partners 86/98   site [home:Y]
+  no canonical: partners 7/98   site [home:n]
+  title 50-60 chars: partners 41/98   site [home:Y]
+  title over 60: partners 17/98   site [home:n]
+  meta description present: partners 93/98   site [home:Y]
+  meta description 130-160: partners 51/98   site [home:Y]
+  og:image: partners 87/98   site [home:Y]
+  twitter:card: partners 89/98   site [home:Y]
+  any JSON-LD: partners 77/98   site [home:Y]
+  Organization in JSON-LD: partners 67/98   site [home:Y]
+  WebSite in JSON-LD: partners 50/98   site [home:Y]
+  WebPage in JSON-LD: partners 46/98   site [home:Y]
+  BreadcrumbList in JSON-LD: partners 21/98   site [home:Y]
+  FAQPage in JSON-LD: partners 15/98   site [home:n]
+  SoftwareApplication/Product in JSON-LD: partners 36/98   site [home:n]
+  Article/BlogPosting in JSON-LD: partners 2/98   site [home:n]
+  Person in JSON-LD: partners 17/98   site [home:Y]
+  sameAs in JSON-LD: partners 61/98   site [home:Y]
+  VideoObject in JSON-LD: partners 5/98   site [home:n]
+  invalid JSON-LD block: partners 0/98   site [home:n]
+  hreflang present: partners 34/98   site [home:n]
+  any table: partners 7/98   site [home:n]
+  any blockquote: partners 18/98   site [home:n]
+  FAQ section heading: partners 16/98   site [home:n]
+  question heading: partners 45/98   site [home:n]
+  outbound link in main region: partners 53/98   site [home:n]
+  opening paragraph is a definition: partners 3/98   site [home:n]
+  byline: partners 8/98   site [home:n]
+  <time> element: partners 1/98   site [home:n]
+  SSR (150+ words in raw HTML): partners 89/98   site [home:Y]
+  under 1,000 words: partners 52/98   site [home:n]
+  over 3,000 words: partners 2/98   site [home:n]
+  all images have alt: partners 8/98   site [home:Y]
+  images sized 100%: partners 10/98   site [home:Y]
+  lang attribute: partners 95/98   site [home:Y]
+  next.js: partners 24/98   site [home:Y]
+  webflow: partners 24/98   site [home:n]
+  wordpress: partners 19/98   site [home:n]
+  hubspot signals: partners 34/98   site [home:n]
+  HTML over 500 KB: partners 23/98   site [home:n]
+  text to HTML under 0.10: partners 84/98   site [home:Y]
+
+### CONTENT PAGES: site pillars and tool pages vs partner product/solution pages
+| Metric | pillar-ap-automation | pillar-approval-workflow | pillar-cash-flow | pillar-receptionist | tool-ramp | tool-bill | tool-tipalti | about | methodology | Partners: median (p25, p75) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Content words in main region | 4867 | 5203 | 6665 | 15352 | 5197 | 5665 | 5723 | 1061 | 3036 | 880 (p25 538.5, p75 1426; n=177) |
+| Content words, each block counted once | 2630 | 2796 | 3607 | 7811 | 2591 | 2825 | 3058 | 498 | 1579 | 574 (p25 338.5, p75 1062; n=177) |
+| Duplicate blocks (share) | 0.45 | 0.43 | 0.45 | 0.47 | 0.5 | 0.5 | 0.42 | 0.5 | 0.54 | 0 (p25 0, p75 0.07; n=177) |
+| Distinct H2 texts | 11 | 12 | 12 | 17 | 12 | 12 | 13 | 8 | 12 | 7 (p25 5, p75 10; n=177) |
+| Paragraphs | 78 | 82 | 113 | 157 | 79 | 81 | 99 | 43 | 52 | 20 (p25 11, p75 37; n=177) |
+| Average paragraph words | 54.2 | 56.1 | 50.9 | 91.6 | 58.1 | 64.0 | 55.3 | 21.1 | 46.8 | 19.7 (p25 15.1, p75 27.2; n=167) |
+| Average sentence words | 20.4 | 17.8 | 20.0 | 20.8 | 19.4 | 18.8 | 18.1 | 17.2 | 14.9 | 16.5 (p25 14.5, p75 19.1; n=167) |
+| Flesch reading ease | 7.2 | 27.7 | 9.1 | 54.3 | 23.0 | 23.2 | 21.6 | 35.9 | 60.3 | 40.8 (p25 31.725, p75 50.375; n=158) |
+| H2 count | 20 | 22 | 22 | 32 | 23 | 23 | 24 | 15 | 22 | 7 (p25 5, p75 11; n=177) |
+| H3 count | 35 | 19 | 44 | 4 | 0 | 0 | 10 | 4 | 37 | 9 (p25 3, p75 15.5; n=177) |
+| H1 count | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 1 (p25 1, p75 1; n=177) |
+| Heading level skips | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 1; n=177) |
+| Question headings | 9 | 9 | 12 | 4 | 2 | 0 | 12 | 0 | 5 | 0 (p25 0, p75 2; n=177) |
+| Lists | 14 | 4 | 18 | 4 | 6 | 4 | 2 | 4 | 12 | 1 (p25 0, p75 4; n=177) |
+| Tables | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 0; n=177) |
+| Blockquotes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 0; n=177) |
+| Numbers per 500 words | 1.2 | 0.0 | 1.0 | 0.4 | 2.1 | 2.1 | 0.7 | 17.0 | 4.1 | 5.8 (p25 2.65, p75 10; n=177) |
+| Percentages | 6 | 0 | 10 | 0 | 0 | 12 | 0 | 0 | 0 | 0 (p25 0, p75 2; n=177) |
+| Dollar amounts | 0 | 0 | 0 | 4 | 4 | 6 | 2 | 0 | 0 | 0 (p25 0, p75 0; n=177) |
+| "According to" | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 0; n=177) |
+| Outbound links in main region | 0 | 0 | 0 | 0 | 4 | 8 | 9 | 0 | 0 | 0 (p25 0, p75 3; n=177) |
+| Outbound hosts in main region | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 (p25 0, p75 2; n=177) |
+| Internal links in main region | 28 | 40 | 29 | 30 | 18 | 18 | 14 | 2 | 10 | 14 (p25 5, p75 31; n=177) |
+| Internal links on page | 55 | 67 | 56 | 57 | 45 | 45 | 41 | 29 | 37 | 114 (p25 64.5, p75 166; n=177) |
+| Title length | 48 | 43 | 47 | 38 | 62 | 62 | 81 | 40 | 38 | 50 (p25 38.5, p75 59; n=177) |
+| Meta description length | 113 | 130 | 112 | 153 | 87 | 114 | 104 | 137 | 155 | 151 (p25 133, p75 165; n=177) |
+| Open Graph tags (of 6) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 (p25 4, p75 6; n=177) |
+| JSON-LD blocks | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 1 (p25 0, p75 2; n=177) |
+| JSON-LD properties | 81 | 111 | 81 | 96 | 73 | 73 | 104 | 70 | 80 | 25 (p25 0, p75 44; n=177) |
+| JSON-LD sameAs links | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 0 (p25 0, p75 4; n=177) |
+| Hreflang alternates | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 2; n=177) |
+| Images | 12 | 3 | 14 | 3 | 3 | 3 | 3 | 7 | 3 | 40 (p25 19.5, p75 77; n=177) |
+| Images with alt, % | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 67 (p25 29, p75 94; n=171) |
+| Images with width and height, % | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 50 (p25 4, p75 96; n=171) |
+| HTML bytes | 196114 | 185100 | 241446 | 276251 | 162690 | 169903 | 185363 | 89749 | 122065 | 221988 (p25 126568, p75 447249; n=177) |
+| Text to HTML ratio | 0.192 | 0.199 | 0.207 | 0.338 | 0.23 | 0.239 | 0.228 | 0.093 | 0.156 | 0.055 (p25 0.0235, p75 0.0855; n=177) |
+| Script tags | 55 | 58 | 63 | 62 | 49 | 49 | 54 | 39 | 44 | 29 (p25 16, p75 44; n=177) |
+| Inline script bytes | 105006 | 103428 | 130247 | 133706 | 84654 | 87651 | 99118 | 44803 | 64799 | 31606 (p25 13383.5, p75 90764; n=177) |
+| Time to first byte, ms | 375 | 433 | 490 | 273 | 319 | 322 | 622 | 149 | 230 | 267 (p25 158.5, p75 452.5; n=177) |
+
+Shares among partners ( CONTENT PAGES ):
+  one H1: partners 155/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  no H1: partners 7/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  uses <main>: partners 109/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  uses <article>: partners 33/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  self canonical: partners 162/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  no canonical: partners 15/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  title 50-60 chars: partners 57/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  title over 60: partners 34/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:n] [methodology:n]
+  meta description present: partners 164/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  meta description 130-160: partners 90/177   site [pillar-ap-automation:n] [pillar-approval-workflow:Y] [pillar-cash-flow:n] [pillar-receptionist:Y] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:Y] [methodology:Y]
+  og:image: partners 147/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  twitter:card: partners 160/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  any JSON-LD: partners 130/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  Organization in JSON-LD: partners 94/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  WebSite in JSON-LD: partners 52/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  WebPage in JSON-LD: partners 93/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  BreadcrumbList in JSON-LD: partners 67/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  FAQPage in JSON-LD: partners 48/177   site [pillar-ap-automation:n] [pillar-approval-workflow:Y] [pillar-cash-flow:n] [pillar-receptionist:Y] [tool-ramp:n] [tool-bill:n] [tool-tipalti:Y] [about:n] [methodology:Y]
+  SoftwareApplication/Product in JSON-LD: partners 49/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  Article/BlogPosting in JSON-LD: partners 8/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:n] [methodology:Y]
+  Person in JSON-LD: partners 14/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  sameAs in JSON-LD: partners 78/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  VideoObject in JSON-LD: partners 3/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  invalid JSON-LD block: partners 1/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  hreflang present: partners 59/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  any table: partners 13/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  any blockquote: partners 15/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  FAQ section heading: partners 62/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:Y] [about:n] [methodology:n]
+  question heading: partners 73/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:n] [tool-tipalti:Y] [about:n] [methodology:Y]
+  outbound link in main region: partners 80/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:n] [methodology:n]
+  opening paragraph is a definition: partners 8/177   site [pillar-ap-automation:n] [pillar-approval-workflow:Y] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  byline: partners 19/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  <time> element: partners 7/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  SSR (150+ words in raw HTML): partners 176/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  under 1,000 words: partners 107/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  over 3,000 words: partners 7/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:n] [methodology:Y]
+  all images have alt: partners 29/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  images sized 100%: partners 31/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  lang attribute: partners 171/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  next.js: partners 43/177   site [pillar-ap-automation:Y] [pillar-approval-workflow:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [tool-bill:Y] [tool-tipalti:Y] [about:Y] [methodology:Y]
+  webflow: partners 45/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  wordpress: partners 32/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  hubspot signals: partners 73/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  HTML over 500 KB: partners 34/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:n] [methodology:n]
+  text to HTML under 0.10: partners 144/177   site [pillar-ap-automation:n] [pillar-approval-workflow:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [tool-bill:n] [tool-tipalti:n] [about:Y] [methodology:n]
+
+### SITE LEVEL
+  robots.txt 200: partners 97/105   site Y
+  robots names a sitemap: partners 85/105   site n
+  robots blocks everyone: partners 1/105   site Y
+  robots names an AI agent: partners 21/105   site n
+  blocks GPTBot: partners 1/105   site Y
+  blocks ClaudeBot: partners 1/105   site Y
+  blocks PerplexityBot: partners 1/105   site Y
+  blocks Google-Extended: partners 1/105   site Y
+  blocks CCBot: partners 2/105   site Y
+  blocks Bytespider: partners 6/105   site Y
+  llms.txt present: partners 49/105   site Y
+  sitemap 200: partners 90/105   site Y
+  sitemap is an index: partners 44/105   site n
+  sitemap has lastmod: partners 71/105   site Y
+  http redirects to https: partners 103/105   site Y
+  HSTS: partners 78/105   site Y
+  CSP: partners 60/105   site Y
+  X-Frame-Options: partners 48/105   site Y
+  X-Content-Type-Options: partners 56/105   site Y
+  Referrer-Policy: partners 53/105   site Y
+  Permissions-Policy: partners 23/105   site Y
+  x-robots-tag noindex: partners 0/105   site Y
+  security header count: partners 3 (p25 1.5, p75 5; n=105) site 6
+  sitemap URL counts (partners, first sitemap with urls): [1, 1, 1, 1, 2, 3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 9, 9, 10, 11, 11, 13, 13, 14, 14, 15, 15, 15, 16, 17, 18, 19, 21, 24, 25, 25, 27, 30, 43, 44, 92, 94, 98, 101, 142, 155, 160, 175, 219, 271, 278, 289, 320, 338, 365, 439, 530, 533, 538, 540, 544, 593, 623, 642, 668, 701, 815, 830, 898, 904, 939, 1085, 1376, 1664, 1754, 1843, 1910, 2560, 2675, 3291, 3655, 4034, 4471, 5806, 7152, 10105, 18619, 42626]
+  CDN/server: ['?', '?', '?', '?', 'AkamaiGHost', 'AkamaiNetStorage', 'AmazonS3', 'ESF', 'Framer/24ab00f', 'Heroku', 'Pagely-ARES/1.22.35', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudflare', 'cloudfront', 'cloudfront', 'cloudfront', 'cloudfront', 'cloudfront', 'fastly', 'fastly', 'fastly', 'nginx', 'nginx', 'nginx', 'nginx', 'nginx', 'nginx', 'nginx/1.28.3', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel', 'vercel']
+  CDN counter: [('cloudflare', 65), ('vercel', 14), ('nginx', 7), ('cloudfront', 5), ('?', 4), ('fastly', 3), ('akamainetstorage', 1), ('akamaighost', 1), ('esf', 1), ('pagely-ares', 1), ('heroku', 1), ('amazons3', 1)]
+  llms.txt partners: ['anrok.com', 'apollo.io', 'approvalmax.com', 'botpenguin.com', 'cashflowfrog.com', 'castmagic.io', 'centime.com', 'corpay.com', 'cubesoftware.com', 'dapta.ai', 'datarails.com', 'deel.com', 'factors.ai', 'fathomhq.com', 'frase.io', 'gusto.com', 'highradius.com', 'hootsuite.com', 'hyperwriteai.com', 'imagine.art', 'invoiced.com', 'jasper.ai', 'justworks.com', 'leadfeeder.com', 'lobbystack.com', 'medius.com', 'melio.com', 'myaifrontdesk.com', 'nextiva.com', 'numeral.com', 'parseur.com', 'paystand.com', 'pictory.ai', 'plooto.com', 'prophix.com', 'quaderno.io', 'rippling.com', 'smith.ai', 'snitcher.com', 'stampli.com', 'stripe.com', 'tax1099.com', 'taxcloud.com', 'upflow.io', 'voksha.com', 'writesonic.com', 'xero.com', 'zamp.com', 'zoho.com']
+  AI blockers: {'plooto.com': ['Bytespider'], 'firefly.adobe.com': ['Applebot-Extended', 'Bytespider', 'CCBot', 'ChatGPT-User', 'ClaudeBot', 'GPTBot', 'Google-Extended', 'OAI-SearchBot', 'PerplexityBot', 'anthropic-ai'], 'highradius.com': ['Bytespider', 'CCBot'], 'freshbooks.com': ['Bytespider'], 'fathomhq.com': ['Bytespider'], 'dapta.ai': ['Bytespider']}
+  JSON-LD type counter (homes): [('Organization', 67), ('WebSite', 50), ('ImageObject', 43), ('ContactPoint', 35), ('WebPage', 34), ('SoftwareApplication', 29), ('PostalAddress', 28), ('Offer', 28), ('ListItem', 22), ('BreadcrumbList', 21), ('SearchAction', 21), ('AggregateRating', 19), ('Person', 17), ('EntryPoint', 15), ('Answer', 15), ('FAQPage', 15), ('Question', 15), ('ReadAction', 14), ('PropertyValueSpecification', 12), ('QuantitativeValue', 10), ('AggregateOffer', 7), ('Country', 7), ('Corporation', 6), ('Place', 6), ('Service', 6)]
+  JSON-LD type counter (content): [('Organization', 94), ('BreadcrumbList', 67), ('ListItem', 67), ('WebPage', 61), ('ImageObject', 58), ('WebSite', 52), ('Answer', 48), ('FAQPage', 48), ('Question', 48), ('SoftwareApplication', 43), ('Offer', 35), ('ContactPoint', 29), ('PostalAddress', 27), ('EntryPoint', 26), ('SearchAction', 25), ('ReadAction', 23), ('PropertyValueSpecification', 20), ('AggregateRating', 19), ('Person', 14), ('QuantitativeValue', 14), ('Service', 12), ('Brand', 11), ('Country', 9), ('Corporation', 8), ('Review', 8)]
+  framework counter (homes): [('hubspot', 34), ('next.js', 24), ('webflow', 24), ('wordpress', 19), ('react', 19), ('astro', 6), ('framer', 2), ('squarespace', 1), ('nuxt', 1)]
+
+### GUIDE PAGES: site pillars and blog posts vs partner guide/blog pages (n=62)
+| Metric | pillar-ap-automation | pillar-cash-flow | pillar-receptionist | tool-ramp | blog-post-2 | glossary-term | blog-post-3 | blog-post-1 | Partner guides: median (p25, p75) |
+|---|---|---|---|---|---|---|---|---|---|
+| Content words in main region | 4867 | 6665 | 15352 | 5197 | 4048 | 218 | 5180 | 5123 | 2163 (p25 1522.5, p75 3015.25; n=62) |
+| Content words, each block counted once | 2630 | 3607 | 7811 | 2591 | 2039 | 105 | 2609 | 2724 | 2074 (p25 1373.5, p75 2723; n=62) |
+| Duplicate blocks (share) | 0.45 | 0.45 | 0.47 | 0.5 | 0.48 | 0.5 | 0.48 | 0.44 | 0.03 (p25 0, p75 0.0825; n=62) |
+| Distinct H2 texts | 11 | 12 | 17 | 12 | 12 | 8 | 12 | 13 | 10 (p25 7, p75 13; n=62) |
+| Paragraphs | 78 | 113 | 157 | 79 | 59 | 7 | 79 | 79 | 52.5 (p25 29.75, p75 71.25; n=62) |
+| Average paragraph words | 54.2 | 50.9 | 91.6 | 58.1 | 60.5 | 25.3 | 60.6 | 62.4 | 29.7 (p25 23.475, p75 38.6; n=62) |
+| Average sentence words | 20.4 | 20.0 | 20.8 | 19.4 | 17.3 | 19.7 | 16.8 | 17.2 | 18.9 (p25 17.6, p75 19.625; n=62) |
+| Flesch reading ease | 7.2 | 9.1 | 54.3 | 23.0 | 27.9 | 45.4 | 24.8 | 27.4 | 41.4 (p25 33.6, p75 52.05; n=61) |
+| H2 count | 20 | 22 | 32 | 23 | 23 | 14 | 23 | 24 | 10.5 (p25 7, p75 13; n=62) |
+| H3 count | 35 | 44 | 4 | 0 | 0 | 0 | 0 | 4 | 13 (p25 7, p75 18.75; n=62) |
+| H1 count | 2 | 2 | 2 | 2 | 1 | 2 | 1 | 1 | 1 (p25 1, p75 1; n=62) |
+| Heading level skips | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.5 (p25 0, p75 1; n=62) |
+| Question headings | 9 | 12 | 4 | 2 | 0 | 0 | 0 | 4 | 5 (p25 2, p75 8; n=62) |
+| Lists | 14 | 18 | 4 | 6 | 3 | 3 | 3 | 1 | 6 (p25 3, p75 12.25; n=62) |
+| Tables | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 1; n=62) |
+| Blockquotes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 0; n=62) |
+| Numbers per 500 words | 1.2 | 1.0 | 0.4 | 2.1 | 1.0 | 4.6 | 0.6 | 1.3 | 7.5 (p25 3.375, p75 10.55; n=62) |
+| Percentages | 6 | 10 | 0 | 0 | 6 | 0 | 2 | 11 | 2 (p25 0, p75 5; n=62) |
+| Dollar amounts | 0 | 0 | 4 | 4 | 0 | 0 | 0 | 0 | 1.5 (p25 0, p75 7; n=62) |
+| "According to" | 1 | 0 | 0 | 0 | 4 | 0 | 0 | 2 | 0 (p25 0, p75 1; n=62) |
+| Outbound links in main region | 0 | 0 | 0 | 4 | 2 | 0 | 0 | 2 | 5 (p25 1.75, p75 10.25; n=62) |
+| Outbound hosts in main region | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 3 (p25 1, p75 6.25; n=62) |
+| Internal links in main region | 28 | 29 | 30 | 18 | 20 | 6 | 26 | 24 | 22 (p25 12, p75 38; n=62) |
+| Internal links on page | 55 | 56 | 57 | 45 | 47 | 33 | 53 | 51 | 126 (p25 75, p75 194.75; n=62) |
+| Title length | 48 | 47 | 38 | 62 | 59 | 45 | 59 | 58 | 54.5 (p25 46.25, p75 62; n=62) |
+| Meta description length | 113 | 112 | 153 | 87 | 103 | 128 | 97 | 111 | 145.5 (p25 132.75, p75 155.25; n=62) |
+| Open Graph tags (of 6) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 (p25 4, p75 6; n=62) |
+| JSON-LD blocks | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 1.5 (p25 1, p75 3; n=62) |
+| JSON-LD properties | 81 | 81 | 96 | 73 | 71 | 64 | 71 | 71 | 38.5 (p25 15.75, p75 62.5; n=62) |
+| JSON-LD sameAs links | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 0 (p25 0, p75 5; n=62) |
+| Hreflang alternates | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 (p25 0, p75 2; n=62) |
+| Images | 12 | 14 | 3 | 3 | 3 | 3 | 3 | 3 | 24 (p25 13.75, p75 49; n=62) |
+| Images with alt, % | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 74 (p25 31, p75 94.5; n=61) |
+| Images with width and height, % | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 20 (p25 7, p75 85.5; n=61) |
+| HTML bytes | 196114 | 241446 | 276251 | 162690 | 151358 | 62163 | 175660 | 176455 | 198738 (p25 151983, p75 409192; n=62) |
+| Text to HTML ratio | 0.192 | 0.207 | 0.338 | 0.23 | 0.191 | 0.039 | 0.21 | 0.207 | 0.0915 (p25 0.064, p75 0.143; n=62) |
+| Script tags | 55 | 63 | 62 | 49 | 54 | 35 | 57 | 56 | 30 (p25 19.75, p75 42.5; n=62) |
+| Inline script bytes | 105006 | 130247 | 133706 | 84654 | 84411 | 35139 | 97068 | 97406 | 25971.5 (p25 12747, p75 90003.2; n=62) |
+| Time to first byte, ms | 375 | 490 | 273 | 319 | 447 | 280 | 417 | 458 | 334.5 (p25 208, p75 574.5; n=62) |
+
+Shares among partner guides:
+  one H1: partners 51/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:Y] [glossary-term:n] [blog-post-3:Y] [blog-post-1:Y]
+  title 50-60 chars: partners 25/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:Y] [glossary-term:n] [blog-post-3:Y] [blog-post-1:Y]
+  meta description 130-160: partners 40/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:Y] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  any JSON-LD: partners 54/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:Y] [blog-post-3:Y] [blog-post-1:Y]
+  Article/BlogPosting in JSON-LD: partners 45/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:n] [blog-post-3:Y] [blog-post-1:Y]
+  FAQPage in JSON-LD: partners 16/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:Y] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  BreadcrumbList in JSON-LD: partners 34/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:Y] [blog-post-3:Y] [blog-post-1:Y]
+  Person in JSON-LD: partners 39/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:Y] [blog-post-3:Y] [blog-post-1:Y]
+  datePublished or dateModified in JSON-LD: partners 47/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:n] [blog-post-2:Y] [glossary-term:n] [blog-post-3:Y] [blog-post-1:Y]
+  byline: partners 19/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  <time> element: partners 12/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  FAQ section heading: partners 31/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:Y]
+  question heading: partners 58/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:Y]
+  any table: partners 22/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  any blockquote: partners 5/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  outbound link in main region: partners 52/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:n] [blog-post-3:n] [blog-post-1:Y]
+  "according to": partners 18/62   site [pillar-ap-automation:Y] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:Y] [glossary-term:n] [blog-post-3:n] [blog-post-1:Y]
+  opening paragraph is a definition: partners 14/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  over 1,500 words: partners 48/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:n] [blog-post-3:Y] [blog-post-1:Y]
+  over 3,000 words: partners 15/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:n] [blog-post-3:Y] [blog-post-1:Y]
+  Flesch 50 or over: partners 19/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:Y] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+  average sentence 20 words or under: partners 50/62   site [pillar-ap-automation:n] [pillar-cash-flow:Y] [pillar-receptionist:n] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:Y] [blog-post-3:Y] [blog-post-1:Y]
+  all images have alt: partners 13/62   site [pillar-ap-automation:Y] [pillar-cash-flow:Y] [pillar-receptionist:Y] [tool-ramp:Y] [blog-post-2:Y] [glossary-term:Y] [blog-post-3:Y] [blog-post-1:Y]
+  hreflang present: partners 19/62   site [pillar-ap-automation:n] [pillar-cash-flow:n] [pillar-receptionist:n] [tool-ramp:n] [blog-post-2:n] [glossary-term:n] [blog-post-3:n] [blog-post-1:n]
+
+### METADATA SHAPE (all partner pages measured, vs all site pages measured)
+  two or more H1: partner pages 34/337   site pages 15/19
+  title has a brand separator: partner pages 236/337   site pages 19/19
+  title ends with the brand: partner pages 205/337   site pages 19/19
+  title matches the H1: partner pages 73/337   site pages 17/19
+  description opens on a slogan word: partner pages 34/337   site pages 8/19
+  description over 160: partner pages 82/337   site pages 0/19
+  description under 100: partner pages 15/337   site pages 2/19
+  no description: partner pages 19/337   site pages 0/19
+  JSON-LD uses @graph: partner pages 121/337   site pages 19/19
+  JSON-LD uses @id: partner pages 178/337   site pages 12/19
+  JSON-LD carries a date: partner pages 109/337   site pages 10/19
+  JSON-LD over 5 KB: partner pages 67/337   site pages 6/19
+  og:type set: partner pages 270/337   site pages 19/19
+  og:url set: partner pages 240/337   site pages 19/19
+  summary_large_image card: partner pages 280/337   site pages 19/19
+  author meta: partner pages 31/337   site pages 10/19
+  article:published_time: partner pages 23/337   site pages 3/19
+  canonical absolute and self: partner pages 307/337   site pages 19/19
+  meta robots noindex: partner pages 3/337   site pages 0/19
+  description first words (partners): [('the', 14), ('learn', 14), ('automate', 12), ('connect', 11), ('discover', 9), ('a', 8), ('see', 7), ('create', 6), ('we', 4), ('build', 4), ('explore', 4), ('accounts', 4), ('streamline', 4), ('an', 4), ('one', 3)]
+  description first words (site): [('explore', 6), ('automate', 2), ('ready', 1), ('streamline', 1), ('this', 1), ('what', 1), ('a/b', 1), ('intelligent', 1), ('plain-language', 1), ('our', 1), ('learn', 1), ('these', 1), ('meet', 1)]
+  JSON-LD type counter (guides): [('Organization', 46), ('WebPage', 43), ('Person', 39), ('ImageObject', 38), ('BreadcrumbList', 34), ('ListItem', 34), ('BlogPosting', 27), ('WebSite', 22), ('Article', 21), ('Answer', 16), ('FAQPage', 16), ('Question', 16), ('ContactPoint', 13), ('PostalAddress', 11), ('EntryPoint', 11), ('SearchAction', 11), ('ReadAction', 10), ('PropertyValueSpecification', 9), ('Thing', 5), ('QuantitativeValue', 5)]
+  JSON-LD type counter (homes, graph-aware): [('Organization', 67), ('WebSite', 50), ('ImageObject', 43), ('ContactPoint', 35), ('WebPage', 34), ('SoftwareApplication', 29), ('PostalAddress', 28), ('Offer', 28), ('ListItem', 22), ('BreadcrumbList', 21), ('SearchAction', 21), ('AggregateRating', 19), ('Person', 17), ('EntryPoint', 15), ('Answer', 15), ('FAQPage', 15), ('Question', 15), ('ReadAction', 14), ('PropertyValueSpecification', 12), ('QuantitativeValue', 10), ('AggregateOffer', 7), ('Country', 7), ('Corporation', 6), ('Place', 6), ('Service', 6)]
+  JSON-LD type counter (site pages): [('AdministrativeArea', 19), ('BreadcrumbList', 19), ('City', 19), ('ImageObject', 19), ('ListItem', 19), ('LocalBusiness', 19), ('OpeningHoursSpecification', 19), ('Organization', 19), ('Person', 19), ('Place', 19), ('PostalAddress', 19), ('WebSite', 19), ('WebPage', 13), ('Article', 9), ('Thing', 8), ('GeoCoordinates', 4), ('Answer', 4), ('FAQPage', 4), ('Question', 4), ('BlogPosting', 3), ('TechArticle', 3), ('DefinedTerm', 2), ('DefinedTermSet', 2), ('CollectionPage', 2), ('ItemList', 2)]
+
+appendix rows: 105
