@@ -57,4 +57,4 @@ Reason: a buyer comparing tools on this site meets two levels of depth today, an
 - Its FAQ matches its FAQPage markup, the phone and desktop copies match, and every stated price has a date and a source link.
 - A crawl finds no broken link and no `#` URL.
 
-**Status:** Open, waiting on your decision.
+**Status:** Closed 2026-10-22, by your decision: "Old Content not applicable." No re-export and no layout pass; the page is unchanged.

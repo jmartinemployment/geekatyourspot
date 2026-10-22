@@ -606,6 +606,7 @@ This is verified.
     - Each has four H2s (Overview, Key Capabilities, Implementation Considerations and When to Use), about 500 to 1,040 words, no FAQ and no pricing. Mailchimp has four H2s too, not three.
     - The 77 tool pages under a use-case segment have 7 to 12 H2s and about 1,900 to 9,100 words.
     - Each page has its own plan document: 05 to 09 and 54 to 61 in `plans/audit-input-2026-10-21/`. SA has no counterpart for this finding.
+    - **Adobe Mix Modeler, decided 2026-10-22.** The owner's decision on document 54: "Old Content not applicable." No re-export and no layout pass; the page is unchanged and the document is closed.
   - **Layout fixed on 2026-10-21 (`c5c8c24`).** The correction above held for the section count but not for the layout. Mailchimp, 6sense, Pipedrive and ActiveCampaign had single-block sections, with no separate phone and desktop blocks.
     - All four now have both blocks for every section, alternate sides by H2, and take the colors in H2 order.
     - The same pass fixed `/use-cases/marketing` and four pillars: AI Accounts Payable and AI Cash Flow Forecasting (wrong start color, off-palette `#8C2703`, `#0A080D` and `#0C1A26` grounds, single blocks), Automated Ad Spend Optimization (single blocks, `#023859`) and AI Content Creation Workflow (`#023859`). Two FAQ headings sat in `col-span-9` and are now `col-span-12`.
