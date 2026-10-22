@@ -8,7 +8,7 @@ export default function LedeSection() {
         Picture this: your business is functioning as an interest-free bank for your clients, holding onto $50,000
         in outstanding invoices. Each day these invoices remain unpaid, your financial stability is compromised,
         making it difficult to confidently plan for payroll, hiring, or inventory investments. This is the reality
-        for many small businesses, relying on outdated accounts receivable processes that treat unpaid invoices as
+        for many small businesses, relying on outdated <GlossaryLink slug="accounts-receivable">accounts receivable</GlossaryLink> processes that treat unpaid invoices as
         guaranteed income rather than variables.</p>
       <p className="text-base text-white shadow-text pt-3">
         The crux of the issue lies in passive, calendar-based follow-ups. Many businesses only review their accounts

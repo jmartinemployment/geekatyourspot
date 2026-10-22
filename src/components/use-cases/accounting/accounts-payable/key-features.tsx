@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 import Image from "next/image";
 
 export default function KeyFeaturesSection() {
@@ -12,7 +13,7 @@ export default function KeyFeaturesSection() {
       <h3 id={`invoice-data-extraction-and-validation${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Invoice Data Extraction and Validation</h3>
       <p className="pt-3 text-base font-normal text-white shadow-text">One of the foundational features of AP automation systems is the ability to accurately extract and validate invoice
         data. Traditional manual entry methods are prone to errors and inefficiencies, often leading to delayed payments and
-        strained vendor relationships. Automated systems utilize optical character recognition (OCR) and machine learning&nbsp;algorithms to capture invoice details with precision, reducing the need for manual intervention.</p>
+        strained vendor relationships. Automated systems utilize <GlossaryLink slug="invoice-ocr">optical character recognition (OCR)</GlossaryLink> and machine learning&nbsp;algorithms to capture invoice details with precision, reducing the need for manual intervention.</p>
       <p className="pt-3 text-base font-normal text-white shadow-text">Geek @ Your Spot LLC specializes in optimizing these data extraction processes, ensuring that the algorithms are
         trained on client-specific invoice formats and business rules. This customization not only accelerates the
         deployment but also enhances the accuracy of data captured, which is critical for maintaining financial accuracy and

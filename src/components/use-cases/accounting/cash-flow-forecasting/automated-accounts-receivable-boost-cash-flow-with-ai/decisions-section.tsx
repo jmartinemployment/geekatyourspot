@@ -24,7 +24,7 @@ export default function DecisionsSection() {
         reducing the risk of data silos and errors.</p>
       <p className="text-base text-white shadow-text pt-3">
         Deciding on the metrics for success is equally crucial. Establish clear Key Performance Indicators (KPIs)
-        such as Days Sales Outstanding (DSO) reduction, improved cash flow predictability, and decreased manual
+        such as <GlossaryLink slug="days-sales-outstanding">Days Sales Outstanding (DSO)</GlossaryLink> reduction, improved cash flow predictability, and decreased manual
         processing time. These KPIs provide measurable goals that help assess the effectiveness of the new system
         and guide further optimizations.</p>
       <p className="text-base text-white shadow-text pt-3">

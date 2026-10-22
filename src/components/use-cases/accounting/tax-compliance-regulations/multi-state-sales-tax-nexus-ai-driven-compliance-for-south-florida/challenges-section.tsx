@@ -7,7 +7,7 @@ export default function ChallengesSection() {
       <p className="text-base text-white shadow-text pt-3">
         The reality of multi-state sales&nbsp;<GlossaryLink slug="tax-compliance">tax
         compliance</GlossaryLink>&nbsp;is that most small businesses hit the wall sooner than they expect. The
-        triggers for economic nexus, crossing $100,000 in sales or 200 transactions in a state, are not hard to
+        triggers for <GlossaryLink slug="economic-nexus">economic nexus</GlossaryLink>, crossing $100,000 in sales or 200 transactions in a state, are not hard to
         reach in an online-driven market. But the complexity comes not from the thresholds themselves, but from
         the way current workflows break down at scale. Running&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-challenges-tax-compliance${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations" className="text-[#C83803] hover:underline">tax compliance</Link>&nbsp;by hand, or relying on basic
         tools, leaves critical gaps that stack up until something breaks.</p>

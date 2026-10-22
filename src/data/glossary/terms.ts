@@ -3,7 +3,7 @@ import type { GlossaryTerm } from "@/types/glossary";
 /**
  * The glossary corpus, exported from GeekAPI on 2026-09-28 and served from here.
  *
- * 274 terms. On 2026-10-20 every term was rewritten to one schema: a
+ * 279 terms, five of them accounting terms added on 2026-10-22. On 2026-10-20 every term was rewritten to one schema: a
  * definition of one or two sentences, one whyItMatters sentence and one
  * systemsContext sentence. The rewrite merged the six terms that had two
  * definitions into one and dropped the 35 usage examples. Categories are the
@@ -38,6 +38,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Paying on time protects vendor relationships and early payment discounts, while paying too early drains cash the business could hold longer.",
     systemsContext: "Accounts payable feeds the general ledger and cash flow forecasts, and automation tools connect it to approval workflows, three-way matching and payment execution.",
+  },
+  {
+    title: "Accounts Receivable",
+    slug: "accounts-receivable",
+    category: "Accounting",
+    shortSummary: "Money customers owe a business for goods or services already delivered, tracked from the invoice to the payment.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Accounts receivable is the money customers owe a business for goods or services it has delivered and invoiced but has not yet been paid for, recorded as a current asset on the balance sheet. The accounts receivable function issues the invoices, applies incoming payments, follows up on overdue balances and reports what is outstanding by customer and by age.",
+      },
+    ],
+    whyItMatters: "Every unpaid invoice is cash the business has earned but cannot spend, so slow collection starves payroll and purchasing even when sales are strong, and a write-off turns work already done into a loss.",
+    systemsContext: "Accounts receivable is the mirror of accounts payable, it feeds the general ledger and cash flow forecasting, and automation tools connect invoicing to payment reminders, customer payment portals and the days sales outstanding figure that measures how fast the money comes in.",
   },
   {
     title: "Agent Interface",
@@ -1401,6 +1415,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Validation rules at the point of entry, deduplication in the CRM, reconciliation checks in accounting and monitoring inside data pipelines all enforce data quality before records reach dashboards or machine learning models.",
   },
   {
+    title: "Days Sales Outstanding",
+    slug: "days-sales-outstanding",
+    category: "Accounting",
+    shortSummary: "The average number of days a business waits to collect payment after it invoices a customer.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Days sales outstanding (DSO) is the average number of days a business takes to collect payment after it invoices a customer, calculated by dividing accounts receivable by the credit sales of a period and multiplying by the number of days in that period. A rising figure means customers are paying more slowly, and a falling one means collections are speeding up.",
+      },
+    ],
+    whyItMatters: "DSO turns the vague sense that customers pay late into one number the owner can track month by month, and a few days shaved off it can free more cash than a new sale would bring in.",
+    systemsContext: "The figure comes from the accounts receivable ledger and the sales records in the accounting system, it is a standard KPI on cash flow forecasting dashboards, and automated receivables tools recalculate it after every payment is applied, so the trend is visible before month end.",
+  },
+  {
     title: "Deep Learning",
     slug: "deep-learning",
     shortSummary: "A subset of machine learning using neural networks with multiple layers to learn complex patterns from data.",
@@ -1465,6 +1493,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It removes the manual data entry behind overselling, shipping errors and slow replies, so order volume can grow without a matching increase in staff hours.",
     systemsContext: "Ecommerce automation links the storefront to inventory management, shipping software, accounting and email marketing, either through built-in platform tools such as Shopify Flow or through integration services such as Zapier.",
+  },
+  {
+    title: "Economic Nexus",
+    slug: "economic-nexus",
+    category: "Accounting",
+    shortSummary: "A level of sales or transactions into a state that obliges a seller with no physical presence there to register for and collect its sales tax.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Economic nexus is the connection a state establishes with a business that sells into it without a physical presence there, once the business's sales or number of transactions into that state pass a threshold the state has set. Crossing the threshold obliges the seller to register with that state's tax authority, collect its sales tax at the correct local rate and file returns on the state's schedule.",
+      },
+    ],
+    whyItMatters: "A business that ships goods or sells software to customers in other states can owe sales tax in a state it has never set foot in, and tax it failed to collect, plus penalties, comes out of its own pocket once an audit finds the threshold was crossed.",
+    systemsContext: "Tracking it means totalling sales and transaction counts by state across every sales channel and payment platform, which is why tax compliance tools pull orders from the online store, the invoicing system and the payment processors into one ledger and raise an alert as a state's threshold approaches.",
   },
   {
     title: "EdTech",
@@ -1948,6 +1990,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Interoperable systems eliminate data silos and duplicate typing, so a sale recorded in one tool appears in accounting, inventory and reporting without anyone copying it over.",
     systemsContext: "Integrated solutions rely on APIs, webhooks and standard formats such as JSON and CSV, which makes interoperability the first question to settle before a business adds a new tool to an existing stack.",
+  },
+  {
+    title: "Invoice OCR",
+    slug: "invoice-ocr",
+    category: "Accounting",
+    shortSummary: "Software that reads the text on a scanned or emailed invoice and turns it into structured data for the accounting system.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Invoice OCR is the use of optical character recognition to read the text on a scanned, photographed or emailed invoice and turn it into structured fields such as the vendor name, invoice number, date, line items, tax and total. Current tools pair the character recognition with machine learning that locates each field on layouts it has not seen before and flags any value it reads with low confidence for a person to check.",
+      },
+    ],
+    whyItMatters: "It removes the keying of invoice details by hand, which is where most data entry errors, duplicate payments and late approvals begin, and it lets a small team process a growing invoice volume without hiring for it.",
+    systemsContext: "Invoice OCR is the first step of accounts payable automation: the captured fields feed the three-way match against the purchase order and the receiving record, then the approval workflow and the payment run, and the result is only as good as the data quality of the vendor records it matches against.",
   },
   {
     title: "IVR",
@@ -2986,6 +3042,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It makes written content accessible to people with visual impairments or reading difficulties, and it converts articles, notifications and scripts into audio without studio recording.",
     systemsContext: "TTS powers screen readers, interactive voice response menus and AI voice agents, where latency matters because a caller notices any gap between the model's reply and the spoken audio.",
+  },
+  {
+    title: "Three-Way Match",
+    slug: "three-way-match",
+    category: "Accounting",
+    shortSummary: "The check that an invoice, its purchase order and the receiving record agree before the invoice is approved for payment.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A three-way match is the accounts payable control that compares a supplier's invoice with the purchase order the business issued and the receiving record of what actually arrived, and approves the invoice for payment only when the quantities, prices and terms on all three agree. An invoice that differs from either document is held as an exception until the gap is resolved with the supplier or the receiving team.",
+      },
+    ],
+    whyItMatters: "It stops the business paying for goods it never received, for quantities it never ordered or at prices it never agreed, and it catches duplicate and fraudulent invoices before money leaves the account rather than in an audit months later.",
+    systemsContext: "The match needs purchase orders, receiving records and invoices in one system or in connected systems, so it depends on invoice OCR to capture the invoice, on the ERP or accounting platform for the order and the receipt, and on an approval workflow that routes only the exceptions to a person.",
   },
   {
     title: "Ticket Generation",

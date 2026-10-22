@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function FAQSection() {
   return (
@@ -37,7 +38,7 @@ export default function FAQSection() {
               organization&#39;s payment terms.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 id="what-are-3-way-accounts-payable" className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">What are 3-way accounts payable?</h3>
-            <p className="pt-3 text-base font-normal text-white shadow-text">3-way accounts payable refers to the three-way matching process used to verify invoice accuracy. It involves
+            <p className="pt-3 text-base font-normal text-white shadow-text">3-way accounts payable refers to the <GlossaryLink slug="three-way-match">three-way matching</GlossaryLink> process used to verify invoice accuracy. It involves
               matching the invoice with the corresponding purchase order and receiving report to ensure that the billed amount is
               correct and the goods or services were received as ordered.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
