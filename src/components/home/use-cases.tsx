@@ -43,7 +43,7 @@ export function UseCasesSection() {
                                         id={gtmLinkIdFromHref("/use-cases/accounting")}
                                         href="/use-cases/accounting">
                                         <h3 className="text-3xl text-white hover:text-[#C83803] font-bold shadow-text inline">
-                                            Accounting
+                                            AI Accounting
                                         </h3>
                                     </Link>
                                 </CardTitle>
@@ -64,7 +64,7 @@ export function UseCasesSection() {
                                     href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                        Accounts Payable
+                                        AI AP Automation Software
                                     </h4>
                                     <p className="text-black text-xs text-shadow">
                                         You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
@@ -258,7 +258,7 @@ export function UseCasesSection() {
                                     href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting"
                                     className="hover:text-[#C83803] hover:underline">
                                     <h4 className="text-black font-bold text-base">
-                                        Cash Flow Forecasting
+                                        AI Cash Flow Forecasting
                                     </h4>
                                 </Link>
                                 <p className="text-black text-xs">
@@ -571,7 +571,7 @@ export function UseCasesSection() {
                                         id={gtmLinkIdFromHref("/use-cases/marketing", "AI Marketing")}
                                         href="/use-cases/marketing">
                                         <h3 className="text-white text-3xl hover:text-[#C83803] font-bold shadow-text">
-                                            Marketing
+                                            AI Marketing Systems
                                         </h3>
                                     </Link>
                                 </CardTitle>
@@ -594,7 +594,7 @@ export function UseCasesSection() {
                                         href="/use-cases/marketing/ai-sales-force-automation-software"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
                                         <h4 className="text-black text-base font-bold shadow-text">
-                                            Lead Capture Pipeline</h4>
+                                            AI Sales Force Automation Software</h4>
                                     </Link>
                                     <p className="text-black text-xs">
                                         Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
@@ -748,7 +748,7 @@ export function UseCasesSection() {
                                     <Link id="ai-content-creation-workflow-email-content-workflow-1"
                                         href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
-                                            Content Creation Workflow</h4>
+                                            AI Content Marketing Platforms</h4>
                                     </Link><p className="text-black text-xs">
                                         AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
                                     </p>
@@ -1067,7 +1067,7 @@ export function UseCasesSection() {
                                     id={`${gtmLinkIdFromHref("/use-cases/accounting")}-lg`}
                                     href="/use-cases/accounting">
                                     <h3 className="text-black text-3xl text-shadow hover:text-[#C83803] font-bold shadow-text">
-                                        Accounting
+                                        AI Accounting
                                     </h3>
                                 </Link>
                                 <p className="text-black text-sm shadow-text">
@@ -1077,7 +1077,7 @@ export function UseCasesSection() {
                                     href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg text-shadow hover:text-[#C83803] font-bold">
-                                        Accounts Payable
+                                        AI AP Automation Software
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm text-shadow">
@@ -1272,7 +1272,7 @@ export function UseCasesSection() {
                                     href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting"
                                     className="hover:text-[#C83803] hover:underline">
                                     <h4 className="text-black font-bold text-lg">
-                                        Cash Flow Forecasting
+                                        AI Cash Flow Forecasting
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm ">
@@ -1585,7 +1585,7 @@ export function UseCasesSection() {
                                     id={`${gtmLinkIdFromHref("/use-cases/marketing", "AI Marketing")}-lg`}
                                     href="/use-cases/marketing">
                                     <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
-                                        Marketing
+                                        AI Marketing Systems
                                     </h3>
                                 </Link>
                                 <p className="text-black text-sm shadow-text">
@@ -1597,7 +1597,7 @@ export function UseCasesSection() {
                                         href="/use-cases/marketing/ai-sales-force-automation-software"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            Lead Capture Pipeline</h4>
+                                            AI Sales Force Automation Software</h4>
                                     </Link>
                                     <p className="text-black text-sm">
                                         Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
@@ -1753,7 +1753,7 @@ export function UseCasesSection() {
                                     <Link id="ai-content-creation-workflow-email-content-workflow-2-lg"
                                         href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            Content Creation Workflow</h4>
+                                            AI Content Marketing Platforms</h4>
                                     </Link><p className="text-black text-sm">
                                         AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
                                     </p>
