@@ -4,7 +4,7 @@ Audit reference: none. You raised it on 2026-10-21. It changes GEO H9 and M14 in
 
 ## The problem
 
-A `#` in a URL points at a spot inside a page. Before this change the site had three kinds (counted 2026-10-21):
+A `#` in a URL points at a spot inside a page. Before this change the site used `#` URLs in three places (counted 2026-10-21):
 
 - **Labels in the structured data.** Each page carries structured data that search engines and AI tools read. Its items were labelled with `#` addresses that nobody visits, and other items pointed at those labels. Examples:
   - `…/ai-accounts-payable#article` and `…#faq` on every pillar and tool page;
