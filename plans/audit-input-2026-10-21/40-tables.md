@@ -4,7 +4,7 @@ Audit reference: GEO M2 in `plans/geo-seo-audit-2026-10-20.md`.
 
 ## The problem
 
-Prices, scoring rules and comparisons on the site are written as paragraphs and bullet lists. AI answer engines and Google's answer boxes pull a figure most reliably from a table, where each number sits beside its label. A figure buried in a paragraph is more often skipped or misread.
+Where the site compares several items with the same labels, such as five tools and their prices or six scoring criteria and their points, it does so in paragraphs and bullet lists. The GEO skill's rule is narrower than this document first said: a table is for a comparison of three or more items, because AI systems extract table data with high accuracy and tables beat prose for comparison content. A single figure in a paragraph is fine where it is. (Corrected 2026-10-22 at the owner's prompting.)
 
 What exists today (rechecked 2026-10-21):
 - The only content table on the site is the nexus threshold table in `src/components/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida/mechanics-section.tsx:24`, added with the C1 fix on 2026-10-20.
