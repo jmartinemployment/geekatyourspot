@@ -279,6 +279,7 @@ This is verified, and it is the navbar target for Marketing.
   - no reviews (C3);
   - the generic primary category "Consultant";
   - no photos, logo or cover;
+    - **Done by the owner on 2026-10-22.** The photos and the logo are on the profile; document 48 is deleted. The same note is SA M5.
   - a description that names HR and Operations work the site no longer covers, omits Miami-Dade, and has a missing space ("first.Led").
 
   Its map pin sits in inland Collier County, which suggests the service area is wider than the three counties.
