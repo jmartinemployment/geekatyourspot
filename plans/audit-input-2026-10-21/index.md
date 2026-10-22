@@ -58,7 +58,7 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 48. [Business Profile photos and logo](48-business-profile-photos-and-logo.md), GEO H7
 49. [Business Profile categories](49-business-profile-categories.md), GEO H7 and decision 9
 50. [LinkedIn name](50-linkedin-name.md), GEO M5
-51. [Facebook name](51-facebook-name.md), GEO M5
+51. Facebook name, GEO M5. Deleted by the owner on 2026-10-22: Facebook does not allow `@` in a page name
 52. [Directory listings](52-directory-listings.md), GEO H7
 
 ## Decided after these were written
