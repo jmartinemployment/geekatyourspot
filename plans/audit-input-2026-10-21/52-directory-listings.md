@@ -57,6 +57,7 @@ Recommendation, in this order:
 - **Yelp, not reachable.** Every request to yelp.com, profile or search, returns 403 to a headless browser, and no search engine has the profile yet.
 - **Clutch, not public yet.** The profile is in none of Clutch's 46 profile sitemaps (24 MB, fetched 2026-10-23), and the likely addresses return 404 or 410. Clutch publishes a profile after its own review.
 - **GoodFirms, not reachable.** Every profile address meets a Cloudflare challenge, and `goodfirms.co/company/geek-your-spot` redirects to the home page.
+- **Founding year.** The profiles carry 2026. The site says 2006 since `861f337`, the year you first did business under the name, and you will change the profiles to match; BBB's empty "Business Started" takes 2006 too, and its incorporation date, 8/28/2026, stays.
 
 Send me the Yelp, Clutch and GoodFirms addresses. Each goes into `sameAs` once it returns 200 with the site's name, address and phone.
 
