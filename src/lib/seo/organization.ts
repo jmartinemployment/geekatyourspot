@@ -67,6 +67,10 @@ export const SITE_GRAPH = {
         GBP_MAP_URL,
         "https://www.facebook.com/geekatyourspot",
         "https://www.linkedin.com/company/geekatyourspot",
+        // The BBB profile (file opened 2026-10-21). Checked 2026-10-23: it carries this node's name,
+        // address and phone. A profile goes in this list only after its page returns 200 with the
+        // same name, address and phone as the site.
+        "https://www.bbb.org/us/fl/delray-beach/profile/automation-consultants/geek-your-spot-llc-0633-92089707",
       ],
       address: {
         "@type": "PostalAddress",
