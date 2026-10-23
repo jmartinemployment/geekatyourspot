@@ -90,7 +90,10 @@ export const SITE_GRAPH = {
       ],
       areaServed: AREA_SERVED,
       priceRange: "$$",
-      foundingDate: "2024",
+      // 2006 is the year the owner first did business under the name (owner, 2026-10-23: "2006").
+      // The LLC was filed on 2026-08-28 (Florida register L26000455335); that is the incorporation
+      // date, which BBB shows separately. The directory profiles carry 2026 until the owner changes them.
+      foundingDate: "2006",
       knowsAbout: [
         "Artificial Intelligence",
         "Machine Learning",
