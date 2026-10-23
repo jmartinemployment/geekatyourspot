@@ -63,4 +63,4 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 
 ## Decided after these were written
 
-53. No # URLs, GEO H9 and M14, SEO H4b, L8 and M4. Deleted by the owner on 2026-10-22; the change itself (`cccde1c`) is recorded in both audits. The scheduler links were restored as `#consultationAppointment2xl` anchors on 2026-10-22 (`929be59`): the ban is the structured data `@id`s only.
+53. No # URLs, GEO H9 and M14, SEO H4b, L8 and M4. Deleted by the owner on 2026-10-22; the change itself (`cccde1c`) is recorded in both audits. The scheduler links were restored as `#consultationAppointment2xl` anchors on 2026-10-22 (`929be59`, plain anchors in `64dbd8c`): the ban is the structured data `@id`s only.
