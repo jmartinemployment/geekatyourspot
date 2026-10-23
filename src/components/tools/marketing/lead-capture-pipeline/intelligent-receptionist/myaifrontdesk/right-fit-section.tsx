@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -64,8 +63,8 @@ export default function RightFitSection() {
         AI Front Desk is worth a close look.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link href="#consultationAppointment2xl" id={`tools-marketing-intelligent-receptionist-myaifrontdesk-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-receptionist-myaifrontdesk-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
         <li>When a prospect hangs up without leaving a voicemail, what is your current process for recapturing that lead?</li>

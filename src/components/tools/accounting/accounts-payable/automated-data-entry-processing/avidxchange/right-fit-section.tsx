@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -24,9 +22,9 @@ export default function RightFitSection() {
         a consultation with <strong>Geek @ Your Spot LLC</strong>. They specialize in configuring and deploying
         AvidXchange to fit your unique business requirements, ensuring a smooth transition to automated AP
         processes.&nbsp;
-        <Link href="#consultationAppointment2xl" id={`tools-accounting-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`tools-accounting-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your consultation now
-        </Link>&nbsp;to see how AvidXchange can transform your accounts payable operations.</p>
+        </a>&nbsp;to see how AvidXchange can transform your accounts payable operations.</p>
     </>
   );
 

@@ -13,7 +13,10 @@ export function SchedulerShell(): React.JSX.Element {
     <article
       id={SCHEDULER_ID}
       tabIndex={-1}
-      className="w-full min-h-screen bg-[#C83803] outline-none lg:bg-[#8C2703]"
+      // overflow-anchor none: when the calendar arrives, its column grows and the centred content
+      // shifts up inside the section. Without this, Chrome's scroll anchoring follows that shift
+      // and moves the page, 85px on the blog pages, so the section no longer starts at the top.
+      className="w-full min-h-screen bg-[#C83803] outline-none [overflow-anchor:none] lg:bg-[#8C2703]"
     >
       {/*
         Full-bleed rather than `container`, so the scheduler widens with the

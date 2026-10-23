@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -32,8 +30,8 @@ export default function RightFitSection() {
         provide clarity on the benefits and potential return on investment that TaxCloud can offer.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link href="#consultationAppointment2xl" id={`tools-accounting-complex-changing-laws-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-complex-changing-laws-taxcloud-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
         <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>

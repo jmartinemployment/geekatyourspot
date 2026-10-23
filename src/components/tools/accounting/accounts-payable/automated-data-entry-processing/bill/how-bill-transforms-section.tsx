@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function HowBillTransformsSection() {
   const body = (idSuffix = "") => (
     <>
@@ -30,9 +28,9 @@ export default function HowBillTransformsSection() {
         For small and medium-sized businesses looking to implement AI, Bill offers a practical and effective
         solution to transform their financial workflows. To explore how Bill can benefit your business,
         consider&nbsp;
-        <Link href="#consultationAppointment2xl" id={`tools-accounting-bill-transforms-consultation${idSuffix}`} className="text-[#0B162A] hover:underline">
+        <a href="#consultationAppointment2xl" id={`tools-accounting-bill-transforms-consultation${idSuffix}`} className="text-[#0B162A] hover:underline">
           scheduling a demo
-        </Link>&nbsp;to see the platform in action.</p>
+        </a>&nbsp;to see the platform in action.</p>
     </>
   );
 

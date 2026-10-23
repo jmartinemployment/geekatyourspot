@@ -56,8 +56,8 @@ export default function RightFitSection() {
         promise.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<Link href="#consultationAppointment2xl" id={`tools-marketing-lead-enrichment-and-predictive-scoring-apollo-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
-        your free consultation</Link>.</p>
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-lead-enrichment-and-predictive-scoring-apollo-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
         <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -26,9 +24,9 @@ export default function RightFitSection() {
         more on strategic growth rather than administrative tasks.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link href="#consultationAppointment2xl" id={`tools-accounting-accounts-receivable-versapay-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`tools-accounting-accounts-receivable-versapay-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </Link>.</p>
+        </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
         <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -35,9 +33,9 @@ export default function RightFitSection() {
         tools necessary to optimize your financial operations.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link href="#consultationAppointment2xl" id={`tools-accounting-approval-workflows-melio-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`tools-accounting-approval-workflows-melio-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </Link>.</p>
+        </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many vendor invoices do you process in a typical month?</li>
         <li>Where do invoices currently arrive: email, paper mail, vendor portals, text messages, employee forwarding, or multiple locations?</li>

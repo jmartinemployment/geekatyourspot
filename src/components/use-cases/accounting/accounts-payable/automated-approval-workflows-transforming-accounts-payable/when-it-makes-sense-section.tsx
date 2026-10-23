@@ -44,9 +44,9 @@ export default function WhenItMakesSenseSection() {
         they do not hinder your business operations or cause significant inefficiencies.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
-        <Link href="#consultationAppointment2xl" id={`use-cases-accounting-approval-workflows-sense-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`use-cases-accounting-approval-workflows-sense-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           booking your free consultation
-        </Link>.</p>
+        </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many vendor invoices do you process in a typical month?</li>
         <li>Where do invoices currently arrive: email, paper mail, vendor portals, text messages, employee forwarding, or multiple locations?</li>

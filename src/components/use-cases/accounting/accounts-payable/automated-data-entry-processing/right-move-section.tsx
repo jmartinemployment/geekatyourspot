@@ -46,9 +46,9 @@ export default function RightMoveSection() {
         Ultimately, the right choice depends on your specific business needs and goals. Consider consulting
         with an AI implementation expert to tailor a solution that fits your organization. For a detailed
         assessment and to explore how automated solutions can benefit your business,&nbsp;
-        <Link href="#consultationAppointment2xl" id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a free consultation
-        </Link>&nbsp;to discuss the next steps.</p>
+        </a>&nbsp;to discuss the next steps.</p>
     </>
   );
 

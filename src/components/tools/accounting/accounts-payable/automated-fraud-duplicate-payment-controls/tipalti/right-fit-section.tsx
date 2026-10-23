@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -36,9 +34,9 @@ export default function RightFitSection() {
         the transition to an automated system, ensuring that the business reaps the full benefits of the
         platform.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link href="#consultationAppointment2xl" id={`tools-accounting-fraud-controls-tipalti-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`tools-accounting-fraud-controls-tipalti-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
-        </Link>.</p>
+        </a>.</p>
     </>
   );
 
