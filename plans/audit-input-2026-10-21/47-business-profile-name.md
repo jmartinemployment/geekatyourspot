@@ -33,4 +33,6 @@ Recommendation: rename it to "Geek @ Your Spot LLC", exactly as the site writes 
 
 The public profile's name matches the `name` in `src/lib/seo/organization.ts` and the business name on the site's pages.
 
-**Status:** Open, waiting on you.
+**Checked 2026-10-23, done.** The owner renamed the profile. The public Maps page for the place ID reads "Geek @ Your Spot LLC", which is the `name` in `src/lib/seo/organization.ts` and the business name on every page. The same page shows the primary category "Automation company", 2025 NW 18th St, Delray Beach, FL 33445, (561) 526-3512, geekatyourspot.com and "Opens 9 AM", all matching the site. Both audits record it under GEO H7 and M5 and SA M5.
+
+**Status:** Done.

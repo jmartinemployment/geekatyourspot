@@ -127,7 +127,7 @@ None of these has been crawled or profiled.
 |---|---|---|---|---|
 | CA1 | No reviews, while the IT firms selling AI show 46 to 95 | Critical | GEO C3 | Open |
 | CA2 | No Delray Beach page. None of the 19 has an AI page for Delray Beach or Boca Raton, but eight other sites do | Critical | GEO C2, CP2, SA H2 | Open (the home title is done) |
-| CA3 | No directory profiles, and the AI summaries name firms through them | High | GEO H7 | Open |
+| CA3 | No directory profiles, and the AI summaries name firms through them | High | GEO H7 | Partly done (2026-10-23): the BBB profile is verified and in `sameAs` (`51e3aad`); Yelp, Clutch and GoodFirms are created but not reachable yet |
 | CA4 | No sentence says who the business is, where it is and what it does | High | GEO H4, SA M4 | Open |
 | CA5 | The site publishes no result and no number of its own, and shows two unsourced statistics on the home page | High | GEO H3, GEO decision 10 | Open |
 | CA6 | Jeff Martin appears on 1 of 426 pages, and no page shows a date | High | GEO H4, SA M4 | Open |
@@ -135,11 +135,11 @@ None of these has been crawled or profiled.
 | CA8 | No page answers the cost, do-it-yourself or IT-provider questions | High | CP3, CP4 | Open |
 | CA9 | The first step has three names, and its page has 143 words and no price | Medium | CP4 | Open |
 | CA10 | The neutral tool comparison is open, and vendors hold those searches with their own guides | Medium | GEO H12, CP1, GEO M9 | Open |
-| CA11 | The Business Profile has changed since GEO H7, and still misdescribes the business | Medium | GEO H7, SA M5 | Open (your action in Google) |
-| CA12 | Decide whether clients come to the address | Medium | SA M5 | Your call |
+| CA11 | The Business Profile has changed since GEO H7, and still misdescribes the business | Medium | GEO H7, SA M5 | Partly done: the name reads "Geek @ Your Spot LLC" since 2026-10-23; the categories and description are not rechecked (your action in Google) |
+| CA12 | Decide whether clients come to the address | Medium | SA M5 | Your call; the footer no longer shows the address since 2026-10-23 (`b9dc3a1`) |
 | CA13 | Structured data: three properties missing, one link unconfirmed, and four rival errors to avoid | Medium | SA M5, GEO H9 | Partly done |
 | CA14 | At launch: the `vercel.app` duplicate, the headers, the crawler rule and llms.txt | Medium | GEO launch gates 2 and 3, GEO decisions 2 and 11 | Partly done (three headers) |
-| CA15 | The name collides with a Miramar IT firm, and there are no local links | Medium | GEO H7, SA M5 | Open |
+| CA15 | The name collides with a Miramar IT firm, and there are no local links | Medium | GEO H7, SA M5 | Partly done (2026-10-23): the BBB profile pairs the name with the Delray Beach address; the Chamber is open |
 | CA16 | Stock AI wording is more frequent than on any AI-specialist rival | Low | GEO H6 | Open |
 
 ## Critical
@@ -210,6 +210,8 @@ None of these has been crawled or profiled.
 - First Yelp and BBB, which `seo-local` lists among the sources ChatGPT draws on. Then Clutch, DesignRush and GoodFirms, under AI consulting with the Delray Beach address.
 - Fill the fields the summaries quote: entry price or rate, minimum project, team size, founding year and service area.
 - Use one name and one address everywhere, and add each profile to `sameAs`.
+
+**Rechecked on 2026-10-23, partly done (`51e3aad`).** The owner created the BBB, Yelp, Clutch and GoodFirms listings. `https://www.bbb.org/us/fl/delray-beach/profile/automation-consultants/geek-your-spot-llc-0633-92089707` returns 200 and reads "Geek @ Your Spot LLC", 2025 NW 18th St, Delray Beach, FL 33445-1400, (561) 526-3512, category Automation Consultants, "Mr. Jeff Martin, Founder", file opened 10/21/2026, "Business Incorporated: 8/28/2026", LLC, not rated and not accredited. Two fields on the profile are empty and are the owner's to fill: the website (the profile shows no link to geekatyourspot.com) and "Business Started", which BBB uses for its "Years in Business" line. It is in the Organization node's `sameAs`. Yelp returns 403 to every request, profile or search, from a headless browser, and no search engine has the profile yet. Clutch has the profile in none of its 46 profile sitemaps (24 MB, fetched 2026-10-23), and the likely addresses return 404 or 410; Clutch publishes a profile after its own review. GoodFirms meets every profile address with a Cloudflare challenge, and `goodfirms.co/company/geek-your-spot` redirects to its home page. Each of the three goes into `sameAs` once its address returns 200 with the site's name, address and phone. The fields the summaries quote (rate, minimum project, team size, founding year, service area) are not checked on the three unreachable profiles. The same note is GEO H7 and SA M5.
 
 ### CA4. No sentence says who the business is, where it is and what it does
 
@@ -349,6 +351,8 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
 - Add Miami-Dade and remove "Sales" from the description.
 - Add "LLC" to the name.
 
+**Rechecked on 2026-10-23, partly done.** The public Maps page for the place ID reads "Geek @ Your Spot LLC", so the name matches the site (SA M5, GEO H7). The page's limited public view shows only the primary category, "Automation company", and no description, so the additional categories and the description are not rechecked.
+
 ### CA12. Decide whether clients come to the address
 
 **Evidence (LB4).**
@@ -362,6 +366,8 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
 **Your call.**
 - If clients meet you at 2025 NW 18th Street during the posted hours, keep the address showing.
 - If they don't, switch the profile to a service area covering Palm Beach, Broward and Miami-Dade. Keep the address in the footer as a mailing address, the way Cybercon labels its own.
+
+**2026-10-23 (`b9dc3a1`).** At the owner's direction the footer no longer shows the address, phone or email. The business node still carries them on every page, so the site and the profile still match. The profile decision above is still his (GEO H4, SA M5).
 
 ### CA13. Structured data: three properties missing, one link unconfirmed, and four rival errors to avoid
 
@@ -437,6 +443,8 @@ The `pricing` skill treats a competitor's price as a data point, not a target. I
 - Look for a speaking or sponsor slot at a local AI event; one Boca Raton series turned up in search.
 
 **Rechecked on 2026-10-21, still open (CG8 in `plans/content-gap-audit-2026-10-21.md`).** From Delray Beach, the Greater Delray Beach Chamber's listing for Aslanian AI ranks fifth for "ai consultant delray beach", so the Chamber listing is itself a search result for the town.
+
+**2026-10-23.** The BBB profile carries the LLC name and the Delray Beach address together (CA3), the first directory profile that pairs them.
 
 ## Low
 

@@ -52,4 +52,12 @@ Recommendation, in this order:
 - Every `sameAs` URL returns 200.
 - Each profile's name, address and phone match the site exactly.
 
-**Status:** Open, waiting on you.
+**Checked 2026-10-23, partly done.** The owner reports BBB, Yelp, Clutch and GoodFirms created ("52 Completed BBB, Yelp, Clutch, GoodFirms").
+- **BBB, verified and on the site (`51e3aad`).** `https://www.bbb.org/us/fl/delray-beach/profile/automation-consultants/geek-your-spot-llc-0633-92089707` returns 200 and reads "Geek @ Your Spot LLC", 2025 NW 18th St, Delray Beach, FL 33445-1400, (561) 526-3512, category Automation Consultants, "Mr. Jeff Martin, Founder", file opened 10/21/2026, "Business Incorporated: 8/28/2026", LLC, not rated and not accredited. Two fields on the profile are empty and are the owner's to fill: the website (the profile shows no link to geekatyourspot.com) and "Business Started", which BBB uses for its "Years in Business" line. The profile is in the Organization node's `sameAs` in `src/lib/seo/organization.ts`, so it prints on every page; the build and the FAQ check pass.
+- **Yelp, not reachable.** Every request to yelp.com, profile or search, returns 403 to a headless browser, and no search engine has the profile yet.
+- **Clutch, not public yet.** The profile is in none of Clutch's 46 profile sitemaps (24 MB, fetched 2026-10-23), and the likely addresses return 404 or 410. Clutch publishes a profile after its own review.
+- **GoodFirms, not reachable.** Every profile address meets a Cloudflare challenge, and `goodfirms.co/company/geek-your-spot` redirects to the home page.
+
+Send me the Yelp, Clutch and GoodFirms addresses. Each goes into `sameAs` once it returns 200 with the site's name, address and phone.
+
+**Status:** Partly done. BBB is on the site; three addresses are waiting on you.

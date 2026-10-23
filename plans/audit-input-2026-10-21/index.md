@@ -54,12 +54,12 @@ Each document below covers one item from the SEO audit (`plans/seo-audit-2026-10
 
 45. [Reviews](45-reviews.md), GEO C3
 46. [Business Profile description](46-business-profile-description.md), GEO H7 and M4
-47. [Business Profile name](47-business-profile-name.md), GEO H7 and M5
+47. [Business Profile name](47-business-profile-name.md), GEO H7 and M5. Done by the owner on 2026-10-23: the public profile reads "Geek @ Your Spot LLC"
 48. Business Profile photos and logo, GEO H7. Done and deleted by the owner on 2026-10-22
 49. [Business Profile categories](49-business-profile-categories.md), GEO H7 and decision 9
 50. LinkedIn name, GEO M5. Done and deleted by the owner on 2026-10-22: LLC appended to the LinkedIn name
 51. Facebook name, GEO M5. Deleted by the owner on 2026-10-22: Facebook does not allow `@` in a page name
-52. [Directory listings](52-directory-listings.md), GEO H7
+52. [Directory listings](52-directory-listings.md), GEO H7. Partly done 2026-10-23: the BBB profile is verified and in `sameAs` (`51e3aad`); the Yelp, Clutch and GoodFirms addresses are waiting on the owner
 
 ## Decided after these were written
 
