@@ -919,7 +919,7 @@ export function UseCasesSection() {
                                             <h5><strong className="text-black text-sm">
                                                 Budget Local Ad Spending (Under $500/Month): </strong></h5>
                                             <p className="text-black text-xs">
-                                                AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.
+                                                Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI Dynamic Optimization Tools:
@@ -1923,7 +1923,7 @@ export function UseCasesSection() {
                                             <h5><strong className="text-black text-base">
                                                 Budget Local Ad Spending (Under $500/Month): </strong></h5>
                                             <p className="text-black text-sm">
-                                                AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.
+                                                Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI Dynamic Optimization Tools:
