@@ -917,7 +917,7 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-sm">
-                                                Dynamic Creative Optimization: </strong></h5>
+                                                Budget Local Ad Spending (Under $500/Month): </strong></h5>
                                             <p className="text-black text-xs">
                                                 AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.
                                             </p>
@@ -1921,7 +1921,7 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-base">
-                                                Dynamic Creative Optimization: </strong></h5>
+                                                Budget Local Ad Spending (Under $500/Month): </strong></h5>
                                             <p className="text-black text-sm">
                                                 AI tests variations of ad copy, imagery, and video angles to identify which combinations drive the lowest cost-per-lead.
                                             </p>
