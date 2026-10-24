@@ -1,0 +1,1 @@
+A schematic diagram of a data table with fields and relationships, illustrating data mapping between different systems, with clear color-coded lines showing structured data flow and organization.

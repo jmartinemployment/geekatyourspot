@@ -1,0 +1,1 @@
+A layered diagram showing the system architecture: core application at center, surrounded by interconnected integrations (APIs, plugins, data sources), with small team icons on the periphery, emphasizing modularity and accessibility.

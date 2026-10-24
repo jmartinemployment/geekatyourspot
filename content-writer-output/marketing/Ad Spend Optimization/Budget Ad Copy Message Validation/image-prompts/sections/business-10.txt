@@ -1,0 +1,1 @@
+A decision tree diagram with branching paths, showing profiles of different business types at decision points, guiding the viewer toward a recommended next action based on fit.

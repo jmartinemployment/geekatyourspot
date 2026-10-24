@@ -86,6 +86,12 @@ import { vertexContent } from "@/data/tools/vertex";
 import { zampContent } from "@/data/tools/zamp";
 import { zampMultiStateSalesTaxNexusContent } from "@/data/tools/zamp-multi-state-sales-tax-nexus";
 import { anywordContent } from "@/data/tools/anyword";
+import { adcreativeContent } from "@/data/tools/adcreative";
+import { adzoomaContent } from "@/data/tools/adzooma";
+import { anywordBudgetAdCopyMessageValidationContent } from "@/data/tools/anyword-budget-ad-copy-message-validation";
+import { googlePerformanceMaxContent } from "@/data/tools/google-performance-max";
+import { localiqContent } from "@/data/tools/localiq";
+import { plaiContent } from "@/data/tools/plai";
 import { castmagicContent } from "@/data/tools/castmagic";
 import { copyContent } from "@/data/tools/copy";
 import { fraseContent } from "@/data/tools/frase";
@@ -189,6 +195,12 @@ const toolsMap: Record<string, ToolPageContent> = {
   "zamp": zampContent,
   "zamp-multi-state-sales-tax-nexus": zampMultiStateSalesTaxNexusContent,
   "anyword": anywordContent,
+  "adcreative": adcreativeContent,
+  "adzooma": adzoomaContent,
+  "anyword-budget-ad-copy-message-validation": anywordBudgetAdCopyMessageValidationContent,
+  "google-performance-max": googlePerformanceMaxContent,
+  "localiq": localiqContent,
+  "plai": plaiContent,
   "castmagic": castmagicContent,
   "copy": copyContent,
   "frase": fraseContent,

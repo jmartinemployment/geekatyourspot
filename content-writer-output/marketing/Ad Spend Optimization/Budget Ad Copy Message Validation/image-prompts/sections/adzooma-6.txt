@@ -1,0 +1,1 @@
+A diagram showing data fields being mapped from various sources into a unified data structure, using connecting lines and organized tables or grids, conveying data integration and preparation for deployment.

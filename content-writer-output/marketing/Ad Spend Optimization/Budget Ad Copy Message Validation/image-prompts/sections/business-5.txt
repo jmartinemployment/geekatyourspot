@@ -1,0 +1,1 @@
+An onboarding flow illustration: existing ad tools connecting via dotted lines to the Business platform, with a progress indicator showing setup steps, and final confirmation of systems working together seamlessly.

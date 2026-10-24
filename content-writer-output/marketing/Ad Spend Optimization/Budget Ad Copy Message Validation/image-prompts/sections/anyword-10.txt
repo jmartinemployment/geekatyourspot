@@ -1,0 +1,1 @@
+A decision tree diagram with branching paths, showing different user profiles evaluating suitability, with clear icons for recommended users and alternative options.

@@ -1,0 +1,1 @@
+A simplified architecture diagram showing Plai at the center, connected with lines to various marketing stack icons such as CRM, analytics, and ad platforms, forming an integrated network.

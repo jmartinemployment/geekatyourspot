@@ -3,16 +3,12 @@ import {
     Card,
     CardAction,
     CardContent,
-    CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFunnelDollar,
-    faTag,
-    faUsersBetweenLines,
     faCalculator,
 } from "@fortawesome/free-solid-svg-icons";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
@@ -916,29 +912,56 @@ export function UseCasesSection() {
                                         Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Budget Local Ad Spending (Under $500/Month): </strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation", "Budget Ad Copy & Message Validation")}
+                                                href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
+                                                    Budget Local Ad Spending (Under $500/Month):
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-xs">
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Dynamic Optimization Tools:
+                                                Top Budget Ad Copy & Message Validation Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                AdCreative,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}
-                                                    href="/tools/marketing/madgicx"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Madgicx
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    AdCreative
                                                 </Link>,&nbsp;
-                                                Creatify,&nbsp;
-                                                Cometly&nbsp;or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Adzooma
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword", "Anyword")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Anyword
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Google Performance Max")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Google Performance Max
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    LocaliQ
+                                                </Link>,&nbsp;or&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai", "Plai")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Plai
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1920,29 +1943,56 @@ export function UseCasesSection() {
                                         Ad Spend Optimization</h4>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-base">
-                                                Budget Local Ad Spending (Under $500/Month): </strong></h5>
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation", "Budget Ad Copy & Message Validation")}-lg`}
+                                                href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-base font-bold shadow-text">
+                                                    Budget Local Ad Spending (Under $500/Month):
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-sm">
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Dynamic Optimization Tools:
+                                                Top Budget Ad Copy & Message Validation Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                AdCreative,&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx")}-lg`}
-                                                    href="/tools/marketing/madgicx"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Madgicx
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    AdCreative
                                                 </Link>,&nbsp;
-                                                Creatify,&nbsp;
-                                                Cometly&nbsp;or&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
-                                                    href="/tools/marketing/pipedrive"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Pipedrive
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Adzooma
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword", "Anyword")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Anyword
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Google Performance Max")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Google Performance Max
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    LocaliQ
+                                                </Link>,&nbsp;or&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai", "Plai")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Plai
                                                 </Link>.
                                             </p>
                                         </li>

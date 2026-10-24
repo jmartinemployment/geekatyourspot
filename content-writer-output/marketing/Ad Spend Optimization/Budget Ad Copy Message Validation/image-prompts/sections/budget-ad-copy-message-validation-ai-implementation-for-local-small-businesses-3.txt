@@ -1,0 +1,1 @@
+Step-by-step diagram showing a process pipeline: ad copy draft enters, automated validation checks are applied, and approved messages are output, all within a budget framework.

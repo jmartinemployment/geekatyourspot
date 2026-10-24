@@ -1,0 +1,1 @@
+Network diagram illustrating data sources (databases, analytics, CRM) feeding into a central validation engine, symbolizing integration points for automation.

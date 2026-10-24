@@ -1,0 +1,1 @@
+A flat vector technical diagram showing a layered architecture with core AI engine at the center, surrounding integration icons (APIs, data sources, platforms) connected via lines, representing the system powering ad creation. Modern B2B tech style, no text.

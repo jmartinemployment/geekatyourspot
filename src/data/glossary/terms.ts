@@ -3,7 +3,7 @@ import type { GlossaryTerm } from "@/types/glossary";
 /**
  * The glossary corpus, exported from GeekAPI on 2026-09-28 and served from here.
  *
- * 279 terms, five of them accounting terms added on 2026-10-22. On 2026-10-20 every term was rewritten to one schema: a
+ * 299 terms: five accounting terms were added on 2026-10-22 and 20 advertising terms on 2026-10-24, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
  * definition of one or two sentences, one whyItMatters sentence and one
  * systemsContext sentence. The rewrite merged the six terms that had two
  * definitions into one and dropped the 35 usage examples. Categories are the
@@ -52,6 +52,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Every unpaid invoice is cash the business has earned but cannot spend, so slow collection starves payroll and purchasing even when sales are strong, and a write-off turns work already done into a loss.",
     systemsContext: "Accounts receivable is the mirror of accounts payable, it feeds the general ledger and cash flow forecasting, and automation tools connect invoicing to payment reminders, customer payment portals and the days sales outstanding figure that measures how fast the money comes in.",
+  },
+  {
+    title: "Ad Copy",
+    slug: "ad-copy",
+    category: "Marketing",
+    shortSummary: "The headline, description and call to action text of a paid advertisement.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Ad copy is the written text of an advertisement: the headline, the description lines and the call to action that a paid ad shows to a searcher or a feed reader. Good ad copy names the offer, matches the intent behind the search or placement and tells the reader what to do next.",
+      },
+    ],
+    whyItMatters: "On a small budget the copy decides whether a paid click turns into an inquiry or a wasted charge, so testing it costs less than buying more clicks.",
+    systemsContext: "Ad copy is written and tested in the ad platform or an AI copy tool, scored against click through rate and conversion rate, and paired with a landing page that repeats its promise.",
+  },
+  {
+    title: "Ad Fatigue",
+    slug: "ad-fatigue",
+    category: "Marketing",
+    shortSummary: "The drop in ad response that comes from an audience seeing the same creative too often.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Ad fatigue is the drop in response that sets in when the same audience sees the same ad too many times. Click through rate falls and cost per click rises as people learn to scroll past the creative.",
+      },
+    ],
+    whyItMatters: "A fatigued ad keeps spending at the old daily budget while returning fewer leads, which is one of the quietest ways a small campaign wastes money.",
+    systemsContext: "Platforms report it through frequency and a falling click through rate, and automation rules or dynamic creative optimization rotate in fresh variants before performance decays.",
   },
   {
     title: "Agent Interface",
@@ -395,6 +423,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Bounce rate reads alongside engagement rate, average engagement time and conversion rate, and it varies by page type, so comparisons work best between similar pages rather than across the whole site.",
   },
   {
+    title: "Broad Match",
+    slug: "broad-match",
+    category: "Marketing",
+    shortSummary: "A keyword setting that shows an ad for related searches, not only the exact words.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Broad match is a keyword setting in search advertising that lets an ad show for searches related to the keyword, not only the exact words, including synonyms and loosely connected phrases. It reaches the widest audience of the match types and gives the advertiser the least control over which searches trigger the ad.",
+      },
+    ],
+    whyItMatters: "On a small budget, broad match can spend the day's money on searches that were never going to become customers unless negative keywords and conversion tracking keep it in check.",
+    systemsContext: "It works alongside phrase and exact match, feeds the search terms report that shows what people really typed, and pairs with smart bidding, which uses conversion signals to decide which broad matches are worth a bid.",
+  },
+  {
     title: "Broadcast",
     slug: "broadcast",
     shortSummary: "A one-way communication method to send messages to multiple recipients simultaneously without requiring individual responses.",
@@ -497,6 +539,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "The call to action is the point where interest turns into a measurable conversion, so its wording, placement and clarity directly shape lead and sales volume.",
     systemsContext: "Each call to action should match the reader's stage in the customer journey and point to a landing page, form or checkout, where conversion tracking records which wording and placement produce results.",
+  },
+  {
+    title: "Call Tracking",
+    slug: "call-tracking",
+    category: "Analytics",
+    shortSummary: "Assigning distinct phone numbers to ads or pages so each call can be traced to its source.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Call tracking assigns a distinct phone number to each ad, campaign or page so that an incoming call can be traced to the source that produced it. The number forwards to the business line while the system records the source, the time and often the call itself.",
+      },
+    ],
+    whyItMatters: "For a local business whose leads arrive by phone, it is the only way to know which ads produce calls rather than clicks, and so which ones to keep paying for.",
+    systemsContext: "It feeds conversion tracking, sits alongside the CRM and the ad platforms that count the calls as conversions, and supports cost per lead reporting for businesses that sell by phone.",
   },
   {
     title: "Canned Messages",
@@ -719,6 +775,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Businesses use Claude to summarize contracts and reports, draft content and analyze data, with a person still reviewing the output for accuracy before it reaches customers.",
     systemsContext: "Anthropic offers Claude through its own apps and an API, and through cloud platforms such as Amazon Bedrock and Google Cloud Vertex AI, so developers can build it into chatbots, document workflows and AI agents.",
+  },
+  {
+    title: "Click Through Rate",
+    slug: "click-through-rate",
+    category: "Marketing Metrics",
+    shortSummary: "Clicks divided by impressions, the share of viewers who click an ad or link.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Click through rate is the share of people who click an ad or a link after seeing it, calculated as clicks divided by impressions. A rate of two percent means two clicks for every hundred times the ad was shown.",
+      },
+    ],
+    whyItMatters: "It is the first signal that a message is landing with the audience, and the ad platforms reward a higher rate with lower costs and better placement.",
+    systemsContext: "Ad platforms and email tools report it per ad, keyword and audience, and it feeds quality score, cost per click and the A/B tests that compare one piece of ad copy against another.",
   },
   {
     title: "Click To Open Rate",
@@ -955,6 +1025,62 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It tells a business which single step to fix first, so money spent on traffic does not leak away at a weak landing page, form or checkout.",
     systemsContext: "Funnel reports draw on web analytics events, CRM lifecycle stages and conversion tracking, and they feed conversion rate optimization and lead scoring decisions.",
+  },
+  {
+    title: "Conversion Rate",
+    slug: "conversion-rate",
+    category: "Marketing Metrics",
+    shortSummary: "Conversions divided by clicks or visits, the share of traffic that completes the desired action.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Conversion rate is the share of visitors or clicks that complete a desired action, such as a form submission, a call or a purchase, calculated as conversions divided by clicks or visits. It measures how well a page or campaign turns attention into results.",
+      },
+    ],
+    whyItMatters: "Doubling the conversion rate halves the cost of each lead without buying a single extra click, so it is the lever a small advertiser can pull with testing rather than money.",
+    systemsContext: "It depends on conversion tracking that records the action, and it is read alongside click through rate, cost per lead and return on ad spend to judge a campaign.",
+  },
+  {
+    title: "Conversion Tracking",
+    slug: "conversion-tracking",
+    category: "Analytics",
+    shortSummary: "Recording the valuable actions visitors take and tying each back to the ad or channel that brought them.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Conversion tracking is the setup that records when a visitor completes a valuable action, such as a form submission, a booked appointment, a call or a purchase, and ties that action back to the ad, keyword or email that brought the visitor. It uses a tag on the website, a call tracking number or an import of offline results.",
+      },
+    ],
+    whyItMatters: "Without it, an advertiser only knows what was spent and clicked, not what was earned, and automated bidding has nothing to learn from.",
+    systemsContext: "The platform's tag or a tag manager fires on the thank-you step, the result flows into the ad account and analytics, and smart bidding and the reports on cost per lead and return on ad spend depend on it being correct.",
+  },
+  {
+    title: "Cost Per Click",
+    slug: "cost-per-click",
+    category: "Marketing Metrics",
+    shortSummary: "Total ad spend divided by clicks, the price paid for each visit from a paid ad.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Cost per click is the amount an advertiser pays each time someone clicks a pay per click ad, calculated as total spend divided by clicks. It is set by the auction for the keyword or placement, the bid and the ad's quality.",
+      },
+    ],
+    whyItMatters: "It sets how many visits a fixed daily budget can buy, so a small advertiser watches it closely to keep a campaign from running out of money before noon.",
+    systemsContext: "It is reported per keyword, ad and audience, is pushed down by a higher click through rate and quality score, and is one input to cost per lead and return on ad spend.",
+  },
+  {
+    title: "Cost Per Lead",
+    slug: "cost-per-lead",
+    category: "Marketing Metrics",
+    shortSummary: "Campaign spend divided by the leads it produced.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Cost per lead is the amount spent to acquire one inquiry, calculated as campaign spend divided by the number of leads it produced. It turns clicks and impressions into a figure a business owner can compare with the value of a customer.",
+      },
+    ],
+    whyItMatters: "It is the number that tells a small business whether a campaign is paying for itself, and the number to hold steady while scaling spend.",
+    systemsContext: "It needs conversion tracking to count leads, and it is read alongside cost per click, conversion rate and lead scoring to see which channels bring leads that actually close.",
   },
   {
     title: "CRM",
@@ -1385,6 +1511,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "A well-connected ecosystem stops customers from repeating themselves across channels and stops staff from re-entering data, while a disconnected one creates the gaps customers notice.",
     systemsContext: "The ecosystem depends on a shared data model, consistent customer identifiers and integration methods such as native connectors, webhooks or automation platforms to keep records synchronized.",
+  },
+  {
+    title: "Daily Budget",
+    slug: "daily-budget",
+    category: "Marketing",
+    shortSummary: "The average amount a campaign is allowed to spend each day.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A daily budget is the average amount an advertiser allows a campaign to spend each day. Ad platforms may spend up to about twice that figure on a busy day and less on a quiet one, balancing to the monthly total.",
+      },
+    ],
+    whyItMatters: "For a business advertising on a few hundred dollars a month, the daily budget is the hard ceiling that keeps one bad day from draining the month.",
+    systemsContext: "It is set per campaign in the ad platform, paced by the platform's delivery system, and paired with a bid strategy, schedules and automation rules that pause spend when results fall off.",
   },
   {
     title: "Data Model",
@@ -1874,6 +2014,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Hybrid chatbots route each message between scripted flows, natural language understanding, a knowledge base and human handover based on the detected intent and a confidence score.",
   },
   {
+    title: "Impressions",
+    slug: "impressions",
+    category: "Marketing Metrics",
+    shortSummary: "The number of times an ad or piece of content was shown.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Impressions are the number of times an ad or a piece of content was shown, counted each time it appears on a screen whether or not anyone clicks. They measure reach and frequency, not interest.",
+      },
+    ],
+    whyItMatters: "Impressions are the denominator of click through rate, and a rising count with flat clicks is the early warning of ad fatigue or poor targeting.",
+    systemsContext: "Ad platforms and analytics report them per ad, placement and audience, and they feed click through rate, frequency and cost per thousand impressions.",
+  },
+  {
     title: "In App Support",
     slug: "in-app-support",
     shortSummary: "Customer support integrated directly within a mobile or web application for seamless assistance.",
@@ -2086,6 +2240,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "KPIs pull data from accounting software, CRMs, ad platforms and analytics tools into a dashboard, and each one needs a consistent data source and definition to stay comparable from month to month.",
   },
   {
+    title: "Landing Page",
+    slug: "landing-page",
+    category: "Marketing",
+    shortSummary: "The page a visitor reaches after clicking an ad or link, built to lead to one action.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A landing page is the web page a visitor arrives at after clicking an ad, an email link or a search result, built to continue the message of that click and lead to one action. It is usually a single page with one offer, one form or call button and few distractions.",
+      },
+    ],
+    whyItMatters: "A paid click is wasted when the page it lands on does not repeat the ad's promise, so the landing page decides the conversion rate the ad can achieve.",
+    systemsContext: "It is built in the website or a landing page builder, measured through conversion tracking and A/B testing, and matched to the ad copy and keywords that send traffic to it.",
+  },
+  {
     title: "Language Detection",
     slug: "language-detection",
     shortSummary: "AI technology that automatically identifies the language used in text or speech.",
@@ -2229,6 +2397,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Machine learning powers recommendations, demand and cash flow forecasting, fraud detection and automated decisions in marketing and operations, tasks where the rules are too complex to write by hand.",
     systemsContext: "Machine learning underpins large language models, natural language processing and predictive lead scoring, and every model needs clean, representative training data and ongoing monitoring for drift.",
+  },
+  {
+    title: "Marketing Attribution",
+    slug: "marketing-attribution",
+    category: "Analytics",
+    shortSummary: "Assigning credit for a lead or sale to the marketing touches that came before it.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Marketing attribution assigns credit for a lead or sale to the ads, searches, emails and visits that came before it. Models range from last click, which credits only the final touch, to data driven models that share credit across every touch.",
+      },
+    ],
+    whyItMatters: "The model chosen changes which campaigns look profitable, and a small business that credits only the last click often cuts the ads that started the conversation.",
+    systemsContext: "It runs on conversion tracking, UTM parameters and CRM records, and it feeds the return on ad spend and cost per lead reports in analytics and the ad platforms.",
   },
   {
     title: "Marketing Automation",
@@ -2375,6 +2557,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "NLU sits between the text or speech-to-text input and the dialogue manager that chooses the bot's reply, and it runs either on intent classifiers trained with example phrases or on large language models.",
   },
   {
+    title: "Negative Keywords",
+    slug: "negative-keywords",
+    category: "Marketing",
+    shortSummary: "Search terms an advertiser excludes so the ad does not show for them.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Negative keywords are search terms an advertiser excludes so that an ad does not show when they appear in a query, such as free, jobs or a city outside the service area. They narrow broad and phrase match keywords to the searches that can become customers.",
+      },
+    ],
+    whyItMatters: "On a small budget, a short negative keyword list is often the single cheapest fix, because it stops paying for clicks from people who were never going to buy.",
+    systemsContext: "They are added per campaign or as shared lists in the ad platform, built from the search terms report, and reviewed alongside broad match keywords and conversion tracking data.",
+  },
+  {
     title: "Neural Network",
     slug: "neural-network",
     shortSummary: "A machine learning architecture inspired by biological neural networks that learns patterns from data.",
@@ -2464,6 +2660,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Laws such as the CAN-SPAM Act for email and the Telephone Consumer Protection Act for calls and texts require businesses to honor opt-outs, and ignoring them invites penalties, lawsuits and spam complaints that damage deliverability.",
     systemsContext: "Email platforms, SMS tools and CRMs store opt-out status on the contact record as a suppression flag, and every connected system must sync that flag so an automation in one tool does not message someone who unsubscribed in another.",
+  },
+  {
+    title: "Pay Per Click",
+    slug: "pay-per-click",
+    category: "Marketing",
+    shortSummary: "An advertising model in which the advertiser pays only when someone clicks the ad.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Pay per click is an advertising model in which the advertiser pays only when someone clicks the ad, rather than for each time it is shown. Search ads, shopping ads and many social and display ads are bought this way through an auction.",
+      },
+    ],
+    whyItMatters: "It lets a small business buy visits from people actively searching for what it sells, with a budget it can cap by the day.",
+    systemsContext: "Campaigns run in the search and social ad platforms, are priced by cost per click, and are judged by click through rate, conversion rate and return on ad spend.",
+  },
+  {
+    title: "Performance Max",
+    slug: "performance-max",
+    category: "Marketing",
+    shortSummary: "A goal based Google Ads campaign type that runs across all Google channels from one campaign.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Performance Max is a goal based Google Ads campaign type that serves ads across Search, YouTube, Display, Discover, Gmail and Maps from one campaign. The advertiser supplies a conversion goal, a budget, creative assets and audience signals, and Google's automation decides the bids, the placements and the asset combinations.",
+      },
+    ],
+    whyItMatters: "It gives a small business reach across every Google surface without managing six campaigns, at the price of less control over where the money goes and which searches triggered an ad.",
+    systemsContext: "It relies on conversion tracking for its learning, accepts audience signals and negative keywords as guidance, and is read through the asset and channel reports in Google Ads.",
   },
   {
     title: "Personalization vs Customization",
@@ -2637,6 +2861,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Chatbot builders pair it with validation rules and conditional nodes, and an integration or webhook typically pushes the captured variables into a CRM, email list or calendar tool.",
   },
   {
+    title: "Retargeting",
+    slug: "retargeting",
+    category: "Marketing",
+    shortSummary: "Showing ads to people who have already visited a site or appeared in a customer list.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Retargeting, also called remarketing, shows ads to people who have already visited a website, used an app or appeared in a customer list, following them across search, social and display placements. It works from a tag on the site or an uploaded list that builds the audience.",
+      },
+    ],
+    whyItMatters: "People who already know the business convert at a higher rate and a lower cost per lead than cold audiences, so a small budget usually goes further here first.",
+    systemsContext: "Audiences are built by the ad platform's tag or a customer list, and the campaigns are measured with conversion tracking, frequency caps and return on ad spend.",
+  },
+  {
+    title: "Return on Ad Spend",
+    slug: "return-on-ad-spend",
+    category: "Marketing Metrics",
+    shortSummary: "Revenue from ads divided by the cost of the ads.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Return on ad spend is the revenue earned for every dollar of advertising, calculated as the revenue attributed to the ads divided by the cost of the ads. A return of four means four dollars of revenue for each dollar spent.",
+      },
+    ],
+    whyItMatters: "It tells an owner whether advertising is a profit center or a cost, and sets the ceiling on what a campaign can afford to pay per lead.",
+    systemsContext: "It depends on conversion tracking and marketing attribution that connect sales to ads, and it is read with cost per lead and customer lifetime value when the sale happens weeks after the click.",
+  },
+  {
     title: "Return Rate",
     slug: "return-rate",
     shortSummary: "A metric measuring the percentage of customers who make repeat purchases after an initial transaction.",
@@ -2793,6 +3045,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Store owners can see which products, channels and campaigns generate revenue without setting up a separate analytics tool, which guides inventory, pricing and ad spend decisions.",
     systemsContext: "Shopify Analytics covers activity inside the store, so businesses often pair it with Google Analytics 4 and ad platform data for the full acquisition picture, and with accounting software for profit after costs.",
+  },
+  {
+    title: "Smart Bidding",
+    slug: "smart-bidding",
+    category: "Marketing",
+    shortSummary: "Automated bid strategies in Google Ads that set bids per auction from conversion signals.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Smart Bidding is the set of automated bid strategies in Google Ads that use machine learning to set a bid for each auction based on the chance of a conversion. The strategies include maximize conversions, target cost per action and target return on ad spend.",
+      },
+    ],
+    whyItMatters: "It frees a small team from adjusting bids by hand, but it can only learn from the conversions it can see, so weak conversion tracking leads it to spend on the wrong clicks.",
+    systemsContext: "It reads conversion tracking and audience signals, works inside Search, Shopping and Performance Max campaigns, and is judged by cost per lead and return on ad spend after its learning period.",
   },
   {
     title: "Smart Responses",
@@ -3002,6 +3268,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Tickets give every request an owner and a timestamped history, so nothing falls through the cracks and the business can measure response times against its service level agreements.",
     systemsContext: "Ticket generation creates tickets from email, chat, web forms and support bots, ticket routing assigns them, and their timestamps and fields supply the data behind support benchmarks.",
+  },
+  {
+    title: "Synthetic Persona Testing",
+    slug: "synthetic-persona-testing",
+    category: "Marketing",
+    shortSummary: "Using an AI model to predict how a defined audience profile would respond to ad copy before it runs.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Synthetic persona testing uses an AI model to predict how a defined audience profile, such as a contractor in one county worried about labor costs, would respond to a piece of ad copy before any money is spent. The model scores the copy for clarity, relevance and likely engagement, standing in for a focus group.",
+      },
+    ],
+    whyItMatters: "It lets a small advertiser compare headlines and offers in minutes for almost nothing, and send only the strongest versions into a paid test.",
+    systemsContext: "It runs in AI copy tools and predictive scoring platforms, draws on historical response data and customer personas, and comes before live A/B testing and conversion tracking in the campaign.",
   },
   {
     title: "Tax Compliance",

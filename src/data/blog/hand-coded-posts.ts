@@ -20,4 +20,12 @@ export const HAND_CODED_POSTS: readonly HandCodedPost[] = [
     department: "marketing",
     date: "2026-09-02T15:52:27.1724249Z",
   },
+  {
+    href: "/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now",
+    title: "How Miami Businesses Can Stop Wasting Ad Dollars Now",
+    excerpt:
+      "Budget Ad Copy & Message Validation saves Miami small businesses up to 30% on ads by cutting waste and boosting conversions. See how to get started, step by step.",
+    department: "marketing",
+    date: "2026-10-24T16:08:13.8759570Z",
+  },
 ];

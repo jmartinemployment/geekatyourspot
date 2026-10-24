@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { HAND_CODED_POSTS } from "@/data/blog/hand-coded-posts";
 
 /**
  * Reads the Content Writer HTML exports off disk and turns them into typed
@@ -388,9 +389,15 @@ function loadAll(): Map<string, ParsedFile> {
   // (Jeff, 2026-10-22); the 11 posts it was serving moved into content-writer-output/ that day.
   const files = walkHtmlFiles(EXPORT_DIR);
 
+  // An export whose canonical is a hand-coded page is never served from here. New posts are
+  // hand-coded (Jeff, 2026-10-20), so the page under src/app is the content of record; the raw
+  // export stays in the store, and skipping it keeps the post out of the index and the sitemap twice.
+  const handCoded = new Set(HAND_CODED_POSTS.map((post) => post.href));
+
   for (const file of files) {
     const parsed = parseFile(file);
     if (!parsed) continue;
+    if (handCoded.has(parsed.entry.href)) continue;
     byHref.set(parsed.entry.href, parsed);
   }
 

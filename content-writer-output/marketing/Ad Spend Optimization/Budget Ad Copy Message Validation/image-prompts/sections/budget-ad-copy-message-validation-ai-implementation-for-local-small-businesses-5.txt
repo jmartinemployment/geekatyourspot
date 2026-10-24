@@ -1,0 +1,1 @@
+Decision-tree graphic showing branching paths from initial campaign decisions leading to success or failure outcomes, with highlighted early choice points.

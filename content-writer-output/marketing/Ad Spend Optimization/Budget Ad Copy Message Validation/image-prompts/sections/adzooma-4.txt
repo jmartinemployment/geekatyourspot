@@ -1,0 +1,1 @@
+A network diagram showing Adzooma at the center, connecting to various data sources (ad platforms, analytics, CRM), with arrows indicating data flow, and organized folders or layers representing structured ad operations.

@@ -18,6 +18,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/blog/accounting/cash-flow-forecasting", "Cash Flow Forecasting"],
   ["/blog/accounting/tax-compliance-regulations", "Tax Compliance & Regulations"],
   ["/blog/marketing", "Marketing"],
+  ["/blog/marketing/ad-spend-optimization", "Ad Spend Optimization"],
   ["/blog/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/blog/marketing/lead-capture-pipeline", "Lead Capture Pipeline"],
 
@@ -39,6 +40,8 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus", "Multi-State Sales Tax Nexus"],
   ["/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification", "Payroll Tax & Worker Misclassification"],
   ["/tools/marketing", "Marketing"],
+  ["/tools/marketing/ad-spend-optimization", "Ad Spend Optimization"],
+  ["/tools/marketing/ad-spend-optimization/budget-local-ad-spending", "Budget Local Ad Spending"],
   ["/tools/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-generation", "Intelligent Content Generation"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-planning", "Intelligent Content Planning"],
@@ -53,6 +56,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/use-cases/accounting/cash-flow-forecasting", "Cash Flow Forecasting"],
   ["/use-cases/accounting/tax-compliance-regulations", "Tax Compliance & Regulations"],
   ["/use-cases/marketing", "Marketing"],
+  ["/use-cases/marketing/ad-spend-optimization", "Ad Spend Optimization"],
   ["/use-cases/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/use-cases/marketing/lead-capture-pipeline", "Lead Capture Pipeline"],
 ]);

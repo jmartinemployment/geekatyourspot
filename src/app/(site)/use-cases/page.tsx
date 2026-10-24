@@ -214,6 +214,13 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/automated-ad-spend-optimization",
       },
       {
+        title: "Budget Ad Copy & Message Validation",
+        slug: "ai-budget-ad-copy-message-validation",
+        description:
+          "Budget Ad Copy & Message Validation helps small businesses lower ad costs and boost results with AI-driven testing. Start your free assessment today.",
+        href: "/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation",
+      },
+      {
         title: "Intelligent Lead Capture Pipeline",
         slug: "ai-sales-force-automation-software",
         description:

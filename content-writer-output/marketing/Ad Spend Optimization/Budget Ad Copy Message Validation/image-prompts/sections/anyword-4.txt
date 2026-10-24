@@ -1,0 +1,1 @@
+A simplified network diagram showing Anyword in the center, connected to various marketing platforms and data sources, with arrows indicating seamless data flow and control panels for campaign management.
