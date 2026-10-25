@@ -917,7 +917,7 @@ export function UseCasesSection() {
                                                 href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
-                                                    Budget Local Ad Spending (Under $500/Month):
+                                                    Precision Lead Acquisition (Under $500/Month):
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs">
@@ -1944,7 +1944,7 @@ export function UseCasesSection() {
                                                 href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
-                                                    Budget Local Ad Spending (Under $500/Month):
+                                                    Precision Lead Acquisition (Under $500/Month):
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-sm">
