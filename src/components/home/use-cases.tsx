@@ -966,27 +966,6 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">Automated Rules & Bidding: </strong></h5>
-                                            <p className="text-black text-xs">
-                                                Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Automated Bidding Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                Adzooma,&nbsp;
-                                                Optmyzr,&nbsp;
-                                                Opteo,&nbsp;
-                                                WordStream,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
-                                                    href="/tools/marketing/zapier"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Zapier
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
                                             <Link
                                                 id={gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation", "Measured Lead Generation")}
                                                 href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
@@ -2010,27 +1989,6 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Plai
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-base">Automated Rules & Bidding: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                Autonomous scripts adjust bidding caps and pause ad fatigue instances instantly without requiring manual oversight.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Automated Bidding Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                Adzooma,&nbsp;
-                                                Optmyzr,&nbsp;
-                                                Opteo,&nbsp;
-                                                WordStream,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}-lg`}
-                                                    href="/tools/marketing/zapier"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Zapier
                                                 </Link>.
                                             </p>
                                         </li>
