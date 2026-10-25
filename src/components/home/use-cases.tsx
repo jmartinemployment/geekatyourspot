@@ -590,7 +590,7 @@ export function UseCasesSection() {
                                         href="/use-cases/marketing/ai-sales-force-automation-software"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
                                         <h4 className="text-black text-base font-bold shadow-text">
-                                            AI Sales Force Automation Software</h4>
+                                            Marketing Automation Platforms (MAP)</h4>
                                     </Link>
                                     <p className="text-black text-xs">
                                         Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
@@ -1637,7 +1637,7 @@ export function UseCasesSection() {
                                         href="/use-cases/marketing/ai-sales-force-automation-software"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline" >
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            AI Sales Force Automation Software</h4>
+                                            Marketing Automation Platforms (MAP)</h4>
                                     </Link>
                                     <p className="text-black text-sm">
                                         Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
