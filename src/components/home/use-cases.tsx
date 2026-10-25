@@ -971,7 +971,7 @@ export function UseCasesSection() {
                                                 href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
-                                                    Measured Lead Generation (Budget $500–$1,500 month):
+                                                    Intent-Driven Lead Sourcing (Budget $500–$1,500 month):
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs">
@@ -1998,7 +1998,7 @@ export function UseCasesSection() {
                                                 href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
-                                                    Measured Lead Generation (Budget $500–$1,500 month):
+                                                    Intent-Driven Lead Sourcing (Budget $500–$1,500 month):
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-sm">
