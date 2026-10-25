@@ -593,7 +593,7 @@ export function UseCasesSection() {
                                             Marketing Automation Platforms (MAP)</h4>
                                     </Link>
                                     <p className="text-black text-xs">
-                                        Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
+                                        A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
                                     </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
@@ -1640,7 +1640,7 @@ export function UseCasesSection() {
                                             Marketing Automation Platforms (MAP)</h4>
                                     </Link>
                                     <p className="text-black text-sm">
-                                        Capture every inbound call, text, web chat, and form inquiry, even after hours, and turn it into a qualified lead.
+                                        A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
                                     </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
