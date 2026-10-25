@@ -946,10 +946,10 @@ export function UseCasesSection() {
                                                     Anyword
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Google Performance Max")}
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Google Performance Max
+                                                    Performance Max
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}
@@ -987,34 +987,51 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Measured Lead Generation (Budget $500–$1,500 month):</strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation", "Measured Lead Generation")}
+                                                href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
+                                                    Measured Lead Generation (Budget $500–$1,500 month):
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-xs">
                                                 Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Real-Time Budget Reallocation Tools:
+                                                Top Measured Lead Generation Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx budget reallocation")}
-                                                    href="/tools/marketing/madgicx"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx", "Madgicx")}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Madgicx
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/adobe-mix-modeler", "Adobe Mix Modeler")}
-                                                    href="/tools/marketing/adobe-mix-modeler"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Adobe Mix Modeler
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Marpipe
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/optimove", "Optimove")}
-                                                    href="/tools/marketing/optimove"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Optimove
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Optmyzr
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Performance Max
                                                 </Link>,&nbsp;or&nbsp;
-                                                Tableau AI / Adobe Analytics.
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench", "Wrench")}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Wrench
+                                                </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">
@@ -1977,10 +1994,10 @@ export function UseCasesSection() {
                                                     Anyword
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Google Performance Max")}-lg`}
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Google Performance Max
+                                                    Performance Max
                                                 </Link>,&nbsp;
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}-lg`}
@@ -2018,34 +2035,51 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-black text-base">
-                                                Measured Lead Generation (Budget $500–$1,500 month):</strong></h5>
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation", "Measured Lead Generation")}-lg`}
+                                                href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-base font-bold shadow-text">
+                                                    Measured Lead Generation (Budget $500–$1,500 month):
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-sm">
                                                 Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Real-Time Budget Reallocation Tools:
+                                                Top Measured Lead Generation Tools:
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/madgicx", "Madgicx budget reallocation")}-lg`}
-                                                    href="/tools/marketing/madgicx"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx", "Madgicx")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Madgicx
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/adobe-mix-modeler", "Adobe Mix Modeler")}-lg`}
-                                                    href="/tools/marketing/adobe-mix-modeler"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Adobe Mix Modeler
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Marpipe
                                                 </Link>,&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/optimove", "Optimove")}-lg`}
-                                                    href="/tools/marketing/optimove"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Optimove
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Optmyzr
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Performance Max
                                                 </Link>,&nbsp;or&nbsp;
-                                                Tableau AI / Adobe Analytics.
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench", "Wrench")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Wrench
+                                                </Link>.
                                             </p>
                                         </li>
                                         <li className="pl-.5">

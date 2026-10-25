@@ -1,0 +1,1 @@
+A flat vector diagram showing data sources (icons for CRM, ad platforms, web analytics) connected by lines to structured tables and organized nodes, illustrating data mapping and organization.

@@ -1,0 +1,1 @@
+A flat vector schematic of a cloud-based platform architecture: modules for data integration, automation engine, analytics, and user interface, all interconnected with clean lines and digital nodes.

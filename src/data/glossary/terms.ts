@@ -3,7 +3,7 @@ import type { GlossaryTerm } from "@/types/glossary";
 /**
  * The glossary corpus, exported from GeekAPI on 2026-09-28 and served from here.
  *
- * 299 terms: five accounting terms were added on 2026-10-22 and 20 advertising terms on 2026-10-24, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
+ * 331 terms: five accounting terms were added on 2026-10-22, 20 advertising terms on 2026-10-24 and 32 advertising terms on 2026-10-25, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
  * definition of one or two sentences, one whyItMatters sentence and one
  * systemsContext sentence. The rewrite merged the six terms that had two
  * definitions into one and dropped the 35 usage examples. Categories are the
@@ -54,6 +54,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Accounts receivable is the mirror of accounts payable, it feeds the general ledger and cash flow forecasting, and automation tools connect invoicing to payment reminders, customer payment portals and the days sales outstanding figure that measures how fast the money comes in.",
   },
   {
+    title: "Ad Auction",
+    slug: "ad-auction",
+    category: "Marketing",
+    shortSummary: "The instant bidding contest an ad platform runs to decide which ads show and what each costs.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An ad auction is the contest an ad platform runs each time a search happens or a feed loads, to decide which ads appear, in what order and at what price. Each advertiser's bid, the expected response to the ad and its relevance to the person are scored together, so the highest bid does not always win.",
+      },
+    ],
+    whyItMatters: "A small advertiser pays less and places higher by improving the ad and the landing page than by raising the bid, and bidding against its own campaigns in the same auction raises its own costs.",
+    systemsContext: "Search and social platforms run the auction behind every impression, smart bidding sets the bid per auction from conversion signals, and audience overlap reports show when two campaigns compete for the same people.",
+  },
+  {
     title: "Ad Copy",
     slug: "ad-copy",
     category: "Marketing",
@@ -80,6 +94,48 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "A fatigued ad keeps spending at the old daily budget while returning fewer leads, which is one of the quietest ways a small campaign wastes money.",
     systemsContext: "Platforms report it through frequency and a falling click through rate, and automation rules or dynamic creative optimization rotate in fresh variants before performance decays.",
+  },
+  {
+    title: "Ad Group",
+    slug: "ad-group",
+    category: "Marketing",
+    shortSummary: "A set of ads and keywords inside a search campaign that share one theme and one target.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An ad group is the level inside a search campaign that holds a set of keywords and the ads written for them, organized around one theme such as one service or one neighborhood. Bids, negative keywords and ad copy can be set at this level so the ad matches the search that triggered it.",
+      },
+    ],
+    whyItMatters: "Tight ad groups keep the ad relevant to the search, which raises click through rate and lowers cost per click, and they let automation pause one theme without touching the rest.",
+    systemsContext: "Ad groups sit between the campaign and the keyword in Google Ads and Microsoft Advertising, feed the search terms report, and are the level where automation rules and scripts most often act.",
+  },
+  {
+    title: "Ad Placement",
+    slug: "ad-placement",
+    category: "Marketing",
+    shortSummary: "The specific site, app, feed or surface where an ad is shown.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An ad placement is the specific location where an ad is shown, such as a social feed, a story, a search result, a video pre roll, a partner website or a map listing. Platforms let an advertiser choose placements or leave the choice to automation, and report results for each one.",
+      },
+    ],
+    whyItMatters: "A few placements usually produce most of the leads while others burn budget on people who are out of market, so pausing the failing ones is one of the fastest savings on a small account.",
+    systemsContext: "Placement reports in the ad platforms show spend and conversions per surface, automation rules pause or exclude the weak ones, and campaign types like Performance Max choose placements automatically.",
+  },
+  {
+    title: "Ad Set",
+    slug: "ad-set",
+    category: "Marketing",
+    shortSummary: "The level in a Meta campaign that holds the audience, placements, budget, schedule and bid strategy.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An ad set is the level inside a Meta campaign that defines who sees the ads, where, when and for how much: the audience, the placements, the schedule, the budget and the bid strategy. The individual ads inside it share those settings and differ only in creative.",
+      },
+    ],
+    whyItMatters: "Budget shifts, audience tests and pauses happen at the ad set level, so it is where a small advertiser's money is actually won or lost day to day.",
+    systemsContext: "Ad sets correspond to ad groups in search platforms, are the unit that budget automation reallocates between, and report the frequency, cost per lead and audience overlap figures that guide those moves.",
   },
   {
     title: "Agent Interface",
@@ -319,6 +375,62 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Attributes live in CRM contact records, customer data platforms and chatbot user profiles, and integrations sync them between tools by mapping each field to its counterpart.",
   },
   {
+    title: "Audience Overlap",
+    slug: "audience-overlap",
+    category: "Marketing",
+    shortSummary: "The share of people two targeted audiences have in common, which makes an advertiser bid against itself.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Audience overlap is the share of people that two or more targeted audiences have in common. When overlapping audiences run in separate ad sets, the same advertiser bids against itself in the auction and shows the same people the same ads too often.",
+      },
+    ],
+    whyItMatters: "Overlap raises costs and speeds up ad fatigue without reaching anyone new, and it is a common hidden waste in accounts built by hand over time.",
+    systemsContext: "Meta reports it with an overlap tool, platforms like Madgicx flag it automatically, and the fix is exclusions between audiences or merging the ad sets.",
+  },
+  {
+    title: "Audience Segmentation",
+    slug: "audience-segmentation",
+    category: "Marketing",
+    shortSummary: "Dividing the people an advertiser can reach into groups that get different ads, bids or offers.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Audience segmentation divides the people an advertiser can reach into groups by behavior, location, purchase history or stage in the buying process, so each group gets ads, bids and offers that fit it. Segments might include past customers, recent site visitors, lookalikes of best buyers and cold prospects in a service area.",
+      },
+    ],
+    whyItMatters: "A budget of a few hundred dollars goes further when warm segments get most of it and cold segments get the rest, and when past buyers are excluded from acquisition ads altogether.",
+    systemsContext: "Segments are built from the tracking pixel, customer lists and CRM data, mapped to funnel stages in the ad platform or a tool like Madgicx or Wrench, and measured by cost per lead for each segment.",
+  },
+  {
+    title: "Automation Rules",
+    slug: "automation-rules",
+    category: "Marketing",
+    shortSummary: "If this then that instructions an ad platform or tool follows to change a campaign without a person.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Automation rules are instructions an ad platform or management tool follows on its own, such as pause this ad set if cost per lead passes a limit, raise the budget if return on ad spend holds for three days, or alert me if a landing page returns an error. Each rule names a condition, a check schedule and an action.",
+      },
+    ],
+    whyItMatters: "Rules give a small team round the clock monitoring without hiring for it, and they stop one bad day from spending the month's budget.",
+    systemsContext: "Google Ads, Microsoft Advertising and Meta each have native rules, tools like Optmyzr and Madgicx add rules that read custom data, and the rules depend on accurate conversion tracking to judge results.",
+  },
+  {
+    title: "Automation Scripts",
+    slug: "automation-scripts",
+    category: "Marketing",
+    shortSummary: "Small programs that run inside an ad account on a schedule to monitor and change campaigns.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Automation scripts are small programs that run inside an ad account on a schedule to monitor, report on and change campaigns, such as pausing keywords that cross a cost limit, checking landing pages for errors or shifting budgets between campaigns. Google Ads and Microsoft Advertising both support them, and tools such as Optmyzr offer prebuilt scripts that need no developer.",
+      },
+    ],
+    whyItMatters: "They do the repetitive checking a small team cannot keep up with, and they react within minutes rather than at the next weekly review.",
+    systemsContext: "Scripts run on the ad platform's own scheduler, read the same data as the account reports, and work alongside automation rules and smart bidding rather than replacing them.",
+  },
+  {
     title: "Automobile Chatbot",
     slug: "automobile-chatbot",
     shortSummary: "An AI chatbot specialized for the automotive industry to handle inquiries about vehicles, service appointments, financing, and inventory.",
@@ -397,6 +509,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Behavioral segments draw on event tracking from analytics tools, CRM records and e-commerce data, and email and ad platforms use them to trigger automated campaigns and build audiences.",
   },
   {
+    title: "Bid Cap",
+    slug: "bid-cap",
+    category: "Marketing",
+    shortSummary: "A bid strategy that sets the maximum the platform may bid in any single auction.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A bid cap is a bid strategy in which the advertiser sets the most the platform may bid in any single auction, and the platform never exceeds it. It gives hard control over the price of each impression at the risk of winning fewer auctions when competition rises.",
+      },
+    ],
+    whyItMatters: "It protects a small budget from a sudden jump in auction prices, but set too low it can stop the ads from showing at all.",
+    systemsContext: "Bid caps are set per ad set in Meta and as manual or maximum bids in search platforms, and they sit alongside cost caps and value optimization as the main ways to constrain automated bidding.",
+  },
+  {
     title: "Bot Cards",
     slug: "bot-cards",
     shortSummary: "Rich message templates used by chatbots to display formatted content including images, buttons, and interactive elements.",
@@ -461,6 +587,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Texts arrive directly on customers' phones, which suits time-sensitive offers, appointment reminders and closure notices that could sit unread in an email inbox.",
     systemsContext: "In the United States, broadcast texting falls under the Telephone Consumer Protection Act and carrier rules such as 10DLC registration, so senders need documented consent, a registered number and opt-out handling through keywords like STOP.",
+  },
+  {
+    title: "Budget Pacing",
+    slug: "budget-pacing",
+    category: "Marketing",
+    shortSummary: "Spreading a campaign budget across the day or month so it is neither spent early nor left unspent.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Budget pacing is the practice of spending a campaign budget evenly across the day or the month so that the money is neither gone by noon nor left unspent at the end. Platforms pace daily budgets automatically, and management tools pace monthly totals across campaigns.",
+      },
+    ],
+    whyItMatters: "Poor pacing means ads disappear during the hours customers search or money sits idle, and both lower the leads a fixed budget can produce.",
+    systemsContext: "Pacing is handled by the ad platform's delivery system for daily budgets and by tools such as Optmyzr for monthly budgets, and it is checked against daily budget settings and the spend reports.",
   },
   {
     title: "Business Chatbot",
@@ -580,6 +720,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It warns of a cash shortfall early enough to delay spending, chase receivables or arrange financing, which protects liquidity and grounds spending decisions in actual cash rather than reported profit.",
     systemsContext: "Forecasts draw on accounts receivable aging, accounts payable schedules, payroll calendars and the general ledger, and accounting software or AI tools update them as actual bank transactions replace estimates.",
+  },
+  {
+    title: "Catalog Ads",
+    slug: "catalog-ads",
+    category: "Marketing",
+    shortSummary: "Ads generated automatically from a product feed, showing each shopper the items that match them.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Catalog ads are ads built automatically from a product catalog or feed, so that each shopper sees the products, prices and images that match their browsing or the campaign's rules. The advertiser maintains the feed and a template, and the platform assembles the individual ads.",
+      },
+    ],
+    whyItMatters: "A small retailer can advertise hundreds of products without designing hundreds of ads, and an enriched feed with better images and copy lifts results across every ad at once.",
+    systemsContext: "They run on Meta, TikTok, Pinterest, Snap, Reddit and Google Shopping from a product feed, are a form of dynamic product ads, and tools like Marpipe enrich the feed and test the templates.",
   },
   {
     title: "Chat Automation",
@@ -1055,6 +1209,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "The platform's tag or a tag manager fires on the thank-you step, the result flows into the ad account and analytics, and smart bidding and the reports on cost per lead and return on ad spend depend on it being correct.",
   },
   {
+    title: "Cost Cap",
+    slug: "cost-cap",
+    category: "Marketing",
+    shortSummary: "A bid strategy that holds the average cost per result at or below a target while spending the budget.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A cost cap is a bid strategy in which the advertiser names a target average cost per result, such as a lead, and the platform bids more or less in each auction to keep the average at or below that figure while spending the budget. It trades some volume for a predictable cost.",
+      },
+    ],
+    whyItMatters: "For a small business that knows what a lead is worth, it keeps acquisition profitable while still letting the platform find the cheapest results first.",
+    systemsContext: "Cost caps are set per ad set in Meta and resemble target cost per action in Google Ads, rely on conversion tracking to count results, and sit between bid caps and value optimization in how much control they keep.",
+  },
+  {
+    title: "Cost Per Acquisition",
+    slug: "cost-per-acquisition",
+    category: "Marketing Metrics",
+    shortSummary: "Advertising spend divided by the number of customers or conversions it produced.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Cost per acquisition is the amount spent on advertising to win one customer or one completed conversion, calculated as spend divided by acquisitions. It sits one step past cost per lead, counting only the leads that became customers or the actions the business defined as a conversion.",
+      },
+    ],
+    whyItMatters: "It is the figure to compare with what a customer is worth, and the threshold that automation rules watch to pause spending that has stopped paying back.",
+    systemsContext: "It depends on conversion tracking and often on offline conversions imported from the CRM, and it is read with cost per lead, return on ad spend and customer lifetime value.",
+  },
+  {
     title: "Cost Per Click",
     slug: "cost-per-click",
     category: "Marketing Metrics",
@@ -1081,6 +1263,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It is the number that tells a small business whether a campaign is paying for itself, and the number to hold steady while scaling spend.",
     systemsContext: "It needs conversion tracking to count leads, and it is read alongside cost per click, conversion rate and lead scoring to see which channels bring leads that actually close.",
+  },
+  {
+    title: "Creative Assets",
+    slug: "creative-assets",
+    category: "Marketing",
+    shortSummary: "The images, videos, headlines and descriptions an ad platform combines into ads.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Creative assets are the individual pieces an ad is made from: images, videos, logos, headlines, descriptions and calls to action. Modern campaign types take a set of assets and assemble and test combinations rather than running one fixed ad.",
+      },
+    ],
+    whyItMatters: "The number and freshness of the assets decide how long a campaign can run before ad fatigue sets in, and weak assets cap what any bidding strategy can achieve.",
+    systemsContext: "Assets are uploaded to the ad platform or generated in tools such as Madgicx and Marpipe, scored in asset reports, and rotated by creative testing and dynamic creative optimization.",
+  },
+  {
+    title: "Creative Testing",
+    slug: "creative-testing",
+    category: "Marketing",
+    shortSummary: "Running ad variations against each other to learn which images, copy and formats produce results.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Creative testing is the practice of running variations of an ad against each other, with different images, headlines, copy, offers or formats, and keeping the versions that produce the lowest cost per lead. It ranges from simple A/B tests to multivariate tests of many elements at once.",
+      },
+    ],
+    whyItMatters: "On a small budget the creative is the lever that changes results most, and testing finds the winner before the whole budget is spent on a guess.",
+    systemsContext: "Tests run inside the ad platforms or through tools such as Marpipe and Madgicx, are judged by click through rate, conversion rate and cost per lead, and feed the asset rotation that fights ad fatigue.",
   },
   {
     title: "CRM",
@@ -1121,6 +1331,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "They make granular segmentation and personalization possible, so campaigns, support routing and reports can act on the details that actually distinguish one customer from another.",
     systemsContext: "Custom attributes live in the data model of a CRM, email platform or help desk, and integrations must map them field by field or their values will not carry across systems.",
+  },
+  {
+    title: "Custom Audience",
+    slug: "custom-audience",
+    category: "Marketing",
+    shortSummary: "An audience built from an advertiser's own data, such as a customer list or site visitors.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A custom audience is a targeting group built from an advertiser's own data rather than the platform's interest categories, such as an uploaded customer list, people who visited the website, people who engaged with a page or video, or app users. The platform matches those people to accounts and lets the advertiser target or exclude them.",
+      },
+    ],
+    whyItMatters: "It is how a small business retargets warm prospects, excludes people who already bought, and seeds a lookalike audience from its best customers.",
+    systemsContext: "Custom audiences are built in Meta, Google and other platforms from the tracking pixel, CRM exports and engagement data, and tools like Madgicx and Wrench keep them synced and segmented.",
   },
   {
     title: "Custom Display",
@@ -1175,6 +1399,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Custom scripts call platform APIs and respond to webhooks, and they handle cases that the prebuilt actions in no-code automation tools such as Zapier or Make cannot.",
   },
   {
+    title: "Customer Acquisition Cost",
+    slug: "customer-acquisition-cost",
+    category: "Marketing Metrics",
+    shortSummary: "Total sales and marketing spend divided by the number of new customers won in the same period.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Customer acquisition cost is the total spent on sales and marketing in a period divided by the number of new customers won in that period. It includes advertising, tools, agency or staff time and anything else spent to win the customer, not only the ad spend.",
+      },
+    ],
+    whyItMatters: "A business that knows this number and its customer lifetime value knows how much it can afford to spend on advertising, and whether growth is profitable or just busy.",
+    systemsContext: "It is calculated from the accounting and CRM records rather than one ad platform, and it is read with cost per acquisition, cost per lead and customer lifetime value.",
+  },
+  {
     title: "Customer Advocacy",
     slug: "customer-advocacy",
     shortSummary: "The practice of encouraging satisfied customers to promote a brand through reviews, referrals, and testimonials.",
@@ -1199,6 +1437,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It turns scattered records into decisions about which customers to retain, which offers to promote and where to spend marketing budget.",
     systemsContext: "Customer analytics pulls from the CRM, the point of sale or ecommerce platform and web analytics, and its accuracy depends on a consistent data model and matched customer identities across those sources.",
+  },
+  {
+    title: "Customer Churn",
+    slug: "customer-churn",
+    category: "Marketing Metrics",
+    shortSummary: "The share of customers who stop buying or cancel over a period.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Customer churn is the share of customers who stop buying, cancel a subscription or let a relationship lapse over a period, calculated as customers lost divided by customers at the start of the period. It is the counterpart of customer retention.",
+      },
+    ],
+    whyItMatters: "A business that loses customers as fast as advertising brings them in is paying acquisition costs to stand still, so lowering churn raises the return on every ad dollar.",
+    systemsContext: "Churn is measured from the CRM, billing or booking system, feeds customer lifetime value, and drives retargeting and retention campaigns aimed at customers who are going quiet.",
   },
   {
     title: "Customer Delight",
@@ -1422,6 +1674,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Personas inform audience targeting in ad platforms, CRM segmentation and content strategy, and they need revising when customer analytics shows the buyer mix has shifted.",
   },
   {
+    title: "Customer Retention",
+    slug: "customer-retention",
+    category: "Marketing",
+    shortSummary: "Keeping existing customers buying over time rather than replacing them with new ones.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Customer retention is the work of keeping existing customers buying over time, measured as the share of customers at the start of a period who are still customers at the end. It covers follow up, service, loyalty offers and reminders timed to when a customer is likely to buy again.",
+      },
+    ],
+    whyItMatters: "Selling to a past customer costs a fraction of acquiring a new one, so retention is where a small business's marketing budget earns the most.",
+    systemsContext: "Retention runs on the CRM and email or SMS tools, uses purchase timing and lifetime value to decide who to contact when, and is measured against customer churn.",
+  },
+  {
     title: "Customer Satisfaction",
     slug: "customer-satisfaction",
     shortSummary: "A measure of how well products or services meet or exceed customer expectations.",
@@ -1607,6 +1873,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It runs far more creative tests than a person could set up by hand and can tailor each ad to the viewer's context, such as location, device or the products that person recently viewed.",
     systemsContext: "Google Ads and Meta build DCO into their responsive and dynamic ad formats, and the results depend on product feeds, conversion tracking and enough impressions for each combination to produce a reliable winner.",
+  },
+  {
+    title: "Dynamic Product Ads",
+    slug: "dynamic-product-ads",
+    category: "Marketing",
+    shortSummary: "Ads that pull products from a catalog automatically to show each person the items they viewed or are likely to want.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Dynamic product ads are ads that pull items from a product catalog automatically, showing each person the products they viewed, left in a cart or are likely to want based on their behavior. The advertiser supplies the catalog and a template, and the platform fills in the products for each viewer.",
+      },
+    ],
+    whyItMatters: "They let a small retailer retarget shoppers with the exact items they looked at, which converts far better than a generic ad for the same spend.",
+    systemsContext: "They run on Meta, TikTok, Pinterest and Google Shopping from a product feed and the tracking pixel, are the retargeting form of catalog ads, and tools like Marpipe test and enrich the creative behind them.",
   },
   {
     title: "E-Commerce Chatbot",
@@ -2014,6 +2294,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Hybrid chatbots route each message between scripted flows, natural language understanding, a knowledge base and human handover based on the detected intent and a confidence score.",
   },
   {
+    title: "Impression Share",
+    slug: "impression-share",
+    category: "Marketing Metrics",
+    shortSummary: "The impressions an ad received divided by the impressions it was eligible to receive.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Impression share is the share of times an ad was actually shown out of the times it was eligible to be shown, as estimated by the ad platform. Impression share lost to budget and lost to rank break down why the ad did not show the rest of the time.",
+      },
+    ],
+    whyItMatters: "It tells a small advertiser whether more leads are available by raising the budget, improving the ad, or neither, before any more money is spent.",
+    systemsContext: "Google Ads and Microsoft Advertising report it per campaign and keyword, automation rules can act on it, and it is read alongside cost per click and budget pacing.",
+  },
+  {
     title: "Impressions",
     slug: "impressions",
     category: "Marketing Metrics",
@@ -2280,6 +2574,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Large language models reach business tools through APIs, and they connect to company data through retrieval augmented generation, function calling and standards such as the Model Context Protocol.",
   },
   {
+    title: "Lead Form Ads",
+    slug: "lead-form-ads",
+    category: "Marketing",
+    shortSummary: "Ads with a form built into the platform, so a person can send contact details without leaving the feed.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Lead form ads are ads that open a form inside the ad platform itself, with the person's name, phone and email already filled in from their profile, so they can send an inquiry without visiting a website. Meta, Google, LinkedIn and TikTok each offer them.",
+      },
+    ],
+    whyItMatters: "They remove the landing page step and usually lower cost per lead, but the leads need fast follow up and often more qualifying than a lead who found the website on their own.",
+    systemsContext: "Leads land in the platform and are pushed to the CRM through a native integration or a tool like Zapier, where speed to lead and lead scoring decide what happens next.",
+  },
+  {
     title: "Lead Generation",
     slug: "lead-generation",
     shortSummary: "The process of attracting and collecting information from prospective customers interested in products or services.",
@@ -2304,6 +2612,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "A documented process exposes the stage where leads leak away, such as slow follow-up or unqualified handoffs, and makes results repeatable rather than dependent on one person's habits.",
     systemsContext: "Each stage maps to a tool, with landing pages and forms capturing leads across multiple channels, marketing automation nurturing them, and the CRM recording scores, owners and outcomes.",
+  },
+  {
+    title: "Lead Quality",
+    slug: "lead-quality",
+    category: "Marketing",
+    shortSummary: "How likely a lead is to become a paying customer, judged by fit, intent and readiness.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Lead quality is how likely a lead is to become a paying customer, judged by how well it fits the business's service area and offer, how strong its intent is and how ready it is to buy. A campaign can lower its cost per lead while lowering lead quality, which costs more in the end.",
+      },
+    ],
+    whyItMatters: "For a small business, ten leads who book and pay are worth more than fifty who never answer the phone, so quality is the number to hold while automation lowers cost.",
+    systemsContext: "Quality is scored by lead scoring in the CRM, confirmed by offline conversions sent back to the ad platforms, and used to steer bidding toward the audiences and keywords that produce leads that close.",
   },
   {
     title: "Lead Scoring",
@@ -2370,6 +2692,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Customers respond to content that matches their language and conventions, while a literal translation with the wrong currency or idioms signals that the business does not really serve them.",
     systemsContext: "Localization starts with internationalization, which separates text and formats from code, and it relies on translation management systems, machine translation, language detection and hreflang tags to serve each visitor the right version.",
+  },
+  {
+    title: "Lookalike Audience",
+    slug: "lookalike-audience",
+    category: "Marketing",
+    shortSummary: "A platform built audience of new people who resemble an advertiser's existing customers or converters.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A lookalike audience is an audience the ad platform builds by finding new people whose profiles and behavior resemble a source audience the advertiser supplies, such as its best customers or recent converters. The advertiser chooses the source and how closely the lookalike should match it.",
+      },
+    ],
+    whyItMatters: "It lets a small business reach new prospects who look like the customers it already wins, instead of guessing at interests and demographics.",
+    systemsContext: "Lookalikes are built in Meta, Google and other platforms from a custom audience or a customer list, refreshed as the source changes, and compared with cold audiences by cost per lead.",
   },
   {
     title: "Low Code Platforms",
@@ -2518,6 +2854,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "A help desk with a unified inbox merges every channel into one ticket history per customer, which is the step that turns multi-channel support into omnichannel support.",
   },
   {
+    title: "Multivariate Testing",
+    slug: "multivariate-testing",
+    category: "Marketing",
+    shortSummary: "Testing many ad elements at once to learn which combination and which individual elements perform best.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Multivariate testing tests several elements of an ad at the same time, such as the image, the headline, the copy and the call to action, by running many combinations and measuring results for each element as well as each combination. It answers more questions than an A/B test in the same time, at the cost of needing more traffic.",
+      },
+    ],
+    whyItMatters: "It shows a small advertiser which single element is driving results, so the next round of creative keeps what works instead of starting over.",
+    systemsContext: "It runs through tools such as Marpipe that build the combinations from modular templates, reads click through rate and conversion rate per element, and feeds the creative assets that win into live campaigns.",
+  },
+  {
     title: "Named Entity Recognition",
     slug: "named-entity-recognition",
     shortSummary: "An AI technique that identifies and extracts named entities like names, locations, and organizations from text.",
@@ -2595,6 +2945,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "A business can connect its accounting, CRM and marketing tools to each other and revoke any single connection later without changing passwords or handing credentials to a third party.",
     systemsContext: "Most SaaS integrations, including the connections automation platforms make to QuickBooks Online, Google Workspace or a CRM, run OAuth 2.0 flows that issue short-lived access tokens and refresh tokens to renew them.",
+  },
+  {
+    title: "Offline Conversions",
+    slug: "offline-conversions",
+    category: "Analytics",
+    shortSummary: "Sales and bookings that happen off the website, uploaded to the ad platforms so they can be credited to the ads.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Offline conversions are valuable actions that happen away from the website or app, such as a phone booking, a signed contract or an in person sale, which are recorded in the CRM and uploaded to the ad platforms so the ads that produced them get the credit. The upload matches each sale to the original click or lead by an identifier or contact details.",
+      },
+    ],
+    whyItMatters: "For a business that closes by phone or in person, most of the real results are offline, and without the upload the ad platforms optimize toward form fills that never became customers.",
+    systemsContext: "They are exported from the CRM or point of sale and imported into Google Ads and Meta through native integrations or tools like Zapier, where smart bidding and the cost per acquisition reports use them.",
   },
   {
     title: "Omnichannel",
@@ -2783,6 +3147,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Prospects move through the CRM pipeline between the lead and customer stages, with lead scoring, sales qualified lead criteria and nurture sequences deciding when each one gets a sales call.",
   },
   {
+    title: "Qualified Lead",
+    slug: "qualified-lead",
+    category: "Marketing",
+    shortSummary: "A lead that meets the business's criteria for fit, intent and readiness to buy.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A qualified lead is an inquiry that meets the criteria a business has set for a prospect worth pursuing, such as being inside the service area, needing a service the business offers, having a realistic budget and being ready to act. Leads that fail those checks are unqualified, however cheaply they were acquired.",
+      },
+    ],
+    whyItMatters: "Counting qualified leads rather than all leads is what keeps a cheaper campaign from being a worse one, and it is the number to pay a sales qualified lead's cost for.",
+    systemsContext: "Qualification happens through lead scoring in the CRM, form questions and follow up calls, and the result is fed back to the ad platforms as offline conversions so bidding learns which sources qualify.",
+  },
+  {
     title: "Query Language",
     slug: "query-language",
     shortSummary: "A language designed to retrieve and manipulate data from databases and knowledge bases.",
@@ -2887,6 +3265,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It tells an owner whether advertising is a profit center or a cost, and sets the ceiling on what a campaign can afford to pay per lead.",
     systemsContext: "It depends on conversion tracking and marketing attribution that connect sales to ads, and it is read with cost per lead and customer lifetime value when the sale happens weeks after the click.",
+  },
+  {
+    title: "Return on Investment",
+    slug: "return-on-investment",
+    category: "Marketing Metrics",
+    shortSummary: "Profit from an investment divided by its cost, expressed as a percentage.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Return on investment is the profit an investment produced divided by what it cost, expressed as a percentage. For marketing it is the profit attributed to a campaign or a tool, after its cost, divided by that cost, so a campaign that cost one thousand dollars and produced three thousand in profit returned two hundred percent.",
+      },
+    ],
+    whyItMatters: "It is the one figure an owner can use to compare an ad campaign with a new hire, a tool subscription or any other use of the same money.",
+    systemsContext: "It is calculated from the accounting records and marketing attribution rather than reported by an ad platform, and it is read alongside return on ad spend, which counts revenue rather than profit.",
   },
   {
     title: "Return Rate",
@@ -3008,6 +3400,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "SEO relies on tools such as Google Search Console and analytics platforms to measure impressions, rankings and clicks, and it increasingly overlaps with generative engine optimization, which targets citations in AI-generated answers.",
   },
   {
+    title: "Search Terms Report",
+    slug: "search-terms-report",
+    category: "Marketing",
+    shortSummary: "The report of the actual searches that triggered an advertiser's ads, as opposed to the keywords bid on.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "The search terms report lists the actual queries people typed that triggered an advertiser's search ads, as opposed to the keywords the advertiser bid on, with the clicks, cost and conversions for each. Broad and phrase match keywords can match many queries the advertiser never intended.",
+      },
+    ],
+    whyItMatters: "Reviewing it is the fastest way to find wasted spend on a small account, and the terms it exposes become the next negative keywords.",
+    systemsContext: "Google Ads and Microsoft Advertising produce it per campaign and ad group, automation scripts and tools like Optmyzr review it on a schedule, and its findings feed the negative keyword lists.",
+  },
+  {
     title: "Sentiment Analysis",
     slug: "sentiment-analysis",
     shortSummary: "AI technology that determines the emotional tone or sentiment expressed in text or speech.",
@@ -3045,6 +3451,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Store owners can see which products, channels and campaigns generate revenue without setting up a separate analytics tool, which guides inventory, pricing and ad spend decisions.",
     systemsContext: "Shopify Analytics covers activity inside the store, so businesses often pair it with Google Analytics 4 and ad platform data for the full acquisition picture, and with accounting software for profit after costs.",
+  },
+  {
+    title: "Shopping Ads",
+    slug: "shopping-ads",
+    category: "Marketing",
+    shortSummary: "Product listing ads that show an item's image, price and seller in search results, fed from a product catalog.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Shopping ads are product listing ads that show an item's image, title, price and seller directly in search results and shopping tabs, generated from a product feed rather than written by hand. Google Shopping is the largest format, and Microsoft Advertising offers the same for Bing.",
+      },
+    ],
+    whyItMatters: "They put a small retailer's exact products and prices in front of people searching for them, and they only cost money when someone clicks through to buy.",
+    systemsContext: "They run from a product feed in Google Merchant Center or its Microsoft counterpart, are managed in Shopping or Performance Max campaigns, and are judged by return on ad spend rather than leads.",
   },
   {
     title: "Smart Bidding",
@@ -3390,6 +3810,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Tiered support relies on ticket routing and escalation rules in the help desk, with support bots and the knowledge base serving as the self-service tier.",
   },
   {
+    title: "Tracking Pixel",
+    slug: "tracking-pixel",
+    category: "Analytics",
+    shortSummary: "A small piece of code on a website that reports visits and actions back to an ad or analytics platform.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A tracking pixel is a small piece of code placed on a website that reports page views and actions, such as a form submission or a purchase, back to an ad platform or analytics tool. Server side tracking sends the same events from the website's server instead of the visitor's browser, which survives ad blockers and browser restrictions better.",
+      },
+    ],
+    whyItMatters: "It is the source of the conversion data that automated bidding, retargeting audiences and cost per lead reports all depend on, so a broken pixel quietly misleads every one of them.",
+    systemsContext: "Meta, Google, TikTok and LinkedIn each supply a pixel, a tag manager usually installs them, and conversion tracking, custom audiences and offline conversion matching are built on the events they send.",
+  },
+  {
     title: "Training Data",
     slug: "training-data",
     shortSummary: "The dataset used to teach machine learning and AI models to recognize patterns and make predictions.",
@@ -3583,6 +4017,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Without them, clicks from emails, text messages and many social apps often show up as direct traffic, so the business cannot tell which campaign produced a lead or sale.",
     systemsContext: "Analytics platforms such as Google Analytics read the tags when a visitor lands, hidden form fields can pass them into a CRM with each lead, and a consistent lowercase naming convention keeps reports from splitting one campaign into several rows.",
+  },
+  {
+    title: "Value Optimization",
+    slug: "value-optimization",
+    category: "Marketing",
+    shortSummary: "A bid strategy that aims for the highest total conversion value rather than the most conversions.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Value optimization is a bid strategy in which the platform bids to produce the highest total conversion value for the budget, rather than the largest number of conversions, using the value the advertiser reports with each sale or lead. It favors the people likely to spend more over the people most likely to convert at all.",
+      },
+    ],
+    whyItMatters: "For a business whose jobs range from a small repair to a full installation, it steers the budget toward the customers worth winning instead of the cheapest ones.",
+    systemsContext: "It is offered by Meta and, as target return on ad spend, by Google Ads, needs conversion values sent through the tracking pixel or offline conversions, and works alongside cost caps and bid caps.",
   },
   {
     title: "Virtual Agent",

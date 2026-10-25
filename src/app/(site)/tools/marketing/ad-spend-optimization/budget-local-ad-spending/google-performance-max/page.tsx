@@ -17,8 +17,8 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "Google Performance Max";
-const PAGE_TITLE = "Google Performance Max for Budget Ad Copy & Message Validation";
+const TITLE = "Performance Max";
+const PAGE_TITLE = "Performance Max for Budget Ad Copy & Message Validation";
 const DESCRIPTION =
     "Budget Ad Copy & Message Validation helps South Florida small businesses cut wasted ad spend by up to $16 daily. Protect your budget, test smarter now.";
 const CANONICAL = "/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Google Performance Max, budget ad copy and message validation, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
+            "keywords": "Performance Max, budget ad copy and message validation, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-24T16:08:13.8759570Z",
@@ -81,7 +81,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Google Performance Max", "budget ad copy and message validation", "AI ad copy testing", "ad spend optimization", "local advertising", "South Florida small business"],
+        keywords: ["Performance Max", "budget ad copy and message validation", "AI ad copy testing", "ad spend optimization", "local advertising", "South Florida small business"],
         authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

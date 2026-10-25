@@ -42,6 +42,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/tools/marketing", "Marketing"],
   ["/tools/marketing/ad-spend-optimization", "Ad Spend Optimization"],
   ["/tools/marketing/ad-spend-optimization/budget-local-ad-spending", "Budget Local Ad Spending"],
+  ["/tools/marketing/ad-spend-optimization/measured-lead-generation", "Measured Lead Generation"],
   ["/tools/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-generation", "Intelligent Content Generation"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-planning", "Intelligent Content Planning"],

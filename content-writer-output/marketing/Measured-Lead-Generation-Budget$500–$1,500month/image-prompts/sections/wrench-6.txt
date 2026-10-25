@@ -1,0 +1,1 @@
+A flat vector diagram depicting data tables and mapping lines connecting fields from different sources to a unified schema, suggesting thoughtful data structure and mapping decisions during deployment.

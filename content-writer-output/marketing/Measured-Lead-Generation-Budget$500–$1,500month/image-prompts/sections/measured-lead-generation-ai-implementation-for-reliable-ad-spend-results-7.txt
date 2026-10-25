@@ -1,0 +1,1 @@
+A flat vector diagram of interconnected data sources—CRM, analytics, ad platforms—flowing into a central hub, symbolizing the integrations and data streams needed for an effective lead generation system.

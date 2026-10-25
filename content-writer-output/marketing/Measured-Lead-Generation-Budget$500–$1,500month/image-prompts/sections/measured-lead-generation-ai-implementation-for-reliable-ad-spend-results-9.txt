@@ -1,0 +1,1 @@
+A flat vector decision matrix with checkmarks and warning icons, illustrating scenarios where measured lead generation is appropriate versus situations where it may not be suitable, using abstract business environment cues.

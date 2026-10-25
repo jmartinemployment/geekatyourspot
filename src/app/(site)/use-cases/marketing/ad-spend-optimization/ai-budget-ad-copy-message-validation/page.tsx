@@ -41,7 +41,7 @@ const jsonLd: Graph = {
                 { "@type": "Thing", "name": "AdCreative", "url": "https://www.adcreative.ai/" },
                 { "@type": "Thing", "name": "Adzooma", "url": "https://www.adzooma.com/" },
                 { "@type": "Thing", "name": "Anyword", "url": "https://www.anyword.com/" },
-                { "@type": "Thing", "name": "Google Performance Max", "url": "https://ads.google.com/home/campaigns/performance-max/" },
+                { "@type": "Thing", "name": "Performance Max", "url": "https://ads.google.com/home/campaigns/performance-max/" },
                 { "@type": "Thing", "name": "LocaliQ", "url": "https://localiq.com/" },
                 { "@type": "Thing", "name": "Plai", "url": "https://www.plai.io/" }
             ]

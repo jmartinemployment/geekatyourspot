@@ -7,7 +7,7 @@ import { ToolPageContent } from "@/types/tool";
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const googlePerformanceMaxContent: ToolPageContent = {
-  "title": "Google Performance Max",
+  "title": "Performance Max",
   "slug": "google-performance-max",
   "department": "marketing",
   "useCase": "ad-spend-optimization/budget-local-ad-spending",
@@ -16,7 +16,7 @@ export const googlePerformanceMaxContent: ToolPageContent = {
   "heroSummary":
     "Streamline your ad campaigns with intelligent Budget Ad Copy & Message Validation designed for local small businesses operating on tight budgets.",
   "keywords":
-    "Google Performance Max, budget ad copy and message validation, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
+    "Performance Max, budget ad copy and message validation, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
   "datePublished": "2026-10-24T16:08:13.8759570Z",
   "dateModified": "2026-10-24T16:08:13.8759570Z",
   "relatedArticleId":

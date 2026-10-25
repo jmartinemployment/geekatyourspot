@@ -1,0 +1,1 @@
+A decision tree diagram branching into ideal user profiles and use cases, with some paths leading to checkmarks and others to stop signs, visualizing suitability and next steps.

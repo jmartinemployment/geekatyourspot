@@ -1,0 +1,1 @@
+A flat vector diagram of a platform architecture: central server icons connected via lines to various marketing tools and data sources, illustrating integrations, secure data flows, and analytics nodes tailored for small business.

@@ -1,0 +1,1 @@
+A schematic of configuration controls, toggle switches, and logic flow diagrams, representing rules setup, automation customization, and extension modules in a platform interface.
