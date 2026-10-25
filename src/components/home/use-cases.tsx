@@ -988,7 +988,7 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-sm">
-                                                Real-Time Budget Reallocation:</strong></h5>
+                                                Measured Lead Generation (Budget $500–$1,500 month):</strong></h5>
                                             <p className="text-black text-xs">
                                                 Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
                                             </p>
@@ -2019,7 +2019,7 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <h5><strong className="text-black text-base">
-                                                Real-Time Budget Reallocation:</strong></h5>
+                                                Measured Lead Generation (Budget $500–$1,500 month):</strong></h5>
                                             <p className="text-black text-sm">
                                                 Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
                                             </p>
