@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -71,6 +72,8 @@ export default function RightFitSection() {
         <li>What would a successful first 30 days look like?</li>
         <li>What is your budget and preferred way to pay?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-manychat-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> covers the one thing Manychat is built to prove: a comment on an Instagram or Facebook post triggers a direct message while the prospect is still interested, the lead is tagged, and the contact lands in your CRM or spreadsheet without anyone copying it. It is also clear about the limit that matters for a social-first business, that no vendor claims the bot closes the sale, and that a flow nobody reviews weekly goes stale and starts giving out-of-date answers. Whether Instagram, WhatsApp and Messenger are really where your leads start, and who owns the flows, is what the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-manychat-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide settles first.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
@@ -62,6 +63,8 @@ export default function PreparingSection() {
         <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you forward your main line, see what the vendors publish and where their figures stop. Our post <Link id={`use-cases-marketing-lead-capture-pipeline-ai-receptionist-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> lays out Voksha’s $14 starter plan for 15 calls and $1 per call beyond it, Nextiva’s flat $99 for 100 interactions, Smith.ai’s tracked jump from answer rates as low as 20% to nearly 100% once live receptionists stood behind the AI, and LobbyStack’s pay-for-the-minutes open-source model. It also names what none of that evidence proves: how these systems handle the rare emotionally charged call, a caller who refuses to talk to a bot, or regional accents, and why the return in your case depends on your average job value and how many calls you truly miss.</p>
     </>
   );
 

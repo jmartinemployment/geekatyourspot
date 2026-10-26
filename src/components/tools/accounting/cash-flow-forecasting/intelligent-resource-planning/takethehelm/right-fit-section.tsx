@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -60,6 +61,8 @@ export default function RightFitSection() {
         <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Take the Helm’s claim is a visual runway, and our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-takethehelm-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> shows how it is meant to work for a small team: every inflow and outflow on one drag-and-drop timeline, historical payment data predicting when a receipt will actually clear, and the end of Friday afternoons spent guessing whether payroll will go through. The post is also direct that the tool only works when it is connected to real accounting and bank data rather than a copied spreadsheet. The data quality assessment and the parallel pilot in our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-takethehelm-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">AI Financial Planning Software</Link> guide make that connection to QuickBooks Online, Xero or Sage before anyone relies on the runway.</p>
     </>
   );
 

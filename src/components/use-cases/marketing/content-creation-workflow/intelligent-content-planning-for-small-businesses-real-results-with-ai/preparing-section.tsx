@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -62,6 +63,8 @@ export default function PreparingSection() {
         <li>Are you creating content strictly for a traditional company blog, or are you looking to turn these insights into short-form videos, email newsletters, and localized social media campaigns?</li>
         <li>How much does your target audience&#39;s behavior shift by neighborhood or culture? For example, do you need to alter your topic strategy between a corporate Brickell audience and a luxury Palm Beach demographic?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you take any planning platform’s promise on faith, read what the vendors themselves report and where it runs out. Our post <Link id={`use-cases-marketing-content-creation-workflow-ai-content-planning-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> goes through HyperWrite’s research that context switching burns up to 40% of productive time, MarketMuse’s personalized difficulty scoring, Scalenut’s tracking of which prompts your brand appears for in ChatGPT and Gemini, Hootsuite’s trend listening and approval workflows, and Semrush’s one-click repurposing, and it is plain about the gap: no figure exists for how much revenue planning adds on its own, no tool guarantees a first-page ranking, and the best-documented gains are hours saved and clearer targeting.</p>
     </>
   );
 

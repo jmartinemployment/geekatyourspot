@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -42,6 +43,8 @@ export default function RightFitSection() {
         <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
         <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        TaxValet’s managed service is the answer the guide reserves for a specific case, and our <Link id={`tools-accounting-tax-compliance-regulations-automating-complex-and-changing-laws-thetaxvalet-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide spells out how to tell if it is yours: a current system producing bottlenecks, frequent errors or missed deadlines, obligations spread across several jurisdictions, and a team that struggles with audit protection and exemption certificate management by hand. The guide’s assessment of transaction volume, jurisdictions and filing complexity also surfaces the other side, since a very small business with straightforward obligations in one jurisdiction will find the setup cost outweighs the benefit, which matches the eligibility note above that businesses under $1 million in annual revenue may not qualify.</p>
     </>
   );
 

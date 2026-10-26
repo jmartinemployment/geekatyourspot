@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -58,6 +59,8 @@ export default function RightFitSection() {
         The decision comes down to operational pain and ambition. If you are losing hours every week to manual ad
         production, or your cost per lead spikes when you try to scale, Marpipe is the tool that removes those
         limits. If you are not yet at that point, simpler solutions may suit you better for now.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-marpipe-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend" className="text-[#C83803] hover:underline">How South Florida Businesses Can Stop Wasting Ad Spend</Link> describes Marpipe as the fix for the creative bottleneck a small team cannot out-work: hundreds of variants built, tested and deployed across your feed from a single upload, with winners identified and losers paused before cost per lead balloons. It is also clear where the efficiency has a price: a brand that depends on unique, high-touch creative for every campaign may want automation for bulk production and hand-tuning for key assets, and 200 variants still need an owner who knows a win. Whether your catalog is complete and structured enough to feed it is the data quality phase of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-marpipe-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation" className="text-[#C83803] hover:underline">AI Measured Lead Generation</Link> guide.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-measured-lead-generation-marpipe-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

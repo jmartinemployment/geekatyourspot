@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -71,6 +72,8 @@ export default function RightFitSection() {
         <li>What would a successful first 30 days look like?</li>
         <li>What is your budget and preferred way to pay?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-myaifrontdesk-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> reports the figure My AI Front Desk’s own published cases put on the problem this page describes: up to 80 hours a month recovered from manual follow-up and after-hours voicemail once every call, text, web chat and email is logged to one timeline. It also names the setup decision that decides whether that holds in your business: if contacts arrive from spreadsheets and email threads with fields that do not match, the new pipeline fills with duplicates and gaps. Pooling and cleaning that data, and deciding what counts as a lead and which fields are required, is the second phase of the assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-myaifrontdesk-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide.</p>
     </>
   );
 

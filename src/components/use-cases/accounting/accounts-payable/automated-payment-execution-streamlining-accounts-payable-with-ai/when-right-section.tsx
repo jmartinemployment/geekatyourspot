@@ -71,6 +71,8 @@ export default function WhenRightSection() {
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you settle on a tool, read where payment execution actually breaks down once a bill is approved. Our post <Link id={`use-cases-accounting-accounts-payable-ai-automatic-bill-pay-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> goes through three failure points the sections above only touch on: checks, ACH and card payments each running on their own timeline, payment status updated by hand so a bill is paid twice or not at all, and no live view of the cash position when a spending decision has to be made. It then sets out what the vendors report, Tipalti’s payments in over 120 currencies with tax form validation and Bill’s audit trail at high volume, and the case where a phased start beats a full switch.</p>
     </>
   );
 

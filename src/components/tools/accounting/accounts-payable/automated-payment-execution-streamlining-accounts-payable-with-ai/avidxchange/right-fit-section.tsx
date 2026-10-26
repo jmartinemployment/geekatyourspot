@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -47,6 +48,8 @@ export default function RightFitSection() {
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-avidxchange-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> places AvidXchange at two points in the payment cycle: routing approved bills to the right decision-maker by amount or vendor, with mobile approval so nobody waits on a desk, and the role-based access and audit trails that settle who owns reconciliation and who signs off on a payment. The post also names it as the partner for a business that wants support through the transition. The assessment in our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-avidxchange-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">AI Automatic Bill Pay</Link> guide decides first whether your payment volume and error rate make that transition worth it, before any integration work begins.</p>
     </>
   );
 

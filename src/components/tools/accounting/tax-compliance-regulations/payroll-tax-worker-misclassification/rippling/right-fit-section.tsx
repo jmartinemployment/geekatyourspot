@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -68,6 +69,8 @@ export default function RightFitSection() {
         <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
         <li>What is your current monthly or annual budget for payroll processing and&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;legal advice?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Rippling’s claim is that classification errors surface where you can fix them, and our post <Link id={`tools-accounting-tax-compliance-regulations-payroll-tax-worker-misclassification-rippling-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers &amp; Payroll Tax</Link> describes the mechanism: built-in classification quizzes, the Compliance 360 module watching every onboarding and payment approval in real time, and a one-click correction workspace so a Friday afternoon contractor invoice that blurs the employee line is caught before it posts. The post also states that Rippling publishes no figure for penalties avoided per cycle, so the benefit is prevention at the process level. Our <Link id={`tools-accounting-tax-compliance-regulations-payroll-tax-worker-misclassification-rippling-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">AI Payroll Software</Link> guide covers the pilot that proves those alerts fire on your own multi-county team before the rollout goes wider.</p>
     </>
   );
 

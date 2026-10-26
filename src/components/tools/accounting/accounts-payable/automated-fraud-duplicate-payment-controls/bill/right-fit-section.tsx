@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -34,6 +35,8 @@ export default function RightFitSection() {
         <a href="#consultationAppointment2xl" id={`tools-accounting-fraud-controls-bill-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
         </a>.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-fraud-duplicate-payment-controls-bill-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">AI Accounts Payable Fraud Detection</Link> sizes the leak Bill’s matching is meant to close: duplicate payments consuming 1.5% to 3% of outward disbursements, with fraud and errors together costing small businesses 5% to 10% of revenue. It places Bill at the integration layer, connecting the controls to an existing ERP so the transition stays simple, and is candid that any control depends on clean data and still belongs inside regular audits. Our <Link id={`tools-accounting-accounts-payable-automated-fraud-duplicate-payment-controls-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">AI Fraud &amp; Duplicate Payment Controls</Link> guide gives the assessment, from objectives through a pilot, that decides whether your volume warrants Bill at all.</p>
     </>
   );
 

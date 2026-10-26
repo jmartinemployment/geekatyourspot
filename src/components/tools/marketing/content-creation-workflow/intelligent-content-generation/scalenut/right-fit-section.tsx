@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -73,6 +74,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-scalenut-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> describes the sequence Scalenut’s evidence supports, turning customer questions and technician notes into educational articles through a title, outline and draft flow that avoids the stop-and-start of unfinished posts, and it names the dependency: a clean, up-to-date knowledge base, without which the drafts come out generic and you spend the saved time rewriting. It also holds the line that no tool replaces your unique selling proposition. The data review and weekly approval slot in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-scalenut-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide are the two habits that keep Scalenut’s output specific to your business.</p>
     </>
   );
 

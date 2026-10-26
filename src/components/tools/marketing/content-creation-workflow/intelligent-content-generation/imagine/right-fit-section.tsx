@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -61,6 +62,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-imagine-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> covers what ImagineArt’s reference-based generation is proven to do, batch visuals, branded explainer videos and ad creative built from your own product photos rather than stock, and what it is not: a guarantee that generated assets outperform custom photography on every campaign. It also warns that creative drifts when the team uploads random images or skips review, so image approval has to be treated as seriously as copy review. The data phase in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-imagine-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide, which asks you to collect your best product photos before starting, is the groundwork those workflows run on.</p>
     </>
   );
 

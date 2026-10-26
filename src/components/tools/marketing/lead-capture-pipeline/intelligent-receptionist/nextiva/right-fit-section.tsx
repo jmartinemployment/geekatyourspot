@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -64,6 +65,8 @@ export default function RightFitSection() {
         <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-nextiva-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> sets out Nextiva’s published terms, a flat $99 for 100 interactions with no contract that covers appointment booking and text confirmations, and an AI employee trained from your existing website in under a minute. It also names the condition that decides whether unifying calls, texts and chat in one workspace pays off: Nextiva answers from your own site and knowledge base, so outdated hours or pricing reach the caller as confidently as current ones do. Cleaning that data comes before any tool in the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-nextiva-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide, alongside the question of which channels you want on one dashboard and which calls must still reach a person.</p>
     </>
   );
 

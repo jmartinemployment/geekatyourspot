@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -70,6 +71,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-rytr-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> examines Rytr’s claim of over 50 hours and $1,000 saved each month, tied to its 25,000-word limit and templates for Google Business Profile, Instagram, product listings and follow-ups in Spanish and Haitian Creole, and it is explicit about what Rytr does not do: automate strategy or campaign planning. It also suggests Rytr as the pilot tool for micro-content, one process measured before anything scales. The objectives phase in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-rytr-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide, where you decide whether two posts a month or a daily calendar is the goal, is what tells a solo owner whether Rytr’s scope is enough.</p>
     </>
   );
 

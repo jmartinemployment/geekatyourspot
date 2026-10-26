@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -23,6 +24,8 @@ export default function RightFitSection() {
         <a href="#consultationAppointment2xl" id={`tools-accounting-dext-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a consultation
         </a>&nbsp;with Geek @ Your Spot LLC today.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        The over 99% accuracy figure on this page is examined in our post <Link id={`tools-accounting-accounts-payable-automated-data-entry-processing-dext-xlink-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link>, which sets it beside Dext’s own volume claim, 31.4 million receipts and invoices in one month and more than two million administrative hours saved, and places Dext at the capture stage where documents are read and matched to bank transactions. The post is just as direct that OCR does not remove the need for human oversight where rules replace judgment. Our <Link id={`tools-accounting-accounts-payable-automated-data-entry-processing-dext-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">AI Document Processing</Link> guide carries the assessment, scope, tool and team, that decides whether Dext fits a firm of your size.</p>
     </>
   );
 

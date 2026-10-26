@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -73,6 +74,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-copy-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> describes what Copy.ai’s Content Agent Studio does with a finished article, atomizing it into LinkedIn posts, nurture sequences and SMS scripts in an approved voice, and why its approval chains and publishing permissions matter, because projects fall apart when everyone can edit the brand voice and approvals live in chat threads. It also keeps the boundary that no tool replaces a clear offer or a marketing plan. The four phases in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-copy-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide, especially the first weeks spent configuring tools and reviewing outputs, are where a multi-step workflow like this gets built rather than bought.</p>
     </>
   );
 

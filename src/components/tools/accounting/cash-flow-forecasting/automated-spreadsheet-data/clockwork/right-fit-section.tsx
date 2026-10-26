@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -42,6 +43,8 @@ export default function RightFitSection() {
         <li>What specific business event (e.g., rapid scaling, tightening margins, upcoming capital raise, or a recent forecasting error) prompted you to look into automated alternatives?</li>
         <li>What is the single biggest risk to your business if your cash flow forecast is inaccurate next month?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Clockwork’s headline claim is a 52-week cash flow forecast and a five-year financial model built from QuickBooks or Xero in five minutes, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-clockwork-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> reports that figure as the vendor states it, then shows what the model is for: testing a new hire or a change in operating expenses and seeing the cash effect immediately. It also explains why the over-hiring mistake, a surplus on paper that is already committed to upcoming expenses, is the error a live model prevents. The systems and data review in our <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-clockwork-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide checks whether your ledger is clean enough for that five-minute build to be worth trusting.</p>
     </>
   );
 

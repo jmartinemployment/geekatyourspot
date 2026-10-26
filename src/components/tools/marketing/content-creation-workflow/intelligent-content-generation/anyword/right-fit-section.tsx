@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -71,6 +72,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-anyword-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> tests Anyword’s core claim, that it can predict which ad or email version will perform before you spend a dollar on clicks, using audience data, automated A/B tests and live engagement feedback, and it states the limit the vendor’s own case rests on: it optimizes what you already do and cannot make a weak offer or irrelevant campaign profitable. The post also notes that Anyword depends on current data, so old or scattered inputs only amplify the gaps. The objectives and data quality phases in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-anyword-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide are where those audience segments get defined before scoring means anything.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -71,6 +72,8 @@ export default function PreparingSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you take those output figures on faith, read what the vendors themselves publish and where it stops. Our post <Link id={`use-cases-marketing-content-creation-workflow-ai-seo-content-generator-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> goes through Rytr’s claim of 50 hours and $1,000 saved a month inside a 25,000-word limit, Anyword’s predictive scoring of ad copy before a dollar is spent, Hootsuite’s engagement tracking by network, Castmagic’s extraction of posts and emails from recordings, and what none of them promise: a clear offer, a unique selling proposition, or a campaign that beats a human expert when the input is generic. It also explains why data quality sits second in the four phases, because automating scattered business facts only scales the errors.</p>
     </>
   );
 

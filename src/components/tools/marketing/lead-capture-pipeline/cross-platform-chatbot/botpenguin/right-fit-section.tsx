@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -74,6 +75,8 @@ export default function RightFitSection() {
         <li>What would a successful first 30 days look like?</li>
         <li>What is your budget and preferred way to pay?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-botpenguin-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> follows what BotPenguin’s own documentation shows for a social-first business: reply times dropping to seconds once WhatsApp, Telegram, Instagram and website chat land in one inbox, and a single flow that asks a commenter what service they want and pushes the answer into your pipeline. It is just as direct about the two conditions the no-code builder does not remove, someone watching the queue when a hot lead is handed to a human, and someone refining the qualification questions as your business changes. Which channels your customers actually use, and who on your team owns those flows, are settled in the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-botpenguin-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide before anything is built.</p>
     </>
   );
 

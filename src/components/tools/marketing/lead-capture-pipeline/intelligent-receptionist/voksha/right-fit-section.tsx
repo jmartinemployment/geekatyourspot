@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -71,6 +72,8 @@ export default function RightFitSection() {
         <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-voksha-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> lays Voksha’s published pricing next to the live-answering services it replaces: a $14 starter plan for 15 calls, a $99 Premium tier for 150, and $1 per call beyond that with no after-hours premium, against human-staffed services that start at $99 to $350 a month and then bill by the minute. It also quotes Voksha’s own research on what a missed call is worth, about $12.15 each or $26,000 a year at six a day, and says plainly that those are estimates. Whether your call volume and job value make the per-call model pay is the arithmetic the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-voksha-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide runs before any pilot.</p>
     </>
   );
 

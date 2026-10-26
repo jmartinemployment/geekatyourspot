@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -29,6 +30,8 @@ export default function RightFitSection() {
           Book a consultation
         </a>&nbsp;with Geek @ Your Spot LLC today and discover how Bill can elevate your financial
         operations.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Bill’s claim to cut processing time in half with AI invoice entry is the figure our post <Link id={`tools-accounting-accounts-payable-automated-data-entry-processing-bill-xlink-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> leads with when it asks whether automation is the right call, and the post places Bill at the integration stage, feeding extracted data into the accounting system and handling entry and approval at volume without extra hands. It is equally clear that the gain depends on change management and on staff who adapt to a new system. Our <Link id={`tools-accounting-accounts-payable-automated-data-entry-processing-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">AI Document Processing</Link> guide gives the assessment that settles whether your invoice count and error rate make that investment pay.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -46,6 +47,8 @@ export default function RightFitSection() {
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-tipalti-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> is where Tipalti’s international case is made in numbers: payments in over 120 currencies, automated tax form validation, and ACH, wire and virtual card payments so each supplier is paid the way it requires. The post also ties every outcome to data quality and ongoing management, so that currency breadth pays off only on clean vendor records. Our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-tipalti-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">AI Automatic Bill Pay</Link> guide supplies the assessment, from objectives through integration to compliance, that decides whether Tipalti’s scope is warranted for a business of your size.</p>
     </>
   );
 

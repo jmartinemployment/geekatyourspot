@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -45,6 +46,8 @@ export default function RightFitSection() {
         the market, but they come at a different price and complexity. For most small businesses in South Florida,
         LocaliQ is the practical, affordable, and effective way to bring AI-driven budget ad copy and message
         validation into the real world.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-localiq-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now" className="text-[#C83803] hover:underline">How Miami Businesses Can Stop Wasting Ad Dollars Now</Link> credits LocaliQ with closing the loop that most micro-budget advertisers never see: it locks down geography, tightens keyword matching and reports which platform and which message produced the last real call or form fill, in real time rather than at month end. It also names LocaliQ, with Plai, as the tool that unifies call tracking, web forms and social leads so you stop chasing ghost conversions. For a service business that wants that handled without learning the platforms, the open questions are objectives and tracking, which is where the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-localiq-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" className="text-[#C83803] hover:underline">AI Budget Ad Copy &amp; Message Validation</Link> guide starts before any LocaliQ module is selected.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-budget-ad-copy-message-validation-localiq-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

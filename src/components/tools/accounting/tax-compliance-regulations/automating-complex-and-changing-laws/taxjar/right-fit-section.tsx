@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -43,6 +44,8 @@ export default function RightFitSection() {
         <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
         <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our <Link id={`tools-accounting-tax-compliance-regulations-automating-complex-and-changing-laws-taxjar-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide covers the decision that sits ahead of TaxJar’s automated filing and remittance: how much of the compliance process to hand to the system, since full automation cuts manual errors and late fees but demands a robust initial setup and ongoing management. It walks the assessment from transaction volume and jurisdiction count through tool configuration, QuickBooks or Shopify integration, a controlled pilot, and the team training and scheduled reviews that keep the setup current as Florida rates and Sales Tax Holidays change. For a business still defining its sales channels, the guide says to wait, and TaxJar is no exception.</p>
     </>
   );
 

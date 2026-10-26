@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -44,6 +45,8 @@ export default function RightFitSection() {
         is to define your own goals, assess your current pain points, and see where Google Performance Max’s
         automation and controls can close the gap. If you fit the profile, a small, local team with limited spend
         and no appetite for agency retainers, Google Performance Max is built for you.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-google-performance-max-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now" className="text-[#C83803] hover:underline">How Miami Businesses Can Stop Wasting Ad Dollars Now</Link> shows what Performance Max does with a micro-budget that a manual bid change cannot: it watches conversion data in real time and shifts spend between Google Search, Maps and social feeds as a local spike or slump hits, while keeping delivery inside the geography you define. The post is equally clear about where the evidence stops: what is on record are platform dashboards and time-saving claims, not independent ROI figures for Miami, so your pilot is the proof. Deciding which zip codes and segments get your dollars before automation starts is the work of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-google-performance-max-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" className="text-[#C83803] hover:underline">AI Budget Ad Copy &amp; Message Validation</Link> guide.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-budget-ad-copy-message-validation-google-performance-max-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

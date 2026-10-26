@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -54,6 +55,8 @@ export default function RightFitSection() {
         book a consultation, review your current setup, and see where automation can return time and margin to your
         business. The sooner you move away from manual oversight, the sooner you get back to building your pipeline
         instead of fighting your tools.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-optmyzr-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend" className="text-[#C83803] hover:underline">How South Florida Businesses Can Stop Wasting Ad Spend</Link> shows the failures Optmyzr’s rule engine is there to catch while nobody is watching: a landing page returning a 404 with ad sets still spending into it, a competitor’s bid spike threatening your impression share, and the Monday discovery that half the budget went to a broken page. It is just as clear that the rules need fresh inputs, what counts as a quality lead, the cost per acquisition threshold and when to pause, and that without a named owner they drift by month six. Setting those thresholds for a team that keeps strategy in-house is the work of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-optmyzr-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation" className="text-[#C83803] hover:underline">AI Measured Lead Generation</Link> guide.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-measured-lead-generation-optmyzr-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -37,6 +38,8 @@ export default function RightFitSection() {
         <a href="#consultationAppointment2xl" id={`tools-accounting-fraud-controls-tipalti-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
         </a>.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-fraud-duplicate-payment-controls-tipalti-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">AI Accounts Payable Fraud Detection</Link> credits Tipalti with the fuzzy matching step, comparing a new invoice’s amount and vendor name against history to catch a near-duplicate before it is paid, and with joining fraud detection to supplier onboarding and compliance checks in one flow suited to high transaction volumes. It adds that these systems need setup, maintenance and staff who can read the alerts, costs a smaller business has to weigh. Our <Link id={`tools-accounting-accounts-payable-automated-fraud-duplicate-payment-controls-tipalti-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">AI Fraud &amp; Duplicate Payment Controls</Link> guide gives the assessment, from goals and a data check to a pilot, that decides whether Tipalti’s scope is justified for yours.</p>
     </>
   );
 

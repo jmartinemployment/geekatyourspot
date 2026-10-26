@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -48,6 +49,8 @@ export default function PreparingSection() {
         <li>What specific business event (e.g., rapid scaling, tightening margins, upcoming capital raise, or a recent forecasting error) prompted you to look into automated alternatives?</li>
         <li>What is the single biggest risk to your business if your cash flow forecast is inaccurate next month?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you choose among those tools, see what each vendor actually publishes and where the post stops short of taking it at face value. Our post <Link id={`use-cases-accounting-cash-flow-forecasting-ai-spreadsheet-data-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> goes through Clockwork’s claim of a 52-week forecast and five-year model built from QuickBooks or Xero in five minutes, Floatapp’s replacement of budget placeholders with real transactions as they post, and Cashflowfrog’s breakdown of a forecast by class, location and project. It then states the two conditions none of them can work around: the forecast is only as right as the ledger it pulls from, and someone on your team still has to read it and decide.</p>
     </>
   );
 

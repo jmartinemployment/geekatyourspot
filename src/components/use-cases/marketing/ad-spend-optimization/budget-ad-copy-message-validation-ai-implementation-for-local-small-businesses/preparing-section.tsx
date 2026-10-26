@@ -62,6 +62,8 @@ export default function PreparingSection() {
         will deliver. This is how you move from guesswork to control, and from unpredictable spend to steady,
         scalable results.</p>
       <p className="text-base text-white shadow-text pt-3">
+        Before you let any of those tools near a $15 daily budget, read what their vendors can and cannot show. Our post <Link id={`use-cases-marketing-ad-spend-optimization-ai-budget-ad-copy-message-validation-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now" className="text-[#C83803] hover:underline">How Miami Businesses Can Stop Wasting Ad Dollars Now</Link> walks through Anyword’s Predictive Performance Score that keeps a weak headline out of a live campaign, AdCreative’s on-brand creative refreshes against ad fatigue, LocaliQ’s reporting on which platform and message produced the last real lead, and Performance Max moving spend between Search, Maps and social as conversions come in. It is also candid that none of them publishes an independent return figure for a Miami small business, so the only savings number you can trust is the one your own contained pilot produces.</p>
+      <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`use-cases-marketing-budget-ad-copy-message-validation-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">

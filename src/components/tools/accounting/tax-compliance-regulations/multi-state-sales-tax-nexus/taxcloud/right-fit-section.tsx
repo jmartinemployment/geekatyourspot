@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -73,6 +74,8 @@ export default function RightFitSection() {
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
         <li>What is your current financial exposure if it turns out you have crossed economic nexus lines in three or four states over the past 12 months and failed to collect tax?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-taxcloud-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> tests TaxCloud’s own claims: free registration and filing in 24 Streamlined Sales Tax states, real-time alerts as a state threshold nears, and case studies citing a 40% reduction in time spent on compliance. It also names the limits, since the other states still carry filing costs, you remain responsible for product data and state notices, and TaxCloud itself says manual compliance is viable for a business selling into one or two states. The exposure analysis and data cleanup sequence in our <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-taxcloud-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">AI Multi-State Sales Tax</Link> guide decides whether you are past that point.</p>
     </>
   );
 

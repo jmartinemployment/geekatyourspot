@@ -62,6 +62,8 @@ export default function WhenItMakesSenseSection() {
         <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you decide, read how the problems above look from inside a small accounts payable team. Our post <Link id={`use-cases-accounting-accounts-payable-ai-approval-workflow-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> walks through the five habits that make manual approvals expensive: sign-off given by phone or email with nothing documented, every invoice following the same path whether it is a minor recurring bill or a major equipment purchase, the owner as the single approver, problems surfacing only when a vendor calls about a late payment, and controls added after a loss instead of before one. It then sets Bill’s own figures, a 20% cut in manual entry and 99% accuracy on key invoice fields, against the question of whether your monthly volume justifies the change.</p>
     </>
   );
 

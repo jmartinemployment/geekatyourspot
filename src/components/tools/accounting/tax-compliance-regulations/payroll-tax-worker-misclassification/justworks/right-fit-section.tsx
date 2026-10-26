@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -72,6 +73,8 @@ export default function RightFitSection() {
         <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
         <li>What is your current monthly or annual budget for payroll processing and&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;legal advice?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Justworks is the one platform here that pairs automation with people, and our post <Link id={`tools-accounting-tax-compliance-regulations-payroll-tax-worker-misclassification-justworks-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers &amp; Payroll Tax</Link> describes what that looks like: billions in payroll and tax filings processed on one platform, and live HR specialists who step in when a FICA allocation question or a request to prove timely filings turns into audit risk. The post is equally clear that Justworks does not claim to eliminate errors or audits, which puts its $124 per employee per month price in the right frame as the cost of offloading risk rather than removing it. The assessment in our <Link id={`tools-accounting-tax-compliance-regulations-payroll-tax-worker-misclassification-justworks-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">AI Payroll Software</Link> guide weighs that price against the hours and penalties your multi-state team is carrying now.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -80,6 +81,8 @@ export default function RightFitSection() {
         <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-lobbystack-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> puts LobbyStack’s open-source, pay-for-the-minutes model next to the subscription tools it competes with, Voksha’s per-call plans, Nextiva’s flat $99 for 100 interactions and Smith.ai’s live-receptionist backstop, and names LobbyStack as the choice when you need to keep call data local, self-host, or script integrations a closed platform will not allow. Whether that trade is worth it for you is settled in the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-lobbystack-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide, which asks how critical total data ownership is to your business and whether you want a cloud subscription or a system you fully own and control.</p>
     </>
   );
 

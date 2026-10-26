@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -42,6 +43,8 @@ export default function RightFitSection() {
         <li>How do automated AR tools handle &quot;What-If&quot; scenario planning?</li>
         <li>How does forecasting integration optimize collection strategies?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Upflow forecasts from how each billing cohort actually collects rather than from stated due dates, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-upflow-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> names the limit on that approach: Upflow’s real-time predictions are only as accurate as the completeness and quality of the data behind them. The post also explains why static, calendar-based follow-up leaves a growing company guessing at its cash position, which is the problem Upflow is built to replace for a business between $10 million and $500 million in revenue. Our <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-upflow-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">AI Accounts Receivable Software</Link> guide sets out the data quality check and the ERP integration review that come before any forecast from Upflow is trusted.</p>
     </>
   );
 

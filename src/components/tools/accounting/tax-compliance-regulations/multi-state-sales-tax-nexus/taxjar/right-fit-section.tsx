@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -65,6 +66,8 @@ export default function RightFitSection() {
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
         <li>What is your current financial exposure if it turns out you have crossed economic nexus lines in three or four states over the past 12 months and failed to collect tax?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-taxjar-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> explains where TaxJar’s dashboards earn their keep and where they stop: they surface double-counted marketplace sales and track thresholds across every channel, but only as accurately as the imported data, and with TaxJar you typically answer state notices yourself unless you add a managed service. It also lays out the Texas, New York and California thresholds as published on October 20, 2026, the figures your dashboard has to be measured against. The step-by-step rollout in our <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-taxjar-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">AI Multi-State Sales Tax</Link> guide covers the data assessment that has to come before those dashboards mean anything.</p>
     </>
   );
 

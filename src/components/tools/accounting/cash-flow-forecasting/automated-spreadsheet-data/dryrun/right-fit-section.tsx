@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -38,6 +39,8 @@ export default function RightFitSection() {
         <li>What specific business event (e.g., rapid scaling, tightening margins, upcoming capital raise, or a recent forecasting error) prompted you to look into automated alternatives?</li>
         <li>What is the single biggest risk to your business if your cash flow forecast is inaccurate next month?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Dryrun is the tool in this cluster built for complexity, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-dryrun-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> sets out the specific jobs it handles: consolidating multiple entities and currencies into one view with real-time conversion, and moving an expected payment date with one click to model a late customer or a delayed vendor without touching the accounting data. The post also answers why a mid-market company should pay for that rather than use a free Excel template. If your business is small and single-entity, the data review and KPI setting in our <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-dryrun-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide will likely point you to a simpler tool, and this page says the same.</p>
     </>
   );
 

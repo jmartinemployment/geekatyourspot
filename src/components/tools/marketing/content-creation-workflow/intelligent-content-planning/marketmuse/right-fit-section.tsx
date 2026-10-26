@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -59,6 +60,8 @@ export default function RightFitSection() {
         <li>Are you creating content strictly for a traditional company blog, or are you looking to turn these insights into short-form videos, email newsletters, and localized social media campaigns?</li>
         <li>How much does your target audience&#39;s behavior shift by neighborhood or culture? For example, do you need to alter your topic strategy between a corporate Brickell audience and a luxury Palm Beach demographic?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-marketmuse-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> weighs MarketMuse’s central claim, that its personalized difficulty and content gap analysis show which topics your site can rank for now and where South Florida competitors have left a door open, against the condition it depends on: a clean, deduplicated content pool, because topic maps built on old spreadsheets miss your real strengths. It also sets the boundary that no tool guarantees first-page rankings. The data quality phase in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-marketmuse-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link> guide is the groundwork MarketMuse’s inventory needs before its scores mean anything, and the guide’s pilot phase shows a first content cluster as a measured test.</p>
     </>
   );
 

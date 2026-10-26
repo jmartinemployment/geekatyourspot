@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -25,6 +26,8 @@ export default function RightFitSection() {
         <a href="#consultationAppointment2xl" id={`tools-accounting-avidxchange-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your consultation now
         </a>&nbsp;to see how AvidXchange can transform your accounts payable operations.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-data-entry-processing-avidxchange-xlink-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> gives AvidXchange the final step in the chain, paying vendors by ACH, check or virtual card once invoices are captured and approved, and credits its reporting with showing each person where they sit in the workflow. It also records the trade-off this page’s fit section implies: extraction, matching and routing backed by expert oversight, at the price of an initial setup that needs thorough planning. The assessment in our <Link id={`tools-accounting-accounts-payable-automated-data-entry-processing-avidxchange-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#C83803] hover:underline">AI Document Processing</Link> guide, sequence first, then data, then people, is how we keep that setup from disrupting your current operations.</p>
     </>
   );
 

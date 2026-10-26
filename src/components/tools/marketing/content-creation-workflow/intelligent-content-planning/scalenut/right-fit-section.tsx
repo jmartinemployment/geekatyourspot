@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -59,6 +60,8 @@ export default function RightFitSection() {
         <li>Are you creating content strictly for a traditional company blog, or are you looking to turn these insights into short-form videos, email newsletters, and localized social media campaigns?</li>
         <li>How much does your target audience&#39;s behavior shift by neighborhood or culture? For example, do you need to alter your topic strategy between a corporate Brickell audience and a luxury Palm Beach demographic?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-scalenut-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> examines what Scalenut’s evidence shows for a business locked out of AI answers: agents that execute weeks of content creation, visibility tracking and publishing in days, and reporting that shows where your brand is missing in ChatGPT and Gemini down to the specific prompt. It also states the limit, since Scalenut’s recommendations depend on a validated, structured data pool and no workflow eliminates human oversight. The business objectives and data quality phases in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-scalenut-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link> guide are where a team decides whether AI visibility is the win worth measuring first, before Scalenut’s cluster strategy is set up.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
@@ -49,6 +50,8 @@ export default function PreparingSection() {
         quality, creative testing, or budget allocation feeds into the next cycle, making the system smarter and
         more resilient over time. The outcome is a marketing and sales pipeline that runs with less friction, more
         predictability, and a clear path to scaling up without the usual headaches or runaway costs.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Before any of those systems takes over your bids, read what the evidence supports and where it runs out. Our post <Link id={`use-cases-marketing-ad-spend-optimization-ai-measured-lead-generation-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend" className="text-[#C83803] hover:underline">How South Florida Businesses Can Stop Wasting Ad Spend</Link> goes through Optmyzr’s rule engine pausing ad sets the moment a landing page returns a 404 and defending impression share against a competitor’s bid spike, Wrench’s scoring and exclusions keeping past buyers out of acquisition campaigns, Marpipe’s hundreds of creative variants from one upload, and Madgicx’s funnel tiers that stop a budget increase from bringing diminishing returns. It then marks the boundary: lead count still depends on your data and local demand, and the savings of month one erode by month six without regular audits and campaign reviews.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`use-cases-marketing-measured-lead-generation-preparing-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

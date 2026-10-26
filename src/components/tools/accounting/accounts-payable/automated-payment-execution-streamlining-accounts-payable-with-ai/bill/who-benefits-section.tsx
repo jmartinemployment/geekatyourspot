@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function WhoBenefitsSection() {
   const body = (idSuffix = "") => (
     <>
@@ -47,6 +48,8 @@ export default function WhoBenefitsSection() {
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-bill-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> uses Bill at both ends of the cycle: digitizing invoices on receipt and matching them to purchase orders and delivery receipts so duplicates never reach the payment run, then holding the approval rules that change with invoice detail or amount. It also says plainly that Bill’s reliability at high volume depends on the initial setup and on data that stays accurate, which is why the assessment in our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">AI Automatic Bill Pay</Link> guide starts with a measurable goal and a workflow map before any configuration begins.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -44,6 +45,8 @@ export default function RightFitSection() {
         <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
         <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Whether Quaderno’s multi-jurisdiction automation is worth it depends on an assessment of your actual footprint, and our <Link id={`tools-accounting-tax-compliance-regulations-automating-complex-and-changing-laws-quaderno-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide lays that out: a review of your transaction volume, the number of jurisdictions you sell into and the complexity of your filings, then a decision on how much of the process to automate before any tool is configured. The guide is also where Quaderno is placed in the stack, as the partner for international VAT and GST and compliant invoices in multiple languages and currencies, while TaxCloud handles domestic checkout calculations. If your sales stop at the Florida county line, the guide’s own test says a system like this is premature.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -75,6 +76,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-frase-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> explains where Frase fits in the sequence, building each article from a concrete brief around a real customer question so no half-finished drafts or stitched-together AI responses go live, then repurposing the approved piece into social and email drafts. It also names what Frase depends on, a clean, current knowledge base, since stale FAQs and service lists produce generic articles you end up rewriting. The structured review of what you already have in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-frase-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide is the step that gives Frase usable source material before the first brief is written.</p>
     </>
   );
 

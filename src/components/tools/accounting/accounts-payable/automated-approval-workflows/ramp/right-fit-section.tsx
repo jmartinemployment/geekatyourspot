@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -47,6 +48,8 @@ export default function RightFitSection() {
         <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Ramp’s OCR and machine learning speak to a team buried in hundreds of invoices a month, and our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-ramp-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> explains the other half of that problem. Without a tracked workflow the team learns an invoice is stuck only when a vendor calls, and the owner who insists on reviewing everything becomes the bottleneck the moment they travel. The post places Ramp at the tracking and compliance stage, where real-time status and an audit trail replace that guesswork. The four-phase assessment in our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-ramp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">AI Approval Workflow</Link> guide confirms whether your volume justifies the investment before anything is configured.</p>
     </>
   );
 

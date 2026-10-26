@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -68,6 +69,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-writesonic-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> sets out where Writesonic’s evidence holds, multi-page articles, landing pages and semantic structures generated natively for deeply localized content, and where it stops, because it is not a shortcut to authority or top rankings, which still depend on your offer and relevance. It also places Writesonic alongside ImagineArt as the answer when the friction is producing long-form content at a pace manual effort cannot match. The channel volumes and measurable outcomes set in the first phase of our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-writesonic-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide are what tell a team whether that scale is actually needed.</p>
     </>
   );
 

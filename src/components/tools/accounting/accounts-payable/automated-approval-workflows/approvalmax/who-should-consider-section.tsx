@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function WhoShouldConsiderSection() {
   const body = (idSuffix = "") => (
     <>
@@ -48,6 +49,8 @@ export default function WhoShouldConsiderSection() {
         <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-approvalmax-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> shows why ApprovalMax’s multi-step chains matter. It describes the small business where approval is an okay given by phone that nobody can find when it is time to pay, and where a minor recurring bill waits in the same queue as a major equipment purchase. Documented, risk-based routing with automatic reminders is the fix the post argues for, and it places ApprovalMax at exactly that routing stage. The four-phase assessment in our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-approvalmax-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">AI Approval Workflow</Link> guide is how we confirm that your invoice volume and the complexity of your approval chains justify the investment before you commit to it.</p>
     </>
   );
 

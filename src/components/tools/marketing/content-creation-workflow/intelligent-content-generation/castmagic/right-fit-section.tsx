@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -68,6 +69,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-castmagic-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> places Castmagic at the last mile of the workflow, where recorded webinars, sales calls and training sessions sit unused, and sets out what the evidence supports: automated ingestion, transcription and extraction of blog posts, emails and social hooks that would otherwise go to an external copywriter. It also names the condition that decides whether that happens, since the tool goes underused unless someone owns uploading, reviewing and mapping each recording into the pipeline. The data review in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-castmagic-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide, which inventories recorded webinars alongside drafts and FAQs, is where that backlog gets counted as an asset.</p>
     </>
   );
 

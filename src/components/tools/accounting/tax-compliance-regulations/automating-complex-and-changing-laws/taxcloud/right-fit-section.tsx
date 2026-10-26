@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -40,6 +41,8 @@ export default function RightFitSection() {
         <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
         <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before TaxCloud is connected to QuickBooks or Shopify, our <Link id={`tools-accounting-tax-compliance-regulations-automating-complex-and-changing-laws-taxcloud-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide describes the sequence that decides whether it should be: an analysis of your current compliance status for overlooked nexus thresholds, a choice about the scope of automation, data integration that normalizes sales from every channel into one audit-ready format, and a pilot that measures the return before full deployment. It also draws the line the guide holds to, that a business crossing county lines in Miami-Dade, Broward and Palm Beach gains from real-time calculation across more than 13,000 jurisdictions, while a local bakery selling inside city limits does not need it.</p>
     </>
   );
 

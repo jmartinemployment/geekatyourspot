@@ -49,6 +49,8 @@ export default function RightMoveSection() {
         <a href="#consultationAppointment2xl" id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a free consultation
         </a>&nbsp;to discuss the next steps.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you take the accuracy figures above on faith, read what the vendors actually report and where the gains stop. Our post <Link id={`use-cases-accounting-accounts-payable-ai-document-processing-xlink-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> sets out Dext’s over 99% accuracy in structured records and its 31.4 million receipts and invoices processed in a single month, Bill’s claim to halve processing time with AI invoice entry, and AvidXchange’s blend of automated extraction with expert oversight, which the post notes comes with a complex initial setup. It then names the two cases where automation does not pay: low transaction volume, and processes so non-standard that customization raises both the cost and the timeline.</p>
     </>
   );
 

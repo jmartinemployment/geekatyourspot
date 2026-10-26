@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -81,6 +82,8 @@ export default function RightFitSection() {
         <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-myaifrontdesk-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> reports what My AI Front Desk’s own cases show for operators like you: Provest Realty, a field-heavy business, saw its after-hours voicemail overflow and the Monday backlog that came with it nearly vanish, and United Porté used the system to handle more than 1,600 calls a month without losing late-night leads from other time zones. The post also draws the line the vendors do not: no case proves that every automated call becomes a booked job, and the lift in your business depends on your average job value and booking rate. The four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-myaifrontdesk-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide is how you measure that against your own missed calls before the first pilot week.</p>
     </>
   );
 

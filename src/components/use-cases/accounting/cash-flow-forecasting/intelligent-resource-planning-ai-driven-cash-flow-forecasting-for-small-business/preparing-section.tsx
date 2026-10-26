@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -73,6 +74,8 @@ export default function PreparingSection() {
         <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you weigh those tools against each other, read what their vendors actually publish and where the evidence runs out. Our post <Link id={`use-cases-accounting-cash-flow-forecasting-ai-financial-planning-software-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> goes through Jirav’s case studies on driver-based budgets and rolling forecasts, Take the Helm’s use of historical payment data to predict when cash actually clears, Cashflowfrog’s grading of customers by payment speed, Fathom’s consolidated KPI dashboards, and the ERP-lite features QuickBooks Online Advanced adds for a business that has outgrown its books. It then states plainly what none of that proves: no platform fixes a forecast built on unreconciled books, and the business still has to decide what to do when the numbers move.</p>
     </>
   );
 

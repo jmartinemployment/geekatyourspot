@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -64,6 +65,8 @@ export default function RightFitSection() {
         <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
         <li>What is your current monthly or annual budget for payroll processing and&nbsp;tax compliance&nbsp;legal advice?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Deel’s distinctive offer is legal rather than clerical, and our post <Link id={`tools-accounting-tax-compliance-regulations-payroll-tax-worker-misclassification-deel-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers &amp; Payroll Tax</Link> explains it in those terms: the Contractor of Record service assumes the liability if a contractor is found to be misclassified, the Compliance Hub tracks regulatory changes, and W-9 and tax profile collection is automated so a missing document is flagged before a pay run starts. The post also notes that Deel’s published evidence on time or cost savings is qualitative, which is worth knowing before you buy a shield you hope never to use. The data quality review in our <Link id={`tools-accounting-tax-compliance-regulations-payroll-tax-worker-misclassification-deel-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software" className="text-[#C83803] hover:underline">AI Payroll Software</Link> guide finds the gaps in contractor records that Deel’s intake would otherwise surface mid-cycle.</p>
     </>
   );
 

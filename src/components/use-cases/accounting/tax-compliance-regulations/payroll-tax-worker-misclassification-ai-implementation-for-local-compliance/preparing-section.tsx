@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function PreparingSection() {
@@ -68,6 +69,8 @@ export default function PreparingSection() {
         <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
         <li>What is your current monthly or annual budget for payroll processing and&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;legal advice?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you take any of those platforms’ compliance claims on trust, read what each vendor actually documents and where the public record goes quiet. Our post <Link id={`use-cases-accounting-tax-compliance-regulations-ai-payroll-software-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers &amp; Payroll Tax</Link> goes through Gusto’s pre-run checks and automatic filings, Rippling’s classification quizzes and one-click corrections, Deel’s Contractor of Record liability shield, Justworks’ live HR specialists and ADP’s 24/7 expert support, and then states the gap plainly: not one of them publishes a verified figure for time saved or penalties avoided, and none is set-and-forget. It also lists the five signs that automation is the right call, starting with paying both W-2 and 1099 workers every pay run.</p>
     </>
   );
 

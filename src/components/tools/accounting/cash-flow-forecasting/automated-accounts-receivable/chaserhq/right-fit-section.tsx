@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -41,6 +42,8 @@ export default function RightFitSection() {
         <li>How do automated AR tools handle &quot;What-If&quot; scenario planning?</li>
         <li>How does forecasting integration optimize collection strategies?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        The one published figure in this cluster belongs to Chaserhq. Our post <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-chaserhq-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> reports its users’ average 14-day reduction in days sales outstanding in 2024 and explains how the late payment predictor sorts invoices into risk brackets. It also states the catch, which is that the brackets only help a business that acts on them promptly, so the monthly fee buys nothing for a team that still reviews its aging report twice a month. Our <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-chaserhq-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software" className="text-[#C83803] hover:underline">AI Accounts Receivable Software</Link> guide covers the goal-setting and the small-scale pilot that turn those risk scores into a collection routine for a business with seasonal swings and many small invoices.</p>
     </>
   );
 

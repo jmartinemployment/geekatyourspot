@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -87,6 +88,8 @@ export default function RightFitSection() {
         <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Fathom is the tool in this cluster for a business that has outgrown a single set of books, and our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-fathomhq-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> shows the specific job it does: consolidating locations and entities into interactive dashboards, tracking financial and operational KPIs in one window, and moving the monthly conversation from what happened to what to do next. The post also warns that Fathom’s dashboards lose their value when the classes and locations feeding them mean different things in Doral and in West Palm Beach. Agreeing those definitions is part of the data review in our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-fathomhq-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">AI Financial Planning Software</Link> guide, before any franchise or group connects QuickBooks, Xero or MYOB.</p>
     </>
   );
 

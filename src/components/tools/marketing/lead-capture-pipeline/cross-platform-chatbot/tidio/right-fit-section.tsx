@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -59,6 +60,8 @@ export default function RightFitSection() {
         <li>What would a successful first 30 days look like?</li>
         <li>What is your budget and preferred way to pay?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-tidio-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> gives the two numbers Tidio publishes for small service and e-commerce sites: more than half of website visitors engage with the bot, and over 3% of all site traffic becomes a lead through the automated chat flow, from the same traffic and without longer hours. It also places Tidio’s drag-and-drop builder and instant human handoff where they belong, as the web chat piece of a pipeline that may still need My AI Front Desk for calls or BotPenguin for WhatsApp. Which of your channels comes first, and how many conversations a month the pipeline has to carry, is decided in the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-tidio-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide.</p>
     </>
   );
 

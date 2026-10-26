@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -37,6 +38,8 @@ export default function RightFitSection() {
         <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
         <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Handing the compliance lifecycle to Zamp’s team is one of the early decisions our <Link id={`tools-accounting-tax-compliance-regulations-automating-complex-and-changing-laws-zamp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide treats as setting the course for everything after it, alongside the scope of automation, integration with QuickBooks or Shopify, and objectives such as lower compliance cost or less audit risk that decide whether a full-service model is warranted. The guide’s rollout sequence shows where a managed service earns its place, in continuous monitoring after go-live and the regular reviews that keep registrations current as laws change, and its booking questions, from county rate differences to the Miami Beach resort tax, are the ones a growing team without a tax department stops being able to answer alone.</p>
     </>
   );
 

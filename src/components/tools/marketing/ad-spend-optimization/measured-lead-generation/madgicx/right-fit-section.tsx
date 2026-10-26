@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -65,6 +66,8 @@ export default function RightFitSection() {
         predictive analytics, and AI-driven creative, without giving up control or transparency. If you want to move
         beyond manual campaign management and get more from every ad dollar, but still keep your team at the wheel,
         Madgicx is built for your next stage of growth.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-madgicx-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend" className="text-[#C83803] hover:underline">How South Florida Businesses Can Stop Wasting Ad Spend</Link> gives Madgicx one structural job and one warning. The job is funnel mapping: each audience tier, new prospects, warm leads and past buyers, gets its own message and bid, which is what stops cost per lead from spiking when spend rises. The warning is that Madgicx is only as powerful as your account structure, and undefined funnel stages leave overlapping ads bidding against each other with cold and warm leads mixed together. Defining those stages, and naming the person who owns the platform, is the architecture phase of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-madgicx-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation" className="text-[#C83803] hover:underline">AI Measured Lead Generation</Link> guide, and it comes before any audience is launched.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-measured-lead-generation-madgicx-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -73,6 +74,8 @@ export default function PreparingSection() {
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
         <li>What is your current financial exposure if it turns out you have crossed economic nexus lines in three or four states over the past 12 months and failed to collect tax?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you treat any threshold figure as settled, read what the state agencies and the vendors actually publish. Our post <Link id={`use-cases-accounting-tax-compliance-regulations-ai-multi-state-sales-tax-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> sets out the Florida, Texas, New York and California thresholds as each agency published them on October 20, 2026, with Texas and California at $500,000 and no transaction count and New York requiring both $500,000 and 100 sales. It then weighs TaxCloud’s free Streamlined Sales Tax filing in 24 states and its reported 40% cut in compliance time against the condition no tool removes: clean, reconciled sales data from every channel, because Shopify and Amazon never report the combined total.</p>
     </>
   );
 

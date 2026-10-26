@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -79,6 +80,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-koala-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> explains why Koala sits at the foundation of a working stack: it stores a structured business profile, real services, credentials and approved voice, so every tool pulls from the same facts instead of memory, which is what stops a brand sounding like three different companies. It also names the condition, since a profile built on outdated service descriptions only scales the errors, and it records that no tool guarantees a campaign outperforms a human expert when the input is generic. The data quality review in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-koala-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide is where that profile is assembled before Koala is configured.</p>
     </>
   );
 

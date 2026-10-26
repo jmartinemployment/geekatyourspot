@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -46,6 +47,8 @@ export default function RightFitSection() {
         solvable. The platform is built to plug into your existing ad accounts, work with your brand assets, and
         deliver validated, conversion-focused creative on demand. For small businesses wanting to compete in a
         crowded local market without agency overhead, this is a practical, proven path forward.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-adcreative-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now" className="text-[#C83803] hover:underline">How Miami Businesses Can Stop Wasting Ad Dollars Now</Link> places AdCreative on the design side of the budget problem: it applies your brand colors and fonts to every variant, produces new creative batches in seconds, and rotates fresh assets in when click-through rates start to slide, so a banner is not left running for months unchecked. The post also gives the condition that makes this work: a defined brand kit set at the start, because without one the AI defaults to whatever looks generic and trust and conversion suffer. Setting those rules, and the objectives the creative has to serve, is the first phase of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-adcreative-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" className="text-[#C83803] hover:underline">AI Budget Ad Copy &amp; Message Validation</Link> guide.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-budget-ad-copy-message-validation-adcreative-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

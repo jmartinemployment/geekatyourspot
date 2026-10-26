@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -67,6 +68,8 @@ export default function RightFitSection() {
         way to validate ad copy and messaging, protect your spend, and grow your results without adding complexity
         or cost. The next step is a conversation about your goals, your data, and your current process, so you can
         see exactly how Plai would work for you before making a commitment.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-plai-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now" className="text-[#C83803] hover:underline">How Miami Businesses Can Stop Wasting Ad Dollars Now</Link> gives Plai the first technical job in the workflow: setting up conversion pixels across Google, Meta and your landing page so every lead is tracked, not just the ones that reach your main form, and then translating the analytics into dashboards that say when to shift budget, retarget or pause an unproductive day. It is also honest that Plai’s results are platform claims rather than audited figures, and that a messy data pipeline leaves any automation working blind. Whether your tracking is ready, and whether you will keep reviewing what the dashboards recommend, is decided in the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-plai-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" className="text-[#C83803] hover:underline">AI Budget Ad Copy &amp; Message Validation</Link> guide.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-budget-ad-copy-message-validation-plai-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

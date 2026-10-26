@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -68,6 +69,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-jasper-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> sets out what Jasper’s evidence supports, brand governance that enforces voice and compliance rules in real time, Canvas campaigns that keep emails, landing pages and social posts aligned in tone and facts, and approval chains that restrict who can publish. It is just as clear that none of this invents a positioning or beats a human expert on a high-stakes press release or legal update. The first week or two of configuration in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-jasper-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide, setting up brand voice profiles and training the system on your service lines, is the upfront work Jasper’s results depend on.</p>
     </>
   );
 

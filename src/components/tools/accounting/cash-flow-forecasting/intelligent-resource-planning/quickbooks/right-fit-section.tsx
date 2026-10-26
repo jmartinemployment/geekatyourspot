@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -65,6 +66,8 @@ export default function RightFitSection() {
         <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        The published case for QuickBooks Online Advanced, as our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-quickbooks-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> lays it out, is staying on the interface your staff already know while adding batch processing, multi-warehouse inventory tracking, granular user permissions and custom reporting, which the post describes as getting about 80 percent of the way to an ERP without a six-figure migration. It is equally clear that this is not a full ERP and that a twelve-person firm does not need one. Our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-quickbooks-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">AI Financial Planning Software</Link> guide covers the point in the tool selection stage where a growing QuickBooks business moves to Advanced rather than replacing the system it already runs on.</p>
     </>
   );
 

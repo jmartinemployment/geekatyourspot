@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -65,6 +66,8 @@ export default function RightFitSection() {
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
         <li>What is your current financial exposure if it turns out you have crossed economic nexus lines in three or four states over the past 12 months and failed to collect tax?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-thetaxvalet-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> shows where a managed service like TaxValet fills the gaps software leaves: tracking where Amazon FBA inventory creates physical nexus, handling home-rule filings in places like Colorado and Louisiana, and owning audit defense and state correspondence so the first notice does not land on a team with no owner. It also sets out the thresholds behind that exposure, including Texas and California at $500,000 with no transaction count. The exposure mapping and ongoing audit support described in our <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-thetaxvalet-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">AI Multi-State Sales Tax</Link> guide is the sequence TaxValet’s team executes once you hand it over.</p>
     </>
   );
 

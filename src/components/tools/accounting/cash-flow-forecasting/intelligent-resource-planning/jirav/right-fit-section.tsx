@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -78,6 +79,8 @@ export default function RightFitSection() {
         <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Jirav’s evidence, as our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-jirav-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> reports it, comes from published case studies where teams moved to driver-based budgets and rolling forecasts and stopped assembling data by hand for banks and internal reviews. The post explains what that means in practice for a seasonal business: headcount, pipeline and project schedules feed the forecast directly, so a late-paying client or two new hires show up in the cash projection without a rebuilt model. It is also clear that Jirav’s scenarios are only as good as the sales and payroll data it can pull. The data review and the parallel pilot in our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-jirav-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">AI Financial Planning Software</Link> guide are how that is checked first.</p>
     </>
   );
 

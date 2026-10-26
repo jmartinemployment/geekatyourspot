@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -49,6 +50,8 @@ export default function RightFitSection() {
         <li>What is the most frustrating part of paying vendors today?</li>
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Ramp is where our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-ramp-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> closes the loop. After payments go out, it matches each one to its invoice and updates the general ledger, which is the reconciliation step a lean team otherwise does by hand and the place the post locates duplicate and overlooked payments. The post also explains why real-time visibility into the cash position matters to a business deciding what it can spend next. Our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-ramp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#C83803] hover:underline">AI Automatic Bill Pay</Link> guide gives the four-phase assessment that tells you whether your transaction volume justifies the platform.</p>
     </>
   );
 

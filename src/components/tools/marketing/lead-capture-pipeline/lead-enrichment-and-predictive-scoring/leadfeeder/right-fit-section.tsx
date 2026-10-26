@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -67,6 +68,8 @@ export default function RightFitSection() {
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
         <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-lead-enrichment-and-predictive-scoring-leadfeeder-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">Lead Enrichment to Close More Sales</Link> places Leadfeeder’s strongest evidence at the handoff to sales: an alert the moment a local business lands on your site, the exact path it took through your pricing and case study pages, and the repeat visits that show an account warming up. It is also clear that a spray-and-pray setup that dumps every visitor into one list creates noise, and that the value comes from tuning filters to your ideal customer and segmenting alerts for high-value pages and local companies. Defining that ideal customer, and who acts on the alerts the same day, is the work of the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-lead-enrichment-and-predictive-scoring-leadfeeder-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring" className="text-[#C83803] hover:underline">Lead Enrichment &amp; Predictive Scoring</Link> guide.</p>
     </>
   );
 

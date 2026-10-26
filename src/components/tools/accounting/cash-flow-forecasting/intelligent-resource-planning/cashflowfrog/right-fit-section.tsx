@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -75,6 +76,8 @@ export default function RightFitSection() {
         <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Two things in the published material set Cashflowfrog apart, and our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-cashflowfrog-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> covers both: visual cash projections that need no setup and refresh on every sync with your accounting system, and a grading of each customer by payment speed that flags the relationships likely to open a cash gap. The post also sets the condition, since Cashflowfrog’s projections depend on regular syncs with QuickBooks and on books that are reconciled and coded consistently. The data quality assessment and the thirty-day benchmark in our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-cashflowfrog-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#C83803] hover:underline">AI Financial Planning Software</Link> guide check that before the free trial becomes a subscription.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -56,6 +57,8 @@ export default function RightFitSection() {
         <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
         <li>What is your current financial exposure if it turns out you have crossed economic nexus lines in three or four states over the past 12 months and failed to collect tax?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-zamp-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> weighs what separates Zamp’s managed model from software-only tools: onboarding specialists who review your product catalog and sales data before alerts start, a team that intercepts and resolves state notices, and registrations and mappings that are updated as states change their rules. It also states the boundary the evidence does not cross, since no service catches every edge case and none removes the need for clean multi-channel data. The free diagnostic and six-step rollout in our <Link id={`tools-accounting-tax-compliance-regulations-multi-state-sales-tax-nexus-zamp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">AI Multi-State Sales Tax</Link> guide show where Zamp’s team steps in, from the go-live audit through regulatory letters.</p>
     </>
   );
 

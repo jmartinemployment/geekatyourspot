@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -48,6 +49,8 @@ export default function RightFitSection() {
         <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        The figures on this page are Bill’s own, and our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-bill-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> puts them in context. A 20% cut in manual entry and 99% accuracy on key invoice fields are what the vendor reports, and the post explains the manual habits those numbers depend on replacing, from invoices keyed into spreadsheets to follow-up emails that pile up unanswered and approvals that exist only in an email chain. Whether your monthly volume makes that return real is the question the assessment in our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">AI Approval Workflow</Link> guide answers, starting with a measurable goal and a data check before any plan is bought.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -63,6 +64,8 @@ export default function RightFitSection() {
         <li>Are you creating content strictly for a traditional company blog, or are you looking to turn these insights into short-form videos, email newsletters, and localized social media campaigns?</li>
         <li>How much does your target audience&#39;s behavior shift by neighborhood or culture? For example, do you need to alter your topic strategy between a corporate Brickell audience and a luxury Palm Beach demographic?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-semrush-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> goes through what Semrush’s evidence supports, surfacing high-demand, low-competition topics for a local market, drafting from winning formats, and turning one blog post into localized emails, LinkedIn updates and Google Business Profile posts with a click, and it names the pain that justifies it: a team reformatting the same post by hand for every channel. It also records what the evidence does not prove, a revenue figure for planning on its own. The KPI alignment and pilot phases in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-semrush-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link> guide decide whether content repurposing with Semrush is the first workflow to automate and how its results get measured.</p>
     </>
   );
 

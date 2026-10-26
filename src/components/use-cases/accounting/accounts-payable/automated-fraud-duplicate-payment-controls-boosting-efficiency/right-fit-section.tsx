@@ -51,6 +51,8 @@ export default function RightFitSection() {
         <a href="#consultationAppointment2xl" id={`use-cases-accounting-fraud-controls-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           Book your free consultation
         </a>.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you weigh the cost of these controls, read what manual accounts payable is already costing you. Our post <Link id={`use-cases-accounting-accounts-payable-ai-fraud-duplicate-payment-controls-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">AI Accounts Payable Fraud Detection</Link> puts figures on it, small businesses losing 5% to 10% of annual revenue to fraud and errors and duplicate payments alone taking 1.5% to 3% of outward disbursements, and then goes through the three mechanisms that stop it: OCR capture, fuzzy matching on near-identical amounts and vendor names, and three-way matching against purchase orders and receipts. It is just as clear about the limits, that no system guarantees 100% prevention and that poor data produces false positives, which is why the controls belong inside regular audits rather than replacing them.</p>
     </>
   );
 

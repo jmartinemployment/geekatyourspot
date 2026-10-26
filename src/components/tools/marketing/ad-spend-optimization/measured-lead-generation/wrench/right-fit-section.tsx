@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -55,6 +56,8 @@ export default function RightFitSection() {
         minimal data, one-off campaigns, or an unwillingness to invest in structured automation. The path forward is
         clear: assess your current pain points, map your data, and work with a partner like Geek @ Your Spot to
         configure Wrench for your real-world environment.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-wrench-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend" className="text-[#C83803] hover:underline">How South Florida Businesses Can Stop Wasting Ad Spend</Link> makes Wrench the first dependency of the whole system: it cleans and standardizes CRM data so every sync to the ad platforms matches, scores contacts by conversion probability and lifetime value, and excludes someone who just bought from the retargeting campaign the same day. The post is equally direct that a business still on static spreadsheets sees dramatic gains from this, while one already running a disciplined CRM sees real but incremental ones. Whether your contact base is large and structured enough to score is what the data quality phase of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-measured-lead-generation-wrench-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation" className="text-[#C83803] hover:underline">AI Measured Lead Generation</Link> guide establishes.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-measured-lead-generation-wrench-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

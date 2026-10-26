@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PreparingSection() {
   const body = (idSuffix = "") => (
     <>
@@ -67,6 +68,8 @@ export default function PreparingSection() {
         <li>What would a successful first 30 days look like?</li>
         <li>What is your budget and preferred way to pay?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before any of those tools goes on your channels, see what their vendors publish and where the claims stop. Our post <Link id={`use-cases-marketing-lead-capture-pipeline-ai-chatbot-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> goes through My AI Front Desk’s cases on up to 80 hours a month recovered from manual follow-up and after-hours voicemail, Manychat’s and BotPenguin’s documentation on reply times dropping to seconds once comments and DMs route to one inbox, Dapta’s real-time booking and CRM sync for English and Spanish callers, and Tidio’s figures on over half of visitors engaging and more than 3% of traffic converting. It then names what no vendor claims: that a bot closes sales alone, or stays accurate without someone reviewing its flows every week.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -51,6 +52,8 @@ export default function RightFitSection() {
         <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Melio’s case rests on one idea, that a $200 renewal should not need the sign-off a $40,000 invoice needs. Our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-melio-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> shows what happens without that rule: every invoice follows the same path, trivial expenses clog the queue, and staff bypass the process to get vendors paid on time. The post places Melio at the payment stage, where bill intake and approvals are centralized so money moves only after authorization. Our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-melio-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">AI Approval Workflow</Link> guide then sets out the four-phase assessment that decides whether your QuickBooks Online setup and invoice count warrant it.</p>
     </>
   );
 

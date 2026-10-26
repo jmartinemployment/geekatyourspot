@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightChoiceSection() {
   const body = (idSuffix = "") => (
     <>
@@ -49,6 +50,8 @@ export default function RightChoiceSection() {
         <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Stampli’s strength is closing the gap between purchase orders and approvals held in separate systems, and our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-stampli-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> shows what that gap costs: approvals that exist only in email threads, no documented authorization when it is time to pay, and controls added only after a loss or an audit problem. The post also gives Stampli the implementation step most small teams skip, validating and cleaning data before it enters the workflow. The four-phase assessment in our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-stampli-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-approval-workflow" className="text-[#C83803] hover:underline">AI Approval Workflow</Link> guide, from measurable goals to a pilot with your accounts payable team, is how we decide whether Stampli fits your invoice volume.</p>
     </>
   );
 

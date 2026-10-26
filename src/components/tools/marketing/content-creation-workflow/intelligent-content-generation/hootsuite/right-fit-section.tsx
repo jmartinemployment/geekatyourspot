@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -73,6 +74,8 @@ export default function RightFitSection() {
         <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-hootsuite-xlink-blog${idSuffix}`} href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> sets out what Hootsuite’s platform evidence shows, production-ready captions and localized ideas across networks, a month of posts loaded and scheduled for peak windows, and dashboards that track engagement and conversion by network rather than likes, and it is clear that the real test is sustaining a multi-channel presence without new staff. It also shows why publishing rights by role matter, since a post with wrong pricing going live on a Friday is the failure that ownership prevents. The objectives phase in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-hootsuite-xlink-pillar${idSuffix}`} href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator" className="text-[#C83803] hover:underline">AI SEO Content Generator</Link> guide is where channel volumes are set before a calendar is built.</p>
     </>
   );
 

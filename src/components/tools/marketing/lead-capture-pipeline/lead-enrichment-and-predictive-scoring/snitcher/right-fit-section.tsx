@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -68,6 +69,8 @@ export default function RightFitSection() {
         <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
         <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-lead-enrichment-and-predictive-scoring-snitcher-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">Lead Enrichment to Close More Sales</Link> describes what Snitcher does at the top of the funnel and the discipline it demands: visitor IPs mapped to verified business profiles, an intent score built from which pages a company reads and how often, and alerts that only help once you segment them to your target accounts instead of a generic list. It is equally plain that identifying a company is not closing it, and that a rep still has to call that day. Whether your traffic comes mostly from corporate networks, where Snitcher identifies best, is checked in the data quality phase of the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-lead-enrichment-and-predictive-scoring-snitcher-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring" className="text-[#C83803] hover:underline">Lead Enrichment &amp; Predictive Scoring</Link> guide before anything is connected.</p>
     </>
   );
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -49,6 +50,8 @@ export default function RightFitSection() {
         message, protection against wasted spend, and a process that fits the realities of small-team marketing.
         Where other solutions require more money, more staff, or more time, Anyword delivers validation and
         optimization at the speed and cost that small businesses need.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-anyword-xlink-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-miami-businesses-can-stop-wasting-ad-dollars-now" className="text-[#C83803] hover:underline">How Miami Businesses Can Stop Wasting Ad Dollars Now</Link> makes the case for Anyword in one mechanism: its Predictive Performance Score rates each headline and body on historical conversion data before you spend, so a variant that tests low never reaches a live campaign and you stop paying for learning phases that only benefit Google or Meta. The post also sets the condition, that the score only improves if you keep your copy library and test results centralized rather than scattered across spreadsheets and agency logins. Whether your ad data can feed it is checked in the data quality phase of the four-phase assessment in our <Link id={`tools-marketing-ad-spend-optimization-budget-local-ad-spending-anyword-xlink-pillar${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" className="text-[#C83803] hover:underline">AI Budget Ad Copy &amp; Message Validation</Link> guide.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-budget-ad-copy-message-validation-anyword-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -66,6 +67,8 @@ export default function RightFitSection() {
         <li>What would a successful first 30 days look like?</li>
         <li>What is your budget and preferred way to pay?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-dapta-xlink-blog${idSuffix}`} href="/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> sets out what Dapta’s published material supports for a bilingual South Florida business: one agent qualifying callers in English or Spanish on urgency, county and service type, booking onto your calendar while interest is high, and syncing every record to your CRM in real time so nothing is re-keyed. The post also puts Dapta alongside My AI Front Desk, BotPenguin, Manychat and Tidio and shows where a lighter single-channel tool would do, so you can tell whether multi-channel voice and chat is what your leak actually needs. That question, and the data clean-up that comes before it, is the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-dapta-xlink-pillar${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide.</p>
     </>
   );
 

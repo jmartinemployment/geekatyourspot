@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -40,6 +41,8 @@ export default function RightFitSection() {
         <li>What specific business event (e.g., rapid scaling, tightening margins, upcoming capital raise, or a recent forecasting error) prompted you to look into automated alternatives?</li>
         <li>What is the single biggest risk to your business if your cash flow forecast is inaccurate next month?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Floatapp’s distinctive claim is that a placeholder in a budget line is replaced by the real invoice or bill the moment it hits Xero or QuickBooks Online, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-floatapp-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> explains why that matters for a small team whose client payment dates and expenses keep shifting: only reconciled transactions feed the forecast, so the manual adjustments stop. The post also names the limit, which is that an automated forecast inherits whatever is wrong in the books behind it. Our <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-floatapp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide covers the data quality review and the quarterly accuracy checks that keep a rolling forecast honest after the connection is made.</p>
     </>
   );
 

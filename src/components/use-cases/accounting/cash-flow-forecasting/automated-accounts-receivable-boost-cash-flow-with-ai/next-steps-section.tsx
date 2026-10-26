@@ -47,6 +47,8 @@ export default function NextStepsSection() {
         <li>How do automated AR tools handle &quot;What-If&quot; scenario planning?</li>
         <li>How does forecasting integration optimize collection strategies?</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you set a target for days sales outstanding, look at the one published figure in this cluster and at what sits behind it. Our post <Link id={`use-cases-accounting-cash-flow-forecasting-ai-accounts-receivable-software-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> reports Chaserhq’s 2024 figure of a 14-day average cut in days sales outstanding, explains that Upflow’s real-time forecast is only as accurate as the data fed into it, and spells out where automation still needs a person: disputes, payment discrepancies and client-specific terms. It also makes the case against automating at all for a business with a handful of clients and simple payment terms, which is worth reading before you pay for any of the platforms named above.</p>
     </>
   );
 
