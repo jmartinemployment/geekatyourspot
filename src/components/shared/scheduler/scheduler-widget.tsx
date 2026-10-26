@@ -7,6 +7,7 @@ import {
 } from "@/components/shared/scheduler/booking-widget";
 import { ContactDrawer } from "@/components/shared/scheduler/contact-drawer";
 import { holdSlot, releaseSlotHold } from "@/lib/actions/hold-slot";
+import { emitVisitorEvent } from "@/lib/visitors/visitor-events";
 import type {
   TimeSlot,
   SlotHold,
@@ -103,6 +104,7 @@ export default function SchedulerWidget(): React.JSX.Element {
       setHold(nextHold);
       setSelectedSlot(slot);
       setDrawerOpen(true);
+      emitVisitorEvent("scheduler_slot_held");
     },
     [releaseCurrentHold],
   );

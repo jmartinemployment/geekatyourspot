@@ -1,0 +1,1 @@
+A flat vector diagram of an automated workflow: branching paths with trigger points, audience segmentation, and automated email icons, visually explaining how personalized campaigns are automated in Mailchimp.

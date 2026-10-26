@@ -1,0 +1,1 @@
+A network diagram showing Mailerlite at the center, connected by lines to various marketing tools, databases, and apps, with organized data nodes clustered around it.

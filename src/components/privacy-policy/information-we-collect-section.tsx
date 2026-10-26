@@ -22,6 +22,23 @@ export default function InformationWeCollectSection() {
       <p className="text-base text-white shadow-text pt-3">
         Our hosting provider, Vercel, keeps server logs that include your IP address, the pages your browser
         requested, and the time of each request. These logs help us keep the site secure and working.</p>
+      <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        The Visit Record the Site Keeps
+      </h3>
+      <p className="text-base text-white shadow-text pt-3">
+        The site also keeps its own record of each visit, separate from Google Analytics. That record holds
+        your IP address and the approximate location that Vercel works out from it, which is usually your
+        city and postal code. It holds the type of device, browser, and screen you use, the pages you view,
+        how long each page is open and in front of you, how far down each page you scroll, and the links
+        you click. It also holds the website that referred you and any campaign tags in the address you
+        arrived on.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        When Vercel cannot work out a location from your IP address, your browser may ask whether you want
+        to share your location with the site. If you allow it, the site records the position your browser
+        reports and how precise it is. If you decline, nothing is recorded and the site works the same.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        When you book a consultation or send us a message, the name, email address, and phone number you
+        give us are linked to your visit record, including earlier visits from the same browser.</p>
     </>
   );
 

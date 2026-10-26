@@ -7,6 +7,7 @@ export default function HowWeUseSection() {
         <li>We use your booking details to reserve your time on our calendar, send you a confirmation email, and prepare for the conversation.</li>
         <li>We use your contact details to reply when you reach out to us and to follow up about a consultation you booked.</li>
         <li>We use analytics data to learn which pages are useful, which ones confuse people, and how visitors find us, so that we can improve the site.</li>
+        <li>We use the visit record the site keeps to send ourselves a report of the previous day&rsquo;s visitors each morning, and to notify ourselves when a visit from Florida shows strong interest in our services, so that we can follow up with people who want to hear from us.</li>
         <li>We use server logs to keep the site running, investigate errors, and protect the site against abuse.</li>
         <li>We use information when the law requires it, or when we need it to protect our rights or the safety of others.</li>
       </ul>

@@ -10,7 +10,9 @@ export default function RetentionSecuritySection() {
         time, as the next section explains.</p>
       <p className="text-base text-white shadow-text pt-3">
         Google Analytics deletes the event data it ties to individual visitors after no more than 14 months.
-        Vercel keeps its server logs for a limited period that its own retention schedule sets.</p>
+        Vercel keeps its server logs for a limited period that its own retention schedule sets. The visit
+        record the site keeps, including the IP address, is deleted 180 days after the last visit it belongs
+        to.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         How We Protect It
       </h3>

@@ -1,0 +1,1 @@
+A flat vector flowchart showing different business types branching to Mailchimp or alternative paths, illustrating decision-making before choosing Mailchimp.

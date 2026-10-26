@@ -16,6 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { createBooking } from "@/lib/actions/create-booking";
 import { gtmClickId } from "@/lib/gtm/link-id";
+import { emitVisitorEvent, readVisitorIds } from "@/lib/visitors/visitor-events";
 import { formatCountdown } from "@/lib/booking/scarcity";
 import type {
   TimeSlot,
@@ -115,8 +116,9 @@ export function ContactDrawer({
       email: email.trim(),
     };
 
-    const result = await createBooking(booking, contact, hold.holdEventId);
+    const result = await createBooking(booking, contact, hold.holdEventId, readVisitorIds());
     if (result.success) {
+      emitVisitorEvent("scheduler_booked");
       onOpenChange(false);
       router.push("/booking-confirmed");
       return;

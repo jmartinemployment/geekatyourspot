@@ -1,6 +1,9 @@
 'use server';
 
+import { after } from 'next/server';
 import { Resend } from 'resend';
+import { forwardIdentity, logUndelivered } from '@/lib/visitors/forward-pulse';
+import type { VisitorIds } from '@/lib/visitors/visitor-events';
 
 export interface ContactFormData {
   firstName: string;
@@ -56,7 +59,10 @@ function isComplete(data: ContactFormData): boolean {
  * failure. There is no default sender or recipient, so a message never goes to an address nobody
  * reads.
  */
-export async function submitContact(data: ContactFormData): Promise<SubmitContactResult> {
+export async function submitContact(
+  data: ContactFormData,
+  visitorIds?: VisitorIds | null,
+): Promise<SubmitContactResult> {
   const apiKey = process.env.RESEND_API_KEY;
   const fromEmail = process.env.NEXT_PUBLIC_FROM_EMAIL;
   const toEmail = process.env.CONTACT_TO_EMAIL;
@@ -94,7 +100,26 @@ export async function submitContact(data: ContactFormData): Promise<SubmitContac
       </div>
     `.trim(),
     });
-    return { success: !result.error };
+    if (result.error) return { success: false };
+    // The visitor record takes the name after the message has been sent. The hand-off answers
+    // whether it was delivered; one that was not is written to the log with its reason, and never
+    // changes the message, which has already gone.
+    after(async () =>
+      logUndelivered(
+        'identify',
+        await forwardIdentity(
+          {
+            firstName: data.firstName.trim(),
+            lastName: data.lastName.trim(),
+            email: data.email.trim(),
+            phone: data.phone.trim(),
+            source: 'contact',
+          },
+          visitorIds,
+        ),
+      ),
+    );
+    return { success: true };
   } catch {
     return { success: false };
   }

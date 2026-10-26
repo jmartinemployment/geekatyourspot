@@ -1,0 +1,1 @@
+A flat vector decision tree diagram: branching paths illustrate different business scenarios, with icons representing factors like scale, budget, and goals. Endpoints show either an automated platform or manual workflows, helping visualize decision criteria for automating personalized emails.

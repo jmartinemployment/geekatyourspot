@@ -36,7 +36,9 @@ const nextConfig: NextConfig = {
         { key: "X-Frame-Options", value: "DENY" },
         { key: "X-Content-Type-Options", value: "nosniff" },
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+        // Geolocation is open to this origin only: the visitor beacon asks the browser for a
+        // position when the request carried no location, and nothing embedded may ask.
+        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(self)" },
       ],
     };
     // geekatyourspot.vercel.app (and every preview URL) serves the same pages as the real domain,

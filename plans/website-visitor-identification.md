@@ -1,5 +1,115 @@
 # Website visitor tracking and daily visitor report for geekatyourspot.com
 
+## Corrected, 2026-10-26
+
+Two things in the build below, and in the plan under it, were wrong, and the owner said so before
+anything was deployed. Both are fixed in the working tree; nothing is committed in either repo until
+"commit & push".
+
+1. **The store is Postgres, not Mongo.** The plan's storage row and the build put the visitor data in a
+   second Mongo database, `geek_visitors`, with its own `MONGO_VISITORS_URL`. GeekBackend's rules say
+   Mongo is the crawl store only and every other product store is a schema in GeekRepository's own
+   Supabase Postgres (`GeekBackend/AGENTS.md`, "Mongo is for GeekCrawler only; every other store is
+   Supabase", Jeff 2026-10-26, verbatim: *"Mongo DB is for GeekCrawler. Supabase is for this type of
+   database."*). The store is now the `geek_visitors` schema in `DATABASE_URL`, created by
+   `GeekRepository/Migrations/Sql/0042_geek_visitors_schema.sql` and mapped by
+   `GeekRepository/Data/VisitorsDbContext.cs` the way `geek_gtm` is done: tables `visitors`, `sessions`,
+   `session_pages`, `page_clicks`, `filter_day_drops` and `daily_reports`, every column the snake_case
+   of its row property (`GeekRepository/Data/Entities/Visitors/VisitorRows.cs`).
+   `GeekRepository/Repositories/Visitors/VisitorRepository.cs` replaces the Mongo repository: each
+   write is a read-modify-write under the row's `version` token, retried on a lost race, so a score
+   only rises, a step keeps its first time, and a mark or a claim lands once. Postgres has no TTL
+   index, so `POST repo/visitors/retention/purge` removes sessions and visitors last seen more than
+   180 days ago, and GeekAPI's daily job calls it after the report. `MONGO_VISITORS_URL`, the Mongo
+   index step at startup and the EphemeralMongo tests are gone; the repository tests run on the EF
+   in-memory provider and read the schema script against the model, and
+   `GeekBackend.IntegrationTests/VisitorSchemaIntegrationTests.cs` round-trips a session through a
+   real Postgres when `TEST_DATABASE_URL` is set. The privacy policy names Supabase, not Hostinger,
+   as the database host.
+
+2. **Nothing is emailed.** The owner did not ask for the report to be emailed ("Why do you need
+   email, Task was create report?", 2026-10-26). The Resend client, the intent alert email, the
+   `VisitorOptions` boot check and `RESEND_API_KEY`, `VISITOR_EMAIL_FROM` and `VISITOR_EMAIL_TO` are
+   deleted from GeekAPI. The 07:00 job still claims the day once across instances, composes the
+   report, stores its totals in `daily_reports` (`built_at`, not `sent_at`), and purges. The report
+   is read, with the backend key, from `GET api/visitors/internal/reports/{date}` (text),
+   `.../reports/{date}/summary` (what the build recorded) and `.../reports/{date}/{sessions|pages|
+   interactions}.csv`, composed on demand from the day's sessions for as long as the sessions are
+   retained. The Florida intent threshold stays as data: the session's `intent_reached_at` is set
+   once when a Florida session reaches 60, the report counts "Intent sessions" and marks each block
+   "intent reached", and the sessions CSV carries `intentReachedAt` in place of the three alert
+   columns.
+
+3. **No failure ends in a log line alone.** The rule is `GeekBackend/AGENTS.md`, "Correctness over
+   expediency": failures become a failed state or an operator-visible error, not log-only
+   warnings, and nothing silently substitutes success. The build had three places that did exactly
+   that, and the owner found them ("Booking is broken, because it 'designed to drop out quietly'.
+   Do I not have a rule against silent errors?", 2026-10-26). Now: the site code that passes each
+   visit, identity and drop count on to GeekAPI (`src/lib/visitors/forward-pulse.ts`) answers with
+   what happened instead of nothing, and `/api/pulse` answers 503 rather than 204 when the site
+   holds no GeekAPI address or key, so it never accepts what it cannot pass on; the 07:00 job in
+   GeekAPI records the retention purge's counts or its error on the day's row in `daily_reports`
+   (`purged_at`, `purged_sessions`, `purged_visitors`, `purge_error`, read from the summary
+   route), releases the claim when the row cannot be written so the next minute builds again, and
+   takes over a claim that has had no build behind it for ten minutes; and the report says in
+   words when a day had no sessions and no dropped requests, because on a public site that means
+   the site passed nothing on, not that nobody came. What remains, stated rather than asserted
+   away: Vercel keeps no state between requests, so a hand-off that fails after the visitor's
+   response has gone can only be written to the Vercel log with its reason; a whole day of such
+   failures is what the report's line catches.
+
+The lines below that say Mongo, Hostinger, Resend, "alert" or "email" are the record of what was
+planned and built before this correction, kept as written. Where they conflict with this section,
+this section is current.
+
+## Built, 2026-10-25
+
+Everything below this section is the plan as approved on 2026-10-18; this section records what was built on
+2026-10-25 and where it departs from the text below. Nothing is deployed yet: the environment variables in
+"Environment and deploy order" are still to be set, and the commits in both repos wait for "commit & push".
+
+**What exists.**
+
+- **Site:** `src/app/api/pulse/route.ts`, `src/lib/visitors/{pulse-event,request-fields,forward-pulse,visitor-events,geo-cookie,vercel-geo}.ts`,
+  `src/components/analytics/visitor-pulse.tsx` (rendered from `src/app/layout.tsx` after the GTM tag), `src/proxy.ts`,
+  the scheduler and contact wiring, the two server actions, `.env.example`, the Permissions-Policy header, and the
+  five privacy policy sections. `isbot` 5.2.2 was added.
+- **GeekBackend:** `GeekApplication/Models/Visitors/{VisitorRecords,VisitorDtos}.cs`;
+  `GeekRepository/Repositories/Visitors/{IVisitorRepository,MongoVisitorRepository}.cs` and four controllers under
+  `GeekRepository/Controllers/Visitors/`; `GeekAPI/Services/Visitors/*`, `GeekAPI/HttpClients/{IVisitorRepositoryClient,HttpVisitorRepository}.cs`,
+  `GeekAPI/Controllers/Visitors/VisitorsInternalController.cs`; `AddVisitors` in `GeekAPI/Program.cs`; `UAParser` 3.1.47;
+  `tzdata` in the Dockerfile; `.env.example`, `docs/technical-specification.md` and the integration test factory updated;
+  76 tests under `GeekBackend.Tests/Visitors/`.
+
+**Departures from the plan below, each on purpose.**
+
+1. **One definition of the documents.** The session, profile, filter-day and report classes live once, in
+   `GeekApplication/Models/Visitors/VisitorRecords.cs`, and both services use them; the class maps are in
+   `MongoVisitorRepository`'s static constructor. The plan had entity copies in `GeekRepository/Data/Entities/Visitors/`,
+   which would have been a second reader of the same shape. Field names in Mongo are camelCase and nulls are not
+   written, so `$min` on a step's timestamp lands the first time.
+2. **Geo cookie and browser position, added at the owner's request on 2026-10-25.** `src/proxy.ts` copies Vercel's geo
+   headers into a readable `gays_geo` cookie (seven days, documents only). The beacon reads it and, only when it carries
+   no coordinates, asks `navigator.geolocation` once per session and sends a `geo` event; the session stores it as
+   `browserGeo`, and a position inside Florida marks a session Florida when the request carried no region. The
+   Permissions-Policy header now reads `geolocation=(self)`. The plan's "not collected" entry for precise location
+   is superseded by this.
+3. **Drops are counted by GeekAPI.** `/api/pulse` forwards each drop's reason to `POST api/visitors/internal/drops`
+   after the 204, and GeekAPI files it under the New York day in `filter_stats`.
+4. **Same-origin without Fetch Metadata.** When a browser sends no `Sec-Fetch-Site`, the Origin or Referer host is
+   compared with the request host; a request naming neither is dropped.
+5. **Scheduler view.** The section is at least a viewport tall, so "50% visible" is read as half the section or the
+   section filling half the viewport, for three seconds, once per session.
+6. **`MONGO_VISITORS_URL` unset** does not stop GeekRepository: it is logged at startup and every `repo/visitors/*`
+   route answers 503. GeekAPI still refuses to start without its three variables, as the plan says.
+7. **Identify also stamps the session.** A booking stamps `scheduler.bookedAt` and a contact message
+   `contactSubmittedAt` on the session through the server action's forward, so a blocked beacon still leaves the step.
+8. **The contact form.** `submitContact` takes the visitor ids and forwards the identity, but no page on the site
+   calls it today, so "contact submitted" cannot fire until a form exists.
+
+**Sample output.** A run of the real pipeline against an ephemeral Mongo produced the report and the alert in
+`/private/tmp/claude-501/-Users-jeffmartin-development-geekatyourspot/6b133fce-7393-44e2-9969-3438c980c12f/scratchpad/report-output/`.
+
 ## Context
 
 Local B2B visitors read the site and leave, and nothing records who they were or what they did. The goal is to:

@@ -1,0 +1,1 @@
+A flat vector diagram showing a database table, contact fields, and mapping lines connecting them to Mailchimp segments, visualizing data structure and mapping decisions.

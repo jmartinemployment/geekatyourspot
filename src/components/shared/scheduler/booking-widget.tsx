@@ -9,6 +9,7 @@ import {
   listNextBusinessDayKeys,
   toDateKey,
 } from "@/lib/booking/scarcity";
+import { emitVisitorEvent } from "@/lib/visitors/visitor-events";
 import type { TimeSlot } from "./state/types";
 
 const MAX_ATTEMPTS = 4;
@@ -160,6 +161,8 @@ export function BookingWidget({
     if (!date) return;
     if (!isSelectableBusinessDay(date, allowedSet)) return;
     onDateChange(toDateKey(date));
+    // A date the visitor picked, not the first business day the widget selects on its own.
+    emitVisitorEvent("scheduler_date_picked");
   }
 
   const selectedDateObj = selectedDate

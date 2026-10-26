@@ -4,6 +4,7 @@ import { Figtree, Sora } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { GoogleTagManager } from '@next/third-parties/google'
+import { VisitorPulse } from "@/components/analytics/visitor-pulse";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -67,6 +68,7 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col">
         {children}
         <GoogleTagManager gtmId="GTM-K5CXSQRP" />
+        <VisitorPulse />
       </body>
     </html>
   );

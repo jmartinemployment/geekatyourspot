@@ -1,0 +1,1 @@
+A step-by-step flat vector flowchart: starting with importing contact data, followed by segmentation, automated email creation, scheduling, sending, and analytics review. Each stage is visually distinct, connected by arrows, illustrating the streamlined process of automated personalized email campaigns.

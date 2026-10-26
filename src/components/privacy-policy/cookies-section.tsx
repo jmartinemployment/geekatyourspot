@@ -7,7 +7,13 @@ export default function CookiesSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Google Analytics sets cookies, including one named <strong>_ga</strong>, that let it tell one visit from another and count returning visitors. These cookies can last up to two years.</li>
         <li>When you finish booking a consultation, the site sets a cookie named <strong>gays_booking_confirmed</strong> to confirm that the booking went through. It holds your first name and the date and time you chose, and your browser deletes it after two minutes.</li>
+        <li>The site sets a cookie named <strong>gays_geo</strong> that holds the approximate location Vercel works out from your IP address, so the pages can read it without working it out again. It lasts seven days.</li>
       </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        The site also keeps two identifiers in your browser&rsquo;s local storage, which is not a cookie.
+        One is named <strong>gays_visitor</strong> and stays until you clear the site&rsquo;s data, so the
+        site can count your visits. The other is named <strong>gays_session</strong> and tells one visit from
+        the next; it is replaced after 30 minutes without activity.</p>
       <p className="text-base text-white shadow-text pt-3">
         Google Tag Manager is the tool that loads Google Analytics on our pages. The site does not run
         advertising pixels from social networks or ad networks, and we do not use cookies to show you ads on
@@ -22,9 +28,11 @@ export default function CookiesSection() {
         it. You can read about <a id={`privacy-policy-cookies-googlepartners${idSuffix}`} href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">how
         Google uses information from sites that use its services</a> on Google’s own site.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Some browsers send a Do Not Track signal. There is no common standard for responding to that signal,
-        so the site does not change its behavior when it receives one. Your browser settings and the Google
-        extension described above are the reliable ways to stop analytics tracking.</p>
+        Some browsers send a Global Privacy Control signal, and the site honors it. When your browser sends
+        that signal, the site keeps no visit record for you at all. Some browsers send an older Do Not Track
+        signal instead. There is no common standard for responding to it, so the site notes that it was
+        received and does not change its behavior otherwise. Your browser settings and the Google extension
+        described above are the reliable ways to stop analytics tracking.</p>
     </>
   );
 

@@ -1,0 +1,1 @@
+A flat vector architecture diagram showing cloud servers, interconnected modules, and secure data flows representing Moosend's platform infrastructure. Modern B2B tech aesthetic, no text.

@@ -1,0 +1,1 @@
+A vector schematic showing interconnected blocks labeled as apps, data sources, and Mailchimp as the hub, with lines representing data flow and integration, illustrating the tool’s architecture and connectivity.
