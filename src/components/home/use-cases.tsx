@@ -934,42 +934,6 @@ export function UseCasesSection() {
                                                 </Link>.
                                             </p>
                                         </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-sm">
-                                                Data Quality Assessments: </strong></h5>
-                                            <p className="text-black text-xs">
-                                                Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Data Quality Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}
-                                                    href="/tools/marketing/monte-carlo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Monte Carlo
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}
-                                                    href="/tools/marketing/anomalo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Anomalo
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}
-                                                    href="/tools/marketing/great-expectations"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Great Expectations
-                                                </Link>,{" "}or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}
-                                                    href="/tools/marketing/qualytics"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Qualytics
-                                                </Link>.
-                                            </p>
-                                        </li>
                                     </ul>
                                 </div>
                             </CardContent>
@@ -1088,6 +1052,42 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Tidio
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
+                                                Data Quality Assessments: </strong></h5>
+                                            <p className="text-black text-xs">
+                                                Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Data Quality Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}
+                                                    href="/tools/marketing/monte-carlo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Monte Carlo
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}
+                                                    href="/tools/marketing/anomalo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Anomalo
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}
+                                                    href="/tools/marketing/great-expectations"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Great Expectations
+                                                </Link>,{" "}or&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}
+                                                    href="/tools/marketing/qualytics"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Qualytics
                                                 </Link>.
                                             </p>
                                         </li>
@@ -2001,41 +2001,6 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 </Link>.
                                             </p>
                                         </li>
-                                        <li className="pl-.5">
-                                            <h5><strong className="text-black text-base">Data Quality Assessments: </strong></h5>
-                                            <p className="text-black text-sm">
-                                                Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Data Quality Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}-lg`}
-                                                    href="/tools/marketing/monte-carlo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Monte Carlo
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}-lg`}
-                                                    href="/tools/marketing/anomalo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Anomalo
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}-lg`}
-                                                    href="/tools/marketing/great-expectations"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Great Expectations
-                                                </Link>,{" "}or&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}-lg`}
-                                                    href="/tools/marketing/qualytics"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Qualytics
-                                                </Link>.
-                                            </p>
-                                        </li>
                                     </ul>
                                 </div>
                             </CardContent>
@@ -2163,6 +2128,41 @@ AI Operations
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Tidio
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-base">Data Quality Assessments: </strong></h5>
+                                            <p className="text-black text-sm">
+                                                Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Data Quality Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}-lg`}
+                                                    href="/tools/marketing/monte-carlo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Monte Carlo
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}-lg`}
+                                                    href="/tools/marketing/anomalo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Anomalo
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}-lg`}
+                                                    href="/tools/marketing/great-expectations"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Great Expectations
+                                                </Link>,{" "}or&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}-lg`}
+                                                    href="/tools/marketing/qualytics"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Qualytics
                                                 </Link>.
                                             </p>
                                         </li>
