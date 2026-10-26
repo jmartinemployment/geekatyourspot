@@ -131,6 +131,18 @@ function renderBlock(block: BlockNode, key: number, context: RenderContext): Rea
     );
   }
 
+  if (block.kind === "quote") {
+    return (
+      <blockquote
+        key={key}
+        cite={block.cite}
+        className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text"
+      >
+        {renderInline(block.children, context)}
+      </blockquote>
+    );
+  }
+
   const itemClassName = block.ordered
     ? "list-decimal list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3"
     : "list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3";

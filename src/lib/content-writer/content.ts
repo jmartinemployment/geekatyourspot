@@ -348,6 +348,14 @@ function sanitizeBody(rawBody: string, headline: string): string {
   // An export carries no buttons. One that does keeps its words and loses the tag.
   body = body.replace(/<button\b[^>]*>([\s\S]*?)<\/button>/gi, "$1");
 
+  // A quotation carries the URL it was taken from in its cite, and the page keeps it. A blockquote
+  // with no usable cite is not a quotation the page can stand behind: its words stay, as a paragraph.
+  body = body.replace(/<blockquote\b([^>]*)>([\s\S]*?)<\/blockquote>/gi, (quote, attrs: string, inner: string) => {
+    const cite = attrs.match(/\scite="([^"]*)"/i)?.[1] ?? "";
+    if (/^https?:\/\/[^\s"<>]+$/i.test(cite)) return `<blockquote cite="${cite}">${inner}</blockquote>`;
+    return `<p>${inner.replace(/<\/?p\b[^>]*>/gi, " ")}</p>`;
+  });
+
   // Some exports repeat the headline as the first <h2>; the page already prints it.
   const leadingH2 = body.match(/^<h2[^>]*>([\s\S]*?)<\/h2>/i);
   if (leadingH2) {
@@ -370,6 +378,12 @@ function sanitizeBody(rawBody: string, headline: string): string {
       if (safeHref === null) return "";
       const external = /^https?:/i.test(safeHref);
       return `<a href="${safeHref}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>`;
+    }
+
+    if (tagName === "blockquote") {
+      // The pass above left only quotations with a usable cite.
+      const cite = attrs.match(/\scite="([^"]*)"/i)?.[1] ?? "";
+      return `<blockquote cite="${cite}">`;
     }
 
     if (tagName === "img") {

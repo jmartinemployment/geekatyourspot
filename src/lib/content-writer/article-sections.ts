@@ -13,12 +13,14 @@ import { decodeEntities } from "./content";
  * Modelled: `p`, `h3`, `h4`, `ul`, `ol`, `li`, `a`, `strong`, `em`,
  * `b`, `i`, `br`. `<h2>` is consumed as the section boundary rather than as content.
  *
- * Known gap, stated rather than asserted away: `sanitizeBody`'s allow-list also
- * admits `blockquote`, `figure`, `figcaption`, `img`, `hr` and the `table`
- * family. None occur anywhere in the current corpus (verified by tag census
- * across all 12 posts), and an unmodelled tag is dropped rather than guessed at
- * -- no unwrapping to bare text, no raw-HTML escape hatch. Add a node kind here
- * when an export first needs one.
+ * `blockquote` is modelled too: a quotation carries the URL it was taken from
+ * in its `cite`, which the backend always writes for a real quote, so it is
+ * kept as a `quote` node and rendered as a `<blockquote cite>`. `sanitizeBody`
+ * has already demoted any cite-less blockquote to a paragraph, so a quotation
+ * that reaches here always has its source. `figure`, `figcaption`, `img`, `hr`
+ * and the `table` family are still allowed by the sanitiser but not modelled
+ * here; none occurs in the corpus, and an unmodelled tag is dropped rather than
+ * guessed at. Add a node kind here when an export first needs one.
  */
 
 export type InlineNode =
@@ -38,7 +40,9 @@ export type InlineNode =
 export type BlockNode =
   | { kind: "paragraph"; children: InlineNode[] }
   | { kind: "subheading"; level: 3 | 4; text: string }
-  | { kind: "list"; ordered: boolean; items: InlineNode[][] };
+  | { kind: "list"; ordered: boolean; items: InlineNode[][] }
+  /** A quotation; `cite` is the URL it was taken from, always present once it reaches here. */
+  | { kind: "quote"; cite: string; children: InlineNode[] };
 
 export type ArticleSection = {
   /** Slugified heading, unique within the article; anchors and GTM ids hang off it. */
@@ -51,7 +55,8 @@ export type ArticleSection = {
   blocks: BlockNode[];
 };
 
-const BLOCK_PATTERN = /<(p|h3|h4|ul|ol)>([\s\S]*?)<\/\1>/g;
+const BLOCK_PATTERN =
+  /<blockquote\b([^>]*)>([\s\S]*?)<\/blockquote>|<(p|h3|h4|ul|ol)>([\s\S]*?)<\/\3>/g;
 const LIST_ITEM_PATTERN = /<li>([\s\S]*?)<\/li>/g;
 const INLINE_PATTERN = /<(a|strong|em|b|i)((?:\s[^>]*)?)>([\s\S]*?)<\/\1>/g;
 /** The scheduler link, the one # URL the site uses: the scheduler section is on every page. */
@@ -115,7 +120,18 @@ function parseBlocks(html: string): BlockNode[] {
 
   BLOCK_PATTERN.lastIndex = 0;
   for (const match of html.matchAll(BLOCK_PATTERN)) {
-    const [, tag, inner] = match;
+    const [, quoteAttrs, quoteInner, tag, tagInner] = match;
+
+    if (quoteInner !== undefined) {
+      const cite = quoteAttrs?.match(/\scite="([^"]*)"/)?.[1] ?? "";
+      const children = parseInline(quoteInner.replace(/<\/?p\b[^>]*>/gi, " "));
+      if (cite.length > 0 && children.length > 0) {
+        blocks.push({ kind: "quote", cite, children });
+      }
+      continue;
+    }
+
+    const inner = tagInner;
 
     if (tag === "p") {
       const children = parseInline(inner);
@@ -227,6 +243,7 @@ function glossaryFirstMentions(sections: ArticleSection[]): ArticleSection[] {
 
   const block = (node: BlockNode): BlockNode => {
     if (node.kind === "paragraph") return { ...node, children: inline(node.children) };
+    if (node.kind === "quote") return { ...node, children: inline(node.children) };
     if (node.kind === "list") return { ...node, items: node.items.map((item) => inline(item)) };
     return node;
   };
