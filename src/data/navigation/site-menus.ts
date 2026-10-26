@@ -36,9 +36,8 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
       },
       {
         id: "use-cases-marketing-content-creation-workflow",
-        label: "Content Creation Workflow",
+        label: "Marketing Automation Platforms (MAP)",
         items: [
-          { href: "/use-cases/marketing/ai-content-marketing-platforms", label: "Content Creation Workflow" },
           { href: "/use-cases/marketing/content-creation-workflow/ai-content-planning", label: "Intelligent Content Planning" },
           { href: "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator", label: "Intelligent Content Generation" },
           { href: "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns", label: "Personalized Email Campaigns" },
@@ -116,7 +115,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
       },
       {
         id: "blog-marketing-content-creation-workflow",
-        label: "Content Creation Workflow",
+        label: "Marketing Automation Platforms (MAP)",
         items: [
           { href: "/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales", label: "Content Planning That Saves Hours" },
           { href: "/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires", label: "Content Generation Without New Hires" },
@@ -205,7 +204,7 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
       },
       {
         id: "tools-marketing-content-creation-workflow",
-        label: "Content Creation Workflow",
+        label: "Marketing Automation Platforms (MAP)",
         items: [
           { href: "/tools/marketing/active-campaign", label: "ActiveCampaign" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", label: "Anyword (Intelligent Content Generation)" },

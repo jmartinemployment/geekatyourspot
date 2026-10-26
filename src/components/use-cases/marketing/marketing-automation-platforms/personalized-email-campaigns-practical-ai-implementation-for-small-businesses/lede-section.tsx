@@ -62,9 +62,6 @@ export default function LedeSection() {
         the flashiest AI, but the one that fits your stack and lets you start small. Finally, we run a pilot: a real
         campaign, measured in real bookings or conversions, before you roll out at scale. Throughout, we keep your
         systems and branding intact, so you get the benefit of automation without the risk of disruption.</p>
-      <p className="text-base text-white shadow-text pt-3">
-        For a shorter overview, read <Link id={`use-cases-marketing-personalized-email-campaigns-lede-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What
-        Miami Businesses Miss Without Local AI Automation</Link> on our blog.</p>
     </>
   );
 

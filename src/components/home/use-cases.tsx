@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFunnelDollar,
     faCalculator,
+    faGears,
 } from "@fortawesome/free-solid-svg-icons";
 import { gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 
@@ -585,169 +586,13 @@ export function UseCasesSection() {
                                     It is for South Florida small business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                                 </p>
                                 <div>
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/marketing/ai-sales-force-automation-software", "Lead Capture Pipeline")}
-                                        href="/use-cases/marketing/ai-sales-force-automation-software"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-black text-base font-bold shadow-text">
-                                            Marketing Automation Platforms (MAP)</h4>
-                                    </Link>
-                                    <p className="text-black text-xs">
-                                        A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
-                                    </p>
-                                    <ul className="text-black list-disc text-sm list- pl-3 ">
-                                        <li className="pl-.5">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-receptionist", "Intelligent Receptionist")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-sm font-bold shadow-text">
-                                                    AI Receptionist:
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-xs">
-                                                24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top Intelligent Receptionist Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", "LobbyStack")}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    LobbyStack
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    My AI Front Desk
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Nextiva
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Smith.ai
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Voksha
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-chatbot", "Cross-Platform Chatbot")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-sm font-bold shadow-text">
-                                                    AI Chatbot:
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-xs">
-                                                Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Chatbot Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "BotPenguin")}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    BotPenguin
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Dapta
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Manychat
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    My AI Front Desk
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Tidio
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-sm font-bold shadow-text">
-                                                    AI Lead Enrichment &amp; Predictive Scoring:
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-xs">
-                                                Identify high-intent buyers, enrich contact data, and prioritize leads.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Lead Scoring Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Apollo
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Factors
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Leadfeeder
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Lusha
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Snitcher
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                    </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-1"
                                         href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
-                                            AI Content Marketing Platforms</h4>
+                                            Marketing Automation Platforms (MAP)</h4>
                                     </Link><p className="text-black text-xs">
-                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
-                                    </p>
+                                                A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
+                                            </p>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
@@ -929,6 +774,54 @@ export function UseCasesSection() {
                                                 </Link>.
                                             </p>
                                         </li>
+                                        <li className="pl-.5">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
+                                                    AI Lead Enrichment &amp; Predictive Scoring:
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-xs">
+                                                Identify high-intent buyers, enrich contact data, and prioritize leads.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Lead Scoring Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Apollo
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Factors
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Leadfeeder
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Lusha
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Snitcher
+                                                </Link>.
+                                            </p>
+                                        </li>
                                     </ul>
                                     <h4 className="text-black text-base font-bold shadow-text">
                                         Ad Spend Optimization</h4>
@@ -1076,7 +969,128 @@ export function UseCasesSection() {
                             </CardContent>
                         </Card>
                     </div>
-                </div>
+                <div className="col-span-full bg-[#CBCBCB] shadow-xl">
+<Card className="bg-[#CBCBCB] pt-0 shadow-xl gap-2">
+<CardHeader className="bg-[#0B162A] py-2">
+<CardTitle>
+<h3 className="text-white text-3xl font-bold shadow-text">
+AI Operations
+</h3>
+</CardTitle>
+<CardAction>
+<FontAwesomeIcon
+icon={faGears}
+width={36}
+height={36}
+className="text-white shadow-xl ml-55 mb-2 inline"
+/>
+</CardAction>
+</CardHeader>
+<CardContent>
+<div>
+<ul className="text-black list-disc text-sm list- pl-3 ">
+<li className="pl-.5">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-receptionist", "Intelligent Receptionist")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
+                                                    AI Receptionist:
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-xs">
+                                                24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top Intelligent Receptionist Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", "LobbyStack")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    LobbyStack
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Nextiva
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Smith.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Voksha
+                                                </Link>.
+                                            </p>
+                                        </li>
+<li className="pl-.5">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-chatbot", "Cross-Platform Chatbot")}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
+                                                    AI Chatbot:
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-xs">
+                                                Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Chatbot Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "BotPenguin")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    BotPenguin
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Dapta
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Manychat
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Tidio
+                                                </Link>.
+                                            </p>
+                                        </li>
+</ul>
+</div>
+</CardContent>
+</Card>
+</div>
+</div>
             </article>
 
 
@@ -1633,171 +1647,13 @@ export function UseCasesSection() {
                                     It is for South Florida small business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                                 </p>
                                 <div>
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/use-cases/marketing/ai-sales-force-automation-software", "Lead Capture Pipeline")}-lg`}
-                                        href="/use-cases/marketing/ai-sales-force-automation-software"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline" >
-                                        <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            Marketing Automation Platforms (MAP)</h4>
-                                    </Link>
-                                    <p className="text-black text-sm">
-                                        A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
-                                    </p>
-                                    <ul className="text-black list-disc text-sm list- pl-3 ">
-                                        <li className="pl-.5">
-                                            <strong className="text-sm"> </strong>
-                                            <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-receptionist", "Intelligent Receptionist")}-lg`}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-base font-bold shadow-text">
-                                                    AI Receptionist:
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-sm">
-                                                24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top Intelligent Receptionist Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", "LobbyStack")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    LobbyStack
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    My AI Front Desk
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Nextiva
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Smith.ai
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Voksha
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <strong className="text-sm"> </strong>
-                                            <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-base font-bold shadow-text">
-                                                    AI Chatbot:
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-sm">
-                                                Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
-                                            </p>
-                                            <p className="text-black text-sm font-bold pt-1">
-                                                Top AI Chatbot Tools:
-                                            </p>
-                                            <p className="text-sm">
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "BotPenguin")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    BotPenguin
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Dapta
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Manychat
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    My AI Front Desk
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Tidio
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}-lg`}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-base font-bold shadow-text">
-                                                    AI Lead Enrichment &amp; Predictive Scoring:
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-sm">
-                                                Identify high-intent buyers, enrich contact data, and prioritize leads.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Lead Scoring Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Apollo
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Factors
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Leadfeeder
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Lusha
-                                                </Link>,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Snitcher
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                    </ul>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-2-lg"
                                         href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
-                                            AI Content Marketing Platforms</h4>
+                                            Marketing Automation Platforms (MAP)</h4>
                                     </Link><p className="text-black text-sm">
-                                        AI Marketing Content Workflow is a repeatable system for turning ideas, customer questions, and source material into publishable marketing assets with AI, then repurposing them across channels.
-                                    </p>
+                                                A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
+                                            </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
@@ -1979,6 +1835,54 @@ export function UseCasesSection() {
                                                 </Link>.
                                             </p>
                                         </li>
+                                        <li className="pl-.5">
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}-lg`}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-base font-bold shadow-text">
+                                                    AI Lead Enrichment &amp; Predictive Scoring:
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-sm">
+                                                Identify high-intent buyers, enrich contact data, and prioritize leads.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Lead Scoring Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Apollo
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Factors
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Leadfeeder
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Lusha
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Snitcher
+                                                </Link>.
+                                            </p>
+                                        </li>
                                     </ul>
                                     <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                         Ad Spend Optimization</h4>
@@ -2135,7 +2039,127 @@ export function UseCasesSection() {
                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Marketing</p>
 
                     </div>
-                </div>
+                <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#023059]">
+<FontAwesomeIcon
+icon={faGears}
+width={256}
+height={256}
+className="text-white mb-4"
+/>
+<p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Operations</p>
+</div>
+<div className="col-span-6">
+<Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
+<CardContent>
+<h3 className="text-black text-3xl font-bold shadow-text">
+AI Operations
+</h3>
+<div>
+<ul className="text-black list-disc text-sm list- pl-3 ">
+<li className="pl-.5">
+                                            <strong className="text-sm"> </strong>
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-receptionist", "Intelligent Receptionist")}-lg`}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-base font-bold shadow-text">
+                                                    AI Receptionist:
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-sm">
+                                                24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top Intelligent Receptionist Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", "LobbyStack")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    LobbyStack
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Nextiva
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Smith.ai
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Voksha
+                                                </Link>.
+                                            </p>
+                                        </li>
+<li className="pl-.5">
+                                            <strong className="text-sm"> </strong>
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
+                                                href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-base font-bold shadow-text">
+                                                    AI Chatbot:
+                                                </h5>
+                                            </Link>
+                                            <p className="text-black text-sm">
+                                                Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
+                                            </p>
+                                            <p className="text-black text-sm font-bold pt-1">
+                                                Top AI Chatbot Tools:
+                                            </p>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "BotPenguin")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    BotPenguin
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Dapta
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Manychat
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    My AI Front Desk
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}-lg`}
+                                                    href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Tidio
+                                                </Link>.
+                                            </p>
+                                        </li>
+</ul>
+</div>
+</CardContent>
+</Card>
+</div>
+</div>
             </article>
 
         </>

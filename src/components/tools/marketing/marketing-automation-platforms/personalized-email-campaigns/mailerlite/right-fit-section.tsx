@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -44,6 +45,8 @@ export default function RightFitSection() {
         personalization that fits your team and your budget, MailerLite is worth serious consideration. For South
         Florida small businesses ready to step up from generic batch emails to campaigns that actually drive
         results, it is a platform that delivers what it promises, without a learning curve that gets in the way.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        For how MailerLite&apos;s automation builder and AI assistant compare with what Brevo, Mailchimp, GetResponse and ActiveCampaign report for personalized campaigns, and for the limits of those vendor figures, read our post <Link id={`tools-marketing-personalized-email-campaigns-mailerlite-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> before you commit a list to any of them.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-personalized-email-campaigns-mailerlite-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -53,6 +54,8 @@ export default function RightFitSection() {
         focus on strategy and customer relationships rather than repetitive tasks. For South Florida businesses who
         want to make every email count, Moosend offers a practical path to more consistent, effective, and scalable
         marketing.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Our post <Link id={`tools-marketing-personalized-email-campaigns-moosend-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> weighs what Brevo, Mailchimp, GetResponse, MailerLite and ActiveCampaign publish about personalized campaigns and sets out the conditions, clean contact data and segments that mean something, that decide whether any platform, Moosend included, delivers those numbers for your list.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-personalized-email-campaigns-moosend-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

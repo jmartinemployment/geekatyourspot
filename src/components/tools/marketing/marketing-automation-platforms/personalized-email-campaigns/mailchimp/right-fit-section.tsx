@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -62,6 +63,8 @@ export default function RightFitSection() {
         delivers the right mix of simplicity, power, and scalability. Before you commit, use the free tools and
         resources to test your real-world use cases, then decide if Mailchimp is the platform that will let you grow
         without growing your manual workload.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Mailchimp&apos;s own reporting on AI subject lines and send time optimization is one of the sources our post <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> weighs against Brevo, GetResponse, MailerLite and ActiveCampaign, together with the two conditions, clean contact data and real segments, that have to hold before any of those figures apply to a small list.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-personalized-email-campaigns-mailchimp-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

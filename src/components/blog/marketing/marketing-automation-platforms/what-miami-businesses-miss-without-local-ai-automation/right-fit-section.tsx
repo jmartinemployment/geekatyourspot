@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -18,6 +19,8 @@ export default function RightFitSection() {
         triggers, not memory. These tools are especially effective when your business needs to track which campaigns
         drive real action, opens, clicks, replies, bookings, so you can double down on what works and cut what
         doesn’t.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Each of those platforms is written up on its own page for a South Florida small business weighing it: <Link id={`blog-marketing-personalized-email-campaigns-right-fit-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse" className="text-[#C83803] hover:underline">GetResponse</Link> for a team that wants forms, landing pages and email sequences in one place, with a free plan to start on; <Link id={`blog-marketing-personalized-email-campaigns-right-fit-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link> for a first move past one message for everyone on a list that is still small; <Link id={`blog-marketing-personalized-email-campaigns-right-fit-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite" className="text-[#C83803] hover:underline">MailerLite</Link> for a lean team that wants branded, automated email without paying for a full marketing suite; <Link id={`blog-marketing-personalized-email-campaigns-right-fit-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend" className="text-[#C83803] hover:underline">Moosend</Link> for a store or publisher that needs to scale its sending without adding staff; and <Link id={`blog-marketing-personalized-email-campaigns-right-fit-activecampaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link> where sales and marketing follow-up have to run off the same triggers. Each page covers what the platform costs, what it connects to, how we implement it and where it is the wrong choice.</p>
       <p className="text-base text-white shadow-text pt-3">
         But there are clear cases where automating is not the best use of resources, at least not yet. If your
         contact data is outdated, incomplete, or scattered across email accounts, spreadsheets, and third-party
@@ -41,6 +44,8 @@ export default function RightFitSection() {
         your list, so your first automation builds on a solid foundation. The right time to automate is when your
         data is good, your workflow is repeatable, and your team wants to reclaim hours for work that actually grows
         the business.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        That is the assessment we run before any platform is chosen, and the full version is in our <Link id={`blog-marketing-personalized-email-campaigns-right-fit-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">AI Personalized Email Campaigns</Link> guide: the four phases from business outcome to pilot rollout, what the contact data has to hold before segmentation means anything, who on your team owns triggers, content and review, and how the first sequence is built and measured before anything scales.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`blog-marketing-personalized-email-campaigns-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>

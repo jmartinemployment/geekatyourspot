@@ -1,5 +1,6 @@
+import Link from "next/link";
 export default function RightFitSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
         Personalized email automation is the right call when the cost of missed follow-up, inconsistent messaging,
@@ -23,6 +24,8 @@ export default function RightFitSection() {
         list into a sequenced system so every contact gets the right next step; ActiveCampaign connects sales,
         marketing, and CRM data so no lead slips through; Mailchimp gives small teams automation and segmentation
         that scales without a marketing degree.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Before you take those platform claims on faith, read what the vendors themselves report and where their numbers stop applying. Our post <Link id={`use-cases-marketing-personalized-email-campaigns-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#0B162A] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> goes through Brevo&apos;s figures on send timing and open rates, Mailchimp&apos;s and GetResponse&apos;s material on AI features and automated follow-up, and the two conditions, clean contact data and segments that mean something, without which none of those lifts show up on a small list.</p>
       <p className="text-base text-white shadow-text pt-3">
         But automation is not a silver bullet. If your data is poor, if the team has not agreed on what a
         &quot;qualified lead&quot; looks like, or if there is no repeatable process for managing new contacts, even
@@ -55,7 +58,7 @@ export default function RightFitSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -66,7 +69,7 @@ export default function RightFitSection() {
               <h2 id="when-personalized-email-automation-is-the-right-move-and-when-it-is-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Personalized Email Automation Is the Right Move, and When It Is Not
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

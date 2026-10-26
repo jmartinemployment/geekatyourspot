@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
 export default function RightFitSection() {
@@ -71,6 +72,8 @@ export default function RightFitSection() {
         every channel, or who already have advanced automation in place and are satisfied with it. For South Florida
         businesses ready to close the gap between lead and sale, GetResponse is a practical, proven solution that
         can be up and running fast.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If you want GetResponse&apos;s case material set against what Brevo, Mailchimp, MailerLite and ActiveCampaign report, and to see where those lifts in open rates and follow-up stop applying, our post <Link id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> lays the evidence out side by side before it gets to the question of which platform fits.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
