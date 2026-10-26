@@ -35,7 +35,7 @@ export default function TransformsSection() {
         automatically, so your marketing list grows without manual entry. When an agent is busy or offline,
         Tidio’s bots keep the conversation going, ensuring no opportunity is missed.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Tidio also integrates with the tools you already use. From HubSpot and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-transforms-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>&nbsp;to Shopify and
+        Tidio also integrates with the tools you already use. From HubSpot and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-transforms-active-campaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>&nbsp;to Shopify and
         Google Ads, it sends captured leads and conversation data directly into
         your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing platform. This means less time
         spent on manual data entry and more time spent on qualified prospects. For e-commerce, Tidio’s Shopify

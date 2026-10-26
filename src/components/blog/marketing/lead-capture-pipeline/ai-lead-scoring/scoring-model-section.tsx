@@ -31,7 +31,7 @@ export default function ScoringModelSection() {
       </h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Utilizing AI tools like&nbsp;
-        <Link id={`tools-marketing-active-campaign-scoring-model${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">
+        <Link id={`tools-marketing-active-campaign-scoring-model${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">
           ActiveCampaign
         </Link>
         &nbsp;can streamline the integration of these positive criteria. ActiveCampaign&apos;s capability to track signals and automate tasks allows businesses to seamlessly incorporate lead scoring into their marketing workflows.

@@ -1,0 +1,1 @@
+A decision tree diagram with branching paths leading to two groups: suitable user profiles and unsuited ones, with arrows pointing to next steps, in a clear, flat vector style.

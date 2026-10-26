@@ -206,8 +206,9 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
         id: "tools-marketing-content-creation-workflow",
         label: "Marketing Automation Platforms (MAP)",
         items: [
-          { href: "/tools/marketing/active-campaign", label: "ActiveCampaign" },
+          { href: "/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", label: "ActiveCampaign" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", label: "Anyword (Intelligent Content Generation)" },
+          { href: "/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo", label: "Brevo" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", label: "Castmagic" },
           { href: "/tools/marketing/contentstudio", label: "ContentStudio" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", label: "Copy.ai" },

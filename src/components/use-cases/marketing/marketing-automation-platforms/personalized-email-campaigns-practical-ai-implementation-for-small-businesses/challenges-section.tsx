@@ -13,7 +13,7 @@ export default function ChallengesSection() {
       <p className="text-base text-white shadow-text pt-3">
         The first place things go wrong is the generic send. When you blast the same offer or update to your whole
         list, most people ignore it or mark it as spam. This happens because the message is not relevant to their
-        recent activity or interests. Brevo addresses this with behavioral grouping, so emails go out when each
+        recent activity or interests. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-brevo${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo" className="text-[#C83803] hover:underline">Brevo</Link> addresses this with behavioral grouping, so emails go out when each
         person is most likely to open them and with content keyed to their past engagement. Without this, your open
         rates drop, and customers tune you out. Segmentation by hand, meanwhile, is slow and error-prone, so most
         teams skip it or do it once and never update it.</p>
@@ -33,7 +33,7 @@ export default function ChallengesSection() {
         your branding and calls to action lose their impact.</p>
       <p className="text-base text-white shadow-text pt-3">
         Personalization at scale is almost impossible by hand. Staff are forced to copy and paste, update names, and
-        try to remember who saw what last. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend" className="text-[#C83803] hover:underline">Moosend</Link> and <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-activecampaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link> both
+        try to remember who saw what last. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend" className="text-[#C83803] hover:underline">Moosend</Link> and <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link> both
         automate these steps: Moosend uses <GlossaryLink slug="contact-tagging">tags</GlossaryLink> and segments to
         split contacts by interest or stage, and ActiveCampaign connects engagement data to sales pipelines for
         better targeting. When teams try to do this themselves, repetitive follow-ups get missed, and <GlossaryLink slug="qualified-lead">qualified

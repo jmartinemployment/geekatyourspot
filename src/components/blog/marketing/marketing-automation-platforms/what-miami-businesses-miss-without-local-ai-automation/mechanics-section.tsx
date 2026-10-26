@@ -21,7 +21,7 @@ export default function MechanicsSection() {
         Next is data quality assessment. This is where most implementations stall if skipped. If your list is split
         across a web form, a spreadsheet, and a CRM, standardizing it is not optional. The strongest results come
         when each contact record has not just an email address but at least one or two attributes that matter, like
-        service interest, last interaction, or location. This is where platforms like Brevo and <Link id={`blog-marketing-personalized-email-campaigns-mechanics-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend" className="text-[#0B162A] hover:underline">Moosend</Link> stand
+        service interest, last interaction, or location. This is where platforms like <Link id={`blog-marketing-personalized-email-campaigns-mechanics-brevo${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo" className="text-[#0B162A] hover:underline">Brevo</Link> and <Link id={`blog-marketing-personalized-email-campaigns-mechanics-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend" className="text-[#0B162A] hover:underline">Moosend</Link> stand
         out. Brevo’s segmentation tools can automatically group contacts by behavior or web activity, while Moosend
         uses <GlossaryLink slug="contact-tagging" className="text-[#0B162A] hover:underline">tags</GlossaryLink> and
         segments to separate interests or customer stages. Both automate what used to be a manual cut-and-paste job,
@@ -37,7 +37,7 @@ export default function MechanicsSection() {
         follow-up sequences for each channel. GetResponse can connect these inputs to specific <GlossaryLink slug="lead-nurturing" className="text-[#0B162A] hover:underline">nurture
         flows</GlossaryLink>, so every lead receives the right next step without staff intervention.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`blog-marketing-personalized-email-campaigns-mechanics-activecampaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link> is
+        <Link id={`blog-marketing-personalized-email-campaigns-mechanics-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link> is
         the pick where sales and marketing need to work together. Its <GlossaryLink slug="automation-workflow" className="text-[#0B162A] hover:underline">workflow
         automation</GlossaryLink> is triggered by actions a prospect takes, like submitting a form or opening a
         proposal, so follow-up is never left to chance. ActiveCampaign also brings in CRM data and <GlossaryLink slug="lead-scoring" className="text-[#0B162A] hover:underline">lead

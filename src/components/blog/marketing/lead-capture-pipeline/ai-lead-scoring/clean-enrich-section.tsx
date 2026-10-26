@@ -7,7 +7,7 @@ export default function CleanEnrichSection() {
         Sales teams often grapple with the challenge of messy data that leads to inaccurate lead scoring. Duplicate entries, incomplete details, and spam submissions can inflate lead counts, giving a false impression of success. This wastes valuable sales time and resources in chasing non-existent or unqualified leads. To address this pain point, AI tools can automate the cleaning, enriching, and de-duplicating of data, helping teams focus on genuine opportunities.
       </p>
       <p className="pt-3 text-base font-normal text-white shadow-text">
-        <Link id={`tools-marketing-active-campaign-clean-enrich${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">
+        <Link id={`tools-marketing-active-campaign-clean-enrich${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">
           ActiveCampaign
         </Link>
         &nbsp;offers automation to handle data cleaning by checking required fields and normalizing information like phone numbers and email addresses. This reduces the risk of errors from manual data entry and ensures that all data adheres to a consistent format, making it easier to manage and analyze.

@@ -1,0 +1,1 @@
+A flat vector flowchart with sequential steps: input (user data), process (automation workflow gears), and output (personalized emails), showing clear progression and automation logic.

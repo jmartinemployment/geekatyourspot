@@ -36,7 +36,7 @@ export default function ComparingSection() {
         filtering lists or building one-off campaigns for every scenario.</p>
       <p className="text-base text-white shadow-text pt-3">
         When compared to more advanced <GlossaryLink slug="marketing-automation-platform" className="text-[#0B162A] hover:underline">marketing
-        automation platforms</GlossaryLink> like <Link id={`tools-marketing-personalized-email-campaigns-getresponse-comparing-activecampaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link> or
+        automation platforms</GlossaryLink> like <Link id={`tools-marketing-personalized-email-campaigns-getresponse-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link> or
         Klaviyo, GetResponse’s main strength for small businesses is its balance of power and ease of use. It does
         not require a dedicated marketing ops person to set up: the drag-and-drop editor, customizable templates,
         and AI-powered email writer allow non-technical users to build campaigns that look polished and feel

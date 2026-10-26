@@ -1,0 +1,1 @@
+A flat vector diagram showing data fields and columns mapping to email platform modules, with arrows illustrating data integration and structure. Professional B2B infographic style, no text.

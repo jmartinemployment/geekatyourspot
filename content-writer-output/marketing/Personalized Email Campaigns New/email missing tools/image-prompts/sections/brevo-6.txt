@@ -1,0 +1,1 @@
+Diagram showing structured data tables and mapping lines connecting data fields to email template components, visualizing the concept of data organization enabling automated personalization.

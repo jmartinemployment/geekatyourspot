@@ -1,0 +1,1 @@
+A network diagram showing various data sources (CRM, website, analytics) converging into a central email automation platform, with connecting lines and integration icons, illustrating the system’s data and integration requirements.

@@ -1,0 +1,1 @@
+A simplified network diagram showing the Activecampaign platform at the center, connected to various apps, databases, and communication channels by flowing lines, symbolizing integrations and real-time data exchange.

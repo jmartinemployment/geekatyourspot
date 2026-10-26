@@ -1,0 +1,1 @@
+A flat vector diagram showing a database schema with tables and connections, visualizing data fields and mapping processes that feed into an email campaign system.

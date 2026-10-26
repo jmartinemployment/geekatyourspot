@@ -1,0 +1,1 @@
+Layered diagram illustrating a seamless automated workflow: input data flows into a machine-like system that branches into multiple customized email outputs, each tailored to a user avatar, representing true personalized automation.

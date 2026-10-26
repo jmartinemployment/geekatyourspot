@@ -1,0 +1,1 @@
+A staged rollout diagram showing a sequence of gears and progress bars moving from planning to launch, representing the process of implementing personalized email automation in stages.

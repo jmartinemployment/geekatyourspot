@@ -1,0 +1,1 @@
+A schematic showing data fields, mapping lines, and database symbols aligning to a central system, representing data structuring and mapping for Mailerlite integration.

@@ -8,7 +8,7 @@ export default function LedeSection() {
       </p>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         AI can change this. By consolidating data and using intelligent lead scoring, you can prioritize the leads that matter most. Tools like&nbsp;
-        <Link id={`tools-marketing-active-campaign-lede${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">
+        <Link id={`tools-marketing-active-campaign-lede${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#C83803] hover:underline">
           ActiveCampaign
         </Link>
         &nbsp;and&nbsp;

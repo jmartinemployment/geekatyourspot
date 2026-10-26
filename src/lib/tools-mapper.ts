@@ -1,5 +1,4 @@
 import { ToolPageContent } from "@/types/tool";
-import { activeCampaignContent } from "@/data/tools/active-campaign";
 import { adaptiveInsightsContent } from "@/data/tools/adaptive-insights";
 import { adobeMixModelerContent } from "@/data/tools/adobe-mix-modeler";
 import { adpContent } from "@/data/tools/adp";
@@ -58,6 +57,8 @@ import { mailchimpContent } from "@/data/tools/mailchimp";
 import { getresponseContent } from "@/data/tools/getresponse";
 import { mailerliteContent } from "@/data/tools/mailerlite";
 import { moosendContent } from "@/data/tools/moosend";
+import { activecampaignContent } from "@/data/tools/activecampaign";
+import { brevoContent } from "@/data/tools/brevo";
 import { manychatContent } from "@/data/tools/manychat";
 import { mediusContent } from "@/data/tools/medius";
 import { melioContent } from "@/data/tools/melio";
@@ -115,7 +116,6 @@ import { pipedriveContent } from "@/data/tools/pipedrive";
 import { zapierContent } from "@/data/tools/zapier";
 
 const toolsMap: Record<string, ToolPageContent> = {
-  "active-campaign": activeCampaignContent,
   "adaptive-insights": adaptiveInsightsContent,
   "adobe-mix-modeler": adobeMixModelerContent,
   "adp": adpContent,
@@ -174,6 +174,8 @@ const toolsMap: Record<string, ToolPageContent> = {
   "getresponse": getresponseContent,
   "mailerlite": mailerliteContent,
   "moosend": moosendContent,
+  "activecampaign": activecampaignContent,
+  "brevo": brevoContent,
   "manychat": manychatContent,
   "medius": mediusContent,
   "melio": melioContent,

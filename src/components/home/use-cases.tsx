@@ -88,20 +88,20 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
-                                            </Link>,&nbsp;
-                                            Corpay,&nbsp;
+                                            </Link>,{" "}
+                                            Corpay,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange", "AvidXchange")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti data entry")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
@@ -129,25 +129,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ApprovalMax
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/melio", "Melio")}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Melio
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/ramp", "Ramp")}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli")}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
@@ -175,25 +175,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Melio
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange", "AvidXchange")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
@@ -222,25 +222,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Medius
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti", "Tipalti")}
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli fraud controls")}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Stampli
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill", "Bill")}
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp fraud controls")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
@@ -281,25 +281,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Chaserhq
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced", "Invoiced")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Invoiced
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay", "Versapay")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Versapay
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow", "Upflow")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Upflow
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill", "Bill")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill"
@@ -330,25 +330,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Cashflowfrog
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork", "Clockwork")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Clockwork
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun", "Dryrun")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dryrun
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp", "Floatapp")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Floatapp
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Take the Helm")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm"
@@ -377,25 +377,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Cashflowfrog
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq", "Fathom")}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Fathom
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav", "Jirav")}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Jirav
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks", "QuickBooks Online Advanced")}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 QuickBooks Online Advanced
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm", "Take the Helm")}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm"
@@ -435,25 +435,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "TaxCloud")}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "TaxJar")}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "TaxValet")}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "Zamp")}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp"
@@ -482,25 +482,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ADP
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel", "Deel")}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Deel
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto", "Gusto")}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Gusto
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks", "Justworks")}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Justworks
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling", "Rippling")}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling"
@@ -529,25 +529,25 @@ export function UseCasesSection() {
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud", "TaxCloud")}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar", "TaxJar")}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet", "TaxValet")}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp", "Zamp")}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp"
@@ -615,25 +615,25 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai", "HyperWrite")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     HyperWrite
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "MarketMuse")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MarketMuse
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", "Semrush")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush"
@@ -655,7 +655,7 @@ export function UseCasesSection() {
                                                 Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Content Generation Tools:
+                                                Top AI SEO Content Generation Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
@@ -663,61 +663,61 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Anyword
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", "Castmagic")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Castmagic
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", "Copy.ai")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/frase", "Frase")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Frase
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite", "Hootsuite")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine", "ImagineArt")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ImagineArt
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper", "Jasper")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Jasper
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/koala", "Koala")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Koala
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Rytr
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", "Scalenut")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", "Writesonic")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic"
@@ -743,29 +743,35 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/active-campaign"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ActiveCampaign
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo", "Brevo")}
+                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Brevo
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse", "GetResponse")}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     GetResponse
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp", "Mailchimp")}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Mailchimp
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite", "MailerLite")}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MailerLite
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend", "Moosend")}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend"
@@ -795,25 +801,25 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Apollo
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Factors
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Leadfeeder
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Lusha
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
@@ -847,31 +853,31 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     AdCreative
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Adzooma
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword", "Anyword")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Anyword
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LocaliQ
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai", "Plai")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
@@ -901,25 +907,25 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Madgicx
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Marpipe
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Optmyzr
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench", "Wrench")}
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench"
@@ -943,19 +949,19 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/monte-carlo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Monte Carlo
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}
                                                     href="/tools/marketing/anomalo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Anomalo
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}
                                                     href="/tools/marketing/great-expectations"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Great Expectations
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}
                                                     href="/tools/marketing/qualytics"
@@ -1010,25 +1016,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LobbyStack
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     My AI Front Desk
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Nextiva
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Smith.ai
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
@@ -1058,25 +1064,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     BotPenguin
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Dapta
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Manychat
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     My AI Front Desk
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"
@@ -1160,20 +1166,20 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dext
-                                            </Link>,&nbsp;
-                                            Corpay,&nbsp;
+                                            </Link>,{" "}
+                                            Corpay,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/bill", "Bill")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange", "AvidXchange")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti data entry")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
@@ -1201,25 +1207,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ApprovalMax
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/bill", "Bill")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/melio", "Melio")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Melio
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/ramp", "Ramp")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
@@ -1247,25 +1253,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Melio
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill", "Bill")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange", "AvidXchange")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 AvidXchange
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Ramp
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "Tipalti")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti"
@@ -1294,25 +1300,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Medius
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti", "Tipalti")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Tipalti
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/stampli", "Stampli fraud controls")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Stampli
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill", "Bill")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Bill
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp", "Ramp fraud controls")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp"
@@ -1353,25 +1359,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Chaserhq
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced", "Invoiced")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Invoiced
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay", "Versapay")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Versapay
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow", "Upflow")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Upflow
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill", "Bill")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill"
@@ -1402,25 +1408,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Cashflowfrog
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork", "Clockwork")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Clockwork
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun", "Dryrun")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Dryrun
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp", "Floatapp")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Floatapp
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm", "Take the Helm")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm"
@@ -1449,25 +1455,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Cashflowfrog
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq", "Fathom")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Fathom
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav", "Jirav")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Jirav
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks", "QuickBooks Online Advanced")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 QuickBooks Online Advanced
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm", "Take the Helm")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm"
@@ -1508,25 +1514,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "TaxCloud")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "TaxJar")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "TaxValet")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "Zamp")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp"
@@ -1555,25 +1561,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ADP
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel", "Deel")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Deel
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto", "Gusto")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Gusto
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks", "Justworks")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Justworks
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling", "Rippling")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling"
@@ -1602,25 +1608,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud", "TaxCloud")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar", "TaxJar")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet", "TaxValet")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
-                                            </Link>,&nbsp;
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp", "Zamp")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp"
@@ -1676,25 +1682,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai", "HyperWrite")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     HyperWrite
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "MarketMuse")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MarketMuse
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", "Semrush")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush"
@@ -1716,7 +1722,7 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Content Generation Tools:
+                                                Top AI SEO Content Generation Tools:
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
@@ -1724,61 +1730,61 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Anyword
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", "Castmagic")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Castmagic
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", "Copy.ai")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/frase", "Frase")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Frase
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite", "Hootsuite")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine", "ImagineArt")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ImagineArt
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper", "Jasper")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Jasper
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/koala", "Koala")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Koala
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Rytr
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", "Scalenut")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", "Writesonic")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic"
@@ -1804,29 +1810,35 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}-lg`}
-                                                    href="/tools/marketing/active-campaign"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", "ActiveCampaign")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ActiveCampaign
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo", "Brevo")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Brevo
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse", "GetResponse")}-lg`}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     GetResponse
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp", "Mailchimp")}-lg`}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Mailchimp
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite", "MailerLite")}-lg`}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MailerLite
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend", "Moosend")}-lg`}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend"
@@ -1856,25 +1868,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Apollo
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Factors
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Leadfeeder
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Lusha
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
@@ -1908,31 +1920,31 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     AdCreative
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Adzooma
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword", "Anyword")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Anyword
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LocaliQ
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai", "Plai")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
@@ -1962,25 +1974,25 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Madgicx
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Marpipe
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Optmyzr
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench", "Wrench")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench"
@@ -2003,19 +2015,19 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/monte-carlo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Monte Carlo
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}-lg`}
                                                     href="/tools/marketing/anomalo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Anomalo
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}-lg`}
                                                     href="/tools/marketing/great-expectations"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Great Expectations
-                                                </Link>,&nbsp;or&nbsp;
+                                                </Link>,{" "}or&nbsp;
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}-lg`}
                                                     href="/tools/marketing/qualytics"
@@ -2078,25 +2090,25 @@ AI Operations
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LobbyStack
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     My AI Front Desk
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", "Nextiva")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Nextiva
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", "Smith.ai")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Smith.ai
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "Voksha")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha"
@@ -2127,25 +2139,25 @@ AI Operations
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     BotPenguin
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "Dapta")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Dapta
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "Manychat")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Manychat
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     My AI Front Desk
-                                                </Link>,&nbsp;
+                                                </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "Tidio")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio"

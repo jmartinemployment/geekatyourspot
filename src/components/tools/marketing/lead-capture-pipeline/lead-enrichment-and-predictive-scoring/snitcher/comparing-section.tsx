@@ -60,7 +60,7 @@ export default function ComparingSection() {
         it in real time.</p>
       <p className="text-base text-white shadow-text pt-3">
         Snitcher also differs from AI-powered&nbsp;lead
-        scoring&nbsp;tools like&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-comparing-6sense${idSuffix}`} href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>&nbsp;or&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-comparing-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>. Those
+        scoring&nbsp;tools like&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-comparing-6sense${idSuffix}`} href="/tools/marketing/6sense" className="text-[#0B162A] hover:underline">6sense</Link>&nbsp;or&nbsp;<Link id={`tools-marketing-lead-enrichment-snitcher-comparing-active-campaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>. Those
         platforms excel at using AI to model complex buying journeys and automate multi-channel
         engagement, but they often require a bigger investment in setup and ongoing management. Snitcher’s
         strength is in surfacing the highest-value leads from your existing web traffic, enriching them with

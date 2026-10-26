@@ -1,0 +1,1 @@
+A decision-tree diagram illustrating different user types and business needs, with paths leading to either Mailerlite or alternative options, showing guidance on next steps.

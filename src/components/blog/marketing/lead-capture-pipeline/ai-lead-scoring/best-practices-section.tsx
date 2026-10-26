@@ -55,7 +55,7 @@ export default function BestPracticesSection() {
       </p>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Geek @ Your Spot LLC uses platforms like&nbsp;
-        <Link id={`tools-marketing-active-campaign-best-practices${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">
+        <Link id={`tools-marketing-active-campaign-best-practices${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">
           ActiveCampaign
         </Link>
         &nbsp;to automate lead scoring processes. This tool can integrate with existing systems to automatically update lead scores based on predefined criteria and real-time data, significantly reducing the manual workload.

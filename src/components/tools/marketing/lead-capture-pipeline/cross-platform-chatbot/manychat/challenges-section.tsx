@@ -42,7 +42,7 @@ export default function ChallengesSection() {
         their&nbsp;CRM. This is where things break down. Without a way
         to connect captured leads to your&nbsp;CRM&nbsp;or spreadsheet
         workflow, you end up with siloed data and no way to see the full customer journey. Manychat integrates
-        with tools like Google Sheets and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-manychat-challenges-active-campaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, so every lead captured in a chat is synced to your
+        with tools like Google Sheets and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-manychat-challenges-active-campaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link>, so every lead captured in a chat is synced to your
         main system. You see the complete picture and can act on it without more manual entry.</p>
       <p className="text-base text-white shadow-text pt-3">
         The real cost of doing this by hand is not just the hours lost or the mistakes made. It is the steady

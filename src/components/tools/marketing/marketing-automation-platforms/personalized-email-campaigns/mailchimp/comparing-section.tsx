@@ -8,7 +8,7 @@ export default function ComparingSection() {
         Mailchimp stands out among <GlossaryLink slug="marketing-automation-platform" className="text-[#0B162A] hover:underline">marketing
         automation platforms</GlossaryLink> for small businesses by combining approachable design, built-in AI, and
         a pricing model that does not punish early growth. Most teams in South Florida comparing options are also
-        looking at tools like Klaviyo, <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-activecampaign${idSuffix}`} href="/tools/marketing/active-campaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>,
+        looking at tools like Klaviyo, <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>,
         or <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>,
         but Mailchimp’s all-in-one approach and free tier make it a practical starting point for businesses that
         want to move fast without hiring a specialist.</p>
