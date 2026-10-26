@@ -10,7 +10,6 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { gtmClickId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
-import { NavbarTrail } from "@/components/layout/navbar-trail";
 import {
   BLOG_MENU,
   TOOLS_MENU,
@@ -171,12 +170,7 @@ function MenuDepartmentColumn({
   );
 }
 
-type NavbarProps = Readonly<{
-  /** The breadcrumb levels that have a page, found at build time by the site layout. */
-  linkedLevels: readonly string[];
-}>;
-
-export default function Navbar({ linkedLevels }: NavbarProps): React.JSX.Element {
+export default function Navbar(): React.JSX.Element {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<MenuSection>("use-cases");
   const [openCategory, setOpenCategory] = useState<string | null>(null);
@@ -242,7 +236,6 @@ export default function Navbar({ linkedLevels }: NavbarProps): React.JSX.Element
               </svg>
             </button>
           </div>
-          <NavbarTrail linkedLevels={linkedLevels} />
         </nav>
       </div>
 

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompass } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "@/components/layout/navbar";
-import { LINKED_LEVELS } from "@/lib/navigation/linked-levels";
 import Footer from "@/components/layout/footer";
 
 /**
@@ -47,7 +46,7 @@ function Links() {
 export default function NotFound() {
   return (
     <>
-      <Navbar linkedLevels={LINKED_LEVELS} />
+      <Navbar />
       <main>
         <header className="min-h-screen bg-[#0B162A] lg:hidden">
           <div className="container min-h-screen">

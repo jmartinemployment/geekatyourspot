@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { BreadcrumbJsonLd } from "@/components/shared/breadcrumb-json-ld";
+import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 const TITLE = "Architectural Infrastructure Audit";
 const DESCRIPTION =
@@ -38,9 +38,9 @@ export default function Page() {
         <>
             <section className="min-h-screen bg-[#0B162A] text-white py-5 lg:hidden">
                 <div className="container">
-                    <div className="grid min-h-screen grid-cols-1 place-items-center">
+                    <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr] place-items-center">
+                      <BreadcrumbTrail current="Architectural Infrastructure Audit" withJsonLd />
                         <div className="col-span-full w-full">
-                            <BreadcrumbJsonLd current="Architectural Infrastructure Audit" />
                             <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                                 Architectural Infrastructure Audit
                             </h1>
@@ -54,7 +54,8 @@ export default function Page() {
             </section>
             <section className="min-h-screen bg-[#0B162A] text-white py-5 hidden lg:block">
                 <div className="container">
-                    <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+                    <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
+                      <BreadcrumbTrail current="Architectural Infrastructure Audit" />
                         <div className="col-span-7">
                             <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                                 Architectural Infrastructure Audit

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/layout/navbar";
-import { LINKED_LEVELS } from "@/lib/navigation/linked-levels";
 import Footer from "@/components/layout/footer";
 import { LinkTapToggle } from "@/components/shared/link-tap-toggle";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -37,7 +36,7 @@ export default function SiteLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(SITE_GRAPH) }}
       />
-      <Navbar linkedLevels={LINKED_LEVELS} />
+      <Navbar />
       <main>{children}</main>
       <Footer />
       <LinkTapToggle />

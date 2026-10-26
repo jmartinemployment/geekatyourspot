@@ -10,7 +10,7 @@ import {
   faCalculator,
 } from "@fortawesome/free-solid-svg-icons";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
-import { BreadcrumbJsonLd } from "@/components/shared/breadcrumb-json-ld";
+import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 // interface DepartmentProps {
 //   name: DepartmentName;
@@ -27,9 +27,9 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
         <div className="container min-h-screen">
-          <div className="grid min-h-screen grid-cols-1 place-items-center">
+          <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr] place-items-center">
+            <BreadcrumbTrail current={title} withJsonLd />
             <div className="col-span-full">
-              <BreadcrumbJsonLd current={title} />
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
               </h1>
@@ -51,7 +51,8 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
 
       <header className="hidden min-h-screen bg-[#0B162A] lg:block">
         <div className="container min-h-screen">
-          <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+          <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
+            <BreadcrumbTrail current={title} />
             <div className="col-span-7">
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 { title }
