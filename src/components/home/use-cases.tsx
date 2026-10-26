@@ -882,7 +882,7 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-sm">Personalized Email Campaigns: </strong></h5>
+                                            <h5><strong className="text-sm">AI Personalized Email Campaigns: </strong></h5>
                                             <p className="text-black text-xs">
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
@@ -1910,7 +1910,7 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-base">Personalized Email Campaigns: </strong></h5>
+                                            <h5><strong className="text-base">AI Personalized Email Campaigns: </strong></h5>
                                             <p className="text-black text-sm">
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
