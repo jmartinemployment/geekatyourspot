@@ -21,6 +21,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/blog/marketing/ad-spend-optimization", "Ad Spend Optimization"],
   ["/blog/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/blog/marketing/lead-capture-pipeline", "Lead Capture Pipeline"],
+  ["/blog/marketing/marketing-automation-platforms", "Marketing Automation Platforms"],
 
   ["/glossary", "Glossary"],
 
@@ -46,11 +47,12 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/tools/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-generation", "Intelligent Content Generation"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-planning", "Intelligent Content Planning"],
-  ["/tools/marketing/content-creation-workflow/personalized-email-campaigns", "Personalized Email Campaigns"],
   ["/tools/marketing/lead-capture-pipeline", "Lead Capture Pipeline"],
   ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot", "Cross-Platform Chatbot"],
   ["/tools/marketing/lead-capture-pipeline/intelligent-receptionist", "Intelligent Receptionist"],
   ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring", "Lead Enrichment & Predictive Scoring"],
+  ["/tools/marketing/marketing-automation-platforms", "Marketing Automation Platforms"],
+  ["/tools/marketing/marketing-automation-platforms/personalized-email-campaigns", "Personalized Email Campaigns"],
 
   ["/use-cases", "Use Cases"],
   ["/use-cases/accounting", "Accounting"],
@@ -61,4 +63,5 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/use-cases/marketing/ad-spend-optimization", "Ad Spend Optimization"],
   ["/use-cases/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/use-cases/marketing/lead-capture-pipeline", "Lead Capture Pipeline"],
+  ["/use-cases/marketing/marketing-automation-platforms", "Marketing Automation Platforms"],
 ]);

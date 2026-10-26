@@ -211,7 +211,7 @@ const DEPARTMENTS: Department[] = [
         slug: "ai-personalized-email-campaigns",
         description:
           "Personalized Email Campaigns help small businesses increase engagement and sales by automating relevant messages. Cut manual work. Get your free AI assessment.",
-        href: "/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns",
+        href: "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
       },
       {
         title: "Automated Ad Spend Optimization",

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailerlite/`
+ * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const mailerliteContent: ToolPageContent = {
   "title": "MailerLite",
   "slug": "mailerlite",
   "department": "marketing",
-  "useCase": "content-creation-workflow/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with MailerLite boost open rates and sales for Miami small businesses. Start engaging your customers more effectively today.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const mailerliteContent: ToolPageContent = {
   "datePublished": "2026-10-26T12:35:17.8414750Z",
   "dateModified": "2026-10-26T12:35:17.8414750Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
   "sections": [
     {"title": "Overview", "description": "Why are our email campaigns missing the mark, even when we send updates every week?"},
     {"title": "What it costs to keep doing this by hand", "description": "Trying to run personalized email campaigns by hand drains small teams and leaves money on the table."},

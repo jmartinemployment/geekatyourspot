@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/personalized-email-campaigns/moosend/`
+ * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const moosendContent: ToolPageContent = {
   "title": "Moosend",
   "slug": "moosend",
   "department": "marketing",
-  "useCase": "content-creation-workflow/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with Moosend increase open rates and customer retention for small businesses in South Florida. Start automating your emails now.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const moosendContent: ToolPageContent = {
   "datePublished": "2026-10-26T12:35:17.8414750Z",
   "dateModified": "2026-10-26T12:35:17.8414750Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
   "sections": [
     {"title": "Overview", "description": "Why does sending relevant emails to prospects and customers feel so hard for a small business, even with a well-built list?"},
     {"title": "What it costs to keep doing this by hand", "description": "Manual email personalization drains time and leaves money on the table."},

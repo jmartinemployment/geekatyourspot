@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp/`
+ * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const mailchimpContent: ToolPageContent = {
   "title": "Mailchimp",
   "slug": "mailchimp",
   "department": "marketing",
-  "useCase": "content-creation-workflow/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with Mailchimp help South Florida small businesses increase open rates and sales while reducing manual work. Start today.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const mailchimpContent: ToolPageContent = {
   "datePublished": "2026-10-26T12:35:17.8414750Z",
   "dateModified": "2026-10-26T12:35:17.8414750Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
   "sections": [
     {"title": "Overview", "description": "How do small businesses in Miami-Dade, Broward, and Palm Beach keep their personalized email campaigns relevant and personal without losing hours each week or hiring a full-time marketer?"},
     {"title": "What it costs to keep doing this by hand", "description": "A small business that handles email campaigns manually pays in lost hours, missed sales, and rising frustration."},
