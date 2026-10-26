@@ -186,10 +186,10 @@ const DEPARTMENTS: Department[] = [
       "Marketing automation earns its keep in the repetitive middle of the funnel: capturing and scoring leads, producing and repurposing content, tuning ad spend, and answering the same questions in chat. These pillars cover each of those jobs for a small team.",
     useCases: [
       {
-        title: "Content Creation Workflow",
+        title: "Marketing Automation Platforms (MAP)",
         slug: "ai-content-marketing-platforms",
         description:
-          "Streamline your content creation with AI-driven workflows that improve design efficiency and reduce time-to-market.",
+          "Marketing Automation Platforms tie content planning, content generation, personalized email, and lead scoring to one set of contact records. See how the four jobs fit together.",
         href: "/use-cases/marketing/ai-content-marketing-platforms",
       },
       {
