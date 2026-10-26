@@ -15,7 +15,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { DefinedTerm, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
-import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
+import { BreadcrumbJsonLd } from "@/components/shared/breadcrumb-json-ld";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -130,7 +130,7 @@ export default async function TermPage({
           <div className="container min-h-screen">
             <div className="grid min-h-screen grid-cols-1 place-items-center">
               <div className="col-span-full">
-                <BreadcrumbTrail current={term.title} withJsonLd />
+                <BreadcrumbJsonLd current={term.title} />
                 <TermDetail term={term} />
               </div>
             </div>
@@ -141,7 +141,6 @@ export default async function TermPage({
           <div className="container min-h-screen">
             <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
               <div className="col-span-7">
-                <BreadcrumbTrail current={term.title} />
                 <TermDetail term={term} />
               </div>
               <div className="col-span-5 flex min-h-screen flex-col items-center justify-center">

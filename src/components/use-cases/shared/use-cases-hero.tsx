@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
 import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
-import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
+import { BreadcrumbJsonLd } from "@/components/shared/breadcrumb-json-ld";
 
 interface UseCasesHeroSectionProps {
   title: string;
@@ -25,7 +25,7 @@ export default async function UseCasesHeroSection({ title, summary, department, 
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1 place-items-center">
             <div className="col-span-full">
-              <BreadcrumbTrail current={title} withJsonLd />
+              <BreadcrumbJsonLd current={title} />
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
               </h1>
@@ -49,7 +49,6 @@ export default async function UseCasesHeroSection({ title, summary, department, 
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <BreadcrumbTrail current={title} />
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 {title}
               </h1>

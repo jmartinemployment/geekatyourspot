@@ -1,11 +1,12 @@
 /**
  * The name each level of the URL hierarchy shows in the breadcrumb trail, keyed by the level's
- * path. A page's own name is its H1, which its hero passes in, so only the levels above a page
- * are listed here. Every level that sits above a page must be in this table: the trail is
- * left off a page when one of its levels is missing, rather than showing a made-up name.
+ * path. The navbar's trail shows the levels above the page, and the page's structured data adds
+ * the page itself under its H1, which its hero passes in, so only the levels above a page are
+ * listed here. Every level that sits above a page must be in this table: the trail is left off
+ * a page when one of its levels is missing, rather than showing a made-up name.
  *
  * Whether a level has a page is not recorded here. The trail checks the app directory at build
- * time (`src/components/shared/breadcrumb-trail.tsx`), links the levels that have a page and
+ * time (`src/lib/navigation/linked-levels.ts`), links the levels that have a page and
  * shows the others as plain text.
  *
  * Hand-maintained, like the menus in `site-menus.ts`. When you add a page under a new level,
