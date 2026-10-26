@@ -46,6 +46,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/tools/marketing/content-creation-workflow", "Content Creation Workflow"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-generation", "Intelligent Content Generation"],
   ["/tools/marketing/content-creation-workflow/intelligent-content-planning", "Intelligent Content Planning"],
+  ["/tools/marketing/content-creation-workflow/personalized-email-campaigns", "Personalized Email Campaigns"],
   ["/tools/marketing/lead-capture-pipeline", "Lead Capture Pipeline"],
   ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot", "Cross-Platform Chatbot"],
   ["/tools/marketing/lead-capture-pipeline/intelligent-receptionist", "Intelligent Receptionist"],

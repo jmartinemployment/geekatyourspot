@@ -882,7 +882,14 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-sm">AI Personalized Email Campaigns: </strong></h5>
+                                            <Link
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns", "AI Personalized Email Campaigns")}
+                                                href="/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-sm font-bold shadow-text">
+                                                    AI Personalized Email Campaigns:
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-xs">
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
@@ -890,21 +897,36 @@ export function UseCasesSection() {
                                                 Top AI Email Campaign Tools:
                                             </h6>
                                             <p className="text-xs">
-                                                Klaviyo,&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/mailchimp", "Mailchimp")}
-                                                    href="/tools/marketing/mailchimp"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Mailchimp
-                                                </Link>,&nbsp;
-                                                GetResponse,&nbsp;
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}
                                                     href="/tools/marketing/active-campaign"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ActiveCampaign
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/getresponse", "GetResponse")}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/getresponse"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    GetResponse
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp", "Mailchimp")}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Mailchimp
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailerlite", "MailerLite")}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailerlite"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    MailerLite
                                                 </Link>,&nbsp;or&nbsp;
-                                                MailerLite.
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/moosend", "Moosend")}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/moosend"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Moosend
+                                                </Link>.
                                             </p>
                                         </li>
                                     </ul>
@@ -1910,7 +1932,14 @@ export function UseCasesSection() {
                                             </p>
                                         </li>
                                         <li className="pl-.5">
-                                            <h5><strong className="text-base">AI Personalized Email Campaigns: </strong></h5>
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns", "AI Personalized Email Campaigns")}-lg`}
+                                                href="/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns"
+                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                                <h5 className="text-black text-base font-bold shadow-text">
+                                                    AI Personalized Email Campaigns:
+                                                </h5>
+                                            </Link>
                                             <p className="text-black text-sm">
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
@@ -1918,21 +1947,37 @@ export function UseCasesSection() {
                                                 Top AI Email Campaign Tools:
                                             </h6>
                                             <p className="text-sm">
-                                                Klaviyo,&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/mailchimp", "Mailchimp")}-lg`}
-                                                    href="/tools/marketing/mailchimp"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                                    Mailchimp
-                                                </Link>,&nbsp;
-                                                GetResponse,&nbsp;
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/active-campaign", "ActiveCampaign")}-lg`}
                                                     href="/tools/marketing/active-campaign"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ActiveCampaign
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/getresponse", "GetResponse")}-lg`}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/getresponse"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    GetResponse
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp", "Mailchimp")}-lg`}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Mailchimp
+                                                </Link>,&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailerlite", "MailerLite")}-lg`}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailerlite"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    MailerLite
                                                 </Link>,&nbsp;or&nbsp;
-                                                MailerLite.                                            </p>
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/personalized-email-campaigns/moosend", "Moosend")}-lg`}
+                                                    href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/moosend"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Moosend
+                                                </Link>.
+                                            </p>
                                         </li>
                                     </ul>
                                     <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">

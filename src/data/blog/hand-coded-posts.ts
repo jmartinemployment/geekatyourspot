@@ -36,4 +36,12 @@ export const HAND_CODED_POSTS: readonly HandCodedPost[] = [
     department: "marketing",
     date: "2026-10-25T11:32:40.1839700Z",
   },
+  {
+    href: "/blog/marketing/content-creation-workflow/what-miami-businesses-miss-without-local-ai-automation",
+    title: "What Miami Businesses Miss Without Local AI Automation",
+    excerpt:
+      "Personalized Email Campaigns help Miami small businesses increase open rates by up to 50 percent and drive more sales. See how local AI can help you grow.",
+    department: "marketing",
+    date: "2026-10-26T12:35:17.8414750Z",
+  },
 ];

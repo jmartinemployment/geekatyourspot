@@ -284,6 +284,10 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   "/tools/accounting/stampli": "/tools/accounting/accounts-payable/automated-approval-workflows/stampli",
   "/tools/accounting/melio":
     "/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio",
+  // The Personalized Email Campaigns pillar and its Mailchimp write-up are hand-coded under the
+  // Content Creation Workflow group; the flat Mailchimp page was deleted on 2026-10-26.
+  "/use-cases/marketing/personalized-email-campaigns": "/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns",
+  "/tools/marketing/mailchimp": "/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp",
   // No page for these.
   "/tools/accounting/lightyear": null,
   "/tools/marketing/chatgpt": null,
@@ -294,7 +298,6 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   "/tools/marketing/pictory": null,
   "/tools/marketing/surfer-seo": null,
   "/tools/marketing/synthesia": null,
-  "/use-cases/marketing/personalized-email-campaigns": null,
 };
 
 /**

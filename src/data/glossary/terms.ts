@@ -3,7 +3,7 @@ import type { GlossaryTerm } from "@/types/glossary";
 /**
  * The glossary corpus, exported from GeekAPI on 2026-09-28 and served from here.
  *
- * 331 terms: five accounting terms were added on 2026-10-22, 20 advertising terms on 2026-10-24 and 32 advertising terms on 2026-10-25, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
+ * 356 terms: five accounting terms were added on 2026-10-22, 20 advertising terms on 2026-10-24, 32 advertising terms on 2026-10-25 and 25 email marketing terms on 2026-10-26, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
  * definition of one or two sentences, one whyItMatters sentence and one
  * systemsContext sentence. The rewrite merged the six terms that had two
  * definitions into one and dropped the 35 usage examples. Categories are the
@@ -24,6 +24,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It replaces opinions about headlines, offers and layouts with measured results, so budget goes to the version that actually converts.",
     systemsContext: "Tests run through analytics platforms, email tools or landing page builders, and their results depend on clean conversion tracking and a large enough sample size.",
+  },
+  {
+    title: "Abandoned Cart Email",
+    slug: "abandoned-cart-email",
+    category: "Marketing",
+    shortSummary: "An automated email sent to a shopper who added items to an online cart and left without paying.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An abandoned cart email is an automated message sent to a shopper who added items to an online cart and left the store without completing the purchase. It usually shows the items left behind, sometimes with a reminder, a question or a small incentive, and goes out within hours of the visit.",
+      },
+    ],
+    whyItMatters: "Carts left behind are the largest pool of nearly won sales an online store has, and a timed reminder recovers a share of them at almost no cost.",
+    systemsContext: "The store platform, such as Shopify or WooCommerce, passes the cart event to the email platform, which runs the sequence and reports recovered revenue against the emails sent.",
   },
   {
     title: "Accounts Payable",
@@ -429,6 +443,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "They do the repetitive checking a small team cannot keep up with, and they react within minutes rather than at the next weekly review.",
     systemsContext: "Scripts run on the ad platform's own scheduler, read the same data as the account reports, and work alongside automation rules and smart bidding rather than replacing them.",
+  },
+  {
+    title: "Automation Workflow",
+    slug: "automation-workflow",
+    category: "Marketing",
+    shortSummary: "A chain of triggers, conditions and actions an email platform runs on its own once a contact enters it.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An automation workflow is a chain of triggers, conditions, waits and actions that an email or marketing platform runs on its own once a contact enters it, such as a signup that starts a welcome series, a purchase that starts a thank you sequence or a quiet period that starts a win back offer. It is built once and runs for every contact who meets its entry rule.",
+      },
+    ],
+    whyItMatters: "A workflow does the follow up a small team would otherwise forget, at the same hour for every contact, and it keeps running while the owner works on something else.",
+    systemsContext: "Workflows are built in the visual editors of platforms such as GetResponse, Mailchimp, MailerLite and Moosend, start from events sent by a store, a form or a CRM, and report how many contacts entered, finished and converted.",
   },
   {
     title: "Automobile Chatbot",
@@ -1036,6 +1064,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "These automations run inside cloud contact center platforms and help desks, and they connect to the CRM, knowledge base and chatbots that supply customer data and approved answers.",
   },
   {
+    title: "Contact Tagging",
+    slug: "contact-tagging",
+    category: "Marketing",
+    shortSummary: "Attaching labels to a contact record so emails can be targeted by what the person did or wants.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Contact tagging attaches labels to a contact's record, such as the product bought, the form filled in, the event attended or the interest shown, so that later emails can be targeted by what the person did or wants. Tags can be added by hand, by a form, by an automation or by an integration.",
+      },
+    ],
+    whyItMatters: "Tags are the simplest way for a small business to send a relevant email without building a full segment for every case, and they carry the history that personalization depends on.",
+    systemsContext: "Tags live on the contact record in the email platform or CRM, are set by automations and by integrations such as Zapier, and are the usual condition that decides which branch of a workflow a contact takes.",
+  },
+  {
     title: "Content Repurposing",
     slug: "content-repurposing",
     category: "Marketing",
@@ -1358,6 +1400,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "A widget that matches the site's design keeps the brand visually consistent and looks trustworthy, which influences whether visitors engage with it at all.",
     systemsContext: "Display settings usually sit in the vendor's admin panel or in CSS overrides and display rules, and they interact with page speed, mobile responsiveness and accessibility requirements.",
+  },
+  {
+    title: "Custom Field",
+    slug: "custom-field",
+    category: "Technology",
+    shortSummary: "A field a business adds to a contact record to hold information the platform does not track by default.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A custom field is a field a business adds to its contact records to hold information the platform does not track on its own, such as a customer's neighborhood, last service date, preferred language or vehicle model. The value can be collected on a form, imported from another system or set by an automation.",
+      },
+    ],
+    whyItMatters: "Personalization beyond a first name depends on custom fields, since an email can only say what the record knows.",
+    systemsContext: "Custom fields are defined in the email platform or CRM, filled through forms, imports and integrations, and read by merge tags, segments and workflow conditions.",
   },
   {
     title: "Custom Form",
@@ -1861,6 +1917,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Drip campaigns run inside email marketing and marketing automation platforms, pull segments and triggers from the CRM, and rely on clean lists, unsubscribe handling and open and click tracking to measure each step.",
   },
   {
+    title: "Dynamic Content",
+    slug: "dynamic-content",
+    category: "Marketing",
+    shortSummary: "Parts of an email that change for each recipient based on the data held about them.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Dynamic content is any block of an email, such as a headline, an image, an offer or a product list, that changes for each recipient based on the data held about them, so one campaign can show different content to different people. Rules or conditions decide which version each contact receives.",
+      },
+    ],
+    whyItMatters: "It lets a small business send one campaign that reads as personal to every segment, instead of writing and scheduling a separate email for each.",
+    systemsContext: "Dynamic content blocks are set up in the email editor of platforms such as Mailchimp, GetResponse and Moosend, draw on custom fields, tags and purchase data, and are judged by the engagement of each variation.",
+  },
+  {
     title: "Dynamic Creative Optimization",
     slug: "dynamic-creative-optimization",
     category: "Marketing",
@@ -1955,6 +2025,62 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Education chatbots sit inside a learning management system or course site, answer from the approved course materials through retrieval, and route questions about grades or anything outside the material to an instructor.",
   },
   {
+    title: "Email Automation",
+    slug: "email-automation",
+    category: "Marketing",
+    shortSummary: "Sending emails automatically in response to what a contact does or when a date arrives, rather than by hand.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Email automation is the practice of sending emails automatically in response to what a contact does, such as signing up, buying or going quiet, or when a date arrives, such as a birthday or a renewal, instead of writing and sending each message by hand. The messages are prepared once and sent to each contact at the right moment.",
+      },
+    ],
+    whyItMatters: "It gives a small business the timely follow up of a larger team at a fraction of the labor, and it keeps the customer relationship going between campaigns.",
+    systemsContext: "Email automation runs on platforms such as GetResponse, Mailchimp, MailerLite and Moosend, is triggered by events from stores, forms and CRMs, and is measured by open rates, click rates and revenue per automation.",
+  },
+  {
+    title: "Email Deliverability",
+    slug: "email-deliverability",
+    category: "Marketing",
+    shortSummary: "The share of sent emails that reach the inbox rather than the spam folder or a bounce.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Email deliverability is the share of sent emails that reach the recipient's inbox rather than being blocked, bounced or filed in spam. It depends on the sender's reputation, the authentication of the sending domain, the health of the list and the content of the messages.",
+      },
+    ],
+    whyItMatters: "A personalized campaign that lands in spam personalizes nothing, so deliverability sets the ceiling on every other email result.",
+    systemsContext: "Deliverability is monitored in the email platform's reports and in mailbox providers' tools, is protected by SPF, DKIM and DMARC records on the sending domain, and is improved by list hygiene and steady sending volumes.",
+  },
+  {
+    title: "Email Segmentation",
+    slug: "email-segmentation",
+    category: "Marketing",
+    shortSummary: "Dividing an email list into groups by behavior, purchases, location or interest so each group gets a relevant message.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Email segmentation divides an email list into groups by what the platform knows about each contact, such as purchases, location, engagement, signup source or interest, so that each group receives a message written for it. Segments can be fixed lists or rules that update as contact data changes.",
+      },
+    ],
+    whyItMatters: "A segmented send gets more opens and more sales than the same email sent to everyone, and it keeps uninterested contacts from unsubscribing.",
+    systemsContext: "Segments are built from tags, custom fields and behavior in platforms such as Mailchimp, GetResponse, MailerLite and Moosend, refresh from store and CRM data through integrations, and are compared by open rate and conversion rate.",
+  },
+  {
+    title: "Email Sequence",
+    slug: "email-sequence",
+    category: "Marketing",
+    shortSummary: "A series of emails sent in a set order and spacing to a contact after a trigger.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An email sequence is a series of emails sent to a contact in a set order and at set intervals after a trigger, such as a welcome sequence after a signup or a follow up sequence after a quote. Each email can be skipped or changed by what the contact did with the previous one.",
+      },
+    ],
+    whyItMatters: "A sequence delivers the whole story a single email cannot, and it keeps a new lead warm during the days a small business is busy elsewhere.",
+    systemsContext: "Sequences are a form of automation workflow built in the email platform, use delays and conditions between steps, and report the drop off at each email.",
+  },
+  {
     title: "Embed Chatbot",
     slug: "embed-chatbot",
     shortSummary: "A chatbot integrated directly into a website, app, or messaging platform to provide seamless customer interactions.",
@@ -1993,6 +2119,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It shows which posts, emails or ads actually move an audience to act, which makes it a better guide for content decisions than raw reach or follower totals.",
     systemsContext: "Social platforms, email tools and analytics suites each count engagements and pick denominators differently, so a report that combines channels needs one consistent formula applied to the exported data.",
+  },
+  {
+    title: "Engagement Score",
+    slug: "engagement-score",
+    category: "Marketing Metrics",
+    shortSummary: "A number an email platform assigns to each contact from how recently and often they open, click and buy.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "An engagement score is a number an email platform or CRM assigns to each contact from how recently and how often they open, click, visit and buy, so that the most and least engaged contacts can be found at a glance. The score rises with activity and decays as a contact goes quiet.",
+      },
+    ],
+    whyItMatters: "It tells a small business which contacts to reward, which to win back and which to stop emailing before they damage deliverability.",
+    systemsContext: "Platforms such as Mailchimp, Moosend and ActiveCampaign compute it from tracked events, segments and workflows use it as a condition, and it feeds lead scoring in the CRM.",
   },
   {
     title: "ERP",
@@ -2162,6 +2302,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Google builds Gemini into Workspace apps such as Gmail, Docs and Sheets, which puts generative AI inside tools many businesses already use every day.",
     systemsContext: "Developers reach Gemini through the Gemini API and Google Cloud's Vertex AI, where it competes with OpenAI's GPT models and Anthropic's Claude for chatbot, document processing and coding workloads.",
+  },
+  {
+    title: "Generative AI",
+    slug: "generative-ai",
+    category: "Technology",
+    shortSummary: "AI models that produce new text, images or other content from a prompt, trained on large bodies of existing material.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Generative AI is the class of artificial intelligence models that produce new text, images, audio or code from a prompt, having learned patterns from large bodies of existing material. In email marketing it drafts subject lines, body copy and variations for segments from a brief and the data held about the recipient.",
+      },
+    ],
+    whyItMatters: "It removes the writing bottleneck that keeps a small business from personalizing beyond a name, while leaving the judgment about what to send with the owner.",
+    systemsContext: "Generative AI features are built into email platforms such as Mailchimp and GetResponse and reached through APIs from models such as Claude, and their drafts are tested with A/B tests before they go to a full list.",
   },
   {
     title: "Google Calendar",
@@ -2614,6 +2768,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Each stage maps to a tool, with landing pages and forms capturing leads across multiple channels, marketing automation nurturing them, and the CRM recording scores, owners and outcomes.",
   },
   {
+    title: "Lead Magnet",
+    slug: "lead-magnet",
+    category: "Marketing",
+    shortSummary: "A free item, such as a guide, checklist or discount, offered in exchange for a person's email address.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A lead magnet is a free item offered in exchange for a person's contact details, such as a guide, a checklist, a calculator, a discount code or a short course. It is the usual way an email list grows beyond existing customers.",
+      },
+    ],
+    whyItMatters: "The right lead magnet attracts the people a small business can actually serve, and the subject chosen tells the email platform what the new subscriber cares about.",
+    systemsContext: "Lead magnets are delivered by a signup form and a welcome automation in the email platform, often with a landing page, and are judged by signup rate and by what those subscribers go on to buy.",
+  },
+  {
+    title: "Lead Nurturing",
+    slug: "lead-nurturing",
+    category: "Marketing",
+    shortSummary: "Keeping in touch with a prospect through useful, timed messages until they are ready to buy.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Lead nurturing is the practice of keeping in touch with a prospect who is not ready to buy, through useful and timed messages that answer questions, show examples and build trust until the moment is right. It is usually run as an automated sequence with branches for what the prospect does.",
+      },
+    ],
+    whyItMatters: "Most inquiries do not buy on the first contact, and nurturing is what keeps a small business in mind without a salesperson calling every week.",
+    systemsContext: "Nurturing runs in the email platform or CRM from the lead's entry event, is shaped by tags, custom fields and lead scoring, and is measured by how many nurtured leads become customers.",
+  },
+  {
     title: "Lead Quality",
     slug: "lead-quality",
     category: "Marketing",
@@ -2653,6 +2835,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Legacy systems often hold years of critical records, so replacing them carries migration risk, while keeping them raises maintenance costs and security exposure once the vendor stops supporting them.",
     systemsContext: "Connecting a legacy system to modern tools usually requires special integration efforts such as middleware, scheduled file exports, direct database connectors or robotic process automation that operates the old interface.",
+  },
+  {
+    title: "Lifecycle Marketing",
+    slug: "lifecycle-marketing",
+    category: "Marketing",
+    shortSummary: "Matching messages to the stage a customer is in, from first contact through purchase, repeat business and lapse.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Lifecycle marketing matches messages to the stage a person is in with a business, from first contact and first purchase through repeat business, loyalty and lapse, so that each stage gets the email that fits it. A welcome series, a post purchase sequence, a reorder reminder and a win back offer are its usual parts.",
+      },
+    ],
+    whyItMatters: "It spreads attention across the whole relationship instead of spending it all on acquisition, which is where a small business's cheapest revenue comes from.",
+    systemsContext: "Lifecycle stages are tracked with tags, custom fields and purchase data in the email platform or CRM, and automation workflows move contacts between stages as they act.",
+  },
+  {
+    title: "List Hygiene",
+    slug: "list-hygiene",
+    category: "Marketing",
+    shortSummary: "Removing or suppressing invalid, inactive and uninterested addresses so an email list stays deliverable.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "List hygiene is the regular removal or suppression of invalid, bouncing, inactive and uninterested addresses from an email list, together with confirming new signups, so the list stays accurate and deliverable. It includes handling bounces, honoring unsubscribes and retiring contacts who have not engaged in months.",
+      },
+    ],
+    whyItMatters: "Mailbox providers judge a sender by how its mail is received, so a list full of dead addresses pushes every email, personalized or not, toward spam.",
+    systemsContext: "Email platforms remove hard bounces automatically, re-engagement workflows and engagement scores find the inactive contacts, and double opt-in keeps bad addresses from joining.",
   },
   {
     title: "Live Agent",
@@ -2763,6 +2973,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Marketing automation platforms connect to the CRM, website forms, email service and ad audiences, and they depend on accurate contact data plus consent and unsubscribe records to send each message legally.",
   },
   {
+    title: "Marketing Automation Platform",
+    slug: "marketing-automation-platform",
+    category: "Technology",
+    shortSummary: "Software that runs email, segmentation, workflows and campaign reporting from one contact database.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A marketing automation platform is software that holds a business's contacts and runs its email campaigns, segmentation, automation workflows, forms, landing pages and reporting from that one database. GetResponse, Mailchimp, MailerLite, Moosend and ActiveCampaign are the ones small businesses most often use.",
+      },
+    ],
+    whyItMatters: "It is the system that makes personalized email possible at all for a small business, since the data, the sending and the automation have to live in one place.",
+    systemsContext: "The platform connects to the store, the CRM, the booking system and the website through native integrations, APIs or Zapier, and its reports are the first place campaign results are read.",
+  },
+  {
     title: "Mcommerce",
     slug: "mcommerce",
     shortSummary: "Mobile commerce - buying and selling products through mobile devices like smartphones and tablets.",
@@ -2787,6 +3011,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Processing fees, pricing models, payout timing and chargeback handling vary between providers and apply to every sale, so the choice of provider directly affects margin and cash flow.",
     systemsContext: "The provider's payment gateway connects to the point of sale system, ecommerce checkout and invoicing tools, and its deposit and fee reports feed bank reconciliation in the accounting system.",
+  },
+  {
+    title: "Merge Tag",
+    slug: "merge-tag",
+    category: "Marketing",
+    shortSummary: "A placeholder in an email template that the platform replaces with each recipient's own data at send time.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A merge tag is a placeholder in an email template, such as a first name, a company or a last purchase, that the email platform replaces with each recipient's own data when the message is sent. Platforms name them differently, as merge tags, merge fields or personalization tokens, but they work the same way.",
+      },
+    ],
+    whyItMatters: "Merge tags are the simplest form of personalization and the first one a small business should get right, including a fallback for contacts whose field is empty.",
+    systemsContext: "They read from the contact's standard and custom fields in platforms such as Mailchimp, GetResponse and Moosend, and a missing value shows the fallback text set in the template.",
   },
   {
     title: "Messenger API",
@@ -3013,6 +3251,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Help desk software tracks it against SLA policies by ticket priority, alongside first response time and average resolution time, and chatbots that close routine requests instantly can lift it.",
   },
   {
+    title: "Open Rate",
+    slug: "open-rate",
+    category: "Marketing Metrics",
+    shortSummary: "The share of delivered emails that recipients opened.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Open rate is the share of delivered emails that were opened, calculated as opens divided by emails delivered. Since mail privacy features in some email clients load tracking images automatically, the figure overstates real attention and is best read as a trend rather than an exact count.",
+      },
+    ],
+    whyItMatters: "It is the quickest signal of whether a subject line, a sender name and a send time are working, and the first number a segmented campaign should beat.",
+    systemsContext: "Email platforms report it per campaign and per automation, send time optimization and A/B testing are tuned against it, and click-through rate and conversion rate show what happened after the open.",
+  },
+  {
+    title: "Opt In",
+    slug: "opt-in",
+    category: "Marketing",
+    shortSummary: "A person's explicit agreement to receive emails, usually by ticking a box or confirming by email.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Opt in is a person's explicit agreement to receive marketing emails, given by submitting a form, ticking a box or clicking a confirmation link. Double opt in adds a confirmation email that the person must click before they are added to the list.",
+      },
+    ],
+    whyItMatters: "Consent is what keeps a small business on the right side of anti-spam law and keeps its list full of people who wanted to hear from it.",
+    systemsContext: "Opt in is recorded on the contact record by the signup form, double opt in is a setting in the email platform, and the consent date is what an unsubscribe or a complaint is checked against.",
+  },
+  {
     title: "Opt Out",
     slug: "opt-out",
     shortSummary: "A customer's choice to stop receiving marketing communications or messages from a business.",
@@ -3121,6 +3387,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Models draw on data from the CRM, accounting system and web analytics, power features such as predictive lead scoring and cash flow forecasting, and lose accuracy unless someone retrains them as patterns change.",
   },
   {
+    title: "Product Recommendations",
+    slug: "product-recommendations",
+    category: "Marketing",
+    shortSummary: "Items suggested to a customer in an email or on a site, chosen from their browsing and purchase history.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Product recommendations are items suggested to a customer in an email, on a website or in an app, chosen from what they browsed, bought or left in a cart and from what similar customers went on to buy. In email they are usually a dynamic block that the platform fills for each recipient at send time.",
+      },
+    ],
+    whyItMatters: "A recommendation that matches a customer's history sells more than a catalog blast, and it is one of the few forms of personalization that pays for itself quickly.",
+    systemsContext: "The store platform supplies the product and order data, email platforms such as Mailchimp and Moosend fill the recommendation block, and the results are read as revenue per email.",
+  },
+  {
     title: "Prompt Engineering",
     slug: "prompt-engineering",
     shortSummary: "The practice of crafting precise instructions for AI models to generate desired outputs.",
@@ -3185,6 +3465,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Buttons cut typing on phones and give the bot predictable inputs instead of free text it might misread, which helps users finish flows such as booking or lead qualification.",
     systemsContext: "Each button maps to a node or intent in the chatbot flow, and the WhatsApp Business Platform, Messenger and web chat widgets each set their own limits on button count, label length and format.",
+  },
+  {
+    title: "Re-Engagement Campaign",
+    slug: "re-engagement-campaign",
+    category: "Marketing",
+    shortSummary: "A campaign aimed at contacts who have stopped opening or buying, to win them back or let them go.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A re-engagement campaign is a short series of emails aimed at contacts who have stopped opening, clicking or buying, offering a reason to return and asking whether they still want to hear from the business. Contacts who do not respond are then removed from regular sending.",
+      },
+    ],
+    whyItMatters: "It recovers customers who had merely drifted away, and it cleans the list of the rest before their silence hurts deliverability.",
+    systemsContext: "The campaign starts from an engagement score or a last activity date in the email platform, runs as an automation workflow, and ends by tagging or retiring the contacts who did not respond.",
   },
   {
     title: "Real Time Chat",
@@ -3412,6 +3706,34 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Reviewing it is the fastest way to find wasted spend on a small account, and the terms it exposes become the next negative keywords.",
     systemsContext: "Google Ads and Microsoft Advertising produce it per campaign and ad group, automation scripts and tools like Optmyzr review it on a schedule, and its findings feed the negative keyword lists.",
+  },
+  {
+    title: "Send Time Optimization",
+    slug: "send-time-optimization",
+    category: "Marketing",
+    shortSummary: "Letting the email platform choose when to send to each contact, from when that person has opened before.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Send time optimization is a feature of email platforms that delivers a campaign to each contact at the hour that person has most often opened earlier emails, rather than at one time for the whole list. The platform learns the pattern from past opens and clicks.",
+      },
+    ],
+    whyItMatters: "An email that arrives when a person is reading email gets opened, and a small business cannot work out the best hour for each contact by hand.",
+    systemsContext: "It is offered by platforms such as Mailchimp, GetResponse and Moosend, draws on each contact's tracked engagement, and is judged by open rate against a fixed send time.",
+  },
+  {
+    title: "Sender Reputation",
+    slug: "sender-reputation",
+    category: "Marketing",
+    shortSummary: "The score mailbox providers keep on a sending domain and address, which decides whether its mail reaches the inbox.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "Sender reputation is the score mailbox providers such as Gmail and Outlook keep on a sending domain and IP address, built from spam complaints, bounces, engagement and authentication over time. A good reputation puts mail in the inbox and a poor one sends it to spam or blocks it.",
+      },
+    ],
+    whyItMatters: "A small business's reputation is its own to protect even on a shared platform, since the sending domain is the part that carries its name.",
+    systemsContext: "Reputation is read in tools such as Google Postmaster Tools, protected by SPF, DKIM and DMARC and by list hygiene, and reported indirectly through the email platform's deliverability figures.",
   },
   {
     title: "Sentiment Analysis",
@@ -3837,6 +4159,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     systemsContext: "Training data differs from the documents a retrieval-augmented generation system looks up at answer time and from the test set held back to measure accuracy, and fine-tuning adds a business's own examples on top of a model's original training data.",
   },
   {
+    title: "Transactional Email",
+    slug: "transactional-email",
+    category: "Marketing",
+    shortSummary: "An email triggered by an action a customer took, such as an order confirmation, receipt or appointment reminder.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A transactional email is a message sent because of an action a customer took or an event in their account, such as an order confirmation, a shipping notice, a receipt, a password reset or an appointment reminder. It is sent one at a time, expected by the recipient and opened far more often than a marketing campaign.",
+      },
+    ],
+    whyItMatters: "Transactional emails are the most read messages a small business sends, so a small personal touch or a relevant suggestion in them carries further than it would anywhere else.",
+    systemsContext: "They are sent by the store, booking or billing system or through the email platform's transactional service, are kept separate from marketing sends for deliverability, and are not covered by marketing opt in.",
+  },
+  {
     title: "Transformer Architecture",
     slug: "transformer-architecture",
     shortSummary: "A deep learning model architecture that processes sequences of data in parallel.",
@@ -4187,6 +4523,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "Webhooks let connected systems react within seconds of an event, which keeps records in sync and starts follow-up workflows without scheduled imports or manual data entry.",
     systemsContext: "Automation platforms such as Zapier and Make use incoming webhooks as workflow triggers, and a receiving endpoint should verify each request's signature and ignore duplicate deliveries, because senders retry failed requests.",
+  },
+  {
+    title: "Welcome Series",
+    slug: "welcome-series",
+    category: "Marketing",
+    shortSummary: "The automated sequence of emails a new subscriber receives in their first days on a list.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A welcome series is the automated sequence of emails a new subscriber receives in the days after joining a list, introducing the business, delivering what was promised at signup, setting expectations and inviting a first purchase or booking. It is the most opened sequence most businesses send.",
+      },
+    ],
+    whyItMatters: "The first days after signup are when a subscriber's attention is highest, and a welcome series turns that moment into a relationship instead of a single thank you.",
+    systemsContext: "The series is an automation workflow in the email platform triggered by the signup form, branches by tags and custom fields gathered at signup, and is measured by open rate and first purchases.",
   },
   {
     title: "WhatsApp Advertising Campaign",

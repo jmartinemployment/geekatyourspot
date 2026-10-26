@@ -22,7 +22,7 @@ export default function PersonalizedEmailCampaignsSection() {
             </div>
             <div className="col-span-12">
               <p className="pt-3 text-base font-normal text-white shadow-text">
-                One of the biggest challenges marketing teams face is crafting personalized email campaigns that truly resonate
+                One of the biggest challenges marketing teams face is crafting <Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-pillar" href="/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">personalized email campaigns</Link> that truly resonate
                 with each recipient. This task is both time-consuming and prone to errors, especially when handled manually. The
                 pressure to deliver relevant content to thousands of subscribers without sacrificing quality often results in
                 generic messages that fail to engage. However, AI tools can transform this process, allowing businesses to create
@@ -105,7 +105,7 @@ export default function PersonalizedEmailCampaignsSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="personalized-email-campaigns-tailored-communication-at-scale-lg">Personalized Email Campaigns: Tailored
                 Communication at Scale</h2>
               <p className="pt-3 text-base font-normal text-white shadow-text">
-                One of the biggest challenges marketing teams face is crafting personalized email campaigns that truly resonate
+                One of the biggest challenges marketing teams face is crafting <Link id="use-cases-marketing-ai-content-creation-workflow-personalized-email-campaigns-pillar-lg" href="/use-cases/marketing/content-creation-workflow/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">personalized email campaigns</Link> that truly resonate
                 with each recipient. This task is both time-consuming and prone to errors, especially when handled manually. The
                 pressure to deliver relevant content to thousands of subscribers without sacrificing quality often results in
                 generic messages that fail to engage. However, AI tools can transform this process, allowing businesses to create

@@ -30,7 +30,7 @@ export default function DataIntegrationSection() {
         otherwise, your promotions will go out of sync.</p>
       <p className="text-base text-white shadow-text pt-3">
         The real challenge with integration is not technical setup. It’s mapping the business’s real workflow.
-        A retail shop in Miami Beach may have a point-of-sale system, a&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-data-integration-mailchimp${idSuffix}`} href="/tools/marketing/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>&nbsp;list, and an Instagram
+        A retail shop in Miami Beach may have a point-of-sale system, a&nbsp;<Link id={`use-cases-marketing-intelligent-content-generation-data-integration-mailchimp${idSuffix}`} href="/tools/marketing/content-creation-workflow/personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>&nbsp;list, and an Instagram
         account, but the data between them rarely matches. The implementation team’s job is to make sure the
         right fields talk to each other and that updates flow in both directions. When a new service is added
         to your booking platform, a system like Koala or Copy.ai should recognize it and pull it into the next

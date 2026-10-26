@@ -55,6 +55,9 @@ import { marpipeContent } from "@/data/tools/marpipe";
 import { optmyzrContent } from "@/data/tools/optmyzr";
 import { wrenchContent } from "@/data/tools/wrench";
 import { mailchimpContent } from "@/data/tools/mailchimp";
+import { getresponseContent } from "@/data/tools/getresponse";
+import { mailerliteContent } from "@/data/tools/mailerlite";
+import { moosendContent } from "@/data/tools/moosend";
 import { manychatContent } from "@/data/tools/manychat";
 import { mediusContent } from "@/data/tools/medius";
 import { melioContent } from "@/data/tools/melio";
@@ -168,6 +171,9 @@ const toolsMap: Record<string, ToolPageContent> = {
   "optmyzr": optmyzrContent,
   "wrench": wrenchContent,
   "mailchimp": mailchimpContent,
+  "getresponse": getresponseContent,
+  "mailerlite": mailerliteContent,
+  "moosend": moosendContent,
   "manychat": manychatContent,
   "medius": mediusContent,
   "melio": melioContent,
