@@ -228,13 +228,6 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation",
       },
       {
-        title: "Measured Lead Generation",
-        slug: "ai-measured-lead-generation",
-        description:
-          "Measured Lead Generation uses AI to track and improve ad spend, bringing more qualified leads and lower costs for small businesses. Book a free AI assessment.",
-        href: "/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation",
-      },
-      {
         title: "Intelligent Lead Capture Pipeline",
         slug: "ai-sales-force-automation-software",
         description:
@@ -276,7 +269,7 @@ const DEPARTMENTS: Department[] = [
 /** Site section rotation, as literal classes so Tailwind can see them. */
 const SECTION_BACKGROUNDS = ["bg-[#023059]", "bg-[#024059]", "bg-[#025E73]", "bg-[#8C4E2A]", "bg-[#BF5934]"] as const;
 
-function UseCaseCard({ useCase }: { useCase: UseCase }) {
+function UseCaseCard({ useCase }: Readonly<{ useCase: UseCase }>) {
   return (
     <Link
       href={useCase.href}

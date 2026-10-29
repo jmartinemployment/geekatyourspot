@@ -886,48 +886,6 @@ export function UseCasesSection() {
                                                 </Link>.
                                             </p>
                                         </li>
-                                        <li className="pl-.5">
-                                            <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation", "Measured Lead Generation")}
-                                                href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-sm font-bold shadow-text">
-                                                    Intent-Driven Lead Sourcing (Budget $500–$1,500 month):
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-xs">
-                                                Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
-                                            </p>
-                                            <h6 className="text-black text-xs font-bold pt-1">
-                                                Top Measured Lead Generation Tools:
-                                            </h6>
-                                            <p className="text-xs">
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx", "Madgicx")}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Madgicx
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Optmyzr
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Performance Max
-                                                </Link>,{" "}or&nbsp;
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench", "Wrench")}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Wrench
-                                                </Link>.
-                                            </p>
-                                        </li>
                                     </ul>
                                 </div>
                             </CardContent>
@@ -1944,48 +1902,6 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Plai
-                                                </Link>.
-                                            </p>
-                                        </li>
-                                        <li className="pl-.5">
-                                            <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation", "Measured Lead Generation")}-lg`}
-                                                href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation"
-                                                className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                                <h5 className="text-black text-base font-bold shadow-text">
-                                                    Intent-Driven Lead Sourcing (Budget $500–$1,500 month):
-                                                </h5>
-                                            </Link>
-                                            <p className="text-black text-sm">
-                                                Continuously monitor campaign performance across channels, automatically pulling funds from underperforming ad sets and shifting them to high-converting lead campaigns.
-                                            </p>
-                                            <h6 className="text-black text-sm font-bold pt-1">
-                                                Top Measured Lead Generation Tools:
-                                            </h6>
-                                            <p className="text-sm">
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx", "Madgicx")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Madgicx
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Optmyzr
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Performance Max
-                                                </Link>,{" "}or&nbsp;
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench", "Wrench")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/wrench"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Wrench
                                                 </Link>.
                                             </p>
                                         </li>

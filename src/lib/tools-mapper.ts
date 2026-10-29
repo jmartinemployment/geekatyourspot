@@ -49,10 +49,7 @@ import { leadfeederContent } from "@/data/tools/leadfeeder";
 import { lobbystackContent } from "@/data/tools/lobbystack";
 import { lushaContent } from "@/data/tools/lusha";
 import { madgicxContent } from "@/data/tools/madgicx";
-import { madgicxMeasuredLeadGenerationContent } from "@/data/tools/madgicx-measured-lead-generation";
 import { marpipeContent } from "@/data/tools/marpipe";
-import { optmyzrContent } from "@/data/tools/optmyzr";
-import { wrenchContent } from "@/data/tools/wrench";
 import { mailchimpContent } from "@/data/tools/mailchimp";
 import { getresponseContent } from "@/data/tools/getresponse";
 import { mailerliteContent } from "@/data/tools/mailerlite";
@@ -166,10 +163,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "lobbystack": lobbystackContent,
   "lusha": lushaContent,
   "madgicx": madgicxContent,
-  "madgicx-measured-lead-generation": madgicxMeasuredLeadGenerationContent,
   "marpipe": marpipeContent,
-  "optmyzr": optmyzrContent,
-  "wrench": wrenchContent,
   "mailchimp": mailchimpContent,
   "getresponse": getresponseContent,
   "mailerlite": mailerliteContent,
