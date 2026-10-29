@@ -659,6 +659,12 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    AdCreative
+                                                </Link>,{" "}
+                                                <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", "Anyword")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
@@ -705,6 +711,12 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Koala
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Marpipe
                                                 </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}
@@ -849,22 +861,10 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    AdCreative
-                                                </Link>,{" "}
-                                                <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Adzooma
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword", "Anyword")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Anyword
                                                 </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
@@ -907,12 +907,6 @@ export function UseCasesSection() {
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Madgicx
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Marpipe
                                                 </Link>,{" "}
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}
@@ -1726,6 +1720,12 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    AdCreative
+                                                </Link>,{" "}
+                                                <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", "Anyword")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
@@ -1772,6 +1772,12 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Koala
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Marpipe
                                                 </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}-lg`}
@@ -1916,22 +1922,10 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    AdCreative
-                                                </Link>,{" "}
-                                                <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Adzooma
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword", "Anyword")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/anyword"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Anyword
                                                 </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
@@ -1974,12 +1968,6 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Madgicx
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Marpipe
                                                 </Link>,{" "}
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/optmyzr", "Optmyzr")}-lg`}
