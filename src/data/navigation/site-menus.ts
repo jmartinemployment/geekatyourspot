@@ -104,6 +104,13 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         ],
       },
       {
+        id: "use-cases-ai-operations-ai-data-pipeline",
+        label: "AI Data Pipeline",
+        items: [
+          { href: "/tools/marketing/zapier", label: "Zapier" },
+        ],
+      },
+      {
         id: "use-cases-ai-operations-data-quality-assessments",
         label: "Data Quality Assessments",
         items: [
