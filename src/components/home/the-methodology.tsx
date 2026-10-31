@@ -26,7 +26,7 @@ export default function TheMethodologySection() {
               <Link
                 id={gtmLinkIdFromHref("/methodology")}
                 href="/methodology">
-                <h2 className="hover:text-[#C83803] text-white text-[12vw] sm:text-6xl md:text-7xl leading-[0.9] font-black font-[var(--font-sora)] shadow-text">
+                <h2 className="hover:text-[#C83803] text-white text-[12vw] leading-[0.9] font-black font-[var(--font-sora)] shadow-text">
                   The &nbsp;
                   <br />
                   <span className="hover:text-white text-[#C83803]">Methodology</span>
@@ -226,7 +226,7 @@ export default function TheMethodologySection() {
                   <Link
                     id={`${gtmLinkIdFromHref("/methodology", "desktop")}-lg`}
                     href="/methodology">
-                    <h2 className="hover:text-[#C83803] text-white lg:text-7xl xl:text-[6.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                    <h2 className="hover:text-[#C83803] text-white lg:text-7xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                       The&nbsp;
                       <br />
                       <span className="hover:text-white text-[#C83803] leading-[1.1]">Methodology</span>
@@ -280,10 +280,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Define Business Objectives
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         Identify specific inefficiencies where AI can add value.
                         Set clear, measurable Key Performance Indicators
                         (KPIs). Actionable insights that can guide businesses in
@@ -302,10 +302,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Data Quality Assessment
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         A structured process of evaluating data for Accuracy,
                         Completeness, Consistency, Timeliness, Validity and
                         Uniqueness. Then assess the work involved in cleansing
@@ -324,10 +324,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Choose the Right AI Technologies
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         The problem first approach. Start small, identify a
                         single specific workflow to automate. Prioritize tools
                         that work within your existing systems. Choose ease of
@@ -348,10 +348,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Implementation Strategy
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         Start small by launching a pilot program, where you
                         measure the return on investment. And be sure to consult
                         the U.S. SBA official guides to fully understand the
@@ -450,10 +450,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Define Business Objectives
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         Identify specific inefficiencies where AI can add value.
                         Set clear, measurable Key Performance Indicators
                         (KPIs). Actionable insights that can guide businesses in
@@ -472,10 +472,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Data Quality Assessment
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         A structured process of evaluating data for Accuracy,
                         Completeness, Consistency, Timeliness, Validity and
                         Uniqueness. Then assess the work involved in cleansing
@@ -494,10 +494,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Choose the Right AI Technologies
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         The problem first approach. Start small, identify a
                         single specific workflow to automate. Prioritize tools
                         that work within your existing systems. Choose ease of
@@ -518,10 +518,10 @@ export default function TheMethodologySection() {
                       className="w-16 h-16  text-[#0B162A] inline shadow-text pt-2"
                     />
                     <div>
-                      <h3 className="text-white font-bold lg:text-lg xl:text-xl shadow-text">
+                      <h3 className="text-white font-bold lg:text-lg shadow-text">
                         Implementation Strategy
                       </h3>
-                      <span className="text-white lg:text-sm xl:text-lg shadow-text">
+                      <span className="text-white lg:text-sm shadow-text">
                         Start small by launching a pilot program, where you
                         measure the return on investment. And be sure to consult
                         the U.S. SBA official guides to fully understand the
