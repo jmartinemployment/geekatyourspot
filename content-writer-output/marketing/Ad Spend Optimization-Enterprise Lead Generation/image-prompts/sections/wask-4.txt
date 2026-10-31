@@ -1,0 +1,1 @@
+Flat vector schematic diagram of a cloud-based architecture: interconnected modules for data input, processing engine, analytics, and output dashboard, all linked through cloud and secure connections, representing Wask’s software system design.

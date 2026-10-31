@@ -69,7 +69,7 @@ const jsonLd = {
       "@type": "WebPage",
       "url": "https://geekatyourspot.com",
       "name": "AI Consulting for South Florida Business",
-      "description": "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
+      "description": "Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
       "isPartOf": {
         "@type": "WebSite",
         "url": "https://geekatyourspot.com"
@@ -106,7 +106,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return {
     metadataBase: new URL('https://geekatyourspot.com'),
     title: HOME_TITLE,
-    description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
+    description: 'Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
     keywords: [
       'AI consulting',
       'AI for small business',
@@ -138,7 +138,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     openGraph: {
       title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
-      description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
+      description: 'Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
       url: 'https://geekatyourspot.com',
       siteName: 'Geek @ Your Spot LLC',
       images: [SHARE_IMAGE],
@@ -148,7 +148,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     twitter: {
       card: 'summary_large_image',
       title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
-      description: 'Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses.',
+      description: 'Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses.',
       images: [SHARE_IMAGE],
     },
     robots: {

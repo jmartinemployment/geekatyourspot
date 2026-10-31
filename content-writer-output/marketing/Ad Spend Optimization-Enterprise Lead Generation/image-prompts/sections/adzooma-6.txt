@@ -1,0 +1,1 @@
+A flat vector schematic of interconnected database tables, fields, and mapping lines, illustrating data structuring and relationships necessary for initial Adzooma deployment.

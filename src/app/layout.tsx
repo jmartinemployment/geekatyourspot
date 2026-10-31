@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     template: "%s | Geek @ Your Spot LLC",
   },
   description:
-    "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
+    "Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
   verification: {
     google: "_-qUvWhC_7YB2xCo9XYrMclpfDQZsSVTJuv-7pI4dYI",
   },
   openGraph: {
     title: "AI Consultancy for South Florida Business | Geek @ Your Spot LLC",
     description:
-      "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
+      "Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
     url: "https://geekatyourspot.com",
     siteName: "Geek @ Your Spot LLC",
     images: [SHARE_IMAGE],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI Consultancy for South Florida Business | Geek @ Your Spot LLC",
     description:
-      "Ready to put AI to work? Geek @ Your Spot LLC builds practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
+      "Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
     images: [SHARE_IMAGE],
   },
   category: "technology",

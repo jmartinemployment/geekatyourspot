@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin/`
+ * `src/components/tools/ai-operations/cross-platform-chatbot/botpenguin/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const botpenguinContent: ToolPageContent = {
   "title": "BotPenguin",
   "slug": "botpenguin",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/cross-platform-chatbot",
+  "department": "ai-operations",
+  "useCase": "cross-platform-chatbot",
   "description":
     "BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and the web for small businesses in Miami-Dade, Broward, and West Palm Beach.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const botpenguinContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "Picture a typical Monday morning in a small business office in Miami-Dade."},
     {"title": "What it costs to keep doing this by hand", "description": "Every small business in Miami-Dade, Broward, or West Palm Beach that relies on chat to capture leads runs into the same wall: scattered conversations across WhatsApp, Instagram, Facebook Messenger, SMS, and a website chat widget."},

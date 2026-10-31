@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk/`
+ * `src/components/tools/ai-operations/cross-platform-chatbot/myaifrontdesk/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const myaifrontdeskCrossPlatformChatbotContent: ToolPageContent = {
   "title": "My AI Front Desk",
   "slug": "myaifrontdesk",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/cross-platform-chatbot",
+  "department": "ai-operations",
+  "useCase": "cross-platform-chatbot",
   "description":
     "Cross-Platform Chatbot My AI Front Desk unifies chats, texts, and calls for small businesses in Miami-Dade, Broward and West Palm Beach. Capture every lead.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const myaifrontdeskCrossPlatformChatbotContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "Most small businesses in South Florida recognize the pattern: a prospect sends a message on your website chat while you are on a call."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every missed message or delayed reply is a lost sale."},

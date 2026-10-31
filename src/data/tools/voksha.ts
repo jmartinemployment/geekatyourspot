@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha/`
+ * `src/components/tools/ai-operations/intelligent-receptionist/voksha/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const vokshaContent: ToolPageContent = {
   "title": "Voksha",
   "slug": "voksha",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/intelligent-receptionist",
+  "department": "ai-operations",
+  "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist Voksha helps small businesses in Miami-Dade, Broward, and West Palm Beach capture every lead and stop losing customers to missed calls.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const vokshaContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "Every week, a small business in Miami-Dade loses a lead to voicemail."},
     {"title": "What It Costs to Keep Doing Reception the Old Way", "description": "The real cost of sticking with manual or legacy receptionist systems hits small businesses in Miami-Dade, Broward, and West Palm Beach hardest."},

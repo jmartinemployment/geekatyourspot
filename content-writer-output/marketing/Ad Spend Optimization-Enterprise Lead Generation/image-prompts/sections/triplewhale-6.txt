@@ -1,0 +1,1 @@
+Diagram of a data mapping interface: icons representing different data sources connected through nodes and lines to a central point, showing clear mapping paths. Clean B2B vector style.

@@ -22,7 +22,7 @@ export interface SubmitContactResult {
 const MAX_MESSAGE_LENGTH = 5000;
 
 function isValidEmail(email: string): boolean {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.exec(email) !== null;
+  return /^[^\s@]+@[^\s@.]+\.[^\s@]+$/.exec(email) !== null;
 }
 
 function isValidPhone(phone: string): boolean {

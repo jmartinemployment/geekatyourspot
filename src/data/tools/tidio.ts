@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio/`
+ * `src/components/tools/ai-operations/cross-platform-chatbot/tidio/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const tidioContent: ToolPageContent = {
   "title": "Tidio",
   "slug": "tidio",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/cross-platform-chatbot",
+  "department": "ai-operations",
+  "useCase": "cross-platform-chatbot",
   "description":
     "Cross-Platform Chatbot Tidio helps small South Florida businesses unify website, SMS, and social messaging into a single, efficient lead management dashboard.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const tidioContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "Every small business in South Florida knows the scene: a new lead texts your WhatsApp at 8 a.m., another drops a question into your website chat, and before lunch someone else sends a message on Instagram."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Small businesses in South Florida face a daily grind when it comes to customer messaging."},

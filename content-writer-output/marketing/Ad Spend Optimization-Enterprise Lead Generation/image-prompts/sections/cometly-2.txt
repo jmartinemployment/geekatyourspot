@@ -1,0 +1,1 @@
+A flat vector diagram illustrating automated data flows from ad platforms into an optimization engine, with outputs showing improved ad performance and clear ROI arrows.

@@ -4,68 +4,68 @@ export default function ToolsSection() {
   const body = (idSuffix = "") => (
     <>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-receptionist" className="text-white hover:text-[#0B162A] hover:underline">Intelligent Receptionist</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist${idSuffix}`} href="/use-cases/ai-operations/ai-receptionist" className="text-white hover:text-[#0B162A] hover:underline">Intelligent Receptionist</Link>
       </h3>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-lobbystack${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack" className="text-white hover:text-[#0B162A] hover:underline">LobbyStack</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-lobbystack${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/lobbystack" className="text-white hover:text-[#0B162A] hover:underline">LobbyStack</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         LobbyStack empowers local small businesses to stop missing calls and control their customer
         interactions with a customizable Intelligent Receptionist.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-myaifrontdesk${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk" className="text-white hover:text-[#0B162A] hover:underline">My AI Front Desk</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-myaifrontdesk${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk" className="text-white hover:text-[#0B162A] hover:underline">My AI Front Desk</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         My AI Front Desk is an Intelligent Receptionist designed for South Florida small businesses, ensuring
         every call is answered, leads are captured, and appointments are booked without missing a beat.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-nextiva${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva" className="text-white hover:text-[#0B162A] hover:underline">Nextiva</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-nextiva${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/nextiva" className="text-white hover:text-[#0B162A] hover:underline">Nextiva</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         Nextiva provides small teams with an Intelligent Receptionist that consolidates all communication
         channels, making it easier to capture and follow up on every lead.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-smith${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith" className="text-white hover:text-[#0B162A] hover:underline">Smith.ai</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-smith${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/smith" className="text-white hover:text-[#0B162A] hover:underline">Smith.ai</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         Smith.ai offers an Intelligent Receptionist solution tailored for South Florida small businesses,
         combining automated lead capture with live human backup for every call.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-voksha${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha" className="text-white hover:text-[#0B162A] hover:underline">Voksha</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-intelligent-receptionist-voksha${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/voksha" className="text-white hover:text-[#0B162A] hover:underline">Voksha</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         Voksha offers an Intelligent Receptionist solution designed for small businesses in South Florida,
         ensuring every call is answered and every lead is captured efficiently.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot${idSuffix}`} href="/use-cases/marketing/lead-capture-pipeline/ai-chatbot" className="text-white hover:text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot${idSuffix}`} href="/use-cases/ai-operations/ai-chatbot" className="text-white hover:text-[#0B162A] hover:underline">Cross-Platform Chatbot</Link>
       </h3>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-botpenguin${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin" className="text-white hover:text-[#0B162A] hover:underline">BotPenguin</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-botpenguin${idSuffix}`} href="/tools/ai-operations/cross-platform-chatbot/botpenguin" className="text-white hover:text-[#0B162A] hover:underline">BotPenguin</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         BotPenguin helps South Florida small businesses capture and manage leads efficiently by unifying every
         chat channel into a single, organized workflow.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-dapta${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta" className="text-white hover:text-[#0B162A] hover:underline">Dapta</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-dapta${idSuffix}`} href="/tools/ai-operations/cross-platform-chatbot/dapta" className="text-white hover:text-[#0B162A] hover:underline">Dapta</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         Dapta centralizes inbound messages from every channel, ensuring your local team can respond quickly
         and consistently to every lead without missing a beat.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-manychat${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat" className="text-white hover:text-[#0B162A] hover:underline">Manychat</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-manychat${idSuffix}`} href="/tools/ai-operations/cross-platform-chatbot/manychat" className="text-white hover:text-[#0B162A] hover:underline">Manychat</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         Manychat unifies your customer chats across multiple platforms, helping local small businesses
         automate responses, capture leads and keep every conversation on track.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-myaifrontdesk${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk" className="text-white hover:text-[#0B162A] hover:underline">My AI Front Desk</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-myaifrontdesk${idSuffix}`} href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk" className="text-white hover:text-[#0B162A] hover:underline">My AI Front Desk</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         My AI Front Desk streamlines every customer message from chat, text, and social media into a single,
         easy-to-manage view. Designed for South Florida businesses, it ensures no lead slips through the
         cracks.</p>
       <h4 className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-tidio${idSuffix}`} href="/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio" className="text-white hover:text-[#0B162A] hover:underline">Tidio</Link>
+        <Link id={`use-cases-marketing-intelligent-lead-capture-pipeline-tools-cross-platform-chatbot-tidio${idSuffix}`} href="/tools/ai-operations/cross-platform-chatbot/tidio" className="text-white hover:text-[#0B162A] hover:underline">Tidio</Link>
       </h4>
       <p className="text-base text-white shadow-text pt-3">
         Tidio centralizes customer conversations from website, SMS, Messenger, and Instagram, helping small

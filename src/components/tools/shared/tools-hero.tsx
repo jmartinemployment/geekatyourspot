@@ -10,7 +10,7 @@ interface HeroSectionProps {
   icon?: IconDefinition;
 }
 
-export default async function ToolsHeroSection({title, summary, icon = faScrewdriverWrench}:HeroSectionProps) {
+export default async function ToolsHeroSection({title, summary, icon = faScrewdriverWrench}: Readonly<HeroSectionProps>) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">

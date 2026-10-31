@@ -29,8 +29,6 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         label: "Lead Capture Pipeline",
         items: [
           { href: "/use-cases/marketing/ai-sales-force-automation-software", label: "Intelligent Lead Capture Pipeline" },
-          { href: "/use-cases/marketing/lead-capture-pipeline/ai-receptionist", label: "Intelligent Receptionist" },
-          { href: "/use-cases/marketing/lead-capture-pipeline/ai-chatbot", label: "Cross-Platform Chatbot" },
           { href: "/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", label: "Lead Enrichment & Predictive Scoring" },
         ],
       },
@@ -96,7 +94,16 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
   {
     href: "/use-cases/ai-operations",
     label: "AI Operations",
-    categories: [],
+    categories: [
+      {
+        id: "use-cases-ai-operations-ai-front-office",
+        label: "AI Front-Office",
+        items: [
+          { href: "/use-cases/ai-operations/ai-receptionist", label: "Intelligent Receptionist" },
+          { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
+        ],
+      },
+    ],
     items: [
       { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
     ],
@@ -113,8 +120,6 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         label: "Lead Capture Pipeline",
         items: [
           { href: "/blog/marketing/why-your-b2b-sales-need-an-intelligent-lead-capture-pipeline", label: "Lead Capture Pipelines for B2B Sales" },
-          { href: "/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "Intelligent After-Hours Receptionist" },
-          { href: "/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "Cross-Platform Chatbot Lead Capture" },
           { href: "/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales", label: "Lead Enrichment to Close More Sales" },
           { href: "/blog/marketing/lead-capture-pipeline/ai-lead-scoring", label: "AI Lead Scoring" },
           { href: "/blog/marketing/smart-chatbots-for-marketing-transforming-customer-engagement", label: "Smart Chatbots That Engage Customers" },
@@ -183,7 +188,16 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
   {
     href: "/blog/ai-operations",
     label: "AI Operations",
-    categories: [],
+    categories: [
+      {
+        id: "blog-ai-operations-ai-front-office",
+        label: "AI Front-Office",
+        items: [
+          { href: "/blog/ai-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "Intelligent After-Hours Receptionist" },
+          { href: "/blog/ai-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "Cross-Platform Chatbot Lead Capture" },
+        ],
+      },
+    ],
     items: [],
   },
 ];
@@ -199,20 +213,10 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
         items: [
           { href: "/tools/marketing/6sense", label: "6sense" },
           { href: "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", label: "Apollo" },
-          { href: "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", label: "BotPenguin" },
-          { href: "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", label: "Dapta" },
           { href: "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", label: "Factors" },
           { href: "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", label: "Leadfeeder" },
-          { href: "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack", label: "LobbyStack" },
           { href: "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", label: "Lusha" },
-          { href: "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", label: "Manychat" },
-          { href: "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", label: "My AI Front Desk (Cross-Platform Chatbot)" },
-          { href: "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk", label: "My AI Front Desk (Intelligent Receptionist)" },
-          { href: "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva", label: "Nextiva" },
-          { href: "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith", label: "Smith.ai" },
           { href: "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", label: "Snitcher" },
-          { href: "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", label: "Tidio" },
-          { href: "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", label: "Voksha" },
         ],
       },
       {
@@ -345,6 +349,22 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
     href: "/tools/ai-operations",
     label: "AI Operations",
     categories: [
+      {
+        id: "tools-ai-operations-ai-front-office",
+        label: "AI Front-Office",
+        items: [
+          { href: "/tools/ai-operations/cross-platform-chatbot/botpenguin", label: "BotPenguin" },
+          { href: "/tools/ai-operations/cross-platform-chatbot/dapta", label: "Dapta" },
+          { href: "/tools/ai-operations/intelligent-receptionist/lobbystack", label: "LobbyStack" },
+          { href: "/tools/ai-operations/cross-platform-chatbot/manychat", label: "Manychat" },
+          { href: "/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", label: "My AI Front Desk (Cross-Platform Chatbot)" },
+          { href: "/tools/ai-operations/intelligent-receptionist/myaifrontdesk", label: "My AI Front Desk (Intelligent Receptionist)" },
+          { href: "/tools/ai-operations/intelligent-receptionist/nextiva", label: "Nextiva" },
+          { href: "/tools/ai-operations/intelligent-receptionist/smith", label: "Smith.ai" },
+          { href: "/tools/ai-operations/cross-platform-chatbot/tidio", label: "Tidio" },
+          { href: "/tools/ai-operations/intelligent-receptionist/voksha", label: "Voksha" },
+        ],
+      },
       {
         id: "tools-ai-operations-data-quality-assessments",
         label: "Data Quality Assessments",

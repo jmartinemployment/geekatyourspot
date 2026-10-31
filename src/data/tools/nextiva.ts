@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva/`
+ * `src/components/tools/ai-operations/intelligent-receptionist/nextiva/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const nextivaContent: ToolPageContent = {
   "title": "Nextiva",
   "slug": "nextiva",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/intelligent-receptionist",
+  "department": "ai-operations",
+  "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist from Nextiva unifies calls, texts, and chats for small businesses in Miami-Dade, Broward, and Palm Beach counties.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const nextivaContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "A small HVAC business in West Palm Beach juggles three separate phone lines, a website chat, and a handful of text messages every hour."},
     {"title": "What it costs to keep doing this by hand", "description": "Every missed call is a missed sale, a lost appointment, or a customer who never comes back."},

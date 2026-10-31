@@ -11,7 +11,7 @@ export function GlossaryLink({
   slug,
   children,
   className = "text-[#C83803] hover:underline",
-}: GlossaryLinkProps) {
+}: Readonly<GlossaryLinkProps>) {
   return (
     <Link href={`/glossary/${slug}`} className={className}>
       {children}

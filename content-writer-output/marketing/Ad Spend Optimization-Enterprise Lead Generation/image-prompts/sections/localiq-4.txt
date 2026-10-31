@@ -1,0 +1,1 @@
+A flat vector network diagram showing a central platform connected to multiple marketing tools, ad platforms, and data sources, with secure links and modular components representing integration and data flow.

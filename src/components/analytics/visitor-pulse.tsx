@@ -275,7 +275,7 @@ function flushActive(): void {
 function resumeActive(): void {
   const page = state.page;
   if (!page || page.ended || document.visibilityState !== "visible") return;
-  if (page.activeSince === null) page.activeSince = now();
+  page.activeSince ??= now();
   armIdleTimer();
 }
 
@@ -401,7 +401,7 @@ function onClick(event: MouseEvent): void {
   } catch {
     href = anchor.getAttribute("href")?.slice(0, 2048);
   }
-  const linkId = anchor.id && anchor.id.startsWith(GTM_LINK_PREFIX) ? anchor.id.slice(0, 200) : undefined;
+  const linkId = anchor.id?.startsWith(GTM_LINK_PREFIX) ? anchor.id.slice(0, 200) : undefined;
   send({ kind: "click", pageViewId: page.pageViewId, click: { href, linkId, outbound } });
 }
 
@@ -422,7 +422,7 @@ function observeScheduler(): void {
 
   const observer = new IntersectionObserver(
     (entries) => {
-      const entry = entries[entries.length - 1];
+      const entry = entries.at(-1);
       if (!entry) return;
       // Half the section, or the section filling half the viewport when it is taller than it.
       const visible = entry.isIntersecting

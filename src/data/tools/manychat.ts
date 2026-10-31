@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat/`
+ * `src/components/tools/ai-operations/cross-platform-chatbot/manychat/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const manychatContent: ToolPageContent = {
   "title": "Manychat",
   "slug": "manychat",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/cross-platform-chatbot",
+  "department": "ai-operations",
+  "useCase": "cross-platform-chatbot",
   "description":
     "Cross-Platform Chatbot Manychat helps small businesses unify chats and automate lead capture across Instagram, WhatsApp and Messenger in South Florida.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const manychatContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "Picture the daily grind for a small business in Miami or Broward."},
     {"title": "What it costs to keep doing this by hand", "description": "Every small business in Miami-Dade, Broward or West Palm Beach that manages leads across Instagram, WhatsApp, Facebook Messenger, SMS and website chat by hand runs into the same wall."},

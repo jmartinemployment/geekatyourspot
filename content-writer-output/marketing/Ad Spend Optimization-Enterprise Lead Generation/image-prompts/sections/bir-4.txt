@@ -1,0 +1,1 @@
+A diagram showing cloud storage, various ad platforms, and a central analytics hub connected by secure data pipelines, with icons representing small teams. The architecture is highlighted as modular and efficient. Flat vector, B2B style, no text.

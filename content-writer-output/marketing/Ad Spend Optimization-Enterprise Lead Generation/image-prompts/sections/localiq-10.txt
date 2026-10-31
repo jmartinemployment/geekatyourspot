@@ -1,0 +1,1 @@
+A flat vector Venn diagram showing overlapping and non-overlapping groups, with abstract business personas inside circles, and an arrow pointing toward a next-step action.

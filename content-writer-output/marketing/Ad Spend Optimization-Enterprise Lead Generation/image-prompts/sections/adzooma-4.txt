@@ -1,0 +1,1 @@
+A flat vector layered diagram showing a cloud-based platform architecture with separate modules for data ingestion, analysis, optimization engine, and user interface, connected with arrows to depict data flow.

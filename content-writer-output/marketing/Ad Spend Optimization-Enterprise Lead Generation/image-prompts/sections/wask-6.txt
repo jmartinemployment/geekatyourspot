@@ -1,0 +1,1 @@
+Diagram showing abstract database tables, data fields, and mapping lines connecting ad data sources to Wask’s system, highlighting structured data flow and the importance of mapping decisions in deployment.

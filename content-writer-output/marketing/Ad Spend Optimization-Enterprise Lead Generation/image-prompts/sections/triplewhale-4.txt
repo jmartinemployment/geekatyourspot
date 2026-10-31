@@ -1,0 +1,1 @@
+Layered architecture diagram: data sources at the bottom, middle processing layer with nodes and connections, and top layer showing a unified analytics dashboard. Modern, flat vector, no text.

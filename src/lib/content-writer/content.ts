@@ -288,6 +288,20 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   // Content Creation Workflow group; the flat Mailchimp page was deleted on 2026-10-26.
   "/use-cases/marketing/personalized-email-campaigns": "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
   "/tools/marketing/mailchimp": "/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp",
+  // Receptionist and Chatbot moved from Marketing's Lead Capture Pipeline into AI Operations →
+  // AI Front-Office on 2026-10-31; the exports still link to the old Marketing paths.
+  "/use-cases/marketing/lead-capture-pipeline/ai-receptionist": "/use-cases/ai-operations/ai-receptionist",
+  "/use-cases/marketing/lead-capture-pipeline/ai-chatbot": "/use-cases/ai-operations/ai-chatbot",
+  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack": "/tools/ai-operations/intelligent-receptionist/lobbystack",
+  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk": "/tools/ai-operations/intelligent-receptionist/myaifrontdesk",
+  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva": "/tools/ai-operations/intelligent-receptionist/nextiva",
+  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith": "/tools/ai-operations/intelligent-receptionist/smith",
+  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha": "/tools/ai-operations/intelligent-receptionist/voksha",
+  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin": "/tools/ai-operations/cross-platform-chatbot/botpenguin",
+  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta": "/tools/ai-operations/cross-platform-chatbot/dapta",
+  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat": "/tools/ai-operations/cross-platform-chatbot/manychat",
+  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk": "/tools/ai-operations/cross-platform-chatbot/myaifrontdesk",
+  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio": "/tools/ai-operations/cross-platform-chatbot/tidio",
   // No page for these.
   "/tools/accounting/lightyear": null,
   "/tools/marketing/chatgpt": null,

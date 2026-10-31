@@ -235,20 +235,6 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/ai-sales-force-automation-software",
       },
       {
-        title: "Intelligent Receptionist",
-        slug: "intelligent-receptionist",
-        description:
-          "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
-        href: "/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
-      },
-      {
-        title: "Cross-Platform Chatbot",
-        slug: "ai-chatbot",
-        description:
-          "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-        href: "/use-cases/marketing/lead-capture-pipeline/ai-chatbot",
-      },
-      {
         title: "Lead Enrichment and Predictive Scoring",
         slug: "lead-enrichment-and-predictive-scoring",
         description:
@@ -273,6 +259,20 @@ const DEPARTMENTS: Department[] = [
     summary:
       "AI is only as good as the data behind it. AI Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
     useCases: [
+      {
+        title: "Intelligent Receptionist",
+        slug: "intelligent-receptionist",
+        description:
+          "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
+        href: "/use-cases/ai-operations/ai-receptionist",
+      },
+      {
+        title: "Cross-Platform Chatbot",
+        slug: "ai-chatbot",
+        description:
+          "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
+        href: "/use-cases/ai-operations/ai-chatbot",
+      },
       {
         title: "Data Quality Assessments",
         slug: "data-quality-assessments",

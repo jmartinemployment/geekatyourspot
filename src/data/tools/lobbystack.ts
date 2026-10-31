@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack/`
+ * `src/components/tools/ai-operations/intelligent-receptionist/lobbystack/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const lobbystackContent: ToolPageContent = {
   "title": "LobbyStack",
   "slug": "lobbystack",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/intelligent-receptionist",
+  "department": "ai-operations",
+  "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist by LobbyStack helps small businesses in Miami-Dade, Broward and West Palm Beach capture every lead and never miss a call.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const lobbystackContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "It is a Tuesday morning in Miami."},
     {"title": "What it costs to keep doing this by hand", "description": "When small businesses in South Florida rely on a traditional front desk or basic voicemail to handle incoming calls, the real cost goes far beyond a few missed messages."},

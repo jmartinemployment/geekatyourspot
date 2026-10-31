@@ -50,7 +50,7 @@ function renderInline(nodes: readonly InlineNode[], context: RenderContext): Rea
     if (node.kind === "scheduler") {
       return (
         <a
-          key={index}
+          key={position}
           href="#consultationAppointment2xl"
           id={`${schedulerLinkId(position)}${context.idSuffix}`}
           className={context.linkClassName}

@@ -1,0 +1,1 @@
+A flat vector bar graph with some bars solid and others translucent or dotted, representing clear measured outcomes versus areas that are still uncertain or unproven in ad spend optimization.

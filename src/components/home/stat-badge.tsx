@@ -23,7 +23,7 @@ interface StatBadgeProps {
  * the button, so crawlers and screen readers get the source without opening the popup; that copy
  * carries no links, so hidden links never take keyboard focus.
  */
-export function StatBadge({ id, value, label, className, valueClassName, labelClassName, source }: StatBadgeProps) {
+export function StatBadge({ id, value, label, className, valueClassName, labelClassName, source }: Readonly<StatBadgeProps>) {
   const sourceId = `${id}-source`;
   return (
     <Popover.Root>

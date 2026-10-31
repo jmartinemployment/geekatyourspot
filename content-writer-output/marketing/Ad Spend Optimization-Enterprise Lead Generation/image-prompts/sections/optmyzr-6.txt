@@ -1,0 +1,1 @@
+Vector diagram depicting data tables and mapping lines connecting different data fields, showing decisions influencing the configuration of the system for ad optimization.

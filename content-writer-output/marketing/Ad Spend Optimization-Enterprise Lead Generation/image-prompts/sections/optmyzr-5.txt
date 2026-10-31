@@ -1,0 +1,1 @@
+Step-by-step flat vector flowchart showing the deployment process: setup, integration, configuration, and go-live, using icons like computers, cloud, gears, and checkmarks.

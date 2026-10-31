@@ -44,4 +44,12 @@ export const HAND_CODED_POSTS: readonly HandCodedPost[] = [
     department: "marketing",
     date: "2026-10-26T12:35:17.8414750Z",
   },
+  {
+    href: "/blog/marketing/ad-spend-optimization/how-local-miami-small-businesses-can-stop-wasting-ad-budget-and-start-seeing-real-returns",
+    title: "How Local Miami Small Businesses Can Stop Wasting Ad Budget and Start Seeing Real Returns",
+    excerpt:
+      "Ad Spend Optimization helps Miami small businesses cut wasted ad budget and boost ROI. Learn proven steps for better results and local support today.",
+    department: "marketing",
+    date: "2026-10-30T11:33:57.5597280Z",
+  },
 ];

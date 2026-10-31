@@ -1,0 +1,1 @@
+A vector decision tree with arrows leading to different business personas, some highlighted as ideal users, others grayed out, illustrating guidance on selection and next steps.

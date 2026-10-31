@@ -1,0 +1,1 @@
+A schematic flat diagram showing modular software architecture boxes, API connections to various platforms, secure data pipelines, and cloud-based storage icons.

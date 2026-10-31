@@ -2,15 +2,15 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith/`
+ * `src/components/tools/ai-operations/intelligent-receptionist/smith/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const smithContent: ToolPageContent = {
   "title": "Smith.ai",
   "slug": "smith",
-  "department": "marketing",
-  "useCase": "lead-capture-pipeline/intelligent-receptionist",
+  "department": "ai-operations",
+  "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for client intake.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const smithContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "A plumber in West Palm Beach spends his morning juggling a full calendar, voicemails blinking on his phone, and a steady stream of new service requests coming in from the website."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every small business in South Florida knows the pain of missed connections."},

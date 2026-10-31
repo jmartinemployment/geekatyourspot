@@ -18,7 +18,7 @@ interface UseCasesHeroSectionProps {
  * (`src/components/tools/shared/tools-hero.tsx`) with the department's icon
  * in place of the wrench, so the index pages open the way every pillar does.
  */
-export default async function UseCasesHeroSection({ title, summary, department, icon }: UseCasesHeroSectionProps) {
+export default async function UseCasesHeroSection({ title, summary, department, icon }: Readonly<UseCasesHeroSectionProps>) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">

@@ -1,0 +1,1 @@
+A vector diagram showing interconnected data nodes and mapping pathways, highlighting structured data flows and the importance of correct data mapping for optimal tool performance.

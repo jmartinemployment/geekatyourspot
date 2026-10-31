@@ -15,6 +15,20 @@ const PAGE_DESCRIPTION =
 
 const USE_CASES = [
   {
+    title: "Intelligent Receptionist",
+    slug: "ai-receptionist",
+    description:
+      "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
+    href: "/use-cases/ai-operations/ai-receptionist",
+  },
+  {
+    title: "Cross-Platform Chatbot",
+    slug: "ai-chatbot",
+    description:
+      "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
+    href: "/use-cases/ai-operations/ai-chatbot",
+  },
+  {
     title: "Data Quality Assessments",
     slug: "data-quality-assessments",
     description:
