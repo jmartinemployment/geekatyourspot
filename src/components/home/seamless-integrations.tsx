@@ -110,7 +110,7 @@ export default function SeamlessIntegrationsSection() {
           <h2 className="text-white text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
             Seamless{" "}
             <br />
-            <span className="text-[#023059]  text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text inline">
+            <span className="text-[#0B162A]  text-[5.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text inline">
               Integrations
             </span>
           </h2>
