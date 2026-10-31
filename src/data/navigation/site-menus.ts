@@ -120,13 +120,6 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
           { href: "/tools/ai-operations/data-quality-assessments/qualytics", label: "Qualytics" },
         ],
       },
-      {
-        id: "use-cases-ai-operations-ai-data-infrastructure",
-        label: "AI Data Infrastructure",
-        items: [
-          { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
-        ],
-      },
     ],
     items: [],
   },
