@@ -18,6 +18,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/blog/accounting/accounts-payable", "Accounts Payable"],
   ["/blog/accounting/cash-flow-forecasting", "Cash Flow Forecasting"],
   ["/blog/accounting/tax-compliance-regulations", "Tax Compliance & Regulations"],
+  ["/blog/ai-operations", "AI Operations"],
   ["/blog/marketing", "Marketing"],
   ["/blog/marketing/ad-spend-optimization", "Ad Spend Optimization"],
   ["/blog/marketing/content-creation-workflow", "Content Creation Workflow"],

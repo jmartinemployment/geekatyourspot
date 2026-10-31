@@ -145,7 +145,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
     items: [],
   },
   {
-    href: "/blog",
+    href: "/blog/accounting",
     label: "Accounting",
     categories: [
       {
@@ -178,6 +178,12 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
         ],
       },
     ],
+    items: [],
+  },
+  {
+    href: "/blog/ai-operations",
+    label: "AI Operations",
+    categories: [],
     items: [],
   },
 ];
