@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: ["Multi-State Sales Tax Nexus", "sales tax compliance", "AI tax automation", "Florida small business tax solutions", "TaxCloud", "Zamp", "Quaderno", "TaxValet", "TaxJar", "local tax consulting"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

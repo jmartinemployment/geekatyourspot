@@ -31,7 +31,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Pipedrive for AI Lead Scoring",
         description: "Optimize sales with Pipedrive's AI lead scoring, prioritizing high-potential leads for better conversion rates.",
         keywords: ["Lead Scoring"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

@@ -48,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "AI Marketing Systems",
         description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
         keywords: ["AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: ["Intelligent Resource Planning", "Cash Flow Forecasting", "Automated Accounts Receivable", "Automated Spreadsheet Data", "Automated Enterprise Resource Planning", "AI implementation West Palm Beach", "AI for small business Miami", "Fathom", "Jirav", "Cashflowfrog"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

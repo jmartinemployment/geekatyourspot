@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["TaxJar", "tax compliance automation", "complex and changing laws", "sales tax", "economic nexus", "Florida sales tax", "South Florida small business"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

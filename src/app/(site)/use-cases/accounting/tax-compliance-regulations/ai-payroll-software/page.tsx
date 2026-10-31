@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: TITLE,
         description: DESCRIPTION,
         keywords: ["Payroll Tax & Worker Misclassification", "AI payroll compliance", "small business automation", "Miami-Dade tax compliance", "Broward small business payroll", "West Palm Beach payroll automation", "Gusto integration", "Rippling compliance tools", "Deel worker classification", "Justworks payroll AI"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

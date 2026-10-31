@@ -51,7 +51,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "AI AP Automation Software",
         description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
         keywords: ["automated accounts payable", "AP automation", "AI in finance", "accounts payable software", "financial operations", "invoice processing", "AP efficiency", "AI-driven finance", "AP tools", "business automation"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

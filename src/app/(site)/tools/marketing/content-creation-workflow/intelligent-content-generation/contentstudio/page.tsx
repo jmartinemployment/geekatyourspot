@@ -31,7 +31,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "ContentStudio for AI Content Repurposing",
         description: "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
         keywords: ["AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

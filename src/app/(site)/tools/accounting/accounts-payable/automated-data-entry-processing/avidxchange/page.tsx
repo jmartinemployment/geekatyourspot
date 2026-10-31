@@ -48,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             "paperless AP",
             "approval workflows",
         ],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

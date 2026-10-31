@@ -60,7 +60,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: PAGE_TITLE,
         description: DESCRIPTION,
         keywords: ["Bill", "automated fraud and duplicate payment controls", "accounts payable automation", "duplicate invoice detection", "invoice matching", "approval workflows"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

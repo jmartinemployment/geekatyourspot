@@ -32,7 +32,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
         description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
         keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

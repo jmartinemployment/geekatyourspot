@@ -21,8 +21,7 @@ const jsonLd: Graph = {
             "description": "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
             "author": {
                 "@type": "Person",
-                "name": "Jeff Martin",
-                "url": "https://geekatyourspot.com/about"
+                "name": "Jeff Martin"
             },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-09-02T15:52:27.1724249Z",
@@ -49,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "AI Lead Scoring",
         description: "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",
         keywords: ["Lead Scoring, AI Consulting, Small Business, ActiveCampaign, Pipedrive, Apollo, LeadSquared, 6sense"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

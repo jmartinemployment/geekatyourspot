@@ -31,7 +31,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Zapier for AI Content Repurposing",
         description: "Automate AI content repurposing with Zapier, transforming and distributing content seamlessly across platforms.",
         keywords: ["AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

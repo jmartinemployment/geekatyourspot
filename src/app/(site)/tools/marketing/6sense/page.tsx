@@ -31,7 +31,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "6sense for AI Lead Scoring",
         description: "Optimize sales with 6sense's AI-powered lead scoring, prioritizing high-potential leads efficiently.",
         keywords: ["Lead Scoring"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

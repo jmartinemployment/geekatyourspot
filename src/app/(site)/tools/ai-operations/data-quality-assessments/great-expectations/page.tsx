@@ -32,7 +32,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Great Expectations for Data Quality Assessments",
         description: "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
         keywords: ["Data Quality Assessments, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),

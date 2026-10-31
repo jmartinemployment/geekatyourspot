@@ -32,7 +32,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         title: "Monte Carlo for Data Quality Assessments",
         description: "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
         keywords: ["Data Quality Assessments, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
-        authors: [{ name: 'Jeff Martin', url: 'https://geekatyourspot.com/about' }],
+        authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
