@@ -96,16 +96,10 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
   {
     href: "/use-cases/ai-operations",
     label: "AI Operations",
-    categories: [
-      {
-        id: "use-cases-ai-operations-data-quality-assessments",
-        label: "Data Quality Assessments",
-        items: [
-          { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
-        ],
-      },
+    categories: [],
+    items: [
+      { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
     ],
-    items: [],
   },
 ];
 

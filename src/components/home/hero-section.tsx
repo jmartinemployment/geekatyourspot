@@ -50,22 +50,20 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen">
-              {/* The AVIF and WebP files are encoded already, so they are served as they are: the
-                  browser takes the AVIF source when it can and falls back to the WebP. A preload would
-                  name only one of them, so the image loads eagerly at high priority instead. */}
-              <picture>
-                <source srcSet="/images/home-hero.avif" type="image/avif" />
-                <Image
-                  src="/images/home-hero.webp"
-                  unoptimized
-                  width={1024}
-                  height={1024}
-                  loading="eager"
-                  fetchPriority="high"
-                  alt="A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."
-                  className="h-auto w-full"
-                />
-              </picture>
+              {/* The optimizer serves AVIF or WebP by content negotiation and a width-matched variant
+                  from the srcset, so the browser downloads an image sized to this column (about 420px,
+                  up to ~610px on the widest screens) instead of the full 1024px source. `priority`
+                  preloads that responsive variant because this is the desktop hero's LCP image; the
+                  column only shows at lg and up, so the sizes hint falls back to 1px below it. */}
+              <Image
+                src="/images/home-hero.webp"
+                width={1024}
+                height={1024}
+                sizes="(min-width: 1024px) 42vw, 1px"
+                priority
+                alt="A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."
+                className="h-auto w-full"
+              />
             </div>
           </div>
         </div>

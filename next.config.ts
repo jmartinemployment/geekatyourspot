@@ -36,6 +36,12 @@ const nextConfig: NextConfig = {
         { key: "X-Frame-Options", value: "DENY" },
         { key: "X-Content-Type-Options", value: "nosniff" },
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        // HTTPS-only for two years, subdomains included. `preload` is held back on purpose: it is a
+        // hard-to-reverse commitment to the browser preload list, and the site is pre-launch.
+        { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains" },
+        // Isolate the top-level window from documents it opens. `-allow-popups` keeps any OAuth or
+        // third-party popup (and the booking widget) able to talk back to the page that opened it.
+        { key: "Cross-Origin-Opener-Policy", value: "same-origin-allow-popups" },
         // Geolocation is open to this origin only: the visitor beacon asks the browser for a
         // position when the request carried no location, and nothing embedded may ask.
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(self)" },
