@@ -1073,6 +1073,42 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                 </Link>.
                                             </p>
                                         </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
+                                                AI Data Pipeline: </strong></h5>
+                                            <p className="text-black text-xs">
+                                                Automate data movement and workflow orchestration across your business systems without writing code.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Data Pipeline Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                                    href="/tools/marketing/zapier"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Zapier
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-sm">
+                                                AI Data Infrastructure: </strong></h5>
+                                            <p className="text-black text-xs">
+                                                Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                            </p>
+                                            <h6 className="text-black text-xs font-bold pt-1">
+                                                Top AI Data Infrastructure Tools:
+                                            </h6>
+                                            <p className="text-xs">
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
+                                                </Link>.
+                                            </p>
+                                        </li>
 </ul>
 </div>
 </CardContent>
@@ -2127,6 +2163,40 @@ AI Operations
                                                     href="/tools/ai-operations/data-quality-assessments/qualytics"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Qualytics
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-base">AI Data Pipeline: </strong></h5>
+                                            <p className="text-black text-sm">
+                                                Automate data movement and workflow orchestration across your business systems without writing code.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Data Pipeline Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}-lg`}
+                                                    href="/tools/marketing/zapier"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Zapier
+                                                </Link>.
+                                            </p>
+                                        </li>
+                                        <li className="pl-.5">
+                                            <h5><strong className="text-black text-base">AI Data Infrastructure: </strong></h5>
+                                            <p className="text-black text-sm">
+                                                Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                            </p>
+                                            <h6 className="text-black text-sm font-bold pt-1">
+                                                Top AI Data Infrastructure Tools:
+                                            </h6>
+                                            <p className="text-sm">
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
+                                                    href="/tools/marketing/pipedrive"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                    Pipedrive
                                                 </Link>.
                                             </p>
                                         </li>
