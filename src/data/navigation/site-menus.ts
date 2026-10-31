@@ -103,10 +103,18 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
           { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
         ],
       },
+      {
+        id: "use-cases-ai-operations-data-quality-assessments",
+        label: "Data Quality Assessments",
+        items: [
+          { href: "/tools/ai-operations/data-quality-assessments/anomalo", label: "Anomalo" },
+          { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },
+          { href: "/tools/ai-operations/data-quality-assessments/monte-carlo", label: "Monte Carlo" },
+          { href: "/tools/ai-operations/data-quality-assessments/qualytics", label: "Qualytics" },
+        ],
+      },
     ],
-    items: [
-      { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
-    ],
+    items: [],
   },
 ];
 
