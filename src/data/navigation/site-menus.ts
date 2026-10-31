@@ -243,13 +243,11 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", label: "MarketMuse" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe", label: "Marpipe" },
           { href: "/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend", label: "Moosend" },
-          { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", label: "Rytr" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", label: "Scalenut (Intelligent Content Generation)" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", label: "Scalenut (Intelligent Content Planning)" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", label: "Semrush" },
           { href: "/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", label: "Writesonic" },
-          { href: "/tools/marketing/zapier", label: "Zapier" },
         ],
       },
       {
@@ -264,11 +262,9 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
           { href: "/tools/marketing/optimove", label: "Optimove" },
           { href: "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr", label: "Optmyzr" },
           { href: "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", label: "Performance Max" },
-          { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
           { href: "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai", label: "Plai" },
           { href: "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale", label: "Triplewhale" },
           { href: "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask", label: "Wask" },
-          { href: "/tools/marketing/zapier", label: "Zapier" },
         ],
       },
     ],
@@ -366,6 +362,13 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
         ],
       },
       {
+        id: "tools-ai-operations-ai-data-pipeline",
+        label: "AI Data Pipeline",
+        items: [
+          { href: "/tools/marketing/zapier", label: "Zapier" },
+        ],
+      },
+      {
         id: "tools-ai-operations-data-quality-assessments",
         label: "Data Quality Assessments",
         items: [
@@ -373,6 +376,13 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
           { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },
           { href: "/tools/ai-operations/data-quality-assessments/monte-carlo", label: "Monte Carlo" },
           { href: "/tools/ai-operations/data-quality-assessments/qualytics", label: "Qualytics" },
+        ],
+      },
+      {
+        id: "tools-ai-operations-ai-data-infrastructure",
+        label: "AI Data Infrastructure",
+        items: [
+          { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
         ],
       },
     ],

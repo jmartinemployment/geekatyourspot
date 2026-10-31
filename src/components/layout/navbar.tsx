@@ -57,7 +57,7 @@ function MenuLink({
 }
 
 const COLUMN_CLASS =
-  "min-w-0 px-0 md:px-6 md:first:pl-0 md:last:pr-0 [&:not(:first-child)]:mt-4 [&:not(:first-child)]:border-t [&:not(:first-child)]:border-black/10 [&:not(:first-child)]:pt-4 md:[&:not(:first-child)]:mt-0 md:[&:not(:first-child)]:border-t-0 md:[&:not(:first-child)]:border-l md:[&:not(:first-child)]:pt-0";
+  "min-w-0 px-0 md:px-6 md:first:pl-0 md:last:pr-0 border-t border-black/10 pt-4 [&:not(:first-child)]:mt-4 md:[&:not(:first-child)]:mt-0";
 
 const LIST_CLASS = "m-0 mt-2 list-none space-y-1 p-0";
 
