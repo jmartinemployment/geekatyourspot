@@ -291,7 +291,7 @@ export default function Navbar(): React.JSX.Element {
             </div>
 
             {activeSection === "use-cases" && (
-              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-2">
+              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-3">
                 {USE_CASES_MENU.map((department) => (
                   <MenuDepartmentColumn
                     key={department.label}
@@ -305,7 +305,7 @@ export default function Navbar(): React.JSX.Element {
             )}
 
             {activeSection === "blog" && (
-              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-2">
+              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-3">
                 {BLOG_MENU.map((department) => (
                   <MenuDepartmentColumn
                     key={department.label}
@@ -319,7 +319,7 @@ export default function Navbar(): React.JSX.Element {
             )}
 
             {activeSection === "tools" && (
-              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-2">
+              <div className="mt-4 grid grid-cols-1 md:mt-5 md:grid-cols-3">
                 {TOOLS_MENU.map((department) => (
                   <MenuDepartmentColumn
                     key={department.label}
