@@ -3,13 +3,14 @@ import { ToolPageContent } from "@/types/tool";
 export const qualyticsContent: ToolPageContent = {
   "title": "Qualytics",
   "slug": "qualytics",
-  "department": "marketing",
+  "department": "ai-operations",
+  "useCase": "data-quality-assessments",
   "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
   "heroSummary": "Optimize ad spend with Qualytics by automating data quality checks for precise and reliable marketing decisions.",
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
   "datePublished": "2026-08-20T18:37:13.3818938Z",
   "dateModified": "2026-08-20T18:37:13.3818938Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Qualytics",
@@ -19,12 +20,12 @@ export const qualyticsContent: ToolPageContent = {
     "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/marketing/qualytics"
+      "@id": "https://geekatyourspot.com/tools/ai-operations/data-quality-assessments/qualytics"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
       "@type": "Article",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
+      "@id": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments"
     }
   },
   "sections": [

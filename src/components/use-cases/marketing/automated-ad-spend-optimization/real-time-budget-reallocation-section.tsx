@@ -11,10 +11,7 @@ export default function RealTimeBudgetReallocationSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Tools like&nbsp;
         Smartly.io&nbsp;and&nbsp;
-        <Link id={`automated-ad-spend-optimization-budget-madgicx${idSuffix}`}
-        href="/tools/marketing/madgicx" className="text-[#0B162A] font-bold hover:underline">
-        Madgicx
-      </Link>&nbsp;are at the forefront of this capability. They use AI algorithms to monitor and analyze campaign
+        Madgicx&nbsp;are at the forefront of this capability. They use AI algorithms to monitor and analyze campaign
         performance continuously. This allows marketers to shift budgets to high-performing ads or channels instantly,
         without manual intervention. Such automation not only saves time but also significantly enhances the return on ad
         spend (ROAS).</p>

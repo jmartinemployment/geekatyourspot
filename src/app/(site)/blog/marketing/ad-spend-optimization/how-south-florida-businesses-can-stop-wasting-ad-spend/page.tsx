@@ -33,7 +33,7 @@ const jsonLd: Graph = {
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Measured Lead Generation, Ad Spend Optimization, Predictive Analytics for Advertising, South Florida small business marketing, AI lead generation tools, ROI-driven advertising, lead quality improvement, Miami-Dade marketing, Broward business growth, West Palm Beach lead generation",
             "wordCount": 4544,
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization" },
             "mentions": [
                 { "@type": "Thing", "name": "Madgicx", "url": "https://madgicx.com/" },
                 { "@type": "Thing", "name": "Marpipe", "url": "https://www.marpipe.com/" },

@@ -8,8 +8,7 @@ export default function LedeSection() {
         Why do so many Miami small businesses see their ad budgets disappear without results, even when they try to
         keep costs tight? The answer is structural: when you run paid ads on less than $500 a month, every mistake
         drains your account (<a id={`blog-marketing-budget-ad-copy-message-validation-lede-source-localiq-com${idSuffix}`} href="https://localiq.com/blog/local-ppc/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">LocaliQ</a>,
-        as of Oct 23, 2026). <Link id={`blog-marketing-budget-ad-copy-message-validation-lede-budget-ad-copy-message-validation${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" className="text-[#C83803] hover:underline">Budget
-        Ad Copy &amp; Message Validation</Link> matters because, at this level, your <GlossaryLink slug="daily-budget">daily
+        as of Oct 23, 2026). <Link id={`blog-marketing-budget-ad-copy-message-validation-lede-budget-ad-copy-message-validation${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Precision Lead Acquisition</Link> matters because, at this level, your <GlossaryLink slug="daily-budget">daily
         budget</GlossaryLink> can be wiped out by just a handful of bad clicks, off-target <GlossaryLink slug="impressions">impressions</GlossaryLink>,
         or untested messages that never had a chance to convert.</p>
       <p className="text-base text-white shadow-text pt-3">

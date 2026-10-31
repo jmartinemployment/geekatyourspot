@@ -48,7 +48,6 @@ import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
 import { lobbystackContent } from "@/data/tools/lobbystack";
 import { lushaContent } from "@/data/tools/lusha";
-import { madgicxContent } from "@/data/tools/madgicx";
 import { marpipeContent } from "@/data/tools/marpipe";
 import { mailchimpContent } from "@/data/tools/mailchimp";
 import { getresponseContent } from "@/data/tools/getresponse";
@@ -93,7 +92,11 @@ import { zampMultiStateSalesTaxNexusContent } from "@/data/tools/zamp-multi-stat
 import { anywordContent } from "@/data/tools/anyword";
 import { adcreativeContent } from "@/data/tools/adcreative";
 import { adzoomaContent } from "@/data/tools/adzooma";
-import { anywordBudgetAdCopyMessageValidationContent } from "@/data/tools/anyword-budget-ad-copy-message-validation";
+import { birContent } from "@/data/tools/bir";
+import { cometlyContent } from "@/data/tools/cometly";
+import { optmyzrContent } from "@/data/tools/optmyzr";
+import { triplewhaleContent } from "@/data/tools/triplewhale";
+import { waskContent } from "@/data/tools/wask";
 import { googlePerformanceMaxContent } from "@/data/tools/google-performance-max";
 import { localiqContent } from "@/data/tools/localiq";
 import { plaiContent } from "@/data/tools/plai";
@@ -162,7 +165,6 @@ const toolsMap: Record<string, ToolPageContent> = {
   "leadfeeder": leadfeederContent,
   "lobbystack": lobbystackContent,
   "lusha": lushaContent,
-  "madgicx": madgicxContent,
   "marpipe": marpipeContent,
   "mailchimp": mailchimpContent,
   "getresponse": getresponseContent,
@@ -207,7 +209,11 @@ const toolsMap: Record<string, ToolPageContent> = {
   "anyword": anywordContent,
   "adcreative": adcreativeContent,
   "adzooma": adzoomaContent,
-  "anyword-budget-ad-copy-message-validation": anywordBudgetAdCopyMessageValidationContent,
+  "bir": birContent,
+  "cometly": cometlyContent,
+  "optmyzr": optmyzrContent,
+  "triplewhale": triplewhaleContent,
+  "wask": waskContent,
   "google-performance-max": googlePerformanceMaxContent,
   "localiq": localiqContent,
   "plai": plaiContent,

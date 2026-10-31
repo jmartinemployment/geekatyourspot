@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe/`
+ * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const marpipeContent: ToolPageContent = {
   "title": "Marpipe",
   "slug": "marpipe",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/measured-lead-generation",
+  "useCase": "content-creation-workflow/intelligent-content-generation",
   "description":
     "Measured Lead Generation with Marpipe automates ad creation and campaign management, reducing cost spikes and enabling predictable growth. Compare options now.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const marpipeContent: ToolPageContent = {
   "datePublished": "2026-10-25T11:32:40.1839700Z",
   "dateModified": "2026-10-25T11:32:40.1839700Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "sections": [
     {"title": "Overview", "description": "Why does trying to scale digital advertising with manual workflows always seem to backfire for small businesses spending $16 to $50 a day, and why does cost-per-lead spike just when you need results (Marpipe, as of Oct 24, 2026)?"},
     {"title": "What it costs to keep doing this by hand", "description": "Sticking with manual processes for digital lead generation locks small businesses into a cycle of wasted hours, rising costs, and unpredictable results."},

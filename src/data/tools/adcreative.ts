@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative/`
+ * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const adcreativeContent: ToolPageContent = {
   "title": "AdCreative",
   "slug": "adcreative",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/budget-local-ad-spending",
+  "useCase": "content-creation-workflow/intelligent-content-generation",
   "description":
     "Budget Ad Copy & Message Validation turns your ad spend into qualified leads, not wasted clicks, for South Florida small businesses. See results now.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const adcreativeContent: ToolPageContent = {
   "datePublished": "2026-10-24T16:08:13.8759570Z",
   "dateModified": "2026-10-24T16:08:13.8759570Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation",
+    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
   "sections": [
     {"title": "Overview", "description": "Why do small businesses in South Florida see their ad budgets disappear with little to show for it, even after careful targeting and daily monitoring?"},
     {"title": "What it costs to keep doing this by hand", "description": "Small businesses in South Florida who try to manage ad copy and message validation manually face a cycle of wasted spend and lost time."},

@@ -33,7 +33,7 @@ const jsonLd: Graph = {
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Budget Ad Copy & Message Validation, Miami small business ad testing, local ad message validation, affordable ad optimization Miami, AI ad copy validation, South Florida digital ads, small business ad ROI, ad testing tools Miami, AI for local ads, cost-effective ad campaigns",
             "wordCount": 4873,
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" },
             "mentions": [
                 { "@type": "Thing", "name": "AdCreative", "url": "https://www.adcreative.ai/" },
                 { "@type": "Thing", "name": "Adzooma", "url": "https://www.adzooma.com/" },

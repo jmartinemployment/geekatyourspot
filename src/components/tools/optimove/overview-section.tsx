@@ -25,7 +25,7 @@ export default function OverviewToolSection() {
                 results in higher&nbsp;<GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>, reduced costs, and ultimately, improved customer satisfaction.</p>
               <p className="text-base text-white shadow-text pt-3">Unlike traditional ad management tools, Optimove continuously learns and adapts to changing market conditions,
                 ensuring that businesses can maintain a competitive edge. Its ability to provide actionable insights and automate
-                complex data analysis processes sets it apart from other solutions like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-optimove-overview-madgicx" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>. As a
+                complex data analysis processes sets it apart from other solutions like Google Ads Smart Bidding and&nbsp;Madgicx. As a
                 result, businesses can focus more on strategic planning and less on the operational intricacies of ad management.</p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function OverviewToolSection() {
                 results in higher&nbsp;<GlossaryLink slug="conversion-funnel">conversion rates</GlossaryLink>, reduced costs, and ultimately, improved customer satisfaction.</p>
               <p className="text-base text-white shadow-text pt-3">Unlike traditional ad management tools, Optimove continuously learns and adapts to changing market conditions,
                 ensuring that businesses can maintain a competitive edge. Its ability to provide actionable insights and automate
-                complex data analysis processes sets it apart from other solutions like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-optimove-overview-madgicx-lg" href="/tools/marketing/madgicx" className="text-[#C83803] hover:underline">Madgicx</Link>. As a
+                complex data analysis processes sets it apart from other solutions like Google Ads Smart Bidding and&nbsp;Madgicx. As a
                 result, businesses can focus more on strategic planning and less on the operational intricacies of ad management.</p>
             </div>
           </div>

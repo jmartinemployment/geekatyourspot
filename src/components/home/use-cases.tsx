@@ -659,8 +659,8 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative", "AdCreative")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     AdCreative
                                                 </Link>,{" "}
@@ -713,8 +713,8 @@ export function UseCasesSection() {
                                                     Koala
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe", "Marpipe")}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Marpipe
                                                 </Link>,{" "}
@@ -846,43 +846,73 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation", "Budget Ad Copy & Message Validation")}
-                                                href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition", "Precision Lead Acquisition")}
+                                                href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
-                                                    Precision Lead Acquisition (Under $500/Month):
+                                                    Precision Lead Acquisition:
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs">
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top Budget Ad Copy & Message Validation Tools:
+                                                Top Precision Lead Acquisition Tools:
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Adzooma
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", "Performance Max")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma", "Adzooma")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Adzooma
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir", "Bir")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Bir
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly", "Cometly")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Cometly
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq", "LocaliQ")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LocaliQ
-                                                </Link>,{" "}or&nbsp;
+                                                </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai", "Plai")}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr", "Optmyzr")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Optmyzr
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai", "Plai")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Plai
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale", "Triplewhale")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Triplewhale
+                                                </Link>,{" "}or&nbsp;
+                                                <Link
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask", "Wask")}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Wask
                                                 </Link>.
                                             </p>
                                         </li>
@@ -1018,26 +1048,26 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                             </h6>
                                             <p className="text-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}
-                                                    href="/tools/marketing/monte-carlo"
+                                                    id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}
+                                                    href="/tools/ai-operations/data-quality-assessments/monte-carlo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Monte Carlo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}
-                                                    href="/tools/marketing/anomalo"
+                                                    id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}
+                                                    href="/tools/ai-operations/data-quality-assessments/anomalo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Anomalo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}
-                                                    href="/tools/marketing/great-expectations"
+                                                    id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}
+                                                    href="/tools/ai-operations/data-quality-assessments/great-expectations"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Great Expectations
                                                 </Link>,{" "}or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}
-                                                    href="/tools/marketing/qualytics"
+                                                    id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}
+                                                    href="/tools/ai-operations/data-quality-assessments/qualytics"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Qualytics
                                                 </Link>.
@@ -1678,8 +1708,8 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative", "AdCreative")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adcreative"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative", "AdCreative")}-lg`}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     AdCreative
                                                 </Link>,{" "}
@@ -1732,8 +1762,8 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                                     Koala
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe", "Marpipe")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/measured-lead-generation/marpipe"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe", "Marpipe")}-lg`}
+                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Marpipe
                                                 </Link>,{" "}
@@ -1865,43 +1895,73 @@ className="text-white shadow-xl ml-55 mb-2 inline"
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation", "Budget Ad Copy & Message Validation")}-lg`}
-                                                href="/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition", "Precision Lead Acquisition")}-lg`}
+                                                href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
-                                                    Precision Lead Acquisition (Under $500/Month):
+                                                    Precision Lead Acquisition:
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-sm">
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top Budget Ad Copy & Message Validation Tools:
+                                                Top Precision Lead Acquisition Tools:
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma", "Adzooma")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma"
-                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                                    Adzooma
-                                                </Link>,{" "}
-                                                <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max", "Performance Max")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", "Performance Max")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq", "LocaliQ")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/localiq"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma", "Adzooma")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Adzooma
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir", "Bir")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Bir
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly", "Cometly")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Cometly
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq", "LocaliQ")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LocaliQ
-                                                </Link>,{" "}or&nbsp;
+                                                </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai", "Plai")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/budget-local-ad-spending/plai"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr", "Optmyzr")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Optmyzr
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai", "Plai")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Plai
+                                                </Link>,{" "}
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale", "Triplewhale")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Triplewhale
+                                                </Link>,{" "}or&nbsp;
+                                                <Link
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask", "Wask")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask"
+                                                    className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                    Wask
                                                 </Link>.
                                             </p>
                                         </li>
@@ -2045,26 +2105,26 @@ AI Operations
                                             </h6>
                                             <p className="text-sm">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/monte-carlo", "Monte Carlo")}-lg`}
-                                                    href="/tools/marketing/monte-carlo"
+                                                    id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}-lg`}
+                                                    href="/tools/ai-operations/data-quality-assessments/monte-carlo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Monte Carlo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/anomalo", "Anomalo")}-lg`}
-                                                    href="/tools/marketing/anomalo"
+                                                    id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}-lg`}
+                                                    href="/tools/ai-operations/data-quality-assessments/anomalo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Anomalo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/great-expectations", "Great Expectations")}-lg`}
-                                                    href="/tools/marketing/great-expectations"
+                                                    id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}-lg`}
+                                                    href="/tools/ai-operations/data-quality-assessments/great-expectations"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Great Expectations
                                                 </Link>,{" "}or&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/qualytics", "Qualytics")}-lg`}
-                                                    href="/tools/marketing/qualytics"
+                                                    id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}-lg`}
+                                                    href="/tools/ai-operations/data-quality-assessments/qualytics"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                     Qualytics
                                                 </Link>.

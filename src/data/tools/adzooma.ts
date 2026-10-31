@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/budget-local-ad-spending/adzooma/`
+ * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,29 +10,29 @@ export const adzoomaContent: ToolPageContent = {
   "title": "Adzooma",
   "slug": "adzooma",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/budget-local-ad-spending",
+  "useCase": "ad-spend-optimization/precision-lead-acquisition",
   "description":
-    "Budget Ad Copy & Message Validation with Adzooma helps small South Florida businesses cut wasted spend and protect micro-budgets. Try smarter validation now.",
+    "Ad Spend Optimization with Adzooma helps South Florida small businesses cut wasted budget and improve campaign results. See where your money works best.",
   "heroSummary":
-    "Adzooma offers AI-powered budget ad copy and message validation, helping Miami-Dade, Broward, and West Palm Beach small businesses maximize every ad dollar.",
+    "Adzooma helps Miami-Dade, Broward and Palm Beach small businesses centralize ad management, spot wasted spend, and quickly improve campaign performance.",
   "keywords":
-    "Adzooma, budget ad copy and message validation, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
-  "datePublished": "2026-10-24T16:08:13.8759570Z",
-  "dateModified": "2026-10-24T16:08:13.8759570Z",
+    "Adzooma, precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
+  "datePublished": "2026-10-30T11:33:57.5597280Z",
+  "dateModified": "2026-10-30T11:33:57.5597280Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation",
+    "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition",
   "sections": [
-    {"title": "Overview", "description": "Why do small businesses in Miami-Dade, Broward, and West Palm Beach keep losing precious ad dollars, despite careful planning and tight controls on spend?"},
-    {"title": "What it costs to keep doing this by hand", "description": "Manual budget ad copy and message validation drains small teams in South Florida of both time and money."},
-    {"title": "How Adzooma removes manual work from Budget Ad Copy & Message Validation", "description": "Adzooma removes the manual grind from budget ad copy and message validation by turning scattered, error-prone processes into a single, automated workflow."},
-    {"title": "How Adzooma’s Automation Engine Powers Ad Copy and Budget Validation", "description": "Adzooma automates the daily grind of ad copy and budget validation by running continuous, cross-platform checks and surfacing actionable fixes in real time."},
-    {"title": "What Adzooma Connects, What Data It Holds, and How It Structures Your Ad Operations", "description": "Adzooma’s architecture is designed for multi-channel ad management, unifying Google Ads, Meta (Facebook) Ads, and Microsoft Ads into a single operational hub."},
-    {"title": "What it takes to go live with Adzooma in a real small-business environment", "description": "Getting Adzooma live inside a South Florida small business is a short, structured process."},
-    {"title": "Mapping and structuring data for Adzooma deployment", "description": "The data structure and mapping decisions you make at the start of an Adzooma deployment set the foundation for every automation, alert, and optimization that follows."},
-    {"title": "What gets configured in Adzooma, its own rules and automation logic, and its extension mechanism", "description": "Adzooma lets you automate, monitor, and optimize budget ad copy and message validation by configuring rules, alerts, and AI-driven recommendations inside a single dashboard."},
-    {"title": "How a buyer should judge Adzooma on fit and on its pricing model", "description": "A buyer should judge Adzooma on whether it matches the pace, budget, and oversight needs of a small business running digital ads under tight constraints."},
-    {"title": "How Adzooma Compares to Agency, Manual, and Competing AI Approaches", "description": "Adzooma sits between expensive agency services and manual ad management, offering automation and oversight that neither can match for small-budget teams."},
-    {"title": "Which Teams Get the Most from Adzooma, and Who Should Look Elsewhere", "description": "Adzooma is built for small teams managing digital ad budgets where every dollar counts and where manual oversight is stretched thin."},
-    {"title": "Frequently Asked Questions", "description": "21 questions about Adzooma, answered for South Florida small businesses weighing budget ad copy and message validation."}
+    {"title": "Overview", "description": "Why am I spending so much on ads but still unsure which ones are actually bringing customers in?"},
+    {"title": "What it costs to keep doing this by hand", "description": "Manual ad management across Google, Facebook, and Microsoft Ads costs small businesses in South Florida lost hours, wasted budget, and missed sales."},
+    {"title": "How Adzooma removes manual work from Ad Spend Optimization", "description": "Adzooma removes the pain of manual ad management by giving small teams one dashboard for all their Google, Facebook, and Microsoft Ads."},
+    {"title": "Adzooma’s Optimization Process", "description": "Adzooma works by connecting all your paid ad accounts, Google, Meta, and Microsoft, into one dashboard, then running continuous audits and serving up prioritized, actionable fixes for wasted spend and underperformance."},
+    {"title": "Adzooma’s Platform Architecture", "description": "Adzooma is built as a cross-platform management hub that connects directly to Google Ads, Meta Ads, and Microsoft Advertising accounts, pulling live data for unified analysis and action."},
+    {"title": "What going live with Adzooma looks like for a small business and how to shorten the process", "description": "Getting Adzooma live in a small business means connecting every Google, Meta, and Microsoft ad account to one dashboard, then letting the platform run its first full audit and surface optimization actions."},
+    {"title": "The data structure and mapping decisions that matter upfront when deploying Adzooma", "description": "The critical data decisions when rolling out Adzooma start with how your ad accounts are structured and how campaign elements map into a unified dashboard."},
+    {"title": "What gets configured in Adzooma", "description": "Adzooma is set up by configuring automation rules, alert thresholds, and optimization logic specific to each ad account and business goal."},
+    {"title": "How to judge Adzooma’s fit and pricing for your small business", "description": "Adzooma is built for small businesses and agencies that want to reduce wasted ad spend and manual oversight across Google, Meta, and Microsoft Ads."},
+    {"title": "How Adzooma Compares to Other Ad Spend Optimization Tools and Approaches", "description": "Adzooma stands out for small businesses that want to manage Google, Meta, and Microsoft ad spend from one place, with real-time opportunity detection and automated fixes."},
+    {"title": "Who Adzooma Is For, Who It Is Not, and What to Do Next", "description": "Adzooma is designed for small businesses and agencies that want direct control over their paid ad spend, need to manage multiple accounts, and lack the time or resources for daily manual optimization."},
+    {"title": "Frequently Asked Questions", "description": "21 questions about Adzooma, answered for South Florida small businesses weighing precision lead acquisition and ad spend optimization."}
   ]
 };

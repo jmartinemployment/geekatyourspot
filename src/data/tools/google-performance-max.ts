@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/budget-local-ad-spending/google-performance-max/`
+ * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const googlePerformanceMaxContent: ToolPageContent = {
   "title": "Performance Max",
   "slug": "google-performance-max",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/budget-local-ad-spending",
+  "useCase": "ad-spend-optimization/precision-lead-acquisition",
   "description":
     "Budget Ad Copy & Message Validation helps South Florida small businesses cut wasted ad spend by up to $16 daily. Protect your budget, test smarter now.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const googlePerformanceMaxContent: ToolPageContent = {
   "datePublished": "2026-10-24T16:08:13.8759570Z",
   "dateModified": "2026-10-24T16:08:13.8759570Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation",
+    "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition",
   "sections": [
     {"title": "Overview", "description": "How much money do small businesses in Miami-Dade, Broward and West Palm Beach lose each month trying to manage their own ad copy and message validation on a budget under $500?"},
     {"title": "What it costs to keep doing this by hand", "description": "Manual ad copy and message validation on a small budget is a losing game for local businesses."},

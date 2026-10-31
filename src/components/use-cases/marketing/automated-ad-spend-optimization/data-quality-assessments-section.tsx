@@ -10,11 +10,11 @@ export default function DataQualityAssessmentsSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Tools like&nbsp;
         <Link id={`automated-ad-spend-optimization-dq-anomalo${idSuffix}`}
-        href="/tools/marketing/anomalo" className="text-[#0B162A] font-bold hover:underline">
+        href="/tools/ai-operations/data-quality-assessments/anomalo" className="text-[#0B162A] font-bold hover:underline">
         Anomalo
       </Link>&nbsp;and&nbsp;
         <Link id={`automated-ad-spend-optimization-dq-monte-carlo${idSuffix}`}
-        href="/tools/marketing/monte-carlo" className="text-[#0B162A] font-bold hover:underline">
+        href="/tools/ai-operations/data-quality-assessments/monte-carlo" className="text-[#0B162A] font-bold hover:underline">
         Monte Carlo
       </Link>&nbsp;help automate the detection of data anomalies. These platforms use machine learning algorithms to
         identify inconsistencies and missing data points, alerting marketers to potential issues before they impact campaign
@@ -33,7 +33,7 @@ export default function DataQualityAssessmentsSection() {
         Data integrity is essential for any AI-driven marketing strategy. Without it, the insights derived from data analysis
         can be misleading, leading to poor strategic decisions. Tools like&nbsp;
         <Link id={`automated-ad-spend-optimization-dq-great-expectations${idSuffix}`}
-        href="/tools/marketing/great-expectations" className="text-[#0B162A] font-bold hover:underline">
+        href="/tools/ai-operations/data-quality-assessments/great-expectations" className="text-[#0B162A] font-bold hover:underline">
         Great Expectations
       </Link>&nbsp;provide frameworks for maintaining data quality by validating, documenting, and testing data pipelines
         regularly.</p>
@@ -45,7 +45,7 @@ export default function DataQualityAssessmentsSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Automated data monitoring is a critical component of maintaining high data quality. By using tools like&nbsp;
         <Link id={`automated-ad-spend-optimization-dq-qualytics${idSuffix}`}
-        href="/tools/marketing/qualytics" className="text-[#0B162A] font-bold hover:underline">
+        href="/tools/ai-operations/data-quality-assessments/qualytics" className="text-[#0B162A] font-bold hover:underline">
         Qualytics
       </Link>, businesses can track data flow and integrity in real-time, ensuring that errors are caught and corrected
         swiftly. This reduces the manual effort required for data validation, allowing teams to focus on strategic
@@ -58,7 +58,7 @@ export default function DataQualityAssessmentsSection() {
         Data anomalies can lead to incorrect assumptions and flawed marketing strategies. Identifying and addressing these
         anomalies is essential for maintaining the accuracy of ad spend optimization efforts. Platforms like&nbsp;
         <Link id={`automated-ad-spend-optimization-dq-adobe-mix-modeler${idSuffix}`}
-        href="/tools/marketing/adobe-mix-modeler" className="text-[#0B162A] font-bold hover:underline">
+        href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler" className="text-[#0B162A] font-bold hover:underline">
         Adobe Mix Modeler
       </Link>&nbsp;offer advanced capabilities for anomaly detection, allowing marketers to refine their strategies based
         on accurate data insights.</p>

@@ -221,11 +221,11 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/automated-ad-spend-optimization",
       },
       {
-        title: "Budget Ad Copy & Message Validation",
-        slug: "ai-budget-ad-copy-message-validation",
+        title: "Precision Lead Acquisition",
+        slug: "ai-precision-lead-acquisition",
         description:
-          "Budget Ad Copy & Message Validation helps small businesses lower ad costs and boost results with AI-driven testing. Start your free assessment today.",
-        href: "/use-cases/marketing/ad-spend-optimization/ai-budget-ad-copy-message-validation",
+          "Ad Spend Optimization helps Miami-Dade, Broward and Palm Beach small businesses cut wasted ad spend and boost ROI with AI. Get your free AI assessment.",
+        href: "/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition",
       },
       {
         title: "Intelligent Lead Capture Pipeline",
@@ -261,6 +261,24 @@ const DEPARTMENTS: Department[] = [
         description:
           "Explore AI-driven SEO blog and article generation to automate content creation, enhance efficiency, and boost marketing results.",
         href: "/use-cases/marketing/ai-seo-tools",
+      },
+    ],
+  },
+  {
+    name: "ai-operations",
+    title: "AI Operations",
+    description:
+      "Make AI dependable by fixing the data: validate and clean what feeds your models before it reaches an LLM.",
+    href: "/use-cases/ai-operations",
+    summary:
+      "AI is only as good as the data behind it. AI Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
+    useCases: [
+      {
+        title: "Data Quality Assessments",
+        slug: "data-quality-assessments",
+        description:
+          "Build automated validation that scans your data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.",
+        href: "/use-cases/ai-operations/data-quality-assessments",
       },
     ],
   },

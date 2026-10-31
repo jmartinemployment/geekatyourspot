@@ -35,10 +35,7 @@ export default function AutomatedRulesBiddingSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Tools like&nbsp;
         HubSpot&nbsp;and&nbsp;
-        <Link id={`automated-ad-spend-optimization-rules-madgicx${idSuffix}`}
-        href="/tools/marketing/madgicx" className="text-[#0B162A] hover:underline">
-        Madgicx
-      </Link>&nbsp;provide functionalities to create and manage these rules efficiently. They enable marketers to automate
+        Madgicx&nbsp;provide functionalities to create and manage these rules efficiently. They enable marketers to automate
         responses to changing market conditions, ensuring campaigns are always aligned with business goals.</p>
       <h4 id={`aligning-rules-with-business-goals${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Aligning Rules with Business Goals</h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">
