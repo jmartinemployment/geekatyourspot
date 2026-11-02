@@ -111,19 +111,14 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         ],
       },
       {
-        id: "use-cases-ai-operations-data-quality-assessments",
-        label: "Data Quality Assessments",
+        id: "use-cases-ai-operations-data",
+        label: "Data",
         items: [
           { href: "/tools/ai-operations/data-quality-assessments/anomalo", label: "Anomalo" },
           { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },
           { href: "/tools/ai-operations/data-quality-assessments/monte-carlo", label: "Monte Carlo" },
           { href: "/tools/ai-operations/data-quality-assessments/qualytics", label: "Qualytics" },
-        ],
-      },
-      {
-        id: "use-cases-ai-operations-ai-data-infrastructure",
-        label: "AI Data Infrastructure",
-        items: [
+          { href: "/tools/marketing/zapier", label: "Zapier" },
           { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
         ],
       },
@@ -391,19 +386,14 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
         ],
       },
       {
-        id: "tools-ai-operations-data-quality-assessments",
-        label: "Data Quality Assessments",
+        id: "tools-ai-operations-data",
+        label: "Data",
         items: [
           { href: "/tools/ai-operations/data-quality-assessments/anomalo", label: "Anomalo" },
           { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },
           { href: "/tools/ai-operations/data-quality-assessments/monte-carlo", label: "Monte Carlo" },
           { href: "/tools/ai-operations/data-quality-assessments/qualytics", label: "Qualytics" },
-        ],
-      },
-      {
-        id: "tools-ai-operations-ai-data-infrastructure",
-        label: "AI Data Infrastructure",
-        items: [
+          { href: "/tools/marketing/zapier", label: "Zapier" },
           { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
         ],
       },

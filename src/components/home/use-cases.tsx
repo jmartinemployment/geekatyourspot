@@ -1079,18 +1079,29 @@ export function UseCasesSection() {
                                     </p>
                                 </li>
                             </ul>
-                            <Link id="home-use-cases-ai-operations-data-quality-assessments"
+                            <Link id="home-use-cases-ai-operations-data"
                                 href="/tools/ai-operations/data-quality-assessments/monte-carlo"
                                 className="hover:underline">
                                 <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                    Data Quality Assessments
+                                    Data
                                 </h4>
                             </Link>
                             <p className="text-black text-xs">
-                                Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                Manage and activate the data layer that powers your AI-driven business operations.
                             </p>
                             <ul className="list-disc text-xs text-black list- pl-3 ">
                                 <li className="pl-.5">
+                                    <Link
+                                        id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Data Quality Assessments")}
+                                        href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                        <h5 className="text-black text-sm font-bold shadow-text">
+                                            Data Quality Assessments:
+                                        </h5>
+                                    </Link>
+                                    <p className="text-black text-xs">
+                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                    </p>
                                     <h6 className="text-black text-xs font-bold pt-1">
                                         Top AI Data Quality Tools:
                                     </h6>
@@ -1121,29 +1132,52 @@ export function UseCasesSection() {
                                         </Link>.
                                     </p>
                                 </li>
-                            </ul>
-                            <Link id="home-use-cases-ai-operations-ai-data-infrastructure"
-                                href="/tools/marketing/pipedrive"
-                                className="hover:underline">
-                                <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                    AI Data Infrastructure
-                                </h4>
-                            </Link>
-                            <p className="text-black text-xs">
-                                Build and manage the customer data layer that powers your AI-driven sales and operations.
-                            </p>
-                            <ul className="list-disc text-xs text-black list- pl-3 ">
                                 <li className="pl-.5">
                                     <Link
-                                        id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                        id={gtmLinkIdFromHref("/tools/marketing/zapier", "AI Workflows")}
+                                        href="/tools/marketing/zapier"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                        <h5 className="text-black text-sm font-bold shadow-text">
+                                            AI Workflows:
+                                        </h5>
+                                    </Link>
+                                    <p className="text-black text-xs">
+                                        Automate data movement and workflow orchestration across your business systems without writing code.
+                                    </p>
+                                    <h6 className="text-black text-xs font-bold pt-1">
+                                        Top AI Workflow Tools:
+                                    </h6>
+                                    <p className="text-xs">
+                                        <Link
+                                            id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
+                                            href="/tools/marketing/zapier"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                            Zapier
+                                        </Link>.
+                                    </p>
+                                </li>
+                                <li className="pl-.5">
+                                    <Link
+                                        id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "AI CRM")}
                                         href="/tools/marketing/pipedrive"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline">
                                         <h5 className="text-black text-sm font-bold shadow-text">
-                                            Pipedrive:
+                                            AI CRM:
                                         </h5>
                                     </Link>
                                     <p className="text-black text-xs">
                                         Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                    </p>
+                                    <h6 className="text-black text-xs font-bold pt-1">
+                                        Top AI CRM Tools:
+                                    </h6>
+                                    <p className="text-xs">
+                                        <Link
+                                            id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                            href="/tools/marketing/pipedrive"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                            Pipedrive
+                                        </Link>.
                                     </p>
                                 </li>
                             </ul>
@@ -2207,18 +2241,29 @@ className="text-white mb-4"
                                     </p>
                                 </li>
                             </ul>
-                            <Link id="home-use-cases-ai-operations-data-quality-assessments-lg"
+                            <Link id="home-use-cases-ai-operations-data-lg"
                                 href="/tools/ai-operations/data-quality-assessments/monte-carlo"
                                 className="hover:underline">
                                 <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                    Data Quality Assessments
+                                    Data
                                 </h4>
                             </Link>
                             <p className="text-black text-sm">
-                                Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                Manage and activate the data layer that powers your AI-driven business operations.
                             </p>
                             <ul className="list-disc text-sm text-black list- pl-3 ">
                                 <li className="pl-.5">
+                                    <Link
+                                        id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Data Quality Assessments")}-lg`}
+                                        href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                        <h5 className="text-black text-base font-bold shadow-text">
+                                            Data Quality Assessments:
+                                        </h5>
+                                    </Link>
+                                    <p className="text-black text-sm">
+                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                    </p>
                                     <h6 className="text-black text-sm font-bold pt-1">
                                         Top AI Data Quality Tools:
                                     </h6>
@@ -2249,29 +2294,52 @@ className="text-white mb-4"
                                         </Link>.
                                     </p>
                                 </li>
-                            </ul>
-                            <Link id="home-use-cases-ai-operations-ai-data-infrastructure-lg"
-                                href="/tools/marketing/pipedrive"
-                                className="hover:underline">
-                                <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                    AI Data Infrastructure
-                                </h4>
-                            </Link>
-                            <p className="text-black text-sm">
-                                Build and manage the customer data layer that powers your AI-driven sales and operations.
-                            </p>
-                            <ul className="list-disc text-sm text-black list- pl-3 ">
                                 <li className="pl-.5">
                                     <Link
-                                        id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
+                                        id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "AI Workflows")}-lg`}
+                                        href="/tools/marketing/zapier"
+                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                        <h5 className="text-black text-base font-bold shadow-text">
+                                            AI Workflows:
+                                        </h5>
+                                    </Link>
+                                    <p className="text-black text-sm">
+                                        Automate data movement and workflow orchestration across your business systems without writing code.
+                                    </p>
+                                    <h6 className="text-black text-sm font-bold pt-1">
+                                        Top AI Workflow Tools:
+                                    </h6>
+                                    <p className="text-sm">
+                                        <Link
+                                            id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}-lg`}
+                                            href="/tools/marketing/zapier"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                            Zapier
+                                        </Link>.
+                                    </p>
+                                </li>
+                                <li className="pl-.5">
+                                    <Link
+                                        id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "AI CRM")}-lg`}
                                         href="/tools/marketing/pipedrive"
                                         className="hover:text-[#C83803] text-[#000000] hover:underline">
                                         <h5 className="text-black text-base font-bold shadow-text">
-                                            Pipedrive:
+                                            AI CRM:
                                         </h5>
                                     </Link>
                                     <p className="text-black text-sm">
                                         Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                    </p>
+                                    <h6 className="text-black text-sm font-bold pt-1">
+                                        Top AI CRM Tools:
+                                    </h6>
+                                    <p className="text-sm">
+                                        <Link
+                                            id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
+                                            href="/tools/marketing/pipedrive"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                            Pipedrive
+                                        </Link>.
                                     </p>
                                 </li>
                             </ul>
