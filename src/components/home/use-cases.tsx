@@ -921,8 +921,8 @@ export function UseCasesSection() {
                             </CardContent>
                         </Card>
                     </div>
-                    <div className="col-span-full bg-[#8C4E2A] shadow-xl">
-                        <Card className="bg-[#8C4E2A] pt-0 shadow-xl gap-2">
+                    <div className="col-span-full bg-[#CBCBCB] shadow-xl">
+                        <Card className="bg-[#CBCBCB] pt-0 shadow-xl gap-2">
                             <CardHeader className="bg-[#0B162A] py-2">
                                 <CardTitle>
                                     <Link
