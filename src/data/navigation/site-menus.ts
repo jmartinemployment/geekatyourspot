@@ -97,20 +97,18 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
     categories: [
       {
         id: "use-cases-ai-operations-ai-front-office",
-        label: "AI Front-Office",
+        label: "AI Front Desk",
         items: [
           { href: "/use-cases/ai-operations/ai-front-desk", label: "AI Front Desk" },
-          { href: "/use-cases/ai-operations/ai-receptionist", label: "Intelligent Receptionist" },
-          { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
+          { href: "/use-cases/ai-operations/ai-receptionist", label: "AI Receptionist" },
+          { href: "/use-cases/ai-operations/ai-chatbot", label: "AI Chatbot" },
         ],
       },
       {
         id: "use-cases-ai-operations-data",
-        label: "AI Operations",
+        label: "Data",
         items: [
           { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
-          { href: "/tools/marketing/zapier", label: "Zapier" },
-          { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
         ],
       },
     ],
@@ -199,7 +197,7 @@ export const BLOG_MENU: readonly MenuDepartment[] = [
     categories: [
       {
         id: "blog-ai-operations-ai-front-office",
-        label: "AI Front-Office",
+        label: "AI Front Desk",
         items: [
           { href: "/blog/ai-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "Intelligent After-Hours Receptionist" },
           { href: "/blog/ai-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "Cross-Platform Chatbot Lead Capture" },
@@ -355,7 +353,7 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
     categories: [
       {
         id: "tools-ai-operations-ai-front-office",
-        label: "AI Front-Office",
+        label: "AI Front Desk",
         items: [
           { href: "/tools/ai-operations/cross-platform-chatbot/botpenguin", label: "BotPenguin" },
           { href: "/tools/ai-operations/cross-platform-chatbot/dapta", label: "Dapta (Cross-Platform Chatbot)" },
@@ -372,7 +370,7 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
       },
       {
         id: "tools-ai-operations-data",
-        label: "AI Operations Tools",
+        label: "Data",
         items: [
           { href: "/tools/ai-operations/data-quality-assessments/anomalo", label: "Anomalo" },
           { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },

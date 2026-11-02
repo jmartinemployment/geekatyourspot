@@ -950,7 +950,7 @@ export function UseCasesSection() {
                                     href="/use-cases/ai-operations/ai-front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                        AI Front-Office
+                                        AI Front Desk
                                     </h4>
                                 </Link>
                                 <p className="text-black text-xs text-shadow-xs">
@@ -2086,13 +2086,13 @@ export function UseCasesSection() {
                                     </h3>
                                 </Link>
                                 <p className="text-black text-sm shadow-text text-shadow-xs">
-                                    AI businessoperations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
+                                    AI business operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office-lg"
                                     href="/use-cases/ai-operations/ai-front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                        AI Front-Desk
+                                        AI Front Desk
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm text-shadow-xs">
