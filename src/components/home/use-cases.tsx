@@ -54,7 +54,7 @@ export function UseCasesSection() {
                                 </CardAction>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-black text-xs text-shadow">
+                                <p className="text-black text-xs text-shadow text-shadow-xs">
                                     AI accounting systems use machine learning and automation to handle bookkeeping, scan invoices, categorize transactions, and speed up financial reporting. These platforms reduce manual data entry and minimize human error.
                                 </p>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable"
@@ -63,7 +63,7 @@ export function UseCasesSection() {
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         AI AP Automation Software
                                     </h4>
-                                    <p className="text-black text-xs text-shadow">
+                                    <p className="text-black text-xs text-shadow text-shadow-xs">
                                         You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
                                     </p>
                                 </Link>
@@ -76,13 +76,13 @@ export function UseCasesSection() {
                                                 AI Document Processing:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Stop burning billable hours on manual data entry.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Data Entry Processing Tools:
                                         </h6>
-                                        <p className="text-black text-xs whitespace-nowrap">
+                                        <p className="text-black text-xs whitespace-nowrap text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/dext", "Dext")}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext"
@@ -118,12 +118,12 @@ export function UseCasesSection() {
                                                 AI Approval Workflow:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Approval Workflow Tools:
                                         </h6>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax", "ApprovalMax")}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax"
@@ -164,12 +164,12 @@ export function UseCasesSection() {
                                                 AI Automatic Bill Pay:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Control exactly how and when your cash moves, automatically.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Payment Execution Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio", "Melio")}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio"
@@ -210,13 +210,13 @@ export function UseCasesSection() {
                                                 AI Fraud &amp; Duplicate Payment Controls:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Stop financial leaks before they walk out the door.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Fraud & Duplicate Payment Controls Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius", "Medius")}
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius"
@@ -258,7 +258,7 @@ export function UseCasesSection() {
                                         AI Cash Flow Forecasting
                                     </h4>
                                 </Link>
-                                <p className="text-black text-xs">
+                                <p className="text-black text-xs text-shadow-xs">
                                     See around corners and never run out of cash.
                                 </p>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
@@ -270,12 +270,12 @@ export function UseCasesSection() {
                                                 AI Accounts Receivable Software:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Get paid faster without ever chasing a client again.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Accounts Receivable Tools:
                                         </h6>
-                                        <p className="text-xs ">
+                                        <p className="text-xs  text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq", "Chaserhq")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq"
@@ -318,13 +318,13 @@ export function UseCasesSection() {
                                                 AI Spreadsheet Data:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Turn static rows of cells into a dynamic, living business playbook.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Spreadsheet Replacement Tools:
                                         </h6>
-                                        <p className="text-xs ">
+                                        <p className="text-xs  text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog", "Cashflowfrog")}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
@@ -365,13 +365,13 @@ export function UseCasesSection() {
                                                 AI Financial Planning Software:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Get big-enterprise efficiency without the big-enterprise price tag.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Resource Planning Tools:
                                         </h6>
-                                        <p className="text-xs ">
+                                        <p className="text-xs  text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog", "Cashflowfrog")}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog"
@@ -412,7 +412,7 @@ export function UseCasesSection() {
                                         Tax Compliance & Regulations
                                     </h4>
                                 </Link>
-                                <p className="text-black text-xs ">
+                                <p className="text-black text-xs  text-shadow-xs">
                                     Turn tax season into just another Tuesday.
                                 </p>                                <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
@@ -423,13 +423,13 @@ export function UseCasesSection() {
                                                 AI Tax Law:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Stop guessing your way through complex tax codes.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Tax Law Tools:
                                         </h6>
-                                        <p className="text-xs ">
+                                        <p className="text-xs  text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "Quaderno")}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
@@ -470,13 +470,13 @@ export function UseCasesSection() {
                                                 AI Payroll Software:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Take the liability and absolute dread out of payroll administration.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Payroll Tax Tools:
                                         </h6>
-                                        <p className="text-xs ">
+                                        <p className="text-xs  text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp", "ADP")}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp"
@@ -517,13 +517,13 @@ export function UseCasesSection() {
                                                 AI Multi-State Sales Tax:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs ">
+                                        <p className="text-black text-xs  text-shadow-xs">
                                             Expand your market without inheriting a compliance nightmare.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top 5 Intelligent Multi-State Sales Tax Tools:
                                         </h6>
-                                        <p className="text-xs ">
+                                        <p className="text-xs  text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno", "Quaderno")}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno"
@@ -582,7 +582,7 @@ export function UseCasesSection() {
                                 </CardAction>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-black text-xs shadow-text">
+                                <p className="text-black text-xs shadow-text text-shadow-xs">
                                     It is for South Florida small business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                                 </p>
                                 <div>
@@ -590,7 +590,7 @@ export function UseCasesSection() {
                                         href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
                                             Marketing Automation Platforms (MAP)</h4>
-                                    </Link><p className="text-black text-xs">
+                                    </Link><p className="text-black text-xs text-shadow-xs">
                                         A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
                                     </p>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
@@ -603,13 +603,13 @@ export function UseCasesSection() {
                                                     AI Content Planning:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-xs">
+                                            <p className="text-black text-xs text-shadow-xs">
                                                 Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI Content Planning Tools:
                                             </h6>
-                                            <p className="text-xs">
+                                            <p className="text-xs text-shadow-xs">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "Hootsuite")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
@@ -651,13 +651,13 @@ export function UseCasesSection() {
                                                     AI SEO Content Generator:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-xs">
+                                            <p className="text-black text-xs text-shadow-xs">
                                                 Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI SEO Content Generation Tools:
                                             </h6>
-                                            <p className="text-xs">
+                                            <p className="text-xs text-shadow-xs">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative", "AdCreative")}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative"
@@ -747,13 +747,13 @@ export function UseCasesSection() {
                                                     AI Personalized Email Campaigns:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-xs">
+                                            <p className="text-black text-xs text-shadow-xs">
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI Email Campaign Tools:
                                             </h6>
-                                            <p className="text-xs">
+                                            <p className="text-xs text-shadow-xs">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", "ActiveCampaign")}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign"
@@ -801,13 +801,13 @@ export function UseCasesSection() {
                                                     AI Lead Enrichment &amp; Predictive Scoring:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-xs">
+                                            <p className="text-black text-xs text-shadow-xs">
                                                 Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI Lead Scoring Tools:
                                             </h6>
-                                            <p className="text-xs">
+                                            <p className="text-xs text-shadow-xs">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
@@ -853,13 +853,13 @@ export function UseCasesSection() {
                                                     Precision Lead Acquisition:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-xs">
+                                            <p className="text-black text-xs text-shadow-xs">
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top Precision Lead Acquisition Tools:
                                             </h6>
-                                            <p className="text-xs">
+                                            <p className="text-xs text-shadow-xs">
                                                 <Link
                                                     id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", "Performance Max")}
                                                     href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max"
@@ -943,7 +943,7 @@ export function UseCasesSection() {
                                 </CardAction>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-black text-xs text-shadow">
+                                <p className="text-black text-xs text-shadow text-shadow-xs">
                                     AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office"
@@ -953,7 +953,7 @@ export function UseCasesSection() {
                                         AI Front-Office
                                     </h4>
                                 </Link>
-                                <p className="text-black text-xs">
+                                <p className="text-black text-xs text-shadow-xs">
                                     Deploy AI-powered voice and chat systems that handle your front-line customer interactions around the clock.
                                 </p>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
@@ -966,13 +966,13 @@ export function UseCasesSection() {
                                                 AI Receptionist:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top Intelligent Receptionist Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/dapta", "Dapta")}
                                                 href="/tools/ai-operations/intelligent-receptionist/dapta"
@@ -1020,13 +1020,13 @@ export function UseCasesSection() {
                                                 AI Chatbot:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top AI Chatbot Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}
                                                 href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
@@ -1063,7 +1063,7 @@ export function UseCasesSection() {
                                 <h4 className="text-black text-base font-bold">
                                     Data
                                 </h4>
-                                <p className="text-black text-xs">
+                                <p className="text-black text-xs text-shadow-xs">
                                     The data layer powering your AI tools — validated, connected, and managed.
                                 </p>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
@@ -1076,13 +1076,13 @@ export function UseCasesSection() {
                                                 Data Quality Assessments:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top AI Data Quality Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}
                                                 href="/tools/ai-operations/data-quality-assessments/monte-carlo"
@@ -1113,13 +1113,13 @@ export function UseCasesSection() {
                                         <h5 className="text-black text-sm font-bold shadow-text">
                                             AI Workflows:
                                         </h5>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Automate data movement and workflow orchestration across your business systems without writing code.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top AI Workflow Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
                                                 href="/tools/marketing/zapier"
@@ -1137,13 +1137,13 @@ export function UseCasesSection() {
                                         <h5 className="text-black text-sm font-bold shadow-text">
                                             AI CRM:
                                         </h5>
-                                        <p className="text-black text-xs">
+                                        <p className="text-black text-xs text-shadow-xs">
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
                                             Top AI CRM Tools:
                                         </h6>
-                                        <p className="text-xs">
+                                        <p className="text-xs text-shadow-xs">
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                                 href="/tools/marketing/pipedrive"
@@ -1186,7 +1186,7 @@ export function UseCasesSection() {
                             height={256}
                             className="text-white mb-4"
                         />
-                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Accounting</p>
+                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text text-shadow-xs">Accounting</p>
 
                     </div>
                     <div className="col-span-6  min-h-screen">
@@ -1199,7 +1199,7 @@ export function UseCasesSection() {
                                         AI Accounting
                                     </h3>
                                 </Link>
-                                <p className="text-black text-sm shadow-text">
+                                <p className="text-black text-sm shadow-text text-shadow-xs">
                                     AI accounting systems use machine learning and automation to handle bookkeeping, scan invoices, categorize transactions, and speed up financial reporting. These platforms reduce manual data entry and minimize human error.
                                 </p>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable-lg"
@@ -1209,7 +1209,7 @@ export function UseCasesSection() {
                                         AI AP Automation Software
                                     </h4>
                                 </Link>
-                                <p className="text-black text-sm text-shadow">
+                                <p className="text-black text-sm text-shadow text-shadow-xs">
                                     You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
                                 </p>
 
@@ -1222,13 +1222,13 @@ export function UseCasesSection() {
                                                 AI Document Processing:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Stop burning billable hours on manual data entry.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Data Entry Processing Tools:
                                         </h6>
-                                        <p className="text-black text-sm whitespace-nowrap">
+                                        <p className="text-black text-sm whitespace-nowrap text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-data-entry-processing/dext", "Dext")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-data-entry-processing/dext"
@@ -1264,12 +1264,12 @@ export function UseCasesSection() {
                                                 AI Approval Workflow:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Approval Workflow Tools:
                                         </h6>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax", "ApprovalMax")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax"
@@ -1310,12 +1310,12 @@ export function UseCasesSection() {
                                                 AI Automatic Bill Pay:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Control exactly how and when your cash moves, automatically.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Payment Execution Tools:
                                         </h6>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio", "Melio")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio"
@@ -1356,13 +1356,13 @@ export function UseCasesSection() {
                                                 AI Fraud &amp; Duplicate Payment Controls:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Stop financial leaks before they walk out the door.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Fraud & Duplicate Payment Controls Tools:
                                         </h6>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius", "Medius")}-lg`}
                                                 href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius"
@@ -1404,7 +1404,7 @@ export function UseCasesSection() {
                                         AI Cash Flow Forecasting
                                     </h4>
                                 </Link>
-                                <p className="text-black text-sm ">
+                                <p className="text-black text-sm  text-shadow-xs">
                                     See around corners and never run out of cash.
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
@@ -1416,12 +1416,12 @@ export function UseCasesSection() {
                                                 AI Accounts Receivable Software:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Get paid faster without ever chasing a client again.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Accounts Receivable Tools:
                                         </h6>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq", "Chaserhq")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq"
@@ -1464,13 +1464,13 @@ export function UseCasesSection() {
                                                 AI Spreadsheet Data:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Turn static rows of cells into a dynamic, living business playbook.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Spreadsheet Replacement Tools:
                                         </h6>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog", "Cashflowfrog")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog"
@@ -1511,13 +1511,13 @@ export function UseCasesSection() {
                                                 AI Financial Planning Software:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Get big-enterprise efficiency without the big-enterprise price tag.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Resource Planning Tools:
                                         </h6>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog", "Cashflowfrog")}-lg`}
                                                 href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog"
@@ -1558,7 +1558,7 @@ export function UseCasesSection() {
                                         Tax Compliance & Regulations
                                     </h4>
                                 </Link>
-                                <p className="text-black text-sm ">
+                                <p className="text-black text-sm  text-shadow-xs">
                                     Turn tax season into just another Tuesday.
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
@@ -1570,13 +1570,13 @@ export function UseCasesSection() {
                                                 AI Tax Law:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Stop guessing your way through complex tax codes.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Tax Law Tools:
                                         </h6>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "Quaderno")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
@@ -1617,13 +1617,13 @@ export function UseCasesSection() {
                                                 AI Payroll Software:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Take the liability and absolute dread out of payroll administration.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Payroll Tax Tools:
                                         </h6>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp", "ADP")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp"
@@ -1664,13 +1664,13 @@ export function UseCasesSection() {
                                                 AI Multi-State Sales Tax:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             Expand your market without inheriting a compliance nightmare.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top 5 Intelligent Multi-State Sales Tax Tools:
                                         </h6>
-                                        <p className="text-black text-sm ">
+                                        <p className="text-black text-sm  text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno", "Quaderno")}-lg`}
                                                 href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno"
@@ -1717,7 +1717,7 @@ export function UseCasesSection() {
                                         AI Marketing Systems
                                     </h3>
                                 </Link>
-                                <p className="text-black text-sm shadow-text">
+                                <p className="text-black text-sm shadow-text text-shadow-xs">
                                     It is for South Florida small business owners who want practical AI to save time, improve lead follow-up, and make marketing more consistent.
                                 </p>
                                 <div>
@@ -1725,7 +1725,7 @@ export function UseCasesSection() {
                                         href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                             Marketing Automation Platforms (MAP)</h4>
-                                    </Link><p className="text-black text-sm">
+                                    </Link><p className="text-black text-sm text-shadow-xs">
                                         A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
                                     </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
@@ -1738,13 +1738,13 @@ export function UseCasesSection() {
                                                     AI Content Planning:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-sm">
+                                            <p className="text-black text-sm text-shadow-xs">
                                                 Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI Content Planning Tools:
                                             </h6>
-                                            <p className="text-sm">
+                                            <p className="text-sm text-shadow-xs">
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "Hootsuite")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
@@ -1786,13 +1786,13 @@ export function UseCasesSection() {
                                                     AI SEO Content Generator:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-sm">
+                                            <p className="text-black text-sm text-shadow-xs">
                                                 Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI SEO Content Generation Tools:
                                             </h6>
-                                            <p className="text-sm">
+                                            <p className="text-sm text-shadow-xs">
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative", "AdCreative")}-lg`}
                                                     href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative"
@@ -1882,13 +1882,13 @@ export function UseCasesSection() {
                                                     AI Personalized Email Campaigns:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-sm">
+                                            <p className="text-black text-sm text-shadow-xs">
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI Email Campaign Tools:
                                             </h6>
-                                            <p className="text-sm">
+                                            <p className="text-sm text-shadow-xs">
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", "ActiveCampaign")}-lg`}
                                                     href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign"
@@ -1936,13 +1936,13 @@ export function UseCasesSection() {
                                                     AI Lead Enrichment &amp; Predictive Scoring:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-sm">
+                                            <p className="text-black text-sm text-shadow-xs">
                                                 Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI Lead Scoring Tools:
                                             </h6>
-                                            <p className="text-sm">
+                                            <p className="text-sm text-shadow-xs">
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}-lg`}
                                                     href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
@@ -1988,13 +1988,13 @@ export function UseCasesSection() {
                                                     Precision Lead Acquisition:
                                                 </h5>
                                             </Link>
-                                            <p className="text-black text-sm">
+                                            <p className="text-black text-sm text-shadow-xs">
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top Precision Lead Acquisition Tools:
                                             </h6>
-                                            <p className="text-sm">
+                                            <p className="text-sm text-shadow-xs">
                                                 <Link
                                                     id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", "Performance Max")}-lg`}
                                                     href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max"
@@ -2063,7 +2063,7 @@ export function UseCasesSection() {
                             height={256}
                             className="text-white mb-4"
                         />
-                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Marketing</p>
+                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text text-shadow-xs">Marketing</p>
 
                     </div>
                     <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#8C4E2A]">
@@ -2073,7 +2073,7 @@ export function UseCasesSection() {
                             height={256}
                             className="text-white mb-4"
                         />
-                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Operations</p>
+                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text text-shadow-xs">Operations</p>
                     </div>
                     <div className="col-span-6">
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
@@ -2085,7 +2085,7 @@ export function UseCasesSection() {
                                         AI Business Operations
                                     </h3>
                                 </Link>
-                                <p className="text-black text-sm shadow-text">
+                                <p className="text-black text-sm shadow-text text-shadow-xs">
                                     AI businessoperations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office-lg"
@@ -2095,7 +2095,7 @@ export function UseCasesSection() {
                                         AI Front-Desk
                                     </h4>
                                 </Link>
-                                <p className="text-black text-sm">
+                                <p className="text-black text-sm text-shadow-xs">
                                     Deploy AI-powered voice and chat systems that handle your front-line customer interactions around the clock.
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
@@ -2108,13 +2108,13 @@ export function UseCasesSection() {
                                                 AI Receptionist:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top Intelligent Receptionist Tools:
                                         </h6>
-                                        <p className="text-sm">
+                                        <p className="text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/dapta", "Dapta")}-lg`}
                                                 href="/tools/ai-operations/intelligent-receptionist/dapta"
@@ -2162,13 +2162,13 @@ export function UseCasesSection() {
                                                 AI Chatbot:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top AI Chatbot Tools:
                                         </h6>
-                                        <p className="text-sm">
+                                        <p className="text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}-lg`}
                                                 href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
@@ -2205,7 +2205,7 @@ export function UseCasesSection() {
                                 <h4 className="text-black text-lg font-bold shadow-text">
                                     Data
                                 </h4>
-                                <p className="text-black text-sm">
+                                <p className="text-black text-sm text-shadow-xs">
                                     The data layer powering your AI tools — validated, connected, and managed.
                                 </p>
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
@@ -2218,13 +2218,13 @@ export function UseCasesSection() {
                                                 Data Quality Assessments:
                                             </h5>
                                         </Link>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top AI Data Quality Tools:
                                         </h6>
-                                        <p className="text-sm">
+                                        <p className="text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}-lg`}
                                                 href="/tools/ai-operations/data-quality-assessments/monte-carlo"
@@ -2255,13 +2255,13 @@ export function UseCasesSection() {
                                         <h5 className="text-black text-base font-bold shadow-text">
                                             AI Workflows:
                                         </h5>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Automate data movement and workflow orchestration across your business systems without writing code.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top AI Workflow Tools:
                                         </h6>
-                                        <p className="text-sm">
+                                        <p className="text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}-lg`}
                                                 href="/tools/marketing/zapier"
@@ -2279,13 +2279,13 @@ export function UseCasesSection() {
                                         <h5 className="text-black text-base font-bold shadow-text">
                                             AI CRM:
                                         </h5>
-                                        <p className="text-black text-sm">
+                                        <p className="text-black text-sm text-shadow-xs">
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
                                             Top AI CRM Tools:
                                         </h6>
-                                        <p className="text-sm">
+                                        <p className="text-sm text-shadow-xs">
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
                                                 href="/tools/marketing/pipedrive"
