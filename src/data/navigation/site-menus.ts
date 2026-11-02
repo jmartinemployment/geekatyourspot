@@ -99,18 +99,16 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         id: "use-cases-ai-operations-ai-front-office",
         label: "AI Front-Office",
         items: [
+          { href: "/use-cases/ai-operations/ai-front-desk", label: "AI Front Desk" },
           { href: "/use-cases/ai-operations/ai-receptionist", label: "Intelligent Receptionist" },
           { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
         ],
       },
       {
         id: "use-cases-ai-operations-data",
-        label: "Data",
+        label: "AI Operations",
         items: [
-          { href: "/tools/ai-operations/data-quality-assessments/anomalo", label: "Anomalo" },
-          { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },
-          { href: "/tools/ai-operations/data-quality-assessments/monte-carlo", label: "Monte Carlo" },
-          { href: "/tools/ai-operations/data-quality-assessments/qualytics", label: "Qualytics" },
+          { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
           { href: "/tools/marketing/zapier", label: "Zapier" },
           { href: "/tools/marketing/pipedrive", label: "Pipedrive" },
         ],
@@ -360,7 +358,8 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
         label: "AI Front-Office",
         items: [
           { href: "/tools/ai-operations/cross-platform-chatbot/botpenguin", label: "BotPenguin" },
-          { href: "/tools/ai-operations/cross-platform-chatbot/dapta", label: "Dapta" },
+          { href: "/tools/ai-operations/cross-platform-chatbot/dapta", label: "Dapta (Cross-Platform Chatbot)" },
+          { href: "/tools/ai-operations/intelligent-receptionist/dapta", label: "Dapta (Intelligent Receptionist)" },
           { href: "/tools/ai-operations/intelligent-receptionist/lobbystack", label: "LobbyStack" },
           { href: "/tools/ai-operations/cross-platform-chatbot/manychat", label: "Manychat" },
           { href: "/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", label: "My AI Front Desk (Cross-Platform Chatbot)" },
@@ -373,7 +372,7 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
       },
       {
         id: "tools-ai-operations-data",
-        label: "Data",
+        label: "AI Operations Tools",
         items: [
           { href: "/tools/ai-operations/data-quality-assessments/anomalo", label: "Anomalo" },
           { href: "/tools/ai-operations/data-quality-assessments/great-expectations", label: "Great Expectations" },

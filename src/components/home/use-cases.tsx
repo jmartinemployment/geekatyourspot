@@ -947,7 +947,7 @@ export function UseCasesSection() {
                                     AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office"
-                                    href="/use-cases/ai-operations"
+                                    href="/use-cases/ai-operations/ai-front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         AI Front-Office
@@ -973,6 +973,12 @@ export function UseCasesSection() {
                                             Top Intelligent Receptionist Tools:
                                         </h6>
                                         <p className="text-xs">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/dapta", "Dapta")}
+                                                href="/tools/ai-operations/intelligent-receptionist/dapta"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Dapta
+                                            </Link>,{" "}
                                             <Link
                                                 id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}
                                                 href="/tools/ai-operations/intelligent-receptionist/lobbystack"
@@ -2083,7 +2089,7 @@ export function UseCasesSection() {
                                     AI businessoperations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office-lg"
-                                    href="/use-cases/ai-operations"
+                                    href="/use-cases/ai-operations/ai-front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
                                         AI Front-Desk
@@ -2109,6 +2115,12 @@ export function UseCasesSection() {
                                             Top Intelligent Receptionist Tools:
                                         </h6>
                                         <p className="text-sm">
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/dapta", "Dapta")}-lg`}
+                                                href="/tools/ai-operations/intelligent-receptionist/dapta"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Dapta
+                                            </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}-lg`}
                                                 href="/tools/ai-operations/intelligent-receptionist/lobbystack"
