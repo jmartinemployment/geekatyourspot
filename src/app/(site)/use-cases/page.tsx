@@ -92,10 +92,10 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Intelligent Data Entry & Processing",
-        slug: "ai-document-processing",
+        slug: "automated-data-entry-processing",
         description:
           "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.",
-        href: "/use-cases/accounting/accounts-payable/ai-document-processing",
+        href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing",
       },
       {
         title: "Intelligent Approval Workflows",

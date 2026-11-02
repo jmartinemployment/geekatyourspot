@@ -62,7 +62,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         label: "Accounts Payable",
         items: [
           { href: "/use-cases/accounting/accounts-payable/ai-ap-automation-software", label: "Accounts Payable" },
-          { href: "/use-cases/accounting/accounts-payable/ai-document-processing", label: "Intelligent Data Entry & Processing" },
+          { href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing", label: "Intelligent Data Entry & Processing" },
           { href: "/use-cases/accounting/accounts-payable/ai-approval-workflow", label: "Intelligent Approval Workflows" },
           { href: "/use-cases/accounting/accounts-payable/ai-automatic-bill-pay", label: "Intelligent Payment Execution" },
           { href: "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls", label: "Intelligent Fraud & Duplicate Payment Controls" },
@@ -101,7 +101,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         items: [
           { href: "/use-cases/ai-operations/ai-front-desk", label: "AI Front Desk" },
           { href: "/use-cases/ai-operations/ai-receptionist", label: "AI Receptionist" },
-          { href: "/use-cases/ai-operations/ai-chatbot", label: "AI Chatbot" },
+          { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
         ],
       },
       {

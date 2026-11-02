@@ -12,10 +12,10 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Document Processing";
+const TITLE = "AI Data Entry & Processing";
 const DESCRIPTION =
     "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.";
-const CANONICAL = "/use-cases/accounting/accounts-payable/ai-document-processing";
+const CANONICAL = "/use-cases/accounting/accounts-payable/automated-data-entry-processing";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

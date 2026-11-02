@@ -18,7 +18,7 @@ export default function AccountsPayableSection() {
         data from receipts, bills, and invoices and categorizes it before it reaches the ledger. <Link id={`use-cases-accounting-accounts-payable-avid-de${idSuffix}`} href="/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange" className="text-[#0B162A] hover:underline">AvidXchange</Link> extracts,
         matches, and routes invoice data and connects to your existing accounting system. <Link id={`use-cases-accounting-accounts-payable-bill-de${idSuffix}`} href="/tools/accounting/accounts-payable/automated-data-entry-processing/bill" className="text-[#0B162A] hover:underline">Bill</Link> codes
         invoices with AI and passes them into approval workflows you configure. Each document is stored with
-        the entry it created, so an auditor can see the source behind every expense. Our <Link id={`use-cases-accounting-accounts-payable-p-de${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-document-processing" className="text-[#0B162A] hover:underline">Intelligent
+        the entry it created, so an auditor can see the source behind every expense. Our <Link id={`use-cases-accounting-accounts-payable-p-de${idSuffix}`} href="/use-cases/accounting/accounts-payable/automated-data-entry-processing" className="text-[#0B162A] hover:underline">Intelligent
         Data Entry &amp; Processing</Link> guide compares them in detail.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Approve: Clearing the Approval Bottleneck
