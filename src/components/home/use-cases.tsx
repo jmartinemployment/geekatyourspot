@@ -2052,7 +2052,7 @@ export function UseCasesSection() {
                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Marketing</p>
 
                     </div>
-                    <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#8C4E2A]">
+                    <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#0B162A]">
                         <FontAwesomeIcon
                             icon={faGears}
                             width={256}
