@@ -1139,7 +1139,12 @@ export function UseCasesSection() {
                                         Top AI CRM Tools:
                                     </h6>
                                     <p className="text-xs">
-                                        Pipedrive,{" "}
+                                        <Link
+                                            id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
+                                            href="/tools/marketing/pipedrive"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                            Pipedrive
+                                        </Link>,{" "}
                                         Bigin,{" "}
                                         HighLevel,{" "}
                                         HubSpot,{" "}
@@ -2271,7 +2276,12 @@ className="text-white mb-4"
                                         Top AI CRM Tools:
                                     </h6>
                                     <p className="text-sm">
-                                        Pipedrive,{" "}
+                                        <Link
+                                            id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
+                                            href="/tools/marketing/pipedrive"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                            Pipedrive
+                                        </Link>,{" "}
                                         Bigin,{" "}
                                         HighLevel,{" "}
                                         HubSpot,{" "}
