@@ -1135,7 +1135,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <h5 className="text-black text-sm font-bold shadow-text">
-                                            AI CRM:
+                                            AI Customer Relationship Management (CRM):
                                         </h5>
                                         <p className="text-black text-xs text-shadow-xs">
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
@@ -2277,7 +2277,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <h5 className="text-black text-base font-bold shadow-text">
-                                            AI CRM:
+                                            AI Customer Relationship Management (CRM):
                                         </h5>
                                         <p className="text-black text-sm text-shadow-xs">
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
