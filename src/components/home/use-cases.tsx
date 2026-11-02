@@ -1128,14 +1128,9 @@ export function UseCasesSection() {
                                     </p>
                                 </li>
                                 <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "AI CRM")}
-                                        href="/tools/marketing/pipedrive"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            AI CRM:
-                                        </h5>
-                                    </Link>
+                                    <h5 className="text-black text-sm font-bold shadow-text">
+                                        AI CRM:
+                                    </h5>
                                     <p className="text-black text-xs">
                                         Build and manage the customer data layer that powers your AI-driven sales and operations.
                                     </p>
@@ -2261,14 +2256,9 @@ className="text-white mb-4"
                                     </p>
                                 </li>
                                 <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "AI CRM")}-lg`}
-                                        href="/tools/marketing/pipedrive"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            AI CRM:
-                                        </h5>
-                                    </Link>
+                                    <h5 className="text-black text-base font-bold shadow-text">
+                                        AI CRM:
+                                    </h5>
                                     <p className="text-black text-sm">
                                         Build and manage the customer data layer that powers your AI-driven sales and operations.
                                     </p>
