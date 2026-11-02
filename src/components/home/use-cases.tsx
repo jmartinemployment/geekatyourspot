@@ -1062,14 +1062,9 @@ export function UseCasesSection() {
                             </p>
                             <ul className="list-disc text-xs text-black list- pl-3 ">
                                 <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Data Quality Assessments")}
-                                        href="/tools/ai-operations/data-quality-assessments/monte-carlo"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            Data Quality Assessments:
-                                        </h5>
-                                    </Link>
+                                    <h5 className="text-black text-sm font-bold shadow-text">
+                                        Data Quality Assessments:
+                                    </h5>
                                     <p className="text-black text-xs">
                                         Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                     </p>
@@ -1104,14 +1099,9 @@ export function UseCasesSection() {
                                     </p>
                                 </li>
                                 <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/tools/marketing/zapier", "AI Workflows")}
-                                        href="/tools/marketing/zapier"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            AI Workflows:
-                                        </h5>
-                                    </Link>
+                                    <h5 className="text-black text-sm font-bold shadow-text">
+                                        AI Workflows:
+                                    </h5>
                                     <p className="text-black text-xs">
                                         Automate data movement and workflow orchestration across your business systems without writing code.
                                     </p>
@@ -2190,14 +2180,9 @@ className="text-white mb-4"
                             </p>
                             <ul className="list-disc text-sm text-black list- pl-3 ">
                                 <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Data Quality Assessments")}-lg`}
-                                        href="/tools/ai-operations/data-quality-assessments/monte-carlo"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            Data Quality Assessments:
-                                        </h5>
-                                    </Link>
+                                    <h5 className="text-black text-base font-bold shadow-text">
+                                        Data Quality Assessments:
+                                    </h5>
                                     <p className="text-black text-sm">
                                         Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                     </p>
@@ -2232,14 +2217,9 @@ className="text-white mb-4"
                                     </p>
                                 </li>
                                 <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "AI Workflows")}-lg`}
-                                        href="/tools/marketing/zapier"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            AI Workflows:
-                                        </h5>
-                                    </Link>
+                                    <h5 className="text-black text-base font-bold shadow-text">
+                                        AI Workflows:
+                                    </h5>
                                     <p className="text-black text-sm">
                                         Automate data movement and workflow orchestration across your business systems without writing code.
                                     </p>
