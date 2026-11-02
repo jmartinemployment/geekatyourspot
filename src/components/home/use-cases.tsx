@@ -591,8 +591,8 @@ export function UseCasesSection() {
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
                                             Marketing Automation Platforms (MAP)</h4>
                                     </Link><p className="text-black text-xs">
-                                                A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
-                                            </p>
+                                        A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
+                                    </p>
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
@@ -921,244 +921,235 @@ export function UseCasesSection() {
                             </CardContent>
                         </Card>
                     </div>
-                <div className="col-span-full bg-[#CBCBCB] shadow-xl">
-                    <Card className="bg-[#CBCBCB] pt-0 shadow-xl gap-2">
-                        <CardHeader className="bg-[#0B162A] py-2">
-                            <CardTitle>
-                                <Link
-                                    id={gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}
-                                    href="/use-cases/ai-operations">
-                                    <h3 className="text-white text-3xl hover:text-[#C83803] font-bold shadow-text inline">
-                                        AI Operations
-                                    </h3>
+                    <div className="col-span-full bg-[#8C4E2A] shadow-xl">
+                        <Card className="bg-[#8C4E2A] pt-0 shadow-xl gap-2">
+                            <CardHeader className="bg-[#0B162A] py-2">
+                                <CardTitle>
+                                    <Link
+                                        id={gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}
+                                        href="/use-cases/ai-operations">
+                                        <h3 className="text-white text-3xl hover:text-[#C83803] font-bold shadow-text inline">
+                                            AI Operations
+                                        </h3>
+                                    </Link>
+                                </CardTitle>
+                                <CardAction>
+                                    <FontAwesomeIcon
+                                        icon={faGears}
+                                        width={36}
+                                        height={36}
+                                        className="text-white shadow-xl ml-55 mb-2 inline"
+                                    />
+                                </CardAction>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-black text-xs text-shadow">
+                                    AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
+                                </p>
+                                <Link id="home-use-cases-ai-operations-ai-front-office"
+                                    href="/use-cases/ai-operations"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-base hover:text-[#C83803] font-bold">
+                                        AI Front-Office
+                                    </h4>
                                 </Link>
-                            </CardTitle>
-                            <CardAction>
-                                <FontAwesomeIcon
-                                    icon={faGears}
-                                    width={36}
-                                    height={36}
-                                    className="text-white shadow-xl ml-55 mb-2 inline"
-                                />
-                            </CardAction>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-black text-xs text-shadow">
-                                AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
-                            </p>
-                            <Link id="home-use-cases-ai-operations-ai-front-office"
-                                href="/use-cases/ai-operations"
-                                className="hover:underline">
-                                <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                    AI Front-Office
-                                </h4>
-                            </Link>
-                            <p className="text-black text-xs">
-                                Deploy AI-powered voice and chat systems that handle your front-line customer interactions around the clock.
-                            </p>
-                            <ul className="list-disc text-xs text-black list- pl-3 ">
-                                <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/ai-operations/ai-receptionist", "Intelligent Receptionist")}
-                                        href="/use-cases/ai-operations/ai-receptionist"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            AI Receptionist:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-xs">
-                                        24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
-                                    </p>
-                                    <h6 className="text-black text-xs font-bold pt-1">
-                                        Top Intelligent Receptionist Tools:
-                                    </h6>
-                                    <p className="text-xs">
+                                <p className="text-black text-xs">
+                                    Deploy AI-powered voice and chat systems that handle your front-line customer interactions around the clock.
+                                </p>
+                                <ul className="list-disc text-xs text-black list- pl-3 ">
+                                    <li className="pl-.5">
                                         <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}
-                                            href="/tools/ai-operations/intelligent-receptionist/lobbystack"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            LobbyStack
-                                        </Link>,{" "}
+                                            id={gtmLinkIdFromHref("/use-cases/ai-operations/ai-receptionist", "Intelligent Receptionist")}
+                                            href="/use-cases/ai-operations/ai-receptionist"
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-sm font-bold shadow-text">
+                                                AI Receptionist:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-xs">
+                                            24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
+                                        </p>
+                                        <h6 className="text-black text-xs font-bold pt-1">
+                                            Top Intelligent Receptionist Tools:
+                                        </h6>
+                                        <p className="text-xs">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}
+                                                href="/tools/ai-operations/intelligent-receptionist/lobbystack"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                LobbyStack
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
+                                                href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                My AI Front Desk
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/nextiva", "Nextiva")}
+                                                href="/tools/ai-operations/intelligent-receptionist/nextiva"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Nextiva
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/smith", "Smith.ai")}
+                                                href="/tools/ai-operations/intelligent-receptionist/smith"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Smith.ai
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/voksha", "Voksha")}
+                                                href="/tools/ai-operations/intelligent-receptionist/voksha"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Voksha
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                    <li className="pl-.5">
                                         <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
-                                            href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            My AI Front Desk
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/nextiva", "Nextiva")}
-                                            href="/tools/ai-operations/intelligent-receptionist/nextiva"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Nextiva
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/smith", "Smith.ai")}
-                                            href="/tools/ai-operations/intelligent-receptionist/smith"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Smith.ai
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/voksha", "Voksha")}
-                                            href="/tools/ai-operations/intelligent-receptionist/voksha"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Voksha
-                                        </Link>,{" "}or{" "}
-                                        Dapta.
-                                    </p>
-                                </li>
-                                <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/ai-operations/ai-chatbot", "Cross-Platform Chatbot")}
-                                        href="/use-cases/ai-operations/ai-chatbot"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            AI Chatbot:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-xs">
-                                        Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
-                                    </p>
-                                    <h6 className="text-black text-xs font-bold pt-1">
-                                        Top AI Chatbot Tools:
-                                    </h6>
-                                    <p className="text-xs">
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}
-                                            href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            BotPenguin
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}
-                                            href="/tools/ai-operations/cross-platform-chatbot/dapta"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Dapta
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/manychat", "Manychat")}
-                                            href="/tools/ai-operations/cross-platform-chatbot/manychat"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Manychat
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
-                                            href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            My AI Front Desk
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/tidio", "Tidio")}
-                                            href="/tools/ai-operations/cross-platform-chatbot/tidio"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Tidio
-                                        </Link>.
-                                    </p>
-                                </li>
-                            </ul>
-                            <h4 className="text-black text-base font-bold">
-                                Data
-                            </h4>
-                            <p className="text-black text-xs">
-                                Manage and activate the data layer that powers your AI-driven business operations.
-                            </p>
-                            <ul className="list-disc text-xs text-black list- pl-3 ">
-                                <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/use-cases/ai-operations/data-quality-assessments", "Data Quality Assessments")}
-                                        href="/use-cases/ai-operations/data-quality-assessments"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            Data Quality Assessments:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-xs">
-                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
-                                    </p>
-                                    <h6 className="text-black text-xs font-bold pt-1">
-                                        Top AI Data Quality Tools:
-                                    </h6>
-                                    <p className="text-xs">
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}
-                                            href="/tools/ai-operations/data-quality-assessments/monte-carlo"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Monte Carlo
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}
-                                            href="/tools/ai-operations/data-quality-assessments/anomalo"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Anomalo
-                                        </Link>,{" "}
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}
-                                            href="/tools/ai-operations/data-quality-assessments/great-expectations"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Great Expectations
-                                        </Link>,{" "}or&nbsp;
-                                        <Link
-                                            id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}
-                                            href="/tools/ai-operations/data-quality-assessments/qualytics"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Qualytics
-                                        </Link>.
-                                    </p>
-                                </li>
-                                <li className="pl-.5">
-                                    <h5 className="text-black text-sm font-bold shadow-text">
-                                        AI Workflows:
-                                    </h5>
-                                    <p className="text-black text-xs">
-                                        Automate data movement and workflow orchestration across your business systems without writing code.
-                                    </p>
-                                    <h6 className="text-black text-xs font-bold pt-1">
-                                        Top AI Workflow Tools:
-                                    </h6>
-                                    <p className="text-xs">
+                                            id={gtmLinkIdFromHref("/use-cases/ai-operations/ai-chatbot", "Cross-Platform Chatbot")}
+                                            href="/use-cases/ai-operations/ai-chatbot"
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-sm font-bold shadow-text">
+                                                AI Chatbot:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-xs">
+                                            Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
+                                        </p>
+                                        <h6 className="text-black text-xs font-bold pt-1">
+                                            Top AI Chatbot Tools:
+                                        </h6>
+                                        <p className="text-xs">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}
+                                                href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                BotPenguin
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}
+                                                href="/tools/ai-operations/cross-platform-chatbot/dapta"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Dapta
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/manychat", "Manychat")}
+                                                href="/tools/ai-operations/cross-platform-chatbot/manychat"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Manychat
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
+                                                href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                My AI Front Desk
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/tidio", "Tidio")}
+                                                href="/tools/ai-operations/cross-platform-chatbot/tidio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Tidio
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <Link id="home-use-cases-ai-operations-ai-data-pipeline"
+                                    href="/tools/marketing/zapier"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-base hover:text-[#C83803] font-bold">
+                                        AI Data Pipeline
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-xs">
+                                    Automate data movement and workflow orchestration across your business systems without writing code.
+                                </p>
+                                <ul className="list-disc text-xs text-black list- pl-3 ">
+                                    <li className="pl-.5">
                                         <Link
                                             id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
                                             href="/tools/marketing/zapier"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Zapier
-                                        </Link>,{" "}
-                                        n8n,{" "}
-                                        Make,{" "}
-                                        CrewAI &amp; CrewAI Studio,{" "}
-                                        LangGraph,{" "}or{" "}
-                                        Bardeen.ai.
-                                    </p>
-                                </li>
-                                <li className="pl-.5">
-                                    <h5 className="text-black text-sm font-bold shadow-text">
-                                        AI CRM:
-                                    </h5>
-                                    <p className="text-black text-xs">
-                                        Build and manage the customer data layer that powers your AI-driven sales and operations.
-                                    </p>
-                                    <h6 className="text-black text-xs font-bold pt-1">
-                                        Top AI CRM Tools:
-                                    </h6>
-                                    <p className="text-xs">
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-sm font-bold shadow-text">
+                                                Zapier:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-xs">
+                                            Connect your apps and automate workflows with no-code integrations.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <Link id="home-use-cases-ai-operations-data-quality-assessments"
+                                    href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-base hover:text-[#C83803] font-bold">
+                                        Data Quality Assessments
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-xs">
+                                    Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                </p>
+                                <ul className="list-disc text-xs text-black list- pl-3 ">
+                                    <li className="pl-.5">
+                                        <h6 className="text-black text-xs font-bold pt-1">
+                                            Top AI Data Quality Tools:
+                                        </h6>
+                                        <p className="text-xs">
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}
+                                                href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Monte Carlo
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}
+                                                href="/tools/ai-operations/data-quality-assessments/anomalo"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Anomalo
+                                            </Link>,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}
+                                                href="/tools/ai-operations/data-quality-assessments/great-expectations"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Great Expectations
+                                            </Link>,{" "}or&nbsp;
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}
+                                                href="/tools/ai-operations/data-quality-assessments/qualytics"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Qualytics
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <Link id="home-use-cases-ai-operations-ai-data-infrastructure"
+                                    href="/tools/marketing/pipedrive"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-base hover:text-[#C83803] font-bold">
+                                        AI Data Infrastructure
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-xs">
+                                    Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                </p>
+                                <ul className="list-disc text-xs text-black list- pl-3 ">
+                                    <li className="pl-.5">
                                         <Link
                                             id={gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}
                                             href="/tools/marketing/pipedrive"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Pipedrive
-                                        </Link>,{" "}
-                                        Bigin,{" "}
-                                        HighLevel,{" "}
-                                        HubSpot,{" "}
-                                        Keap,{" "}
-                                        Monday,{" "}
-                                        Streak,{" "}
-                                        Zoho,{" "}or{" "}
-                                        Insightly.
-                                    </p>
-                                </li>
-                            </ul>
-                        </CardContent>
-                    </Card>
-                </div>
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-sm font-bold shadow-text">
+                                                Pipedrive:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-xs">
+                                            Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </article>
 
@@ -1721,8 +1712,8 @@ export function UseCasesSection() {
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                             Marketing Automation Platforms (MAP)</h4>
                                     </Link><p className="text-black text-sm">
-                                                A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
-                                            </p>
+                                        A software solution designed to automate, streamline, and measure repetitive marketing tasks, multi-channel campaigns, and customer workflows at scale.
+                                    </p>
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
@@ -2061,241 +2052,232 @@ export function UseCasesSection() {
                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Marketing</p>
 
                     </div>
-                <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#023059]">
-<FontAwesomeIcon
-icon={faGears}
-width={256}
-height={256}
-className="text-white mb-4"
-/>
-<p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Operations</p>
-</div>
-                <div className="col-span-6">
-                    <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
-                        <CardContent>
-                            <Link
-                                id={`${gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}-lg`}
-                                href="/use-cases/ai-operations">
-                                <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
-                                    AI Operations
-                                </h3>
-                            </Link>
-                            <p className="text-black text-sm shadow-text">
-                                AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
-                            </p>
-                            <Link id="home-use-cases-ai-operations-ai-front-office-lg"
-                                href="/use-cases/ai-operations"
-                                className="hover:underline">
-                                <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                    AI Front-Office
-                                </h4>
-                            </Link>
-                            <p className="text-black text-sm">
-                                Deploy AI-powered voice and chat systems that handle your front-line customer interactions around the clock.
-                            </p>
-                            <ul className="list-disc text-sm text-black list- pl-3 ">
-                                <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/use-cases/ai-operations/ai-receptionist", "Intelligent Receptionist")}-lg`}
-                                        href="/use-cases/ai-operations/ai-receptionist"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            AI Receptionist:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-sm">
-                                        24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
-                                    </p>
-                                    <h6 className="text-black text-sm font-bold pt-1">
-                                        Top Intelligent Receptionist Tools:
-                                    </h6>
-                                    <p className="text-sm">
+                    <div className="col-span-6 min-h-screen flex flex-col items-center justify-center bg-[#8C4E2A]">
+                        <FontAwesomeIcon
+                            icon={faGears}
+                            width={256}
+                            height={256}
+                            className="text-white mb-4"
+                        />
+                        <p className="text-white font-bold text-3xl leading-[0.95] shadow-text">Operations</p>
+                    </div>
+                    <div className="col-span-6">
+                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
+                            <CardContent>
+                                <Link
+                                    id={`${gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}-lg`}
+                                    href="/use-cases/ai-operations">
+                                    <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
+                                        AI Business Operations
+                                    </h3>
+                                </Link>
+                                <p className="text-black text-sm shadow-text">
+                                    AI businessoperations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
+                                </p>
+                                <Link id="home-use-cases-ai-operations-ai-front-office-lg"
+                                    href="/use-cases/ai-operations"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
+                                        AI Front-Desk
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-sm">
+                                    Deploy AI-powered voice and chat systems that handle your front-line customer interactions around the clock.
+                                </p>
+                                <ul className="list-disc text-sm text-black list- pl-3 ">
+                                    <li className="pl-.5">
                                         <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}-lg`}
-                                            href="/tools/ai-operations/intelligent-receptionist/lobbystack"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            LobbyStack
-                                        </Link>,{" "}
+                                            id={`${gtmLinkIdFromHref("/use-cases/ai-operations/ai-receptionist", "Intelligent Receptionist")}-lg`}
+                                            href="/use-cases/ai-operations/ai-receptionist"
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-base font-bold shadow-text">
+                                                AI Receptionist:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-sm">
+                                            24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
+                                        </p>
+                                        <h6 className="text-black text-sm font-bold pt-1">
+                                            Top Intelligent Receptionist Tools:
+                                        </h6>
+                                        <p className="text-sm">
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}-lg`}
+                                                href="/tools/ai-operations/intelligent-receptionist/lobbystack"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                LobbyStack
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
+                                                href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                My AI Front Desk
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/nextiva", "Nextiva")}-lg`}
+                                                href="/tools/ai-operations/intelligent-receptionist/nextiva"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Nextiva
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/smith", "Smith.ai")}-lg`}
+                                                href="/tools/ai-operations/intelligent-receptionist/smith"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Smith.ai
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/voksha", "Voksha")}-lg`}
+                                                href="/tools/ai-operations/intelligent-receptionist/voksha"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Voksha
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                    <li className="pl-.5">
                                         <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
-                                            href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            My AI Front Desk
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/nextiva", "Nextiva")}-lg`}
-                                            href="/tools/ai-operations/intelligent-receptionist/nextiva"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Nextiva
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/smith", "Smith.ai")}-lg`}
-                                            href="/tools/ai-operations/intelligent-receptionist/smith"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Smith.ai
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/voksha", "Voksha")}-lg`}
-                                            href="/tools/ai-operations/intelligent-receptionist/voksha"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Voksha
-                                        </Link>,{" "}or{" "}
-                                        Dapta.
-                                    </p>
-                                </li>
-                                <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/use-cases/ai-operations/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
-                                        href="/use-cases/ai-operations/ai-chatbot"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            AI Chatbot:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-sm">
-                                        Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
-                                    </p>
-                                    <h6 className="text-black text-sm font-bold pt-1">
-                                        Top AI Chatbot Tools:
-                                    </h6>
-                                    <p className="text-sm">
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}-lg`}
-                                            href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            BotPenguin
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}-lg`}
-                                            href="/tools/ai-operations/cross-platform-chatbot/dapta"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Dapta
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/manychat", "Manychat")}-lg`}
-                                            href="/tools/ai-operations/cross-platform-chatbot/manychat"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Manychat
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
-                                            href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            My AI Front Desk
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/tidio", "Tidio")}-lg`}
-                                            href="/tools/ai-operations/cross-platform-chatbot/tidio"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
-                                            Tidio
-                                        </Link>.
-                                    </p>
-                                </li>
-                            </ul>
-                            <h4 className="text-black text-lg font-bold shadow-text">
-                                Data
-                            </h4>
-                            <p className="text-black text-sm">
-                                Manage and activate the data layer that powers your AI-driven business operations.
-                            </p>
-                            <ul className="list-disc text-sm text-black list- pl-3 ">
-                                <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/use-cases/ai-operations/data-quality-assessments", "Data Quality Assessments")}-lg`}
-                                        href="/use-cases/ai-operations/data-quality-assessments"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            Data Quality Assessments:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-sm">
-                                        Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
-                                    </p>
-                                    <h6 className="text-black text-sm font-bold pt-1">
-                                        Top AI Data Quality Tools:
-                                    </h6>
-                                    <p className="text-sm">
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}-lg`}
-                                            href="/tools/ai-operations/data-quality-assessments/monte-carlo"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Monte Carlo
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}-lg`}
-                                            href="/tools/ai-operations/data-quality-assessments/anomalo"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Anomalo
-                                        </Link>,{" "}
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}-lg`}
-                                            href="/tools/ai-operations/data-quality-assessments/great-expectations"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Great Expectations
-                                        </Link>,{" "}or&nbsp;
-                                        <Link
-                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}-lg`}
-                                            href="/tools/ai-operations/data-quality-assessments/qualytics"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Qualytics
-                                        </Link>.
-                                    </p>
-                                </li>
-                                <li className="pl-.5">
-                                    <h5 className="text-black text-base font-bold shadow-text">
-                                        AI Workflows:
-                                    </h5>
-                                    <p className="text-black text-sm">
-                                        Automate data movement and workflow orchestration across your business systems without writing code.
-                                    </p>
-                                    <h6 className="text-black text-sm font-bold pt-1">
-                                        Top AI Workflow Tools:
-                                    </h6>
-                                    <p className="text-sm">
+                                            id={`${gtmLinkIdFromHref("/use-cases/ai-operations/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
+                                            href="/use-cases/ai-operations/ai-chatbot"
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-base font-bold shadow-text">
+                                                AI Chatbot:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-sm">
+                                            Deploys on WhatsApp, Facebook Messenger, Instagram, and websites seamlessly.
+                                        </p>
+                                        <h6 className="text-black text-sm font-bold pt-1">
+                                            Top AI Chatbot Tools:
+                                        </h6>
+                                        <p className="text-sm">
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}-lg`}
+                                                href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                BotPenguin
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}-lg`}
+                                                href="/tools/ai-operations/cross-platform-chatbot/dapta"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Dapta
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/manychat", "Manychat")}-lg`}
+                                                href="/tools/ai-operations/cross-platform-chatbot/manychat"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Manychat
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
+                                                href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                My AI Front Desk
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/tidio", "Tidio")}-lg`}
+                                                href="/tools/ai-operations/cross-platform-chatbot/tidio"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Tidio
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <Link id="home-use-cases-ai-operations-ai-data-pipeline-lg"
+                                    href="/tools/marketing/zapier"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
+                                        AI Data Pipeline
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-sm">
+                                    Automate data movement and workflow orchestration across your business systems without writing code.
+                                </p>
+                                <ul className="list-disc text-sm text-black list- pl-3 ">
+                                    <li className="pl-.5">
                                         <Link
                                             id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}-lg`}
                                             href="/tools/marketing/zapier"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Zapier
-                                        </Link>,{" "}
-                                        n8n,{" "}
-                                        Make,{" "}
-                                        CrewAI &amp; CrewAI Studio,{" "}
-                                        LangGraph,{" "}or{" "}
-                                        Bardeen.ai.
-                                    </p>
-                                </li>
-                                <li className="pl-.5">
-                                    <h5 className="text-black text-base font-bold shadow-text">
-                                        AI CRM:
-                                    </h5>
-                                    <p className="text-black text-sm">
-                                        Build and manage the customer data layer that powers your AI-driven sales and operations.
-                                    </p>
-                                    <h6 className="text-black text-sm font-bold pt-1">
-                                        Top AI CRM Tools:
-                                    </h6>
-                                    <p className="text-sm">
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-base font-bold shadow-text">
+                                                Zapier:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-sm">
+                                            Connect your apps and automate workflows with no-code integrations.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <Link id="home-use-cases-ai-operations-data-quality-assessments-lg"
+                                    href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
+                                        Data Quality Assessments
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-sm">
+                                    Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
+                                </p>
+                                <ul className="list-disc text-sm text-black list- pl-3 ">
+                                    <li className="pl-.5">
+                                        <h6 className="text-black text-sm font-bold pt-1">
+                                            Top AI Data Quality Tools:
+                                        </h6>
+                                        <p className="text-sm">
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}-lg`}
+                                                href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Monte Carlo
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}-lg`}
+                                                href="/tools/ai-operations/data-quality-assessments/anomalo"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Anomalo
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}-lg`}
+                                                href="/tools/ai-operations/data-quality-assessments/great-expectations"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Great Expectations
+                                            </Link>,{" "}or&nbsp;
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}-lg`}
+                                                href="/tools/ai-operations/data-quality-assessments/qualytics"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                Qualytics
+                                            </Link>.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <Link id="home-use-cases-ai-operations-ai-data-infrastructure-lg"
+                                    href="/tools/marketing/pipedrive"
+                                    className="hover:underline">
+                                    <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
+                                        AI Data Infrastructure
+                                    </h4>
+                                </Link>
+                                <p className="text-black text-sm">
+                                    Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                </p>
+                                <ul className="list-disc text-sm text-black list- pl-3 ">
+                                    <li className="pl-.5">
                                         <Link
                                             id={`${gtmLinkIdFromHref("/tools/marketing/pipedrive", "Pipedrive")}-lg`}
                                             href="/tools/marketing/pipedrive"
-                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
-                                            Pipedrive
-                                        </Link>,{" "}
-                                        Bigin,{" "}
-                                        HighLevel,{" "}
-                                        HubSpot,{" "}
-                                        Keap,{" "}
-                                        Monday,{" "}
-                                        Streak,{" "}
-                                        Zoho,{" "}or{" "}
-                                        Insightly.
-                                    </p>
-                                </li>
-                            </ul>
-                        </CardContent>
-                    </Card>
-                </div>
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-base font-bold shadow-text">
+                                                Pipedrive:
+                                            </h5>
+                                        </Link>
+                                        <p className="text-black text-sm">
+                                            Build and manage the customer data layer that powers your AI-driven sales and operations.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </article>
 
