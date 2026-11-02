@@ -1119,7 +1119,12 @@ export function UseCasesSection() {
                                             href="/tools/marketing/zapier"
                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                             Zapier
-                                        </Link>.
+                                        </Link>,{" "}
+                                        n8n,{" "}
+                                        Make,{" "}
+                                        CrewAI &amp; CrewAI Studio,{" "}
+                                        LangGraph,{" "}or{" "}
+                                        Bardeen.ai.
                                     </p>
                                 </li>
                                 <li className="pl-.5">
@@ -2242,7 +2247,12 @@ className="text-white mb-4"
                                             href="/tools/marketing/zapier"
                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                             Zapier
-                                        </Link>.
+                                        </Link>,{" "}
+                                        n8n,{" "}
+                                        Make,{" "}
+                                        CrewAI &amp; CrewAI Studio,{" "}
+                                        LangGraph,{" "}or{" "}
+                                        Bardeen.ai.
                                     </p>
                                 </li>
                                 <li className="pl-.5">
