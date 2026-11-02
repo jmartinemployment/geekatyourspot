@@ -1054,13 +1054,9 @@ export function UseCasesSection() {
                                     </p>
                                 </li>
                             </ul>
-                            <Link id="home-use-cases-ai-operations-data"
-                                href="/tools/ai-operations/data-quality-assessments/monte-carlo"
-                                className="hover:underline">
-                                <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                    Data
-                                </h4>
-                            </Link>
+                            <h4 className="text-black text-base font-bold">
+                                Data
+                            </h4>
                             <p className="text-black text-xs">
                                 Manage and activate the data layer that powers your AI-driven business operations.
                             </p>
@@ -2191,13 +2187,9 @@ className="text-white mb-4"
                                     </p>
                                 </li>
                             </ul>
-                            <Link id="home-use-cases-ai-operations-data-lg"
-                                href="/tools/ai-operations/data-quality-assessments/monte-carlo"
-                                className="hover:underline">
-                                <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                    Data
-                                </h4>
-                            </Link>
+                            <h4 className="text-black text-lg font-bold shadow-text">
+                                Data
+                            </h4>
                             <p className="text-black text-sm">
                                 Manage and activate the data layer that powers your AI-driven business operations.
                             </p>
