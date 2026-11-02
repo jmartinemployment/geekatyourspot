@@ -45,3 +45,4 @@ mcp.json
 
 # content pipeline scratch output (not app source)
 content-writer-research/
+.scannerwork/
