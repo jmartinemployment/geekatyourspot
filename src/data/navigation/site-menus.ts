@@ -104,13 +104,6 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         ],
       },
       {
-        id: "use-cases-ai-operations-ai-data-pipeline",
-        label: "AI Data Pipeline",
-        items: [
-          { href: "/tools/marketing/zapier", label: "Zapier" },
-        ],
-      },
-      {
         id: "use-cases-ai-operations-data",
         label: "Data",
         items: [
@@ -376,13 +369,6 @@ export const TOOLS_MENU: readonly MenuDepartment[] = [
           { href: "/tools/ai-operations/intelligent-receptionist/smith", label: "Smith.ai" },
           { href: "/tools/ai-operations/cross-platform-chatbot/tidio", label: "Tidio" },
           { href: "/tools/ai-operations/intelligent-receptionist/voksha", label: "Voksha" },
-        ],
-      },
-      {
-        id: "tools-ai-operations-ai-data-pipeline",
-        label: "AI Data Pipeline",
-        items: [
-          { href: "/tools/marketing/zapier", label: "Zapier" },
         ],
       },
       {

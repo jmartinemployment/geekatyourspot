@@ -1054,31 +1054,6 @@ export function UseCasesSection() {
                                     </p>
                                 </li>
                             </ul>
-                            <Link id="home-use-cases-ai-operations-ai-data-pipeline"
-                                href="/tools/marketing/zapier"
-                                className="hover:underline">
-                                <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                    AI Data Pipeline
-                                </h4>
-                            </Link>
-                            <p className="text-black text-xs">
-                                Automate data movement and workflow orchestration across your business systems without writing code.
-                            </p>
-                            <ul className="list-disc text-xs text-black list- pl-3 ">
-                                <li className="pl-.5">
-                                    <Link
-                                        id={gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}
-                                        href="/tools/marketing/zapier"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            Zapier:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-xs">
-                                        Connect your apps and automate workflows with no-code integrations.
-                                    </p>
-                                </li>
-                            </ul>
                             <Link id="home-use-cases-ai-operations-data"
                                 href="/tools/ai-operations/data-quality-assessments/monte-carlo"
                                 className="hover:underline">
@@ -2213,31 +2188,6 @@ className="text-white mb-4"
                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                             Tidio
                                         </Link>.
-                                    </p>
-                                </li>
-                            </ul>
-                            <Link id="home-use-cases-ai-operations-ai-data-pipeline-lg"
-                                href="/tools/marketing/zapier"
-                                className="hover:underline">
-                                <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                    AI Data Pipeline
-                                </h4>
-                            </Link>
-                            <p className="text-black text-sm">
-                                Automate data movement and workflow orchestration across your business systems without writing code.
-                            </p>
-                            <ul className="list-disc text-sm text-black list- pl-3 ">
-                                <li className="pl-.5">
-                                    <Link
-                                        id={`${gtmLinkIdFromHref("/tools/marketing/zapier", "Zapier")}-lg`}
-                                        href="/tools/marketing/zapier"
-                                        className="hover:text-[#C83803] text-[#000000] hover:underline">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            Zapier:
-                                        </h5>
-                                    </Link>
-                                    <p className="text-black text-sm">
-                                        Connect your apps and automate workflows with no-code integrations.
                                     </p>
                                 </li>
                             </ul>
