@@ -3,7 +3,7 @@ import type { GlossaryTerm } from "@/types/glossary";
 /**
  * The glossary corpus, exported from GeekAPI on 2026-09-28 and served from here.
  *
- * 356 terms: five accounting terms were added on 2026-10-22, 20 advertising terms on 2026-10-24, 32 advertising terms on 2026-10-25 and 25 email marketing terms on 2026-10-26, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
+ * 357 terms: five accounting terms were added on 2026-10-22, 20 advertising terms on 2026-10-24, 32 advertising terms on 2026-10-25, 25 email marketing terms on 2026-10-26 and REST API on 2026-11-02, to the same schema. On 2026-10-20 every term was rewritten to one schema: a
  * definition of one or two sentences, one whyItMatters sentence and one
  * systemsContext sentence. The rewrite merged the six terms that had two
  * definitions into one and dropped the 35 usage examples. Categories are the
@@ -3531,6 +3531,20 @@ export const GLOSSARY_TERMS: readonly GlossaryTerm[] = [
     ],
     whyItMatters: "It turns a chat into structured lead capture, collecting contact details in a consistent format that sales and booking systems can use without manual cleanup.",
     systemsContext: "Chatbot builders pair it with validation rules and conditional nodes, and an integration or webhook typically pushes the captured variables into a CRM, email list or calendar tool.",
+  },
+  {
+    title: "REST API",
+    slug: "rest-api",
+    category: "Technology",
+    shortSummary: "The most common style of web API, in which each kind of record has its own web address and is read or changed with standard HTTP requests.",
+    definitions: [
+      {
+        partOfSpeech: "noun",
+        text: "A REST API, short for representational state transfer API, is an API that gives each kind of record, such as a customer, an invoice or an order, its own web address and lets another system read, create, update or delete it with the standard HTTP methods GET, POST, PUT, PATCH and DELETE. Every request carries everything the server needs to answer it, so the server keeps no memory of earlier calls, and the answer usually comes back as JSON.",
+      },
+    ],
+    whyItMatters: "Most of the business software a small business already pays for offers a REST API, so connecting one tool to another is usually a matter of credentials and field mapping rather than custom development.",
+    systemsContext: "REST APIs run over HTTPS, authenticate each call with API keys or OAuth tokens, often cap how many calls a caller can make per minute, and are what API integration platforms and webhooks build on when they move data between systems.",
   },
   {
     title: "Retargeting",
