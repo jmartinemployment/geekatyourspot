@@ -1002,6 +1002,12 @@ export function UseCasesSection() {
                                             href="/tools/ai-operations/intelligent-receptionist/voksha"
                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                             Voksha
+                                        </Link>,{" "}or{" "}
+                                        <Link
+                                            id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}
+                                            href="/tools/ai-operations/cross-platform-chatbot/dapta"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                            Dapta
                                         </Link>.
                                     </p>
                                 </li>
@@ -2133,6 +2139,12 @@ className="text-white mb-4"
                                             href="/tools/ai-operations/intelligent-receptionist/voksha"
                                             className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                             Voksha
+                                        </Link>,{" "}or{" "}
+                                        <Link
+                                            id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}-lg`}
+                                            href="/tools/ai-operations/cross-platform-chatbot/dapta"
+                                            className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                            Dapta
                                         </Link>.
                                     </p>
                                 </li>
