@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/overview-section";
-import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/challenges-section";
-import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/transforms-section";
-import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/how-it-works-section";
-import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/architecture-section";
-import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/implementing-section";
-import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/data-mapping-section";
-import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/configuring-section";
-import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/evaluating-section";
-import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/comparing-section";
-import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/right-fit-section";
-import FaqSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask/faq-section";
+import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/overview-section";
+import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/challenges-section";
+import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/transforms-section";
+import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/how-it-works-section";
+import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/architecture-section";
+import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/implementing-section";
+import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/data-mapping-section";
+import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/configuring-section";
+import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/evaluating-section";
+import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/comparing-section";
+import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/right-fit-section";
+import FaqSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -21,7 +21,7 @@ const TITLE = "Wask";
 const PAGE_TITLE = "Wask for Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Wask gives Miami small businesses real-time control, cutting wasted ad budget by up to 30 percent. Take charge today.";
-const CANONICAL = "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask";
+const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

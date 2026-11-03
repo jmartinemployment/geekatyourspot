@@ -22,14 +22,14 @@ export default function MechanicsSection() {
         Next, the system assesses your <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
         quality</GlossaryLink>. This is where most manual approaches fall apart. If your Google Analytics is not
         tracking form fills, or your Facebook pixel is missing, you are working blind. Automated validation tools
-        check every data source for accuracy and coverage before anything launches. Platforms like <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-plai${idSuffix}`} href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai" className="text-[#0B162A] hover:underline">Plai</Link> handle
+        check every data source for accuracy and coverage before anything launches. Platforms like <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-plai${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai" className="text-[#0B162A] hover:underline">Plai</Link> handle
         conversion pixel setup across Google, Meta, and even your <GlossaryLink slug="landing-page" className="text-[#0B162A] hover:underline">landing
         page</GlossaryLink>, so every lead is captured, not just the ones that happen to fill your main form. No
         more “mystery clicks” or lost leads, every action is tracked, and every dollar is accounted for.</p>
       <p className="text-base text-white shadow-text pt-3">
         With your data solid, the system moves to tech selection and architecture. At this stage, the focus shifts
-        to putting the right AI in the right place. <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-google-performance-max${idSuffix}`} href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max" className="text-[#0B162A] hover:underline">Google
-        Performance Max</Link> and <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-localiq${idSuffix}`} href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq" className="text-[#0B162A] hover:underline">LocaliQ</Link> both
+        to putting the right AI in the right place. <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-google-performance-max${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max" className="text-[#0B162A] hover:underline">Google
+        Performance Max</Link> and <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-localiq${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq" className="text-[#0B162A] hover:underline">LocaliQ</Link> both
         bring native, automated controls to your ad accounts, acting as a 24/7 guardrail. Google Performance Max,
         for example, watches your Google and Meta budgets in real time, shifting spend between search, maps, and
         social as the conversion data comes in. If Miami Google search volume spikes one afternoon, your budget
@@ -50,7 +50,7 @@ export default function MechanicsSection() {
         rates</GlossaryLink> and instantly rotates in fresh assets, no more running the same banner for months
         because you forgot to check the dashboard.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-adzooma${idSuffix}`} href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma" className="text-[#0B162A] hover:underline">Adzooma</Link> centralizes
+        <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-adzooma${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma" className="text-[#0B162A] hover:underline">Adzooma</Link> centralizes
         your campaign management so you never miss a dead budget or let an outdated offer run over the weekend. It
         scans Google, Meta, and Microsoft Ads in one view, flags underperforming campaigns, and serves up one-click
         fixes for everything from budget pacing errors to network settings that quietly drain your spend. Plai ties

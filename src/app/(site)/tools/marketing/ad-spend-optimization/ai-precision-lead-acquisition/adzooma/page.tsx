@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/overview-section";
-import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/challenges-section";
-import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/transforms-section";
-import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/how-it-works-section";
-import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/architecture-section";
-import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/implementing-section";
-import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/data-mapping-section";
-import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/configuring-section";
-import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/evaluating-section";
-import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/comparing-section";
-import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/right-fit-section";
-import FaqSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/faq-section";
+import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/overview-section";
+import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/challenges-section";
+import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/transforms-section";
+import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/how-it-works-section";
+import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/architecture-section";
+import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/implementing-section";
+import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/data-mapping-section";
+import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/configuring-section";
+import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/evaluating-section";
+import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/comparing-section";
+import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/right-fit-section";
+import FaqSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -21,7 +21,7 @@ const TITLE = "Adzooma";
 const PAGE_TITLE = "Adzooma for Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Adzooma helps South Florida small businesses cut wasted budget and improve campaign results. See where your money works best.";
-const CANONICAL = "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma";
+const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

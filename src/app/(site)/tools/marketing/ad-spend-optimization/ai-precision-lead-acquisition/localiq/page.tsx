@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/overview-section";
-import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/challenges-section";
-import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/transforms-section";
-import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/how-it-works-section";
-import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/architecture-section";
-import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/implementing-section";
-import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/data-mapping-section";
-import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/configuring-section";
-import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/evaluating-section";
-import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/comparing-section";
-import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/right-fit-section";
-import FaqSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/faq-section";
+import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/overview-section";
+import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/challenges-section";
+import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/transforms-section";
+import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/how-it-works-section";
+import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/architecture-section";
+import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/implementing-section";
+import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/data-mapping-section";
+import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/configuring-section";
+import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/evaluating-section";
+import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/comparing-section";
+import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/right-fit-section";
+import FaqSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -21,7 +21,7 @@ const TITLE = "LocaliQ";
 const PAGE_TITLE = "LocaliQ for Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with LocaliQ links every ad dollar to sales, reducing wasted spend for South Florida small businesses. See results, adjust smarter.";
-const CANONICAL = "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq";
+const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

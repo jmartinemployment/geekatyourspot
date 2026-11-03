@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const optmyzrContent: ToolPageContent = {
   "title": "Optmyzr",
   "slug": "optmyzr",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with Optmyzr links your ad budget to sales, automates waste checks, and helps small businesses in South Florida cut wasted spend fast.",
   "heroSummary":

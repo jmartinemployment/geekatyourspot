@@ -861,56 +861,56 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", "Performance Max")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max", "Performance Max")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma", "Adzooma")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma", "Adzooma")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Adzooma
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir", "Bir")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir", "Bir")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Bir
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly", "Cometly")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly", "Cometly")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Cometly
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq", "LocaliQ")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq", "LocaliQ")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LocaliQ
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr", "Optmyzr")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr", "Optmyzr")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Optmyzr
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai", "Plai")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai", "Plai")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Plai
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale", "Triplewhale")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale", "Triplewhale")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Triplewhale
                                                 </Link>,{" "}or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask", "Wask")}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask", "Wask")}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Wask
                                                 </Link>.
@@ -1996,56 +1996,56 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max", "Performance Max")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max", "Performance Max")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Performance Max
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma", "Adzooma")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma", "Adzooma")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Adzooma
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir", "Bir")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir", "Bir")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Bir
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly", "Cometly")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly", "Cometly")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Cometly
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq", "LocaliQ")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq", "LocaliQ")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     LocaliQ
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr", "Optmyzr")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr", "Optmyzr")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Optmyzr
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai", "Plai")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai", "Plai")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Plai
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale", "Triplewhale")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale", "Triplewhale")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Triplewhale
                                                 </Link>,{" "}or&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask", "Wask")}-lg`}
-                                                    href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/wask"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask", "Wask")}-lg`}
+                                                    href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Wask
                                                 </Link>.

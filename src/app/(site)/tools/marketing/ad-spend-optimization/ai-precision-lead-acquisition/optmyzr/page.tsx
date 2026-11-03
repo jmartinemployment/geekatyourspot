@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/overview-section";
-import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/challenges-section";
-import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/transforms-section";
-import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/how-it-works-section";
-import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/architecture-section";
-import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/implementing-section";
-import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/data-mapping-section";
-import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/configuring-section";
-import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/evaluating-section";
-import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/comparing-section";
-import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/right-fit-section";
-import FaqSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr/faq-section";
+import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/overview-section";
+import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/challenges-section";
+import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/transforms-section";
+import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/how-it-works-section";
+import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/architecture-section";
+import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/implementing-section";
+import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/data-mapping-section";
+import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/configuring-section";
+import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/evaluating-section";
+import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/comparing-section";
+import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/right-fit-section";
+import FaqSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -21,7 +21,7 @@ const TITLE = "Optmyzr";
 const PAGE_TITLE = "Optmyzr for Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Optmyzr links your ad budget to sales, automates waste checks, and helps small businesses in South Florida cut wasted spend fast.";
-const CANONICAL = "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/optmyzr";
+const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

@@ -4,7 +4,7 @@ export const adobeMixModelerContent: ToolPageContent = {
   "title": "Adobe Mix Modeler",
   "slug": "adobe-mix-modeler",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
   "heroSummary": "Achieve superior ad spend optimization with Adobe Mix Modeler, utilizing machine learning for precision and efficiency.",
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
@@ -20,7 +20,7 @@ export const adobeMixModelerContent: ToolPageContent = {
     "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://geekatyourspot.com/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler"
+      "@id": "https://geekatyourspot.com/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler"
     },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {

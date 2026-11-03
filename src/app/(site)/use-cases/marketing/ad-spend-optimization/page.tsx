@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from '@/components/use-cases/marketing/automated-ad-spend-optimization/lede-section'
-import DynamicCreativeOptimizationSection from '@/components/use-cases/marketing/automated-ad-spend-optimization/dynamic-creative-optimization-section'
-import AutomatedRulesBiddingSection from '@/components/use-cases/marketing/automated-ad-spend-optimization/automated-rules-bidding-section'
-import RealTimeBudgetReallocationSection from '@/components/use-cases/marketing/automated-ad-spend-optimization/real-time-budget-reallocation-section'
-import DataQualityAssessmentsSection from '@/components/use-cases/marketing/automated-ad-spend-optimization/data-quality-assessments-section'
-import DataValidationCleaningSection from '@/components/use-cases/marketing/automated-ad-spend-optimization/data-validation-cleaning-section'
-import PAASection from '@/components/use-cases/marketing/automated-ad-spend-optimization/paa-section'
+import LedeSection from '@/components/use-cases/marketing/ad-spend-optimization/lede-section'
+import DynamicCreativeOptimizationSection from '@/components/use-cases/marketing/ad-spend-optimization/dynamic-creative-optimization-section'
+import AutomatedRulesBiddingSection from '@/components/use-cases/marketing/ad-spend-optimization/automated-rules-bidding-section'
+import RealTimeBudgetReallocationSection from '@/components/use-cases/marketing/ad-spend-optimization/real-time-budget-reallocation-section'
+import DataQualityAssessmentsSection from '@/components/use-cases/marketing/ad-spend-optimization/data-quality-assessments-section'
+import DataValidationCleaningSection from '@/components/use-cases/marketing/ad-spend-optimization/data-validation-cleaning-section'
+import PAASection from '@/components/use-cases/marketing/ad-spend-optimization/paa-section'
 
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
@@ -30,7 +30,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-08-20T18:52:37.9006976Z",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
+                "@id": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization"
             },
             "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
             "wordCount": 3309,
@@ -68,12 +68,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/use-cases/marketing/automated-ad-spend-optimization',
+            canonical: '/use-cases/marketing/ad-spend-optimization',
         },
         openGraph: {
             title: "Automated Ad Spend Optimization",
             description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
-            url: 'https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization',
+            url: 'https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',

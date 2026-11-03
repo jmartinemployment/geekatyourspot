@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/overview-section";
-import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/challenges-section";
-import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/transforms-section";
-import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/how-it-works-section";
-import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/architecture-section";
-import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/implementing-section";
-import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/data-mapping-section";
-import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/configuring-section";
-import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/evaluating-section";
-import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/comparing-section";
-import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/right-fit-section";
-import FaqSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/faq-section";
+import OverviewSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/overview-section";
+import ChallengesSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/challenges-section";
+import TransformsSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/transforms-section";
+import HowItWorksSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/how-it-works-section";
+import ArchitectureSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/architecture-section";
+import ImplementingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/implementing-section";
+import DataMappingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/data-mapping-section";
+import ConfiguringSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/configuring-section";
+import EvaluatingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/evaluating-section";
+import ComparingSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/comparing-section";
+import RightFitSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/right-fit-section";
+import FaqSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/faq-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -21,7 +21,7 @@ const TITLE = "Triplewhale";
 const PAGE_TITLE = "Triplewhale for Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Triplewhale reveals which ads drive real revenue for Miami small businesses, cutting wasted spend by up to 40 percent. Get clarity now.";
-const CANONICAL = "/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale";
+const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

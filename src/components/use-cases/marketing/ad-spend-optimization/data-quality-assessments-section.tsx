@@ -58,7 +58,7 @@ export default function DataQualityAssessmentsSection() {
         Data anomalies can lead to incorrect assumptions and flawed marketing strategies. Identifying and addressing these
         anomalies is essential for maintaining the accuracy of ad spend optimization efforts. Platforms like&nbsp;
         <Link id={`automated-ad-spend-optimization-dq-adobe-mix-modeler${idSuffix}`}
-        href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler" className="text-[#0B162A] font-bold hover:underline">
+        href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler" className="text-[#0B162A] font-bold hover:underline">
         Adobe Mix Modeler
       </Link>&nbsp;offer advanced capabilities for anomaly detection, allowing marketers to refine their strategies based
         on accurate data insights.</p>

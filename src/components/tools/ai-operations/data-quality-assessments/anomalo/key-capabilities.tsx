@@ -17,7 +17,7 @@ export default function KeyCapabilitiesSection() {
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows
                   businesses to detect issues before they impact marketing campaigns, ensuring that data-driven decisions are
                   based on accurate information.</li>
-                <li>Flexible Integration: Anomalo integrates with various data platforms, including&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-adobe-mix-modeler" href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler" className="text-[#C83803] hover:underline">Adobe Mix Modeler</Link>&nbsp;and Basis
+                <li>Flexible Integration: Anomalo integrates with various data platforms, including&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-adobe-mix-modeler" href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler" className="text-[#C83803] hover:underline">Adobe Mix Modeler</Link>&nbsp;and Basis
                   Technologies. This flexibility ensures that businesses can maintain data quality across all their tools,
                   enhancing the effectiveness of their ad spend optimization efforts.</li>
                 <li>Root Cause Analysis: When anomalies are detected, Anomalo provides detailed insights into the root causes.
@@ -49,7 +49,7 @@ export default function KeyCapabilitiesSection() {
                 <li>Automated Data Monitoring: Anomalo continuously monitors datasets for anomalies. This capability allows
                   businesses to detect issues before they impact marketing campaigns, ensuring that data-driven decisions are
                   based on accurate information.</li>
-                <li>Flexible Integration: Anomalo integrates with various data platforms, including&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-adobe-mix-modeler-lg" href="/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler" className="text-[#C83803] hover:underline">Adobe Mix Modeler</Link>&nbsp;and Basis
+                <li>Flexible Integration: Anomalo integrates with various data platforms, including&nbsp;<Link id="tools-marketing-anomalo-key-capabilities-adobe-mix-modeler-lg" href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler" className="text-[#C83803] hover:underline">Adobe Mix Modeler</Link>&nbsp;and Basis
                   Technologies. This flexibility ensures that businesses can maintain data quality across all their tools,
                   enhancing the effectiveness of their ad spend optimization efforts.</li>
                 <li>Root Cause Analysis: When anomalies are detected, Anomalo provides detailed insights into the root causes.

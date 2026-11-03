@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/localiq/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const localiqContent: ToolPageContent = {
   "title": "LocaliQ",
   "slug": "localiq",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with LocaliQ links every ad dollar to sales, reducing wasted spend for South Florida small businesses. See results, adjust smarter.",
   "heroSummary":

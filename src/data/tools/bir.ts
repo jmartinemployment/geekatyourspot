@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/bir/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const birContent: ToolPageContent = {
   "title": "Bir",
   "slug": "bir",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with Bir cuts wasted budget by automating ad controls and reallocating spend in real time. Start optimizing your campaigns today.",
   "heroSummary":

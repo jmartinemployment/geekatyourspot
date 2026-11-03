@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/google-performance-max/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const googlePerformanceMaxContent: ToolPageContent = {
   "title": "Performance Max",
   "slug": "google-performance-max",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Budget Ad Copy & Message Validation helps South Florida small businesses cut wasted ad spend by up to $16 daily. Protect your budget, test smarter now.",
   "heroSummary":

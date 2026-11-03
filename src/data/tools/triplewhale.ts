@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/triplewhale/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const triplewhaleContent: ToolPageContent = {
   "title": "Triplewhale",
   "slug": "triplewhale",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with Triplewhale reveals which ads drive real revenue for Miami small businesses, cutting wasted spend by up to 40 percent. Get clarity now.",
   "heroSummary":

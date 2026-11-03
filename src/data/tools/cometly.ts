@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/cometly/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const cometlyContent: ToolPageContent = {
   "title": "Cometly",
   "slug": "cometly",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with Cometly lets small South Florida businesses see which ads drive sales, not just clicks. Start making every dollar count.",
   "heroSummary":

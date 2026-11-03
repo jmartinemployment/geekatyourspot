@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/plai/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const plaiContent: ToolPageContent = {
   "title": "Plai",
   "slug": "plai",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with Plai gives small businesses in South Florida real-time clarity and better ROI by automating budget shifts. Get results now.",
   "heroSummary":

@@ -218,7 +218,7 @@ const DEPARTMENTS: Department[] = [
         slug: "automated-ad-spend-optimization",
         description:
           "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
-        href: "/use-cases/marketing/automated-ad-spend-optimization",
+        href: "/use-cases/marketing/ad-spend-optimization",
       },
       {
         title: "Precision Lead Acquisition",

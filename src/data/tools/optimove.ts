@@ -9,7 +9,7 @@ export const optimoveContent: ToolPageContent = {
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
   "datePublished": "2026-08-20T18:34:37.7765563Z",
   "dateModified": "2026-08-20T18:34:37.7765563Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Optimove",
@@ -24,7 +24,7 @@ export const optimoveContent: ToolPageContent = {
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
       "@type": "Article",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization"
+      "@id": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization"
     }
   },
   "sections": [

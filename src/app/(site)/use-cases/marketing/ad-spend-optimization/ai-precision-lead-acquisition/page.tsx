@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-30T11:33:57.5597280Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Precision Lead Acquisition, Ad Spend Optimization, AI advertising tools, predictive analytics for ads, local business marketing AI, Cometly, Triplewhale, Wask, Plai, Optmyzr, AI ad spend solutions",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/automated-ad-spend-optimization" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization" },
             "mentions": [
                 { "@type": "Thing", "name": "Adzooma", "url": "https://www.adzooma.com/" },
                 { "@type": "Thing", "name": "Bir", "url": "https://bir.ch/" },

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
-import OverviewToolSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler/overview-section";
-import KeyCapabilitiesSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler/key-capabilities";
-import ImplementationSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler/implementation-section";
-import WhenToUseSection from "@/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler/when-to-use-section";
+import OverviewToolSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler/overview-section";
+import KeyCapabilitiesSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler/key-capabilities";
+import ImplementationSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler/implementation-section";
+import WhenToUseSection from "@/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler/when-to-use-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -14,7 +14,7 @@ const jsonLd: WithContext<TechArticle> = {
     "@type": "TechArticle",
     "headline": "Adobe Mix Modeler for Automated Ad Spend Optimization",
     "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler" },
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
@@ -37,12 +37,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
         publisher: 'Geek @ Your Spot LLC',
         metadataBase: new URL('https://geekatyourspot.com'),
         alternates: {
-            canonical: '/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler',
+            canonical: '/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler',
         },
         openGraph: {
             title: "Adobe Mix Modeler for Automated Ad Spend Optimization",
             description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-            url: 'https://geekatyourspot.com/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adobe-mix-modeler',
+            url: 'https://geekatyourspot.com/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
             type: 'website',

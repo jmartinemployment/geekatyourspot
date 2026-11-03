@@ -29,7 +29,7 @@ export default function RightFitSection() {
         timing: you know companies are visiting your site, but sales never hears about it until it is too
         late. These tools surface the exact companies on your site, which pages they viewed, and when they
         showed up, so your team can act before interest goes cold. If you are running targeted digital
-        campaigns but cannot see which clicks turn into real pipeline, Factors connects the dots, tying&nbsp;<Link id={`use-cases-marketing-lead-enrichment-right-fit-automated-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/automated-ad-spend-optimization" className="text-[#0B162A] hover:underline">ad spend</Link>&nbsp;to closed revenue and flagging which accounts are heating up now.</p>
+        campaigns but cannot see which clicks turn into real pipeline, Factors connects the dots, tying&nbsp;<Link id={`use-cases-marketing-lead-enrichment-right-fit-automated-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization" className="text-[#0B162A] hover:underline">ad spend</Link>&nbsp;to closed revenue and flagging which accounts are heating up now.</p>
       <p className="text-base text-white shadow-text pt-3">
         On the other hand, if your business is still figuring out product-market fit, or if the only visitors
         to your website are competitors and job seekers, this is not the moment to invest in predictive

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/ad-spend-optimization/precision-lead-acquisition/adzooma/`
+ * `src/components/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const adzoomaContent: ToolPageContent = {
   "title": "Adzooma",
   "slug": "adzooma",
   "department": "marketing",
-  "useCase": "ad-spend-optimization/precision-lead-acquisition",
+  "useCase": "ad-spend-optimization/ai-precision-lead-acquisition",
   "description":
     "Ad Spend Optimization with Adzooma helps South Florida small businesses cut wasted budget and improve campaign results. See where your money works best.",
   "heroSummary":
