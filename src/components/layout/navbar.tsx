@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLightbulb, faNewspaper, faToolbox } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb, faNewspaper, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { gtmClickId, gtmLinkId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
 import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
 import {
@@ -26,7 +26,7 @@ type MenuSection = Readonly<{
 /** The columns of a department's panel, alphabetical. Comparisons goes between Blog and Tools once it has pages. */
 const SECTIONS: readonly MenuSection[] = [
   { key: "blog", label: "Blog", icon: faNewspaper, menu: BLOG_MENU },
-  { key: "tools", label: "Tools", icon: faToolbox, menu: TOOLS_MENU },
+  { key: "tools", label: "Tools", icon: faScrewdriverWrench, menu: TOOLS_MENU },
   { key: "use-cases", label: "Use Cases", icon: faLightbulb, menu: USE_CASES_MENU },
 ];
 
